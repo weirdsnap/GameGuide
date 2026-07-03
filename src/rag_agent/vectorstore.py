@@ -86,7 +86,19 @@ def build_vectorstore(docs: Optional[List[Document]] = None, save_dir: str = VEC
 
 
 def load_vectorstore(save_dir: str = VECTORSTORE_DIR) -> FAISS:
-    """加载已有向量库（支持离线生成的索引）。"""
+    """加载已有向量库（封装缓存版本）。"""
+    return _load_vectorstore(save_dir)
+
+
+def get_retriever(save_dir: str = VECTORSTORE_DIR, k: int = 4):
+    """获取检索器。"""
+    vectorstore = load_vectorstore(save_dir)
+    return vectorstore.as_retriever(search_kwargs={"k": k})
+from functools import lru_cache
+@lru_cache(maxsize=1)
+def _load_vectorstore(save_dir: str = VECTORSTORE_DIR) -> FAISS:
+    """加载已有向量库（支持离线生成的索引）。\n    使用 @lru_cache 避免多次加载。
+    """
     index_path = Path(save_dir) / "index.faiss"
     if not index_path.exists():
         raise FileNotFoundError(f"向量库不存在：{save_dir}")
@@ -98,7 +110,3 @@ def load_vectorstore(save_dir: str = VECTORSTORE_DIR) -> FAISS:
     return vectorstore
 
 
-def get_retriever(save_dir: str = VECTORSTORE_DIR, k: int = 4):
-    """获取检索器。"""
-    vectorstore = load_vectorstore(save_dir)
-    return vectorstore.as_retriever(search_kwargs={"k": k})
