@@ -1,0 +1,21 @@
+{
+  "slug": "cyclone-slash",
+  "name": "Cyclone Slash",
+  "game": "hk",
+  "kind": "nail-art",
+  "effect": "Whirl the nail in a damaging spinning attack.",
+  "description": "Hold the nail button while standing still to spin in place, hitting all sides repeatedly. Strong against tightly packed enemies.",
+  "acquisition": "Taught by Nailmaster Mato in the Howling Cliffs.",
+  "area": {
+    "slug": "howling-cliffs",
+    "name": "Howling Cliffs"
+  },
+  "summary": "Spinning AoE nail art. Taught by Mato.",
+  "verified": false,
+  "wikiSlug": "Cyclone_Slash",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Cyclone_Slash"
+  ],
+  "_slug": "cyclone-slash",
+  "_type": "skills"
+}

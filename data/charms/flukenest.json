@@ -1,0 +1,28 @@
+{
+  "slug": "flukenest",
+  "name": "Flukenest",
+  "game": "hk",
+  "notchCost": 3,
+  "inventoryOrder": 24,
+  "effect": "Replaces Vengeful Spirit with a swarm of flukes.",
+  "description": "Transforms the projectile spells into homing fluke larvae. Damage drops nominally but skyrockets when combined with Defender's Crest.",
+  "area": {
+    "slug": "royal-waterways",
+    "name": "Royal Waterways"
+  },
+  "acquisition": "boss",
+  "location": "Royal Waterways — reward for defeating Flukemarm in her hidden chamber.",
+  "synergies": [
+    "defenders-crest",
+    "shaman-stone",
+    "spell-twister"
+  ],
+  "summary": "Flukenest swaps your fireball for homing flukes. Synergizes hard with Defender's Crest.",
+  "verified": false,
+  "wikiSlug": "Flukenest",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Flukenest"
+  ],
+  "_slug": "flukenest",
+  "_type": "charms"
+}

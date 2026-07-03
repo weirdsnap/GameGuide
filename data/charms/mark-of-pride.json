@@ -1,0 +1,28 @@
+{
+  "slug": "mark-of-pride",
+  "name": "Mark of Pride",
+  "game": "hk",
+  "notchCost": 3,
+  "inventoryOrder": 20,
+  "effect": "Increases the range of the Knight's nail even further.",
+  "description": "+25% nail range, the largest single-charm reach buff. Stacks additively with Longnail.",
+  "area": {
+    "slug": "fungal-wastes",
+    "name": "Fungal Wastes"
+  },
+  "acquisition": "boss",
+  "location": "Mantis Village — earned by defeating the Mantis Lords and being honored by the tribe.",
+  "synergies": [
+    "longnail",
+    "grubberflys-elegy",
+    "quick-slash"
+  ],
+  "summary": "+25% nail range. Granted by the Mantis Lords.",
+  "verified": false,
+  "wikiSlug": "Mark_of_Pride",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Mark_of_Pride"
+  ],
+  "_slug": "mark-of-pride",
+  "_type": "charms"
+}

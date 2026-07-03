@@ -1,0 +1,21 @@
+{
+  "slug": "snail-shaman",
+  "name": "Snail Shaman",
+  "game": "hk",
+  "kind": "npc",
+  "role": "Shaman of the Spirits",
+  "area": {
+    "slug": "ancestral-mound",
+    "name": "Ancestral Mound"
+  },
+  "location": "Inside the Ancestral Mound, beyond the Soul-cracked door.",
+  "summary": "Last of the Snail Shamans, keeper of soul rituals from before the Pale King's age.",
+  "description": "Hands the Knight Howling Wraiths and points the way to the Shaman Stone charm in his crypt below. His clan is also responsible for the Spell Twister and Soul Eater charms.",
+  "verified": false,
+  "wikiSlug": "Snail_Shaman",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Snail_Shaman"
+  ],
+  "_slug": "snail-shaman",
+  "_type": "characters"
+}

@@ -1,0 +1,1948 @@
+[
+  {
+    "slug": "absolute-radiance",
+    "name": "Absolute Radiance",
+    "game": "hk",
+    "optional": true,
+    "hp": {
+      "base": 2200
+    },
+    "geo": 0,
+    "area": {
+      "slug": "godhome",
+      "name": "Godhome"
+    },
+    "phases": [
+      {
+        "name": "Sword orbits + sun beam"
+      },
+      {
+        "name": "Light spear barrage"
+      },
+      {
+        "name": "Pillar ascent"
+      },
+      {
+        "name": "Final platforming gauntlet"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Tracking sword orbit"
+      },
+      {
+        "name": "Spike floor"
+      },
+      {
+        "name": "Light spear waves"
+      },
+      {
+        "name": "Sun beam"
+      }
+    ],
+    "rewards": [
+      "Embrace the Void ending"
+    ],
+    "music": {
+      "title": "Radiance",
+      "spotifyTrackId": "1ygjvLVwydBF164HQsv2QD"
+    },
+    "summary": "The hardest fight in Hollow Knight. The Radiance at full power, locked behind the Pantheon of Hallownest. Pure rhythm and pattern memorisation.",
+    "verified": false,
+    "wikiSlug": "Absolute_Radiance",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Absolute_Radiance"
+    ],
+    "_slug": "absolute-radiance",
+    "_type": "bosses"
+  },
+  {
+    "slug": "broken-vessel",
+    "name": "Broken Vessel",
+    "game": "hk",
+    "optional": false,
+    "hp": {
+      "base": 500
+    },
+    "geo": 0,
+    "area": {
+      "slug": "ancient-basin",
+      "name": "Ancient Basin"
+    },
+    "attacks": [
+      {
+        "name": "Slam"
+      },
+      {
+        "name": "Infection burst",
+        "description": "Shoots upward bursts of orange infection."
+      },
+      {
+        "name": "Triple jump"
+      }
+    ],
+    "rewards": [
+      "Monarch Wings"
+    ],
+    "music": {
+      "title": "Broken Vessel",
+      "spotifyTrackId": "7Epsqwic0O9yfbf0ll0z9w"
+    },
+    "summary": "A failed sibling of the Knight, animated by the Infection. Awkward and lurching, with telegraphed slams and a final burst phase. Rewards the double jump.",
+    "verified": false,
+    "wikiSlug": "Broken_Vessel",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Broken_Vessel"
+    ],
+    "_slug": "broken-vessel",
+    "_type": "bosses"
+  },
+  {
+    "slug": "brooding-mawlek",
+    "name": "Brooding Mawlek",
+    "game": "hk",
+    "optional": true,
+    "hp": {
+      "base": 200
+    },
+    "geo": 100,
+    "area": {
+      "slug": "forgotten-crossroads",
+      "name": "Forgotten Crossroads"
+    },
+    "attacks": [
+      {
+        "name": "Acid spit"
+      },
+      {
+        "name": "Pounce"
+      },
+      {
+        "name": "Triple infection spray"
+      }
+    ],
+    "rewards": [
+      "Mask Shard"
+    ],
+    "summary": "A hidden mawlek matron lurking beneath the Forgotten Crossroads. Slow but heavy-hitting. Easy to bait into ceiling attacks if you stay near the walls.",
+    "verified": false,
+    "wikiSlug": "Brooding_Mawlek",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Brooding_Mawlek"
+    ],
+    "_slug": "brooding-mawlek",
+    "_type": "bosses"
+  },
+  {
+    "slug": "brothers-oro-and-mato",
+    "name": "Brothers Oro & Mato",
+    "game": "hk",
+    "optional": true,
+    "hp": {
+      "base": 950
+    },
+    "geo": 0,
+    "area": {
+      "slug": "godhome",
+      "name": "Godhome"
+    },
+    "attacks": [
+      {
+        "name": "Synchronised dash slash"
+      },
+      {
+        "name": "Brother pillar"
+      },
+      {
+        "name": "Cross slash"
+      }
+    ],
+    "summary": "Godhome reunion of the estranged nail masters Oro and Mato, fighting as a duo. Their attacks alternate and overlap, forcing the player to track two threats at once.",
+    "verified": false,
+    "wikiSlug": "Brothers Oro & Mato",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Brothers_Oro_%26_Mato"
+    ],
+    "_slug": "brothers-oro-and-mato",
+    "_type": "bosses"
+  },
+  {
+    "slug": "collector",
+    "name": "The Collector",
+    "game": "hk",
+    "optional": true,
+    "hp": {
+      "base": 250
+    },
+    "geo": 0,
+    "area": {
+      "slug": "city-of-tears",
+      "name": "City of Tears"
+    },
+    "attacks": [
+      {
+        "name": "Jar drop",
+        "description": "Throws jars containing Hallownest creatures."
+      },
+      {
+        "name": "Long jump"
+      },
+      {
+        "name": "Crawl"
+      }
+    ],
+    "rewards": [
+      "Collector's Map",
+      "Access to all Grub locations"
+    ],
+    "summary": "A strange, grinning collector hoarding jars filled with Hallownest's creatures. Found at the top of the Tower of Love. Beating him gives you the Collector's Map.",
+    "verified": false,
+    "wikiSlug": "Collector",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Collector"
+    ],
+    "_slug": "collector",
+    "_type": "bosses"
+  },
+  {
+    "slug": "crystal-guardian",
+    "name": "Crystal Guardian",
+    "game": "hk",
+    "optional": true,
+    "hp": {
+      "base": 280
+    },
+    "geo": 60,
+    "area": {
+      "slug": "crystal-peak",
+      "name": "Crystal Peak"
+    },
+    "attacks": [
+      {
+        "name": "Crystal beam",
+        "description": "Charges and fires a sustained horizontal laser."
+      },
+      {
+        "name": "Hop"
+      }
+    ],
+    "rewards": [
+      "Access to a Mask Shard nearby"
+    ],
+    "summary": "A miner mutated by the crystal vein in Crystal Peak. Mostly stationary and built around dodging a long charged beam attack.",
+    "verified": false,
+    "wikiSlug": "Crystal_Guardian",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Crystal_Guardian"
+    ],
+    "_slug": "crystal-guardian",
+    "_type": "bosses"
+  },
+  {
+    "slug": "dung-defender",
+    "name": "Dung Defender",
+    "game": "hk",
+    "optional": false,
+    "hp": {
+      "base": 350
+    },
+    "geo": 0,
+    "area": {
+      "slug": "royal-waterways",
+      "name": "Royal Waterways"
+    },
+    "attacks": [
+      {
+        "name": "Dung ball throw"
+      },
+      {
+        "name": "Underground dive"
+      },
+      {
+        "name": "Spike emerge"
+      }
+    ],
+    "rewards": [
+      "Defender's Crest charm",
+      "Access to the Junk Pit"
+    ],
+    "hunterJournal": {
+      "notes": "A jolly knight who insists on defending Hallownest from beneath, regardless of what crawls in or out."
+    },
+    "music": {
+      "title": "Dung Defender",
+      "spotifyTrackId": "5JWnXDqHFgGJZFIZ3PZh8G"
+    },
+    "summary": "The cheerful guardian of the Royal Waterways. Burrows through dung and pops up beneath the player, making vertical awareness critical.",
+    "verified": false,
+    "wikiSlug": "Dung_Defender",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Dung_Defender"
+    ],
+    "_slug": "dung-defender",
+    "_type": "bosses"
+  },
+  {
+    "slug": "elder-hu",
+    "name": "Elder Hu",
+    "game": "hk",
+    "optional": true,
+    "hp": {
+      "base": 350
+    },
+    "geo": 0,
+    "area": {
+      "slug": "resting-grounds",
+      "name": "Resting Grounds"
+    },
+    "attacks": [
+      {
+        "name": "Nail dash"
+      },
+      {
+        "name": "Tremor",
+        "description": "Slams the ground to summon shockwave columns."
+      }
+    ],
+    "rewards": [
+      "Essence (100)"
+    ],
+    "music": {
+      "title": "Dream",
+      "spotifyTrackId": "2hw0t9gmMhNCm16WlfU3xK"
+    },
+    "summary": "A teacher-turned-Dream-Warrior in the Resting Grounds. Predictable dash-and-slam patterns; the difficulty is keeping a steady rhythm.",
+    "verified": false,
+    "wikiSlug": "Elder_Hu",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Elder_Hu"
+    ],
+    "_slug": "elder-hu",
+    "_type": "bosses"
+  },
+  {
+    "slug": "enraged-guardian",
+    "name": "Enraged Guardian",
+    "game": "hk",
+    "optional": true,
+    "hp": {
+      "base": 380
+    },
+    "geo": 60,
+    "area": {
+      "slug": "crystal-peak",
+      "name": "Crystal Peak"
+    },
+    "attacks": [
+      {
+        "name": "Triple beam"
+      },
+      {
+        "name": "Long hop"
+      },
+      {
+        "name": "Crystal burst"
+      }
+    ],
+    "summary": "A more aggressive return of the Crystal Guardian after collecting the Crystal Heart. Adds vertical movement and a faster, longer beam pattern.",
+    "verified": false,
+    "wikiSlug": "Enraged_Guardian",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Enraged_Guardian"
+    ],
+    "_slug": "enraged-guardian",
+    "_type": "bosses"
+  },
+  {
+    "slug": "failed-champion",
+    "name": "Failed Champion",
+    "game": "hk",
+    "optional": true,
+    "hp": {
+      "base": 1100
+    },
+    "geo": 0,
+    "area": {
+      "slug": "forgotten-crossroads",
+      "name": "Forgotten Crossroads"
+    },
+    "attacks": [
+      {
+        "name": "Mace swing (faster)"
+      },
+      {
+        "name": "Ground slam (debris)"
+      },
+      {
+        "name": "Triple jump charge"
+      }
+    ],
+    "rewards": [
+      "Essence (300)"
+    ],
+    "music": {
+      "title": "Dream Battle",
+      "spotifyTrackId": "4TbcrjhOwuTAWBplSuOAz2"
+    },
+    "summary": "Dream Nail variant of the False Knight. Same moveset, much higher HP and reaction speed. Found via the False Knight's corpse.",
+    "verified": false,
+    "wikiSlug": "Failed_Champion",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Failed_Champion"
+    ],
+    "_slug": "failed-champion",
+    "_type": "bosses"
+  },
+  {
+    "slug": "false-knight",
+    "name": "False Knight",
+    "game": "hk",
+    "optional": false,
+    "hp": {
+      "base": 300
+    },
+    "geo": 200,
+    "area": {
+      "slug": "forgotten-crossroads",
+      "name": "Forgotten Crossroads"
+    },
+    "phases": [
+      {
+        "name": "Armoured rampage",
+        "description": "Hops, slams, and swings a massive mace. Stunned briefly after each slam."
+      },
+      {
+        "name": "Exposed maggot",
+        "description": "After enough damage, the armour cracks open and the maggot inside is exposed for direct hits."
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Mace swing"
+      },
+      {
+        "name": "Ground slam",
+        "description": "Releases falling debris from the ceiling."
+      },
+      {
+        "name": "Charge jump"
+      }
+    ],
+    "rewards": [
+      "City Crest"
+    ],
+    "hunterJournal": {
+      "notes": "A self-styled knight guarding the entrance to the Crossroads. Wields a stolen mace far larger than itself."
+    },
+    "music": {
+      "title": "False Knight",
+      "spotifyTrackId": "3hG05dRDVtY1COn47oKDT4"
+    },
+    "summary": "First major boss of Hollow Knight. Guards the way deeper into the Forgotten Crossroads. Has an armoured phase and a vulnerable maggot phase.",
+    "verified": false,
+    "wikiSlug": "False_Knight",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/False_Knight"
+    ],
+    "_slug": "false-knight",
+    "_type": "bosses"
+  },
+  {
+    "slug": "flukemarm",
+    "name": "Flukemarm",
+    "game": "hk",
+    "optional": true,
+    "hp": {
+      "base": 250
+    },
+    "geo": 50,
+    "area": {
+      "slug": "royal-waterways",
+      "name": "Royal Waterways"
+    },
+    "attacks": [
+      {
+        "name": "Spawn flukes",
+        "description": "Endlessly births small flukes that home in on the player."
+      }
+    ],
+    "rewards": [
+      "Flukenest charm"
+    ],
+    "summary": "A massive, immobile fluke that births swarms of smaller flukes. The fight is entirely about clearing adds while landing hits on the matriarch.",
+    "verified": false,
+    "wikiSlug": "Flukemarm",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Flukemarm"
+    ],
+    "_slug": "flukemarm",
+    "_type": "bosses"
+  },
+  {
+    "slug": "galien",
+    "name": "Galien",
+    "game": "hk",
+    "optional": true,
+    "hp": {
+      "base": 500
+    },
+    "geo": 0,
+    "area": {
+      "slug": "deepnest",
+      "name": "Deepnest"
+    },
+    "attacks": [
+      {
+        "name": "Giant scythe",
+        "description": "Hurls a huge scythe that orbits the arena."
+      },
+      {
+        "name": "Mini scythe ring"
+      }
+    ],
+    "rewards": [
+      "Essence (200)"
+    ],
+    "music": {
+      "title": "Dream",
+      "spotifyTrackId": "2hw0t9gmMhNCm16WlfU3xK"
+    },
+    "summary": "A spectral reaper in a Deepnest graveyard. The signature attack is a massive scythe that loops back, forcing the player to track its path while dodging.",
+    "verified": false,
+    "wikiSlug": "Galien",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Galien"
+    ],
+    "_slug": "galien",
+    "_type": "bosses"
+  },
+  {
+    "slug": "god-tamer",
+    "name": "God Tamer",
+    "game": "hk",
+    "optional": true,
+    "hp": {
+      "base": 700
+    },
+    "geo": 0,
+    "area": {
+      "slug": "colosseum-of-fools",
+      "name": "Colosseum of Fools"
+    },
+    "attacks": [
+      {
+        "name": "Tamer cane swipe"
+      },
+      {
+        "name": "Rolling beast"
+      },
+      {
+        "name": "Beast pounce"
+      }
+    ],
+    "rewards": [
+      "Charm Notch",
+      "King's Brand path (lore)"
+    ],
+    "summary": "Final fight of the Trial of the Fool. A duo: a robed Tamer and a giant rolling beast. The beast is the real threat; the Tamer is fragile if isolated.",
+    "verified": false,
+    "wikiSlug": "God_Tamer",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/God_Tamer"
+    ],
+    "_slug": "god-tamer",
+    "_type": "bosses"
+  },
+  {
+    "slug": "gorb",
+    "name": "Gorb",
+    "game": "hk",
+    "optional": true,
+    "hp": {
+      "base": 350
+    },
+    "geo": 0,
+    "area": {
+      "slug": "howling-cliffs",
+      "name": "Howling Cliffs"
+    },
+    "attacks": [
+      {
+        "name": "Geometric ring",
+        "description": "Launches expanding patterns of light blades."
+      },
+      {
+        "name": "Targeted spear"
+      }
+    ],
+    "rewards": [
+      "Essence (100)"
+    ],
+    "music": {
+      "title": "Dream",
+      "spotifyTrackId": "2hw0t9gmMhNCm16WlfU3xK"
+    },
+    "summary": "A floating, self-styled deity from the Howling Cliffs. The easiest of the seven Dream Warriors. Stays stationary while telegraphing geometric attack patterns.",
+    "verified": false,
+    "wikiSlug": "Gorb",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Gorb"
+    ],
+    "_slug": "gorb",
+    "_type": "bosses"
+  },
+  {
+    "slug": "great-nailsage-sly",
+    "name": "Great Nailsage Sly",
+    "game": "hk",
+    "optional": true,
+    "hp": {
+      "base": 1100
+    },
+    "geo": 0,
+    "area": {
+      "slug": "godhome",
+      "name": "Godhome"
+    },
+    "phases": [
+      {
+        "name": "Sage style"
+      },
+      {
+        "name": "Ascended",
+        "description": "Drops the cloak, doubles down on nail arts."
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Cyclone Slash"
+      },
+      {
+        "name": "Great Slash"
+      },
+      {
+        "name": "Dash Slash"
+      },
+      {
+        "name": "Aerial pogo"
+      }
+    ],
+    "summary": "Godhome ascension of the old nail master Sly. Uses every nail art from the player's kit against them, with a second phase that drops his cloak for max aggression.",
+    "verified": false,
+    "wikiSlug": "Great_Nailsage_Sly",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Great_Nailsage_Sly"
+    ],
+    "_slug": "great-nailsage-sly",
+    "_type": "bosses"
+  },
+  {
+    "slug": "grey-prince-zote",
+    "name": "Grey Prince Zote",
+    "game": "hk",
+    "optional": true,
+    "hp": {
+      "base": 350
+    },
+    "geo": 0,
+    "area": {
+      "slug": "dirtmouth",
+      "name": "Dirtmouth"
+    },
+    "attacks": [
+      {
+        "name": "Body slam"
+      },
+      {
+        "name": "Pillar drop"
+      },
+      {
+        "name": "Zoteling rain"
+      }
+    ],
+    "rewards": [
+      "Essence (300, scales with repeats)"
+    ],
+    "music": {
+      "title": "Dream Battle",
+      "spotifyTrackId": "4TbcrjhOwuTAWBplSuOAz2"
+    },
+    "summary": "Bretta's dream version of Zote, the love of her life rendered as an unstoppable champion. Reachable via Bretta's house in Dirtmouth after the Colosseum.",
+    "verified": false,
+    "wikiSlug": "Grey_Prince_Zote",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Grey_Prince_Zote"
+    ],
+    "_slug": "grey-prince-zote",
+    "_type": "bosses"
+  },
+  {
+    "slug": "gruz-mother",
+    "name": "Gruz Mother",
+    "game": "hk",
+    "optional": false,
+    "hp": {
+      "base": 80
+    },
+    "geo": 35,
+    "area": {
+      "slug": "forgotten-crossroads",
+      "name": "Forgotten Crossroads"
+    },
+    "attacks": [
+      {
+        "name": "Charge"
+      },
+      {
+        "name": "Pregnancy burst",
+        "description": "Splits into smaller Gruzzers on death."
+      }
+    ],
+    "summary": "An overgrown Gruzzer that hovers and dive-bombs the player. Spawns a swarm of smaller Gruzzers on defeat. Often the player's first proper boss.",
+    "verified": false,
+    "wikiSlug": "Gruz_Mother",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Gruz_Mother"
+    ],
+    "_slug": "gruz-mother",
+    "_type": "bosses"
+  },
+  {
+    "slug": "hive-knight",
+    "name": "Hive Knight",
+    "game": "hk",
+    "optional": true,
+    "hp": {
+      "base": 800
+    },
+    "geo": 0,
+    "area": {
+      "slug": "hive",
+      "name": "The Hive"
+    },
+    "attacks": [
+      {
+        "name": "Stinger dash"
+      },
+      {
+        "name": "Bee summon"
+      },
+      {
+        "name": "Aerial dive"
+      },
+      {
+        "name": "Stab tracking"
+      }
+    ],
+    "rewards": [
+      "Hiveblood charm"
+    ],
+    "hunterJournal": {
+      "notes": "Loyal champion of the Hive. Stings with vigour even as his queen wanes."
+    },
+    "music": {
+      "title": "Hive Knight",
+      "spotifyTrackId": "6WoKAnQUVf9YawsvCO6tEO"
+    },
+    "summary": "Added by the Hidden Dreams content update. Fast and aggressive with stab-tracking attacks. Rewards the Hiveblood charm.",
+    "verified": false,
+    "wikiSlug": "Hive_Knight",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Hive_Knight"
+    ],
+    "_slug": "hive-knight",
+    "_type": "bosses"
+  },
+  {
+    "slug": "hornet-protector",
+    "name": "Hornet Protector",
+    "game": "hk",
+    "optional": false,
+    "hp": {
+      "base": 450
+    },
+    "geo": 0,
+    "area": {
+      "slug": "greenpath",
+      "name": "Greenpath"
+    },
+    "phases": [
+      {
+        "name": "Sole phase",
+        "description": "Hornet uses her needle and silk thread aggressively, with no pause between movesets."
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Needle throw",
+        "description": "Throws her needle and reels it back on a silk line."
+      },
+      {
+        "name": "Dash",
+        "description": "Fast horizontal dash with the needle outstretched."
+      },
+      {
+        "name": "Sphere of silk",
+        "description": "Creates a stationary silk sphere."
+      }
+    ],
+    "rewards": [
+      "Mothwing Cloak progression (story)"
+    ],
+    "hunterJournal": {
+      "notes": "A vigilant warrior of Hallownest, daughter of the Pale King. Protector of Hallownest's borders."
+    },
+    "music": {
+      "title": "Hornet",
+      "spotifyTrackId": "4p6GbcE3GjJs7JzhVBv2uT"
+    },
+    "summary": "The first encounter with Hornet, fought at the heart of Greenpath. A fast, aggressive duel that introduces dash and needle-throw patterns.",
+    "verified": false,
+    "wikiSlug": "Hornet_Protector",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Hornet_Protector"
+    ],
+    "_slug": "hornet-protector",
+    "_type": "bosses"
+  },
+  {
+    "slug": "hornet-sentinel",
+    "name": "Hornet Sentinel",
+    "game": "hk",
+    "optional": false,
+    "hp": {
+      "base": 700
+    },
+    "geo": 0,
+    "area": {
+      "slug": "kingdoms-edge",
+      "name": "Kingdom's Edge"
+    },
+    "attacks": [
+      {
+        "name": "Needle throw"
+      },
+      {
+        "name": "Triple dash"
+      },
+      {
+        "name": "Silk barb storm"
+      },
+      {
+        "name": "Aerial dive"
+      }
+    ],
+    "rewards": [
+      "King's Brand"
+    ],
+    "hunterJournal": {
+      "notes": "The protector of Hallownest's ruins makes her stand at the edge of the world. She has not weakened since Greenpath."
+    },
+    "music": {
+      "title": "Daughter of Hallownest",
+      "spotifyTrackId": "3Pwmf3xVA8MV6h2isY6whx"
+    },
+    "summary": "The second, much harder Hornet duel. Adds aerial dives and a new silk-barb attack on top of the Greenpath moveset. Granting passage to the Abyss.",
+    "verified": false,
+    "wikiSlug": "Hornet_Sentinel",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Hornet_Sentinel"
+    ],
+    "_slug": "hornet-sentinel",
+    "_type": "bosses"
+  },
+  {
+    "slug": "lost-kin",
+    "name": "Lost Kin",
+    "game": "hk",
+    "optional": true,
+    "hp": {
+      "base": 1150
+    },
+    "geo": 0,
+    "area": {
+      "slug": "ancient-basin",
+      "name": "Ancient Basin"
+    },
+    "attacks": [
+      {
+        "name": "Spawn Balloons",
+        "description": "Periodically summons infection balloons."
+      },
+      {
+        "name": "Slam"
+      },
+      {
+        "name": "Aerial divebomb"
+      }
+    ],
+    "rewards": [
+      "Essence (400)"
+    ],
+    "music": {
+      "title": "Broken Vessel",
+      "spotifyTrackId": "7Epsqwic0O9yfbf0ll0z9w"
+    },
+    "summary": "Dream Nail variant of the Broken Vessel. Much faster pattern with constant balloon spawns. One of the highest essence rewards in the game.",
+    "verified": false,
+    "wikiSlug": "Lost_Kin",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Lost_Kin"
+    ],
+    "_slug": "lost-kin",
+    "_type": "bosses"
+  },
+  {
+    "slug": "mantis-lords",
+    "name": "Mantis Lords",
+    "game": "hk",
+    "optional": true,
+    "hp": {
+      "base": 530
+    },
+    "geo": 0,
+    "area": {
+      "slug": "fungal-wastes",
+      "name": "Fungal Wastes"
+    },
+    "phases": [
+      {
+        "name": "Duel",
+        "description": "A single Mantis Lord engages first. After half HP, the remaining two attack together."
+      },
+      {
+        "name": "Double team",
+        "description": "Two Mantis Lords attack simultaneously with synchronised patterns."
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Dash slash"
+      },
+      {
+        "name": "Pogo throw",
+        "description": "Throws a needle into the floor or wall to pogo off."
+      },
+      {
+        "name": "Counter pose"
+      }
+    ],
+    "rewards": [
+      "Mantis Claw access (story) — unlocks Deepnest entrance"
+    ],
+    "hunterJournal": {
+      "notes": "Three sisters ruling the Mantis Tribe. They honour challengers who prove themselves in single combat."
+    },
+    "music": {
+      "title": "Mantis Lords",
+      "spotifyTrackId": "7uIyzCZKGk9K2EXnb3BtrR"
+    },
+    "summary": "An optional but iconic fight. Defeating them earns the respect of the Mantis Tribe and unlocks passage deeper into Hallownest.",
+    "verified": false,
+    "wikiSlug": "Mantis_Lords",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Mantis_Lords"
+    ],
+    "_slug": "mantis-lords",
+    "_type": "bosses"
+  },
+  {
+    "slug": "markoth",
+    "name": "Markoth",
+    "game": "hk",
+    "optional": true,
+    "hp": {
+      "base": 500
+    },
+    "geo": 0,
+    "area": {
+      "slug": "kingdoms-edge",
+      "name": "Kingdom's Edge"
+    },
+    "attacks": [
+      {
+        "name": "Spinning nail"
+      },
+      {
+        "name": "Spike rain"
+      },
+      {
+        "name": "Orbiting shield"
+      }
+    ],
+    "rewards": [
+      "Essence (250)"
+    ],
+    "music": {
+      "title": "Dream",
+      "spotifyTrackId": "2hw0t9gmMhNCm16WlfU3xK"
+    },
+    "summary": "Often considered the hardest Dream Warrior. Found at the top of Kingdom's Edge. Combines vertical platforming, spike rain, and an orbiting shield that blocks attacks.",
+    "verified": false,
+    "wikiSlug": "Markoth",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Markoth"
+    ],
+    "_slug": "markoth",
+    "_type": "bosses"
+  },
+  {
+    "slug": "marmu",
+    "name": "Marmu",
+    "game": "hk",
+    "optional": true,
+    "hp": {
+      "base": 350
+    },
+    "geo": 0,
+    "area": {
+      "slug": "queens-gardens",
+      "name": "Queen's Gardens"
+    },
+    "attacks": [
+      {
+        "name": "Curl bounce",
+        "description": "Rolls into a ball and bounces around the arena."
+      },
+      {
+        "name": "Flutter"
+      }
+    ],
+    "rewards": [
+      "Essence (150)"
+    ],
+    "music": {
+      "title": "Dream",
+      "spotifyTrackId": "2hw0t9gmMhNCm16WlfU3xK"
+    },
+    "summary": "A small Dream Warrior in Queen's Gardens. Bouncing curl pattern is predictable but the arena is cramped, so positioning matters more than reflexes.",
+    "verified": false,
+    "wikiSlug": "Marmu",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Marmu"
+    ],
+    "_slug": "marmu",
+    "_type": "bosses"
+  },
+  {
+    "slug": "massive-moss-charger",
+    "name": "Massive Moss Charger",
+    "game": "hk",
+    "optional": true,
+    "hp": {
+      "base": 110
+    },
+    "geo": 80,
+    "area": {
+      "slug": "greenpath",
+      "name": "Greenpath"
+    },
+    "attacks": [
+      {
+        "name": "Burrow charge",
+        "description": "Hides under moss and surfaces with a horizontal charge."
+      }
+    ],
+    "rewards": [
+      "Mask Shard"
+    ],
+    "summary": "A hidden Moss Charger of enormous size buried in Greenpath's overgrowth. Stays underground until provoked and only emerges to charge in a straight line.",
+    "verified": false,
+    "wikiSlug": "Massive_Moss_Charger",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Massive_Moss_Charger"
+    ],
+    "_slug": "massive-moss-charger",
+    "_type": "bosses"
+  },
+  {
+    "slug": "moss-mother",
+    "name": "Moss Mother",
+    "game": "silksong",
+    "optional": false,
+    "hp": {
+      "base": 320
+    },
+    "geo": 0,
+    "area": {
+      "slug": "mosshome",
+      "name": "Mosshome"
+    },
+    "phases": [
+      {
+        "name": "Sole phase",
+        "description": "Roots and spores rise from the ground while the Mother lashes with vine swings."
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Vine sweep"
+      },
+      {
+        "name": "Spore burst",
+        "description": "Releases a ring of poison spores."
+      },
+      {
+        "name": "Root rise"
+      }
+    ],
+    "rewards": [
+      "Rosary String",
+      "Access to Mosshome interior (story)"
+    ],
+    "hunterJournal": {
+      "notes": "Verdant matriarch of the moss-bound. Speaks little, but the moss listens."
+    },
+    "summary": "An early boss of Silksong set in Mosshome. Introduces the player to crest-tool combos and area-control bosses.",
+    "verified": false,
+    "sources": [],
+    "_slug": "moss-mother",
+    "_type": "bosses"
+  },
+  {
+    "slug": "nightmare-king-grimm",
+    "name": "Nightmare King Grimm",
+    "game": "hk",
+    "optional": true,
+    "hp": {
+      "base": 1500
+    },
+    "geo": 0,
+    "area": {
+      "slug": "howling-cliffs",
+      "name": "Howling Cliffs"
+    },
+    "attacks": [
+      {
+        "name": "Fire pillar barrage"
+      },
+      {
+        "name": "Cape dash (faster)"
+      },
+      {
+        "name": "Crow dive"
+      },
+      {
+        "name": "Death balloon"
+      }
+    ],
+    "rewards": [
+      "Hunter's Journal entry",
+      "Carefree Melody charm (via Banishment instead)"
+    ],
+    "music": {
+      "title": "Nightmare King",
+      "spotifyTrackId": "5WtoiziTiOpTgQTQRpbXCa"
+    },
+    "summary": "Final boss of the Grimm Troupe DLC. A faster, deadlier echo of the Troupe Master with new crow-dive and balloon phases. Considered one of the hardest fights in the game.",
+    "verified": false,
+    "wikiSlug": "Nightmare_King_Grimm",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Nightmare_King_Grimm"
+    ],
+    "_slug": "nightmare-king-grimm",
+    "_type": "bosses"
+  },
+  {
+    "slug": "no-eyes",
+    "name": "No Eyes",
+    "game": "hk",
+    "optional": true,
+    "hp": {
+      "base": 500
+    },
+    "geo": 0,
+    "area": {
+      "slug": "greenpath",
+      "name": "Greenpath"
+    },
+    "attacks": [
+      {
+        "name": "Wailing scream",
+        "description": "Calls spirits that drift toward the player."
+      },
+      {
+        "name": "Spirit swarm"
+      }
+    ],
+    "rewards": [
+      "Essence (200)"
+    ],
+    "music": {
+      "title": "Dream",
+      "spotifyTrackId": "2hw0t9gmMhNCm16WlfU3xK"
+    },
+    "summary": "A blinded, grieving Dream Warrior at the Stone Sanctuary in Greenpath. Stationary, but the swarms of spirits fill the arena quickly.",
+    "verified": false,
+    "wikiSlug": "No_Eyes",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/No_Eyes"
+    ],
+    "_slug": "no-eyes",
+    "_type": "bosses"
+  },
+  {
+    "slug": "nosk",
+    "name": "Nosk",
+    "game": "hk",
+    "optional": true,
+    "hp": {
+      "base": 540
+    },
+    "geo": 0,
+    "area": {
+      "slug": "deepnest",
+      "name": "Deepnest"
+    },
+    "attacks": [
+      {
+        "name": "Ceiling drop"
+      },
+      {
+        "name": "Charge"
+      },
+      {
+        "name": "Spawn doppelgängers",
+        "description": "Releases small mimics of the Knight that crawl and explode."
+      }
+    ],
+    "rewards": [
+      "Hunter's Journal entry"
+    ],
+    "hunterJournal": {
+      "notes": "A predator that lures prey by wearing the face of those they have lost."
+    },
+    "music": {
+      "title": "Nosk",
+      "spotifyTrackId": "77vkOcahVHbBpF4tdjerSW"
+    },
+    "summary": "A horrifying shape-shifter that imitates the Knight to lure the player into a trap in Deepnest. Mostly mobile, with attacks that punish careless movement.",
+    "verified": false,
+    "wikiSlug": "Nosk",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Nosk"
+    ],
+    "_slug": "nosk",
+    "_type": "bosses"
+  },
+  {
+    "slug": "paintmaster-sheo",
+    "name": "Paintmaster Sheo",
+    "game": "hk",
+    "optional": true,
+    "hp": {
+      "base": 900
+    },
+    "geo": 0,
+    "area": {
+      "slug": "godhome",
+      "name": "Godhome"
+    },
+    "attacks": [
+      {
+        "name": "Brush sweep"
+      },
+      {
+        "name": "Paint blob"
+      },
+      {
+        "name": "Dual brush dash"
+      }
+    ],
+    "summary": "Godhome ascension of the painter Sheo. Sweeping brush attacks coat the arena in paint that becomes part of the hitbox. Slow telegraphs, heavy damage.",
+    "verified": false,
+    "wikiSlug": "Paintmaster_Sheo",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Paintmaster_Sheo"
+    ],
+    "_slug": "paintmaster-sheo",
+    "_type": "bosses"
+  },
+  {
+    "slug": "pure-vessel",
+    "name": "Pure Vessel",
+    "game": "hk",
+    "optional": true,
+    "hp": {
+      "base": 1200
+    },
+    "geo": 0,
+    "area": {
+      "slug": "godhome",
+      "name": "Godhome"
+    },
+    "attacks": [
+      {
+        "name": "Triple slash"
+      },
+      {
+        "name": "Void tendrils"
+      },
+      {
+        "name": "Soul orbs"
+      },
+      {
+        "name": "Focused descend"
+      }
+    ],
+    "rewards": [
+      "Path to Absolute Radiance"
+    ],
+    "music": {
+      "title": "Pure Vessel",
+      "spotifyTrackId": "5nvuhLgk7hWf7UleWLtAd2"
+    },
+    "summary": "The Hollow Knight as it was meant to be: silent, perfect, unbroken. The fifth Pantheon's final fight. Tighter timings and no infection animations to telegraph attacks.",
+    "verified": false,
+    "wikiSlug": "Pure_Vessel",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Pure_Vessel"
+    ],
+    "_slug": "pure-vessel",
+    "_type": "bosses"
+  },
+  {
+    "slug": "sisters-of-battle",
+    "name": "Sisters of Battle",
+    "game": "hk",
+    "optional": true,
+    "hp": {
+      "base": 530
+    },
+    "geo": 0,
+    "area": {
+      "slug": "godhome",
+      "name": "Godhome"
+    },
+    "phases": [
+      {
+        "name": "Two attacking together"
+      },
+      {
+        "name": "All three in the arena"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Dash slash"
+      },
+      {
+        "name": "Pogo throw"
+      },
+      {
+        "name": "Triple counter pose"
+      }
+    ],
+    "music": {
+      "title": "Sisters of Battle",
+      "spotifyTrackId": "6yZJigvD7SCYOp7tL8AtuB"
+    },
+    "summary": "The Godhome ascended form of the Mantis Lords. All three sisters attack at once with no pacing breaks, with new dive patterns layered on top of the base fight.",
+    "verified": false,
+    "wikiSlug": "Sisters_of_Battle",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Sisters_of_Battle"
+    ],
+    "_slug": "sisters-of-battle",
+    "_type": "bosses"
+  },
+  {
+    "slug": "soul-master",
+    "name": "Soul Master",
+    "game": "hk",
+    "optional": false,
+    "hp": {
+      "base": 380
+    },
+    "geo": 0,
+    "area": {
+      "slug": "city-of-tears",
+      "name": "City of Tears"
+    },
+    "phases": [
+      {
+        "name": "Soul Sanctum duel",
+        "description": "Floats and dives with telegraphed slams."
+      },
+      {
+        "name": "Fallen Master",
+        "description": "Drops to the floor below and the fight resumes in a new room."
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Soul orbs"
+      },
+      {
+        "name": "Soul slam"
+      },
+      {
+        "name": "Teleport"
+      }
+    ],
+    "rewards": [
+      "Desolate Dive spell"
+    ],
+    "music": {
+      "title": "Soul Sanctum",
+      "spotifyTrackId": "3cKzY51GRiJngSVOnOfjgl"
+    },
+    "summary": "Head of the Soul Sanctum. A two-phase fight that rewards the Desolate Dive spell. Once finished, his soul lingers and can be challenged again as Soul Tyrant.",
+    "verified": false,
+    "wikiSlug": "Soul_Master",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Soul_Master"
+    ],
+    "_slug": "soul-master",
+    "_type": "bosses"
+  },
+  {
+    "slug": "soul-tyrant",
+    "name": "Soul Tyrant",
+    "game": "hk",
+    "optional": true,
+    "hp": {
+      "base": 800
+    },
+    "geo": 0,
+    "area": {
+      "slug": "city-of-tears",
+      "name": "City of Tears"
+    },
+    "phases": [
+      {
+        "name": "Sanctum duel"
+      },
+      {
+        "name": "Fallen Tyrant"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Soul orbs (denser)"
+      },
+      {
+        "name": "Soul slam (faster)"
+      },
+      {
+        "name": "Teleport pursuit"
+      }
+    ],
+    "rewards": [
+      "Essence (400)"
+    ],
+    "music": {
+      "title": "Dream Battle",
+      "spotifyTrackId": "4TbcrjhOwuTAWBplSuOAz2"
+    },
+    "summary": "Dream variant of the Soul Master, fought in the same arena. Both phases are faster and orb patterns are denser.",
+    "verified": false,
+    "wikiSlug": "Soul_Tyrant",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Soul_Tyrant"
+    ],
+    "_slug": "soul-tyrant",
+    "_type": "bosses"
+  },
+  {
+    "slug": "soul-warrior",
+    "name": "Soul Warrior",
+    "game": "hk",
+    "optional": false,
+    "hp": {
+      "base": 130
+    },
+    "geo": 50,
+    "area": {
+      "slug": "city-of-tears",
+      "name": "City of Tears"
+    },
+    "attacks": [
+      {
+        "name": "Dash slash"
+      },
+      {
+        "name": "Soul orb",
+        "description": "Conjures a homing energy orb."
+      },
+      {
+        "name": "Teleport strike"
+      }
+    ],
+    "music": {
+      "title": "Soul Sanctum",
+      "spotifyTrackId": "3cKzY51GRiJngSVOnOfjgl"
+    },
+    "summary": "An apprentice of the Soul Sanctum guarding the path to the Soul Master. Telegraphed but fast, and the first introduction to soul-based attacks.",
+    "verified": false,
+    "wikiSlug": "Soul_Warrior",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Soul_Warrior"
+    ],
+    "_slug": "soul-warrior",
+    "_type": "bosses"
+  },
+  {
+    "slug": "the-hollow-knight",
+    "name": "The Hollow Knight",
+    "game": "hk",
+    "optional": false,
+    "hp": {
+      "base": 1300
+    },
+    "geo": 0,
+    "area": {
+      "slug": "temple-of-the-black-egg",
+      "name": "Temple of the Black Egg"
+    },
+    "phases": [
+      {
+        "name": "Restrained"
+      },
+      {
+        "name": "Self-striking",
+        "description": "Begins driving the nail into itself, releasing infection bursts."
+      },
+      {
+        "name": "Infection blossom"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Nail slash"
+      },
+      {
+        "name": "Lunge"
+      },
+      {
+        "name": "Infection blob"
+      },
+      {
+        "name": "Self-impale burst"
+      }
+    ],
+    "rewards": [
+      "Sealed Siblings ending (without Hornet)",
+      "Path to The Radiance (with Awoken Dream Nail)"
+    ],
+    "hunterJournal": {
+      "notes": "Forged of god and void. The Vessel created to seal away the Old Light's plague — and it cracked."
+    },
+    "music": {
+      "title": "Sealed Vessel",
+      "spotifyTrackId": "5LlqVViilxn216dQzcFyvy"
+    },
+    "summary": "The default final boss. Slow telegraphs, three escalating phases, and an emotional gut-punch as the Vessel begins striking itself to release the Infection.",
+    "verified": false,
+    "wikiSlug": "Hollow_Knight",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Hollow_Knight"
+    ],
+    "_slug": "the-hollow-knight",
+    "_type": "bosses"
+  },
+  {
+    "slug": "the-radiance",
+    "name": "The Radiance",
+    "game": "hk",
+    "optional": true,
+    "hp": {
+      "base": 1700
+    },
+    "geo": 0,
+    "area": {
+      "slug": "temple-of-the-black-egg",
+      "name": "Temple of the Black Egg"
+    },
+    "phases": [
+      {
+        "name": "Sword swarm"
+      },
+      {
+        "name": "Sun beam"
+      },
+      {
+        "name": "Climb to ascension"
+      },
+      {
+        "name": "Dream No More"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Spike floor"
+      },
+      {
+        "name": "Light spear barrage"
+      },
+      {
+        "name": "Sword orbit"
+      },
+      {
+        "name": "Radiant beam"
+      }
+    ],
+    "rewards": [
+      "Dream No More ending"
+    ],
+    "hunterJournal": {
+      "notes": "The Old Light, once kin and progenitor of moths. Its dream lashed out and seeded the plague."
+    },
+    "music": {
+      "title": "Radiance",
+      "spotifyTrackId": "1ygjvLVwydBF164HQsv2QD"
+    },
+    "summary": "The true final boss, reached via the Awoken Dream Nail inside the Hollow Knight fight. Long, vertical, and brutal — Hornet's binding shows up mid-fight.",
+    "verified": false,
+    "wikiSlug": "Radiance",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Radiance"
+    ],
+    "_slug": "the-radiance",
+    "_type": "bosses"
+  },
+  {
+    "slug": "traitor-lord",
+    "name": "Traitor Lord",
+    "game": "hk",
+    "optional": false,
+    "hp": {
+      "base": 500
+    },
+    "geo": 0,
+    "area": {
+      "slug": "queens-gardens",
+      "name": "Queen's Gardens"
+    },
+    "attacks": [
+      {
+        "name": "Wide slash"
+      },
+      {
+        "name": "Pogo-able overhead slam"
+      },
+      {
+        "name": "Charge"
+      }
+    ],
+    "rewards": [
+      "Access to White Lady (story)"
+    ],
+    "music": {
+      "title": "Decisive Battle",
+      "spotifyTrackId": "0N3HxBdcDAEErIBm6aGZI9"
+    },
+    "summary": "Leader of the Mantis Traitors who broke with the Mantis Tribe. Huge hitbox, slow telegraphs, but enormous damage. Pogoing the slam is the cleanest tell.",
+    "verified": false,
+    "wikiSlug": "Traitor_Lord",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Traitor_Lord"
+    ],
+    "_slug": "traitor-lord",
+    "_type": "bosses"
+  },
+  {
+    "slug": "troupe-master-grimm",
+    "name": "Troupe Master Grimm",
+    "game": "hk",
+    "optional": true,
+    "hp": {
+      "base": 700
+    },
+    "geo": 0,
+    "area": {
+      "slug": "dirtmouth",
+      "name": "Dirtmouth"
+    },
+    "attacks": [
+      {
+        "name": "Fire pillar"
+      },
+      {
+        "name": "Cape dash"
+      },
+      {
+        "name": "Fire bats"
+      },
+      {
+        "name": "Uppercut burst"
+      }
+    ],
+    "rewards": [
+      "Grimmchild upgrade (Banishment path)"
+    ],
+    "hunterJournal": {
+      "notes": "Master of a wandering troupe that feeds on the embers of dying kingdoms. Beautiful, courteous, and lethal."
+    },
+    "music": {
+      "title": "The Grimm Troupe",
+      "spotifyTrackId": "4Jk6clW2UYpdJnwNYygcVd"
+    },
+    "summary": "Centrepiece of the Grimm Troupe DLC. A theatrical, fire-heavy fight with sweeping cape dashes and pillar patterns. First step toward Nightmare King Grimm.",
+    "verified": false,
+    "wikiSlug": "Troupe_Master_Grimm",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Troupe_Master_Grimm"
+    ],
+    "_slug": "troupe-master-grimm",
+    "_type": "bosses"
+  },
+  {
+    "slug": "uumuu",
+    "name": "Uumuu",
+    "game": "hk",
+    "optional": false,
+    "hp": {
+      "base": 250
+    },
+    "geo": 0,
+    "area": {
+      "slug": "fog-canyon",
+      "name": "Fog Canyon"
+    },
+    "attacks": [
+      {
+        "name": "Electric pulse"
+      },
+      {
+        "name": "Explosive uoma summon"
+      }
+    ],
+    "rewards": [
+      "Access to the Teacher's Archive"
+    ],
+    "summary": "A massive jellyfish in Monomon's Archive. Immune to direct hits — you must trigger nearby Uomas to explode against its shield. Less a fight and more a puzzle.",
+    "verified": false,
+    "wikiSlug": "Uumuu",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Uumuu"
+    ],
+    "_slug": "uumuu",
+    "_type": "bosses"
+  },
+  {
+    "slug": "vengefly-king",
+    "name": "Vengefly King",
+    "game": "hk",
+    "optional": true,
+    "hp": {
+      "base": 90
+    },
+    "geo": 40,
+    "area": {
+      "slug": "greenpath",
+      "name": "Greenpath"
+    },
+    "attacks": [
+      {
+        "name": "Dive"
+      },
+      {
+        "name": "Vengefly summon"
+      }
+    ],
+    "summary": "An oversized Vengefly that calls smaller kin to swarm the player. Encountered above the entrance to Greenpath in a hidden ledge fight.",
+    "verified": false,
+    "wikiSlug": "Vengefly_King",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Vengefly_King"
+    ],
+    "_slug": "vengefly-king",
+    "_type": "bosses"
+  },
+  {
+    "slug": "watcher-knights",
+    "name": "Watcher Knights",
+    "game": "hk",
+    "optional": false,
+    "hp": {
+      "base": 230
+    },
+    "geo": 0,
+    "area": {
+      "slug": "city-of-tears",
+      "name": "City of Tears"
+    },
+    "phases": [
+      {
+        "name": "One vs one"
+      },
+      {
+        "name": "Two active"
+      },
+      {
+        "name": "Up to three at once"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Roll"
+      },
+      {
+        "name": "Lunge slash"
+      },
+      {
+        "name": "Wall jump dive"
+      }
+    ],
+    "rewards": [
+      "Access to the Crown / Hallownest Crown"
+    ],
+    "summary": "Six elite knights of Lurien the Watcher. They drop from above and engage in escalating numbers, eventually three at once. HP is per knight.",
+    "verified": false,
+    "wikiSlug": "Watcher_Knights",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Watcher_Knights"
+    ],
+    "_slug": "watcher-knights",
+    "_type": "bosses"
+  },
+  {
+    "slug": "white-defender",
+    "name": "White Defender",
+    "game": "hk",
+    "optional": true,
+    "hp": {
+      "base": 850
+    },
+    "geo": 0,
+    "area": {
+      "slug": "royal-waterways",
+      "name": "Royal Waterways"
+    },
+    "attacks": [
+      {
+        "name": "Dung ball storm"
+      },
+      {
+        "name": "Dung wave"
+      },
+      {
+        "name": "Underground spike geyser"
+      }
+    ],
+    "rewards": [
+      "Essence (300, then 100 per repeat)"
+    ],
+    "music": {
+      "title": "White Defender",
+      "spotifyTrackId": "3y4p631gIGjjboFomRzmRg"
+    },
+    "summary": "Dream variant of the Dung Defender, reachable via his nap spot after the fight. Adds spike geysers and rapid ball storms. Repeatable for diminishing essence.",
+    "verified": false,
+    "wikiSlug": "White_Defender",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/White_Defender"
+    ],
+    "_slug": "white-defender",
+    "_type": "bosses"
+  },
+  {
+    "slug": "winged-nosk",
+    "name": "Winged Nosk",
+    "game": "hk",
+    "optional": true,
+    "hp": {
+      "base": 800
+    },
+    "geo": 0,
+    "area": {
+      "slug": "godhome",
+      "name": "Godhome"
+    },
+    "attacks": [
+      {
+        "name": "Aerial dive"
+      },
+      {
+        "name": "Hanging ambush"
+      },
+      {
+        "name": "Doppelgänger drop"
+      }
+    ],
+    "music": {
+      "title": "Nosk",
+      "spotifyTrackId": "77vkOcahVHbBpF4tdjerSW"
+    },
+    "summary": "A Godhome-only variant of Nosk that hangs from the ceiling and divebombs from above. Only fightable inside the Hall of Gods or the higher Pantheons.",
+    "verified": false,
+    "wikiSlug": "Winged_Nosk",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Winged_Nosk"
+    ],
+    "_slug": "winged-nosk",
+    "_type": "bosses"
+  },
+  {
+    "slug": "xero",
+    "name": "Xero",
+    "game": "hk",
+    "optional": true,
+    "hp": {
+      "base": 250
+    },
+    "geo": 0,
+    "area": {
+      "slug": "resting-grounds",
+      "name": "Resting Grounds"
+    },
+    "attacks": [
+      {
+        "name": "Floating nails",
+        "description": "Six homing nails that orbit and dive."
+      }
+    ],
+    "rewards": [
+      "Essence (100)"
+    ],
+    "music": {
+      "title": "Dream",
+      "spotifyTrackId": "2hw0t9gmMhNCm16WlfU3xK"
+    },
+    "summary": "A Dream Warrior fought in the Resting Grounds graveyard. The whole fight is about reading the orbits of six homing nails while staying mobile.",
+    "verified": false,
+    "wikiSlug": "Xero",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Xero"
+    ],
+    "_slug": "xero",
+    "_type": "bosses"
+  },
+  {
+    "slug": "zote-the-mighty",
+    "name": "Zote the Mighty",
+    "game": "hk",
+    "optional": true,
+    "hp": {
+      "base": 250
+    },
+    "geo": 0,
+    "area": {
+      "slug": "colosseum-of-fools",
+      "name": "Colosseum of Fools"
+    },
+    "attacks": [
+      {
+        "name": "Wide swing"
+      },
+      {
+        "name": "Vertical lunge"
+      }
+    ],
+    "rewards": [
+      "Hunter's Journal entry"
+    ],
+    "hunterJournal": {
+      "notes": "Self-styled 57th Precept maker. Carries a nail named Life Ender. The nail does not, in fact, end many lives."
+    },
+    "summary": "Comic relief turned arena combatant. Appears as a fight in the Trial of the Warrior, after a brief pre-fight monologue.",
+    "verified": false,
+    "wikiSlug": "Zote_the_Mighty",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Zote_the_Mighty"
+    ],
+    "_slug": "zote-the-mighty",
+    "_type": "bosses"
+  }
+]

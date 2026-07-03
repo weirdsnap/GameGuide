@@ -1,0 +1,21 @@
+{
+  "slug": "myla",
+  "name": "Myla",
+  "game": "hk",
+  "kind": "npc",
+  "role": "Singing miner",
+  "area": {
+    "slug": "crystal-peak",
+    "name": "Crystal Peak"
+  },
+  "location": "Mining tunnel near the entrance to Crystal Peak from the Crossroads.",
+  "summary": "Cheerful larva who mines for crystals and sings to herself in the dark. One of the warmest characters — and one of the saddest endings.",
+  "description": "Greets the Knight on every visit at first. As the Knight obtains more Dream Nail essence she stops working, mutters about song in her head, and ultimately succumbs to the Infection — becoming a hostile Husk Miner.",
+  "verified": false,
+  "wikiSlug": "Myla",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Myla"
+  ],
+  "_slug": "myla",
+  "_type": "characters"
+}

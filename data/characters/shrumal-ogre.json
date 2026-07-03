@@ -1,0 +1,25 @@
+{
+  "slug": "shrumal-ogre",
+  "name": "Shrumal Ogre",
+  "game": "hk",
+  "kind": "enemy",
+  "role": "Mushroom heavyweight",
+  "area": {
+    "slug": "fungal-wastes",
+    "name": "Fungal Wastes"
+  },
+  "hp": 75,
+  "damage": 1,
+  "geoDrop": 35,
+  "hunterJournal": {
+    "notes": "Massive mushroom-bug. Slams the ground with both arms and rolls forward, taking up most of a corridor."
+  },
+  "summary": "Hulking fungal enemy in deep Fungal Wastes. Two huge fists, a charged ground-pound, and a forward roll.",
+  "verified": false,
+  "wikiSlug": "Shrumal_Ogre",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Shrumal_Ogre"
+  ],
+  "_slug": "shrumal-ogre",
+  "_type": "characters"
+}

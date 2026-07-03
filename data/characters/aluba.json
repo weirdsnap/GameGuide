@@ -1,0 +1,25 @@
+{
+  "slug": "aluba",
+  "name": "Aluba",
+  "game": "hk",
+  "kind": "enemy",
+  "role": "Lightning jellyfish",
+  "area": {
+    "slug": "kingdoms-edge",
+    "name": "Kingdom's Edge"
+  },
+  "hp": 25,
+  "damage": 1,
+  "geoDrop": 16,
+  "hunterJournal": {
+    "notes": "Cloud-shaped flier. Drops electric jellies that arc downward to strike anything below it."
+  },
+  "summary": "Floating sky-jelly of Kingdom's Edge. Drifts overhead and rains zapping spawns until knocked out of the air.",
+  "verified": false,
+  "wikiSlug": "Aluba",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Aluba"
+  ],
+  "_slug": "aluba",
+  "_type": "characters"
+}

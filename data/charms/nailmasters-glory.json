@@ -1,0 +1,23 @@
+{
+  "slug": "nailmasters-glory",
+  "name": "Nailmaster's Glory",
+  "game": "hk",
+  "notchCost": 1,
+  "inventoryOrder": 36,
+  "effect": "Nail Arts charge twice as fast.",
+  "description": "Halves Nail Art charge time. Required to make Great Slash and Cyclone Slash genuinely usable in combat.",
+  "acquisition": "quest",
+  "location": "Gifted by Sheo after the Knight learns all three Nail Arts (Cyclone Slash, Dash Slash, Great Slash).",
+  "synergies": [
+    "fragile-strength",
+    "quick-slash"
+  ],
+  "summary": "Cuts Nail Art charge in half. The dedicated nail-art enabler.",
+  "verified": false,
+  "wikiSlug": "Nailmaster%27s_Glory",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Nailmaster%27s_Glory"
+  ],
+  "_slug": "nailmasters-glory",
+  "_type": "charms"
+}

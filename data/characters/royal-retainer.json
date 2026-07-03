@@ -1,0 +1,25 @@
+{
+  "slug": "royal-retainer",
+  "name": "Royal Retainer",
+  "game": "hk",
+  "kind": "enemy",
+  "role": "Servant husk",
+  "area": {
+    "slug": "city-of-tears",
+    "name": "City of Tears"
+  },
+  "hp": 35,
+  "damage": 1,
+  "geoDrop": 22,
+  "hunterJournal": {
+    "notes": "Tall servant husk dressed in fine cloth. Slow swings, still polite even now."
+  },
+  "summary": "Long-armed City of Tears servant. Swings a polearm in a wide arc — easy to time around, but it tracks the Knight through pillars.",
+  "verified": false,
+  "wikiSlug": "Royal_Retainer",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Royal_Retainer"
+  ],
+  "_slug": "royal-retainer",
+  "_type": "characters"
+}

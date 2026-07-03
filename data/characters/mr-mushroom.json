@@ -1,0 +1,21 @@
+{
+  "slug": "mr-mushroom",
+  "name": "Mister Mushroom",
+  "game": "hk",
+  "kind": "npc",
+  "role": "Wandering shroom",
+  "area": {
+    "slug": "fungal-wastes",
+    "name": "Fungal Wastes"
+  },
+  "location": "Travels between seven hidden rooms across the kingdom — only visible after acquiring Mister Mushroom from a Bardoon hint.",
+  "summary": "Quiet, gesturing mushroom traveller. Pops up in seven secret spots, miming a phrase for the Knight to interpret.",
+  "description": "A free-DLC easter-egg quest tied to the Hidden Dreams update. Tracking him to every location rewards an achievement and a fond goodbye.",
+  "verified": false,
+  "wikiSlug": "Mister_Mushroom",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Mister_Mushroom"
+  ],
+  "_slug": "mr-mushroom",
+  "_type": "characters"
+}

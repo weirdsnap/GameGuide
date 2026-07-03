@@ -1,0 +1,26 @@
+{
+  "slug": "the-hunter",
+  "name": "The Hunter",
+  "game": "hk",
+  "kind": "npc",
+  "role": "Author of the Hunter's Journal",
+  "area": {
+    "slug": "greenpath",
+    "name": "Greenpath"
+  },
+  "location": "Den near the Deepnest border in deep Greenpath. Reachable through a tunnel from the Stone Sanctuary.",
+  "summary": "Imposing predator-bug obsessed with cataloguing every creature in Hallownest. Gives the Knight his Journal.",
+  "description": "Updates each Hunter's Journal entry as the Knight encounters and slays more creatures. Filling the Journal rewards Hunter's Marks and, eventually, the Mark of Pride charm and a steel-soul-tier completion percentage.",
+  "sells": [
+    "Hunter's Journal (gift)",
+    "Mark of Pride charm (Journal completion)",
+    "Hunter's Mark fragments (kill milestones)"
+  ],
+  "verified": false,
+  "wikiSlug": "Hunter",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Hunter"
+  ],
+  "_slug": "the-hunter",
+  "_type": "characters"
+}

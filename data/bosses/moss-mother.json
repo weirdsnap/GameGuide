@@ -1,0 +1,44 @@
+{
+  "slug": "moss-mother",
+  "name": "Moss Mother",
+  "game": "silksong",
+  "optional": false,
+  "hp": {
+    "base": 320
+  },
+  "geo": 0,
+  "area": {
+    "slug": "mosshome",
+    "name": "Mosshome"
+  },
+  "phases": [
+    {
+      "name": "Sole phase",
+      "description": "Roots and spores rise from the ground while the Mother lashes with vine swings."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Vine sweep"
+    },
+    {
+      "name": "Spore burst",
+      "description": "Releases a ring of poison spores."
+    },
+    {
+      "name": "Root rise"
+    }
+  ],
+  "rewards": [
+    "Rosary String",
+    "Access to Mosshome interior (story)"
+  ],
+  "hunterJournal": {
+    "notes": "Verdant matriarch of the moss-bound. Speaks little, but the moss listens."
+  },
+  "summary": "An early boss of Silksong set in Mosshome. Introduces the player to crest-tool combos and area-control bosses.",
+  "verified": false,
+  "sources": [],
+  "_slug": "moss-mother",
+  "_type": "bosses"
+}

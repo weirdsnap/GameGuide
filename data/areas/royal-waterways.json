@@ -1,0 +1,30 @@
+{
+  "slug": "royal-waterways",
+  "name": "Royal Waterways",
+  "game": "hk",
+  "kind": "region",
+  "connectsTo": {
+    "city-of-tears": [
+      "simple-key"
+    ],
+    "ancient-basin": [
+      "isma-tear"
+    ],
+    "kingdoms-edge": [
+      "isma-tear"
+    ],
+    "junk-pit": [],
+    "ismas-grove": [
+      "isma-tear"
+    ]
+  },
+  "music": "Royal Waterways",
+  "summary": "The flooded sewers beneath the City of Tears. Houses the Dung Defender, Flukemarm, Isma's Tear, and the Junk Pit's hidden Godseekers.",
+  "verified": false,
+  "wikiSlug": "Royal_Waterways",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Royal_Waterways"
+  ],
+  "_slug": "royal-waterways",
+  "_type": "areas"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "spell-twister",
+  "name": "Spell Twister",
+  "game": "hk",
+  "notchCost": 2,
+  "inventoryOrder": 15,
+  "effect": "Reduces the SOUL cost of casting spells.",
+  "description": "Each spell costs 24 SOUL instead of 33, letting the Knight cast four spells from a full bar instead of three. Mandatory in caster builds.",
+  "area": {
+    "slug": "city-of-tears",
+    "name": "City of Tears"
+  },
+  "acquisition": "find",
+  "location": "Atop the Soul Sanctum tower, accessible after defeating the Soul Master.",
+  "synergies": [
+    "shaman-stone",
+    "soul-eater"
+  ],
+  "summary": "Spells cost 24 SOUL instead of 33. Foundational caster charm.",
+  "verified": false,
+  "wikiSlug": "Spell_Twister",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Spell_Twister"
+  ],
+  "_slug": "spell-twister",
+  "_type": "charms"
+}

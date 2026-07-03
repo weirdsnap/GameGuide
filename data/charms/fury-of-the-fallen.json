@@ -1,0 +1,27 @@
+{
+  "slug": "fury-of-the-fallen",
+  "name": "Fury of the Fallen",
+  "game": "hk",
+  "notchCost": 2,
+  "inventoryOrder": 21,
+  "effect": "Greatly increases nail damage when reduced to one mask.",
+  "description": "+75% nail damage at exactly one mask of health. Risky but extraordinarily strong for skilled play.",
+  "area": {
+    "slug": "kings-pass",
+    "name": "King's Pass"
+  },
+  "acquisition": "find",
+  "location": "King's Pass — found in an alcove above the cliffs, near the very start of the game.",
+  "synergies": [
+    "jonis-blessing",
+    "quick-slash"
+  ],
+  "summary": "Damage spike at 1 HP. Pairs beautifully with Joni's Blessing.",
+  "verified": false,
+  "wikiSlug": "Fury_of_the_Fallen",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Fury_of_the_Fallen"
+  ],
+  "_slug": "fury-of-the-fallen",
+  "_type": "charms"
+}

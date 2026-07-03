@@ -1,0 +1,21 @@
+{
+  "slug": "junk-pit",
+  "name": "Junk Pit",
+  "game": "hk",
+  "kind": "subarea",
+  "parent": "royal-waterways",
+  "connectsTo": {
+    "royal-waterways": [],
+    "godhome": [
+      "dream-nail"
+    ]
+  },
+  "summary": "A filthy refuse heap beneath the Royal Waterways. Home to the Godseekers and the door that drops the Knight into Godhome.",
+  "verified": false,
+  "wikiSlug": "Junk_Pit",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Junk_Pit"
+  ],
+  "_slug": "junk-pit",
+  "_type": "areas"
+}

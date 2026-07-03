@@ -1,0 +1,21 @@
+{
+  "slug": "ismas-tear",
+  "name": "Isma's Tear",
+  "game": "hk",
+  "kind": "movement",
+  "effect": "Walk and swim safely through pools of acid.",
+  "description": "Grants immunity to the acid that fills Royal Waterways and parts of Greenpath. Required for several mid-to-late-game routes.",
+  "acquisition": "Found in Isma's Grove, deep in the Royal Waterways.",
+  "area": {
+    "slug": "ismas-grove",
+    "name": "Isma's Grove"
+  },
+  "summary": "Acid immunity. Hidden in Isma's Grove.",
+  "verified": false,
+  "wikiSlug": "Isma%27s_Tear",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Isma%27s_Tear"
+  ],
+  "_slug": "ismas-tear",
+  "_type": "skills"
+}

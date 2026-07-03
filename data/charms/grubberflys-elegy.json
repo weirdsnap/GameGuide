@@ -1,0 +1,29 @@
+{
+  "slug": "grubberflys-elegy",
+  "name": "Grubberfly's Elegy",
+  "game": "hk",
+  "notchCost": 3,
+  "inventoryOrder": 11,
+  "effect": "While at full health, swinging the nail releases a beam of energy.",
+  "description": "A horizontal projectile shoots out on every nail swing at max HP. The Knight loses the buff after a single hit. The endgame reward for rescuing every grub.",
+  "area": {
+    "slug": "forgotten-crossroads",
+    "name": "Forgotten Crossroads"
+  },
+  "upgradeOf": "grubsong",
+  "acquisition": "quest",
+  "location": "Grubfather's reward for rescuing all 46 grubs.",
+  "synergies": [
+    "longnail",
+    "mark-of-pride",
+    "quick-slash"
+  ],
+  "summary": "Free ranged beams while at full HP. Spectacular at full Pure Nail damage.",
+  "verified": false,
+  "wikiSlug": "Grubberfly%27s_Elegy",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Grubberfly%27s_Elegy"
+  ],
+  "_slug": "grubberflys-elegy",
+  "_type": "charms"
+}

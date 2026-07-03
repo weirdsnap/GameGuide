@@ -1,0 +1,41 @@
+{
+  "slug": "broken-vessel",
+  "name": "Broken Vessel",
+  "game": "hk",
+  "optional": false,
+  "hp": {
+    "base": 500
+  },
+  "geo": 0,
+  "area": {
+    "slug": "ancient-basin",
+    "name": "Ancient Basin"
+  },
+  "attacks": [
+    {
+      "name": "Slam"
+    },
+    {
+      "name": "Infection burst",
+      "description": "Shoots upward bursts of orange infection."
+    },
+    {
+      "name": "Triple jump"
+    }
+  ],
+  "rewards": [
+    "Monarch Wings"
+  ],
+  "music": {
+    "title": "Broken Vessel",
+    "spotifyTrackId": "7Epsqwic0O9yfbf0ll0z9w"
+  },
+  "summary": "A failed sibling of the Knight, animated by the Infection. Awkward and lurching, with telegraphed slams and a final burst phase. Rewards the double jump.",
+  "verified": false,
+  "wikiSlug": "Broken_Vessel",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Broken_Vessel"
+  ],
+  "_slug": "broken-vessel",
+  "_type": "bosses"
+}

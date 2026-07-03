@@ -1,0 +1,21 @@
+{
+  "slug": "elderbug",
+  "name": "Elderbug",
+  "game": "hk",
+  "kind": "npc",
+  "role": "Dirtmouth elder",
+  "area": {
+    "slug": "dirtmouth",
+    "name": "Dirtmouth"
+  },
+  "location": "Standing by the well in Dirtmouth.",
+  "summary": "The last remaining old resident of Dirtmouth. The first voice most players hear, and the one who quietly mourns as the town empties.",
+  "description": "Worries about the strangers who come and go from the well. Gives advice, hints about the Pale Lure charm, and a flower for the Grey Mourner's quest.",
+  "verified": false,
+  "wikiSlug": "Elderbug",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Elderbug"
+  ],
+  "_slug": "elderbug",
+  "_type": "characters"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "weaversong",
+  "name": "Weaversong",
+  "game": "hk",
+  "notchCost": 2,
+  "inventoryOrder": 37,
+  "effect": "Spawns up to three weaverling allies that attack enemies.",
+  "description": "Constantly maintains a trio of weaverling minions. They follow the Knight and deal nominal damage, but distract enemies remarkably well.",
+  "area": {
+    "slug": "weavers-den",
+    "name": "Weavers' Den"
+  },
+  "acquisition": "find",
+  "location": "Weavers' Den, deep in Deepnest.",
+  "synergies": [
+    "defenders-crest",
+    "grimmchild"
+  ],
+  "summary": "Three permanent weaverling allies. No SOUL cost.",
+  "verified": false,
+  "wikiSlug": "Weaversong",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Weaversong"
+  ],
+  "_slug": "weaversong",
+  "_type": "charms"
+}

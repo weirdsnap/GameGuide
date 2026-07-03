@@ -1,0 +1,23 @@
+{
+  "slug": "hornet",
+  "name": "Hornet",
+  "game": "hk",
+  "kind": "npc",
+  "role": "Princess-Protector of Hallownest",
+  "area": {
+    "slug": "greenpath",
+    "name": "Greenpath"
+  },
+  "location": "First confronted at the lake in Greenpath. Reappears in Deepnest's Beast's Den, the Abyss, Kingdom's Edge, and Godhome.",
+  "isBoss": true,
+  "bossSlug": "hornet-protector",
+  "summary": "Lithe, needle-wielding warrior who tests the Knight on the way down and stands beside them at the end. Half-sister, half-rival, fully iconic.",
+  "description": "Daughter of the Pale King and Herrah the Beast. She guards the secrets of Hallownest while quietly steering the Knight toward the void within. Returns as a playable protagonist in Silksong.",
+  "verified": false,
+  "wikiSlug": "Hornet",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Hornet"
+  ],
+  "_slug": "hornet",
+  "_type": "characters"
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "tiso",
+  "name": "Tiso",
+  "game": "hk",
+  "kind": "warrior",
+  "role": "Aimless adventurer",
+  "area": {
+    "slug": "dirtmouth",
+    "name": "Dirtmouth"
+  },
+  "location": "First met by the well in Dirtmouth. Reappears at Queen's Station, the Blue Lake, and finally the Colosseum of Fools.",
+  "summary": "Brash wanderer with a tower shield and big plans. Looking for a fight worthy of his name in the Colosseum.",
+  "description": "Gives the Knight his shield as a parting gift before entering the Colosseum. He never makes it out — his corpse marks the entrance to the Trial of the Conqueror.",
+  "verified": false,
+  "wikiSlug": "Tiso",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Tiso"
+  ],
+  "_slug": "tiso",
+  "_type": "characters"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "divine",
+  "name": "Divine",
+  "game": "hk",
+  "kind": "merchant",
+  "role": "Charm fragmenter",
+  "area": {
+    "slug": "dirtmouth",
+    "name": "Dirtmouth"
+  },
+  "location": "Sits inside her cart by the Grimm Troupe tent in Dirtmouth.",
+  "sells": [
+    "Fragile Heart (350 geo)",
+    "Fragile Greed (250 geo)",
+    "Fragile Strength (550 geo)",
+    "Devours fragile charms and returns geo and consumed Pale Ore"
+  ],
+  "summary": "Massive, ravenous bug of the Grimm Troupe. Crushes Unbreakable charms back into their Fragile form for a price — and a snack.",
+  "description": "Will consume any of the Knight's Unbreakable charms in exchange for geo, the original Pale Ore, and a freshly Fragile replacement. Useful, but lore-aligned with the Troupe's hunger.",
+  "verified": false,
+  "wikiSlug": "Divine",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Divine"
+  ],
+  "_slug": "divine",
+  "_type": "characters"
+}

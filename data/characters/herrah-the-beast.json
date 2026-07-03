@@ -1,0 +1,21 @@
+{
+  "slug": "herrah-the-beast",
+  "name": "Herrah the Beast",
+  "game": "hk",
+  "kind": "npc",
+  "role": "Dreamer of Hallownest, Queen of Deepnest",
+  "area": {
+    "slug": "distant-village",
+    "name": "Distant Village"
+  },
+  "location": "Asleep in her chamber in the Beast's Den, deep in the Distant Village.",
+  "summary": "Spider-queen who gave up everything — including her daughter Hornet — to bind the Radiance with her dream.",
+  "description": "Bargained with the Pale King to bear Hornet in exchange for her eternal sleep. Guarded in death by the spiders of Deepnest, with Hornet keeping the closest watch.",
+  "verified": false,
+  "wikiSlug": "Herrah_the_Beast",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Herrah_the_Beast"
+  ],
+  "_slug": "herrah-the-beast",
+  "_type": "characters"
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "husk-sentry",
+  "name": "Husk Sentry",
+  "game": "hk",
+  "kind": "enemy",
+  "role": "City of Tears guardsman",
+  "area": {
+    "slug": "city-of-tears",
+    "name": "City of Tears"
+  },
+  "hp": 35,
+  "damage": 1,
+  "geoDrop": 22,
+  "hunterJournal": {
+    "notes": "City guard infected by the orange plague. Swings a long blade and patrols once-grand streets that no longer need defending."
+  },
+  "summary": "Standard infected guardsman of the City of Tears. Slow walking, quick swing, dies in two hits to a moderately upgraded nail.",
+  "verified": false,
+  "wikiSlug": "Husk_Sentry",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Husk_Sentry"
+  ],
+  "_slug": "husk-sentry",
+  "_type": "characters"
+}

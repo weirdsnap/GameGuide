@@ -1,0 +1,21 @@
+{
+  "slug": "brumm",
+  "name": "Brumm",
+  "game": "hk",
+  "kind": "npc",
+  "role": "Troupe accordionist",
+  "area": {
+    "slug": "dirtmouth",
+    "name": "Dirtmouth"
+  },
+  "location": "Stands outside the Grimm Troupe's tent in Dirtmouth, leaning on his accordion.",
+  "summary": "Masked, brooding member of the Grimm Troupe. The only one who wants the cycle to end.",
+  "description": "Quietly offers the Knight an alternative to completing the Grimm ritual — retrieving the Nightmare Lantern from Distant Village and using it to banish Grimm forever, breaking the troupe.",
+  "verified": false,
+  "wikiSlug": "Brumm",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Brumm"
+  ],
+  "_slug": "brumm",
+  "_type": "characters"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "nailmaster-oro",
+  "name": "Nailmaster Oro",
+  "game": "hk",
+  "kind": "merchant",
+  "role": "Nailmaster",
+  "area": {
+    "slug": "kingdoms-edge",
+    "name": "Kingdom's Edge"
+  },
+  "location": "A snowy hut in the far reaches of Kingdom's Edge.",
+  "isBoss": true,
+  "bossSlug": "brothers-oro-and-mato",
+  "sells": [
+    "Dash Slash nail art (800 geo)"
+  ],
+  "summary": "Bitter, exiled Nailmaster who teaches the Dash Slash. The most reluctant of the three brothers.",
+  "description": "Estranged from his brothers Mato and Sheo. Acknowledges the Knight as a worthy student despite himself, and joins Mato in the Pantheon of the Sage.",
+  "verified": false,
+  "wikiSlug": "Nailmaster_Oro",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Nailmaster_Oro"
+  ],
+  "_slug": "nailmaster-oro",
+  "_type": "characters"
+}

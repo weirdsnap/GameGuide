@@ -1,0 +1,25 @@
+{
+  "slug": "sturdy-fool",
+  "name": "Sturdy Fool",
+  "game": "hk",
+  "kind": "enemy",
+  "role": "Colosseum bruiser",
+  "area": {
+    "slug": "colosseum-of-fools",
+    "name": "Colosseum of Fools"
+  },
+  "hp": 80,
+  "damage": 2,
+  "geoDrop": 35,
+  "hunterJournal": {
+    "notes": "Heavyset Colosseum competitor in armoured plate. Charges with a shoulder check, swings a club on the followup."
+  },
+  "summary": "Slow tank common to the Trial of the Warrior. Big hitbox, big swing, big geo drop on death.",
+  "verified": false,
+  "wikiSlug": "Sturdy_Fool",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Sturdy_Fool"
+  ],
+  "_slug": "sturdy-fool",
+  "_type": "characters"
+}

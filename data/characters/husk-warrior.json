@@ -1,0 +1,25 @@
+{
+  "slug": "husk-warrior",
+  "name": "Husk Warrior",
+  "game": "hk",
+  "kind": "enemy",
+  "role": "Elite infected guard",
+  "area": {
+    "slug": "city-of-tears",
+    "name": "City of Tears"
+  },
+  "hp": 55,
+  "damage": 1,
+  "geoDrop": 38,
+  "hunterJournal": {
+    "notes": "Husks that remember the soldier they were. Wield notched nails and rush forward in measured combinations."
+  },
+  "summary": "City of Tears soldier-husk with a real combat moveset — short swings and a horizontal lunge.",
+  "verified": false,
+  "wikiSlug": "Husk_Warrior",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Husk_Warrior"
+  ],
+  "_slug": "husk-warrior",
+  "_type": "characters"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "iselda",
+  "name": "Iselda",
+  "game": "hk",
+  "kind": "merchant",
+  "role": "Map shop owner",
+  "area": {
+    "slug": "dirtmouth",
+    "name": "Dirtmouth"
+  },
+  "location": "The map shop in Dirtmouth, next to the well.",
+  "sells": [
+    "Quill",
+    "Pins (Bench, Vendor, Stag, Spa, Tram, Grub, Cocoon, Whispering Root)",
+    "Compass charm note"
+  ],
+  "summary": "Cornifer's wife. Runs the map shop in Dirtmouth and sells the quill and every pin upgrade.",
+  "description": "Took up shop in Dirtmouth so she'd be there when Cornifer eventually came home. Friendly, dry-witted, and exactly as fond of her husband as he is of her.",
+  "verified": false,
+  "wikiSlug": "Iselda",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Iselda"
+  ],
+  "_slug": "iselda",
+  "_type": "characters"
+}

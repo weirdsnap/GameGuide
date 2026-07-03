@@ -1,0 +1,25 @@
+{
+  "slug": "gruzzer",
+  "name": "Gruzzer",
+  "game": "hk",
+  "kind": "enemy",
+  "role": "Bouncing flier",
+  "area": {
+    "slug": "forgotten-crossroads",
+    "name": "Forgotten Crossroads"
+  },
+  "hp": 10,
+  "damage": 1,
+  "geoDrop": 2,
+  "hunterJournal": {
+    "notes": "Dim-witted flying bug. Drifts through the air, bouncing off any surface it bumps. Heavy enough to knock the Knight off ledges."
+  },
+  "summary": "Round, lazy flier that ricochets through tunnels. Mostly an obstacle, not a threat.",
+  "verified": false,
+  "wikiSlug": "Gruzzer",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Gruzzer"
+  ],
+  "_slug": "gruzzer",
+  "_type": "characters"
+}

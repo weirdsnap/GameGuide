@@ -1,0 +1,27 @@
+{
+  "slug": "shape-of-unn",
+  "name": "Shape of Unn",
+  "game": "hk",
+  "notchCost": 2,
+  "inventoryOrder": 35,
+  "effect": "Allows the Knight to slide while Focusing.",
+  "description": "Lets the Knight slither during the Focus animation. Used to dodge boss attacks while healing — and to access a few platforming secrets.",
+  "area": {
+    "slug": "lake-of-unn",
+    "name": "Lake of Unn"
+  },
+  "acquisition": "find",
+  "location": "Talk to the slug atop Lake of Unn in Greenpath after acquiring Isma's Tear.",
+  "synergies": [
+    "quick-focus",
+    "baldur-shell"
+  ],
+  "summary": "Move while focusing. Niche but elegant.",
+  "verified": false,
+  "wikiSlug": "Shape_of_Unn",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Shape_of_Unn"
+  ],
+  "_slug": "shape-of-unn",
+  "_type": "charms"
+}

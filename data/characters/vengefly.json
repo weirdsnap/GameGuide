@@ -1,0 +1,25 @@
+{
+  "slug": "vengefly",
+  "name": "Vengefly",
+  "game": "hk",
+  "kind": "enemy",
+  "role": "Flying biter",
+  "area": {
+    "slug": "forgotten-crossroads",
+    "name": "Forgotten Crossroads"
+  },
+  "hp": 8,
+  "damage": 1,
+  "geoDrop": 2,
+  "hunterJournal": {
+    "notes": "Small carnivorous flier. Lunges at intruders with its tooth-lined mouth. Hunts in swarms when threatened."
+  },
+  "summary": "Common flying enemy across the Crossroads and Greenpath. Aggressive but fragile — usually a one-shot.",
+  "verified": false,
+  "wikiSlug": "Vengefly",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Vengefly"
+  ],
+  "_slug": "vengefly",
+  "_type": "characters"
+}

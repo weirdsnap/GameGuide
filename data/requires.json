@@ -1,0 +1,356 @@
+{
+  "dirtmouth": {
+    "forgotten-crossroads": [],
+    "kings-pass": [],
+    "howling-cliffs": []
+  },
+  "forgotten-crossroads": {
+    "dirtmouth": [],
+    "greenpath": [],
+    "fungal-wastes": [],
+    "ancestral-mound": [],
+    "temple-of-the-black-egg": [],
+    "crystal-peak": [
+      "desolate-dive"
+    ],
+    "resting-grounds": [
+      "desolate-dive"
+    ],
+    "ancient-basin": [
+      "desolate-dive"
+    ]
+  },
+  "kings-pass": {
+    "dirtmouth": []
+  },
+  "howling-cliffs": {
+    "dirtmouth": [],
+    "crystal-peak": [],
+    "stag-nest": [
+      "monarch-wings"
+    ]
+  },
+  "greenpath": {
+    "forgotten-crossroads": [],
+    "fog-canyon": [],
+    "lake-of-unn": [],
+    "stone-sanctuary": [],
+    "queens-gardens": [
+      "isma-tear",
+      "monarch-wings"
+    ]
+  },
+  "fungal-wastes": {
+    "forgotten-crossroads": [],
+    "fog-canyon": [],
+    "fungal-core": [],
+    "queens-station": [],
+    "mantis-village": [],
+    "deepnest": [
+      "mantis-claw"
+    ],
+    "city-of-tears": [
+      "mantis-claw",
+      "city-crest"
+    ]
+  },
+  "mantis-village": {
+    "fungal-wastes": [],
+    "deepnest": [
+      "mantis-claw"
+    ]
+  },
+  "fog-canyon": {
+    "greenpath": [],
+    "fungal-wastes": [],
+    "teachers-archives": [],
+    "overgrown-mound": [],
+    "queens-gardens": [
+      "isma-tear"
+    ]
+  },
+  "city-of-tears": {
+    "fungal-wastes": [],
+    "kings-station": [],
+    "soul-sanctum": [],
+    "pleasure-house": [
+      "simple-key"
+    ],
+    "tower-of-love": [
+      "love-key"
+    ],
+    "royal-waterways": [
+      "simple-key"
+    ],
+    "crystal-peak": [],
+    "resting-grounds": [
+      "desolate-dive"
+    ],
+    "kingdoms-edge": [
+      "monarch-wings"
+    ],
+    "ancient-basin": [
+      "isma-tear"
+    ]
+  },
+  "soul-sanctum": {
+    "city-of-tears": []
+  },
+  "kings-station": {
+    "city-of-tears": [],
+    "royal-waterways": [
+      "simple-key"
+    ]
+  },
+  "pleasure-house": {
+    "city-of-tears": []
+  },
+  "tower-of-love": {
+    "city-of-tears": []
+  },
+  "crystal-peak": {
+    "forgotten-crossroads": [
+      "desolate-dive"
+    ],
+    "resting-grounds": [
+      "crystal-heart"
+    ],
+    "city-of-tears": [],
+    "hallownests-crown": [],
+    "deep-focus-cavern": []
+  },
+  "hallownests-crown": {
+    "crystal-peak": []
+  },
+  "deep-focus-cavern": {
+    "crystal-peak": []
+  },
+  "resting-grounds": {
+    "forgotten-crossroads": [
+      "desolate-dive"
+    ],
+    "city-of-tears": [
+      "desolate-dive"
+    ],
+    "crystal-peak": [
+      "crystal-heart"
+    ],
+    "blue-lake": [],
+    "spirits-glade": []
+  },
+  "blue-lake": {
+    "resting-grounds": [],
+    "ancient-basin": []
+  },
+  "royal-waterways": {
+    "city-of-tears": [
+      "simple-key"
+    ],
+    "kings-station": [
+      "simple-key"
+    ],
+    "ismas-grove": [
+      "isma-tear"
+    ],
+    "ancient-basin": [
+      "isma-tear"
+    ],
+    "kingdoms-edge": [
+      "isma-tear"
+    ],
+    "junk-pit": []
+  },
+  "ismas-grove": {
+    "royal-waterways": [
+      "isma-tear"
+    ]
+  },
+  "junk-pit": {
+    "royal-waterways": [],
+    "godhome": [
+      "dream-nail"
+    ]
+  },
+  "deepnest": {
+    "fungal-wastes": [
+      "mantis-claw"
+    ],
+    "mantis-village": [
+      "mantis-claw"
+    ],
+    "failed-tramway": [],
+    "weavers-den": [],
+    "beasts-den": [],
+    "distant-village": [],
+    "ancient-basin": [],
+    "kingdoms-edge": [],
+    "queens-gardens": []
+  },
+  "ancient-basin": {
+    "forgotten-crossroads": [
+      "desolate-dive"
+    ],
+    "royal-waterways": [
+      "isma-tear"
+    ],
+    "city-of-tears": [
+      "isma-tear"
+    ],
+    "kingdoms-edge": [
+      "monarch-wings"
+    ],
+    "blue-lake": [],
+    "the-abyss": [
+      "kings-brand",
+      "monarch-wings"
+    ],
+    "hidden-station": [],
+    "palace-grounds": [
+      "dream-nail"
+    ]
+  },
+  "kingdoms-edge": {
+    "city-of-tears": [
+      "monarch-wings"
+    ],
+    "royal-waterways": [
+      "isma-tear"
+    ],
+    "ancient-basin": [
+      "monarch-wings"
+    ],
+    "colosseum-of-fools": [],
+    "cast-off-shell": [],
+    "the-hive": [
+      "monarch-wings"
+    ],
+    "deepnest": []
+  },
+  "colosseum-of-fools": {
+    "kingdoms-edge": []
+  },
+  "cast-off-shell": {
+    "kingdoms-edge": []
+  },
+  "the-hive": {
+    "kingdoms-edge": [
+      "monarch-wings"
+    ]
+  },
+  "the-abyss": {
+    "ancient-basin": [
+      "kings-brand",
+      "monarch-wings"
+    ],
+    "birthplace": [
+      "awoken-dream-nail"
+    ],
+    "lifeblood-core-chamber": [
+      "shade-cloak"
+    ]
+  },
+  "birthplace": {
+    "the-abyss": [
+      "awoken-dream-nail"
+    ]
+  },
+  "lifeblood-core-chamber": {
+    "the-abyss": [
+      "shade-cloak"
+    ]
+  },
+  "queens-gardens": {
+    "greenpath": [
+      "isma-tear",
+      "monarch-wings"
+    ],
+    "fog-canyon": [
+      "isma-tear"
+    ],
+    "deepnest": [],
+    "stag-nest": []
+  },
+  "stag-nest": {
+    "queens-gardens": [],
+    "howling-cliffs": [
+      "monarch-wings"
+    ]
+  },
+  "white-palace": {
+    "palace-grounds": [
+      "dream-nail"
+    ],
+    "path-of-pain": []
+  },
+  "path-of-pain": {
+    "white-palace": []
+  },
+  "godhome": {
+    "junk-pit": [
+      "dream-nail"
+    ],
+    "hall-of-gods": [],
+    "pantheons": []
+  },
+  "queens-station": {
+    "fungal-wastes": [],
+    "fog-canyon": []
+  },
+  "ancestral-mound": {
+    "forgotten-crossroads": []
+  },
+  "lake-of-unn": {
+    "greenpath": []
+  },
+  "stone-sanctuary": {
+    "greenpath": []
+  },
+  "teachers-archives": {
+    "fog-canyon": []
+  },
+  "overgrown-mound": {
+    "fog-canyon": []
+  },
+  "beasts-den": {
+    "deepnest": [],
+    "distant-village": []
+  },
+  "distant-village": {
+    "deepnest": [],
+    "beasts-den": []
+  },
+  "weavers-den": {
+    "deepnest": []
+  },
+  "failed-tramway": {
+    "deepnest": []
+  },
+  "hidden-station": {
+    "ancient-basin": []
+  },
+  "palace-grounds": {
+    "ancient-basin": [
+      "dream-nail"
+    ],
+    "white-palace": [
+      "dream-nail"
+    ]
+  },
+  "spirits-glade": {
+    "resting-grounds": [
+      "dream-nail"
+    ]
+  },
+  "king's-pass": {
+    "dirtmouth": []
+  },
+  "temple-of-the-black-egg": {
+    "forgotten-crossroads": []
+  },
+  "hall-of-gods": {
+    "godhome": []
+  },
+  "pantheons": {
+    "godhome": []
+  }
+}

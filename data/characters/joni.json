@@ -1,0 +1,21 @@
+{
+  "slug": "joni",
+  "name": "Joni",
+  "game": "hk",
+  "kind": "npc",
+  "role": "Hermit saint of the Cliffs",
+  "area": {
+    "slug": "howling-cliffs",
+    "name": "Howling Cliffs"
+  },
+  "location": "Her shrine sits in a hidden room in the Howling Cliffs, reached from the dive-bombed roof of the Cliffs.",
+  "summary": "A pacifist saint who replaced her own soul with Lifeblood. Her shrine grants the Knight her Blessing.",
+  "description": "Could no longer endure the strikes of the world, so she filled her body with the blue blood instead. The Joni's Blessing charm trades the Knight's normal masks for fewer, more numerous Lifeblood ones.",
+  "verified": false,
+  "wikiSlug": "Joni",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Joni"
+  ],
+  "_slug": "joni",
+  "_type": "characters"
+}

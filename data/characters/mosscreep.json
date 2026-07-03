@@ -1,0 +1,25 @@
+{
+  "slug": "mosscreep",
+  "name": "Mosscreep",
+  "game": "hk",
+  "kind": "enemy",
+  "role": "Greenpath sprout",
+  "area": {
+    "slug": "greenpath",
+    "name": "Greenpath"
+  },
+  "hp": 1,
+  "damage": 1,
+  "geoDrop": 1,
+  "hunterJournal": {
+    "notes": "Smallest of the moss-bug family. Crawls in short hops between safe patches."
+  },
+  "summary": "Cute, harmless first-zone enemy. Dies in one hit. Great practice for the timing on overlapping Mossfly swarms.",
+  "verified": false,
+  "wikiSlug": "Mosscreep",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Mosscreep"
+  ],
+  "_slug": "mosscreep",
+  "_type": "characters"
+}

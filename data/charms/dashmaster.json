@@ -1,0 +1,27 @@
+{
+  "slug": "dashmaster",
+  "name": "Dashmaster",
+  "game": "hk",
+  "notchCost": 2,
+  "inventoryOrder": 8,
+  "effect": "Reduces the cooldown of the dash and enables a downward dash.",
+  "description": "Shortens dash cooldown from 0.6 to 0.4 seconds and unlocks a vertical down-dash. Essential for speedruns and precision platforming.",
+  "area": {
+    "slug": "royal-waterways",
+    "name": "Royal Waterways"
+  },
+  "acquisition": "find",
+  "location": "Royal Waterways — behind a hidden wall near the dung pool, requires Mantis Claw to reach.",
+  "summary": "Faster, longer dashes and a new down-dash. Heavy synergy with Sharp Shadow.",
+  "synergies": [
+    "sharp-shadow",
+    "sprintmaster"
+  ],
+  "verified": false,
+  "wikiSlug": "Dashmaster",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Dashmaster"
+  ],
+  "_slug": "dashmaster",
+  "_type": "charms"
+}

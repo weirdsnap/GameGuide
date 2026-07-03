@@ -1,0 +1,22 @@
+{
+  "slug": "kings-station",
+  "name": "King's Station",
+  "game": "hk",
+  "kind": "subarea",
+  "parent": "city-of-tears",
+  "connectsTo": {
+    "city-of-tears": [],
+    "royal-waterways": [
+      "simple-key"
+    ]
+  },
+  "stagStation": "King's Station",
+  "summary": "The largest Stag terminus in Hallownest. Sits on the eastern edge of the City of Tears and connects down to the Royal Waterways.",
+  "verified": false,
+  "wikiSlug": "King%27s_Station",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/King%27s_Station"
+  ],
+  "_slug": "kings-station",
+  "_type": "areas"
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "jinn",
+  "name": "Jinn",
+  "game": "hk",
+  "kind": "merchant",
+  "role": "Rancid Egg trader",
+  "area": {
+    "slug": "resting-grounds",
+    "name": "Resting Grounds"
+  },
+  "location": "Beneath a tarp in the Resting Grounds, west of the graveyard.",
+  "sells": [
+    "Buys Rancid Eggs (60 geo each, rising with each sale)",
+    "Will trade her last egg for a Charm Notch"
+  ],
+  "summary": "Mysterious cloaked dealer who only trades for the Rancid Eggs nobody else wants.",
+  "description": "Her prices climb with every egg sold. Trading enough eventually exhausts her stock; on the final egg she gifts the Knight a Charm Notch instead.",
+  "verified": false,
+  "wikiSlug": "Jinn",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Jinn"
+  ],
+  "_slug": "jinn",
+  "_type": "characters"
+}

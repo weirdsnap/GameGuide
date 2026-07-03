@@ -1,0 +1,29 @@
+{
+  "slug": "lifeblood-heart",
+  "name": "Lifeblood Heart",
+  "game": "hk",
+  "notchCost": 2,
+  "inventoryOrder": 29,
+  "effect": "Grants two extra blue Lifeblood masks at every bench.",
+  "description": "Adds 2 Lifeblood (blue) masks that absorb damage before the regular health bar. Renewed by resting.",
+  "cost": 250,
+  "area": {
+    "slug": "forgotten-crossroads",
+    "name": "Forgotten Crossroads"
+  },
+  "merchant": "salubra",
+  "acquisition": "purchase",
+  "location": "Salubra's hut in the Forgotten Crossroads.",
+  "synergies": [
+    "lifeblood-core",
+    "jonis-blessing"
+  ],
+  "summary": "2 free blue masks per bench. Cheap and reliable.",
+  "verified": false,
+  "wikiSlug": "Lifeblood_Heart",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Lifeblood_Heart"
+  ],
+  "_slug": "lifeblood-heart",
+  "_type": "charms"
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "howling-wraiths",
+  "name": "Howling Wraiths",
+  "game": "hk",
+  "kind": "spell",
+  "soulCost": 33,
+  "damage": 40,
+  "effect": "Unleash a cone of howling wraiths upward.",
+  "description": "Casts three spectral wraiths above the Knight in a vertical arc. Best used against high-flying or grounded targets standing close enough.",
+  "acquisition": "Found in a sealed room within Howling Cliffs, accessed via the Mothwing Cloak.",
+  "area": {
+    "slug": "howling-cliffs",
+    "name": "Howling Cliffs"
+  },
+  "upgradesTo": "abyss-shriek",
+  "summary": "Upward cone of damage. Great anti-air spell.",
+  "verified": false,
+  "wikiSlug": "Howling_Wraiths",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Howling_Wraiths"
+  ],
+  "_slug": "howling-wraiths",
+  "_type": "skills"
+}

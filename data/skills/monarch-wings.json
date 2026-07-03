@@ -1,0 +1,21 @@
+{
+  "slug": "monarch-wings",
+  "name": "Monarch Wings",
+  "game": "hk",
+  "kind": "movement",
+  "effect": "Beat ethereal wings to double-jump in midair.",
+  "description": "Adds a double-jump that can be combined with the dash to reach almost anywhere. Required for the late-game traversal puzzles.",
+  "acquisition": "Found in the Ancient Basin, in a chamber guarded by the Broken Vessel.",
+  "area": {
+    "slug": "ancient-basin",
+    "name": "Ancient Basin"
+  },
+  "summary": "Double jump. Reward for defeating the Broken Vessel.",
+  "verified": false,
+  "wikiSlug": "Monarch_Wings",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Monarch_Wings"
+  ],
+  "_slug": "monarch-wings",
+  "_type": "skills"
+}

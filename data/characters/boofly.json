@@ -1,0 +1,25 @@
+{
+  "slug": "boofly",
+  "name": "Boofly",
+  "game": "hk",
+  "kind": "enemy",
+  "role": "Bloated flier",
+  "area": {
+    "slug": "kingdoms-edge",
+    "name": "Kingdom's Edge"
+  },
+  "hp": 25,
+  "damage": 1,
+  "geoDrop": 12,
+  "hunterJournal": {
+    "notes": "Lazy, swollen fly that drifts above pits. Falls straight down once struck, killing anything in the lane."
+  },
+  "summary": "Slow flier whose corpse turns into a homing brick when hit. A reliable hazard above acid pools.",
+  "verified": false,
+  "wikiSlug": "Boofly",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Boofly"
+  ],
+  "_slug": "boofly",
+  "_type": "characters"
+}

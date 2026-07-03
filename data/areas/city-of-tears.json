@@ -1,0 +1,44 @@
+{
+  "slug": "city-of-tears",
+  "name": "City of Tears",
+  "game": "hk",
+  "kind": "region",
+  "connectsTo": {
+    "fungal-wastes": [],
+    "royal-waterways": [
+      "simple-key"
+    ],
+    "crystal-peak": [],
+    "ancient-basin": [
+      "isma-tear"
+    ],
+    "resting-grounds": [
+      "desolate-dive"
+    ],
+    "kingdoms-edge": [
+      "monarch-wings"
+    ],
+    "kings-station": [],
+    "soul-sanctum": [],
+    "pleasure-house": [
+      "simple-key"
+    ],
+    "tower-of-love": [
+      "love-key"
+    ]
+  },
+  "stagStation": "City Storerooms, King's Station",
+  "music": {
+    "title": "City of Tears",
+    "spotifyTrackId": "0nD62ke95NJvAI8chsRjRg"
+  },
+  "summary": "The rain-soaked capital of Hallownest. Central crossroads of the lower kingdom and home to the Watcher Knights, Soul Master, and the Collector.",
+  "description": "Five Stag stations branch from here; the Soul Sanctum, Pleasure House, King's Station, and Tower of Love are all sub-districts. Always raining inside.",
+  "verified": false,
+  "wikiSlug": "City_of_Tears",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/City_of_Tears"
+  ],
+  "_slug": "city-of-tears",
+  "_type": "areas"
+}

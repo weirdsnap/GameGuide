@@ -1,0 +1,26 @@
+{
+  "slug": "husk-miner",
+  "name": "Husk Miner",
+  "game": "hk",
+  "kind": "enemy",
+  "role": "Infected miner",
+  "area": {
+    "slug": "crystal-peak",
+    "name": "Crystal Peak"
+  },
+  "hp": 35,
+  "damage": 1,
+  "geoDrop": 8,
+  "hunterJournal": {
+    "notes": "Lost miner of Crystal Peak, still swinging a heavy pick at the seams long after their mind has gone."
+  },
+  "summary": "Standard Crystal Peak enemy. Wide overhead pick-swing, slow recovery, drops a satisfying pile of geo and crystals.",
+  "description": "Myla's final form joins the rest of the Crystal Peak miners once the Infection takes hold. The room is the same; the song is gone.",
+  "verified": false,
+  "wikiSlug": "Husk_Miner",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Husk_Miner"
+  ],
+  "_slug": "husk-miner",
+  "_type": "characters"
+}

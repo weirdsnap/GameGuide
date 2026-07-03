@@ -1,0 +1,31 @@
+{
+  "slug": "fragile-strength",
+  "name": "Fragile Strength",
+  "game": "hk",
+  "notchCost": 3,
+  "inventoryOrder": 14,
+  "fragile": true,
+  "effect": "Increases nail damage by 50%. Breaks on death.",
+  "description": "+50% multiplier to all melee nail damage. Stacks multiplicatively with other damage modifiers and is the single biggest damage charm in the game.",
+  "cost": 600,
+  "area": {
+    "slug": "fungal-wastes",
+    "name": "Fungal Wastes"
+  },
+  "merchant": "leg-eater",
+  "acquisition": "purchase",
+  "upgradesTo": "unbreakable-strength",
+  "location": "Leg Eater's hut in the Fungal Wastes.",
+  "summary": "+50% nail damage. Breaks on death.",
+  "synergies": [
+    "quick-slash",
+    "mark-of-pride"
+  ],
+  "verified": false,
+  "wikiSlug": "Fragile_Strength",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Fragile_Strength"
+  ],
+  "_slug": "fragile-strength",
+  "_type": "charms"
+}

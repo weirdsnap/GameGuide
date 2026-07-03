@@ -1,0 +1,29 @@
+{
+  "slug": "shaman-stone",
+  "name": "Shaman Stone",
+  "game": "hk",
+  "notchCost": 3,
+  "inventoryOrder": 6,
+  "effect": "Spells deal more damage and travel further.",
+  "description": "+33% damage on Vengeful Spirit/Shade Soul, Howling Wraiths/Abyss Shriek, and Desolate Dive/Descending Dark. Backbone of any spellcaster build.",
+  "cost": 220,
+  "area": {
+    "slug": "forgotten-crossroads",
+    "name": "Forgotten Crossroads"
+  },
+  "merchant": "salubra",
+  "acquisition": "purchase",
+  "location": "Salubra's hut in the Forgotten Crossroads.",
+  "synergies": [
+    "spell-twister",
+    "soul-eater"
+  ],
+  "summary": "Massive spell-damage boost. Required for serious caster builds.",
+  "verified": false,
+  "wikiSlug": "Shaman_Stone",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Shaman_Stone"
+  ],
+  "_slug": "shaman-stone",
+  "_type": "charms"
+}

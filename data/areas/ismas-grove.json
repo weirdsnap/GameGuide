@@ -1,0 +1,20 @@
+{
+  "slug": "ismas-grove",
+  "name": "Isma's Grove",
+  "game": "hk",
+  "kind": "subarea",
+  "parent": "royal-waterways",
+  "connectsTo": {
+    "royal-waterways": [
+      "isma-tear"
+    ]
+  },
+  "summary": "A small acid-bathed grove at the western tip of the Royal Waterways. Holds Isma's Tear, which lets the Knight swim through acid.",
+  "verified": false,
+  "wikiSlug": "Isma%27s_Grove",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Isma%27s_Grove"
+  ],
+  "_slug": "ismas-grove",
+  "_type": "areas"
+}

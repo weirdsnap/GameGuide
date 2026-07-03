@@ -1,0 +1,26 @@
+{
+  "slug": "nailmaster-sheo",
+  "name": "Nailmaster Sheo",
+  "game": "hk",
+  "kind": "merchant",
+  "role": "Nailmaster, painter",
+  "area": {
+    "slug": "greenpath",
+    "name": "Greenpath"
+  },
+  "location": "A leafy hut tucked into the depths of Greenpath.",
+  "isBoss": true,
+  "bossSlug": "paintmaster-sheo",
+  "sells": [
+    "Great Slash nail art (800 geo)"
+  ],
+  "summary": "Gentle Nailmaster who put down the blade to paint. Teaches the Great Slash anyway, just in case.",
+  "description": "Picks the nail back up in the Pantheon of the Sage as Paintmaster Sheo, ink swirling around his sweeping strikes. Welcomes the Nailsmith to retire with him if spared.",
+  "verified": false,
+  "wikiSlug": "Nailmaster_Sheo",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Nailmaster_Sheo"
+  ],
+  "_slug": "nailmaster-sheo",
+  "_type": "characters"
+}

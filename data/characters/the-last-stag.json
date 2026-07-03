@@ -1,0 +1,21 @@
+{
+  "slug": "the-last-stag",
+  "name": "The Last Stag",
+  "game": "hk",
+  "kind": "npc",
+  "role": "Stagway courier",
+  "area": {
+    "slug": "forgotten-crossroads",
+    "name": "Forgotten Crossroads"
+  },
+  "location": "First met at the Forgotten Crossroads Stag Station. Travels every Stagway.",
+  "summary": "The final living Great Stag of Hallownest. Ferries the Knight between Stag Stations for a small geo fee.",
+  "description": "Wakes from a long sleep when the Knight rings the first Stag bell. Each new station added to his network unlocks fast travel and a short memory of the kingdom he once served.",
+  "verified": false,
+  "wikiSlug": "The_Last_Stag",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/The_Last_Stag"
+  ],
+  "_slug": "the-last-stag",
+  "_type": "characters"
+}

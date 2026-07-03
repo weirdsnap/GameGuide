@@ -1,0 +1,24 @@
+{
+  "slug": "white-lady",
+  "name": "White Lady",
+  "game": "hk",
+  "kind": "npc",
+  "role": "Higher Being, Pale Queen",
+  "area": {
+    "slug": "queens-gardens",
+    "name": "Queen's Gardens"
+  },
+  "location": "Sealed inside the Queen's overgrown chamber, reachable from the bottom of the gardens through a thorn-blocked passage.",
+  "summary": "Pale, root-bound queen of Hallownest. Wife of the Pale King and mother of the Vessels and Hornet.",
+  "description": "Receiving the Charm of her bound seed (Kingsoul) requires Awoken Dream Nailing both her and the Pale King's broken remains. The fused Kingsoul becomes the Void Heart key to the true ending.",
+  "sells": [
+    "Half of the Kingsoul charm"
+  ],
+  "verified": false,
+  "wikiSlug": "White_Lady",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/White_Lady"
+  ],
+  "_slug": "white-lady",
+  "_type": "characters"
+}

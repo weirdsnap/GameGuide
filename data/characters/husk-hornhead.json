@@ -1,0 +1,25 @@
+{
+  "slug": "husk-hornhead",
+  "name": "Husk Hornhead",
+  "game": "hk",
+  "kind": "enemy",
+  "role": "Charging infected",
+  "area": {
+    "slug": "forgotten-crossroads",
+    "name": "Forgotten Crossroads"
+  },
+  "hp": 30,
+  "damage": 1,
+  "geoDrop": 9,
+  "hunterJournal": {
+    "notes": "Husk grown a single sharp horn from its skull. Lowers its head and charges forward in a straight line until it hits a wall."
+  },
+  "summary": "Crossroads husk that telegraphs a long horizontal charge. Easy to bait and punish.",
+  "verified": false,
+  "wikiSlug": "Husk_Hornhead",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Husk_Hornhead"
+  ],
+  "_slug": "husk-hornhead",
+  "_type": "characters"
+}

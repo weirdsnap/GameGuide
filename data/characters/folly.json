@@ -1,0 +1,25 @@
+{
+  "slug": "folly",
+  "name": "Folly",
+  "game": "hk",
+  "kind": "enemy",
+  "role": "Cackling skull",
+  "area": {
+    "slug": "colosseum-of-fools",
+    "name": "Colosseum of Fools"
+  },
+  "hp": 1,
+  "damage": 1,
+  "geoDrop": 0,
+  "hunterJournal": {
+    "notes": "Floating skull. Doesn't hurt much on its own, but the Colosseum spawns them by the wave."
+  },
+  "summary": "Lightweight Colosseum spawn. Pops in a single hit; the danger is in the swarm timing, not the unit.",
+  "verified": false,
+  "wikiSlug": "Folly",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Folly"
+  ],
+  "_slug": "folly",
+  "_type": "characters"
+}

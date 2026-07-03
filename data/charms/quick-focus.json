@@ -1,0 +1,29 @@
+{
+  "slug": "quick-focus",
+  "name": "Quick Focus",
+  "game": "hk",
+  "notchCost": 3,
+  "inventoryOrder": 27,
+  "effect": "Focus heals the Knight faster.",
+  "description": "Reduces the Focus animation from 1.83s to 1.33s. Lifesaver against the faster late-game bosses.",
+  "cost": 800,
+  "area": {
+    "slug": "forgotten-crossroads",
+    "name": "Forgotten Crossroads"
+  },
+  "merchant": "salubra",
+  "acquisition": "purchase",
+  "location": "Salubra's hut in the Forgotten Crossroads.",
+  "synergies": [
+    "baldur-shell",
+    "grubsong"
+  ],
+  "summary": "Faster Focus animation. Pairs naturally with Grubsong.",
+  "verified": false,
+  "wikiSlug": "Quick_Focus",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Quick_Focus"
+  ],
+  "_slug": "quick-focus",
+  "_type": "charms"
+}

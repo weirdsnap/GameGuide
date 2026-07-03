@@ -1,0 +1,30 @@
+{
+  "slug": "unbreakable-strength",
+  "name": "Unbreakable Strength",
+  "game": "hk",
+  "notchCost": 3,
+  "inventoryOrder": 14,
+  "effect": "Increases nail damage by 50%. No longer breaks on death.",
+  "description": "Permanent version of Fragile Strength. Forged by Divine for an extra 15,000 geo on top of the broken charm.",
+  "cost": 15000,
+  "area": {
+    "slug": "dirtmouth",
+    "name": "Dirtmouth"
+  },
+  "merchant": "divine",
+  "acquisition": "purchase",
+  "upgradeOf": "fragile-strength",
+  "location": "Divine's tent in Dirtmouth, after the Grimm Troupe arrives.",
+  "summary": "Unbreakable +50% nail damage. Most builds run this permanently.",
+  "synergies": [
+    "quick-slash",
+    "mark-of-pride"
+  ],
+  "verified": false,
+  "wikiSlug": "Unbreakable_Strength",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Unbreakable_Strength"
+  ],
+  "_slug": "unbreakable-strength",
+  "_type": "charms"
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "primal-aspid",
+  "name": "Primal Aspid",
+  "game": "hk",
+  "kind": "enemy",
+  "role": "Crystal Peak spitter",
+  "area": {
+    "slug": "crystal-peak",
+    "name": "Crystal Peak"
+  },
+  "hp": 25,
+  "damage": 1,
+  "geoDrop": 22,
+  "hunterJournal": {
+    "notes": "Earlier, more savage cousin of the Aspid Hunter. Hovers and fires a tighter triple-shot from a longer range."
+  },
+  "summary": "Primal flying spitter found in Crystal Peak and Kingdom's Edge. The reason most pogo runs get reset.",
+  "verified": false,
+  "wikiSlug": "Primal_Aspid",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Primal_Aspid"
+  ],
+  "_slug": "primal-aspid",
+  "_type": "characters"
+}

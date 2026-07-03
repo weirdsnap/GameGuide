@@ -1,0 +1,402 @@
+[
+  {
+    "slug": "abyss-shriek",
+    "name": "Abyss Shriek",
+    "game": "hk",
+    "kind": "spell",
+    "soulCost": 33,
+    "damage": 80,
+    "effect": "Unleash a more powerful shriek that engulfs enemies in shadow.",
+    "description": "Howling Wraiths' upgrade. Four void-touched wraiths sweep upward, dealing massive AoE damage.",
+    "acquisition": "Found in a chamber at the heart of the Abyss, requires the King's Brand.",
+    "area": {
+      "slug": "the-abyss",
+      "name": "The Abyss"
+    },
+    "upgradeOf": "howling-wraiths",
+    "summary": "Howling Wraiths' upgraded form. 80 damage AoE upward.",
+    "verified": false,
+    "wikiSlug": "Abyss_Shriek",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Abyss_Shriek"
+    ],
+    "_slug": "abyss-shriek",
+    "_type": "skills"
+  },
+  {
+    "slug": "awoken-dream-nail",
+    "name": "Awoken Dream Nail",
+    "game": "hk",
+    "kind": "dream",
+    "effect": "Charges faster and pierces the veil of higher dreams.",
+    "description": "Upgraded Dream Nail granted by the Seer after collecting 1800 essence. Required to enter the White Palace and to dream into bosses for the Hall of Gods.",
+    "acquisition": "Awarded by the Seer in Spirit's Glade after collecting 1,800 dream essence.",
+    "area": {
+      "slug": "spirits-glade",
+      "name": "Spirit's Glade"
+    },
+    "upgradeOf": "dream-nail",
+    "summary": "Stronger Dream Nail. Unlocks the White Palace.",
+    "verified": false,
+    "wikiSlug": "Awoken_Dream_Nail",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Awoken_Dream_Nail"
+    ],
+    "_slug": "awoken-dream-nail",
+    "_type": "skills"
+  },
+  {
+    "slug": "crystal-heart",
+    "name": "Crystal Heart",
+    "game": "hk",
+    "kind": "movement",
+    "effect": "Channel crystal energy to dash across long distances.",
+    "description": "Hold the skill button to charge, then release for a long horizontal or vertical super-dash. Required to clear several crystal-walled rooms.",
+    "acquisition": "Found in the deepest chamber of Crystal Peak, past the Crystal Guardian.",
+    "area": {
+      "slug": "crystal-peak",
+      "name": "Crystal Peak"
+    },
+    "summary": "Long charge-and-release super-dash from Crystal Peak.",
+    "verified": false,
+    "wikiSlug": "Crystal_Heart",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Crystal_Heart"
+    ],
+    "_slug": "crystal-heart",
+    "_type": "skills"
+  },
+  {
+    "slug": "cyclone-slash",
+    "name": "Cyclone Slash",
+    "game": "hk",
+    "kind": "nail-art",
+    "effect": "Whirl the nail in a damaging spinning attack.",
+    "description": "Hold the nail button while standing still to spin in place, hitting all sides repeatedly. Strong against tightly packed enemies.",
+    "acquisition": "Taught by Nailmaster Mato in the Howling Cliffs.",
+    "area": {
+      "slug": "howling-cliffs",
+      "name": "Howling Cliffs"
+    },
+    "summary": "Spinning AoE nail art. Taught by Mato.",
+    "verified": false,
+    "wikiSlug": "Cyclone_Slash",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Cyclone_Slash"
+    ],
+    "_slug": "cyclone-slash",
+    "_type": "skills"
+  },
+  {
+    "slug": "dash-slash",
+    "name": "Dash Slash",
+    "game": "hk",
+    "kind": "nail-art",
+    "effect": "Dash forward with a charged slash, dealing heavy damage.",
+    "description": "After charging the nail art, release while moving to dart forward with extended reach. Best of the three nail arts for closing distance.",
+    "acquisition": "Taught by Nailmaster Oro in Kingdom's Edge.",
+    "area": {
+      "slug": "kingdoms-edge",
+      "name": "Kingdom's Edge"
+    },
+    "summary": "Forward charging slash nail art. Taught by Oro.",
+    "verified": false,
+    "wikiSlug": "Dash_Slash",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Dash_Slash"
+    ],
+    "_slug": "dash-slash",
+    "_type": "skills"
+  },
+  {
+    "slug": "descending-dark",
+    "name": "Descending Dark",
+    "game": "hk",
+    "kind": "spell",
+    "soulCost": 33,
+    "damage": 65,
+    "effect": "Smash downward with greater force, granting brief invulnerability.",
+    "description": "Desolate Dive's upgrade. Bigger shockwave, higher damage, and an i-frame window on the way down.",
+    "acquisition": "Found at the bottom of Crystal Peak's hidden Crystal Shrine.",
+    "area": {
+      "slug": "crystal-peak",
+      "name": "Crystal Peak"
+    },
+    "upgradeOf": "desolate-dive",
+    "summary": "Stronger Desolate Dive with invuln frames. 65 damage at the impact.",
+    "verified": false,
+    "wikiSlug": "Descending_Dark",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Descending_Dark"
+    ],
+    "_slug": "descending-dark",
+    "_type": "skills"
+  },
+  {
+    "slug": "desolate-dive",
+    "name": "Desolate Dive",
+    "game": "hk",
+    "kind": "spell",
+    "soulCost": 33,
+    "damage": 35,
+    "effect": "Smash downward with a soul-empowered nail blast.",
+    "description": "Launches the Knight straight down. Damages enemies on impact and produces a shockwave that breaks soul-cracked floors.",
+    "acquisition": "Reward for defeating the Soul Master atop the Soul Sanctum.",
+    "area": {
+      "slug": "soul-sanctum",
+      "name": "Soul Sanctum"
+    },
+    "upgradesTo": "descending-dark",
+    "summary": "Soul-powered ground slam. Required to break soft floors.",
+    "verified": false,
+    "wikiSlug": "Desolate_Dive",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Desolate_Dive"
+    ],
+    "_slug": "desolate-dive",
+    "_type": "skills"
+  },
+  {
+    "slug": "dream-gate",
+    "name": "Dream Gate",
+    "game": "hk",
+    "kind": "dream",
+    "effect": "Place a portable warp point that the Knight can return to at any time.",
+    "description": "Plant a dream-gate marker anywhere in Hallownest, then warp back from any bench or rest spot. Cuts hours off of late-game backtracking.",
+    "acquisition": "Purchased from the Seer for 600 dream essence in Spirit's Glade.",
+    "area": {
+      "slug": "spirits-glade",
+      "name": "Spirit's Glade"
+    },
+    "summary": "Plantable warp point. Game-changing for late-game traversal.",
+    "verified": false,
+    "wikiSlug": "Dream_Gate",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Dream_Gate"
+    ],
+    "_slug": "dream-gate",
+    "_type": "skills"
+  },
+  {
+    "slug": "dream-nail",
+    "name": "Dream Nail",
+    "game": "hk",
+    "kind": "dream",
+    "effect": "Cut through the veil of dreams. Drains SOUL from enemies.",
+    "description": "A second nail used to read inner thoughts, harvest dream essence, and open Dream Gates. Drains 33 SOUL per hit on enemies.",
+    "acquisition": "Awoken from the Seer's hand in Spirit's Glade.",
+    "area": {
+      "slug": "spirits-glade",
+      "name": "Spirit's Glade"
+    },
+    "upgradesTo": "awoken-dream-nail",
+    "summary": "Cuts the dream veil. Harvest essence; read thoughts.",
+    "verified": false,
+    "wikiSlug": "Dream_Nail",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Dream_Nail"
+    ],
+    "_slug": "dream-nail",
+    "_type": "skills"
+  },
+  {
+    "slug": "great-slash",
+    "name": "Great Slash",
+    "game": "hk",
+    "kind": "nail-art",
+    "effect": "Unleash a massive, wide-arc slash from the nail.",
+    "description": "The flagship nail art: a powerful horizontal slash with extreme reach. Most rewarding when paired with Fragile Strength and Nailmaster's Glory.",
+    "acquisition": "Taught by Nailmaster Sheo in the Greenpath underflow rooms.",
+    "area": {
+      "slug": "greenpath",
+      "name": "Greenpath"
+    },
+    "summary": "Wide, heavy slash nail art. Taught by Sheo.",
+    "verified": false,
+    "wikiSlug": "Great_Slash",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Great_Slash"
+    ],
+    "_slug": "great-slash",
+    "_type": "skills"
+  },
+  {
+    "slug": "howling-wraiths",
+    "name": "Howling Wraiths",
+    "game": "hk",
+    "kind": "spell",
+    "soulCost": 33,
+    "damage": 40,
+    "effect": "Unleash a cone of howling wraiths upward.",
+    "description": "Casts three spectral wraiths above the Knight in a vertical arc. Best used against high-flying or grounded targets standing close enough.",
+    "acquisition": "Found in a sealed room within Howling Cliffs, accessed via the Mothwing Cloak.",
+    "area": {
+      "slug": "howling-cliffs",
+      "name": "Howling Cliffs"
+    },
+    "upgradesTo": "abyss-shriek",
+    "summary": "Upward cone of damage. Great anti-air spell.",
+    "verified": false,
+    "wikiSlug": "Howling_Wraiths",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Howling_Wraiths"
+    ],
+    "_slug": "howling-wraiths",
+    "_type": "skills"
+  },
+  {
+    "slug": "ismas-tear",
+    "name": "Isma's Tear",
+    "game": "hk",
+    "kind": "movement",
+    "effect": "Walk and swim safely through pools of acid.",
+    "description": "Grants immunity to the acid that fills Royal Waterways and parts of Greenpath. Required for several mid-to-late-game routes.",
+    "acquisition": "Found in Isma's Grove, deep in the Royal Waterways.",
+    "area": {
+      "slug": "ismas-grove",
+      "name": "Isma's Grove"
+    },
+    "summary": "Acid immunity. Hidden in Isma's Grove.",
+    "verified": false,
+    "wikiSlug": "Isma%27s_Tear",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Isma%27s_Tear"
+    ],
+    "_slug": "ismas-tear",
+    "_type": "skills"
+  },
+  {
+    "slug": "mantis-claw",
+    "name": "Mantis Claw",
+    "game": "hk",
+    "kind": "movement",
+    "effect": "Wall-cling and wall-jump from any vertical surface.",
+    "description": "Allows the Knight to grip walls and leap off them. The single biggest exploration unlock in the entire game.",
+    "acquisition": "Defeat the Mantis Lords in the Fungal Wastes.",
+    "area": {
+      "slug": "mantis-village",
+      "name": "Mantis Village"
+    },
+    "summary": "Wall-cling and wall-jump. Granted by the Mantis Lords.",
+    "verified": false,
+    "wikiSlug": "Mantis_Claw",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Mantis_Claw"
+    ],
+    "_slug": "mantis-claw",
+    "_type": "skills"
+  },
+  {
+    "slug": "monarch-wings",
+    "name": "Monarch Wings",
+    "game": "hk",
+    "kind": "movement",
+    "effect": "Beat ethereal wings to double-jump in midair.",
+    "description": "Adds a double-jump that can be combined with the dash to reach almost anywhere. Required for the late-game traversal puzzles.",
+    "acquisition": "Found in the Ancient Basin, in a chamber guarded by the Broken Vessel.",
+    "area": {
+      "slug": "ancient-basin",
+      "name": "Ancient Basin"
+    },
+    "summary": "Double jump. Reward for defeating the Broken Vessel.",
+    "verified": false,
+    "wikiSlug": "Monarch_Wings",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Monarch_Wings"
+    ],
+    "_slug": "monarch-wings",
+    "_type": "skills"
+  },
+  {
+    "slug": "mothwing-cloak",
+    "name": "Mothwing Cloak",
+    "game": "hk",
+    "kind": "movement",
+    "effect": "Dash forward through the air.",
+    "description": "Grants a short horizontal dash on cooldown. Foundational mobility — required to cross most gaps in Greenpath and beyond.",
+    "acquisition": "Defeat Hornet in Greenpath.",
+    "area": {
+      "slug": "greenpath",
+      "name": "Greenpath"
+    },
+    "upgradesTo": "shade-cloak",
+    "summary": "Short forward dash. Hornet's gift after Greenpath.",
+    "verified": false,
+    "wikiSlug": "Mothwing_Cloak",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Mothwing_Cloak"
+    ],
+    "_slug": "mothwing-cloak",
+    "_type": "skills"
+  },
+  {
+    "slug": "shade-cloak",
+    "name": "Shade Cloak",
+    "game": "hk",
+    "kind": "movement",
+    "effect": "Dash through enemies and hazards with brief invulnerability.",
+    "description": "Mothwing Cloak's upgrade. Passes through enemies and hazards. Required to cross Shade Gates throughout Hallownest.",
+    "acquisition": "Acquired by dashing through the Abyss Shade in the bottom of the Abyss after acquiring the King's Brand.",
+    "area": {
+      "slug": "the-abyss",
+      "name": "The Abyss"
+    },
+    "upgradeOf": "mothwing-cloak",
+    "summary": "Shadow-dash that passes through enemies and Shade Gates.",
+    "verified": false,
+    "wikiSlug": "Shade_Cloak",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Shade_Cloak"
+    ],
+    "_slug": "shade-cloak",
+    "_type": "skills"
+  },
+  {
+    "slug": "shade-soul",
+    "name": "Shade Soul",
+    "game": "hk",
+    "kind": "spell",
+    "soulCost": 33,
+    "damage": 30,
+    "effect": "Launch a darker, more powerful spirit at enemies.",
+    "description": "Vengeful Spirit's upgraded form. Doubles damage and travels slightly faster, with a heavier, void-touched visual.",
+    "acquisition": "Found in a hidden chamber accessed via the Pleasure House and the Tower of Love key.",
+    "area": {
+      "slug": "city-of-tears",
+      "name": "City of Tears"
+    },
+    "upgradeOf": "vengeful-spirit",
+    "summary": "Vengeful Spirit's stronger form. 30 damage for 33 SOUL.",
+    "verified": false,
+    "wikiSlug": "Shade_Soul",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Shade_Soul"
+    ],
+    "_slug": "shade-soul",
+    "_type": "skills"
+  },
+  {
+    "slug": "vengeful-spirit",
+    "name": "Vengeful Spirit",
+    "game": "hk",
+    "kind": "spell",
+    "soulCost": 33,
+    "damage": 15,
+    "effect": "Launch a vengeful spirit at enemies.",
+    "description": "Releases a horizontal spectral projectile. The Knight's first dedicated ranged attack and the path to Soul Master.",
+    "acquisition": "Taught by the Snail Shaman in the Ancestral Mound.",
+    "area": {
+      "slug": "ancestral-mound",
+      "name": "Ancestral Mound"
+    },
+    "upgradesTo": "shade-soul",
+    "summary": "Horizontal fireball. Costs 33 SOUL, deals 15 damage.",
+    "verified": false,
+    "wikiSlug": "Vengeful_Spirit",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Vengeful_Spirit"
+    ],
+    "_slug": "vengeful-spirit",
+    "_type": "skills"
+  }
+]

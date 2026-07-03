@@ -1,0 +1,30 @@
+{
+  "slug": "salubra",
+  "name": "Salubra",
+  "game": "hk",
+  "kind": "merchant",
+  "role": "Charm seller",
+  "area": {
+    "slug": "forgotten-crossroads",
+    "name": "Forgotten Crossroads"
+  },
+  "location": "Shop hidden inside a wall in the Forgotten Crossroads.",
+  "sells": [
+    "Quick Focus",
+    "Lifeblood Heart",
+    "Steady Body",
+    "Shaman Stone",
+    "Long Nail",
+    "Charm Notches (5, 10, 18, 40 equipped charms)",
+    "Salubra's Blessing (after buying every charm)"
+  ],
+  "summary": "Plump charm seller hidden in the Crossroads. Sells five charms and grants extra Charm Notches once the Knight collects enough.",
+  "description": "Always pleased to see her customers, especially the ones loaded with charms. Her Blessing increases SOUL gained from striking enemies and is required for 112% completion.",
+  "verified": false,
+  "wikiSlug": "Salubra",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Salubra"
+  ],
+  "_slug": "salubra",
+  "_type": "characters"
+}

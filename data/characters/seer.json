@@ -1,0 +1,31 @@
+{
+  "slug": "seer",
+  "name": "Seer",
+  "game": "hk",
+  "kind": "merchant",
+  "role": "Last of the Moth Tribe",
+  "area": {
+    "slug": "resting-grounds",
+    "name": "Resting Grounds"
+  },
+  "location": "Tucked away inside the Seer's chamber in the Resting Grounds.",
+  "sells": [
+    "Awoken Dream Nail upgrade (1800 Essence)",
+    "Hallownest Seal (100 Essence)",
+    "Arcane Egg (1200 Essence)",
+    "Pale Ore (300 Essence)",
+    "Vessel Fragment (700 Essence)",
+    "Dream Wielder charm (500 Essence)",
+    "Dreamshield charm (1500 Essence)",
+    "Dream Gate (900 Essence)"
+  ],
+  "summary": "Mournful elder of the forgotten Moth Tribe. Reads Essence gathered with the Dream Nail and grants relics in return.",
+  "description": "Slowly fades as the Knight brings her enough Essence. Her parting words — and the End of Pathways achievement — close her arc once 2400 Essence has been delivered.",
+  "verified": false,
+  "wikiSlug": "Seer",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Seer"
+  ],
+  "_slug": "seer",
+  "_type": "characters"
+}

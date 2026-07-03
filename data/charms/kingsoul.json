@@ -1,0 +1,24 @@
+{
+  "slug": "kingsoul",
+  "name": "Kingsoul",
+  "game": "hk",
+  "notchCost": 5,
+  "inventoryOrder": 41,
+  "effect": "Slowly generates SOUL while idle.",
+  "description": "The reunited halves of the White Lady's and the Pale King's gifts. Quietly trickles SOUL into the meter. Required to access the Birthplace.",
+  "area": {
+    "slug": "ancient-basin",
+    "name": "Ancient Basin"
+  },
+  "acquisition": "quest",
+  "upgradesTo": "void-heart",
+  "location": "Reforged by collecting both Kingsoul halves: the Queen's Fragment from White Lady and the King's Fragment from the White Palace.",
+  "summary": "Reunited royal charm. Trickles SOUL and unlocks the Abyss's deepest door.",
+  "verified": false,
+  "wikiSlug": "Kingsoul",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Kingsoul"
+  ],
+  "_slug": "kingsoul",
+  "_type": "charms"
+}

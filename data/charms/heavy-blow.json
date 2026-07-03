@@ -1,0 +1,25 @@
+{
+  "slug": "heavy-blow",
+  "name": "Heavy Blow",
+  "game": "hk",
+  "notchCost": 2,
+  "inventoryOrder": 17,
+  "effect": "Knocks enemies back further when struck.",
+  "description": "Boosts horizontal knockback. Useful for pushing dangerous mobs off platforms or interrupting attack cycles.",
+  "cost": 350,
+  "area": {
+    "slug": "dirtmouth",
+    "name": "Dirtmouth"
+  },
+  "merchant": "sly",
+  "acquisition": "purchase",
+  "location": "Sly's shop in Dirtmouth — appears in his expanded inventory after the Shopkeeper's Key is delivered.",
+  "summary": "Extra knockback on every nail hit.",
+  "verified": false,
+  "wikiSlug": "Heavy_Blow",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Heavy_Blow"
+  ],
+  "_slug": "heavy-blow",
+  "_type": "charms"
+}

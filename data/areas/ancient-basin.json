@@ -1,0 +1,39 @@
+{
+  "slug": "ancient-basin",
+  "name": "Ancient Basin",
+  "game": "hk",
+  "kind": "region",
+  "connectsTo": {
+    "forgotten-crossroads": [
+      "desolate-dive"
+    ],
+    "royal-waterways": [
+      "isma-tear"
+    ],
+    "kingdoms-edge": [
+      "monarch-wings"
+    ],
+    "city-of-tears": [
+      "isma-tear"
+    ],
+    "blue-lake": [],
+    "palace-grounds": [
+      "dream-nail"
+    ],
+    "hidden-station": [],
+    "the-abyss": [
+      "kings-brand",
+      "monarch-wings"
+    ]
+  },
+  "stagStation": "Hidden Station",
+  "music": "Ancient Basin",
+  "summary": "A vast hollow chasm beneath the City of Tears. Site of the Broken Vessel fight and the gateway to the Abyss.",
+  "verified": false,
+  "wikiSlug": "Ancient_Basin",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Ancient_Basin"
+  ],
+  "_slug": "ancient-basin",
+  "_type": "areas"
+}

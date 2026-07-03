@@ -1,0 +1,21 @@
+{
+  "slug": "midwife",
+  "name": "Midwife",
+  "game": "hk",
+  "kind": "npc",
+  "role": "Spider midwife of Deepnest",
+  "area": {
+    "slug": "deepnest",
+    "name": "Deepnest"
+  },
+  "location": "Lurks in a chamber off the side of central Deepnest, behind a layer of black silk.",
+  "summary": "Many-legged matron who tends to Hallownest's spider broods. The friendliest thing in Deepnest — which says everything about Deepnest.",
+  "description": "Hungry, polite, and quietly hopeful that the Knight is meal-shaped. Provides a Dream Nail dialogue hinting at the spiders' allegiance to Herrah the Beast.",
+  "verified": false,
+  "wikiSlug": "Midwife",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Midwife"
+  ],
+  "_slug": "midwife",
+  "_type": "characters"
+}

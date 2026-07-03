@@ -1,0 +1,2202 @@
+[
+  {
+    "slug": "aluba",
+    "name": "Aluba",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Lightning jellyfish",
+    "area": {
+      "slug": "kingdoms-edge",
+      "name": "Kingdom's Edge"
+    },
+    "hp": 25,
+    "damage": 1,
+    "geoDrop": 16,
+    "hunterJournal": {
+      "notes": "Cloud-shaped flier. Drops electric jellies that arc downward to strike anything below it."
+    },
+    "summary": "Floating sky-jelly of Kingdom's Edge. Drifts overhead and rains zapping spawns until knocked out of the air.",
+    "verified": false,
+    "wikiSlug": "Aluba",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Aluba"
+    ],
+    "_slug": "aluba",
+    "_type": "characters"
+  },
+  {
+    "slug": "aspid-hunter",
+    "name": "Aspid Hunter",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Triple-shot flier",
+    "area": {
+      "slug": "forgotten-crossroads",
+      "name": "Forgotten Crossroads"
+    },
+    "hp": 20,
+    "damage": 1,
+    "geoDrop": 10,
+    "hunterJournal": {
+      "notes": "Floating predator that hovers out of nail range and spits a fanned spread of projectiles. Aim by intuition, not by mind."
+    },
+    "summary": "The Aspid players love to hate. Floats, locks on, fires three arcing globs in a fan. Dies fast to a spell if you can get one in.",
+    "verified": false,
+    "wikiSlug": "Aspid_Hunter",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Aspid_Hunter"
+    ],
+    "_slug": "aspid-hunter",
+    "_type": "characters"
+  },
+  {
+    "slug": "baldur",
+    "name": "Baldur",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Spitting shell-bug",
+    "area": {
+      "slug": "howling-cliffs",
+      "name": "Howling Cliffs"
+    },
+    "hp": 30,
+    "damage": 1,
+    "geoDrop": 5,
+    "hunterJournal": {
+      "notes": "Bulbous bug with a near-impenetrable shell. Spits sticky pods. Vulnerable from below or behind once it ducks in."
+    },
+    "summary": "Round, helmet-shelled enemy found around the Cliffs and Greenpath. Spits projectiles, then retreats into its shell.",
+    "verified": false,
+    "wikiSlug": "Baldur",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Baldur"
+    ],
+    "_slug": "baldur",
+    "_type": "characters"
+  },
+  {
+    "slug": "bardoon",
+    "name": "Bardoon",
+    "game": "hk",
+    "kind": "npc",
+    "role": "Great worm of stillness",
+    "area": {
+      "slug": "kingdoms-edge",
+      "name": "Kingdom's Edge"
+    },
+    "location": "Sprawled across a wide chamber in the deepest reaches of Kingdom's Edge.",
+    "summary": "An enormous serene worm who advises the Knight to seek calm. The largest character model in the game.",
+    "description": "One of the last remaining wyrms — kin to the Pale King in distant ancestry. Speaks in measured, almost meditative paragraphs about presence, void, and the void within the Knight.",
+    "verified": false,
+    "wikiSlug": "Bardoon",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Bardoon"
+    ],
+    "_slug": "bardoon",
+    "_type": "characters"
+  },
+  {
+    "slug": "belfly",
+    "name": "Belfly",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Suicide bomber",
+    "area": {
+      "slug": "fungal-wastes",
+      "name": "Fungal Wastes"
+    },
+    "hp": 1,
+    "damage": 1,
+    "geoDrop": 1,
+    "hunterJournal": {
+      "notes": "Bloated flier filled with combustible gas. Pursues the Knight relentlessly, then ignites on contact."
+    },
+    "summary": "Tiny but lethal flier — one touch and it explodes. Best handled with spells or a careful nail swing from below.",
+    "verified": false,
+    "wikiSlug": "Belfly",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Belfly"
+    ],
+    "_slug": "belfly",
+    "_type": "characters"
+  },
+  {
+    "slug": "boofly",
+    "name": "Boofly",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Bloated flier",
+    "area": {
+      "slug": "kingdoms-edge",
+      "name": "Kingdom's Edge"
+    },
+    "hp": 25,
+    "damage": 1,
+    "geoDrop": 12,
+    "hunterJournal": {
+      "notes": "Lazy, swollen fly that drifts above pits. Falls straight down once struck, killing anything in the lane."
+    },
+    "summary": "Slow flier whose corpse turns into a homing brick when hit. A reliable hazard above acid pools.",
+    "verified": false,
+    "wikiSlug": "Boofly",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Boofly"
+    ],
+    "_slug": "boofly",
+    "_type": "characters"
+  },
+  {
+    "slug": "bretta",
+    "name": "Bretta",
+    "game": "hk",
+    "kind": "npc",
+    "role": "Rescued Dirtmouth resident",
+    "area": {
+      "slug": "dirtmouth",
+      "name": "Dirtmouth"
+    },
+    "location": "Initially trapped in Fungal Wastes. After rescue, moves into a house in Dirtmouth.",
+    "summary": "Dreamy bug rescued from a pit in the Fungal Wastes. Has a wandering crush — first on the Knight, then on Zote.",
+    "description": "Reading her diary in Dirtmouth advances the Grey Prince Zote dream-boss questline. Awarding her affection unlocks the Mask Shard hidden in her basement.",
+    "verified": false,
+    "wikiSlug": "Bretta",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Bretta"
+    ],
+    "_slug": "bretta",
+    "_type": "characters"
+  },
+  {
+    "slug": "brumm",
+    "name": "Brumm",
+    "game": "hk",
+    "kind": "npc",
+    "role": "Troupe accordionist",
+    "area": {
+      "slug": "dirtmouth",
+      "name": "Dirtmouth"
+    },
+    "location": "Stands outside the Grimm Troupe's tent in Dirtmouth, leaning on his accordion.",
+    "summary": "Masked, brooding member of the Grimm Troupe. The only one who wants the cycle to end.",
+    "description": "Quietly offers the Knight an alternative to completing the Grimm ritual — retrieving the Nightmare Lantern from Distant Village and using it to banish Grimm forever, breaking the troupe.",
+    "verified": false,
+    "wikiSlug": "Brumm",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Brumm"
+    ],
+    "_slug": "brumm",
+    "_type": "characters"
+  },
+  {
+    "slug": "cloth",
+    "name": "Cloth",
+    "game": "hk",
+    "kind": "warrior",
+    "role": "Warrior pilgrim",
+    "area": {
+      "slug": "fungal-wastes",
+      "name": "Fungal Wastes"
+    },
+    "location": "First met in the Fungal Wastes. Travels onward to Deepnest, the Colosseum, and Kingdom's Edge.",
+    "summary": "Big-hearted warrior with a bigger nail. Searches Hallownest for a fight worthy of her, and finds one in the Colosseum.",
+    "description": "Quest depends on talking to her at every step. If completed, she goes out on her own terms helping the Knight against Traitor Lord in the Queen's Gardens.",
+    "verified": false,
+    "wikiSlug": "Cloth",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Cloth"
+    ],
+    "_slug": "cloth",
+    "_type": "characters"
+  },
+  {
+    "slug": "confessor-jiji",
+    "name": "Confessor Jiji",
+    "game": "hk",
+    "kind": "npc",
+    "role": "Shade-summoning hermit",
+    "area": {
+      "slug": "dirtmouth",
+      "name": "Dirtmouth"
+    },
+    "location": "Hidden hut in Dirtmouth, behind a locked door (Simple Key).",
+    "sells": [
+      "Shade summons (costs one Rancid Egg)"
+    ],
+    "summary": "Reclusive bug who summons the Knight's Shade in exchange for a Rancid Egg. Saves a trip back to wherever you died.",
+    "description": "Says little, expects little, and gets the job done. Effectively a paid Shade-recall service for any death anywhere in Hallownest.",
+    "verified": false,
+    "wikiSlug": "Confessor_Jiji",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Confessor_Jiji"
+    ],
+    "_slug": "confessor-jiji",
+    "_type": "characters"
+  },
+  {
+    "slug": "cornifer",
+    "name": "Cornifer",
+    "game": "hk",
+    "kind": "npc",
+    "role": "Cartographer",
+    "area": {
+      "slug": "forgotten-crossroads",
+      "name": "Forgotten Crossroads"
+    },
+    "location": "Roams the kingdom — one room per major area until each map is sold.",
+    "summary": "Wandering map-maker who sells the area map for each region he's visited. Follow the humming and the scattered paper trail.",
+    "description": "The first to draw maps of Hallownest's modern ruins. Sits in a different room of each area, humming, until the Knight buys his map. After that, his wife Iselda continues to sell upgrades and pins in Dirtmouth.",
+    "sells": [
+      "Area maps (per region)"
+    ],
+    "verified": false,
+    "wikiSlug": "Cornifer",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Cornifer"
+    ],
+    "_slug": "cornifer",
+    "_type": "characters"
+  },
+  {
+    "slug": "crawlid",
+    "name": "Crawlid",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Tiny crawling bug",
+    "area": {
+      "slug": "forgotten-crossroads",
+      "name": "Forgotten Crossroads"
+    },
+    "hp": 5,
+    "damage": 1,
+    "geoDrop": 1,
+    "hunterJournal": {
+      "notes": "Mindless creature that crawls along the ground. The weakest thing the Knight will encounter, but worth a swing for the geo."
+    },
+    "summary": "The first enemy most players ever swing at. Walks back and forth on flat ground and does nothing else.",
+    "verified": false,
+    "wikiSlug": "Crawlid",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Crawlid"
+    ],
+    "_slug": "crawlid",
+    "_type": "characters"
+  },
+  {
+    "slug": "dirtcarver",
+    "name": "Dirtcarver",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Deepnest stalker",
+    "area": {
+      "slug": "deepnest",
+      "name": "Deepnest"
+    },
+    "hp": 35,
+    "damage": 1,
+    "geoDrop": 16,
+    "hunterJournal": {
+      "notes": "Eyeless burrower that scuttles along Deepnest's tunnels. Dashes forward with its scything mandibles."
+    },
+    "summary": "Quick centipede-bug of Deepnest. Charges in straight lines and bounces off walls until it runs out of momentum.",
+    "verified": false,
+    "wikiSlug": "Dirtcarver",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Dirtcarver"
+    ],
+    "_slug": "dirtcarver",
+    "_type": "characters"
+  },
+  {
+    "slug": "divine",
+    "name": "Divine",
+    "game": "hk",
+    "kind": "merchant",
+    "role": "Charm fragmenter",
+    "area": {
+      "slug": "dirtmouth",
+      "name": "Dirtmouth"
+    },
+    "location": "Sits inside her cart by the Grimm Troupe tent in Dirtmouth.",
+    "sells": [
+      "Fragile Heart (350 geo)",
+      "Fragile Greed (250 geo)",
+      "Fragile Strength (550 geo)",
+      "Devours fragile charms and returns geo and consumed Pale Ore"
+    ],
+    "summary": "Massive, ravenous bug of the Grimm Troupe. Crushes Unbreakable charms back into their Fragile form for a price — and a snack.",
+    "description": "Will consume any of the Knight's Unbreakable charms in exchange for geo, the original Pale Ore, and a freshly Fragile replacement. Useful, but lore-aligned with the Troupe's hunger.",
+    "verified": false,
+    "wikiSlug": "Divine",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Divine"
+    ],
+    "_slug": "divine",
+    "_type": "characters"
+  },
+  {
+    "slug": "elderbug",
+    "name": "Elderbug",
+    "game": "hk",
+    "kind": "npc",
+    "role": "Dirtmouth elder",
+    "area": {
+      "slug": "dirtmouth",
+      "name": "Dirtmouth"
+    },
+    "location": "Standing by the well in Dirtmouth.",
+    "summary": "The last remaining old resident of Dirtmouth. The first voice most players hear, and the one who quietly mourns as the town empties.",
+    "description": "Worries about the strangers who come and go from the well. Gives advice, hints about the Pale Lure charm, and a flower for the Grey Mourner's quest.",
+    "verified": false,
+    "wikiSlug": "Elderbug",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Elderbug"
+    ],
+    "_slug": "elderbug",
+    "_type": "characters"
+  },
+  {
+    "slug": "emilitia",
+    "name": "Emilitia",
+    "game": "hk",
+    "kind": "npc",
+    "role": "Pleasure House socialite",
+    "area": {
+      "slug": "pleasure-house",
+      "name": "Pleasure House"
+    },
+    "location": "In her private chamber inside the Pleasure House (Simple Key required).",
+    "summary": "Wealthy, dismissive bug who hosts herself a one-bug party long after the city emptied.",
+    "description": "Looks down on visitors and pretends nothing has changed. The Dream Nail tells a different story — one of loneliness and the friends she has long since outlived.",
+    "verified": false,
+    "wikiSlug": "Emilitia",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Emilitia"
+    ],
+    "_slug": "emilitia",
+    "_type": "characters"
+  },
+  {
+    "slug": "folly",
+    "name": "Folly",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Cackling skull",
+    "area": {
+      "slug": "colosseum-of-fools",
+      "name": "Colosseum of Fools"
+    },
+    "hp": 1,
+    "damage": 1,
+    "geoDrop": 0,
+    "hunterJournal": {
+      "notes": "Floating skull. Doesn't hurt much on its own, but the Colosseum spawns them by the wave."
+    },
+    "summary": "Lightweight Colosseum spawn. Pops in a single hit; the danger is in the swarm timing, not the unit.",
+    "verified": false,
+    "wikiSlug": "Folly",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Folly"
+    ],
+    "_slug": "folly",
+    "_type": "characters"
+  },
+  {
+    "slug": "fool-eater",
+    "name": "Fool Eater",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Colosseum gobbler",
+    "area": {
+      "slug": "colosseum-of-fools",
+      "name": "Colosseum of Fools"
+    },
+    "hp": 35,
+    "damage": 1,
+    "geoDrop": 8,
+    "hunterJournal": {
+      "notes": "Tubby Colosseum bug. Inhales air for a moment, then sprints forward fast enough to clip the unwary."
+    },
+    "summary": "Common Colosseum spawn. Charges in a straight line and bounces off arenas walls until it loses interest.",
+    "verified": false,
+    "wikiSlug": "Fool_Eater",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Fool_Eater"
+    ],
+    "_slug": "fool-eater",
+    "_type": "characters"
+  },
+  {
+    "slug": "garpede",
+    "name": "Garpede",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Crawling centipede",
+    "area": {
+      "slug": "crystal-peak",
+      "name": "Crystal Peak"
+    },
+    "hp": 60,
+    "damage": 1,
+    "geoDrop": 10,
+    "hunterJournal": {
+      "notes": "Long, plated centipede that crawls along surfaces — floors, walls, ceilings, all the same. Strikes its head into anything passing."
+    },
+    "summary": "Surface-hugging crawler in Crystal Peak and Kingdom's Edge. Only its glowing head takes damage.",
+    "verified": false,
+    "wikiSlug": "Garpede",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Garpede"
+    ],
+    "_slug": "garpede",
+    "_type": "characters"
+  },
+  {
+    "slug": "goam",
+    "name": "Goam",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Spike-pulse trap",
+    "area": {
+      "slug": "forgotten-crossroads",
+      "name": "Forgotten Crossroads"
+    },
+    "hp": 1,
+    "damage": 1,
+    "geoDrop": 0,
+    "hunterJournal": {
+      "notes": "Stationary growth. Extends a long spike on a steady rhythm; collapses back down between beats."
+    },
+    "summary": "Floor- and ceiling-mounted pulsing spike. Not really an enemy so much as a metronome the level forces the Knight to dance to.",
+    "verified": false,
+    "wikiSlug": "Goam",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Goam"
+    ],
+    "_slug": "goam",
+    "_type": "characters"
+  },
+  {
+    "slug": "great-hopper",
+    "name": "Great Hopper",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Large leaping grub",
+    "area": {
+      "slug": "kingdoms-edge",
+      "name": "Kingdom's Edge"
+    },
+    "hp": 80,
+    "damage": 2,
+    "geoDrop": 30,
+    "hunterJournal": {
+      "notes": "Massive hopper, the size of a small room when it lands. Same straight-line jump pattern, much heavier impact."
+    },
+    "summary": "Giant variant of the Hopper. Wide hitbox on every jump and a screen-shaking landing. Hugely satisfying to chain-pogo.",
+    "verified": false,
+    "wikiSlug": "Great_Hopper",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Great_Hopper"
+    ],
+    "_slug": "great-hopper",
+    "_type": "characters"
+  },
+  {
+    "slug": "great-husk-sentry",
+    "name": "Great Husk Sentry",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Elite city guard",
+    "area": {
+      "slug": "city-of-tears",
+      "name": "City of Tears"
+    },
+    "hp": 250,
+    "damage": 1,
+    "geoDrop": 60,
+    "hunterJournal": {
+      "notes": "Towering veteran sentry, draped in tattered banner. Swings a giant nail and slams the ground, sending shockwaves rolling out."
+    },
+    "summary": "City guard mini-boss patrolling Soul Sanctum's approaches and the upper streets. Two staggering ground slams and one heavy diagonal swing.",
+    "verified": false,
+    "wikiSlug": "Great_Husk_Sentry",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Great_Husk_Sentry"
+    ],
+    "_slug": "great-husk-sentry",
+    "_type": "characters"
+  },
+  {
+    "slug": "grimm",
+    "name": "Troupe Master Grimm",
+    "game": "hk",
+    "kind": "npc",
+    "role": "Master of the Grimm Troupe",
+    "area": {
+      "slug": "dirtmouth",
+      "name": "Dirtmouth"
+    },
+    "location": "Inside the Grimm Troupe's tent, raised in Dirtmouth after lighting the Nightmare Lantern in the Howling Cliffs.",
+    "isBoss": true,
+    "bossSlug": "troupe-master-grimm",
+    "summary": "Theatrical, fire-cloaked ringmaster of a travelling troupe that feeds on nightmares. Speaks in flourishes; fights in flames.",
+    "description": "Sends the Knight to collect Grimmkin Flames across Hallownest. The ritual ends in either his death and rebirth as the Knight's own Grimmchild — or his banishment, if Brumm's path is followed.",
+    "verified": false,
+    "wikiSlug": "Troupe_Master_Grimm",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Troupe_Master_Grimm"
+    ],
+    "_slug": "grimm",
+    "_type": "characters"
+  },
+  {
+    "slug": "grubfather",
+    "name": "Grubfather",
+    "game": "hk",
+    "kind": "merchant",
+    "role": "Father of the Grubs",
+    "area": {
+      "slug": "forgotten-crossroads",
+      "name": "Forgotten Crossroads"
+    },
+    "location": "Chamber off the eastern Forgotten Crossroads, behind a breakable wall above the Stag Station.",
+    "sells": [
+      "Geo (per Grub rescued)",
+      "Mask Shards (5, 10, 16 Grubs)",
+      "Rancid Egg (23 Grubs)",
+      "Hallownest Seal (31 Grubs)",
+      "Pale Ore (38 Grubs)",
+      "King's Idol (42 Grubs)",
+      "Grubsong charm (10 Grubs)",
+      "Grubberfly's Elegy charm (all 46 Grubs)"
+    ],
+    "summary": "Enormous, slow-moving grub who watches over Hallownest's stolen brood. Rewards the Knight for each child returned.",
+    "description": "Once a wandering grub-mother, now too vast to move. Every freed Grub is dropped at his feet; he thanks the Knight with relics, charms, and — eventually — Grubberfly's Elegy.",
+    "verified": false,
+    "wikiSlug": "Grubfather",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Grubfather"
+    ],
+    "_slug": "grubfather",
+    "_type": "characters"
+  },
+  {
+    "slug": "gruzzer",
+    "name": "Gruzzer",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Bouncing flier",
+    "area": {
+      "slug": "forgotten-crossroads",
+      "name": "Forgotten Crossroads"
+    },
+    "hp": 10,
+    "damage": 1,
+    "geoDrop": 2,
+    "hunterJournal": {
+      "notes": "Dim-witted flying bug. Drifts through the air, bouncing off any surface it bumps. Heavy enough to knock the Knight off ledges."
+    },
+    "summary": "Round, lazy flier that ricochets through tunnels. Mostly an obstacle, not a threat.",
+    "verified": false,
+    "wikiSlug": "Gruzzer",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Gruzzer"
+    ],
+    "_slug": "gruzzer",
+    "_type": "characters"
+  },
+  {
+    "slug": "heavy-sentry",
+    "name": "Heavy Sentry",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Armoured guardsman",
+    "area": {
+      "slug": "city-of-tears",
+      "name": "City of Tears"
+    },
+    "hp": 75,
+    "damage": 1,
+    "geoDrop": 35,
+    "hunterJournal": {
+      "notes": "Heavily armoured sentry. Slow but unflinching — most hits glance off the plates and the swing comes anyway."
+    },
+    "summary": "Heavier variant of the Husk Sentry. Tougher armour, the same lazy mid-arc swing, no flinch on a basic nail strike.",
+    "verified": false,
+    "wikiSlug": "Heavy_Sentry",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Heavy_Sentry"
+    ],
+    "_slug": "heavy-sentry",
+    "_type": "characters"
+  },
+  {
+    "slug": "herrah-the-beast",
+    "name": "Herrah the Beast",
+    "game": "hk",
+    "kind": "npc",
+    "role": "Dreamer of Hallownest, Queen of Deepnest",
+    "area": {
+      "slug": "distant-village",
+      "name": "Distant Village"
+    },
+    "location": "Asleep in her chamber in the Beast's Den, deep in the Distant Village.",
+    "summary": "Spider-queen who gave up everything — including her daughter Hornet — to bind the Radiance with her dream.",
+    "description": "Bargained with the Pale King to bear Hornet in exchange for her eternal sleep. Guarded in death by the spiders of Deepnest, with Hornet keeping the closest watch.",
+    "verified": false,
+    "wikiSlug": "Herrah_the_Beast",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Herrah_the_Beast"
+    ],
+    "_slug": "herrah-the-beast",
+    "_type": "characters"
+  },
+  {
+    "slug": "hopper",
+    "name": "Hopper",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Leaping grub",
+    "area": {
+      "slug": "kingdoms-edge",
+      "name": "Kingdom's Edge"
+    },
+    "hp": 35,
+    "damage": 1,
+    "geoDrop": 11,
+    "hunterJournal": {
+      "notes": "Bulbous grub that propels itself forward in long jumps. Wholly committed to the leap, no in-air correction."
+    },
+    "summary": "Plump jumper that bounds toward the Knight in straight arcs. Easy to time a nail strike against once you read the rhythm.",
+    "verified": false,
+    "wikiSlug": "Hopper",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Hopper"
+    ],
+    "_slug": "hopper",
+    "_type": "characters"
+  },
+  {
+    "slug": "hornet",
+    "name": "Hornet",
+    "game": "hk",
+    "kind": "npc",
+    "role": "Princess-Protector of Hallownest",
+    "area": {
+      "slug": "greenpath",
+      "name": "Greenpath"
+    },
+    "location": "First confronted at the lake in Greenpath. Reappears in Deepnest's Beast's Den, the Abyss, Kingdom's Edge, and Godhome.",
+    "isBoss": true,
+    "bossSlug": "hornet-protector",
+    "summary": "Lithe, needle-wielding warrior who tests the Knight on the way down and stands beside them at the end. Half-sister, half-rival, fully iconic.",
+    "description": "Daughter of the Pale King and Herrah the Beast. She guards the secrets of Hallownest while quietly steering the Knight toward the void within. Returns as a playable protagonist in Silksong.",
+    "verified": false,
+    "wikiSlug": "Hornet",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Hornet"
+    ],
+    "_slug": "hornet",
+    "_type": "characters"
+  },
+  {
+    "slug": "husk-bully",
+    "name": "Husk Bully",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Heavy infected",
+    "area": {
+      "slug": "forgotten-crossroads",
+      "name": "Forgotten Crossroads"
+    },
+    "hp": 35,
+    "damage": 1,
+    "geoDrop": 9,
+    "hunterJournal": {
+      "notes": "Larger Husk filled to bursting with Infection orange. Slow, but its bulk hits hard when it falls on you."
+    },
+    "summary": "Big-bellied Husk that hops and slams. Tankier than the standard husks and a noticeable step up in damage soaked.",
+    "verified": false,
+    "wikiSlug": "Husk_Bully",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Husk_Bully"
+    ],
+    "_slug": "husk-bully",
+    "_type": "characters"
+  },
+  {
+    "slug": "husk-dandy",
+    "name": "Husk Dandy",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Top-hatted gentleman husk",
+    "area": {
+      "slug": "city-of-tears",
+      "name": "City of Tears"
+    },
+    "hp": 35,
+    "damage": 1,
+    "geoDrop": 22,
+    "hunterJournal": {
+      "notes": "Tall, finely dressed husk. Lunges with a slim cane in a wide arc, posture immaculate to the last."
+    },
+    "summary": "Elegant City of Tears husk. Telegraphs a sweeping cane attack from impressive range — the lunge covers most of a corridor.",
+    "verified": false,
+    "wikiSlug": "Husk_Dandy",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Husk_Dandy"
+    ],
+    "_slug": "husk-dandy",
+    "_type": "characters"
+  },
+  {
+    "slug": "husk-hornhead",
+    "name": "Husk Hornhead",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Charging infected",
+    "area": {
+      "slug": "forgotten-crossroads",
+      "name": "Forgotten Crossroads"
+    },
+    "hp": 30,
+    "damage": 1,
+    "geoDrop": 9,
+    "hunterJournal": {
+      "notes": "Husk grown a single sharp horn from its skull. Lowers its head and charges forward in a straight line until it hits a wall."
+    },
+    "summary": "Crossroads husk that telegraphs a long horizontal charge. Easy to bait and punish.",
+    "verified": false,
+    "wikiSlug": "Husk_Hornhead",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Husk_Hornhead"
+    ],
+    "_slug": "husk-hornhead",
+    "_type": "characters"
+  },
+  {
+    "slug": "husk-miner",
+    "name": "Husk Miner",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Infected miner",
+    "area": {
+      "slug": "crystal-peak",
+      "name": "Crystal Peak"
+    },
+    "hp": 35,
+    "damage": 1,
+    "geoDrop": 8,
+    "hunterJournal": {
+      "notes": "Lost miner of Crystal Peak, still swinging a heavy pick at the seams long after their mind has gone."
+    },
+    "summary": "Standard Crystal Peak enemy. Wide overhead pick-swing, slow recovery, drops a satisfying pile of geo and crystals.",
+    "description": "Myla's final form joins the rest of the Crystal Peak miners once the Infection takes hold. The room is the same; the song is gone.",
+    "verified": false,
+    "wikiSlug": "Husk_Miner",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Husk_Miner"
+    ],
+    "_slug": "husk-miner",
+    "_type": "characters"
+  },
+  {
+    "slug": "husk-sentry",
+    "name": "Husk Sentry",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "City of Tears guardsman",
+    "area": {
+      "slug": "city-of-tears",
+      "name": "City of Tears"
+    },
+    "hp": 35,
+    "damage": 1,
+    "geoDrop": 22,
+    "hunterJournal": {
+      "notes": "City guard infected by the orange plague. Swings a long blade and patrols once-grand streets that no longer need defending."
+    },
+    "summary": "Standard infected guardsman of the City of Tears. Slow walking, quick swing, dies in two hits to a moderately upgraded nail.",
+    "verified": false,
+    "wikiSlug": "Husk_Sentry",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Husk_Sentry"
+    ],
+    "_slug": "husk-sentry",
+    "_type": "characters"
+  },
+  {
+    "slug": "husk-warrior",
+    "name": "Husk Warrior",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Elite infected guard",
+    "area": {
+      "slug": "city-of-tears",
+      "name": "City of Tears"
+    },
+    "hp": 55,
+    "damage": 1,
+    "geoDrop": 38,
+    "hunterJournal": {
+      "notes": "Husks that remember the soldier they were. Wield notched nails and rush forward in measured combinations."
+    },
+    "summary": "City of Tears soldier-husk with a real combat moveset — short swings and a horizontal lunge.",
+    "verified": false,
+    "wikiSlug": "Husk_Warrior",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Husk_Warrior"
+    ],
+    "_slug": "husk-warrior",
+    "_type": "characters"
+  },
+  {
+    "slug": "iselda",
+    "name": "Iselda",
+    "game": "hk",
+    "kind": "merchant",
+    "role": "Map shop owner",
+    "area": {
+      "slug": "dirtmouth",
+      "name": "Dirtmouth"
+    },
+    "location": "The map shop in Dirtmouth, next to the well.",
+    "sells": [
+      "Quill",
+      "Pins (Bench, Vendor, Stag, Spa, Tram, Grub, Cocoon, Whispering Root)",
+      "Compass charm note"
+    ],
+    "summary": "Cornifer's wife. Runs the map shop in Dirtmouth and sells the quill and every pin upgrade.",
+    "description": "Took up shop in Dirtmouth so she'd be there when Cornifer eventually came home. Friendly, dry-witted, and exactly as fond of her husband as he is of her.",
+    "verified": false,
+    "wikiSlug": "Iselda",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Iselda"
+    ],
+    "_slug": "iselda",
+    "_type": "characters"
+  },
+  {
+    "slug": "jinn",
+    "name": "Jinn",
+    "game": "hk",
+    "kind": "merchant",
+    "role": "Rancid Egg trader",
+    "area": {
+      "slug": "resting-grounds",
+      "name": "Resting Grounds"
+    },
+    "location": "Beneath a tarp in the Resting Grounds, west of the graveyard.",
+    "sells": [
+      "Buys Rancid Eggs (60 geo each, rising with each sale)",
+      "Will trade her last egg for a Charm Notch"
+    ],
+    "summary": "Mysterious cloaked dealer who only trades for the Rancid Eggs nobody else wants.",
+    "description": "Her prices climb with every egg sold. Trading enough eventually exhausts her stock; on the final egg she gifts the Knight a Charm Notch instead.",
+    "verified": false,
+    "wikiSlug": "Jinn",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Jinn"
+    ],
+    "_slug": "jinn",
+    "_type": "characters"
+  },
+  {
+    "slug": "joni",
+    "name": "Joni",
+    "game": "hk",
+    "kind": "npc",
+    "role": "Hermit saint of the Cliffs",
+    "area": {
+      "slug": "howling-cliffs",
+      "name": "Howling Cliffs"
+    },
+    "location": "Her shrine sits in a hidden room in the Howling Cliffs, reached from the dive-bombed roof of the Cliffs.",
+    "summary": "A pacifist saint who replaced her own soul with Lifeblood. Her shrine grants the Knight her Blessing.",
+    "description": "Could no longer endure the strikes of the world, so she filled her body with the blue blood instead. The Joni's Blessing charm trades the Knight's normal masks for fewer, more numerous Lifeblood ones.",
+    "verified": false,
+    "wikiSlug": "Joni",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Joni"
+    ],
+    "_slug": "joni",
+    "_type": "characters"
+  },
+  {
+    "slug": "lance-sentry",
+    "name": "Lance Sentry",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Aerial sentry",
+    "area": {
+      "slug": "kings-station",
+      "name": "King's Station"
+    },
+    "hp": 60,
+    "damage": 1,
+    "geoDrop": 26,
+    "hunterJournal": {
+      "notes": "Husk floats on a thin lance, hovering above ledges. Drops in for an overhead spear thrust, then floats back up."
+    },
+    "summary": "Hovering sentry that descends in a vertical lance-stab. Likes to bait jumps so the Knight collides with the spear point.",
+    "verified": false,
+    "wikiSlug": "Lance_Sentry",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Lance_Sentry"
+    ],
+    "_slug": "lance-sentry",
+    "_type": "characters"
+  },
+  {
+    "slug": "leaping-husk",
+    "name": "Leaping Husk",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Pouncing infected",
+    "area": {
+      "slug": "forgotten-crossroads",
+      "name": "Forgotten Crossroads"
+    },
+    "hp": 20,
+    "damage": 1,
+    "geoDrop": 5,
+    "hunterJournal": {
+      "notes": "Once a hunter or scavenger. Springs forward with surprising distance, mouth-first."
+    },
+    "summary": "Husk variant that lunges over short distances. Closes gaps faster than the Wandering Husk.",
+    "verified": false,
+    "wikiSlug": "Leaping_Husk",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Leaping_Husk"
+    ],
+    "_slug": "leaping-husk",
+    "_type": "characters"
+  },
+  {
+    "slug": "leg-eater",
+    "name": "Leg Eater",
+    "game": "hk",
+    "kind": "merchant",
+    "role": "Black-market charm dealer",
+    "area": {
+      "slug": "fungal-wastes",
+      "name": "Fungal Wastes"
+    },
+    "location": "His shack on the western side of the Fungal Wastes, near the Mantis Village border.",
+    "sells": [
+      "Fragile Heart (350 geo)",
+      "Fragile Greed (250 geo)",
+      "Fragile Strength (600 geo)",
+      "Repairs Fragile charms (60 / 90 / 150 geo)"
+    ],
+    "summary": "Squat, scarred bug who sells the three Fragile charms and the repair work to keep them ticking.",
+    "description": "Charges through the wing for Fragile-charm repairs. Surviving the encounter with Nosk lets him keep his shop open; if the Knight has Defender's Crest equipped he refuses to do business.",
+    "verified": false,
+    "wikiSlug": "Leg_Eater",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Leg_Eater"
+    ],
+    "_slug": "leg-eater",
+    "_type": "characters"
+  },
+  {
+    "slug": "lemm",
+    "name": "Relic Seeker Lemm",
+    "game": "hk",
+    "kind": "merchant",
+    "role": "Relic dealer",
+    "area": {
+      "slug": "city-of-tears",
+      "name": "City of Tears"
+    },
+    "location": "Shop on the west side of the City of Tears.",
+    "sells": [
+      "Buys Wanderer's Journals (200 geo)",
+      "Buys Hallownest Seals (450 geo)",
+      "Buys King's Idols (800 geo)",
+      "Buys Arcane Eggs (1200 geo)",
+      "Love Key (after delivering the City Crest)"
+    ],
+    "summary": "Gruff relic scholar. Pays well for every Hallownest trinket the Knight finds — the main long-term geo sink in the game.",
+    "description": "Refuses to be disturbed at first, but warms up once the Knight starts selling relics. Hands over the Love Key for the locked door in the Watcher's Spire after enough relics are sold.",
+    "verified": false,
+    "wikiSlug": "Relic_Seeker_Lemm",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Relic_Seeker_Lemm"
+    ],
+    "_slug": "lemm",
+    "_type": "characters"
+  },
+  {
+    "slug": "lightseed",
+    "name": "Lightseed",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Lifeblood drone",
+    "area": {
+      "slug": "ancient-basin",
+      "name": "Ancient Basin"
+    },
+    "hp": 1,
+    "damage": 1,
+    "geoDrop": 0,
+    "hunterJournal": {
+      "notes": "Glowing blue mote summoned by Lifeseeds. Drifts toward the Knight, deals contact damage, then pops."
+    },
+    "summary": "Lifeblood-charged projectile spawn. The danger isn't the seed itself, it's having three drift at you while you're committed to a swing.",
+    "verified": false,
+    "wikiSlug": "Lightseed",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Lightseed"
+    ],
+    "_slug": "lightseed",
+    "_type": "characters"
+  },
+  {
+    "slug": "lurien-the-watcher",
+    "name": "Lurien the Watcher",
+    "game": "hk",
+    "kind": "npc",
+    "role": "Dreamer of Hallownest",
+    "area": {
+      "slug": "city-of-tears",
+      "name": "City of Tears"
+    },
+    "location": "At the top of the Watcher's Spire in the City of Tears.",
+    "summary": "Bookish, telescope-loving custodian of the capital. One of the three Dreamers sealing the Hollow Knight.",
+    "description": "Watched over the City of Tears from his tower. Chose eternal sleep when the Pale King asked, and is guarded by the Watcher Knights even now.",
+    "verified": false,
+    "wikiSlug": "Lurien_the_Watcher",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Lurien_the_Watcher"
+    ],
+    "_slug": "lurien-the-watcher",
+    "_type": "characters"
+  },
+  {
+    "slug": "mantis-traitor",
+    "name": "Mantis Traitor",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Exiled Mantis warrior",
+    "area": {
+      "slug": "queens-gardens",
+      "name": "Queen's Gardens"
+    },
+    "hp": 75,
+    "damage": 2,
+    "geoDrop": 38,
+    "hunterJournal": {
+      "notes": "Mantis exile twisted by allegiance to the Traitor Lord. Faster, more aggressive than their kin in the Village."
+    },
+    "summary": "Hostile mantis encountered throughout the Queen's Gardens. Sweep, jump-strike, and dash combos punish hesitation.",
+    "verified": false,
+    "wikiSlug": "Mantis_Traitor",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Mantis_Traitor"
+    ],
+    "_slug": "mantis-traitor",
+    "_type": "characters"
+  },
+  {
+    "slug": "mantis-warrior",
+    "name": "Mantis Warrior",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Mantis Village guard",
+    "area": {
+      "slug": "fungal-wastes",
+      "name": "Fungal Wastes"
+    },
+    "hp": 55,
+    "damage": 1,
+    "geoDrop": 35,
+    "hunterJournal": {
+      "notes": "Full-grown mantis. Strikes with a long curved nail, hops to read range, and flips overhead to reset."
+    },
+    "summary": "Adult mantis with full combat training. Patrols the Mantis Village and salutes the Knight after being defeated.",
+    "verified": false,
+    "wikiSlug": "Mantis_Warrior",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Mantis_Warrior"
+    ],
+    "_slug": "mantis-warrior",
+    "_type": "characters"
+  },
+  {
+    "slug": "mantis-youth",
+    "name": "Mantis Youth",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Adolescent mantis warrior",
+    "area": {
+      "slug": "fungal-wastes",
+      "name": "Fungal Wastes"
+    },
+    "hp": 25,
+    "damage": 1,
+    "geoDrop": 20,
+    "hunterJournal": {
+      "notes": "Young mantis still in training. Quick on the ground and air, learning the same nail forms as its elders."
+    },
+    "summary": "Mantis Village's young initiate. Dash-slashes and somersaults with surprising range.",
+    "verified": false,
+    "wikiSlug": "Mantis_Youth",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Mantis_Youth"
+    ],
+    "_slug": "mantis-youth",
+    "_type": "characters"
+  },
+  {
+    "slug": "marissa",
+    "name": "Marissa",
+    "game": "hk",
+    "kind": "npc",
+    "role": "Ghost songstress",
+    "area": {
+      "slug": "pleasure-house",
+      "name": "Pleasure House"
+    },
+    "location": "Her ghost performs on the stage of the Pleasure House, audible only with the Dream Nail.",
+    "summary": "The last great singer of the City of Tears. A ghost still on stage, performing to an empty house.",
+    "description": "Her aria — Marissa's Lament — plays softly behind her ghostly silhouette. Striking her Dream Nail reveals one of Hallownest's most quietly sad memories.",
+    "verified": false,
+    "wikiSlug": "Marissa",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Marissa"
+    ],
+    "_slug": "marissa",
+    "_type": "characters"
+  },
+  {
+    "slug": "mask-maker",
+    "name": "Mask Maker",
+    "game": "hk",
+    "kind": "npc",
+    "role": "Crafter of vessel masks",
+    "area": {
+      "slug": "distant-village",
+      "name": "Distant Village"
+    },
+    "location": "A small, candle-lit hut on the path leading into the Distant Village.",
+    "summary": "Reclusive crafter who shaped the masks worn by every vessel born in the Abyss — including the Knight's own.",
+    "description": "Speaks in low, formal cadence about purpose, vessels, and fate. Recognises the Knight as one of their making, and never quite explains how much they know.",
+    "verified": false,
+    "wikiSlug": "Mask_Maker",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Mask_Maker"
+    ],
+    "_slug": "mask-maker",
+    "_type": "characters"
+  },
+  {
+    "slug": "maskfly",
+    "name": "Maskfly",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Mimicking flier",
+    "area": {
+      "slug": "fungal-wastes",
+      "name": "Fungal Wastes"
+    },
+    "hp": 8,
+    "damage": 1,
+    "geoDrop": 4,
+    "hunterJournal": {
+      "notes": "Tiny fly wearing a husk's mask. Darts in close, fakes a strike, then jukes back out."
+    },
+    "summary": "Erratic flying nuisance most common in the Fungal Wastes. Dodges before committing — a perfect target for spells.",
+    "verified": false,
+    "wikiSlug": "Maskfly",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Maskfly"
+    ],
+    "_slug": "maskfly",
+    "_type": "characters"
+  },
+  {
+    "slug": "mawlurk",
+    "name": "Mawlurk",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Acid spitter",
+    "area": {
+      "slug": "royal-waterways",
+      "name": "Royal Waterways"
+    },
+    "hp": 50,
+    "damage": 1,
+    "geoDrop": 6,
+    "hunterJournal": {
+      "notes": "Burrows into walls and ceilings with only its sneering face exposed. Spits a stream of acid in a forward arc."
+    },
+    "summary": "Wall-mounted spitter found around the waterways and edges of Greenpath. Patient, ranged, and always inconveniently placed.",
+    "verified": false,
+    "wikiSlug": "Mawlurk",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Mawlurk"
+    ],
+    "_slug": "mawlurk",
+    "_type": "characters"
+  },
+  {
+    "slug": "midwife",
+    "name": "Midwife",
+    "game": "hk",
+    "kind": "npc",
+    "role": "Spider midwife of Deepnest",
+    "area": {
+      "slug": "deepnest",
+      "name": "Deepnest"
+    },
+    "location": "Lurks in a chamber off the side of central Deepnest, behind a layer of black silk.",
+    "summary": "Many-legged matron who tends to Hallownest's spider broods. The friendliest thing in Deepnest — which says everything about Deepnest.",
+    "description": "Hungry, polite, and quietly hopeful that the Knight is meal-shaped. Provides a Dream Nail dialogue hinting at the spiders' allegiance to Herrah the Beast.",
+    "verified": false,
+    "wikiSlug": "Midwife",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Midwife"
+    ],
+    "_slug": "midwife",
+    "_type": "characters"
+  },
+  {
+    "slug": "millibelle-the-banker",
+    "name": "Millibelle the Banker",
+    "game": "hk",
+    "kind": "merchant",
+    "role": "Banker (allegedly)",
+    "area": {
+      "slug": "fog-canyon",
+      "name": "Fog Canyon"
+    },
+    "location": "Her bank opens in Fog Canyon. After enough deposits, she relocates to Pleasure House.",
+    "sells": [
+      "Geo deposits (15% interest, paid back to depositors who hunt her down)"
+    ],
+    "summary": "Cheerful jellyfish banker who promises to keep the Knight's geo safe. Spoiler — she doesn't.",
+    "description": "Skips town with the entire deposit once it grows large enough. The Knight has to track her to a hidden room in the Pleasure House and beat the geo back out of her.",
+    "verified": false,
+    "wikiSlug": "Millibelle_the_Banker",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Millibelle_the_Banker"
+    ],
+    "_slug": "millibelle-the-banker",
+    "_type": "characters"
+  },
+  {
+    "slug": "monomon-the-teacher",
+    "name": "Monomon the Teacher",
+    "game": "hk",
+    "kind": "npc",
+    "role": "Dreamer of Hallownest",
+    "area": {
+      "slug": "fog-canyon",
+      "name": "Fog Canyon"
+    },
+    "location": "Suspended in stasis at the heart of the Teacher's Archives, deep in Fog Canyon.",
+    "summary": "Brilliant jellyfish scholar and one of the three Dreamers binding the Hollow Knight's seal.",
+    "description": "Monomon volunteered to dream eternally to help imprison the Radiance. Her seal must be broken to reach the true ending. Her old assistant, Quirrel, returns to be near her one last time.",
+    "verified": false,
+    "wikiSlug": "Monomon_the_Teacher",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Monomon_the_Teacher"
+    ],
+    "_slug": "monomon-the-teacher",
+    "_type": "characters"
+  },
+  {
+    "slug": "moss-knight",
+    "name": "Moss Knight",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Greenpath defender",
+    "area": {
+      "slug": "greenpath",
+      "name": "Greenpath"
+    },
+    "hp": 30,
+    "damage": 1,
+    "geoDrop": 20,
+    "hunterJournal": {
+      "notes": "Armoured mossbug knight. Plods forward and unleashes a wide horizontal sword sweep at close range."
+    },
+    "summary": "The first true sword-and-shield enemy. Common throughout Greenpath. Block-armoured front, open back on the swing.",
+    "verified": false,
+    "wikiSlug": "Moss_Knight",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Moss_Knight"
+    ],
+    "_slug": "moss-knight",
+    "_type": "characters"
+  },
+  {
+    "slug": "moss-prophet",
+    "name": "Moss Prophet",
+    "game": "hk",
+    "kind": "npc",
+    "role": "Infection preacher",
+    "area": {
+      "slug": "queens-gardens",
+      "name": "Queen's Gardens"
+    },
+    "location": "Sermonising in a sunlit room of the Queen's Gardens.",
+    "summary": "Withered preacher who proclaims the Infection a gift. His followers, the Mosskin worshippers, lie dead around him.",
+    "description": "Slumped against a stone, alone in his rapture. After Radiance is defeated his body crumbles to ash, the sermon finally ending.",
+    "verified": false,
+    "wikiSlug": "Moss_Prophet",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Moss_Prophet"
+    ],
+    "_slug": "moss-prophet",
+    "_type": "characters"
+  },
+  {
+    "slug": "mosscreep",
+    "name": "Mosscreep",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Greenpath sprout",
+    "area": {
+      "slug": "greenpath",
+      "name": "Greenpath"
+    },
+    "hp": 1,
+    "damage": 1,
+    "geoDrop": 1,
+    "hunterJournal": {
+      "notes": "Smallest of the moss-bug family. Crawls in short hops between safe patches."
+    },
+    "summary": "Cute, harmless first-zone enemy. Dies in one hit. Great practice for the timing on overlapping Mossfly swarms.",
+    "verified": false,
+    "wikiSlug": "Mosscreep",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Mosscreep"
+    ],
+    "_slug": "mosscreep",
+    "_type": "characters"
+  },
+  {
+    "slug": "mossfly",
+    "name": "Mossfly",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Greenpath gnat",
+    "area": {
+      "slug": "greenpath",
+      "name": "Greenpath"
+    },
+    "hp": 5,
+    "damage": 1,
+    "geoDrop": 2,
+    "hunterJournal": {
+      "notes": "Tiny flier that lazily drifts across rooms. Bursts into a small cloud of spores on death."
+    },
+    "summary": "Slow-floating Greenpath bug. Drops in clumps and rarely poses a threat past the first hour.",
+    "verified": false,
+    "wikiSlug": "Mossfly",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Mossfly"
+    ],
+    "_slug": "mossfly",
+    "_type": "characters"
+  },
+  {
+    "slug": "mosskin",
+    "name": "Mosskin",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Moss bug",
+    "area": {
+      "slug": "greenpath",
+      "name": "Greenpath"
+    },
+    "hp": 12,
+    "damage": 1,
+    "geoDrop": 4,
+    "hunterJournal": {
+      "notes": "Common Greenpath inhabitant. Lives under moss until it senses a threat, then pops up to swing."
+    },
+    "summary": "Greenpath's bread-and-butter enemy. Stays buried in moss-patches and lunges out at close range.",
+    "verified": false,
+    "wikiSlug": "Mosskin",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Mosskin"
+    ],
+    "_slug": "mosskin",
+    "_type": "characters"
+  },
+  {
+    "slug": "mr-mushroom",
+    "name": "Mister Mushroom",
+    "game": "hk",
+    "kind": "npc",
+    "role": "Wandering shroom",
+    "area": {
+      "slug": "fungal-wastes",
+      "name": "Fungal Wastes"
+    },
+    "location": "Travels between seven hidden rooms across the kingdom — only visible after acquiring Mister Mushroom from a Bardoon hint.",
+    "summary": "Quiet, gesturing mushroom traveller. Pops up in seven secret spots, miming a phrase for the Knight to interpret.",
+    "description": "A free-DLC easter-egg quest tied to the Hidden Dreams update. Tracking him to every location rewards an achievement and a fond goodbye.",
+    "verified": false,
+    "wikiSlug": "Mister_Mushroom",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Mister_Mushroom"
+    ],
+    "_slug": "mr-mushroom",
+    "_type": "characters"
+  },
+  {
+    "slug": "myla",
+    "name": "Myla",
+    "game": "hk",
+    "kind": "npc",
+    "role": "Singing miner",
+    "area": {
+      "slug": "crystal-peak",
+      "name": "Crystal Peak"
+    },
+    "location": "Mining tunnel near the entrance to Crystal Peak from the Crossroads.",
+    "summary": "Cheerful larva who mines for crystals and sings to herself in the dark. One of the warmest characters — and one of the saddest endings.",
+    "description": "Greets the Knight on every visit at first. As the Knight obtains more Dream Nail essence she stops working, mutters about song in her head, and ultimately succumbs to the Infection — becoming a hostile Husk Miner.",
+    "verified": false,
+    "wikiSlug": "Myla",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Myla"
+    ],
+    "_slug": "myla",
+    "_type": "characters"
+  },
+  {
+    "slug": "nailmaster-mato",
+    "name": "Nailmaster Mato",
+    "game": "hk",
+    "kind": "merchant",
+    "role": "Nailmaster",
+    "area": {
+      "slug": "howling-cliffs",
+      "name": "Howling Cliffs"
+    },
+    "location": "His hut on the western edge of the Howling Cliffs.",
+    "isBoss": true,
+    "bossSlug": "brothers-oro-and-mato",
+    "sells": [
+      "Cyclone Slash nail art (800 geo)"
+    ],
+    "summary": "Cheerful, disciplined master of the Cyclone Slash. The most welcoming of the three Nailmasters.",
+    "description": "Trained alongside Oro and Sheo under Great Nailsage Sly. Faces the Knight as one half of Brothers Oro & Mato in the Pantheon of the Sage.",
+    "verified": false,
+    "wikiSlug": "Nailmaster_Mato",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Nailmaster_Mato"
+    ],
+    "_slug": "nailmaster-mato",
+    "_type": "characters"
+  },
+  {
+    "slug": "nailmaster-oro",
+    "name": "Nailmaster Oro",
+    "game": "hk",
+    "kind": "merchant",
+    "role": "Nailmaster",
+    "area": {
+      "slug": "kingdoms-edge",
+      "name": "Kingdom's Edge"
+    },
+    "location": "A snowy hut in the far reaches of Kingdom's Edge.",
+    "isBoss": true,
+    "bossSlug": "brothers-oro-and-mato",
+    "sells": [
+      "Dash Slash nail art (800 geo)"
+    ],
+    "summary": "Bitter, exiled Nailmaster who teaches the Dash Slash. The most reluctant of the three brothers.",
+    "description": "Estranged from his brothers Mato and Sheo. Acknowledges the Knight as a worthy student despite himself, and joins Mato in the Pantheon of the Sage.",
+    "verified": false,
+    "wikiSlug": "Nailmaster_Oro",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Nailmaster_Oro"
+    ],
+    "_slug": "nailmaster-oro",
+    "_type": "characters"
+  },
+  {
+    "slug": "nailmaster-sheo",
+    "name": "Nailmaster Sheo",
+    "game": "hk",
+    "kind": "merchant",
+    "role": "Nailmaster, painter",
+    "area": {
+      "slug": "greenpath",
+      "name": "Greenpath"
+    },
+    "location": "A leafy hut tucked into the depths of Greenpath.",
+    "isBoss": true,
+    "bossSlug": "paintmaster-sheo",
+    "sells": [
+      "Great Slash nail art (800 geo)"
+    ],
+    "summary": "Gentle Nailmaster who put down the blade to paint. Teaches the Great Slash anyway, just in case.",
+    "description": "Picks the nail back up in the Pantheon of the Sage as Paintmaster Sheo, ink swirling around his sweeping strikes. Welcomes the Nailsmith to retire with him if spared.",
+    "verified": false,
+    "wikiSlug": "Nailmaster_Sheo",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Nailmaster_Sheo"
+    ],
+    "_slug": "nailmaster-sheo",
+    "_type": "characters"
+  },
+  {
+    "slug": "nailsmith",
+    "name": "Nailsmith",
+    "game": "hk",
+    "kind": "merchant",
+    "role": "Master nail forger",
+    "area": {
+      "slug": "city-of-tears",
+      "name": "City of Tears"
+    },
+    "location": "His forge sits at the eastern edge of the City of Tears.",
+    "sells": [
+      "Sharpened Nail (250 geo)",
+      "Channelled Nail (800 geo + Pale Ore)",
+      "Coiled Nail (2000 geo + 2 Pale Ore)",
+      "Pure Nail (4000 geo + 3 Pale Ore)"
+    ],
+    "summary": "Old smith who hones the Knight's nail. Each upgrade demands geo and the rare Pale Ore.",
+    "description": "Forges with single-minded devotion. Completing his quest with the Pure Nail leads to a choice — spare him to retire to Sheo's hut, or end him for a Mask Shard.",
+    "verified": false,
+    "wikiSlug": "Nailsmith",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Nailsmith"
+    ],
+    "_slug": "nailsmith",
+    "_type": "characters"
+  },
+  {
+    "slug": "ooma",
+    "name": "Ooma",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Fog Canyon detonator",
+    "area": {
+      "slug": "fog-canyon",
+      "name": "Fog Canyon"
+    },
+    "hp": 35,
+    "damage": 1,
+    "geoDrop": 8,
+    "hunterJournal": {
+      "notes": "Hangs from the canyon ceiling, swollen with acid. Drops, swells, and explodes into a stinging cloud on contact."
+    },
+    "summary": "Suspended Fog Canyon jelly that detonates when disturbed. Best burst from below with a charged spell.",
+    "verified": false,
+    "wikiSlug": "Ooma",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Ooma"
+    ],
+    "_slug": "ooma",
+    "_type": "characters"
+  },
+  {
+    "slug": "primal-aspid",
+    "name": "Primal Aspid",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Crystal Peak spitter",
+    "area": {
+      "slug": "crystal-peak",
+      "name": "Crystal Peak"
+    },
+    "hp": 25,
+    "damage": 1,
+    "geoDrop": 22,
+    "hunterJournal": {
+      "notes": "Earlier, more savage cousin of the Aspid Hunter. Hovers and fires a tighter triple-shot from a longer range."
+    },
+    "summary": "Primal flying spitter found in Crystal Peak and Kingdom's Edge. The reason most pogo runs get reset.",
+    "verified": false,
+    "wikiSlug": "Primal_Aspid",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Primal_Aspid"
+    ],
+    "_slug": "primal-aspid",
+    "_type": "characters"
+  },
+  {
+    "slug": "quirrel",
+    "name": "Quirrel",
+    "game": "hk",
+    "kind": "npc",
+    "role": "Wandering scholar",
+    "area": {
+      "slug": "city-of-tears",
+      "name": "City of Tears"
+    },
+    "location": "Met across many areas: Temple of the Black Egg, Crossroads, Mantis Village, City of Tears, Deepnest, Blue Lake.",
+    "summary": "Soft-spoken pilgrim with a clear nail and an easy smile. Crosses paths with the Knight throughout the kingdom.",
+    "description": "Once Monomon the Teacher's assistant. After waking the Knight, he travels Hallownest revisiting the places he forgot, finally resting at the Blue Lake.",
+    "verified": false,
+    "wikiSlug": "Quirrel",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Quirrel"
+    ],
+    "_slug": "quirrel",
+    "_type": "characters"
+  },
+  {
+    "slug": "royal-retainer",
+    "name": "Royal Retainer",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Servant husk",
+    "area": {
+      "slug": "city-of-tears",
+      "name": "City of Tears"
+    },
+    "hp": 35,
+    "damage": 1,
+    "geoDrop": 22,
+    "hunterJournal": {
+      "notes": "Tall servant husk dressed in fine cloth. Slow swings, still polite even now."
+    },
+    "summary": "Long-armed City of Tears servant. Swings a polearm in a wide arc — easy to time around, but it tracks the Knight through pillars.",
+    "verified": false,
+    "wikiSlug": "Royal_Retainer",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Royal_Retainer"
+    ],
+    "_slug": "royal-retainer",
+    "_type": "characters"
+  },
+  {
+    "slug": "salubra",
+    "name": "Salubra",
+    "game": "hk",
+    "kind": "merchant",
+    "role": "Charm seller",
+    "area": {
+      "slug": "forgotten-crossroads",
+      "name": "Forgotten Crossroads"
+    },
+    "location": "Shop hidden inside a wall in the Forgotten Crossroads.",
+    "sells": [
+      "Quick Focus",
+      "Lifeblood Heart",
+      "Steady Body",
+      "Shaman Stone",
+      "Long Nail",
+      "Charm Notches (5, 10, 18, 40 equipped charms)",
+      "Salubra's Blessing (after buying every charm)"
+    ],
+    "summary": "Plump charm seller hidden in the Crossroads. Sells five charms and grants extra Charm Notches once the Knight collects enough.",
+    "description": "Always pleased to see her customers, especially the ones loaded with charms. Her Blessing increases SOUL gained from striking enemies and is required for 112% completion.",
+    "verified": false,
+    "wikiSlug": "Salubra",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Salubra"
+    ],
+    "_slug": "salubra",
+    "_type": "characters"
+  },
+  {
+    "slug": "seer",
+    "name": "Seer",
+    "game": "hk",
+    "kind": "merchant",
+    "role": "Last of the Moth Tribe",
+    "area": {
+      "slug": "resting-grounds",
+      "name": "Resting Grounds"
+    },
+    "location": "Tucked away inside the Seer's chamber in the Resting Grounds.",
+    "sells": [
+      "Awoken Dream Nail upgrade (1800 Essence)",
+      "Hallownest Seal (100 Essence)",
+      "Arcane Egg (1200 Essence)",
+      "Pale Ore (300 Essence)",
+      "Vessel Fragment (700 Essence)",
+      "Dream Wielder charm (500 Essence)",
+      "Dreamshield charm (1500 Essence)",
+      "Dream Gate (900 Essence)"
+    ],
+    "summary": "Mournful elder of the forgotten Moth Tribe. Reads Essence gathered with the Dream Nail and grants relics in return.",
+    "description": "Slowly fades as the Knight brings her enough Essence. Her parting words — and the End of Pathways achievement — close her arc once 2400 Essence has been delivered.",
+    "verified": false,
+    "wikiSlug": "Seer",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Seer"
+    ],
+    "_slug": "seer",
+    "_type": "characters"
+  },
+  {
+    "slug": "shadow-creeper",
+    "name": "Shadow Creeper",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Abyssal scuttler",
+    "area": {
+      "slug": "the-abyss",
+      "name": "The Abyss"
+    },
+    "hp": 8,
+    "damage": 1,
+    "geoDrop": 0,
+    "hunterJournal": {
+      "notes": "Void-born scuttler. Scurries along the floor in jerks, made of the same dark stuff the Knight is."
+    },
+    "summary": "Skittering void-bug in the Abyss. Harmless on its own; appears in eerie numbers around Shadow Soul gates.",
+    "verified": false,
+    "wikiSlug": "Shadow_Creeper",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Shadow_Creeper"
+    ],
+    "_slug": "shadow-creeper",
+    "_type": "characters"
+  },
+  {
+    "slug": "shrumal-ogre",
+    "name": "Shrumal Ogre",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Mushroom heavyweight",
+    "area": {
+      "slug": "fungal-wastes",
+      "name": "Fungal Wastes"
+    },
+    "hp": 75,
+    "damage": 1,
+    "geoDrop": 35,
+    "hunterJournal": {
+      "notes": "Massive mushroom-bug. Slams the ground with both arms and rolls forward, taking up most of a corridor."
+    },
+    "summary": "Hulking fungal enemy in deep Fungal Wastes. Two huge fists, a charged ground-pound, and a forward roll.",
+    "verified": false,
+    "wikiSlug": "Shrumal_Ogre",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Shrumal_Ogre"
+    ],
+    "_slug": "shrumal-ogre",
+    "_type": "characters"
+  },
+  {
+    "slug": "shrumeling",
+    "name": "Shrumeling",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Fungal sprout",
+    "area": {
+      "slug": "fungal-core",
+      "name": "Fungal Core"
+    },
+    "hp": 1,
+    "damage": 1,
+    "geoDrop": 0,
+    "hunterJournal": {
+      "notes": "Just-sprouted mushroom child. Pops up underfoot and runs in panicked little circles."
+    },
+    "summary": "Tiny pop-up enemy spawned by the Fungal Core. Harmless on its own; the room geometry around them is the actual hazard.",
+    "verified": false,
+    "wikiSlug": "Shrumeling",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Shrumeling"
+    ],
+    "_slug": "shrumeling",
+    "_type": "characters"
+  },
+  {
+    "slug": "sly",
+    "name": "Sly",
+    "game": "hk",
+    "kind": "merchant",
+    "role": "Item shopkeeper (and a retired Nailmaster)",
+    "area": {
+      "slug": "dirtmouth",
+      "name": "Dirtmouth"
+    },
+    "location": "Initially asleep in Forgotten Crossroads. After rescue, runs the item shop in Dirtmouth.",
+    "isBoss": true,
+    "bossSlug": "great-nailsage-sly",
+    "sells": [
+      "Simple Key",
+      "Lumafly Lantern",
+      "Mask Shard",
+      "Vessel Fragment",
+      "Rancid Egg",
+      "Elegant Key (after Crossroads errand)",
+      "Heavy Blow",
+      "Sprintmaster"
+    ],
+    "summary": "Bristly, business-minded shopkeep. Sells the keys, lanterns, and shards that quietly run early Hollow Knight.",
+    "description": "Reveals himself in Godhome as the Great Nailsage Sly — the master who trained Mato, Oro, and Sheo. The shop and the boss share the same bug.",
+    "verified": false,
+    "wikiSlug": "Sly",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Sly"
+    ],
+    "_slug": "sly",
+    "_type": "characters"
+  },
+  {
+    "slug": "snail-shaman",
+    "name": "Snail Shaman",
+    "game": "hk",
+    "kind": "npc",
+    "role": "Shaman of the Spirits",
+    "area": {
+      "slug": "ancestral-mound",
+      "name": "Ancestral Mound"
+    },
+    "location": "Inside the Ancestral Mound, beyond the Soul-cracked door.",
+    "summary": "Last of the Snail Shamans, keeper of soul rituals from before the Pale King's age.",
+    "description": "Hands the Knight Howling Wraiths and points the way to the Shaman Stone charm in his crypt below. His clan is also responsible for the Spell Twister and Soul Eater charms.",
+    "verified": false,
+    "wikiSlug": "Snail_Shaman",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Snail_Shaman"
+    ],
+    "_slug": "snail-shaman",
+    "_type": "characters"
+  },
+  {
+    "slug": "soul-twister",
+    "name": "Soul Twister",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Soul Sanctum researcher",
+    "area": {
+      "slug": "soul-sanctum",
+      "name": "Soul Sanctum"
+    },
+    "hp": 50,
+    "damage": 1,
+    "geoDrop": 35,
+    "hunterJournal": {
+      "notes": "Robed Soul Sanctum scholar. Teleports between two positions and fires the Soul Master's signature orb in between."
+    },
+    "summary": "Floating Sanctum caster. Phases in, fires a glowing orb, phases out before the strike connects. Pre-empt with spells.",
+    "verified": false,
+    "wikiSlug": "Soul_Twister",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Soul_Twister"
+    ],
+    "_slug": "soul-twister",
+    "_type": "characters"
+  },
+  {
+    "slug": "squit",
+    "name": "Squit",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Mosquito swarmer",
+    "area": {
+      "slug": "kingdoms-edge",
+      "name": "Kingdom's Edge"
+    },
+    "hp": 5,
+    "damage": 1,
+    "geoDrop": 4,
+    "hunterJournal": {
+      "notes": "Tiny mosquito that swarms in twitchy lines. Easy to swat, easier to miss."
+    },
+    "summary": "Fast, fragile mosquito spawned by Aluba and around Kingdom's Edge. One nail-swing usually clears a cluster.",
+    "verified": false,
+    "wikiSlug": "Squit",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Squit"
+    ],
+    "_slug": "squit",
+    "_type": "characters"
+  },
+  {
+    "slug": "stalking-devout",
+    "name": "Stalking Devout",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Mantis Village ambusher",
+    "area": {
+      "slug": "deepnest",
+      "name": "Deepnest"
+    },
+    "hp": 60,
+    "damage": 2,
+    "geoDrop": 36,
+    "hunterJournal": {
+      "notes": "Spider-like mantis predator that pads on the ceiling, drops on the Knight, and lashes out with curved nails."
+    },
+    "summary": "Mantis tribe outcast that hunts in Deepnest. Stealthy ceiling approach, two-hit nail flurry on landing.",
+    "verified": false,
+    "wikiSlug": "Stalking_Devout",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Stalking_Devout"
+    ],
+    "_slug": "stalking-devout",
+    "_type": "characters"
+  },
+  {
+    "slug": "sturdy-fool",
+    "name": "Sturdy Fool",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Colosseum bruiser",
+    "area": {
+      "slug": "colosseum-of-fools",
+      "name": "Colosseum of Fools"
+    },
+    "hp": 80,
+    "damage": 2,
+    "geoDrop": 35,
+    "hunterJournal": {
+      "notes": "Heavyset Colosseum competitor in armoured plate. Charges with a shoulder check, swings a club on the followup."
+    },
+    "summary": "Slow tank common to the Trial of the Warrior. Big hitbox, big swing, big geo drop on death.",
+    "verified": false,
+    "wikiSlug": "Sturdy_Fool",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Sturdy_Fool"
+    ],
+    "_slug": "sturdy-fool",
+    "_type": "characters"
+  },
+  {
+    "slug": "the-hunter",
+    "name": "The Hunter",
+    "game": "hk",
+    "kind": "npc",
+    "role": "Author of the Hunter's Journal",
+    "area": {
+      "slug": "greenpath",
+      "name": "Greenpath"
+    },
+    "location": "Den near the Deepnest border in deep Greenpath. Reachable through a tunnel from the Stone Sanctuary.",
+    "summary": "Imposing predator-bug obsessed with cataloguing every creature in Hallownest. Gives the Knight his Journal.",
+    "description": "Updates each Hunter's Journal entry as the Knight encounters and slays more creatures. Filling the Journal rewards Hunter's Marks and, eventually, the Mark of Pride charm and a steel-soul-tier completion percentage.",
+    "sells": [
+      "Hunter's Journal (gift)",
+      "Mark of Pride charm (Journal completion)",
+      "Hunter's Mark fragments (kill milestones)"
+    ],
+    "verified": false,
+    "wikiSlug": "Hunter",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Hunter"
+    ],
+    "_slug": "the-hunter",
+    "_type": "characters"
+  },
+  {
+    "slug": "the-last-stag",
+    "name": "The Last Stag",
+    "game": "hk",
+    "kind": "npc",
+    "role": "Stagway courier",
+    "area": {
+      "slug": "forgotten-crossroads",
+      "name": "Forgotten Crossroads"
+    },
+    "location": "First met at the Forgotten Crossroads Stag Station. Travels every Stagway.",
+    "summary": "The final living Great Stag of Hallownest. Ferries the Knight between Stag Stations for a small geo fee.",
+    "description": "Wakes from a long sleep when the Knight rings the first Stag bell. Each new station added to his network unlocks fast travel and a short memory of the kingdom he once served.",
+    "verified": false,
+    "wikiSlug": "The_Last_Stag",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/The_Last_Stag"
+    ],
+    "_slug": "the-last-stag",
+    "_type": "characters"
+  },
+  {
+    "slug": "tiktik",
+    "name": "Tiktik",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Skittish crawler",
+    "area": {
+      "slug": "forgotten-crossroads",
+      "name": "Forgotten Crossroads"
+    },
+    "hp": 5,
+    "damage": 1,
+    "geoDrop": 1,
+    "hunterJournal": {
+      "notes": "Timid creature that scurries away from anything that moves. Its shell offers little protection."
+    },
+    "summary": "Harmless beetle that runs from the Knight. Easy geo for anyone patient enough to chase it.",
+    "verified": false,
+    "wikiSlug": "Tiktik",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Tiktik"
+    ],
+    "_slug": "tiktik",
+    "_type": "characters"
+  },
+  {
+    "slug": "tiso",
+    "name": "Tiso",
+    "game": "hk",
+    "kind": "warrior",
+    "role": "Aimless adventurer",
+    "area": {
+      "slug": "dirtmouth",
+      "name": "Dirtmouth"
+    },
+    "location": "First met by the well in Dirtmouth. Reappears at Queen's Station, the Blue Lake, and finally the Colosseum of Fools.",
+    "summary": "Brash wanderer with a tower shield and big plans. Looking for a fight worthy of his name in the Colosseum.",
+    "description": "Gives the Knight his shield as a parting gift before entering the Colosseum. He never makes it out — his corpse marks the entrance to the Trial of the Conqueror.",
+    "verified": false,
+    "wikiSlug": "Tiso",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Tiso"
+    ],
+    "_slug": "tiso",
+    "_type": "characters"
+  },
+  {
+    "slug": "uoma",
+    "name": "Uoma",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Fog Canyon drifter",
+    "area": {
+      "slug": "fog-canyon",
+      "name": "Fog Canyon"
+    },
+    "hp": 5,
+    "damage": 1,
+    "geoDrop": 4,
+    "hunterJournal": {
+      "notes": "Small jellyfish-bug that drifts in straight lines through the fog. Pops harmlessly into mist when struck."
+    },
+    "summary": "Lesser cousin of the Ooma. Floats lazily across rooms and dies in one strike.",
+    "verified": false,
+    "wikiSlug": "Uoma",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Uoma"
+    ],
+    "_slug": "uoma",
+    "_type": "characters"
+  },
+  {
+    "slug": "vengefly",
+    "name": "Vengefly",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Flying biter",
+    "area": {
+      "slug": "forgotten-crossroads",
+      "name": "Forgotten Crossroads"
+    },
+    "hp": 8,
+    "damage": 1,
+    "geoDrop": 2,
+    "hunterJournal": {
+      "notes": "Small carnivorous flier. Lunges at intruders with its tooth-lined mouth. Hunts in swarms when threatened."
+    },
+    "summary": "Common flying enemy across the Crossroads and Greenpath. Aggressive but fragile — usually a one-shot.",
+    "verified": false,
+    "wikiSlug": "Vengefly",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Vengefly"
+    ],
+    "_slug": "vengefly",
+    "_type": "characters"
+  },
+  {
+    "slug": "volatile-mosskin",
+    "name": "Volatile Mosskin",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Infected mosskin worshipper",
+    "area": {
+      "slug": "queens-gardens",
+      "name": "Queen's Gardens"
+    },
+    "hp": 30,
+    "damage": 1,
+    "geoDrop": 16,
+    "hunterJournal": {
+      "notes": "Mosskin disciple corrupted by the Infection. Bulges grotesquely, then bursts in a spray of orange spores."
+    },
+    "summary": "Pop-up enemy in the Queen's Gardens. Lurks in moss patches until the Knight passes, then erupts into spore-shrapnel.",
+    "verified": false,
+    "wikiSlug": "Volatile_Mosskin",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Volatile_Mosskin"
+    ],
+    "_slug": "volatile-mosskin",
+    "_type": "characters"
+  },
+  {
+    "slug": "wandering-husk",
+    "name": "Wandering Husk",
+    "game": "hk",
+    "kind": "enemy",
+    "role": "Infected commoner",
+    "area": {
+      "slug": "forgotten-crossroads",
+      "name": "Forgotten Crossroads"
+    },
+    "hp": 15,
+    "damage": 1,
+    "geoDrop": 4,
+    "hunterJournal": {
+      "notes": "Husk shell of an old Hallownest citizen, drained of mind and will by the Infection. Stumbles forward looking for prey."
+    },
+    "summary": "The textbook Hallownest zombie. Walks in a straight line and swings a slow uppercut when close.",
+    "verified": false,
+    "wikiSlug": "Wandering_Husk",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Wandering_Husk"
+    ],
+    "_slug": "wandering-husk",
+    "_type": "characters"
+  },
+  {
+    "slug": "white-lady",
+    "name": "White Lady",
+    "game": "hk",
+    "kind": "npc",
+    "role": "Higher Being, Pale Queen",
+    "area": {
+      "slug": "queens-gardens",
+      "name": "Queen's Gardens"
+    },
+    "location": "Sealed inside the Queen's overgrown chamber, reachable from the bottom of the gardens through a thorn-blocked passage.",
+    "summary": "Pale, root-bound queen of Hallownest. Wife of the Pale King and mother of the Vessels and Hornet.",
+    "description": "Receiving the Charm of her bound seed (Kingsoul) requires Awoken Dream Nailing both her and the Pale King's broken remains. The fused Kingsoul becomes the Void Heart key to the true ending.",
+    "sells": [
+      "Half of the Kingsoul charm"
+    ],
+    "verified": false,
+    "wikiSlug": "White_Lady",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/White_Lady"
+    ],
+    "_slug": "white-lady",
+    "_type": "characters"
+  },
+  {
+    "slug": "zote",
+    "name": "Zote the Mighty",
+    "game": "hk",
+    "kind": "npc",
+    "role": "Self-proclaimed knight of Hallownest",
+    "area": {
+      "slug": "dirtmouth",
+      "name": "Dirtmouth"
+    },
+    "location": "Rescued from Vengefly King in Greenpath. Later met in Dirtmouth, the Colosseum of Fools, and Deepnest.",
+    "isBoss": true,
+    "bossSlug": "grey-prince-zote",
+    "summary": "A boastful little bug brandishing a nail named Life Ender. Helpless on his own, somehow alive at every checkpoint.",
+    "description": "Recites his 57 Precepts to anyone who will listen. Bretta's diary turns him into Grey Prince Zote — a dream-only boss whose difficulty ramps each time he's defeated.",
+    "verified": false,
+    "wikiSlug": "Zote",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Zote"
+    ],
+    "_slug": "zote",
+    "_type": "characters"
+  }
+]

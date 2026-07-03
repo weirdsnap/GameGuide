@@ -1,0 +1,52 @@
+{
+  "slug": "hornet-protector",
+  "name": "Hornet Protector",
+  "game": "hk",
+  "optional": false,
+  "hp": {
+    "base": 450
+  },
+  "geo": 0,
+  "area": {
+    "slug": "greenpath",
+    "name": "Greenpath"
+  },
+  "phases": [
+    {
+      "name": "Sole phase",
+      "description": "Hornet uses her needle and silk thread aggressively, with no pause between movesets."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Needle throw",
+      "description": "Throws her needle and reels it back on a silk line."
+    },
+    {
+      "name": "Dash",
+      "description": "Fast horizontal dash with the needle outstretched."
+    },
+    {
+      "name": "Sphere of silk",
+      "description": "Creates a stationary silk sphere."
+    }
+  ],
+  "rewards": [
+    "Mothwing Cloak progression (story)"
+  ],
+  "hunterJournal": {
+    "notes": "A vigilant warrior of Hallownest, daughter of the Pale King. Protector of Hallownest's borders."
+  },
+  "music": {
+    "title": "Hornet",
+    "spotifyTrackId": "4p6GbcE3GjJs7JzhVBv2uT"
+  },
+  "summary": "The first encounter with Hornet, fought at the heart of Greenpath. A fast, aggressive duel that introduces dash and needle-throw patterns.",
+  "verified": false,
+  "wikiSlug": "Hornet_Protector",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Hornet_Protector"
+  ],
+  "_slug": "hornet-protector",
+  "_type": "bosses"
+}

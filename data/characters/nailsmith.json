@@ -1,0 +1,27 @@
+{
+  "slug": "nailsmith",
+  "name": "Nailsmith",
+  "game": "hk",
+  "kind": "merchant",
+  "role": "Master nail forger",
+  "area": {
+    "slug": "city-of-tears",
+    "name": "City of Tears"
+  },
+  "location": "His forge sits at the eastern edge of the City of Tears.",
+  "sells": [
+    "Sharpened Nail (250 geo)",
+    "Channelled Nail (800 geo + Pale Ore)",
+    "Coiled Nail (2000 geo + 2 Pale Ore)",
+    "Pure Nail (4000 geo + 3 Pale Ore)"
+  ],
+  "summary": "Old smith who hones the Knight's nail. Each upgrade demands geo and the rare Pale Ore.",
+  "description": "Forges with single-minded devotion. Completing his quest with the Pure Nail leads to a choice — spare him to retire to Sheo's hut, or end him for a Mask Shard.",
+  "verified": false,
+  "wikiSlug": "Nailsmith",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Nailsmith"
+  ],
+  "_slug": "nailsmith",
+  "_type": "characters"
+}

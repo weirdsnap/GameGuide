@@ -1,0 +1,21 @@
+{
+  "slug": "bardoon",
+  "name": "Bardoon",
+  "game": "hk",
+  "kind": "npc",
+  "role": "Great worm of stillness",
+  "area": {
+    "slug": "kingdoms-edge",
+    "name": "Kingdom's Edge"
+  },
+  "location": "Sprawled across a wide chamber in the deepest reaches of Kingdom's Edge.",
+  "summary": "An enormous serene worm who advises the Knight to seek calm. The largest character model in the game.",
+  "description": "One of the last remaining wyrms — kin to the Pale King in distant ancestry. Speaks in measured, almost meditative paragraphs about presence, void, and the void within the Knight.",
+  "verified": false,
+  "wikiSlug": "Bardoon",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Bardoon"
+  ],
+  "_slug": "bardoon",
+  "_type": "characters"
+}

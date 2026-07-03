@@ -1,0 +1,21 @@
+{
+  "slug": "moss-prophet",
+  "name": "Moss Prophet",
+  "game": "hk",
+  "kind": "npc",
+  "role": "Infection preacher",
+  "area": {
+    "slug": "queens-gardens",
+    "name": "Queen's Gardens"
+  },
+  "location": "Sermonising in a sunlit room of the Queen's Gardens.",
+  "summary": "Withered preacher who proclaims the Infection a gift. His followers, the Mosskin worshippers, lie dead around him.",
+  "description": "Slumped against a stone, alone in his rapture. After Radiance is defeated his body crumbles to ash, the sermon finally ending.",
+  "verified": false,
+  "wikiSlug": "Moss_Prophet",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Moss_Prophet"
+  ],
+  "_slug": "moss-prophet",
+  "_type": "characters"
+}

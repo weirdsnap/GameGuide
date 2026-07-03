@@ -1,0 +1,27 @@
+{
+  "slug": "grimmchild",
+  "name": "Grimmchild",
+  "game": "hk",
+  "notchCost": 2,
+  "inventoryOrder": 40,
+  "effect": "Summons a Grimmchild that fights alongside the Knight.",
+  "description": "An evolving companion charm. The Grimmchild grows into more dangerous forms as the Knight collects flames for the Grimm Troupe quest, ending at level 4.",
+  "area": {
+    "slug": "dirtmouth",
+    "name": "Dirtmouth"
+  },
+  "acquisition": "quest",
+  "upgradesTo": "carefree-melody",
+  "location": "Speak to Troupe Master Grimm in Dirtmouth, then complete the Ritual to grow the Grimmchild.",
+  "synergies": [
+    "weaversong"
+  ],
+  "summary": "Companion that grows as you progress the Grimm Troupe quest. Converts to Carefree Melody if you banish.",
+  "verified": false,
+  "wikiSlug": "Grimmchild",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Grimmchild"
+  ],
+  "_slug": "grimmchild",
+  "_type": "charms"
+}

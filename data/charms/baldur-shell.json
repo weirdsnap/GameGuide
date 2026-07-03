@@ -1,0 +1,27 @@
+{
+  "slug": "baldur-shell",
+  "name": "Baldur Shell",
+  "game": "hk",
+  "notchCost": 2,
+  "inventoryOrder": 23,
+  "effect": "Protects the Knight while focusing, blocking up to four hits.",
+  "description": "A baldur shell sprouts over the Knight's head during Focus. The shell breaks after blocking four hits and regenerates at a bench.",
+  "area": {
+    "slug": "howling-cliffs",
+    "name": "Howling Cliffs"
+  },
+  "acquisition": "find",
+  "location": "Howling Cliffs — found in a baldur skull, requires the Mothwing Cloak to reach.",
+  "summary": "Blocks damage while focusing. Shatters after four hits.",
+  "synergies": [
+    "quick-focus",
+    "deep-focus"
+  ],
+  "verified": false,
+  "wikiSlug": "Baldur_Shell",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Baldur_Shell"
+  ],
+  "_slug": "baldur-shell",
+  "_type": "charms"
+}

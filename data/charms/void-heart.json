@@ -1,0 +1,24 @@
+{
+  "slug": "void-heart",
+  "name": "Void Heart",
+  "game": "hk",
+  "notchCost": 0,
+  "inventoryOrder": 41,
+  "effect": "Unifies the Knight with the void. Cannot be unequipped; enables alternate endings.",
+  "description": "Replaces the Kingsoul after taking it into the Birthplace at the bottom of the Abyss. Pacifies all Siblings and unlocks the Dream No More ending and the Pantheon of Hallownest.",
+  "area": {
+    "slug": "birthplace",
+    "name": "Birthplace"
+  },
+  "acquisition": "story",
+  "upgradeOf": "kingsoul",
+  "location": "Birthplace at the bottom of the Abyss, equipped automatically upon entry while wearing the Kingsoul.",
+  "summary": "Forever-equipped soul charm that costs 0 notches. Required for the true ending.",
+  "verified": false,
+  "wikiSlug": "Void_Heart",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Void_Heart"
+  ],
+  "_slug": "void-heart",
+  "_type": "charms"
+}

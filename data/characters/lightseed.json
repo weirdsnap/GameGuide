@@ -1,0 +1,25 @@
+{
+  "slug": "lightseed",
+  "name": "Lightseed",
+  "game": "hk",
+  "kind": "enemy",
+  "role": "Lifeblood drone",
+  "area": {
+    "slug": "ancient-basin",
+    "name": "Ancient Basin"
+  },
+  "hp": 1,
+  "damage": 1,
+  "geoDrop": 0,
+  "hunterJournal": {
+    "notes": "Glowing blue mote summoned by Lifeseeds. Drifts toward the Knight, deals contact damage, then pops."
+  },
+  "summary": "Lifeblood-charged projectile spawn. The danger isn't the seed itself, it's having three drift at you while you're committed to a swing.",
+  "verified": false,
+  "wikiSlug": "Lightseed",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Lightseed"
+  ],
+  "_slug": "lightseed",
+  "_type": "characters"
+}

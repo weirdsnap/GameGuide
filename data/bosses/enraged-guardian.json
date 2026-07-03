@@ -1,0 +1,33 @@
+{
+  "slug": "enraged-guardian",
+  "name": "Enraged Guardian",
+  "game": "hk",
+  "optional": true,
+  "hp": {
+    "base": 380
+  },
+  "geo": 60,
+  "area": {
+    "slug": "crystal-peak",
+    "name": "Crystal Peak"
+  },
+  "attacks": [
+    {
+      "name": "Triple beam"
+    },
+    {
+      "name": "Long hop"
+    },
+    {
+      "name": "Crystal burst"
+    }
+  ],
+  "summary": "A more aggressive return of the Crystal Guardian after collecting the Crystal Heart. Adds vertical movement and a faster, longer beam pattern.",
+  "verified": false,
+  "wikiSlug": "Enraged_Guardian",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Enraged_Guardian"
+  ],
+  "_slug": "enraged-guardian",
+  "_type": "bosses"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "unbreakable-heart",
+  "name": "Unbreakable Heart",
+  "game": "hk",
+  "notchCost": 2,
+  "inventoryOrder": 12,
+  "effect": "Increases health by 2 masks. No longer breaks on death.",
+  "description": "Permanent version of Fragile Heart. Requires Divine of the Grimm Troupe to forge — costs an additional 15,000 geo on top of the base charm.",
+  "cost": 15000,
+  "area": {
+    "slug": "dirtmouth",
+    "name": "Dirtmouth"
+  },
+  "merchant": "divine",
+  "acquisition": "purchase",
+  "upgradeOf": "fragile-heart",
+  "location": "Divine's tent in Dirtmouth, after the Grimm Troupe arrives.",
+  "summary": "Fragile Heart's permanent form. 2 extra masks that survive death.",
+  "verified": false,
+  "wikiSlug": "Unbreakable_Heart",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Unbreakable_Heart"
+  ],
+  "_slug": "unbreakable-heart",
+  "_type": "charms"
+}

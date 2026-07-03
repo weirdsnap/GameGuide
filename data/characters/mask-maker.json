@@ -1,0 +1,21 @@
+{
+  "slug": "mask-maker",
+  "name": "Mask Maker",
+  "game": "hk",
+  "kind": "npc",
+  "role": "Crafter of vessel masks",
+  "area": {
+    "slug": "distant-village",
+    "name": "Distant Village"
+  },
+  "location": "A small, candle-lit hut on the path leading into the Distant Village.",
+  "summary": "Reclusive crafter who shaped the masks worn by every vessel born in the Abyss — including the Knight's own.",
+  "description": "Speaks in low, formal cadence about purpose, vessels, and fate. Recognises the Knight as one of their making, and never quite explains how much they know.",
+  "verified": false,
+  "wikiSlug": "Mask_Maker",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Mask_Maker"
+  ],
+  "_slug": "mask-maker",
+  "_type": "characters"
+}

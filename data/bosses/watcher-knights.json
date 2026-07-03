@@ -1,0 +1,47 @@
+{
+  "slug": "watcher-knights",
+  "name": "Watcher Knights",
+  "game": "hk",
+  "optional": false,
+  "hp": {
+    "base": 230
+  },
+  "geo": 0,
+  "area": {
+    "slug": "city-of-tears",
+    "name": "City of Tears"
+  },
+  "phases": [
+    {
+      "name": "One vs one"
+    },
+    {
+      "name": "Two active"
+    },
+    {
+      "name": "Up to three at once"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Roll"
+    },
+    {
+      "name": "Lunge slash"
+    },
+    {
+      "name": "Wall jump dive"
+    }
+  ],
+  "rewards": [
+    "Access to the Crown / Hallownest Crown"
+  ],
+  "summary": "Six elite knights of Lurien the Watcher. They drop from above and engage in escalating numbers, eventually three at once. HP is per knight.",
+  "verified": false,
+  "wikiSlug": "Watcher_Knights",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Watcher_Knights"
+  ],
+  "_slug": "watcher-knights",
+  "_type": "bosses"
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "lance-sentry",
+  "name": "Lance Sentry",
+  "game": "hk",
+  "kind": "enemy",
+  "role": "Aerial sentry",
+  "area": {
+    "slug": "kings-station",
+    "name": "King's Station"
+  },
+  "hp": 60,
+  "damage": 1,
+  "geoDrop": 26,
+  "hunterJournal": {
+    "notes": "Husk floats on a thin lance, hovering above ledges. Drops in for an overhead spear thrust, then floats back up."
+  },
+  "summary": "Hovering sentry that descends in a vertical lance-stab. Likes to bait jumps so the Knight collides with the spear point.",
+  "verified": false,
+  "wikiSlug": "Lance_Sentry",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Lance_Sentry"
+  ],
+  "_slug": "lance-sentry",
+  "_type": "characters"
+}

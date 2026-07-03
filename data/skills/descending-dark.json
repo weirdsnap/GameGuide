@@ -1,0 +1,24 @@
+{
+  "slug": "descending-dark",
+  "name": "Descending Dark",
+  "game": "hk",
+  "kind": "spell",
+  "soulCost": 33,
+  "damage": 65,
+  "effect": "Smash downward with greater force, granting brief invulnerability.",
+  "description": "Desolate Dive's upgrade. Bigger shockwave, higher damage, and an i-frame window on the way down.",
+  "acquisition": "Found at the bottom of Crystal Peak's hidden Crystal Shrine.",
+  "area": {
+    "slug": "crystal-peak",
+    "name": "Crystal Peak"
+  },
+  "upgradeOf": "desolate-dive",
+  "summary": "Stronger Desolate Dive with invuln frames. 65 damage at the impact.",
+  "verified": false,
+  "wikiSlug": "Descending_Dark",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Descending_Dark"
+  ],
+  "_slug": "descending-dark",
+  "_type": "skills"
+}

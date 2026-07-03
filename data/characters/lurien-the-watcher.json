@@ -1,0 +1,21 @@
+{
+  "slug": "lurien-the-watcher",
+  "name": "Lurien the Watcher",
+  "game": "hk",
+  "kind": "npc",
+  "role": "Dreamer of Hallownest",
+  "area": {
+    "slug": "city-of-tears",
+    "name": "City of Tears"
+  },
+  "location": "At the top of the Watcher's Spire in the City of Tears.",
+  "summary": "Bookish, telescope-loving custodian of the capital. One of the three Dreamers sealing the Hollow Knight.",
+  "description": "Watched over the City of Tears from his tower. Chose eternal sleep when the Pale King asked, and is guarded by the Watcher Knights even now.",
+  "verified": false,
+  "wikiSlug": "Lurien_the_Watcher",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Lurien_the_Watcher"
+  ],
+  "_slug": "lurien-the-watcher",
+  "_type": "characters"
+}

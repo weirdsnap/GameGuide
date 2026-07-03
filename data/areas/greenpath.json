@@ -1,0 +1,30 @@
+{
+  "slug": "greenpath",
+  "name": "Greenpath",
+  "game": "hk",
+  "kind": "region",
+  "connectsTo": {
+    "forgotten-crossroads": [],
+    "fog-canyon": [],
+    "queens-gardens": [
+      "isma-tear",
+      "monarch-wings"
+    ],
+    "lake-of-unn": [],
+    "stone-sanctuary": []
+  },
+  "stagStation": "Greenpath Stag",
+  "music": {
+    "title": "Greenpath",
+    "spotifyTrackId": "6fyI2QGPzUiqRHnuYD7oOp"
+  },
+  "summary": "A verdant, mossy region west of the Crossroads. Home to Hornet's first ambush, Massive Moss Charger, and the Mothwing Cloak.",
+  "description": "Acidic pools punish unprotected dashes until Isma's Tear is obtained. Provides the Knight's first encounters with Mosskin warriors and Hornet.",
+  "verified": false,
+  "wikiSlug": "Greenpath",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Greenpath"
+  ],
+  "_slug": "greenpath",
+  "_type": "areas"
+}

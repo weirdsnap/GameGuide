@@ -1,0 +1,28 @@
+{
+  "slug": "jonis-blessing",
+  "name": "Joni's Blessing",
+  "game": "hk",
+  "notchCost": 4,
+  "inventoryOrder": 31,
+  "effect": "Converts every white mask to a blue Lifeblood mask. Cannot Focus to heal.",
+  "description": "Replaces the entire health bar with Lifeblood. The Knight can no longer heal mid-fight — only at benches.",
+  "area": {
+    "slug": "howling-cliffs",
+    "name": "Howling Cliffs"
+  },
+  "acquisition": "find",
+  "location": "Joni's Repose in the Howling Cliffs.",
+  "synergies": [
+    "lifeblood-heart",
+    "lifeblood-core",
+    "fury-of-the-fallen"
+  ],
+  "summary": "Trades healing for one huge Lifeblood pool. The Joni's challenge.",
+  "verified": false,
+  "wikiSlug": "Joni%27s_Blessing",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Joni%27s_Blessing"
+  ],
+  "_slug": "jonis-blessing",
+  "_type": "charms"
+}

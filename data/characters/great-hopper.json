@@ -1,0 +1,25 @@
+{
+  "slug": "great-hopper",
+  "name": "Great Hopper",
+  "game": "hk",
+  "kind": "enemy",
+  "role": "Large leaping grub",
+  "area": {
+    "slug": "kingdoms-edge",
+    "name": "Kingdom's Edge"
+  },
+  "hp": 80,
+  "damage": 2,
+  "geoDrop": 30,
+  "hunterJournal": {
+    "notes": "Massive hopper, the size of a small room when it lands. Same straight-line jump pattern, much heavier impact."
+  },
+  "summary": "Giant variant of the Hopper. Wide hitbox on every jump and a screen-shaking landing. Hugely satisfying to chain-pogo.",
+  "verified": false,
+  "wikiSlug": "Great_Hopper",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Great_Hopper"
+  ],
+  "_slug": "great-hopper",
+  "_type": "characters"
+}

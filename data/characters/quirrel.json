@@ -1,0 +1,21 @@
+{
+  "slug": "quirrel",
+  "name": "Quirrel",
+  "game": "hk",
+  "kind": "npc",
+  "role": "Wandering scholar",
+  "area": {
+    "slug": "city-of-tears",
+    "name": "City of Tears"
+  },
+  "location": "Met across many areas: Temple of the Black Egg, Crossroads, Mantis Village, City of Tears, Deepnest, Blue Lake.",
+  "summary": "Soft-spoken pilgrim with a clear nail and an easy smile. Crosses paths with the Knight throughout the kingdom.",
+  "description": "Once Monomon the Teacher's assistant. After waking the Knight, he travels Hallownest revisiting the places he forgot, finally resting at the Blue Lake.",
+  "verified": false,
+  "wikiSlug": "Quirrel",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Quirrel"
+  ],
+  "_slug": "quirrel",
+  "_type": "characters"
+}

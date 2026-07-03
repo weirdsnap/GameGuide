@@ -1,0 +1,59 @@
+{
+  "slug": "the-hollow-knight",
+  "name": "The Hollow Knight",
+  "game": "hk",
+  "optional": false,
+  "hp": {
+    "base": 1300
+  },
+  "geo": 0,
+  "area": {
+    "slug": "temple-of-the-black-egg",
+    "name": "Temple of the Black Egg"
+  },
+  "phases": [
+    {
+      "name": "Restrained"
+    },
+    {
+      "name": "Self-striking",
+      "description": "Begins driving the nail into itself, releasing infection bursts."
+    },
+    {
+      "name": "Infection blossom"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Nail slash"
+    },
+    {
+      "name": "Lunge"
+    },
+    {
+      "name": "Infection blob"
+    },
+    {
+      "name": "Self-impale burst"
+    }
+  ],
+  "rewards": [
+    "Sealed Siblings ending (without Hornet)",
+    "Path to The Radiance (with Awoken Dream Nail)"
+  ],
+  "hunterJournal": {
+    "notes": "Forged of god and void. The Vessel created to seal away the Old Light's plague — and it cracked."
+  },
+  "music": {
+    "title": "Sealed Vessel",
+    "spotifyTrackId": "5LlqVViilxn216dQzcFyvy"
+  },
+  "summary": "The default final boss. Slow telegraphs, three escalating phases, and an emotional gut-punch as the Vessel begins striking itself to release the Infection.",
+  "verified": false,
+  "wikiSlug": "Hollow_Knight",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Hollow_Knight"
+  ],
+  "_slug": "the-hollow-knight",
+  "_type": "bosses"
+}

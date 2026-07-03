@@ -1,0 +1,24 @@
+{
+  "slug": "cornifer",
+  "name": "Cornifer",
+  "game": "hk",
+  "kind": "npc",
+  "role": "Cartographer",
+  "area": {
+    "slug": "forgotten-crossroads",
+    "name": "Forgotten Crossroads"
+  },
+  "location": "Roams the kingdom — one room per major area until each map is sold.",
+  "summary": "Wandering map-maker who sells the area map for each region he's visited. Follow the humming and the scattered paper trail.",
+  "description": "The first to draw maps of Hallownest's modern ruins. Sits in a different room of each area, humming, until the Knight buys his map. After that, his wife Iselda continues to sell upgrades and pins in Dirtmouth.",
+  "sells": [
+    "Area maps (per region)"
+  ],
+  "verified": false,
+  "wikiSlug": "Cornifer",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Cornifer"
+  ],
+  "_slug": "cornifer",
+  "_type": "characters"
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "shrumeling",
+  "name": "Shrumeling",
+  "game": "hk",
+  "kind": "enemy",
+  "role": "Fungal sprout",
+  "area": {
+    "slug": "fungal-core",
+    "name": "Fungal Core"
+  },
+  "hp": 1,
+  "damage": 1,
+  "geoDrop": 0,
+  "hunterJournal": {
+    "notes": "Just-sprouted mushroom child. Pops up underfoot and runs in panicked little circles."
+  },
+  "summary": "Tiny pop-up enemy spawned by the Fungal Core. Harmless on its own; the room geometry around them is the actual hazard.",
+  "verified": false,
+  "wikiSlug": "Shrumeling",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Shrumeling"
+  ],
+  "_slug": "shrumeling",
+  "_type": "characters"
+}

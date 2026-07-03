@@ -1,0 +1,20 @@
+{
+  "slug": "birthplace",
+  "name": "Birthplace",
+  "game": "hk",
+  "kind": "subarea",
+  "parent": "the-abyss",
+  "connectsTo": {
+    "the-abyss": [
+      "awoken-dream-nail"
+    ]
+  },
+  "summary": "A hidden chamber at the very bottom of the Abyss. Holds the Void Heart and reveals the origin of the Vessels.",
+  "verified": false,
+  "wikiSlug": "Birthplace",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Birthplace"
+  ],
+  "_slug": "birthplace",
+  "_type": "areas"
+}

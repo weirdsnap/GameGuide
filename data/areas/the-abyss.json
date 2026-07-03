@@ -1,0 +1,27 @@
+{
+  "slug": "the-abyss",
+  "name": "The Abyss",
+  "game": "hk",
+  "kind": "region",
+  "connectsTo": {
+    "ancient-basin": [
+      "kings-brand",
+      "monarch-wings"
+    ],
+    "birthplace": [
+      "awoken-dream-nail"
+    ],
+    "lifeblood-core-chamber": [
+      "shade-cloak"
+    ]
+  },
+  "music": "The Abyss",
+  "summary": "The void-filled void at the bottom of Hallownest. Birthplace of the Vessels and source of the Shade Cloak, Abyss Shriek, and Void Heart.",
+  "verified": false,
+  "wikiSlug": "Abyss",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Abyss"
+  ],
+  "_slug": "the-abyss",
+  "_type": "areas"
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "great-slash",
+  "name": "Great Slash",
+  "game": "hk",
+  "kind": "nail-art",
+  "effect": "Unleash a massive, wide-arc slash from the nail.",
+  "description": "The flagship nail art: a powerful horizontal slash with extreme reach. Most rewarding when paired with Fragile Strength and Nailmaster's Glory.",
+  "acquisition": "Taught by Nailmaster Sheo in the Greenpath underflow rooms.",
+  "area": {
+    "slug": "greenpath",
+    "name": "Greenpath"
+  },
+  "summary": "Wide, heavy slash nail art. Taught by Sheo.",
+  "verified": false,
+  "wikiSlug": "Great_Slash",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Great_Slash"
+  ],
+  "_slug": "great-slash",
+  "_type": "skills"
+}

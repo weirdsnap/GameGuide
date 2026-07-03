@@ -1,0 +1,25 @@
+{
+  "slug": "volatile-mosskin",
+  "name": "Volatile Mosskin",
+  "game": "hk",
+  "kind": "enemy",
+  "role": "Infected mosskin worshipper",
+  "area": {
+    "slug": "queens-gardens",
+    "name": "Queen's Gardens"
+  },
+  "hp": 30,
+  "damage": 1,
+  "geoDrop": 16,
+  "hunterJournal": {
+    "notes": "Mosskin disciple corrupted by the Infection. Bulges grotesquely, then bursts in a spray of orange spores."
+  },
+  "summary": "Pop-up enemy in the Queen's Gardens. Lurks in moss patches until the Knight passes, then erupts into spore-shrapnel.",
+  "verified": false,
+  "wikiSlug": "Volatile_Mosskin",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Volatile_Mosskin"
+  ],
+  "_slug": "volatile-mosskin",
+  "_type": "characters"
+}

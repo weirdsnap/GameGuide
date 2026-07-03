@@ -1,0 +1,24 @@
+{
+  "slug": "dirtmouth",
+  "name": "Dirtmouth",
+  "game": "hk",
+  "kind": "region",
+  "connectsTo": {
+    "forgotten-crossroads": [],
+    "kings-pass": []
+  },
+  "stagStation": "Dirtmouth (top of the well)",
+  "music": {
+    "title": "Dirtmouth",
+    "spotifyTrackId": "4gCnaT6NKQmR3hqEeHp30t"
+  },
+  "summary": "The small surface town above Hallownest. Players arrive here first and the population dwindles as the game goes on.",
+  "description": "Built on the lip of the great pit, Dirtmouth is the staging ground for the entire adventure. Elderbug stands by the well; Sly's shop and the Stag station open up early; the Grimm Troupe and Zote settle in as their quests trigger.",
+  "verified": false,
+  "wikiSlug": "Dirtmouth",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Dirtmouth"
+  ],
+  "_slug": "dirtmouth",
+  "_type": "areas"
+}

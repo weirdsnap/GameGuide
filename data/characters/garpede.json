@@ -1,0 +1,25 @@
+{
+  "slug": "garpede",
+  "name": "Garpede",
+  "game": "hk",
+  "kind": "enemy",
+  "role": "Crawling centipede",
+  "area": {
+    "slug": "crystal-peak",
+    "name": "Crystal Peak"
+  },
+  "hp": 60,
+  "damage": 1,
+  "geoDrop": 10,
+  "hunterJournal": {
+    "notes": "Long, plated centipede that crawls along surfaces — floors, walls, ceilings, all the same. Strikes its head into anything passing."
+  },
+  "summary": "Surface-hugging crawler in Crystal Peak and Kingdom's Edge. Only its glowing head takes damage.",
+  "verified": false,
+  "wikiSlug": "Garpede",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Garpede"
+  ],
+  "_slug": "garpede",
+  "_type": "characters"
+}

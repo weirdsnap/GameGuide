@@ -1,0 +1,25 @@
+{
+  "slug": "stalwart-shell",
+  "name": "Stalwart Shell",
+  "game": "hk",
+  "notchCost": 2,
+  "inventoryOrder": 4,
+  "effect": "Recover from damage more quickly.",
+  "description": "Doubles the Knight's invincibility window after taking a hit. Pairs well with Quick Focus runs and aggressive playstyles.",
+  "cost": 200,
+  "area": {
+    "slug": "dirtmouth",
+    "name": "Dirtmouth"
+  },
+  "merchant": "sly",
+  "acquisition": "purchase",
+  "location": "Sly's shop in Dirtmouth.",
+  "summary": "Extends invulnerability after a hit.",
+  "verified": false,
+  "wikiSlug": "Stalwart_Shell",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Stalwart_Shell"
+  ],
+  "_slug": "stalwart-shell",
+  "_type": "charms"
+}

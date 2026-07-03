@@ -1,0 +1,27 @@
+{
+  "slug": "lifeblood-core",
+  "name": "Lifeblood Core",
+  "game": "hk",
+  "notchCost": 3,
+  "inventoryOrder": 30,
+  "effect": "Grants four extra blue Lifeblood masks at every bench.",
+  "description": "Same as Lifeblood Heart but doubled. Stacks with Lifeblood Heart, Joni's Blessing, and various bench-side blue masks for a fat Lifeblood pool.",
+  "area": {
+    "slug": "the-abyss",
+    "name": "The Abyss"
+  },
+  "acquisition": "find",
+  "location": "Abyss — in the Lifeblood Core chamber, requires Crystal Heart + Monarch Wings to reach.",
+  "synergies": [
+    "lifeblood-heart",
+    "jonis-blessing"
+  ],
+  "summary": "4 free blue masks per bench. Stacks with Lifeblood Heart.",
+  "verified": false,
+  "wikiSlug": "Lifeblood_Core",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Lifeblood_Core"
+  ],
+  "_slug": "lifeblood-core",
+  "_type": "charms"
+}

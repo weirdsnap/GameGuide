@@ -1,0 +1,24 @@
+{
+  "slug": "confessor-jiji",
+  "name": "Confessor Jiji",
+  "game": "hk",
+  "kind": "npc",
+  "role": "Shade-summoning hermit",
+  "area": {
+    "slug": "dirtmouth",
+    "name": "Dirtmouth"
+  },
+  "location": "Hidden hut in Dirtmouth, behind a locked door (Simple Key).",
+  "sells": [
+    "Shade summons (costs one Rancid Egg)"
+  ],
+  "summary": "Reclusive bug who summons the Knight's Shade in exchange for a Rancid Egg. Saves a trip back to wherever you died.",
+  "description": "Says little, expects little, and gets the job done. Effectively a paid Shade-recall service for any death anywhere in Hallownest.",
+  "verified": false,
+  "wikiSlug": "Confessor_Jiji",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Confessor_Jiji"
+  ],
+  "_slug": "confessor-jiji",
+  "_type": "characters"
+}

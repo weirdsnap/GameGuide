@@ -1,0 +1,25 @@
+{
+  "slug": "fool-eater",
+  "name": "Fool Eater",
+  "game": "hk",
+  "kind": "enemy",
+  "role": "Colosseum gobbler",
+  "area": {
+    "slug": "colosseum-of-fools",
+    "name": "Colosseum of Fools"
+  },
+  "hp": 35,
+  "damage": 1,
+  "geoDrop": 8,
+  "hunterJournal": {
+    "notes": "Tubby Colosseum bug. Inhales air for a moment, then sprints forward fast enough to clip the unwary."
+  },
+  "summary": "Common Colosseum spawn. Charges in a straight line and bounces off arenas walls until it loses interest.",
+  "verified": false,
+  "wikiSlug": "Fool_Eater",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Fool_Eater"
+  ],
+  "_slug": "fool-eater",
+  "_type": "characters"
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "heavy-sentry",
+  "name": "Heavy Sentry",
+  "game": "hk",
+  "kind": "enemy",
+  "role": "Armoured guardsman",
+  "area": {
+    "slug": "city-of-tears",
+    "name": "City of Tears"
+  },
+  "hp": 75,
+  "damage": 1,
+  "geoDrop": 35,
+  "hunterJournal": {
+    "notes": "Heavily armoured sentry. Slow but unflinching — most hits glance off the plates and the swing comes anyway."
+  },
+  "summary": "Heavier variant of the Husk Sentry. Tougher armour, the same lazy mid-arc swing, no flinch on a basic nail strike.",
+  "verified": false,
+  "wikiSlug": "Heavy_Sentry",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Heavy_Sentry"
+  ],
+  "_slug": "heavy-sentry",
+  "_type": "characters"
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "awoken-dream-nail",
+  "name": "Awoken Dream Nail",
+  "game": "hk",
+  "kind": "dream",
+  "effect": "Charges faster and pierces the veil of higher dreams.",
+  "description": "Upgraded Dream Nail granted by the Seer after collecting 1800 essence. Required to enter the White Palace and to dream into bosses for the Hall of Gods.",
+  "acquisition": "Awarded by the Seer in Spirit's Glade after collecting 1,800 dream essence.",
+  "area": {
+    "slug": "spirits-glade",
+    "name": "Spirit's Glade"
+  },
+  "upgradeOf": "dream-nail",
+  "summary": "Stronger Dream Nail. Unlocks the White Palace.",
+  "verified": false,
+  "wikiSlug": "Awoken_Dream_Nail",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Awoken_Dream_Nail"
+  ],
+  "_slug": "awoken-dream-nail",
+  "_type": "skills"
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "crystal-guardian",
+  "name": "Crystal Guardian",
+  "game": "hk",
+  "optional": true,
+  "hp": {
+    "base": 280
+  },
+  "geo": 60,
+  "area": {
+    "slug": "crystal-peak",
+    "name": "Crystal Peak"
+  },
+  "attacks": [
+    {
+      "name": "Crystal beam",
+      "description": "Charges and fires a sustained horizontal laser."
+    },
+    {
+      "name": "Hop"
+    }
+  ],
+  "rewards": [
+    "Access to a Mask Shard nearby"
+  ],
+  "summary": "A miner mutated by the crystal vein in Crystal Peak. Mostly stationary and built around dodging a long charged beam attack.",
+  "verified": false,
+  "wikiSlug": "Crystal_Guardian",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Crystal_Guardian"
+  ],
+  "_slug": "crystal-guardian",
+  "_type": "bosses"
+}

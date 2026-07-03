@@ -1,0 +1,18 @@
+{
+  "slug": "teachers-archives",
+  "name": "Teacher's Archives",
+  "game": "hk",
+  "kind": "subarea",
+  "parent": "fog-canyon",
+  "connectsTo": {
+    "fog-canyon": []
+  },
+  "summary": "Monomon the Teacher's sealed laboratory, hidden in the Fog Canyon. Houses Uumuu and the path to dispatch the second Dreamer.",
+  "verified": false,
+  "wikiSlug": "Teacher%27s_Archives",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Teacher%27s_Archives"
+  ],
+  "_slug": "teachers-archives",
+  "_type": "areas"
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "massive-moss-charger",
+  "name": "Massive Moss Charger",
+  "game": "hk",
+  "optional": true,
+  "hp": {
+    "base": 110
+  },
+  "geo": 80,
+  "area": {
+    "slug": "greenpath",
+    "name": "Greenpath"
+  },
+  "attacks": [
+    {
+      "name": "Burrow charge",
+      "description": "Hides under moss and surfaces with a horizontal charge."
+    }
+  ],
+  "rewards": [
+    "Mask Shard"
+  ],
+  "summary": "A hidden Moss Charger of enormous size buried in Greenpath's overgrowth. Stays underground until provoked and only emerges to charge in a straight line.",
+  "verified": false,
+  "wikiSlug": "Massive_Moss_Charger",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Massive_Moss_Charger"
+  ],
+  "_slug": "massive-moss-charger",
+  "_type": "bosses"
+}

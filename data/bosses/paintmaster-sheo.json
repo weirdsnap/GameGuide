@@ -1,0 +1,33 @@
+{
+  "slug": "paintmaster-sheo",
+  "name": "Paintmaster Sheo",
+  "game": "hk",
+  "optional": true,
+  "hp": {
+    "base": 900
+  },
+  "geo": 0,
+  "area": {
+    "slug": "godhome",
+    "name": "Godhome"
+  },
+  "attacks": [
+    {
+      "name": "Brush sweep"
+    },
+    {
+      "name": "Paint blob"
+    },
+    {
+      "name": "Dual brush dash"
+    }
+  ],
+  "summary": "Godhome ascension of the painter Sheo. Sweeping brush attacks coat the arena in paint that becomes part of the hitbox. Slow telegraphs, heavy damage.",
+  "verified": false,
+  "wikiSlug": "Paintmaster_Sheo",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Paintmaster_Sheo"
+  ],
+  "_slug": "paintmaster-sheo",
+  "_type": "bosses"
+}

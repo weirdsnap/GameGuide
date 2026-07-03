@@ -1,0 +1,22 @@
+{
+  "slug": "howling-cliffs",
+  "name": "Howling Cliffs",
+  "game": "hk",
+  "kind": "region",
+  "connectsTo": {
+    "dirtmouth": [],
+    "crystal-peak": [],
+    "stag-nest": [
+      "monarch-wings"
+    ]
+  },
+  "music": "Howling Cliffs",
+  "summary": "A windswept ridge on the western edge of the surface. Site of Gorb, Joni's Repose, and Nightmare King Grimm's dream encounter.",
+  "verified": false,
+  "wikiSlug": "Howling_Cliffs",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Howling_Cliffs"
+  ],
+  "_slug": "howling-cliffs",
+  "_type": "areas"
+}

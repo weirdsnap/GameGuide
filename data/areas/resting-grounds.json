@@ -1,0 +1,32 @@
+{
+  "slug": "resting-grounds",
+  "name": "Resting Grounds",
+  "game": "hk",
+  "kind": "region",
+  "connectsTo": {
+    "forgotten-crossroads": [
+      "desolate-dive"
+    ],
+    "city-of-tears": [
+      "desolate-dive"
+    ],
+    "crystal-peak": [
+      "crystal-heart"
+    ],
+    "blue-lake": [],
+    "spirits-glade": []
+  },
+  "stagStation": "Resting Grounds Stag",
+  "music": {
+    "title": "Resting Grounds",
+    "spotifyTrackId": "3QaFRJIXefCIaKk99rReFC"
+  },
+  "summary": "The misty necropolis where the Seer awaits in a glade of moths. Acquisition point for the Dream Nail.",
+  "verified": false,
+  "wikiSlug": "Resting_Grounds",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Resting_Grounds"
+  ],
+  "_slug": "resting-grounds",
+  "_type": "areas"
+}

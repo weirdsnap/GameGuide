@@ -1,0 +1,28 @@
+{
+  "slug": "quick-slash",
+  "name": "Quick Slash",
+  "game": "hk",
+  "notchCost": 3,
+  "inventoryOrder": 18,
+  "effect": "Strike with the nail much more rapidly.",
+  "description": "Reduces the nail swing cooldown by ~0.25s, increasing damage-per-second by roughly 70%. The single strongest melee charm.",
+  "area": {
+    "slug": "kingdoms-edge",
+    "name": "Kingdom's Edge"
+  },
+  "acquisition": "find",
+  "location": "Kingdom's Edge — in a hidden room above the Whispering Root, accessible after Mantis Claw + Monarch Wings.",
+  "synergies": [
+    "fragile-strength",
+    "mark-of-pride",
+    "longnail"
+  ],
+  "summary": "Massive attack-speed buff. Best-in-slot for nail builds.",
+  "verified": false,
+  "wikiSlug": "Quick_Slash",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Quick_Slash"
+  ],
+  "_slug": "quick-slash",
+  "_type": "charms"
+}

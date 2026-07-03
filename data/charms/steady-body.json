@@ -1,0 +1,25 @@
+{
+  "slug": "steady-body",
+  "name": "Steady Body",
+  "game": "hk",
+  "notchCost": 1,
+  "inventoryOrder": 16,
+  "effect": "Removes the recoil the Knight suffers when striking enemies.",
+  "description": "Lets the Knight stand its ground while hitting tall foes or pogo targets. A favorite in tight platforming and Path of Pain runs.",
+  "cost": 120,
+  "area": {
+    "slug": "forgotten-crossroads",
+    "name": "Forgotten Crossroads"
+  },
+  "merchant": "salubra",
+  "acquisition": "purchase",
+  "location": "Salubra's hut in the Forgotten Crossroads.",
+  "summary": "No more recoil from nail strikes.",
+  "verified": false,
+  "wikiSlug": "Steady_Body",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Steady_Body"
+  ],
+  "_slug": "steady-body",
+  "_type": "charms"
+}

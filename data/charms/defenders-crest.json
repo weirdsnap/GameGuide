@@ -1,0 +1,28 @@
+{
+  "slug": "defenders-crest",
+  "name": "Defender's Crest",
+  "game": "hk",
+  "notchCost": 1,
+  "inventoryOrder": 25,
+  "effect": "Releases a constant cloud of foul-smelling dung that damages enemies.",
+  "description": "Surrounds the Knight in a poison cloud and modifies Vengeful Spirit, Howling Wraiths, Desolate Dive, and Flukenest to deal lingering poison damage.",
+  "area": {
+    "slug": "royal-waterways",
+    "name": "Royal Waterways"
+  },
+  "acquisition": "boss",
+  "location": "Royal Waterways — Dung Defender's reward after defeating him in his pit.",
+  "synergies": [
+    "flukenest",
+    "glowing-womb",
+    "spore-shroom"
+  ],
+  "summary": "Permanent damage aura. The cornerstone of every poison build.",
+  "verified": false,
+  "wikiSlug": "Defender%27s_Crest",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Defender%27s_Crest"
+  ],
+  "_slug": "defenders-crest",
+  "_type": "charms"
+}

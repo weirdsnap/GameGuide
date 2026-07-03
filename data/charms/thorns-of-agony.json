@@ -1,0 +1,23 @@
+{
+  "slug": "thorns-of-agony",
+  "name": "Thorns of Agony",
+  "game": "hk",
+  "notchCost": 1,
+  "inventoryOrder": 22,
+  "effect": "Sprouts thorns when the Knight is damaged, hurting nearby foes.",
+  "description": "Deals 1 mask of damage to enemies adjacent to the Knight when struck. Cheap and useful for early-game crowds.",
+  "area": {
+    "slug": "greenpath",
+    "name": "Greenpath"
+  },
+  "acquisition": "find",
+  "location": "Greenpath — in a vine-bound chamber behind a thicket, accessible with the Mothwing Cloak.",
+  "summary": "Damage attackers when you take a hit.",
+  "verified": false,
+  "wikiSlug": "Thorns_of_Agony",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Thorns_of_Agony"
+  ],
+  "_slug": "thorns-of-agony",
+  "_type": "charms"
+}

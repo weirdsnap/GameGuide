@@ -1,0 +1,25 @@
+{
+  "slug": "husk-bully",
+  "name": "Husk Bully",
+  "game": "hk",
+  "kind": "enemy",
+  "role": "Heavy infected",
+  "area": {
+    "slug": "forgotten-crossroads",
+    "name": "Forgotten Crossroads"
+  },
+  "hp": 35,
+  "damage": 1,
+  "geoDrop": 9,
+  "hunterJournal": {
+    "notes": "Larger Husk filled to bursting with Infection orange. Slow, but its bulk hits hard when it falls on you."
+  },
+  "summary": "Big-bellied Husk that hops and slams. Tankier than the standard husks and a noticeable step up in damage soaked.",
+  "verified": false,
+  "wikiSlug": "Husk_Bully",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Husk_Bully"
+  ],
+  "_slug": "husk-bully",
+  "_type": "characters"
+}

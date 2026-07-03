@@ -1,0 +1,37 @@
+{
+  "slug": "god-tamer",
+  "name": "God Tamer",
+  "game": "hk",
+  "optional": true,
+  "hp": {
+    "base": 700
+  },
+  "geo": 0,
+  "area": {
+    "slug": "colosseum-of-fools",
+    "name": "Colosseum of Fools"
+  },
+  "attacks": [
+    {
+      "name": "Tamer cane swipe"
+    },
+    {
+      "name": "Rolling beast"
+    },
+    {
+      "name": "Beast pounce"
+    }
+  ],
+  "rewards": [
+    "Charm Notch",
+    "King's Brand path (lore)"
+  ],
+  "summary": "Final fight of the Trial of the Fool. A duo: a robed Tamer and a giant rolling beast. The beast is the real threat; the Tamer is fragile if isolated.",
+  "verified": false,
+  "wikiSlug": "God_Tamer",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/God_Tamer"
+  ],
+  "_slug": "god-tamer",
+  "_type": "bosses"
+}

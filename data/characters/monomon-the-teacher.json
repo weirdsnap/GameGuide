@@ -1,0 +1,21 @@
+{
+  "slug": "monomon-the-teacher",
+  "name": "Monomon the Teacher",
+  "game": "hk",
+  "kind": "npc",
+  "role": "Dreamer of Hallownest",
+  "area": {
+    "slug": "fog-canyon",
+    "name": "Fog Canyon"
+  },
+  "location": "Suspended in stasis at the heart of the Teacher's Archives, deep in Fog Canyon.",
+  "summary": "Brilliant jellyfish scholar and one of the three Dreamers binding the Hollow Knight's seal.",
+  "description": "Monomon volunteered to dream eternally to help imprison the Radiance. Her seal must be broken to reach the true ending. Her old assistant, Quirrel, returns to be near her one last time.",
+  "verified": false,
+  "wikiSlug": "Monomon_the_Teacher",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Monomon_the_Teacher"
+  ],
+  "_slug": "monomon-the-teacher",
+  "_type": "characters"
+}

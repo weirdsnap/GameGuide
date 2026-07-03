@@ -1,0 +1,28 @@
+{
+  "slug": "lemm",
+  "name": "Relic Seeker Lemm",
+  "game": "hk",
+  "kind": "merchant",
+  "role": "Relic dealer",
+  "area": {
+    "slug": "city-of-tears",
+    "name": "City of Tears"
+  },
+  "location": "Shop on the west side of the City of Tears.",
+  "sells": [
+    "Buys Wanderer's Journals (200 geo)",
+    "Buys Hallownest Seals (450 geo)",
+    "Buys King's Idols (800 geo)",
+    "Buys Arcane Eggs (1200 geo)",
+    "Love Key (after delivering the City Crest)"
+  ],
+  "summary": "Gruff relic scholar. Pays well for every Hallownest trinket the Knight finds — the main long-term geo sink in the game.",
+  "description": "Refuses to be disturbed at first, but warms up once the Knight starts selling relics. Hands over the Love Key for the locked door in the Watcher's Spire after enough relics are sold.",
+  "verified": false,
+  "wikiSlug": "Relic_Seeker_Lemm",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Relic_Seeker_Lemm"
+  ],
+  "_slug": "lemm",
+  "_type": "characters"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "hiveblood",
+  "name": "Hiveblood",
+  "game": "hk",
+  "notchCost": 3,
+  "inventoryOrder": 32,
+  "effect": "Slowly regenerates the most recent mask of damage.",
+  "description": "Every 10 seconds, the last damaged mask regenerates while standing still or moving. Doesn't help in combat windows but stretches expeditions.",
+  "area": {
+    "slug": "hive",
+    "name": "The Hive"
+  },
+  "acquisition": "boss",
+  "location": "The Hive — reward for defeating the Hive Knight.",
+  "synergies": [
+    "sharp-shadow",
+    "grubsong"
+  ],
+  "summary": "Slow auto-heal of one mask. Lifesaver in exploration.",
+  "verified": false,
+  "wikiSlug": "Hiveblood",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Hiveblood"
+  ],
+  "_slug": "hiveblood",
+  "_type": "charms"
+}

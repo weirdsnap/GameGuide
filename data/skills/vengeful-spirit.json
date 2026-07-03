@@ -1,0 +1,24 @@
+{
+  "slug": "vengeful-spirit",
+  "name": "Vengeful Spirit",
+  "game": "hk",
+  "kind": "spell",
+  "soulCost": 33,
+  "damage": 15,
+  "effect": "Launch a vengeful spirit at enemies.",
+  "description": "Releases a horizontal spectral projectile. The Knight's first dedicated ranged attack and the path to Soul Master.",
+  "acquisition": "Taught by the Snail Shaman in the Ancestral Mound.",
+  "area": {
+    "slug": "ancestral-mound",
+    "name": "Ancestral Mound"
+  },
+  "upgradesTo": "shade-soul",
+  "summary": "Horizontal fireball. Costs 33 SOUL, deals 15 damage.",
+  "verified": false,
+  "wikiSlug": "Vengeful_Spirit",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Vengeful_Spirit"
+  ],
+  "_slug": "vengeful-spirit",
+  "_type": "skills"
+}

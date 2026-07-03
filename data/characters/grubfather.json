@@ -1,0 +1,31 @@
+{
+  "slug": "grubfather",
+  "name": "Grubfather",
+  "game": "hk",
+  "kind": "merchant",
+  "role": "Father of the Grubs",
+  "area": {
+    "slug": "forgotten-crossroads",
+    "name": "Forgotten Crossroads"
+  },
+  "location": "Chamber off the eastern Forgotten Crossroads, behind a breakable wall above the Stag Station.",
+  "sells": [
+    "Geo (per Grub rescued)",
+    "Mask Shards (5, 10, 16 Grubs)",
+    "Rancid Egg (23 Grubs)",
+    "Hallownest Seal (31 Grubs)",
+    "Pale Ore (38 Grubs)",
+    "King's Idol (42 Grubs)",
+    "Grubsong charm (10 Grubs)",
+    "Grubberfly's Elegy charm (all 46 Grubs)"
+  ],
+  "summary": "Enormous, slow-moving grub who watches over Hallownest's stolen brood. Rewards the Knight for each child returned.",
+  "description": "Once a wandering grub-mother, now too vast to move. Every freed Grub is dropped at his feet; he thanks the Knight with relics, charms, and — eventually — Grubberfly's Elegy.",
+  "verified": false,
+  "wikiSlug": "Grubfather",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Grubfather"
+  ],
+  "_slug": "grubfather",
+  "_type": "characters"
+}

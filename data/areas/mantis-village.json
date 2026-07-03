@@ -1,0 +1,21 @@
+{
+  "slug": "mantis-village",
+  "name": "Mantis Village",
+  "game": "hk",
+  "kind": "subarea",
+  "parent": "fungal-wastes",
+  "connectsTo": {
+    "fungal-wastes": [],
+    "deepnest": [
+      "mantis-claw"
+    ]
+  },
+  "summary": "Stronghold of the Mantis tribe in the depths of the Fungal Wastes. Houses the throne fight against the Mantis Lords.",
+  "verified": false,
+  "wikiSlug": "Mantis_Village",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Mantis_Village"
+  ],
+  "_slug": "mantis-village",
+  "_type": "areas"
+}

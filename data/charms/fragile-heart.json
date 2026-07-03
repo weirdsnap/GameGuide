@@ -1,0 +1,27 @@
+{
+  "slug": "fragile-heart",
+  "name": "Fragile Heart",
+  "game": "hk",
+  "notchCost": 2,
+  "inventoryOrder": 12,
+  "fragile": true,
+  "effect": "Increases health by 2 masks. Breaks on death.",
+  "description": "Adds two empty masks to the lifebar. Shatters when the Knight dies, requiring a return to Leg Eater (or Divine in the Grimm Troupe) to re-buy.",
+  "cost": 350,
+  "area": {
+    "slug": "fungal-wastes",
+    "name": "Fungal Wastes"
+  },
+  "merchant": "leg-eater",
+  "acquisition": "purchase",
+  "upgradesTo": "unbreakable-heart",
+  "location": "Leg Eater's hut in the Fungal Wastes, near the southern Mantis tunnels.",
+  "summary": "+2 masks. Breaks on death until upgraded to Unbreakable Heart.",
+  "verified": false,
+  "wikiSlug": "Fragile_Heart",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Fragile_Heart"
+  ],
+  "_slug": "fragile-heart",
+  "_type": "charms"
+}

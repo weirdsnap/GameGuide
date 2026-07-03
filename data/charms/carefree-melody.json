@@ -1,0 +1,24 @@
+{
+  "slug": "carefree-melody",
+  "name": "Carefree Melody",
+  "game": "hk",
+  "notchCost": 3,
+  "inventoryOrder": 40,
+  "effect": "Hums a charmed tune that occasionally nullifies incoming damage.",
+  "description": "Each incoming hit has a ~20% chance to be cancelled entirely. Replaces Grimmchild if the Knight chooses the Banishment route in the Grimm Troupe questline.",
+  "area": {
+    "slug": "dirtmouth",
+    "name": "Dirtmouth"
+  },
+  "acquisition": "quest",
+  "upgradeOf": "grimmchild",
+  "location": "Brumm in Dirtmouth, after Banishing the Grimm Troupe with his unbreathed accordion.",
+  "summary": "20% damage cancel. The Banishment-route alternative to Grimmchild.",
+  "verified": false,
+  "wikiSlug": "Carefree_Melody",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Carefree_Melody"
+  ],
+  "_slug": "carefree-melody",
+  "_type": "charms"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "soul-eater",
+  "name": "Soul Eater",
+  "game": "hk",
+  "notchCost": 4,
+  "inventoryOrder": 7,
+  "effect": "Greatly increases SOUL gained from striking enemies.",
+  "description": "Stronger version of Soul Catcher: +8 SOUL per hit on top of the base 11. Cannot be equipped at the same time as Soul Catcher.",
+  "area": {
+    "slug": "resting-grounds",
+    "name": "Resting Grounds"
+  },
+  "upgradeOf": "soul-catcher",
+  "acquisition": "find",
+  "location": "Resting Grounds — found in a hidden alcove near the spirit Galien's grave.",
+  "synergies": [
+    "shaman-stone",
+    "spell-twister"
+  ],
+  "summary": "Soul Catcher's upgraded form. Almost mandatory for spellcasting.",
+  "verified": false,
+  "wikiSlug": "Soul_Eater",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Soul_Eater"
+  ],
+  "_slug": "soul-eater",
+  "_type": "charms"
+}

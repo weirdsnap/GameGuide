@@ -1,0 +1,22 @@
+{
+  "slug": "dream-nail",
+  "name": "Dream Nail",
+  "game": "hk",
+  "kind": "dream",
+  "effect": "Cut through the veil of dreams. Drains SOUL from enemies.",
+  "description": "A second nail used to read inner thoughts, harvest dream essence, and open Dream Gates. Drains 33 SOUL per hit on enemies.",
+  "acquisition": "Awoken from the Seer's hand in Spirit's Glade.",
+  "area": {
+    "slug": "spirits-glade",
+    "name": "Spirit's Glade"
+  },
+  "upgradesTo": "awoken-dream-nail",
+  "summary": "Cuts the dream veil. Harvest essence; read thoughts.",
+  "verified": false,
+  "wikiSlug": "Dream_Nail",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Dream_Nail"
+  ],
+  "_slug": "dream-nail",
+  "_type": "skills"
+}

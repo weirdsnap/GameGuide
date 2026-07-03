@@ -1,0 +1,18 @@
+{
+  "slug": "soul-sanctum",
+  "name": "Soul Sanctum",
+  "game": "hk",
+  "kind": "subarea",
+  "parent": "city-of-tears",
+  "connectsTo": {
+    "city-of-tears": []
+  },
+  "summary": "The forbidden research wing of the City of Tears. Houses the Soul Master, the Desolate Dive spell, and the dream-recolored Soul Tyrant.",
+  "verified": false,
+  "wikiSlug": "Soul_Sanctum",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Soul_Sanctum"
+  ],
+  "_slug": "soul-sanctum",
+  "_type": "areas"
+}

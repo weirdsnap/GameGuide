@@ -1,0 +1,23 @@
+{
+  "slug": "dream-wielder",
+  "name": "Dream Wielder",
+  "game": "hk",
+  "notchCost": 1,
+  "inventoryOrder": 38,
+  "effect": "Dream Nail charges faster and harvests more SOUL from dreaming enemies.",
+  "description": "Cuts Dream Nail charge time by ~25% and increases SOUL drain on enemies. A budget pick for late-game dream essence farming.",
+  "area": {
+    "slug": "spirits-glade",
+    "name": "Spirit's Glade"
+  },
+  "acquisition": "quest",
+  "location": "Awarded by the Seer in Spirit's Glade after collecting 500 dream essence.",
+  "summary": "Faster Dream Nail and more SOUL on dream strikes.",
+  "verified": false,
+  "wikiSlug": "Dream_Wielder",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Dream_Wielder"
+  ],
+  "_slug": "dream-wielder",
+  "_type": "charms"
+}

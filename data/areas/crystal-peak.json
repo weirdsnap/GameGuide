@@ -1,0 +1,30 @@
+{
+  "slug": "crystal-peak",
+  "name": "Crystal Peak",
+  "game": "hk",
+  "kind": "region",
+  "connectsTo": {
+    "forgotten-crossroads": [
+      "desolate-dive"
+    ],
+    "resting-grounds": [
+      "crystal-heart"
+    ],
+    "city-of-tears": [],
+    "hallownests-crown": [],
+    "deep-focus-cavern": []
+  },
+  "music": {
+    "title": "Crystal Peak",
+    "spotifyTrackId": "0OP7uPeLlDjPuPOkl4LcNu"
+  },
+  "summary": "An old miner's mountain riddled with cyan crystals. Houses the Crystal Guardian, the Crystal Heart, and the path to Hallownest's Crown.",
+  "description": "The crystal beams launch the Knight long distances once Crystal Heart is acquired. Myla's mining song defines the soundtrack of the lower shafts.",
+  "verified": false,
+  "wikiSlug": "Crystal_Peak",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Crystal_Peak"
+  ],
+  "_slug": "crystal-peak",
+  "_type": "areas"
+}

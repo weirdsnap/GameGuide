@@ -1,0 +1,28 @@
+{
+  "slug": "sprintmaster",
+  "name": "Sprintmaster",
+  "game": "hk",
+  "notchCost": 1,
+  "inventoryOrder": 9,
+  "effect": "Increases the Knight's running speed.",
+  "description": "+25% horizontal walk/run speed. Stackable with Dashmaster and Quick Slash for movement-focused builds.",
+  "cost": 400,
+  "area": {
+    "slug": "dirtmouth",
+    "name": "Dirtmouth"
+  },
+  "merchant": "sly",
+  "acquisition": "purchase",
+  "location": "Sly's shop in Dirtmouth — appears in his expanded inventory after the Shopkeeper's Key is delivered.",
+  "synergies": [
+    "dashmaster"
+  ],
+  "summary": "Permanent ground-speed buff. Cheap and easy to slot.",
+  "verified": false,
+  "wikiSlug": "Sprintmaster",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Sprintmaster"
+  ],
+  "_slug": "sprintmaster",
+  "_type": "charms"
+}

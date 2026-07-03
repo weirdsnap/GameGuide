@@ -1,0 +1,27 @@
+{
+  "slug": "glowing-womb",
+  "name": "Glowing Womb",
+  "game": "hk",
+  "notchCost": 2,
+  "inventoryOrder": 26,
+  "effect": "Spawns small hatchlings that fight for the Knight.",
+  "description": "Periodically births a hatchling that homes onto the nearest enemy. Each costs SOUL — combine with Soul Eater for a constant swarm.",
+  "area": {
+    "slug": "forgotten-crossroads",
+    "name": "Forgotten Crossroads"
+  },
+  "acquisition": "find",
+  "location": "Forgotten Crossroads — accessed from Crystal Peak via a Crystal Heart launch into a hidden chamber.",
+  "synergies": [
+    "defenders-crest",
+    "shaman-stone"
+  ],
+  "summary": "Auto-summons hatchlings that attack for you, at SOUL cost.",
+  "verified": false,
+  "wikiSlug": "Glowing_Womb",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Glowing_Womb"
+  ],
+  "_slug": "glowing-womb",
+  "_type": "charms"
+}

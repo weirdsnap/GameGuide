@@ -1,0 +1,33 @@
+{
+  "slug": "sly",
+  "name": "Sly",
+  "game": "hk",
+  "kind": "merchant",
+  "role": "Item shopkeeper (and a retired Nailmaster)",
+  "area": {
+    "slug": "dirtmouth",
+    "name": "Dirtmouth"
+  },
+  "location": "Initially asleep in Forgotten Crossroads. After rescue, runs the item shop in Dirtmouth.",
+  "isBoss": true,
+  "bossSlug": "great-nailsage-sly",
+  "sells": [
+    "Simple Key",
+    "Lumafly Lantern",
+    "Mask Shard",
+    "Vessel Fragment",
+    "Rancid Egg",
+    "Elegant Key (after Crossroads errand)",
+    "Heavy Blow",
+    "Sprintmaster"
+  ],
+  "summary": "Bristly, business-minded shopkeep. Sells the keys, lanterns, and shards that quietly run early Hollow Knight.",
+  "description": "Reveals himself in Godhome as the Great Nailsage Sly — the master who trained Mato, Oro, and Sheo. The shop and the boss share the same bug.",
+  "verified": false,
+  "wikiSlug": "Sly",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Sly"
+  ],
+  "_slug": "sly",
+  "_type": "characters"
+}

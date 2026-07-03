@@ -1,0 +1,23 @@
+{
+  "slug": "zote",
+  "name": "Zote the Mighty",
+  "game": "hk",
+  "kind": "npc",
+  "role": "Self-proclaimed knight of Hallownest",
+  "area": {
+    "slug": "dirtmouth",
+    "name": "Dirtmouth"
+  },
+  "location": "Rescued from Vengefly King in Greenpath. Later met in Dirtmouth, the Colosseum of Fools, and Deepnest.",
+  "isBoss": true,
+  "bossSlug": "grey-prince-zote",
+  "summary": "A boastful little bug brandishing a nail named Life Ender. Helpless on his own, somehow alive at every checkpoint.",
+  "description": "Recites his 57 Precepts to anyone who will listen. Bretta's diary turns him into Grey Prince Zote — a dream-only boss whose difficulty ramps each time he's defeated.",
+  "verified": false,
+  "wikiSlug": "Zote",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Zote"
+  ],
+  "_slug": "zote",
+  "_type": "characters"
+}

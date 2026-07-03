@@ -1,0 +1,1196 @@
+[
+  {
+    "slug": "ancestral-mound",
+    "name": "Ancestral Mound",
+    "game": "hk",
+    "kind": "subarea",
+    "parent": "forgotten-crossroads",
+    "connectsTo": {
+      "forgotten-crossroads": []
+    },
+    "summary": "A quiet shrine tucked off the Crossroads where the Snail Shaman teaches the Knight Vengeful Spirit.",
+    "verified": false,
+    "wikiSlug": "Ancestral_Mound",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Ancestral_Mound"
+    ],
+    "_slug": "ancestral-mound",
+    "_type": "areas"
+  },
+  {
+    "slug": "ancient-basin",
+    "name": "Ancient Basin",
+    "game": "hk",
+    "kind": "region",
+    "connectsTo": {
+      "forgotten-crossroads": [
+        "desolate-dive"
+      ],
+      "royal-waterways": [
+        "isma-tear"
+      ],
+      "kingdoms-edge": [
+        "monarch-wings"
+      ],
+      "city-of-tears": [
+        "isma-tear"
+      ],
+      "blue-lake": [],
+      "palace-grounds": [
+        "dream-nail"
+      ],
+      "hidden-station": [],
+      "the-abyss": [
+        "kings-brand",
+        "monarch-wings"
+      ]
+    },
+    "stagStation": "Hidden Station",
+    "music": "Ancient Basin",
+    "summary": "A vast hollow chasm beneath the City of Tears. Site of the Broken Vessel fight and the gateway to the Abyss.",
+    "verified": false,
+    "wikiSlug": "Ancient_Basin",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Ancient_Basin"
+    ],
+    "_slug": "ancient-basin",
+    "_type": "areas"
+  },
+  {
+    "slug": "beasts-den",
+    "name": "Beast's Den",
+    "game": "hk",
+    "kind": "subarea",
+    "parent": "deepnest",
+    "connectsTo": {
+      "deepnest": [],
+      "distant-village": []
+    },
+    "summary": "Herrah the Beast's private chamber, beyond a sealed Tram-Pass door. Reached at the climax of Deepnest to dispatch the third Dreamer.",
+    "verified": false,
+    "wikiSlug": "Beast%27s_Den",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Beast%27s_Den"
+    ],
+    "_slug": "beasts-den",
+    "_type": "areas"
+  },
+  {
+    "slug": "birthplace",
+    "name": "Birthplace",
+    "game": "hk",
+    "kind": "subarea",
+    "parent": "the-abyss",
+    "connectsTo": {
+      "the-abyss": [
+        "awoken-dream-nail"
+      ]
+    },
+    "summary": "A hidden chamber at the very bottom of the Abyss. Holds the Void Heart and reveals the origin of the Vessels.",
+    "verified": false,
+    "wikiSlug": "Birthplace",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Birthplace"
+    ],
+    "_slug": "birthplace",
+    "_type": "areas"
+  },
+  {
+    "slug": "blue-lake",
+    "name": "Blue Lake",
+    "game": "hk",
+    "kind": "subarea",
+    "parent": "resting-grounds",
+    "connectsTo": {
+      "resting-grounds": [],
+      "ancient-basin": []
+    },
+    "summary": "A still aquamarine reservoir above the Ancient Basin. Source of the rain that drenches the City of Tears.",
+    "verified": false,
+    "wikiSlug": "Blue_Lake",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Blue_Lake"
+    ],
+    "_slug": "blue-lake",
+    "_type": "areas"
+  },
+  {
+    "slug": "cast-off-shell",
+    "name": "Cast-Off Shell",
+    "game": "hk",
+    "kind": "subarea",
+    "parent": "kingdoms-edge",
+    "connectsTo": {
+      "kingdoms-edge": []
+    },
+    "summary": "The hollowed husk of the Pale Wyrm, towering at the edge of the kingdom. Inside lurks Markoth's dream tablet at the summit and a fragile bench halfway up.",
+    "verified": false,
+    "wikiSlug": "Kingdom%27s_Edge",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Kingdom%27s_Edge"
+    ],
+    "_slug": "cast-off-shell",
+    "_type": "areas"
+  },
+  {
+    "slug": "city-of-tears",
+    "name": "City of Tears",
+    "game": "hk",
+    "kind": "region",
+    "connectsTo": {
+      "fungal-wastes": [],
+      "royal-waterways": [
+        "simple-key"
+      ],
+      "crystal-peak": [],
+      "ancient-basin": [
+        "isma-tear"
+      ],
+      "resting-grounds": [
+        "desolate-dive"
+      ],
+      "kingdoms-edge": [
+        "monarch-wings"
+      ],
+      "kings-station": [],
+      "soul-sanctum": [],
+      "pleasure-house": [
+        "simple-key"
+      ],
+      "tower-of-love": [
+        "love-key"
+      ]
+    },
+    "stagStation": "City Storerooms, King's Station",
+    "music": {
+      "title": "City of Tears",
+      "spotifyTrackId": "0nD62ke95NJvAI8chsRjRg"
+    },
+    "summary": "The rain-soaked capital of Hallownest. Central crossroads of the lower kingdom and home to the Watcher Knights, Soul Master, and the Collector.",
+    "description": "Five Stag stations branch from here; the Soul Sanctum, Pleasure House, King's Station, and Tower of Love are all sub-districts. Always raining inside.",
+    "verified": false,
+    "wikiSlug": "City_of_Tears",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/City_of_Tears"
+    ],
+    "_slug": "city-of-tears",
+    "_type": "areas"
+  },
+  {
+    "slug": "colosseum-of-fools",
+    "name": "Colosseum of Fools",
+    "game": "hk",
+    "kind": "subarea",
+    "parent": "kingdoms-edge",
+    "connectsTo": {
+      "kingdoms-edge": []
+    },
+    "summary": "A gladiatorial arena run by Little Fool. Hosts three escalating trials: Warrior, Conqueror, and Fool — with the God Tamer and Zote the Mighty as bosses.",
+    "verified": false,
+    "wikiSlug": "Colosseum_of_Fools",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Colosseum_of_Fools"
+    ],
+    "_slug": "colosseum-of-fools",
+    "_type": "areas"
+  },
+  {
+    "slug": "crystal-peak",
+    "name": "Crystal Peak",
+    "game": "hk",
+    "kind": "region",
+    "connectsTo": {
+      "forgotten-crossroads": [
+        "desolate-dive"
+      ],
+      "resting-grounds": [
+        "crystal-heart"
+      ],
+      "city-of-tears": [],
+      "hallownests-crown": [],
+      "deep-focus-cavern": []
+    },
+    "music": {
+      "title": "Crystal Peak",
+      "spotifyTrackId": "0OP7uPeLlDjPuPOkl4LcNu"
+    },
+    "summary": "An old miner's mountain riddled with cyan crystals. Houses the Crystal Guardian, the Crystal Heart, and the path to Hallownest's Crown.",
+    "description": "The crystal beams launch the Knight long distances once Crystal Heart is acquired. Myla's mining song defines the soundtrack of the lower shafts.",
+    "verified": false,
+    "wikiSlug": "Crystal_Peak",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Crystal_Peak"
+    ],
+    "_slug": "crystal-peak",
+    "_type": "areas"
+  },
+  {
+    "slug": "deep-focus-cavern",
+    "name": "Deep Focus Cavern",
+    "game": "hk",
+    "kind": "subarea",
+    "parent": "crystal-peak",
+    "connectsTo": {
+      "crystal-peak": []
+    },
+    "summary": "A locked cavern behind a Simple-Key door in Crystal Peak. Holds the Deep Focus charm.",
+    "verified": false,
+    "wikiSlug": "Deep_Focus",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Deep_Focus"
+    ],
+    "_slug": "deep-focus-cavern",
+    "_type": "areas"
+  },
+  {
+    "slug": "deepnest",
+    "name": "Deepnest",
+    "game": "hk",
+    "kind": "region",
+    "connectsTo": {
+      "fungal-wastes": [
+        "mantis-claw"
+      ],
+      "mantis-village": [
+        "mantis-claw"
+      ],
+      "ancient-basin": [],
+      "kingdoms-edge": [],
+      "distant-village": [],
+      "beasts-den": [],
+      "weavers-den": [],
+      "failed-tramway": []
+    },
+    "stagStation": "Distant Village",
+    "music": "Deepnest",
+    "summary": "A pitch-black warren of spiders, centipedes, and the husks of the Weavers. Home to Nosk, Galien, and the Distant Village.",
+    "description": "Most of the area resists mapping — the Knight must navigate by glow-lamp and instinct until Cornifer's wife Iselda buys the relevant scroll.",
+    "verified": false,
+    "wikiSlug": "Deepnest",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Deepnest"
+    ],
+    "_slug": "deepnest",
+    "_type": "areas"
+  },
+  {
+    "slug": "dirtmouth",
+    "name": "Dirtmouth",
+    "game": "hk",
+    "kind": "region",
+    "connectsTo": {
+      "forgotten-crossroads": [],
+      "kings-pass": []
+    },
+    "stagStation": "Dirtmouth (top of the well)",
+    "music": {
+      "title": "Dirtmouth",
+      "spotifyTrackId": "4gCnaT6NKQmR3hqEeHp30t"
+    },
+    "summary": "The small surface town above Hallownest. Players arrive here first and the population dwindles as the game goes on.",
+    "description": "Built on the lip of the great pit, Dirtmouth is the staging ground for the entire adventure. Elderbug stands by the well; Sly's shop and the Stag station open up early; the Grimm Troupe and Zote settle in as their quests trigger.",
+    "verified": false,
+    "wikiSlug": "Dirtmouth",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Dirtmouth"
+    ],
+    "_slug": "dirtmouth",
+    "_type": "areas"
+  },
+  {
+    "slug": "distant-village",
+    "name": "Distant Village",
+    "game": "hk",
+    "kind": "subarea",
+    "parent": "deepnest",
+    "connectsTo": {
+      "deepnest": []
+    },
+    "stagStation": "Distant Village",
+    "summary": "An eerie wooden hamlet deep in Deepnest, hung over a corpse-strewn ravine. The site of Herrah's tomb and the Beast's Den entrance.",
+    "verified": false,
+    "wikiSlug": "Distant_Village",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Distant_Village"
+    ],
+    "_slug": "distant-village",
+    "_type": "areas"
+  },
+  {
+    "slug": "failed-tramway",
+    "name": "Failed Tramway",
+    "game": "hk",
+    "kind": "subarea",
+    "parent": "deepnest",
+    "connectsTo": {
+      "deepnest": []
+    },
+    "summary": "A collapsed segment of the old Tram line through Deepnest. The Tram Pass opens its sealed gates.",
+    "verified": false,
+    "wikiSlug": "Tram",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Tram"
+    ],
+    "_slug": "failed-tramway",
+    "_type": "areas"
+  },
+  {
+    "slug": "fog-canyon",
+    "name": "Fog Canyon",
+    "game": "hk",
+    "kind": "region",
+    "connectsTo": {
+      "greenpath": [],
+      "fungal-wastes": [],
+      "queens-gardens": [
+        "isma-tear"
+      ],
+      "overgrown-mound": [],
+      "teachers-archives": []
+    },
+    "music": "Fog Canyon",
+    "summary": "A central, jellyfish-drifted region of acidic clouds. The Teacher's Archives host Uumuu, and the Crystal Heart's path threads its eastern wall.",
+    "description": "Notable for its motion through clusters of explosive Uomas. Connects Greenpath, Fungal Wastes and Queen's Gardens with a vertical wind-tunnel feel.",
+    "verified": false,
+    "wikiSlug": "Fog_Canyon",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Fog_Canyon"
+    ],
+    "_slug": "fog-canyon",
+    "_type": "areas"
+  },
+  {
+    "slug": "forgotten-crossroads",
+    "name": "Forgotten Crossroads",
+    "game": "hk",
+    "kind": "region",
+    "connectsTo": {
+      "dirtmouth": [],
+      "greenpath": [],
+      "fungal-wastes": [],
+      "crystal-peak": [
+        "desolate-dive"
+      ],
+      "resting-grounds": [
+        "desolate-dive"
+      ],
+      "ancient-basin": [
+        "desolate-dive"
+      ],
+      "ancestral-mound": [],
+      "temple-of-the-black-egg": []
+    },
+    "stagStation": "Forgotten Crossroads Stag",
+    "music": {
+      "title": "Crossroads",
+      "spotifyTrackId": "2fwLXYI6N8l4tOY4ntSiUZ"
+    },
+    "summary": "The shattered hub of upper Hallownest. Branches outwards to almost every other major region and houses the False Knight, Brooding Mawlek, and the Temple of the Black Egg.",
+    "description": "Once a busy thoroughfare; now half-collapsed and crawling with Husks. Becomes the Infected Crossroads after the Dreamers are awakened, swapping the tracks and reseeding it with infected variants.",
+    "verified": false,
+    "wikiSlug": "Forgotten_Crossroads",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Forgotten_Crossroads"
+    ],
+    "_slug": "forgotten-crossroads",
+    "_type": "areas"
+  },
+  {
+    "slug": "fungal-core",
+    "name": "Fungal Core",
+    "game": "hk",
+    "kind": "subarea",
+    "parent": "fungal-wastes",
+    "connectsTo": {
+      "fungal-wastes": []
+    },
+    "summary": "A deeper bouncing-shroom labyrinth below the Wastes. Houses the Flukenest charm and the Brooding Mawlek's old siblings.",
+    "verified": false,
+    "wikiSlug": "Fungal_Wastes",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Fungal_Wastes"
+    ],
+    "_slug": "fungal-core",
+    "_type": "areas"
+  },
+  {
+    "slug": "fungal-wastes",
+    "name": "Fungal Wastes",
+    "game": "hk",
+    "kind": "region",
+    "connectsTo": {
+      "forgotten-crossroads": [],
+      "fog-canyon": [],
+      "city-of-tears": [
+        "mantis-claw",
+        "city-crest"
+      ],
+      "deepnest": [
+        "mantis-claw"
+      ],
+      "queens-station": [],
+      "mantis-village": [],
+      "fungal-core": []
+    },
+    "stagStation": "Queen's Station",
+    "music": {
+      "title": "Fungal Wastes",
+      "spotifyTrackId": "372ottv1RRZdzqAkywYMpA"
+    },
+    "summary": "A region of bouncing mushrooms and aggressive Mantis tribes. Hosts Queen's Station, the Mantis Lords, and Cornifer's wife Iselda's old route.",
+    "description": "The shrooms spring the Knight through pogo-friendly chambers. Beating the Mantis Lords opens the path to Deepnest.",
+    "verified": false,
+    "wikiSlug": "Fungal_Wastes",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Fungal_Wastes"
+    ],
+    "_slug": "fungal-wastes",
+    "_type": "areas"
+  },
+  {
+    "slug": "godhome",
+    "name": "Godhome",
+    "game": "hk",
+    "kind": "region",
+    "connectsTo": {
+      "junk-pit": [
+        "dream-nail"
+      ],
+      "hall-of-gods": [],
+      "pantheons": []
+    },
+    "music": {
+      "title": "Godhome",
+      "spotifyTrackId": "4AlK8tRaBaehJ8eQiEqe8l"
+    },
+    "summary": "The Godseekers' dream-temple. Hosts the Hall of Gods rematches and the five Pantheons that culminate in Absolute Radiance.",
+    "verified": false,
+    "wikiSlug": "Godhome",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Godhome"
+    ],
+    "_slug": "godhome",
+    "_type": "areas"
+  },
+  {
+    "slug": "greenpath",
+    "name": "Greenpath",
+    "game": "hk",
+    "kind": "region",
+    "connectsTo": {
+      "forgotten-crossroads": [],
+      "fog-canyon": [],
+      "queens-gardens": [
+        "isma-tear",
+        "monarch-wings"
+      ],
+      "lake-of-unn": [],
+      "stone-sanctuary": []
+    },
+    "stagStation": "Greenpath Stag",
+    "music": {
+      "title": "Greenpath",
+      "spotifyTrackId": "6fyI2QGPzUiqRHnuYD7oOp"
+    },
+    "summary": "A verdant, mossy region west of the Crossroads. Home to Hornet's first ambush, Massive Moss Charger, and the Mothwing Cloak.",
+    "description": "Acidic pools punish unprotected dashes until Isma's Tear is obtained. Provides the Knight's first encounters with Mosskin warriors and Hornet.",
+    "verified": false,
+    "wikiSlug": "Greenpath",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Greenpath"
+    ],
+    "_slug": "greenpath",
+    "_type": "areas"
+  },
+  {
+    "slug": "hall-of-gods",
+    "name": "Hall of Gods",
+    "game": "hk",
+    "kind": "subarea",
+    "parent": "godhome",
+    "connectsTo": {
+      "godhome": []
+    },
+    "summary": "A circular shrine of statues inside Godhome. Each statue lets the Knight re-fight a boss at four escalating difficulty tiers: Attuned, Ascended, and Radiant.",
+    "verified": false,
+    "wikiSlug": "Hall_of_Gods",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Hall_of_Gods"
+    ],
+    "_slug": "hall-of-gods",
+    "_type": "areas"
+  },
+  {
+    "slug": "hallownests-crown",
+    "name": "Hallownest's Crown",
+    "game": "hk",
+    "kind": "subarea",
+    "parent": "crystal-peak",
+    "connectsTo": {
+      "crystal-peak": []
+    },
+    "summary": "The bright, snow-veiled peak above Crystal Peak. Houses a Vessel Fragment and Markoth's dream tablet on the summit.",
+    "verified": false,
+    "wikiSlug": "Hallownest%27s_Crown",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Hallownest%27s_Crown"
+    ],
+    "_slug": "hallownests-crown",
+    "_type": "areas"
+  },
+  {
+    "slug": "hidden-station",
+    "name": "Hidden Station",
+    "game": "hk",
+    "kind": "subarea",
+    "parent": "ancient-basin",
+    "connectsTo": {
+      "ancient-basin": []
+    },
+    "stagStation": "Hidden Station",
+    "summary": "A long-forgotten Stag station in the Ancient Basin, walled off until the Knight breaches it from below.",
+    "verified": false,
+    "wikiSlug": "Hidden_Station",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Hidden_Station"
+    ],
+    "_slug": "hidden-station",
+    "_type": "areas"
+  },
+  {
+    "slug": "hive",
+    "name": "The Hive",
+    "game": "hk",
+    "kind": "subarea",
+    "parent": "kingdoms-edge",
+    "connectsTo": {
+      "kingdoms-edge": []
+    },
+    "summary": "An amber-lit beehive lodged in Kingdom's Edge. Home to the Hive Knight and the Hiveblood charm.",
+    "verified": false,
+    "wikiSlug": "Hive",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Hive"
+    ],
+    "_slug": "hive",
+    "_type": "areas"
+  },
+  {
+    "slug": "howling-cliffs",
+    "name": "Howling Cliffs",
+    "game": "hk",
+    "kind": "region",
+    "connectsTo": {
+      "dirtmouth": [],
+      "crystal-peak": [],
+      "stag-nest": [
+        "monarch-wings"
+      ]
+    },
+    "music": "Howling Cliffs",
+    "summary": "A windswept ridge on the western edge of the surface. Site of Gorb, Joni's Repose, and Nightmare King Grimm's dream encounter.",
+    "verified": false,
+    "wikiSlug": "Howling_Cliffs",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Howling_Cliffs"
+    ],
+    "_slug": "howling-cliffs",
+    "_type": "areas"
+  },
+  {
+    "slug": "ismas-grove",
+    "name": "Isma's Grove",
+    "game": "hk",
+    "kind": "subarea",
+    "parent": "royal-waterways",
+    "connectsTo": {
+      "royal-waterways": [
+        "isma-tear"
+      ]
+    },
+    "summary": "A small acid-bathed grove at the western tip of the Royal Waterways. Holds Isma's Tear, which lets the Knight swim through acid.",
+    "verified": false,
+    "wikiSlug": "Isma%27s_Grove",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Isma%27s_Grove"
+    ],
+    "_slug": "ismas-grove",
+    "_type": "areas"
+  },
+  {
+    "slug": "junk-pit",
+    "name": "Junk Pit",
+    "game": "hk",
+    "kind": "subarea",
+    "parent": "royal-waterways",
+    "connectsTo": {
+      "royal-waterways": [],
+      "godhome": [
+        "dream-nail"
+      ]
+    },
+    "summary": "A filthy refuse heap beneath the Royal Waterways. Home to the Godseekers and the door that drops the Knight into Godhome.",
+    "verified": false,
+    "wikiSlug": "Junk_Pit",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Junk_Pit"
+    ],
+    "_slug": "junk-pit",
+    "_type": "areas"
+  },
+  {
+    "slug": "kingdoms-edge",
+    "name": "Kingdom's Edge",
+    "game": "hk",
+    "kind": "region",
+    "connectsTo": {
+      "city-of-tears": [
+        "monarch-wings"
+      ],
+      "royal-waterways": [
+        "isma-tear"
+      ],
+      "ancient-basin": [
+        "monarch-wings"
+      ],
+      "colosseum-of-fools": [],
+      "hive": [],
+      "cast-off-shell": []
+    },
+    "music": {
+      "title": "Kingdom's Edge",
+      "spotifyTrackId": "1IhyTWxNJZAwB7IL28HSux"
+    },
+    "summary": "The wild eastern frontier of Hallownest, perched against the gnarled corpse of the Wyrm. Hosts Hornet's second duel and the Colosseum of Fools.",
+    "verified": false,
+    "wikiSlug": "Kingdom%27s_Edge",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Kingdom%27s_Edge"
+    ],
+    "_slug": "kingdoms-edge",
+    "_type": "areas"
+  },
+  {
+    "slug": "kings-pass",
+    "name": "King's Pass",
+    "game": "hk",
+    "kind": "subarea",
+    "parent": "dirtmouth",
+    "connectsTo": {
+      "dirtmouth": []
+    },
+    "summary": "The cavernous tutorial passage from the rim of the pit down to Dirtmouth. The Knight's entry into Hallownest proper.",
+    "verified": false,
+    "wikiSlug": "King%27s_Pass",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/King%27s_Pass"
+    ],
+    "_slug": "kings-pass",
+    "_type": "areas"
+  },
+  {
+    "slug": "kings-station",
+    "name": "King's Station",
+    "game": "hk",
+    "kind": "subarea",
+    "parent": "city-of-tears",
+    "connectsTo": {
+      "city-of-tears": [],
+      "royal-waterways": [
+        "simple-key"
+      ]
+    },
+    "stagStation": "King's Station",
+    "summary": "The largest Stag terminus in Hallownest. Sits on the eastern edge of the City of Tears and connects down to the Royal Waterways.",
+    "verified": false,
+    "wikiSlug": "King%27s_Station",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/King%27s_Station"
+    ],
+    "_slug": "kings-station",
+    "_type": "areas"
+  },
+  {
+    "slug": "lake-of-unn",
+    "name": "Lake of Unn",
+    "game": "hk",
+    "kind": "subarea",
+    "parent": "greenpath",
+    "connectsTo": {
+      "greenpath": []
+    },
+    "summary": "A still lake at the heart of Greenpath where the slug-god Unn dwells. Site of the Shape of Unn charm.",
+    "verified": false,
+    "wikiSlug": "Lake_of_Unn",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Lake_of_Unn"
+    ],
+    "_slug": "lake-of-unn",
+    "_type": "areas"
+  },
+  {
+    "slug": "lifeblood-core-chamber",
+    "name": "Lifeblood Core Chamber",
+    "game": "hk",
+    "kind": "subarea",
+    "parent": "the-abyss",
+    "connectsTo": {
+      "the-abyss": [
+        "shade-cloak"
+      ]
+    },
+    "summary": "A hidden alcove in the Abyss housing the Lifeblood Core charm — guarded by lengthy parkour through ink-black darkness.",
+    "verified": false,
+    "wikiSlug": "Lifeblood_Core",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Lifeblood_Core"
+    ],
+    "_slug": "lifeblood-core-chamber",
+    "_type": "areas"
+  },
+  {
+    "slug": "mantis-village",
+    "name": "Mantis Village",
+    "game": "hk",
+    "kind": "subarea",
+    "parent": "fungal-wastes",
+    "connectsTo": {
+      "fungal-wastes": [],
+      "deepnest": [
+        "mantis-claw"
+      ]
+    },
+    "summary": "Stronghold of the Mantis tribe in the depths of the Fungal Wastes. Houses the throne fight against the Mantis Lords.",
+    "verified": false,
+    "wikiSlug": "Mantis_Village",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Mantis_Village"
+    ],
+    "_slug": "mantis-village",
+    "_type": "areas"
+  },
+  {
+    "slug": "mosshome",
+    "name": "Mosshome",
+    "game": "silksong",
+    "kind": "region",
+    "connectsTo": {},
+    "summary": "An early Silksong region of mossy ruins. Provisional entry — full details land after release week.",
+    "verified": false,
+    "wikiSlug": "Mosshome",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Mosshome"
+    ],
+    "_slug": "mosshome",
+    "_type": "areas"
+  },
+  {
+    "slug": "overgrown-mound",
+    "name": "Overgrown Mound",
+    "game": "hk",
+    "kind": "subarea",
+    "parent": "fog-canyon",
+    "connectsTo": {
+      "fog-canyon": []
+    },
+    "summary": "An old shrine in Fog Canyon where Cornifer abandons his maps and Massive Moss Charger's larger cousins prowl.",
+    "verified": false,
+    "wikiSlug": "Overgrown_Mound",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Overgrown_Mound"
+    ],
+    "_slug": "overgrown-mound",
+    "_type": "areas"
+  },
+  {
+    "slug": "palace-grounds",
+    "name": "Palace Grounds",
+    "game": "hk",
+    "kind": "subarea",
+    "parent": "ancient-basin",
+    "connectsTo": {
+      "ancient-basin": [
+        "dream-nail"
+      ],
+      "white-palace": [
+        "dream-nail"
+      ]
+    },
+    "summary": "The hollowed forecourt where the White Palace once stood. The dream entrance into the Palace itself is anchored here.",
+    "verified": false,
+    "wikiSlug": "Palace_Grounds",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Palace_Grounds"
+    ],
+    "_slug": "palace-grounds",
+    "_type": "areas"
+  },
+  {
+    "slug": "pantheons",
+    "name": "Pantheons",
+    "game": "hk",
+    "kind": "subarea",
+    "parent": "godhome",
+    "connectsTo": {
+      "godhome": []
+    },
+    "summary": "Five linear boss rushes housed in Godhome. The Master, Artist, Sage, Knight, and Hallownest pantheons that culminate in Absolute Radiance.",
+    "verified": false,
+    "wikiSlug": "Pantheon_of_Hallownest",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Pantheons"
+    ],
+    "_slug": "pantheons",
+    "_type": "areas"
+  },
+  {
+    "slug": "path-of-pain",
+    "name": "Path of Pain",
+    "game": "hk",
+    "kind": "subarea",
+    "parent": "white-palace",
+    "connectsTo": {
+      "white-palace": []
+    },
+    "summary": "A brutal optional platforming chamber hidden in the White Palace. Rewards completion with a memory of the Pale King and the Hollow Knight's birth.",
+    "verified": false,
+    "wikiSlug": "Path_of_Pain",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Path_of_Pain"
+    ],
+    "_slug": "path-of-pain",
+    "_type": "areas"
+  },
+  {
+    "slug": "pleasure-house",
+    "name": "Pleasure House",
+    "game": "hk",
+    "kind": "subarea",
+    "parent": "city-of-tears",
+    "connectsTo": {
+      "city-of-tears": []
+    },
+    "summary": "An exclusive bathhouse perched on the City rooftops, accessed with the Simple Key. Houses a bench and a charm notch.",
+    "verified": false,
+    "wikiSlug": "Pleasure_House",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Pleasure_House"
+    ],
+    "_slug": "pleasure-house",
+    "_type": "areas"
+  },
+  {
+    "slug": "queens-gardens",
+    "name": "Queen's Gardens",
+    "game": "hk",
+    "kind": "region",
+    "connectsTo": {
+      "greenpath": [
+        "isma-tear",
+        "monarch-wings"
+      ],
+      "fog-canyon": [
+        "isma-tear"
+      ],
+      "deepnest": [],
+      "stag-nest": []
+    },
+    "stagStation": "Queen's Gardens Stag",
+    "music": {
+      "title": "Queen's Gardens",
+      "spotifyTrackId": "1lJySpoTdGHcTV4OTaluls"
+    },
+    "summary": "An overgrown royal garden of long thorns and Mantis traitors. Houses Marmu, Traitor Lord, and the White Lady's chamber.",
+    "verified": false,
+    "wikiSlug": "Queen%27s_Gardens",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Queen%27s_Gardens"
+    ],
+    "_slug": "queens-gardens",
+    "_type": "areas"
+  },
+  {
+    "slug": "queens-station",
+    "name": "Queen's Station",
+    "game": "hk",
+    "kind": "subarea",
+    "parent": "fungal-wastes",
+    "connectsTo": {
+      "fungal-wastes": [],
+      "fog-canyon": []
+    },
+    "stagStation": "Queen's Station",
+    "summary": "A Stag station nestled on the border of the Fungal Wastes and Fog Canyon. Hosts a bench, a map vendor encounter, and a Vessel Fragment.",
+    "verified": false,
+    "wikiSlug": "Queen%27s_Station",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Queen%27s_Station"
+    ],
+    "_slug": "queens-station",
+    "_type": "areas"
+  },
+  {
+    "slug": "resting-grounds",
+    "name": "Resting Grounds",
+    "game": "hk",
+    "kind": "region",
+    "connectsTo": {
+      "forgotten-crossroads": [
+        "desolate-dive"
+      ],
+      "city-of-tears": [
+        "desolate-dive"
+      ],
+      "crystal-peak": [
+        "crystal-heart"
+      ],
+      "blue-lake": [],
+      "spirits-glade": []
+    },
+    "stagStation": "Resting Grounds Stag",
+    "music": {
+      "title": "Resting Grounds",
+      "spotifyTrackId": "3QaFRJIXefCIaKk99rReFC"
+    },
+    "summary": "The misty necropolis where the Seer awaits in a glade of moths. Acquisition point for the Dream Nail.",
+    "verified": false,
+    "wikiSlug": "Resting_Grounds",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Resting_Grounds"
+    ],
+    "_slug": "resting-grounds",
+    "_type": "areas"
+  },
+  {
+    "slug": "royal-waterways",
+    "name": "Royal Waterways",
+    "game": "hk",
+    "kind": "region",
+    "connectsTo": {
+      "city-of-tears": [
+        "simple-key"
+      ],
+      "ancient-basin": [
+        "isma-tear"
+      ],
+      "kingdoms-edge": [
+        "isma-tear"
+      ],
+      "junk-pit": [],
+      "ismas-grove": [
+        "isma-tear"
+      ]
+    },
+    "music": "Royal Waterways",
+    "summary": "The flooded sewers beneath the City of Tears. Houses the Dung Defender, Flukemarm, Isma's Tear, and the Junk Pit's hidden Godseekers.",
+    "verified": false,
+    "wikiSlug": "Royal_Waterways",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Royal_Waterways"
+    ],
+    "_slug": "royal-waterways",
+    "_type": "areas"
+  },
+  {
+    "slug": "soul-sanctum",
+    "name": "Soul Sanctum",
+    "game": "hk",
+    "kind": "subarea",
+    "parent": "city-of-tears",
+    "connectsTo": {
+      "city-of-tears": []
+    },
+    "summary": "The forbidden research wing of the City of Tears. Houses the Soul Master, the Desolate Dive spell, and the dream-recolored Soul Tyrant.",
+    "verified": false,
+    "wikiSlug": "Soul_Sanctum",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Soul_Sanctum"
+    ],
+    "_slug": "soul-sanctum",
+    "_type": "areas"
+  },
+  {
+    "slug": "spirits-glade",
+    "name": "Spirit's Glade",
+    "game": "hk",
+    "kind": "subarea",
+    "parent": "resting-grounds",
+    "connectsTo": {
+      "resting-grounds": [
+        "dream-nail"
+      ]
+    },
+    "summary": "A peaceful grove of Whispering Roots and slumbering souls. The Seer lives here, trading dream essence for charms and notches.",
+    "verified": false,
+    "wikiSlug": "Spirit%27s_Glade",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Spirit%27s_Glade"
+    ],
+    "_slug": "spirits-glade",
+    "_type": "areas"
+  },
+  {
+    "slug": "stag-nest",
+    "name": "Stag Nest",
+    "game": "hk",
+    "kind": "subarea",
+    "parent": "queens-gardens",
+    "connectsTo": {
+      "queens-gardens": [],
+      "howling-cliffs": [
+        "monarch-wings"
+      ]
+    },
+    "stagStation": "Stag Nest",
+    "summary": "The Stag Beetle ancestral nest, hidden in Howling Cliffs. Reached via a one-way ride or with an unlocked Stag station — home to the Old Stag's family.",
+    "verified": false,
+    "wikiSlug": "Stag_Nest",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Stag_Nest"
+    ],
+    "_slug": "stag-nest",
+    "_type": "areas"
+  },
+  {
+    "slug": "stone-sanctuary",
+    "name": "Stone Sanctuary",
+    "game": "hk",
+    "kind": "subarea",
+    "parent": "greenpath",
+    "connectsTo": {
+      "greenpath": []
+    },
+    "summary": "A dream-veiled grotto in Greenpath where the dream warrior No Eyes is fought.",
+    "verified": false,
+    "wikiSlug": "Stone_Sanctuary",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Stone_Sanctuary"
+    ],
+    "_slug": "stone-sanctuary",
+    "_type": "areas"
+  },
+  {
+    "slug": "teachers-archives",
+    "name": "Teacher's Archives",
+    "game": "hk",
+    "kind": "subarea",
+    "parent": "fog-canyon",
+    "connectsTo": {
+      "fog-canyon": []
+    },
+    "summary": "Monomon the Teacher's sealed laboratory, hidden in the Fog Canyon. Houses Uumuu and the path to dispatch the second Dreamer.",
+    "verified": false,
+    "wikiSlug": "Teacher%27s_Archives",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Teacher%27s_Archives"
+    ],
+    "_slug": "teachers-archives",
+    "_type": "areas"
+  },
+  {
+    "slug": "temple-of-the-black-egg",
+    "name": "Temple of the Black Egg",
+    "game": "hk",
+    "kind": "subarea",
+    "parent": "forgotten-crossroads",
+    "connectsTo": {
+      "forgotten-crossroads": []
+    },
+    "summary": "A small alcove housing the sealed Black Egg. Cannot be entered until all three Dreamers are dispatched.",
+    "description": "Once breached, contains the final fight against the Hollow Knight and, under specific conditions, the Radiance.",
+    "verified": false,
+    "wikiSlug": "Temple_of_the_Black_Egg",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Temple_of_the_Black_Egg"
+    ],
+    "_slug": "temple-of-the-black-egg",
+    "_type": "areas"
+  },
+  {
+    "slug": "the-abyss",
+    "name": "The Abyss",
+    "game": "hk",
+    "kind": "region",
+    "connectsTo": {
+      "ancient-basin": [
+        "kings-brand",
+        "monarch-wings"
+      ],
+      "birthplace": [
+        "awoken-dream-nail"
+      ],
+      "lifeblood-core-chamber": [
+        "shade-cloak"
+      ]
+    },
+    "music": "The Abyss",
+    "summary": "The void-filled void at the bottom of Hallownest. Birthplace of the Vessels and source of the Shade Cloak, Abyss Shriek, and Void Heart.",
+    "verified": false,
+    "wikiSlug": "Abyss",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Abyss"
+    ],
+    "_slug": "the-abyss",
+    "_type": "areas"
+  },
+  {
+    "slug": "tower-of-love",
+    "name": "Tower of Love",
+    "game": "hk",
+    "kind": "subarea",
+    "parent": "city-of-tears",
+    "connectsTo": {
+      "city-of-tears": []
+    },
+    "summary": "A locked tower in the City of Tears, opened by the Love Key. Inside, the Collector hoards captured grubs in jars.",
+    "verified": false,
+    "wikiSlug": "Tower_of_Love",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Tower_of_Love"
+    ],
+    "_slug": "tower-of-love",
+    "_type": "areas"
+  },
+  {
+    "slug": "weavers-den",
+    "name": "Weavers' Den",
+    "game": "hk",
+    "kind": "subarea",
+    "parent": "deepnest",
+    "connectsTo": {
+      "deepnest": []
+    },
+    "summary": "The abandoned silken hall of the Weavers, deep within Deepnest. Source of the Weaversong charm.",
+    "verified": false,
+    "wikiSlug": "Weavers%27_Den",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/Weavers%27_Den"
+    ],
+    "_slug": "weavers-den",
+    "_type": "areas"
+  },
+  {
+    "slug": "white-palace",
+    "name": "White Palace",
+    "game": "hk",
+    "kind": "region",
+    "connectsTo": {
+      "palace-grounds": [
+        "dream-nail"
+      ],
+      "path-of-pain": []
+    },
+    "music": {
+      "title": "White Palace",
+      "spotifyTrackId": "1aIcb5s4idJeItJV4vaVtW"
+    },
+    "summary": "The Pale King's dream-locked palace, accessed only via the dream nail. A precision-platforming pilgrimage to retrieve the King's Brand.",
+    "verified": false,
+    "wikiSlug": "White_Palace",
+    "sources": [
+      "https://hollowknight.fandom.com/wiki/White_Palace"
+    ],
+    "_slug": "white-palace",
+    "_type": "areas"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "slug": "abyss-shriek",
+  "name": "Abyss Shriek",
+  "game": "hk",
+  "kind": "spell",
+  "soulCost": 33,
+  "damage": 80,
+  "effect": "Unleash a more powerful shriek that engulfs enemies in shadow.",
+  "description": "Howling Wraiths' upgrade. Four void-touched wraiths sweep upward, dealing massive AoE damage.",
+  "acquisition": "Found in a chamber at the heart of the Abyss, requires the King's Brand.",
+  "area": {
+    "slug": "the-abyss",
+    "name": "The Abyss"
+  },
+  "upgradeOf": "howling-wraiths",
+  "summary": "Howling Wraiths' upgraded form. 80 damage AoE upward.",
+  "verified": false,
+  "wikiSlug": "Abyss_Shriek",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Abyss_Shriek"
+  ],
+  "_slug": "abyss-shriek",
+  "_type": "skills"
+}

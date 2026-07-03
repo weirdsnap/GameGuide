@@ -1,0 +1,25 @@
+{
+  "slug": "aspid-hunter",
+  "name": "Aspid Hunter",
+  "game": "hk",
+  "kind": "enemy",
+  "role": "Triple-shot flier",
+  "area": {
+    "slug": "forgotten-crossroads",
+    "name": "Forgotten Crossroads"
+  },
+  "hp": 20,
+  "damage": 1,
+  "geoDrop": 10,
+  "hunterJournal": {
+    "notes": "Floating predator that hovers out of nail range and spits a fanned spread of projectiles. Aim by intuition, not by mind."
+  },
+  "summary": "The Aspid players love to hate. Floats, locks on, fires three arcing globs in a fan. Dies fast to a spell if you can get one in.",
+  "verified": false,
+  "wikiSlug": "Aspid_Hunter",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Aspid_Hunter"
+  ],
+  "_slug": "aspid-hunter",
+  "_type": "characters"
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "husk-dandy",
+  "name": "Husk Dandy",
+  "game": "hk",
+  "kind": "enemy",
+  "role": "Top-hatted gentleman husk",
+  "area": {
+    "slug": "city-of-tears",
+    "name": "City of Tears"
+  },
+  "hp": 35,
+  "damage": 1,
+  "geoDrop": 22,
+  "hunterJournal": {
+    "notes": "Tall, finely dressed husk. Lunges with a slim cane in a wide arc, posture immaculate to the last."
+  },
+  "summary": "Elegant City of Tears husk. Telegraphs a sweeping cane attack from impressive range — the lunge covers most of a corridor.",
+  "verified": false,
+  "wikiSlug": "Husk_Dandy",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Husk_Dandy"
+  ],
+  "_slug": "husk-dandy",
+  "_type": "characters"
+}

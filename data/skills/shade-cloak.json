@@ -1,0 +1,22 @@
+{
+  "slug": "shade-cloak",
+  "name": "Shade Cloak",
+  "game": "hk",
+  "kind": "movement",
+  "effect": "Dash through enemies and hazards with brief invulnerability.",
+  "description": "Mothwing Cloak's upgrade. Passes through enemies and hazards. Required to cross Shade Gates throughout Hallownest.",
+  "acquisition": "Acquired by dashing through the Abyss Shade in the bottom of the Abyss after acquiring the King's Brand.",
+  "area": {
+    "slug": "the-abyss",
+    "name": "The Abyss"
+  },
+  "upgradeOf": "mothwing-cloak",
+  "summary": "Shadow-dash that passes through enemies and Shade Gates.",
+  "verified": false,
+  "wikiSlug": "Shade_Cloak",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Shade_Cloak"
+  ],
+  "_slug": "shade-cloak",
+  "_type": "skills"
+}

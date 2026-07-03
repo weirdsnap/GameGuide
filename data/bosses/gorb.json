@@ -1,0 +1,38 @@
+{
+  "slug": "gorb",
+  "name": "Gorb",
+  "game": "hk",
+  "optional": true,
+  "hp": {
+    "base": 350
+  },
+  "geo": 0,
+  "area": {
+    "slug": "howling-cliffs",
+    "name": "Howling Cliffs"
+  },
+  "attacks": [
+    {
+      "name": "Geometric ring",
+      "description": "Launches expanding patterns of light blades."
+    },
+    {
+      "name": "Targeted spear"
+    }
+  ],
+  "rewards": [
+    "Essence (100)"
+  ],
+  "music": {
+    "title": "Dream",
+    "spotifyTrackId": "2hw0t9gmMhNCm16WlfU3xK"
+  },
+  "summary": "A floating, self-styled deity from the Howling Cliffs. The easiest of the seven Dream Warriors. Stays stationary while telegraphing geometric attack patterns.",
+  "verified": false,
+  "wikiSlug": "Gorb",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Gorb"
+  ],
+  "_slug": "gorb",
+  "_type": "bosses"
+}

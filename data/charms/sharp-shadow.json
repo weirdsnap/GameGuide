@@ -1,0 +1,27 @@
+{
+  "slug": "sharp-shadow",
+  "name": "Sharp Shadow",
+  "game": "hk",
+  "notchCost": 2,
+  "inventoryOrder": 34,
+  "effect": "Shade Cloak dashes deal damage and travel further.",
+  "description": "The Shade Cloak now damages enemies it passes through and lasts slightly longer. Combine with Dashmaster for a near-constant dash.",
+  "area": {
+    "slug": "deepnest",
+    "name": "Deepnest"
+  },
+  "acquisition": "find",
+  "location": "Deepnest — behind a fragile wall in the Failed Tramway, reached via Shade Cloak.",
+  "synergies": [
+    "dashmaster",
+    "sprintmaster"
+  ],
+  "summary": "Shade Cloak now damages enemies. Required for shade-cloak builds.",
+  "verified": false,
+  "wikiSlug": "Sharp_Shadow",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Sharp_Shadow"
+  ],
+  "_slug": "sharp-shadow",
+  "_type": "charms"
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "marissa",
+  "name": "Marissa",
+  "game": "hk",
+  "kind": "npc",
+  "role": "Ghost songstress",
+  "area": {
+    "slug": "pleasure-house",
+    "name": "Pleasure House"
+  },
+  "location": "Her ghost performs on the stage of the Pleasure House, audible only with the Dream Nail.",
+  "summary": "The last great singer of the City of Tears. A ghost still on stage, performing to an empty house.",
+  "description": "Her aria — Marissa's Lament — plays softly behind her ghostly silhouette. Striking her Dream Nail reveals one of Hallownest's most quietly sad memories.",
+  "verified": false,
+  "wikiSlug": "Marissa",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Marissa"
+  ],
+  "_slug": "marissa",
+  "_type": "characters"
+}

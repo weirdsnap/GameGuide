@@ -1,0 +1,28 @@
+{
+  "slug": "deep-focus",
+  "name": "Deep Focus",
+  "game": "hk",
+  "notchCost": 4,
+  "inventoryOrder": 28,
+  "effect": "Focus heals twice as much, but takes longer.",
+  "description": "Each Focus restores two masks instead of one but takes ~50% longer to channel. Excellent in survival builds with Quick Focus or Baldur Shell.",
+  "area": {
+    "slug": "crystal-peak",
+    "name": "Crystal Peak"
+  },
+  "acquisition": "find",
+  "location": "Crystal Peak — behind a Simple Key-locked door in the Deep Focus Cavern.",
+  "synergies": [
+    "quick-focus",
+    "baldur-shell",
+    "grubsong"
+  ],
+  "summary": "Heals 2 masks per Focus, but slower.",
+  "verified": false,
+  "wikiSlug": "Deep_Focus",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Deep_Focus"
+  ],
+  "_slug": "deep-focus",
+  "_type": "charms"
+}

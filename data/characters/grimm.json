@@ -1,0 +1,23 @@
+{
+  "slug": "grimm",
+  "name": "Troupe Master Grimm",
+  "game": "hk",
+  "kind": "npc",
+  "role": "Master of the Grimm Troupe",
+  "area": {
+    "slug": "dirtmouth",
+    "name": "Dirtmouth"
+  },
+  "location": "Inside the Grimm Troupe's tent, raised in Dirtmouth after lighting the Nightmare Lantern in the Howling Cliffs.",
+  "isBoss": true,
+  "bossSlug": "troupe-master-grimm",
+  "summary": "Theatrical, fire-cloaked ringmaster of a travelling troupe that feeds on nightmares. Speaks in flourishes; fights in flames.",
+  "description": "Sends the Knight to collect Grimmkin Flames across Hallownest. The ritual ends in either his death and rebirth as the Knight's own Grimmchild — or his banishment, if Brumm's path is followed.",
+  "verified": false,
+  "wikiSlug": "Troupe_Master_Grimm",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Troupe_Master_Grimm"
+  ],
+  "_slug": "grimm",
+  "_type": "characters"
+}

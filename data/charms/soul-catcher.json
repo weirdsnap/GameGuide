@@ -1,0 +1,24 @@
+{
+  "slug": "soul-catcher",
+  "name": "Soul Catcher",
+  "game": "hk",
+  "notchCost": 2,
+  "inventoryOrder": 5,
+  "effect": "More SOUL is gained when striking enemies with the nail.",
+  "description": "+3 SOUL per nail hit on top of the base 11. Crucial for spell-heavy playstyles before Soul Eater.",
+  "area": {
+    "slug": "forgotten-crossroads",
+    "name": "Forgotten Crossroads"
+  },
+  "acquisition": "find",
+  "upgradesTo": "soul-eater",
+  "location": "Ancestral Mound — found in a chamber above the Snail Shaman's hut, behind a Husk Hornhead.",
+  "summary": "Bumps SOUL gain per nail hit. Upgrades into Soul Eater.",
+  "verified": false,
+  "wikiSlug": "Soul_Catcher",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Soul_Catcher"
+  ],
+  "_slug": "soul-catcher",
+  "_type": "charms"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "fragile-greed",
+  "name": "Fragile Greed",
+  "game": "hk",
+  "notchCost": 2,
+  "inventoryOrder": 13,
+  "fragile": true,
+  "effect": "Enemies drop 20% more geo. Breaks on death.",
+  "description": "All enemy geo drops are multiplied by 1.2. Shatters when the Knight dies, like all of Leg Eater's fragile line.",
+  "cost": 250,
+  "area": {
+    "slug": "fungal-wastes",
+    "name": "Fungal Wastes"
+  },
+  "merchant": "leg-eater",
+  "acquisition": "purchase",
+  "upgradesTo": "unbreakable-greed",
+  "location": "Leg Eater's hut in the Fungal Wastes.",
+  "summary": "+20% enemy geo drops. Breaks on death.",
+  "verified": false,
+  "wikiSlug": "Fragile_Greed",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Fragile_Greed"
+  ],
+  "_slug": "fragile-greed",
+  "_type": "charms"
+}

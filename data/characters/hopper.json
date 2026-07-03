@@ -1,0 +1,25 @@
+{
+  "slug": "hopper",
+  "name": "Hopper",
+  "game": "hk",
+  "kind": "enemy",
+  "role": "Leaping grub",
+  "area": {
+    "slug": "kingdoms-edge",
+    "name": "Kingdom's Edge"
+  },
+  "hp": 35,
+  "damage": 1,
+  "geoDrop": 11,
+  "hunterJournal": {
+    "notes": "Bulbous grub that propels itself forward in long jumps. Wholly committed to the leap, no in-air correction."
+  },
+  "summary": "Plump jumper that bounds toward the Knight in straight arcs. Easy to time a nail strike against once you read the rhythm.",
+  "verified": false,
+  "wikiSlug": "Hopper",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Hopper"
+  ],
+  "_slug": "hopper",
+  "_type": "characters"
+}

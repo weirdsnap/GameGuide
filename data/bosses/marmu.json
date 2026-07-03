@@ -1,0 +1,38 @@
+{
+  "slug": "marmu",
+  "name": "Marmu",
+  "game": "hk",
+  "optional": true,
+  "hp": {
+    "base": 350
+  },
+  "geo": 0,
+  "area": {
+    "slug": "queens-gardens",
+    "name": "Queen's Gardens"
+  },
+  "attacks": [
+    {
+      "name": "Curl bounce",
+      "description": "Rolls into a ball and bounces around the arena."
+    },
+    {
+      "name": "Flutter"
+    }
+  ],
+  "rewards": [
+    "Essence (150)"
+  ],
+  "music": {
+    "title": "Dream",
+    "spotifyTrackId": "2hw0t9gmMhNCm16WlfU3xK"
+  },
+  "summary": "A small Dream Warrior in Queen's Gardens. Bouncing curl pattern is predictable but the arena is cramped, so positioning matters more than reflexes.",
+  "verified": false,
+  "wikiSlug": "Marmu",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Marmu"
+  ],
+  "_slug": "marmu",
+  "_type": "bosses"
+}

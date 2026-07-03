@@ -1,0 +1,32 @@
+{
+  "slug": "kingdoms-edge",
+  "name": "Kingdom's Edge",
+  "game": "hk",
+  "kind": "region",
+  "connectsTo": {
+    "city-of-tears": [
+      "monarch-wings"
+    ],
+    "royal-waterways": [
+      "isma-tear"
+    ],
+    "ancient-basin": [
+      "monarch-wings"
+    ],
+    "colosseum-of-fools": [],
+    "hive": [],
+    "cast-off-shell": []
+  },
+  "music": {
+    "title": "Kingdom's Edge",
+    "spotifyTrackId": "1IhyTWxNJZAwB7IL28HSux"
+  },
+  "summary": "The wild eastern frontier of Hallownest, perched against the gnarled corpse of the Wyrm. Hosts Hornet's second duel and the Colosseum of Fools.",
+  "verified": false,
+  "wikiSlug": "Kingdom%27s_Edge",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Kingdom%27s_Edge"
+  ],
+  "_slug": "kingdoms-edge",
+  "_type": "areas"
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "millibelle-the-banker",
+  "name": "Millibelle the Banker",
+  "game": "hk",
+  "kind": "merchant",
+  "role": "Banker (allegedly)",
+  "area": {
+    "slug": "fog-canyon",
+    "name": "Fog Canyon"
+  },
+  "location": "Her bank opens in Fog Canyon. After enough deposits, she relocates to Pleasure House.",
+  "sells": [
+    "Geo deposits (15% interest, paid back to depositors who hunt her down)"
+  ],
+  "summary": "Cheerful jellyfish banker who promises to keep the Knight's geo safe. Spoiler — she doesn't.",
+  "description": "Skips town with the entire deposit once it grows large enough. The Knight has to track her to a hidden room in the Pleasure House and beat the geo back out of her.",
+  "verified": false,
+  "wikiSlug": "Millibelle_the_Banker",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Millibelle_the_Banker"
+  ],
+  "_slug": "millibelle-the-banker",
+  "_type": "characters"
+}

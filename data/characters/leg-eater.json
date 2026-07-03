@@ -1,0 +1,27 @@
+{
+  "slug": "leg-eater",
+  "name": "Leg Eater",
+  "game": "hk",
+  "kind": "merchant",
+  "role": "Black-market charm dealer",
+  "area": {
+    "slug": "fungal-wastes",
+    "name": "Fungal Wastes"
+  },
+  "location": "His shack on the western side of the Fungal Wastes, near the Mantis Village border.",
+  "sells": [
+    "Fragile Heart (350 geo)",
+    "Fragile Greed (250 geo)",
+    "Fragile Strength (600 geo)",
+    "Repairs Fragile charms (60 / 90 / 150 geo)"
+  ],
+  "summary": "Squat, scarred bug who sells the three Fragile charms and the repair work to keep them ticking.",
+  "description": "Charges through the wing for Fragile-charm repairs. Surviving the encounter with Nosk lets him keep his shop open; if the Knight has Defender's Crest equipped he refuses to do business.",
+  "verified": false,
+  "wikiSlug": "Leg_Eater",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Leg_Eater"
+  ],
+  "_slug": "leg-eater",
+  "_type": "characters"
+}

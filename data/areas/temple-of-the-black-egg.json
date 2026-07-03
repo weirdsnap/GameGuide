@@ -1,0 +1,19 @@
+{
+  "slug": "temple-of-the-black-egg",
+  "name": "Temple of the Black Egg",
+  "game": "hk",
+  "kind": "subarea",
+  "parent": "forgotten-crossroads",
+  "connectsTo": {
+    "forgotten-crossroads": []
+  },
+  "summary": "A small alcove housing the sealed Black Egg. Cannot be entered until all three Dreamers are dispatched.",
+  "description": "Once breached, contains the final fight against the Hollow Knight and, under specific conditions, the Radiance.",
+  "verified": false,
+  "wikiSlug": "Temple_of_the_Black_Egg",
+  "sources": [
+    "https://hollowknight.fandom.com/wiki/Temple_of_the_Black_Egg"
+  ],
+  "_slug": "temple-of-the-black-egg",
+  "_type": "areas"
+}
