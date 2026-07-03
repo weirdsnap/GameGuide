@@ -16,7 +16,7 @@
 
 说明：
   - 模型使用 BAAI/bge-small-en-v1.5（约300MB，首次运行自动下载）
-  - 如果网络不好，第一次请耐心等待模型下载
+  - 国内用户自动使用 hf-mirror.com 加速（如需官方源：HF_ENDPOINT= pip3 install ...）
   - 有 GPU（如 2080Ti）会自动使用 CUDA 加速
 """
 
@@ -24,6 +24,9 @@ import re
 import os
 import sys
 from pathlib import Path
+
+# 国内用户：HuggingFace 镜像加速模型下载
+os.environ.setdefault("HF_ENDPOINT", "https://hf-mirror.com")
 
 try:
     import numpy as np
