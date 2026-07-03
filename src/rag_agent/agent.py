@@ -16,7 +16,7 @@ if dotenv_path.exists():
 else:
     print(f"⚠️ 未找到 .env 文件：{dotenv_path}")
 
-SYSTEM_PROMPT = """你是《空洞骑士：丝之歌》游戏知识的专家助手。
+SYSTEM_PROMPT = """你是《空洞骑士》游戏知识的专家助手。
 你使用专业的中文游戏术语回答玩家的问题，回答要简洁准确。
 
 规则：
