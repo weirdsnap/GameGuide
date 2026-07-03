@@ -62,7 +62,7 @@ def load_documents(data_dir: str = DATA_DIR) -> List[Document]:
     return docs
 
 
-def split_documents(docs: List[Document], chunk_size: int = 500, chunk_overlap: int = 100) -> List[Document]:
+def split_documents(docs: List[Document], chunk_size: int = 800, chunk_overlap: int = 160) -> List[Document]:
     """将文档切分为片段。"""
     splitter = RecursiveCharacterTextSplitter(
         chunk_size=chunk_size,
@@ -90,7 +90,7 @@ def load_vectorstore(save_dir: str = VECTORSTORE_DIR) -> FAISS:
     return _load_vectorstore(save_dir)
 
 
-def get_retriever(save_dir: str = VECTORSTORE_DIR, k: int = 4):
+def get_retriever(save_dir: str = VECTORSTORE_DIR, k: int = 8):
     """获取检索器。"""
     vectorstore = load_vectorstore(save_dir)
     return vectorstore.as_retriever(search_kwargs={"k": k})
