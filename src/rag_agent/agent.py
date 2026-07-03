@@ -1,47 +1,55 @@
-"""RAG Agent 主体。"""
+"""《空洞骑士》游戏助手 Agent。"""
+import os
+from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
-from langchain.agents import AgentExecutor, create_tool_calling_agent
-from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
+from langchain.agents import create_agent
 
-from .config import OPENAI_API_KEY, OPENAI_BASE_URL, CHAT_MODEL
-from .tools import KnowledgeSearchTool
+from rag_agent.tools import KnowledgeSearchTool
+
+load_dotenv()
+
+SYSTEM_PROMPT = """你是《空洞骑士：丝之歌》游戏知识的专家助手。
+你使用专业的中文游戏术语回答玩家的问题，回答要简洁准确。
+
+规则：
+1. 每次回答问题前，先调用 search_knowledge_base 获取相关知识
+2. 基于检索到的知识回答问题，不要编造信息
+3. 如果知识库中没有相关信息，如实告知玩家
+4. 回答时使用中文，但游戏中的专有名词保留英文原名"""
 
 
-def create_agent():
-    if not OPENAI_API_KEY:
-        raise ValueError("请先设置 OPENAI_API_KEY")
-
-    tools = [KnowledgeSearchTool()]
-
-    prompt = ChatPromptTemplate.from_messages([
-        (
-            "system",
-            "你是一个《空洞骑士》（Hollow Knight）知识专家，熟悉圣巢（Hallownest）的一切——"
-            "包括各个区域的地形与连接关系、Boss 的攻击方式与阶段、NPC 的故事与位置、"
-            "护符的效果与联动、以及技能/法术的获取与用途。\n\n"
-            "回答用户问题时：\n"
-            "1. 先调用 search_knowledge_base 工具检索相关信息\n"
-            "2. 基于检索结果给出准确、生动的回答\n"
-            "3. 如果知识库里没有，明确告知用户\n"
-            "4. 可以用游戏术语（Geo、SOUL、Nail 等）增加沉浸感\n\n"
-            "保持专业但有趣的语气，就像一位熟悉圣巢的向导。"
-        ),
-        ("human", "{input}"),
-        MessagesPlaceholder(variable_name="agent_scratchpad"),
-    ])
-
-    llm = ChatOpenAI(
-        model=CHAT_MODEL,
-        api_key=OPENAI_API_KEY,
-        base_url=OPENAI_BASE_URL,
+def _build_agent():
+    """构建 Agent。"""
+    model = ChatOpenAI(
+        model=os.getenv("CHAT_MODEL", "deepseek-v4-flash"),
+        api_key=os.getenv("OPENAI_API_KEY"),
+        base_url=os.getenv("OPENAI_BASE_URL"),
         temperature=0.2,
+        max_tokens=4096,
     )
 
-    agent = create_tool_calling_agent(llm, tools, prompt)
-    return AgentExecutor(agent=agent, tools=tools, verbose=True)
+    agent = create_agent(
+        model=model,
+        tools=[KnowledgeSearchTool()],
+        system_prompt=SYSTEM_PROMPT,
+        name="hollow_knight_agent",
+    )
+    return agent
 
 
-def ask(question: str) -> str:
-    executor = create_agent()
-    result = executor.invoke({"input": question})
-    return result["output"]
+def ask(question: str, verbose: bool = False) -> str:
+    """向 Agent 提问，返回回答文本。"""
+    agent = _build_agent()
+    result = agent.invoke({"messages": [{"role": "user", "content": question}]})
+    # 提取最后的 AI 回复
+    for msg in reversed(result["messages"]):
+        if hasattr(msg, "content") and msg.content and getattr(msg, "type", "") not in ("tool", "tool_call"):
+            return msg.content
+    return "抱歉，我没能生成有效的回答。"
+
+
+if __name__ == "__main__":
+    import sys
+    q = " ".join(sys.argv[1:]) if len(sys.argv) > 1 else "How do I get the Mantis Claw?"
+    print(f"❓ {q}\n")
+    print(ask(q))
