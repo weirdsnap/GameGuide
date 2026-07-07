@@ -33,6 +33,127 @@ def get_embeddings():
         )
 
 
+def load_beta_documents(data_dir: str = DATA_DIR) -> List[Document]:
+    """加载 phase2_beta.jsonl（428 实体结构化数据），转为可检索文档文本。
+
+    保留供迁移或对照使用。默认方案已改为 load_wiki_documents()。
+    """
+    import json
+    beta_path = Path(data_dir) / "phase2_beta.jsonl"
+    if not beta_path.exists():
+        raise FileNotFoundError(f"beta2 数据不存在：{beta_path}")
+
+    docs: List[Document] = []
+    with open(beta_path, encoding="utf-8") as f:
+        for line in f:
+            if not line.strip():
+                continue
+            ent = json.loads(line)
+            meta = {
+                "entity_key": ent.get("_entity_key", ""),
+                "title_cn": ent.get("title", ""),
+                "title_en": ent.get("title_en", ""),
+                "category": ent.get("category", "unknown"),
+                "spoiler_level": ent.get("spoiler_level", "early"),
+                "location": ent.get("location", ""),
+            }
+
+            parts = [
+                f"# {ent.get('title', '')} ({ent.get('title_en', '')})",
+                f"分类: {meta['category']}",
+                f"位置: {meta['location']}" if meta['location'] else "",
+            ]
+
+            if ent.get("summary"):
+                parts.append(f"## 简介\n{ent['summary']}")
+            if ent.get("description"):
+                parts.append(f"## 详情\n{ent['description']}")
+
+            rels = ent.get("related_entities", [])
+            if rels:
+                rel_lines = ["## 关联"]
+                for r in rels:
+                    if isinstance(r, dict):
+                        rel_lines.append(f"- {r.get('entity', '')} ({r.get('relation', '')})")
+                    else:
+                        rel_lines.append(f"- {r}")
+                parts.append("\n".join(rel_lines))
+
+            text = "\n\n".join(p for p in parts if p)
+            docs.append(Document(page_content=text, metadata=meta))
+
+    print(f"  → 加载了 {len(docs)} 个 beta2 实体文档")
+    return docs
+
+
+def load_wiki_documents(data_dir: str = DATA_DIR) -> List[Document]:
+    """加载 wiki_data.md（417 篇 Fandom Wiki 文档），转为可检索文档。
+
+    文件以 '# 文档：标题' 分隔，每篇含类别/标识/来源元数据。
+    这是当前默认的知识源方案。
+    """
+    import re
+
+    wiki_path = Path(data_dir) / "wiki_data.md"
+    if not wiki_path.exists():
+        raise FileNotFoundError(f"Wiki 数据不存在：{wiki_path}")
+
+    raw = wiki_path.read_text(encoding="utf-8")
+
+    # 跳过文件头（# 文档 之前的内容，如 '文档总数：' 等统计行）
+    first_doc = raw.find("\n# 文档")
+    if first_doc == -1:
+        print("⚠️ 未找到文档条目")
+        return []
+    body_start = raw.find("# 文档", first_doc)
+    if body_start == -1:
+        body_start = first_doc + 1
+    raw_body = raw[body_start:]
+
+    chunks = re.split(r"(?=^#\s*文档)", raw_body, flags=re.MULTILINE)
+
+    docs: List[Document] = []
+    for chunk in chunks:
+        chunk = chunk.strip()
+        if not chunk:
+            continue
+
+        # 提取标题
+        title_match = re.search(r"# 文档[：:]\s*(.+)", chunk)
+        title = title_match.group(1).strip() if title_match else "unknown"
+
+        # 提取元数据行
+        cat_match = re.search(r"- 类别[：:]\s*(.+)", chunk)
+        category = cat_match.group(1).strip() if cat_match else "unknown"
+
+        slug_match = re.search(r"- 标识[：:]\s*(.+)", chunk)
+        slug = slug_match.group(1).strip() if slug_match else ""
+
+        source_match = re.search(r"- 来源[：:]\s*(.+)", chunk)
+        source = source_match.group(1).strip() if source_match else ""
+
+        # 去掉元数据行、标题行，保留正文内容
+        body = chunk
+        body = re.sub(r"^# 文档[：:].*?(?:\n|$)", "", body, count=1, flags=re.MULTILINE)
+        body = re.sub(r"^- (类别|标识|来源)[：:].*?(?:\n|$)", "", body, count=3, flags=re.MULTILINE)
+        body = body.strip()
+
+        if not body:
+            continue
+
+        meta = {
+            "title": title,
+            "category": category,
+            "slug": slug,
+            "source": source,
+        }
+
+        docs.append(Document(page_content=body, metadata=meta))
+
+    print(f"  → 加载了 {len(docs)} 篇 Wiki 文档")
+    return docs
+
+
 def load_documents(data_dir: str = DATA_DIR) -> List[Document]:
     """加载 data 目录下的所有文档（JSON 数据 + 已有 .md/.txt）。"""
     docs: List[Document] = []
@@ -72,9 +193,30 @@ def split_documents(docs: List[Document], chunk_size: int = 800, chunk_overlap: 
     return splitter.split_documents(docs)
 
 
-def build_vectorstore(docs: Optional[List[Document]] = None, save_dir: str = VECTORSTORE_DIR) -> FAISS:
-    """在服务器本地构建并保存向量库。"""
-    docs = docs or load_documents()
+def build_vectorstore(
+    docs: Optional[List[Document]] = None,
+    save_dir: str = VECTORSTORE_DIR,
+    use_wiki: bool = True,
+    use_beta: bool = False,
+) -> FAISS:
+    """在服务器本地构建并保存向量库。
+
+    Args:
+        docs: 文档列表，不传则自动加载
+        save_dir: 保存路径
+        use_wiki: True（默认）使用 wiki_data.md（Fandom Wiki 数据）
+        use_beta: True 使用 phase2_beta.jsonl（结构化数据，旧方案）
+    """
+    if docs is None:
+        if use_wiki:
+            print("📖 加载 Wiki 文档...")
+            docs = load_wiki_documents()
+        elif use_beta:
+            print("📖 加载 beta2 结构化数据...")
+            docs = load_beta_documents()
+        else:
+            print("📖 加载旧 API JSON 数据...")
+            docs = load_documents()
     chunks = split_documents(docs)
     print(f"共 {len(chunks)} 个文本片段，开始生成 embedding...")
     embeddings = get_embeddings()

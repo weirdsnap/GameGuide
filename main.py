@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""《空洞骑士》游戏助手——交互式 CLI。"""
+"""《空洞骑士》游戏助手——交互式 CLI（带对话记忆）。"""
 import sys
 from pathlib import Path
 
@@ -12,6 +12,9 @@ from rag_agent.agent import ask
 def main():
     print("🐞《空洞骑士》游戏助手（输入 /quit 退出）")
     print("━" * 40)
+
+    history: list[dict] = []  # ← 对话记忆
+
     while True:
         try:
             q = input("\n❓ ").strip()
@@ -25,8 +28,13 @@ def main():
             print("👋 拜拜！")
             break
 
-        answer = ask(q)
+        # 传入历史，得到回答
+        answer = ask(q, history=history)
         print(f"\n💬 {answer}")
+
+        # 记录到历史
+        history.append({"role": "user", "content": q})
+        history.append({"role": "assistant", "content": answer})
 
 
 if __name__ == "__main__":

@@ -1,39 +1,38 @@
 {
-  "version": "beta2",
-  "built_at": "2026-07-07T16:45",
-  "entity_count": 427,
+  "version": "beta3",
+  "built_at": "2026-07-07T20:30",
+  "entity_count": 416,
   "stats": {
+    "source": "Fandom Wiki (all 12 categories + DLC subtrees)",
     "category_distribution": {
-      "敌人": 128,
-      "角色": 62,
-      "区域": 52,
-      "Boss": 51,
-      "护符": 48,
-      "道具": 26,
-      "剧情": 22,
-      "技能": 22,
-      "机制": 6,
-      "引导": 5,
-      "任务": 4,
-      "unknown": 1
-    },
-    "spoiler_distribution": {
-      "mid": 189,
-      "early": 186,
-      "late": 28,
-      "endgame": 24
-    },
-    "avg_related_entities": 12.4,
-    "zero_relation_entities": 1,
-    "missing_locations": 0
+      "enemies": 129,
+      "characters": 56,
+      "charms": 46,
+      "lore": 33,
+      "enemies, bosses": 29,
+      "abilities": 22,
+      "items": 20,
+      "areas": 19,
+      "guide": 19,
+      "bosses": 13,
+      "quests": 13,
+      "points_of_interest": 6,
+      "characters, lore": 2,
+      "enemies, bosses, characters": 2,
+      "enemies, characters": 2,
+      "abilities, items": 1,
+      "bosses, characters": 1,
+      "characters, quests, lore": 1,
+      "quests, items": 1,
+      "quests, lore": 1
+    }
   },
   "changelog": [
-    "Phase 2b: 改进版合并（基于 Phase 1 关联并集 + HallownestAPI）",
-    "- 修复 2108 条丢失关联",
-    "- 补全全部 50+ 条缺失位置信息 → 归零",
-    "- 翻译修复: Fury of the Fallen → 亡者之怒",
-    "- 拆分同名异实体: Dashmaster/Sprintmaster, Ooma/Uoma",
-    "- 修复标题、垃圾实体",
-    "- 反向关联补全"
+    "beta3: 全面改用 Fandom Wiki 数据建 RAG",
+    "- 采集 12 个分类/子分类共 416 篇（去重后）, 1.04MB",
+    "- 补抓 6 篇 Points of Interest 页面",
+    "- 移除 43 篇重复文档",
+    "- 新增 load_wiki_documents() 替代旧加载器",
+    "- ingest.py 默认切换为 Wiki 数据源"
   ]
 }

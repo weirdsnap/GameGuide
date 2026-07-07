@@ -57,10 +57,26 @@ def _build_agent():
     return agent
 
 
-def ask(question: str, verbose: bool = False) -> str:
-    """向 Agent 提问，返回回答文本。"""
+def ask(
+    question: str,
+    history: list[dict] | None = None,
+    verbose: bool = False,
+) -> str:
+    """向 Agent 提问，返回回答文本。
+
+    Args:
+        question: 当前问题
+        history: 历史消息列表，格式 [{"role": "user", "content": "..."},
+                                        {"role": "assistant", "content": "..."}]
+                 不传则单轮问答，无上下文记忆。
+        verbose: 是否打印详细日志
+
+    Returns:
+        助手的回答文本
+    """
     agent = _build_agent()
-    result = agent.invoke({"messages": [{"role": "user", "content": question}]})
+    messages = list(history or []) + [{"role": "user", "content": question}]
+    result = agent.invoke({"messages": messages})
     # 提取最后的 AI 回复
     for msg in reversed(result["messages"]):
         if hasattr(msg, "content") and msg.content and getattr(msg, "type", "") not in ("tool", "tool_call"):

@@ -29,3 +29,14 @@ data/hallownest_knowledge.llm_merged.md
 *.log
 .env
 AGENTS.md
+
+# 采集/维护脚本（不纳入版本控制）
+scripts/collect_wiki_data.py
+scripts/expand_wiki_data.py
+scripts/collect_poi_pages.py
+scripts/dedup_wiki.py
+scripts/collect_hollowknight_wiki.py
+scripts/charms_catcher.py
+
+# 备份文件
+data/phase2_beta.backup.jsonl
