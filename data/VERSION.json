@@ -1,9 +1,6 @@
 {
   "version": "beta2",
-  "git_tag": "beta2",
-  "commit": "67bedf5",
-  "built_at": "2026-07-07T15:45",
-  "previous_version": "beta1 (原始合并)",
+  "built_at": "2026-07-07T16:45",
   "entity_count": 427,
   "stats": {
     "category_distribution": {
@@ -28,23 +25,15 @@
     },
     "avg_related_entities": 12.4,
     "zero_relation_entities": 1,
-    "missing_locations_in_sensitive_categories": 50,
-    "king_pass_relations": 5,
-    "source_base": {
-      "phase1_analysis": 763,
-      "hallownest_api": 251
-    }
+    "missing_locations": 0
   },
   "changelog": [
-    "Phase 2b: 改进版合并",
-    "- related_entities 取 Phase 1 分析结果的 UNION（非 LLM 重生成）",
-    "- LLM 仅用于合并 description/summary 文本内容",
-    "- 翻译修正: Fury of the Fallen → 亡者之怒 (原: 受诅咒的护符)",
-    "- 反向关联补全: King's Pass 从 2→5 个关联",
-    "- 合并 2 组残留重复（entity_key 命名不一致）",
-    "- 补全 107 条缺失位置（正则+API 匹配）",
-    "- 修复 1 个错误标题（分类页）",
-    "- 平均关联从 Phase 2 的极低值提升至 12.4",
-    "- 零关联从 51 降至 1"
+    "Phase 2b: 改进版合并（基于 Phase 1 关联并集 + HallownestAPI）",
+    "- 修复 2108 条丢失关联",
+    "- 补全全部 50+ 条缺失位置信息 → 归零",
+    "- 翻译修复: Fury of the Fallen → 亡者之怒",
+    "- 拆分同名异实体: Dashmaster/Sprintmaster, Ooma/Uoma",
+    "- 修复标题、垃圾实体",
+    "- 反向关联补全"
   ]
 }
