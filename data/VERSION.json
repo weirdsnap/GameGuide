@@ -1,5 +1,7 @@
 {
   "version": "beta2",
+  "git_tag": "beta2",
+  "commit": "67bedf5",
   "built_at": "2026-07-07T15:45",
   "previous_version": "beta1 (原始合并)",
   "entity_count": 427,

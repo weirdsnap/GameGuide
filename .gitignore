@@ -14,3 +14,18 @@ venv/
 
 # 运行时
 *.log
+
+# 中间缓存（不大，但属于运行时产物）
+data/.llm_merge_cache/
+data/*.bak.*
+data/*.bak.items
+
+# 旧版本备份（保留在仓库外部对照）
+data/phase2_fixed.jsonl
+data/phase2_merged.jsonl
+data/hallownest_knowledge.llm_merged.md
+
+# 临时文件 & 配置
+*.log
+.env
+AGENTS.md

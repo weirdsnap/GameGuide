@@ -1,0 +1,31 @@
+{
+  "version": "beta2",
+  "git_tag": "beta2",
+  "commit": "67bedf5",
+  "previous_version": "beta1",
+  "built_at": "2026-07-07",
+  "entity_count": 427,
+  "category_distribution": {
+    "敌人": 128,
+    "角色": 62,
+    "区域": 52,
+    "Boss": 51,
+    "护符": 48,
+    "道具": 26,
+    "剧情": 22,
+    "技能": 22,
+    "机制": 6,
+    "引导": 5,
+    "任务": 4,
+    "unknown": 1
+  },
+  "changelog": [
+    "beta2: Phase 2b 重写合并",
+    "- 修复: related_entities 取 Phase 1 并集，消除 LLM 幻觉",
+    "- 修复: 2,108条丢失关联 → 平均12.4条/实体",
+    "- 修复: 亡者之怒位置幻觉 → 国王小径",
+    "- 修复: 拆分同名异实体 (Dashmaster/Sprintmaster, Ooma/Uoma)",
+    "- 修复: 补充反向关联 (区域←护符/物品/Boss)",
+    "- 新增: clean_beta.py 清理脚本 (99缺位置→50, 残留重复, 垃圾实体)"
+  ]
+}

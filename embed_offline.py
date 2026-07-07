@@ -60,42 +60,40 @@ CHUNK_OVERLAP = 100
 
 
 def parse_markdown_docs(filepath: str) -> list:
-    """从 hallownest_knowledge.md 解析文档。"""
+    """从知识库 markdown 文件解析文档。
+
+    按 # 文档 标题切割（而不是 ---），避免正文中的横线造成误拆分。
+    """
     text = Path(filepath).read_text(encoding="utf-8")
     docs = []
 
-    raw_docs = re.split(r"\n---\n", text)
-    for raw in raw_docs:
-        raw = raw.strip()
-        if not raw:
+    chunks = re.split(r"(?=^#\s*文档)", text, flags=re.MULTILINE)
+    for chunk in chunks:
+        chunk = chunk.strip()
+        if not chunk:
             continue
-        lines = raw.split("\n")
+        lines = chunk.split("\n")
 
-        # 提取标题
         title_match = re.search(r"^#\s*文档\s*\[\d+\]\s*(.*)", lines[0])
         name = title_match.group(1).strip() if title_match else "未知"
 
-        # 提取元数据
         metadata = {"name": name}
         for line in lines[1:]:
             if line.startswith("- 类别："):
-                metadata["category"] = line[4:].strip()
+                metadata["category"] = line[5:].strip()
             elif line.startswith("- 标识："):
-                metadata["slug"] = line[4:].strip()
+                metadata["slug"] = line[5:].strip()
             elif line.startswith("- 路径："):
-                metadata["source"] = line[4:].strip()
+                metadata["source"] = line[5:].strip()
+            elif line.startswith("- 来源："):
+                metadata.setdefault("source", line[5:].strip())
 
         # 提取正文
         body_lines = []
-        in_body = False
         for line in lines:
-            if line.startswith(("- 类别：", "- 标识：", "- 路径：", "# 文档")):
+            if line.startswith(("- 类别：", "- 标识：", "- 路径：", "- 来源：", "# 文档")):
                 continue
-            if not in_body:
-                if line.strip():
-                    in_body = True
-                    body_lines.append(line)
-            else:
+            if line.strip():
                 body_lines.append(line)
 
         content = "\n".join(body_lines).strip()
