@@ -7,6 +7,8 @@ import json
 import os
 import time
 import sys
+import secrets
+import uuid
 from pathlib import Path
 from collections import defaultdict
 
@@ -45,6 +47,37 @@ def load_config():
 
 
 config = load_config()
+
+
+# ====== Session 管理 ======
+class SessionStore:
+    def __init__(self, expiry: int = 3600):
+        self._tokens: dict[str, float] = {}
+        self._expiry = expiry
+
+    def create(self) -> str:
+        """创建新 session，返回 token。"""
+        token = secrets.token_hex(32)
+        self._tokens[token] = time.time() + self._expiry
+        return token
+
+    def verify(self, token: str) -> bool:
+        """验证 token 是否有效，自动清理过期 token。"""
+        now = time.time()
+        # 惰性清理
+        expired = [t for t in self._tokens if self._tokens[t] < now]
+        for t in expired:
+            del self._tokens[t]
+        if token in self._tokens:
+            return True
+        return False
+
+    def revoke(self, token: str):
+        self._tokens.pop(token, None)
+
+
+sessions = SessionStore(expiry=3600)
+
 
 # ====== 速率限制 ======
 class RateLimiter:
@@ -107,6 +140,26 @@ except Exception as e:
 
 
 # ====== API 端点 ======
+
+async def handle_login(request):
+    """POST /api/login — 密码登录，换取 session token"""
+    try:
+        body = await request.json()
+    except json.JSONDecodeError:
+        return web.json_response({"error": "无效的 JSON 格式"}, status=400)
+
+    password = body.get("password", "")
+
+    if password != config["password"]:
+        return web.json_response({"error": "密码错误"}, status=403)
+
+    token = sessions.create()
+    return web.json_response({
+        "token": token,
+        "expires_in": 3600,
+    })
+
+
 async def handle_ask(request):
     """POST /api/ask — 向空洞骑士助手提问"""
     try:
@@ -115,14 +168,14 @@ async def handle_ask(request):
         return web.json_response({"error": "无效的 JSON 格式"}, status=400)
 
     question = body.get("question", "").strip()
-    password = body.get("password", "")
+    token = body.get("token", "")
     history = body.get("history", [])
 
     if not question:
         return web.json_response({"error": "问题不能为空"}, status=400)
 
-    if password != config["password"]:
-        return web.json_response({"error": "密码错误"}, status=403)
+    if not sessions.verify(token):
+        return web.json_response({"error": "token 无效或已过期，请重新登录"}, status=401)
 
     ip = request.remote or "unknown"
     ok, msg = rate_limiter.check(ip)
@@ -155,6 +208,7 @@ async def handle_status(request):
 def create_app() -> web.Application:
     """创建并配置 web 应用（仅提供 API，不提供页面）。"""
     app = web.Application(middlewares=[cors_middleware])
+    app.router.add_post("/api/login", handle_login)
     app.router.add_post("/api/ask", handle_ask)
     app.router.add_get("/api/status", handle_status)
     return app
