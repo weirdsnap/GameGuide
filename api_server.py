@@ -160,7 +160,7 @@ async def handle_chat(request):
     # 将 API 地址替换为当前服务器地址
     html = html.replace("const API_URL = 'https://snap.api.weirdsnap.com/api';",
                         f"const API_URL = '/api';")
-    return web.Response(text=html, content_type="text/html; charset=utf-8")
+    return web.Response(text=html, content_type="text/html", charset="utf-8")
 
 
 async def handle_redirect(request):
