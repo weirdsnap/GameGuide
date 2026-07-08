@@ -7,7 +7,7 @@ from langchain_openai import OpenAIEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_core.documents import Document
 
-from .config import OPENAI_API_KEY, OPENAI_BASE_URL, EMBEDDING_MODEL, VECTORSTORE_DIR, DATA_DIR
+from .config import OPENAI_API_KEY, OPENAI_BASE_URL, EMBEDDING_MODEL, FASTEMBED_MODEL, VECTORSTORE_DIR, DATA_DIR
 from .data_converter import json_to_documents
 
 
@@ -16,8 +16,8 @@ def get_embeddings():
     try:
         # 优先使用本地 fastembed（轻量，无需 API Key）
         from langchain_community.embeddings import FastEmbedEmbeddings
-        print("使用本地 embedding（fastembed）")
-        return FastEmbedEmbeddings(model_name="BAAI/bge-small-en-v1.5")
+        print(f"使用本地 embedding（fastembed: {FASTEMBED_MODEL}）")
+        return FastEmbedEmbeddings(model_name=FASTEMBED_MODEL)
     except ImportError:
         if not OPENAI_API_KEY:
             raise ValueError(

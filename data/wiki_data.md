@@ -511,6 +511,7 @@ The amount of Mask damage taken in one hit does not impact the amount of SOUL ga
 - 类别：charms
 - 标识：wayward_compass
 - 来源：wiki/Wayward_Compass
+**位置**: Sly's shop in Dirtmouth.
 
 <b>Wayward Compass</b> is a Charm in <i>Hollow Knight</i>. It shows the location of the Knight on the Map.
 
@@ -574,6 +575,7 @@ References
 - 类别：charms
 - 标识：unbreakable_strength
 - 来源：wiki/Unbreakable_Strength
+**位置**: Divine's tent in Dirtmouth, after the Grimm Troupe arrives.
 
 HK Infobox Charm
 |label1 = Normal
@@ -683,6 +685,7 @@ Notes
 - 类别：charms
 - 标识：sharp_shadow
 - 来源：wiki/Sharp_Shadow
+**位置**: Deepnest — behind a fragile wall in the Failed Tramway, reached via Shade Cloak.
 
 <b>Sharp Shadow</b> is a Charm in <i>Hollow Knight</i>. It damages enemies when dashing through them and increases dash length when using the Shade Cloak.
 }}
@@ -737,6 +740,7 @@ The egg stops showing a reflection of the Knight after obtaining Void Heart.
 - 类别：charms
 - 标识：shaman_stone
 - 来源：wiki/Shaman_Stone
+**位置**: Salubra's hut in the Forgotten Crossroads.
 
 <b>Shaman Stone</b> is a Charm in <i>Hollow Knight</i>. It increases the damage of Spells and the size of Vengeful Spirit/Shade Soul. Shaman Stone only affects the Defender's Crest + Flukenest combo by increasing the damage frequency, allowing for ~29 damage.
 }}
@@ -752,6 +756,7 @@ Notes
 - 类别：charms
 - 标识：dashmaster
 - 来源：wiki/Dashmaster
+**位置**: Royal Waterways — behind a hidden wall near the dung pool, requires Mantis Claw to reach.
 
 <b>Dashmaster</b> is a Charm in <i>Hollow Knight</i>. It decreases the cooldown of the Mothwing Cloak and allows the Knight to dash downwards.
 |Charm2 = Sprintmaster
@@ -10747,6 +10752,7 @@ width="25%"|
 - 类别：charms
 - 标识：carefree-melody
 - 来源：wiki/Carefree_Melody
+**位置**: Brumm in Dirtmouth, after Banishing the Grimm Troupe with his unbreathed accordion.
 
 <b>Carefree Melody</b> is a Charms in <i>Hollow Knight (game)</i>. It has a chance to block damage when the Knight is hit. Damage from environmental hazards cannot be blocked.
 
@@ -10862,6 +10868,7 @@ Notes
 - 类别：charms
 - 标识：defenders-crest
 - 来源：wiki/Defender's_Crest
+**位置**: Royal Waterways — Dung Defender's reward after defeating him in his pit.
 
 <b>Defender's Crest</b> is a Charms in <i>Hollow Knight (game)</i>. It spawns damaging clouds around the Knight.
 
@@ -10989,6 +10996,7 @@ When using the  Bindings in any Pantheons, Dreamshield's damage is not affected.
 - 类别：charms
 - 标识：flukenest
 - 来源：wiki/Flukenest
+**位置**: Royal Waterways — reward for defeating Flukemarm in her hidden chamber.
 
 <b>Flukenest</b> is a Charms in <i>Hollow Knight (game)</i>. It replaces the Vengeful Spirit/Shade Soul Spells with a horde of damaging flukes.
 
@@ -11067,6 +11075,7 @@ Notes
 - 类别：charms
 - 标识：fragile-heart
 - 来源：wiki/Fragile_Heart
+**位置**: Leg Eater's hut in the Fungal Wastes, near the southern Mantis tunnels.
 
 <b>Fragile Heart</b> is a Charms in <i>Hollow Knight (game)</i>. It increases the Knight health by two Masks.
 
@@ -11106,6 +11115,7 @@ When using the  Bindings in any  Pantheons, the Masks granted by Fragile Heart a
 - 类别：charms
 - 标识：fragile-strength
 - 来源：wiki/Fragile_Strength
+**位置**: Leg Eater's hut in the Fungal Wastes.
 
 HK Infobox Charm
 |label1 = Normal
@@ -11163,6 +11173,7 @@ Notes
 - 类别：charms
 - 标识：fury-of-the-fallen
 - 来源：wiki/Fury_of_the_Fallen
+**位置**: King's Pass — found in an alcove above the cliffs, near the very start of the game.
 
 <b>Fury of the Fallen</b> is a Charms in <i>Hollow Knight (game)</i>. It increases Nail damage by 75% when at 1 Mask. Note that this works only when the Knight has only 1 Mask left (No projectiles are sent at 1 Mask if Fury of the Fallen is not equipped). While at one Mask, gaining any Lifeblood Masks negates the effect of Grubberfly's Elegy but not the effect of Fury of the Fallen.
 }}
@@ -11306,6 +11317,7 @@ References
 - 类别：charms
 - 标识：grubberflys-elegy
 - 来源：wiki/Grubberfly's_Elegy
+**位置**: Grubfather's reward for rescuing all 46 grubs.
 
 <b>Grubberfly's Elegy</b> is a Charms in <i>Hollow Knight (game)</i>. When at full Masks, it causes Nail strikes to fire a projectile which deals 50% Nail damage per hit. Note that this works only when the Knight has only 1 Mask left (No projectiles are sent at 1 Mask if Fury of the Fallen is not equipped). While at one Mask, gaining any Lifeblood Masks negates the effect of Grubberfly's Elegy but not the effect of Fury of the Fallen.
 |Charm3 = Mark of Pride
@@ -11506,6 +11518,7 @@ Charm Combo Tips
 - 类别：charms
 - 标识：lifeblood-heart
 - 来源：wiki/Lifeblood_Heart
+**位置**: Salubra's hut in the Forgotten Crossroads.
 
 <b>Lifeblood Heart</b> is a Charms in <i>Hollow Knight (game)</i>. It adds 2 Lifeblood Masks when resting at a Bench (Hollow Knight).
 
@@ -11529,6 +11542,7 @@ Charm Combo Tips
 - 类别：charms
 - 标识：longnail
 - 来源：wiki/Longnail
+**位置**: Salubra's hut in the Forgotten Crossroads.
 
 <b>Longnail</b> is a Charms in <i>Hollow Knight (game)</i>. It increases the range of the Nail by 15%.
 
@@ -11591,6 +11605,7 @@ Notes
 - 类别：charms
 - 标识：quick-focus
 - 来源：wiki/Quick_Focus
+**位置**: Salubra's hut in the Forgotten Crossroads.
 
 <b>Quick Focus</b> is a Charms in <i>Hollow Knight (game)</i>. It makes focusing SOUL ~33% faster.
 
@@ -11619,6 +11634,7 @@ Notes
 - 类别：charms
 - 标识：shape-of-unn
 - 来源：wiki/Shape_of_Unn
+**位置**: Talk to the slug atop Lake of Unn in Greenpath after acquiring Isma's Tear.
 
 <b>Shape of Unn</b> is a Charms in <i>Hollow Knight (game)</i>. It allows for moving while using Focus.
 
@@ -11765,6 +11781,7 @@ Notes
 - 类别：charms
 - 标识：stalwart-shell
 - 来源：wiki/Stalwart_Shell
+**位置**: Sly's shop in Dirtmouth.
 
 <b>Stalwart Shell</b> is a Charms in <i>Hollow Knight (game)</i>. It increases invincibility frames and reduces hit recoil.
 
@@ -11791,6 +11808,7 @@ Notes
 - 类别：charms
 - 标识：steady-body
 - 来源：wiki/Steady_Body
+**位置**: Salubra's hut in the Forgotten Crossroads.
 
 <b>Steady Body</b> is a Charms in <i>Hollow Knight (game)</i>. It removes horizontal knockback from Nail hits.
 
@@ -11884,6 +11902,7 @@ Notes
 - 类别：charms
 - 标识：unbreakable-heart
 - 来源：wiki/Unbreakable_Heart
+**位置**: Divine's tent in Dirtmouth, after the Grimm Troupe arrives.
 
 <b>Fragile Heart</b> is a Charms in <i>Hollow Knight (game)</i>. It increases the Knight health by two Masks.
 
@@ -19824,4 +19843,3 @@ Map
 34
 
 ---
-
