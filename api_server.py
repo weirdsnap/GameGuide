@@ -151,31 +151,12 @@ async def handle_status(request):
     })
 
 
-async def handle_chat(request):
-    """GET /chat — 聊天页面"""
-    chat_html_path = Path("/data/learning/weirdsnap.github.io/htmls/hollow_knight.html")
-    if not chat_html_path.exists():
-        return web.Response(text="页面未找到", status=404)
-    html = chat_html_path.read_text(encoding="utf-8")
-    # 将 API 地址替换为当前服务器地址
-    html = html.replace("const API_URL = 'https://snap.api.weirdsnap.com/api';",
-                        f"const API_URL = '/api';")
-    return web.Response(text=html, content_type="text/html", charset="utf-8")
-
-
-async def handle_redirect(request):
-    """GET / — 重定向到聊天页面"""
-    raise web.HTTPFound("/chat")
-
-
 # ====== 应用工厂 ======
 def create_app() -> web.Application:
-    """创建并配置 web 应用。"""
+    """创建并配置 web 应用（仅提供 API，不提供页面）。"""
     app = web.Application(middlewares=[cors_middleware])
     app.router.add_post("/api/ask", handle_ask)
     app.router.add_get("/api/status", handle_status)
-    app.router.add_get("/chat", handle_chat)
-    app.router.add_get("/", handle_redirect)
     return app
 
 
