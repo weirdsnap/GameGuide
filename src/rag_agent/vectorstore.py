@@ -86,6 +86,22 @@ def load_beta_documents(data_dir: str = DATA_DIR) -> List[Document]:
     return docs
 
 
+def _clean_html(text: str) -> str:
+    """清理 HTML 标签和实体，返回可读纯文本。"""
+    import re
+    text = re.sub(r"<[^>]+>", "", text)
+    text = text.replace("&nbsp;", " ")
+    text = text.replace("&amp;", "&")
+    text = text.replace("&lt;", "<")
+    text = text.replace("&gt;", ">")
+    text = text.replace("&quot;", "\"")
+    text = text.replace("&#39;", "'")
+    text = text.replace("&#x27;", "'")
+    text = re.sub(r"  +", " ", text)
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    return text.strip()
+
+
 def load_wiki_documents(data_dir: str = DATA_DIR) -> List[Document]:
     """加载 wiki_data.md（417 篇 Fandom Wiki 文档），转为可检索文档。
 
@@ -140,6 +156,15 @@ def load_wiki_documents(data_dir: str = DATA_DIR) -> List[Document]:
 
         if not body:
             continue
+
+        # 去掉跨文档导航标记（## CATEGORY\n共 N 篇文档）
+        body = re.sub(r"## [A-Z]+\s*\n共 \d+ 篇文档", "", body)
+        # 去掉孤立的 --- 分隔线
+        body = re.sub(r"^---+[\s]*$", "", body, flags=re.MULTILINE)
+        body = body.strip()
+
+        # 清理 HTML 标签
+        body = _clean_html(body)
 
         meta = {
             "title": title,

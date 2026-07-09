@@ -149,11 +149,14 @@ async def handle_login(request):
         return web.json_response({"error": "无效的 JSON 格式"}, status=400)
 
     password = body.get("password", "")
+    ip = request.remote or "unknown"
 
     if password != config["password"]:
+        print(f"  [{time.strftime('%H:%M:%S')}] ❌ 登录失败: {ip}")
         return web.json_response({"error": "密码错误"}, status=403)
 
     token = sessions.create()
+    print(f"  [{time.strftime('%H:%M:%S')}] ✅ 登录成功: {ip}")
     return web.json_response({
         "token": token,
         "expires_in": 3600,
