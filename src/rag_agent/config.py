@@ -12,7 +12,7 @@ OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL") or None
 EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "text-embedding-3-small")
 
 # 本地 fastembed 模型（支持多语言，如 paraphrase-multilingual-MiniLM-L12-v2）
-FASTEMBED_MODEL = os.getenv("FASTEMBED_MODEL", "BAAI/bge-small-en-v1.5")
+FASTEMBED_MODEL = os.getenv("FASTEMBED_MODEL", "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
 
 # 默认对话模型
 CHAT_MODEL = os.getenv("CHAT_MODEL", "gpt-4o-mini")
