@@ -100,6 +100,143 @@ def load_wiki_documents(filepath: str) -> List[Dict]:
     return docs
 
 
+def _row_to_text(table: str, cols: List[str], row: tuple) -> str:
+    """将一行结构化数据转为自然语言文本。"""
+    data = dict(zip(cols, row))
+    name = data.get("name") or data.get("slug", "")
+
+    lines = [name]
+
+    if table == "bosses":
+        parts = []
+        if data.get("hp"): parts.append(f"HP: {data['hp']}")
+        if data.get("damage"): parts.append(f"伤害: {data['damage']}")
+        if data.get("defense"): parts.append(f"防御: {data['defense']}")
+        if data.get("knockback_resist"): parts.append(f"击退抗性: {data['knockback_resist']}")
+        if data.get("environment"): parts.append(f"环境: {data['environment']}")
+        if data.get("location"): parts.append(f"位置: {data['location']}")
+        if data.get("area_name"): parts.append(f"区域: {data['area_name']}")
+        if data.get("hp_base"): parts.append(f"HP: {data['hp_base']}")
+        if data.get("geo"): parts.append(f"Geo: {data['geo']}")
+        if data.get("optional"): parts.append("可选 Boss" if data['optional'] else "主线 Boss")
+        if data.get("description"): lines.append(data["description"])
+        if parts:
+            lines.append(" | ".join(parts))
+
+    elif table == "enemies":
+        parts = []
+        if data.get("hp"): parts.append(f"HP: {data['hp']}")
+        if data.get("damage"): parts.append(f"伤害: {data['damage']}")
+        if data.get("defense"): parts.append(f"防御: {data['defense']}")
+        if data.get("geo_drop"): parts.append(f"Geo掉落: {data['geo_drop']}")
+        if data.get("location"): parts.append(f"位置: {data['location']}")
+        if data.get("environment"): parts.append(f"环境: {data['environment']}")
+        if data.get("coins"): parts.append(f"金币: {data['coins']}")
+        if data.get("description"): lines.append(data["description"])
+        if parts:
+            lines.append(" | ".join(parts))
+
+    elif table == "charms":
+        parts = []
+        if data.get("notch_cost"): parts.append(f"槽位: {data['notch_cost']}")
+        if data.get("cost"): parts.append(f"价格: {data['cost']}")
+        if data.get("effect"): lines.append(f"效果: {data['effect']}")
+        if data.get("description"): lines.append(data["description"])
+        if data.get("location"): parts.append(f"获取: {data['location']}")
+        if data.get("acquisition"): lines.append(f"获取方式: {data['acquisition']}")
+        if parts:
+            lines.append(" | ".join(parts))
+
+    elif table == "skills":
+        if data.get("kind"): lines.append(f"类型: {data['kind']}")
+        if data.get("effect"): lines.append(f"效果: {data['effect']}")
+        if data.get("description"): lines.append(data["description"])
+        if data.get("description"): None  # already handled
+        if data.get("damage"): lines.append(f"伤害: {data['damage']}")
+        if data.get("soul_cost"): lines.append(f"魂耗: {data['soul_cost']}")
+        if data.get("acquisition"): lines.append(f"获取: {data['acquisition']}")
+        if data.get("area_name"): lines.append(f"区域: {data['area_name']}")
+
+    elif table == "areas":
+        if data.get("description"): lines.append(data["description"])
+        if data.get("connects_to"): lines.append(f"连接区域: {data['connects_to']}")
+        if data.get("music"): lines.append(f"BGM: {data['music']}")
+
+    elif table == "characters":
+        if data.get("role"): lines.append(f"身份: {data['role']}")
+        if data.get("description"): lines.append(data["description"])
+        parts = []
+        if data.get("location"): parts.append(f"位置: {data['location']}")
+        if data.get("hp"): parts.append(f"HP: {data['hp']}")
+        if data.get("damage"): parts.append(f"伤害: {data['damage']}")
+        if parts:
+            lines.append(" | ".join(parts))
+
+    elif table == "items":
+        if data.get("kind"): lines.append(f"类型: {data['kind']}")
+        if data.get("effect"): lines.append(f"效果: {data['effect']}")
+        if data.get("description"): lines.append(data["description"])
+        parts = []
+        if data.get("location"): parts.append(f"位置: {data['location']}")
+        if data.get("cost"): parts.append(f"价格: {data['cost']}")
+        if parts:
+            lines.append(" | ".join(parts))
+
+    else:
+        # 通用 fallback
+        for col in cols:
+            if col not in ("slug", "wiki_slug", "verified"):
+                val = data.get(col)
+                if val is not None and val != "":
+                    lines.append(f"{col}: {val}")
+
+    return "\n".join(lines)
+
+
+def load_structured_data(game_key: str) -> List[Dict]:
+    """从游戏的 .db 文件加载结构化数据，转为自然语言文档。"""
+    import sqlite3
+
+    db_mapping = {
+        "hollow_knight": "games/hollow_knight/hk_data.db",
+        "oni": "games/oni/oni_data.db",
+        "terraria": "games/terraria/terraria_data.db",
+        "silksong": "games/silksong/silksong_data.db",
+    }
+
+    db_path = Path(__file__).resolve().parent.parent / db_mapping[game_key]
+    if not db_path.exists():
+        print(f"  ℹ️ 无结构化数据库: {db_path.name}")
+        return []
+
+    docs = []
+    conn = sqlite3.connect(str(db_path))
+    conn.row_factory = sqlite3.Row
+    cur = conn.cursor()
+
+    cur.execute("SELECT name FROM sqlite_master WHERE type='table'")
+    tables = [t[0] for t in cur.fetchall()]
+
+    for table in tables:
+        if table == "game_meta":
+            continue
+        cur.execute(f"SELECT * FROM \"{table}\"")
+        cols = [d[0] for d in cur.description]
+        rows = cur.fetchall()
+
+        for row in rows:
+            text = _row_to_text(table, cols, row)
+            name = row["name"] if "name" in cols else (row["slug"] if "slug" in cols else table)
+            docs.append({
+                "content": text,
+                "metadata": {"title": name, "category": f"struct/{table}"},
+            })
+
+    conn.close()
+    print(f"  🗄️  {len(docs)} 条结构化数据 ({', '.join(tables)})")
+    return docs
+
+
 def build_vectorstore(game_key: str):
     import os
     cfg = GAME_DATA[game_key]
@@ -107,13 +244,21 @@ def build_vectorstore(game_key: str):
     print(f"📦 {cfg['name']}")
     print(f"{'='*50}")
 
-    # 1. 加载文档
-    docs = load_wiki_documents(cfg["data_path"])
+    # 1. 加载 Wiki 文档
+    wiki_docs = load_wiki_documents(cfg["data_path"])
+    wiki_chars = sum(len(d["content"]) for d in wiki_docs)
+    print(f"  📄 {len(wiki_docs)} 篇 Wiki 文档, ~{wiki_chars:,} 字符")
+
+    # 2. 加载结构化数据
+    struct_docs = load_structured_data(game_key)
+
+    # 合并
+    docs = wiki_docs + struct_docs
     if not docs:
         print("  ❌ 没有文档可处理")
         return
     total_chars = sum(len(d["content"]) for d in docs)
-    print(f"  📄 {len(docs)} 篇文档, ~{total_chars:,} 字符")
+    print(f"  📚 合计: {len(docs)} 文档, ~{total_chars:,} 字符")
 
     # 2. 导入
     from langchain_text_splitters import RecursiveCharacterTextSplitter
