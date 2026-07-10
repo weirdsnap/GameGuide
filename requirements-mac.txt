@@ -1,0 +1,6 @@
+# Mac 本地向量库构建最小依赖（省掉 chromadb 等不必要的包）
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-text-splitters>=0.2.0
+fastembed>=0.3.0
+faiss-cpu>=1.8.0
