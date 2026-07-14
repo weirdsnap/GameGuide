@@ -41,3 +41,4 @@ scripts/charms_catcher.py
 
 # 备份文件
 data/phase2_beta.backup.jsonl
+games/*/vectorstore/
