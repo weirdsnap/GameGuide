@@ -22,7 +22,7 @@ HF_ENDPOINT = os.getenv("HF_ENDPOINT", "https://hf-mirror.com")
 CHAT_MODEL = os.getenv("CHAT_MODEL", "deepseek-v4-flash")
 
 # 向量库路径
-VECTORSTORE_DIR = os.path.join(os.path.dirname(__file__), "..", "..", "vectorstore")
+VECTORSTORE_DIR = os.path.join(os.path.dirname(__file__), "..", "..", "games", "hollow_knight", "vectorstore")
 VECTORSTORE_DIR = os.path.abspath(VECTORSTORE_DIR)
 
 # 文档目录

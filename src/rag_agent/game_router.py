@@ -21,7 +21,7 @@ AVAILABLE_GAMES = {
     "hollow_knight": {
         "name": "Hollow Knight (空洞骑士)",
         "db_path": str(GAMES_DIR / "hollow_knight" / "hk_data.db"),
-        "vectorstore_dir": str(PROJECT_ROOT / "vectorstore"),
+        "vectorstore_dir": str(GAMES_DIR / "hollow_knight" / "vectorstore"),
     },
     "oni": {
         "name": "Oxygen Not Included (缺氧)",
