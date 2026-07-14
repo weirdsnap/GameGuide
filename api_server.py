@@ -1,6 +1,7 @@
 """
-Hollow Knight RAG Agent — API Server
+多游戏 Agent API Server
 提供密码保护的 API 接口，供博客前端调用。
+自动识别问题所属游戏，路由到正确的 Agent 和知识库。
 """
 
 import json
@@ -18,8 +19,7 @@ from aiohttp import web
 project_root = Path(__file__).parent
 sys.path.insert(0, str(project_root / "src"))
 
-from rag_agent.agent import ask
-from rag_agent.vectorstore import load_vectorstore
+from rag_agent.multi_agent import ask
 
 # ====== 配置 ======
 CONFIG_FILE = project_root / "api_config.json"
@@ -128,15 +128,7 @@ async def cors_middleware(app, handler):
     return middleware_handler
 
 
-# ====== 预加载 ======
-print("  ⏳ 正在预加载向量库...")
-try:
-    t0 = time.time()
-    load_vectorstore()
-    print(f"  ✅ 向量库加载完成 ({time.time()-t0:.1f}s)")
-except Exception as e:
-    print(f"  ⚠️  向量库预加载失败: {e}")
-    print(f"     服务仍可启动，但首次请求会较慢")
+# (向量库按需懒加载，由 multi_agent 内部管理)
 
 
 # ====== API 端点 ======
@@ -164,7 +156,7 @@ async def handle_login(request):
 
 
 async def handle_ask(request):
-    """POST /api/ask — 向空洞骑士助手提问"""
+    """POST /api/ask — 向游戏助手提问（自动识别游戏）"""
     try:
         body = await request.json()
     except json.JSONDecodeError:
@@ -189,7 +181,7 @@ async def handle_ask(request):
 
     try:
         t0 = time.time()
-        answer = ask(question, history=history if history else None, verbose=False)
+        answer = ask(question, history=history if history else None, verbose=True)
         elapsed = time.time() - t0
         print(f"  [{time.strftime('%H:%M:%S')}] {ip[:15]:15s} | {question[:50]:50s} | {elapsed:.1f}s")
         return web.json_response({"answer": answer, "elapsed": round(elapsed, 1)})
@@ -202,7 +194,7 @@ async def handle_status(request):
     """GET /api/status — 健康检查"""
     return web.json_response({
         "status": "ok",
-        "version": "beta3",
+        "version": "beta4",
         "uptime": round(time.time() - start_time, 1),
     })
 
@@ -223,7 +215,7 @@ start_time = time.time()
 if __name__ == "__main__":
     print(f"")
     print(f"  ╔══════════════════════════════════╗")
-    print(f"  ║  🐈  Hollow Knight RAG Agent API ║")
+    print(f"  ║  🐈  多游戏 Agent API            ║")
     print(f"  ╚══════════════════════════════════╝")
     print(f"")
     print(f"  🔑 密码验证已启用")

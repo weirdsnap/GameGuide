@@ -1,91 +1,178 @@
-"""《空洞骑士》游戏助手 Agent。"""
-import os
-from pathlib import Path
-from dotenv import load_dotenv
+"""
+Hollow Knight RAG Agent — 聊天代理主模块。
+
+支持双通道检索：
+1. RAG 向量检索（自然语言描述、剧情、策略等）
+2. SQLite 结构化查询（数值、属性、精确数据）
+
+用户问题 → LLM 路由 → 选择合适工具 → 整合回答
+"""
+
+import logging
+from typing import Any, Dict, List, Optional
+
+from langchain_core.messages import AIMessage, BaseMessage, HumanMessage, SystemMessage
+from langchain_core.tools import tool
 from langchain_openai import ChatOpenAI
-from langchain.agents import create_agent
+from langgraph.prebuilt import create_react_agent as create_agent
 
-from rag_agent.tools import KnowledgeSearchTool
+from rag_agent.config import LLM_CONFIG
+from rag_agent.tools import KnowledgeSearchTool, StructuredQueryTool
 
-# 定位项目根目录（src 的父目录）并加载 .env
-_project_root = Path(__file__).resolve().parent.parent.parent
-dotenv_path = _project_root / ".env"
-if dotenv_path.exists():
-    load_dotenv(dotenv_path)
-    print(f"📄 加载配置：{dotenv_path}")
-else:
-    print(f"⚠️ 未找到 .env 文件：{dotenv_path}")
+logger = logging.getLogger(__name__)
 
-SYSTEM_PROMPT = """你是《空洞骑士》游戏知识的专家助手。
-
-规则：
-1. 每次先用 search_knowledge_base 检索相关知识再回答
-2. 基于检索到的知识回答问题，不要编造知识库中没有的信息
-3. 如果检索结果不相关或知识库中没有相关信息，请如实告知
-
-回答风格：
-- 使用专业的中文游戏术语，简洁准确
-- 专有名词优先使用中文名称（如「螳螂爪」「王国边缘」），必要时在括号里注明英文原名"""
+# ── 工具实例 ──
+_knowledge_search = KnowledgeSearchTool()
+_structured_query = StructuredQueryTool()
 
 
-def _build_agent():
-    """构建 Agent。"""
-    api_key = os.getenv("OPENAI_API_KEY")
-    base_url = os.getenv("OPENAI_BASE_URL")
-    if not api_key:
-        raise ValueError(
-            "OPENAI_API_KEY 未设置！请检查 .env 文件是否存在且格式正确。\n"
-            "确保 .env 中包含：\n"
-            "  OPENAI_API_KEY=sk-xxxxx\n"
-            "  OPENAI_BASE_URL=https://api.deepseek.com/v1\n"
-            "  CHAT_MODEL=deepseek-v4-flash"
-        )
-    model = ChatOpenAI(
-        model=os.getenv("CHAT_MODEL", "deepseek-v4-flash"),
-        api_key=api_key,
-        base_url=base_url,
-        temperature=0.2,
-        max_tokens=4096,
-    )
+@tool
+def search_knowledge_base(query: str, k: int = 8) -> str:
+    """Search the Hollow Knight wiki knowledge base using RAG vector retrieval.
+    
+    Use this for: lore, story backgrounds, area descriptions, boss strategies,
+    charm concepts, gameplay mechanics, NPC dialogues, quest walkthroughs,
+    and any descriptive/narrative content.
+    
+    Input should be in English keywords or phrases for best results.
+    
+    Args:
+        query: Search query in English keywords
+        k: Number of relevant documents to return (default 8)
+    """
+    return _knowledge_search.run(query, k=k)
 
-    agent = create_agent(
-        model=model,
-        tools=[KnowledgeSearchTool()],
-        system_prompt=SYSTEM_PROMPT,
-        name="hollow_knight_agent",
-    )
+
+@tool
+def query_structured_data(query: str) -> str:
+    """Query the Hollow Knight structured database for precise numerical data.
+    
+    Use this for: charm notch costs, boss HP values, skill damage numbers,
+    enemy Geo drops, item prices, area connections, character inventories,
+    and any other quantifiable game data.
+    
+    Supports queries like:
+    - "查护符 Grubsong" — get detailed info about a specific charm
+    - "3格Cost的护符" — list all charms with 3 notch cost
+    - "HP>300的Boss" — list bosses with more than 300 HP
+    - "所有区域" — list all areas
+    - "搜索护符 fury" — fuzzy search charms
+    
+    Args:
+        query: Natural language query describing what data to look up
+    """
+    return _structured_query.run(query)
+
+
+# ── 系统提示 ──
+
+SYSTEM_PROMPT = """You are a Hollow Knight (《空洞骑士》) game expert assistant named nanobot 🐈.
+
+Your knowledge comes from two sources — use them wisely:
+
+1. **search_knowledge_base** — Vector knowledge base (Wiki text)
+   Good for: lore, story, boss strategies, charm combos, area descriptions, NPC dialogue,
+   gameplay walkthroughs, quests, and general game concepts.
+   ALWAYS search this first for descriptive questions.
+
+2. **query_structured_data** — Structured database with precise numerical data
+   Good for: charm notch costs, boss HP, skill damage, enemy geo drops, item prices,
+   area connections, and any exact numbers/attributes.
+   ALWAYS use this when the user asks for numbers, costs, HP, stats, or comparing values.
+
+**How to respond:**
+- Answer in Chinese (中文), but keep English game terms in parentheses.
+- If the user asks in Chinese, translate key concepts to English for searching.
+- Always cite your sources: mention whether info came from the knowledge base or database.
+- If both sources are needed, use both tools.
+- Be concise but informative. At most 3-4 paragraphs for normal answers.
+
+**CRITICAL RULE — Stay in scope:**
+- You ONLY answer questions about Hollow Knight (《空洞骑士》).
+- If the question is about ANY OTHER GAME (Zelda, Elden Ring, Silksong, etc.), ANY OTHER SUBJECT (math, politics, weather), or ANY OTHER TOPIC outside Hollow Knight:
+  - Say: "抱歉，我专注于《空洞骑士》(Hollow Knight) 的游戏知识。无法回答关于 [其他话题] 的问题。" alone, no further detail.
+  - Do NOT answer the question. Do NOT provide any information about other games.
+- Exception: simple greetings, how-are-you, thanks, and friendly chat are fine.
+
+**Rules:**
+- Never fabricate game information.
+- If unsure, search the knowledge base first.
+- For numbers (cost, HP, damage, geo), always query the structured database first."""
+
+
+def create_hk_agent(model_name: Optional[str] = None) -> Any:
+    """创建 Hollow Knight Agent（LangGraph）。"""
+    config = dict(LLM_CONFIG)
+    if model_name:
+        config["model"] = model_name
+
+    llm = ChatOpenAI(**config)
+    tools = [search_knowledge_base, query_structured_data]
+    agent = create_agent(llm, tools, prompt=SystemMessage(content=SYSTEM_PROMPT))
     return agent
 
 
 def ask(
     question: str,
-    history: list[dict] | None = None,
+    history: Optional[List[Dict[str, str]]] = None,
+    model_name: Optional[str] = None,
     verbose: bool = False,
 ) -> str:
-    """向 Agent 提问，返回回答文本。
+    """Ask the Hollow Knight agent a question.
 
     Args:
-        question: 当前问题
-        history: 历史消息列表，格式 [{"role": "user", "content": "..."},
-                                        {"role": "assistant", "content": "..."}]
-                 不传则单轮问答，无上下文记忆。
-        verbose: 是否打印详细日志
+        question: User's question in any language
+        history: Optional list of previous messages [{"role": "user"/"assistant", "content": "..."}]
+        model_name: Optional model override
+        verbose: Print intermediate steps
 
     Returns:
-        助手的回答文本
+        Agent's response text
     """
-    agent = _build_agent()
-    messages = list(history or []) + [{"role": "user", "content": question}]
-    result = agent.invoke({"messages": messages})
-    # 提取最后的 AI 回复
-    for msg in reversed(result["messages"]):
-        if hasattr(msg, "content") and msg.content and getattr(msg, "type", "") not in ("tool", "tool_call"):
-            return msg.content
-    return "抱歉，我没能生成有效的回答。"
+    agent = create_hk_agent(model_name)
 
+    # Build message list from history + current question
+    messages: List[BaseMessage] = []
+
+    if history:
+        for msg in history:
+            role = msg.get("role", "")
+            content = msg.get("content", "")
+            if role == "user":
+                messages.append(HumanMessage(content=content))
+            elif role == "assistant":
+                messages.append(AIMessage(content=content))
+
+    messages.append(HumanMessage(content=question))
+
+    if verbose:
+        logger.info(f"🤖 询问 Agent (model={model_name or 'default'}): {question[:60]}...")
+        logger.info(f"  消息列表: {len(messages)} 条")
+
+    try:
+        result = agent.invoke({"messages": messages})
+        answer = result.get("messages", [])[-1].content if result.get("messages") else ""
+        return answer or "（Agent 没有返回有效回答）"
+    except Exception as e:
+        logger.error(f"Agent 调用失败: {e}")
+        return f"[查询出错] {e}"
+
+
+# ── CLI 快速测试 ──
 
 if __name__ == "__main__":
     import sys
-    q = " ".join(sys.argv[1:]) if len(sys.argv) > 1 else "How do I get the Mantis Claw?"
-    print(f"❓ {q}\n")
-    print(ask(q))
+
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s [%(levelname)s] %(message)s",
+        datefmt="%H:%M:%S",
+    )
+
+    if len(sys.argv) > 1:
+        question = " ".join(sys.argv[1:])
+    else:
+        question = "Fury of the Fallen 在哪里？"
+
+    print(f"\n问题：{question}\n")
+    print(f"回答：{ask(question, verbose=True)}\n")

@@ -262,7 +262,7 @@ def get_retriever(save_dir: str = VECTORSTORE_DIR, k: int = 8):
     vectorstore = load_vectorstore(save_dir)
     return vectorstore.as_retriever(search_kwargs={"k": k})
 from functools import lru_cache
-@lru_cache(maxsize=1)
+@lru_cache(maxsize=8)
 def _load_vectorstore(save_dir: str = VECTORSTORE_DIR) -> FAISS:
     """加载已有向量库（支持离线生成的索引）。\n    使用 @lru_cache 避免多次加载。
     """

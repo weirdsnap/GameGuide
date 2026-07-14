@@ -11,11 +11,15 @@ OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL") or None
 # 本地 fastembed 模型由 FASTEMBED_MODEL 指定（默认 bge-small-en-v1.5）
 EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "text-embedding-3-small")
 
-# 本地 fastembed 模型（支持多语言，如 paraphrase-multilingual-MiniLM-L12-v2）
-FASTEMBED_MODEL = os.getenv("FASTEMBED_MODEL", "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
+# 本地 fastembed 模型（当前向量库使用 BAAI/bge-small-en-v1.5）
+# 如果更换模型，需要在 Mac 上重新构建向量库
+FASTEMBED_MODEL = os.getenv("FASTEMBED_MODEL", "BAAI/bge-small-en-v1.5")
+
+# HuggingFace 镜像（国内加速下载）
+HF_ENDPOINT = os.getenv("HF_ENDPOINT", "https://hf-mirror.com")
 
 # 默认对话模型
-CHAT_MODEL = os.getenv("CHAT_MODEL", "gpt-4o-mini")
+CHAT_MODEL = os.getenv("CHAT_MODEL", "deepseek-v4-flash")
 
 # 向量库路径
 VECTORSTORE_DIR = os.path.join(os.path.dirname(__file__), "..", "..", "vectorstore")
@@ -24,3 +28,12 @@ VECTORSTORE_DIR = os.path.abspath(VECTORSTORE_DIR)
 # 文档目录
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "..", "data")
 DATA_DIR = os.path.abspath(DATA_DIR)
+
+# LLM 配置（用于 Agent 对话模型）
+LLM_CONFIG = {
+    "model": CHAT_MODEL,
+    "api_key": OPENAI_API_KEY,
+    "base_url": OPENAI_BASE_URL,
+    "temperature": 0.2,
+    "max_tokens": 4096,
+}
