@@ -27,7 +27,7 @@ from rag_agent.vectorstore import load_vectorstore
 GAME_DATA: Dict[str, Dict[str, str]] = {
     "hollow_knight": {
         "name": "Hollow Knight",
-        "data_path": str(PROJECT_ROOT / "data" / "hallownest_knowledge.md"),
+        "data_path": str(GAMES_DIR / "hollow_knight" / "data" / "wiki_data.md"),
         "vectorstore_dir": str(GAMES_DIR / "hollow_knight" / "vectorstore"),
     },
     "oni": {
