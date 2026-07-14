@@ -1,0 +1,3 @@
+api.weirdsnap.top {
+    reverse_proxy localhost:8765
+}

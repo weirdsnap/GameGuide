@@ -2,7 +2,7 @@
 
 自动采集自 Wiki
 采集时间：2026-07-10 15:38
-文档总数：97
+文档总数：73
 
 ---
 
@@ -30,6 +30,7 @@ Inhabitants
 
 ---
 
+
 # 文档：Bone Bottom
 
 - 类别：areas
@@ -46,6 +47,7 @@ References
 
 ---
 
+
 # 文档：Citadel
 
 - 类别：areas
@@ -59,6 +61,7 @@ In order to access the Citadel, Hornet must unlock 5 bells and ring them across 
 References
 
 ---
+
 
 # 文档：Deep Docks
 
@@ -101,6 +104,7 @@ After this event is over the lever sinks back into the ground and is replaced by
 
 ---
 
+
 # 文档：Far Fields
 
 - 类别：areas
@@ -119,6 +123,7 @@ Pilgrm stay
 
 ---
 
+
 # 文档：Greymoor
 
 - 类别：areas
@@ -132,6 +137,7 @@ Greymoor is described as a "huge" area, and one of the largest Team Cherry has e
 References
 
 ---
+
 
 # 文档：Hunter's March
 
@@ -149,6 +155,7 @@ Karmelita
 
 ---
 
+
 # 文档：Marrow
 
 - 类别：areas
@@ -165,6 +172,7 @@ one chamber
 shakra References
 
 ---
+
 
 # 文档：Moss Grotto
 
@@ -203,6 +211,7 @@ Inhabitants
 Moss Druid
 
 ---
+
 
 # 文档：Shellwood
 
@@ -245,6 +254,7 @@ Trivia
 
 ---
 
+
 # 文档：Sinner's Road
 
 - 类别：areas
@@ -257,6 +267,7 @@ Description
 
 ---
 
+
 # 文档：The Abyss
 
 - 类别：areas
@@ -266,6 +277,7 @@ Description
 The Abyss is an area accessible during Act 3 of Hollow Knight: Silksong. It is similar to Hallownest's Abyss, themed around the Void and located at the very bottom of Pharloom , and is the location of the Lost Lace fight.
 
 ---
+
 
 # 文档：The Mists
 
@@ -289,6 +301,7 @@ The Mist is located at the bottom of  Bilewater, on the opposite side of the are
 
 ---
 
+
 # 文档：Weavenest Atla
 
 - 类别：areas
@@ -308,6 +321,7 @@ Weavenest Atla is home to two Moss Mothers. After beating them, Hornet will rece
 
 ## BOSSES
 共 40 篇文档
+
 
 # 文档：Bell Beast
 
@@ -351,6 +365,7 @@ References
 
 ---
 
+
 # 文档：Bell Eater
 
 - 类别：bosses
@@ -360,6 +375,7 @@ References
 The Bell Eater is a boss in Hollow Knight: Silksong.
 
 ---
+
 
 # 文档：Broodmother
 
@@ -372,6 +388,7 @@ The Broodmother is a boss in Hollow Knight: Silksong.
 Can be found in The Slab upon initiating the “The Wailing Mother” wish in Act 2 Songclave, which will cause her to begin audibly crying throughout the entire area. She can be found in a wall in the bottom left of the area, after a small gauntlet of the fly based enemies of The Slab. Upon defeat, she will drop the Broodmothers Eye (an item used both to complete the promise, and to fill out the Materium). The reward for the quest is a heavy rosary necklace.
 
 ---
+
 
 # 文档：Clover Dancers
 
@@ -398,6 +415,7 @@ Location: Lost Verdania
 
 ---
 
+
 # 文档：Cogwork Dancers
 
 - 类别：bosses
@@ -419,6 +437,7 @@ Note: Prior to the start of each phase, the cogs in the background will wind up 
 
 ---
 
+
 # 文档：Craggler
 
 - 类别：bosses
@@ -430,6 +449,7 @@ The Craggler is a mini-boss in Hollow Knight: Silksong. The thing is a sort of c
 With a beginner nail it takes 40 hits.
 
 ---
+
 
 # 文档：Crawfather
 
@@ -466,6 +486,7 @@ Crawfather can be found in Greymoor, in the basement of the large building in Cr
 
 ---
 
+
 # 文档：Crust King Khann
 
 - 类别：bosses
@@ -484,6 +505,7 @@ Location
 
 ---
 
+
 # 文档：Disgraced Chef Lugoli
 
 - 类别：bosses
@@ -493,6 +515,7 @@ Location
 Disgraced Chef Lugoli is a boss in Hollow Knight: Silksong
 
 ---
+
 
 # 文档：Father of the Flame
 
@@ -504,6 +527,7 @@ The Father of the Flame is a boss in Hollow Knight: Silksong. It is found in the
 
 ---
 
+
 # 文档：First Sinner
 
 - 类别：bosses
@@ -514,6 +538,7 @@ The First Sinner is a boss in Hollow Knight: Silksong. She looks like a Weaver, 
 
 ---
 
+
 # 文档：Forebrothers Signis and Gron
 
 - 类别：bosses
@@ -523,6 +548,7 @@ The First Sinner is a boss in Hollow Knight: Silksong. She looks like a Weaver, 
 Forebrothers Signis and Gron are a boss in Hollow Knight: Silksong.
 
 ---
+
 
 # 文档：Fourth Chorus
 
@@ -539,6 +565,7 @@ Once Fourth Chorus has staggered, another attack is added, which causes lava bal
 In the final stage of the fight, which comes after 3 staggers, upward drafts will appear to the left and right of the battle platform, which is now slightly smaller. While it's possible to beat Fourth Chorus by attacking its head until it falls, it can also be defeated indirectly. This can be done when the upward drafts show up, by riding them to the top and hitting the magma blocks (one on each side) in the ceiling. This causes a Boulder to fall and crush the boss's head.
 
 ---
+
 
 # 文档：Grand Mother Silk
 
@@ -572,6 +599,7 @@ If heading to Act III, the Void Tendrils that appear under her in the Snared Sil
 
 ---
 
+
 # 文档：Great Conchflies
 
 - 类别：bosses
@@ -582,6 +610,7 @@ The Great Conchflies are a boss in Hollow Knight: Silksong.
 
 ---
 
+
 # 文档：Groal the Great
 
 - 类别：bosses
@@ -591,6 +620,7 @@ The Great Conchflies are a boss in Hollow Knight: Silksong.
 Groal the Great is a boss in Hollow Knight: Silksong. He can be found in Bilewater.
 
 ---
+
 
 # 文档：Gurr the Outcast
 
@@ -622,6 +652,7 @@ Location
 Gurr can be found in Far Fields after promising the wish "The hidden hunter".
 
 ---
+
 
 # 文档：Karmelita
 
@@ -656,6 +687,7 @@ After progressing to Act 3, one will find that the Deep Docks entrance to Hunter
 References
 
 ---
+
 
 # 文档：Lace
 
@@ -695,6 +727,7 @@ References
 
 ---
 
+
 # 文档：Last Judge
 
 - 类别：bosses
@@ -733,6 +766,7 @@ The Last Judge's flail is a censer, which is a vessel used to burn incense and u
 
 ---
 
+
 # 文档：Lost Garmond
 
 - 类别：bosses
@@ -742,6 +776,7 @@ The Last Judge's flail is a censer, which is a vessel used to burn incense and u
 Lost Garmond is a boss in Hollow Knight: Silksong located in the Blasted Steps and accesible in Act 3 as part of the Hero's Call wish.
 
 ---
+
 
 # 文档：Lost Lace
 
@@ -786,6 +821,7 @@ Trivia
 
 ---
 
+
 # 文档：Moorwing
 
 - 类别：bosses
@@ -812,6 +848,7 @@ Moorwing's fight can be skipped if the Flea Caravan is moved there before Moorwi
 If Moorwing is fought in Act 3, a harder, Void-infused version of it can be fought.
 
 ---
+
 
 # 文档：Moss Mother
 
@@ -840,6 +877,7 @@ References
 
 ---
 
+
 # 文档：Phantom
 
 - 类别：bosses
@@ -853,6 +891,7 @@ Phantom is a creature strung from silk, by Grand Mother Silk. Phantom and Lace c
 Killing Phantom allows  Hornet to gain the Cross Stitch ability.
 
 ---
+
 
 # 文档：Pinstress
 
@@ -871,6 +910,7 @@ Pintress boss:
 found in mountian Fay.
 
 ---
+
 
 # 文档：Plasmified Zango
 
@@ -904,6 +944,7 @@ Zango's corpse can be found in a cave at the bottom left of the Wormays. He can 
 
 ---
 
+
 # 文档：Savage Beastfly
 
 - 类别：bosses
@@ -913,6 +954,7 @@ Zango's corpse can be found in a cave at the bottom left of the Wormays. He can 
 The Savage Beastfly is a boss in Hollow Knight: Silksong which is encountered in the Chapel of Beast, at the east end of Hunter's March, and in Far Fields after the Savage Beastfly wish is accepted, and it can be found where Fourth Chorus was fought. After completing the Savage Beastfly wish, you can turn in the Horn Fragment and get a Heavy Rosary Necklace. In patch (whatever was avalible on day 1), however, the quest rewarded a mask shard.
 
 ---
+
 
 # 文档：Second Sentinel
 
@@ -935,6 +977,7 @@ After taking the quest you can find him in the supre saloon's and talk with him,
 (NOTE: I finished Act 3 and didn't know about this boss until I found it today, you don't have to fight it to trigger Act 3)
 
 ---
+
 
 # 文档：Seth
 
@@ -1046,6 +1089,7 @@ References
 
 ---
 
+
 # 文档：Sharpe
 
 - 类别：bosses
@@ -1071,6 +1115,7 @@ References
 
 ---
 
+
 # 文档：Sister Splinter
 
 - 类别：bosses
@@ -1093,6 +1138,7 @@ The reward for beating her is Cling Grip whach allow wall grab and jump.
 
 ---
 
+
 # 文档：Skarrgard
 
 - 类别：bosses
@@ -1102,6 +1148,7 @@ The reward for beating her is Cling Grip whach allow wall grab and jump.
 The Skarrgard is a mini-boss in Hollow Knight: Silksong.
 
 ---
+
 
 # 文档：Skull Tyrant
 
@@ -1128,6 +1175,7 @@ Skull Tyrant will appear on  the right side of the arena; Note that the arena ca
 
 ---
 
+
 # 文档：The Unraveled
 
 - 类别：bosses
@@ -1143,6 +1191,7 @@ Start from the Bench located in Whiteward, then proceed towards the west side of
 After the lock has been unlocked you may proceed all the way down until you reach the location of The Unravelled.
 
 ---
+
 
 # 文档：Tormented Trobbio
 
@@ -1179,6 +1228,7 @@ Tormented Trobbio can be found in The Stage, in the Whispering Vaults after prom
 
 ---
 
+
 # 文档：Trobbio
 
 - 类别：bosses
@@ -1211,6 +1261,7 @@ References
 
 ---
 
+
 # 文档：Voltvyrm
 
 - 类别：bosses
@@ -1235,6 +1286,7 @@ Voltvyrm can be found in Voltnest, at the top of the vertical central room.
 
 ---
 
+
 # 文档：Watcher at the Edge
 
 - 类别：bosses
@@ -1244,6 +1296,7 @@ Voltvyrm can be found in Voltnest, at the top of the vertical central room.
 Watcher at the Edge is an optional boss in Hollow Knight: Silksong. It can be found in secret location located in Sands of Karak. When defeated he drops the Grey Memento.
 
 ---
+
 
 # 文档：Widow
 
@@ -1278,7 +1331,8 @@ Widow No Hit
 ---
 
 ## CHARACTERS
-共 14 篇文档
+共 11 篇文档
+
 
 # 文档：Ballow
 
@@ -1297,47 +1351,6 @@ References
 
 ---
 
-# 文档：Bell Beast
-
-- 类别：characters
-- 标识：bell beast
-- 来源：wiki/Bell_Beast
-
-SS Infobox NPC
-|dlc = silksong
-|image1 = Enemy 9.png
-|gender = Female
-|area = The Marrow The Bell Beast appears to be the main method of fast travel throughout Pharloom. She is initially found in the Marrow, where she is trapped in Silk which can only be cleared by a Silkspear attack. Once the Bell Beast is freed, she attacks Hornet. After her defeat, she can be used to travel between the different bell stations. In Act 3 she has babies.
-
-Behavior and Tactics
-The Bell Beast has three main attacks:
-
-Charge: Bell Beast digs in the ground for a moment, without making any growling noises, before surfacing and rushing at Hornet.
-
-Launch: Bell Beast digs in the ground, similar to the charge attack, but growls before jumping  up in the air and arching to land on the other side of the arena.
-
-Throw: Bell Beast silently digs in the ground, with a smaller width than with the other attacks, before launching a bell on both sides of herself. Each bell, when thrown with this attack, bounces once before rolling to either edge of the arena and rolls off the edges of the screen.
-
-Bell Beast will always start the battle with a Charge attack starting from the right side of the arena.
-
-After each attack, Bell Beast returns to momentarily hide underground. Once you're in the second battle phase, any attack has a chance to make one bell fall from the ceiling, bouncing once before passing through the ground.
-
-To free her, you need the Silk Spear skill.
-
-Unlike The Last Stag, she does not appear to have any dialogue.
-
-Bell Beast does double damage with all attacks, including falling bells. She enters Phase 2 at 15 hits (Silk Spear does 3 hits) after a scream. In this phase, Bell Beast will cause a bell to fall from the roof after every attack, telegraphed by dust falling from the ceiling. These bells bounce once and then crumble. The fight ends at around 30 hits. PS: (one "hit" is 5 damage)
-
-Trivia
-The Bell Beast is visually very similar to the Dirtcarver.
-While there is no option to interact with the Bell Beast, hitting her with your needle allows you to "pet" the Bell Beast. She enjoys this by purring and playing with the ground.
-Using the Needolin ability near the Bell Beast, she starts to purr. However, there is no special dialogue upon doing so.
-After defeating the Bell Eater in Act 3, it's revealed that the Bell Beast has children, and can allow Hornet to access the Bell Beast via the Beastling Call ability w/ the Needolin.
-You can juggle the Beastlings with your needle. Very fun activity to do if you are bored.
-
-References
-
----
 
 # 文档：Caravan
 
@@ -1401,6 +1414,7 @@ References
 
 ---
 
+
 # 文档：Chapel Maid
 
 - 类别：characters
@@ -1416,6 +1430,7 @@ In the Moss Grotto demo, they witness Hornet falling unconscious on the ground a
 References
 
 ---
+
 
 # 文档：Forge-Daughter
 
@@ -1440,6 +1455,7 @@ References
 
 ---
 
+
 # 文档：Garmond and Zaza
 
 - 类别：characters
@@ -1455,6 +1471,7 @@ They also offer help to Hornet to defeat Moorwing. (How they help: )
 References
 
 ---
+
 
 # 文档：Grindle
 
@@ -1567,6 +1584,7 @@ References
 
 ---
 
+
 # 文档：Huntress
 
 - 类别：characters
@@ -1625,6 +1643,7 @@ References
 
 ---
 
+
 # 文档：Moss Druid
 
 - 类别：characters
@@ -1640,133 +1659,6 @@ The druid is located in the Moss Grotto.
 
 ---
 
-# 文档：Pinstress
-
-- 类别：characters
-- 标识：pinstress
-- 来源：wiki/Pinstress
-
-The Pinstress is an NPC and boss in Hollow Knight: Silksong.
-
-Pintress NPC:
-
-The Pintress gives a  quest that you need to collect 25 [items] for her, completing her quest gives you the drifters cloak which is required to progress to greymoor , bellhart and shellwood.
-
-Pintress boss:
-
-found in mountian Fay.
-
----
-
-# 文档：Seth
-
-- 类别：characters
-- 标识：seth
-- 来源：wiki/Seth
-
-<b>Shrine Guardian Seth</b> is an  NPC and boss in <i>Hollow Knight: Silksong</i> teased by Matthew "Leth" Griffin in the Hollow Knight Discord after members were able to solve a series of 2 riddles.
-
-He can be found in a secret area inside of the Grand Gate.
-
-<i>"The Voice… has chosen me."
-
-An eternal protector, waiting amidst tangled roots at the base of the Citadel. He guards a secret long forgotten and will attack any who stray too close.
-
-Imbued with stamina and strength beyond a normal bug, he strikes up close or from a distance with blinding speed. With unwavering devotion, this ancient guardian will fight until the very end, and beyond.
-
-Many of the Citadel’s caste have fallen to this deadly warrior. Those who encounter him should turn back, or else prepare for a vicious battle.</i>
-
-Development
-<i>The character was created by Seth Goldman, who was diagnosed with cancer and his only wish was to meet Team Cherry. He managed to meet them and they offered him to design a character, which is the Seth we know today. Goldman unfortunately didn't make it to see his character, but his memory lives on in the game.</i>
-
-Trivia
-Seth was first revealed by his creator Seth Goldman in a Reddit post mentioning his meeting with Team Cherry as well as his struggle with Ewing Sarcoma, a type of cancer.
-Seth is the last of a series of NPCs teased using riddles provided by Matthew "Leth" Griffin that lasted throughout June to July of 2020, the others being Huntress, Grindle, and Caravan.
-The riddles solved to reveal Seth required two passwords, the first one to open the initial file, the second to open the file within. The passwords were <i>protector</i> and <i>bloom</i>. The riddles and solutions are outlined below:
-
-<b>Riddle 1</b>
-"To find me, dream of a spider's web
-A site with a wondrous view
-I dwell among visions of dangerous foes
-Near colored lands berry and blue"
-<i>Answer: Go to Silksong's official website, look at the green and blue screenshots.</i>
-
-"The visions' arrangement, left, right and left
-Depicting an exciting story
-Among words they lie there frozen in time
-Anticipating tales of glory"
-<i>Answer:The screenshots are formatted left, right, left.</i>
-
-"To the west, green is nearly all I see
-Where dangers are raining down
-Among the ancient text here is hidden
-A pass-word that may be found"
-<i>Answer: "Hornet, princess-protector" is in the text next to the green screenshot.</i>
-
-"To remove the lock we need the key
-Ignoring the title we proceed finally
-Now count the number of visions you see
-And move through the text accordingly"
-<i>Answer: Ignore the title and pick the third word, "protector".</i>
-
-<i>Final result: Protector</i>
-
----
-
-<b>Riddle 2</b>
-"The Knight BEARS Them"
-<i>Answer: Charms</i>
-
-"Divine EATS X of Them"
-<i>Answer: Divine eats 3 Charms. X = 3.</i>
-
-"Salubra SELLS Y of Them"
-<i>Answer: Salubra sells 5 Charms. Y = 5.</i>
-
-"FIND the WORDS:
-AA  ----------- (Divine's Gift)"
-<i>Answer: AA = Unbreakable</i>
-
-"BB  ---------   (Baby Flukes)"
-<i>Answer: BB = Flukenest</i>
-
-"CC  ---------   (Joni's Blessing)"
-<i>Answer: CC = Lifeblood</i>
-
-"DD  ----------  (Weaverling Companionship)"
-<i>Answer: DD = Weaversong</i>
-
-"EE  ----- ------    (Conjured Shield)"
-<i>Answer: EE = Dreamshield</i>
-
-"FF  ---- -----  (Void Unifier)"
-<i>Answer: FF = Void Heart</i>
-
-"ARRANGE the WORDS to find the vertical KNIGHT."
-<i>Answer: Arrange the letters in each word to vertically spell out KNIGHT.</i>
-
-"TRANSLATE the WORDS to find the answer: -----
-DDFF +Y
-CCDD -X
-DDFF -X
-BB +X
-BB +X
-AABBCC -Y"
-<i>Answer: Move the words over by X or Y amount of spaces in the specified directions, for instance, move DD and FF up 5 for the first instruction.</i>
-
-AA: UNBREAKA<b>B</b>LE
-BB:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;F<b>L</b>UKENEST
-CC:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LIFEBL<b>O</b>OD
-DD:&nbsp;&nbsp;&nbsp;&nbsp;WEAVERS<b>O</b>NG
-EE:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DREA<b>M</b>SHIELD
-FF:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VOID HEART
-<i>Going straight down from "B" in UNBREAKABLE, it shows BLOOM.</i>
-
-<i>Final result: Bloom.</i>
-
-References
-
----
 
 # 文档：Shakra
 
@@ -1790,6 +1682,7 @@ References
 
 ---
 
+
 # 文档：Sherma
 
 - 类别：characters
@@ -1808,40 +1701,6 @@ References
 
 ---
 
-# 文档：Trobbio
-
-- 类别：characters
-- 标识：trobbio
-- 来源：wiki/Trobbio
-
-SS Infobox NPC
-|dlc = silksong
-|area = Whispering Vaults
-|gender = Male
-|va = Matt Trobbiani which described him as the "Master of the Stage, the Brush and the Voice", and states he is seeking fame and adoration throughout Pharloom.
-
-In-game, Trobbio is found in The Stage as a boss encounter, a small area which is first accessible through the Whispering Vaults. It is recommended that when going up against him, you first set your respawn point in the Grand Bellway, as it provides an easy way to get back there for in case you die.
-
-Trobbio has 4 phases in his fight. After the second, his attacks become more rapid and he gains the ability to summon fireworks within the ground.
-
-Upon defeating him, Trobbio drops the Claw Mirror.
-
-He can be fought again in Act 3 after accepting a wish, becoming purple and having harder attacks. After being defeated, he descends via an elevator dramatically and drops an upgrade to the Claw Mirror. If you go further away and come back again, he peeks out of the floor, spots Hornet, and goes back down.
-
-The player can also take his feather and use it to update your map, but when he turns purple you can get it purple feather
-
-(I have an image of his location on the map, but Fandom won't let me edit any of the templates)Trivia
-Although he was revealed under the "New Bosses" title card in the announcement trailer, in the <i>Silksong</i> press kit, his art is labelled under the NPCs section.
-Trobbio is named after his voice actor, Hacknet creator Matt Trobbiani.
-After defeating Trobbio, leaving the room and reentering will show that he has gotten back up. Upon spotting the player, he will gasp before going back to pretending to be dead.
-If you do not buy the Quill from Shakra, after his battle the red quill can be obtained. If you have no variety of quill after his second battle, you can obtain a purple quill.
-
-References
-
----
-
-## COMBAT
-共 1 篇文档
 
 # 文档：Silk
 
@@ -1905,328 +1764,8 @@ Using Throwing Rings with Battle Stance does not expend silk and is identical to
 ---
 
 ## ENEMIES
-共 22 篇文档
+共 4 篇文档
 
-# 文档：Bell Beast
-
-- 类别：enemies
-- 标识：bell beast
-- 来源：wiki/Bell_Beast
-
-SS Infobox NPC
-|dlc = silksong
-|image1 = Enemy 9.png
-|gender = Female
-|area = The Marrow The Bell Beast appears to be the main method of fast travel throughout Pharloom. She is initially found in the Marrow, where she is trapped in Silk which can only be cleared by a Silkspear attack. Once the Bell Beast is freed, she attacks Hornet. After her defeat, she can be used to travel between the different bell stations. In Act 3 she has babies.
-
-Behavior and Tactics
-The Bell Beast has three main attacks:
-
-Charge: Bell Beast digs in the ground for a moment, without making any growling noises, before surfacing and rushing at Hornet.
-
-Launch: Bell Beast digs in the ground, similar to the charge attack, but growls before jumping  up in the air and arching to land on the other side of the arena.
-
-Throw: Bell Beast silently digs in the ground, with a smaller width than with the other attacks, before launching a bell on both sides of herself. Each bell, when thrown with this attack, bounces once before rolling to either edge of the arena and rolls off the edges of the screen.
-
-Bell Beast will always start the battle with a Charge attack starting from the right side of the arena.
-
-After each attack, Bell Beast returns to momentarily hide underground. Once you're in the second battle phase, any attack has a chance to make one bell fall from the ceiling, bouncing once before passing through the ground.
-
-To free her, you need the Silk Spear skill.
-
-Unlike The Last Stag, she does not appear to have any dialogue.
-
-Bell Beast does double damage with all attacks, including falling bells. She enters Phase 2 at 15 hits (Silk Spear does 3 hits) after a scream. In this phase, Bell Beast will cause a bell to fall from the roof after every attack, telegraphed by dust falling from the ceiling. These bells bounce once and then crumble. The fight ends at around 30 hits. PS: (one "hit" is 5 damage)
-
-Trivia
-The Bell Beast is visually very similar to the Dirtcarver.
-While there is no option to interact with the Bell Beast, hitting her with your needle allows you to "pet" the Bell Beast. She enjoys this by purring and playing with the ground.
-Using the Needolin ability near the Bell Beast, she starts to purr. However, there is no special dialogue upon doing so.
-After defeating the Bell Eater in Act 3, it's revealed that the Bell Beast has children, and can allow Hornet to access the Bell Beast via the Beastling Call ability w/ the Needolin.
-You can juggle the Beastlings with your needle. Very fun activity to do if you are bored.
-
-References
-
----
-
-# 文档：Bell Eater
-
-- 类别：enemies
-- 标识：bell eater
-- 来源：wiki/Bell_Eater
-
-The Bell Eater is a boss in Hollow Knight: Silksong.
-
----
-
-# 文档：Crawfather
-
-- 类别：enemies
-- 标识：crawfather
-- 来源：wiki/Crawfather
-
-<b>Crawfather</b> is an optional boss  in Hollow Knight: Silksong. He's located in Craw Lake in Greymoor.
-
-In-game events
-After starting act 3, the player will receive the Craw Summons, which is a black sheet of paper attached to a pin, stuck near a bench the player's resting at. It reads that Hornet must go to Craw Lake to be judged by the Court of Craws. After defeating a gauntlet, Crawfather engages the fight.
-
-Behaviour and Tactics
-
-Phase 1
-<b>Order In The Court</b>: Crawfather reels his head back, before pecking the ground three times, moving forward with each attack.
-<b>Witness To The Stand</b>: Crawfather screams, summoning either two Craw Jurors, one Tallcraw Juror, or one Squatcraw Juror.
-<b>Justice From On High</b>: Crawfather takes flight, flutters for a short while, then dashes towards Hornet with his beak.
-
-Phase 2
-When Crawfather takes enough damage, he gains a new attack :
-<b>Chains For The Penitent</b>: Crawfather flutters at a medium height, sending chains in all directions. After a short while, the chains erupt in barbed spikes, dealing two damage on hit. After this, Crawfather falls back to the ground, striking with his beak down below.
-
-Needolin dialogue
-<b>Hear me, hear me!</b>
-<b>O clattorous chorus!
-<b>This spinderous spiderling...
-<b>Sinner! I say sinner!
-<b>I condemn! I punish!
-<b>A calamitous criminal!
-
-Location
-Crawfather can be found in Greymoor, in the basement of the large building in Craw Lake. Once Hornet obtains the Craw Summons and presents it to the door inside the building, she can head down into the Craw Court.
-
----
-
-# 文档：Crust King Khann
-
-- 类别：enemies
-- 标识：crust king khann
-- 来源：wiki/Crust_King_Khann
-
-<b>Crust King Khann</b> is a mandatory boss  in Hollow Knight: Silksong. He's located in the Coral Tower in the Sands of Karak.
-
-In-game events
-
-Behaviour and Tactics
-
-Needolin dialogue
-
-Location
-
----
-
-# 文档：Grand Mother Silk
-
-- 类别：enemies
-- 标识：grand mother silk
-- 来源：wiki/Grand_Mother_Silk
-
-Grand Mother Silk is one of the main bosses in Hollow Knight: Silksong. She is the main antagonist of Hollow Knight: Silksong.
-
-Lore
-At first, Weavers were free from her for the first time, and some had even left Pharloom for other kingdoms, such as Hallownest. However, the Bugs of Pharloom, specifically those in the Whiteward, used the mother's Silk in order to increase their lifespan, which led to the Grand Mother being able to control these bugs at her will. She had hated what the Weavers had done to her, so she commanded the Bugs of Pharloom to venture out of their kingdom in order to find the Weavers, which had included Hornet despite also being part Wyrm.
-
-Weavers had also made Weavenests across Pharloom . They were outposts in which Weavers tested out experiments. The most notable Weavenest is Weavenest Atla, where Hornet encounters Eva. A being made purely of Silk, in an attempt to recreate a Higher Being who could challenge the Grand Mother Silk. However, Eva's form was too frail to exist outside her chamber.
-
-In-game events
-Behaviour and tactics
-Grand Mother Silk functions similarly to the Radiance, in that she does not deal contact damage and is also attacked at the head. Instead of teleporting like the Radiance, she swiftly moves around and launches sets of nails either vertically down or horizontally in the direction Hornet is in. She also has one of the few moves in the game that deals 3 masks of damage.
-
-Location
-Grand Mother Silk is located at the top of The Cradle.
-
-Gallery
-TBA
-
-Achievements
-TBA
-
-Trivia
-There was a scrapped ending in which Grand Mother Silk binds with Hornet, seemingly absorbing her part Wyrm lineage. This allows her to become an even stronger Pale being, and is shown having even more control over every being within Pharloom.
-If heading to Act III, the Void Tendrils that appear under her in the Snared Silk ending look familiar to the ones used against the Radiance in the Dream no More and Embrace the Void endings in Hollow Knight.
-
----
-
-# 文档：Gurr the Outcast
-
-- 类别：enemies
-- 标识：gurr the outcast
-- 来源：wiki/Gurr_the_Outcast
-
-<b>Gurr the Outcast</b> is an optional boss  in Hollow Knight: Silksong. He's located in a secret room in Far Fields
-
-In-game events
-After starting act 3, a new wish will appear on Bellhart's wish wall : "The hidden hunter", which requests you to track down Gurr. New traps are added in the way to him and the last tracking object is in reality a cage which will bring you down to his arena. The fight will start shortly after.
-Behaviour and Tactics
-
-<b>Trap Throw</b>: Gurr leaps into the air, either vertically or diagonally, and throws 2 Barbed Traps in succession that float midair in random locations throughout the arena. After a few moments, traps extend their spikes into a large circle, then disappear. If Hornet hits a trap, it expands immediately. After reaching 750 HP, Gurr always throws out 3 traps instead. When this attack is finished, Gurr can either land back on the floor or immediately dive beneath the ground.
-<b>Slide</b>:  Gurr hunches down and slides across the arena, only stopping when he reaches a wall. Upon reaching a wall, he can either perform another attack or immediately burrow down.
-<b>Floor Spikes</b>:  When Gurr is above ground, he makes a small jump up and dive downwards into the ground. The ground then rumbles as 3 sets of spikes shoot up in random positions across the ground, then retract after a short time. The positions of the spikes are telegraphed by small puffs of dust.
-<b>Trap Flurry</b>:  Once per fight at 400 HP, Gurr performs this attack; signalled by him shrieking while underground. After a moment, Gurr leaps out of the ground in the very centre of the arena and throws 5 Barbed Traps in succession around the room.
-<b>Leap</b>: Gurr makes large leaps around the arena to reposition for attacks.
-<b>Backroll</b>: If Hornet is too close to Gurr after an attack, he quickly rolls away a set distance.
-
-Needolin dialogue
-Gurr the Outcast does not respond to the Needolin during battle. The following dialogue can be found in the room to the left of the arena :
-<b>...The last...</b>
-<b>...The hunt...
-<b>...Pale...prey...
-<b>...Come to me...
-
-Location
-Gurr can be found in Far Fields after promising the wish "The hidden hunter".
-
----
-
-# 文档：Karmelita
-
-- 类别：enemies
-- 标识：karmelita
-- 来源：wiki/Karmelita
-
-<b>Skarrsinger Karmelita</b>, previously known as Hunter Queen Carmelita, is a boss in <i>Hollow Knight: Silksong</i>. She appears to be an ant queen, leading the Skarr.
-
-In the trailer, she is fought in an auditorium with many balconies filled with ants spectating her fight with Hornet. One move can be seen where she leaps over Hornet, lands, and creates spikes jabbing out of the ground from her point of landing. She also twirls her two held blades after landing.
-
-Due to her scene in the trailer; she matches the description of one of the bosses slated to be backer content, specifically the "operatic queen".
-
-<i>For Silksong, backer content is again seamlessly integrated into the main game. Get ready to dance with operatic queens, battle mysterious assassins, scale a soaring warlord’s tower, and that’s just to start!</i>
-
-For unknown reasons (most likely a typo) there are two spellings of Karmelita's name: Carmelita in the file name on the press kit and Carmelita on a blog post.
-
-Lore
-TBA
-
-In-game events
-Karmelita is one of the hearts needed for Act 3's completion. When Hornet finds her, she is still alive, though old and weak. After defeating her in her dream, she'll no longer move, presumably dead.
-
-Behaviour and Tactics
-Before facing Karmelita, one must face her minions: initially two Scarr Scouts and one Scarr Stalker—after two die a Spear Scarr appears and after one more dies a second Scarr Stalker appears. When all are dead, two Last Claws join the fight; they have three moves, a double slash, a downward drill, and a lateral dash that covers the entire arena.
-
-The Scarrsinger appears to wield two curvesickles in the battle. She will constantly spin them until she is about to attack; when she holds them still for a split second she is preparing to attack. When she bows, she will throw the sickles, one just above the ground and one higher to catch a jump. When she stops standing up she will either do a spinning attack or a triple slash. She may jump in the air and either throw her curvesickles in a sort of upwards parabola or land on the ground and summon ground spikes. In phase two (after the second scream) she will also gain the ability to dash off the wall summoning spikes behind her.
-
-Location
-After progressing to Act 3, one will find that the Deep Docks entrance to Hunter’s March is blocked off. Proceed from The Marrow through the Hunter’s March until you reach the bench. From there, go across the chasm to a statue where Gilly was previously encountered. Use the Silk Soar ability while standing in front of the statue to find a hidden passage, follow it into the Far Fields where you will eventually come across the Scarrsinger in her aged form. Play the Elegy of the Deep on the Needolin in front of her to access the fight.
-
-References
-
----
-
-# 文档：Lace
-
-- 类别：enemies
-- 标识：lace
-- 来源：wiki/Lace
-
-SS Infobox Boss
-|dlc = silksong
-|image1 = Lace.png
-|theme = Lace
-|location = Deep Docks, The Cradle, The Abyss
-|gender = Female
-|va = Mitsuki Hashimoto to be Hornet's first encounter with Lace during the game.
-
-Behaviour and Tactics
-In her first encounter and fight in the Deep Docks Lace uses the following attacks and manoeuvres:
-
-<b>Lunge</b>: Lace dashes forwards with her pin extended across the platform, covering roughly 50% of it.
-<b>Double Cut</b>: Lace slashes twice, making large arcs over her head with her pin. Each slash moves her forwards a slight distance.
-<b>Balestra</b>: Lace launches herself at an angle into the air and slashes a full circle around her body with her pin once she reaches the peak of the jump. She then dashes at an angle towards the ground with a jab, skidding a short bit after landing. While at the peak of her jump, Lace can change the direction of her jab depending on Hornet's position.
-<b>Parry & Riposte</b>: Lace holds her pin up, striking a defensive position and blocking any damage. She holds this position for about half a second, and if she is struck in that time, she retaliates with a small dash forwards chained into a quick flurry of strikes with her pin. If Hornet is caught in her flurry, she initially takes one Mask of damage and then is held in place by the blows until Lace slashes again with her pin; dealing an additional Mask of damage. If Hornet is not caught in this attack, Lace's flurry of strikes does not last as long.
-<b>Flourish</b>: During the end of an attack, Lace adds a small flair. Sometimes she fixes and straightens her stance with a small slash from her pin. Doing this deals damage to Hornet if she is caught in it, and deflects projectiles that are thrown at her. Other times Lace simply strikes a quick harmless bow or pose before continuing the fight.
-<b>Retreat</b>: Lace quickly glides back a short distance to reposition for another attack.
-<b>Advance</b>: Lace takes a short half-step forwards, accompanied by a very small flick of her Pin. She sometimes chains this move to traverse the arena and reposition.
-<b>Whirlwind</b>: Lace stands in place for a brief moment charging up, in this time a white circle is highlighted mid-air somewhere in the arena. After charging, Lace unleashes a flurry of 4 slashes within the highlighted region. At the end of her last slash, Lace slams down from that position, shaking the platform. This attack is only used when Lace reaches phase 2(marked by Lace staggering). If Hornet is caught in this attack Lace deals one Mask of damage, traps Hornet within the Whirlwind and then slams Hornet down onto the platform, dealing an additional Mask of damage.
-
-Location
-Lace's first encounter is within the Deep Docks.
-
-Trivia
-Lace's stance and her movements in her fight resemble that of a fencer's, reflecting her official description.
-Lace calls Hornet "little spider". This could be in reference to Hornet’s tendency to call the Knight "little ghost" in <i>Hollow Knight</i>.
-You can skip the fight with Lace in the Deep Docks by meeting her at the Blasted Steps or Sinner's Road before the fight in the Deep Docks.
-
-References
-
----
-
-# 文档：Last Judge
-
-- 类别：enemies
-- 标识：last judge
-- 来源：wiki/Last_Judge
-
-Last Judge is a boss in Hollow Knight: Silksong found in the Blasted Steps after reaching the Citadel Gate, and completing the Grand Gate quest, which requires finding and activating all five grand bells throughout Pharloom.
-
-Behavior
-Last Judge has 3 phases and 720 health.
-Phase 1:
-Spin - Last Judge spins her bell in a circle before shortly spinning it around herself for ~2 seconds.
-Toss - Last Judge tosses her bell forward in the air, before reeling it back in across the ground.
-Slam - Last Judge will jump above Hornet and slam her bell into the ground.
-Jump - Last Judge will jump over Hornet.
-
-Phase 2: +Fire
-Ignite - Upon entering phase 2, Last Judge will ignite her bell with fire.
-Fire Spin - During the flail attack,  choreographed rings of sparks will spawn throughout the arena before activating and lighting on fire.
-Fire Toss - After Last Judge throws her bell, it will shortly explode within a small radius before she reels it back in.
-Fire Slam - After Last Judge slams her bell onto the ground, the floor of the entire arena will shortly catch on fire.
-Fire Dash - After a short windup, Last Judge will charge toward Hornet, spawning pillars of fire around the arena.
-
-Phase 3: +Speed
-Long Spin - Upon entering phase 3, Last Judge will always perform an extended version of Fire Flail which lasts roughly 8 seconds before shortly stumbling to her knees.
-Fire Spin, Fire Toss, Fire Slam, and Fire Dash - Exact same as phase 2, but much much faster.
-
-Phase 4: Death
-Dying Wish - Upon dying smoke will emanate from the Last Judge's armour, and begin to release a gigantic cloud of sparks. After a few seconds these sparks will ignite and explode roughly 10 times. If you are caught in the blast and die, you will have to fight Last Judge again.
-
-References
-
-Lore
-The Last Judge is a long-lived bug tasked with letting only the worthy into the Citadel.
-The Last Judge's flail is a censer, which is a vessel used to burn incense and usually made out of metals like bronze or gold.
-
----
-
-# 文档：Lost Lace
-
-- 类别：enemies
-- 标识：lost lace
-- 来源：wiki/Lost_Lace
-
-Lost Lace is the secret final boss of Hollow Knight: Silksong. She is the Void-possessed form of Lace.
-Behaviour And Tactics
-First Phase
-Spinning jump up at 45 degree angle followed by either 2. or 3.
-Downward dive at 40-60 degree angle.
-Downward tentacle attack at 45 degree angle.
-Forward ground tentacle.
-Parry followed by either Ground Parry Attack or Aerial Parry Attack if hit while parry is up.
-Ground parry attack.
-Aerial parry attack from behind.
-2 slashes followed by a tentacle attack.
-3 slashes.
-2 dashes with void tentacles followed by either another dash+slash or 1. or 4.
-
-Second Phase
-Lost Lace will scream, and then this phase will start.
-
-3 tentacles from the ground.
-She jumps and throws 6 (3 to both sides from her) void blobs that on contact with ground will open into area damage.
-She summons 3 void shots with auto aim.
-Summons 1 tentacle from underneath Hornet
-
-Third Phase
-After entering this phase Grand Mother Silk will fall to the ground.
-
-Summons 1 big void bump from one side, which you can double jump above from another side, then summons another void bump going the other way.
-After getting her to ~5/6 of full hp or ~1/2 hp of the phase she will highlight 4 zones where she will attack followed by falling on the ground and summoning small tentacles near her.
-
-Location
-Lost Lace is found in The Abyss inside the cocoon created by Grand Mother Silk.
-
-Gallery
-Achievements
-Trivia
-
----
 
 # 文档：Moss Grub
 
@@ -2238,199 +1777,6 @@ Moss Grub is a common enemy found at the start of the game. It has a mask and lo
 
 ---
 
-# 文档：Moss Mother
-
-- 类别：enemies
-- 标识：moss mother
-- 来源：wiki/Moss_Mother
-
-<b>Moss Mother</b> is a boss in <i>Hollow Knight: Silksong,</i> being the first boss fought by Hornet. When entering her arena the room starts to rumble, then she explodes out of a plant-like cocoon in the middle of the arena and lets out a screech signalling the start of the fight.
-
-
-Behaviour and Tactics
-Moss Mother hovers and glides around the small arena. She always tries to return to the middle of the room to use the following attacks:
-
-<b>Swoop</b>: Moss Mother flies down in a small dive with her stinger pointed in Hornet's direction. When she reaches the floor she slides her body across roughly half of the arena. For this attack, it helps to down slash on her midway through the swoop.
-<b>Headbutt</b>: Moss Mother quickly swoops up and slams her head into the ceiling of the arena causing either 3 stalactites or 1-2 small spiny "moss worms" to fall from above. The position of falling objects are indicated by a small puff of dust that lasts half a second before the object falls. The objects may not all fall at once, but can be staggered; falling at different times.
-
-Location
-She is found in the Old Church, a sub-area of the Moss Grotto. Once moss mother is beaten, Hornet  unlocks passage to other areas.
-
-Trivia
-Moss Mother echoes the design of Gruz Mother in <i>Hollow Knight</i>. Both are the first boss to be encountered in their respective games while also being their species' matriarchs.
-Both are also fought in abandoned churches, which was what Gruz Mother's arena initially was described to be.
-She also has similarities to the Vengefly King, with her swooping attacks, summoning weak enemies related to her, and a double boss fight later on.
-
-References
-
----
-
-# 文档：Plasmified Zango
-
-- 类别：enemies
-- 标识：plasmified zango
-- 来源：wiki/Plasmified_Zango
-
-<b>Plasmified Zango</b> is an optional boss  in Hollow Knight: Silksong. He's located in the bottom left of the Wormways.
-
-Background
-Zango was Zylotol's assistant, helping him with his Plasmium researches. At one point, he planted 3 Plasmium seeds and died in a cavern, seemingly because of Plasmium.
-
-In-game events
-When going into the Wormays, the player can enter a cavern and stumble across Zango's body, covered in Plasmium, dead. After starting act 3, the Wormways become infested with Plasmium, with modified enemies. By going into the same cavern, Plasmified Zango will start the fight.
-
-Behaviour and Tactics
-<b>Heal</b>: Plasmified Zango will constantly regenrate health if he's not attacked.
-<b>Walk</b>: Zango will walk forward like a regular enemy, turning around only when he reaches the side of the arena.
-<b>Plasmium Blobs</b>: The boss will violently shake, causing Plasmium blobs to be ejected in all of the arena. The less health he has, the more blobs spawns.
-<b>Charge</b>: When reaching half of his life, Zango will replace his walk with a charge.
-
-Needolin dialogue
-Zango will not respond to the Needolin during it's fight . But using the Needolin by his corpse before Act 3 will trigger a Needolin memory :
-<b>To our dead lands... life... </b>
-<b>The buds must grow...
-<b>Only a little... Only a spark...
-<b>Too dark...
-
-Location
-Zango's corpse can be found in a cave at the bottom left of the Wormays. He can be fought in the same place after starting act 3.
-
----
-
-# 文档：Seth
-
-- 类别：enemies
-- 标识：seth
-- 来源：wiki/Seth
-
-<b>Shrine Guardian Seth</b> is an  NPC and boss in <i>Hollow Knight: Silksong</i> teased by Matthew "Leth" Griffin in the Hollow Knight Discord after members were able to solve a series of 2 riddles.
-
-He can be found in a secret area inside of the Grand Gate.
-
-<i>"The Voice… has chosen me."
-
-An eternal protector, waiting amidst tangled roots at the base of the Citadel. He guards a secret long forgotten and will attack any who stray too close.
-
-Imbued with stamina and strength beyond a normal bug, he strikes up close or from a distance with blinding speed. With unwavering devotion, this ancient guardian will fight until the very end, and beyond.
-
-Many of the Citadel’s caste have fallen to this deadly warrior. Those who encounter him should turn back, or else prepare for a vicious battle.</i>
-
-Development
-<i>The character was created by Seth Goldman, who was diagnosed with cancer and his only wish was to meet Team Cherry. He managed to meet them and they offered him to design a character, which is the Seth we know today. Goldman unfortunately didn't make it to see his character, but his memory lives on in the game.</i>
-
-Trivia
-Seth was first revealed by his creator Seth Goldman in a Reddit post mentioning his meeting with Team Cherry as well as his struggle with Ewing Sarcoma, a type of cancer.
-Seth is the last of a series of NPCs teased using riddles provided by Matthew "Leth" Griffin that lasted throughout June to July of 2020, the others being Huntress, Grindle, and Caravan.
-The riddles solved to reveal Seth required two passwords, the first one to open the initial file, the second to open the file within. The passwords were <i>protector</i> and <i>bloom</i>. The riddles and solutions are outlined below:
-
-<b>Riddle 1</b>
-"To find me, dream of a spider's web
-A site with a wondrous view
-I dwell among visions of dangerous foes
-Near colored lands berry and blue"
-<i>Answer: Go to Silksong's official website, look at the green and blue screenshots.</i>
-
-"The visions' arrangement, left, right and left
-Depicting an exciting story
-Among words they lie there frozen in time
-Anticipating tales of glory"
-<i>Answer:The screenshots are formatted left, right, left.</i>
-
-"To the west, green is nearly all I see
-Where dangers are raining down
-Among the ancient text here is hidden
-A pass-word that may be found"
-<i>Answer: "Hornet, princess-protector" is in the text next to the green screenshot.</i>
-
-"To remove the lock we need the key
-Ignoring the title we proceed finally
-Now count the number of visions you see
-And move through the text accordingly"
-<i>Answer: Ignore the title and pick the third word, "protector".</i>
-
-<i>Final result: Protector</i>
-
----
-
-<b>Riddle 2</b>
-"The Knight BEARS Them"
-<i>Answer: Charms</i>
-
-"Divine EATS X of Them"
-<i>Answer: Divine eats 3 Charms. X = 3.</i>
-
-"Salubra SELLS Y of Them"
-<i>Answer: Salubra sells 5 Charms. Y = 5.</i>
-
-"FIND the WORDS:
-AA  ----------- (Divine's Gift)"
-<i>Answer: AA = Unbreakable</i>
-
-"BB  ---------   (Baby Flukes)"
-<i>Answer: BB = Flukenest</i>
-
-"CC  ---------   (Joni's Blessing)"
-<i>Answer: CC = Lifeblood</i>
-
-"DD  ----------  (Weaverling Companionship)"
-<i>Answer: DD = Weaversong</i>
-
-"EE  ----- ------    (Conjured Shield)"
-<i>Answer: EE = Dreamshield</i>
-
-"FF  ---- -----  (Void Unifier)"
-<i>Answer: FF = Void Heart</i>
-
-"ARRANGE the WORDS to find the vertical KNIGHT."
-<i>Answer: Arrange the letters in each word to vertically spell out KNIGHT.</i>
-
-"TRANSLATE the WORDS to find the answer: -----
-DDFF +Y
-CCDD -X
-DDFF -X
-BB +X
-BB +X
-AABBCC -Y"
-<i>Answer: Move the words over by X or Y amount of spaces in the specified directions, for instance, move DD and FF up 5 for the first instruction.</i>
-
-AA: UNBREAKA<b>B</b>LE
-BB:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;F<b>L</b>UKENEST
-CC:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LIFEBL<b>O</b>OD
-DD:&nbsp;&nbsp;&nbsp;&nbsp;WEAVERS<b>O</b>NG
-EE:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DREA<b>M</b>SHIELD
-FF:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VOID HEART
-<i>Going straight down from "B" in UNBREAKABLE, it shows BLOOM.</i>
-
-<i>Final result: Bloom.</i>
-
-References
-
----
-
-# 文档：Sharpe
-
-- 类别：enemies
-- 标识：sharpe
-- 来源：wiki/Sharpe
-
-<b>Steel Assassin Sharpe</b> is an upcoming boss in <i>Hollow Knight: Silksong</i>, first revealed in a Kickstarter update on February 7, 2017, right before the release of <i>Hollow Knight</i>:
-
-<i>One Backer boss in particular has become a major rival character to Hornet, a mysterious Assassin Bug submitted by Jaspal Boodram. Jaspal’s assassin uses its proboscis as both a blade and a whip. We don’t want to spoil the surprises around this deadly foe, but expect several encounters throughout Hornet’s journey.</i>
-
----
-More information on Sharpe was revealed in a blog post on December 12, 2018:
-
-<i>Saying that, folks may remember this early tease for a deadly backer boss and Hornet rival.
-
-Who is this nefarious foe? We want to take this moment to properly introduce you to Steel Assassin Sharpe!
-
-Sharpe is a hunter from a distant land. He’s tasked with eliminating Hornet and he’s not come alone. Sharpe brings companions on his deadly quest. Who are they? And why are they pursuing Hornet? We’ll leave you to guess at their full nature. Just know, Hornet’s gonna be fighting for her life against this highly trained trio.
-
-Sharpe is a Kickstarter boss from Jaspal Boodram. Jaspal proposed an assassin bug with a whip-like nose and several other unique talents. And remember! All other backer bosses (and backer dungeons) will be landing alongside playable Hornet.</i>
-
-References
-
----
 
 # 文档：Skarr Scout
 
@@ -2442,151 +1788,6 @@ Skarr Scouts are enemies in Hollow Knight: Silksong.
 
 ---
 
-# 文档：Skarrgard
-
-- 类别：enemies
-- 标识：skarrgard
-- 来源：wiki/Skarrgard
-
-The Skarrgard is a mini-boss in Hollow Knight: Silksong.
-
----
-
-# 文档：Tormented Trobbio
-
-- 类别：enemies
-- 标识：tormented trobbio
-- 来源：wiki/Tormented_Trobbio
-
-<b>Tormented Trobbio</b> is an optional boss  in Hollow Knight: Silksong. He's located in The Stage in the Whispering Vaults.
-In-game events
-After starting act 3, the player must accept the "Pain, Anguish and Misery" wish, which invites them to return to The Stage, where Trobbio has previously been fought.
-Behaviour and Tactics
-
-Phase 1
-Fly: Tormented Trobbio uses his wings to fly across the arena.
-Floorboard Shuffle: Tormented  Trobbio descends into the floorboards to traverse to the opposite end of the arena.
-<b>Woeful Whirlwind</b>: Tormented Trobbio spins, creating a tornado that goes horizontally while leaving trails of explosion in its path. If the attack is used while Trobbio is in midair, the tornado slowly descends while still leacing the explosive trail.
-<b>Forlorn Fireworks</b>: Tormented Trobbio creates an plus or cross shaped explosion around him, and multiple expllosions happen across the arena shortly after.
-<b>Smoke Bombs</b>: Tormented Trobbio throws 3 smoke bombs that explodes either in a plus or cross shape. He can throw them either while being underground or on the arena.Phase 2
-When Tormented Trobbio takes enough damage, he gains a new attack :
-<b>Pyrotechnics</b>: Trobbio disappears underground, before 5 fire pillars shoot out from the ground from random locations and at staggered intervals. The pillars are telegraphed by a fizzle coming from under the floor where they appear. Trobbio is launched into the air from within the fifth fire pillar, then 2 more pillars shoots out.
-
-Needolin Dialogue
-Despite not being haunted, Tormented Trobbio willingly pauses mid-battle to sing as the Needolin is played.
-
-<b>Woe...Woe...</b>
-<b>Fell fated fallen!
-<b>Pain... Despair... Torment...
-<b>Alone against the dark...
-<b>Scorned to suffer...
-<b>Light's final gleam...
-
-Location
-Tormented Trobbio can be found in The Stage, in the Whispering Vaults after promising the "Pain, Anguish and Misery" wish.
-
----
-
-# 文档：Trobbio
-
-- 类别：enemies
-- 标识：trobbio
-- 来源：wiki/Trobbio
-
-SS Infobox NPC
-|dlc = silksong
-|area = Whispering Vaults
-|gender = Male
-|va = Matt Trobbiani which described him as the "Master of the Stage, the Brush and the Voice", and states he is seeking fame and adoration throughout Pharloom.
-
-In-game, Trobbio is found in The Stage as a boss encounter, a small area which is first accessible through the Whispering Vaults. It is recommended that when going up against him, you first set your respawn point in the Grand Bellway, as it provides an easy way to get back there for in case you die.
-
-Trobbio has 4 phases in his fight. After the second, his attacks become more rapid and he gains the ability to summon fireworks within the ground.
-
-Upon defeating him, Trobbio drops the Claw Mirror.
-
-He can be fought again in Act 3 after accepting a wish, becoming purple and having harder attacks. After being defeated, he descends via an elevator dramatically and drops an upgrade to the Claw Mirror. If you go further away and come back again, he peeks out of the floor, spots Hornet, and goes back down.
-
-The player can also take his feather and use it to update your map, but when he turns purple you can get it purple feather
-
-(I have an image of his location on the map, but Fandom won't let me edit any of the templates)Trivia
-Although he was revealed under the "New Bosses" title card in the announcement trailer, in the <i>Silksong</i> press kit, his art is labelled under the NPCs section.
-Trobbio is named after his voice actor, Hacknet creator Matt Trobbiani.
-After defeating Trobbio, leaving the room and reentering will show that he has gotten back up. Upon spotting the player, he will gasp before going back to pretending to be dead.
-If you do not buy the Quill from Shakra, after his battle the red quill can be obtained. If you have no variety of quill after his second battle, you can obtain a purple quill.
-
-References
-
----
-
-# 文档：Voltvyrm
-
-- 类别：enemies
-- 标识：voltvyrm
-- 来源：wiki/Voltvyrm
-
-<b>Voltvyrm</b> is an optional boss  in Hollow Knight: Silksong. It's located in the Voltnest
-
-In-game events
-By exploring the Sands of Karak, the player can enter a sub-area called the Voltnest. Eventually, they can encounter Voltvyrm in a room in the bottom left of the zone. Stepping into the room will cause the fight to start. When defeated, the player can claim the Volt filament on its corpse.
-
-Behaviour and Tactics
-
-<b>Electric Spark</b>: Voltvyrm will create pink circles that will expand and unleash electricity after a short time
-<b>Electric Pillars</b>: Pale pink pillars with glowing circles will appear. Electricity will then appear on the pillars after a short time.
-
-Needolin dialogue
-Voltvyrm does not respond to the Needolin.
-
-Location
-Voltvyrm can be found in Voltnest, at the top of the vertical central room.
-
----
-
-# 文档：Watcher at the Edge
-
-- 类别：enemies
-- 标识：watcher at the edge
-- 来源：wiki/Watcher_at_the_Edge
-
-Watcher at the Edge is an optional boss in Hollow Knight: Silksong. It can be found in secret location located in Sands of Karak. When defeated he drops the Grey Memento.
-
----
-
-# 文档：Widow
-
-- 类别：enemies
-- 标识：widow
-- 来源：wiki/Widow
-
-Widow is a boss in Hollow Knight: Silksong located in Bellhart. She is the responsible of the curse casted upon Bellhart that covers the whole zone with silk threads."Crazed fanatic able to guide Pharloom's haunted Silk by music played upon it. Her body seemed a Weaver's, but her mask had been forcibly removed, and her own Silk was bound useless by heavy pins lodged through her spine." Entry from the JournalPhase 1:
-
-Launches bells with either a straight or diagonal trajectory.
-Appears in the air then slashes downwards diagonally and slashes towards you dealing two masks of damage.
-Runs across the floor and after 3 seconds summons bells from the ground dealing two masks of damage.
-Summons bells in large area of screen dealing two masks of damage.
-Phase 2:
-
-once you beat her for the first time she comes back faster
-
-She Stops summoning Bells
-Her slash attacks starts on the floor
-The diagonal bells are summoned in groups of 2
-downward bells summoned in three's
-Strategy:
-
-Phase 1:
-Don't worry about the falling bells they only deal one mask of damage and are easy to predict
-When she scuttles in the air she is going to do her slash attack so wall climb or pogo when she lands
-
-Here is a video of Widow:
-
-Widow No Hit
-
----
-
-## EXPLORATION
-共 2 篇文档
 
 # 文档：Bench
 
@@ -2601,6 +1802,7 @@ Refill her current equipped Tool by using Shell Shards
 Equip tools
 
 ---
+
 
 # 文档：Quests
 
@@ -2740,6 +1942,7 @@ Beast Crest
 ## ITEMS
 共 1 篇文档
 
+
 # 文档：Crown Fragment
 
 - 类别：items
@@ -2752,6 +1955,7 @@ An item in Hollow Knight: Silksong, that is turned in via the Quest(Wish) table 
 
 ## POINTS_OF_INTEREST
 共 3 篇文档
+
 
 # 文档：Lore Tablets
 
@@ -2768,6 +1972,7 @@ width="10%" |Location
 Deep Docks
 
 ---
+
 
 # 文档：Rosaries
 
@@ -2830,6 +2035,7 @@ References
 
 ---
 
+
 # 文档：Shell Shards
 
 - 类别：points_of_interest
@@ -2848,4 +2054,5 @@ Destroying Shell Shard deposits
 Breaking down Shard Bundles
 
 ---
+
 

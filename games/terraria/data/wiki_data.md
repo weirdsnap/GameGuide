@@ -2,7 +2,7 @@
 
 自动采集自 Wiki
 采集时间：2026-07-10 15:46
-文档总数：1399
+文档总数：1622
 
 ---
 
@@ -4439,7 +4439,6 @@ The Lava Waders are one of the few pre-Hardmode accessories to have the  rarity.
 History
 
 ---
-
 ## AMMO
 共 78 篇文档
 
@@ -6977,7 +6976,6 @@ In the beta version of Terraria, Wooden Arrows could not be crafted. Instead, th
 }}
 
 ---
-
 ## ARMOR
 共 96 篇文档
 
@@ -10360,9 +10358,8 @@ It is the only armor set where one of its pieces has 0 defense (Wood Greaves).
 History
 
 ---
-
 ## BLOCKS
-共 144 篇文档
+共 137 篇文档
 
 # 文档：Blocks
 
@@ -11492,64 +11489,6 @@ History
 
 ---
 
-# 文档：Conveyor Belt
-
-- 类别：blocks
-- 标识：conveyor belt clockwise
-- 来源：wiki/Conveyor_Belt_(Clockwise)
-
-Conveyor Belts (Clockwise and Counter Clockwise) are Hardmode blocks purchased from the Steampunker for  each. They have the unique ability to automatically move players, dropped items, placed Golf Balls and town NPCs (but not enemies or critters) in their respective direction upon contact.
-
-Conveyor Belts will remain active from the moment they are placed. Although they do not require any Wire, they can be wired to reverse their direction (toggling between Clockwise and Counter Clockwise). Like most other blocks, they can be shaped into half-blocks and angled slopes using a hammer, allowing for diagonal movement.
-
-Notes
-Conveyor Belts move entities at approximately . This can only be calculated with a Stopwatch while walking into solid objects.
-Conveyor Belts can carry items through water and lava, provided the lava does not destroy the item. Conveyor Belts can also carry items unaffected by gravity (e.g. souls), but only if they happen to drop low enough to touch the belt.
-Enemies can spawn on Conveyor Belts. The game will use the first non-Conveyor block downwards in a 30 block range when determining what type of enemy to spawn.
-The underside of a Conveyor Belt will not move the player or items if the player has taken a Gravitation Potion or used a Gravity Globe.
-Slimes are not affected by Conveyer Belts.
-
-Tips
-Conveyor Belts can be used to push town NPCs into traps.
-Conveyor Belts can be used to create escalators and treadmills.
-Since Wire costs as much as Conveyor Belts, it is more cost efficient (though less time efficient) to purchase Conveyor Belts instead of Teleporters, which must be connected with Wire (however, large amounts of Wire can be harvested from naturally occurring traps for the cost of nothing more than a single Wire Cutter).
-A hoik could be preferable to Conveyor Belts in moving items or entities, as hoiks are faster and cheaper to use than conveyor belts. However, hoiks are more difficult to utilize as the player must know the correct techniques in building and using hoiks, as opposed to Conveyor Belts which are fundamentally easier to setup and understand. Hoiks can also only move entities in one direction at once without utilizing a more complicated setup, however the direction of conveyors can be easily toggled with Wire.
-One could combine Conveyor Belts with an arena setup and effectively farm events with a high  magic weapon. First, the player would have to have a large amount of Conveyor Belts, an upwards diagonal escalator wherever it is they decide to stand. Then create a Mana Star farm which can continuously produce Mana Stars (thereby voiding the use of the Mana Flower and the Mana Sickness debuff). The player will also receive Mana Stars from the enemies to constantly supply them with ample amounts of mana. Next, prepare a full Mage load out, with Menacing or Lucky for accessory modifiers, and ideally Nebula armor. The weapon of choice is the Last Prism with a Demonic modifier. If such an arena is needed prior to the Moon Lord, one may find success with the Spectre armor (damage variable) (or highest tier Magic damage set available), and a high , piercing, area-of-effect weapon, such as the Razorblade Typhoon or Nebula Arcanum.
-A skybridge made of Conveyor Belts can be used to automatically farm Fallen Stars. Due to the Conveyor Belt's slow speed, not all stars will reach the end of the Conveyor Belt in time to be collected (especially on larger worlds). A Conveyor Belt spanning an entire large world and ending at the world center should collect about 60% of stars that fall on a given night.
-
-History
-
----
-
-# 文档：Conveyor Belt
-
-- 类别：blocks
-- 标识：conveyor belt counter clockwise
-- 来源：wiki/Conveyor_Belt_(Counter_Clockwise)
-
-Conveyor Belts (Clockwise and Counter Clockwise) are Hardmode blocks purchased from the Steampunker for  each. They have the unique ability to automatically move players, dropped items, placed Golf Balls and town NPCs (but not enemies or critters) in their respective direction upon contact.
-
-Conveyor Belts will remain active from the moment they are placed. Although they do not require any Wire, they can be wired to reverse their direction (toggling between Clockwise and Counter Clockwise). Like most other blocks, they can be shaped into half-blocks and angled slopes using a hammer, allowing for diagonal movement.
-
-Notes
-Conveyor Belts move entities at approximately . This can only be calculated with a Stopwatch while walking into solid objects.
-Conveyor Belts can carry items through water and lava, provided the lava does not destroy the item. Conveyor Belts can also carry items unaffected by gravity (e.g. souls), but only if they happen to drop low enough to touch the belt.
-Enemies can spawn on Conveyor Belts. The game will use the first non-Conveyor block downwards in a 30 block range when determining what type of enemy to spawn.
-The underside of a Conveyor Belt will not move the player or items if the player has taken a Gravitation Potion or used a Gravity Globe.
-Slimes are not affected by Conveyer Belts.
-
-Tips
-Conveyor Belts can be used to push town NPCs into traps.
-Conveyor Belts can be used to create escalators and treadmills.
-Since Wire costs as much as Conveyor Belts, it is more cost efficient (though less time efficient) to purchase Conveyor Belts instead of Teleporters, which must be connected with Wire (however, large amounts of Wire can be harvested from naturally occurring traps for the cost of nothing more than a single Wire Cutter).
-A hoik could be preferable to Conveyor Belts in moving items or entities, as hoiks are faster and cheaper to use than conveyor belts. However, hoiks are more difficult to utilize as the player must know the correct techniques in building and using hoiks, as opposed to Conveyor Belts which are fundamentally easier to setup and understand. Hoiks can also only move entities in one direction at once without utilizing a more complicated setup, however the direction of conveyors can be easily toggled with Wire.
-One could combine Conveyor Belts with an arena setup and effectively farm events with a high  magic weapon. First, the player would have to have a large amount of Conveyor Belts, an upwards diagonal escalator wherever it is they decide to stand. Then create a Mana Star farm which can continuously produce Mana Stars (thereby voiding the use of the Mana Flower and the Mana Sickness debuff). The player will also receive Mana Stars from the enemies to constantly supply them with ample amounts of mana. Next, prepare a full Mage load out, with Menacing or Lucky for accessory modifiers, and ideally Nebula armor. The weapon of choice is the Last Prism with a Demonic modifier. If such an arena is needed prior to the Moon Lord, one may find success with the Spectre armor (damage variable) (or highest tier Magic damage set available), and a high , piercing, area-of-effect weapon, such as the Razorblade Typhoon or Nebula Arcanum.
-A skybridge made of Conveyor Belts can be used to automatically farm Fallen Stars. Due to the Conveyor Belt's slow speed, not all stars will reach the end of the Conveyor Belt in time to be collected (especially on larger worlds). A Conveyor Belt spanning an entire large world and ending at the world center should collect about 60% of stars that fall on a given night.
-
-History
-
----
-
 # 文档：Copper Plating
 
 - 类别：blocks
@@ -11584,29 +11523,6 @@ On , they have a chance to be awarded from the Angler.
 Crafting
 Recipes
 History
-
----
-
-# 文档：Crimsand Block
-
-- 类别：blocks
-- 标识：crimsand block
-- 来源：wiki/Crimsand_Block
-
-Sand Blocks are soil blocks found in vast quantities in Desert biomes and also forming the shore and bottom of Ocean biomes. Sand in these areas often extend far Underground, and can be found as microbiomes in patches in the Underground layer. Sand can spread and be converted by the evil biomes and The Hallow (see below).
-
-Sand is subject to gravity, a unique quality only shared by Slush, Silt, and . Sand Blocks will deal damage to any player or enemy they fall on. If the player is submerged in Sand blocks as a result, the Suffocation debuff will be inflicted until the player manages to escape. Sand is used to craft a small number of building blocks and other items directly, but it is also the raw material for Glass, which is used for a full furniture set and a variety of other items.
-
-Ebonsand, Crimsand, and Pearlsand are biome variants of Sand Blocks, corresponding to the Corruption, Crimson, and Hallow, respectively. They will replace regular Sand in their respective biomes, wherever they overlap with a Desert or Ocean biome. Like any other Corrupt, Crimson, or Hallowed block, after Hardmode begins, they will convert susceptible blocks (including regular Sand) that are up to three tiles away into their respective variants. These Sand variants are functionally identical to regular sand, but each variant can be used to craft a few biome-related items. They can be transformed back to normal Sand using Thrown Powder or Water, or the Clentaminator with Green Solution. Purification with the Clentaminator is not possible for falling Sand blocks.
-
-Any forms of Sand are ammunition for the Sandgun, but they cannot be stored in the ammo slots located next to the main inventory. Sand Blocks have an internal damage value of -1, reducing the Sandgun's effective damage by 1. The biome variants of Sand ammo also pierce enemies. Sand is similarly shot as Sand Ball projectiles by Antlions. Use of ammo-reduction buffs with the Sandgun allows easily "farming" sand; see Sandgun for details.
-
-Types
-colspan=2 | Item
-Placed
-Tile ID
-}
-show-blocks = yes
 
 ---
 
@@ -11844,29 +11760,6 @@ See also
 Dynasty Shingles
 
 History
-
----
-
-# 文档：Ebonsand Block
-
-- 类别：blocks
-- 标识：ebonsand block
-- 来源：wiki/Ebonsand_Block
-
-Sand Blocks are soil blocks found in vast quantities in Desert biomes and also forming the shore and bottom of Ocean biomes. Sand in these areas often extend far Underground, and can be found as microbiomes in patches in the Underground layer. Sand can spread and be converted by the evil biomes and The Hallow (see below).
-
-Sand is subject to gravity, a unique quality only shared by Slush, Silt, and . Sand Blocks will deal damage to any player or enemy they fall on. If the player is submerged in Sand blocks as a result, the Suffocation debuff will be inflicted until the player manages to escape. Sand is used to craft a small number of building blocks and other items directly, but it is also the raw material for Glass, which is used for a full furniture set and a variety of other items.
-
-Ebonsand, Crimsand, and Pearlsand are biome variants of Sand Blocks, corresponding to the Corruption, Crimson, and Hallow, respectively. They will replace regular Sand in their respective biomes, wherever they overlap with a Desert or Ocean biome. Like any other Corrupt, Crimson, or Hallowed block, after Hardmode begins, they will convert susceptible blocks (including regular Sand) that are up to three tiles away into their respective variants. These Sand variants are functionally identical to regular sand, but each variant can be used to craft a few biome-related items. They can be transformed back to normal Sand using Thrown Powder or Water, or the Clentaminator with Green Solution. Purification with the Clentaminator is not possible for falling Sand blocks.
-
-Any forms of Sand are ammunition for the Sandgun, but they cannot be stored in the ammo slots located next to the main inventory. Sand Blocks have an internal damage value of -1, reducing the Sandgun's effective damage by 1. The biome variants of Sand ammo also pierce enemies. Sand is similarly shot as Sand Ball projectiles by Antlions. Use of ammo-reduction buffs with the Sandgun allows easily "farming" sand; see Sandgun for details.
-
-Types
-colspan=2 | Item
-Placed
-Tile ID
-}
-show-blocks = yes
 
 ---
 
@@ -12731,29 +12624,6 @@ History
 
 ---
 
-# 文档：Pearlsand Block
-
-- 类别：blocks
-- 标识：pearlsand block
-- 来源：wiki/Pearlsand_Block
-
-Sand Blocks are soil blocks found in vast quantities in Desert biomes and also forming the shore and bottom of Ocean biomes. Sand in these areas often extend far Underground, and can be found as microbiomes in patches in the Underground layer. Sand can spread and be converted by the evil biomes and The Hallow (see below).
-
-Sand is subject to gravity, a unique quality only shared by Slush, Silt, and . Sand Blocks will deal damage to any player or enemy they fall on. If the player is submerged in Sand blocks as a result, the Suffocation debuff will be inflicted until the player manages to escape. Sand is used to craft a small number of building blocks and other items directly, but it is also the raw material for Glass, which is used for a full furniture set and a variety of other items.
-
-Ebonsand, Crimsand, and Pearlsand are biome variants of Sand Blocks, corresponding to the Corruption, Crimson, and Hallow, respectively. They will replace regular Sand in their respective biomes, wherever they overlap with a Desert or Ocean biome. Like any other Corrupt, Crimson, or Hallowed block, after Hardmode begins, they will convert susceptible blocks (including regular Sand) that are up to three tiles away into their respective variants. These Sand variants are functionally identical to regular sand, but each variant can be used to craft a few biome-related items. They can be transformed back to normal Sand using Thrown Powder or Water, or the Clentaminator with Green Solution. Purification with the Clentaminator is not possible for falling Sand blocks.
-
-Any forms of Sand are ammunition for the Sandgun, but they cannot be stored in the ammo slots located next to the main inventory. Sand Blocks have an internal damage value of -1, reducing the Sandgun's effective damage by 1. The biome variants of Sand ammo also pierce enemies. Sand is similarly shot as Sand Ball projectiles by Antlions. Use of ammo-reduction buffs with the Sandgun allows easily "farming" sand; see Sandgun for details.
-
-Types
-colspan=2 | Item
-Placed
-Tile ID
-}
-show-blocks = yes
-
----
-
 # 文档：Pearlsandstone Block
 
 - 类别：blocks
@@ -13198,52 +13068,6 @@ Rich Mahogany is the only wood without "wood" in its name.
 While both regular wood and rich mahogany possess a "living" variant, only regular wood has living furniture variants.
 
 History
-
----
-
-# 文档：Sand Block
-
-- 类别：blocks
-- 标识：sand block
-- 来源：wiki/Sand_Block
-
-Sand Blocks are soil blocks found in vast quantities in Desert biomes and also forming the shore and bottom of Ocean biomes. Sand in these areas often extend far Underground, and can be found as microbiomes in patches in the Underground layer. Sand can spread and be converted by the evil biomes and The Hallow (see below).
-
-Sand is subject to gravity, a unique quality only shared by Slush, Silt, and . Sand Blocks will deal damage to any player or enemy they fall on. If the player is submerged in Sand blocks as a result, the Suffocation debuff will be inflicted until the player manages to escape. Sand is used to craft a small number of building blocks and other items directly, but it is also the raw material for Glass, which is used for a full furniture set and a variety of other items.
-
-Ebonsand, Crimsand, and Pearlsand are biome variants of Sand Blocks, corresponding to the Corruption, Crimson, and Hallow, respectively. They will replace regular Sand in their respective biomes, wherever they overlap with a Desert or Ocean biome. Like any other Corrupt, Crimson, or Hallowed block, after Hardmode begins, they will convert susceptible blocks (including regular Sand) that are up to three tiles away into their respective variants. These Sand variants are functionally identical to regular sand, but each variant can be used to craft a few biome-related items. They can be transformed back to normal Sand using Thrown Powder or Water, or the Clentaminator with Green Solution. Purification with the Clentaminator is not possible for falling Sand blocks.
-
-Any forms of Sand are ammunition for the Sandgun, but they cannot be stored in the ammo slots located next to the main inventory. Sand Blocks have an internal damage value of -1, reducing the Sandgun's effective damage by 1. The biome variants of Sand ammo also pierce enemies. Sand is similarly shot as Sand Ball projectiles by Antlions. Use of ammo-reduction buffs with the Sandgun allows easily "farming" sand; see Sandgun for details.
-
-Types
-colspan=2 | Item
-Placed
-Tile ID
-}
-show-blocks = yes
-
----
-
-# 文档：Sand Blocks
-
-- 类别：blocks
-- 标识：sand blocks
-- 来源：wiki/Sand_Blocks
-
-Sand Blocks are soil blocks found in vast quantities in Desert biomes and also forming the shore and bottom of Ocean biomes. Sand in these areas often extend far Underground, and can be found as microbiomes in patches in the Underground layer. Sand can spread and be converted by the evil biomes and The Hallow (see below).
-
-Sand is subject to gravity, a unique quality only shared by Slush, Silt, and . Sand Blocks will deal damage to any player or enemy they fall on. If the player is submerged in Sand blocks as a result, the Suffocation debuff will be inflicted until the player manages to escape. Sand is used to craft a small number of building blocks and other items directly, but it is also the raw material for Glass, which is used for a full furniture set and a variety of other items.
-
-Ebonsand, Crimsand, and Pearlsand are biome variants of Sand Blocks, corresponding to the Corruption, Crimson, and Hallow, respectively. They will replace regular Sand in their respective biomes, wherever they overlap with a Desert or Ocean biome. Like any other Corrupt, Crimson, or Hallowed block, after Hardmode begins, they will convert susceptible blocks (including regular Sand) that are up to three tiles away into their respective variants. These Sand variants are functionally identical to regular sand, but each variant can be used to craft a few biome-related items. They can be transformed back to normal Sand using Thrown Powder or Water, or the Clentaminator with Green Solution. Purification with the Clentaminator is not possible for falling Sand blocks.
-
-Any forms of Sand are ammunition for the Sandgun, but they cannot be stored in the ammo slots located next to the main inventory. Sand Blocks have an internal damage value of -1, reducing the Sandgun's effective damage by 1. The biome variants of Sand ammo also pierce enemies. Sand is similarly shot as Sand Ball projectiles by Antlions. Use of ammo-reduction buffs with the Sandgun allows easily "farming" sand; see Sandgun for details.
-
-Types
-colspan=2 | Item
-Placed
-Tile ID
-}
-show-blocks = yes
 
 ---
 
@@ -14186,7 +14010,6 @@ Wood armor sets are of the few that can be crafted at a Work Bench, along with .
 History
 
 ---
-
 ## BOSSES
 共 37 篇文档
 
@@ -16299,9 +16122,8 @@ History
 References
 
 ---
-
 ## CONSUMABLES
-共 149 篇文档
+共 133 篇文档
 
 # 文档：Abeemination
 
@@ -16348,47 +16170,6 @@ Acorns need 21 height for the smart cursor planting to work, if there's any kind
 
 Crafting
 Used in
-History
-
----
-
-# 文档：Active Stone Block
-
-- 类别：consumables
-- 标识：active stone block
-- 来源：wiki/Active_Stone_Block
-
-Active Stone Blocks and Inactive Stone Blocks are blocks that act as mechanisms. A given pair behave as a single block whose presence can be switched "on" or "off" using wire and a trigger.
-
-When triggered, an Active Stone Block becomes an Inactive Stone Block, and vice versa. Wires must pass through all Active/Inactive Stone Blocks that are to be triggered, and the wires must connect to a trigger, such as a pressure plate, Switch, or timer. These blocks are useful for creating traps, floodgates, hidden passages, drawbridges (e.g. over water, lava, or empty space), skybridges, and much more.
-
-An Active Stone Block is a foreground object. This means it looks and behaves as an ordinary Stone Block, inhibits movement, allows entities to stand or walk on it, blocks light, and can stop liquids.
-An Inactive Stone Block is a background object. While still visible, it looks like darker Stone Block, and behaves like furniture. It is essentially empty space, allowing the passage of players, items, liquids, light, etc.
-
-Both the Active and Inactive versions can be crafted. Players will usually want to craft the Active version, as the Inactive blocks cannot be placed next to each other without the support of other adjacent foreground blocks. Active blocks do not have this shortcoming, and switching them to Inactive afterwards using wires will still have the same outcome.
-
-Placing Active Stone Blocks, switching them to Inactive with wiring, then mining them and picking them up again, will yield Inactive blocks, and vice versa.
-
-Active/Inactive Stone Blocks occur naturally in Boulder traps found in the Cavern layer, where Active blocks that are wired to pressure plates suspend a Boulder in the ceiling. An enemy or player walking on the plate cause the Active blocks to turn Inactive, allowing the Boulder to fall through and damage any player below it.
-
-Crafting
-Recipes
-Notes
-This behavior can be generalized to all blocks via an Actuator. It allows turning any block inactive via wiring.
-While Active and Inactive Stone Blocks are obtainable from the beginning of the game, Actuators require defeating Skeletron to gain access to the Mechanic.
-Furniture placed on Active blocks that are turned Inactive will be freed and fall as dropped items. Blocks placed adjacent to them will remain in midair, the same as if the other blocks had been mined away.
-Inactive Stone Blocks can be mined with a pickaxe or drill as normal. Furthermore, they will be freed by explosions.
-
-Tips
-When in a Hardmode biome, it can be easy to spot these naturally generated Active Stone Blocks if the surrounding blocks are in Corruption, Crimson or Hallow because, unlike regular stone blocks, they cannot be corrupted.
-Even without the Mechanic (required to obtain wiring tools), this item still has use if harvested from naturally-occurring Boulder traps underground. The player can select this item in the hotbar to see a layout of all wires on screen, which is useful for detecting and avoiding natural traps. This feature is shared with Traps and Pressure Plates.
-A vertical strip of three Active Stone Blocks wired to a nearby Switch or Lever serves as a good alternative to doors that only players can open. NPCs will not be able to use them to stray outside, and no enemy can ever open them. Note that this will not fulfill a house's entrance requirement, so at least one actual door will still be required in order for an NPC to move in (though the door need not lead "outside", and can merely open into another room of a larger structure). Using Blue Pressure Plates on either side causes the "door" to turn inactive for a moment, then return to active the very instant the player reaches the other side. As Blue Pressure Plates are only triggered by players, this can also keep Zombies and such out during a Blood Moon.
-It is also possible to make an airlock-type double door system using 3 Active Stone Blocks and 3 Inactive Stone Blocks (or 6 of one or the other and activating only one side inactive/active) while still only allowing access for players only. This is useful for underground housing to keep underground enemies out.
-To conserve storage space, consider switching all Inactive Stone Blocks to Active Stone Blocks, or vice versa. This can easily save an inventory or storage slot by combining the stacks.
-
-See also
-Guide:Wiring
-
 History
 
 ---
@@ -16593,21 +16374,6 @@ History
 
 ---
 
-# 文档：Aetherium Block
-
-- 类别：consumables
-- 标识：aetherium block
-- 来源：wiki/Aetherium_Block
-
-Aetherium Blocks are blocks formed when Shimmer comes into contact with any other liquid besides itself. Similarly to Ice Blocks, Aetherium Blocks have low friction, causing a player walking over them to slide when stopping or changing directions. This effect can be mitigated by equipping Ice Skates or other accessories crafted from them.
-
-Crafting
-Recipes
-Used in
-History
-
----
-
 # 文档：Aetherium Brick
 
 - 类别：consumables
@@ -16710,32 +16476,6 @@ The Alchemy Table combined with harvesting plants with the Staff of Regrowth can
 Trivia
 The Alchemy Table's sprite appears to depict a Lesser Restoration Potion.
 
-History
-
----
-
-# 文档：Ale
-
-- 类别：consumables
-- 标识：ale
-- 来源：wiki/Ale
-
-Ale is a potion which gives the player the Tipsy debuff, increasing melee damage, but lowering the player's defense, for 2 minutes. It can be crafted at a Keg or purchased from the  for  each.
-
-The Tipsy debuff has the following effects:
-
-The  uses Ale as ammunition.
-
-Crafting
-Recipes
-Used in
-Tips
-Ale sells for  and only requires Mugs, which in turn only require 1 Glass, which is crafted from only 2 Sand each. Each unit of 2 Sand is therefore worth  if used to craft Ale. Crafting Ale can ultimately be the most profitable means of selling off Sand without incorporating other ingredients.
-Since Tipsy is a debuff, it will be removed by the Nurse. Repeatedly consuming Ale and healing at the Nurse can be a fast way to gain the The Frequent Flyer achievement.
-Drinking ale or Saké increases fishing power by 5.
-
-See also
-Sake
 History
 
 ---
@@ -16849,105 +16589,6 @@ Trivia
 Both the potion and buff icon resemble the High Velocity Bullet.
 
 History
-
----
-
-# 文档：Ammunition items
-
-- 类别：consumables
-- 标识：ammunition items
-- 来源：wiki/Ammunition_items
-
-Ammunition items are consumable items fired by ranged weapons. To fire a weapon that requires ammunition, a compatible ammunition type must be present in the player's inventory. The ammunition will be taken from the first stack of suitable ammunition, checked in the following order: The four dedicated ammo slots of the inventory from top to bottom, then the main inventory from the top row (hotbar) to the bottom row, going from left to right within each row.
-
-Each type of ammunition adds its damage, velocity, and knockback to the base value of the weapon that fires it. Damage bonuses also apply to the damage of bullets and arrows. Some weapons, armor, accessories, and buffs offer a chance for each shot to "conserve" ammo, firing a shot as usual without consuming the ammunition. If multiple such items and/or buffs are active, their respective chances to conserve ammo are combined.
-
-Bullets
-Bullets are fired from guns.
-
-Arrows
-Arrows are fired from bows and repeaters.
-
-Rockets
-Rockets are fired from launchers.
-
-Darts
-Darts are fired from the Blowpipe, Blowgun, , and . The Blowpipe and Blowgun can additionally fire Seeds.
-
-Other types
-Ammo ID !! Ammo Type !! Shroomite armor Bonus Type !! Ammo Varieties !! Weapons that use this ammo
-15 ||  || None || Fallen Star || Star Cannon, Super Star Shooter
-23 ||  || None || Gel || Flamethrower, Elf Melter
-42 ||  || None || Sand Block, Ebonsand Block, Pearlsand Block, Crimsand Block || Sandgun
-51 ||  || None || Seed, Poison Dart, , ,  || Blowpipe, Blowgun, ,
-71 ||  || None || Copper Coin, Silver Coin, Gold Coin, Platinum Coin || Coin Gun
-154 ||  || None || Bone ||
-246 ||  || Rocket || Stynger Bolt || Stynger
-311 ||  || Bullet || Candy Corn || Candy Corn Rifle
-312 ||  || Rocket || Explosive Jack 'O Lantern || Jack 'O Lantern Launcher
-323 ||  || Arrow || Stake || Stake Launcher
-353 ||  || None|| Ale ||
-931 ||  || None || Flare, Blue Flare || Flare Gun
-949 ||  || None || Snowball || Snowball Cannon, Snowball Launcher
-3108 ||  || Rocket ||  ||
-
-Ammo used by tools
-Solutions
-Fired from the Clentaminator and Terraformer. Spreads or removes biomes.
-
-Bait
-Used by a Fishing Pole to catch Fish.
-
-Wire
-Wire is used to connect mechanisms to triggers and can be placed and removed using various tools. Placed wire will assume the color of the Wrench used, but will always appear as  when dropped or placed in inventory or ammo slots. See Wire for more information, and a complete list of available tools.
-
-width="180" |Placed Wire colors !! width="250" | Placed with
-|| The Red Wrench places red wire.
-|| The Green Wrench places green wire.
-|| The Blue Wrench places blue wire.
-|| The Yellow Wrench places yellow wire.
-|| The Multicolor Wrench and  places and removes any color wire.
-
-Ammo conservation
-By default, every item of ammo fired will be consumed, i.e. removed from the player's inventory. There are certain items, however, that add a chance to prevent consuming the item, effectively conserving ammo occasionally. Note that you can't have an ammo conservation chance of more than 99.99%. The following items have a chance not to consume ammo:
-
-+ Weapons
-Item !! Chance
-||
-||
-||
-||
-||
-||
-||
-||
-||
-||   /
-+ Other items
-Item !! Chance
-||
-||
-||
-||
-
-Ways of getting to max
-The easiest (or the way that does not heavily depend on the weapon you are using) way to get to the ammo conservation cap is using the Ammo Box, Ammo Reservation Potion, Chlorophyte Helmet, Shroomite Breastplate, and any bow/gun/rocket launcher that has a ammo conservation chance, since none of them are below 20%.
-
-Ammo conservation effects are treated as , calculated with the following formula:
-
-math|Ammunition_items_math_1|<esc>p_{total} = p_1 + p_2 - p_1 \times p_2</esc>
-
-For example, using a Minishark (math|Ammunition_items_math_2|<esc>p_1 = \frac{1}{3}</esc>|inline=y) with an Ammo Box (math|Ammunition_items_math_3|<esc>p_2 = \frac{1}{5}</esc>|inline=y) results in a total chance of math|Ammunition_items_math_4|<esc>p_{total} = \frac{7}{15}</esc>|inline=y ( not to consume ammo):
-
-math|Ammunition_items_math_5|<esc>p_{total} = \frac{1}{3} + \frac{1}{5} - \frac{1}{3} \times \frac{1}{5} = \frac{7}{15}</esc>
-
-The highest conservation possible is attainable by using a Phantasm with a Magic Quiver, an Ammo Box, an Ammo Reservation Potion, a Vortex Breastplate and a Chlorophyte Helmet. It amounts to , which means that, on average, only  out of 1000 arrows will be consumed.
-
-Tips
-Using armor that conserves ammo will also conserve the solutions (ammo) for the Clentaminator when worn.
-The following ammo items do not automatically get placed into the ammo slots. If the player is running low on inventory space and still has ammo slots open, these items can be placed there to conserve space.
-
-References
 
 ---
 
@@ -17294,29 +16935,6 @@ show-other = yes
 
 ---
 
-# 文档：Angler armor
-
-- 类别：consumables
-- 标识：angler armor
-- 来源：wiki/Angler_armor
-
-Angler armor is an armor set consisting of an Angler Hat, Angler Vest, and Angler Pants. Each piece of the set provides a 5% increase to Fishing Power and can be received as a reward for completing Fishing quests given by the Angler NPC. The hat is given at 10 quests completed, the vest piece at 15, and the pants at 20. Although its effects on fishing are useful throughout the game, it only rewards a total of 4 defense.
-
-Wearing the full set decreases enemy spawn rate.
-
-Set
-Tips
-As the low defense of this armor can put Hardmode players at a disadvantage, it is recommended to take measures when fishing (e.g. a box of blocks with a floor of platforms, Peace Candles, Traps, Minions) in order to prevent enemies from getting too close and/or quickly killing the player.
-Fishing near NPCs also help as enemy spawn rates drastically decrease when near a town.
-
-See also
-Angler Earring
-Fishing Pole
-
-History
-
----
-
 # 文档：Angler Earring
 
 - 类别：consumables
@@ -17519,22 +17137,6 @@ Notes
 The Anti-Gravity Hook is useful to exploit the AI of flying bosses with dash abilities, such as Mothron or an enraged Duke Fishron. Spinning in circles may allow the player to dodge attacks effortlessly.
 Smooth walls can be climbed extremely quickly with the Anti-Gravity Hook by pressing the  key quickly and holding the  key while the mouse is in the top and slightly to the right of the middle of the screen.
 
-History
-
----
-
-# 文档：Anti-Portal Block
-
-- 类别：consumables
-- 标识：anti-portal block
-- 来源：wiki/Anti-Portal_Block
-
-The Anti-Portal Block is a Hardmode block that prevents portals made from the Portal Gun to form. This can be useful for map makers who want to make some places inaccessible by portals. They are purchased from the Traveling Merchant for  each.
-
-Trivia
-The sprite of the Anti-Portal Block is a reference to the 2007 puzzle-platform video game , where the darker-colored tiles disallow portal placing.
-
-See also
 History
 
 ---
@@ -18046,22 +17648,6 @@ References
 
 ---
 
-# 文档：Ash Block
-
-- 类别：consumables
-- 标识：ash block
-- 来源：wiki/Ash_Block
-
-The Ash Block is a block that covers the upper and lower sections of The Underworld, and can occasionally encase Hellstone. It can be used for building and for growing Fireblossom.
-
-Since it is easy to find, comes in great quantity, and is not corruptible, it is a useful material for creating barriers to stop the spread of Corruption, Crimson, and the Hallow when in Hardmode.
-
-Crafting
-Used in
-History
-
----
-
 # 文档：Ash Grass Seeds
 
 - 类别：consumables
@@ -18069,24 +17655,6 @@ History
 - 来源：wiki/Ash_Grass_Seeds
 
 Ash Grass Seeds are seeds used to plant Ash grass. They are purchased from the Dryad for  each, when she is talked to in the Underworld. They can also be gathered by clearing Ash grass foliage in the Underworld. The ash grass seed can only be used on ash blocks.
-
-History
-
----
-
-# 文档：Ash Wood
-
-- 类别：consumables
-- 标识：ash wood
-- 来源：wiki/Ash_Wood
-
-Ash Wood is a type of wood released in the 1.4.4 update. It is obtained from cutting down Ash Trees in The Underworld.
-
-Crafting
-Recipes
-Used in
-Tips
-One of the best ways to obtain Ash Wood is by using the Remix Seed or Everything Seed where Ash trees are abundant at the spawn location.
 
 History
 
@@ -18103,40 +17671,6 @@ Ash Wood Wall is a type of wall made from Ash Wood.
 Crafting
 Recipes
 Used in
-History
-
----
-
-# 文档：Asphalt Block
-
-- 类别：consumables
-- 标识：asphalt block
-- 来源：wiki/Asphalt_Block
-
-Asphalt Blocks are unique hardmode blocks, craftable after at least one mechanical boss has been defeated, that dramatically increase the speed of players running along them, along with reducing the time it takes to stop running. Their acceleration stacks with other speed-boosting items such as the Hermes Boots and its derivative accessories. It only affects players running directly on it – the speed of Enemies, NPCs and Critters will remain unaffected. Immediately after jumping or falling off of Asphalt Blocks, the speed will return to normal.
-
-With no other boosts, running on asphalt has a max speed of 53 mph, with about 3 seconds of acceleration, while the normal maximum running speed is 15 mph or 18 mph .
-
-Crafting
-Recipes
-Notes
-While using Lightning Boots (only 70 mph or 57 mph  on Asphalt) and the buff from Panic Necklace along with Asphalt, the player can reach extreme speeds (a maximum of 85 mph or 111 mph ), even outrunning projectiles such as the Rainbow Rod and the ranged component of the Terra Blade, and many bosses, even including a charging Spazmatism. One could build a skybridge with a five second timer Dart Trap at the start, in order to continuously reapply the buff as they run, but it may be easier to occasionally replace a block of asphalt with a spike from the dungeon.
-Even without any other speed boosts, one could easily outrun a Biome Mimic even when it dashes toward the player through blocks, because the Mimic's dash toward the player only has a speed of 51 mph, while the player running on asphalt goes 2 mph faster.
-Running through a Teleporter will not slow you down.
-Although Asphalt Blocks greatly increase the player's speed, they do not increase acceleration like Frostspark Boots on Ice Blocks do.
-The maximum speed of Mounts remains unaffected by Asphalt Blocks.
-Instead, they reduce the braking time of a mounted player.
-
-Tips
-This is a useful block type for building Skybridges, especially for the late-night collection of Fallen Stars, and is also good for Arenas, particularly where quick movement may be necessary (Skeletron Prime during its 'spin' attack, The Twins, Empress of Light, Duke Fishron, or Moon Lord).
-This block only needs to be placed every other tile (with an empty tile between each) to achieve full speed. This means you can cover a particular distance at half the cost with the same effect.
-On , Asphalt with Lightning Boots is slightly slower than a Skybridge made of rails with Minecarts except for the default wooden minecart and the digging molecart, which are slower than asphalt. However, by using a Panic Necklace and directing traps at yourself, minecarts can become almost obsolete as a form of transportation.
-By using a maximum of 3 slime statues with a one second timer and positioning yourself with the leaf crystal from the Chlorophyte armor set bonus to be level with the statues, you can effectively afk to gather all of the gel you need, as it will take almost 9000 to cover a large world. Note that a Cobalt Shield or its upgrades should be used to negate possible knockback, ruining the setup. Similarly, flying minions should be utilized to take care of enemies other than the slimes. The gathering station could be constructed over the ocean to minimize interactions with wraiths or similar enemies. Also note that due to random events, afk-ing in Terraria is never fool-proof.
-
-See also
-Frozen Slime Block
-Honey Block, which has the opposite effect of the Asphalt Block, decreasing movement speed.
-
 History
 
 ---
@@ -18406,27 +17940,6 @@ References
 
 ---
 
-# 文档：Bamboo
-
-- 类别：consumables
-- 标识：bamboo
-- 来源：wiki/Bamboo
-
-Bamboo is a placeable block that naturally generates in the Jungle biome and grows on Jungle grass submerged in shallow water (at least 2 and at most 5 tiles deep). Like most plants, Bamboo will not grow in front of a wall (including Glass Walls and Fences). Bamboo can also be found in Jungle and Bramble Crates. It can be mined with any pickaxe or drill, and can be used to craft Bamboo-themed furniture, blocks, and walls.
-
-Crafting
-Recipes
-Used in
-Notes
-Unlike most other plants, Bamboo tends to grow in very long intervals, sometimes taking up to two in-game days to fully grow to its maximum height.
-Though it may appear that growing Bamboo is harvestable using an axe, it actually requires a pickaxe or drill.
-Bamboo can be grown outside the Jungle biome by planting Jungle grass under an appropriate amount of water.
-
-History
-References
-
----
-
 # 文档：Bamboo Wall
 
 - 类别：consumables
@@ -18508,59 +18021,6 @@ The Gravity Banner seems to resemble the Gravitation Potion's buff icon.
 The War Table Banner is the only one with 2×3 dimension instead of 1×3.
 
 History
-
----
-
-# 文档：Banners
-
-- 类别：consumables
-- 标识：banners enemy
-- 来源：wiki/Banners_(enemy)
-
-Enemy banners are functional furniture items that can be placed on the underside of blocks. They are dropped by most enemies and a few critters.
-
-On the , when placed, enemy banners provide a buff to any players standing within a  centered on the banner. The buff grants players +50%/ damage inflicted with all damage to the corresponding enemy and −25%/ damage taken from attacks by the enemy. On the , the banner of Old One's Army enemies will apply a weaker banner buff to the respective enemy, granting the players +10%/ damage inflicted and −5%/ damage taken.
-
-Multiple banners of the same type will not grant stacked buffs. Multiple different banner types in the vicinity will however all take effect, and consolidate into a single buff icon.
-
-On the , an enemy banner automatically appears in the player's inventory upon reaching certain kill count (50 by default) of that enemy in a particular world. If the player's inventory is full, the banner will be dropped to the ground at the player's location instead. Additionally, a status message saying "" appears, with n being the respective multiple of 50 by default.
-On the , not all enemy banners require 50 kills to obtain. See below for a list of these banners.
-On the , any enemy banner has a  chance of dropping from its corresponding enemy.
-Banners dropped by enemies from the Old One's Army are purely decorative and do not grant a buff. The number of kills required to get a banner from this event depends on the enemy's frequency: common enemies need a higher number of kills.
-There are a total of  enemy banners:  pre-Hardmode,  Hardmode, and  unobtainable. Out of these,  belong to event enemies ( pre-Hardmode and  Hardmode) and  to -exclusive enemy variants ( pre-Hardmode and  Hardmode).
-
-Slimes
-Environments
-Surface
-Cavern
-Granite Cave
-Marble Cave
-Spider Cave
-Glowing Mushroom biome
-Snow biome
-Jungle
-Desert
-Underworld
-Dungeon
-Corruption
-Crimson
-Hallow
-Meteorite
-Events
-Rain/Blizzard
-Blood Moon
-Goblin Army
-Halloween
-Pirate Invasion
-Solar Eclipse
-Frost Legion
-Pumpkin Moon
-Frost Moon
-variants
-Banners with non-default kill count
-colspan=2 | Banner
-Kill count
-}
 
 ---
 
@@ -18886,29 +18346,6 @@ show-other = yes
 
 ---
 
-# 文档：Bee armor
-
-- 类别：consumables
-- 标识：bee armor
-- 来源：wiki/Bee_armor
-
-Bee armor is an armor set which offers minion boosts. It is one of 3 minion-boosting armors available prior to Hardmode.
-
-A full set of Bee armor provides the following benefits:
-+13 defense
-+23% minion damage
-+2 minion slots
-
-Crafting a full set requires a total of 30 Bee Wax. Bee Wax is always dropped by Queen Bee in stacks of 16-29; crafting the entire set therefore requires defeating Queen Bee twice.
-
-Set
-Crafting
-Recipes
-Achievements
-History
-
----
-
 # 文档：Bee Hive
 
 - 类别：consumables
@@ -18974,64 +18411,6 @@ Equipping the  will cause around half of the spawned bees to deal about 8% more 
 
 Trivia
 Beenade is a portmanteau of bee and grenade.
-
-History
-
----
-
-# 文档：Beetle armor
-
-- 类别：consumables
-- 标识：beetle armor
-- 来源：wiki/Beetle_armor
-
-Beetle Armor is a Hardmode, post-Golem armor set that provides melee and defensive bonuses. Though it is crafted from Turtle armor, it trades away the Thorns effect in exchange for stronger offensive or defensive bonuses (depending on which chest piece is worn). It is the final melee armor set available on the . On the , it is the penultimate melee only armor set followed by Solar Flare armor.
-
-Beetle armor has two variants for its chest piece; Beetle Scale Mail and Beetle Shell. The Beetle Scale Mail enhances damage output and is slightly more agile, whereas the Beetle Shell provides more defense.
-
-Beetle armor provides the following bonuses when fully equipped:
-
-With
-+8% melee critical hit chance
-+14% melee damage
-+12% melee speed
-+12% movement speed
-Significantly higher chance that enemies will target the wearer
-Beetle Might offensive buff: increases melee speed and damage by increments of 10% when dealing melee damage to enemies. The boost can be raised up to 30%, and the rate at which it increases depends on total damage dealt per second. Dealing less than roughly 180 damage per second will not grant Beetle Might at all. The buff depletes at an accelerating rate as long as the wearer does not deal damage, meaning that the buff will reset very quickly outside of combat.
-
-With
-+5% melee critical hit chance
-+11% melee damage
-+6% melee speed
-+6% movement speed
-Significantly higher chance that enemies will target the wearer
-Beetle Endurance defensive buff: When the player avoids taking damage, this buff reduces damage taken on the next hit by 15%, with further boosts to 30% and 45% if the player continues to avoid damage for a longer duration. The buff gets first applied after 3 seconds from taking damage, and will then increase after another 3 seconds. When the player takes damage thereafter, each hit lowers the boost applied to the next hit by one step. This buff features a visual effect showing one to three "beetles" flying around the player, signifying the 15%, 30%, or 45% damage reduction boost currently in effect.
-
-Crafting the full set with one chest piece requires 18 Beetle Husks and a full set of Turtle armor (54 Chlorophyte Bars (or 324 pieces of Chlorophyte Ore), and 3 Turtle Shells). Crafting all four pieces from scratch requires 26 Beetle Husks, 78 Chlorophyte Bars (or 468 pieces of Chlorophyte Ore), and 4 Turtle Shells.
-
-Set
-Chest variants
-Crafting
-Recipes
-Notes
-The Beetle Shell armor has the worst damage boosts out of all hardmode melee armors.
-When upgrading to Beetle Armor from Turtle Armor, the stats and defense increase greatly, but the thorns effect is lost. Keep this in mind when preparing for activities requiring a thorns effect.
-While the Beetle Shell is equipped without any items occupying the social slot, Wings will not appear unless the player is in mid-air, similar to the Turtle Armor, Leaf Blower, and Heat Ray.
-The Endurance Potion stacks with the Beetle Endurance buff.
-
-Beetle armor at its 45% state, Worm Scarf (17%) and Endurance Potion (10%) will reduce damage by nearly 60%.
-
-Frozen Turtle Shell (25%) will further increase it to almost 74%.
-
-Tips
-If the player changes their mind, the chest piece can be shimmered and crafted into the alternative.
-It is possible to reach a defense of over 100 without buffs by wearing the full set with the Shell, a Frozen Shield or a Hero's Shield, and all accessories reforged to Warding. However, bear in mind that even the highest possible defense cannot efficiently defend against enemies alone.
-
-Trivia
-With the full Beetle Endurance buff and a Lifeforce Potion (600 HP) and/or Endurance Potion, it is possible to survive a hit from the Dungeon Guardian.
-Beetle Armor is the only armor set to have multiple chest piece variants as opposed to helmet variants.
-provides more defense than either of the chest variants. However, the Beetle Shell provides 45% max damage reduction as opposed to the Solar Flare shield's maximum 30% reduction, and regenerates shields 2 seconds faster.
-Excluding the Gi, the Beetle Shell and Beetle Scale mail is the only chest plate to provide a Movement speed buff.
 
 History
 
@@ -20405,21 +19784,6 @@ History
 
 ---
 
-# 文档：Blue Starry Block
-
-- 类别：consumables
-- 标识：blue starry block
-- 来源：wiki/Blue_Starry_Block
-
-The Blue Starry Block is an animated decorative block type which shows twinkling blue stars on a black background. It is the blue-themed variant of the Gold Starry Block.
-
-Crafting
-Recipes
-Used in
-History
-
----
-
 # 文档：Blue Starry Wall
 
 - 类别：consumables
@@ -20638,44 +20002,8 @@ History
 
 ---
 
-# 文档：Bone Arrow
-
-- 类别：consumables
-- 标识：bone arrow
-- 来源：wiki/Bone_Arrow
-
-The Bone Arrow is an arrow type purchased from the Skeleton Merchant for  each, during moon phases 1 (full), 2, 5 (new), and 6. On the , Bone Arrows can pierce one enemy. On the , they have a  chance of being recoverable after use.
-
-Trivia
-The Bone Arrow may be a reference to , a substance in bones.
-The name of this item may be a play on the phrase "Bow and arrow".
-
-History
-
----
-
-# 文档：Bone Block
-
-- 类别：consumables
-- 标识：bone block
-- 来源：wiki/Bone_Block
-
-Bone Blocks are blocks that are placed by the Bone Wand at the cost of 1 Bone per block.
-
-In , mining them will drop Bones. There is no way to obtain the block as an item as of 1.4.
-
-In , mining them will drop the Bone Block as an item. There is no way to convert them back into regular Bones. The block item cannot be used to craft Bone Block Walls or Bone furniture, which are instead made from raw Bones themselves, at a Bone Welder.
-
-Trivia
-On the , despite them being unobtainable in worlds and characters created in 1.4 or later, creating a world in 1.3.5 or earlier, collecting some bone blocks and then saving them in either the player's inventory or a storage device, it is possible to import them over to 1.4. However, despite them being researchable in Journey Mode, they can only be brought to those worlds with third-party programs. If a player does this, bone blocks can be freely duplicated in Journey Mode, however this is largely pointless aside from collectability, as bones and the Bone Wand can both be duplicated.
-The Bone Block item appears to be a skull while the center block in a 3x3 square (as shown above) could possibly be bone marrow, which is what real life bones are made of.
-
-History
-
----
-
 ## ENEMIES
-共 150 篇文档
+共 144 篇文档
 
 # 文档：Enemies
 
@@ -21249,43 +20577,6 @@ The Butcher is a reference to the character  from the 1974 American horror film 
 
 References
 History
-
----
-
-# 文档：Celestial Pillars
-
-- 类别：enemies
-- 标识：celestial pillars
-- 来源：wiki/Celestial_Pillars
-
-The Celestial Pillars (also known as the Lunar Pillars, Lunar Towers, or Celestial Towers) are four bosses that appear during the Lunar Events, when the Lunatic Cultist has been defeated. They appear at four locations equally spaced across the map (see pillar spawning mechanics below), and are completely stationary, apart from slowly bobbing up and down in place. Each pillar takes control of the map in a circular area around it with a radius of 250 tiles, or 500 feet. When the player is in that affected area, the background will change to a pillar-specific one, and only pillar-specific enemies will spawn, in large numbers.
-
-The four Celestial Pillars are the Solar Pillar, the Vortex Pillar, the Nebula Pillar and the Stardust Pillar. Judging by the gear craftable from the fragments that they drop when defeated, they represent the four damage types in Terraria: Solar for melee, Vortex for ranged, Nebula for magic, and Stardust for summon.
-
-Initially, the Celestial Pillars have a large force field around them, which prevents them from taking any damage. In order to remove the force field, the player needs to defeat 100 (50 if Moon Lord has been defeated) enemies that correspond to that particular pillar. After doing that, the force field will lower and the pillar can be damaged. Enemies will continue to spawn until the pillar is defeated. If the player exits the world without destroying a pillar, all damage done to it will be reset, and the kill count needed to remove the shield will also reset. However, player deaths will not reset them. When destroyed, the Celestial Pillars each drop between 12–60 /  Lunar Fragments of their type.
-
-The Pillars themselves are fairly easy to defeat, having only  HP each and having weak attacks (none in the case of the Nebula Pillar). The direct threat comes from the minions they spawn; they can deal high amounts of damage, can inflict debuffs, and easily swarm the player if not dealt with quickly.
-
-There is no set order in which the Celestial Pillars must be defeated. The following status messages will appear from whichever pillars are taken down first, second, third, and fourth:
-
-First pillar defeated: ""
-Second pillar defeated: ""
-Third pillar defeated: ""
-Fourth pillar defeated: ""
-
-After defeating all four Celestial Pillars, the screen will start to vibrate, and the music volume will lower before eventually going completely silent. One minute after the pillars' defeat, the Moon Lord will spawn.
-
-Solar Pillar
-The Solar Pillar is the melee-themed pillar, with minions that bear strong defensive abilities and deal heavy contact damage. When nearby, the world is tinted orange, and the background will display a massive orange planet with a shower of falling meteors. It drops Solar Fragments when defeated.
-
-The Solar Pillar will continuously spew fireballs that deal high contact damage.
-
-It is widely considered to be the most difficult of the four, due to the Crawltipede forcing the player to stay grounded, leaving them vulnerable to the variety of other ground enemies that the pillar spawns.
-
-colspan=2 | Enemy
-Spawn chance
-show-luminite = yes
-show-boss = yes
 
 ---
 
@@ -22523,74 +21814,6 @@ History
 
 ---
 
-# 文档：Golem
-
-- 类别：enemies
-- 标识：golem
-- 来源：wiki/Golem
-
-Golem is a Hardmode, post-Plantera boss found in the Jungle Temple and is by far one of the easiest bosses in the game relative to game progression.
-
-Summoning
-Golem is summoned by using the Lihzahrd Power Cell  on the Lihzahrd Altar, located in the final Jungle Temple chamber, while at least one Lihzahrd Power Cell is in the player's inventory. A Lihzahrd Power Cell is contained within each of the Jungle Temple's Lihzahrd Chests, and can be dropped rarely by Lihzahrds or Flying Snakes ( chance). Golem spawns directly above the Altar. Plantera must have already been defeated at least once in the current world in order for Golem to spawn successfully. Otherwise, nothing will happen and the power cell will not be consumed. Because of this, to fight Golem in a brand new world, the player is required to kill Plantera, the three mechanical bosses, and the Wall of Flesh at least once.
-
-Behavior
-While Golem's main body can not normally pass through blocks, its fists, lasers, and head (when detached in the second phase) can. On the , if the body's path to the player is blocked, it will leap on the player, allowing it to pass through all barriers (similar to the behavior of a biome mimic).
-
-First form
-Golem shoots ricocheting fireballs, attacks with its unstoppable fists that extend from chains, and jumps around. These increase in frequency as each part takes more damage. Golem's fists can travel through blocks, but have limited range. In addition, his fists will also glow when they are about to extend—they will extend 0.5 seconds after glowing. Golem jumps around more often when a fist is destroyed. This compounds when both fists are destroyed.
-
-When the head falls below half health ( /  / ), all previous attacks continue, but the eyes will begin to fire eye lasers that can travel through blocks. It fires more rapidly as it takes more damage. Golem's head turns, which indicates who it is targeting.
-
-Second form
-When Golem's stone head has taken full damage, it detaches itself and becomes invincible, capable of passing through blocks. Its body ( health) then becomes the target. If the fists have not been destroyed, they will continue to attack the player more rapidly while the body continues to jump around. The head follows same attack pattern as before and will increase in frequency when the body is damaged. The only way to defeat Golem at this point is to completely destroy his body, which will also destroy his head, ending the fight.
-
-Enraged behavior
-On the , Golem becomes "enraged" if it has to follow the player outside of the Underground Jungle, either through being lead or awoken outside of it. This causes Golem to jump around faster and, if its head is below half health, it will fire his lasers faster. However, it does not have increased damage or defense. Golem will return to its normal behavior when returned to the Underground Jungle.
-
-Unlike Plantera, Golem's enraged behavior is not noticeable until reaching the end of its first form, when it begins jumping around and firing lasers at a faster rate. Furthermore, the difference between his enraged and normal behavior will not be noticeable to most without deliberately switching between the two.
-
-Parts
-First form
-Second form
-Health in Multiplayer
-Aftermath
-Once Golem is defeated:
-Cultists spawn at the Dungeon's entrance which when killed, summons the Lunatic Cultist and then the Lunar Events (as long as certain other conditions are also met – see details).
-For this to happen, Skeletron must have been defeated at least once - the Old Man spawning will override the Cultists' spawning.
-Likewise, Moon Lord can be summoned directly via the Celestial Sigil.
-Martian Probes begin spawning randomly, which can trigger the Martian Madness event.
-Summoning the Old One's Army after Golem has been defeated triggers the most difficult "Tier 3" version of the event enabling you to fight Betsy.
-The Steampunker will begin to sell the Steampunk Wings.
-The Party Girl will begin to sell the Celebration. ().
-
-Notes
-Like most bosses, Golem will despawn if the player travels too far away, including traveling back through the Lihzahrd Temple.
-Golem's map icon maps its head, not its core, so when the head flies off, the map icon follows it.
-Golem's fist attack will only fire at the player when they are in the middle or to the same side as the fist. A fist will not cross Golem to strike a player, even if the other fist has been destroyed. However, if the player is above or below Golem using Wings, grappling hooks, Platforms, etc., both arms will fire at the player.
-If the head chases a player too far away, the body despawns and the head will explode. In this case, no drops will be obtained and the game does not register Golem's defeat, forcing a second fight to progress the game.
-are able to freeze Golem's body parts if they connect. This includes the invincible head.
-Unlike most bosses, Golem is affected by the low gravity in the Space biome. As a result, its jump attack will rise much higher (often off the top of the screen) and take longer to land.
-
-Tips
-In some cases, the terrain surrounding the altar will cause Golem to get stuck when it spawns. It can attack with its fists and projectiles but will be unable to jump around. Players can also recreate this condition by placing blocks near the altar.
-It is possible to actuate Lihzahrd Bricks. By actuating the blocks below the Lihzahrd Altar, it can be picked up and placed in a different, possibly more suitable arena. This is only possible after Plantera has been defeated.
-On the , blocks under the altar cannot be actuated.
-
-In Get Fixed Boi seed world, one may consider using Living Fire Blocks to light up the boss room since they will not be destroyed unlike Torches.
-An alternative would be to cover the whole room wall in White Paint and Illuminant Coating which won't be affected by the darkness.
-
-Achievement
-Trivia
-A  is a being from Jewish folklore, a living being created from mud or clay and through rituals in order to defend townspeople from attacks. The theme persists in stories and video games today.
-In Golem's first form, as his health gets lower, his head appears looser, bouncing on its own when Golem jumps.
-Despite the sprite update in 1.4.0.1, the achievement icon was not updated.
-
-History
-References
-
----
-
 # 文档：Granite Golem
 
 - 类别：enemies
@@ -23007,52 +22230,6 @@ show-boss = yes
 
 ---
 
-# 文档：Lepus
-
-- 类别：enemies
-- 标识：lepus
-- 来源：wiki/Lepus
-
-Lepus is a pre-Hardmode boss that can be summoned anywhere and at any time of day with the Suspicious Looking Egg, which is dropped by Lepus itself, Corrupt Bunnies and Diseaster Bunnies during the Easter season. His body is round with two back legs, a diabolical face & two protruding bunny ears.
-
-:
-:
-
-Behavior
-Lepus hops towards the player for most of the battle, occasionally pausing to launch a Lepus Egg and then leaping at the player.
-
-Lepus lays two types of Lepus Eggs: small ones that hatch Diseaster Bunnies, and bigger ones that hatch another weaker Lepus. These eggs can be damaged and destroyed by the player before hatching. A maximum of five Lepus can be spawned from the large eggs laid by the original Lepus, and after there are five, no more large eggs will be laid. Each Lepus will drop items, but only the last one will drop the Egg Cannon or Boots of Ostara. If Lepus is defeated while an unhatched large egg is still present, it will spawn around 3–6 Diseaster Bunnies instead of a new Lepus.
-
-Summons
-Notes
-Defeating Lepus will fulfill the requirement for the Dryad NPC to spawn.
-Lepus rarely drops Souls of Might, one of the only two Hardmode crafting ingredients obtainable pre-Hardmode, the other being the Crystal Shard, dropped by Arch Demons.
-Lepus has the second most health out of all the pre-Hardmode bosses, more than the health of the Wall of Flesh and less than Turkor the Ungrateful.
-Lepus will always spawn towards the center of the map. If the player is to the right of the center, Lepus will spawn on the left and vice versa.
-The large number of Diseaster Bunnies spawned by Lepus, combined with the fact that he drops his summon item when he dies, makes Lepus a very viable method for getting Biome Key Molds.
-Lepus can be a renewable source of coins once the player gets late Pre-Hardmode gear, since he will always drop his Suspicious Looking Egg.
-
-Tips
-Adding a thin layer of lava can easily kill the eggs that Lepus lays.
-Lepus can be trapped easily, since it cannot fit through small gaps, however the smaller Diseaster Bunnies can still reach the player.
-Trapping Lepus in a deep enough pit and firing downward can also be effective.
-Lepus can easily overwhelm beginners by spawning more, weaker versions of himself, so destroying the Lepus Eggs should be a priority.
-Like most seasonal content, Lepus can be fought by changing the device's date to a day in April, when Easter is set to occur. Not all devices will allow the date to be changed, however.
-It is possible to farm coins by creating a pit with traps (preferably Lihzahrd) and jumping in with the traps disabled. The player can then grab the coins and grapple out (with no fear due to all the dropped hearts).
-Lepus can be attacked while the player takes low to no damage by making a tall staircase mostly because Lepus has such a large and odd AI causing him to slide down stairs at the end of a leap, however Diseaster Bunnies can use stairs correctly.
-When in Hardmode, summoning Lepus in different biomes can be used to farm their rare Biome Key Molds, but the player must be careful to let small eggs hatch and not to kill the Lepus itself.
-
-Trivia
-Lepus has an unused animation: instead of standing before making an egg, it would close its eyes and fold its ears, then open its eyes and mouth, and lift its ears up.
-The word "Lepus" means "hare" in Latin, and is used today as the name of the  that hares and jackrabbits belong to. Rabbits, known alternatively as "bunnies" and associated with Easter, are not actually members of Lepus.
-Lepus and Turkor the Ungrateful are the only bosses who do not drop trophies.
-Lepus used to drop Greater Healing Potions even before Hardmode was added until it was patched in 1.2. This made it by far the easiest way to obtain large amounts of Greater Healing Potions.
-Maps on the  versions do not show boss icons. This makes Lepus one of the three bosses that do not have a boss icon, the other two being , and .
-
-History
-
----
-
 # 文档：Lihzahrd
 
 - 类别：enemies
@@ -23076,98 +22253,6 @@ image = Lihzahrd (crawler).png
 life = /
 }
 show-hardmode = yes
-
----
-
-# 文档：Lunatic Cultist
-
-- 类别：enemies
-- 标识：lunatic cultist
-- 来源：wiki/Lunatic_Cultist
-
-The Lunatic Cultist is a Hardmode, post-Golem boss summoned by killing the Cultists that spawn at the Dungeon's entrance after Golem is defeated. Defeating the Lunatic Cultist initiates the Lunar Events.
-
-After all four Celestial Pillars have been destroyed, The Moon Lord will spawn and the Cultists will respawn at the Dungeon entrance, allowing the player to fight the Lunatic Cultist and initiate the Lunar Events again.
-
-Unlike most bosses, the Lunatic Cultist does not drop any weapons; however, it does drop the Ancient Manipulator, a placeable item that is used to craft many endgame items.
-
-Behavior
-The Lunatic Cultist makes its first brief appearance at the Mysterious Tablet as soon as the Cultists are defeated. It is not vulnerable to attack at this time. It then warps to just above where the player was when the teleport started, and cycles between three attacks:
-
-A burst of three  (four in Expert Mode) that lightly home in on the player, exploding on impact
-A ball of  that fires ice shards in six directions four times over as it flies in one direction before slowly fading away
-A  that fires five bolts of lightning at the character
-
-When the Lunatic Cultist reaches half health, it will occasionally replace an attack with two spreads of five destructible  projectiles.
-
-In Expert Mode after reaching half health, it may also replace an attack with numerous  that fire four purple  projectiles in a cross pattern.
-
-The Lunatic Cultist cycles through five attacks (six when below half health) before proceeding to spawn phantom duplicates of itself called Ancient Cultists, along with a larger version of the Mysterious Tablet via a "ritual". Unless the one true Lunatic Cultist is interrupted by an attack from a player during this ritual, the duplicates fly in formation and add their homing  attacks.
-
-Attacking a duplicate or taking too long hitting the real cultist results in the summoning of the Wyvern-like . If there is already a Phantasm Dragon inbound, attacking a duplicate triggers an , which will charge the player diagonally. Duplicates can be eliminated by hitting the true Lunatic Cultist during the ritual, but if not, large quantities of duplicates can amass.
-
-Health in Multiplayer
-Notes
-The Lunatic Cultist locks on to every player, so if one player uses a Magic Mirror or any other return to spawn it will despawn.
-If the player loses against the Lunatic Cultist, the Lunatic Devotees and Cultist Archers at the Dungeon will respawn after one in-game day passes.
-The Cultists will not spawn if Skeletron has not yet been defeated in the current world, since the Old Man takes spawn priority over the Cultists, except on the mobile version, where the cultists take spawn priority unless the old man is killed by lava or traps.
-The Lunatic Cultist will take 25% less damage from all homing weapons, which are the following projectiles:
-Chlorophyte Bullets, Possessed Hatchet, Flower Pow's flail (petals are unaffected), Snowman Cannon using Rockets I, II, III and IV, Slime Staff, Spider Staff, Scourge of the Corruptor's Tiny Eaters (Main Javelin unaffected), Bat Scepter, Piranha Gun, Chlorophyte Armor's Set Bonus, Magnet Sphere, Spectre Staff, Raven Staff, The Horseman's Blade Flaming Jacks, Tempest Staff, Imp Staff, Hornet Staff, Queen Spider Staff's Baby Spiders, Optic Staff, Flairon Bubbles, Razorblade Typhoon, Influx Waver's projectiles, Medusa Head, Seedler's projectiles and Crystal Darts.
-It can only have 6 decoys active at the same time.
-By using a Magic Mirror, Recall Potion, etc., the player can teleport away from the Lunatic Cultist and it will despawn.
-If the player teleports away before the Lunatic Cultist's spawning animation finishes, the tablet will finish its animation while the Lunatic Cultist despawns.
-The Lunatic Cultist will always spawn at the Dungeon entrance's original location, regardless of modifications (similar to the four Cultists), meaning that if the four Cultists are teleported or otherwise moved away, and then killed there, the Lunatic Cultist will instantly despawn if the dungeon entrance is out of range.
-Removing the floor at the entrance to the dungeon (where the Old Man spawns for Skeletron summon) will prevent the cultists from spawning.
-The Lunatic Cultist won't spawn if the evil of the world has not yet been defeated (Eater of Worlds or Brain of Cthulu)
-
-Achievement
-Tips
-Avoid defeating the Lunatic Cultist if you are not yet ready for the Lunar Events. Beating the Lunatic Cultist causes the Lunar Events to begin immediately, and there is no way to de-summon them thereafter (aside from defeating them).
-The real Lunatic Cultist can be distinguished from its fakes in a number of ways:
-The real Cultist is the only one with a health meter.
-The real Cultist has narrow slit-like eyes, while the clones' eyes are holes.
-The real Lunatic Cultist has a line on its hood while the fakes do not.
-Most minions and homing weapons will only attack the real Cultist.
-This is not true as of version 1.4.0.1. Homing bullets act like regular bullets and minions will not target the cultist or its decoys, although minions that deal contact damage may accidentally damage them. Interestingly, Flaming Jack projectiles from The Horseman's Blade and the Spectre Mask's damaging orbs will still target the real Cultist.
-The real Cultist does not emit light, while the decoys do; however, this may only be apparent if fought at night.
-Using a Hunter Potion will only highlight the real Cultist.
-In normal mode, the decoy Cultists are named "Ancient Cultist" instead of "Lunatic Cultist". In Expert mode, however, the decoys will also be named "Lunatic Cultist".
-Using Autopause grants as much time as needed for identifying the real Cultist.
-Attacking a decoy Cultist is not a bad idea if the player uses the Vampire Knives. The resulting Phantasm Dragon is very long and may be easily targeted to restore some life.
-Many of the Lunatic Cultist's attacks can be blocked by hiding behind solid blocks. A weapon that attacks through blocks or a yoyo can be used to continue dealing damage.
-There is little reason to farm the Lunatic Cultist itself, as its only non-vanity drops are healing potions and the Ancient Manipulator, which you only need one of and does not sell for any money. However, defeating it is the only way to access the Lunar Events and the various fragments.
-The mobile targeting system resets every time the Lunatic Cultist switches to another attack.
-The Lunatic Cultist can spawn decoys above the map, forcing the player to take a gamble and most likely pick the wrong cultist. Try to stay away from the top of the world during the fight so this doesn't happen.
-If the player is standing completely still, the Lunatic Cultist will always spawn the real Cultist at the top of the ritual.
-However if there are any active decoys, they will spawn like normal.
-Please confirm this.
-
-Trivia
-The Lunatic Cultist's attacks appear to be based on the four Celestial Pillars from the Lunar Events.
-It is a common belief that the Cultists' design was inspired by Crowno's set. However, according to Crowno, the Lunatic Cultist was designed first.
-The boss' appearance resembles a , which was an outfit worn by plague doctors in the 13th century intended to protect them from airborne diseases.
-It is the smallest boss and the only one without an awakening message.
-The Lunatic Cultist's mask, trophy, and achievement refer to it as Ancient Cultist rather than Lunatic Cultist, still using an early development name. Several other enemy drops from 1.3 also retained their early development names until later patches.
-In addition to this, an unimplemented achievement refers to it as the Insane Cultist, while the implemented achievement refers to him as the Ancient Cultist.
-The Lunatic Cultist has an Expert Mode Treasure Bag in the game files for Terraria, but it is currently unobtainable as it does not actually drop it.
-This is the only boss to use music specifically titled after another boss, Golem, and the only boss whose music starts before the boss itself spawns, making it easier to obtain the music box.
-The term  is nowadays usually used as an informal synonym for insane, mentally ill, etc. The word itself, however, originated from the fact that diseases were historically thought to have been caused by the moon, tying in with the moon-themed events following this boss.
-The Lunatic Cultist, Brain of Cthulhu, Moon Lord, King Slime, Queen Slime, and, in Expert Mode, Duke Fishron are the only bosses that can teleport.
-The head icon displayed on the map is also shown for the Ancient Cultists.
-When the Lunatic Cultist first spawns, glowing particles start flowing to it from the Mysterious Tablet and it makes a noise that sounds like a heavily edited voice clip. It is randomly chosen from the following:    .
-After this, it makes a  and tilts up its mask and shakes, to appear as if it is laughing at the player.
-Oddly, when the Lunatic Cultist is killed, the status message "" appears before "", hinting that the summoning ritual might have finished before the Lunatic Cultist died.
-However, this is not the case on the .
-When the Lunatic Cultist despawns after a player has teleported away from it, it plays its dying animation.
-Wearing the Lunatic Cultist Mask and the Lunar Cultist Robe causes the player to look very similar to the Lunatic Cultist, however, the boss is still taller than the player, and is therefore distinguishable.
-When defeated with Blood and Gore enabled, the Lunatic Cultist's head has round eyes, possibly indicating that it spawned a decoy to die in its place. Nonetheless, it can be respawned just like any other boss. This may be explain why the achievement for defeating the Lunatic Cultist refers to it as the ancient cultist, due to the duplicates used in one of the boss's attacks being called an Ancient Cultist.
-The Lunatic Cultist is one of the few bosses in which all of its attacks, other than melee, do not increase linearly in Master Mode.
-It is the only non-event boss not to have an Expert Mode-exclusive drop.
-The Lunatic Cultist has the most types of "servants" out of all the bosses, totaling at four.
-When the Lunatic Cultist teleports and begins another attack he says something that sounds like "You shall know no more", implying that the ritual was something the player was not meant to see.
-
-History
-References
 
 ---
 
@@ -23822,28 +22907,6 @@ History
 
 ---
 
-# 文档：Plantera
-
-- 类别：enemies
-- 标识：plantera
-- 来源：wiki/Plantera
-
-Plantera is a Hardmode boss that can be fought in the Underground Jungle after all three mechanical bosses (The Destroyer, Skeletron Prime, and The Twins) have been defeated. Plantera drops a Temple Key upon defeat, allowing access to the Jungle Temple. She appears as a living dragonflower bulb with vines that she can grab onto, once half health her appearance changes to a carnivorous state with thorn-like fangs and a split-tongue, she will also have tentacles known as "chompers" sprouting out from her body.
-
-Summoning
-After all three mechanical bosses have been defeated, Plantera's Bulbs will randomly spawn in the Underground Jungle (indicated by the status message ""). Instead of spawning instantly after defeating the mechanical bosses, they grow similar to Chlorophyte Ore. Destroying one of these bulbs will immediately cause Plantera to spawn, usually a fair distance off-screen. The bulbs can be broken in various ways including: with a pickaxe or drill, with Dynamite, with lava, or if the Jungle grass underneath them is removed, e.g. via biome spread, actuating the blocks, or the Clentaminator.
-
-Behavior
-Plantera moves through blocks slowly, using long vines to grapple foreground blocks, similar to multi-hooks. In the second phase Plantera also grabs background walls. The ends of her vines, , are invincible and deal contact damage.
-
-First form
-Plantera creeps after the player, deals damage on contact, and fires the projectiles listed in the following table at them. She generally keeps her distance from the player, focusing on her ranged attacks.
-
-colspan=2 | Projectile !! Damage
-show-boss = yes
-
----
-
 # 文档：Possessed Armor
 
 - 类别：enemies
@@ -24441,44 +23504,6 @@ References
 
 ---
 
-# 文档：Turkor the Ungrateful
-
-- 类别：enemies
-- 标识：turkor the ungrateful
-- 来源：wiki/Turkor_the_Ungrateful
-
-Turkor the Ungrateful is a pre-Hardmode boss which can be summoned only during the Thanksgiving season (November 1–30). It can be summoned if you buy the Turkey feather from the Merchant for 10 gold and using a Cursed stuffing dropped from Harpy's with a 25% chance before killing turkor and a 10% chance after killing turkor. body appears to be a cooked turkey on a plate, and his head is attached by a long, flexible spine. The head must be destroyed first, otherwise the body will have high enough defense to render most pre-Hardmode weapons useless. Once the head is destroyed, the body's defense lowers for 25 seconds, after which more heads grow.
-
-Summoning
-To summon Turkor the Ungrateful, the player must first summon the Pet Turkey with the Turkey feather, then use the Cursed stuffing. The summoning will despawn the Pet Turkey and will consume the Turkey feather if it is in the player's inventory (it can be stored in a Chest to avoid consumption). Turkor the Ungrateful can only be summoned during the Thanksgiving season. If one attempts to summon him outside of the thanksgiving season, the stuffing and feather will be consumed, but the boss will not be summoned.
-
-Parts
-Behavior
-Turkor's body will deal high contact damage, but cannot move.
-Turkor's heads will float around the player, passing through tiles. They will occasionally quickly lunge towards the player, making a clucking sound before doing so. When all of the heads are defeated, the body's defense will drop, making it more vulnerable to attack for 25 seconds.
-One to three heads will be summoned, depending on the body's damage. If the body is damaged enough while heads are still alive, these extra heads will appear instantly.
-Turkor will be defeated once the body and all remaining heads are taken out. If the body is defeated while heads are still alive, the heads will become unattached, but continue to attack as usual. If any of the heads are killed via despawning off-screen, loot will not be received.
-
-Tips
-As it is expensive to re-summon, be sure to prepare well first with the best possible weapons, armor, accessories, and healing methods.
-It is possible to keep the Turkey feather by putting it in a chest before summoning, allowing an unlimited number of re-summons with one feather.
-Using Holy Hand Grenades when all heads are dead deals 600 damage each, so with 30 Holy Hand Grenades, Turkor should be defeated.
-Using the Crimson Rod or Nimbus Rod to create a cloud above his body is a good strategy.
-
-Trivia
-Turkor can be farmed easily by only attacking the heads.
-Turkor the Ungrateful is one of the only stationary bosses in the game, the others being the .
-Turkor the Ungrateful and Lepus are the only bosses that do not have a trophy.
-Turkor the Ungrateful may be a reference to Truckle the Uncivil, a character in the  books.
-The name "Turkor the Ungrateful" is also a reference to the fact that it is summoned during Thanksgiving, and "ungrateful" is an antonym of "thankful", an attitude typically celebrated during Thanksgiving.
-Maps on the  do not show specific boss icons (they all use the default skull). This makes Turkor one of the three bosses that do not have a unique boss icon, the other two being  and .
-According to Redigit, Turkor the Ungrateful would be the best tasting boss.
-Turkor, alongside with other Console-exclusive bosses, can be fought on the Consolaria mod.
-
-History
-
----
-
 # 文档：Twinkle Popper
 
 - 类别：enemies
@@ -24583,9 +23608,8 @@ They seem to resemble the Moon Lord with legs, but without the eyes or the spine
 History
 
 ---
-
 ## FURNITURE
-共 149 篇文档
+共 95 篇文档
 
 # 文档：Furniture
 
@@ -24609,2216 +23633,6 @@ See also
 Furniture sets
 
 History
-
----
-
-# 文档：Alchemy Lantern
-
-- 类别：furniture
-- 标识：alchemy lantern
-- 来源：wiki/Alchemy_Lantern
-
-Lanterns are small light sources that hang from ceilings (the underside of blocks). They occupy less room than a chandelier, making them ideal for smaller spaces. Most lanterns can be toggled on and off via wire.
-
-There are two lanterns that provide regeneration buffs, the Heart Lantern and the Star in a Bottle, which grant health and mana regeneration, respectively. Toggling these lanterns off will only deactivate the light source, but not the buff.
-
-The Skull Lantern and Jack 'O Lantern, while having lantern in their name, are not like the rest of the lanterns in that they need to be placed on a flat surface. The Large Dynasty Lantern is considered a chandelier due to its dimensions.
-
-Crafting
-Recipes
-Noncraftable lanterns
-colspan=2 | Lantern !! Notes
-|| Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in Ruined houses, does not break from lava.
-|| Dropped by Pirates.
-}
-show-light = yes
-
----
-
-# 文档：Alchemy Table
-
-- 类别：furniture
-- 标识：alchemy table
-- 来源：wiki/Alchemy_Table
-
-The Alchemy Table is a post-Skeletron crafting station used to craft potions. It works almost identically to Placed Bottles when crafting potions, except it has a chance of not consuming ingredients. It can be found randomly in the Dungeon, and in the  it can also be obtained by fishing in the Dungeon.
-
-When a potion is crafted with the Alchemy Table, there is a  chance for each ingredient to not be consumed. There is a separate probability check for each of the ingredients used in making the potion, including each of those in a stack. This is effective for gaining more value out of alchemy ingredients, especially of those that are hard to obtain.
-
-Crafting
-Recipes
-Used in
-Used to craft
-Notes
-The Alchemy Table counts as a valid flat surface item for NPC houses.
-It also counts as a Table for the purposes of crafting Watches.
-On average, using the Alchemy Table for bulk production can produce up to about 50% more potions than a Placed Bottle with the same quantity of ingredients. However, this is very random, and if one ingredient is in short supply (e.g.,  for ), the results will be dominated by how often that ingredient happens to not be consumed. Similarly, if two or more ingredients are in short supply, either (any) of them can run out "early" (not making their 1/3 chance as often) and limit production.
-Unlike the Placed Bottle, the Alchemy Table can be placed on any block rather than just flat furniture items.
-The Alchemy Table combined with harvesting plants with the Staff of Regrowth can yield significantly more potions for the same amount of work.
-
-Trivia
-The Alchemy Table's sprite appears to depict a Lesser Restoration Potion.
-
-History
-
----
-
-# 文档：Ammo Box
-
-- 类别：furniture
-- 标识：ammo box
-- 来源：wiki/Ammo_Box
-
-The Ammo Box is a furniture item that, when placed and pressed  on, applies the Ammo Box buff to all ranged weapons until player death. It is a Hardmode item on , but can be obtained pre-Hardmode on .
-
-It can be purchased:
-from the Arms Dealer for  in Hardmode
-from the Traveling Merchant for  at any time.
-
-The Ammo Box buff provides a 20% chance per shot of a ranged weapon not consuming ammunition. As of 1.4.4, the buff lasts until the player dies or exits the game instead of only lasting for 10 minutes. It can be activated limitlessly with no cooldown period. The Ammo Box is never consumed, and all players may use it to give themselves the buff.
-
-Unlike equipment buff items, the Ammo Box must be placed in order to activate the buff. It can be mined with a pickaxe or drill and picked up again, even while the buff is active, which will not cancel the buff. Placement is only dependent on an adequate flat space of two horizontal tiles being available.
-
-Notes
-Unlike the Crystal Ball, the Ammo Box cannot be used for crafting. As such, Ranged players will need to purchase both an Ammo Box and a Crystal ball if they wish to reserve the most ammo. This is because the Crystal ball is used to craft the Endless Quiver and Endless Musket Pouch.
-
-Tips
-When pairing this with an Ammo Reservation Potion, a Vortex Breastplate, and a Chlorophyte Helmet, it is possible to achieve a 61.6% chance not to consume ammo. This is especially useful for expensive weapons like the Super Star Shooter or the Clentaminator.
-Due to its inherent ammo conservation, using this combination with a Vortex Beater results in an 86.94% chance not to consume ammo.
-With a Phantasm and a Magic Quiver, the chance not to consume arrows is increased to 89.76%.
-When paired with an Ammo Reservation Potion and Titan armor, it is possible to have a 78% chance not to consume ammo. This pair does not seem to stack with the Minishark or Megashark, however.
-
-See also
-Ammo Reservation Potion, a potion with a similar effect.
-
-History
-
----
-
-# 文档：Ancient Manipulator
-
-- 类别：furniture
-- 标识：ancient manipulator
-- 来源：wiki/Ancient_Manipulator
-
-The Ancient Manipulator is an endgame crafting station mainly used to craft items from Luminite and Lunar Fragments.
-
-It is obtained after defeating .
-
-Crafting
-Used to craft
-Tips
-The ability to create one fragment from three others can save a player from having to endure the Lunar Events should they be missing only a few of the former.
-
-Trivia
-Despite the fact it has a rarity of , it has no sell value.
-When placed, the orb and accents on the manipulator pulsate in the colors of the four Celestial Pillars.
-Even when painted, the Ancient Manipulator continues to cycle between the colors of the Celestial Pillars. Any parts not changing in color adopt the paint color as usual.
-Each Lunar Fragment appears to have chainsaw and hammer variants that are all currently unobtainable.
-Internally, this item is referred to as .
-
-History
-
----
-
-# 文档：Angel Statue
-
-- 类别：furniture
-- 标识：angel statue
-- 来源：wiki/Angel_Statue
-
-Statues are furniture items. There are a total of 116 different statues: 25 decoration statues, 36 text and numerical statues, and 55 functional mechanisms that have an effect when connected to wires and activated (26 hostile, 21 passive and 8 miscellaneous). Depending on the statue, upon activation, it may spawn enemies or critters, drop items, or teleport an NPC to the statue's location. Most statues can be found already placed in any area underground (most frequently in the Dungeon, Underground Cabins, and Cavern level), though Angel Statues also appear in chests. Like all furniture, a pickaxe is used to collect them.
-
-Functional statues
-The 55 functional statues can be further categorised into 3 subtypes: 26 enemy statues, 21 critter statues and 8 other statues. These statues can be wired and activated to spawn enemies, drop items, or teleport a random NPC to their location. Statue-spawned enemies do not drop coins. Before the 1.4 update they generally would drop their other usual items at a reduced rate, with the exception of the Mimic, which does not drop any items whatsoever other than its banner, obtained after the designated amount of kills. Since the 1.4 update, this is only the case with certain statues. Aside from normal items, Slimes, Crabs, and Wall Creepers spawned from statues may also drop hearts and mana stars, potentially granting an alternative source of health and mana. Since the effects of the Life Drain and Vampire Knives work on spawned enemies, the player can build a pit with any timer spawning weak enemies to recover health during a boss fight. Statues found in Underground Cabins may be connected to Pressure Plates, and can easily spawn enemies that may kill early game players.
-
-See spawn limits (below) for limitations that apply to functional statues.
-
-Enemy statues
-+ Spawn enemies
-Statue
-Enemy
-Notes
-
-()
-
-()
-
-()
-
-()
-
-()
-
-}
-+ Spawn critters
-Statue
-Critter
-Recipe
-Notes
-
-show-main = yes
-show-other = yes
-
----
-
-# 文档：Animal skins
-
-- 类别：furniture
-- 标识：animal skins
-- 来源：wiki/Animal_skins
-
-The animal skins are decorative furniture items that are used like paintings. They are purchased from the Traveling Merchant for  each.
-
-Types
-History
-
----
-
-# 文档：Ankh Banner
-
-- 类别：furniture
-- 标识：ankh banner
-- 来源：wiki/Ankh_Banner
-
-Banners are decorative furniture items that can be placed on the underside of blocks. Many are found naturally-placed in various biomes. There are also four crafted Banners (red, green, blue, and yellow). Banners can be hung off of blocks and off of platforms which are in their bottom position (after being struck three times with a hammer).
-
-Faction Flags are Banners found in Dungeons. In post-Plantera worlds, the Faction Flags found hanging in a particular Dungeon area correspond to the background wall type (brick, slab, or tile), both of which signify the types of enemies that will spawn there. See Dungeon for more info.
-
-There are currently a total of 23 decorative Banners: 4 crafted, 6 Faction Flags, 3 Floating Island, 6 Underworld, 3 Pyramid, 1 dropped from the Dark Mage during the Old One's Army event.
-
-Crafted
-Recipes
-Faction Flags
-These are Banners found placed in the Dungeon, in the same regions that are marked by different background walls. In their original locations, the banners hint at what Hardmode Dungeon enemies will spawn nearby once Plantera has been defeated.
-
-Floating Island
-Underworld
-There are only 3 types of Underworld banner per world.
-
-Pyramid
-Dropped
-Trivia
-Each banner may be placed in a right- or left-facing orientation, but this is decided by which tile column in the world the banner is placed in. Placing it one block to the left or right will flip the orientation.
-The four craftable banners correspond to the team colors in multiplayer, except for pink team, which was introduced after the four banners.
-The Gravity Banner seems to resemble the Gravitation Potion's buff icon.
-The War Table Banner is the only one with 2×3 dimension instead of 1×3.
-
-History
-
----
-
-# 文档：Announcement Box
-
-- 类别：furniture
-- 标识：announcement box
-- 来源：wiki/Announcement_Box
-
-The Announcement Box is a special sign that, when powered, will announce (in the chat) what was written on the sign.
-
-Formatting
-Certain keywords will change the formatting of the text, for example color. Everything written here can also be applied in a normal chat with the same effect.
-
-Color
-To change the color of inputted text, type  with text after the colon and any  in place of "XXXXXX".
-
-Example: Inputting  will create the output "This text is blue."
-This website can be used to choose a Hexadecimal Color for the Announcement Box.
-
-This is an incomplete list of the colors used by the game:
-
-will create white, the color shown when a player types something in the chat.
-By setting an Announcement Box up with  the text will be indistinguishable from an actual player's input.
-will create the color shown when some events start - "The Blood Moon is rising..."; "Impending doom approaches..."
-will create the color shown when an invasion starts or when a boss is summoned and defeated - "Skeletron has awoken!"
-will create the color shown when a player dies - "&lt;Player name&gt; was slain."
-Note that this color is different from the one that is displayed when an NPC or a town pet dies.
-will create the color shown when an NPC or a town pet dies - "&lt;Name of NPC&gt; the &lt;type of NPC&gt; was slain..."
-Note that this color is different from the one that is displayed when a player dies.
-will create the color shown when an NPC or a town pet arrives - "&lt;Name of NPC&gt; the &lt;type of NPC&gt; has arrived!"
-will create the color shown by some general status messages, such as - "Spawn point set!"; "You are not close enough to a pylon to teleport with the pylon network"
-will create the color shown when an NPC throws a Party - "Looks like <NPC name> is throwing a party"
-
-One can achieve a color shift/gradient by using many  back to back.
-
-Example: Inputting  will create the output "Red to blue"
-This website can be used to find the hex codes for gradients.
-
-Item
-It is possible to showcase an item in chat using Item IDs, similar to how Alt+Click works in normal chat. To show an item type  , where "zXX" is a property of an item, and "ID" is an ID of an item".
-
-Example: Inputting  will show a dirt block with item count 24 in chat
-Example: Inputting  will show a Legendary Solar Flare Pickaxe in chat
-
-.]]
-
-All items in chat occupy the same height and width. Coupled with the fact that there can only be 10 lines of text in the chat at one time means that one can in theory create a rudimentary animation using mechanisms. Walls are very good for this purpose as they are big squares. Be aware that by doing animations, the messages are spamming the chat which can lead to the annoyance of other players as they can not communicate via chat. It can also make one miss status messages.
-
-Valid item properties are (XX — a number):
-
-sXX — items in stack.
-pXX — prefix of an item.
-
-The easiest way of getting an Item code is doing the following: first open the chat, Alt+Click needed item, press Ctrl+A to select all text in the chat, press Ctrl+C to copy it, and finally paste the code into Announcement Box.
-
-Achievement
-It is also possible to write a link to achievement into chat, for this type , with "NAME" being an Achievement name.
-
-Example: Inputting  will put a message into chat: "Star Power", one can click on it to open achievement menu at this achievement's position.
-Achievements with an exclamation at the end will be written without it. For example,   will show the "Timber!!" achievement.
-
-Glyphs
-Controller buttons can be displayed using the  tag, where # corresponds to one of the following functions:
-
-Index!!Image!! Name
-0||||A
-1||||B
-2 ||||X
-3||||Y
-4||||Back
-5||||Start
-6 ||||Left shoulder button
-7||||Right shoulder button
-8||||Left trigger
-9||||Right trigger
-10||||Left stick
-11||||Right stick
-12||||Undefined stick
-13 || ||D-pad right
-14||||D-pad left
-15 ||||D-pad down
-16||||D-pad up
-17 ||||Left stick left
-18||||Left stick right
-19|| || Left stick up
-20|||| Left stick down
-21||||Right stick left
-22 || ||Right stick right
-23||||Right stick up
-24||||Right stick down
-25||||Left stick wiggling left and right
-
-Example: The following sequence could be used to display the classic Konami Code:
-
-Note that this outputs literal button glyphs, and the output may not match functions assigned in the player's current control scheme. While minor, this could limit the usefulness in custom world designs.
-
-Crafting
-Recipes
-Notes
-The Announcement Box's functionality can be disabled by launching the game with a -disableannouncementbox command line parameter.
-If the Announcement Box is to be powered by a time sensor any message that is tied to that time (for example the message "The Blood Moon is rising..." in the evening) will be in chat displayed before the Announcement Box's.
-
-Trivia
-The Announcement Box was a suggestion by Master Geass, a user on the Official Terraria Forums. The original post can be found here.
-
-History
-
----
-
-# 文档：Anvil
-
-- 类别：furniture
-- 标识：anvil
-- 来源：wiki/Anvil
-
-Anvils are crafting stations used to craft metal bars into tools, weapons, armor, and other items. Anvils are 2 tiles wide, 1 tile high, and must be placed on top of solid blocks or platforms. There are 4 types of anvils in the game.
-
-Types
-Pre-Hardmode:
-Hardmode:
-The Iron and Lead Anvils are functionally identical: each generated world only spawns with Iron or Lead, so without opening crates only one will be craftable. The same is true for the Mythril and Orichalcum Anvils, upgraded Hardmode versions that perform all the functions of their predecessors in addition to new recipes. The Iron Anvil can also be found naturally inside underground cabins or can be purchased from the Merchant for .
-
-Notes
-Lead Anvils will never generate inside underground cabins, even in a world that has Lead Ore instead of Iron Ore.
-Despite the anvils being classified as furniture and appearing to have a flat surface, as well as being able to be stood upon like a platform, they do not fulfill the NPC housing requirement for a flat surface, nor can the player place items on them.
-
-Achievements
-History
-
----
-
-# 文档：Anvil Statue
-
-- 类别：furniture
-- 标识：anvil statue
-- 来源：wiki/Anvil_Statue
-
-Statues are furniture items. There are a total of 116 different statues: 25 decoration statues, 36 text and numerical statues, and 55 functional mechanisms that have an effect when connected to wires and activated (26 hostile, 21 passive and 8 miscellaneous). Depending on the statue, upon activation, it may spawn enemies or critters, drop items, or teleport an NPC to the statue's location. Most statues can be found already placed in any area underground (most frequently in the Dungeon, Underground Cabins, and Cavern level), though Angel Statues also appear in chests. Like all furniture, a pickaxe is used to collect them.
-
-Functional statues
-The 55 functional statues can be further categorised into 3 subtypes: 26 enemy statues, 21 critter statues and 8 other statues. These statues can be wired and activated to spawn enemies, drop items, or teleport a random NPC to their location. Statue-spawned enemies do not drop coins. Before the 1.4 update they generally would drop their other usual items at a reduced rate, with the exception of the Mimic, which does not drop any items whatsoever other than its banner, obtained after the designated amount of kills. Since the 1.4 update, this is only the case with certain statues. Aside from normal items, Slimes, Crabs, and Wall Creepers spawned from statues may also drop hearts and mana stars, potentially granting an alternative source of health and mana. Since the effects of the Life Drain and Vampire Knives work on spawned enemies, the player can build a pit with any timer spawning weak enemies to recover health during a boss fight. Statues found in Underground Cabins may be connected to Pressure Plates, and can easily spawn enemies that may kill early game players.
-
-See spawn limits (below) for limitations that apply to functional statues.
-
-Enemy statues
-+ Spawn enemies
-Statue
-Enemy
-Notes
-
-()
-
-()
-
-()
-
-()
-
-()
-
-}
-+ Spawn critters
-Statue
-Critter
-Recipe
-Notes
-
-show-main = yes
-show-other = yes
-
----
-
-# 文档：Anvil Statue/cs
-
-- 类别：furniture
-- 标识：anvil statue/cs
-- 来源：wiki/Anvil_Statue/cs
-
-Funkční sochy
-Ze spawnutých oblud nepadají peníze, ale ostatní typické předměty jako hvězdy a srdce, (i když z Imitátorů nepadá příslušenství). Ale Zajíc nebo Zlatá rybka spawnutá během Krvavého měsíce, nebo zasažená Vile práškem se okamžitě změní ve svou nakaženou verzi (zkažený zajíc a zkažená zlatá rybka) a už se dále nepočítají jako spawnutí. Díky tomu, že zkažené obludy se nepočítají do běžného limitu sochy u spawnutých oblud, dají se sochy jednoduše využít pro vydělávání peněz.
-
-Sochy napojené na 1 Sec Časovač, nebo jakýkoli jiný, budou u sebe donekonečna spawnovat obludy. Aby se obludy spawnovaly ještě rychleji, může být socha aktivována až třemi časovači najednou, což efektivně ztrojnásobí míru spawnování. To samozřejmě vyžaduje složitější propojení obvodů (viz obrázek).
-
-Momentálně to vypadá, že se sochy objevují v hlubších Jeskynních vrstvách, nebo níže.
-
-Vytvoření předmětů
-Socha !! předmět
-Socha bomby ||  Bomba
-Socha srdce ||  Srdce
-Socha hvězdy ||  Hvězda
-
-Vytvoření nepřátel
-Socha !! Obludy !! Předměty
-Netopýří socha || Netopýr || Nic
-Ptačí socha || Pták || Nic
-Socha zajíce || Zajíc* ||  Zaječí čepice
-Socha truhly || Imitátor || Nic
-Socha kraba || krab || Nic
-Socha ryby || Zlatá rybka* ||  Zlatá rybka
-Socha medůzy || Medůza ||  Svítící tyč
-Socha piraně || Piraňa ||  Hák,  Robotí čepice
-Socha kostlivce || Kostlivec ||  Hák
-Socha slimy || Modrý Slime ||  Gel
-Během Kravého měsíce se zlatá rybka a zajíček promění ve svou zkaženou verzi a po zabití z nich padá obvyklé množství peněz.
-
-NPC Teleport
-Socha !! Efekt
-Socha Krále || Teleportuje náhodné mužské NPC na místo sochy
-Socha Královny || Teleportuje náhodné ženské NPC na místo sochy
-
-Dekorativní sochy
-Historie
-
----
-
-# 文档：Armed Zombie Statue
-
-- 类别：furniture
-- 标识：armed zombie statue
-- 来源：wiki/Armed_Zombie_Statue
-
-Statues are furniture items. There are a total of 116 different statues: 25 decoration statues, 36 text and numerical statues, and 55 functional mechanisms that have an effect when connected to wires and activated (26 hostile, 21 passive and 8 miscellaneous). Depending on the statue, upon activation, it may spawn enemies or critters, drop items, or teleport an NPC to the statue's location. Most statues can be found already placed in any area underground (most frequently in the Dungeon, Underground Cabins, and Cavern level), though Angel Statues also appear in chests. Like all furniture, a pickaxe is used to collect them.
-
-Functional statues
-The 55 functional statues can be further categorised into 3 subtypes: 26 enemy statues, 21 critter statues and 8 other statues. These statues can be wired and activated to spawn enemies, drop items, or teleport a random NPC to their location. Statue-spawned enemies do not drop coins. Before the 1.4 update they generally would drop their other usual items at a reduced rate, with the exception of the Mimic, which does not drop any items whatsoever other than its banner, obtained after the designated amount of kills. Since the 1.4 update, this is only the case with certain statues. Aside from normal items, Slimes, Crabs, and Wall Creepers spawned from statues may also drop hearts and mana stars, potentially granting an alternative source of health and mana. Since the effects of the Life Drain and Vampire Knives work on spawned enemies, the player can build a pit with any timer spawning weak enemies to recover health during a boss fight. Statues found in Underground Cabins may be connected to Pressure Plates, and can easily spawn enemies that may kill early game players.
-
-See spawn limits (below) for limitations that apply to functional statues.
-
-Enemy statues
-+ Spawn enemies
-Statue
-Enemy
-Notes
-
-()
-
-()
-
-()
-
-()
-
-()
-
-}
-+ Spawn critters
-Statue
-Critter
-Recipe
-Notes
-
-show-main = yes
-show-other = yes
-
----
-
-# 文档：Armor Statue
-
-- 类别：furniture
-- 标识：armor statue
-- 来源：wiki/Armor_Statue
-
-Statues are furniture items. There are a total of 116 different statues: 25 decoration statues, 36 text and numerical statues, and 55 functional mechanisms that have an effect when connected to wires and activated (26 hostile, 21 passive and 8 miscellaneous). Depending on the statue, upon activation, it may spawn enemies or critters, drop items, or teleport an NPC to the statue's location. Most statues can be found already placed in any area underground (most frequently in the Dungeon, Underground Cabins, and Cavern level), though Angel Statues also appear in chests. Like all furniture, a pickaxe is used to collect them.
-
-Functional statues
-The 55 functional statues can be further categorised into 3 subtypes: 26 enemy statues, 21 critter statues and 8 other statues. These statues can be wired and activated to spawn enemies, drop items, or teleport a random NPC to their location. Statue-spawned enemies do not drop coins. Before the 1.4 update they generally would drop their other usual items at a reduced rate, with the exception of the Mimic, which does not drop any items whatsoever other than its banner, obtained after the designated amount of kills. Since the 1.4 update, this is only the case with certain statues. Aside from normal items, Slimes, Crabs, and Wall Creepers spawned from statues may also drop hearts and mana stars, potentially granting an alternative source of health and mana. Since the effects of the Life Drain and Vampire Knives work on spawned enemies, the player can build a pit with any timer spawning weak enemies to recover health during a boss fight. Statues found in Underground Cabins may be connected to Pressure Plates, and can easily spawn enemies that may kill early game players.
-
-See spawn limits (below) for limitations that apply to functional statues.
-
-Enemy statues
-+ Spawn enemies
-Statue
-Enemy
-Notes
-
-()
-
-()
-
-()
-
-()
-
-()
-
-}
-+ Spawn critters
-Statue
-Critter
-Recipe
-Notes
-
-show-main = yes
-show-other = yes
-
----
-
-# 文档：Armor Statue/cs
-
-- 类别：furniture
-- 标识：armor statue/cs
-- 来源：wiki/Armor_Statue/cs
-
-Funkční sochy
-Ze spawnutých oblud nepadají peníze, ale ostatní typické předměty jako hvězdy a srdce, (i když z Imitátorů nepadá příslušenství). Ale Zajíc nebo Zlatá rybka spawnutá během Krvavého měsíce, nebo zasažená Vile práškem se okamžitě změní ve svou nakaženou verzi (zkažený zajíc a zkažená zlatá rybka) a už se dále nepočítají jako spawnutí. Díky tomu, že zkažené obludy se nepočítají do běžného limitu sochy u spawnutých oblud, dají se sochy jednoduše využít pro vydělávání peněz.
-
-Sochy napojené na 1 Sec Časovač, nebo jakýkoli jiný, budou u sebe donekonečna spawnovat obludy. Aby se obludy spawnovaly ještě rychleji, může být socha aktivována až třemi časovači najednou, což efektivně ztrojnásobí míru spawnování. To samozřejmě vyžaduje složitější propojení obvodů (viz obrázek).
-
-Momentálně to vypadá, že se sochy objevují v hlubších Jeskynních vrstvách, nebo níže.
-
-Vytvoření předmětů
-Socha !! předmět
-Socha bomby ||  Bomba
-Socha srdce ||  Srdce
-Socha hvězdy ||  Hvězda
-
-Vytvoření nepřátel
-Socha !! Obludy !! Předměty
-Netopýří socha || Netopýr || Nic
-Ptačí socha || Pták || Nic
-Socha zajíce || Zajíc* ||  Zaječí čepice
-Socha truhly || Imitátor || Nic
-Socha kraba || krab || Nic
-Socha ryby || Zlatá rybka* ||  Zlatá rybka
-Socha medůzy || Medůza ||  Svítící tyč
-Socha piraně || Piraňa ||  Hák,  Robotí čepice
-Socha kostlivce || Kostlivec ||  Hák
-Socha slimy || Modrý Slime ||  Gel
-Během Kravého měsíce se zlatá rybka a zajíček promění ve svou zkaženou verzi a po zabití z nich padá obvyklé množství peněz.
-
-NPC Teleport
-Socha !! Efekt
-Socha Krále || Teleportuje náhodné mužské NPC na místo sochy
-Socha Královny || Teleportuje náhodné ženské NPC na místo sochy
-
-Dekorativní sochy
-Historie
-
----
-
-# 文档：Arrow Signs
-
-- 类别：furniture
-- 标识：arrow signs
-- 来源：wiki/Arrow_Signs
-
-Arrow Signs are furniture items used in Golfing. They are purely decorative and come in a regular and a painted variety. They are both purchased from the Golfer for  each.
-
-It is possible to turn the orientation of arrows with a right-click () into 8 different directions.
-
-History
-
----
-
-# 文档：Autohammer
-
-- 类别：furniture
-- 标识：autohammer
-- 来源：wiki/Autohammer
-
-The Autohammer is a Hardmode post-Plantera crafting station used to craft Shroomite Bars and the Mini Nuke I and II. It is purchased from the Truffle for  after Plantera has been defeated.
-
-Crafting
-Used to craft
-<onlyinclude></onlyinclude>
-
-Tips
-If the player has ingredients for the desired number of Shroomite Bars in their inventory, the Autohammer can be bought, used to craft the bars, and sold back to the Truffle without incurring the cost of .
-
-Trivia
-The Autohammer's animation seems to show it making Shroomite Bars from Chlorophyte Bars, alluding to its main use.
-
-History
-
----
-
-# 文档：Axe Statue
-
-- 类别：furniture
-- 标识：axe statue
-- 来源：wiki/Axe_Statue
-
-Statues are furniture items. There are a total of 116 different statues: 25 decoration statues, 36 text and numerical statues, and 55 functional mechanisms that have an effect when connected to wires and activated (26 hostile, 21 passive and 8 miscellaneous). Depending on the statue, upon activation, it may spawn enemies or critters, drop items, or teleport an NPC to the statue's location. Most statues can be found already placed in any area underground (most frequently in the Dungeon, Underground Cabins, and Cavern level), though Angel Statues also appear in chests. Like all furniture, a pickaxe is used to collect them.
-
-Functional statues
-The 55 functional statues can be further categorised into 3 subtypes: 26 enemy statues, 21 critter statues and 8 other statues. These statues can be wired and activated to spawn enemies, drop items, or teleport a random NPC to their location. Statue-spawned enemies do not drop coins. Before the 1.4 update they generally would drop their other usual items at a reduced rate, with the exception of the Mimic, which does not drop any items whatsoever other than its banner, obtained after the designated amount of kills. Since the 1.4 update, this is only the case with certain statues. Aside from normal items, Slimes, Crabs, and Wall Creepers spawned from statues may also drop hearts and mana stars, potentially granting an alternative source of health and mana. Since the effects of the Life Drain and Vampire Knives work on spawned enemies, the player can build a pit with any timer spawning weak enemies to recover health during a boss fight. Statues found in Underground Cabins may be connected to Pressure Plates, and can easily spawn enemies that may kill early game players.
-
-See spawn limits (below) for limitations that apply to functional statues.
-
-Enemy statues
-+ Spawn enemies
-Statue
-Enemy
-Notes
-
-()
-
-()
-
-()
-
-()
-
-()
-
-}
-+ Spawn critters
-Statue
-Critter
-Recipe
-Notes
-
-show-main = yes
-show-other = yes
-
----
-
-# 文档：Axe Statue/cs
-
-- 类别：furniture
-- 标识：axe statue/cs
-- 来源：wiki/Axe_Statue/cs
-
-Funkční sochy
-Ze spawnutých oblud nepadají peníze, ale ostatní typické předměty jako hvězdy a srdce, (i když z Imitátorů nepadá příslušenství). Ale Zajíc nebo Zlatá rybka spawnutá během Krvavého měsíce, nebo zasažená Vile práškem se okamžitě změní ve svou nakaženou verzi (zkažený zajíc a zkažená zlatá rybka) a už se dále nepočítají jako spawnutí. Díky tomu, že zkažené obludy se nepočítají do běžného limitu sochy u spawnutých oblud, dají se sochy jednoduše využít pro vydělávání peněz.
-
-Sochy napojené na 1 Sec Časovač, nebo jakýkoli jiný, budou u sebe donekonečna spawnovat obludy. Aby se obludy spawnovaly ještě rychleji, může být socha aktivována až třemi časovači najednou, což efektivně ztrojnásobí míru spawnování. To samozřejmě vyžaduje složitější propojení obvodů (viz obrázek).
-
-Momentálně to vypadá, že se sochy objevují v hlubších Jeskynních vrstvách, nebo níže.
-
-Vytvoření předmětů
-Socha !! předmět
-Socha bomby ||  Bomba
-Socha srdce ||  Srdce
-Socha hvězdy ||  Hvězda
-
-Vytvoření nepřátel
-Socha !! Obludy !! Předměty
-Netopýří socha || Netopýr || Nic
-Ptačí socha || Pták || Nic
-Socha zajíce || Zajíc* ||  Zaječí čepice
-Socha truhly || Imitátor || Nic
-Socha kraba || krab || Nic
-Socha ryby || Zlatá rybka* ||  Zlatá rybka
-Socha medůzy || Medůza ||  Svítící tyč
-Socha piraně || Piraňa ||  Hák,  Robotí čepice
-Socha kostlivce || Kostlivec ||  Hák
-Socha slimy || Modrý Slime ||  Gel
-Během Kravého měsíce se zlatá rybka a zajíček promění ve svou zkaženou verzi a po zabití z nich padá obvyklé množství peněz.
-
-NPC Teleport
-Socha !! Efekt
-Socha Krále || Teleportuje náhodné mužské NPC na místo sochy
-Socha Královny || Teleportuje náhodné ženské NPC na místo sochy
-
-Dekorativní sochy
-Historie
-
----
-
-# 文档：Azure Crate
-
-- 类别：furniture
-- 标识：azure crate
-- 来源：wiki/Azure_Crate
-
-The Azure Crate is a Hardmode crate that can only be fished at high elevations, such as in Floating Lakes. Azure Crates contain items found in standard crates, and they always contain an item normally found in Skyware Chests. Although Skyware Chests can rarely contain the Sky Mill, the Azure Crate never does. Its pre-Hardmode counterpart is the Sky Crate.
-
-As of 1.4.4, it can now yield cloud blocks, finally making them renewable.
-
-Crafting
-Used in
-Drops
-History
-
----
-
-# 文档：Banners
-
-- 类别：furniture
-- 标识：banners decorative
-- 来源：wiki/Banners_(decorative)
-
-Banners are decorative furniture items that can be placed on the underside of blocks. Many are found naturally-placed in various biomes. There are also four crafted Banners (red, green, blue, and yellow). Banners can be hung off of blocks and off of platforms which are in their bottom position (after being struck three times with a hammer).
-
-Faction Flags are Banners found in Dungeons. In post-Plantera worlds, the Faction Flags found hanging in a particular Dungeon area correspond to the background wall type (brick, slab, or tile), both of which signify the types of enemies that will spawn there. See Dungeon for more info.
-
-There are currently a total of 23 decorative Banners: 4 crafted, 6 Faction Flags, 3 Floating Island, 6 Underworld, 3 Pyramid, 1 dropped from the Dark Mage during the Old One's Army event.
-
-Crafted
-Recipes
-Faction Flags
-These are Banners found placed in the Dungeon, in the same regions that are marked by different background walls. In their original locations, the banners hint at what Hardmode Dungeon enemies will spawn nearby once Plantera has been defeated.
-
-Floating Island
-Underworld
-There are only 3 types of Underworld banner per world.
-
-Pyramid
-Dropped
-Trivia
-Each banner may be placed in a right- or left-facing orientation, but this is decided by which tile column in the world the banner is placed in. Placing it one block to the left or right will flip the orientation.
-The four craftable banners correspond to the team colors in multiplayer, except for pink team, which was introduced after the four banners.
-The Gravity Banner seems to resemble the Gravitation Potion's buff icon.
-The War Table Banner is the only one with 2×3 dimension instead of 1×3.
-
-History
-
----
-
-# 文档：Banners
-
-- 类别：furniture
-- 标识：banners enemy
-- 来源：wiki/Banners_(enemy)
-
-Enemy banners are functional furniture items that can be placed on the underside of blocks. They are dropped by most enemies and a few critters.
-
-On the , when placed, enemy banners provide a buff to any players standing within a  centered on the banner. The buff grants players +50%/ damage inflicted with all damage to the corresponding enemy and −25%/ damage taken from attacks by the enemy. On the , the banner of Old One's Army enemies will apply a weaker banner buff to the respective enemy, granting the players +10%/ damage inflicted and −5%/ damage taken.
-
-Multiple banners of the same type will not grant stacked buffs. Multiple different banner types in the vicinity will however all take effect, and consolidate into a single buff icon.
-
-On the , an enemy banner automatically appears in the player's inventory upon reaching certain kill count (50 by default) of that enemy in a particular world. If the player's inventory is full, the banner will be dropped to the ground at the player's location instead. Additionally, a status message saying "" appears, with n being the respective multiple of 50 by default.
-On the , not all enemy banners require 50 kills to obtain. See below for a list of these banners.
-On the , any enemy banner has a  chance of dropping from its corresponding enemy.
-Banners dropped by enemies from the Old One's Army are purely decorative and do not grant a buff. The number of kills required to get a banner from this event depends on the enemy's frequency: common enemies need a higher number of kills.
-There are a total of  enemy banners:  pre-Hardmode,  Hardmode, and  unobtainable. Out of these,  belong to event enemies ( pre-Hardmode and  Hardmode) and  to -exclusive enemy variants ( pre-Hardmode and  Hardmode).
-
-Slimes
-Environments
-Surface
-Cavern
-Granite Cave
-Marble Cave
-Spider Cave
-Glowing Mushroom biome
-Snow biome
-Jungle
-Desert
-Underworld
-Dungeon
-Corruption
-Crimson
-Hallow
-Meteorite
-Events
-Rain/Blizzard
-Blood Moon
-Goblin Army
-Halloween
-Pirate Invasion
-Solar Eclipse
-Frost Legion
-Pumpkin Moon
-Frost Moon
-variants
-Banners with non-default kill count
-colspan=2 | Banner
-Kill count
-}
-
----
-
-# 文档：Barrel
-
-- 类别：furniture
-- 标识：barrel
-- 来源：wiki/Barrel
-
-The Barrel is a storage item that has 40 slots for storing items, similar to a Chest. The crafting recipe requires only half as much metal as for a Chest, but requires a Sawmill rather than a Work Bench. Other than this, the difference is purely aesthetic.
-
-Barrels can only be harvested with a pickaxe or drill when empty.
-
-Crafting
-Recipes
-Tips
-Using Barrels instead of Chests conserves Iron/Lead Bars; a Barrel takes half as many Iron/Lead Bars as a Chest to craft. As of , dressers function as a storage item, eliminating the need for the metal entirely, however they occupy more space.
-
-History
-
----
-
-# 文档：Bars
-
-- 类别：furniture
-- 标识：bars
-- 来源：wiki/Bars
-
-Bars are crafting materials generally crafted from mined ores at a Furnace. Crafting most ore-related items requires that raw ores are first crafted into bars.
-
-There are currently 23 different bar types. Obtaining most of these only requires their respective ores as crafting ingredients. Hellstone, Spectre, and Shroomite Bars are exceptions that require a secondary material in addition. Hallowed Bars are not crafted but are instead dropped by the mechanical bosses. Some bars may also be obtained  from crates.
-
-Types
-Notes
-Bars can be placed like furniture, take up a space of one tile, and can be stacked on top of each other. When placed in this manner, they can be used just like platforms, to stand on and drop down from, and furniture can be placed on the top (torches also to the sides).
-Bars cannot be placed without another block underneath them; this makes it impossible to build a house made of bars without the aid of other blocks. This mechanic makes breaking bars similar to cutting down trees, where breaking the bottom bar in a stack will break all bars above it.
-The only way to make placed bars "float" would be to abuse the fact that chests with items inside cannot be destroyed. Using bars as support under such a chest would mean they cannot be destroyed until the chest is emptied. This allows them to float in-air without any supporting blocks.
-Note: The duplication glitch with bars and a chest was patched long ago in 1.1
-
-Trivia
-Hallowed Bars are the only bars to not require an ore to be made.
-Although a single bar is consumed when it is placed, the tile sprite appears to be 3 or possible 4 bars stacked on top of each other.
-The old bar textures are actually modified versions of the old   textures. (For Example: See the  then the old Terraria iron bar.)
-
-History
-
----
-
-# 文档：Bast Statue
-
-- 类别：furniture
-- 标识：bast statue
-- 来源：wiki/Bast_Statue
-
-The Bast Statue is a furniture item that grants The Bast Defense buff to players in its vicinity, increasing their defense by 5 points. The buff effect can be toggled via wire. The statue can be found in Sandstone Chests in the lower portion of the Underground Desert, or be found as a furniture in Underground Cabins, or in Oasis Crate and Mirage Crates.
-
-The buff is applied to any players standing within a  centered on the Bast Statue, similar to Heart Lanterns and Campfires.
-
-Notes
-The Bast Defense does not stack, having 2 or more Bast Statues will only grant +5 Defense.
-Seed 1.1.1.943644112 could help those who need more Bast Statues. After you spawn into the world, go right, and the desert is very close. Start digging once you enter the desert. You will end up in a room that uses a Bast Statues as furniture.
-
-Trivia
-, or Bast, was the Egyptian goddess of protection, cats, perfume/ointments, fertility, pregnancy, children, music, the arts, and warfare.
-The buff name "The Bast Defense" is a pun on the phrase "The Best Defense."
-
-History
-References
-
----
-
-# 文档：Bat Statue
-
-- 类别：furniture
-- 标识：bat statue
-- 来源：wiki/Bat_Statue
-
-Statues are furniture items. There are a total of 116 different statues: 25 decoration statues, 36 text and numerical statues, and 55 functional mechanisms that have an effect when connected to wires and activated (26 hostile, 21 passive and 8 miscellaneous). Depending on the statue, upon activation, it may spawn enemies or critters, drop items, or teleport an NPC to the statue's location. Most statues can be found already placed in any area underground (most frequently in the Dungeon, Underground Cabins, and Cavern level), though Angel Statues also appear in chests. Like all furniture, a pickaxe is used to collect them.
-
-Functional statues
-The 55 functional statues can be further categorised into 3 subtypes: 26 enemy statues, 21 critter statues and 8 other statues. These statues can be wired and activated to spawn enemies, drop items, or teleport a random NPC to their location. Statue-spawned enemies do not drop coins. Before the 1.4 update they generally would drop their other usual items at a reduced rate, with the exception of the Mimic, which does not drop any items whatsoever other than its banner, obtained after the designated amount of kills. Since the 1.4 update, this is only the case with certain statues. Aside from normal items, Slimes, Crabs, and Wall Creepers spawned from statues may also drop hearts and mana stars, potentially granting an alternative source of health and mana. Since the effects of the Life Drain and Vampire Knives work on spawned enemies, the player can build a pit with any timer spawning weak enemies to recover health during a boss fight. Statues found in Underground Cabins may be connected to Pressure Plates, and can easily spawn enemies that may kill early game players.
-
-See spawn limits (below) for limitations that apply to functional statues.
-
-Enemy statues
-+ Spawn enemies
-Statue
-Enemy
-Notes
-
-()
-
-()
-
-()
-
-()
-
-()
-
-}
-+ Spawn critters
-Statue
-Critter
-Recipe
-Notes
-
-show-main = yes
-show-other = yes
-
----
-
-# 文档：Bat Statue/cs
-
-- 类别：furniture
-- 标识：bat statue/cs
-- 来源：wiki/Bat_Statue/cs
-
-Funkční sochy
-Ze spawnutých oblud nepadají peníze, ale ostatní typické předměty jako hvězdy a srdce, (i když z Imitátorů nepadá příslušenství). Ale Zajíc nebo Zlatá rybka spawnutá během Krvavého měsíce, nebo zasažená Vile práškem se okamžitě změní ve svou nakaženou verzi (zkažený zajíc a zkažená zlatá rybka) a už se dále nepočítají jako spawnutí. Díky tomu, že zkažené obludy se nepočítají do běžného limitu sochy u spawnutých oblud, dají se sochy jednoduše využít pro vydělávání peněz.
-
-Sochy napojené na 1 Sec Časovač, nebo jakýkoli jiný, budou u sebe donekonečna spawnovat obludy. Aby se obludy spawnovaly ještě rychleji, může být socha aktivována až třemi časovači najednou, což efektivně ztrojnásobí míru spawnování. To samozřejmě vyžaduje složitější propojení obvodů (viz obrázek).
-
-Momentálně to vypadá, že se sochy objevují v hlubších Jeskynních vrstvách, nebo níže.
-
-Vytvoření předmětů
-Socha !! předmět
-Socha bomby ||  Bomba
-Socha srdce ||  Srdce
-Socha hvězdy ||  Hvězda
-
-Vytvoření nepřátel
-Socha !! Obludy !! Předměty
-Netopýří socha || Netopýr || Nic
-Ptačí socha || Pták || Nic
-Socha zajíce || Zajíc* ||  Zaječí čepice
-Socha truhly || Imitátor || Nic
-Socha kraba || krab || Nic
-Socha ryby || Zlatá rybka* ||  Zlatá rybka
-Socha medůzy || Medůza ||  Svítící tyč
-Socha piraně || Piraňa ||  Hák,  Robotí čepice
-Socha kostlivce || Kostlivec ||  Hák
-Socha slimy || Modrý Slime ||  Gel
-Během Kravého měsíce se zlatá rybka a zajíček promění ve svou zkaženou verzi a po zabití z nich padá obvyklé množství peněz.
-
-NPC Teleport
-Socha !! Efekt
-Socha Krále || Teleportuje náhodné mužské NPC na místo sochy
-Socha Královny || Teleportuje náhodné ženské NPC na místo sochy
-
-Dekorativní sochy
-Historie
-
----
-
-# 文档：Bathtubs
-
-- 类别：furniture
-- 标识：bathtubs
-- 来源：wiki/Bathtubs
-
-The Bathtub is a decorative furniture item. It fulfills a house's requirement of a flat-surface item.
-
-There are currently  40 /  32 Bathtub types, all being functionally identical but presenting different appearances.
-
-Crafting
-Recipes
-Noncraftable Bathtubs
-colspan=2 | Bathtub !! Notes
-|| Found in the Dungeon. ()
-|| Found in the Dungeon. ()
-|| Found in the Dungeon. ()
-|| Found in Ruined houses, does not break from lava. ()
-|| Dropped by Pirates.
-}
-show-other = yes
-
----
-
-# 文档：Beds
-
-- 类别：furniture
-- 标识：beds
-- 来源：wiki/Beds
-
-Beds are furniture items which allow the player to set a new spawn point,  or to sleep, which makes time pass 5 times faster, and gives a boost to health regeneration, similar to chairs and sofas. Beds fulfill the chair requirement for the purposes of housing. Beds have two separate sections which can be interacted with via . Interacting with the head of a bed causes the player to enter the bed and sleep. Interacting with the foot half of a bed, when it is placed in a valid House, changes the player's spawn point.
-
-Like most other furniture, the direction a bed is placed in depends on the direction the player is facing when placing it.
-
-There are currently  35 /  27 craftable beds and 5 that can be acquired from the environment. All beds are functionally identical, and differ only in appearance.
-
-Sleeping
-If the player hovers the cursor over the bed it will produce . Pressing  on the head of a bed causes the player to lie down and sleep (indicated by their eyes closing), which accelerates time by five times its normal rate (1 hour of in-game time, which would usually take 1 minute of real-life time, takes only 12 seconds while sleeping). This affects game time, including watches, the sun and moon, plant growth, and background animations (but not buff timers, NPC movement or other animations).
-
-It is not possible to sleep during invasion events, including Blood Moons, Solar Eclipse and Lunar Events, or when an Enchanted Sundial is advancing time.
-Sleeping does not affect potion cooldowns or durations. However, it does give a boost on health regeneration. The latter effect is shared with chairs and sofas.
-Time acceleration in multiplayer requires that all players be asleep.
-While sleeping, some actions involving the key will not cause the player to open their eyes, nor does it cause time to revert to normal.
-As a general rule of thumb, most actions involving the  key will not cause the player's eyes to open.
-Holding, but not using, items such as Torches and Umbrellas in the player's hand, will not cause the player to open their eyes.
-While sleeping, some actions will cause the player's eyes to open, and the accelerated time to revert to normal, but will not kick the player out of bed.
-If an item that can aim (like a gun, spell, or summon) is used, the player can attack while lying down as long as they aim at a 0° to 180° angle (an arc above the character). Other items that can aim (like a flail, drill, shortsword) must be used at -90° to 90° (an arc facing the player's feet).
-Placing blocks or wire will only open the character's eyes.
-Using Wire Cutters or a Grand Design to break wires is allowed.
-The only way to destroy blocks without getting out of bed entirely is to use some form of explosives.
-Getting hit by an enemy, breaking blocks, or pressing any movement keys will cause the player to get out of bed, and time to revert to normal.
-
-Setting player spawn point
-Pressing  on the foot of a bed, when it is placed in a valid house, sets the player's spawn point to that bed. This is signified by the status message "" When the same is done on a bed that has already been set as the player's spawn point, the status message "" is shown, and the player's spawn point is set back to the world's default.
-
-For a bed to function properly as a spawn point, it must be in a valid house. Other than the bed itself, no other furniture or lighting is required. There must also be clear space at the head of the bed for the player to stand. A bed may be placed in a non-rectangular room, as long as the leftmost 3 tiles immediately above it are left clear.
-
-For example: There may be a bed (4×2) surrounded by blocks on the left, right, and bottom, and above the foot of the bed, as long as there is space for the player to spawn at the head of the bed.
-
-The top-left 3 tiles just above the bed are clear. The mirror image of this arrangement is also valid.
-
-Crafting
-Recipes
-Noncraftable Beds
-colspan=2 | Bed !! Notes
-|| Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in Ruined houses, does not disappear in lava.
-|| Dropped by Pirates.
-}
-show-other = yes
-
----
-
-# 文档：Bee Hive
-
-- 类别：furniture
-- 标识：bee hive item
-- 来源：wiki/Bee_Hive_(item)
-
-The Bee Hive is a natural trap which spawns over time under Jungle grass ceilings of the Jungle and Underground Jungle. When a Bee Hive is hit, it falls to the ground. Upon impact, it breaks, releasing 2–5 Bees, and, on the , also has a  chance of releasing a single Hornet.
-
-On the , it can be crafted and placed manually.
-
-Crafting
-Recipe
-Notes
-If the Bee Hive falls into water, it will not release any Bees or Hornets.
-Regardless, Bee Hives can spawn in water.
-Since the Bees are spawned at the point of impact with the ground, a long fall can put them far enough from the player to be instantly despawned.
-Placed Bee Hives are not recoverable, and cannot be placed in the player's inventory.
-On the , the Bee Hive has the ability to roll before being destroyed. However, it does not deal damage to the player on contact.
-Bee Hives have a chance to drop upon  a Jungle tree. They will drop as projectiles that will break, not as collectible items.
-
-History
-
----
-
-# 文档：Benches
-
-- 类别：furniture
-- 标识：benches
-- 来源：wiki/Benches
-
-Benches are decorative furniture items that can take the place of chairs for the comfort requirement in NPC's housing.
-
-Crafting
-Recipes
-See also
-Sofa
-Chair
-
-History
-
----
-
-# 文档：Bewitching Table
-
-- 类别：furniture
-- 标识：bewitching table
-- 来源：wiki/Bewitching_Table
-
-The Bewitching Table is a furniture item that can be placed and then right-clicked () to grant the Bewitched buff, which increases the player's minion capacity by 1. . It can be found naturally-placed in the Dungeon, and in Hardmode is sold by the Witch Doctor for  if the Wizard is present or crafted by submerging an Alchemy Table in Shimmer pool.
-
-Crafting
-Recipes
-Used in
-Notes
-The Bewitching Table counts as a valid Table (Flat Surface Item) for NPC Houses.
-It counts as a Table for crafting purposes, and can be placed on tables.
-The Bewitching Table does not have an effect on sentries summoned using the Tavernkeep's summon weapons, as they are sentries, not regular minions.
-
-Trivia
-The staff on the buff icon could be a Raven Staff due to the apparent feather like purple spikes on the top, however the shape of the shaft much more closely resembles the Slime Staff sprite with what appears to be purple slime dripping off of it. Due to the fact that the buff was added after both the Raven and Slime staffs (1.3.0.1 vs 1.2.1 and 1.2) it is likely that the icon is supposed to depict an amalgamation of multiple Summoning Weapons and was purposely meant to be left ambiguous.
-
-History
-
----
-
-# 文档：Biome Chests
-
-- 类别：furniture
-- 标识：biome chests
-- 来源：wiki/Biome_Chests
-
-Biome Chests are locked Chests found within the Dungeon, which can only be opened with an appropriate Hardmode Biome Key. Each Biome Chest contains one specific rare, powerful weapon, in addition to other miscellaneous items.
-
-Only five  / four  Biome Chests (one of each type) will spawn in a particular world. Each represents a biome found in the current world. There are six  / five  types of Biome Chests in total, though a world will only contain one evil biome chest, a Crimson or Corruption variant, depending on which of those biomes the world contains. Each biome chest can be obtained by throwing its' respective biome key into a pool of shimmer.
-
-In order to open a Biome Chest, the following steps are required to take:
-
-Defeat Plantera for the first time to lift the curse from Biome Keys, allowing them to be used. As long as Plantera has not been killed, Biome Keys display the tooltip "".
-Obtain the appropriate Biome Key by killing enemies within their respective biome. On , the keys are crafted using Key Molds dropped by these enemies.
-Return to the Dungeon and find the appropriate Chest for the key that was obtained.
-You can also obtain a Biome Chests by throwing the corresponding Biome Keys into Shimmer.
-Types
-colspan="2" | Chest !! Key !! Content
-col:key =
-col:content =
-col:key =
-col:content =
-col:key =
-col:content =
-col:key =
-col:content =
-item infobox | view = item | auto = 1532 | type = Furniture / Storage | width = 2 | height = 2 | tags = Plunder
-class = multi-line
-t = Ice Chest
-Frozen Chest
-nolink = y
-
-col:key =
-col:content =
-}
-show-storage = yes
-
----
-
-# 文档：Bird Statue
-
-- 类别：furniture
-- 标识：bird statue
-- 来源：wiki/Bird_Statue
-
-Statues are furniture items. There are a total of 116 different statues: 25 decoration statues, 36 text and numerical statues, and 55 functional mechanisms that have an effect when connected to wires and activated (26 hostile, 21 passive and 8 miscellaneous). Depending on the statue, upon activation, it may spawn enemies or critters, drop items, or teleport an NPC to the statue's location. Most statues can be found already placed in any area underground (most frequently in the Dungeon, Underground Cabins, and Cavern level), though Angel Statues also appear in chests. Like all furniture, a pickaxe is used to collect them.
-
-Functional statues
-The 55 functional statues can be further categorised into 3 subtypes: 26 enemy statues, 21 critter statues and 8 other statues. These statues can be wired and activated to spawn enemies, drop items, or teleport a random NPC to their location. Statue-spawned enemies do not drop coins. Before the 1.4 update they generally would drop their other usual items at a reduced rate, with the exception of the Mimic, which does not drop any items whatsoever other than its banner, obtained after the designated amount of kills. Since the 1.4 update, this is only the case with certain statues. Aside from normal items, Slimes, Crabs, and Wall Creepers spawned from statues may also drop hearts and mana stars, potentially granting an alternative source of health and mana. Since the effects of the Life Drain and Vampire Knives work on spawned enemies, the player can build a pit with any timer spawning weak enemies to recover health during a boss fight. Statues found in Underground Cabins may be connected to Pressure Plates, and can easily spawn enemies that may kill early game players.
-
-See spawn limits (below) for limitations that apply to functional statues.
-
-Enemy statues
-+ Spawn enemies
-Statue
-Enemy
-Notes
-
-()
-
-()
-
-()
-
-()
-
-()
-
-}
-+ Spawn critters
-Statue
-Critter
-Recipe
-Notes
-
-show-main = yes
-show-other = yes
-
----
-
-# 文档：Bird Statue/cs
-
-- 类别：furniture
-- 标识：bird statue/cs
-- 来源：wiki/Bird_Statue/cs
-
-Funkční sochy
-Ze spawnutých oblud nepadají peníze, ale ostatní typické předměty jako hvězdy a srdce, (i když z Imitátorů nepadá příslušenství). Ale Zajíc nebo Zlatá rybka spawnutá během Krvavého měsíce, nebo zasažená Vile práškem se okamžitě změní ve svou nakaženou verzi (zkažený zajíc a zkažená zlatá rybka) a už se dále nepočítají jako spawnutí. Díky tomu, že zkažené obludy se nepočítají do běžného limitu sochy u spawnutých oblud, dají se sochy jednoduše využít pro vydělávání peněz.
-
-Sochy napojené na 1 Sec Časovač, nebo jakýkoli jiný, budou u sebe donekonečna spawnovat obludy. Aby se obludy spawnovaly ještě rychleji, může být socha aktivována až třemi časovači najednou, což efektivně ztrojnásobí míru spawnování. To samozřejmě vyžaduje složitější propojení obvodů (viz obrázek).
-
-Momentálně to vypadá, že se sochy objevují v hlubších Jeskynních vrstvách, nebo níže.
-
-Vytvoření předmětů
-Socha !! předmět
-Socha bomby ||  Bomba
-Socha srdce ||  Srdce
-Socha hvězdy ||  Hvězda
-
-Vytvoření nepřátel
-Socha !! Obludy !! Předměty
-Netopýří socha || Netopýr || Nic
-Ptačí socha || Pták || Nic
-Socha zajíce || Zajíc* ||  Zaječí čepice
-Socha truhly || Imitátor || Nic
-Socha kraba || krab || Nic
-Socha ryby || Zlatá rybka* ||  Zlatá rybka
-Socha medůzy || Medůza ||  Svítící tyč
-Socha piraně || Piraňa ||  Hák,  Robotí čepice
-Socha kostlivce || Kostlivec ||  Hák
-Socha slimy || Modrý Slime ||  Gel
-Během Kravého měsíce se zlatá rybka a zajíček promění ve svou zkaženou verzi a po zabití z nich padá obvyklé množství peněz.
-
-NPC Teleport
-Socha !! Efekt
-Socha Krále || Teleportuje náhodné mužské NPC na místo sochy
-Socha Královny || Teleportuje náhodné ženské NPC na místo sochy
-
-Dekorativní sochy
-Historie
-
----
-
-# 文档：Blend-O-Matic
-
-- 类别：furniture
-- 标识：blend-o-matic
-- 来源：wiki/Blend-O-Matic
-
-The Blend-O-Matic is a Hardmode crafting station that is purchased from the Steampunker for . It can be purchased  at any time of day /  only at night. Its sole purpose is to craft Asphalt Blocks which are used to run faster when walked on.
-
-Crafting
-Used to craft
-History
-
----
-
-# 文档：Blood Moon Rising
-
-- 类别：furniture
-- 标识：blood moon rising
-- 来源：wiki/Blood_Moon_Rising
-
-Paintings are decorative furniture items that can be placed on background walls. Each is a framed image that depicts a particular scene, usually Terraria-related. Their tooltips generally contain a person's name, apparently intended to credit each painting's artist; some names may be fictional, though some correspond to known Terraria sprite designers (see Trivia below).
-
-There are currently 173 paintings, 24 of which are sold by the Painter, 7 by the , 4 by the , 1 by the , 1 by the Clothier, 1 by the Truffle, and 22 are randomly sold by the Traveling Merchant. 32 paintings are found placed naturally in Underground Cabins, another 14 in the Underground Desert , 25 in the Dungeon, 12 in The Underworld, 6 from Floating Islands, 2 obtained by fishing, 1 from the Jungle Temple, 5 randomly acquired from Goodie Bags, 8 dropped by Solar Eclipse enemies, and 8 awarded randomly by the Angler for completing fishing quests.
-
-List of paintings
-From
-Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
-Buy
-Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
-desc = Golf course landscape.
-desc = A Golf Ball on a Golf Tee.
-desc = A golfer swinging.
-desc = Parody of , a well-known 1929 painting of a pipe with a caption that states "This is not a pipe" in French. This tooltip states "This is not a golf club" in French.
-
-From Painter
-Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
-Buy
-Sell
-class="unsortable" | Tooltip
-class="unsortable" | Available
-class="unsortable" | Description
-available = When Painter is in a Snow biome
-desc = Snow Biome landscape.
-available = Always
-desc = Forest landscape.
-available = When Painter is in a Crimson biome
-desc = Crimson landscape.
-available = When Painter is in a Jungle biome
-desc = Jungle landscape.
-available = During Blood Moon
-desc = Frontal view of the Eye of Cthulhu.
-available = Moon Phase 1-2
-desc = A Green Slime.
-available = Moon Phase 3-4
-desc = A Sunflower.
-available = When Painter is in a Hallow biome
-desc = Hallow landscape.
-available = When Painter is in a Corruption biome
-desc = Corruption landscape.
-available = When Painter is in Space
-desc = Floating Island landscape.
-available = When Painter is in a Desert biome
-desc = Desert landscape with Pyramid.
-available = Hardmode, when Painter is in Space
-desc = A Wyvern.
-available = Moon Phase 7-8
-desc = Forest trees.
-available = Moon Phase 5-6
-desc = A Crystal Heart.
-available = When Painter is in a Forest biome.
-desc = Grassy landscape with Bunny.
-available = During a Thunderstorm
-desc = A bolt of lightning.
-
-From Painter in a
-Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
-Buy
-Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
-desc = Reference to "", a poem by , which prominently features the phrase "nevermore".
-desc = A hand rising from the ground.
-desc = Graveyard landscape.
-desc = Based on the iconic movie poster from , a classic 1982 horror film.
-desc = Based on the movie poster from , a classic 1987 horror film.
-desc = Based on the movie poster from , a classic 1992 horror film.
-desc = A goblet filled with blood, which appears to be spilling outside the painting's frame.
-desc = A typical  painting of a bowl of fruit beside a skull.
-
-From
-Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
-Buy
-Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
-desc = A castle in a field. It is a reference to Peach's Castle as it appears in . It may also be a reference to several other games in the Mario franchise.
-desc = A painting of the Princess.
-desc = A rainbow shining from a unicorn's horn. References a popular diagram of white light splitting into a rainbow after passing through a prism, while the name references the  album .
-desc = A painting of the Stylist and the Princess.
-desc = A painting of a Gelatin Crystal. The name is a reference to other boss summon items, which often have "Suspicious" in their name, like the Suspicious Looking Eye.
-desc = A painting of the Terra Blade. References the title screen of .
-desc = An intimate painting of two royal Slimes.
-
-From Clothier
-Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
-Buy
-Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
-desc = A Terraria-themed landscape painting.
-
-From Traveling Merchant
-Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
-Buy
-Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
-desc = A Red Bulb hanging from a tree. A reference to .
-desc = Parody of the Wolfenstein 3D title screen featuring the player wearing Meteor armor and wielding a Space Gun, with a Martian in the back. The name of the painting itself might be a reference to another Wolfenstein game - .
-desc = Portrait of the Ice Queen attacking.
-desc = Portrait of Skeletron dressed as Santa Claus.
-desc = Parody of the  featuring a Martian.
-desc = Portrait of Moon Lord. The name is a reference to the  commercial.
-desc = Portrait of  from Don't Starve Together.
-desc = Portrait of  from Don't Starve Together.
-desc = Portrait of  from Don't Starve Together.
-desc =  Portrait of  from Don't Starve Together.
-desc = Snowy landscape with a Present, Christmas Tree, and a Candy Cane.
-desc = Parody of the  poster featuring Snowmen.
-desc = Martian Saucer abducting a Bunny. The name is a parody of  tagline, "The Truth is Out There". It is also a slightly different and pixelated version of the achievement, 'Tin-Foil Hatter'.
-desc =  A pizza poster featuring a female Hoplite.
-desc =  A blue tiger fursona of Marcus101RR. It's about to pounce at someone.
-desc =  The Moon Lord and Lunatic Cultist together with planets.
-desc = Yogscast's Lewis and Simon depicted as ponies, as seen in their  series "Sunshine of Israpony".
-desc = Bunnies painted in the style of pop artist ,  in particular.
-desc = Reference to a Terraria Noobie Mishaps illustration by Suweeka.
-desc = , representing light and darkness.
-desc = Portrait of content creator Kargoh.
-desc = Painting of Yogscast's Pedguin and Boba, as the Parsec Pals.
-
-From Truffle
-Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
-Buy
-Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
-desc = A portrait of the Baby Truffle pet.
-
-From
-Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
-Buy
-Sell
-class="unsortable" | Tooltip
-class="unsortable" | Availability
-class="unsortable" | Description
-desc = A portrait of the Werewolf.
-available = Sold during a Full Moon at night ().
-
-Desert Underground Cabins
-Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
-Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
-desc = A play on Terraria lead developer Andrew Spinks' name, featuring a  wearing Andrew's signature green cap.
-desc = An Antlion. May be a reference to Dune.
-desc = A Desert Spirit in darkness.
-desc = An Antlion seen from above.
-desc = A Sand Slime coming out of an hourglass. The name is a reference to the classic expression, "sands of time", correlating the passage of time with sand draining in an hourglass.
-desc = A Lamia. The name is a reference to the catchphrase spoken often by the titular character from the classic  film franchise.
-desc = Desert canyons.
-desc = Oasis landscape.
-desc = A stone tablet featuring fossils of two ammonites and what appears to be a pterosaur, without the wings.
-desc = A tablet with ancient Egyptian hieroglyphics-style etchings.
-desc = , also known as Ayers Rock, a landmark in the Australian outback.
-desc = A tourist photo-style depiction of the Traveling Merchant posing with a Pyramid, and the Sun wearing Sunglasses.
-desc = A Mummy coming out of a sarcophagus.
-desc = An interpretation of the , or "Eye of God," a version of which appears on the US $1 bill.
-
-Other Underground Cabins
-Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
-Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
-desc = Possible parody of .
-Portrait of the Demolitionist.
-desc = Depicts the Aurora Borealis.
-desc = Depicts the sword  of Norse mythology.
-desc = A depiction of a Glowing Mushroom biome.
-desc = Depiction of meowmere in the ground.
-desc = Parody of . Crowno is one of Terraria's spriters.
-desc = A player wearing Gold Armor spots a Floating Island.
-desc = Depicts some of the fairies found in the Hallow biome.
-desc = Based on . The man appears to be the Merchant.
-desc = A Pickaxe and a nugget of Gold.
-desc = Likely a reference to Norwegian artist .
-desc = Moon and stars.
-desc = Guide painted in  style.
-desc = Could be a reference to artist .
-desc = A field with 2 mountains in the back.
-desc = A set of three potions with a Blood Moon in the background.
-desc = A tree growing near some hills.
-desc = Parody of  self-portrait
-featuring the Merchant.
-desc = The Snow Biome.
-desc = Parody of  featuring the Nurse.
-desc = Person leaning on a Pickaxe.
-desc = Painting of a Scottish warrior.
-desc = Tim.
-desc = An abstract landscape.
-desc = Closeup of the Undead Miner. Its title is a reference to the phrase "strange bedfellows" referring to very different people being brought together by a shared goal, as the undead miners are also mining just like the player.
-desc = A picture of a Strange Plant. It can depict any one of the strange plants, determined when it is placed.
-desc = A portrait of the Wizard firing a Space Gun. Its title is a reference to the third of .
-desc = Based on  by .
-desc = Parody of
-featuring the Goblin Tinkerer and the Mechanic.
-desc = A Viking longboat.
-desc = Waldo from .
-Rarer than other Underground Cabin paintings. See Notes for more info.
-desc = A group of wildflowers.
-
-Dungeon
-Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
-Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
-desc = Blood Moon. Also possibly a parody of Blue Moon Rising by Simon R. Green or the song "" by American rock band .
-desc = Various Bones.
-desc = Parody of  featuring the Guide.
-desc = The Old Man.
-desc = Player battling The Destroyer.
-desc = Parody of  featuring the Dryad.
-desc = Player battling the Eye of Cthulhu.
-desc = Player facing the Brain of Cthulhu.
-desc = Two Ruined Houses surrounded by lava.
-desc = Parody of  featuring Goblins.
-desc = Reference to .
-desc = A Picture of Dungeon Guardian.
-desc = A figure hanging on a tree.
-desc = The Hallow and the Crimson colliding.
-desc = Parody of  featuring eyes.
-desc = Bird on a stationary bicycle powering a .
-Nod to Bird Engines.
-desc = Parody of  featuring a Face Monster.
-desc = A skull. A reference to  from the classic 1993 film .
-desc = Sparky Doo, Redigit and Cenx‘s deceased pet dog.
-desc = Eye of Cthulhu watching a player wearing full silver armor.
-desc = Based on .
-desc = Based on the Guide, Merchant, and Nurse designs and color.
-desc = Player battling The Twins.
-desc = Parody of
-featuring the Party Girl on a Unicorn in the Hallow.
-
-The Underworld
-Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
-Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
-desc = Reaper portrait.
-desc = The back of a  card.
-desc = A demon's eye.
-desc = Underworld landscape.
-desc = A hand reaching out from the ground. Might be based on .
-desc = A Fire Imp's face.
-desc = Lava pool under Forest land.
-desc = A piece of the Wall of Flesh.
-desc = A Reaper flying over an Underworld landscape.
-desc = Crescent moon and stars.
-desc = Bone Serpent head.
-desc = An unhappy ghost trapped in limbo.
-
-Goodie Bags
-Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
-Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
-desc = Green Slime wearing a witch hat among Pumpkins.
-desc = A vampire lady with red eyes and a cloak.
-desc = Portrait of the Mechanic's face.
-desc = Skeletron hovering over the Spiral Hill from .
-desc = A winged skeleton examines an eyeball. Possibly a tribute to the famous scene in , where Hamlet holds 's skull.
-
-Angler quest rewards
-Painting !! Name
-Placed
-Size
-Sell
-Tooltip
-Description
-desc = Pirate ship from .
-desc = A ship sailing on a blue ocean. References .
-desc = A crab holding a pirate map.
-desc = A poster depicting Duke Fishron. References .
-desc = Beach scene with fruit and cocktails.
-desc = Broken animatronic fish, resembling .
-desc = Close-up of Duke Fishron's face.
-desc = An ominous creature peering out from the depths of the sea.
-
-Floating Islands
-Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
-Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
-desc = Depiction of a flying Magical Harp.
-desc = Bunny constellation.
-desc = Reference to Banksy's Love is in the Bin.
-desc = An idol depicting the sun.
-desc = A meteor burning in the atmosphere.
-desc = Several Harpies flying in the sky.
-
-Fishing
-painting
-Name
-placed
-Size
-sell
-tooltip
-description
-
-Blood Moon Fishing
-Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
-Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
-desc = A Dreadnautilus, two Blood Squids, and a Blood Moon.
-
-Hallow Fishing
-Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
-Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
-desc =A girl handing the Meowmere to a guy on a boat. It is a reference to the Arthurian Legends of the
-Solar Eclipse Drops
-Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
-Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
-desc = Depiction of a Reaper.
-desc = The player using an eye-based beam attack.
-desc = Depiction of a Butcher. Title is a reference to .
-desc = Depiction of Mothron.
-desc = Depiction of a Possessed.
-desc = Depiction of a monochrome Eyezor in a suit. A reference to the movie Eraserhead (1977).
-desc = Depiction of an eclipsed sun.
-desc = Depiction of a Frankenstein and a Swamp Thing.
-
-Dungeon Chests
-Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
-Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
-desc = The Lunatic Cultist and four Cultists.
-
-Jungle Temple
-Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
-Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
-desc = A king lizard.
-
-New Chinese version
-Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
-Sell
-width="25%" class="unsortable" | Tooltip
-width="30%" class="unsortable" | Description
-Notes
-Heart Oil Painting
-6×4
-
-style="text-align:left" | If you stare at this painting for three seconds, you will find the feeling of heartbeat.
-XinXin Logo。
-rowspan = "3" | Obtained in the Heartbeat Event Map "Heartbeat Exhibition Hall".
-Heart Town Landscape Painting
-6×4
-
-Heart Town Center Building
-An urban building with the word "heart" and a logo, with snow-capped mountains in the distance.
-Heart Town Small Oil Painting
-2×3
-
-Heart Town is backed by snow-capped mountains, but the four seasons are like spring.
-A snow mountain.
-Pouloo Figurine
-3×3
-
-style="text-align:left" | BU BU DO DI DU DONG DA！
-TapTap customer service image "Pululu".
-rowspan = "3" | Acquired in TapTap check-ins.
-La La Photo
-6×4
-
-Unexpectedly, Mrs. Tap turned out to be a beautiful girl named Dalala
-TapTap Kanban girl "tap la la".
-Dapu Group Photo
-6×4
-
-Pululu's wish is to see Da La La's smile all the time
-A group photo of "Tala La" and "Purlulu".
-AC Niang Oil Painting Portrait
-6×4
-
-style="text-align:left" | (Limited) AcFun Oil Painting Portrait
-AcFun website avatar AC girl.
-Obtained in the "AcFun" event.
-Betta Fish Girl's Small Oil Painting
-2×3
-
-style="text-align:left" | (Limited) Oil painting portrait of fighting fish
-Douyu platform anthropomorphic image Shark Maiden.
-rowspan = "3" | Obtained in the "Douyu" event.
-Medium Oil Painting of Douyu Niang
-3×3
-
-(Limited) Douyu Linked Oil Painting
-Douyu platform anthropomorphic image Shark Maiden.
-Betta Fish Oil Painting
-6×4
-
-(Limited) Douyu Linked Oil Painting
-Douyu platform anthropomorphic image Shark Maiden.
-Huya's Small Oil Painting
-2×3
-
-style="text-align:left" | (Limited) Huya linkage oil painting
-Huya Platform Logo.
-rowspan = "3" | Obtained in the "Huya" event.
-Huya's Medium Oil Painting
-3×3
-
-(Limited) Huya linkage oil painting
-Huya Platform Logo.
-Huya Oil Painting
-6×4
-
-(Limited) Huya linkage oil painting
-Huya platform logo and anthropomorphic image of Huya platform.
-Terrary Potatoes
-6×4
-
-style="text-align:left" | On every adventure, Captain Potato will summon delicious food from the little red book to make you happy.
-Xiaohongshu platform mascot "sweet potato".
-rowspan = "3" | Obtained in the "Xiaohongshu" event.
-Rock Potato
-3×3
-
-A photo of Captain Shu enjoying the music when he formed the Little Red Book Orchestra.
-Xiaohongshu platform mascot "sweet potato".
-Potato Light
-3×3
-
-Praise the sun, let the sweet potatoes planted by Captain Potato have a bumper harvest.
-Xiaohongshu platform mascot "sweet potato".
-
-Gallery
-Notes
-The  is visually similar to Paintings and operates similarly, but is not considered a painting in the game's code. This is most likely because it has a different look, both picture and the frame, each time it is placed.
-When a painting is generated in a dungeon, the game can place 2 sizes of paintings: a 3×3 painting (2/3 chance), and a 6×4 painting (1/3 chance).
-A random number between 1 and 7 (inclusive) is chosen for the 3×3 paintings. For 6×4 paintings, a random number between 1 and 17 (inclusive) is chosen. Note that The Guardian's Gaze is rarer than the other paintings because it must be chosen in two 1 in 7 rolls to appear.
-Other decorative wall hangings include Hanging Skeleton and Wall Skeleton (both looted from the Dungeon), Trophies (dropped by Bosses), Holly (looted from Christmas Presents), Racks (crafted at the Sawmill), Animal Skins (sold by the Traveling Merchant), Compass Rose, Life Preserver, Ship's Wheel, Treasure Map and Wall Anchor (Angler quest rewards).
-Although Banners have the appearance of being wall hangings, they are not hung on the wall, but rather from blocks.
-Although the paintings "First Encounter", "Good Morning", "Through the Window" and "Underground Reward" appear to be square, their ingame size is 3 blocks wide by 2 blocks high.
-Waldo is much rarer than the other paintings that can be found in Underground Cabins. For any given painting in an Underground Cabin, there is a 32.5% chance for it to be a 2×3 painting, and out of all the 2×3 paintings, there is only a 0.49% chance for it to be Waldo. Combining these two percentages, there is only about a 0.16% chance for a painting to be Waldo.
-
-Trivia
-Some tooltip authors correspond to members of Terraria's development and testing staff:
-: Victor "Crowno" Moura (Golfer, Painter, Traveling Merchant, Underground Cabins, Dungeon, Goodie Bags)
-: Will Garner (Underground Cabins, Dungeon, Underworld)
-: Moosdijk (Dungeon)
-: Jamison Hayes (Traveling Merchant, Goodie Bags, Angler)
-: Jim T Kjexrud (Underground Cabins, Underworld)
-: Cody Burczyk (Dungeon)
-: Aaron Craig (Underworld)
-: Kolf (Underground Cabins, Dungeon)
-: Wright (Dungeon)
-: David Phelps (Underground Cabins)
-: Duncan (Underground Cabins)
-: Ness (Dungeon)
-: Leinfors (Underground Desert Cabins)
-: Aurora (Underground Desert Cabins)
-: Criddle (Underground Desert Cabins)
-: Darthkitten (Underground Desert Cabins)
-: darthmorf (Underground Desert Cabins)
-: Khaios (Underground Desert Cabins)
-: UnitOne (Underground Desert Cabins)
-: Xman101 (Underground Desert Cabins)
-: Zoomo (Underground Desert Cabins)
-: Klei Entertainment (Traveling Merchant), developers of Don't Starve
-The desert paintings are named after the testers that created the art for those paintings.
-The frames on the paintings generally correspond to a wood or block.
-
-History
-
----
-
-# 文档：Blood Zombie Statue
-
-- 类别：furniture
-- 标识：blood zombie statue
-- 来源：wiki/Blood_Zombie_Statue
-
-Statues are furniture items. There are a total of 116 different statues: 25 decoration statues, 36 text and numerical statues, and 55 functional mechanisms that have an effect when connected to wires and activated (26 hostile, 21 passive and 8 miscellaneous). Depending on the statue, upon activation, it may spawn enemies or critters, drop items, or teleport an NPC to the statue's location. Most statues can be found already placed in any area underground (most frequently in the Dungeon, Underground Cabins, and Cavern level), though Angel Statues also appear in chests. Like all furniture, a pickaxe is used to collect them.
-
-Functional statues
-The 55 functional statues can be further categorised into 3 subtypes: 26 enemy statues, 21 critter statues and 8 other statues. These statues can be wired and activated to spawn enemies, drop items, or teleport a random NPC to their location. Statue-spawned enemies do not drop coins. Before the 1.4 update they generally would drop their other usual items at a reduced rate, with the exception of the Mimic, which does not drop any items whatsoever other than its banner, obtained after the designated amount of kills. Since the 1.4 update, this is only the case with certain statues. Aside from normal items, Slimes, Crabs, and Wall Creepers spawned from statues may also drop hearts and mana stars, potentially granting an alternative source of health and mana. Since the effects of the Life Drain and Vampire Knives work on spawned enemies, the player can build a pit with any timer spawning weak enemies to recover health during a boss fight. Statues found in Underground Cabins may be connected to Pressure Plates, and can easily spawn enemies that may kill early game players.
-
-See spawn limits (below) for limitations that apply to functional statues.
-
-Enemy statues
-+ Spawn enemies
-Statue
-Enemy
-Notes
-
-()
-
-()
-
-()
-
-()
-
-()
-
-}
-+ Spawn critters
-Statue
-Critter
-Recipe
-Notes
-
-show-main = yes
-show-other = yes
-
----
-
-# 文档：Blue Berries
-
-- 类别：furniture
-- 标识：blue berries
-- 来源：wiki/Blue_Berries
-
-Blue Berries are a dye material that can be collected from any Grass block by destroying a blueberry bush with a Pickaxe or Drill. Its sole purpose is to make Blue Dye. Placed Blue Berries have the appearance of a blueberry bush.
-
-Crafting
-Used in
-Notes
-Although Blue Berries are available in placed form on the , breaking one never yields an item.
-Although Blue Berries appear to be a "berry", they cannot be eaten or consumed in any way, and are solely used for decoration and making blue dye.
-Blue Berries cannot be placed in front of background walls. Placing background walls after Blue Berries will not break the berries.
-
-History
-
----
-
-# 文档：Blue Brick Platform
-
-- 类别：furniture
-- 标识：blue brick platform
-- 来源：wiki/Blue_Brick_Platform
-
-Platforms are a special type of block that can be walked on, but also allow movement through the space they occupy. The player normally stands and walks on platforms as if they were ordinary blocks, and they can move down through a platform by pressing the  key while standing on one. Players can also walk or jump horizontally through the space occupied by platforms, only treating the platform as "solid" when landing on them from above.
-
-Walking enemies can similarly walk on or pass through platforms. Flying enemies like bats will fly up through them, but not down. Other enemies, including Harpies, ignore them entirely. NPCs will always climb up platforms.
-
-Weapons and their projectiles will travel through platforms. Liquids flow through platforms, and lava will destroy all platforms upon contact, with the exception of Obsidian and  Stone Platforms. Gravity-affected blocks like Sand will be supported by platforms.
-
-Because of the high mobility provided by platforms, they can be used in a variety of ways: as a bridge across gaps that players can descend through without destroying, for roof access that keeps some enemies from getting through, or to create a fighting area above most enemies that players can fire down through while keeping out of reach. Also, since Piggy Banks, Chests, crafting stations and most other furniture can be placed on them like on ordinary blocks (exceptions include gems and Crystal Shards), they can be used as a shelving to pack furniture into a confined space without restricting player movement.
-
-Positioning platforms
-A platform has four distinct positions, which can be cycled through by hitting it with a hammer, similarly to an ordinary block:
-In the default or "top" position, it occupies the top half of a block space. Only in this position can furniture be placed on top of it. This includes a Bottle (or similar), which will count as a Placed Bottle for crafting potions.
-After one hammer blow, it will change to the slanted stairs form, facing right. It may also show "struts" beneath the slanted part depending on adjacent blocks, but this is purely visual.
-A second hammer blow will switch it to stairs facing left.
-A third hammer blow will move it to its "bottom" position, horizontal but lowered to the bottom half of the block. Only in this position, banners (and some other hanging items) can be attached beneath them. However,  chandeliers or lanterns will not attach there(In 1.4.4, you can place banners on platforms in the default position, although chandeliers are still unplaceable until they are in the lower position).
-
-A fourth hammer blow will cycle the platform back to its default position. Only one platform can occupy a single block tile, so there cannot be top and bottom platforms in the same tile.
-
-Stairs
-Stairs can face either direction, regardless of what side of a block they are on. Walking up stairs in the direction they face will raise the player as expected, but walking towards stairs facing away from the player will not have any effect. As with normal platforms, pressing  will cause stairs to be ignored. Nothing can be placed on stairs. Smart Cursor can be used to place stairs without having to hammer the platforms into the correct state.
-
-Crafting
-Recipes
-Used in
-On the , platforms are crafted from only one block of their respective type.
-
-Noncraftable platforms
-Team Platforms are sold by the Traveling Merchant. Golden Platforms are dropped during the Pirate Invasion. All other noncraftable platforms are found in the Dungeon.
-
-colspan=2 | Platform
-Notes
-tags = plunder
-col:notes = Found in the Dungeon.
-(Noncraftable on )
-tags = plunder
-col:notes = Found in the Dungeon.
-(Noncraftable on )
-tags = plunder
-col:notes = Found in the Dungeon.
-(Noncraftable on )
-tags = plunder
-col:notes = Found in the Dungeon.
-(Noncraftable on )
-tags = plunder
-col:notes = Found in the Dungeon.
-(Noncraftable on )
-tags = plunder
-col:notes = Found in the Dungeon.
-(Noncraftable on )
-tags = plunder
-col:notes = Found in the Dungeon.
-(Noncraftable on )
-tags = buy/vendor:Traveling Merchant
-col:notes = Sold by the Traveling Merchant.
-tags = buy/vendor:Traveling Merchant
-col:notes = Sold by the Traveling Merchant.
-tags = buy/vendor:Traveling Merchant
-col:notes = Sold by the Traveling Merchant.
-tags = buy/vendor:Traveling Merchant
-col:notes = Sold by the Traveling Merchant.
-tags = buy/vendor:Traveling Merchant
-col:notes = Sold by the Traveling Merchant.
-tags = buy/vendor:Traveling Merchant
-col:notes = Sold by the Traveling Merchant.
-tags = drop
-col:notes = Dropped by Pirates.
-}
-show-main = yes
-show-other = yes
-show-blocks = yes
-
----
-
-# 文档：Blue Dungeon Bed
-
-- 类别：furniture
-- 标识：blue dungeon bed
-- 来源：wiki/Blue_Dungeon_Bed
-
-Beds are furniture items which allow the player to set a new spawn point,  or to sleep, which makes time pass 5 times faster, and gives a boost to health regeneration, similar to chairs and sofas. Beds fulfill the chair requirement for the purposes of housing. Beds have two separate sections which can be interacted with via . Interacting with the head of a bed causes the player to enter the bed and sleep. Interacting with the foot half of a bed, when it is placed in a valid House, changes the player's spawn point.
-
-Like most other furniture, the direction a bed is placed in depends on the direction the player is facing when placing it.
-
-There are currently  35 /  27 craftable beds and 5 that can be acquired from the environment. All beds are functionally identical, and differ only in appearance.
-
-Sleeping
-If the player hovers the cursor over the bed it will produce . Pressing  on the head of a bed causes the player to lie down and sleep (indicated by their eyes closing), which accelerates time by five times its normal rate (1 hour of in-game time, which would usually take 1 minute of real-life time, takes only 12 seconds while sleeping). This affects game time, including watches, the sun and moon, plant growth, and background animations (but not buff timers, NPC movement or other animations).
-
-It is not possible to sleep during invasion events, including Blood Moons, Solar Eclipse and Lunar Events, or when an Enchanted Sundial is advancing time.
-Sleeping does not affect potion cooldowns or durations. However, it does give a boost on health regeneration. The latter effect is shared with chairs and sofas.
-Time acceleration in multiplayer requires that all players be asleep.
-While sleeping, some actions involving the key will not cause the player to open their eyes, nor does it cause time to revert to normal.
-As a general rule of thumb, most actions involving the  key will not cause the player's eyes to open.
-Holding, but not using, items such as Torches and Umbrellas in the player's hand, will not cause the player to open their eyes.
-While sleeping, some actions will cause the player's eyes to open, and the accelerated time to revert to normal, but will not kick the player out of bed.
-If an item that can aim (like a gun, spell, or summon) is used, the player can attack while lying down as long as they aim at a 0° to 180° angle (an arc above the character). Other items that can aim (like a flail, drill, shortsword) must be used at -90° to 90° (an arc facing the player's feet).
-Placing blocks or wire will only open the character's eyes.
-Using Wire Cutters or a Grand Design to break wires is allowed.
-The only way to destroy blocks without getting out of bed entirely is to use some form of explosives.
-Getting hit by an enemy, breaking blocks, or pressing any movement keys will cause the player to get out of bed, and time to revert to normal.
-
-Setting player spawn point
-Pressing  on the foot of a bed, when it is placed in a valid house, sets the player's spawn point to that bed. This is signified by the status message "" When the same is done on a bed that has already been set as the player's spawn point, the status message "" is shown, and the player's spawn point is set back to the world's default.
-
-For a bed to function properly as a spawn point, it must be in a valid house. Other than the bed itself, no other furniture or lighting is required. There must also be clear space at the head of the bed for the player to stand. A bed may be placed in a non-rectangular room, as long as the leftmost 3 tiles immediately above it are left clear.
-
-For example: There may be a bed (4×2) surrounded by blocks on the left, right, and bottom, and above the foot of the bed, as long as there is space for the player to spawn at the head of the bed.
-
-The top-left 3 tiles just above the bed are clear. The mirror image of this arrangement is also valid.
-
-Crafting
-Recipes
-Noncraftable Beds
-colspan=2 | Bed !! Notes
-|| Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in Ruined houses, does not disappear in lava.
-|| Dropped by Pirates.
-}
-show-other = yes
-
----
-
-# 文档：Blue Dungeon Bookcase
-
-- 类别：furniture
-- 标识：blue dungeon bookcase
-- 来源：wiki/Blue_Dungeon_Bookcase
-
-Bookcases are crafting stations used for the creating of three Hardmode Magic Weapons: Crystal Storm, Cursed Flames and Golden Shower. Bookcases can also be used as decorative Furniture, and fulfill a House's Flat Surface Item requirement. A Bottle (or similar) can be placed on one and used as a Placed Bottle for crafting Potions.
-
-There are currently 35 craftable Bookcases, and 6 versions looted from the environment: 1 from the Underworld, 4 from the Dungeon, and 1 from the Pirate Invasion. Some bookcases can also be found in Underground Cabins; their style follows the theme of the cabin where they are found.
-Crafting
-Recipes
-Noncraftable Bookcases
-colspan=2 | Bookcase !! Notes
-col:notes = Found in the Dungeon.
-col:notes = Found in the Dungeon.
-col:notes = Found in the Dungeon.
-col:notes = Found in the Dungeon.
-col:notes = Found in Ruined houses, does not break from lava.
-col:notes = Dropped by Pirates.
-}
-show-other = yes
-
----
-
-# 文档：Blue Dungeon Candle
-
-- 类别：furniture
-- 标识：blue dungeon candle
-- 来源：wiki/Blue_Dungeon_Candle
-
-The Candle is a piece of Furniture that produces light. It can be placed on Tables, Platforms, Crates or Work Benches. Candles will produce light underwater if placed, and can be toggled on and off by mechanisms.
-
-The Water Candle is a special type of candle found in Dungeons. It increases enemy spawn rate by 33% and maximum number of simultaneous on-screen enemies by 50% when placed or held, and can be turned off ( ). Multiple placed candles do not stack, but the bonuses from holding and placing a candle do. The Peace Candle reduces enemy spawn rate in contrast to the Water Candle. There are currently 37 craftable Candles, and 5 non-craftable Candles: 3 from the Dungeon, 1 from the Ruined House, and 1 from the Pirate Invasion. With a total of 42 Candles.
-
-Crafting
-Recipes
-Noncraftable Candles
-colspan=2 | Candle !! Notes
-|| Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in Ruined Houses, does not break from lava.
-|| Dropped by Pirates.
-
-Notes
-The Water Candle can be placed underwater.
-The Water Candle will not give off light underwater if held in one's hand.
-The Water Candle's effects stack with those of the Battle Potion and the Blood Moon.
-The Skull Lantern appears to be the "bone" version of the candle, and its most notable difference is its size. While candles measure 1×1, the Skull Lantern measures 2×2. The Skull Lantern cannot be toggled on and off with mechanisms.
-The Large Dynasty Candle, despite its name, is not a candle but a candelabra.
-The Cactus Candle somewhat resembles the Pink Prickly Pear.
-
-History
-
----
-
-# 文档：Blue Dungeon Chair
-
-- 类别：furniture
-- 标识：blue dungeon chair
-- 来源：wiki/Blue_Dungeon_Chair
-
-Chairs are furniture items which can be placed on the ground. They count as a comfort item, which is one of the required elements in order to make a house suitable for an NPC. In combination with a Work Bench or a Table, they also form minor crafting stations.
-
-Players can sit in chairs by using  on them and get a boost on health regeneration, similar to beds and sofas. NPCs can sit on chairs too.
-
-All chairs are 1 tile wide, 2 tiles high, and must be placed on top of a solid block or platform.
-
-Also see , which also fulfills a house's comfort item requirement. Including the Throne and Bar Stool, there are  44 /  36 /  28 /  25 varieties of chairs.
-
-Crafting
-Recipes
-Noncraftable Chairs
-colspan=2 | Chair !! Notes
-
-Furniture found in the Dungeon.
-
-Furniture found in the Dungeon.
-
-Furniture found in the Dungeon.
-
-Furniture found in the Dungeon.
-
-Found in Ruined Houses, does not break from lava.
-
-Dropped by Pirates. Sell for .
-}
-show-other = yes
-
----
-
-# 文档：Blue Dungeon Door
-
-- 类别：furniture
-- 标识：blue dungeon door
-- 来源：wiki/Blue_Dungeon_Door
-
-Doors are furniture items that prevent enemies from entering an area when closed. Players can open them by pressing the  on them. Doors can be placed in any space so long as it is exactly three blocks high, with ceiling and floor blocks.
-
-Friendly NPCs will open and close doors during the day as they wander about.
-
-Enemies that follow the Fighter AI can open doors, with a few exceptions. Additionally, Goblin Peons can remove doors entirely on contact, while Angry Bones and Butchers can open them with one hit.
-
-Doors can also be opened and closed via Wires. If you put wire on the door's hinge, then the wiring will toggle the door's closed/open state upon activation, but if you put wires on the side tiles, where the door opens, then the wiring will only close the door.
-
-The Lihzahrd Door occurs naturally at the entrance to the Jungle Temple, and initially requires a Temple Key to open. Once unlocked, it can be freed with a pickaxe or drill, and placed again by the player like any other door. Lihzahrd Doors can also be crafted, but their crafting station can only be obtained after opening the initial door, and the ingredients require the Picksaw (or better) to mine, which is dropped by Golem. Destroying the blocks either above or below a locked Lihzahrd Door does not destroy it.
-
-Apart from the standard doors listed here, there also exist Trap Doors and Tall Gates, which behave similarly. Every block in the game can also be used like a (Switch-toggled) door via Actuators.
-
-There are currently  39 /  30 /  22 /  19 craftable and 6 noncraftable types of doors which must be looted from various locations in the world.
-
-Crafting
-Recipes
-Noncraftable doors
-colspan=2 | Door !! Notes
-col:notes = Furniture found in the Dungeon.
-col:notes = Furniture found in the Dungeon.
-col:notes = Furniture found in the Dungeon.
-col:notes = Furniture found in the Dungeon.
-col:notes = Found in Ruined houses, does not disappear in lava.
-col:notes = Dropped by pirates. Sell for .
-}
-show-other = yes
-
----
-
-# 文档：Blue Dungeon Dresser
-
-- 类别：furniture
-- 标识：blue dungeon dresser
-- 来源：wiki/Blue_Dungeon_Dresser
-
-The Dresser is a piece of decorative furniture and  a storage item. It will also fulfill a house's "flat surface item" requirement, and a Bottle can be placed on top of it to function as a crafting station for potions.
-
-Currently, there are  35 /  27 craftable versions, and 5 noncraftable versions which must be looted from various locations in the world.
-
-Utility
-Hovering over the top half of a dresser displays a small dresser icon (or, if it was renamed, its name). Pressing the  button there opens the dresser like a chest, with the same amount of storage space and ability to be renamed.
-
-Hovering over the bottom half of a dresser displays a small shirt icon (or, if it was renamed, its name in front of the shirt icon). Pressing the  button there opens a prompt that allows the player to recolor their default clothing. This interface contains separate hue, saturation, and lightness settings for each of four character body sections: torso, sleeves, pants, and footwear. The coloration only applies to the player's default clothing; in order to recolor armor, accessories or vanity items, dyes must be used instead. Clothes can be changed repeatedly and limitlessly at no cost. This interface can be used to change one's default clothing between the options available at character creation by clicking on the character in the tall box.
-
-Crafting
-Recipes
-Noncraftable Dressers
-Dresser !! Notes
-|| Found in a Blue Dungeon.
-|| Found in a Green Dungeon.
-|| Found in a Pink Dungeon.
-|| Found in Ruined houses, does not break from lava.
-|| Dropped by pirates.
-}
-show-other = yes
-
----
-
-# 文档：Blue Dungeon Table
-
-- 类别：furniture
-- 标识：blue dungeon table
-- 来源：wiki/Blue_Dungeon_Table
-
-Tables are furniture items which can be placed on the ground, commonly used in conjunction with chairs. They count as a flat surface item, which is one of the required elements in order to make a house for an NPC. They can also form a crafting station when combined with a chair.
-
-There are  40 /  30 craftable tables, and 6 tables that must be looted from specific areas within the world. Some tables can also be found in Underground Cabins, in which they follow the theme of the cabin they are in.
-
-Recipes
-Lihzahrd Tables can also be looted from the Jungle Temple, Living Wood Tables from Living Trees, and Skyware Tables from Floating Islands.
-
-Noncraftable Tables
-colspan=2 | Table !! Notes
-col:notes = Furniture found in the Dungeon.
-col:notes = Furniture found in the Dungeon.
-col:notes = Furniture found in the Dungeon.
-col:notes = Furniture found in the Dungeon.
-col:notes = Found in Ruined houses, does not break from lava.
-col:notes = Dropped by Pirates. Sell for .
-}
-show-other = yes
-
----
-
-# 文档：Blue Dungeon Vase
-
-- 类别：furniture
-- 标识：blue dungeon vase
-- 来源：wiki/Blue_Dungeon_Vase
-
-Vases are non-craftable furniture items. They can be found either in the Dungeon or the Underworld and can be mined with any pickaxe or drill.
-
-Types
-colspan=2 | Vase !! Placed !! Tile ID !! Notes
-
-History
-
----
-
-# 文档：Blue Dungeon Work Bench
-
-- 类别：furniture
-- 标识：blue dungeon work bench
-- 来源：wiki/Blue_Dungeon_Work_Bench
-
-Work Benches are a type of crafting station required to craft many essential early-game items. They are also one possible way to fulfill a house's flat surface item requirement. Bottles, Pink Vases, and Mugs can be placed on it and used as a Placed Bottle for crafting potions. The Work Bench is the first crafting station the player can make in the game, and one of the first items overall.
-
-There are  34 /  26 types of Work Benches which can be crafted, and 7 types which must be picked up from areas such as the Dungeon. Some Work Benches can also be found in Underground Cabins, in which they follow the theme of the cabin they are found in.
-
-Crafting
-Recipes
-Noncraftable Work Benches
-colspan = 2 | Work Bench !! Notes
-col:notes = Furniture found in the Dungeon.
-col:notes = Furniture found in the Dungeon.
-col:notes = Furniture found in the Dungeon.
-col:notes = Furniture found in the Dungeon.
-col:notes = Furniture found in the Jungle Temple.
-col:notes = Furniture dropped during the Pirate Invasion.
-col:notes = Found in Ruined Houses, does not break from lava.
-}
-show-main = yes
-show-craft = yes
-
----
-
-# 文档：Bomb Statue
-
-- 类别：furniture
-- 标识：bomb statue
-- 来源：wiki/Bomb_Statue
-
-Statues are furniture items. There are a total of 116 different statues: 25 decoration statues, 36 text and numerical statues, and 55 functional mechanisms that have an effect when connected to wires and activated (26 hostile, 21 passive and 8 miscellaneous). Depending on the statue, upon activation, it may spawn enemies or critters, drop items, or teleport an NPC to the statue's location. Most statues can be found already placed in any area underground (most frequently in the Dungeon, Underground Cabins, and Cavern level), though Angel Statues also appear in chests. Like all furniture, a pickaxe is used to collect them.
-
-Functional statues
-The 55 functional statues can be further categorised into 3 subtypes: 26 enemy statues, 21 critter statues and 8 other statues. These statues can be wired and activated to spawn enemies, drop items, or teleport a random NPC to their location. Statue-spawned enemies do not drop coins. Before the 1.4 update they generally would drop their other usual items at a reduced rate, with the exception of the Mimic, which does not drop any items whatsoever other than its banner, obtained after the designated amount of kills. Since the 1.4 update, this is only the case with certain statues. Aside from normal items, Slimes, Crabs, and Wall Creepers spawned from statues may also drop hearts and mana stars, potentially granting an alternative source of health and mana. Since the effects of the Life Drain and Vampire Knives work on spawned enemies, the player can build a pit with any timer spawning weak enemies to recover health during a boss fight. Statues found in Underground Cabins may be connected to Pressure Plates, and can easily spawn enemies that may kill early game players.
-
-See spawn limits (below) for limitations that apply to functional statues.
-
-Enemy statues
-+ Spawn enemies
-Statue
-Enemy
-Notes
-
-()
-
-()
-
-()
-
-()
-
-()
-
-}
-+ Spawn critters
-Statue
-Critter
-Recipe
-Notes
-
-show-main = yes
-show-other = yes
-
----
-
-# 文档：Bomb Statue/cs
-
-- 类别：furniture
-- 标识：bomb statue/cs
-- 来源：wiki/Bomb_Statue/cs
-
-Funkční sochy
-Ze spawnutých oblud nepadají peníze, ale ostatní typické předměty jako hvězdy a srdce, (i když z Imitátorů nepadá příslušenství). Ale Zajíc nebo Zlatá rybka spawnutá během Krvavého měsíce, nebo zasažená Vile práškem se okamžitě změní ve svou nakaženou verzi (zkažený zajíc a zkažená zlatá rybka) a už se dále nepočítají jako spawnutí. Díky tomu, že zkažené obludy se nepočítají do běžného limitu sochy u spawnutých oblud, dají se sochy jednoduše využít pro vydělávání peněz.
-
-Sochy napojené na 1 Sec Časovač, nebo jakýkoli jiný, budou u sebe donekonečna spawnovat obludy. Aby se obludy spawnovaly ještě rychleji, může být socha aktivována až třemi časovači najednou, což efektivně ztrojnásobí míru spawnování. To samozřejmě vyžaduje složitější propojení obvodů (viz obrázek).
-
-Momentálně to vypadá, že se sochy objevují v hlubších Jeskynních vrstvách, nebo níže.
-
-Vytvoření předmětů
-Socha !! předmět
-Socha bomby ||  Bomba
-Socha srdce ||  Srdce
-Socha hvězdy ||  Hvězda
-
-Vytvoření nepřátel
-Socha !! Obludy !! Předměty
-Netopýří socha || Netopýr || Nic
-Ptačí socha || Pták || Nic
-Socha zajíce || Zajíc* ||  Zaječí čepice
-Socha truhly || Imitátor || Nic
-Socha kraba || krab || Nic
-Socha ryby || Zlatá rybka* ||  Zlatá rybka
-Socha medůzy || Medůza ||  Svítící tyč
-Socha piraně || Piraňa ||  Hák,  Robotí čepice
-Socha kostlivce || Kostlivec ||  Hák
-Socha slimy || Modrý Slime ||  Gel
-Během Kravého měsíce se zlatá rybka a zajíček promění ve svou zkaženou verzi a po zabití z nich padá obvyklé množství peněz.
-
-NPC Teleport
-Socha !! Efekt
-Socha Krále || Teleportuje náhodné mužské NPC na místo sochy
-Socha Královny || Teleportuje náhodné ženské NPC na místo sochy
-
-Dekorativní sochy
-Historie
 
 ---
 
@@ -27966,29 +24780,6 @@ History
 
 ---
 
-# 文档：Bottle
-
-- 类别：furniture
-- 标识：bottle crafting station
-- 来源：wiki/Bottle_(crafting_station)
-
-The Placed Bottle functions as a crafting station for potions.ok
-
-Any of the following will function as this crafting station, as long as they are placed on a flat item of furniture: Any Platform, Table, Dresser, Work Bench, Bookcase, Piano, Fireplace, or the Tinkerer's Workshop.
-
-The  from the Dungeon also crafts potions, but has improved functionality as it also offers a  chance of not consuming a particular crafting ingredient.
-
-Crafting
-Used to craft
-Notes
-Where a Placed Bottle is required for crafting, the Guide will list the required crafting station as "Bottle".
-Lesser Healing and Mana Potions placed as crafting stations are spawned at world generation, and are not place-able by the player in certain versions. They can be crafted by the player since Labor of Love at the Heavy Work Bench.
-Tips
-While the Alchemy Table is more resource-efficient to use, the Placed Bottle is easier to obtain.
-History
-
----
-
 # 文档：Bow Statue
 
 - 类别：furniture
@@ -28265,52 +25056,6 @@ Paint can be applied to pressure plates to make them nearly invisible, e.g. for 
 Since they are regular projectiles, Falling Stars can activate Teal Pressure Pads.
 
 History
-
----
-
-# 文档：Bubble
-
-- 类别：furniture
-- 标识：bubble
-- 来源：wiki/Bubble
-
-Bubbles are animated background furniture blocks, which have special behavior regarding liquids, interacting as if the bubble was a solid block. When bubbles are placed together in groups, they connect to make a larger bubble or more complex structures.
-
-Bubbles are purchased from the Party Girl for  each, after the world enters Hardmode.
-
-Grates function as the opposite of bubbles, acting as solid blocks but allowing liquids to flow through.
-
-Behavior
-The only blocks that can be attached to placed bubbles are other bubbles (unless there is a background wall present). Bubbles cannot be hammered into half-blocks, and are thus unable to produce Waterfalls. Actuators do not affect bubbles.
-
-Liquids will collide with bubbles as if they were solid blocks. Structures made of bubbles can be used to contain liquids just like blocks.
-If you use bubbles to create a Lava pool, coins and other burnable objects will be destroyed when contacting the Lava, no matter how thin the Lava is. This may be because instead of "hitting bottom", items pass through the bubble floor, until they are deep enough in the lava to burn.
-Bubbles can also keep liquids "inside" them, just as solid blocks can trap liquids they were placed over. The liquid cannot be seen inside the bubble, so empty bubbles and filled bubbles appear the same, however it can be interacted with:
-Clicking on an empty bubble with a full Bucket will place the bucket's contents into the bubble. The liquid can be removed again with an empty bucket. Removing the filled bubble (e.g., with a pickaxe) will free the liquid, causing it to fall (or react with other liquids).
-Each tile of bubble holds its liquid separately; even if the bubbles appear to be joined, the liquid will not flow among them, nor interact with liquid in other bubble tiles. A 2x2 bubble square may look like a single larger bubble, but it can hold water, lava, and honey in separate tiles without letting them react.
-Bubbles with a liquid inside of them will act just as if they were their respective liquid. For example, it is possible to swim and drown in a water filled bubble.
-Liquid in bubbles can react with a (slower) "free" liquid above or next to it. This will always consume the entire contents of the bubble tile, and however much was in the other tile.
-Liquid stored in bubbles will be released (and allowed to fall) when reloading the world. (So care should be taken when storing Lava in bubbles.)
-Liquid that is supported/confined by bubbles (but not contained in bubble tiles as described above) will remain in place.
-
-Notes
-Although bubbles are not solid blocks, they are still considered valid blocks for housing. Although NPCs can be assigned housing that uses bubble blocks, the NPC will move out of their own accord.
-Although NPCs will walk through empty bubbles, and bubbles filled with Water or Honey, they don't appear to walk through Lava-filled bubbles. Critters and enemies will walk through Lava-filled bubbles, though.
-Bubble items (that is, dropped rather than placed) are of White rarity, and so can be burned by lava. (See also the warning above about bubble-supported lava pools.)
-
-Tips
-Once placed, surrounding blocks and background walls can be removed, leaving a free-standing bubble.
-A liquid-filled bubble and a Liquid Sensor can be used for a "reload detector", allowing complex circuits or machines to be restarted on world load. However, the bubble will need to be manually reloaded before the next restart.
-Honey-filled bubbles are perfect for honey buff pickups for arenas. Create a bubble house for easy access to the Nurse for additional healing in a hurry.
-Care should be taken with setting lava traps for flying enemies, as the Lava will kill flying Critters as well. Water will give players the "wet" buff when mounting Cute Fishron, if the player makes several bubbles of water around their world, they could be able to travel at high speeds using the Cute Fishron.
-Players can walk on Water-filled or Honey-filled bubbles using any Water Walking Boots.
-In adventure-themed Terraria maps, bubbles can be used as a filter to any liquid, including lava (for any particular part of the map where you have to get away from an incoming lava stream).
-Liquid stored in a bubble can react with a different liquid that comes into contact with the bubble, producing the contact-created blocks (Honey Block, Obsidian, or Crispy Honey Block):
-The slower-moving liquid can be poured over the bubble containing the faster liquid., producing a block next to the bubble. (Honey is slower than Lava, and Lava slower than Water.) The bubble will be emptied, but not all of the poured liquid will be consumed. The poured liquid must be the slower one; if, say, a water bucket is poured over a Honey-filled bubble, no block is created, and no liquid is consumed.
-If two adjacent (side-by-side) bubbles are filled with different liquids, then a pickaxe can easily remove the Bubble with the slower-moving liquid. An appropriate block will be crafted. consuming both liquids. For example, if one bubble is filled with honey, and an adjacent (to the left or right) bubble with water, and the honey-filled bubble is then removed with a pickaxe, a Honey Block will be crafted.
-
-History
-References
 
 ---
 
@@ -29575,99 +26320,6 @@ colspan=2 | Chandelier !! Notes
 || Dropped by Pirates.
 }
 show-light = yes
-
----
-
-# 文档：Copper Coin
-
-- 类别：furniture
-- 标识：copper coin
-- 来源：wiki/Copper_Coin
-
-Coins are the main unit of currency in Terraria. They are primarily used for NPC transactions, but can also be used as ammunition for the Coin Gun. Terraria's currency is made of four different metals making four types of coins: Copper Coins, Silver Coins, Gold Coins, and Platinum Coins.
-
-Coins can be obtained by killing enemies, interacting with NPCs, finding them in multiple forms of loot, or shaking trees. Despite coins appearing as the materials "Copper", "Silver", "Gold", or "Platinum", they are not related to their respective ore types and cannot be crafted from them.
-
-The coin value an enemy drops upon death is calculated from fixed values in the game code, with some random variation. See NPC drops § Coin drops for further information.
-
-Types
-colspan=2 | Coin
-Placed
-Tile ID
-Damage
-Velocity
-colspan=2 | Projectile
-col:item =
-col:item =
-col:item =
-col:item =
-
-Storage
-Inside the player's inventory, coins have their own special slots, although it is possible to move them into normal inventory slots.
-Coins picked up from the environment, or "shift-clicked" from a storage item, will automatically combine into their higher denominations, if possible.
-For example, if the player picks up 100, they will end up with  in their inventory instead.
-Similarly, a player holding  and picking up another 15, will end up with .
-Using "Quick Stack" on an open Piggy Bank, Money Trough, Safe or  (collectively, a "bank"), gives special behavior: If there is already at least one coin (of any value) in the bank, all coins in the player's main inventory and coin slots will be moved to the bank. All coins moved, and all coin stacks in the bank, will be combined into the highest possible denominations and minimum number of stacks.
-Using "Quick Stack To Nearby Chests" will send coins to nearby banks, combining them into higher denominations where possible.
-Using "Quick Stack" (or "Quick Stack To Nearby Chests") on a storage item, like a chest, will treat coins like any other item, and will not move coins from the player's coin slots.
-However, coins do not auto-combine when manually moved into a storage item; if there is no room in the storage item, some will be left in the player's hand or coin slots. Stacks of 100 coins should then be manually crafted into the next denomination. (See also the warning below regarding Deposit All.)
-In the early game, before receiving a bank, it may be inevitable to store coins in a chest. Deposit All does place coins, but if the chest is already full when pressing Deposit All, higher denominations may be destroyed if a stack for that coin does not exist.
-Coins may be spent in NPC transactions directly from the player's banks.
-
-Drops upon death
-Upon a player's death in Classic (Softcore ) difficulty (the default mode), half of all () () of the stacks of coins in a player's inventory are dropped, rounded up to the nearest whole coin. For example, if the player possesses  in one stack, it will be dropped. If the player has , 5, , or  will be dropped.
-Upon player death in  or , all coins are dropped, regardless of how the player died.
-Being killed by a player-wielded weapon will not cause the player to drop any coins in Softcore, even if recently damaged by an enemy.
-This includes accidentally blowing oneself up with explosives.
-Forms of accidental death, such as fall damage or Chaos State, will cause coins to drop.
-Dying from the player's own projectile after having it reflected by an enemy (such as a ) will also result in coins being dropped.
-In , enemies can pick up coins dropped by enemies or players. If said enemy despawns, their location will be saved on the map, and they will respawn in that area. This effect will only occur above . Enemies holding dropped coins emit a sparkle effect based on the color of the best coin they are holding. On , the location will be marked by a coin icon on the minimap, and hovering the cursor over / tapping the icon will show the exact amount of coins the enemy is carrying.
-
-Crafting
-Recipes
-Used in
-Notes
-Coins have their damage values (from a Coin Gun) listed, and are listed as ammo.
-have a rare chance to be opened by Pots.
-In addition to the coins most slimes already drop, coins have a small chance to appear as a .
-Silver Coin Piles can sometimes be found in the Underground and Caverns in a , often accompanied by a Campfire and a background object of skeletal remains and in a Pyramid.
-
-Tips
-Coins can be researched in Journey Mode. Although tedious, players can duplicate 100 copper and work their way up the denominations until they reach 9999 platinum.
-A sure way to achieve this is to research Gold or Platinum bars, then sell them in stacks of 9999.
-
-Trivia
-Copper, Silver, and Gold Coins are the only items that can have a max stack of 100.
-often spawn in the Underworld due to the large amount of pots.
-Due to the transaction properties of portable storage, the maximum amount of money that a player can be considered to be able to spend at one time is exactly   (40 stacks in Piggy Bank (or ) + 40 in Safe + 40 in  + 54 in inventory, with each stack containing ). This ID outdated due to stack size now being 9999 in the 1.4.4 update. However, if you include the player's ability to pick up coins off of the ground this number could theoretically be infinite. This would have to be accomplished with a money making contraption that allows the player to automatically pick up coins such as an extremely efficient mob farm so that as the player is buying items they gain more money than they are spending.
-Depending on the version, coins may or may not have a sell value.
-Coins do not have a sell value.
-Coins have a selling price equal to the amount in their stack, but cannot be sold. Interestingly, this means that they have an internal buy value equal to 5x what they are worth (meaning buying 1 gold would cost 5 gold)
-Coins can be sold on the  Wii U and  Xbox editions. Doing so will do nothing, however.
-Depending on their value, some coins will appear larger than others. The Platinum Coin is the tallest and widest coin (14×16 Pixels), Gold Coins are 2 pixels less wide (12×16), Silver Coins dimensions are 2 pixels shorter than the Gold Coin (12×14) and Copper Coins dimensions are 2 pixels shorter than the Silver Coin (12×12), making the Copper Coin the smallest.
-A Platinum Coin is worth 1,000,000 Copper Coins.
-Knowing how much space there is in a world, we can see how much space this many coins would take. Placing all of these Copper Coins would take up 4.9% of the area in a Large world, 8.6% of a Medium world, 19.8% of a  Small /  Expanded world, and 63.4% of a  Normal world.
-Purchasing every NPC item requires the following number of coins: (although  may increase or decrease these numbers)
-Unknown
-Although coins are considered as ammunition due to being fired by the Coin Gun, they cannot legitimately be placed in the ammunition slot, only in the coins slot.
-
-History
-
----
-
-# 文档：Copper Coin/cs
-
-- 类别：furniture
-- 标识：copper coin/cs
-- 来源：wiki/Copper_Coin/cs
-
-Pro vydělávací strategie se podívejte na Návod:Vydělávání mincí
-
-Mince (Coins) jsou hlavní jednotkou měny v Terrarii. Jsou primárně používány pro transakce s NPC, ale i ostatní hráči v multiplayeru je můžou přijmout jako platbu. Mince mohou být také použity jako munice do Coin Gun. Ve hře jsou 4 typy mincí: Měděné Mince, Stříbrné Mince, Zlaté Mince a Platinové Mince.
-
-Mince mohou být získány zabíjením nepřátel, interakcí s NPC nebo prohledáváním z různých typů kořisti. Navzdory tomu že mince jsou z "Mědi", "Stříbra", "Zlata" nebo "Platiny", nesouvisí s danou rudou a nemůžou z ní být vyrobeny.
-
-Množství mincí, které padne z nepřítele je počítáno z pevných hodnot v kódu hry s několika náhodnými variacemi.
 
 ---
 
@@ -32425,390 +29077,8 @@ Dresser !! Notes
 show-other = yes
 
 ---
-
 ## MATERIALS
-共 149 篇文档
-
-# 文档：Acorn
-
-- 类别：materials
-- 标识：acorn
-- 来源：wiki/Acorn
-
-Acorns are a type of Seed used to plant Trees. Acorns can be planted on regular green grass, Hallow grass, Corrupted grass, Crimson grass, Jungle grass, Sand or Snow, where they will create saplings that will grow into Trees, under the right conditions. Acorns are randomly dropped when cutting down or  shaking trees, and can also be purchased from the Dryad for . Jungle Trees do not normally drop Acorns, however if a branch is hanging over a regular Grass tile, the branch can very rarely drop an Acorn.
-
-Notes
-Planting an Acorn will grow the matching tree for whatever Biome it is in.
-When planted in the desert, acorns grow Palm Trees, not Cactus.
-Acorns will not be retrieved back when breaking the saplings that were already planted.
-Acorns need 21 height for the smart cursor planting to work, if there's any kind of "roof" below this height, the smart planting won't be available (though you can still plant acorns manually)
-
-Crafting
-Used in
-History
-
----
-
-# 文档：Actuator
-
-- 类别：materials
-- 标识：actuator
-- 来源：wiki/Actuator
-
-The Actuator is a mechanism item purchased from the Mechanic for  each, or harvested from sand, lava, or Dead Man's Chest traps. It has to be connected with wiring to function. When activated, the tile it is on toggles between active and inactive state, effectively allowing any block to be toggled like active or inactive stone blocks. Like wire, Actuators are normally invisible and only become visible when a mechanism item is selected.
-
-The following items interact with Actuators:
-They can be removed with the Wire Cutter or .
-The Presserator automatically places Actuators on objects when placing them, if the player has any.
-The Actuation Rod can toggle any Actuator within a limited range without requiring wire.
-
-Crafting
-Used in
-Notes
-In addition to most blocks and traps, Actuators can also activate on teleporters and platforms.
-Most furniture on top of a block/platform with an actuator will be freed when the actuator activates.
-Actuators won't activate if they are directly beneath a tree, Demon Altar, Crimson Altar, Lihzahrd Altar, or any chest (regardless of whether it contains items or not).  This block actuator protection is present on the 2nd layer of blocks under a chest as well (4 blocks total).
-Any plants growing on a block which is put into its inactive state by an actuator will be destroyed as if a tool was swung at it. This can be used to harvest mushroom farms. Herbs, however, will remain on the inactive block.
-Liquids and falling blocks like sand, silt and slush can pass through blocks which an actuator has made inactive. On the  versions, falling blocks won't pass through.
-Inactive Biome blocks will still count towards the formation of their respective biomes.
-Naturally occurring Lihzahrd Bricks cannot be actuated until Plantera has been defeated.
-This was originally possible by intention, because Biome Keys previously did not drop directly and required a Temple Key to craft. This was changed in 1.2 to remove the Biome Key Mold items, and in turn the need to consume Temple Keys.
-NPCs can spawn on top of actuated blocks and thus fall through them.
-Inactive blocks do not count as walls for NPC housing, so a house with actuated blocks making up any of its walls will become invalid.
-In the , the locked Jungle Temple door is able to be actuated.
-Portal Gun's Portals, if placed before the blocks are actuated, will not vanish and will still function normally.
-In most cases, actuators have no effect on bubbles. Certain logic sensors can actuate bubbles.
-
-Tips
-Using Actuators in place of doors creates entrances that can completely block off the enemies from a Blood Moon or other events.
-It is also possible to make an airlock-type double door system using 6 Actuators and activating only one side inactive/active. This, combined with a trigger of your choice, will allow access for players only while keeping a house. You still need a door or some platforms for housing purposes, but this style of door can be put on outer NPC housing directly to conserve any expensive materials your house is made of.
-Because they work on traps, it is possible to load up several traps in a row, and none of their attacks will be blocked by traps ahead.
-Actuators can be used to pass through Hellstone in the Underworld without generating lava, and can similarly be used to pass through hive blocks without generating honey or spawning bees. The Actuation Rod may be used to quickly activate placed Actuators.
-If you stand inside an inactive block and it becomes active, you will be able to move inside the 6 blocks you are in but will be stopped by other blocks. This may be used for protection.
-Like naturally-generated wires, naturally-generated Actuators can be harvested, though they appear much more rarely, saving  per Actuator.
-Actuators are a good tool for terraforming/clearing the way for a plot, especially underground.
-
-Trivia
-The Multicolor Wrench is not capable of removing Actuators, even though it is crafted using the Wire Cutter, which does remove Actuators.
-However, the Grand Design, crafted from the Multicolor wrench, is capable of doing so.
-
-History
-
----
-
-# 文档：Adamantite Bar
-
-- 类别：materials
-- 标识：adamantite bar
-- 来源：wiki/Adamantite_Bar
-
-Adamantite Bars are crafting subproducts made from  4 /  5 Adamantite Ore, one of the three hardmode ores that are obtainable in a world. Its counterpart is Titanium.
-
-Adamantite equipment is colored maroon red. To craft all Adamantite equipment, the player needs to acquire 266 bars, or a total of  1064 /  1330 ores. Adamantite is most importantly used to craft a Adamantite Forge, which is useful throughout the game.
-
-Crafting
-Recipes
-Used in
-History
-
----
-
-# 文档：Adamantite Beam
-
-- 类别：materials
-- 标识：adamantite beam
-- 来源：wiki/Adamantite_Beam
-
-The Adamantite Beam is a Hardmode type of Brick and an aesthetic building material.
-
-Crafting
-Recipes
-Used in
-Notes
-This item is unrelated to the Beams type of background item, such as the Wooden Beam or Boreal Beam.
-
-Trivia
-If the Item IDs associated with each item are assumed to indicate when they were implemented, Adamantite Beams were likely the very first 1.2 item to be implemented.
-The texture of a 5×5 square of Adamantite Beams loosely resembles the top surface of a  in the 3D sandbox game , but in different colors.
-
-History
-
----
-
-# 文档：Adamantite Beam Wall
-
-- 类别：materials
-- 标识：adamantite beam wall
-- 来源：wiki/Adamantite_Beam_Wall
-
-Adamantite Beam Wall is a type of wall crafted from Adamantite Beam.
-
-Crafting
-Recipes
-Used in
-History
-
----
-
-# 文档：Adamantite Ore
-
-- 类别：materials
-- 标识：adamantite ore
-- 来源：wiki/Adamantite_Ore
-
-Adamantite Ore is one of the two top-tier ores that can spawn from every third destroyed Altar in Hardmode (the other possible ore being Titanium). In worlds where it spawns, it is the rarest and most valuable of the three Altar-spawned ores.
-
-A Mythril/Orichalcum Drill, Mythril/Orichalcum Pickaxe, or better is required in order to mine Adamantite. An Adamantite Forge, crafted from 30 Adamantite Ore and one Hellforge, is required in order to craft Adamantite Bars.
-Adamantite Ore, as well as Adamantite Bars, can also be obtained by opening crates, eliminating the need for a higher-tier pickaxe.
-Adamantite Ore is also dropped by .
-
-Crafting all Adamantite items requires 174 Adamantite Bars, plus 30 raw ore for an Adamantite Forge, for a total of 696  / 900   Adamantite Ore.
-
-Crafting
-Recipes
-Used in
-Notes
-Adamantite Ore veins can be exceptionally difficult to spot in Crimson biomes, unless the Crimson is removed or a Spelunker Potion is used.
-will drop some Adamantite ore. Note that Adamantite Bars are required to craft his summon item.
-On a small map Adamantite starts spawning around a depth of 1,400 feet (700 tiles), 100 feet (50 tiles) above the depth at which lava begins appearing.
-On a medium map Adamantite starts spawning around a depth of 2,130 feet (1,065 tiles), 170 feet (85 tiles) above the depth at which lava begins appearing.
-On a large map Adamantite starts spawning around a depth of 2,930 feet (1,465 tiles), 420 feet (210 tiles) above the depth at which lava settles in the Underworld.
-Making an Adamantite Forge and one full set of armor requires 246 Adamantite Ore.
-
-Achievements
-Tips
-Adamantite is a common sight on the ceiling of the Underworld, especially after having smashed many altars. Looking near large pools of lava can help, as lava produces enough light to see many Adamantite deposits.
-It is beneficial to use Spelunker Potions and look for Adamantite near the bottom of the world.
-
-Trivia
-Adamantite gets its name from "" which has historically been used to describe exceptionally hard materials such as diamond. Adamant and variations have been used to describe materials with incredible durability in fantasy and mythology, including "adamantine" in  and "" in .
-The word "adamant" is also used for people with firm, unshakeable convictions.
-Adamantite is one of three fictional ores added to the world from smashing altars in Hardmode, the others being Mythril and Orichalcum. Palladium, Cobalt, and Titanium are all real-life metals, but their real colors diverge from how they are depicted in-game.
-The Adamantite Ore's inventory sprite is exactly the same as the one for Cobalt Ore, but rotated and colored pinkish-red.
-
-History
-
----
-
-# 文档：Adhesive Bandage
-
-- 类别：materials
-- 标识：adhesive bandage
-- 来源：wiki/Adhesive_Bandage
-
-The Adhesive Bandage is an accessory. It can be obtained in Pre-Hardmode by transmutating a Bezoar in Shimmer. In Hardmode, It has a  /  chance to drop from Rusty Armored Bones, Werewolves and Angler Fish. It grants immunity to the Bleeding debuff.
-
-It is one of the ingredients required to make the Medicated Bandage, which is a crafting material required to make the Ankh Charm, an accessory further required to make the Ankh Shield.
-
-Crafting
-Used in
-History
-
----
-
-# 文档：Aetherium Block
-
-- 类别：materials
-- 标识：aetherium block
-- 来源：wiki/Aetherium_Block
-
-Aetherium Blocks are blocks formed when Shimmer comes into contact with any other liquid besides itself. Similarly to Ice Blocks, Aetherium Blocks have low friction, causing a player walking over them to slide when stopping or changing directions. This effect can be mitigated by equipping Ice Skates or other accessories crafted from them.
-
-Crafting
-Recipes
-Used in
-History
-
----
-
-# 文档：Aetherium Brick
-
-- 类别：materials
-- 标识：aetherium brick
-- 来源：wiki/Aetherium_Brick
-
-Aetherium Brick is a type of decorative brick. It emits light when placed.
-
-Crafting
-Recipes
-Used in
-Trivia
-Standing on Aetherium Bricks causes an occasional particle of iridescent star dust to appear, whilst running on them causes a trail of particles to follow behind the player. These particles are entirely cosmetic.
-
-History
-
----
-
-# 文档：Aetherium Brick Wall
-
-- 类别：materials
-- 标识：aetherium brick wall
-- 来源：wiki/Aetherium_Brick_Wall
-
-Aetherium Brick Wall is a type of background wall crafted from Aetherium Bricks.
-
-Crafting
-Recipes
-Used in
-History
-
----
-
-# 文档：Aetherium Wall
-
-- 类别：materials
-- 标识：aetherium wall
-- 来源：wiki/Aetherium_Wall
-
-Aetherium Wall is a type of background wall crafted from Aetherium Blocks.
-
-Crafting
-Recipes
-Used in
-History
-
----
-
-# 文档：Aglet
-
-- 类别：materials
-- 标识：aglet
-- 来源：wiki/Aglet
-
-The Aglet is an accessory that can be found in surface Chests, Wooden Crates and , or purchased from the Skeleton Merchant. It increases the player's movement speed by 5%.
-
-Crafting
-Used in
-Notes
-This item increases the player's base speed from  to .
-
-Tips
-The extra boost can be useful for characters that already have the Anklet of the Wind, as multiple of the same accessory cannot be equipped.
-
-Trivia
-An aglet is the plastic cap on the end of a shoelace, hence the speed bonus.
-
-See also
-Movement Accessories
-Movement information
-
-History
-
----
-
-# 文档：Alchemy Table
-
-- 类别：materials
-- 标识：alchemy table
-- 来源：wiki/Alchemy_Table
-
-The Alchemy Table is a post-Skeletron crafting station used to craft potions. It works almost identically to Placed Bottles when crafting potions, except it has a chance of not consuming ingredients. It can be found randomly in the Dungeon, and in the  it can also be obtained by fishing in the Dungeon.
-
-When a potion is crafted with the Alchemy Table, there is a  chance for each ingredient to not be consumed. There is a separate probability check for each of the ingredients used in making the potion, including each of those in a stack. This is effective for gaining more value out of alchemy ingredients, especially of those that are hard to obtain.
-
-Crafting
-Recipes
-Used in
-Used to craft
-Notes
-The Alchemy Table counts as a valid flat surface item for NPC houses.
-It also counts as a Table for the purposes of crafting Watches.
-On average, using the Alchemy Table for bulk production can produce up to about 50% more potions than a Placed Bottle with the same quantity of ingredients. However, this is very random, and if one ingredient is in short supply (e.g.,  for ), the results will be dominated by how often that ingredient happens to not be consumed. Similarly, if two or more ingredients are in short supply, either (any) of them can run out "early" (not making their 1/3 chance as often) and limit production.
-Unlike the Placed Bottle, the Alchemy Table can be placed on any block rather than just flat furniture items.
-The Alchemy Table combined with harvesting plants with the Staff of Regrowth can yield significantly more potions for the same amount of work.
-
-Trivia
-The Alchemy Table's sprite appears to depict a Lesser Restoration Potion.
-
-History
-
----
-
-# 文档：Ale
-
-- 类别：materials
-- 标识：ale
-- 来源：wiki/Ale
-
-Ale is a potion which gives the player the Tipsy debuff, increasing melee damage, but lowering the player's defense, for 2 minutes. It can be crafted at a Keg or purchased from the  for  each.
-
-The Tipsy debuff has the following effects:
-
-The  uses Ale as ammunition.
-
-Crafting
-Recipes
-Used in
-Tips
-Ale sells for  and only requires Mugs, which in turn only require 1 Glass, which is crafted from only 2 Sand each. Each unit of 2 Sand is therefore worth  if used to craft Ale. Crafting Ale can ultimately be the most profitable means of selling off Sand without incorporating other ingredients.
-Since Tipsy is a debuff, it will be removed by the Nurse. Repeatedly consuming Ale and healing at the Nurse can be a fast way to gain the The Frequent Flyer achievement.
-Drinking ale or Saké increases fishing power by 5.
-
-See also
-Sake
-History
-
----
-
-# 文档：Amber
-
-- 类别：materials
-- 标识：amber
-- 来源：wiki/Amber
-
-Amber is a gem acquired by placing Silt, Slush, or Desert Fossil into an Extractinator, by finding an Amber Gem Tree, or by searching through Underground Deserts.
-
-Like all other gems, Amber can be placed on blocks. On the , they can be crafted into their Stony block forms at a Heavy Work Bench in a Graveyard and can be obtained by cutting down an Amber Gem Tree, dropping 0-5 of its respective gems.
-
-Crafting
-Used in
-Trivia
-Amber's original purpose, Orange Torches, were apparently added because of a "really persistent nagging brit", in reference to YouTuber ChippyGaming, aka. James Bennett
-Amber is strangely absent from the Sandgun's crafting recipe, instead using Topaz. This is likely because the Sandgun was introduced before Amber was.
-In real life,  is fossilized tree resin, making it different from other gems' real-life counterparts in the fact that it is much younger and made of organic material. Such resin is called copal.
-
-References
-History
-
----
-
-# 文档：Amethyst
-
-- 类别：materials
-- 标识：amethyst
-- 来源：wiki/Amethyst
-
-Amethyst is a gem found within the Underground and Cavern layers of a world. They are obtained by breaking special blocks that have noticeable purple gemstones embedded in it. They can also be extracted from Silt, Slush, or Desert Fossil by putting them in an Extractinator. Rarely, Amethyst can be found in bulk in its own special gemstone cave, or in one that contains all of the other gems as well (besides Amber). Out of all available gems, Amethyst is the least valuable gem.
-
-Like all other gems, Amethyst can be placed on blocks. As of 1.4.0.1, they can be crafted back into their Stony block forms at a Heavy Work Bench in a graveyard and can be obtained by cutting down an amethyst Gem Tree, dropping 0-5 of its respective gems.
-
-Crafting
-Recipes
-Used in
-History
-
----
-
-# 文档：Ancient Chisel
-
-- 类别：materials
-- 标识：ancient chisel
-- 来源：wiki/Ancient_Chisel
-
-The Ancient Chisel is an accessory that increases mining speed by 25%, similarly to a Mining Potion. It can be found in Sandstone Chests in the Underground Desert and in Oasis Crates or Mirage Crates.
-
-Crafting
-Used in
-Notes
-The mining buff can be stacked with the Mining Potion.
-The Ancient Chisel can only be found in the top parts of the Underground Desert (anything below the Cavern layer the chisel cannot spawn)
-
-Trivia
-The tooltip is a reference to the phrase, "Modern problems require modern solutions." The phrase originated from a comedy skit by Dave Chappelle.
-
-History
-
----
+共 49 篇文档
 
 # 文档：Ancient Cloth
 
@@ -32824,293 +29094,6 @@ History
 
 ---
 
-# 文档：Ancient Cobalt Brick
-
-- 类别：materials
-- 标识：ancient cobalt brick
-- 来源：wiki/Ancient_Cobalt_Brick
-
-Ancient Cobalt Brick is a type of brick obtained by throwing Cobalt Brick into Shimmer. Its appearance is based on the sprite of Cobalt Brick prior to 1.2.
-
-Crafting
-Recipes
-Used in
-History
-
----
-
-# 文档：Ancient Cobalt Brick Wall
-
-- 类别：materials
-- 标识：ancient cobalt brick wall
-- 来源：wiki/Ancient_Cobalt_Brick_Wall
-
-Ancient Cobalt Brick Wall is a type of background wall crafted from Ancient Cobalt Bricks. Its appearance is based on the sprite of Cobalt Brick Wall prior to 1.2.
-
-Crafting
-Recipes
-Used in
-History
-
----
-
-# 文档：Ancient Copper Brick
-
-- 类别：materials
-- 标识：ancient copper brick
-- 来源：wiki/Ancient_Copper_Brick
-
-Ancient Copper Brick is a type of Brick and an aesthetic building material. Ancient Copper Bricks are obtained by throwing Copper Brick into Shimmer.
-
-Crafting
-Recipes
-Used in
-Trivia
-The sprite of the Ancient Copper Brick is based on the Copper Brick's design before it was changed in 1.2.
-Ancient Copper Bricks emit a faint orange light, making them useful for creating low-level lighting in structures.
-History
-
----
-
-# 文档：Ancient Copper Brick Wall
-
-- 类别：materials
-- 标识：ancient copper brick wall
-- 来源：wiki/Ancient_Copper_Brick_Wall
-
-Toby West
-3 / 3
-
-Ancient Copper Brick Wall is a type of background wall crafted from Ancient Copper Bricks. Its appearance is based on the sprite of Copper Brick Wall prior to 1.2.
-
-Crafting
-Recipes
-Used in
-History
-
----
-
-# 文档：Ancient Gold Brick
-
-- 类别：materials
-- 标识：ancient gold brick
-- 来源：wiki/Ancient_Gold_Brick
-
-Ancient Gold Brick is a type of Brick and an aesthetic building material. Ancient Gold Brick is obtained by throwing Gold Brick into Shimmer.
-
-Crafting
-Recipes
-Used in
-Trivia
-The sprite of the Ancient Gold Brick is based on the Gold Brick's design before it was changed in 1.2.
-History
-
----
-
-# 文档：Ancient Gold Brick Wall
-
-- 类别：materials
-- 标识：ancient gold brick wall
-- 来源：wiki/Ancient_Gold_Brick_Wall
-
-Ancient Gold Brick Wall is a type of background wall crafted from Ancient Gold Bricks. Its appearance is based on the sprite of Gold Brick Wall prior to 1.2.
-
-Crafting
-Recipes
-Used in
-History
-
----
-
-# 文档：Ancient Hellstone Brick
-
-- 类别：materials
-- 标识：ancient hellstone brick
-- 来源：wiki/Ancient_Hellstone_Brick
-
-Ancient Hellstone Brick is a type of brick obtained by throwing Hellstone Brick into Shimmer. Its appearance is based on the sprite of Hellstone Brick prior to 1.2.
-
-Crafting
-Recipes
-Used in
-History
-
----
-
-# 文档：Ancient Hellstone Brick Wall
-
-- 类别：materials
-- 标识：ancient hellstone brick wall
-- 来源：wiki/Ancient_Hellstone_Brick_Wall
-
-Ancient Hellstone Brick Wall is a type of background wall crafted from Ancient Hellstone Bricks. Its appearance is based on the sprite of Hellstone Brick Wall prior to 1.2.
-
-Crafting
-Recipes
-Used in
-History
-
----
-
-# 文档：Ancient Mythril Brick
-
-- 类别：materials
-- 标识：ancient mythril brick
-- 来源：wiki/Ancient_Mythril_Brick
-
-Ancient Mythril Brick is a type of brick obtained by throwing Mythril Brick into Shimmer. Its appearance is based on the sprite of Mythril Brick prior to 1.2.
-
-Crafting
-Recipes
-Used in
-History
-
----
-
-# 文档：Ancient Mythril Brick Wall
-
-- 类别：materials
-- 标识：ancient mythril brick wall
-- 来源：wiki/Ancient_Mythril_Brick_Wall
-
-Ancient Mythril Brick Wall is a type of background wall crafted from Ancient Mythril Bricks. Its appearance is based on the sprite of Mythril Brick Wall prior to 1.2.
-
-Crafting
-Recipes
-Used in
-History
-
----
-
-# 文档：Ancient Obsidian Brick
-
-- 类别：materials
-- 标识：ancient obsidian brick
-- 来源：wiki/Ancient_Obsidian_Brick
-
-Ancient Obsidian Brick is a type of brick obtained by throwing Obsidian Brick into Shimmer.
-
-Crafting
-Recipes
-Used in
-History
-
----
-
-# 文档：Ancient Obsidian Brick Wall
-
-- 类别：materials
-- 标识：ancient obsidian brick wall
-- 来源：wiki/Ancient_Obsidian_Brick_Wall
-
-Ancient Obsidian Brick Wall is a type of background wall crafted from Ancient Obsidian Bricks. Its appearance is based on the sprite of Obsidian Brick Wall prior to 1.2.
-
-Crafting
-Recipes
-Used in
-History
-
----
-
-# 文档：Ancient Silver Brick
-
-- 类别：materials
-- 标识：ancient silver brick
-- 来源：wiki/Ancient_Silver_Brick
-
-Ancient Silver Brick is a type of brick obtained by throwing Silver Brick into Shimmer.
-
-The Ancient Silver Brick's design is based on the Silver Brick's sprite before 1.2.
-
-Crafting
-Recipes
-Used in
-History
-
----
-
-# 文档：Ancient Silver Brick Wall
-
-- 类别：materials
-- 标识：ancient silver brick wall
-- 来源：wiki/Ancient_Silver_Brick_Wall
-
-Ancient Silver Brick Wall is a type of background wall crafted from Ancient Silver Bricks. Its appearance is based on the sprite of Silver Brick Wall prior to 1.2.
-
-Crafting
-Recipes
-Used in
-History
-
----
-
-# 文档：Angler Earring
-
-- 类别：materials
-- 标识：angler earring
-- 来源：wiki/Angler_Earring
-
-The Angler Earring is an accessory that provides a +10 boost to Fishing power when equipped. It is acquired as a  chance reward for completing a Fishing quest for the Angler NPC.
-
-On the , the Angler will not give you an Angler Earring as a reward if you already have one in your inventory or in any of your Portable Storages.
-
-Only one Angler Earring can be equipped at a time, however the increase in fishing power stacks with that of the Angler Tackle Bag and the Lavaproof Tackle Bag, granting a total boost of 30% if all three are equipped. Due to the aforementioned rule on duplicates for , it could be beneficial to keep your Angler Earring in a chest, out of your possessions (inventory or portable storages), while keeping the other two in, to guarantee getting a second Angler Earring as soon as possible.
-
-Crafting
-Used in
-History
-References
-
----
-
-# 文档：Ankh Charm
-
-- 类别：materials
-- 标识：ankh charm
-- 来源：wiki/Ankh_Charm
-
-The Ankh Charm is a Hardmode accessory which combines the effects of the Armor Bracing, Medicated Bandage, The Plan, Countercurse Mantra, and Reflective Shades () / Blindfold ().
-
-It provides immunity to all of the following debuffs:
-
-Crafting
-Recipes
-Crafting tree
-Used in
-Notes
-While the Ankh Charm protects against the nine arguably most common debuffs, this immunity accounts for only a small selection of the potential negative effects a player can suffer.
-Ankh charm now requires Reflective Shades, which is a combination of Blindfold and Pocket Mirror.
-
-Trivia
-The , the ian  that is depicted on the item, was most commonly used in writing and in art to represent the word for "life" and, by extension, as a symbol of life itself. The Ankh symbol is seen in many depictions of Egyptian deities, where it symbolized eternal life. These deities were depicted as holding the Ankh by the loop at the top.
-This item appears to be an , a Japanese, Shinto charm made of decorative paper which were meant to give good luck and protection to its wearer. Omamori commonly have a pentagonal shape and feature a written prayer in the center, similar to how the Ankh symbol appears in the center of the Ankh Charm. The hole at the top of an omamori would be used to put a string through, so that the charm could be worn like a necklace or hung off of an outfit or on your home.
-Of the nine ingredients of the Ankh Charm, only the Bezoar (from Hornets) and Nazar (from Cursed Skulls) can be obtained in pre-Hardmode.
-Since 1.4.4 and the introduction of Shimmer, it is now possible to obtain the Adhesive Bandage and Megaphone in pre-hardmode as well.
-
-History
-
----
-
-# 文档：Anklet of the Wind
-
-- 类别：materials
-- 标识：anklet of the wind
-- 来源：wiki/Anklet_of_the_Wind
-
-The Anklet of the Wind is an accessory that gives a 10% bonus to movement speed. The effect also stacks with the movement speed bonus of the Aglet. It can be found in Jungle and  Crates with a 19% chance, and also in Ivy Chests located in Jungle Shrines and at the base of a Living Mahogany Tree in the Underground Jungle with a  chance.
-
-Crafting
-Used in
-Notes
-This item increases the player's base speed from 15 mph to 17 mph.
-
-See also
-Movement info
-
-History
-
----
-
 # 文档：Antlion Mandible
 
 - 类别：materials
@@ -33118,439 +29101,6 @@ History
 - 来源：wiki/Antlion_Mandible
 
 The Antlion Mandible is a crafting material dropped by Antlions, , , , , and  found in the Desert and Underground Desert biomes.
-
-Crafting
-Used in
-History
-
----
-
-# 文档：Apple
-
-- 类别：materials
-- 标识：apple
-- 来源：wiki/Apple
-
-The Apple is a consumable potion that gives the Well Fed buff.
-
-It has a 4.517% chance of dropping when shaking a  Tree in the Forest.
-
-Crafting
-Used in
-Trivia
-s are native to regions in Central Asia, and various species can be found worldwide.
-Its tooltip is a nod to the phrase, "An apple a day will keep the doctor away!" and the enemy Doctor Bones.
-Despite the similarities in name, it cannot be used to make the Apple Pie.
-
-History
-
----
-
-# 文档：Apricot
-
-- 类别：materials
-- 标识：apricot
-- 来源：wiki/Apricot
-
-The Apricot is a consumable food item that gives the Well Fed buff.
-
-It has a  dropping chance from shaken Forest Trees.
-
-Crafting
-Used in
-Trivia
-The Apricot, Grapefruit, Cherry, and Plum are the only fruits that do not have unique recipes of their own (i.e. they can only be used to make Fruit Juice and Fruit Salad).
-The tooltip is a play on the words appreciate & apricot.
-
-History
-
----
-
-# 文档：Architect Gizmo Pack
-
-- 类别：materials
-- 标识：architect gizmo pack
-- 来源：wiki/Architect_Gizmo_Pack
-
-The Architect Gizmo Pack is an accessory which increases block and wall placement speed and reach and automatically paints placed objects, essentially granting all of the effects of the accessories used to craft it. All four items required to create the Architect Gizmo Pack are sold by the Traveling Merchant for  in total.
-
-Crafting
-Recipes
-Used in
-Notes
-Its effects do not stack with those of the accessories used to craft it. For example, wearing both the Architect Gizmo Pack and Extendo Grip will not grant +6 range.
-However, it still stacks with the Toolbox and Toolbelt.
-On the Nintendo Switch version. It is possible to use a single Silt on the extractinator indefinitely with the architect gizmo pack equipped.
-Furthermore, similar to the Brick Layer and Portable Cement Mixer, the increase in tile/wall placement speed additively stacks with the bonus from the Builder buff granted by the Builder Potion for a total increase of 75%, respectively.
-Similar to the Extendo Grip, one can interact with NPCs, storage items, doors, and Switches from a slightly further distance than normal.
-Like with the Paint Sprayer, the auto-paint feature also works if the Architect Gizmo Pack is only placed in the inventory and not equipped. The other features do require the accessory to be equipped in order to function.
-The Paint Sprayer effect can be turned off with a toggle on the top left of the screen.
-
-Trivia
-Even though all items involved in crafting the Architect Gizmo Pack are also available on the , it is only craftable on .
-Although all ingredients and the Tinkerer's Workshop can be obtained pre-Hardmode, the Architect Gizmo Pack has an unusually high rarity of .
-
-History
-
----
-
-# 文档：Argon Moss Brick
-
-- 类别：materials
-- 标识：argon moss brick
-- 来源：wiki/Argon_Moss_Brick
-
-Argon Moss Brick is a type of brick that glows in the dark like the Argon Moss it is made from.
-
-Crafting
-Recipes
-Used in
-History
-
----
-
-# 文档：Argon Moss Brick Wall
-
-- 类别：materials
-- 标识：argon moss brick wall
-- 来源：wiki/Argon_Moss_Brick_Wall
-
-Argon Moss Brick Wall is a brick background wall that glows in the dark like Argon Moss and the Argon Moss Brick it is made from.
-
-Crafting
-Recipes
-Used in
-History
-
----
-
-# 文档：Armor Bracing
-
-- 类别：materials
-- 标识：armor bracing
-- 来源：wiki/Armor_Bracing
-
-Armor Bracing is a Hardmode accessory that combines the functions of the Vitamins and the Armor Polish. This item provides immunity from the Weak and Broken Armor debuffs.
-
-It is one of the ingredients required to make the Ankh Charm, which is further required to make the Ankh Shield.
-
-Crafting
-Recipes
-Used in
-History
-
----
-
-# 文档：Armor Polish
-
-- 类别：materials
-- 标识：armor polish
-- 来源：wiki/Armor_Polish
-
-The Armor Polish is a Hardmode accessory that provides immunity to the Broken Armor debuff. It has a 1% /  (1/100 / ) chance to drop from Blue Armored Bones and Armored Skeletons.
-
-It is one of the ingredients required to make the Armor Bracing, which is a crafting material required to make the Ankh Charm, an accessory further required to make the Ankh Shield.
-
-Crafting
-Used in
-Tips
-After defeating Plantera, Blue Armored Bones will begin to spawn in excessively high numbers in the Dungeon, enabling a player to obtain Armor Polish much easier than before Plantera.
-If Plantera has not been defeated yet, Armor Polish can still be obtained from Armored Skeletons.  Alternatively, if you have easy access to Shimmer, you can instead farm for duplicate Vitamins from Corruptors or Floaty Gross, which can then be thrown into Shimmer.
-
-History
-
----
-
-# 文档：Armored Cavefish
-
-- 类别：materials
-- 标识：armored cavefish
-- 来源：wiki/Armored_Cavefish
-
-Armored Cavefish are a type of fish which are found uncommonly by fishing in the Underground, Cavern, and Underworld layers, in any biome  except the Desert. They are used to craft Seafood Dinners and Endurance Potions.
-
-Crafting
-Used in
-Notes
-Armored Cavefish share portions of the Common, Uncommon, and Plentiful catch quality slots. As an approximation, they can be considered Uncommon.
-
-History
-
----
-
-# 文档：Ash Block
-
-- 类别：materials
-- 标识：ash block
-- 来源：wiki/Ash_Block
-
-The Ash Block is a block that covers the upper and lower sections of The Underworld, and can occasionally encase Hellstone. It can be used for building and for growing Fireblossom.
-
-Since it is easy to find, comes in great quantity, and is not corruptible, it is a useful material for creating barriers to stop the spread of Corruption, Crimson, and the Hallow when in Hardmode.
-
-Crafting
-Used in
-History
-
----
-
-# 文档：Ash Wood Wall
-
-- 类别：materials
-- 标识：ash wood wall
-- 来源：wiki/Ash_Wood_Wall
-
-Ash Wood Wall is a type of wall made from Ash Wood.
-
-Crafting
-Recipes
-Used in
-History
-
----
-
-# 文档：Astra Brick
-
-- 类别：materials
-- 标识：astra brick
-- 来源：wiki/Astra_Brick
-
-Astra Brick is a type of Brick and an aesthetic building material. Astra Brick is obtained by throwing Luminite Brick into Shimmer during a Third Quarter.
-
-Crafting
-Recipes
-Used in
-Tips
-The Sextant may be helpful for determining the current Moon Phase.
-
-History
-
----
-
-# 文档：Astra Brick Wall
-
-- 类别：materials
-- 标识：astra brick wall
-- 来源：wiki/Astra_Brick_Wall
-
-Astra Brick Wall is a background wall made from Astra Bricks.
-
-Crafting
-Recipes
-Used in
-History
-
----
-
-# 文档：Atlantic Cod
-
-- 类别：materials
-- 标识：atlantic cod
-- 来源：wiki/Atlantic_Cod
-
-Atlantic Cods are a type of fish which are found commonly by fishing in a Snow biome in any layer. Their sole use is to craft Cooked Fish.
-
-Crafting
-Used in
-History
-
----
-
-# 文档：Avenger Emblem
-
-- 类别：materials
-- 标识：avenger emblem
-- 来源：wiki/Avenger_Emblem
-
-The Avenger Emblem is a Hardmode accessory that grants 12% increased damage to all weapons.
-Crafting
-Recipes
-Crafting tree
-Used in
-Notes
-The Avenger Emblem's damage increase is slightly weaker than the emblems used to craft it, giving 12% damage while they give 15% damage. If the player is using one class specifically, it is better to use the warrior/summoner/ranger/sorcerer emblem first before using both, although those who are taking advantage of multiclass weapons (i.e. summons and sentries) will benefit more from the Avenger Emblem.
-The Avenger Emblem is generally less useful for players who are playing pure Summoner. Though the Avenger Emblem can be worn by itself for the plain damage buff, there are many better choices of accessory at and after this point in the game for Summoners, such as the Moon Stone and Hercules Beetle as well as their upgrades. As for the Avenger Emblem's upgrades, melee damage bonuses provided by the Mechanical Glove and everything beyond it do not apply to whips; the Destroyer Emblem's critical boost is irrelevant to Summoners as neither whips nor minions can crit; and since Summoners rarely struggle for mana, the Celestial Emblem is of little value.
-On the  the Avenger Emblem can be acquired very early into Hardmode and with minimal difficulty, requiring only that the player remain in an Underworld area largely untouched by Hardmode and defeat the Wall of Flesh several times. On the , however, it requires the three Mechanical Boss souls and so can only be acquired just before fighting Plantera; this does reduce the amount of random chance in its acquisition, since all three varieties of souls are guaranteed to appear, and the Avenger Emblem can be made even with an emblem that did not match the player's chosen play style.
-While multiples of the Avenger Emblem cannot be worn at once, multiple emblems of different types (and the Mechanical Glove or Fire Gauntlet) will stack.
-
-History
-
----
-
-# 文档：Azure Crate
-
-- 类别：materials
-- 标识：azure crate
-- 来源：wiki/Azure_Crate
-
-The Azure Crate is a Hardmode crate that can only be fished at high elevations, such as in Floating Lakes. Azure Crates contain items found in standard crates, and they always contain an item normally found in Skyware Chests. Although Skyware Chests can rarely contain the Sky Mill, the Azure Crate never does. Its pre-Hardmode counterpart is the Sky Crate.
-
-As of 1.4.4, it can now yield cloud blocks, finally making them renewable.
-
-Crafting
-Used in
-Drops
-History
-
----
-
-# 文档：Balloon Pufferfish
-
-- 类别：materials
-- 标识：balloon pufferfish
-- 来源：wiki/Balloon_Pufferfish
-
-The Balloon Pufferfish is an accessory that increases the player's jump height by 33% and jump speed by 30%, increasing the height that the player can jump from 6 blocks (12 feet) to ~10½ blocks (21 feet), effectively a ~75% boost; however, it oddly reduces jump height when underwater, from 8 blocks (16 feet) to 7 blocks (14 feet), meaning it grants the same jump height bonus and downside as the Shiny Red Balloon. It can be obtained via fishing in any biome.
-
-Crafting
-Used in
-Trivia
-Despite being functionally identical to the Shiny Red Balloon, the Balloon Pufferfish can only be tinkered with one double-jump accessory: the Tsunami in a Bottle. Conversely, the Shiny Red Balloon can be tinkered with every double-jump accessory except for the Tsunami in a Bottle.
-
-Gallery
-History
-
----
-
-# 文档：Bamboo
-
-- 类别：materials
-- 标识：bamboo
-- 来源：wiki/Bamboo
-
-Bamboo is a placeable block that naturally generates in the Jungle biome and grows on Jungle grass submerged in shallow water (at least 2 and at most 5 tiles deep). Like most plants, Bamboo will not grow in front of a wall (including Glass Walls and Fences). Bamboo can also be found in Jungle and Bramble Crates. It can be mined with any pickaxe or drill, and can be used to craft Bamboo-themed furniture, blocks, and walls.
-
-Crafting
-Recipes
-Used in
-Notes
-Unlike most other plants, Bamboo tends to grow in very long intervals, sometimes taking up to two in-game days to fully grow to its maximum height.
-Though it may appear that growing Bamboo is harvestable using an axe, it actually requires a pickaxe or drill.
-Bamboo can be grown outside the Jungle biome by planting Jungle grass under an appropriate amount of water.
-
-History
-References
-
----
-
-# 文档：Bamboo Wall
-
-- 类别：materials
-- 标识：bamboo wall
-- 来源：wiki/Bamboo_Wall
-
-Bamboo Wall is a type of wall. As with most placed walls, bamboo walls are compatible with NPC housing and will stop monsters from spawning.
-
-Crafting
-Recipes
-Used in
-History
-
----
-
-# 文档：Banana
-
-- 类别：materials
-- 标识：banana
-- 来源：wiki/Banana
-
-The Banana is a food item which gives the Well Fed buff.
-
-It has a 3.3% dropping chance from shaken Palm Trees and their Corrupt, Crimson, and Hallowed variants in the Ocean biome but not in Desert nor Oasis.
-
-Crafting
-Used in
-Trivia
-Despite the similarities in name, it cannot be used to make the Banana Split.
-The tooltip is a direct quote from The Doctor Dances, an episode of the British science fiction TV show . Christopher Eccleston, playing the Ninth Doctor, tells his companion not to drop a banana because it's a "good source of potassium!".
-
-History
-References
-
----
-
-# 文档：Band of Regeneration
-
-- 类别：materials
-- 标识：band of regeneration
-- 来源：wiki/Band_of_Regeneration
-
-The Band of Regeneration is an accessory that can be found in Gold Chests in the Underground and Cavern biomes and in Living Mahogany Trees in the Underground Jungle. When equipped, it regenerates  1 /  0.5 health every second. This effect stacks with the player's natural health regeneration, but unlike the natural regeneration, does not slow or stop when the player is moving or being attacked.
-
-Crafting
-Used in
-Notes
-The Band of Regeneration does not stack with the Charm of Myths.
-Since players naturally regenerate health, the Band of Regeneration just improves that functionality, so that players will regenerate faster.
-
-Tips
-Because the player's natural health regeneration slows or stops during movement or attacks, the Band of Regeneration is useful in that it regenerates health at a constant rate regardless of those conditions.
-The Band of Regeneration is useful for countering the Bleeding debuff, which is caused by e.g. Werewolves,  Skeletron, and Angler Fish.
-Heavy users of magic in a Corruption world will probably want a second and third Band of Regeneration, and Bands of Starpower to go with them, in order to make two Mana Regeneration Bands and upgrade one to Celestial Cuffs.
-
-History
-
----
-
-# 文档：Band of Starpower
-
-- 类别：materials
-- 标识：band of starpower
-- 来源：wiki/Band_of_Starpower
-
-The Band of Starpower is an accessory that increases the player's maximum mana by 20. It can be found by destroying Shadow Orbs in the Underground Corruption or from  or . On the , it can furthermore be crafted, and on the , it can be found in Living Trees.
-
-Crafting
-Recipes
-Used in
-Tips
-It is recommended to quickly upgrade it to Mana Regeneration Band as it gives extra mana regeneration and extra max mana.
-Any magically-oriented player will want to make at least two Mana Regeneration Bands for two Magic Cuffs, and upgrade one to Celestial Cuffs.
-
-Crimson worlds
-Getting a  takes special measures in Crimson worlds, since it is normally dropped from Corruption-exclusive Shadow Orbs.
-The Band of Starpower can also be obtained by fishing for  or .
-On the , the Band of Starpower can be crafted in the Graveyard, from a Panic Necklace and a Mana Crystal.
-On the , an artificial Corruption can be created to fish for the Corrupt/Defiled Crates. This can be done with materials from another world, or  Corrupt Seeds can be bought from the Dryad in a Graveyard in Hardmode.
-On the , the Band of Starpower can be found in Living Wood Chests, allowing players with Crimson worlds to craft the Magic Cuffs.
-
-History
-
----
-
-# 文档：Bars
-
-- 类别：materials
-- 标识：bars
-- 来源：wiki/Bars
-
-Bars are crafting materials generally crafted from mined ores at a Furnace. Crafting most ore-related items requires that raw ores are first crafted into bars.
-
-There are currently 23 different bar types. Obtaining most of these only requires their respective ores as crafting ingredients. Hellstone, Spectre, and Shroomite Bars are exceptions that require a secondary material in addition. Hallowed Bars are not crafted but are instead dropped by the mechanical bosses. Some bars may also be obtained  from crates.
-
-Types
-Notes
-Bars can be placed like furniture, take up a space of one tile, and can be stacked on top of each other. When placed in this manner, they can be used just like platforms, to stand on and drop down from, and furniture can be placed on the top (torches also to the sides).
-Bars cannot be placed without another block underneath them; this makes it impossible to build a house made of bars without the aid of other blocks. This mechanic makes breaking bars similar to cutting down trees, where breaking the bottom bar in a stack will break all bars above it.
-The only way to make placed bars "float" would be to abuse the fact that chests with items inside cannot be destroyed. Using bars as support under such a chest would mean they cannot be destroyed until the chest is emptied. This allows them to float in-air without any supporting blocks.
-Note: The duplication glitch with bars and a chest was patched long ago in 1.1
-
-Trivia
-Hallowed Bars are the only bars to not require an ore to be made.
-Although a single bar is consumed when it is placed, the tile sprite appears to be 3 or possible 4 bars stacked on top of each other.
-The old bar textures are actually modified versions of the old   textures. (For Example: See the  then the old Terraria iron bar.)
-
-History
-
----
-
-# 文档：Bass
-
-- 类别：materials
-- 标识：bass
-- 来源：wiki/Bass
-
-Bass are a type of fish which are found plentifully by fishing in any biome that is not the Ocean or Desert in any layer. Their sole use is to craft Cooked Fish.
 
 Crafting
 Used in
@@ -33595,42 +29145,6 @@ History
 
 ---
 
-# 文档：Bee Wax
-
-- 类别：materials
-- 标识：bee wax
-- 来源：wiki/Bee_Wax
-
-The Bee Wax is a crafting material dropped by the Queen Bee. It cannot be crafted or placed. It takes 44 to craft a set of Bee armor and the Hornet Staff, which amounts to killing Queen Bee 2–3 times.
-
-Crafting
-Used in
-Tips
-The most profitable way to sell Bee Wax is to craft them into Bee Headgear. 96 pieces will make 12 helmets which sell for .
-
-History
-
----
-
-# 文档：Beetle Husk
-
-- 类别：materials
-- 标识：beetle husk
-- 来源：wiki/Beetle_Husk
-
-Beetle Husk is a Hardmode, post-Golem crafting material dropped by Golem.
-
-Crafting all current Beetle items requires 34 Beetle Husks. Crafting one full set of Beetle armor (without wings) requires 18 Husks, meaning the player will have to fight Golem 3–5 times /  to get at least the full set.
-
-Crafting
-Used in
-Tips
-It is not profitable to sell any piece of Beetle armor, the ingredients are worth more.
-
-History
-
----
-
 # 文档：Bell
 
 - 类别：materials
@@ -33646,54 +29160,6 @@ Used in
 Notes
 When ringing the Bell, players can also walk backwards.
 The Bell and the Whoopie Cushion have similar effects, although the Whoopie Cushion cannot change pitch.
-
-History
-
----
-
-# 文档：Bewitching Table
-
-- 类别：materials
-- 标识：bewitching table
-- 来源：wiki/Bewitching_Table
-
-The Bewitching Table is a furniture item that can be placed and then right-clicked () to grant the Bewitched buff, which increases the player's minion capacity by 1. . It can be found naturally-placed in the Dungeon, and in Hardmode is sold by the Witch Doctor for  if the Wizard is present or crafted by submerging an Alchemy Table in Shimmer pool.
-
-Crafting
-Recipes
-Used in
-Notes
-The Bewitching Table counts as a valid Table (Flat Surface Item) for NPC Houses.
-It counts as a Table for crafting purposes, and can be placed on tables.
-The Bewitching Table does not have an effect on sentries summoned using the Tavernkeep's summon weapons, as they are sentries, not regular minions.
-
-Trivia
-The staff on the buff icon could be a Raven Staff due to the apparent feather like purple spikes on the top, however the shape of the shaft much more closely resembles the Slime Staff sprite with what appears to be purple slime dripping off of it. Due to the fact that the buff was added after both the Raven and Slime staffs (1.3.0.1 vs 1.2.1 and 1.2) it is likely that the icon is supposed to depict an amalgamation of multiple Summoning Weapons and was purposely meant to be left ambiguous.
-
-History
-
----
-
-# 文档：Bezoar
-
-- 类别：materials
-- 标识：bezoar
-- 来源：wiki/Bezoar
-
-The Bezoar is an accessory that grants the player immunity to the Poisoned debuff. It has a  /  chance to drop from Hornets and Hardmode Moss Hornets in the Underground Jungle biome. Bezoars are also dropped from Toxic Sludges in the Underground and Cavern layers.
-
-It is one of the ingredients required to make the Medicated Bandage, which is a crafting material required to make the Ankh Charm. The Ankh Charm can then be used to make the Ankh Shield.
-
-Crafting
-Used in
-Tips
-It is most easily acquired before Hardmode, when the Underground Jungle is still relatively safe.
-The Poisoned status effect can be exceptionally deadly early on in higher difficulties, especially Master Mode where it sometimes lasts over 40 seconds. The Bezoar takes up a valuable accessory slot that the player may not have to spare, though. Instead, you can simply keep the Bezoar in your inventory, and briefly put it on to cleanse yourself of the status effect before returning it to your inventory, allowing you to remove the poison without having to wear it all the time.
-
-Trivia
-It is one of the four components of the Ankh Shield that can be obtained in Pre-Hardmode, the others being the Obsidian Skull, Cobalt Shield, and Nazar. However, Shimmer allows one to obtain the Adhesive Bandage before Hardmode if they have obtained Bezoar.
-A  is a lump of mass trapped in the digestive system, historically believed to have antibiotic and poison-curing effects.
-Despite Venom also being poison, the Bezoar does not prevent the Venom debuff.
 
 History
 
@@ -33721,32 +29187,6 @@ Trivia
 Unlike some real-world , these are consumed in the crafting process and cannot be reused.
 Although the key molds were removed in , their sprites still exist within the game files of the .
 Since it was added after the removal of Key Molds, the  does not have a corresponding mold.
-
-History
-
----
-
-# 文档：Black Belt
-
-- 类别：materials
-- 标识：black belt
-- 来源：wiki/Black_Belt
-
-The Black Belt is a Hardmode, post-Plantera accessory which has a  /  chance to drop from Bone Lee in the post-Plantera Dungeon. The Black Belt grants a 10% chance to dodge attacks, and hazards such as spikes and lava. A cloud of smoke surrounds the player upon a successful dodge.
-
-Crafting
-Used in
-Notes
-If a player is wearing Turtle armor, damage reflection will still occur as it normally would, even if the attack is dodged.
-If a player is wearing the Paladin's Shield, incoming damage from teammates can still be dodged.
-A successful dodge does not negate the chance to receive any given attack's associated debuff. This may be a bug.
-If the Cross Necklace or Star Veil is equipped and the player dodges an attack, the invincibility period stacks with the Black Belt, providing a total of 2 seconds of invincibility.
-The dodge ability can prevent fall damage.
-The dodge chance stacks with the Brain Of Confusion, resulting in a dodge chance of 1/4(25%). This can be incredibly useful against bosses if fought in Expert/Master mode difficulties.
-
-Achievements
-Trivia
-The black belt is used to denote a martial arts trainee with the highest obtainable rank attained during training.
 
 History
 
@@ -33803,25 +29243,6 @@ History
 
 ---
 
-# 文档：Blackcurrant
-
-- 类别：materials
-- 标识：blackcurrant
-- 来源：wiki/Blackcurrant
-
-The Blackcurrant is a potion item that gives the Well Fed buff.
-
-It has a 3.5% dropping chance from any shaken Corrupt Trees.
-
-Crafting
-Used in
-Trivia
-is a berry shrub that can be found in Central and Northern Europe, as well as Northern Asia.
-
-History
-
----
-
 # 文档：Blade of Grass
 
 - 类别：materials
@@ -33850,33 +29271,6 @@ Prior to the 1.2 update, the Blade of Grass appeared to be a grass sawtooth kata
 
 History
 References
-
----
-
-# 文档：Blindfold
-
-- 类别：materials
-- 标识：blindfold
-- 来源：wiki/Blindfold
-
-The Blindfold is a Hardmode accessory that has a  /  chance to drop from Corrupt Slimes, Slimelings, Shadow Slimes (), Crimslimes , Dark Mummies, and . This item grants immunity for the equipped player to the Darkness debuff; however, it will not protect the player from Blackout or Obstructed, nor cancel out the positive effects of Shine or Night Owl.
-
-It is one of the ingredients required to make the Reflective Shades, which is required to make the Ankh Charm, which is in turn required to make the Ankh Shield.
-
-Crafting
-Used in
-Notes
-Despite inflicting Darkness, neither Black Slimes nor Demons can drop a Blindfold.
-Blackout and Obstructed, both essentially stronger versions of the Darkness debuff, will not be prevented by the Blindfold.
-The recipe for the Ankh Charm is only available in the 3DS version. In other versions of the game, the Blindfold is replaced by the Reflective Shades.
-
-Trivia
-The Blindfold is the only Ankh Charm material that is visible when equipped.
-A real-life  usually disables the wearer's sight instead of preventing sight-deteriorating effects.
-However, it is known for fictional characters to wear blindfolds to reduce their dependency on vision, and thereby heighten their other senses.
-In Terraria, the character may be using the blindfold to "see without using one's eyes," which would negate any visual impairment.
-
-History
 
 ---
 
@@ -33909,58 +29303,6 @@ History
 
 ---
 
-# 文档：Blizzard in a Balloon
-
-- 类别：materials
-- 标识：blizzard in a balloon
-- 来源：wiki/Blizzard_in_a_Balloon
-
-The Blizzard in a Balloon is an accessory that combines the effects of the Blizzard in a Bottle and the Shiny Red Balloon. It boosts jump height by 33% and jump speed by 30%, increasing your first jump's height to ~10½ blocks (~75% increase), and provides a double jump that now goes 14½ blocks, for a total height of 25 blocks.
-
-Jump height is oddly reduced when underwater, reducing your total underwater height from 19 blocks (8 + 11 from Blizzard jump) to 16 blocks (7 + 9 from Blizzard jump).
-
-Crafting
-Recipes
-Used in
-Notes
-The Blizzard in a Balloon can stack with separate double-jump items, such as the Cloud in a Balloon and Tsunami in a Bottle. Stacking multiple items that give the same type of double-jump (in this case, Blizzard) will not increase the effects of the jump.
-
-Tips
-The double jump can be used to negate fall damage if timed correctly.
-The double jump can be stopped midway by releasing the  button.
-The Blizzard jump provides a speed boost when used, which can be used to quickly turn around while retaining some speed.
-
-Gallery
-History
-
----
-
-# 文档：Blizzard in a Bottle
-
-- 类别：materials
-- 标识：blizzard in a bottle
-- 来源：wiki/Blizzard_in_a_Bottle
-
-The Blizzard in a Bottle is an accessory which works similarly to the Cloud in a Bottle, allowing the player to double-jump. Instead of a cloud being produced when the player jumps, a trail of snow is produced at the player's feet, accelerating the player 8 blocks upwards. Put together with their first jump, the player can reach up to 14 blocks.
-
-The Blizzard in a Bottle can be found in Frozen Chests in the Ice biome, and it can be dropped from  and .
-
-Crafting
-Recipes
-Used in
-Notes
-Unlike the Cloud in a Bottle, the Blizzard in a Bottle grants the player a horizontal speed boost for the duration of the second jump. This allows the player to quickly change directions in mid-air while maintaining some speed, allowing the Hermes Boots or any of its upgrades to quickly get back up to top speed.
-
-With the Shiny Red Balloon equipped, total jump height increases to 25 blocks (10½ blocks + 14½ blocks); in other words, the maximum possible height that can be fallen before beginning to take fall damage.
-This item can stack with the Cloud in a Bottle, the Tsunami in a Bottle, the Fart in a Jar and Sandstorm in a Bottle for up to five extra jumps.
-The Blizzard jump goes higher than the Cloud and Tsunami jumps, but lower than the Fart and Sandstorm jumps.
-The double-jump can be used as a fall safety device; use it shortly before hitting the ground to reset your fall damage and land safely.
-
-Gallery
-History
-
----
-
 # 文档：Blood Butcherer
 
 - 类别：materials
@@ -33976,193 +29318,6 @@ The Blood Butcherer applies the Blood Butchered debuff, causing the afflicted en
 Crafting
 Recipes
 Used in
-History
-
----
-
-# 文档：Blood Orange
-
-- 类别：materials
-- 标识：blood orange
-- 来源：wiki/Blood_Orange
-
-The Blood Orange is a Food item which grants the Well Fed Buff.
-
-It has a 3.5% dropping chance from any shaken Crimson Trees.
-
-Crafting
-Used in
-Trivia
-A  is an orange cultivar that has a dark, blood-like flesh color.
-
-History
-
----
-
-# 文档：Blue Berries
-
-- 类别：materials
-- 标识：blue berries
-- 来源：wiki/Blue_Berries
-
-Blue Berries are a dye material that can be collected from any Grass block by destroying a blueberry bush with a Pickaxe or Drill. Its sole purpose is to make Blue Dye. Placed Blue Berries have the appearance of a blueberry bush.
-
-Crafting
-Used in
-Notes
-Although Blue Berries are available in placed form on the , breaking one never yields an item.
-Although Blue Berries appear to be a "berry", they cannot be eaten or consumed in any way, and are solely used for decoration and making blue dye.
-Blue Berries cannot be placed in front of background walls. Placing background walls after Blue Berries will not break the berries.
-
-History
-
----
-
-# 文档：Blue Brick
-
-- 类别：materials
-- 标识：blue brick
-- 来源：wiki/Blue_Brick
-
-Dungeon Bricks are a type of brick from which the Dungeon is constructed. On world generation, one of three colors of Dungeon Brick is chosen to create the entirety of the Dungeon. Dungeon Brick is one of very few block types that is impervious to explosions.  100% Pickaxe power (a Molten Pickaxe or better) /  65% Pickaxe power (a Nightmare/Deathbringer or better) is required to mine Dungeon Bricks in the Underground-level Dungeon, although any pickaxe can destroy Dungeon Bricks at or above the Surface layer, and any Dungeon Bricks placed within the center third of the world. A Chlorophyte Extractinator can be used to cycle between Dungeon Brick colors.
-
-Crafting
-Used in
-Notes
-Dungeon Brick is a coveted building material since it is impervious to all explosions.
-It can be useful in multiplayer, especially in PvP, when other players may want to use Bombs/Dynamite to clear away other players' buildings.
-This also creates arena possibilities where Bombs/Dynamite can be used without destroying the arena, e.g. during the Wall of Flesh fight.
-Dungeon Bricks do not shield explosions, and are only impervious to explosions themselves. Anything within range of an explosion will take damage even when Dungeon Bricks are in the way.
-Before acquiring a Molten Pickaxe or better, a player can mine Surface-level Dungeon Bricks and can place them down inside of the Underground-level Dungeon, but will not be able to mine them, potentially leaving them trapped or cut off from the rest of the Dungeon.
-In Journey Mode, the Dungeon antechamber has enough wall tiles to research for replication (400). To get all variations of the dungeon wall, more than one world would need to be visited.
-
-See also
-Dungeon Brick Wall
-
-History
-
----
-
-# 文档：Blue Horseshoe Balloon
-
-- 类别：materials
-- 标识：blue horseshoe balloon
-- 来源：wiki/Blue_Horseshoe_Balloon
-
-The Blue Horseshoe Balloon is an accessory that grants immunity to fall damage, increases jump height by 75%, and grants a double-jump. The height of the first jump is increased from 6 blocks to 10½ blocks, while the double-jump's height is increased from 5 blocks to 9 blocks, reaching a total of 19½ blocks with both jumps.
-
-Jump height is instead reduced by 15% when underwater, reducing your total underwater height from 15 blocks (8 + 7 from Cloud jump) to 13 blocks (7 + 6 from Cloud jump).
-
-Crafting
-Recipes
-Crafting tree
-Used in
-Notes
-None of the Horseshoe Balloons can be crafted with an Obsidian Horseshoe; the original Lucky Horseshoe must be used.
-Of all the Horseshoe Balloons, the Blue Horseshoe Balloon has the smallest jump.
-When used with wings, the double jump must be used to activate the wings; otherwise, holding the  button after the first jump will begin a glide. This is the only Horseshoe Balloon that exhibits this behavior with wings.
-
-Gallery
-History
-
----
-
-# 文档：Blue Starry Block
-
-- 类别：materials
-- 标识：blue starry block
-- 来源：wiki/Blue_Starry_Block
-
-The Blue Starry Block is an animated decorative block type which shows twinkling blue stars on a black background. It is the blue-themed variant of the Gold Starry Block.
-
-Crafting
-Recipes
-Used in
-History
-
----
-
-# 文档：Blue Starry Wall
-
-- 类别：materials
-- 标识：blue starry wall
-- 来源：wiki/Blue_Starry_Wall
-
-Blue Starry Wall is a decorative wall crafted from Blue Starry Blocks.
-
-Crafting
-Recipes
-Used in
-See also
-Gold Starry Wall
-
-History
-
----
-
-# 文档：Bomb
-
-- 类别：materials
-- 标识：bomb
-- 来源：wiki/Bomb
-
-Bombs are explosives which can be purchased from the Demolitionist and Skeleton Merchant for  each or obtained from Pots, Chests, Slimes, killing an Undead Miner, or by powering Bomb Statues. They can be used as a mining tool or a weapon, although generally the former. When used, it is thrown a few blocks away from the player and rolls if the terrain allows it. After 3 seconds, it will explode, inflicting 100 points of damage to nearby enemies and destroying multiple blocks around it. The player can also inflict harm to themselves if not careful.
-
-Bombs can destroy almost any block, with some exceptions, which can then be collected. They can also be thrown through one block thick walls, like some other tossables. Additionally, Bombs also work underwater furthermore bombs can be used to lure slime to start slime rain .
-
-It has a small chance to appear as a bonus drop from Slimes.
-
-Crafting
-Used in
-Usage
-Bombs can be used for:
-
-Faster excavation
-Killing groups of enemies
-Mining ores rapidly. Drops will be equivalent to if the player had mined them manually
-
-Trivia
-While technically all explosives are bombs, this item is a kind of grenade, better known as cast-iron grenades or simply iron grenades. Meanwhile, the grenade item itself is specifically a hand grenade.
-In the , there is a Chest containing a Bomb with the Large modifier. This is the only way to legitimately obtain a reforged Bomb.
-However, because Bombs are not melee weapons, the modifier Large only has an aesthetic effect on them.
-
-See also
-, a similarly functioning item obtained from Fishing.
-
-History
-
----
-
-# 文档：Bone
-
-- 类别：materials
-- 标识：bone
-- 来源：wiki/Bone
-
-Bones are crafting materials, consumable ranged weapons, and  ammunition for the Bone Glove. They are dropped by Angry Bones, Dark Casters, and Cursed Skulls, which spawn in the Dungeon. On the , Bones are also dropped by normal Skeletons.
-
-Bones are greatly affected by gravity, and arc similarly to Throwing Knives and Shurikens. Of these three consumable ranged weapons, Bones have the least range (Throwing Knives having the greatest).  When used as weapons, Bones have a  chance of being retrievable after use, even if they hit enemies.
-
-Furthermore, Bones can be placed as blocks using the Bone Wand, upon which they become Bone Blocks.
-
-Crafting
-.]]
-
-Recipes
-Used in
-Notes
-The  will use Bones to defend himself if needed. The bones thrown by him are not retrievable.
-In , Skeletons can throw bones at the player, making them far more dangerous.
-Since Bones are used as ammo by the , they can be stored in the ammo slots of the inventory.
-Since , Bones cannot be stored in ammo slots due to the Bone Glove being changed from a ranged weapon to an accessory. Any bones placed in the ammo slots prior to the update will still be located there.
-While it may appear that ordinary Bones do more damage than the Bone Glove, the damage from Bones used as ammo is added to the Bone Glove's damage.
-
-Tips
-On the , the player can craft the Necro armor before entering the Dungeon due to Bones being dropped by Skeletons.
-
-Trivia
-Taking only basic ammunition (arrows and bullets) into consideration, Bones have the second-highest base damage, beaten only by .
-
 History
 
 ---
@@ -34197,53 +29352,6 @@ History
 
 ---
 
-# 文档：Book
-
-- 类别：materials
-- 标识：book
-- 来源：wiki/Book
-
-The Book is a crafting material used only to craft Bookcases and Pianos. Books can also be placed as decoration on Work Benches, Tables, or platforms. Books are obtained from the Dungeons' many shelves, where they can be freed with a Pickaxe.
-
-On the , Books can be renewably obtained from  or , which can be fished out of the Dungeon. They can also be bought from the Wizard for .
-
-Crafting
-Used in
-Notes
-The Water Bolt looks like a Book, and is hidden among those on the shelves of the Dungeon. It has a distinct sprite that no ordinary books have, and some special behavior. Once freed from its disguise, it acts like other weapon items, not like a placeable block.
-285 books are necessary to craft all of the pianos and bookcases.
-
-See also
-Spell Tome
-Water Bolt
-
-History
-
----
-
-# 文档：Boreal Crate
-
-- 类别：materials
-- 标识：boreal crate
-- 来源：wiki/Boreal_Crate
-
-The Boreal Crate is a Hardmode crate that can only be fished in the Snow biome. Boreal Crates contain items found in standard crates, and always contain one item normally found in Frozen Chests. Its pre-Hardmode counterpart is the Frozen Crate.
-
-Crafting
-Used in
-Drops
-Note: Only one type of ore and one type of bar can drop, not both a pre-Hardmode type of ore and a Hardmode type of ore, or both a pre-Hardmode type of bar and a Hardmode type of bar. The table above implies otherwise with the respective groups being in separate rows, but that is for readability purposes. The chance that a type of ore is dropped is , and the chance that a type of bar is dropped is .
-
-Tips
-The Fish (item) is significantly less rare in Boreal Crates than in Frozen Chests, where it can only be found at a 1 in 50 rate.
-
-Trivia
-Despite being called Boreal Crate, the crate is less similar to Boreal Wood than the Frozen Crate.
-
-History
-
----
-
 # 文档：Boreal Wood Wall
 
 - 类别：materials
@@ -34251,23 +29359,6 @@ History
 - 来源：wiki/Boreal_Wood_Wall
 
 Boreal Wood Wall is a type of background wall crafted from Boreal Wood.
-
-Crafting
-Recipes
-Used in
-History
-
----
-
-# 文档：Bottle
-
-- 类别：materials
-- 标识：bottle
-- 来源：wiki/Bottle
-
-A Bottle is a crafting material required to craft most potions. Like the Pink Vase, Mug, and different Cups, placing it (on most "flat surface items" or a platform) allows it to act as a Placed Bottle where the player can craft potions. Bottles can also be "filled" when standing near water or honey, turning them into Bottled Water or Bottled Honey, respectively.
-
-Bottles can be crafted from Glass and found in chests.
 
 Crafting
 Recipes
@@ -34353,97 +29444,6 @@ History
 
 ---
 
-# 文档：Boulder
-
-- 类别：materials
-- 标识：boulder
-- 来源：wiki/Boulder
-
-Boulders are unique placeable 2×2 foreground objects, and are stationary when placed. When unsupported, they fall and begin to roll away. They pick up speed and damage players, enemies and NPCs along their path. Boulders will also begin to roll if mined with a pickaxe or drill, meaning that they cannot be picked up again once placed.
-
-Boulders will roll across flat surfaces and down slopes, but will break and disappear on contact with an obstacle. They deal 120–160 /  /  damage to players (60–80 damage to NPCs, enemies, and critters) on contact. Boulders pierce through an unlimited number of entities.
-
-Boulder traps occur naturally in the Underground and Cavern layers, and consist of a single Boulder in the ceiling, supported by six (2×3) Active Stone Blocks wired to Pressure Plates. If a player walks onto the Pressure Plate, the Boulder falls down and begins rolling.
-
-Crafting
-Recipes
-Used in
-Notes
-The Boulder's roll direction is determined by:
-When hit with a pickaxe or drill, Boulders roll in the direction that provides the longest roll time.
-Boulders always roll left; if there is no space on the left, then they roll to the right.
-If the Boulder cannot roll left or right, it will merely break and disappear.
-Boulders spawned with a Boulder Statue will roll left or right depending on whether the x coordinate of the statue is even or odd; to change the direction the Boulder rolls, move the statue left or right by one block.
-The Boulder accelerates to a maximum speed of  over the course of 2.18 seconds.
-Like all other projectiles, the Boulder will break after rolling for one minute.
-If moving along a flat strip of land, it can reach a maximum distance of 1559 tiles.
-Once rolling, Boulders cause the same amount of damage regardless of their speed. A player or enemy hit by a Boulder that just began rolling will take just as much damage as they would from a fast-moving Boulder. This also means that players trying to mine it while touching it will be hit.
-Boulders can be placed atop flat-surface furniture, such as bookcases, and can be stacked on each other. Mining the bottom Boulder causes all of them to fall and roll. Mining only the top Boulder causes only that one to roll off.
-Boulders can activate red, green, and yellow (NPC-sensing) Pressure Plates by rolling over them.
-Boulders are unable to fit through 2-tile high spaces in the .
-It is possible for Boulders to roll uphill, as long as there is one flat block in between each sloped block.
-
-Tips
-In  and , Boulder traps should be avoided at all costs, considering the deadly force of  /  average damage.
-At full tilt, boulders roll faster than a running player with several speed boosts applied. Using a Hoverboard or Asphalt can help to overcome them.
-Boulders are effective when used along with Grenades against The Destroyer and Eater of Worlds.
-Using Boulders is an efficient way to kill NPCs, should one wish to do that (for example, for getting their unique drops).
-Players can detect Boulder traps "in the wild" by wielding a mechanism item such as a Pressure Plate, by carrying a  or its upgrade , or by using a Dangersense Potion. All except the last will allow the player to view placed wires, and the vertical wire with its 2×3 rectangle atop it is quite distinctive.
-Once detected, there are some basic ways to disarm them:
-If approaching from above, the player can mine their way toward the top of the trap, and use a pickaxe to break the boulder from outside the sealed chamber.
-From below, the player can make sure there is a slope downwards to the left, then trigger the plate from the right side and immediately dodge to the right.
-Once the player has The Grand Design (or even just a Wire Cutter), they can easily disable the trap at a distance by cutting the vertical wire.
-Removing the pressure plate will prevent the trap from triggering, but the Boulder will remain above, and becomes a hazard if freed from below.
-As with other traps, the mechanisms (but not the Boulder) can be harvested for later use. The pressure plate and active stone can be taken with a pickaxe, but collecting the wire needs a Wire Cutter or upgrade thereof.
-Once triggered, Orange Pressure Plates will break, and cannot be harvested.
-In Hardmode, the Active Stone Blocks do not change into their respective biome. Therefore, they can be much easier to spot and deactivate.
-
-Trivia
-Boulders are one of four non-accessories that are crafted at a Tinkerer's Workshop, the others being the Cell Phone, Multicolor Wrench, and The Grand Design.
-Boulders are one of the three (the others being Rolling Cactus and Bee Hive) placeable objects that cannot be picked up again once placed, as hammers have no effect on them, and mining them with a pickaxe or drill only causes them to roll (or destroys them, if they cannot roll).
-Boulders are the only placeable objects that cannot be picked up again once placed.
-Boulders are able to deal damage to Target Dummies.
-Once the Boulder has reached its maximum speed, it completes a full rotation approximately once every quarter of a second.
-
-History
-References
-
----
-
-# 文档：Bramble Crate
-
-- 类别：materials
-- 标识：bramble crate
-- 来源：wiki/Bramble_Crate
-
-The Bramble Crate is a Hardmode crate that can only be fished in the Jungle. Bramble Crates contain items found in standard crates, and they always contain an item normally found in Ivy Chests within Jungle Shrines. Its pre-Hardmode counterpart is the Jungle Crate.
-
-Crafting
-Used in
-Drops
-Note: Only one type of ore and one type of bar can drop, not both a pre-Hardmode type of ore and a Hardmode type of ore, or both a pre-Hardmode type of bar and a Hardmode type of bar. The table above implies otherwise with the respective groups being in separate rows, but that is for readability purposes. The chance that a type of ore is dropped is , and the chance that a type of bar is dropped is .
-
-History
-
----
-
-# 文档：Brick Layer
-
-- 类别：materials
-- 标识：brick layer
-- 来源：wiki/Brick_Layer
-
-The Brick Layer is an accessory which increases the player's placement speed by 50% when placing blocks, furniture, and any other placeable items. It is purchased from the Traveling Merchant for .
-
-Crafting
-Used in
-Notes
-The increase in placement speed additively stacks with the bonus from the Builder buff granted by the Builder Potion for a total increase of 75%. It does not stack with the Architect Gizmo Pack.
-
-History
-
----
-
 # 文档：Broken Bat Wing
 
 - 类别：materials
@@ -34483,79 +29483,6 @@ It is less profitable to craft excess Broken Hero Swords into True Excaliburs. W
 
 Trivia
 This item is an allusion to the classic literary trope of the disgraced or defeated hero who must repair their sword, or the similar trope of taking up the weapon of a past hero (perhaps killed by the monster dropping this item) to fulfill a destiny.
-
-History
-
----
-
-# 文档：Brown Pressure Plate
-
-- 类别：materials
-- 标识：brown pressure plate
-- 来源：wiki/Brown_Pressure_Plate
-
-Pressure Plates are activation mechanisms that trigger wired mechanisms when stepped on. A pressure plate's color determines which characters can trigger it.
-
-Pressure plates can be purchased from a Mechanic or taken from a natural source since the Red, Brown, Gray, Orange and Lihzahrd pressure plates are randomly generated on the map during world creation as the trigger for traps. Pressure plates only take up very small space on top of blocks, so they may be difficult to spot. The color of naturally spawned pressure plates is dependent on the color of the block it is generated on top of. They should be approached with caution as each one is (usually) connected to a trap mechanism.
-
-The Mechanic sells all types, except for Lihzahrd Pressure Plates, which have their distinct color of brown to blend in with Lihzahrd Bricks, and the Weighted Pressure Plates, which are crafted.
-
-The Teal Pressure Pad is a special kind of pressure plate that responds to projectiles impacting it and from pets touching it. Unlike regular pressure plates, the Teal Pressure Pad can be placed on the floor, ceiling, sidewall, and on platforms.
-
-The Weighted Pressure Plates activate when stepped on and when stepped off, useful in some applications.
-
-Types
-colspan=2 | Type !! Trigger criteria
-colspan=3 |
----
-
-colspan=3 |
----
-
-colspan=3 |
----
-
-colspan=3 |
----
-
-colspan=3 |
----
-
-Crafting
-Recipes
-The Red, Green, Gray, Brown, Blue, Yellow, and Orange pressure plates can be bought from the Mechanic for  each, and the Teal Pressure Pad can be bought from the Mechanic for  each.
-
-Used in
-Notes
-The Dangersense buff will highlight pressure plates.
-Teal Pressure Pads do not have to be shot for them to activate. As long as the projectile passes through the tile containing the pressure plate, it will activate.
-Golf Balls count as projectiles for purposes of triggering Teal Pressure Pads.
-Pressure Plates will work in reversed Gravity if placed on top of a block and then flown into.
-
-Tips
-Pressure plates allow the player to see laid wires when held, which can help avoiding traps.
-Pressure plates that can be triggered by non-players can also be triggered by Boulders. This can be used as a delay, or to trigger a row of traps as it rolls down a hallway.
-They can also be used for opening and closing doors without having to manually open or close them, although be careful that they are not unintentionally triggered by NPCs or enemies. This can be avoided by using the right kinds of the pressure plate.
-Paint can be applied to pressure plates to make them nearly invisible, e.g. for PvP purposes.
-Since they are regular projectiles, Falling Stars can activate Teal Pressure Pads.
-
-History
-
----
-
-# 文档：Bubblegum Block
-
-- 类别：materials
-- 标识：bubblegum block
-- 来源：wiki/Bubblegum_Block
-
-The Bubblegum Block is a building material crafted from Stone Blocks and Orichalcum Ore. When placed, it resembles stone blocks coated with bubblegum. It is essentially the Orichalcum Ore's equivalent of a Brick.
-
-Crafting
-Recipes
-Used in
-Trivia
-The Bubblegum Block is the only block crafted from ores that does not contain any part of the name of its ore ingredient. A similar block is the Titanstone Block, however, the name does somewhat resemble Titanium Ore.
 
 History
 
@@ -34620,44 +29547,6 @@ Unsurprisingly, as Buggy is the rarest, it is the only one with a  rarity, while
 Crafting
 Used in
 Trivia
-History
-
----
-
-# 文档：Bundle of Balloons
-
-- 类别：materials
-- 标识：bundle of balloons
-- 来源：wiki/Bundle_of_Balloons
-
-The Bundle of Balloons is an accessory that allows the wearer to perform a quadruple jump, as well as increasing the player's jump height by 33% and jump speed by 30%. Each of the jumps has an effect from the different combined items: sandstorm jump, then blizzard jump, then cloud jump.
-
-Crafting this item requires three of the variants of Cloud in a Balloon, which in turn requires a total of 3 Shiny Red Balloons. In particular it requires the relatively rare Sandstorm in a Bottle, which can be found in a Pyramid,  crafted with Cloud in a Bottle and Forbidden Fragment, or obtained from  / .
-
-Crafting
-Recipes
-Crafting tree
-Used in
-Notes
-Stacks with a Fart in a Jar or a Fart in a Balloon, Tsunami in a Bottle or a Sharkron Balloon, and a Blessed Apple to provide a septuple jump.
-The order will be: Jump > Unicorn > Sandstorm > Blizzard > Fart > Tsunami > Cloud.
-The Bundle of Balloons, however, will not stack with any other accessory that was used to craft it or its prerequisite balloons.
-If the player has wings equipped, Pressing the  button will consume the next available jump instead of activating wing flight; If the player continues to hold the  button, wing flight will activate immediately after the jump ends. If all flight time is consumed without releasing the  button, the player will enter slow fall. After this, any remaining jumps may be consumed, with slow fall starting immediately after each one.
-This is one of the only Pre-Hardmode items that, with a high level modifier, can attain  rarity.
-
-Tips
-The Bundle of Balloons does not provide immunity to fall damage, despite the extreme jump heights it allows players to achieve. Without additional fall protection, players can incur severe fall damage after multiple jumps. In combination with the Rocket Boots or similar, it is easy to achieve a height at which over 400 damage will be taken upon landing, killing most characters instantly. (As of v1.4.4.9 Bundle of Balloons can be crafted into Bundle of Horseshoe Balloons.)
-This item can be a viable alternative to Wings until Post-Golem, when enemies become significantly harder to reach or avoid.
-This can be made even more effective with Rocket Boots (or its upgrades) and/or Amphibian Boots. The former gives an extra flight bonus, and the latter grants faster and higher jumps, while both grant super speed while running.
-The extra jumps from the Bundle of Balloons allow for much faster turning and higher vertical acceleration than most early wings at the start of each jump. This can be used to quickly reach top speed or dodge faster ranged attacks.
-The key item for crafting this is the ultra-rare Sandstorm in a Bottle, which is available from a Pyramid, and Pyramids don't even generate in most worlds. However, it is still possible to obtain when Fishing in the Desert biome with the Oasis Crate or Mirage Crate. The other two bottles are far more common; the Cloud bottle appears frequently in underground chests, and  both the Blizzard bottles and the three Shiny Red Balloons needed, can be obtained by fishing for Biome Crates if necessary.
-The Sandstorm in a Bottle is even rarer in 1.4, for the spawn chance of Pyramids were nerfed and Desert Oasis can override Pyramid locations entirely.
-When using a non-flying mount, like a Unicorn, the extra jumps can be more useful than wings.
-The Frog Leg boosts the effectiveness of the Bundle of Balloons by providing a significant increase to jump height.
-
-Trivia
-Even though the sprite of the Bundle of Balloons depicts a green balloon, assumed to be the Fart in a Balloon, it is not actually used to craft the Bundle of Balloons, nor does it appear within the Bundle of Balloons sequence.
-
 History
 
 ---
@@ -34739,52 +29628,6 @@ History
 
 ---
 
-# 文档：Cactus
-
-- 类别：materials
-- 标识：cactus
-- 来源：wiki/Cactus
-
-Cactus is a crafting material obtained by harvesting Cactus plants, using an axe, chainsaw, or hamaxe just like with trees. In addition to crafting, Cactus can be used as a building material.
-
-Crafting
-It takes 258 items of Cactus to craft all items.
-
-Recipes
-Used in
-Plant
-, Ebonsand, Pearlsand, and Crimsand.]]
-
-The cactus plant grows in Desert biomes on all types of Sand. Cactus plants can naturally grow up to ten blocks high. Cactus plants can be harvested using an axe or chainsaw, which causes Cactus items to drop. On the , mining or hammering the Sand Block the cactus plant grows on will harvest the cactus, while on the  the Sand Block the cactus plant grows on is unbreakable and not affected by gravity. Putting a sand block up to one of the stems, right under it, and then cutting the main cactus body, will make the branch a new cactus. Corruption, Crimson, and Hallow cacti will all drop the same Cactus items when harvested.
-
-Cacti will sometimes grow Pink Prickly Pears on their tops.
-
-Conditions
-Cactus plants cannot be planted and will only grow on a target Sand Block under the following conditions:
-
-The target Sand Block is above 0ft and is not actuated or sloped in any way.
-The target block is more than 378 tiles away from the lateral edges of the world, i.e. not in the zone where the Ocean biome is usually located.
-The tiles above and to both sides of the target Sand Block (only the directly adjacent ones) are open space.
-The tile above the target block is not filled with any liquid.
-There are fewer than 4 Cactus tiles and more than 10 Sand Blocks (or Ebon-, Crim-, or Pearlsand Blocks; all variants are added together) within a 13×5-tile rectangle centered on the tile above the target Sand Block.
-
-Cacti that are spawned after world generation will first always consist of a single stub and slowly extend over time.
-
-Tips
-The most effective way of selling Cactus is to craft it into Cactus Swords.
-Because of how easy it is to get massive amounts of Cacti, crafting Cactus Swords until obtaining one with the Legendary modifier is easy, lucrative, and very useful in the early game.
-Unlike trees, new cacti appear not fully grown but as 1-block plants, and chopping a cactus not entirely but leaving a "stump" above the ground will let the plant regrow from it. This can be very helpful when farming cactus. Moreover, new plants will continue to appear among saved ones thus increasing farm's "production power" over time.
-Because of the -1 range attribute on the Copper Pickaxe, the Cactus Pickaxe becomes a viable early-game alternative since it does not have this drawback and, due to the availability of cacti, is also quick and easy to obtain.
-
-Trivia
-The Terraria cactus is designed after the , a cactus species found in North America noted for its "arms" and exceptional overall size. Paradoxically, Terraria's desert consists of sandy dunes while the Saguaro cactus only grows in the Sonoran desert, which is a subtropical desert devoid of sand.
-Neither the plant nor the placed item deal contact damage to any entity, it used to before 1.1 and now it only does in The Constant world seed.
-
-History
-References
-
----
-
 # 文档：Cactus Wall
 
 - 类别：materials
@@ -34824,60 +29667,6 @@ Trivia
 A  is an idiom used for describing a complex, troublesome situation arising when a decision or action produces considerable subsequent problems.
 
 History
-
----
-
-# 文档：Celestial Magnet
-
-- 类别：materials
-- 标识：celestial magnet
-- 来源：wiki/Celestial_Magnet
-
-The Celestial Magnet is an accessory that greatly increases the pickup range for Stars.
-On the , it can be found in Skyware Chests, which can be found at Floating Islands, as well as Sky Crates and Azure Crates, which can be fished at Floating Lakes.
-On the , it is purchased from the Traveling Merchant for .
-The increase in pickup range is 18.75 tiles, extending the base range of 2.625 tiles to 21.375 tiles. This effect does not stack with that of any of the Celestial Magnet's upgrades.
-Crafting
-Used in
-See also
-Treasure Magnet, another accessory with a similar effect and design.
-Coin Ring, an accessory with a similar effect.
-Heartreach Potion, a potion with a similar effect.
-History
-
----
-
-# 文档：Celestial Stone
-
-- 类别：materials
-- 标识：celestial stone
-- 来源：wiki/Celestial_Stone
-
-The Celestial Stone is a Hardmode post-Golem accessory crafted from a Moon Stone and a Sun Stone at the Tinkerer's Workshop. It offers the same boosts as its components do, and as such, it is active during both day and night. It can be combined with the Moon Shell to form a Celestial Shell.
-
-Stat boosts:
-+10% melee speed
-+10% damage (all types)
-+2% critical strike chance
-+1 HP/s life regeneration
-+4 defense
-+15% mining speed
-+0.5 minion knockback
-
-Crafting
-Recipes
-Used in
-Notes
-In  versions, the Celestial Stone stacks with the Celestial Shell and the Sun Stone or Moon Stone.
-The life regeneration granted by this accessory is as powerful as (twice as powerful in  versions) a Band of Regeneration, and will also stack with the Band.
-Players should upgrade it quickly with Moon Shell to make Celestial Shell, as it gives the stats of both items with no losses.
-
-Trivia
-The Celestial Stone does not show when equipped, despite the fact that its ingredients do.
-Of the accessories, the Ankh Shield and the Celestial Stone give the fourth most base defense, being bested by the Flesh Knuckles (8 base defense), the Celestial Shell (7 defense when worn at night), the Paladin's Shield (6 base defense), and the Hero Shield (10 base defense).
-
-History
-References
 
 ---
 
@@ -35084,24 +29873,6 @@ References
 
 ---
 
-# 文档：Clay Block
-
-- 类别：materials
-- 标识：clay block
-- 来源：wiki/Clay_Block
-
-Clay is a block type mainly used as a crafting material. It is found primarily in Surface-level (above 0 elevation) areas, and is more rare at the upper parts of the Underground. Because of this, the largest deposits of Clay can be found simply by exploring the Surface for differently-colored patches in the Dirt.
-
-Crafting
-Used in
-Notes
-Clay can be a natural blocker of the Corruption, Crimson or Hallow. All 3 biomes cannot spread through Clay and it can thus make a natural barrier against spreading.
-Clay can be painted with Brown Paint to make it quite similar to dirt. This can prove useful for builders who want to protect their biome without having different colored dirt.
-
-History
-
----
-
 # 文档：Clentaminator
 
 - 类别：materials
@@ -35156,102 +29927,6 @@ History
 
 ---
 
-# 文档：Climbing Claws
-
-- 类别：materials
-- 标识：climbing claws
-- 来源：wiki/Climbing_Claws
-
-Climbing Claws are an accessory that allow players to slowly slide down blocks when moving against them in midair. Jumps can also be performed off the sides of blocks. By repeatedly jumping against vertical blocks, they can be scaled. When sliding down, the slide speed can be accelerated using the  key. Climbing Claws can be found in surface chests (including Water Chests) and have a  chance of being found in Wooden Crates and , and  they can also be purchased for  from the Skeleton Merchant during a Waxing Crescent.
-
-Climbing Claws function identically to Shoe Spikes, and when both Climbing Claws and Shoe Spikes are equipped, the player can hang from the sides of blocks, sliding down with the  key. This effect can also be achieved if the Climbing Claws and Shoe Spikes are combined into the Tiger Climbing Gear at a Tinkerer's Workshop.
-
-Tips
-Its availability very early in the game makes it a useful accessory for mobility, as it allows the player to slowly but surely climb up some walls without needing Rope.
-
-Crafting
-Used in
-History
-
----
-
-# 文档：Cloud
-
-- 类别：materials
-- 标识：cloud
-- 来源：wiki/Cloud
-
-s and Snow Clouds emit big fluffy particles when walked or landed on.]]
-
-Cloud is a type of block found beneath Floating Islands, along with Rain Cloud blocks. Cloud blocks display as solid blocks, but light passes through them as if they were empty space. On the , landing on them will not inflict fall damage. Cloud blocks can also be obtained from Sky Crates and Azure Crates with a 50% chance, making it a renewable block.
-
-Crafting
-Recipes
-Used in
-Tips
-The Cloud block is useful for decorating player-built Floating Islands.
-Cloud blocks can be used as an alternative to Glass for building translucent structures as it also allows light to pass through.
-Clouds can be used at the bottom of Hellevators to avoid dying from fall damage.
-
-History
-
----
-
-# 文档：Cloud in a Balloon
-
-- 类别：materials
-- 标识：cloud in a balloon
-- 来源：wiki/Cloud_in_a_Balloon
-
-The Cloud in a Balloon is an accessory that combines the functionality of the Cloud in a Bottle and the Shiny Red Balloon. It boosts jump height by 33%, and jump speed by 30%, increasing the player's first jump's height to 10.5 blocks (~75% increase), and provides a double jump that hits 9 blocks, for a total height of 19.5 blocks.
-
-Jump height is reduced when underwater, reducing your total underwater height from 15 blocks (8 + 7 from Cloud jump) to 13 blocks (7 + 6 from Cloud jump).
-
-Crafting
-Recipes
-Used in
-Notes
-The Cloud in a Balloon can stack with separate double-jump items, such as the Sandstorm in a Balloon and Fart in a Jar. Stacking multiple items that give the same type of double-jump (in this case, Cloud) will not increase the effects of the jump.
-
-Tips
-The Cloud in a Balloon is useful when combined with wings because it will jump-start flight and increase total flight time.
-The double jump can be used to negate fall damage if timed correctly.
-
-Gallery
-History
-
----
-
-# 文档：Cloud in a Bottle
-
-- 类别：materials
-- 标识：cloud in a bottle
-- 来源：wiki/Cloud_in_a_Bottle
-
-The Cloud in a Bottle is an accessory that can be found in Gold Chests in the Underground and Cavern layers. When equipped, it allows the player an extra jump. The extra jump has a 75% jump duration compared to a normal jump, increasing the maximum height the player can reach without other accessories by 5 blocks, for a total of 11 blocks.
-
-Crafting
-Used in
-Notes
-With the Shiny Red Balloon equipped, jump height increases by ~75%, allowing you to ascend 19½ blocks. (10½ blocks + 9 blocks from Cloud jump).
-This item can stack with the Tsunami in a Bottle, Blizzard in a Bottle, Fart in a Jar, and Sandstorm in a Bottle for up to five extra jumps.
-The double-jump can be used as a fall safety device; use it shortly before hitting the ground to reset your fall damage and land safely.
-Each underwater jump used when swimming with the Flipper will waste a jump provided by double-jump accessories in the order that they would be used outside of water, preventing you from using them once you break the water's surface.
-
-Tips
-If the player is not planning to craft the Bundle of Balloons, it is generally recommended to upgrade to a Fart in a Jar for increased jump height.
-Shimmer can be used to uncraft the Fart in a Jar and retrieve the Cloud in a Bottle, which then can be used in the crafting of a Bundle of Balloons.
-
-Trivia
-The cloud jump goes the lowest out of all the extra jumps, but it is also arguably the most commonly found.
-Redigit confirmed that the Angel Statue was originally intended as a placeholder sprite for the Cloud in a Bottle .
-
-Gallery
-History
-References
-
----
-
 # 文档：Cloud Wall
 
 - 类别：materials
@@ -35265,39 +29940,6 @@ Recipes
 Used in
 Notes
 Cloud Walls painted white become 100% white ( #FFFFFF) during sunny middays. This can be used to create ideal backgrounds when taking screenshots.
-
-History
-
----
-
-# 文档：Cobalt Bar
-
-- 类别：materials
-- 标识：cobalt bar
-- 来源：wiki/Cobalt_Bar
-
-Cobalt Bars are bars crafted from 3 Cobalt Ore. Cobalt is the first tier of the three Hardmode ores that the player is able to obtain. Cobalt is the equivalent of Palladium. When the first Demon Altar is broken, Cobalt or Palladium is chosen randomly and the other one will not spawn naturally in that world.
-
-On the , Cobalt Bars drop from Shadow Hammers.
-
-Crafting all Cobalt equipment requires  143 /  145 bars, or  429 /  435 ores.
-
-Crafting
-Recipes
-Used in
-Notes
-The Cobalt Shield and Ancient Cobalt armor are not related to Cobalt ore, and are not craftable. They can only be obtained as loot.
-Cobalt has the same value whether it is sold as Bars or raw Ore.
-Cobalt is slightly weaker than Palladium in terms of base stats, though Cobalt equipment is cheaper to craft.
-Like other hardmode materials, Cobalt Bar can be used to make three different helmets.
-
-Trivia
-Several Cobalt items have a distinctive Japanese theme, the spear being a Naginata, the sword somewhat resembling either a Katana, or the similar Muramasa, and the headgear variations resembling Japanese headdresses.
-Real  isn't blue in pure form, but rather a lustrous, silver-gray. Cobalt oxide is used to make a , which probably inspired its appearance in Terraria. Historically, cobalt compounds were used for centuries to color glass, glazes, and ceramics in Egyptian sculpture, Persian jewelry, and Chinese porcelain (which may explain its Eastern theme in Terraria).
-A Cobalt Drill appears to be mining Mythril Ore in the achievement "Extra Shiny!".
-
-See also
-Palladium Bar
 
 History
 
@@ -35363,57 +30005,6 @@ History
 
 ---
 
-# 文档：Cobalt Shield
-
-- 类别：materials
-- 标识：cobalt shield
-- 来源：wiki/Cobalt_Shield
-
-The Cobalt Shield is a Shield accessory that grants the player immunity from knockback when equipped. It also provides 1 defense, which stacks with other defense-granting accessories, such as Obsidian Skulls and Shackles. It is obtained from Gold Chests found in the Dungeon, or by opening Golden Lock Boxes found in Dungeon Crates.
-
-Crafting
-Used in
-Tips
-The protection against knockback is particularly valuable when the player is likely to come into frequent contact with enemies and environmental hazards, including but not limited to: boss fights which spawn several enemies or projectiles, Bats in the Underground, exposed lava pools, and map-generated traps in the Cavern and Dungeon.
-The knockback immunity is also of particular use when the player is on the move. For instance, farming for Fallen Stars while equipping the Hermes Boots will allow no speed interruptions caused by damage, and traversing through a Corruption chasm will prevent deadly fall damage from possible knockback caused by contact from the commonly encountered Eater of Souls.
-The Cobalt Shield can synergize with the  to block attacks, granting the Striking Moment buff.
-Players should upgrade it quickly with Obsidian Skull to make the Obsidian Shield as it's relatively cheap, combines the defense of both, and grants immunity to the Burning debuff.
-
-Trivia
-It is one of the 6 components of the Ankh Shield that can be obtained in Pre-Hardmode, the others being the Obsidian Skull, Nazar, Megaphone, Bezoar and Adhesive Bandage.
-Even though it has the word "Cobalt" in it, and visually appears similar to other Cobalt items, it cannot be crafted from Cobalt Ore / Cobalt Bars, as this item, like certain others found in the Dungeon's Locked Gold Chests/Golden Lock Boxes, contain Eastern Asian-themed items. It additionally predates Cobalt.
-
-History
-
----
-
-# 文档：Cobweb
-
-- 类别：materials
-- 标识：cobweb
-- 来源：wiki/Cobweb
-
-Cobwebs are crafting materials used to craft Silk and other items. Cobwebs can also be placed. They will catch players who fall into them and reset fall damage. They break after a short time when a player is stuck in them, but can also be harvested instantly with any weapon or swung tool, just like plants.
-
-Cobwebs are commonly found in underground areas, in clusters of 5 or more, alongside the edges of walls or ceilings, and are guaranteed to drop a cobweb item when broken. They are also found in large quantities in Spider Caves, where they regrow over time; however, cobweb found there has only a  chance to drop when broken.
-
-Crafting
-Recipes
-Used in
-Notes
-Placed cobwebs can support falling blocks like sand and silt; removing the cobwebs will allow them to fall, causing damage to whatever they hit.
-Placed cobwebs do not impede the movement of monsters, NPCs or critters.
-Although Cobwebs have no sell value, they can be crafted into Silk, which has a sell value of . At 7 Cobweb per Silk, this results in a sell value of  for a Cobweb.
-
-Tips
-Because they slow player movement, Cobwebs can be used in the construction of pits to prevent fall damage.
-It is more resourceful to make Silk Rope instead of Web Rope as using Silk will consume less Cobweb and yield more rope.
-An easy way to find Cobweb is to use a Dangersense Potion as it highlights the Cobweb on the screen.
-
-History
-
----
-
 # 文档：Coconut
 
 - 类别：materials
@@ -35433,25 +30024,6 @@ History
 
 ---
 
-# 文档：Cog
-
-- 类别：materials
-- 标识：cog
-- 来源：wiki/Cog
-
-Cogs are a Hardmode crafting material and placeable block that is purchased from the Steampunker for  each. They are used to make High Velocity Bullets, Liquid Sensors and the Steampunk furniture set.
-
-When Cogs are placed together they will display animated machinery. Corners, lines, and junctions will never be animated, though blocks inside the group of cogs and the left border will always be animated and other borders are sometimes animated (2/3 chance).
-
-Crafting all Steampunk furniture will require 159 () / 153 () / 33 () cogs.
-
-Crafting
-Recipes
-Used in
-History
-
----
-
 # 文档：Cog Wall
 
 - 类别：materials
@@ -35459,73 +30031,6 @@ History
 - 来源：wiki/Cog_Wall
 
 Cog Walls are a type of background wall made from Cogs. The wall is animated similar to placed cogs.
-
-Crafting
-Recipes
-Used in
-History
-
----
-
-# 文档：Coin Ring
-
-- 类别：materials
-- 标识：coin ring
-- 来源：wiki/Coin_Ring
-
-The Coin Ring is a Hardmode accessory created by other accessories exclusively dropped from pirate enemies during Pirate Invasion. It causes enemies to occasionally drop 1 to 10 more coins when hit and increases the pickup range for coins - the two effects provided by the materials used to create it. This can be useful for picking up money the player would otherwise miss and making farms more efficient.
-
-Crafting
-Recipes
-Used in
-Notes
-This accessory is probably the single most useful money-making item in the game.  In particular, it is possible to wait in safety while minions defeat  enemies just outside your shelter, and the coins dropped go directly into your inventory.  Using a swarm of particularly weak minions (like a Broken Slime Staff) against an event with no casters (The Frost Legion is particularly safe) can rake in multiple platinum coins.
-
-You can also farm in a Solar Eclipse, but the Mothrons and Reapers can travel through walls to hit you, so it is recommended to farm before defeating Plantera.
-
-History
-
----
-
-# 文档：Compass
-
-- 类别：materials
-- 标识：compass
-- 来源：wiki/Compass
-
-The Compass is an informational accessory that enables an on-screen display of the player's lateral position when equipped. Position is shown in the number of feet (1 foot = 1/2 tile) to the East or West of the center of the map. The center of the map is usually very close to the initial spawn point. In the , the Compass has a  chance to be dropped by Salamanders, Giant Shellys, and Crawdads, a  chance to be dropped by Piranhas, and a  chance to be dropped by Mother Slimes, Snow Flinxes, Undead Vikings, and Armored Vikings. On the , it has a  chance to be dropped by Mimics. On the , it is unobtainable (no longer drops, but still exists), and is not functional.
-
-Crafting
-Used in
-Notes
-Unlike the "Level" depth, which is a single horizontal row of tiles (2 feet high), the 'Center' Position is actually two columns of tiles (4 feet wide). The actual center of the map is between those two columns.
-The compass can drop from Piranhas and Undead Vikings spawned from statues.
-
-History
-
----
-
-# 文档：Confetti
-
-- 类别：materials
-- 标识：confetti
-- 来源：wiki/Confetti
-
-Confetti is a crafting material used to make several festive items. It is also used as ammunition for the Confetti Cannon. It is purchased from the Party Girl for  each.
-
-Crafting
-Used in
-History
-
----
-
-# 文档：Confetti Block
-
-- 类别：materials
-- 标识：confetti block
-- 来源：wiki/Confetti_Block
-
-The Confetti Block is an animated block type showing falling confetti. It is one of the few items that uses the Crystal Ball as a crafting station. Besides the confetti, it is transparent, like Glass. The Midnight Confetti Block is a dark, non-transparent version of it.
 
 Crafting
 Recipes
@@ -35640,27 +30145,6 @@ History
 
 ---
 
-# 文档：Copper Plating
-
-- 类别：materials
-- 标识：copper plating
-- 来源：wiki/Copper_Plating
-
-Copper Plating is one of the few items crafted at the Heavy Work Bench. It has an Ore alternate version in the form of Tin Plating.
-
-Crafting
-Recipes
-Used in
-Notes
-The materials for this block are identical to those of the Copper Brick, however the recipes are created at different crafting stations.
-
-Trivia
-Copper has historically been a common material in  and  due to its durability and appearance.
-
-History
-
----
-
 # 文档：Copper Plating Wall
 
 - 类别：materials
@@ -35709,7 +30193,6 @@ People also joke that it is 99% of the Zenith power.
 History
 
 ---
-
 ## NPCS
 共 5 篇文档
 
@@ -36341,9 +30824,8 @@ History
 References
 
 ---
-
 ## POTIONS
-共 143 篇文档
+共 125 篇文档
 
 # 文档：Buff potions
 
@@ -36746,319 +31228,6 @@ Lịch sử
 
 ---
 
-# 文档：Ale
-
-- 类别：potions
-- 标识：ale
-- 来源：wiki/Ale
-
-Ale is a potion which gives the player the Tipsy debuff, increasing melee damage, but lowering the player's defense, for 2 minutes. It can be crafted at a Keg or purchased from the  for  each.
-
-The Tipsy debuff has the following effects:
-
-The  uses Ale as ammunition.
-
-Crafting
-Recipes
-Used in
-Tips
-Ale sells for  and only requires Mugs, which in turn only require 1 Glass, which is crafted from only 2 Sand each. Each unit of 2 Sand is therefore worth  if used to craft Ale. Crafting Ale can ultimately be the most profitable means of selling off Sand without incorporating other ingredients.
-Since Tipsy is a debuff, it will be removed by the Nurse. Repeatedly consuming Ale and healing at the Nurse can be a fast way to gain the The Frequent Flyer achievement.
-Drinking ale or Saké increases fishing power by 5.
-
-See also
-Sake
-History
-
----
-
-# 文档：Ammo Reservation Potion
-
-- 类别：potions
-- 标识：ammo reservation potion
-- 来源：wiki/Ammo_Reservation_Potion
-
-The Ammo Reservation Potion is a buff potion which grants the Ammo Reservation buff when consumed. The buff reduces the chance of consuming any ammunition by 20%.
-
-Crafting
-Recipes
-Tips
-The Ammo Reservation potions effects stack with those of the Ammo Box which greatly helps in saving ammo when using weapons with expensive ammo such as the Clentaminator or ammo-hungry weapons such as the Hellwing Bow.
-
-Trivia
-Both the potion and buff icon resemble the High Velocity Bullet.
-
-History
-
----
-
-# 文档：Apple
-
-- 类别：potions
-- 标识：apple
-- 来源：wiki/Apple
-
-The Apple is a consumable potion that gives the Well Fed buff.
-
-It has a 4.517% chance of dropping when shaking a  Tree in the Forest.
-
-Crafting
-Used in
-Trivia
-s are native to regions in Central Asia, and various species can be found worldwide.
-Its tooltip is a nod to the phrase, "An apple a day will keep the doctor away!" and the enemy Doctor Bones.
-Despite the similarities in name, it cannot be used to make the Apple Pie.
-
-History
-
----
-
-# 文档：Apple Juice
-
-- 类别：potions
-- 标识：apple juice
-- 来源：wiki/Apple_Juice
-
-The Apple Juice is a food item which grants the Well Fed buff.
-
-Crafting
-Recipes
-Trivia
-Its tooltip is likely a reference to the TV show "", where the character Jerry Smith, a former advertising agent, pitches a comically bad brand idea.
-
-History
-
----
-
-# 文档：Apricot
-
-- 类别：potions
-- 标识：apricot
-- 来源：wiki/Apricot
-
-The Apricot is a consumable food item that gives the Well Fed buff.
-
-It has a  dropping chance from shaken Forest Trees.
-
-Crafting
-Used in
-Trivia
-The Apricot, Grapefruit, Cherry, and Plum are the only fruits that do not have unique recipes of their own (i.e. they can only be used to make Fruit Juice and Fruit Salad).
-The tooltip is a play on the words appreciate & apricot.
-
-History
-
----
-
-# 文档：Archery Potion
-
-- 类别：potions
-- 标识：archery potion
-- 来源：wiki/Archery_Potion
-
-The Archery Potion is a buff potion which grants the Archery buff when consumed. The buff increases damage by 10%
-and velocity by 20% of arrow-firing weapons.
-Crafting
-Recipes
-Notes
-Unlike other items, it directly adds 10% of the overall damage of bows and repeaters; in other words, it multiplies with other damage boosts (including the damage boost from Shroomite Headgear and Magic Quiver).
-On , it also affects the Stake Launcher.
-
-History
-References
-
----
-
-# 文档：Bacon
-
-- 类别：potions
-- 标识：bacon
-- 来源：wiki/Bacon
-
-Bacon is a consumable food item dropped by the Hardmode enemy Pigron, or occasionally by the  item. Using Bacon grants the Exquisitely Stuffed buff for 24 minutes or the Well Fed buff  for 30 minutes.
-
-Notes
-The Pigronata has a chance to drop Bacon even in Pre-Hardmode.
-In terms of duration and effects, it is the second best food item in the game, tied with the BBQ Ribs and only behind the Golden Delight.
-
-Tips
-If the player has enough money for it, consider buying Pigronata in bulk and breaking them, as the Bacon that they drop will grant huge stat boosts for the duration of an entire in-game day. It is also arguably easier to get compared to the BBQ Ribs or the Golden Delight.
-However, the effective cost per piece of getting Bacon this way is considerably higher than the  foregone by using (rather than selling) a Golden Delight, which can be crafted from any Golden Critter and has twice the duration of Bacon.  (See the Pigronata page for full analysis.)
-Before 1.4.2.3, if you make the Party Girl happy enough (and/or use a Discount Card) you can actually buy Pigronata for less than their average coin drop, resulting in unlimited Bacon (if you have enough gold to get about 10 Pigronatas to start with).
-
-History
-
----
-
-# 文档：Banana
-
-- 类别：potions
-- 标识：banana
-- 来源：wiki/Banana
-
-The Banana is a food item which gives the Well Fed buff.
-
-It has a 3.3% dropping chance from shaken Palm Trees and their Corrupt, Crimson, and Hallowed variants in the Ocean biome but not in Desert nor Oasis.
-
-Crafting
-Used in
-Trivia
-Despite the similarities in name, it cannot be used to make the Banana Split.
-The tooltip is a direct quote from The Doctor Dances, an episode of the British science fiction TV show . Christopher Eccleston, playing the Ninth Doctor, tells his companion not to drop a banana because it's a "good source of potassium!".
-
-History
-References
-
----
-
-# 文档：Battle Potion
-
-- 类别：potions
-- 标识：battle potion
-- 来源：wiki/Battle_Potion
-
-The Battle Potion is a buff potion which grants the Battle buff when consumed. The buff doubles the spawn rate of both enemies and critters, and doubles the maximum amount of enemies that can be on-screen at once.
-
-Crafting
-Recipes
-Notes
-The effect stacks with those of other items which allow a manual alteration of spawn rates, such as Water Candles. Similarly, items like Sunflowers or Calming Potions moderate the effect. For example, having both a Battle and a Calming Potion active will result in a spawn rate increase of only 54% (instead of 100%, due to the -23% of the Calming Potion) and an increase in the maximum number of enemies on-screen of only 40% (instead of 100%, due to the -30% of the Calming Potion).
-Spawn rate effects like Battle Potions (and Water Candles) can be used to increase the spawn rates of events that do not have a set spawn rate, like the Blood Moon and Solar Eclipse.
-Battle Potions and Water Candles cannot be used to increase the spawn rates of events like the Pumpkin and Frost Moon. The spawn rates of these events override spawn rate effects.
-The Calming Potion has the opposite effect of the Battle Potion but as they are both potions, they are both considered buffs and as such can be canceled early. In contrast, the Water Candle effect is classified as a debuff.
-The Battle Potion increases the spawn rates of NPCs, such as the Skeleton Merchant and bound Goblin Tinkerer, bound Mechanic, and bound Wizard.
-The effect stacks between players, because each player spawns their own NPCs. It also increases the maximum amount of enemies that can be spawned, allowing multiple players to drink them and spawn mobs at a much faster than intended rate.
-
-Tips
-When using this potion, beware when entering Dungeons, and even more so Hardmode Dungeons. Spawn rates can get out of control and difficult to handle even for the best of players.
-Battle Potions can be used to farm affected events for rare drops, such as the Money Trough from the Blood Moon, Broken Hero Swords from the Solar Eclipse, and many items from the Pirate Invasion.
-The Battle Potion is useful for increasing the chances of certain rare enemies and critters to spawn, such as the , Truffle Worm and .
-
-History
-References
-
----
-
-# 文档：Biome Sight Potion
-
-- 类别：potions
-- 标识：biome sight potion
-- 来源：wiki/Biome_Sight_Potion
-
-The Biome Sight Potion is a buff potion that, when consumed, grants the player the Biome Sight buff, which highlights nearby infected blocks. The buff lasts for 5 minutes.
-
-Crafting
-Recipes
-Tips
-This potion is useful for unlocking the "And Good Riddance" Achievement.
-
-Trivia
-This potion's concept may have been born out of player frustrations in trying to find the last select few blocks of The Hallow, Crimson, and Corruption.
-
-History
-
----
-
-# 文档：Blackcurrant
-
-- 类别：potions
-- 标识：blackcurrant
-- 来源：wiki/Blackcurrant
-
-The Blackcurrant is a potion item that gives the Well Fed buff.
-
-It has a 3.5% dropping chance from any shaken Corrupt Trees.
-
-Crafting
-Used in
-Trivia
-is a berry shrub that can be found in Central and Northern Europe, as well as Northern Asia.
-
-History
-
----
-
-# 文档：Blood Orange
-
-- 类别：potions
-- 标识：blood orange
-- 来源：wiki/Blood_Orange
-
-The Blood Orange is a Food item which grants the Well Fed Buff.
-
-It has a 3.5% dropping chance from any shaken Crimson Trees.
-
-Crafting
-Used in
-Trivia
-A  is an orange cultivar that has a dark, blood-like flesh color.
-
-History
-
----
-
-# 文档：Bloody Moscato
-
-- 类别：potions
-- 标识：bloody moscato
-- 来源：wiki/Bloody_Moscato
-
-The Bloody Moscato is a consumable potion item that gives the Well Fed buff.
-
-Crafting
-Recipes
-Trivia
-Its name seems to be based on two types of alcoholic beverages: the , which is a blood-red drink made from vodka, tomato juice, and an assortment of savory flavors; as well as the , which is a type of wine created from the Muscat grape family.
-Its name might also be a pun on "bloody mosquito"; mosquitos are known for feeding on human and animal blood.
-
-History
-
----
-
-# 文档：Bottled Honey
-
-- 类别：potions
-- 标识：bottled honey
-- 来源：wiki/Bottled_Honey
-
-Bottled Honey is a health-restoring item and crafting material. It restores health on use and causes Potion Sickness like other healing potions. Bottled Honey is dropped by the Queen Bee boss found in Bee Hives, and can be crafted.
-
-Crafting
-Recipes
-Used in
-History
-
----
-
-# 文档：Bottled Water
-
-- 类别：potions
-- 标识：bottled water
-- 来源：wiki/Bottled_Water
-
-Bottled Water is a  and crafting material crafted at a sink or a body of water. Crafting it does not lower the water level and it cannot be emptied on a block like a Water Bucket.
-
-Bottled Water heals the player for 20 health instantly when used, which – like any other healing potion – triggers the Potion Sickness debuff.
-
-The Bottled Water serves as the basis of almost every craftable Potion in the game, and is also necessary for the creation of Flasks, cosmetic jars like Jellyfish Jars, and Thrown Water. It is thus an essential crafting material.
-
-Crafting
-Recipes
-Used in
-Notes
-Like with any other crafting station, the player only has to be close to a sink or a body of water. They do not need to be in the water.
-Furthermore, Bottled Water can only be crafted. It is not possible to use a Bottle on a body of water, like with an Empty Bucket.
-Consuming Bottled Water will not return an empty Bottle.
-If consumed while drowning, the player will be granted the achievement "Unusual Survival Strategies".
-
-Trivia
-Despite being a seemingly normal bottle of water, Bottled Water still inflicts 60 seconds of the Potion Sickness debuff after being consumed.
-Its item ID was used for the Zapinator before it got removed.
-
-History
-
----
-
 # 文档：Bowl of Soup
 
 - 类别：potions
@@ -37171,28 +31340,6 @@ History
 
 ---
 
-# 文档：Cherry
-
-- 类别：potions
-- 标识：cherry
-- 来源：wiki/Cherry
-
-The Cherry is a consumable food item that gives the Well Fed buff.
-
-It has a  dropping chance from shaken Boreal Trees in the Snow biome.
-
-Crafting
-Used in
-Trivia
-domestication predates recorded history.
-Despite the name indicating a single cherry, the icon depicts two cherries.
-It is unrelated to and is not dropped from Sakura trees, even though they are often known as cherry blossom trees.
-The Cherry, Apricot, Grapefruit, and Plum are the only fruits that do not have unique recipes of their own (i.e. they can only be used to make Fruit Juice and Fruit Salad).
-
-History
-
----
-
 # 文档：Christmas Pudding
 
 - 类别：potions
@@ -37203,25 +31350,6 @@ Christmas Pudding is a food item dropped from Presents obtained during the Chris
 
 Trivia
 is traditionally served for dinner on Christmas. It originated in England.
-
-History
-
----
-
-# 文档：Coconut
-
-- 类别：potions
-- 标识：coconut
-- 来源：wiki/Coconut
-
-The Coconut is a food item which grants the Well Fed buff.
-
-It has a 3.3% dropping chance from shaken Palm Trees and their Corrupt, Crimson, and Hallowed variants in the Ocean biome but not in Desert nor Oasis.
-
-Crafting
-Used in
-Trivia
-Its tooltip is a reference to the movie .
 
 History
 
@@ -37787,38 +31915,6 @@ The Gingerbread Cookie is a food item dropped from Presents obtained during the 
 
 Trivia
 Its tooltip is a reference to the movies  & , in which the Gingerbread man says the same line.
-
-History
-
----
-
-# 文档：Glowing Mushroom
-
-- 类别：potions
-- 标识：glowing mushroom
-- 来源：wiki/Glowing_Mushroom
-
-Glowing Mushrooms are crafting materials that can be found growing on Mushroom grass in the Glowing Mushroom biome. Harvesting these mushrooms has a chance of dropping a Glowing Mushroom and may also yield Mushroom Grass Seeds. They emit their own light, making them quite easy to find. If the conditions are right, Giant Glowing Mushrooms will spawn amongst the small ones. These can be harvested with an axe to yield several Glowing Mushrooms and Mushroom Grass Seeds.  Some Mushroom vines grow under Mushroom grass and drop Glowing Mushrooms when broken.
-
-Crafting
-Recipes
-Used in
-Notes
-Glowing Mushrooms can grow on actuated Mushroom grass. They will instantly be harvested.
-Unharvested ("living") Glowing Mushrooms act the same as Mushroom grass when counting towards whether a Glowing Mushroom biome is established, but Glowing Mushrooms placed as blocks do not count, nor do Mushroom Walls or Mushroom furniture.
-Glowing Mushroom Vines growing from the bottoms of Mushroom grass have multiple segments, which each count as separate mushrooms for harvesting purposes.
-Similarly, Glowing Mushroom Cattails grown on Mushroom grass submerged in Water will grow arbitrarily tall to reach past the surface of the water, with each segment acting as a separate, harvestible mushroom.
-
-Tips
-The simplest way to monetize a surplus of Glowing Mushrooms is by making Mushroom Candelabras.
-If purchasing the Torches for the candelabras, upgrading Lesser Healing Potions to Healing Potions is slightly more profitable.
-In Hardmode, making Shroomite Bars is also far more profitable.
-Glowing Mushroom farms can take advantage of upside-down and submerged Glowing Mushrooms (which ostensibly grow more Mushrooms per block of Mushroom Grass) to be more efficient.
-
-Trivia
-Glowing Mushrooms can be considered the Glowing Mushroom biome variant of Wood. They are dropped from Giant Glowing Mushrooms when harvested, may be placed as a block without crafting them into a block beforehand, and can be crafted into furniture.
-The blue parts of a Glowing Mushroom, Mushroom Grass blocks, and Giant Glowing Mushrooms turn pink during a Blood Moon.
-Glowing Mushrooms placed into an upside-down T shape can be hammered and painted to look like rocks. However, the middle block needs to connect to the block below it for it to work.
 
 History
 
@@ -39695,9 +33791,8 @@ Recipes
 History
 
 ---
-
 ## WEAPONS
-共 150 篇文档
+共 138 篇文档
 
 # 文档：List of weapons
 
@@ -40671,72 +34766,6 @@ History
 
 ---
 
-# 文档：Bee Keeper
-
-- 类别：weapons
-- 标识：bee keeper
-- 来源：wiki/Bee_Keeper
-
-, while inflicting the debuff Confused and summoning bees on a Skeleton.]]
-
-The Bee Keeper is a pre-Hardmode broadsword that has a 33% chance to drop from the  Queen Bee. Upon attacking an enemy, it summons friendly Bees (1-3, or 1-4 with a Hive Pack equipped), and has a 90% chance of inflicting the Confused debuff on the struck enemy.
-
-It is capable of autoswing.
-
-Crafting
-Used in
-Notes
-The Bees summoned by the Bee Keeper deal 8-9 damage, with Hive Pack bees dealing 1-4 extra damage. The Hive Pack also grants an additional 33% chance for an extra bee to be summoned.
-The Bees can pierce enemies a number of times and can home in on the same one many times.
-The Bees may be destroyed upon hitting liquids or solid blocks.
-Each time the Bees bounce off a wall or enter liquid, they lose one "point" towards piercing enemies.
-Armor penetration effects (from both the Shark Tooth Necklace and the Sharpening Station) also affect the damage done by the summoned bees, granting bonus damage to all hits from them too.
-
-Tips
-Using the Bee Keeper on the Eater of Worlds and The Destroyer will release many bees if it moves right through the sword's swinging area.
-The Bee Keeper can be useful even in Hardmode because of its ability to cause Confusion and deal decent damage at the same time, especially with the bees.
-The Bees are very helpful for crowd control, as they can not only finish off enemies damaged by the sword, but hurt or kill any other enemies in the vicinity.
-
-Trivia
-Despite the Falcon Blade having a higher rarity, the Bee Keeper is superior to the Falcon Blade in all ways, including sell price.
-The Bee Keeper is the only pre-Hardmode weapon that is capable of inflicting the Confused debuff.
-The Bee Keeper's name is based off of real beekeepers, who are responsible for collecting honey from the hives.
-The description erroneously claims it has a low chance to confuse enemies, despite it applying the debuff consistently.
-Unlike many other weapons, Bee Keeper's confusion effect still works in PVP.
-
-History
-
----
-
-# 文档：Beenade
-
-- 类别：weapons
-- 标识：beenade
-- 来源：wiki/Beenade
-
-Beenades are consumable ranged weapons that can be dropped by the Queen Bee boss or crafted on the  using Grenades and Bee Wax. They act similarly to regular Grenades, but release 15–25 friendly bee projectiles upon exploding that hone in on enemies. Each bee can attack or ricochet a total of 3 times and each bee hit inflicts the total Beenade damage.
-
-Crafting
-Recipes
-Notes
-Unlike some other bee-spawning items, the  does not provide additional chances to spawn more bees for the Beenade.
-Beenades that explode in water and lava will not spawn bees. Bees instantly despawn on contact with either. Bees do spawn in honey, though they move more slowly until they exit.
-Bees spawned from Beenades act as entities, and therefore there can only be 400 in a world at any given time (likely fewer if there are other objects/coins floating around somewhere). Since each Beenade spawns 15–25 bees upon exploding, it would take 20 Beenades to completely exhaust the  output limit of bees, given that no other bee-spawning items are used, and given that there are no other entities in the world ().
-Bees spawned from Beenades do not home in on players in PvP.
-
-Tips
-Beenades are perhaps best used in large, open spaces. Since tight spaces have a higher chance of having bees bouncing off surfaces, thereby reducing potential damage, the real damage is caused by the bee swarm.
-Beenades are exceptionally effective against certain bosses. Against the Wall of Flesh, they swarm the Hungries, taking them out very quickly. It takes about 50–100 /  Beenades to kill the Wall of Flesh.
-If there are a high number of loose entities in the world (objects/coins/blocks), be aware that spawning many bees can likely cause the oldest entities to despawn, causing the oldest objects to be lost forever. It may therefore be wise to collect all loose, valuable items before spamming bee-spawning items.
-Equipping the  will cause around half of the spawned bees to deal about 8% more damage and a small amount of knockback, in addition to flying noticeably faster.
-
-Trivia
-Beenade is a portmanteau of bee and grenade.
-
-History
-
----
-
 # 文档：Betsy's Wrath
 
 - 类别：weapons
@@ -40755,37 +34784,6 @@ Betsy herself is not immune to the debuff, removing her  defense completely as a
 
 Immune NPCs
 History
-
----
-
-# 文档：Blade of Grass
-
-- 类别：weapons
-- 标识：blade of grass
-- 来源：wiki/Blade_of_Grass
-
-debuff on a Target Dummy. (pre 1.4.4)]]
-
-The Blade of Grass is a broadsword. It has a green particle effect resembling leaves when swung, and a 25% chance of inflicting the Poisoned debuff for  upon striking enemies.. It is one of the key ingredients in crafting the Night's Edge.
-
-The Blade of Grass is roughly equal in size to the Volcano, making it one of the largest pre-Hardmode swords. When swung, it fires a small, green Leaf Blade projectile that automatically targets enemies within a radius of 9.375 tiles. The Leaf Blade projectile has 20 armor penetration, deals 25% base damage ( base damage), 100% knockback (), and has a 25% chance of inflicting the Poisoned debuff for .
-
-With a slightly longer reach than the Fiery Greatsword (Volcano), it is the largest sword in the game, giving it the greatest melee reach of all swords.
-
-Crafting
-Recipes
-Used in
-Notes
-Note that if gathering the crafting materials for a Blade of Grass in Hardmode, it will be far more difficult to farm Stingers, as the Hornets and Spiked Jungle Slimes that drop them will spawn less often. The enemy that becomes more common during Hardmode is the Moss Hornet, which does not drop Stingers.
-The Blade of grass is a great sword for Eye of Cthulhu and Eater of Worlds, Even Skeletron. However you should craft this sword into the Night's Edge before Wall of Flesh.
-
-Trivia
-The Blade of Grass is a pun which refers to the fact that individual grass leaves are known as "blades" of grass.
-The largest swords in the game are the Blade of Grass, Volcano, and Breaker Blade.
-Prior to the 1.2 update, the Blade of Grass appeared to be a grass sawtooth katana (). This was a reference to the  (literally "Grasscutter Sword"), a legendary Japanese sword. The sprite was changed into a larger, double-edged sword with a high increase of grass texture.
-
-History
-References
 
 ---
 
@@ -40903,25 +34901,6 @@ The Blizzard Staff can be considered an upgrade of the Meteor Staff, though the 
 On the , opening the inventory moves the player's screen up several tiles. If they tap the top-center of the screen while it is open, they are tapping at the exact point the icicles spawn and they will fly off on random directions. Because it is trying to reach anywhere near that point (within the margin of error of this weapon's accuracy), which is entirely surrounding the spawn point of the icicles, they can fly off in any direction.
 Aiming lower increases this weapon's accuracy, although this is less noticeable the lower the player aims it.
 
-History
-
----
-
-# 文档：Blood Butcherer
-
-- 类别：weapons
-- 标识：blood butcherer
-- 来源：wiki/Blood_Butcherer
-
-.]]
-
-The Blood Butcherer is a Pre-Hardmode sword crafted solely out of Crimtane Bars. It is the Crimson variant of the Light's Bane, and as such can be used as a substitute for forging the Night's Edge. Although it is noticeably more damaging and larger than the Light's Bane, it attacks slower.
-
-The Blood Butcherer applies the Blood Butchered debuff, causing the afflicted enemy to emit a spurt of blood and lose 4 health per second for a 9 second duration. The damage the Blood Butchered debuff inflicts over time can be stacked additively to a single enemy for up to a maximum of five stacks, causing the afflicted enemy to lose up to 20 health per second with all five stacks of the debuff applied.
-
-Crafting
-Recipes
-Used in
 History
 
 ---
@@ -41172,129 +35151,6 @@ Trivia
 Both the weapon's visual appearance and its sound effect bear a striking resemblance to the fictional energy sword  featured in the American epic space-opera media franchise . This reference is further reinforced by the requirement of crystals and gems in the crafting of Phaseblades and Phasesabers, alluding to the colored kyber crystals which are used in the construction of lightsabers.
 The sprites for Phasesabers are visibly brighter than Phaseblades.
 In order to fix a bug where Phasesabers placed on Weapon Racks would be unbreakable, the developers remade all Phasesabers into new items (IDs 3764 through 3769), ones presumably that are impervious to the bug. Therefore, the "old" Phasesabers that had negative IDs (IDs -19 through -24) are no longer obtainable; instead, a new one is received. This is most likely the reason the fix is not retroactive yet.
-
-History
-
----
-
-# 文档：Bomb
-
-- 类别：weapons
-- 标识：bomb
-- 来源：wiki/Bomb
-
-Bombs are explosives which can be purchased from the Demolitionist and Skeleton Merchant for  each or obtained from Pots, Chests, Slimes, killing an Undead Miner, or by powering Bomb Statues. They can be used as a mining tool or a weapon, although generally the former. When used, it is thrown a few blocks away from the player and rolls if the terrain allows it. After 3 seconds, it will explode, inflicting 100 points of damage to nearby enemies and destroying multiple blocks around it. The player can also inflict harm to themselves if not careful.
-
-Bombs can destroy almost any block, with some exceptions, which can then be collected. They can also be thrown through one block thick walls, like some other tossables. Additionally, Bombs also work underwater furthermore bombs can be used to lure slime to start slime rain .
-
-It has a small chance to appear as a bonus drop from Slimes.
-
-Crafting
-Used in
-Usage
-Bombs can be used for:
-
-Faster excavation
-Killing groups of enemies
-Mining ores rapidly. Drops will be equivalent to if the player had mined them manually
-
-Trivia
-While technically all explosives are bombs, this item is a kind of grenade, better known as cast-iron grenades or simply iron grenades. Meanwhile, the grenade item itself is specifically a hand grenade.
-In the , there is a Chest containing a Bomb with the Large modifier. This is the only way to legitimately obtain a reforged Bomb.
-However, because Bombs are not melee weapons, the modifier Large only has an aesthetic effect on them.
-
-See also
-, a similarly functioning item obtained from Fishing.
-
-History
-
----
-
-# 文档：Bomb Fish
-
-- 类别：weapons
-- 标识：bomb fish
-- 来源：wiki/Bomb_Fish
-
-Bomb Fish are explosives obtained through fishing. They act as Sticky Bombs, sticking to any blocks that they are thrown at.
-
-Notes
-Unlike regular Bombs, Bomb Fish do not slow down in water.
-
-Tips
-Similar to Sticky Bombs, Bomb Fish are useful when a safe and precise detonation is required, such as when destroying Shadow Orbs or Crimson Hearts.
-While Bomb Fish sell for , Sticky Bombs only sell for  (% less). Therefore, it may be preferable to sell Bomb Fish and craft and use Sticky Bombs instead.
-Due to the nearly doubled maximum stack size (Sticky Bombs only stack up to 30), Bomb Fish can be useful for saving inventory space when using large amounts of explosives.
-
-Trivia
-Although the rest of its characteristics are identical to the Sticky Bomb, the Bomb Fish does not generate a faint glow when thrown, due to not having a fuse.
-The Bomb Fish is one of three fished consumables, the other two being the Honeyfin and the Frost Daggerfish.
-As an explosive, this can be used to get the Demolitionist to move in.
-The Bomb Fish may be a reference to the Water Bombs and Bombfish from the Legend of Zelda: Twilight Princess.
-
-History
-
----
-
-# 文档：Bone
-
-- 类别：weapons
-- 标识：bone
-- 来源：wiki/Bone
-
-Bones are crafting materials, consumable ranged weapons, and  ammunition for the Bone Glove. They are dropped by Angry Bones, Dark Casters, and Cursed Skulls, which spawn in the Dungeon. On the , Bones are also dropped by normal Skeletons.
-
-Bones are greatly affected by gravity, and arc similarly to Throwing Knives and Shurikens. Of these three consumable ranged weapons, Bones have the least range (Throwing Knives having the greatest).  When used as weapons, Bones have a  chance of being retrievable after use, even if they hit enemies.
-
-Furthermore, Bones can be placed as blocks using the Bone Wand, upon which they become Bone Blocks.
-
-Crafting
-.]]
-
-Recipes
-Used in
-Notes
-The  will use Bones to defend himself if needed. The bones thrown by him are not retrievable.
-In , Skeletons can throw bones at the player, making them far more dangerous.
-Since Bones are used as ammo by the , they can be stored in the ammo slots of the inventory.
-Since , Bones cannot be stored in ammo slots due to the Bone Glove being changed from a ranged weapon to an accessory. Any bones placed in the ammo slots prior to the update will still be located there.
-While it may appear that ordinary Bones do more damage than the Bone Glove, the damage from Bones used as ammo is added to the Bone Glove's damage.
-
-Tips
-On the , the player can craft the Necro armor before entering the Dungeon due to Bones being dropped by Skeletons.
-
-Trivia
-Taking only basic ammunition (arrows and bullets) into consideration, Bones have the second-highest base damage, beaten only by .
-
-History
-
----
-
-# 文档：Bone Glove
-
-- 类别：weapons
-- 标识：bone glove
-- 来源：wiki/Bone_Glove
-
-.]]
-
-The Bone Glove is an Expert Mode-exclusive item obtained from the Treasure Bag dropped by Skeletron.
-
-On the , the Bone Glove is an accessory which throws two crossed bones every time a weapon is used, at maximum once per second. The bones can bounce off walls three times or pierce two enemies before being destroyed, deal 25 classless damage, and additionally have 25 armor penetration.
-
-On the , the Bone Glove is a ranged weapon which allows the player to throw two crossed bones that can bounce off walls three times or pierce two enemies before being destroyed. It consumes one Bone per throw and has a  chance not to consume any.
-
-
-
-Notes
-If the Bone Glove hits an enemy right next to the player, the amount of damage dealt excludes the Bones' damage, only the Bone Glove's base damage counts.
-
-Tips
-The Bone Glove is useful inside the Dungeon's tight corridors, because it bounces three times.
-
-Trivia
-If placed in a Weapon Rack in a world before 1.4.1, it is possible for it to remain in that Weapon Rack after updating that World to 1.4.1 despite the item updating to become an accessory.
-The Bone Glove is one of the few Expert Mode items that cannot be equipped in any accessory or equipment slots, the others being the three parts needed to craft the Mechanical Cart and the Demon Heart. Apart from developer items, it is also the only weapon in the game that can only be acquired through Expert Mode.
 
 History
 
@@ -41583,33 +35439,6 @@ History
 
 ---
 
-# 文档：Bunny Cannon
-
-- 类别：weapons
-- 标识：bunny cannon
-- 来源：wiki/Bunny_Cannon
-
-bounce off of solid blocks.]]
-
-The Bunny Cannon is a weapon purchased from the Pirate for , when the Party Girl is present, and one Hardmode boss has been defeated. It works like a Cannon, albeit firing explosive bunnies instead of cannonballs.
-
-Similar to the Cannon, the Bunny Cannon can also be triggered by wire. Depending on where the wire is connected, it will either shoot an explosive bunny or rotate toward the side the wire is on. Note that the explosive bunny fired in this manner will have a much bigger cooldown of about 15 seconds.
-
-Notes
-This weapon serves well against slow bosses such as Golem.
-Fired bunnies that do not hit an enemy will explode after a delay of several seconds.
-Since 1.4 explosive bunnies can be placed, care should be taken while firing with this cannon while moving as the player might accidentally place the bunnies and then kill them, resulting on the player receiving huge amounts of damage. If the bunny doesn't explode when fired, it will be treated as a normal explosive bunny and can therefore explode if the player gets too close.
-Since 1.4.5 Bunny cannons are shot using a Torch instead of Explosive Bunny amunition.
-
-Trivia
-Bunnies are iconic Terraria elements found in many of the logos, and cruelty against bunnies is a recurring theme among the fanbase that is even referenced in loading screen tips with the message ""
-The Bunny Cannon is second only to the 3DS-exclusive Holy Hand Grenade in player-controlled base damage.
-The Bunny Cannon is considered an upgrade to the normal cannon, having a higher base damage.
-
-History
-
----
-
 # 文档：Butcher's Chainsaw
 
 - 类别：weapons
@@ -41733,36 +35562,6 @@ It is especially useful on gun-only playthroughs. The second-best option, High V
 
 Trivia
 This weapon appears to be based off of the , a real-life pistol used during World War I and II, with candy corns attached to the top and on the magazine.
-
-History
-
----
-
-# 文档：Cannon
-
-- 类别：weapons
-- 标识：cannon
-- 来源：wiki/Cannon
-
-The Cannon is an interactive furniture item purchased from the Pirate for . It can be placed on the ground and, when activated, either by a Player (holding a Torch) or by wire (), fires an arcing cannonball that explodes on contact, dealing heavy damage without destroying blocks. The Cannon is powerful but immobile, functioning as a fixed gun emplacement, and so is best suited for tasks such as home defense.
-
-A more powerful version of the Cannon known as the Bunny Cannon is sold by the Pirate when the Party Girl is present and one Hardmode boss (Not including Queen Slime ) is defeated.
-
-Use
-Once placed, the angle of the Cannon can be adjusted by right-clicking either side of the Cannon to rotate it in that direction,  or tapping the side of the cannon. There are 9 possible orientations and it cannot fire downward, though the arcing trajectory of the cannonballs can be used to hit targets below the emplacement. Each click/tap tilts the Cannon by one step (22.5°).
-
-The Cannon is fired by left-clicking it with a cannonball in hand, while pressing the Auto Select key with a cannonball in your inventory,  or tapping the cannon with a cannonball in hand. In either case, the cannonball is consumed. On , it can also be triggered by wire. Depending on where the wire is connected, it will either shoot a cannonball or rotate toward the side the wire is on. If triggered by wires the cannonballs will do no damage.
-
-Notes
-Activating a cannon through wires will fire at a reduced rate compared to manual activation with a torch (about 15 second cooldown). The cannonball does no damage to NPCs or players, but it will still trigger a Teal Pressure Pad if it hits one.
-Although it appears to only take up a 3 * 2 space, it requires that all 12 blocks in its vicinity are free, to provide space to rotate. It also appears as a 4 * 3 block on the minimap.
-If used quickly, the sound that the cannonballs make exploding on the ground causes the sound of the cannon launching the cannonballs to stop before it is completed and make shorter bursts of incomplete noise.
-When fired on a flat surface:
-At 0° the ball impacts the ground 21 squares away.
-At 22.5° the ball reaches a maximum height of 8 squares and impacts the ground 43 squares away.
-At 45° the ball reaches a maximum height of 23 squares and impacts the ground 45 squares away.
-At 67.5° the ball reaches a maximum height of 32 squares and impacts the ground 29 squares away.
-As of update 1.4.5 Cannonballs are no longer used as ammunition and only requires activation with a torch or wire.
 
 History
 
@@ -42532,23 +36331,6 @@ History
 
 ---
 
-# 文档：Copper Axe
-
-- 类别：weapons
-- 标识：copper axe
-- 来源：wiki/Copper_Axe
-
-The Copper Axe is the first axe the player will obtain, and is weaker than the Iron or Lead Axe. It has an alternate ore version, the Tin Axe, which is slightly stronger. The Copper Axe is now used to craft the Axe of Regrowth in 1.4.4.Newly created characters will spawn with this item in their third inventory slot. Like all axes, it is used to cut down trees, cacti and giant glowing mushrooms. Alternately, it can be purchased from the Merchant for .
-
-Though it can obtain the Ruthless modifier, the reduced knockback may be undesirable for early stages of the game.
-
-Crafting
-Recipes
-Used in
-History
-
----
-
 # 文档：Copper Bow
 
 - 类别：weapons
@@ -42611,40 +36393,6 @@ Additionally, the Copper Pickaxe can be purchased from the Merchant for .
 
 Crafting
 Recipes
-History
-
----
-
-# 文档：Copper Shortsword
-
-- 类别：weapons
-- 标识：copper shortsword
-- 来源：wiki/Copper_Shortsword
-
-. Note the limited range.]]
-
-The Copper Shortsword is the weakest of the shortswords. It has a slightly stronger counterpart, the Tin Shortsword, except in the , where the Copper Shortsword is equivalent.
-
-On the  versions, all newly created non-Journey Mode characters will spawn with a Copper Shortsword in their first inventory slot, and it is possible that it can have a modifier already applied to it. On the  versions, newly created players will spawn with a Wooden Sword instead of a Copper Shortsword. In , newly created characters will spawn with an Iron Shortsword instead of a Copper Shortsword.
-
-Like all shortswords, the Copper Shortsword has a very limited range and attacks with a stabbing motion at any direction on , and horizontally in front of the player on , instead of an arc. This makes it almost useless against flying or jumping enemies, although its high attack rate makes it somewhat effective against weaker fighter type enemies.
-
-Crafting
-Recipes
-Used in
-Tips
-Always keep at least one Copper Shortsword, as it is required to craft the Zenith. In a world that generates with Tin Ore, there are a few methods of getting Copper Ore such as Fishing, Shimmering, or the Chlorophyte Extractinator.
-Journey Mode characters always start with an Iron Shortsword, if a Journey's Mode World spawns with Tin Ore instead of Copper, it is possible to obtain Copper by Fishing.
-
-Trivia
-The uselessness of the Copper Shortsword, even at the beginning of the game which it is supposedly suited for, has earned it "memetic" status within the Terraria community. On videos of people successfully completing challenges in Terraria such as unusual boss fights or speedruns, for example, comments saying "Now do it with a copper shortsword!" are not a rare sight, to make the seemingly impossible challenge even more ridiculous. However, there have been videos where bosses have been defeated with a Copper Shortsword.
-The developers seem to have made fun of this idea by including the Copper Shortsword in the recipe of the , an endgame melee weapon.
-A Tiny Copper Shortsword is the smallest possible sword in the game.
-It is possible to spawn with a Broken Copper Shortsword. This reduces its damage to 3, which makes the early game even harder. Furthermore, a Broken Copper Shortsword is the weapon with the second-lowest damage in the game, as the weapon with the lowest damage is the Broken Wooden Hammer, which deals 1 damage. However, a player in this condition can simply make a new sword, which is generally accepted as the best course of action for a new character anyways.
-Because the Copper Shortsword autoswings on the , its use is slightly increased. However,  players start with a Wooden Sword, a mostly better weapon.
-Many people joke about the copper shortsword being the best item ingame.
-People also joke that it is 99% of the Zenith power.
-
 History
 
 ---
@@ -43528,4 +37276,10394 @@ valign=top
 History
 
 ---
+## BOSS_SUMMON_ITEMS
+共 15 篇文档
+
+# 文档：Celestial Sigil
+- 类别：boss_summon_items
+- 标识：celestial-sigil
+- 来源：wiki/Celestial_Sigil
+
+The Celestial Sigil is a post-Lunatic Cultist boss-summoning item crafted out of 12 / 20 of each of the Lunar Fragments. It is used to summon the Moon Lord without going through the Lunar Events. Rather than summoning the Moon Lord immediately after the item is used, it takes 12 / 60 seconds before the Moon Lord actually appears.
+
+The Celestial Sigil can only be used under the following circumstances:
+* The world is in Hardmode.
+* Golem has been defeated.
+* There is no invasion event active, including the Lunar Events (That means there are no Lunar Pillars in the world.).
+** This includes the Old One's Army, Pumpkin Moon or Frost Moon
+* There is no boss alive.
+* The Moon Lord is not already being summoned.
+* The Mysterious Tablet is not visible to any player.
+
+== Crafting ==
+=== Recipes ===
+
+== Trivia ==
+* The Celestial Sigil resembles the Mysterious Tablet, the strange idol near the Dungeon, which spawns along with the Cultists and is destroyed when summoning the Lunatic Cultist.
+* The four colors on the rim of the sigil represent the colors of the four Celestial Pillars and the center depicts Moon Lord's face.
+** Only three of the Moon Lord's five eyes are depicted, however.
+* The item was implemented to reduce the amount of time required to farm the Moon Lord. Before 1.3.0.5, simply reaching the Moon Lord could take upwards of 10 to 15 minutes.
+* Due to the high amount of fragments needed, one Lunar Event might yield just enough for 1–2 Celestial Sigils, if any at all. In Expert Mode, it is possible to get enough to make 4.
+* It is one of the two boss-summoning items that do not immediately summon the corresponding boss, the other being the Prismatic Lacewing.
+
+== History ==
+
+== Footnotes ==
+
+
+# 文档：Cursed stuffing
+- 类别：boss_summon_items
+- 标识：cursed-stuffing
+- 来源：wiki/Cursed_stuffing
+
+| stack = 99
+| use = 45
+| tooltip = It pulses with malevolent energy
+| id = 5064
+}}
+
+The Cursed stuffing is a consumable item used to summon the Turkor the Ungrateful boss. It has a chance of dropping from all enemies during the Thanksgiving season (November 1–30).
+
+To summon Turkor the Ungrateful, the player must first summon the Pet Turkey with the Turkey feather, then use the Cursed stuffing. The summoning will despawn the Turkey pet, and will consume the Turkey feather in the player's inventory. Turkor the Ungrateful can only be summoned during the Thanksgiving season.
+
+== Tips ==
+* The easiest way to obtain Cursed stuffing is by building and using a Statue trap during Thanksgiving (Not applicable to sharks spawned by a statue).
+* Like many seasonal items, this item can be obtained by changing your device's date to a point between November 1st and November 30th, artificially recreating the Thanksgiving season.
+* One can prevent the Turkey feather from being consumed by putting it in a chest before using the stuffing. The Turkey Pet will still disappear, but the feather will not.
+
+== History ==
+
+
+# 文档：Deer Thing
+- 类别：boss_summon_items
+- 标识：deer-thing
+- 来源：wiki/Deer_Thing
+
+The Deer Thing is a consumable summoning item that summons the Deerclops. It can be used at any time of day, but only inside of a Snow or Ice biome. It will otherwise have no effect.
+
+== Crafting ==
+=== Recipes ===
+
+== History ==
+
+
+# 文档：Gelatin Crystal
+- 类别：boss_summon_items
+- 标识：gelatin-crystal
+- 来源：wiki/Gelatin_Crystal
+
+thumb|The appearance of the Gelatin Crystal in-game.
+
+The Gelatin Crystal is a Hardmode consumable item used to summon the Queen Slime boss. It can be found on Pearlstone or Pink Ice Blocks in the Underground Hallow. Upon breaking it, it drops the item used to summon the Queen Slime. It can be used at any time of day and any depth, as long as the player is in the Hallow.
+
+== Notes ==
+* When a Crystal Shard is to be generated, it has a chance to generate a Gelatin Crystal instead.
+* The Gelatin Crystal glows pink and changes to blue and back in a cycle, which makes it stand out among the similar-looking Crystal Shards.
+* It can only be used in The Hallow. Attempting to use it in any other biome will have no effects, and will not consume the item.
+* The Gelatin Crystal will generate in worlds created prior to 1.4.0.1 as well as after, so it is not necessary to create a new world to obtain it.
+*It can be used at any depth, as long as it is in The Hallow
+
+== Tips ==
+* Similar to Crystal Shards, Gelatin Crystals can be quickly farmed by placing rows of Pearlstone Blocks or Pink Ice Blocks in straight lines in the Underground Hallow.
+* Gelatin Crystals have a Metal Detector value of 675, making the Metal Detector a viable option for finding them. However, this may be overriden by a Strange Plant or Life Fruit/Chlorophyte Ore if a Jungle is nearby.
+
+== Trivia ==
+* Unlike Plantera's Bulbs, another type of naturally spawning boss-summoning item, Gelatin Crystals' generation do not have a minimum distance restriction between each other. This can lead to two or more of them generating very close together.
+* Despite the difference, the Gelatin Crystal will be identified as a Crystal Shard by the minimap.
+
+== History ==
+
+
+# 文档：Lihzahrd Power Cell
+- 类别：boss_summon_items
+- 标识：lihzahrd-power-cell
+- 来源：wiki/Lihzahrd_Power_Cell
+
+Lihzahrd Power Cells are items used at the Lihzahrd Altar located in the final chamber of the Jungle Temple, in order to summon the Golem boss. One is guaranteed to be found within each Lihzahrd Chest, and they additionally have a / chance of dropping from Lihzahrds and Flying Snakes, both of which spawn exclusively within the Temple.
+
+Lihzahrd Power Cells are utilized by simply using the button on a Lihzahrd Altar, which automatically consumes one Lihzahrd Power Cell from the player's inventory and spawns Golem immediately.
+
+On all versions, Golem may only be summoned in worlds where Plantera has been defeated; otherwise, the summoning will fail, and a Lihzahrd Power Cell will not be consumed from the player's inventory.
+
+== Crafting ==
+=== Recipes ===
+
+== Achievements ==
+
+== Tips ==
+* The Power Cell can be obtained in Pre-Hardmode if a Chest is nearby the Lihzahrd Door or is at the center of the bottom of the Temple.
+** Lihzahrds can also sometimes spawn in the entrance if it is long enough, so these can be killed for Power Cells.
+* With extra Temple Keys and a Picksaw or higher, Power Cells can be farmed by generating new worlds and gathering the cells guaranteed to be in their Jungle Temples' Lihzahrd Chests, rather than having to kill Lihzahrds hoping for drops. Since Golem can only be summoned in a world where Plantera has been defeated, Cells gathered this way will need to be used in the original world, where it has been defeated. However, it's likely that players well versed with auto-farms would find building a small farm in a central location of the temple more efficient.
+*The Power Cell is the only item in the game whose midpoint is lower than that of the copper coin. Since they only have White rarity, they will be destroyed by any lava deep enough to destroy copper coins.
+
+== History ==
+
+
+# 文档：Mechanical Eye
+- 类别：boss_summon_items
+- 标识：mechanical-eye
+- 来源：wiki/Mechanical_Eye
+
+The Mechanical Eye is a Hardmode item used to summon The Twins, the advanced and Hardmode version of the Eye of Cthulhu. It can only be used at night; using this item during the day will not spawn The Twins nor consume it. Using another Mechanical Eye while The Twins are active will not cause any additional effects, and will not be consumed. If The Twins have not been defeated yet in a Hardmode world, all enemies have a chance of dropping this item, with the exception of statue-spawned enemies, Meteor Heads, and Old One's Army enemies.
+
+== Crafting ==
+=== Recipes ===
+
+=== Used in ===
+
+== Notes ==
+* Like other mechanical boss-summoning items, the Mechanical Eye can be brought to pre-Hardmode worlds and will successfully summon The Twins there.
+* As with several items, the Mechanical Eye has multiple crafting recipes (two in total) due to some items in the recipe allowing substitutes.
+
+== Achievement ==
+
+== Trivia ==
+* The Mechanical Eye is the only mechanical item with no visible winder.
+
+== See also ==
+* Mechanical Worm, The Destroyer's summon item.
+* Mechanical Skull, Skeletron Prime's summon item.
+* Ocram's Razor, Mechdusa's summon item.
+
+== History ==
+
+
+# 文档：Mechanical Skull
+- 类别：boss_summon_items
+- 标识：mechanical-skull
+- 来源：wiki/Mechanical_Skull
+
+The Mechanical Skull is a boss-summoning item used to summon Skeletron Prime, a Hardmode version of Skeletron. It can only be used at night, which means consuming this item during day will not spawn Skeletron Prime. It is also unusable when the boss is already present. It can be used in any world, but usually only becomes accessible in a Hardmode World. If Skeletron Prime has not been defeated yet in a Hardmode world, all enemies have a chance of dropping this item, with the exception of statue-spawned enemies, Meteor Heads, and Old One's Army enemies.
+
+== Crafting ==
+=== Recipes ===
+
+=== Used in ===
+
+== Notes ==
+* The Mechanical Skull's texture is based on the Skull Lantern furniture item.
+
+== Achievement ==
+
+== Trivia ==
+* The Skull Lantern and Mechanical Skull are very similar in appearance to the skull in the original sprite for Skeletons: link=.
+* Like the Mechanical Worm, it looks like a wind-up toy.
+
+== See also ==
+* Mechanical Worm and Mechanical Eye, The Destroyer and The Twins summon items respectively.
+* Suspicious Looking Skull, Ocram's summon item of similar appearance to the Mechanical Skull.
+* Ocram's Razor, Mechdusa's summon item.
+
+== History ==
+
+
+# 文档：Mechanical Worm
+- 类别：boss_summon_items
+- 标识：mechanical-worm
+- 来源：wiki/Mechanical_Worm
+
+The Mechanical Worm is a Hardmode item used to summon The Destroyer, the Hardmode version of the Eater of Worlds. It can only be used during the night; attempting to use it during the day will neither summon the boss nor consume the item. Using another Mechanical Worm while The Destroyer is already summoned has no effect. If The Destroyer has not been defeated yet in a Hardmode world, all enemies have a chance of dropping this item, with the exception of statue-spawned enemies, Meteor Heads, and Old One's Army enemies.
+
+== Crafting ==
+=== Recipes ===
+
+=== Used in ===
+
+== Notes ==
+* Unlike Worm Food, a Mechanical Worm can be used outside of The Corruption. However, it requires night time for usage, whereas Worm Food lacks a time requirement.
+* Like other mechanical boss summoning items, the Mechanical Worm can be brought to pre-Hardmode worlds and will successfully summon The Destroyer there.
+* As with several items, the Mechanical Worm has multiple crafting recipes (two in total) due to some items in the recipe allowing substitutes.
+
+== Achievement ==
+
+== Trivia ==
+* There used to be a minor grammatical error in the item's tooltip: It previously said "Summons Destroyer" instead of "Summons The Destroyer". In the , this mistake was never present.
+* Mechanical Worm's old sprite slightly resembles the enemy Eater of Souls.
+
+== See also ==
+* Mechanical Skull, Skeletron Prime's summon item.
+* Mechanical Eye, The Twins's summon item.
+* Worm Food, The Destroyer's prehardmode equivalent's, the Eater of Worlds, summon item.
+* Ocram's Razor, Mechdusa's summon item.
+
+== History ==
+
+
+# 文档：Ocram's Razor
+- 类别：boss_summon_items
+- 标识：ocrams-razor
+- 来源：wiki/Ocram's_Razor
+
+Ocram's Razor is a secret boss summon item that can only be obtained and used in the secret seed. 
+
+When used, it summons Mechdusa, an amalgamation of the 3 mechanical bosses who must be defeated to obtain the Waffle's Iron and progress the game. It cannot be crafted outside of the seed and using it outside of the seed will do nothing. 
+
+On any world that wasn't generated with the Everything seed, its description says "It has no effect in this world". 
+
+== Crafting ==
+=== Recipes ===
+
+== Trivia ==
+
+* This item's name is based upon Ocram, a boss that had a similarly crafted summon item (which used 2 Mechanical Eyes and 1 Mechanical Skull) before being removed from Terraria on most ports of the game.
+* The name of the item is a reference to "Occam's Razor"--a term attributed to medieval philosopher William of Ockham which posits that the simplest answer to a question is the most likely to be correct.
+* Rather than directly saying what the item summons, the description states "Summons ???". This is meant to fool players into believing that this item will summon Ocram instead of summoning Mechdusa.
+* On the "Everything" seed, it is actually required to fight Mechdusa before progressing through the game. Attempting to summon each mech boss individually will not work.
+
+== History ==
+
+
+# 文档：Prismatic Lacewing
+- 类别：boss_summon_items
+- 标识：prismatic-lacewing
+- 来源：wiki/Prismatic_Lacewing
+
+The Prismatic Lacewing is a rare flying critter that spawns in the surface Hallow from dusk (7:30PM) until midnight (12:00AM) after Plantera has been defeated. When killed by a player, it summons the Empress of Light; death from non-player sources other than Fallen Stars will not result in summoning.
+
+The Prismatic Lacewing can be caught with a Bug Net. Releasing it from the inventory (with ) and killing it will still summon the Empress of Light (though it will quickly disappear if released outside of the Hallow). Only one Lacewing can be naturally spawned at a time. It can also be used to craft a Prismatic Lacewing Jar.
+
+== Crafting ==
+=== Used in ===
+
+== Notes ==
+* The Lacewing is classified in-game as an enemy so others won't kill it and spawn the boss by accident. However, player summons will not actively target it, though they might kill it via contact damage and unintended attacks.
+* The Lacewing will despawn almost immediately if released outside the Hallow, but can still be killed to summon the Empress of Light if done fast enough or if placed directly onto a damaging projectile, like that of the Rainbow Gun. 
+* The Lacewing will also despawn almost immediately if released after midnight.
+* Lacewings will only spawn on Hallowed grass (not including its mowed variant), Pearlstone Blocks, Pearlsand Blocks, and Pink Ice Blocks.
+* A Lacewing can only be damaged by a player if they are close enough and will appear translucent if the player is far away. This is likely done to prevent accidentally summoning the Empress of Light via a stray ranged attack while the Lacewing is off-screen.
+* If killed by bees or traps, the Empress of Light does not spawn, unless the player also struck it at least once.
+* Unlike other critters, the Lacewing does not regenerate life.
+
+== Tips ==
+* Using a Bug Net, it can be kept in the player's inventory to later release it at a more appropriate time, such as to fight the Empress of Light when better prepared.
+* The Guide To Critter Companionship can be helpful to prevent accidentally summoning the Empress of Light.
+* A Lifeform Analyzer can be used to see if a Lacewing is nearby.
+* Using a Battle Potion and Water Candle increases its spawn rate, like other monsters.
+** Similarly, because it is considered an enemy, its spawn rate is increased during the Blood Moon event and can be easily farmed using a Bloody Tear.
+* Building a platform roughly 35 tiles above a Hallow biome while under the influence of a Water Candle, the player can expect 3-8 Lacewings to spawn, provided they are there from 7:30PM to 12:00AM.
+* If the player does not have a surface Hallowed biome in their world, a Clentaminator with Blue Solution can be used to create one.
+
+== Trivia ==
+
+== See also ==
+* Butterflies
+* Truffle Worms, another critter that is used for boss summoning.
+
+== History ==
+
+
+# 文档：Slime Crown
+- 类别：boss_summon_items
+- 标识：slime-crown
+- 来源：wiki/Slime_Crown
+
+The Slime Crown is a boss-summoning item that appears as a small Blue Slime wearing a crown. It is used to instantaneously summon King Slime, in any location, who otherwise can spawn randomly at any time without the use of a summoning item (though only in the outer two thirds of the map, laterally).
+
+== Crafting ==
+=== Recipes ===
+
+== Notes ==
+* Because the crown needs Gold or Platinum, it may be difficult to obtain in very early pre-Hardmode.
+
+== Achievement ==
+
+== Trivia ==
+* The Slime Crown's sprite seems to be a mashup of Gold and Platinum, the two types of crowns that can be used to craft it.
+** Even if created with a Platinum Crown, the Slime Crown will always appear to be made out of gold.
+
+== History ==
+
+
+# 文档：Suspicious Looking Egg
+- 类别：boss_summon_items
+- 标识：suspicious-looking-egg
+- 来源：wiki/Suspicious_Looking_Egg
+
+| consumable = True
+| use = 45
+| tooltip = Summons Lepus
+| id = 5056
+| tags = Drop
+}}
+
+The Suspicious Looking Egg is used to summon the Lepus boss. It is dropped by Diseaster Bunnies and Corrupt Bunnies during Easter, as well as by Lepus itself.
+
+Diseaster Bunnies will spawn at the surface during Easter like normal bunnies, though they are aggressive and will attack.
+
+== Notes ==
+* Diseaster Bunnies will only drop Suspicious Looking Eggs if they are not spawned by Lepus.
+* Because Lepus will drop the Suspicious Looking Egg, it is possible to consistently respawn the boss, which can be used to farm money.
+
+== Trivia ==
+* The Suspicious Looking Egg is a unique boss-summoning item in the sense that it can be re-obtained from the boss it summons.
+* Like the rest of the Suspicious Looking items, the name is grammatically incorrect; it should instead be Suspicious-Looking Egg.
+
+== History ==
+
+
+# 文档：Suspicious Looking Eye
+- 类别：boss_summon_items
+- 标识：suspicious-looking-eye
+- 来源：wiki/Suspicious_Looking_Eye
+
+The Suspicious Looking Eye is a consumable item that summons the Eye of Cthulhu. It is likely the first summoning item the player will obtain, and requires a Demon Altar or a Crimson Altar to craft with 6 Lens. In addition to being crafted, they can also be found in Gold/Frozen Chests in the Cavern and the Dungeon, or in Ivy Chests in the underground Jungle.
+
+The Suspicious Looking Eye will only work at night. If the player tries to use it during the daytime or when another Eye of Cthulhu has already been summoned, the Eye of Cthulhu will not spawn and the item will not be consumed.
+
+== Crafting ==
+=== Recipes ===
+
+== Achievement ==
+
+== Notes ==
+* It is possible to legitimately fight two Eyes at the same time: if the message "You feel an evil presence watching you..." appears, an Eye can be summoned, but this will not cancel out the Eye that was already set to appear, resulting in a second Eye joining the fight shortly after the first Eye spawns.
+
+== Trivia ==
+* The Suspicious Looking Eye is the upside-down icon of a Servant of Cthulhu.
+* It is one of the few suspicious-looking boss-summoning items in Terraria, the others being the Suspicious Looking Skull and the Suspicious Looking Egg .
+*The tooltip was changed from "May cause terrible things to occur" to "Summons the Eye of Cthulhu".
+
+== History ==
+
+
+# 文档：Truffle Worm
+- 类别：boss_summon_items
+- 标识：truffle-worm
+- 来源：wiki/Truffle_Worm
+
+The Truffle Worm is a rare critter that spawns in the underground Glowing Mushroom biome during Hardmode. It is solely used to summon the Duke Fishron boss. In order to use it, it must be caught (e.g. with a Bug Net) and used as bait with a fishing pole in an Ocean biome. It only spawns in the Cavern layer and below, so it will not appear in surface Glowing Mushroom biomes. If the Truffle worm is caught in water it will be named "Thirsty Worm". If it is stacked with other Truffle Worms, its name will return to normal.
+
+The Truffle Worm is more difficult to catch than other critters, due to it burrowing itself making it a hasty run.
+
+Unlike most critters, the Truffle Worm cannot be used for ordinary fishing, as it is used to spawn Duke Fishron. When attempting to use it as bait, the bobber will simply sit in the water indefinitely, unless fishing in an Ocean.
+
+The Truffle Worm will always be consumed upon summoning Duke Fishron. Items that reduce the chance of bait consumption such as the Tackle Box will have no effect.
+
+On the , Truffle Worms can be killed by enemies.
+
+== Crafting ==
+=== Used in ===
+
+== Notes ==
+* The Truffle Worm is internally considered an enemy rather than a critter, despite not posing any threat.
+** Therefore, its spawn rate is increased by effects like those of the Blood Moon.
+** However, the Hunter Potion will highlight it in green, like other critters, instead of red. Furthermore, other enemies can still damage and kill it.
+** This also means that most of the the usual critter-farming methods will backfire – it can only be caught in dangerous territory.
+** Furthermore, the will prevent the player from killing the worm accidentally.
+* Truffle Worms follow the Worm AI even in their passive state on .
+* 100 tiles of Mushroom blocks are not necessary for Truffle Worms to spawn. Mushroom enemies and Truffle Worms will spawn wherever there is Mushroom grass, without requiring that the area is actually considered a Glowing Mushroom biome.
+** On Mushroom grass, each enemy spawn has a 2/3 chance of being a mushroom-themed enemy or critter. Each time this happens, there is a 1/7 chance (1/5 as of ) that the mushroom-themed character is a Truffle Worm. Considering the maximum spawn rate (1/60 per tick), the maximum expected Truffle Worm spawns is 343 per hour (<code>2/3*1/7*3600</code>) (480 as of , although Truffle Worms can be killed by enemies on the versions, drastically increasing the difficulty to reach the expectancy).
+
+== Tips ==
+thumb|Using the Underground Jungle to farm Truffle Worms (having four at the same time was just lucky).
+thumb|A multi-level farm is useful for both Truffle Worms and Glowing Mushrooms.
+thumb|This is another multi-level farm, also useful for Truffle Worms and Glowing Mushrooms.
+
+=== Spawning ===
+* Since the Truffle Worm is not considered a critter, NPCs should not be used as a means to increase the proportion of critters in the total number of creatures spawned.
+** Each existing enemy may reduce the spawn rate of the next. Getting rid of excess enemies will give the Truffle Worm more opportunities to spawn.
+** Water Candles and/or Battle Potions will increase its spawn rate. However, they will also greatly increase the likelihood of it dying to additional enemies (not to mention the hazard for the player).
+* Despite being considered an enemy, other enemies can kill the Truffle Worm. This includes all enemies present in an Underground Glowing Mushroom biome. If simply using a flattened stretch of Mushroom grass, be wary of other enemies, as they can make catching even a single Truffle Worm an aggravating task. Instead of just flat ground, a platform can be built below the grassy blocks, with most of the space above the Mushroom grass blocked off and leaving only a one-block high corridor to keep the worms safe from other enemies. The worms can then be collected up by swinging a net through the blocks from below.
+* One way to increase the chances of finding Truffle Worms is to convert a large section of the Underground Jungle into an Underground Glowing Mushroom biome, using the Clentaminator with Dark Blue Solution. A slower alternative would be to use Mushroom Grass Seeds on plain mud blocks.
+* A simple (but perhaps slow) way to farm them is to move away from and back to a Glowing Mushroom biome repeatedly, causing new enemies to spawn and potentially a Truffle Worm.
+** The can be used to make an infinite falling loop. If it is high enough, going in can cause other enemies to despawn, allowing the Truffle Worm to have more chances to spawn.
+
+=== Catching ===
+* Truffle Worms will burrow themselves (eventually despawning) if the player is near them for about 1 second, so the use of a speed-enhancing item is suggested. Hooks, wings, or Lightning Boots grant speed improvements; Tabi, Master Ninja Gear, a full set of , or (though this item deals damage and thus may be less suitable) allow dashing.
+** If a Truffle Worm is let free by a player, it will also burrow, and despawn almost immediately if approached or stood near to for more than a few seconds.
+** It should be noted that, if the Truffle Worm burrows offscreen, it will despawn as soon as it is offscreen. If it falls, however, like a normal enemy and the same way a worm would, it will follow normal NPC despawning rules, and can be followed for more distance.
+* Using an Invisibility Potion will make catching a Truffle Worm much easier as it will wait longer before it runs away. Note that taking any damage will cancel the buff, however.
+* The Truffle Worm can be caught even while burrowing. If the Truffle Worm is in a small pit where it is impossible or very difficult to catch from above, and there is a cave below it, a player can jump up directly under it and swing the Bug Net to catch it as it tries to burrow downward.
+* Summoned minions do not directly target the Truffle Worm, but can inadvertently kill it.
+* A Rod of Discord makes catching Truffle Worms easier, since it greatly facilitates getting near them.
+* A has a longer reach and swings faster than a regular Bug Net, making the catch easier.
+* Since the Lifeform Analyzer can announce the presence of a Truffle Worm, it is highly recommended to carry it.
+** Furthermore, since enemies despawn further than the Lifeform Analyzer's reach, one can estimate the location of the Truffle Worm and accelerating the process of hunting it.
+
+== Trivia ==
+* The number 666 in the Truffle Worm's "666% bait power" is a reference to the , commonly associated with . This alludes to its ability to spawn Duke Fishron.
+* When carrying the Truffle Worm as the first bait (top- and leftmost in the inventory), the (and its upgrades, the , , and ) will display a player's fishing power simply as "", due to the fact that Duke Fishron will spawn when using this as bait in an Ocean biome and no fish will be caught when not in an Ocean biome.
+* Any liquid a player fishes in using a Truffle Worm will summon Duke Fishron as long as they are in the Ocean biome.
+* The combination of truffle and worm represented by the Truffle Worm ties in with the combined fish-and-pig-like nature of Duke Fishron.
+** Traditionally, pigs have been utilized for the (a highly prized food).
+** This is also referenced by the Truffle's quote "", as well as how the Pigron and Cute Fishron mounts' summoning items are all Truffles.
+
+== History ==
+
+== Footnotes ==
+
+
+# 文档：Worm Food
+- 类别：boss_summon_items
+- 标识：worm-food
+- 来源：wiki/Worm_Food
+
+Worm Food is a boss-summoning item used to summon the Eater of Worlds. It can be used at any time of day, but only inside the Corruption.
+
+== Crafting ==
+=== Recipes ===
+
+== Notes ==
+* Although the Crimson is considered a counterpart to the Corruption, using Worm Food in the Crimson will not do anything. The Bloody Spine is required for the boss that spawns there, which is the Brain of Cthulhu.
+** It is however still possible to summon the Eater of Worlds in a world that spawned with Crimson by artificially creating a Corruption biome (with at least 300 \ 200 Corruption blocks), and then using the Worm Food within it.
+* In the old Mobile Versions, there was a bug where consuming the Worm Food while the Eater of Worlds is alive will inflict 9000 damage to the player, killing them regardless.
+
+== Achievements ==
+
+== History ==
+## DYE_ITEMS
+共 45 篇文档
+
+# 文档：Acid Dye
+- 类别：dye_items
+- 标识：acid-dye
+- 来源：wiki/Acid_Dye
+
+Acid Dye is a dye sometimes acquired from the Dye Trader after completing a Strange Plant quest. Armor dyed by it can be seen in the dark, but does not provide light. It also gives a rippling effect that pulses outwards from the player's head. It can sometimes be used for exploring, but the fact that it does not provide real light makes it mostly of use for decoration.
+
+Equipping Acid Dye, Red Acid Dye or Blue Acid Dye on the Shadow Orb can make parts of it or the whole orb invisible.
+== See also ==
+* Dyes
+* Dye Trader
+* Red Acid Dye
+* Blue Acid Dye
+
+== History ==
+
+
+# 文档：Bloodbath Dye
+- 类别：dye_items
+- 标识：bloodbath-dye
+- 来源：wiki/Bloodbath_Dye
+
+Bloodbath Dye is a dye purchased from the Dye Trader during a Blood Moon for . When applied, it gives the item an appearance similar to dripping blood.
+
+== History ==
+
+
+# 文档：Blue Acid Dye
+- 类别：dye_items
+- 标识：blue-acid-dye
+- 来源：wiki/Blue_Acid_Dye
+
+Blue Acid Dye is a dye that can be obtained in a set of 3 by giving a Strange Plant to the Dye Trader. When equipped in the dye slot, it will make the player's armor dark blue and create a waving effect, similar to the other Acid Dye variants. Armor dyed by it can be seen in the dark, but does not provide light.
+
+Equipping Acid Dye, Red Acid Dye or Blue Acid Dye on the Shadow Orb can make parts of it or the whole orb invisible. 
+
+== History ==
+
+
+# 文档：Burning Hades Dye
+- 类别：dye_items
+- 标识：burning-hades-dye
+- 来源：wiki/Burning_Hades_Dye
+
+Burning Hades Dye is a Hardmode dye sometimes obtained from giving Strange Plants to Dye Trader. When applied, it turns the item orange and adds fire effects.
+
+== History ==
+
+
+# 文档：Chlorophyte Dye
+- 类别：dye_items
+- 标识：chlorophyte-dye
+- 来源：wiki/Chlorophyte_Dye
+
+Chlorophyte Dye is a Hardmode dye that is obtained by trading Strange Plants found in the world to the Dye Trader. It can only be obtained after defeating any Mechanical Boss. It makes items show three colors: black, green, or neon green. The location the colors are placed appears to be based on saturation.
+
+== History ==
+
+
+# 文档：Dyes
+- 类别：dye_items
+- 标识：dyes
+- 来源：wiki/Dyes
+
+thumb|190px|An example of color coordinated clothing using Dyes.
+400px|right|thumb|Wood armor shown dyed with all available dyes.
+
+Dyes are items that can be placed in the "Dye Slots" of a player's inventory to alter the colors and/or textures of equipped armor, vanity items, and accessories. The Dye Trader NPC sells two dyes (Silver Dye and Brown Dye) as well as the Dye Vat (). The other dyes must be crafted using the Dye Vat or obtained through trading in Strange Plants to the Dye Trader. Primary crafted dyes can be further combined to craft shade, gradient, and patterned dyes. There are currently 119 / 116 / 68 different dyes in the game (118 / 115 / 67 on single-player worlds, as Team Dye is not available in single-player worlds). Some dyes will make sprites visible in complete darkness, most of which are Strange Dyes.
+
+Dyes are not available on the , due to the unavailability of pixel shaders.
+
+== Basic Dyes ==
+
+== References ==
+
+
+# 文档：Fogbound Dye
+- 类别：dye_items
+- 标识：fogbound-dye
+- 来源：wiki/Fogbound_Dye
+
+Fogbound Dye is a dye purchased from the Dye Trader while in a for . When equipped, it reduces the color saturation of the item and gives it a grayer tone, with a fog-like effect overlaying on top of the item. This dye is also slightly visible in complete darkness, also being the only pre-Hardmode dye with this feature.
+
+<br />
+
+== Trivia ==
+This dye's name may be a reference to Fogbound, a joke boss from the Calamity's Vanities mod.
+<br />
+== History ==
+
+
+# 文档：Gel Dye
+- 类别：dye_items
+- 标识：gel-dye
+- 来源：wiki/Gel_Dye
+
+Gel Dye is a Hardmode dye that can be acquired by trading the Strange Plant with the Dye Trader. It is received as a random reward. When equipped, the Gel Dye produces an effect similar to that of the Slime debuff caused by the Slime Gun.
+
+== Crafting ==
+=== Used in ===
+
+== Tips ==
+* Using this dye in combination with the King Slime Mask and a blank vanity (like the Martian Costume set), allows the player to resemble a slime.
+
+== History ==
+
+
+# 文档：Glowing Mushroom Dye
+- 类别：dye_items
+- 标识：glowing-mushroom-dye
+- 来源：wiki/Glowing_Mushroom_Dye
+
+Glowing Mushroom Dye is a Hardmode dye obtained by trading Strange Plants found in the world to the Dye Trader. It colors the object it is used on a deep blue color. Like the name implies, objects colored with this dye will also glow slightly in the dark. Though it does not give off any light to see nearby objects with tough it can kill entities if they come in contact, this can be useful to increase awareness of where the player is.
+
+== Notes ==
+* During a Blood Moon, the Glowing Mushroom Dye gives a magenta glow instead of blue. Since this is due to blending with the Blood Moon shader, it will only work in the surface layer.
+
+== History ==
+
+
+# 文档：Grim Dye
+- 类别：dye_items
+- 标识：grim-dye
+- 来源：wiki/Grim_Dye
+
+Grim Dye is a dye obtained by trading Strange Plants to the Dye Trader in a Hardmode world. When equipped, it turns the color of the armor or vanity currently selected into a blood red type color, while emitting a dark effect around the player, similar to Loki's Dye.
+
+== History ==
+
+
+# 文档：Hades Dye
+- 类别：dye_items
+- 标识：hades-dye
+- 来源：wiki/Hades_Dye
+
+Hades Dye is a Dye obtained by trading Strange Plants with the Dye Trader in a Hardmode world. When equipped, it turns the dyed armor, accessory, or equipment blue, also adding a blue flames effect.
+
+== Trivia ==
+* The name and effect could be a reference to the representation of Hades in the Disney film Hercules, where Hades has hair made of blue fire.
+
+== History ==
+
+
+# 文档：Infernal Wisp Dye
+- 类别：dye_items
+- 标识：infernal-wisp-dye
+- 来源：wiki/Infernal_Wisp_Dye
+
+Infernal Wisp Dye is a Hardmode, post-Plantera dye obtained by turning in Strange Plants to the Dye Trader. Any equipment it is applied to is colored bright orange, while also emitting a orange glow.
+
+== See also ==
+* Wisp Dye
+* Unicorn Wisp Dye
+
+== History ==
+
+
+# 文档：Living Flame Dye
+- 类别：dye_items
+- 标识：living-flame-dye
+- 来源：wiki/Living_Flame_Dye
+
+Living Flame Dye is a Hardmode dye given to the player by the Dye Trader in exchange for Strange Plants. It can only be obtained after defeating a Mechanical Boss. Upon application, the dye will cause all items in the slot equipped to change colors to a fiery red, with a yellow-to-red rippling effect. Additionally, any items affected by this dye will flash upon taking damage.
+
+== History ==
+
+
+# 文档：Living Ocean Dye
+- 类别：dye_items
+- 标识：living-ocean-dye
+- 来源：wiki/Living_Ocean_Dye
+
+Living Ocean Dye is a Hardmode dye acquired by giving a Strange Plant to the Dye Trader. It is only obtainable after defeating any Mechanical Boss.
+
+== History ==
+
+
+# 文档：Living Rainbow Dye
+- 类别：dye_items
+- 标识：living-rainbow-dye
+- 来源：wiki/Living_Rainbow_Dye
+
+Living Rainbow Dye is a Hardmode dye acquired from trading a Strange Plant with the Dye Trader. It is only obtainable after defeating a Mechanical Boss.
+
+== History ==
+
+
+# 文档：Loki's Dye
+- 类别：dye_items
+- 标识：lokis-dye
+- 来源：wiki/Loki's_Dye
+
+Loki's Dye is a Hardmode dye that can be obtained from Treasure Bags from killing Hardmode bosses in Expert Mode, as part of Loki's developer set. It does not change the color of the armor, but rather adds a dark gray flames effect, similar to four other dyes which are obtained by trading Strange Plants with the Dye Trader in Hardmode. Equipping Loki's Dye in all 3 dye slots intensifies the effect. It also makes the item in whatever slot it’s in glow in the dark.
+
+== History ==
+
+
+# 文档：Martian Dye
+- 类别：dye_items
+- 标识：martian-dye
+- 来源：wiki/Martian_Dye
+
+Martian Dye is a Hardmode, post-Golem dye that is sometimes acquired from the Dye Trader after completing a Strange Plant quest. It is only obtainable after completing a Martian Madness event. When equipped, it gives the player an aquamarine tone.
+
+== History ==
+
+
+# 文档：Midnight Rainbow Dye
+- 类别：dye_items
+- 标识：midnight-rainbow-dye
+- 来源：wiki/Midnight_Rainbow_Dye
+
+Midnight Rainbow Dye is a dye that creates a "reverse" rainbow effect that waves throughout the colors of the spectrum. This dye can be earned by trading a Strange Plant with the Dye Trader after defeating the Martian Madness event.
+
+== History ==
+
+
+# 文档：Mirage Dye
+- 类别：dye_items
+- 标识：mirage-dye
+- 来源：wiki/Mirage_Dye
+
+Mirage Dye is a dye sometimes acquired from the Dye Trader after completing a Strange Plant quest. Unlike other dyes, it does not change the color of objects, but instead applies a multicolored shimmering effect.
+
+== Trivia ==
+* The effect seems to be that the sprite's red channel is modeled after s, creating the shimmer effect.
+
+== History ==
+
+
+# 文档：Nebula Dye
+- 类别：dye_items
+- 标识：nebula-dye
+- 来源：wiki/Nebula_Dye
+
+Nebula Dye is a Hardmode, endgame dye crafted using Nebula Fragments dropped by the Nebula Pillar in the Lunar Events. The dye gives the player a pink/purple shiny look on armor, equipment or accessories and looks like stars are moving rapidly upward on anything with the dye. As with the other lunar dyes, the Nebula Dye can not be combined with any other dyes.
+
+== Crafting ==
+=== Recipes ===
+
+== Trivia ==
+* The Nebula Dye's animation could represent the pillars of light gravitating matter upwards as seen in the background of any place where the Nebula Pillar is located, or any place where the Nebula Monolith is activated.
+* The animation bears a slight resemblance to the visual effect which the Rod of Discord causes for a short time after using it.
+
+== History ==
+
+
+# 文档：Negative Dye
+- 类别：dye_items
+- 标识：negative-dye
+- 来源：wiki/Negative_Dye
+
+Negative Dye is a type of dye bought from the Dye Trader during a full moon, or given as a possible reward for turning in a Strange Plant. When applied, it will completely invert the color of the armor or accessory you dye. It is not combinable with other dyes.
+
+== History ==
+
+
+# 文档：Phase Dye
+- 类别：dye_items
+- 标识：phase-dye
+- 来源：wiki/Phase_Dye
+
+Phase Dye is a Hardmode dye sometimes acquired from the Dye Trader after completing a Strange Plant quest. It seems to greatly darken the colors of the object it is attached to as well as giving a strange purple aura.
+
+When the user is damaged, the dye flashes very quickly.
+
+== Trivia ==
+* If the is dyed with Phase Dye, its light trail will no longer be visible.
+*If the Drill Containment Unit is dyed with Phase Dye, the dye's animation rotates with the movement of the unit.
+
+== History ==
+
+
+# 文档：Pink Gel Dye
+- 类别：dye_items
+- 标识：pink-gel-dye
+- 来源：wiki/Pink_Gel_Dye
+
+Pink Gel Dye is a dye that is crafted from Gel Dye. The Gel Dye can be acquired from the Dye Trader, and can be combined with Pink Gel, a crafting material dropped by Pinky, at a Dye Vat. Just like the Gel Dye, the Pink Gel Dye will produce an effect similar to the Slime debuff caused by the Slime Gun, though it will be displayed in a color that's more pink than blue.
+
+== Crafting ==
+=== Recipes ===
+
+== History ==
+
+
+# 文档：Pixie Dye
+- 类别：dye_items
+- 标识：pixie-dye
+- 来源：wiki/Pixie_Dye
+
+Pixie Dye is a Hardmode dye sometimes acquired from the Dye Trader after completing a Strange Plant quest. It can only be obtained after defeating Plantera. When equipped, it turns the player yellow-orange, giving the slight glow that Pixies give off.
+
+== History ==
+
+
+# 文档：Prismatic Dye
+- 类别：dye_items
+- 标识：prismatic-dye
+- 来源：wiki/Prismatic_Dye
+
+Prismatic Dye is a Hardmode, post-Plantera dye dropped by the Empress of Light with a chance. The dye creates a prism-esque effect, making the equipped item seem transparent and glow in a cycling rainbow.
+
+== History ==
+
+
+# 文档：Purple Ooze Dye
+- 类别：dye_items
+- 标识：purple-ooze-dye
+- 来源：wiki/Purple_Ooze_Dye
+
+Purple Ooze Dye is a dye that can be obtained from the Dye Trader after completing a Strange Plant Quest. When equipped, it gives the player a purple tone, with some parts of the dye distort and vary in different shades of purple at times.
+
+== History ==
+
+
+# 文档：Reflective Copper Dye
+- 类别：dye_items
+- 标识：reflective-copper-dye
+- 来源：wiki/Reflective_Copper_Dye
+
+Reflective Copper Dye is a type of dye that is randomly given to you when you give a Strange Plant to the Dye Trader NPC. When equipped, it will give the selected accessory/armor a copper-plated, "shiny" effect, reflecting the surrounding light around the player. The reflection is more pronounced the closer the player is to a light source. The dye will prioritize light from the sun when the player is outside. From some perspectives, the player may look 3D when this dye is equipped all over.
+
+As with other reflective dyes, this dye is not animated when standing still, but the shading on a dyed piece of equipment will change according to the surrounding light, giving it the appearance of light reflecting off of a shining metallic object.
+
+== History ==
+
+
+# 文档：Reflective Dye
+- 类别：dye_items
+- 标识：reflective-dye
+- 来源：wiki/Reflective_Dye
+
+Reflective Dye is a type of dye that is randomly given to you when you give a Strange Plant to the Dye Trader NPC. When equipped, it will give the selected accessory/armor a "shiny" effect, reflecting the surrounding light around the player. The reflection is more pronounced the closer the player is to a light source. The dye will prioritize light from the sun when the player is outside. From some perspectives, the player may look 3D when this dye is equipped all over.
+
+As with other reflective dyes, this dye is not animated when standing still, but the shading on a dyed piece of equipment will change according to the surrounding light, giving it the appearance of light reflecting off of a shining metallic object.
+
+== Trivia ==
+* Strangely, the Reflective Dye looks less reflective on the Console version.
+
+== History ==
+
+
+# 文档：Reflective Gold Dye
+- 类别：dye_items
+- 标识：reflective-gold-dye
+- 来源：wiki/Reflective_Gold_Dye
+
+Reflective Gold Dye is a type of dye that is randomly given to you when you give a Strange Plant to the Dye Trader NPC. When equipped, it will give the selected accessory/armor a gold-plated, "shiny" effect, reflecting the surrounding light around the player. The reflection is more pronounced the closer the player is to a light source. The dye will prioritize light from the sun when the player is outside. From some perspectives, the player may look 3D when this dye is equipped all over.
+
+As with other reflective dyes, this dye is not animated when standing still, but the shading on a dyed piece of equipment will change according to the surrounding light, giving it the appearance of light reflecting off of a shining metallic object.
+
+== History ==
+
+
+# 文档：Reflective Metal Dye
+- 类别：dye_items
+- 标识：reflective-metal-dye
+- 来源：wiki/Reflective_Metal_Dye
+
+Reflective Metal Dye is a type of dye that is randomly given to you when you give a Strange Plant to the Dye Trader NPC. When equipped, it will give the selected accessory/armor a black, "shiny" effect, reflecting the surrounding light around the player. The reflection is more pronounced the closer the player is to a light source. The dye will prioritize light from the sun when the player is outside. From some perspectives, the player may look 3D when this dye is equipped all over.
+
+As with other reflective dyes, this dye is not animated when standing still, but the shading on a dyed piece of equipment will change according to the surrounding light, giving it the appearance of light reflecting off of a shining metallic object.
+
+== Gallery ==
+The following pictures show a player wearing Tungsten armor with the dye applied:<br/>
+File:Reflective Metal Dye demo back2.png
+File:Reflective Metal Dye demo center.png
+File:Reflective Metal Dye demo front.png
+
+== History ==
+
+
+# 文档：Reflective Obsidian Dye
+- 类别：dye_items
+- 标识：reflective-obsidian-dye
+- 来源：wiki/Reflective_Obsidian_Dye
+
+Reflective Obsidian Dye is a type of dye that is randomly rewarded by the Dye Trader for turning in Strange Plants. When equipped, it will give the respective equipment an obsidian-plated, "shiny" effect, reflecting the surrounding light around the player. The reflection is more pronounced the closer the player is to a light source. The dye will prioritize light from the sun when the player is outside. From some perspectives, the player may look three-dimensional when this dye is equipped in all slots.
+
+As with other reflective dyes, this dye is not animated when standing still, but the shading on a dyed piece of equipment will change according to the surrounding light, giving it the appearance of light reflecting off of a shining metallic object.
+
+Unlike the other reflective dyes, this dye is rather dark which results in dark highlights.
+
+Reflective Obsidian Dye is the only known dye not affected by the dye bug in the Switch version
+
+== History ==
+
+
+# 文档：Reflective Silver Dye
+- 类别：dye_items
+- 标识：reflective-silver-dye
+- 来源：wiki/Reflective_Silver_Dye
+
+Reflective Silver Dye is a type of dye that is randomly given to you when you give a Strange Plant to the Dye Trader NPC. When equipped, it will give the selected accessory/armor a silver-plated, "shiny" effect, reflecting the surrounding light around the player. The reflection is more pronounced the closer the player is to a light source. The dye will prioritize light from the sun when the player is outside. From some perspectives, the player may look 3D when this dye is equipped all over.
+
+As with other reflective dyes, this dye is not animated when standing still, but the shading on a dyed piece of equipment will change according to the surrounding light, giving it the appearance of light reflecting off of a shining metallic object.
+
+== History ==
+
+
+# 文档：Shadow Dye
+- 类别：dye_items
+- 标识：shadow-dye
+- 来源：wiki/Shadow_Dye
+
+frame|right|Shadow dye in all slots, including wings.
+
+Shadow Dye is a type of dye bought from the Dye Trader during a full moon, or given as a possible reward for turning in a Strange Plant. When applied, it will darken the color of an item to almost pure black. Shadow Dye also leaves black colored particles while moving.
+
+== Notes ==
+* Shadow Dye can also be used on transparent objects (such as Wisp in a Bottle) to make them near-invisible.
+
+== History ==
+
+
+# 文档：Shadowflame Hades Dye
+- 类别：dye_items
+- 标识：shadowflame-hades-dye
+- 来源：wiki/Shadowflame_Hades_Dye
+
+Shadowflame Hades Dye is a Hardmode Dye sometimes obtained from giving Strange Plants to the Dye Trader. When applied, it turns the item violet and adds fire effects that trail behind the player.
+
+== History ==
+
+
+# 文档：Shifting Pearlsands Dye
+- 类别：dye_items
+- 标识：shifting-pearlsands-dye
+- 来源：wiki/Shifting_Pearlsands_Dye
+
+Shifting Pearlsands Dye is a Hardmode dye that is very similar to the Shifting Sands Dye, but its color is more pink. It can only be crafted, and cannot be obtained any other way.
+
+== Crafting ==
+=== Recipes ===
+
+== Trivia ==
+* Pearlsand is actually more white than pink, though it is possible that the Shifting Pearlsands Dye is pink to represent the theme of The Hallow in general.
+
+== History ==
+
+
+# 文档：Shifting Sands Dye
+- 类别：dye_items
+- 标识：shifting-sands-dye
+- 来源：wiki/Shifting_Sands_Dye
+
+Shifting Sands Dye is a Hardmode dye obtained by turning in Strange Plants to the Dye Trader. When applied, it gives the item an appearance similar to falling sand. It can be used to craft Shifting Pearlsands Dye when one acquires Crystal Shards.
+
+== Crafting ==
+=== Used in ===
+
+== History ==
+
+
+# 文档：Skiphs' Blood
+- 类别：dye_items
+- 标识：skiphs-blood
+- 来源：wiki/Skiphs'_Blood
+
+Skiphs' Blood is a Hardmode dye rewarded from a Hardmode boss's Treasure Bag along with Skiphs' set. It can also be a random reward from the Dye Trader for completing a Strange Plant quest after the Moon Lord has been defeated. When equipped, it gives the player a dark purple tone, also adding a shimmering purple effect to the player's body.
+
+== Trivia ==
+* Skiphs' Blood is currently the only developer item that can be obtained in a normal mode world. Prior to Update 1.4.0.1, Arkhalis was also obtainable in normal-mode worlds through Enchanted Sword Shrines; it has since been replaced in shrines by the Terragrim and is currently only obtainable through the Arkhalis developer vanity set.
+* This dye's sprite looks very similar to Phase Dye, also given from the Dye Trader.
+* This is the only dye that does not have the word "dye" in its name.
+
+== History ==
+
+
+# 文档：Solar Dye
+- 类别：dye_items
+- 标识：solar-dye
+- 来源：wiki/Solar_Dye
+
+Solar Dye is a Hardmode, endgame dye crafted from Solar Fragments dropped by the Solar Pillar from the Lunar Events. The dye gives a golden, metallic hue and a slight pulsating effect to anything used with it, similar to the Reflective Dyes obtainable from the Dye Trader's Strange Plants quest. Unlike the Metallic dyes, however, items dyed with Solar Dye do not appear to dynamically reflect light, and have the same appearance regardless of the player's proximity to light sources. Also unlike the metallic dyes, dyed items periodically glow (without casting light).
+
+== Crafting ==
+=== Recipes ===
+
+== History ==
+
+
+# 文档：Stardust Dye
+- 类别：dye_items
+- 标识：stardust-dye
+- 来源：wiki/Stardust_Dye
+
+Stardust Dye is a Hardmode, endgame dye crafted using Stardust Fragments obtained from the Stardust Pillar from the Lunar Events. It gives a fade bluish-white color, and it gives a white sparkling effect on the dyed armor pieces and accessories.
+
+== Crafting ==
+=== Recipes ===
+
+== History ==
+
+
+# 文档：Team Dye
+- 类别：dye_items
+- 标识：team-dye
+- 来源：wiki/Team_Dye
+
+Team Dye is a dye that can be purchased from the Dye Trader while playing Multiplayer. The color of this dye will correspond to the team the player is on; if the player is not on a team, it acts as though no dye was equipped.
+
+== History ==
+
+
+# 文档：Twilight Dye
+- 类别：dye_items
+- 标识：twilight-dye
+- 来源：wiki/Twilight_Dye
+
+Twilight Dye is a Hardmode dye item that can be obtained as a reward from the Dye Trader after completing the Strange Plants quest. It can, like other dyes, be equipped in the dyes slot in the player's equipment or accessory tabs in their inventory. When the dye is used, the armor or vanity item associated with it will get a very night-sky-like effect which will move dynamically with the player.
+
+== Notes ==
+* If placed on a minecart that is traveling left, the animation of the dye on the minecart will be reversed.
+* If placed on Yoraiz0r's Spell, its rocket particles will become invisible.
+
+== History ==
+
+
+# 文档：Unicorn Wisp Dye
+- 类别：dye_items
+- 标识：unicorn-wisp-dye
+- 来源：wiki/Unicorn_Wisp_Dye
+
+Unicorn Wisp Dye is a Hardmode, post-Plantera dye that can be acquired by bringing a Strange Plant to the Dye Trader. When equipped, it turns the affected item into a deep shade of pink, and produces a glow effect similar to that of the Wisp in a Bottle.
+
+== Trivia ==
+*The unobtainable Color Only Dye shares its sprite with the Unicorn Wisp Dye.
+
+== See Also ==
+* Wisp Dye
+* Infernal Wisp Dye
+
+== History ==
+
+
+# 文档：Void Dye
+- 类别：dye_items
+- 标识：void-dye
+- 来源：wiki/Void_Dye
+
+Void Dye is a Hardmode, post-Moon Lord dye crafted using Luminite Bars. The dye causes a pulsating effect, much like the pulsating effect that the Moon Lord creates moments before he spawns.
+
+== Crafting ==
+=== Recipes ===
+
+== Trivia ==
+* The Void Dye is one of the hardest dyes to acquire a full set of, requiring a total of 15 Luminite Bars, or 60 Luminite.
+* To fill every dye slot, it takes the following numbers of Luminite Bars:
+** For 13 slots, 65 Luminite Bars (260 Luminite) are necessary. This requires defeating the Moon Lord 3–4 / times.
+** For 14 slots (e.g. if a Demon Heart is used or if in Master Mode), 70 Luminite Bars (280 Luminite) are necessary. This requires defeating the Moon Lord 4 / times.
+** For 15 slots (e.g. if a Demon Heart is used in Master Mode), 75 Luminite Bars (300 Luminite) are necessary. This requires defeating the Moon Lord 4–5 / times.
+
+== History ==
+
+
+# 文档：Vortex Dye
+- 类别：dye_items
+- 标识：vortex-dye
+- 来源：wiki/Vortex_Dye
+
+Vortex Dye is a Hardmode dye crafted from Vortex Fragments dropped by the Vortex Pillar in the Lunar Events and Bottled Water. The effect produced is reminiscent of a green warp drive effect on all clothing and accessories the dye is applied to.
+
+== Crafting ==
+=== Recipes ===
+
+== History ==
+
+
+# 文档：Wisp Dye
+- 类别：dye_items
+- 标识：wisp-dye
+- 来源：wiki/Wisp_Dye
+
+Wisp Dye is a Hardmode, post-Plantera dye obtained from the Dye Trader when turning in a Strange Plant. It causes equipment it is applied to to gain a solid bright cyan texture with no animation. It is based off the light pet summoned by the Wisp in a Bottle.
+
+== See Also ==
+* Unicorn Wisp Dye
+* Infernal Wisp Dye
+
+== History ==
+## CRAFTING_STATION_ITEMS
+共 43 篇文档
+
+# 文档：Altars
+- 类别：crafting_station_items
+- 标识：altars
+- 来源：wiki/Altars
+
+245px|thumb| A world after smashing a large number of Crimson Altars leaving the Crimson and The Hallow|Hallow to spread.
+Demon Altars and Crimson Altars are naturally-occurring crafting stations found mainly in and around chasms in The Corruption or The Crimson, and less frequently underground. They are used to craft pre-Hardmode boss-summoning items and the Night's Edge, as well as the and . Altars emit some light, making them easy to spot. They cannot be freed, picked up, placed, or crafted.
+
+After a world enters Hardmode, they can be destroyed with Hardmode-tier hammers, but attempting to hit them with a hammer before Hardmode, or with a hammer with less than 80% hammer power (in Hardmode) causes the player to lose half their remaining health (The damage taken is also reduced by defense) and will leave the altar unaffected.
+
+== Crafting ==
+=== Used to craft ===
+
+== Hardmode ==
+After the Wall of Flesh has been defeated in a world, altars can be destroyed with any tool that has a hammer power of at least 80% (typically the Pwnhammer). Each destroyed altar will spawn a Wraith and causes one type of Hardmode ore to appear in the world, with the appropriate status message displaying in the chat: ""
+<section begin="hardmode ores" />
+# First altar: or , chosen randomly.
+# Second altar: or , chosen randomly.
+# Third altar: or , chosen randomly.
+
+Players will be able to find these new ores scattered across the Underground layer to near-Underworld levels, with them replacing most blocks created during world generation. They will spawn at random locations in varying quantity, in places explored and unexplored alike.
+
+* Destroying more altars will never spawn Hardmode ore types beyond the three that were randomly assigned to the world during the initial round of destroyed altars. A world with Palladium Ore deposits will never spawn Cobalt Ore deposits, or vice versa (with the exception of ).
+* Which ores are generated is not determined until the first, second, or third altar is smashed. For example, it is not determined if the world has Cobalt or Palladium until the first altar has been smashed. The same goes for Mythril/Orichalcum with the second altar, and Adamantite/Titanium for the third.
+* Each time an altar is destroyed, there is a chance that a single random Stone Block in the Cavern layer will be converted to Ebonstone/Crimstone or Pearlstone, facilitating the spread of Underground Hallow or Corruption/Crimson. No block other than the selected one will be converted initially.
+* Subsequent altars destroyed will begin the cycle again, though the fourth to sixth altars will spawn half as much ore as the first ones, the seventh to ninth will spawn only one third of the ore of the first ones, and so forth. So, the n<sup>th</sup> cycle will only generate one-n<sup>th</sup> as much ore as the first one. For example, destroying the 19th altar would yield one-seventh of Cobalt/Palladium Ore compared to the first altar. Destroying 12 altars will roughly double the ore provided by the first three; tripling that original allotment would require destroying 33 altars. Notice that although each subsequent destroyed altar will yield less ore, the total amount is (except by the number of altars in a world).
+* No matter how many altars are destroyed, ore rarity remains set with Cobalt/Palladium being the most common, followed by Mythril/Orichalcum, then Adamantite/Titanium as the rarest.<section end="hardmode ores"/>
+* Each time an altar is destroyed, one or two Wraiths spawn, regardless of the time of day.
+* Additionally, smashing an altar will allow mechanical bosses to spawn naturally (if said boss has not been defeated before it will spawn with a chance each night), and random Pirate Invasions (if all the criteria are met).
+
+== Notes ==
+thumb|288x288px|A Demon Altar that spawned in a Crimson world. 
+
+* Altars can be destroyed through other phenomena, such as being struck by a meteorite landing. Altars being destroyed this way prior to Hardmode will have no effect.
+** Altars being spawned on top of sand or slush and mining the blocks below them does not break them and instead causes the blocks normally affected by gravity to stay under the altar.
+* Altars encountered outside of the Corruption/Crimson on a given map will always be found at a depth of around 8 feet or above. This can be seen at the Ocean floor, where altars can sometimes be found.
+* can be used to replace the blocks underneath an altar, even in pre-Hardmode.
+** This can be used to destroy altars prior to Hardmode via Active Stone Blocks.
+
+== Achievement ==
+
+== Tips ==
+* Altars emit a faint glow, making them somewhat easier to find in unlit areas.
+* It is not uncommon to find an altar relatively close to the world spawn point. Wherever the player has set up their base, it is recommended to begin searching near 0 depth, and upon finding an altar, build a room around it so the player can craft in relative peace.
+* Players about to enter Hardmode may benefit by mining paths to several known altars beforehand, as navigating Hardmode Corruption/Crimson is dangerous at first.
+* Altars are needed for crafting certain items, hence destroying every altar in a world is not recommended.
+* It is not strictly necessary to smash an altar; all ores obtained by doing so can also be obtained by fishing up crates, allowing access to all ores and their counterparts in one world.
+* When destroying multiple altars in rapid succession, the resulting Wraith swarm may become difficult to deal with. Therefore, it is not recommended to smash another if the Wraiths are not defeated.
+
+== Trivia ==
+* The difficulty that new players often face in identifying and determining the nature of Demon Altars has become a notable social phenomenon in the Terraria community, often resulting in forum posts asking about "purple spiky things". A references this with the text ""
+* In some rare cases an altar can spawn atop another altar. Hammering it in pre-Hardmode will deal damage and cause both altars to break.
+** Destroying the lower one in Hardmode will destroy both, with the full effects of destroying two regular altars.
+* In some rare cases an altar can spawn on top of a Life Crystal. Both lower quarters of the heart can be collected as two separate items, but the top half stays unbroken under the altar. The remaining half still exhibits its normal animation after the bottom half is broken.
+
+== History ==
+
+== References ==
+
+
+# 文档：Bottle (crafting station)
+- 类别：crafting_station_items
+- 标识：bottle-crafting-station
+- 来源：wiki/Bottle_(crafting_station)
+
+The from the Dungeon also crafts potions, but has improved functionality as it also offers a chance of not consuming a particular crafting ingredient.
+
+== Crafting ==
+=== Used to craft ===
+
+== Notes ==
+* Where a Placed Bottle is required for crafting, the Guide will list the required crafting station as "Bottle".
+* Lesser Healing and Mana Potions placed as crafting stations are spawned at world generation, and are not place-able by the player in certain versions. They can be crafted by the player since Labor of Love at the Heavy Work Bench.
+== Tips ==
+* While the Alchemy Table is more resource-efficient to use, the Placed Bottle is easier to obtain.
+*
+
+== History ==
+
+
+# 文档：By Hand
+- 类别：crafting_station_items
+- 标识：by-hand
+- 来源：wiki/By_Hand
+
+Some items can be crafted By Hand, meaning they are crafted without the use of an external crafting station. These items are relatively simple to craft and many are essential to basic gameplay.
+
+== Crafting ==
+=== Used to craft ===
+
+== Trivia ==
+* Terraria displays "" instead of "By Hand" for crafting recipes that are crafted by hand. This can be seen when consulting the Guide about a crafting material.
+
+== History ==
+
+
+# 文档：Crafting stations
+- 类别：crafting_station_items
+- 标识：crafting-stations
+- 来源：wiki/Crafting_stations
+
+A Crafting Station allows players to craft various items. Entering the inventory screen displays the "Crafting window" in the lower-left, and when the player is standing near one or more Crafting Stations and possesses the right crafting ingredients, the bar is expanded with additional item choices.
+
+Nearly all crafting stations are furniture. There are currently 44 crafting stations in total.
+
+== Basic ==
+=== Pre-Hardmode ===
+{| class="terraria lined"
+! Station !! Description
+|-
+| By Hand
+| Items that appear in the crafting menu even when no crafting station is nearby are considered crafted "by hand".
+|-
+| 
+| Crafts basic Furniture and building materials. Also crafts some early Wooden weapons and Armor.
+|-
+| <br/>
+| Crafts Bars from raw mined Ore, as well as some building materials, like Bricks. Also crafts Glass and some Glass items. The Hellforge is an upgraded version that adds the ability to craft Hellstone Bars.
+|-
+| <br/>
+| Crafts Tools, Weapons, and Armor. Also some furniture and other items. Iron and Lead Anvils are functionally identical.
+|-
+| <br/>
+| Crafts Potions, Vile/Vicious Powder, and and Threads. A Bottle, Pink Vase, Mug, or any Cup variant will function as this crafting station, as long as they are placed, which requires a flat Furniture item: a Platform/shelf, Table, Workbench, Dresser, Piano, Bookcase, or Tinkerer's Workshop. The Alchemy Table is an upgraded version that offers a chance of not consuming a particular crafting ingredient.
+|-
+| 
+| Same function as Water.
+|-
+| 
+| Crafts additional Furniture. Also crafts the Loom crafting station.
+|-
+| 
+| Crafts Silk from Cobwebs, and some Silk vanity items.
+|-
+| 
+| Any Table and Chair placed next to each other functions as a station solely for crafting Watches. Both chair and table need to be within crafting range but do not need to be beside each other.
+|-
+| 
+| Any Work Bench and Chair placed near to each other functions as a station for crafting Goggles and Sunglasses. Both chair and work bench need to be within crafting range but do not need to be beside each other.
+|-
+| <br/>
+| Crafts Food items. The Cauldron is functionally identical, though visually Halloween-themed.
+|-
+| 
+| Combines Accessory items together into new compact Accessories with combined functionality.
+|-
+| 
+| Crafts Flasks.
+|-
+| 
+| Crafts Dyes and Paints.
+|-
+| 
+| Crafts Statues and several multiplayer, decorative, and alternative items like Trapped Chests, Cracked Dungeon Bricks, the Tall Gate, Gem Locks, and Gemstone Blocks.
+|-
+| <br/>
+| Crafts some Boss-summoning items, as well as the Night's Edge Pre-Hardmode sword. The Demon and Crimson Altars are functionally identical. These stations are unique in that they are not placed by the player, but instead generate on world creation in Corruption/Crimson areas respectively, as well as sporadically around the border between Surface and Underground.
+|}
+
+=== Hardmode ===
+{| class="terraria lined"
+! Station !! Description
+|-
+| <br/>
+| Upgraded Iron Anvil/Lead Anvil, adding the ability to craft many Hardmode weapons, armor, and other items.
+|-
+| <br/>
+| Upgraded Hellforge, adding the ability to craft Bars out of late-Hardmode Ores: Adamantite Ore, Titanium Ore, and Chlorophyte Ore. Can also craft crystal blocks.
+|-
+| 
+| The Bookcase can be crafted or found in Pre-Hardmode, but as a crafting station it is only for Hardmode Magic Weapons.
+|-
+| 
+| Crafts Endless Quiver and Endless Musket Pouch, in addition to visual effect items like animated blocks, droppers, Living Fire Blocks. Waterfall Blocks, Lavafall Blocks, and Honeyfall Blocks require their respective liquids to also be nearby.
+|-
+| 
+| Crafts Shroomite Bars.
+|-
+| 
+| Crafts a variety of end-game items from Lunar Fragments and Luminite.
+|}
+
+== Specialized ==
+These have limited crafting use and only craft a couple of arguably non-essential items.
+
+{| class="terraria lined"
+|+Pre-Hardmode
+|-
+! Station !! Description
+|-
+| 
+| Solely crafts Ale.
+|-
+| 
+| Solely crafts Teacups.
+|-
+| 
+| Solely crafts Living Wood Walls.
+|}
+{| class="terraria lined"
+|+Hardmode
+|-
+! Station !! Description
+|-
+| 
+| Solely crafts Asphalt Blocks.
+|-
+| 
+| Solely crafts Flesh Blocks and Lesion Blocks.
+|}
+
+== Themed furniture ==
+The following crafting stations are used to craft themed versions of various furniture items.
+
+{| class="terraria lined"
+|+Pre-Hardmode
+|-
+! Station !! Furniture Theme
+|-
+| 
+| Bone
+|-
+| 
+| Glass 
+|-
+| 
+| Honey
+|-
+| 
+| Ice
+|-
+| 
+| Living Tree
+|-
+| 
+| Sky 
+|-
+| 
+| Slime 
+|}
+{| class="terraria lined"
+|+Hardmode
+|-
+! Station !! Furniture Theme
+|-
+| 
+| Corruption (Lesion)
+|-
+| 
+| Crimson (Flesh)
+|-
+| 
+| Steampunk
+|-
+| 
+| Jungle Temple
+|}
+
+== Liquids ==
+Some items require Liquids to craft. Standing next to any Sink type works if the required liquid is water.
+
+Liquids also produce unique blocks when colliding with each other ( + = , + = , + = , / / + = .)
+
+{| class="terraria"
+! Liquid !! Description
+|-
+| 
+| Crafts Bottled Water and Mud Blocks. Also crafts Waterfall Blocks and Rain Clouds when a Crystal Ball and a Sky Mill are nearby, respectively.
+|-
+| 
+| Crafts Lavafall Blocks when a Crystal Ball is nearby.
+|-
+| 
+| Crafts Bottled Honey. Also crafts Honeyfall Blocks when a Crystal Ball is nearby.
+|-
+| 
+| Crafts transmutations. Also transmutes a number of items thrown into it.
+|}
+
+== Biomes ==
+* Crafting Snow Clouds requires the player to be in the Snow biome (a Sky Mill is also required).
+* Being in a Graveyard is required for crafting various items (other crafting stations are also required, see Ecto Mist for details).
+
+== Other ==
+These do not use the crafting menu but produce items in unique ways.
+
+{| class="terraria"
+! Station !! Description
+|-
+| 
+| The player holds a Marshmallow on a Stick near the fire to turn it into a Cooked Marshmallow.
+|-
+| 
+| Silt, Slush and Desert Fossil blocks are placed on the Extractinator, which causes it to drop coins, random ores, and gems.
+|-
+|
+|Same Function as the above, but is greatly faster, and can also can drop Hardmode ores and change Ores and Bars (ex: to )
+|}
+
+== Crafting station reach ==
+* The player can reach any crafting station within ~3 blocks to their left or right, 3 blocks below them, or the 3 blocks of their character's height. This gives a total reach of ~8 by 6 blocks centered below the player. This is shorter than the player's reach for tools or chests of ~10 by 9 centered on the player.
+* Unlike the player's item reach, crafting reach cannot be extended by items such as the Architect Gizmo Pack or Extendo Grip. It can however be extended permanently by consuming the Artisan Loaf.
+* The crafting reach of the player isn't a whole number. If they press against a wall, they can reach a crafting station 4 blocks away, but they will never be able to reach 2 crafting stations 4 blocks away on either side. This can be easily tested by locking the player in a 2 wide space with crafting stations 4 blocks away on either side of them; they will only be able to reach 1 crafting station at any given time. Similarly, the player's item reach will extend to 5 blocks if pressed against a wall. Interestingly, the player has to be closer to the wall to extend item reach compared to crafting reach.
+
+== Achievement ==
+
+== Basic progression ==
+This list shows the general order a new player will likely need to follow in obtaining the basic crafting stations. This list only covers stations for essential tools and game advancement. Others can be obtained in more varying orders.
+
+* Work Bench: crafted by hand from Wood.
+* Wooden Table, Wooden Chair: crafted at the Work Bench from Wood.
+* Furnace: crafted at the Work Bench, from Wood, Stone, and Torches.
+* Iron Anvil/Lead Anvil: crafted at the Work Bench from Iron Bars/Lead Bars.
+* Sawmill: crafted at the Workbench, from an Iron Chain, Wood, and Iron Bars.
+* Loom: crafted at the Sawmill.
+* Hellforge: found in The Underworld, generated with the world inside Ruined Houses.
+
+=== Hardmode ===
+* Mythril Anvil/Orichalcum Anvil: crafted at the Iron/Lead Anvil 
+
+...(内容截断)
+
+
+# 文档：Crafting stations/vi
+- 类别：crafting_station_items
+- 标识：crafting-stationsvi
+- 来源：wiki/Crafting_stations/vi
+
+Bàn Chế tạo cho phép người chơi chế tạo rất nhiều vật phẩm. Mở màn hình túi đồ sẽ hiển thị "Cửa sổ chế tạo" ở bên trái, và khi người chơi đứng bên cạnh một hoặc nhiều hơn Bàn Chế tạo và có đủ nguyên liệu, thanh đó sẽ mở rộng thêm nhiều loại vật phẩm. 
+
+Gần như tất cả bàn chế tạo là nội thất. Có tất cả 44 bàn chế tạo tổng cộng.
+
+== Cơ bản ==
+=== Pre-Hardmode ===
+{| class="terraria lined"
+! Trạm chế tạo !! Mô tả
+|-
+| Tay không
+| Vật phẩm xuất hiện trong menu chế tạo kể cả khi người chơi không đứng gần bàn chế tạo nào được coi là chế tạo bằng "tay không".
+|-
+| 
+| Chế tạo Nội thất cơ bản và nguyên liệu xây dựng. Cũng có thể chế tạo ra vũ khí và giáp Gỗ.
+|-
+| <br/>
+| Chế tạo Thỏi từ Quặng thô, cũng như là một số nguyên liệu xây dựng, như là Gạch. Cũng có thể chế tạo Thủy tinh và một số vật phẩm Thủy tinh. Lò luyện Địa ngục là bản nâng cấp có thể chế tọ Thỏi Hellstone.
+|-
+| <br/>
+| Chế tạo Công cụ, Vũ khí, và Giáp. Và một số nội thất và vật phẩm khác. Đe Sắt và Chì có chức năng y hệt nhau.
+|-
+| <br/>
+| Chế tạo Thuốc. Chai, Bình Hồng, Cốc vại, hoặc bất kỳ Cốc nào cũng có chức năng tương tự, khi chúng được đặt, có nghĩa chúng cần có vật phẩm Nội thất phẳng: Bục, Bàn, Bàn làm việc, Tủ quần áo, Piano, Giá sách, hoặc Xưởng Thợ hàn. Bàn Hóa chất là bản nâng cấp cho thêm tỉ lệ 33% (1/3) không tốn nguyên liệu.
+|-
+| 
+| Chế tạo vật phẩm mà cần có Nước gần đó. 
+|-
+| 
+| Chế tạo thêm các loại Nội thất. Cũng chế tạo ra Khung cửi.
+|-
+| 
+| Chế tạo ra Lụa từ Mạng nhện, và một số trang phục từ Lụa.
+|-
+| 
+| Bàn và Ghế bất kỳ đặt gần nhau sẽ có chức năng chế tạo Đồng hồ. Chỉ có ghế là cần trong tầm chế tạo.
+|-
+| 
+| Bàn làm việc và Ghế bất kỳ đặt gần nhau sẽ có chức năng tạo ra Kính mắt và Kính râm. Cả ghế và bàn làm việc cần phải trong tầm chế tạo nhưng không nhất thiết phải đặt sát nhau.
+|-
+| <br/>
+| Chế tạo Đồ ăn. Vại có chức năng y hệt, nhưng có hình ảnh theo chủ đề Halloween.
+|-
+| 
+| Kết hợp vật phẩm Phụ kiện lại với nhau để thành Phụ kiện gọn nhưng được kết hợp chức năng.
+|-
+| 
+| Chế tạo Bình.
+|-
+| 
+| Chế tạo Màu nhuộm và Sơn.
+|-
+| 
+| Chế tạo Tượng và vô số đồ trang trí chế độ nhiều người chơi, và các vật phẩm khác như Rương Bẫy, Gạch Hầm ngục Nứt, Cổng, Khóa Ngọc, và Khối Đá quý.
+|-
+| <br/>
+| Chế tạo một số vật phẩm triệu hồi Boss, cung như là kiếm pre-Hardmode Rìa Bóng đêm. Demon và Crimson Altar có chức năng y hệt nhau. Những bàn chế tạo này là loại đặc biệt do không thể đặt xuống bởi người chơi, nhưng thay vào đó là tự sinh ra khi tạo thế giới có khu vực Corruption/Crimson tương ứng, và nằm rải rác quanh ranh giới giữa Mặt đất và Underground.
+|}
+
+=== Hardmode ===
+{| class="terraria lined"
+! Bàn chế tạo !! Mô tả
+|-
+| <br/>
+| Bản nâng cấp của Đe Sắt/Đe Chì, cho thêm khả năng tạo nhiều loại vũ khí Hardmode, giáp và nhiều vật phẩm khác.
+|-
+| <br/>
+| Bản nâng cấp của Lò luyện Địa ngục, cho thêm khả năng chế tạo Thỏi từ Quặng Hardmode: Quặng Adamantite, Quặng Tianium, và Quặng Chlorophyte. Cũng có thể chế tạo khối pha lê.
+|-
+| 
+| Giá sách có thể chế tạo hoặc tìm thấy trong Pre-Hardmode, nhưng là bàn chế tạo cho Vũ khí phép thuật ở Hardmode.
+|-
+| 
+| Chế tạo Bao Tên Vô tận và Túi Musket Vô tận, thêm vào đó là những vật phẩm gây hiệu ứng hình ảnh như khối động, dropper, Khối Lửa Động. Khối Thác nước, Khối Thác lava, và Khối Thác mật cần có chất lỏng tương ứng gần đó.
+|-
+| 
+| Chế tạo Thỏi Shroomite.
+|-
+| 
+| Chế tạo nhiều vật phẩm endgame từ Nguyệt Tinh thể và Luminite.
+|}
+
+== Đặc biệt ==
+Chúng dùng để chế tạo một số ít vật phẩm và chỉ dùng để chế tạo vật phẩm có vẻ là không cần thiết cho lắm.
+
+{| class="terraria lined"
+|+Pre-Hardmode
+|-
+! Bàn chế tạo !! Mô tả
+|-
+| 
+| Chủ yếu chế tạo Bia.
+|-
+| 
+| Chủ yếu chế tạo Tách trà.
+|-
+| 
+| Chủ yếu chế tạo Tường Gỗ Sống.
+|}
+{| class="terraria lined"
+|+Hardmode
+|-
+! Bàn chế tạo !! Mô tả
+|-
+| 
+| Chủ yếu chế tạo Khối Nhựa đường.
+|-
+| 
+| Chủ yếu chế tạo Khối Thịt và Khối Mục rữa.
+|}
+
+== Themed furniture ==
+The following crafting stations are used to craft themed versions of various furniture items.
+
+{| class="terraria lined"
+|+Pre-Hardmode
+|-
+! Station !! Furniture Theme
+|-
+| 
+| Bone
+|-
+| 
+| Glass 
+|-
+| 
+| Honey
+|-
+| 
+| Ice
+|-
+| 
+| Living Tree
+|-
+| 
+| Sky 
+|-
+| 
+| Slime 
+|}
+{| class="terraria lined"
+|+Hardmode
+|-
+! Station !! Furniture Theme
+|-
+| 
+| Corruption (Lesion)
+|-
+| 
+| Crimson (Flesh)
+|-
+| 
+| Steampunk
+|-
+| 
+| Jungle Temple
+|}
+
+== Chất lỏng ==
+Một số ít vật phẩm yêu cầu đứng gần chất lỏng để xuất hiện trong menu chế tạo.
+
+Chất lỏng cũng cung cấp những khối đặc biệt khi hòa vào nhau ( + = , + = , + = ).
+
+{| class="terraria"
+! Chất lỏng !! Mô tả
+|-
+| 
+| Chế tạo Chai nước và Khối Bùn. Cũng chế ra Khối Thác nước và Khối Mưa khi có Quẳ cầu Pha lê và Máy xay Trời gần đó, tương ứng.
+|-
+| 
+| Chế tạo Khối Thác lava khi có Quả cầu Pha lê gần đó.
+|-
+| 
+| Chế tạo Chai Mật ong. Cũng chế ra Khối Thác mật khi có Quả cầu Pha lê gần đó.
+|}
+
+== Quần xã ==
+* Chế tạo Mây Tuyết cần ở trong Quần xã Tuyết (và cả Máy xay Trời).
+* Ở trong một Nghĩa địa cũng cần cho chế tạo một số vật phẩm (và cũng cần thêm cả trạm ché tạo khác, xem Sương Mù để biết thêm).
+
+== Other ==
+These do not use the crafting menu but produce items in unique ways.
+
+{| class="terraria"
+! Station !! Description
+|-
+| 
+| The player holds a Marshmallow on a Stick near the fire to turn it into a Cooked Marshmallow.
+|-
+| 
+| Silt, Slush and Desert Fossil blocks are placed on the Extractinator, which causes it to drop coins, random ores, and gems.
+|}
+
+== Crafting station reach ==
+* The player can reach any crafting station within ~3 blocks to their left or right, 3 blocks below them, or the 3 blocks of their character's height. This gives a total reach of ~8 by 6 blocks centered below the player. This is shorter than the player's reach for tools or chests of ~10 by 9 centered on the player. 
+* Unlike the player's item reach, crafting reach cannot be extended by items such as the Architect Gizmo Pack or Extendo Grip. 
+* The crafting reach of the player isn't a whole number. If they press against a wall, they can reach a crafting station 4 blocks away, but they will never be able to reach 2 crafting stations 4 blocks away on either side. This can be easily tested by locking the player in a 2 wide space with crafting stations 4 blocks away on either side of them; they will only be able to reach 1 crafting station at any given time. Similarly, the player's item reach will extend to 5 blocks if pressed against a wall. Interestingly, the player has to be closer to the wall to extend item reach compared to crafting reach.
+
+== Achievement ==
+
+== Basic progression ==
+This list shows the general order a new player will likely need to follow in obtaining the basic crafting stations. This list only covers stations for essential tools and game advancement. Others can be obtained in more varying orders.
+
+*Work Bench: crafted by hand from Wood.
+*Wooden Table, Wooden Chair: crafted at the Work Bench from Wood.
+*Furnace: crafted at the Work Bench, from Wood, Stone, and Torches.
+*Iron Anvil/Lead Anvil: crafted at the Work Bench from Iron Bars/Lead Bars.
+*Sawmill: crafted at the Workbench, from an Iron Chain, Wood, and Iron Bars.
+*Loom: crafted at the Sawmill.
+*Hellforge: found in The Underworld, generated with the world inside Ruined Houses.
+
+=== Hardmode ===
+*Mythril Anvil/Orichalcum Anvil: crafted at the Iron/Lead Anvil from Mythril Bars/Orichalcum Bars
+*Adamantite Forge/Titanium Forge: crafted at Mythril/Orichalcum Anvil from a Hellforge and Adamantite Ore/Titanium Ore.
+*Ancient Manipulator: dropped by Lunatic Cultist
+
+== History ==
+
+
+# 文档：Dye Vat
+- 类别：crafting_station_items
+- 标识：dye-vat
+- 来源：wiki/Dye_Vat
+
+The Dye Vat is a crafting station used to craft Dyes and some Paints. It is purchased from the Dye Trader for .
+
+== Crafting ==
+=== Used to craft ===
+
+== History ==
+
+
+# 文档：Ebonwood Work Bench
+- 类别：crafting_station_items
+- 标识：ebonwood-work-bench
+- 来源：wiki/Ebonwood_Work_Bench
+
+| tooltip = 
+| rare = 
+| stack = 
+| sell = 
+| idtile = 18
+| consumable = true
+| listcat = plunder items 
+| cargo = no
+}}
+
+framed|Placed Work Benches. Click the image to view a summary of each row.
+
+Work Benches are a type of crafting station required to craft many essential early-game items. They are also one possible way to fulfill a house's flat surface item requirement. Bottles, Pink Vases, and Mugs can be placed on it and used as a Placed Bottle for crafting potions. The Work Bench is the first crafting station the player can make in the game, and one of the first items overall.
+
+There are 34 / 26 types of Work Benches which can be crafted, and 7 types which must be picked up from areas such as the Dungeon. Some Work Benches can also be found in Underground Cabins, in which they follow the theme of the cabin they are found in.
+
+== Crafting ==
+=== Recipes ===
+
+=== Noncraftable Work Benches ===
+
+{| class="terraria lined "
+|-
+! colspan = 2 | Work Bench !! Notes
+
+|}
+
+=== Used to craft ===
+
+== Achievements ==
+
+== History ==
+thumb|The original sprite of wooden work bench can be seen in the left
+
+
+# 文档：Flesh Cloning Vat
+- 类别：crafting_station_items
+- 标识：flesh-cloning-vat
+- 来源：wiki/Flesh_Cloning_Vat
+
+The Flesh Cloning Vat is a Hardmode crafting station used to craft flesh-themed (Crimson) furniture from Flesh Blocks. It is purchased from the Steampunker for , but only appears for sale in worlds that are generated with the Crimson. It can also be crafted from the Decay Chamber, its Corruption counterpart.
+
+Flesh Blocks are crafted using a Meat Grinder, so the Flesh Cloning Vat is of little use without one.
+
+== Crafting ==
+=== Recipes ===
+
+=== Used to craft ===
+
+=== Used in ===
+
+== History ==
+
+
+# 文档：Furnace
+- 类别：crafting_station_items
+- 标识：furnace
+- 来源：wiki/Furnace
+
+The Furnace is a crafting station used mainly to smelt ores into bars, to create ore bricks, and to craft Glass and certain glass items from Sand, but can also be used to craft other items e.g. weapons. It is also a light source. The Furnace smelts all Pre-Hardmode ores besides Hellstone, which must be smelted in a Hellforge.
+
+ The Furnace is also sold by the Merchant when he is in the Jungle biome.
+
+== Crafting ==
+=== Recipes ===
+
+=== Used to craft ===
+
+== Achievement ==
+
+== History ==
+
+
+# 文档：Glass Kiln
+- 类别：crafting_station_items
+- 标识：glass-kiln
+- 来源：wiki/Glass_Kiln
+
+The Glass Kiln is a crafting station, used to craft Glass-themed furniture. On the , it also has the ability to produce all normal Furnace recipes.
+
+== Crafting ==
+=== Recipes ===
+
+=== Used to craft ===
+
+==== Furnace recipes ====
+
+The Glass Kiln also functions as a Furnace.
+
+== History ==
+
+
+# 文档：Green Dungeon Bookcase
+- 类别：crafting_station_items
+- 标识：green-dungeon-bookcase
+- 来源：wiki/Green_Dungeon_Bookcase
+
+| placeable = Yes
+| width = 3
+| height = 4
+| stack = 9999
+| consumable = True
+| use = 15
+| sell = <br/> (Golden Bookcase)
+| idtile = 101
+| listcat = plunder items
+| cargo = no
+}}
+frame|Placed bookcases. Click the image to view a summary of each row.
+
+Bookcases are crafting stations used for the creating of three Hardmode Magic Weapons: Crystal Storm, Cursed Flames and Golden Shower. Bookcases can also be used as decorative Furniture, and fulfill a House's Flat Surface Item requirement. A Bottle (or similar) can be placed on one and used as a Placed Bottle for crafting Potions.
+
+There are currently 35 craftable Bookcases, and 6 versions looted from the environment: 1 from the Underworld, 4 from the Dungeon, and 1 from the Pirate Invasion. Some bookcases can also be found in Underground Cabins; their style follows the theme of the cabin where they are found.
+== Crafting ==
+=== Recipes ===
+
+== Noncraftable Bookcases ==
+
+{| class="terraria lined"
+|-
+! colspan=2 | Bookcase !! Notes
+
+|}
+
+== Used to craft ==
+
+== Trivia ==
+* The Bookcase actually shows 13 books stored, similar to how a placed book shows 2-3 books.
+* Although it is not required to make it, the Water Bolt's unique sprite is visible in most bookcases (a blue book with white/brown band).
+**The Boreal Wood Bookcase appears to have two water bolts.
+* The Boreal Wood Bookcase, the Slime Bookcase and the Crystal Bookcase are the only three to have horizontally placed books, being the only display of books that way in the game.
+*The Sand Stone Bookcase appears to have scrolls rather than books, probably because it is ancient themed.
+* Despite Cactus and Living Wood Bookcases having no visible top surfaces, objects can still be placed on top of them, in some cases appearing to float in midair.
+* The Shadewood, Martian, Slime, and Dynasty are the only bookcases to show more than two rows of books.
+* On the , the Bookcase Crafting Station icon appears to be just a white square, while everything else appears normal. This is most likely a bug, or was forgotten during development.
+
+== History ==
+
+
+# 文档：Green Dungeon Work Bench
+- 类别：crafting_station_items
+- 标识：green-dungeon-work-bench
+- 来源：wiki/Green_Dungeon_Work_Bench
+
+| tooltip = 
+| rare = 
+| stack = 
+| sell = 
+| idtile = 18
+| consumable = true
+| listcat = plunder items 
+| cargo = no
+}}
+
+framed|Placed Work Benches. Click the image to view a summary of each row.
+
+Work Benches are a type of crafting station required to craft many essential early-game items. They are also one possible way to fulfill a house's flat surface item requirement. Bottles, Pink Vases, and Mugs can be placed on it and used as a Placed Bottle for crafting potions. The Work Bench is the first crafting station the player can make in the game, and one of the first items overall.
+
+There are 34 / 26 types of Work Benches which can be crafted, and 7 types which must be picked up from areas such as the Dungeon. Some Work Benches can also be found in Underground Cabins, in which they follow the theme of the cabin they are found in.
+
+== Crafting ==
+=== Recipes ===
+
+=== Noncraftable Work Benches ===
+
+{| class="terraria lined "
+|-
+! colspan = 2 | Work Bench !! Notes
+
+|}
+
+=== Used to craft ===
+
+== Achievements ==
+
+== History ==
+thumb|The original sprite of wooden work bench can be seen in the left
+
+
+# 文档：Hardmode Anvils
+- 类别：crafting_station_items
+- 标识：hardmode-anvils
+- 来源：wiki/Hardmode_Anvils
+
+The Mythril Anvil and Orichalcum Anvil are Hardmode crafting stations that serve and extend the function of a Pre-Hardmode Anvil. These are very crucial to game advancement, as they account for making nearly every Hardmode recipe before the . In addition to acting as a direct replacement to Lead and Iron Anvils and inheriting all of their crafting recipes, they further serve the similar function of crafting bars forged of Hardmode ores into weapons, armor and tools, as well as several other items.
+
+== Crafting ==
+=== Recipes ===
+Mythril and Orichalcum Anvils also function as Iron and Lead Anvils, both of which similarly share identical recipe lists.
+
+=== Used to craft ===
+
+== History ==
+
+
+# 文档：Hardmode Forges
+- 类别：crafting_station_items
+- 标识：hardmode-forges
+- 来源：wiki/Hardmode_Forges
+
+The Adamantite Forge and Titanium Forge are Hardmode crafting stations that incorporate the same functions as a regular Furnace and Hellforge, with the additional bonus of being able to smelt Adamantite, Titanium and Chlorophyte ores into their respective bars. They give off fire particles like the Furnace and Hellforge.
+
+The Adamantite Forge and Titanium Forge are functionally identical.
+
+== Crafting ==
+=== Recipes ===
+
+=== Used to craft ===
+The Adamantite Forge and Titanium Forge also function as a Furnace and a Hellforge.
+
+== Notes ==
+* On the and s, mining a Titanium Forge will drop an Adamantite Forge.
+
+== Trivia ==
+* Although the forges appear to have glass over the front of the fire, they do not require Glass to craft.
+
+== History ==
+
+
+# 文档：Heavy Assembler
+- 类别：crafting_station_items
+- 标识：heavy-assembler
+- 来源：wiki/Heavy_Assembler
+
+The Heavy Assembler / Heavy Work Bench is a crafting station used to make various building materials, decorative items and mechanisms. It is not an upgrade for the standard Work Bench, nor does it qualify as a flat surface item for NPC housing.
+
+== Crafting ==
+=== Recipes ===
+
+=== Used to craft ===
+
+== Tips ==
+* Particularly useful crafting recipes include the Tall Gate, which can allow mounts to pass through due to its increased height, and the Stone Slab, a way to economically process Stone Blocks into an incorruptible building material.
+* Both of the metal plating recipes are identical to their metal brick counterparts at the Furnace. Their colors are similar, but the sprites of platings tend to have larger and more irregular pieces compared to their equivalent bricks.
+
+== Trivia ==
+* Despite having "Work Bench" in its name, the Heavy Work Bench cannot be used as a crafting station for the regular Work Bench recipes.
+
+== History ==
+
+
+# 文档：Hellforge
+- 类别：crafting_station_items
+- 标识：hellforge
+- 来源：wiki/Hellforge
+
+The Hellforge is a crafting station that incorporates the same functions as a regular Furnace, additionally being able to smelt Hellstone into Hellstone Bars. It is also used to craft the essential Adamantite/Titanium Forge in Hardmode.
+
+Hellforges cannot be crafted, and are found in Ruined Houses in the Underworld. On the , Hellforges can only be collected with a Deathbringer or Nightmare Pickaxe or better (60% pickaxe power). Once placed at higher depths, they can be removed with any pickaxe.
+
+== Crafting ==
+=== Used in ===
+
+=== Used to craft ===
+The Hellforge also functions as a Furnace.
+
+== Notes ==
+* On the , Hellforges can spawn just above the Underworld.
+* The sprite appears to have a small flow of lava on the right side.
+
+== Tips ==
+* With a bit of luck, a Teleportation Potion may take the player to the Underworld, making the Hellforge easily obtainable early-game.
+*If the player brings a bucket of water down to the Underworld, then they can obtain a Hellforge before obtaining the Deathbringer or Nightmare Pickaxe. Simply kill a Lava Slime near the Hellforge (placing a block or two to keep the resulting lava from flowing away might be useful), then dump the bucket of water onto the lava-submerged Hellforge. The resulting Obsidian Blocks will displace it, allowing the player to collect it.
+
+== Trivia ==
+* It appears to be made of Hellstone Bricks.
+* Even though the Hellforge looks like a Furnace and acts like one, it cannot be crafted from it.
+* Although it is a late pre-Hardmode version of the Furnace, it is not required to smelt Cobalt, Palladium, Mythril, and Orichalcum into bars.
+thumb|The original sprite of Hellforge can be seen on the right.
+* Prior to 1.2, the Hellforge and Furnace looked like rounded forges.
+
+== History ==
+
+
+# 文档：Honey
+- 类别：crafting_station_items
+- 标识：honey
+- 来源：wiki/Honey
+
+Not to be confused with Honey Block.
+thumb|Some Honey in a Bee Hive.
+Honey is a liquid found at the bottom of Bee Hives and in small patches with honey blocks within the Underground Jungle. It is also sometimes created when players mine Hive blocks. Honey flows even more slowly than Lava, and it also greatly slows the movement speed of submerged players (items like the Fishron Wings can counter this effect). Like other liquids, Honey can be transported with Buckets or Pumps. Like Water, the player can drown in honey, and any item which allows breathing, walking on, or swimming in water will do likewise for honey.
+
+Honey has the unique effect of granting players, not NPCs (who can actually drown), the Honey life regeneration buff, which lasts for as long as they remain standing or swimming in the honey, plus 30 seconds after leaving. The player does not need to be submerged, but the honey pool must be at least two tiles worth, and at least 5/8 of a tile deep. The buff increases the rate at which player Health regenerates by 1 HP/s per second and increases natural heal rate acceleration by a factor of three. In addition, it reduces the damage from life-losing debuffs like Venom by 2 HP per second.
+
+Honey can also be used to produce two "healing potions": Bottled Honey and the Honeyfin. When exposed to water it produces a Honey Block (useful for crafting furniture and such); when exposed to lava it produces a Crispy Honey Block (used for the Fishing Potion).
+
+== Crafting ==
+thumb|An example of honey (together with water and [[lava) placed to be used as a crafting station. Notice the Crystal Ball above them.]]
+
+Like Water and Lava, honey can be used as a minor crafting station. It works just like those two: in order to use it the player only has to stand nearby. Creation of items from a body of honey does not lower the honey level at all.
+
+=== Used to craft ===
+
+Bottled Honey restores 80 health on use. Honey can also be used to make the following items, though not as a crafting station:
+{| class="terraria"
+! width="150px" | Item
+! width="150px" | When combined with
+|-
+| || 
+|-
+| || 
+|}
+
+== Fishing ==
+{| class="terraria"
+! colspan="3" style="font-size:1.2em" | Catches from Honey
+|-
+| 
+| Restores 120 Health when used.
+|-
+| 
+| Quest item for the Angler NPC, hence can only be fished when its particular quest is active.
+|}
+
+== Notes ==
+thumb|right|By default, players are slowed down drastically when walking through honey.
+* Unlike water, Honey can exist in The Underworld.
+* Honey greatly reduces visibility compared to water, even when lit with multiple Torches.
+* Rain will not turn Honey to Honey Block.
+
+== Tips ==
+* Honey is subject to all the infinite replication methods.
+* Since Honey can exist in The Underworld, a player could use an infinite replication method to flood The Underworld and provide safe (albeit slow without water-walking or something like Fishron Wings) passage without having to worry about falling into lava or spending extra time and effort building bridges over lava pools. This also makes a pool of honey a viable solution for a permanent safe landing zone at the bottom of a Hellevator.
+* Honey can be valuable while fighting any boss as the regeneration boost can protect weaker players. In conjunction with Heart Lanterns and campfires the resulting regeneration boost can negate the need for the Band of Regeneration, freeing up an accessory slot.
+* On the , using the Lava Shark mount makes it possible to continually receive the regeneration boost while retaining or even improving mobility.
+* By creating a circle of Bubbles and putting a bucket of honey in, the player can quickly run through to get the health regeneration boost without much loss in speed.
+* By using Flipper Potion, the player can reduce the effect of moving through honey even further.
+
+== History ==
+
+
+# 文档：Ice Machine
+- 类别：crafting_station_items
+- 标识：ice-machine
+- 来源：wiki/Ice_Machine
+
+The Ice Machine is a crafting station that has a chance of spawning in Frozen Chests. On , it can be purchased from the Steampunker for while in the Snow biome. It is used to craft ice-themed furniture from Ice Blocks.
+
+== Crafting ==
+=== Used to craft ===
+
+== History ==
+
+
+# 文档：Imbuing Station
+- 类别：crafting_station_items
+- 标识：imbuing-station
+- 来源：wiki/Imbuing_Station
+
+The Imbuing Station is a Pre-Hardmode crafting station used to craft flasks. It is purchased from the Witch Doctor for .
+
+== Crafting ==
+=== Used to craft ===
+
+== Notes ==
+* While the Imbuing Station is available for purchase pre-Hardmode, most flasks require Hardmode ingredients. Only the Flask of Poison, Flask of Party, and Flask of Fire are available pre-Hardmode.
+* The Imbuing Station is useful to both melee and summon users (although less so to summon users), as its Flasks affect all melee weapons, as well as whips.
+
+== History ==
+
+
+# 文档：Keg
+- 类别：crafting_station_items
+- 标识：keg
+- 来源：wiki/Keg
+
+The Keg is a minor crafting station used to brew Ale. It may be placed on top of solid blocks, Flat surface items, and platforms. Though it's normally crafted, it can also sometimes be found in underground cabins.
+
+== Crafting ==
+=== Recipes ===
+
+=== Used to craft ===
+
+== Notes ==
+* The keg cannot be turned around like chairs, instead the tap will always be on the right side no matter from which direction it is placed.
+
+== History ==
+
+
+# 文档：Lava
+- 类别：crafting_station_items
+- 标识：lava
+- 来源：wiki/Lava
+
+thumb|right|230px|Some lava in a cave.
+
+Lava is a glowing red/orange liquid found deep in the Cavern layer and in The Underworld, appearing instead of Water at depths below 1,500 feet (750 tiles) in a small world, 2,300 feet (1,150 tiles) in a medium world, and 3,350 feet (1,675 tiles) in a large world. Tiny pools can frequently be found on the outskirts of the underground desert as well, even as high as 200 feet below the surface.
+
+Contact with Lava deals 80 damage per hit on players and 50 damage per hit on enemies, and inflicts the On Fire! debuff on both. Lava also slows movement the way Water does. The Obsidian Skin Potion makes players immune to Lava damage, and the Lava Charm and its derivatives will allow players to be safely submerged in lava for 7 seconds.
+
+Lava flows downwards and horizontally, settling and taking the shape of any block formations below and beside it, the way Water does; however, Lava is more viscous than Water, flowing more slowly. It also emits a medium amount of flickering light. Lava can be moved by the player via a bucket or pump. After flowing 50 blocks in a direction, lava will begin to evaporate, causing the source to be lost. Lava will destroy most furniture and platforms, except Obsidian and Stone Platforms.
+
+Most dropped items of White Rarity (which includes all Coins) will be destroyed when submerged in Lava past their vertical midpoint. Blocks cannot be placed directly within Lava, but falling blocks like Silt and Sand can fall into it, resulting in placement at its bottom, and these can be stacked until reaching the Lava's surface to form a safe bridge over it. Silt and Sand blocks placed this way will revert back to Lava if mined away. However, one can use this method and log out. Upon logging back in, most of the lava will be gone.
+
+Hellstone produces half a block's volume of Lava when mined in the Underworld (a full block's volume in Expert Mode). Lava Slimes create a small amount of lava when slain in Expert Mode.
+
+Unlike with water, lava's color does not depend on the biome the player is in.
+
+== Crafting ==
+thumb|An example of lava (together with water and honey) placed to be used as a crafting station. Notice the Crystal Ball above them.
+Like water and honey, lava can be used as a minor crafting station. It works just like those two; in order to use it the player only has to stand nearby. Creation of items from a body of lava does not lower the lava level at all.
+
+=== Used to craft ===
+
+Lava can also be used to make the following items, though not as a crafting station:
+{| class="terraria"
+! Item
+! When combined with
+|-
+| 
+| 
+|-
+| 
+| 
+|}
+
+== Fishing ==
+Fishing in lava requires the use of the Hotline hook, Lavaproof Fishing Hook, or bait found in the Underworld .
+* It is not possible to get other catches normally obtained in water.
+* It is advisable to make a large artificial lava lake near the surface where the enemies are less dangerous.
+** Do note that while this may be more difficult at first, it will save many deaths and coins.
+** This also requires you to collect Underworld bait before you can fish, and you may end up needing a lot of bait before you get a lavaproof fishing hook.
+** If you have access to Pumps, a Bottomless Lava Bucket or a Wet Bomb (the latter two are both acquired by fishing in lava) making an artificial lava lake is quite easy
+
+{| class="terraria"
+|+Catches from Lava
+! colspan=2 | Item
+! Type
+! Sell
+! Rarity
+! Notes
+
+| Used in .
+
+| Used in and .
+
+| Hardmode-only.
+
+| Allows placing infinite amounts of lava.
+
+| Allows removing infinite amounts of lava.
+
+| Teleports the player to the center of the Underworld.
+
+| Pre-Hardmode only.
+
+| Hardmode only.
+|}
+
+== Notes ==
+thumb|right|By default, players are dealt 80 damage and set on fire by lava.
+* There are many ways to reduce or eliminate the damage from lava:
+** It is possible to dodge lava with Hallowed Armor, Master Ninja Gear, or by other means. The lava will not hurt you until the invincibility frames end, though it will still inflict the On Fire! Debuff.
+**Under effect of Obsidian Skin Potion you can stay in Lava as long as you have the buff. Unlike Water or Honey, players cannot drown in lava.
+**Defense from armor and other sources reduces lava damage like any other sort.
+** The Obsidian Rose reduces Lava's basic damage from 80 to 35 / 50. Combined with Hardmode heavy armor and other defense items, this can reduce lava to a minor annoyance, or even a potential source of invincibility frames to avoid damage from enemies and bosses.
+** A Lava Charm can be used to stand in Lava for up to 7 seconds without getting hurt. Also can be used in combination with the Lava Waders to allow up to 14 seconds without getting hurt.
+**Lava Waders - Allows you to walk on Lava and provides 7 seconds of immunity to it (triggered when you would normally take damage to the lava). The immunity acts like breathing (shows its own bar), but unlike breathing takes much longer to refill after exiting the lava. Note: when walking on lava, the surface must be completely settled. Changing the level of the lava (e.g., by digging below it) will cause the player to fall in, and the lava will take some time to settle again.
+** The Lava Shark Mount provides immunity to lava and allows for fast movement in all liquids.
+** Some Accessories intended for Water use will also aid Lava operations, which normally comes into play when an Obsidian Skin Potion is used (as no Accessory prevents Lava damage on its own permanently).
+*** Flippers and Diving Gear - Allows swimming in Lava.
+*** Neptune's Shell - Has no effect in Lava.
+*** The Water Walking Potion enables walking across Lava without taking damage, as long as the surface is completely settled
+* Contact with Lava dislodges many placed furniture items and most kinds of Platforms, except Obsidian and Stone Platforms.
+** Statues, Pumps, and Obsidian furniture found in The Underworld are not dislodged by lava, but will still be destroyed if they are manually broken and fall into lava.
+** Rope and Chain are dislodged by lava, but Web Rope and Silk Rope are not.
+* Flying monsters rarely enter Lava, but walking enemies will walk into it.
+
+* Being rained on doesn't turn lava into obsidian.
+* The presence of Lava prevents grass from spreading to dirt within an approximate two-tile radius.
+* Occasional lava "drips" from the ceiling are a special effect, which cause no damage. The player can create them with a Magic Lava Dropper.
+* Lava flowing from a "lavafall" (flowing over a half-block like a waterfall) is similarly harmless.
+* Only five white Rarity items are not destroyed by lava
+** Obsidian
+** Fireblossom
+** Fireblossom Seeds
+** (only the original type)
+** 
+* Worms and Bosses (except the King Slime) will not take any damage from contact with lava.
+* The Beach Ball bounces off of lava.
+
+== Tips ==
+A few basic techniques go a long way:
+
+A shallow lava pit underneath a structure will kill all walking enemies as they attempt to jump towards you while you're in your house, and if shallow enough, will gather their drops in one location for easy collection later. You can also use this technique to upgrade regular pits. Standing underneath the pit will lure most enemies toward you, with even some flying enemies diving into the lava.
+
+=== Lava Depth ===
+
+Lava will destroy any item of White rarity (Other than the aforementioned exceptions) including Coins, if it is deep enough for the item to sink past its midpoint. (That is, items with larger sprites can survive deeper lava.) This allows making pits with lava just deep enough to burn copper coins, but (almost) nothing else:
+* If too many items (over 400) accumulate in the world, the oldest ones will despawn.
+* Copper coins are among the least valuable objects in the game, but each stack of them still counts as an item. An event or enemy farm can produce huge numbers of copper coins, so it's worth discarding them, against the risk of despawning more valuable items. Fortunately they
+
+...(内容截断)
+
+
+# 文档：Lead Anvil
+- 类别：crafting_station_items
+- 标识：lead-anvil
+- 来源：wiki/Lead_Anvil
+
+The Iron Anvil and Lead Anvil (Pre-Hardmode anvils, collectively) are crafting stations used mainly to craft weapons and armor. Both anvils can craft the same items. Most of their recipes require metal bars, although they are also used to make other items, such as the Jungle tier of equipment. An anvil is a vital crafting station for most of the game, as it is used to make items from every tier up to Cobalt and Palladium, after which it must be replaced by a Mythril Anvil or Orichalcum Anvil.
+
+Both anvils are craftable, but can sometimes also be found in Underground Cabins. The Iron Anvil can furthermore be purchased from the Merchant.
+
+== Crafting ==
+=== Recipes ===
+
+=== Used to craft ===
+
+== Achievements ==
+
+== Trivia ==
+* In reality, would not be a feasible metal for making anvils. It would not keep its structure very long, due to the low (1.5) and melting point (600K) of pure lead.
+* The anvil is used to craft many items that an actual would not be used for, such as the Amazon yoyo.
+
+== History ==
+
+
+# 文档：Lihzahrd Furnace
+- 类别：crafting_station_items
+- 标识：lihzahrd-furnace
+- 来源：wiki/Lihzahrd_Furnace
+
+The Lihzahrd Furnace is a Hardmode, post-Plantera crafting station used to craft Jungle Temple-themed furniture. It is always found in Lihzahrd Chests in the Jungle Temple.
+
+== Crafting ==
+=== Used to craft ===
+
+== Notes ==
+* The Lihzahrd Furnace cannot be used to craft Lihzahrd Brick Wall, which is instead crafted at any Work Bench.
+* It is possible to find the Lihzahrd Furnace before Hardmode as long as you find a Jungle Temple with an open room that contains a Lihzahrd Chest.
+* The Lihzahrd Furnace cannot be used to craft the Lihzahrd Work Bench, which can only be found in the Jungle Temple.
+* Although the Lihzahrd Furnace is named “furnace” it does not actually function as a furnace
+* Despite the open flames on the sprite, the Lihzahrd Furnace is not a source of light.
+* The Lihzahrd Furnace appears to resemble a Lihzahrd's head.
+
+== History ==
+
+
+# 文档：Lihzahrd Work Bench
+- 类别：crafting_station_items
+- 标识：lihzahrd-work-bench
+- 来源：wiki/Lihzahrd_Work_Bench
+
+| tooltip = 
+| rare = 
+| stack = 
+| sell = 
+| idtile = 18
+| consumable = true
+| listcat = plunder items 
+| cargo = no
+}}
+
+framed|Placed Work Benches. Click the image to view a summary of each row.
+
+Work Benches are a type of crafting station required to craft many essential early-game items. They are also one possible way to fulfill a house's flat surface item requirement. Bottles, Pink Vases, and Mugs can be placed on it and used as a Placed Bottle for crafting potions. The Work Bench is the first crafting station the player can make in the game, and one of the first items overall.
+
+There are 34 / 26 types of Work Benches which can be crafted, and 7 types which must be picked up from areas such as the Dungeon. Some Work Benches can also be found in Underground Cabins, in which they follow the theme of the cabin they are found in.
+
+== Crafting ==
+=== Recipes ===
+
+=== Noncraftable Work Benches ===
+
+{| class="terraria lined "
+|-
+! colspan = 2 | Work Bench !! Notes
+
+|}
+
+=== Used to craft ===
+
+== Achievements ==
+
+== History ==
+thumb|The original sprite of wooden work bench can be seen in the left
+
+
+# 文档：Living Loom
+- 类别：crafting_station_items
+- 标识：living-loom
+- 来源：wiki/Living_Loom
+
+| tags = loot / vendor / vendor:Steampunker
+}}
+
+The Living Loom is a crafting station sometimes found in Living Trees that can be used to craft Living Tree-themed furniture. Not all worlds are guaranteed to contain a Living Loom, and they cannot be crafted.
+
+On the , a Living Loom may spawn placed on the ground nearby a Living Wood Chest, which can spawn inside of a Living Tree, whereas on the , a Living Loom may be found inside the chest itself. On the , the Living Loom can also be purchased from the Steampunker if the player has a Living Wood Wand in their inventory.
+
+== Crafting ==
+=== Used to craft ===
+
+== Notes ==
+* Despite its name, it does not replace the need for the ordinary Loom crafting station, as it cannot craft Silk, nor any clothing-related items.
+* The Living Wood Chest can only be crafted on the , and in other platforms, it must be found inside Living Trees.
+
+== History ==
+
+
+# 文档：Loom
+- 类别：crafting_station_items
+- 标识：loom
+- 来源：wiki/Loom
+
+The Loom is a crafting station used to craft Silk, as well as some items that require Silk as an ingredient. It can sometimes be found in Underground Cabins.
+
+== Crafting ==
+=== Recipes ===
+
+=== Used to craft ===
+
+== Notes ==
+* The Living Loom is unrelated. It is used to craft Living Tree-themed furniture, and cannot craft any Loom items.
+
+== Trivia ==
+* Despite being referred to as a loom, which is used to weave thread into fabric, its sprite more closely resembles a spinning wheel, which is used to spin fiber into thread.
+
+== History ==
+
+
+# 文档：Meat Grinder
+- 类别：crafting_station_items
+- 标识：meat-grinder
+- 来源：wiki/Meat_Grinder
+
+The Meat Grinder is a Hardmode crafting station used to craft Flesh Blocks and Lesion Blocks. It has a chance of being dropped by several Corruption () / Crimson enemies.
+
+Flesh and Lesion Blocks can be used as building materials, and crafted into flesh-/lesion-themed walls and furniture via the Decay Chamber/Flesh Cloning Vat. As a result, the Meat Grinder is of little use without them.
+
+== Crafting ==
+=== Used to craft ===
+
+== History ==
+
+
+# 文档：Mushroom Work Bench
+- 类别：crafting_station_items
+- 标识：mushroom-work-bench
+- 来源：wiki/Mushroom_Work_Bench
+
+| tooltip = 
+| rare = 
+| stack = 
+| sell = 
+| idtile = 18
+| consumable = true
+| listcat = plunder items 
+| cargo = no
+}}
+
+framed|Placed Work Benches. Click the image to view a summary of each row.
+
+Work Benches are a type of crafting station required to craft many essential early-game items. They are also one possible way to fulfill a house's flat surface item requirement. Bottles, Pink Vases, and Mugs can be placed on it and used as a Placed Bottle for crafting potions. The Work Bench is the first crafting station the player can make in the game, and one of the first items overall.
+
+There are 34 / 26 types of Work Benches which can be crafted, and 7 types which must be picked up from areas such as the Dungeon. Some Work Benches can also be found in Underground Cabins, in which they follow the theme of the cabin they are found in.
+
+== Crafting ==
+=== Recipes ===
+
+=== Noncraftable Work Benches ===
+
+{| class="terraria lined "
+|-
+! colspan = 2 | Work Bench !! Notes
+
+|}
+
+=== Used to craft ===
+
+== Achievements ==
+
+== History ==
+thumb|The original sprite of wooden work bench can be seen in the left
+
+
+# 文档：Obsidian Bookcase
+- 类别：crafting_station_items
+- 标识：obsidian-bookcase
+- 来源：wiki/Obsidian_Bookcase
+
+| placeable = Yes
+| width = 3
+| height = 4
+| stack = 9999
+| consumable = True
+| use = 15
+| sell = <br/> (Golden Bookcase)
+| idtile = 101
+| listcat = plunder items
+| cargo = no
+}}
+frame|Placed bookcases. Click the image to view a summary of each row.
+
+Bookcases are crafting stations used for the creating of three Hardmode Magic Weapons: Crystal Storm, Cursed Flames and Golden Shower. Bookcases can also be used as decorative Furniture, and fulfill a House's Flat Surface Item requirement. A Bottle (or similar) can be placed on one and used as a Placed Bottle for crafting Potions.
+
+There are currently 35 craftable Bookcases, and 6 versions looted from the environment: 1 from the Underworld, 4 from the Dungeon, and 1 from the Pirate Invasion. Some bookcases can also be found in Underground Cabins; their style follows the theme of the cabin where they are found.
+== Crafting ==
+=== Recipes ===
+
+== Noncraftable Bookcases ==
+
+{| class="terraria lined"
+|-
+! colspan=2 | Bookcase !! Notes
+
+|}
+
+== Used to craft ==
+
+== Trivia ==
+* The Bookcase actually shows 13 books stored, similar to how a placed book shows 2-3 books.
+* Although it is not required to make it, the Water Bolt's unique sprite is visible in most bookcases (a blue book with white/brown band).
+**The Boreal Wood Bookcase appears to have two water bolts.
+* The Boreal Wood Bookcase, the Slime Bookcase and the Crystal Bookcase are the only three to have horizontally placed books, being the only display of books that way in the game.
+*The Sand Stone Bookcase appears to have scrolls rather than books, probably because it is ancient themed.
+* Despite Cactus and Living Wood Bookcases having no visible top surfaces, objects can still be placed on top of them, in some cases appearing to float in midair.
+* The Shadewood, Martian, Slime, and Dynasty are the only bookcases to show more than two rows of books.
+* On the , the Bookcase Crafting Station icon appears to be just a white square, while everything else appears normal. This is most likely a bug, or was forgotten during development.
+
+== History ==
+
+
+# 文档：Obsidian Work Bench
+- 类别：crafting_station_items
+- 标识：obsidian-work-bench
+- 来源：wiki/Obsidian_Work_Bench
+
+| tooltip = 
+| rare = 
+| stack = 
+| sell = 
+| idtile = 18
+| consumable = true
+| listcat = plunder items 
+| cargo = no
+}}
+
+framed|Placed Work Benches. Click the image to view a summary of each row.
+
+Work Benches are a type of crafting station required to craft many essential early-game items. They are also one possible way to fulfill a house's flat surface item requirement. Bottles, Pink Vases, and Mugs can be placed on it and used as a Placed Bottle for crafting potions. The Work Bench is the first crafting station the player can make in the game, and one of the first items overall.
+
+There are 34 / 26 types of Work Benches which can be crafted, and 7 types which must be picked up from areas such as the Dungeon. Some Work Benches can also be found in Underground Cabins, in which they follow the theme of the cabin they are found in.
+
+== Crafting ==
+=== Recipes ===
+
+=== Noncraftable Work Benches ===
+
+{| class="terraria lined "
+|-
+! colspan = 2 | Work Bench !! Notes
+
+|}
+
+=== Used to craft ===
+
+== Achievements ==
+
+== History ==
+thumb|The original sprite of wooden work bench can be seen in the left
+
+
+# 文档：Pink Dungeon Bookcase
+- 类别：crafting_station_items
+- 标识：pink-dungeon-bookcase
+- 来源：wiki/Pink_Dungeon_Bookcase
+
+| placeable = Yes
+| width = 3
+| height = 4
+| stack = 9999
+| consumable = True
+| use = 15
+| sell = <br/> (Golden Bookcase)
+| idtile = 101
+| listcat = plunder items
+| cargo = no
+}}
+frame|Placed bookcases. Click the image to view a summary of each row.
+
+Bookcases are crafting stations used for the creating of three Hardmode Magic Weapons: Crystal Storm, Cursed Flames and Golden Shower. Bookcases can also be used as decorative Furniture, and fulfill a House's Flat Surface Item requirement. A Bottle (or similar) can be placed on one and used as a Placed Bottle for crafting Potions.
+
+There are currently 35 craftable Bookcases, and 6 versions looted from the environment: 1 from the Underworld, 4 from the Dungeon, and 1 from the Pirate Invasion. Some bookcases can also be found in Underground Cabins; their style follows the theme of the cabin where they are found.
+== Crafting ==
+=== Recipes ===
+
+== Noncraftable Bookcases ==
+
+{| class="terraria lined"
+|-
+! colspan=2 | Bookcase !! Notes
+
+|}
+
+== Used to craft ==
+
+== Trivia ==
+* The Bookcase actually shows 13 books stored, similar to how a placed book shows 2-3 books.
+* Although it is not required to make it, the Water Bolt's unique sprite is visible in most bookcases (a blue book with white/brown band).
+**The Boreal Wood Bookcase appears to have two water bolts.
+* The Boreal Wood Bookcase, the Slime Bookcase and the Crystal Bookcase are the only three to have horizontally placed books, being the only display of books that way in the game.
+*The Sand Stone Bookcase appears to have scrolls rather than books, probably because it is ancient themed.
+* Despite Cactus and Living Wood Bookcases having no visible top surfaces, objects can still be placed on top of them, in some cases appearing to float in midair.
+* The Shadewood, Martian, Slime, and Dynasty are the only bookcases to show more than two rows of books.
+* On the , the Bookcase Crafting Station icon appears to be just a white square, while everything else appears normal. This is most likely a bug, or was forgotten during development.
+
+== History ==
+
+
+# 文档：Pink Dungeon Work Bench
+- 类别：crafting_station_items
+- 标识：pink-dungeon-work-bench
+- 来源：wiki/Pink_Dungeon_Work_Bench
+
+| tooltip = 
+| rare = 
+| stack = 
+| sell = 
+| idtile = 18
+| consumable = true
+| listcat = plunder items 
+| cargo = no
+}}
+
+framed|Placed Work Benches. Click the image to view a summary of each row.
+
+Work Benches are a type of crafting station required to craft many essential early-game items. They are also one possible way to fulfill a house's flat surface item requirement. Bottles, Pink Vases, and Mugs can be placed on it and used as a Placed Bottle for crafting potions. The Work Bench is the first crafting station the player can make in the game, and one of the first items overall.
+
+There are 34 / 26 types of Work Benches which can be crafted, and 7 types which must be picked up from areas such as the Dungeon. Some Work Benches can also be found in Underground Cabins, in which they follow the theme of the cabin they are found in.
+
+== Crafting ==
+=== Recipes ===
+
+=== Noncraftable Work Benches ===
+
+{| class="terraria lined "
+|-
+! colspan = 2 | Work Bench !! Notes
+
+|}
+
+=== Used to craft ===
+
+== Achievements ==
+
+== History ==
+thumb|The original sprite of wooden work bench can be seen in the left
+
+
+# 文档：Pre-Hardmode Anvils
+- 类别：crafting_station_items
+- 标识：pre-hardmode-anvils
+- 来源：wiki/Pre-Hardmode_Anvils
+
+The Iron Anvil and Lead Anvil (Pre-Hardmode anvils, collectively) are crafting stations used mainly to craft weapons and armor. Both anvils can craft the same items. Most of their recipes require metal bars, although they are also used to make other items, such as the Jungle tier of equipment. An anvil is a vital crafting station for most of the game, as it is used to make items from every tier up to Cobalt and Palladium, after which it must be replaced by a Mythril Anvil or Orichalcum Anvil.
+
+Both anvils are craftable, but can sometimes also be found in Underground Cabins. The Iron Anvil can furthermore be purchased from the Merchant.
+
+== Crafting ==
+=== Recipes ===
+
+=== Used to craft ===
+
+== Achievements ==
+
+== Trivia ==
+* In reality, would not be a feasible metal for making anvils. It would not keep its structure very long, due to the low (1.5) and melting point (600K) of pure lead.
+* The anvil is used to craft many items that an actual would not be used for, such as the Amazon yoyo.
+
+== History ==
+
+
+# 文档：Sawmill
+- 类别：crafting_station_items
+- 标识：sawmill
+- 来源：wiki/Sawmill
+
+The Sawmill is a crafting station for advanced Wood and Furniture crafting. It is 3 blocks wide, 3 blocks high, and must be placed on top of solid blocks or platforms.
+
+== Crafting ==
+=== Recipes ===
+
+=== Used to craft ===
+
+== History ==
+
+
+# 文档：Shimmer
+- 类别：crafting_station_items
+- 标识：shimmer
+- 来源：wiki/Shimmer
+
+thumb|A picture of an Aether cave biome
+thumb|A picture of shimmer
+
+Shimmer is a shiny, pearlescent soap water found in the Aether, a mini-biome which generates in the Underground or Cavern layer, always on the same side of the world as the Jungle. It has a variety of effects on different items and NPCs, triggered through contact. Shimmer is the only liquid that cannot be fished in.
+
+It cannot be picked up with Buckets, but it can be pumped. The Bottomless Shimmer Bucket can also pour endless amounts of shimmer, which can be obtained after defeating the Moon Lord by either submerging a Bottomless Water Bucket into it, or crafting one using a Bottomless Water Bucket and 10 Luminite Bars at an Ancient Manipulator.
+
+Throwing coins into Shimmer increases the player's Coin Luck, of which the strength and duration of will be determined by the value of the coin and the amount thrown.
+
+Upon placing 300 or more tiles of Shimmer in the Underground or Cavern layers, an Aether biome is created. In the Aether, the area gets dimmer and stars appear in the background. The music that plays is "Aether" and the background can be replicated using the Aether Monolith.
+
+== Permanent Upgrades ==
+
+Some permanent character upgrades can be made by throwing certain items into Shimmer. Each can only be used once per character, except the Peddler's Satchel and Advanced Combat Techniques: Volume Two, which can only be used once per world instead.
+<table-progress-tracking table-id="1" unique-column-index="1" header-label="Collected?">
+{| class="terraria sortable lined mw-collapsible"
+! Input !! Output !! Notes
+|-
+| 
+| 
+| Increases health regeneration ramping speed by 20%.
+|-
+| 
+| 
+| Increases mana regeneration.
+|-
+| 
+| 
+| Increases defense by 4.
+|-
+| 
+| 
+| Increases mining and tile / wall placement speed by 5%.
+|-
+| 
+| 
+| Increases fishing power by 3.
+|-
+| 
+| 
+| Increases luck by 0.03.
+|-
+| 
+| 
+| Increases the number of items sold at a time by the Travelling Merchant.
+|-
+| 
+| 
+| Increases defense and attack damage for town NPCs.
+|}
+</table-progress-tracking>
+
+Some items can be upgraded by throwing them into Shimmer:
+<table-progress-tracking table-id="2" unique-column-index="1" header-label="Collected?">
+{| class="terraria sortable lined mw-collapsible"
+! Input !! Output !! Notes
+|-
+| 
+| 
+| No longer inflicts the Chaos State debuff when teleporting too frequently. Requires Moon Lord to be defeated.
+|-
+| 
+| 
+| Farther reach, wider spread, and 33% chance to not consume solutions. Requires Moon Lord to be defeated.
+|-
+| 
+| 
+| Transforms Zenith into True Copper Shortsword (not Copper Shortsword).
+|}
+</table-progress-tracking>
+
+== Transmutation ==
+Shimmer is used to transform or "transmute" one item into another item or decraft it.
+This also affects town NPCs (specifically their sprites), several enemies, and many critters.
+
+* Transformed items will float out of the Shimmer and stay in the air, and their sprite is a bit brighter.
+* Certain items will be upgraded by being submerged, some will be downgraded. Some won't be affected at all.
+* Craftable items will be decrafted into their components, except for Potions, for which each ingredient has a 33% chance not to be produced, to prevent duplication of potion ingredients.
+* NPC sprites will be transformed into a shimmered variant.
+* Enemies will become invisible for certain amount of time except for slimes which will be transformed into a shimmer variant.
+** Enemies which cannot be transformed will rapidly turn invisible; this effect will fade very slowly once the enemy leaves the Shimmer.
+* Most critters will be transformed into Faelings. The same will happen if thrown into the Shimmer as an item. There is one exception for gem critter, which will transform into a gem as an example: Diamond bunnies turn into diamonds etc., they don’t need to be in item form, they will also transform into the gem in NPC form.
+* On contact with another liquid, Shimmer transforms into an Aetherium Block.
+* Any new item created from Shimmer will not have a modifier, even cycling items like the emblems.
+* All accessories that can be crafted into another accessory will cycle in ingredients needed to make it, cycling in a similar fashion to emblems.
+*Upon jumping into the shimmer, the player will gain an effect called Shimmering, which makes you travel through blocks until you reach a flat surface that is not in the shimmer.
+**You cannot place, break, or use items when you have this debuff.
+* If a star falls into the shimmer, it bounces back to the sky.
+* Pre-Hardmode Crates cannot be transformed into their hardmode variants before entering hardmode.
+
+===Item Transmutations===
+For an item to be transmuted, the transmuting pool must completely cover the item.
+
+== Interchangeable items ==
+
+These items will cycle between each other when placed into Shimmer.
+
+{| class="fandom-table"
+|
+|
+|-
+|
+|
+|-
+|
+| (Post Moonlord Only)
+|-
+|
+|
+|-
+|
+|
+|-
+|
+|
+|-
+|
+|
+|-
+|
+|
+|-
+|Any Ancient Armor (excluding Ancient Cobalt armor)
+|Non-Ancient Variant
+|-
+|
+|
+|-
+|
+|
+|-
+|
+|
+|-
+|
+|
+|-
+|
+|
+|}
+
+These items cycle from left to right.
+
+{| class="fandom-table"
+|
+|
+|
+|-
+|
+|
+|
+|-
+|
+|
+|
+|-
+|
+|
+|
+|}
+{| class="fandom-table"
+|
+|
+|
+|
+|-
+|
+|
+|
+|
+|-
+|
+|
+|
+|
+|-
+|
+|
+|
+|
+|}
+
+== Decrafting exceptions ==
+Items with multiple recipes have only one way to be decrafted via Shimmer:
+
+{| class="terraria lined sortable mw-collapsible"
+|+Items with multiple recipes
+! Item !! Decraft
+|-
+| 
+|
+* 
+* 
+|-
+| 
+| 
+* 
+* 
+* 
+|-
+| 
+|
+* 
+|-
+| 
+|
+* 
+* 
+* 
+|-
+| 
+|
+* 
+* 
+* 
+* 
+|-
+| 
+|
+* 
+* 
+|-
+| 
+|
+* 
+* 
+* 
+|-
+| 
+|
+* 
+* 
+|-
+| 
+|
+* 
+* 
+|-
+| 
+|
+* 
+* 
+|-
+| 
+|
+* 
+* 
+|-
+| 
+|
+* 
+* 
+|-
+| 
+|
+* 
+* 
+* 
+|-
+| 
+|
+* 
+* 
+* 
+* 
+|-
+| 
+|
+* 
+* 
+|-
+| 
+|
+* 
+* 
+|-
+| 
+|
+* 
+* 
+|-
+| 
+|
+* 
+* 
+|-
+| 
+|
+* 
+* 
+|-
+| 
+|
+* 
+* 
+|-
+| 
+|
+* 
+* 
+|-
+| 
+|
+* 
+|-
+| 
+|
+* 
+* 
+|-
+| 
+|
+* 
+* 
+* 
+|-
+| 
+|
+* 
+* 
+|-
+| 
+|
+* 
+* 
+|-
+| 
+|
+* 
+* 
+* 
+* 
+|-
+| 
+|
+* 
+* 
+* 
+* 
+|}
+
+{| class="terraria lined sortable"
+|+ Items with custom Shimmer decrafting
+! Item !! Custom Shimmer result
+|-
+| 
+|
+* 
+* 
+|-
+| 
+|
+* 
+* 
+|-
+| 
+|
+* 
+* 
+|-
+| 
+|
+* 
+* 
+|-
+| 
+|
+* 
+|}
+
+These items decraft into random ingredients.
+{| class="terraria mw-collapsible"
+|+ Items decrafted into random ingredients
+|
+
+|}
+
+{| class="terraria mw-collapsible"
+|+ Items that cannot be decrafted until Skeletron is defeated
+|
+
+|}
+
+{| class="terraria mw-collapsible"
+|+ Items that cannot be decrafted until Golem is defeated
+|
+
+|}
+
+{| class="terraria mw-collapsible"
+|+ Items that cannot be decrafted
+|
+
+|}
+
+Recipes that contain the following recipe groups will always be decrafted into the proper items:
+{| class="terraria lined mw-collapsible"
+! Recipe group !! Decrafted item
+|-
+| || 
+|-
+| || 
+|-
+| || 
+|-
+| || 
+|-
+| || 
+|-
+| || 
+|-
+| || 
+|-
+| || 
+|-
+| || 
+|-
+| || 
+|-
+| || 
+|-
+| || 
+|-
+| || 
+|-
+| || 
+|-
+| || 
+|-
+| || 
+|-
+| || 
+|-
+| || 
+|-
+| || 
+|-
+| || 
+|}
+
+== Enemy and Critter transmutations ==
+{| class="terraria sortable lined mw-collapsible"
+! Input !! Output
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|-
+| 
+| 
+|}
+
+== Downgrading ==
+Shimmer can downgrade various tiered items thrown into it, like ores and gems. When the 
+
+...(内容截断)
+
+
+# 文档：Sky Mill
+- 类别：crafting_station_items
+- 标识：sky-mill
+- 来源：wiki/Sky_Mill
+
+| tags = loot
+}}
+
+The Sky Mill is a crafting station found in Skyware Chests on Floating Islands. It is used to craft sky-themed blocks and the Skyware furniture set. On the , the Sky Mill can also be purchased from the Steampunker for if the player is in Space.
+
+== Crafting ==
+=== Used to craft ===
+
+== History ==
+
+
+# 文档：Solidifier
+- 类别：crafting_station_items
+- 标识：solidifier
+- 来源：wiki/Solidifier
+
+The Solidifier is a themed crafting station which crafts blocks and furniture related to slime as well as Frozen Slime Blocks, which are special friction-less blocks, and Pink Slime Blocks, which cancel fall damage and cause players to bounce. It is dropped by King Slime (100% chance) on the . On the , it can only be purchased from the Steampunker for , during the day.
+== Crafting ==
+=== Used to craft ===
+
+== History ==
+
+
+# 文档：Table and Chair
+- 类别：crafting_station_items
+- 标识：table-and-chair
+- 来源：wiki/Table_and_Chair
+
+| placeable = yes
+| width = 1| height = 2
+| consumable = true
+| use = 
+| idtile = 15
+| cargo = no
+| listcat = plunder items 
+}}
+framed|Placed Chairs. Click the image to view a summary of each row. 
+
+Chairs are furniture items which can be placed on the ground. They count as a comfort item, which is one of the required elements in order to make a house suitable for an NPC. In combination with a Work Bench or a Table, they also form minor crafting stations.
+
+ Players can sit in chairs by using on them and get a boost on health regeneration, similar to beds and sofas. NPCs can sit on chairs too.
+
+All chairs are 1 tile wide, 2 tiles high, and must be placed on top of a solid block or platform.
+
+Also see , which also fulfills a house's comfort item requirement. Including the Throne and Bar Stool, there are 44 / 36 / 28 / 25 varieties of chairs.
+
+== Crafting ==
+=== Recipes ===
+
+== Noncraftable Chairs ==
+
+{| class="terraria lined"
+|-
+! colspan=2 | Chair !! Notes
+|-
+| 
+| Furniture found in the Dungeon.
+|-
+| 
+| Furniture found in the Dungeon.
+|-
+| 
+| Furniture found in the Dungeon.
+|-
+| 
+| Furniture found in the Dungeon.
+|-
+| 
+| Found in Ruined Houses, does not break from lava.
+|-
+| 
+| Dropped by Pirates. Sell for .
+|}
+
+== Used to craft ==
+
+* On the , the Goggles and Sunglasses do not require a chair to craft.
+
+== Notes ==
+* Despite being called the Martian Hover Chair, it cannot be placed in midair.
+* While sitting on a chair, chairs within a maximum of 2 tiles horizontally can also be sat on.
+* Chairs slightly increase health regeneration on top of the bonus from standing still, a feature shared with sleeping in a bed. This can be most easily seen by comparing health regeneration right after standing still, moving, and sitting in a chair.
+* Even though the Dynasty Chair's sprite might seem like it's only 1 tile high, and sitting on it positions you on a lower level than when sitting on other chairs, it is still 2 tiles high when placed, like any other chair.
+* The Toilet and the Golden toilet also work for crafting purposes with the Work Bench / Table but no other toilets seem to work.
+
+== Trivia ==
+* The Crystal Chair, Sandstone Chair, and Martian Hover Chair seem to be the only chairs with a "backwards" inventory sprite.
+* The Gothic Chair is the only chair found in the Dungeon that is not specific to the Dungeon's color.
+* An NPC and a can sit in the same chair at once.
+* The Dynasty Chair is the only chair that NPCs can not sit on, despite it counting for the requirement of a home.
+
+== History ==
+
+
+# 文档：Teapot
+- 类别：crafting_station_items
+- 标识：teapot
+- 来源：wiki/Teapot
+
+The Teapot is a crafting station used to make Teacups. It can be placed anywhere.
+
+== Crafting ==
+=== Recipes ===
+
+=== Used to craft ===
+
+== Notes ==
+* This item is only obtainable after defeating Skeletron, as you need Bones, which drop from enemies in the Dungeon.
+
+== Trivia ==
+* The use of bone in its crafting recipe is a reference to .
+
+== History ==
+
+
+# 文档：Tinkerer's Workshop
+- 类别：crafting_station_items
+- 标识：tinkerers-workshop
+- 来源：wiki/Tinkerer's_Workshop
+
+The Tinkerer's Workshop is a crafting station that is used primarily to combine multiple accessories into single items that usually provide the abilities of all. For instance, it can combine the Rocket Boots and Hermes Boots into a single item (the Spectre Boots) that provides the same rocket-jumping and accelerated movement as the individual items did, without occupying two accessory slots. The Tinkerer's Workshop is purchased from the Goblin Tinkerer for .
+
+ When combining items, the Tinkerer's Workshop will assign a new random modifier to the crafted item. The modifiers the individual items had beforehand do not influence the modifier of the new combined item.
+
+ Items crafted at the Tinkerer's Workshop will be assigned no modifier.
+
+The Tinkerer's Workshop is also used to craft a Boulder and the unique unrecordable Music Boxes Title (using all 12 first recorded Music Boxes) and .
+
+== Crafting ==
+=== Used to craft ===
+
+== Notes ==
+* The Tinkerer's Workshop can also be used as a three-block-wide flat surface for placing things
+** Despite this, it does not count as a table for NPC Housing.
+**A Bottle (or similar) can be placed on it and used as a Placed Bottle for crafting potions.
+* This crafting station provides the most complex crafting chains in the game: The requires uniting four groups of three Informational Accessories into four intermediate items, then merging those into a which provides "all the information", and finally combining that with a Magic or Ice Mirror to integrate the recall functionality. Similarly, the Ankh Shield combines eleven different protective items (mostly from Hardmode) into a single accessory that protects from most common debuffs. There are several other chains with two or three levels of combination, e.g. the Spectre Boots noted above can be further upgraded to Lightning Boots, Frostspark Boots, and then Terraspark Boots.
+* It matches the visual theme of the Wooden furniture set, especially the .
+
+== Tips ==
+* The Tinkerer's Workshop can be a crucial step in game advancement, as it effectively allows players to enable more accessory-provided abilities at once.
+* Accessories often combine in stages. Here are some notable "final targets", the terminal items of their crafting trees:
+**: is tied for most complex crafting tree in the game, combining 12 informational accessories, a recall to the player's spawn point, and teleportation to both The Underworld and Ocean.
+** Terraspark Boots: Speed, limited flight, ice stability, fire block immunity, and the ability to walk on liquids.
+** : Everything for working with mechanisms.
+** Bundle of Horseshoe Balloons: Offers the ultimate in jumpiness and fall resistance.
+**The Arctic Diving Gear provides extended breathing time, mobility, and light underwater, and furthermore helps mobility on ice. In Expert mode, it also protects against the Chilled debuff.
+* Some Hardmode terminal items:
+** Ankh Shield: Third most complex tree, combining 11 protective accessories to provide immunity to a variety of the common debuffs inflicted by enemies. Also grants knockback resistance and some extra defense.
+** Fire Gauntlet: Increased melee damage, attack speed, and knockback, and all melee weapons inflict On Fire!.
+** : Stat boosts and Werewolf and Merfolk transformations.
+
+== History ==
+
+
+# 文档：Water
+- 类别：crafting_station_items
+- 标识：water
+- 来源：wiki/Water
+
+thumb|400px|Some Water in an Oasis [[biome.]]
+
+Water is an abundant liquid. It is found in nearly any biome in pools of various sizes, and forms the large Oceans on either side of a map. It is less abundant in Deserts, and absent in The Underworld (where it evaporates if made to flow there). Water is only found above a certain depth, beneath which Lava pools tend to appear instead. It flows more freely than Lava and Honey. Each biome has its own unique water color, which can be changed using the Water Fountains sold by the Witch Doctor, once he spawns in your world, or after Plantera is defeated.
+
+Candles, most Torches, and Flaming Arrows do not emit light underwater, but Glowsticks and some other light sources do. Most torches are knocked free when water touches them. The exceptions are cursed, ichor, and coral torches.
+
+Upon submersion, a player's breath meter will display, indicating their remaining breathing time before drowning damage will be incurred. The point where a player is considered submerged, for purposes of the breath meter, is one pixel above the eyes.
+
+If the player's feet are in at least one tile of water, movement is hindered noticeably. Certain accessories or potions can boost player movement through liquids, enable swimming, or even allow walking along its surface. Players cannot swim by default. Projectiles move slower through water than air.
+
+In Expert Mode, entering water in a Snow Biome will give the player the Chilled debuff, which slows the player's movement speed.
+
+A body of water will also break the player's fall upon impact and negate any fall damage. If the player has any water walking buff active, this will also negate fall damage by landing on the water's surface.
+
+== Crafting ==
+thumb|An example of water (together with lava and honey) placed to be used as a crafting station. Notice the Crystal Ball above them.
+
+Like Lava and Honey, water can be used as a minor crafting station. It works just like those two; in order to use it the player only has to stand nearby. Creation of items from a body of water does not lower the water level at all. A sink may be used in place of a water fluid tile, and similarly offers unlimited water to recipes.
+
+=== Used to craft ===
+
+Water can also be used to make the following items, though not as a crafting station:
+{| class="terraria"
+! width="150px" | Item
+! width="150px" | When combined with
+|-
+| || 
+|-
+| || 
+|-
+|Aetherium Block
+|Shimmer
+|}
+
+== Water colors ==
+Water changes color depending on which biome or event the player is. The color can also be changed with Water Fountains.
+
+* File:Water.png Blue in the Forest and Ocean
+* File:Underground and Glowing Mushroom Water.png Dark Blue in the Underground layer and Glowing Mushroom biome
+* File:Desert Water.png Yellow in the surface Desert / Underground Desert 
+* File:Jungle Water.png Teal in the Jungle
+* File:Icy Water.png Light blue in the Snow biome
+* File:Corrupt Water.png Purple in the Corruption
+* File:Crimson Water.png Pinkish in the Crimson
+* File:Hallowed Water.png Magenta in the Hallow
+* File:Blood Moon Water.png Red during a Blood Moon
+* File:Cavern Water.png Murky purple in the Cavern layer
+* File:Oasis Water.png Turquoise in the surface Desert, such as in an 
+
+== Items interacting with water ==
+* Flippers allow the player to swim upward by jumping repeatedly from any point within the water.
+* Gills Potion allows the player to breathe underwater.
+* Breathing Reed allows the player to breathe while in shallow water and also increases the breath meter.
+* Diving Helmet increases the breath meter.
+* Diving Gear increases breath meter and allows swimming.
+* Neptune's Shell allows the player to breathe underwater and allows swimming.
+* Water Walking Potion, Lava Waders, Obsidian Water Walking Boots, Water Walking Boots, and allow the player to walk on the surface of water.
+* Pumps and Buckets can move water.
+* Flipper Potion, Fishron Wings, Superheated Blood, and the allow the player to move at normal/boosted speed in water.
+* Jellyfish Necklace, Jellyfish Diving Gear, and Arctic Diving Gear emit light when in water.
+* Fishing Poles allow the player to fish in water.
+* Trident allows for increased mobility while held, also allowing you to slow your descent by holding Up.
+
+== Notes ==
+thumb|right|By default, players are slowed down significantly when walking through water.
+* Underground pools of water may sometimes be spotted via the glowing Jellyfish that spawn there.
+* The game occasionally has difficulty leveling out large volumes of liquid that flowed into a new space. Exiting and reloading the world, or relocating the liquid elsewhere, can sometimes remedy the problem.
+* If the player already has the Chilled debuff and enters water, it will stay on the player until they leave, where the countdown will start again.
+* Water cannot directly spread the Corruption, Crimson or Hallow, as the tints it receives from the player being in such biomes are purely visual.
+*Water slowly disappears when placed within the underworld.
+
+== History ==
+
+
+# 文档：Work Bench and Chair
+- 类别：crafting_station_items
+- 标识：work-bench-and-chair
+- 来源：wiki/Work_Bench_and_Chair
+
+| placeable = yes
+| width = 1| height = 2
+| consumable = true
+| use = 
+| idtile = 15
+| cargo = no
+| listcat = plunder items 
+}}
+framed|Placed Chairs. Click the image to view a summary of each row. 
+
+Chairs are furniture items which can be placed on the ground. They count as a comfort item, which is one of the required elements in order to make a house suitable for an NPC. In combination with a Work Bench or a Table, they also form minor crafting stations.
+
+ Players can sit in chairs by using on them and get a boost on health regeneration, similar to beds and sofas. NPCs can sit on chairs too.
+
+All chairs are 1 tile wide, 2 tiles high, and must be placed on top of a solid block or platform.
+
+Also see , which also fulfills a house's comfort item requirement. Including the Throne and Bar Stool, there are 44 / 36 / 28 / 25 varieties of chairs.
+
+== Crafting ==
+=== Recipes ===
+
+== Noncraftable Chairs ==
+
+{| class="terraria lined"
+|-
+! colspan=2 | Chair !! Notes
+|-
+| 
+| Furniture found in the Dungeon.
+|-
+| 
+| Furniture found in the Dungeon.
+|-
+| 
+| Furniture found in the Dungeon.
+|-
+| 
+| Furniture found in the Dungeon.
+|-
+| 
+| Found in Ruined Houses, does not break from lava.
+|-
+| 
+| Dropped by Pirates. Sell for .
+|}
+
+== Used to craft ==
+
+* On the , the Goggles and Sunglasses do not require a chair to craft.
+
+== Notes ==
+* Despite being called the Martian Hover Chair, it cannot be placed in midair.
+* While sitting on a chair, chairs within a maximum of 2 tiles horizontally can also be sat on.
+* Chairs slightly increase health regeneration on top of the bonus from standing still, a feature shared with sleeping in a bed. This can be most easily seen by comparing health regeneration right after standing still, moving, and sitting in a chair.
+* Even though the Dynasty Chair's sprite might seem like it's only 1 tile high, and sitting on it positions you on a lower level than when sitting on other chairs, it is still 2 tiles high when placed, like any other chair.
+* The Toilet and the Golden toilet also work for crafting purposes with the Work Bench / Table but no other toilets seem to work.
+
+== Trivia ==
+* The Crystal Chair, Sandstone Chair, and Martian Hover Chair seem to be the only chairs with a "backwards" inventory sprite.
+* The Gothic Chair is the only chair found in the Dungeon that is not specific to the Dungeon's color.
+* An NPC and a can sit in the same chair at once.
+* The Dynasty Chair is the only chair that NPCs can not sit on, despite it counting for the requirement of a home.
+
+== History ==
+
+
+# 文档：Work Benches
+- 类别：crafting_station_items
+- 标识：work-benches
+- 来源：wiki/Work_Benches
+
+| tooltip = 
+| rare = 
+| stack = 
+| sell = 
+| idtile = 18
+| consumable = true
+| listcat = plunder items 
+| cargo = no
+}}
+
+framed|Placed Work Benches. Click the image to view a summary of each row.
+
+Work Benches are a type of crafting station required to craft many essential early-game items. They are also one possible way to fulfill a house's flat surface item requirement. Bottles, Pink Vases, and Mugs can be placed on it and used as a Placed Bottle for crafting potions. The Work Bench is the first crafting station the player can make in the game, and one of the first items overall.
+
+There are 34 / 26 types of Work Benches which can be crafted, and 7 types which must be picked up from areas such as the Dungeon. Some Work Benches can also be found in Underground Cabins, in which they follow the theme of the cabin they are found in.
+
+== Crafting ==
+=== Recipes ===
+
+=== Noncraftable Work Benches ===
+
+{| class="terraria lined "
+|-
+! colspan = 2 | Work Bench !! Notes
+
+|}
+
+=== Used to craft ===
+
+== Achievements ==
+
+== History ==
+thumb|The original sprite of wooden work bench can be seen in the left
+## BUFFS
+共 121 篇文档
+
+# 文档：Amber Mosquito
+- 类别：buffs
+- 标识：amber-mosquito
+- 来源：wiki/Amber_Mosquito
+
+The Amber Mosquito is a pet-summoning item that spawns a Baby Dinosaur to follow the player around. If it is too far away from the player, a pterosaur will carry it by the tail to continue following the player. This item can only be obtained by putting Silt, Slush, or into an Extractinator. With Silt or Slush, it has a chance to drop, with Desert Fossils it has a slightly higher chance of . It does not produce light.
+
+== Trivia ==
+* This item is a reference to the American science fiction media franchise , where dinosaurs are cloned using blood found in mosquitoes trapped in amber.
+* Despite its extreme rarity, the Amber Mosquito can be obtained fairly easily due to how common Desert Fossils are in the Underground Desert.
+* The Baby Dinosaur appears to be a .
+
+== History ==
+
+== References ==
+
+
+# 文档：Ancient Horn
+- 类别：buffs
+- 标识：ancient-horn
+- 来源：wiki/Ancient_Horn
+
+framed|right|The Basilisk Mount in use.
+alt=The player is on the mount in a small dark cave, slightly illuminated by the mount's light.|thumb|259x259px|The Basilisk's faint light when underground.
+
+The Ancient Horn is a Hardmode mount summoning item. When used, it summons a rideable Basilisk Mount which gives the player the ability to charge through enemies, damaging them in the process. In , the Basilisk Mount can do an extra jump. It can be rarely (2% chance) dropped by the Basilisk.
+
+The Basilisk Mount provides accelerated land speed at 41 mph and provides increased jump height (14 tiles/28 feet), though is still hindered by water as usual. While mounted on the Basilisk, the player only takes 20% fall damage.
+
+If the Basilisk is moving at a speed of least 21 mph, running through enemies inflicts 90 base damage, not counting enemy defense. This damage is considered summon damage, meaning that minion-enhancing items will improve it. Enemies that are damaged by this attack do not inflict contact damage on the player, but the player will suffer contact damage from enemies that survive it, if the hitbox of the player gets hit.
+
+The Mount grants immumity to knockback.
+
+The Mount emits a faint red glow from 27' underground downwards. This light does not grow stronger as the player descends, and its color is unaffected by dyes.
+
+== Achievements ==
+
+== Tips ==
+* Compared to the Unicorn Mount, the Basilisk is much slower, but has much more acceleration and lower height, making it more suitable for underground exploration. It can also be better for battle depending on the player's gear, as it trades the Unicorn's invulnerability for a lower charge delay and higher damage.
+* When used with the Neptune's Shell, the Basilisk mount is capable of extreme mobility whilst underwater, even competing with that of the Turtle Mount and even Cute Fishron (in the air).
+* Using an umbrella with this mount will cause the player to glide through the air at significant speeds, allowing the player to move long distances quickly when jumping from a high ledge.
+* The Basilisk is capable of charging through the segments of the Eater of Worlds and The Destroyer with minimal damage to the player. When running along the Destroyer's body, the Basilisk can achieve very high due to summon damage bypassing the Destroyer's high defense.
+* The Basilisk mount is resistant to the Sandstorm’s Mighty Wind Debuff while in motion, meaning that regardless of which direction the wind is pushing you, your speed and charge time is not affected. This also applies to jumping against the wind. This is very useful when traversing the Desert during this event. However, the Basilisk mount is not resistant to the wind pushing the player when standing still.
+* Both the Basilisk and Unicorn Mount's charge abilities operate the same way Sprinting accessories do in terms of momentum. This means that mounting while sprinting, dashing with the or Tabi, or moving quickly through the use of a canceled grapple will immediately cause the Basilisk to begin charging, even if the distance covered would normally not be enough to trigger it.
+
+== History ==
+
+
+# 文档：Baby Grinch's Mischief Whistle
+- 类别：buffs
+- 标识：baby-grinchs-mischief-whistle
+- 来源：wiki/Baby_Grinch's_Mischief_Whistle
+
+The Baby Grinch's Mischief Whistle is a pet summoning item which summons a pet Baby Grinch that follows the player around. Baby Grinch's Mischief Whistle has a chance of being dropped by Ice Queen during the later waves of the Frost Moon event. When the player is far enough away, a balloon will carry the Baby Grinch to catch up to the player.
+
+== Trivia ==
+* This item is a reference to the story by Doctor Seuss and the live-action remake, where they included a scene of people having a flashback about the grinch as a baby.
+
+== History ==
+
+
+# 文档：Ball O' Fuse Wire
+- 类别：buffs
+- 标识：ball-o-fuse-wire
+- 来源：wiki/Ball_O'_Fuse_Wire
+
+The Ball O' Fuse Wire is a Hardmode pet-summoning item. It is purchased from the Zoologist for after completing 70% of the Bestiary. It summons a pet Dynamite Kitten resembling the Orange Tabby variant of the Town Cat. The Kitten will ride to the character on a stick of Dynamite when far enough away, and will immediately dismount when it is on solid ground.
+
+== Trivia ==
+* The buff's tooltip is in reference to the Explosive Bunny's tooltip, "".
+** This tooltip may be a reference to the flash game Kitten Cannon.
+* It was added as a result of a petition.
+* Dynamite Kitten himself could be a reference to the card game Exploding Kittens.
+* Despite wearing a miner's helmet, the Dynamite Kitten does not provide any light.
+
+== History ==
+
+== References ==
+
+
+# 文档：Bamboo Leaf
+- 类别：buffs
+- 标识：bamboo-leaf
+- 来源：wiki/Bamboo_Leaf
+
+The Bamboo Leaf is a pet-summoning item that summons a Baby Red Panda. It is purchased from the Traveling Merchant for . When far enough away, the Baby Red Panda will ride a flying bamboo to catch up to the player.
+
+== Trivia ==
+* The is a small mammal native to the Himalayas and China. Despite the similarities in name and diet, it is not closely related to the giant panda. The Red Panda was actually discovered before the giant panda.
+
+== History ==
+
+
+# 文档：Banners (enemy)
+- 类别：buffs
+- 标识：banners-enemy
+- 来源：wiki/Banners_(enemy)
+
+}There are a total of enemy banners: pre-Hardmode, Hardmode, and unobtainable. Out of these, belong to event enemies ( pre-Hardmode and Hardmode) and to -exclusive enemy variants ( pre-Hardmode and Hardmode).
+
+== Slimes ==
+
+== Environments ==
+=== Surface ===
+
+=== Cavern ===
+
+=== Granite Cave ===
+
+=== Marble Cave ===
+
+=== Spider Cave ===
+
+=== Glowing Mushroom biome ===
+
+=== Snow biome ===
+
+=== Jungle ===
+
+=== Desert ===
+
+=== Underworld ===
+
+=== Dungeon ===
+
+=== Corruption ===
+
+=== Crimson ===
+
+=== Hallow ===
+
+=== Meteorite ===
+
+== Events ==
+=== Rain/Blizzard ===
+
+=== ===
+
+=== Blood Moon ===
+
+=== Goblin Army ===
+
+=== ===
+
+=== Halloween ===
+
+=== Pirate Invasion ===
+
+=== Solar Eclipse ===
+
+=== Frost Legion ===
+
+=== Pumpkin Moon ===
+
+=== Frost Moon ===
+
+=== ===
+
+=== ===
+<div class="terraria" style="padding-left:7px">
+
+</div>
+
+=== ===
+
+== variants ==
+
+== Banners with non-default kill count ==
+
+{| class="terraria lined sortable mw-collapsible"
+! colspan=2 | Banner
+! Kill count
+
+|}
+
+== Unobtainable ==
+
+== Crafting ==
+=== Recipes ===
+
+== Effect on damage and defense calculation ==
+Since banners affect base damage rather than the calculation after defense is taken into account, 10 final damage does not just become 15 or 20 damage but can vary greatly. 
+
+This also applies to other player and weapon damage modifiers but not player damage reduction ones.
+
+The real effect of banners grows the bigger the values are as well as how close Base Damage and Damage Reduction are. The lower and further apart, the closer the effect is to the original values.
+
+As an example for Expert Mode, Weapon Damage 50 and Enemy Defense 80 (40 Damage Reduction):
+
+:<code>50×2−40 = 60</code> damage dealt instead of <code>(50−40)×2 = 20</code> damage.
+
+For Normal Mode, same values:
+
+:<code>50×1.5−40 = 35</code> damage dealt instead of <code>15</code> damage.
+
+Example for damage dealt to the player, Expert Mode, 100 Damage, Player Defense 80 (60 Damage Reduction):
+
+:<code>100×0.5−60 = −10</code> damage (<code>1</code> damage) instead of <code>(100−60)×0.5 = 20</code> damage.
+
+In normal Mode, Enemy Base Damage is usually halved, Player Defense 80 (40 Damage Reduction):
+
+:<code>50×0.75−40 = −2.5</code> damage (<code>1</code> damage) instead of <code>(50−40)×0.75 = 7.5</code> Damage.
+
+High Damage Example, fictional since no melee attack hits as hard as a Pirate Captain's Cannon Ball:
+
+400 Damage, Titanium Armor 49 Defense (36.75 Damage Reduction). Original Damage 363.25.
+
+:<code>400×0.5−36.75 = 164</code> (<code>45%</code> of the original damage) instead of simply <code>50%</code> of the damage.
+
+Upping the Player Defense by 24 to 73 (54.75 Damage Reduction). 345.25 Original Damage.
+
+:<code>400×0.5−54.75 = 145.25</code> (<code>42%</code> of the original damage).
+
+The effect in Expert can easily grow to the point where one can kill a Wyvern in one or two multi-hits with a banner when one had to previously dance with it (10+ hits) and the very same weapon.
+
+== Notes ==
+* If the player's inventory is full when they get a banner, it will drop beside them.
+* Bosses do not have banners. Instead, they have trophies. These do not however grant any buffs.
+* If an NPC lands the killing blow on an enemy that would have dropped a banner, the last player to hit the enemy receives the banner.
+* The effective range of the buffs from banners is based on the center of the player's view, not where the character is positioned. This can be proven by using Binoculars and Sniper Scope.
+* Banners can be hung off platforms which are in their staircase or bottom position (after being struck with a hammer).
+* For enemies with projectile attacks such as Hornets, the damage reduction only applies to their melee attacks; players still take full damage from the projectiles.
+
+== Trivia ==
+* Each banner may be placed in a right- or left-facing orientation, but this is decided by which tile column in the world the banner is placed. Placing it one block to the left or right will flip the orientation.
+* The left half of the Nymph Banner is of the Lost Girl "NPC", while the right half is the Nymph monster.
+* The Bride, Corrupt Mimic, Crimson Mimic, Hallowed Mimic, Vicious Bunny, Vicious Goldfish, and Vicious Penguin do not have banners.
+* Diggers share the same Banner and kill count with their pre-Hardmode counterparts, the Giant Worms. The same applies to Moss Hornets and Wandering Eyes, which share banners with their pre-Hardmode counterparts: Hornets and Demon Eyes.
+* The Tortured Soul does not have a banner.
+* Similarly, the Maggot Zombie does not have its own banner; however, the Zombie Banner does offer a buff against it.
+* The Hoplite and Medusa Banners are the only banners that do not show a picture of the monster on it. Instead, each resemble dark green banners with golden Greek patterns, with the Hoplite and Medusa Banners having a picture of a helm and snake on them respectively.
+* The Bunny, Bird, Goldfish, and Penguin are the only four critters that have banners of themselves. The four banners still give a buff on attack and defense against the aforementioned critters, even though they cannot actually harm the player.
+
+== History ==
+
+== References ==
+
+
+# 文档：Bedazzled Nectar
+- 类别：buffs
+- 标识：bedazzled-nectar
+- 来源：wiki/Bedazzled_Nectar
+
+The Bedazzled Nectar is a pet summoning item. When used, it summons the Glittery Butterfly which flies around the player. It has a chance of being sold by the Traveling Merchant for .
+
+== Trivia ==
+* The Buff tooltip "Truly, truly outrageous" is in reference to the theme song [https://www.youtube.com/watch?v=YSLhrIuAZak "Truly Outrageous"] from .
+* The Glittery Butterfly's wings bear a striking resemblance to the -exclusive Sparkly Wings.
+
+== History ==
+
+
+# 文档：Bernie's Button
+- 类别：buffs
+- 标识：bernies-button
+- 来源：wiki/Bernie's_Button
+
+The Bernie's Button is a pet-summoning item which summons a Bernie pet that follows the player around. It can be purchased from the Princess for .
+
+== Trivia ==
+* The tooltip of the item is a reference to 's examination quote for Bernie in .
+* The tooltip of the buff is a reference to 's examination quote for Bernie in event of Don't Starve Together.
+
+== See also ==
+* 
+
+== History ==
+
+
+# 文档：Betsy's Egg
+- 类别：buffs
+- 标识：betsys-egg
+- 来源：wiki/Betsy's_Egg
+
+Betsy's Egg is a pet-summoning item that drops from Betsy in Master Mode with a chance. It summons Itsy Betsy, which will follow the player around.
+
+== Trivia ==
+* Itsy Betsy is a reference to the popular nursery rhyme "". Itsy bitsy also means small, as the pet is a miniature version of Betsy.
+* The item's sprite resembles the Gato Egg and Dragon Egg dropped from the Dark Mage.
+* Itsy Betsy is also a pet found in , the game that the Old One's Army is based on.
+
+== History ==
+
+
+# 文档：Birdie Rattle
+- 类别：buffs
+- 标识：birdie-rattle
+- 来源：wiki/Birdie_Rattle
+
+The Birdie Rattle is a pet-summoning item that can be purchased from the Traveling Merchant for . It is used to summon the Lil' Harpy pet.
+
+The Lil' Harpy, when summoned, will fly above and behind the player, and will behave similar to the Zephyr Fish, continually flying around and looking side to side. It will never land, and can fly through blocks.
+
+== Trivia ==
+* The tooltip mentions a cockatiel, which is a member of the cockatoo family.
+
+== History ==
+
+
+# 文档：Blessed Apple
+- 类别：buffs
+- 标识：blessed-apple
+- 来源：wiki/Blessed_Apple
+
+frame|The mount charging through Target Dummy|Target Dummies. Note that the mount only does damage when sprinting.
+
+The Blessed Apple is a Hardmode mount summoning item. When used, it summons a rideable Unicorn Mount that is capable of an extra jump as well as the ability to sprint and charge through enemies, damaging them in the process. On the , the Blessed Apple is dropped by Unicorns with a / chance. On the , it is dropped by any Hallowed enemy with a / chance.
+
+Once a high speed is reached, the Unicorn emits a sparkle effect, and from that point on, it will be able to damage enemies on contact. The invulnerability is granted for 1/10th of a second when the player and the Unicorn dash through an enemy, much like the brief invulnerability after taking damage.
+
+== Notes ==
+* The top running speed of a Unicorn is , reachable in . At top speed, it is nearly twice as fast as a player wearing Lightning Boots and is equivalent to the Wisp in a Bottle's top speed. However, the Unicorn Mount can reach up to when falling down after having reached max speed.
+* When surpassing , the Unicorn will start dealing damage to enemies and critters it runs into, similarly to the and the . It will deal 60 base summon damage and inflict a knockback of 10 ().
+* A Unicorn does not benefit from the effect of Asphalt Blocks, making players with Lightning Boots travel slightly faster on these blocks ( with boots and on a Unicorn). The Unicorn also does not benefit from Swiftness Potions.
+* While riding the Unicorn, the player will be damaged by one-block-deep lava, but not given benefits or slowed down by one-block-deep honey.
+* While the player is mounted on the Unicorn, they will only take 20% fall damage, though they will not take fall damage if they have any fall damage negating accessories equipped, such as the Lucky Horseshoe or a set of Wings, regardless of the height the player fell while on the Unicorn.
+* The Unicorn makes the player five tiles in height, unlike most other mounts, which only raise the height to four tiles.
+* All items providing an extra jump, like the Cloud in a Bottle, will stack with the mount, allowing a triple jump. If a Bundle of Balloons is equipped, it is possible to jump 5 times before hitting the ground.
+** Further adding the Fart in a Jar or upgrades and Tsunami in a Bottle or upgrades allows the player to jump 7 times before hitting the ground.
+* When using the double jump, the player has a green and yellow sparkling effect in the mount's trail. The color of the particles created by double jumping, as well as charging, are affected by dyes.
+* If the player has Water Walking Boots, Obsidian Water Walking Boots, Lava Waders, or Terraspark Boots equipped, then the Unicorn Mount will also walk on water.
+* If the Unicorn is mounted during the dash of the , both the damage from the dash of the Shield and the Unicorn's charge will be dealt to the enemy.
+* It can drop from any of the following enemies: Pixie, Light Mummy, Enchanted Sword, Unicorn, Chaos Elemental, Gastropod, Illuminant Bat, Illuminant Slime, Hallow Pigron, Rainbow Slime, and Hallowed Mimic.
+
+== Achievements ==
+
+== Tips ==
+* The Unicorn mount is arguably one of the best pre-Plantera mounts for its damage protection and ability to attack when moving at high speed.
+* The Unicorn, Goat and Basilisk Mount's charge abilities operate the same way Sprinting accessories do in terms of momentum. This means that mounting while sprinting, dashing with the or Tabi, or moving quickly through the use of a canceled grapple will immediately cause the Unicorn to begin charging, even if the distance covered would normally not be enough to trigger it.
+* Using this mount against the can make the event trivial without too much major mechanical boss and post-mechanical-boss progress.
+*The Blessed Apple can drop from unicorns spawned with a statue, making it easy to farm with a 1/4 Second Timer.
+
+== Trivia ==
+* On flat ground, the Unicorn travels at the same speed as an unmodified Terra Blade beam.
+* The color of the Unicorn Mount differs from that of the Unicorn. In contrast to this, the achievement Rainbows and Unicorns seems to use the coloration of the enemy.
+* The saddle on the mount sprite is the same coloration as the summoning item itself.
+* The Unicorn is functionally identical to the , however the Goat Mount will not produce light when mounting and un-mounting.
+
+== History ==
+
+== References ==
+
+
+# 文档：Bone Key
+- 类别：buffs
+- 标识：bone-key
+- 来源：wiki/Bone_Key
+
+The Bone Key is a pet-summoning item that is always dropped from the Dungeon Guardian. Upon use, it summons a Baby Skeletron Head pet which follows the player around infinitely. The Baby Skeletron Head floats around the player and sometimes spins its head, similarly to Skeletron's spinning head attack or the Dungeon Guardians in general. This action may also occur if the player is a bit further away from the Skeletron Head. Because Dungeon Guardians have extremely high stats intended to instantly kill all players, this can be a difficult item to acquire.
+
+== Notes ==
+* This item cannot be obtained in a world where Skeletron has already been defeated, as Dungeon Guardians will no longer spawn.
+* Similar to the Zephyr Fish, the head that follows the player will not teleport to them when they end up a long distance away from it, but rather will just keep moving towards the player. One can instantly teleport it back to themselves by toggling the visibility of it off, then back on again in their pet slot. 
+**Alternatively, if being used as a summon from the players inventory, they can simply re-summon it.
+
+== Tips ==
+
+== Trivia ==
+* It is most likely designed and named after a 19th century , known erroneously and commonly as a skeleton key.
+* Despite being extremely difficult to acquire, it only sells for .
+
+== See also ==
+* , a similar pet dropped from Skeletron in Master Mode
+
+== History ==
+
+
+# 文档：Bone Rattle
+- 类别：buffs
+- 标识：bone-rattle
+- 来源：wiki/Bone_Rattle
+
+The Bone Rattle is a pet item which summons a Baby Face Monster. The Bone Rattle has a 5% (1/20) chance of being dropped by Brain of Cthulhu or its Treasure Bag in Expert Mode. When the player is flying or far away, the Baby Face Monster will appear to hold onto a flying Crimera-like creature to catch up to the player.
+
+== See also ==
+* Eater's Bone, the Corruption counterpart dropped by the Eater of Worlds.
+
+== History ==
+
+
+# 文档：Brain in a Jar
+- 类别：buffs
+- 标识：brain-in-a-jar
+- 来源：wiki/Brain_in_a_Jar
+
+The Brain in a Jar is a pet item that which has a to be dropped by Brain of Cthulhu in Master Mode only. It summons the Spider Brain, which is a miniature version of the Brain of Cthulhu.
+
+== History ==
+
+
+# 文档：Broken Heart
+- 类别：buffs
+- 标识：broken-heart
+- 来源：wiki/Broken_Heart
+
+| use = 20
+| buff = Pet Cupid
+| id = 5050
+| projectilename = Cupid
+}}
+
+The Broken Heart is a pet-summoning item that spawns a Cupid when used. It is found with an chance when mining gems during Valentine's Day.
+
+The Cupid will fly around the player and give off light. Unlike some other -exclusive pets, it does not attack enemies.
+
+Despite having a bow and arrow, it cannot inflict damage.
+
+== Tips ==
+* If this item is unobtainable due to missed Valentine's Day event days, you can set in device's time back to February and this will become obtainable.
+* Placing and breaking gems can easily give the player this item.
+
+== History ==
+
+
+# 文档：Buffs
+- 类别：buffs
+- 标识：buffs
+- 来源：wiki/Buffs
+
+Buffs are positive status effects granted to a player upon consuming, equipping, or otherwise activating various items. Active buffs are shown as icons below the hotbar, along with their remaining duration. Buffs are almost universally positive or at least benign effects, in contrast with Debuffs, over which the player has much less control.
+
+Buffs can be easily activated with the buff hotkey (default on PC), which activates all the buff-granting consumables in the player's inventory (starting from the top-left) that are not currently activated. A player is limited to 22 (44 as of the 1.4.4 update ) ( 10) active buffs and debuffs at any one point, and the leftmost buff in the bar will be deactivated if another is applied after this limit is reached. Most Buffs can be deactivated prematurely by right-clicking their icon, though those that are granted by proximity to an item will only deactivate when the player is no longer in range (see Environmental below).
+
+Activated buffs are bound to a character, and persist as that character moves from server to server and from world to world. With the exception of those granted by Flasks, buffs are always deactivated on the player's death, though even Flasks are terminated along with the player in the .
+
+== Consumables ==
+These buffs are provided from sources and consumed upon use, such as potions, flasks, and food.
+{| class="terraria sortable lined"
+! width="34" | Icon
+! Name
+! Source
+! Effect
+! Tooltip
+! data-sort-type="number" | Duration
+
+|}
+
+== Equipment ==
+These buffs are provided naturally by equipment, either permanently or under certain circumstances.
+{| class="terraria sortable lined"
+! width="34" | Icon
+! Name
+! Source
+! Effect
+! Tooltip
+! data-sort-type="number" | Duration
+
+|}
+
+== Activated Furniture ==
+These buffs are provided upon right-clicking particular placed furniture.
+{| class="terraria sortable lined"
+! width="34" | Icon
+! Name
+! Source
+! Effect
+! Tooltip
+! data-sort-type="number" | Duration
+
+|}
+
+== Environmental ==
+These buffs are provided by being in range of particular placed furniture, blocks, or NPCs. Banners, as well as static effects from objects like Peace Candle and Happy!, have a 170×125 / 100×84 tile area of effect centered on the object. Since they cannot be canceled by right clicking them, the only way to remove the buff is to leave the area (with the exception of honey).
+{| class="terraria sortable lined"
+! width="34" | Icon
+! Name
+! Source
+! Effect
+! Tooltip
+! data-sort-type="number" | Duration
+
+|}
+
+== Summons ==
+Aside from the normal buffs, some buffs provide you with a minion. Unlike other buffs, they last until the player dies, cancels the buff, or leaves the current world.
+{| class="terraria sortable lined"
+! width="34" | Icon
+! Name
+! Source
+! Item Tooltip
+! Buff Tooltip
+! Duration
+
+|}
+
+== Mounts ==
+{| class="terraria sortable lined"
+! width="34" | Icon
+! Name
+! Source
+! Item Tooltip
+! Buff Tooltip
+! Duration
+
+|}
+
+== Notes ==
+* There is a known issue with the timers of buffs and debuffs. A buff/debuff's timer will usually round down to the next full minute, until there is less than 1 minute remaining. If a buff has a remaining duration of 4:35, it will display a duration of 4 minutes. However, when the duration has between 1:59 and 1:00 remaining, the timer will display there are still 2 minutes left, instead of the expected rounded result of 1 minute. When the timer reaches 0:59, it will visually jump from 2 minutes to 59 seconds.
+** The total duration of a buff is not affected. This has no major impact on gameplay & is purely visual.
+
+== Achievements ==
+
+== See also ==
+* Debuffs
+* Pets
+
+== History ==
+
+== Footnotes ==
+
+
+# 文档：Buffs/yue
+- 类别：buffs
+- 标识：buffsyue
+- 来源：wiki/Buffs/yue
+
+係當玩家用緊、裝備緊、或者啟動唔同物品嘅時候攞到嘅一啲正面嘅狀態效果。生效緊嘅會喺快捷欄顯示標誌，同時亦都會顯示佢哋淨返嘅持續時間。基本上都係正面或者至少係良性嘅效果，而同佢相對應嘅，玩家可以控制到嘅因素就會比較少啲。
+
+可以好輕鬆咁用（預設係喺電腦上面嘅）啟用，當依個快捷鍵暗咗落去嘅時候，玩家身上所有未被啟用嘅取得加益消耗品都會被啟用（由最左上角嘅開始）。每一個玩家身上限制阻只可以有22種（10種）唔同嘅或者同時存在，當超過咗嘅時候，最左邊嘅狀態就會被解除嚟讓個位畀嗰個新加入去嘅狀態。大部分嘅都可以用右鍵點擊對應嘅標誌嚟提早解除，雖然嗰啲因為接近咗某啲物品而得到嘅狀態要係遠離嗰件物品嘅範圍先可以解除（可以睇下下面嘅Environmental）。
+
+啟用咗嘅係綁定係角色身上面，當角色轉移伺服器或者轉移世界嘅時候都會保留。除咗嗰啲由攞到嘅之外，其他嘅都會喺玩家嘅時候解除。不過喺入面，由攞到嘅都會隨著玩家嘅解除。
+ 
+
+== ==
+呢一啲係食完一啲例如、或者嘢食等攞到。
+
+{| class="terraria sortable lined"
+! width="34" | 圖示
+! 名稱
+! 來源
+! 效果
+! 
+! data-sort-type="number" | 持續時間
+
+{{/row| Plenty Satisfied
+| 中提升某啲基礎數值，例如，之類。
+|source = 一啲嘢食類
+|duration = 5-20分鐘 }
+}}
+
+{{/row| Well Fed
+| 提升某啲基礎數值，例如，之類。
+|source = 一啲嘢食類
+|duration = 10-45分鐘 }
+}}
+
+{{/row| Weapon Imbue: Ichor
+| 近戰攻擊會對造成}嘅。
+| Flask of Ichor
+}}
+
+|}
+
+== 裝備 ==
+呢一啲會由裝備永久或者喺特定情況之下提供。
+{| class="terraria sortable lined"
+! width="34" | Icon
+! 名稱
+! 來源
+! 效果
+! 
+! data-sort-type="number" | 持續時間
+
+|}
+
+== 使用咗嘅家私 ==
+呢一啲係由右鍵點擊特定嘅家私所提供。
+{| class="terraria sortable lined"
+! width="34" | Icon
+! Name
+! Source
+! Effect
+! Tooltip
+! data-sort-type="number" | Duration
+
+|}
+
+== 環境性 ==
+呢一類係當玩家喺一啲放咗喺度嘅傢俬，方塊或者NPCs嘅範圍嘅時候提供嘅，同埋例如，呢一類嘅背景效果，都有由物件中心出發170×125 / 100×84 圖格面積嘅效果範圍。由於唔可以通過右鍵取消效果，要整走呢一啲唯一嘅方法就係離開嗰個區域(除咗)。
+{| class="terraria sortable lined"
+! width="34" | Icon
+! Name
+! Source
+! Effect
+! Tooltip
+! data-sort-type="number" | Duration
+
+|}
+
+== Summons ==
+Aside from the normal buffs, some buffs provide you with a minion. Unlike other buffs, they last until the player dies, cancels the buff, or leaves the current world.
+{| class="terraria sortable lined"
+! width="34" | Icon
+! Name
+! Source
+! Item Tooltip
+! Buff Tooltip
+! Duration
+
+|}
+
+== Mounts ==
+{| class="terraria sortable lined"
+! width="34" | Icon
+! Name
+! Source
+! Item Tooltip
+! Buff Tooltip
+! Duration
+
+|}
+
+== Notes ==
+* A known issue with buffs & debuffs alike is visually minor but the duration timer will start one minute ahead of its intended countdown meaning once the buff/debuff reaches 2 minutes it will wait one minute extra before it counts completely by 1 minute in one second & down to seconds in another.
+** This has no major impact on gameplay & is purely visual.
+
+== ==
+
+== 另見 ==
+* 
+* 
+
+== History ==
+
+** Happy!, Star in a Bottle, Peace Candle buffs introduced.
+
+== Footnotes ==
+
+
+# 文档：Carrot
+- 类别：buffs
+- 标识：carrot
+- 来源：wiki/Carrot
+
+The Carrot is a pet-summoning item which summons a Bunny pet. It is only available in the Terraria Collector's Edition. The color of the bunny's fur is constantly defined by the shirt color chosen for the character when created, and will change should the Player change their shirt color via a Dresser.
+
+== Notes ==
+* It is only available to players who have purchased the Collector's Edition of Terraria – new characters created by them will spawn with it. While it can be obtained via trading or inventory editors, players who do not have the Collector's Edition will not be able to use it.
+* To avoid network incompatibility, and to make updates easier, the data corresponding to the Bunny pet is present in all Desktop and Mobile platforms, but only players identified as owning the Collector's Edition will spawn with a Carrot and be able to use it. This effectively makes it unobtainable and unusable on the .
+** However, the Carrot is missing entirely from the .
+* Carrots cannot be without having bought the Collector's Edition, making it impossible for most players to research every obtainable item, as the Collector's Edition is no longer being sold.
+* Despite the Bunny constantly retaining the Player's shirt color, placing Dye in the Dye slot for the Pet slot can change the Bunny's color. This also works with animated Dyes such as Void Dye, as expected.
+
+== Trivia ==
+* The publisher of the Collector's Edition requested an exclusive in-game feature, so as to motivate people to purchase the more expensive physical copy instead of the digital download version of the game. To avoid unbalancing the game, Redigit chose to comply with a relatively inconsequential feature.
+
+== History ==
+
+
+# 文档：Celestial Wand
+- 类别：buffs
+- 标识：celestial-wand
+- 来源：wiki/Celestial_Wand
+
+The Celestial Wand is a pet-summoning item sold by the Traveling Merchant for . It summons Estee which follows the player around.
+
+Estee will emit a beam trail when the player is moving at high speeds or falling. This beam resembles that of a Fallen Star.
+
+== Trivia ==
+* The Celestial Wand and its companion vanity set, the Star Princess set, are a reference to [https://www.mariowiki.com/Rosalina Rosalina] from the 2007 platform action-adventure video game .
+* The Estee pet bears a great resemblance to the Power Stars from the 1996 platform game ', as well as [https://www.mariowiki.com/Luma Lumas] from '.
+** Equipping Reflective Obsidian Dye in the pet dye slot causes the Estee pet to resemble already collected stars.
+* Despite being a star, Estee does not provide any light.
+* Equipping Burning Hades Dye in the pet dye slot causes the Estee pet to close its eyes and with the beam trail there will also be a fire trail.
+
+== History ==
+
+
+# 文档：Companion Cube
+- 类别：buffs
+- 标识：companion-cube
+- 来源：wiki/Companion_Cube
+
+The Companion Cube is a pet summoning item. It has a chance of being sold by the Traveling Merchant for . It summons a pet Companion Cube that will jump around the player frantically.
+
+When the player and the Companion Cube are in complete darkness, the Cube can occasionally "stab" its owner, inflicting 3 damage. The stab can eventually kill the owner, displaying the unique death message "" Portable light sources, such as Torches, Mining Helmets or Light Pets, will completely remove chances of being stabbed by the Companion Cube.
+
+When the Companion Cube falls into lava, it emits the Lunatic Cultist's . When submerged in lava for long enough, there is a chance it may make the Moon Lord's . The Companion Cube will also occasionally emit the normally produced by the Whoopie Cushion and its upgrades.
+
+== Notes ==
+* The Lunatic Cultist death sound will only play a maximum of once per minute, regardless of how many times the cube touches lava.
+* The Companion Cube, if in complete darkness, does not need to touch the player to stab them.
+* The Companion Cube will move and bounce repeatedly through solid blocks to stay close to the player if the player is more than 6 tiles away.
+* When sitting in a thin amount of lava and the player is standing still, the cube (when sitting in the lava) will bounce, disappear, then reappear instantly where the player is standing.
+* The Companion Cube's stab attack can be dodged using Master Ninja Gear or other similar dodging items.
+* The Companion Cube's stab attack will trigger the Honey Comb and counterparts, it can then be used as a way to restore life.
+
+== Trivia ==
+
+* It is the single most expensive item in the entire game.
+* It is one of three pets that can make noises, the others being the and Glommer.
+* The Companion Cube is a direct reference to the [http://combineoverwiki.net/wiki/Companion_Cube Aperture Science Weighted Companion Cube] from Valve's video game series.
+** The Companion Cube reacting to lava is a reference to how the Companion Cube is disposed of in Portal, by being dropped into an incinerator.
+** The Companion Cube stabbing the player is a reference to a line spoken by [http://combineoverwiki.net/wiki/GLaDOS GLaDOS] in Portal, in which she states "The Enrichment Center reminds you that the Weighted Companion Cube will never threaten to stab you and, in fact, cannot speak." This line is also directly quoted in the buff's tooltip.
+
+== History ==
+
+
+# 文档：Cosmic Skateboard
+- 类别：buffs
+- 标识：cosmic-skateboard
+- 来源：wiki/Cosmic_Skateboard
+
+The Cosmic Skateboard is a pet-summoning item that has a chance of dropping from the Martian Saucer in Master Mode. It summons a Rad Alien Skater that will follow the player around.
+
+== Trivia ==
+* The phrase "How do you do, fellow humans?" is a reference to a cutaway gag in the television show [https://30rock.fandom.com/wiki/30_Rock 30 Rock], in which Lenny Wosniak walks up to a group of teens and asks "How do you do, fellow kids?" while holding two skateboards.
+
+== History ==
+
+
+# 文档：Creeper Egg
+- 类别：buffs
+- 标识：creeper-egg
+- 来源：wiki/Creeper_Egg
+
+The Creeper Egg is a Hardmode summoning item that gives the player a Flickerwick light pet. It is dropped by the Ogre during the Old One's Army event. When active, it is similar to the Wisp in a Bottle, where it provides light where ever you go. The summoned Flickerwick has the same movement speed as the player, and cannot be left behind easily.
+
+== History ==
+
+
+# 文档：Cursed Sapling
+- 类别：buffs
+- 标识：cursed-sapling
+- 来源：wiki/Cursed_Sapling
+
+The Cursed Sapling item is used to summon the Cursed Sapling pet, the item itself drops from the Mourning Wood in the Pumpkin Moon event.
+
+The pet appears as a small dark blue tree stump with a jagged head, a jack-o-lantern face, and roots which it walks on.
+
+== Notes ==
+*If the sapling gains too much distance from the player, it will propel itself towards the player on a flame trail, ignoring blocks and giving off a decent amount of light. If it can't reach a stable spot to stand on, it will start flying around the player in circles. This is a useful feature as a pet, as the light it provides when flying helps find nearby caves. It can, however, make fishing more difficult as the sound the sapling makes when hitting water is identical to that of a bobbing line, forcing the player to rely on sight to determine whether anything has been hooked.
+
+== Trivia ==
+* Unlike most pets, the Cursed Sapling item has the same name as the pet it summons.
+thumb|Cursed Sapling circling around the player.
+
+== Gallery ==
+<gallery>
+File:Cursed_Sapling_Light.png|The trails of a flying Cursed Sapling improving terrain visibility.
+</gallery>
+
+== History ==
+
+
+# 文档：Dark Mage's Tome
+- 类别：buffs
+- 标识：dark-mages-tome
+- 来源：wiki/Dark_Mage's_Tome
+
+The Dark Mage's Tome is a mount-summon item that places the player on a Book Mount similar to the one ridden by the Dark Mage during the Old One's Army event. It is dropped by the Dark Mage in Master Mode only.
+
+The mount allows a player to hover and glide at a fixed height of 8 tiles high in mid-air for 5 seconds following a jump or walking off a ledge. It otherwise glides along the ground. Whether on the ground or hovering, its top speed is .
+
+The max height of the mount can be increased using items that allow for multiple jumps such as the Cloud in a Bottle, though this only allows it to be multiplied by the number of times the player jumps. The altitude of the mount is also adjustable in the down direction by pressing .
+
+The Book Mount cancels fall damage.
+
+== Achievements ==
+
+== Tips ==
+* The hover time will not be consumed when gliding on the ground, meaning that the player can glide infinitely as long as they are on the ground. This can be used for quicker traveling, as the top speed of the mount is higher than that of the Lightning Boots or its upgrades ( vs. ).
+
+== History ==
+
+
+# 文档：Deactivated Probe
+- 类别：buffs
+- 标识：deactivated-probe
+- 来源：wiki/Deactivated_Probe
+
+The Deactivated Probe is a pet-summoning item dropped from The Destroyer in Master Mode with a chance. It summons a small version of The Destroyer named Destroyer-Lite as a pet that follows the player around.
+
+== History ==
+
+
+# 文档：Deerclops Eyeball
+- 类别：buffs
+- 标识：deerclops-eyeball
+- 来源：wiki/Deerclops_Eyeball
+
+The Deerclops Eyeball is a pet-summoning item that has a chance of dropping from the Deerclops in Master Mode. It summons a Tiny Deerclops that will follow the player around. If it is too far away from the player, a bird will carry it by its horn to continue following the player.
+
+== Trivia ==
+* The tooltip of the item is a reference to 's examination quote for the Deerclops Eyeball in .
+* The tooltip of the buff is a reference to 's examination quote for the Deerclops in Don't Starve.
+* The bird carrying Tiny Deerclops appears to be a [https://dontstarve.fandom.com/wiki/Birds?so=search snowbird] from Don't Starve.
+
+== See also ==
+* 
+
+== History ==
+
+
+# 文档：Digging Molecart
+- 类别：buffs
+- 标识：digging-molecart
+- 来源：wiki/Digging_Molecart
+
+The Digging Molecart is a Minecart variant that automatically digs a tunnel and lays down Minecart Tracks. It is sold by the Zoologist for once the Bestiary is 35% completed ().
+
+Once mounted on existing tracks, the Digging Molecart moves forward with a maximum speed of , digging out a tunnel five tiles high and laying track as it goes. The cart will only move and place tracks horizontally, even if it is started on a diagonal slope.
+
+== Notes ==
+
+* The Digging Molecart will only dig blocks or place tracks if the player is in the Underground layer or below.
+** In order to dig blocks, the player must have a pickaxe or drill in their inventory. The tool with the highest pickaxe power will be used.
+** In order to place tracks, the player must have Minecart Tracks in their inventory.
+* The Digging Molecart cannot dig falling blocks such as Sand, Silt, or Slush, unless they are in the falling state.
+** Mining the blocks manually while riding will allow the Digging Molecart to get under the falling blocks. The falling blocks will inflict damage and be collected. This effect has not been fully tested yet.
+* The Digging Molecart cannot dig storage items with items in them, or the blocks directly underneath a storage item.
+** It can remove storage items that have no items, but can never dig the blocks underneath them
+** While digging through the Dungeon, the Molecart can duplicate and destroy Biome Chests if they cut through the top half of the chest. While this method creates multiple chests, the Molecart destroys all the items within the chest. 
+* The Digging Molecart cannot dig the blocks under a tree, but it can dig the tree itself.
+
+== Tips ==
+* The Digging Molecart is one of the most efficient ways to cut containment trenches through the world if the player wishes to maintain world purity. Vertical hellevators can be cut easily with bombs, but cutting horizontal paths is more difficult until the Rocket Launcher becomes available in Hardmode. If the player does not wish to feel rushed in containing the spread of evil biomes during early Hardmode, the molecart can be used to create several subway trenches across the world before entering hardmode, which also allows for a large and rapid search area for early Hardmode ores and other resources.
+* The Digging Molecart can be very helpful when constructing underground arenas such as in the Underground Jungle. Starting a new track of rails four tiles down from the last track will clear out the old one as the Digging Molecart lays the new one.
+*It's best to avoid mining too close to the surface desert, as the Digging Molecart cannot mine through sand and it may be difficult to mine all the sand by hand. However, it is possible to remove a stack of sand by mining the block in front of the tracks.
+* The Digging Molecart is greatly affected by the Minecart Upgrade Kit, giving it the same maximum speed as every other minecart ().
+* The Digging Molecart can be used to bypass the Creative Shock debuff.
+** It does not break the placed rails, however.
+** It can also break the Eternia Crystal Stand.
+
+== Trivia ==
+* The Digging Molecart strongly resembles the [https://www.mariowiki.com/Mole_Tank Mole Tank] transformation from the Yoshi's Island series.
+
+== History ==
+
+
+# 文档：Dog Whistle
+- 类别：buffs
+- 标识：dog-whistle
+- 来源：wiki/Dog_Whistle
+
+The Dog Whistle is a pet-summoning item that summons a Puppy pet. It can be dropped from Presents obtained during the Christmas event, with a chance of in pre-Hardmode and in Hardmode.
+
+== Trivia ==
+* This item may be a possible reference to , a Christmas movie which prominently features a magic dog whistle.
+
+== History ==
+
+
+# 文档：Dragon Egg
+- 类别：buffs
+- 标识：dragon-egg
+- 来源：wiki/Dragon_Egg
+
+The Dragon Egg is a Pet summoning item that gives the player a Hoardagron pet. It has a 16.67% / chance to be dropped by the Dark Mage(T1) and a 8.33% chance to be dropped from Dark Mage(T3) during the Old One's Army event.
+
+== History ==
+
+
+# 文档：Eater's Bone
+- 类别：buffs
+- 标识：eaters-bone
+- 来源：wiki/Eater's_Bone
+
+The Eater's Bone is a pet-summoning item which summons a Baby Eater pet that follows the player around. The Eater's Bone has a chance of being dropped by the Eater of Worlds.
+
+The Baby Eater pet will not teleport to the player when it is far away, unlike most other pets.
+
+== Trivia ==
+* This item was not available between the versions 1.2.0.3 and 1.2.1 due to a bug where the Eater of Worlds dropped a Blend-O-Matic in its place.
+
+== See also ==
+* , the Crimson counterpart dropped by the Brain of Cthulhu.
+
+== History ==
+
+
+# 文档：Eucalyptus Sap
+- 类别：buffs
+- 标识：eucalyptus-sap
+- 来源：wiki/Eucalyptus_Sap
+
+The Eucalyptus Sap is a pet-summoning item that summons a pet Sugar Glider to follow player around. It has a 0.0993% chance of dropping when the player shakes a tree.
+
+== Trivia ==
+* The item's name is a reference to the tendency for real-life wild s to drink the sap from trees, as well as making their nests in them.
+* The method of obtaining the item is similar to obtaining the -exclusive pet, Elfa.
+* The item's sprite is very similar to Ichor's.
+* The item's name within code is mistyped as: "EucaluptusSap" as of 1.4.4.9 version of the game.
+
+== History ==
+
+
+# 文档：Exotic Chew Toy
+- 类别：buffs
+- 标识：exotic-chew-toy
+- 来源：wiki/Exotic_Chew_Toy
+
+The Exotic Chew Toy is an item that summons a Fennec Fox pet when used. It is available from the Traveling Merchant for .
+
+== Trivia ==
+* The buff tooltip is a reference to the 2013 electronic dance novelty song "" by , and to the fact that es have very large ears.
+* The item tooltip refers to the fact that fennec foxes are known for being able to produce very high-pitched barks.
+
+== History ==
+
+
+# 文档：Eye Bone
+- 类别：buffs
+- 标识：eye-bone
+- 来源：wiki/Eye_Bone
+
+The Eye Bone is a pet-summoning item which has a chance to drop from Deerclops. When used, it summons a mobile Piggy Bank named Chester. Chester is essentially an upgrade to the Money Trough; not requiring to be re-summoned every time the player wants to access their Piggy Bank.
+
+== Trivia ==
+* The tooltip of the item is a reference to 's examination quote for the Eye Bone in .
+* The tooltip of the buff is a reference to 's examination quote for Chester in Don't Starve.
+
+== See also ==
+* 
+* 
+
+== History ==
+
+
+# 文档：Eye Spring
+- 类别：buffs
+- 标识：eye-spring
+- 来源：wiki/Eye_Spring
+
+The Eye Spring is a pet-summoning item that has a / chance of being dropped by Eyezor during a Solar Eclipse. Using this item gives the character a buff which causes an Eyeball Spring pet to tag along. To catch up with the player, the Eyeball Spring spins its tentacles.
+
+== Trivia ==
+
+* The Eyeball Spring appears to be the Eyezor's detached eye.
+
+== History ==
+
+
+# 文档：Fairy Bell
+- 类别：buffs
+- 标识：fairy-bell
+- 来源：wiki/Fairy_Bell
+
+The Fairy Bell is a Hardmode Light Pet summoning item that summons a glowing creature resembling a Pixie, which follows the player and provides light for an infinite duration. The summoned Fairy is either pink, green or blue, the color of which changes randomly each time the player clicks while holding the item.
+
+The Fairy is faster and brighter than the Shadow Orb and Crimson Heart, but not as fast or bright as the Wisp in a Bottle.
+
+== Crafting ==
+=== Recipes ===
+
+== Notes ==
+* The spawned Fairy will keep up with walking players, but not players who are falling or using speed-increasing accessories.
+*If the player is too far away from the spawned Fairy, the Fairy will teleport to the user.
+*Dye has no effect on the provided light, just the color of the Fairy sprite itself.
+
+== Trivia ==
+* Like the Pixie, the fairy summoned by the Fairy Bell is similar to fairies in the series, in which fairies are spheres of colored light with wings. The three colors the fairy can appear as (pink, green, or blue) is also a common theme in the Zelda series, with the colors representing the goddesses Din, Farore, and Nayru respectively.
+* Despite the fairy buff displaying a yellow fairy and the pixie Enemy on which it is based is yellow, the fairy pet itself never is. The exception is during a Blood Moon, in which case the fairy pet, if no dye is applied, will appear yellow for the duration of the event and temporarily override the set color.
+* Right-click cancelling the buff appears to behave strangely. Sometimes it will "reset" the buff, resummoning the fairy and choosing a new color, and sometimes it will remove the buff as usual. It is uncertain as to why this happens.
+* Despite its name, Pixie Dye will actually not make the fairy colored like the Pixie enemy. Instead, using Orange Dye on the Fairy Bell will make it resemble a Pixie.
+
+== History ==
+
+
+# 文档：Finch Staff
+- 类别：buffs
+- 标识：finch-staff
+- 来源：wiki/Finch_Staff
+
+frame|right|Using the Finch Staff to attack a Slime.
+
+The Finch Staff is a pre-Hardmode summon weapon that summons a Baby Finch minion. It attacks by flying towards enemies and dealing contact damage. The Finch Staff is a starting item for Journey Mode characters, and can be found in Living Wood Chests within Living Trees in all modes.
+
+While the Baby Finch buff is active, a nest appears on the player's head, in which the Baby Finch will rest when not attacking. When multiple Baby Finches are summoned, they will all be visible on the player's head.
+
+Unlike most other summon weapons, its best possible modifier is Mythical because both the Mythical and Ruthless modifiers only raise its base damage to 8 due to rounding.
+
+== Crafting ==
+=== Recipes ===
+
+== Notes ==
+* The Baby Finch will always be summoned at the player's cursor; it will have to fly to the player's head before nesting. However, the nest sprite appears instantly when the first Baby Finch is summoned.
+* Unlike other summoning weapons, a Baby Finch is summoned when the player spawns without needing to use the staff if it is in the inventory.
+* Baby Finches do not target enemies without a clear line-of-sight, even if they are targeted with .
+
+== Tips ==
+* Despite reaching relatively high speeds, the Baby Finch has difficulty turning, and may often fly in circles while trying to charge targets.
+* If the player is attempting to use only summon weapons, it is usually a good idea to use the Finch Staff to farm for the Leather Whip (which will increase the damage both the player and Baby Finch do), before attempting to fight bosses or explore more challenging areas, such as The Crimson/The Corruption or Underground Jungle. Alternatively, the player could replace the Finch Staff completely with the Slime Staff, although it is incredibly unlikely to drop and relies heavily on luck.
+* Rapidly summoning Baby Finches onto an enemy can be helpful if the Baby Finch is not actively targeting it.
+* Cornering an enemy with a Baby Finch will result in very high .
+
+== Trivia ==
+* The Baby Finch's sprite is most likely based on a .
+
+== Gallery ==
+<gallery>
+File:Finch Staff (one).png|A player with one finch summoned.
+File:Finch Staff (eleven).png|A player with eleven finches summoned.
+</gallery>
+
+== History ==
+
+
+# 文档：Fish (item)
+- 类别：buffs
+- 标识：fish-item
+- 来源：wiki/Fish_(item)
+
+The Fish is a pet-summoning item that spawns a Penguin to follow the player around. If the player moves too far away, the pet will fly after them. The Fish is found randomly inside Frozen Chests in the Ice biome, and dropped from and obtained via fishing in the Ice biome. When the player is flying or far enough away, the Penguin will generate Hermes Boots sparks and fly to catch up to the player.
+
+== Trivia ==
+* The Baby Penguin looks identical to the penguin inside the Penguin Cage.
+* The Baby Penguin's use of a jetpack in its flying animation is a reference to Sgt. Byrd from the Spyro the Dragon franchise.
+
+== History ==
+
+
+# 文档：Flinx Staff
+- 类别：buffs
+- 标识：flinx-staff
+- 来源：wiki/Flinx_Staff
+
+frame|The Flinx Staff in use, attacking a Skeleton.
+
+The Flinx Staff is a pre-Hardmode summon weapon that summons a Flinx minion. Upon hitting an enemy, it bounces off creating a small puff of blue smoke where it immediately tries to hit the enemy again. Sometimes it will not bounce far enough away from the enemy, and will deal damage two times within just a few frames. If the player gets too far away, goes behind a wall, or flies up in the air, the Flinx will twirl end over end towards the player. 
+
+Visually, the minion looks like a purple-colored Snow Flinx with a bun of fur behind its head.
+
+Unlike other summon weapons, its best possible modifier is Mythical because both the Ruthless and Mythical modifiers only raise its base damage to 9 due to rounding.
+
+== Crafting ==
+=== Recipes ===
+
+== Notes ==
+* As of 1.4.5, the Flinx Staff now requires 10 Flinx Fur to craft.
+* The Flinx cannot go through solid blocks. Summoning the Flinx inside of a solid block will cause it to stay there until the player walks far enough away that it has to fly to them.
+* Because the Flinx deals damage on contact rather than with a bespoke attack pattern, it is one of the few minions that can damage Target Dummies without an enemy on-screen.
+
+== Tips ==
+* The Flinx Staff is a reliable alternative to other early-game summoning weapons such as the Finch Staff and Slime Staff. Unlike other early-game summon weapons, it can be crafted using relatively common ingredients and does not require luck to obtain.
+
+== Trivia ==
+* It is the only minion-summoning weapon that consumes 5 mana instead of 10.
+
+== See also ==
+* Flinx Fur Coat
+
+== History ==
+
+
+# 文档：Frozen Crown
+- 类别：buffs
+- 标识：frozen-crown
+- 来源：wiki/Frozen_Crown
+
+The Frozen Crown is a pet-summoning item that has a to chance of dropping from the Ice Queen in Master Mode. It summons a miniature Ice Queen pet that will follow the player around.
+
+== Trivia ==
+* The item tooltip is nearly identical to that of the Regal Delicacy, the Queen Slime's pet-summoning item, which reads <i></i>.
+*The pet that is summoned is very similar to that summoned by Jewel of Light, and has the same flight patterns.
+
+== History ==
+
+
+# 文档：Full Moon Squeaky Toy
+- 类别：buffs
+- 标识：full-moon-squeaky-toy
+- 来源：wiki/Full_Moon_Squeaky_Toy
+
+The Full Moon Squeaky Toy is a pet-summoning item which summons a Baby Werewolf pet that follows the player around. It can be purchased from the Zoologist during a Blood Moon in Hardmode, for . If the player goes too far away, the Baby Werewolf flies after the player by moving its arms mimicking a bird-like creature.
+
+== Trivia ==
+* The Baby Werewolf pet may be an homage to the now-removed Werewolf pet from the Console editions of Terraria.
+* The Baby Werewolf appears to have a tail, unlike the Werewolf monster it's based on.
+
+== History ==
+
+
+# 文档：Gato Egg
+- 类别：buffs
+- 标识：gato-egg
+- 来源：wiki/Gato_Egg
+
+The Gato Egg is a pet-summoning item which summons a Propeller Gato to follow the player around. It has a T1: 16.67% / T2/3: 8.33% chance of being dropped by the Dark Mage during the Old One's Army event.
+
+== Trivia ==
+* "Gato" means "Cat" in Spanish and Portuguese.
+* This item is a direct reference to the "Propeller Cat" pet/NPC in Dungeon Defenders 2.
+
+== See also ==
+* 
+
+== History ==
+
+
+# 文档：Gelatinous Pillion
+- 类别：buffs
+- 标识：gelatinous-pillion
+- 来源：wiki/Gelatinous_Pillion
+
+The Gelatinous Pillion is a Hardmode mount-summoning item. When used, it summons a friendly Winged Slime Mount. Similar to the pre-Hardmode Slime Mount, the Winged Slime offers increased jump height, provides boosted movement speed, negates fall damage, and allows continuous auto-jump by holding the key. It also shares the Slime Mount's abilities to deal damage 40 summon damage to enemies when jumping on them from above, and floating when entering liquids.
+
+The Winged Slime Mount grants 2.66 seconds of flight time, similar to low-tier wings, allowing the player to fly up to a height of 73 tiles, as well as gliding while holding the key after flight time has been exhausted. It can also hover by holding , similar to the Hoverboard.
+
+The Gelatinous Pillion has a chance of being dropped by Queen Slime in Classic Mode, or a chance of being found in Queen Slime's Treasure Bag.
+
+== Notes ==
+* The Winged Slime Mount has a maximum speed of on land, when falling straight down, and when falling diagonally.
+
+== Achievements ==
+
+== Tips ==
+* This mount can essentially be used as wings, as it allows short flight and gliding.
+** This means that wings can be somewhat avoided, along with other movement accessories. This can make a lot of room for combat accessories.
+* The maximum horizontal speed is greater when in free fall than when moving on land, so it is recommended to keep jumping if trying to maintain maximum speed.
+* Exhausting the flight time on the mount's wings will also exhaust the flight time on the player's wings, and vice versa, though mounting/un-mounting before exhausting will allow the player to essentially combine the flight times.
+* The Gelatinous Pillion is faster than most sprinting accessories on land, except for the Lightning, Frostspark, and Terraspark Boots, where it moves slower.
+* Its damage is considered summon damage, so accessories like the Summoner Emblem can increase it further.
+* Equipping wings with boost abilities like the Jetpack will allow the player to reach much higher altitudes with the Gelatinous Pillion. This is achieved by holding while flying with the wings and switching to the mount midair, which makes it accelerate upwards dramatically.
+* Due to the high fall speed of the mount, and the fact that it does not increase the player's width, it is useful for getting down a hellevator faster.
+* Unsummoning the mount, using a double jump item, then resummoning the mount mid-air can reset your flight time.
+
+== Trivia ==
+* The Gelatinous Pillion is somewhat synonymous to the Slimy Saddle, but both imply different meanings.
+* In real life, a pillion is a cushion attached behind a saddle for an additional passenger. This is not the case in the game, however, as the Gelatinous Pillion is the actual saddle itself.
+*In the files the Gelatinous Pillion is referred to as Extra_204 even though it is a mount.
+**For example, the Slimy Saddle is referred to in the files as Mount_Slime
+
+== History ==
+
+
+# 文档：Glommer's Flower
+- 类别：buffs
+- 标识：glommers-flower
+- 来源：wiki/Glommer's_Flower
+
+The Glommer's Flower is a pet-summoning item which summons a Glommer pet that follows the player around. It is dropped by Derpling with a chance. In a Constant world, the drop chance is increased to .
+
+== Trivia ==
+* The Glommer is one of three pets that can make noises, the others being the and the Companion Cube.
+* The tooltip of the item is a reference to 's examination quote for the Glommer's Flower in Don't Starve.
+* The tooltip of the buff is a reference to 's examination quote for Glommer in Don't Starve.
+
+== See also ==
+* 
+* 
+
+== History ==
+
+
+# 文档：Glow Tulip
+- 类别：buffs
+- 标识：glow-tulip
+- 来源：wiki/Glow_Tulip
+
+245px|right|thumb|Glow Tulip growing on dirt blocks in the Cavern layer.
+
+The Glow Tulip is a pet-summoning item that summons a Caveling Gardener pet that follows the player around. It can be found as a plant in the Underground or Cavern layers around the outskirts of the world. A set number of Glow Tulips are spawned during world generation: 2 in small worlds, 4 in medium worlds, and 6 in large worlds, split between the left and right sides of the world.
+
+It can also be detected by the Metal Detector.
+
+== Notes ==
+* Glow Tulips are only generated during the initial world generation; they do not generate during gameplay or regrow after being harvested.
+* They generate at least 100 tiles away from the left and right borders of the world, between the Surface layer and 200 tiles above the bottom of the world.
+* They spawn on Dirt, grass, Mud, Hive, Stone, Ebonstone, Crimstone, and moss.
+
+== Trivia ==
+* The is a reference to the survival sandbox game , where the is a plant that can be found scattered around the map.
+
+== Gallery ==
+<gallery>
+File:CavelingGardenerFlying.png|Caveling Gardener pet flying.
+File:CavelingGardener NoBackground.png|Caveling Gardener pet summoned by using Glow Tulip.
+</gallery>
+
+== History ==
+
+
+# 文档：Goat Skull
+- 类别：buffs
+- 标识：goat-skull
+- 来源：wiki/Goat_Skull
+
+frame|right|Goat Mount accelerating to top speed, leaving a fire trail behind.
+
+The Goat Skull is a Hardmode mount-summoning item dropped by the Wall of Flesh in Master Mode with a chance to drop. When used, it summons a rideable Goat Mount which allows the mounted player to perform a double jump, similar to the Cloud in a Bottle.
+
+Once a high speed is reached, the Goat Mount leaves a fire trail behind, and from that point on, it will be able to damage enemies on contact. The invulnerability is granted for 1/10th of a second when the player and the Goat Mount dash through an enemy, much like the brief invulnerability after taking damage.
+
+== Notes ==
+* The Goat Mount cannot swim. It does not prevent damage from lava.
+** If the player has Water Walking Boots, Obsidian Water Walking Boots, or Lava Waders equipped, then the Goat Mount will also walk on water.
+* The top running speed of the Goat Mount is , reachable in . At top speed, it is nearly twice as fast as a player wearing Lightning Boots and is equivalent to the Wisp in a Bottle's top speed. However, the Goat Mount can reach up to when falling down after having reached max speed.
+* When surpassing , the Goat Mount will start dealing damage to enemies and critters it runs into, similarly to the Unicorn Mount and the . It will deal 60 base summon damage and inflict a knockback of 10 ().
+* The Goat Mount does not benefit from the effect of Asphalt Blocks, making players with Lightning Boots travel slightly faster on these blocks ( with boots and on a Goat Mount). The Goat Mount also does not benefit from Swiftness Potions.
+* While riding the Goat Mount, the player will be damaged by one-block-deep lava, but not given benefits or slowed down by one-block-deep honey.
+* While the player is mounted on the Goat Mount, they will only take 20% fall damage, though they will not take fall damage if they have any accessories that negate fall damage equipped, such as the Lucky Horseshoe or a set of wings, regardless of the height the player fell while on the Goat Mount.
+* The Goat Mount makes the player five tiles in height, unlike most other mounts, which only raise the height to four tiles.
+* All items providing an extra jump, like the Cloud in a Bottle, will stack with the mount, allowing a triple jump. If a Bundle of Balloons is equipped, it is possible to jump 5 times before hitting the ground.
+** Further adding the Fart in a Jar or upgrades and Tsunami in a Bottle or upgrades allows the player to jump 7 times before hitting the ground.
+** When using the double jump, the player has a green and yellow sparkling effect in the mount's trail. The color of the particles created by double jumping, as well as charging, are affected by dyes.
+* If the Goat Skull is used during the dash of the Shield of Cthulhu, both the damage from the dash of the Shield and the Goat Mount's charge will be dealt to the enemy.
+
+== Achievements ==
+
+== Tips ==
+* The Goat, Unicorn, and Basilisk Mounts' charge abilities operate the same way sprinting accessories do in terms of momentum. This means that mounting while sprinting, dashing with the Shield of Cthulhu or Tabi, or moving quickly through the use of a canceled grapple will immediately cause the Goat Mount to begin charging, even if the distance covered would normally not be enough to trigger it.
+
+== Trivia ==
+* Using any auto-firing weapon such as the Terra Blade, yoyos, or a Minishark, and firing it in the opposite direction the player is walking in will cause the Goat Mount to walk "backwards".
+* On flat ground, the Goat Mount travels at the same speed as an unmodified Terra Blade beam.
+* The Goat Mount is functionally identical to the Unicorn Mount, however mounting and dismounting will not provide any light.
+* This item is a reference to the [https://doom.fandom.com/wiki/Icon_of_Sin/Doom_II Icon of Sin], the final boss of the first-person shooter . The boss takes the form of a large bio-mechanical goat head on a wall, similar to the Wall of Flesh itself.
+** The buff tooltip "" refers to the soundtrack of the numerous games of the Doom franchise, which are made up of .
+
+== History ==
+
+== References ==
+
+
+# 文档：Golden Seaweed
+- 类别：buffs
+- 标识：golden-seaweed
+- 来源：wiki/Golden_Seaweed
+
+| id = 5055
+| projectilename = Pet Golden Turtle
+}}
+
+The Golden Seaweed was used to summon a pet Golden Turtle. It lasted until the player manually canceled the buff by using the Golden Seaweed again. It was obtained from Chests, but only on the Amazon Fire TV. It was obtainable on other mobile devices via trading. 
+
+This item was removed alongside all other mobile exclusive content in the Mobile 1.3.0.7 update.
+
+Players on Windows Phone who acquired the Golden Seaweed via trading continue to have access to it.
+
+== Trivia ==
+* Despite the name of the item, its color was a reddish orange rather than gold (though the summoned Turtle was gold).
+*The turtle's flying animation may have been a reference to Gamera, a Japanese turtle monster similar to Godzilla that could fly, breathe fire, and was a friend to a child who loved turtles.
+
+== History ==
+
+
+# 文档：Guardian Golem
+- 类别：buffs
+- 标识：guardian-golem
+- 来源：wiki/Guardian_Golem
+
+The Guardian Golem is a Master Mode-exclusive light pet-summoning item dropped by the Golem, with a drop rate. When used or equipped, it summons a Toy Golem.
+
+== Trivia ==
+* The phrase in its tooltip, "Power cells not included", is a nod to how most battery-powered toys in commercials and advertisements will warn "Batteries not included", and how Golem is summoned with a Lihzahrd Power Cell.
+* The buff tooltip is a reference to the song "Living Doll" by Cliff Richard and The Shadows. The original lyrics read "Got myself a cryin', talkin', sleepin', walkin', livin' doll". The tooltip has simply replaced "doll" with "idol", as Golem is the Lihzahrdian Idol.
+* When summoned, the pet will always position itself in front of the player. This is likely because it is meant to act as a guardian, hence the name of the item.
+
+== History ==
+
+
+# 文档：Ham Bat
+- 类别：buffs
+- 标识：ham-bat
+- 来源：wiki/Ham_Bat
+
+| listcat = broadswords
+| tags = drop / hardmode
+}}
+
+{| class="terraria" style="float:right; margin-left:1em"
+! Buff !! Base damage
+|-
+| || 
+|-
+| || 
+|-
+| || 
+|-
+| || 
+|}
+
+thumb|245px|A player using the Ham Bat against a Target Dummy, consuming an [[Apple Pie to demonstrate its ability.]]
+
+The Ham Bat is an early-Hardmode melee weapon that has a chance to drop from Pigrons. On The Constant seed, the drop chance is increased to . Killing an enemy with the Ham Bat grants the Hearty Meal buff, which increases the player's health regeneration by 3 per second. Hearty Meal will not stack upon killing another enemy; the duration instead resets.
+
+The Ham Bat's damage is slightly increased if a food buff is active; see the table on the right.
+
+== Trivia ==
+* The tooltip is a reference to 's examination quote for the Ham Bat in .
+* The icon of the Hearty Meal buff is the same as that of Life Drain's buff.
+
+== Tips ==
+
+* Destroying a Chaos Ball, Burning Sphere, Water Sphere, and Vile Spit can give the Hearty Meal buff, making it useful during a Goblin Army, fighting the Eater of Worlds in Expert Mode, fighting Corruptors, fighting Dark Casters in the Dungeon, or fighting Fire Imps in The Underworld.
+
+== See also ==
+* 
+
+== History ==
+
+== References ==
+
+
+# 文档：Heart Lantern
+- 类别：buffs
+- 标识：heart-lantern
+- 来源：wiki/Heart_Lantern
+
+The Heart Lantern is a unique variant of lantern, a hanging furniture item, that emits moderate light while also providing the Heart Lamp health regeneration buff. It must be hung from the underside of blocks, like other lanterns. The Heart Lantern is also a mechanism that can be toggled if wired. Toggling it off will only deactivate the light source, not the buff.
+
+The Heart Lamp buff provides nearby players with a constant 1 health-per-second. The buff applies to any players standing within a centered on the Heart Lantern, providing a boost in health regeneration similar to the one granted by Campfires. The regeneration buffs from both items will stack together to provide a greater regeneration boost, and being within range of these items can also help to counteract the effects of damaging debuffs (such as Poisoned and On Fire!).
+
+== Crafting ==
+=== Recipes ===
+
+== Notes ==
+* The Heart Lantern is a viable light source for NPC housing, despite its low light level.
+* The healing effect is uniform for all tiles within its range, and is unaffected by distance or "obstructive" blocks and walls.
+* NPCs are unaffected by the healing effect.
+* In worlds, the Heart Lantern can be purchased from the Princess for .
+
+== Tips ==
+* As with the Campfire, it may be useful to keep a Heart Lantern in the hotbar in dangerous areas, so that it can be placed easily for quicker regeneration.
+* It is also useful to have one placed permanently in the player's base, along with a Campfire and a honey bath.
+* The combined and continuous health regeneration from Heart Lanterns, Campfires, and honey can make many boss fights less difficult. Including one or more of these in any arena is usually a good idea.
+
+== History ==
+
+== References ==
+
+
+# 文档：Hexxed Branch
+- 类别：buffs
+- 标识：hexxed-branch
+- 来源：wiki/Hexxed_Branch
+
+The Hexxed Branch is a mount-summoning item which summons a rideable Tree Mount. It is dropped by the Mourning Wood in Master Mode with a chance. The Tree Mount is a ground-based mount; it is unable to fly. While travelling at full speed, enemies in its path will be hit by 120 base summon damage.
+
+== Notes ==
+* The top running speed of the Tree Mount is , reached after 0.533 seconds. Its maximum diagonal speed is , achieved by jumping off a ledge at full speed.
+* This is the fastest mount in the game on land after the 1.4.1 update
+
+== Achievements ==
+
+== Tips ==
+* The Tree Mount's acceleration is extraordinarily high. It achieves high speed very quickly without a dash (e.g. Tabi or Shield of Cthulhu) and can allow one to make sharp turns midair if it is summoned while falling, making it rather useful for boss fights.
+
+== Trivia ==
+* The buff's tooltip "" is a pun based on a famous line from the 1994 American movie .
+* The Tree Mount is the fastest ground-based mount in the game. It is as fast as the fastest flying mount, the Shrimpy Truffle while it is in water, despite the fact that in real life trees rarely move at all.
+
+== History ==
+
+== References ==
+
+
+# 文档：Holiday Bauble
+- 类别：buffs
+- 标识：holiday-bauble
+- 来源：wiki/Holiday_Bauble
+
+| use = 20
+| buff = Pet Elfa
+| bufftip = A special elf
+| id = 5047
+| projectilename = Elfa
+}}
+
+The Holiday Bauble is a pet-summoning item that spawns a Elfa to follow the player around. The Elfa attacks enemies, dealing 1 damage very rapidly. However, the Elfa does not chase enemies.
+
+It can be obtained from cutting down Trees during the Christmas season.
+
+== Trivia ==
+* Like the Pet Bat, it is one of the only pets which deal damage to enemies.
+
+== History ==
+
+
+# 文档：Jewel of Light
+- 类别：buffs
+- 标识：jewel-of-light
+- 来源：wiki/Jewel_of_Light
+
+The Jewel of Light is a Master Mode-exclusive light pet-summoning item that has a chance to be dropped by the Empress of Light. When used, it will summon a pet Fairy Princess that provides pink-colored light. It is fast and will always position itself slightly elevated behind the player.
+
+== Notes ==
+* Despite being exclusive to Master Mode, the fairy does not possess any unique abilities, such as the Wisp in a Bottle's manual repositioning or the Suspicious Looking Tentacle's treasure sensing. This, combined with the fact that it still has the same brightness as those items (120%) might render its usefulness rather limited.
+** However, one might prefer the fairy for its lighting color and static positioning behind the player's back.
+
+== Trivia ==
+
+* The pet that is summoned is very similar to that summoned by Frozen Crown, and has the same flight patterns.
+
+== History ==
+
+
+# 文档：Lightning Carrot
+- 类别：buffs
+- 标识：lightning-carrot
+- 来源：wiki/Lightning_Carrot
+
+<br />
+
+The Lightning Carrot is a pet-summoning item purchased from the Zoologist for after completing 50% of the Bestiary. It summons a Volt Bunny pet that follows the player around.
+
+When flying to keep pace with the player, the Volt Bunny emits a decent amount of light while moving erratically, which can spread light over an area. If there are no available tiles for the pet to "sit on" like when climbing walls or flying, the Volt Bunny will constantly jump around too.
+
+== Trivia ==
+* The Volt Bunny is a reference to the iconic character and mascot , who is colored similarly and whose abilities revolve around electricity. Its animation while flying is also likely a reference to Pikachu's [https://www.ssbwiki.com/Quick_Attack Quick Attack] animation from the series of games, sharing similar erratic movements and particle effects.
+* The tooltip is a play on the words "ecstatic" and "static", "ecstatic" being a synonym of "delighted" and "static" being an electrical charge.
+
+== History ==
+
+
+# 文档：Lilith's Necklace
+- 类别：buffs
+- 标识：liliths-necklace
+- 来源：wiki/Lilith's_Necklace
+
+Lilith's Necklace is a Hardmode mount-summoning item which summons a Wolf mount. It has a / chance to be dropped by Wolves. New Journey Mode characters named "Wolfpet" or "Wolf Pet" (case-sensitive) receive the item automatically.
+
+Unlike other mount-summoning items, Lilith's Necklace transforms the player into the mount. It can be dyed and some vanity items are visible when transformed, but certain accessories cannot be used, such as wings.
+
+== Notes ==
+* The Wolf has a running speed of 48 , with a short acceleration time. This mount is also smaller than some land mounts, only requiring 3 tile tall gaps, compared to the Unicorn Mount's 5 tile tall requirement. 
+
+== Achievements ==
+
+== Trivia ==
+* The name refers to the name of Redigit and Cenx's daughter, Lilith. The item was added because Lilith was "obsessed with wolves".
+
+== History ==
+
+== References ==
+
+
+# 文档：Lizard Egg
+- 类别：buffs
+- 标识：lizard-egg
+- 来源：wiki/Lizard_Egg
+
+The Lizard Egg is a pet-summoning item that spawns a Pet Lizard to follow the player around. It is dropped from Flying Snakes and Lihzahrds in the Jungle Temple with a chance of .
+
+== Notes ==
+* The lizard will sprout wings like those of a Flying Snake to catch up with the player if they move too far away and has the ability to go through walls.
+
+== Trivia ==
+* Despite the fact that the egg hatches into a Lizard, it is still dropped by Flying Snakes.
+* The name being spelled as "Lizard" (like the real-world creature) could be referencing the strange spelling of "Lihzahrd".
+* The buff tooltip, "", could be a combination of references to the phrase "Chillin' like a villain" and the fact that a lizard is a reptile.
+* The Lizard appears to resemble a , which is a large, real-world lizard that is actually kept as a pet (see ).
+
+== History ==
+
+
+# 文档：Magical Pumpkin Seed
+- 类别：buffs
+- 标识：magical-pumpkin-seed
+- 来源：wiki/Magical_Pumpkin_Seed
+
+The Magical Pumpkin Seed summons a pet Squashling. It is obtained from harvesting fully-grown Pumpkins during Halloween, which has a chance to drop a Magical Pumpkin Seed. When the player jumps high enough or outruns the Squashling, it will twirl and fly after the player.
+
+== Tips ==
+* During the Halloween event, Pumpkins will randomly grow on grass tiles. Pumpkin Seeds can also be purchased from the Dryad NPC, and planted by the player.
+* Pumpkins can be harvested by any means (such as Actuators) in order to obtain the Magical Pumpkin Seed. This will make an effective farming system when combined with Conveyor Belts leading to the player's house or other collection point. (Or the slow way, which is destroying them with your sword)
+
+== Trivia ==
+* The Squashling may be a reference to the [https://wow.gamepedia.com/Sinister_Squashling Sinister Squashling], a visually-identical character from World of Warcraft and Hearthstone.
+
+== History ==
+
+
+# 文档：Mollusk Whistle
+- 类别：buffs
+- 标识：mollusk-whistle
+- 来源：wiki/Mollusk_Whistle
+
+The Mollusk Whistle is a mount-summoning item that summons a rideable Flamingo mount. It can be purchased from the Zoologist for after 25% of the Bestiary have been unlocked ().
+
+The mount allows players to float in water, similar to using an Inner Tube, and dive by holding . The mount bobs to the surface when the key is released, and if deep enough, the player will launch out of the water into the air. This feature no longer functions while wearing Neptune's Shell or any effect that turns the player into a Merfolk. The flamingo will run unhindered underwater while the player has this buff.
+
+== Notes ==
+* The top running speed of the Flamingo is .
+* The Flamingo raises the player's height from 3 to 4 blocks.
+* It reduces fall damage by .
+
+== Achievements ==
+
+== Trivia ==
+* The buff tooltip is a portmanteau of the words "flamingo" and "go", repeated multiple times to form a command.
+
+== History ==
+
+== References ==
+
+
+# 文档：Monster Meat
+- 类别：buffs
+- 标识：monster-meat
+- 来源：wiki/Monster_Meat
+
+The Monster Meat is a pet-summoning item which summons a Pig Man pet that follows the player around. It can be dropped from most Corruption/Crimson enemies with a chance. On The Constant seed, the drop rate is increased to a chance.
+
+== Trivia ==
+* The tooltip of the item is a reference to 's examination quote for the Monster Meat in .
+* The tooltip of the buff is a reference to 's examination quote for in Don't Starve.
+* The Pig Man follows an airborne character by holding an from Don't Starve, ironically made of .
+
+== See also ==
+* 
+* 
+
+== History ==
+
+
+# 文档：Moon Charm
+- 类别：buffs
+- 标识：moon-charm
+- 来源：wiki/Moon_Charm
+
+The Moon Charm is a Hardmode accessory that, when equipped during nighttime, turns the player into a werewolf, and applies the Werewolf buff. The item is dropped from the Werewolf enemy with a chance of . Although the enemy is colored blue, the player Werewolf will be colored brown. Players with this item equipped during a full moon can still be attacked by other Werewolves.
+
+The buff provides these bonuses:
+* 
+
+== Crafting ==
+=== Used in ===
+
+== Notes ==
+* The Merfolk buff (granted by Neptune's Shell) overrides the Werewolf buff, replacing the graphics and canceling the bonuses granted by the Moon Charm during nighttime.
+* Armor will be hidden while the Werewolf buff is active, but will still grant its effects. Accessories will remain visible.
+* Dyes in the respective armor slots will also affect the werewolf's fur color. (For example, if there is red dye affecting the chest-piece, the werewolf's chest fur will be dyed red.)
+* Equipping the Moon Charm in a vanity slot will give the player the appearance and sounds of a werewolf any time, including during the day, but they will not receive the buff.
+* Setting the Moon Charm to invisible will prevent the appearance or sounds of a Werewolf for the player, but the stat changes still take effect.
+
+== Tips ==
+* The Moon Charm is a reasonably good accessory for melee fighters. Non-melee characters should not bother with it, though mages and rangers interested in the effects of the Neptune's Shell might consider using a Celestial Shell (which combines the effects of the Moon Charm with the Merfolk transformation, and grants the Celestial Stone benefits) or a Moon Shell instead (which combines the effects of the Moon Charm with the Merfolk transformation, without the Celestial Stone benefits) if they want the aesthetics that come from the charm while gaining some level of usefulness from it.
+* The Moon Charm is very useful when fighting bosses as most boss fights can only take place at night. This means that the player gains all the benefits of the accessory throughout the entire fight.
+* If a Blood Moon and Full Moon occur on the same time farming for the charm becomes much easier due to the massively increased spawnrates of enemies.
+** One can force this by using a Bloody Tear on a Full Moon.
+
+== History ==
+
+
+# 文档：Mud Bud
+- 类别：buffs
+- 标识：mud-bud
+- 来源：wiki/Mud_Bud
+
+The Mud Bud is a pet-summoning item sold by the Zoologist after defeating Plantera. It summons Plantero, a miniature version of Plantera, that follows the player. The pet keeps pace with the player by flying in a manner similar to Plantera's second form.
+
+The Plantera Seedling is a similar item; however, it is exclusive to Master Mode, and has a chance to be directly dropped by Plantera upon defeat, not to be confused with the Seedling, also dropped by Plantera after death, though it is available in Classic Mode.
+
+== Trivia ==
+* The Mud Bud is stated to be Redigit's favorite pet item in the game.
+* The pet looks similar to Plantera's map icon.
+* The name Plantero could be a of Plantera and , referencing the pet's hat. Alternatively, it could be seen as a masculine equivalent of Plantera, given that the vowel at the end of a word usually indicates its grammatical gender in languages such as Italian or Spanish.
+* The pet was introduced following a suggestion by a player.
+
+== History ==
+
+== References ==
+
+
+# 文档：Nectar
+- 类别：buffs
+- 标识：nectar
+- 来源：wiki/Nectar
+
+Nectar is a pet summoning item dropped by the Queen Bee with a / chance. When used it summons a Baby Hornet pet.
+
+This pet will not teleport to the player when it is far away.
+
+== Notes ==
+* This pet is not affected by liquids, but will play a "splashing" sound when entering any liquid.
+
+== Trivia ==
+* In real life, only adult hornets feed on nectar. They feed the young bits of insects they have killed.
+
+== See also ==
+* - an enemy of similar appearance
+* - a rideable bee mount
+* - a hornet minion which fights enemies
+* - a very small enemy of similar appearance
+* - a tiphia pet (which will do 1 damage to enemies every ~0.3 seconds, but not chase them)
+
+== History ==
+
+
+# 文档：Neptune's Shell
+- 类别：buffs
+- 标识：neptunes-shell
+- 来源：wiki/Neptune's_Shell
+
+Neptune's Shell is a Hardmode accessory that aids performance underwater (and in other liquids) by granting indefinite breathing time underwater, swimming via the key, and eliminating the slow movement speed usually caused by water. 
+
+* On the , Neptune's Shell can only be obtained as a drop. It has a / chance to be dropped by a Creature from the Deep during a Solar Eclipse event.
+* On the , Neptune's Shell can only be obtained through crafting in versions earlier than version 1.4.4. Neptune's Shell can now be obtained as a drop from a Creature from the Deep.
+
+Neptune's Shell can be considered an upgrade from the Diving Gear in most respects, but lacks the extra mobility on ice of the Arctic Diving Gear and the extra lighting underwater of the Jellyfish Necklace.
+
+== Crafting ==
+=== Recipes ===
+
+=== Used in ===
+
+== Notes ==
+* Swimming speed nears that of flying through air with wings.
+* Swimming in honey activates all the perks of Merfolk but does not allow the player to move at full speed, as Honey naturally slows players.
+* Neptune's Shell does not function in lava, regardless if the player is immune or not.
+* Landing in and "jumping" from water alone (by swimming up past the surface), without touching land, does not reset flight time for wings or variants of Rocket Boots.
+* The Merfolk form is affected by dyes.
+* The Merfolk effect takes priority over the benefits of Moon Charm and its upgrades, causing the player to lose Werewolf's bonuses while in water.
+* Neptune's Shell can also be equipped as a vanity accessory, which causes the Merfolk form to appear regardless of whether the player is in water. This is merely the appearance of the Merfolk, the buff will not take effect while it is equipped as a vanity (meaning caution should be taken when in water, as the player will need to watch their breath meter).
+* Wearing a Fish Bowl will activate the Merfolk buff.
+
+== Tips ==
+* Half of the ingredients can be obtained pre-Hardmode, so it pays to collect them as early as possible.
+* An easier/faster way to get the Neptune's Shell is by placing a Water Candle and/or consuming the Battle Potion because the Solar Eclipse does not have a set spawn rate.
+
+== Trivia ==
+* The name of the item refers to , Roman god of the sea.
+* The player in merfolk form resembles the Zombie Merman and Icy Merman enemies.
+
+== History ==
+
+
+# 文档：Ogre's Club
+- 类别：buffs
+- 标识：ogres-club
+- 来源：wiki/Ogre's_Club
+
+The Ogre's Club is a pet-summoning item dropped by the Ogre with a chance in Master Mode. It summons a Baby Ogre that follows the player around.
+
+== Trivia ==
+
+* The buff tooltip jokingly references the Baby Ogre's status as a pet, as opposed to a combat summon; he can't fight because he doesn't know how to use his club.
+
+== History ==
+
+
+# 文档：Ornate Shadow Key
+- 类别：buffs
+- 标识：ornate-shadow-key
+- 来源：wiki/Ornate_Shadow_Key
+
+The Ornate Shadow Key is a pet-summoning item that summons a pet Shadow Mimic to follow the player around. It can be obtained from Shadow Chests, Hellstone Crates, and Obsidian Crates.
+
+It will occasionally spit out non-collectible cosmetic coins.
+
+Despite inflicting the Shadow Mimic buff, it does not provide any status effects. The pet is purely cosmetic.
+
+== Trivia ==
+* The Shadow Mimic pet is slightly smaller than Shadow Chests and real Shadow Mimics.
+* Despite appearing to be a Shadow Key, it cannot open Shadow Chests. It is simply an item designed after it.
+* While flying, the pet Shadow Mimic will emit a soft, purple light. This can be useful for players without a light pet.
+*Brown dye gives the mimic the appearance of a normal chest and cyan dye makes it look like an ice chest.
+
+== See also ==
+* Slice of Hell Cake, another pet item obtained from Shadow Chests.
+* Mimic, a hardmode enemy in which the pet Shadow Mimic resembles.
+
+== History ==
+
+
+# 文档：Pair of Eyeballs
+- 类别：buffs
+- 标识：pair-of-eyeballs
+- 来源：wiki/Pair_of_Eyeballs
+
+The Pair of Eyeballs is a pet-summoning item dropped by The Twins in Master Mode with a chance. It summons Rez and Spaz, miniature versions of the The Twins in their first form.
+
+== Trivia ==
+* Unlike the Suspicious Eye, Rez and Spaz do not change phases. They are also smaller than the Suspicious Eye.
+* The item tooltip is a reference to the phrase .
+* The buff tooltip may be a reference to a [https://www.youtube.com/watch?v=vy6seqOQIVQ commercial] by the American contact lens retailer .
+* The Pair of Eyeballs and Resplendent Dessert are the only pet-summoning items that spawn two pets instead of one.
+** The Optic Staff shares this feature, but is a minion-summoning item.
+* The names Rez and Spaz are abbreviated forms of The Twins' individual names, Retinazer and Spazmatism.
+
+== History ==
+
+
+# 文档：Paladin's Shield
+- 类别：buffs
+- 标识：paladins-shield
+- 来源：wiki/Paladin's_Shield
+
+| auto = 938
+| tags = drop / hardmode
+}}
+
+Paladin's Shield is a Hardmode post-Plantera Shield accessory that functions primarily in multiplayer. While equipped, and when the wearer's health is above 25%, it grants all nearby players on their team the Paladin's Shield buff: this buff causes 25% of any damage inflicted on them to transfer to the wearer of the shield instead.
+
+In both singleplayer and multiplayer, Paladin's Shield also provides the wearer immunity to knockback (like the Cobalt Shield and its variants), and provides an additional 6 defense.
+
+ The shield can be combined with the Frozen Turtle Shell or the Flesh Knuckles to craft the Frozen Shield or the Hero Shield, respectively.
+
+Paladin's Shield is dropped by Paladins with a chance of / .
+
+== Crafting ==
+=== Used in ===
+
+== Notes ==
+* The range of the Paladin's Shield is 50 tiles. Players that are more than 50 tiles away, even if they are on the same team, are not affected.
+* If two or more players on the same party equip the Paladin's Shield, only the one closest to the damaged party member will take the split damage. Furthermore, the players equipped with the Shield will not have their own damage shared with others also using the Paladin's Shield – only those party members without the Shield will have their damage mitigated.
+* Damage is split by the Paladin's Shield after the damaged player's defense and any other damage reduction effect are factored in, and will split the newly reduced damage instead of the attacker's full damage.
+** Damage received by the wearer of the Shield will undergo yet another reduction, based on the wearer's defense.
+*** The wearer will always take at least 1 damage from a teammate being hit.
+* Receiving shared damage will cause the wearer to react as if they had been hit. This means that:
+** The wearer's invulnerability frame will trigger. This frame is also lengthened by the Cross Necklace.
+** Accessories that trigger when damaged, such as the Star Cloak and Honey Comb, will activate. The Black Belt's/Master Ninja Gear's dodging chance is also put into effect.
+** Despite not activating the Turtle armor's set bonus, shared damage will use Hallowed armor's Holy Protection buff / Titanium armor's Shadow Dodge buff, and will affect the damage reduction of the Beetle Shell's Beetle Endurance buff.
+* Despite the fact that the Paladin's Shield only absorbs damage when the wearer is above 25% health, any split damage exceeding 25% of the wearer's health will kill them if the wearer is at 27% health, for example. Some ways to accomplish this are to receive the split damage from an explosive or, more effectively, a Dungeon Guardian. A large enough amount of fall damage dealt to a teammate will kill the wearer even at full health. This results in a blank death message and a blank tombstone.
+* The chance of obtaining a Paladin's Shield after killing <code><i>n</i></code> Paladins can be calculated with the following formula:
+: Normal mode: 
+: 
+
+: See [https://www.wolframalpha.com/input/?i=LogLinearPlot%5B+(100*+(1-(1-0.0933)%5En)),+%7Bn,1,100%7D%5D this plot] for normal mode and [https://www.wolframalpha.com/input/?i=LogLinearPlot%5B+(100*+(1-(1-0.1356)%5En)),+%7Bn,1,100%7D%5D this plot] for Expert mode.
+
+* In , a Paladin has a chance of to drop two Paladin's Shields at a time, and a chance of to drop both a Paladin's Shield and a Paladin's Hammer. Note that both of these chances are already included in the stated at the top.
+
+== Achievements ==
+
+== Tips ==
+* The Paladin's Shield can synergize with the to block attacks, granting the Striking Moment buff.
+
+== Trivia ==
+* The icon of the buff that is received from the Paladin's Shield portrays the old sprite of the item.
+
+== History ==
+
+== References ==
+
+
+# 文档：Parrot Cracker
+- 类别：buffs
+- 标识：parrot-cracker
+- 来源：wiki/Parrot_Cracker
+
+The Parrot Cracker is a pet-summoning item. It summons a pet Parrot which follows the player around. If the player stays still for long enough, it will perch on a nearby solid block, staying still until the player moves away from it. It can be purchased from the Pirate for , if he is spoken to in an Ocean biome.
+
+== Trivia ==
+* The Parrot Cracker is the second most expensive item to buy, more expensive than the Clentaminator () and Autohammer (), but is surpassed by the Companion Cube ().
+* Continuing from that however, if the captain is homeless the price jumps up to , , and , making it technically the most expensive item to buy.
+* The pet Parrot looks exactly the same as the Parrot enemy, which can potentially cause confusion between idle parrots during a Pirate Invasion.
+* The tooltip of the pet buff reads "". It is a reference to the phrase "Polly want a cracker", which is said to have its origin in the adventure novel by Scottish author , published 1883, or the popular slogan for the original saltine cracker by the American cookie and snack manufacturer (1876). However, the phrase can be verified to have been in use even before those dates.
+** "Wants" contains an errant apostrophe.
+
+== History ==
+
+== References ==
+
+
+# 文档：Peace Candle
+- 类别：buffs
+- 标识：peace-candle
+- 来源：wiki/Peace_Candle
+
+The Peace Candle is a furniture item that can be placed or held to decrease enemy and critter spawn rates in the area, and emits a low amount of light. When placed, it gives nearby players the Peace Candle buff. Holding a Peace Candle does not cause the buff icon to display, but still causes an identical effect. The Peace Candle can be made from a Pink Torch and either Gold Bars or Platinum Bars, meaning that the player needs to have defeated Pinky at least once to craft this item.
+
+The Peace Candle buff decreases spawn rates by 23% in the area, and decreases the maximum number of simultaneous on-screen enemies by 30%. The buff is applied to any players holding a Peace Candle or standing within a centered on a Peace Candle. In order to be considered "holding" the candle, it must be in the player's hotbar and currently selected; merely being in a player's inventory will not suffice. Multiple Candles will not stack with each other, even if one is placed and the other held. Peace Candles can only be placed on platforms and flat furniture items like Work Benches and Tables.
+
+ Pressing the button on Peace Candles shuts them off, and they will toggle when activated via wiring. Peace Candles that are turned off will not activate the Peace Candle buff.
+
+ Peace Candles cannot be turned off, and do not act as mechanisms.
+
+The opposite of the Peace Candle is the Water Candle, which increases enemy spawn rate instead. If a Peace Candle and a Water Candle are active at the same time, they will cancel each other's effects out, resulting in no difference in spawn rate.
+
+== Crafting ==
+=== Recipes ===
+
+== Notes ==
+* The Peace Candle buff will stack with the Happy! buff from Sunflowers and the Calm buff from Calming Potions, reducing the enemy spawn rate by approximately 67%.
+* The Peace Candle can be used underwater.
+* The Peace Candle is unable to fully counteract the effects of a Water Candle in Space, as this biome massively increases the effects of the Water Candle debuff.
+
+== Tips ==
+* As Peace Candles reduce critter spawns as much as enemy spawn, if the player would like to collect bait, it is wise to not have any nearby.
+
+== History ==
+
+== References ==
+
+
+# 文档：Piece of Moon Squid
+- 类别：buffs
+- 标识：piece-of-moon-squid
+- 来源：wiki/Piece_of_Moon_Squid
+
+The Piece of Moon Squid is a pet item that has a chance to drop from the Moon Lord in Master Mode. It summons a pet Moonling that resembles the Moon Lord's head.
+
+== Trivia ==
+* The item's tooltip, "The forbidden calamari", is likely a reference to a common internet meme, where some form of object similar to a food, which in reality isn't edible, is nicknamed "Forbidden <food>", for example sea glass being referred to as "forbidden fruit snacks". Calamari is fried squid, referring to the Moon Lord's cephalopod appearance.
+* This pet bears a resemblance to [https://insaniquarium.fandom.com/wiki/Cyrax Cyrax], an alien boss from the 2001 video game .
+* This pet itself marginally resembles the Ancient Vision, an enemy summoned by the Lunatic Cultist if the player attacks a duplicate of the Lunatic Cultist while the Phantasm Dragon is still alive.
+* The buff tooltip, "A friend from beyond", is a reference to H.P. Lovecraft's short story "From Beyond", which is a story of a man who witnesses alien creatures in alternate dimensions. The Moon Lord, which the Piece of Moon Squid drops from, also happens to be a reference to H.P. Lovecraft – this time, the cosmic entity Cthulhu, a fictional character Lovecraft created.
+
+== History ==
+
+
+# 文档：Plantera Seedling
+- 类别：buffs
+- 标识：plantera-seedling
+- 来源：wiki/Plantera_Seedling
+
+The Plantera Seedling is a Master Mode-exclusive pet dropped by Plantera with a 1/40 (2.5%) chance. Upon use, it summons a Plantera Seedling pet.
+
+== Trivia ==
+* The Plantera Seedling's buff tooltip, "", is a reference to the 1986 horror comedy musical film , which features a sentient carnivorous plant named Audrey II who feeds on human blood.
+
+== History ==
+
+
+# 文档：Pogo Stick
+- 类别：buffs
+- 标识：pogo-stick
+- 来源：wiki/Pogo_Stick
+
+The Pogo Stick is a mount sold by the Party Girl for . Jumping again while in the air causes the player to do a front-flip. It doubles the speed at which the player falls, but does not grant immunity to fall damage. It has a max speed of . It also has a certain amount of momentum while airborne, meaning it continues travelling in the last horizontal direction the player inputted whist in the air, rather than slowing.
+
+== Notes ==
+* Unlike the Slime Mount, the Pogo Stick does not damage enemies if it falls on them.
+*Strangely, despite doubling the players fall speed, akin to the Slime Mount, the Stopwatch and other informational accessories that show movement speed only display a maximum of 51mph instead of the correct 102mph.
+
+== Achievements ==
+
+== Tips ==
+* Much like the Slime Mount, the doubled falling speed can be useful for traveling down hellevators faster than the players base falling speed.
+
+== History ==
+
+
+# 文档：Pork of the Sea
+- 类别：buffs
+- 标识：pork-of-the-sea
+- 来源：wiki/Pork_of_the_Sea
+
+The Pork of the Sea is a pet-summoning item dropped by Duke Fishron in Master Mode, with a chance to drop. When used or equipped, it summons a smaller version of Duke Fishron that acts as a pet.
+
+== Trivia ==
+* Pork of the Sea's name is a reference to a brand of tuna fish called "Chicken of the Sea".
+* Pork of the Sea also references how Duke Fishron is part pig.
+
+== History ==
+
+
+# 文档：Possessed Skull
+- 类别：buffs
+- 标识：possessed-skull
+- 来源：wiki/Possessed_Skull
+
+The Possessed Skull is a pet item that is dropped by Skeletron in Master Mode with a chance. When used, it summons Skeletron Jr. who will follow the player around.
+
+If the player is too far away, Skeletron Jr. will start spinning like Skeletron in order to catch up.
+
+== See also ==
+* Bone Key, a similar pet dropped from the much deadlier Dungeon Guardian.
+* Robotic Skull, a similar pet dropped from Skeletron Prime.
+
+== History ==
+
+
+# 文档：Pot o' Gold
+- 类别：buffs
+- 标识：pot-o-gold
+- 来源：wiki/Pot_o'_Gold
+
+| stack = 1
+| id = 5053
+| projectilename = Leprechaun o'Fyffe
+}}
+
+The Pot o' Gold was a pet-summoning item used to summon Leprechaun o'Fyffe. The Leprechaun had a chance to drop coins when it jumped. It usually dropped Copper Coins, but had a chance to sometimes drop Silver, Gold, or even Platinum Coins. The 5 Rainbow Pieces needed to craft it used to fall from the sky during the season.
+
+== Crafting ==
+=== Recipes ===
+
+== Trivia ==
+* Despite the fact that it was called a Pot o' Gold, it had no sell value.
+* It was possible to farm his coins by making a room with a low ceiling, having o'Fyffe on one side of the door and the player on the other. He would try to jump out (probably because he thought it is simply an obstacle). If the player placed a block above his head, he would jump even faster as he could fit through a 2 block gap. Being too far away would cause him to fly through blocks toward the player.
+* Fyffe means money in Finnish slang.
+
+== History ==
+
+
+# 文档：Pumpkin Scented Candle
+- 类别：buffs
+- 标识：pumpkin-scented-candle
+- 来源：wiki/Pumpkin_Scented_Candle
+
+The Pumpkin Scented Candle is a Master Mode-exclusive light pet-summoning item dropped by Pumpking with a to chance. When used or equipped, it summons a miniature Pumpking named Jack 'O Lantern.
+
+== History ==
+
+
+# 文档：Pygmy Staff
+- 类别：buffs
+- 标识：pygmy-staff
+- 来源：wiki/Pygmy_Staff
+
+/ 34 / 27 
+| tags = Minion/drop/ hardmode
+| idprojectile = 191, 192, 193, 194, 195
+}}
+
+frame|The Pygmy Staff in use.
+
+The Pygmy Staff is a Hardmode, post-Plantera summon weapon. It spawns a pygmy minion that follows the player and attacks enemies with a ranged spear attack. The Pygmy Staff is dropped by Plantera with a / chance.
+
+== Notes ==
+* Summoned pygmies do not deal damage themselves. Instead, they attack by throwing spears twice per second.
+** Spears do not pierce enemies, and vanish on the first target hit.
+*** The first spear thrown per volley will pierce through enemies.
+** Spears do not prevent other spears from hitting the same target. However, overall damage per second increases linearly with the addition of more pygmies.
+** Spears inflict Acid Venom for 5–10 seconds.
+** Spears have a chance to inflict the Poisoned debuff for 10–20 seconds, and a chance to inflict Acid Venom for 5–10 seconds. One of the two is always inflicted.
+* Summoned pygmies' aim is somewhat inaccurate, so they might miss even relatively close and static targets, let alone moving ones.
+
+== Trivia ==
+* Each time the pygmy is summoned, it randomly has one of four possible sprite graphics. However, they are all functionally identical.
+* The pygmy catches up to fast-moving players by flying while standing, sitting, or hanging on its spear.
+* It is one of only four weapons in the game that can inflict Acid Venom without any buffs or bonuses, the others being the Spider Staff, the Venom Staff, and the Queen Spider Staff.
+* In real life, the term is used for ethnic groups whose average height is relatively short. It is primarily associated with the .
+
+== History ==
+
+
+# 文档：Raven Staff
+- 类别：buffs
+- 标识：raven-staff
+- 来源：wiki/Raven_Staff
+
+/ 37 
+| tags = Minion / drop / hardmode
+}}
+
+frame|The Raven Staff in use.
+
+The Raven Staff is a Hardmode, post-Plantera summon weapon. It spawns a Raven minion that chases enemies and deals contact damage. It is dropped from Pumpking during the Pumpkin Moon event with a chance of 1.79% – 14.29%, depending on the wave.
+
+== Tips ==
+* The Ravens attack notably quickly. As they are also able to fly, this makes them potent melee minions.
+* Ravens physically pierce through multiple enemies, but do not deal piercing damage.
+* The Raven's dark color makes it hard to see at night. This can be remedied by using the with a bright, glowing dye.
+
+== Trivia ==
+* The Raven Staff can be considered a direct upgrade to the , as both summon a bird and both minions attack in a similar pattern.
+
+== History ==
+
+
+# 文档：Regal Delicacy
+- 类别：buffs
+- 标识：regal-delicacy
+- 来源：wiki/Regal_Delicacy
+
+The Regal Delicacy is a pet-summoning item which is dropped by Queen Slime in Master Mode with a chance. It summons a pet Slime Princess which follows the player around. The pet resembles a miniature Queen Slime with blush, small dotted eyes and a pinpoint mouth.
+
+== Crafting ==
+=== Used in ===
+
+== Trivia ==
+* The pet is the female counterpart of the Slime Prince, spawned with the Royal Delight.
+** The tooltip, "", is connected to the Slime Prince buff's tooltip, "".
+* When the player is far enough away, the Slime Princess will fly to the player with her wings, similar to Queen Slime.
+* Following community suggestions, developers toyed with the idea that the Royal Delight and Regal Delicacy could be crafted together into one pet-summoning item. This was added in 1.4.4. as the Resplendent Dessert.
+
+== History ==
+
+== References ==
+
+
+# 文档：Reindeer Bells
+- 类别：buffs
+- 标识：reindeer-bells
+- 来源：wiki/Reindeer_Bells
+
+The Reindeer Bells are a Hardmode, post-Plantera mount summon item. It summons the rideable Rudolph character which greatly speeds a player's movement and adds the ability to fly. It has a chance of between 0.56% and 0.83% to be dropped by the Ice Queen during or after wave 15 of the Frost Moon event.
+
+Similar to the Hoverboard, flight height can be constrained by holding the key in addition to the key, so movement will be horizontal only.
+
+thumb|300px|The Reindeer Bells being used.
+
+== Notes ==
+* When the buff is active, fall damage is canceled.
+* Flying left or right allows Rudolph to climb to much greater heights than flying directly upwards.
+* The top running speed of Rudolph is , reached after 2.222 seconds.
+* Rudolph's nose gives off a little bit of light.
+
+== Achievements ==
+
+== Tips ==
+* Rudolph allows the character to run and fly faster than the maximum speed attainable from accessory items, and also stacks with them. It is faster than most wings, even when running on the ground.
+* Riding Rudolph causes slightly inconsistent behavior when interacting with ground tiles. While on Rudolph, the player will still trigger player-activated pressure plates, but the player will not travel nearly as fast on asphalt as the player would unmounted. In order to obtain maximum speed, the player would have to run down an asphalt runway with movement speed buffs, such as the Panic! buff and Lightning Boots. The runway would transition into a Frozen Slime Block slide where the player could then mount Rudolph and retain the extra movement speed.
+
+== Trivia ==
+* Rudolph was the first mount introduced to Terraria.
+* When standing still on it for between 15 and 25 seconds, it will start eating off the ground.
+* Rudolph and the Minecart are the only mounts available across all platforms for Terraria.
+** The Bee Mount comes the closest to being so, only missing from the . All other mounts are limited to certain versions.
+
+== Gallery ==
+<gallery>
+File:Rudolph idle.gif|Idle animation of Rudolph.
+File:Reindeer Bells (demo).png|A player using the mount.
+</gallery>
+
+== History ==
+
+== References ==
+
+
+# 文档：Resplendent Dessert
+- 类别：buffs
+- 标识：resplendent-dessert
+- 来源：wiki/Resplendent_Dessert
+
+The Resplendent Dessert is a pet-summoning item. It is the combination of the Royal Delight from King Slime and the Regal Delicacy from Queen Slime, allowing the player to summon both Slime Prince and Slime Princess at the same time.
+
+== Crafting ==
+=== Recipes ===
+
+== Trivia ==
+* The Resplendent Dessert is the only Master Mode exclusive item to not be directly dropped by a boss or mini-boss, and is crafted with two such items instead.
+* This item is one of the two pet summoning item that summons two independent pets, the other is the Pair of Eyeballs. Both are Master Mode exclusive.
+
+== History ==
+
+
+# 文档：Robotic Skull
+- 类别：buffs
+- 标识：robotic-skull
+- 来源：wiki/Robotic_Skull
+
+The Robotic Skull is a pet-summoning item dropped by Skeletron Prime in Master Mode with a chance. It summons Mini Prime, who follows the player around indefinitely.
+
+== Notes ==
+* Despite what the buff's tooltip may suggest, Mini Prime does not inflict damage.
+
+== Trivia ==
+* Its tooltip quote is likely a reference to the opening line from .
+
+== See Also ==
+
+* Possessed Skull, a similar pet dropped by regular Skeletron.
+
+== History ==
+
+
+# 文档：Royal Delight
+- 类别：buffs
+- 标识：royal-delight
+- 来源：wiki/Royal_Delight
+
+The Royal Delight is a pet-summoning item which is dropped by King Slime in Master Mode with a chance. It summons a pet Slime Prince which follows the player around. The pet resembles a miniature King Slime with blush and small dotted eyes.
+
+== Crafting ==
+=== Used in ===
+
+== Trivia ==
+* The pet is the male counterpart of the Slime Princess, spawned with the Regal Delicacy.
+** The tooltip, "", is connected to the Slime Princess buff's tooltip, "".
+* When the player is far enough away from Slime Prince, or is away far enough away from the ground, the Slime Prince will drop his crown, morph into a ball, and fly towards the player with his flying magic ability. While flying, slime will continue to drip down the pet.
+** King Slime also leaves his crown behind when teleporting.
+* Following community suggestions, developers toyed with the idea that the Royal Delight and Regal Delicacy could be crafted together into one pet-summoning item. This was added in 1.4.4 as the Resplendent Dessert.
+
+== History ==
+
+== References ==
+
+
+# 文档：Saddles
+- 类别：buffs
+- 标识：saddles
+- 来源：wiki/Saddles
+
+| rare = 
+| value = 
+| buy = y
+| research = 
+| id = 4785–4787
+| cargo = no
+}}
+
+The Dusty Rawhide Saddle, Royal Gilded Saddle, and Black Studded Saddle are mount-summoning items that summon the rideable Painted Horse Mount, Majestic Horse Mount, and Dark Horse Mount, respectively. They are sold by the Zoologist for each, after completing at least 30% () of the Bestiary. All three horse mounts are functionally identical. Once they reach a high speed, they will deal damage to enemies they come into contact with.
+
+== Types ==
+
+{| class="terraria sortable lined"
+! colspan=2 | Saddle
+! width=110px | Mount
+! Buff
+! Buff tooltip
+
+|}
+
+== Notes ==
+* The horses' top running speed is , reachable in .
+* When surpassing , they will start dealing damage to enemies and critters they run into, similarly to the Unicorn and Goat Mounts. They will deal 30 base summon damage and inflict a knockback of 7 ().
+* There is no jump fatigue while riding a horse mount. 
+* When using a saddle, the respective horse mount will appear in a puff of gray smoke.
+
+== Achievements ==
+
+== Tips ==
+* A horse mount is best used on a large platform without obstacles, extending across the map. This facilitates maintaining maximum speed without having to worry about slowing down.
+
+== History ==
+
+== References ==
+
+
+# 文档：Sanguine Staff
+- 类别：buffs
+- 标识：sanguine-staff
+- 来源：wiki/Sanguine_Staff
+
+frame|right|Summoning three Sanguine Bats to attack a Mimic.
+
+The Sanguine Staff is a Hardmode summon weapon that has a / <nowiki/>chance of being dropped by the Dreadnautilus during a Blood Moon. It summons a Sanguine Bat minion that remains by the player's side until an enemy is in sight, and attacks by flying in an elliptical loop between the player and enemy. They immediately return to the player's side once their target dies.
+
+== Notes ==
+* The Sanguine Bats arrange themselves along a semicircle with the player's head as the center.
+* Unlike most minions, the bats will immediately return to the user's side after striking an enemy.
+* They are unaffected by blocks.
+* The bats leave an afterimage while moving.
+* If dyed with Critter Shampoo, most basic and gradient dyes will have little effect on the bat's colors. Some dyes obtained from Strange Plants will be discolored due to the bat's glow (such as Reflective Gold Dye coloring the bats a fiery orange, and Negative Dye making them completely black). Bright dyes will work properly as they override the bat's color completely.
+* The bats give off a fair amount of red light which can assist with visibility in dark places, especially when several are summoned.
+
+== Tips ==
+* Like the Blade Staff and Terraprisma, the Sanguine Staff's precise movement, tracking and fixed idle position make it an ideal choice for assisting the player with faster bosses and for crowd control.
+* Due to the difficulty of spawning and taking down the Dreadnautilus, the Sanguine Staff can be hard to obtain until mid-Hardmode. Even so, it is still an effective weapon at that point due to the benefits mentioned above, and summoner armor will substantially improve its damage.
+* Due to its damage, speed and consistent flight pattern the Sanguine Staff could arguably be considered better than most pre-Golem staves.
+*Its large aggro range, fast movement, and solid damage make the Sanguine Staff quite capable in the daytime Empress of Light fight.
+
+== Trivia ==
+* ' is an adjective meaning blood red. It is derived from Latin ', which means blood
+
+== History ==
+
+
+# 文档：Seaweed
+- 类别：buffs
+- 标识：seaweed
+- 来源：wiki/Seaweed
+
+Seaweed is a pet-summoning item which summons a Turtle pet that follows the player, like other pets. Seaweed can rarely be found in the Underground Jungle's Jungle Shrines or Living Mahogany Trees. On the , it can also be found in Jungle Crates and Bramble Crates.
+
+== Notes ==
+* The Turtle pet will use a propeller to fly to the player when out of reach.
+
+== Trivia ==
+* On the , there was a coding error where the obtained from fishing would have the description of the pet-summoning Seaweed.
+*The pet turtle is a reference to Tank, a pet tortoise from My Little Pony: Friendship is Magic. This has long been suspected by members of the community, and on May 17th, 2021, Redigit confirmed this to be the case.
+
+== History ==
+
+
+# 文档：Seedling
+- 类别：buffs
+- 标识：seedling
+- 来源：wiki/Seedling
+
+The Seedling is a pet-summoning item that summons a Pet Sapling that follows the player. If the player flies too high or otherwise moves far enough away from it, it will sprout leaflets and use them to fly with the player, acting as "wings".
+
+The Seedling has a chance of being dropped by Plantera.
+
+== History ==
+
+
+# 文档：Shadow Candle
+- 类别：buffs
+- 标识：shadow-candle
+- 来源：wiki/Shadow_Candle
+
+The Shadow Candle is a furniture item that can be placed or held to nullify the enemy spawn reduction and passive NPC spawning benefits of towns, allowing enemies to spawn more frequently. It grants players the Shadow Candle debuff. When placed, the debuff is applied to any players standing within a centered on the Shadow Candle. It emits a very small amount of light.
+
+== Notes ==
+* The Shadow Candle debuff icon will only display when the Shadow Candle is placed, however its effects are granted whether it is placed or held.
+** An item is considered as "held" if it is currently selected in the player's hotbar.
+* The Shadow Candle can be turned off and on by pressing . Shadow Candles that are turned off will not grant the Shadow Candle debuff.
+* Since the Skeleton Merchant is not a Town NPC, he is not affected by the Shadow Candle.
+* The Shadow Candle allows the Chaos Elemental, and the Enchanted Sword (NPC) to spawn without the player needing to move.
+
+== Crafting ==
+=== Recipes ===
+
+== History ==
+
+== References ==
+
+
+# 文档：Shark Bait
+- 类别：buffs
+- 标识：shark-bait
+- 来源：wiki/Shark_Bait
+
+The Shark Bait is a Pet summon item that summons a pet Shark Pup. It has a chance to be found in Water Chests, Ocean Crates, and Seaside Crates.
+
+When underwater, the shark pet swims around freely. When out of water, it is encased in a bubble. If you walk too far from the shark, it will not teleport. Instead, it will move swiftly toward the player.
+
+== Trivia ==
+*The pet and the tooltip are a reference to the viral YouTube video and popular children's song "[https://www.youtube.com/watch?v=XqZsoesa55w Baby Shark]". 
+**The pet sprite shares a similar visual to the [https://www.youtube.com/watch?v=RlG-QEwnLD8 Super Simple Songs] version of "Baby Shark".
+*The sprite and name may be a reference to the film Finding Nemo, due to the sprite resembling a clownfish, with 'Shark Bait' being a nickname given to Nemo.
+*The pet will move to the other side of the player if it is "attacked" (i.e: hit with a weapon).
+*The pet will also change to its underwater sprite while in lava or honey.
+
+== History ==
+
+
+# 文档：Sharpening Station
+- 类别：buffs
+- 标识：sharpening-station
+- 来源：wiki/Sharpening_Station
+
+The Sharpening Station is a furniture item that, when placed and pressed on, applies the Sharpened buff, which increases armor penetration of all melee weapons by 12 / 4. 
+
+It can be found in Underground Cabins in the Underground Jungle. On the , it can also be purchased from the Merchant for during Hardmode.
+
+== Notes ==
+* The armor penetration bonus also applies to damage done by summoned minions, but only while the user is holding a melee weapon. It also applies to projectiles fired from magic and ranged weapons, however, it only applies to the projectiles when the user is holding a melee weapon after having shot the projectiles already making it not suitable for practical use.
+* Unlike the Crystal Ball, the buff structure for mages, the Sharpening Station cannot be used for crafting. This may mean those with a use for items crafted with a Crystal Ball will need to purchase both a Sharpening Station and Crystal Ball (despite potentially not needing the buff it grants), unless one is found in an Underground Cabin.
+
+== Trivia ==
+* In real life, sharpening stations, also known as s, are used to sharpen blades.
+
+== History ==
+
+
+# 文档：Shiny Black Slab
+- 类别：buffs
+- 标识：shiny-black-slab
+- 来源：wiki/Shiny_Black_Slab
+
+| use = 20
+| buff = Pet Android
+| id = 5048
+| projectilename = Android
+}}
+
+The Shiny Black Slab was a pet-summoning item that spawned an Android. It was obtainable from Chests in the surface layer, but only on the Google Play version. It was obtainable on other mobile devices via trading.
+
+This item was removed alongside all other mobile-exclusive content in the Mobile 1.3.0.7 update.
+
+Players on Windows Phone who acquired the Shiny Black Slab via trading continue to have access to it.
+
+== Trivia ==
+* The Shiny Black Slab resembled a generic smartphone. Its sprite can be compared to that of the Cell Phone, except grayscale and with fewer details.
+* The Android pet was modeled after the mascot for the .
+
+== History ==
+
+
+# 文档：Shrimpy Truffle
+- 类别：buffs
+- 标识：shrimpy-truffle
+- 来源：wiki/Shrimpy_Truffle
+
+The Shrimpy Truffle is a mount-summon item that spawns Cute Fishron, a miniature rideable Duke Fishron-style mount. The mount can fly and hover indefinitely. It is obtained from Duke Fishron's Treasure Bag in Expert Mode.
+
+Cute Fishron has a base flight speed of 40 / 33 mph.
+
+Moving through liquids causes Cute Fishron to gain a drastic movement speed bonus of about +105% (to 82 mph, the fastest of any mount), as well as providing the rider with a +15% damage bonus. These boosts continue for 6 seconds after it leaves liquid, though during this time its speed boost drops to +100% (to 80 / 66 mph). 
+
+Liquid boosts also take effect when Cute Fishron gets "wet" by flying in the rain (), flying through Bubbles filled by liquids, splashes from a Water Bucket, or being hit by a Water Gun.
+
+On the , the +100% movement speed boost (80 / 66 mph) and +15% damage boost also take effect when the rider's health falls below half.
+
+During contact with any blocks, Cute Fishron's movement speed is drastically lowered to a very slow crawl (5 mph, or 10 if boosted). This speed penalty is removed as soon as it loses contact with the blocks.
+
+== Notes ==
+* Any liquid triggers the boost, including lava and honey.
+* While Cute Fishron is boosted, its eyes display a glowing effect that fades as the boost expires. The color of the glow matches the water color in the present biome. If the water color in the area is changed via a Water Fountain, Cute Fishron's eyes will become that color. During a Blood Moon, Cute Fishron's eyes glow red everywhere, regardless of the biome.
+* Cute Fishron has a comparatively slow turning speed compared to other mounts when its speed bonus isn't activated.
+
+== Achievements ==
+
+== Tips ==
+* In addition to the standard intended methods, Cute Fishron's boost can be triggered in other creative ways:
+** Use a Water Bucket (or a Bottomless Water Bucket) to pour water over the character while on this mount in midair. The more immersed Cute Fishron is kept, the higher the boost, up to the maximum 80 mph. The water must be used on the player's own body; pouring it over the head or tail of the mount will not work. Note that the water will settle on the surface, creating many small pools.
+** Place Bubbles filled with liquid in the world. Ideally, place honey in these bubbles, as flying through honey with a Cute Fishron mount not only increases the player's speed and damage, but also health regeneration.
+** Have another player use the Water Gun on the character, inflicting the Wet debuff.
+** Repeatedly use a Rod of Discord to keep the character's health below 50%.
+** Waiting for rain to start falling before fighting difficult Bosses or Events.
+* Due to its outstanding mobility and combat increases while boosted, the mount is highly effective for boss fights. An underwater arena with a Neptune's Shell is a solid setup for many fights.
+* While it has the ability of infinite flight, Cute Fishron has sluggish mobility as an aerial mount, as it takes a long time to turn when its speed bonus isn't active. If air mobility is preferred (such as during a boss fight), it is recommended to use Wings or the UFO Mount instead (or in Expert Mode, the Witch's Broom).
+**If the player has an equipped accessory or full armor gear that enables dashing, quick and sharp turns can be done by dismounting mid-air, dashing to the opposite direction and re-equipping the mount.
+* Although the UFO Mount is slightly faster (41 mph vs. 40 / 33 mph), it cannot be used in liquids, whereas Cute Fishron has an advantage in them.
+* Because of the speed penalty for touching blocks, Cute Fishron is not suited for confined spaces.
+* Its speed while touching blocks is well suited for placing a line of blocks in front of the player.
+* On the , this mount works well with the Frozen Turtle Shell, as it allows the player to stay at or below 50% life for the damage and speed boost much more safely.
+*Adding vertical pillars of enclosed honey with bubbles to an arena allows both Cute Fishron's boost and honey's regen to be refreshed indefinitely while also freeing accessories slots.
+
+== Trivia ==
+* The tooltip of the Cute Fishron Mount buff, "", refers to the extreme decrease of mobility on land.
+* When activated while standing on platforms, Cute Fishron will crawl on them, however it cannot "land" on them and start crawling, as it will phase through them like any infinite flight mount.
+* If it is raining during a Blood Moon, the mount's eyes will be red.
+
+== History ==
+
+
+# 文档：Shrub Star
+- 类别：buffs
+- 标识：shrub-star
+- 来源：wiki/Shrub_Star
+
+The Shrub Star is a pet item that drops from the Everscream in Master Mode with a chance. It summons an Everscream Sapling that will follow the player around.
+
+== Trivia ==
+* The tooltip is a reference to the lullaby.
+
+== History ==
+
+
+# 文档：Slice of Cake
+- 类别：buffs
+- 标识：slice-of-cake
+- 来源：wiki/Slice_of_Cake
+
+The Slice of Cake is a furniture item that, when placed and activated with , grants the player the Sugar Rush buff which grants +20% movement speed and +20% mining speed. It can be activated limitlessly, and will refresh the buff's duration if already activated.
+
+The Slice of Cake is acquired by being the first player to talk to the Party Girl during a Party that occurred by random chance at dawn (player-initiated Parties will not cause her to give players the Slice of Cake). It can be placed on blocks or on flat-surface furniture such as a Table.
+
+== Notes ==
+* Unlike most furniture items, it requires 3 units to research in Journey Mode.
+* It is not a consumable item, despite looking like one. Placing and then using it will not consume the item.
+
+== Trivia ==
+* The Slice of Cake appears in an NPC emote which can be seen during Parties: File:Emote Party Cake.png
+* The Slice of Cake and its Sugar Rush buff were introduced in 1.3.2, but remained unobtainable until 1.4.0.1. 
+* The tooltip is a reference to 's old terms of service "Go nuts. Show nuts. Whatever."
+
+== History ==
+
+
+# 文档：Slice of Hell Cake
+- 类别：buffs
+- 标识：slice-of-hell-cake
+- 来源：wiki/Slice_of_Hell_Cake
+
+The Slice of Hell Cake is a pet-summoning item that can be found in Shadow Chests, Hellstone Crates, and Obsidian Crates. It summons a Baby Imp pet that follows the player around. When the player is far enough away, the Baby Imp will spread its arms and fly to catch up to the player.
+
+== Trivia ==
+* The Baby Imp is based on the Fire Imp enemy. The item's tooltip, <i>""</i>, is a reference to the enemy's teleporting abilities.
+** However, while the Fire Imp is red, the Baby Imp is a shade of similar to Shadow Chests.
+* When idle, the imp appears to yawn.
+* The item sprite seems to be a recolored version of the Slice of Cake.
+
+== History ==
+
+
+# 文档：Slime Staff
+- 类别：buffs
+- 标识：slime-staff
+- 来源：wiki/Slime_Staff
+
+thumb|370x370px|The Slime Staff summoning a Baby Slime which attacks a [[Skeleton.]]
+
+The Slime Staff is a pre-Hardmode summon weapon that summons a Baby Slime minion. Baby Slimes attack by bouncing on the ground and chasing enemies, rapidly dealing contact damage. 
+
+The Slime Staff generally has the rarest drop chance of any weapon, with minor exceptions. The typical drop rate from most slimes and Slimed Zombies is / . Pinky has a greatly increased drop rate of / . Additionally, Sand Slimes have a drop rate of / . The slimes which cannot drop the Slime Staff are: Lava, Dungeon, Umbrella, Hoppin' Jack, Corrupt (), King Slime, Queen Slime, Crimslime, Gastropod (), Rainbow.
+
+Unlike other summon weapons, its best possible modifier is Mythical because both the Ruthless and Mythical modifiers only raise its base damage to 9 due to rounding.
+
+== Notes ==
+* The maximal potential attack frequency of Baby Slimes on any given target reaches six hits per second.
+* Although it is extremely rare, it is possible to obtain the Slime Staff almost immediately after starting a new game.
+* In worlds, the Slime Staff can be purchased from the Princess for .
+
+== Tips ==
+* An easy way to obtain the Slime Staff without much effort is to construct a statue farm with one or more Slime Statues, and lava just deep enough to not destroy any drops as it kills the slimes. Leave it alone for a while, and occasionally check if the staff has been dropped yet. Using advanced setups like engines and multiple statues can greatly accelerate the process. Note that as of version , there is a limit to how quickly statues can be triggered.
+* The Slime Staff lava farm can be made pre- Skeletron, by utilizing wires from underground traps. Dart traps are the easiest to use. Highlight a trap in your hotbar to show the wires placement, then place the statues along the length of the wire. Pour a small layer of lava, thin enough to allow items to remain, while still being able to deal damage to the slimes. Enclose the area so the slimes can't jump around. Create a small afk box at the end of the wire, and then place the pressure plate inside. Make sure there are blocks just above you to maximize amount of activations. You can then repeatedly jump and activate the pressure plate, which works similarly to a repeater. Continue to kill the slimes until the staff drops. You can clear out a tunnel just under the lava area in order to pick up the drops. This works very well for obtaining gel as well. You can add more slime statues to increase the chance of drops, or other monster statues.
+* Another way to quickly kill a lot of slimes is to summon King Slime or to wait for a .
+* An early way to get it would be to intentionally die several times, use all the Tombstones to make a Graveyard, and farm Slimed Zombies.
+** can also spawn in graveyards, and is potentially easier to obtain.
+* The Slime Staff when coupled with Lucky Coin and the Broken modifier is a great money maker since its attacks are fast but not strong.
+* It can be used to keep weak enemies like Meteor Heads away while focusing on other tasks like mining.
+* The summoned Baby Slime is summoned at the cursor, and therefore can be used to attack enemies on the other side of walls.
+
+== Trivia ==
+* The Slime Staff has among the lowest drop rates of any enemy-dropped item.
+* Prior to , the Slime Staff had the lowest base damage of any summon weapon. Since 1.3.4, the Lightning Aura Rod has lower base damage, though it also ignores defense.
+* The Baby Slime summoned by the Slime Staff appears to be a baby version of the Toxic Sludge slime, being similar in color, and having a face as well.
+* When the Baby Slime is moving to attack an enemy, it will destroy Pots, grass, and vines.
+* If the player is moving too fast, the Baby Slime will fly to the player with wings.
+
+== History ==
+
+
+# 文档：Snapthorn
+- 类别：buffs
+- 标识：snapthorn
+- 来源：wiki/Snapthorn
+
+right|frame|Snapthorn in action
+
+The Snapthorn is a pre-Hardmode whip crafted out of Jungle materials.
+
+Like most other whips, it causes minions to focus on the last-struck enemy and briefly increases their damage against all targets that it strikes. When striking an enemy, it will grant the Jungle's Fury buff, increasing whip attack speed by 12% for 3 seconds, and the buff duration can be refreshed by hitting enemies continuously. It also inflicts the Poisoned debuff on enemies for 4 seconds.
+
+== Crafting ==
+=== Recipes ===
+
+== Tips ==
+* Due to the nature of Snapthorn's Jungle's Fury buff, switching to another whip or melee weapon while the buff is active will increase its speed for a brief duration.
+* Between the Leather Whip and Snapthorn, it is usually easier to obtain the Snapthorn first as it is made from craftable materials, while the Leather Whip requires the Zoologist to be present, costs . Depending on the player's preference, it may be worthwhile for summoners to venture into the Underground Jungle to collect materials to craft the Snapthorn in the early game, despite the dangers of the biome.
+* Because tag damage adds a fixed amount of damage per hit, Snapthorn works well with rapidly-attacking minions like Flinxes and Vampire Frogs, but works poorly with slow minions like Imps.
+* It is possible, if the player can scroll fast enough, to get the speed effects of the Snapthorn, the Durendal, and the Dark Harvest at the same time. Strike an enemy with one, then select the next, and finally select the last whip and receive its bonus. However, this strategy is very impractical, as by the time the player selects the last whip, the first speed bonus might have already run out. The strategy could be complemented by equipping Obsidian armor, or by only using two of the whips at a time.
+
+== History ==
+
+
+# 文档：Sparkling Honey
+- 类别：buffs
+- 标识：sparkling-honey
+- 来源：wiki/Sparkling_Honey
+
+The Sparkling Honey is a pet summoning item dropped by Queen Bee in Master Mode with a chance. It summons a Honey Bee, a large bee that follows the player.
+
+== Trivia ==
+* The pot itself bears resemblance to 's honey pots.
+* The name Sparkling Honey is a reference to the popular type of drinks referred to as Sparkling Water.
+
+== History ==
+
+
+# 文档：Spider Egg
+- 类别：buffs
+- 标识：spider-egg
+- 来源：wiki/Spider_Egg
+
+The Spider Egg summons the spider Pet. It behaves exactly like the Spider AI, as it will crawl on Walls if there are any. When the player jumps high enough or outruns the spider, it will ride on a white spiderweb, as if it were standing on a wall, to keep up with the player. The Spider Egg is dropped by Pumpking during the Pumpkin Moon event.
+
+== Notes ==
+* If the Spider follows the player to an area with Fences nearby, the Spider will rapidly hop from the fences to the ground, causing a flickering effect.
+* If a red Dye is used on the Spider Egg, the spider resembles a Blood Crawler.
+
+== History ==
+
+
+# 文档：Spiffo Plush
+- 类别：buffs
+- 标识：spiffo-plush
+- 来源：wiki/Spiffo_Plush
+
+The Spiffo Plush is a pet-summoning item which summons a Spiffo pet that follows the player around. It has a chance of being dropped by all types of Zombie.
+
+If the player goes too far away, the Spiffo flies after the player by spinning its tail above it to fly.
+
+== Trivia ==
+* The pet is a reference to [https://pzwiki.net/wiki/Spiffo Spiffo], the mascot of the open-world survival horror video game . The buff tooltip is a reference to the Project Zomboid world start screen.
+* The way Spiffo spins its tail to fly when too far away from you could be a reference to from the Sonic The Hedgehog series.
+
+== Gallery ==
+<gallery>
+File:Spiffoitem.png|<center>Spiffo Plush Item</center>
+File:Spiffoactive.png|<center>Spiffo pet as seen in game.</center>
+</gallery>
+
+== History ==
+
+
+# 文档：Star in a Bottle
+- 类别：buffs
+- 标识：star-in-a-bottle
+- 来源：wiki/Star_in_a_Bottle
+
+The Star in a Bottle is a Lantern variant. On the , it provides players in its vicinity with an increased rate of mana regeneration (5 extra mana per second). The buff is applied to any players standing within a centered on the bottle, similar to the Campfire and Heart Lantern. Similarly to other Lanterns, the Star in a Bottle is a mechanism that can be toggled on or off if wired, though this does not affect the buff.
+
+On the , it does not provide any buff, and is only for decorative lighting.
+
+== Crafting ==
+=== Recipes ===
+
+== Notes == 
+* The Star in a Bottle adds more Mana Regeneration than the Heart Lantern adds health regeneration.
+
+== History ==
+
+== References ==
+
+
+# 文档：Stardrop
+- 类别：buffs
+- 标识：stardrop
+- 来源：wiki/Stardrop
+
+The Stardrop is a pet-summoning item that can be summoned by the Dryad by giving her a Joja Cola and allowing her to purify it. It is used to summon the Junimo pet.
+
+It will follow the player at any speed and fly by spinning the leaf on it's head once the player is too far away.
+== Trivia ==
+* This pet is an crossover reference originating from a game called Stardew Valley, hence the tooltip, in which it was the mysterious creatures of the forest that would help the player in rebuilding the community center, among other things.
+* The Stardrop is also from Stardew Valley where it is a rare item that increases the players maximum energy when eaten. It would also "remind" the player of their favorite thing, which is probably why the tooltip says that the flavor is like a dream.
+
+== History ==
+
+
+# 文档：Stardust Cell Staff
+- 类别：buffs
+- 标识：stardust-cell-staff
+- 来源：wiki/Stardust_Cell_Staff
+
+The Stardust Cell Staff is a Hardmode, post-Lunatic Cultist summon weapon that summons a Stardust Cell (a minion version of the Star Cell enemy) that can perform a ranged attack and will teleport to enemies out of range. 
+
+The Stardust Cell's ranged attack consists of firing a miniature version of itself at an enemy target that it latches onto and deals damage over time to. This damage ticks 30 times before the mini-cell vanishes, and can be stacked as the Stardust Cell continues to fire additional mini-cells onto the target, able to stack for up to 100 damage per "tick". Additionally, the Stardust Cell will occasionally fire an extra shot at any target the player is attacking, without interrupting their standard rate of fire, even if the Stardust Cell is already currently attacking that target. This makes the Stardust Cell Staff very effective at attacking targets with high health.
+
+After teleporting to an enemy, a Stardust Cell will instantly fire a mini-cell.
+
+== Crafting ==
+=== Recipes ===
+
+== Notes ==
+* Any number of Stardust Cells can damage a target at a time; they have no invincibility frames between each other's hits.
+* The Cells have a large attack radius that is equal to minions obtainable at earlier stages in the game, such as the Hornet, Imp, and Twins.
+* Often while the player is traveling across the map, Stardust Cells may seem to be lazily veering away from the summoner towards something off-screen. This is because they have targeted a far-away enemy that is moving into teleport range.
+* The mini-cell deals the listed 60 summon damage upon contact. It then deals 10 damage (not affected by any modifiers) 10 times, twice every second. Additionally, mini-cell life drain does not count towards DPS and the amount of mini-cells on each enemy is limited to ten.
+* Damage ticking from mini-cells retains its original pace regardless of when additional mini-cells were added.
+
+== Tips ==
+* While it generally does less damage when it hits than the Stardust Dragon Staff, the Stardust Cell Staff is more consistent against fast-moving bosses such as Duke Fishron and the Empress of Light and they generally finish fights around the same time.. The Terraprisma is better than both, with the consistency of the Cells and the damage of the Dragon.
+* The mini-cells can damage and kill Jellyfish during their invincibility animation.
+* The Stardust Cell's attacks cannot be reflected by a Selenian.
+* Although considered to be an upgrade to the Xeno Staff, the stardust cells do not re-target instantly after an enemy has been defeated. This means in a horde of enemies, the UFOs are better as their targeting speed is considerably better, making it arguably on par with the Stardust Cells.
+
+== Gallery ==
+none|frame|The Stardust Cell Staff in use.
+<br />
+
+== Immune NPCs ==
+
+== History ==
+
+
+# 文档：Stardust Dragon Staff
+- 类别：buffs
+- 标识：stardust-dragon-staff
+- 来源：wiki/Stardust_Dragon_Staff
+
+framed|The Stardust Dragon Staff in use.
+
+The Stardust Dragon Staff is a Hardmode, post-Lunatic Cultist summon weapon that summons a Stardust Dragon that attacks enemies. The Stardust Dragon constantly flies around the screen surrounding the player, and flies through blocks, attacking enemies by flying through them. It leaves a trail of sparkles that provide periodic bursts of light as it moves.
+
+The Stardust Dragon Staff is special in that if summoned more than once, multiple Dragons do not spawn &mdash; instead, the first spawned Dragon becomes longer by one segment for each additional summoning, broadening its area of attack and increasing its damage output. Each summon creates additional segments between the tail and the pre-tail segment, and re-summons the tail.
+
+The Stardust Dragon hits ten times per second. It inflicts damage according to the formula: <code>summon dmg*(1.69 + .46[summon length - 1])</code>, which is then all multiplied by a random multiplier between 0.85 and 1.15. Each segment of the dragon deals damage based on the damage modifier on the staff used to summon them, which means that different segments of the dragon can deal different damage.
+
+== Crafting ==
+=== Recipes ===
+
+== Notes ==
+* Piercing attacks do not damage the target when it is under attack by the Stardust Dragon. This can be circumvented by using non-piercing weapons, such as most bullet-firing guns. While Luminite Bullets do not create piercing invincibility frames of their own, they are still classified as piercing damage, and do not work against a target that is being attacked by a Stardust Dragon.
+* Like most minions, right-clicking an enemy while the Staff is held will cause the Stardust Dragon to focus on that enemy, but it may change targets before killing the enemy it was focused on.
+
+== Tips ==
+* The Stardust Dragon Staff is useful for farming, as high-level summons of it are capable of killing even the toughest non-boss enemies.
+* With proper minion damage bonuses the Stardust Dragon can easily take out all bosses, including the Moon Lord.
+* The Dragon will inadvertently damage any entities it flies over, including Critters and Cultists, which will be killed quickly or instantly. Dispel the Dragon minion or hold the Guide To Critter Companionship in the inventory if one is trying to avoid killing them.
+* The Stardust Dragon has a frequent habit of attacking off-screen enemies. Keep that in mind in case the player is searching for a specific rare item drop.
+* Due to its high amount of damage with many segments, the Firecracker's tag can deal immense amounts of damage in one hit when used alongside it.
+* When picking Armor and Accessories to maximise the Stardust Dragon's damage, as a general rule, increasing the length of the dragon with additional summons is almost always better than increasing its damage by some percent.
+
+== Trivia ==
+* The Stardust Dragon buff icon is also used internally as the Daybroken debuff icon. It is merely a placeholder icon, as it cannot be inflicted upon players, so the icon never actually displays in-game.
+* The and are the only other summon weapons that do not spawn a new minion but rather enhance the existing one.
+* Its buff tooltip is similar to the buff tooltip for the Stardust Guardian, being "" and "" respectively.
+* The Stardust Dragon Summon may also be a reference to the popular card game Yu-Gi-Oh's [https://yugioh.fandom.com/wiki/Stardust_Dragon Stardust Dragon] monster card where it was the main character [https://yugioh.fandom.com/wiki/Yusei_Fudo Yusei Fudo]'s signature card in the 5D's series.
+
+== History ==
+
+
+# 文档：Strange Glowing Mushroom
+- 类别：buffs
+- 标识：strange-glowing-mushroom
+- 来源：wiki/Strange_Glowing_Mushroom
+
+The Strange Glowing Mushroom is an item that spawns a miniature Truffle as a pet. The pet emits a small amount of light, similarly to Glowing Mushrooms. It is purchased from the Truffle for .
+
+== Notes ==
+* Unlike other pets, the Baby Truffle will not fly to you should it go too far away. It simply disappears, reappearing at your position (or when you land), similar to how the player can go in to stealth whilst wearing the Shroomite armor.
+* Despite being a normal Pet, the Baby Truffle gives off blue light.
+
+== History ==
+
+
+# 文档：Sunflower
+- 类别：buffs
+- 标识：sunflower
+- 来源：wiki/Sunflower
+
+Sunflowers are large plants which can be found growing naturally on grass, and can be freed with a pickaxe or drill, or by coming into contact with water. They cannot be grown from seeds like most other plants, but are instead placed fully-grown, either naturally upon world generation or by the player. They can also be purchased from the Dryad for each, while a Blood Moon is not occurring.
+
+Sunflowers provide the following functions:
+* The two tiles directly underneath them cannot become Corrupted, Crimsoned, or Hallowed, even in Hardmode. In some cases, this can prevent Corrupted and Crimson grass from spreading sideways.
+* Each Sunflower decreases an area's total Corruption rating by 5 tiles. This rating is used to determine whether NPCs will reject housing. If placed in large quantities, they can allow NPCs to live near tainted blocks. This effect covers a radius of about 25 tiles.
+* They provide the Happy! buff to players within a centered on the Sunflower, which grants a +10% movement speed bonus and 17% reduction in enemy spawn rate.
+* Sunflowers help to prevent Graveyard biomes from forming by canceling out one Tombstone each.
+
+Sunflowers can only be placed on regular, Hallowed, or Jungle grass, at any height. They cannot be placed on Corrupt grass, Crimson grass, bare Dirt Blocks, nor in Clay Pots or Planter Boxes.
+
+== Notes ==
+* The Sunflower's Happy! buff stacks with the effect of the , as well as the movement speed buff of Asphalt Blocks.
+** This does not affect top running speed when equipped with Movement Accessories such as the Hermes Boots or their upgrades.
+* The buff reduces critter spawns, so if the player would like to collect bait, it is wise to remove any nearby Sunflowers.
+* Sunflowers glow in the dark, though they will not light up the surrounding area, only its flower.
+* When placed in a Graveyard biome, Sunflowers do not grant nearby players the Happy! buff.
+
+== Trivia ==
+framed|right|The sunflower from the release trailer.
+thumb|right|The loading icon.
+* In the [https://www.youtube.com/watch?v=-nXdtDgpPeE release trailer] for 1.3, a variant of sunflower was shown with a golden interior as opposed to the regular sunflower (some are seen in the beginning of the trailer). It never ended up in the final update and its effects are unknown.
+* Sunflowers' ability to resist Corruption and Crimson may be a reference to their real-world reputation for cleaning up nuclear radiation.
+* A sunflower is used as the loading icon on the versions.
+*The sunflower in the loading icon is very similar to the loading icon of Plants vs. Zombies 2, a marigold that plays a very similar animation.
+
+== History ==
+
+== References ==
+
+
+# 文档：Superheated Blood
+- 类别：buffs
+- 标识：superheated-blood
+- 来源：wiki/Superheated_Blood
+
+The Superheated Blood is a mount-summoning item that summons a rideable Lava Shark Mount. It is obtained by opening Obsidian Crates or Hellstone Crates found by fishing in lava.
+
+Riding the mount will allow the player to swim very quickly in lava without taking damage. It can also swim in water and honey, but will not protect the player from drowning. It has a maximum speed of in liquids and on land.
+
+The mount maintains its velocity in the air, allowing for jumps similar to while riding a Minecart. When moving upwards or downwards, it tilts towards that direction.
+
+== Notes ==
+* The lava immunity feature does not extend to blocks that inflict the Burning debuff, such as Hellstone, and the player will still take damage from them without an Obsidian Skull or its upgrades.
+* The Lava Shark Mount will not protect the player from the Chilled debuff. It will, however, ignore its effects, so long as the player stays mounted.
+* While riding the mount, all fall damage is reduced to 1.
+* The mount emits a faint light.
+*If in the Underworld or if a Chromatic Cloak is equipped, the mount can be used to swim in shimmer.
+
+== Achievements ==
+
+== Tips ==
+* The Lava Shark Mount is very useful for mining Hellstone as it grants unlimited immunity to lava. If the player has large supplies of Obsidian, selling the Hellstone in form of Hellstone Bars is a good way to make money, even in Hardmode.
+* When paired with either the Bottomless Lava Bucket or the Bottomless Water Bucket, this mount can grant infinite flight. This may take some time to get the hang of, and the results can be messy.
+* The Lava Shark Mount could be used during the fight against the Wall of Flesh, without the need of a bridge or Lava Waders or their upgrades, although this might require some practice beforehand.
+
+== Trivia ==
+* When not in liquid, the Lava Shark has saddened eyes.
+* The item's tooltip, ', is an informal interjection commonly used in as an expression of dismay, disgust, anger, or surprise, as well as a pun on how the item itself is a jar of blood associated with the underworld, or hell''<nowiki/>'.
+* The mount moves at the same speed in all liquids.
+* It can be seen as an upgrade to the Turtle Mount, as they are both mounts with increased speed in liquids that are obtained by fishing.
+
+== History ==
+
+
+# 文档：Suspicious Grinning Eye
+- 类别：buffs
+- 标识：suspicious-grinning-eye
+- 来源：wiki/Suspicious_Grinning_Eye
+
+The Suspicious Grinning Eye is a Master Mode-exclusive drop from the Eye of Cthulhu, with a chance to drop. It summons a Suspicious Eye pet which resembles the Eye of Cthulhu. It normally shows a blue iris and pupil, but when moving at above certain speed the pupil slides up and reveals a mouth, similar to the Eye of Cthulhu's second form.
+
+== Trivia ==
+* The tooltip is a reference to the Suspicious Looking Tentacle item (or Suspicious Looking Eye light pet) and how the name of the pet, Suspicious Eye, is seemingly missing the word looking.
+* While the Suspicious Grinning Eye is equipped, the Suspicious Eye pet will always be in front of the player if they are standing still. After equipping the Suspicious Looking Tentacle, however, the Suspicious Eye pet will be pushed to the other side of the player and Suspicious Looking Eye light pet will hover in front instead.
+* Due to the pet's similarity to the Suspicious Looking Eye light pet, dyeing it with Teal Dye will make it look almost identical.
+
+== History ==
+
+
+# 文档：Suspicious Looking Apple
+- 类别：buffs
+- 标识：suspicious-looking-apple
+- 来源：wiki/Suspicious_Looking_Apple
+
+| use = 19
+| buff = Pet Worm
+| id = 5059
+| tags = Drop
+| projectilename = Worm Pet
+}}
+
+The Suspicious Looking Apple is a pet-summoning item that spawns a Worm pet that lasts until the player manually cancels by using the Suspicious Looking Apple again, or the player dies. It is sometimes found in Chests and has a 10–30% drop chance from Devourers, 20% drop chance from Giant Worms, a 40% drop chance from Diggers, a 45% chance from World Feeders, and a ~5% chance from an Eater of Worlds segment.
+
+The Worm pet is the only pet that can speak, randomly uttering phrases depending on certain circumstances.
+
+== Quotes ==
+* "Boring!" – when standing still too long.
+* "Bye bye!" – when the player dies.
+* "Grenade!" – when throwing an explosive, such as a Grenade.
+* "Incoming!" – when an event, such as a Blood Moon, begins.
+* "Hup!" – the Worm will make a noise which appears to be that of minor exertion, this sound is played when it jumps.
+* "Victory!" – sometimes, when the player kills three enemies (the count is accumulated).
+
+== Notes ==
+* When the buff is active and the player dies, it drops a unique Tombstone: File:Strange Looking Tombstone.png. Once freed, it cannot be placed, despite its tooltip saying so.
+
+== Trivia ==
+* The Suspicious Looking Apple is part of the Worms 3 crossover. In addition to being its design being based on the ' franchise characters, the pet will don a red headband when flying too far from the player, similar to the Fire Punch attack from the Worms games. Its jump noise is also from ' / .
+* It is one of three pets that can make noises, the others being the and the .
+* Fittingly, all enemies that drop this item are worm-types.
+* Similar to the , the Suspicious Looking Apple is named as if it were a boss-summoning item instead of a pet-summoning item. However, unlike the Suspicious Looking Tentacle, it explicitly states it is a pet summon in its tooltip.
+
+== History ==
+
+
+# 文档：Tablet Fragment
+- 类别：buffs
+- 标识：tablet-fragment
+- 来源：wiki/Tablet_Fragment
+
+The Tablet Fragment is a pet summon item with a chance to drop from the Lunatic Cultist in Master Mode. It summons a Phantasmal Dragon pet that follows the player. It resembles the Phantasm Dragon spawned during the Lunatic Cultist boss fight. The only difference between the two is that the pet itself is smaller.
+
+== Trivia ==
+* The item sprite resembles a shard of the Mysterious Tablet. This is likely the case, considering the Cultists that must be killed to summon the Lunatic Cultist are seen worshipping it.
+*The item sprite even more closely resembles a Solar Tablet; the same star symbol is visible on both sprites.
+* The buff tooltip likely references the Mysterious Tablet's role in summoning the Moon Lord.
+
+== History ==
+
+
+# 文档：Terraprisma
+- 类别：buffs
+- 标识：terraprisma
+- 来源：wiki/Terraprisma
+
+frame|A Terraprisma attacking a Mimic.
+
+The Terraprisma is a Hardmode, post-Plantera summon weapon. It spawns a copy of itself that rapidly attacks nearby enemies. It is a guaranteed drop from the Empress of Light when all damage dealt to the Empress occurs during the day.
+
+It is thought to be one of the hardest summon weapons to acquire in the game, as the Empress of Light will one shot the player with any attack during the day, but is also one of the best summons in the game due its unique and powerful attacks.
+
+== Notes ==
+* When summoned, the sword will be spawned at the cursor, but will instantly teleport behind the player. It will also hover behind the player when idle. If more than one sword is summoned, they will arrange themselves in a wing-like configuration.
+* The Terraprisma's attack pattern consists of an extremely quick stab, before constantly attacking with a spinning motion similar to the Zenith until the target is dead. This pattern will repeat each time the sword changes targets.
+* Terraprisma's minion have custom immunity frames, allowing them to hit more often than other piercing attacks.
+* Unlike most minions, the sword will immediately return to the user's side, preventing it from getting stuck behind blocks and blocking its field of vision.
+* The Terraprisma swords will not move/attack through blocks by default, but if they attack an enemy in direct line of sight, they will then continue to attack any other nearby enemies, ignoring blocks, before returning to the player.
+* The minions leave a rainbow trail while moving.
+* If dyed with Critter Shampoo, most basic and gradient dyes will have little effect on the sword's colors due to its bright coloration. Bright dyes will work properly as they override the sword's color completely.
+
+== Tips ==
+* Like the Blade Staff and Sanguine Staff, the Terraprisma's precise movement, tracking, and fixed idle position make it an ideal choice for assisting the player with faster bosses and for crowd control.
+* If the player's back is against a wall, door, or other solid block, the Terraprisma will phase through the solid block, attacking any enemies within range.
+* It is the best summon weapon in Terraria in terms of . A disadvantage, however, is its short range.
+* Because the Terraprisma does not move through blocks, while arguably the best/highest damage summon weapon available, some players might opt for minions that ignore blocks altogether, such as Xeno Staff's UFO's. This is especially useful when AFK farming; specifically in the Dungeon, as enemies will often teleport in and attack through blocks.
+
+thumb|140px|The Terraprisma's color change when using a dev username (specifically Acamaeda).
+
+== Trivia ==
+* Although its sprite appears to be a sword, it is actually a summon weapon. This is similar to other sword lookalikes such as the Sky Fracture, which is actually a magic weapon, and the Durendal, which is actually a whip.
+* Like the Eventide, the Terraprisma seems to be based off of the Empress of Light's Ethereal Lance.
+* Being themed around light, the Terraprisma has colors similar to those of fractured rays of light sent through a prism. Hence the "prisma" in the item's name.
+* Despite the tooltip, the summoned minions look nothing like the Enchanted Sword item or the Enchanted Sword enemy.
+* The Terraprisma has the highest base damage of all minion-summoning weapons despite being obtainable pre-Golem and only having a rarity of . This is most likely due to the high difficulty of fighting the Empress of Light during the day.
+* The Terraprisma and are the only minion-summoning weapons that do not have the word staff in their name.
+* When multiple minions are summoned, their pattern forms a helix. This is only visible with very large numbers of minions.
+* 
+
+== Gallery ==
+<gallery widths="240px">
+File:Terraprisma summoned 30 times.png|Terraprisma summoned 30 times, using third-party tools to exceed the minion limit.
+</gallery>
+
+== History ==
+
+
+# 文档：The Black Spot
+- 类别：buffs
+- 标识：the-black-spot
+- 来源：wiki/The_Black_Spot
+
+The Black Spot is a mount-summoning item dropped by the Flying Dutchman in Master Mode with a chance. It summons a rideable Pirate Ship Mount which can fly infinitely.
+
+The Pirate Ship Mount has a max horizontal flight speed of , a diagonal speed of , and a vertical speed of . In the , it moves slightly slower () when in a body of water. Upon achieving , a ring of gold particles appears around the player and trails behind the mount, imitating the visual of a vapor cone. Once these particles are displayed, the Pirate Ship Mount begins dealing damage upon ramming enemies.
+
+== Notes ==
+* The Pirate Ship Mount deals 100 base summon damage. Like other mounts, this damage can be boosted by items that boost summon damage.
+* The Flying Dutchman can be fought before beating any of the mechanical bosses, making the Pirate Ship Mount the only mount with infinite flight obtainable before any Hardmode boss fights.
+* While most other mounts are four tiles tall, the Pirate Ship Mount is five tiles tall.
+
+== Achievements ==
+
+== Tips ==
+* Obtaining The Black Spot prior to defeating a mechanical boss is a challenging (given the difficulty of the Master Mode, early-Hardmode Pirate Invasion) but rewarding task. See Pirate Invasion § Tips and Guide:Defending against events for tips.
+* It is advisable to remove mobility accessories when using the mount, as they will not boost its movement.
+
+== Trivia ==
+* The item is a reference to the adventure novel by Scottish author , where pieces of paper marked with a play an important role.
+* The buff tooltip may be a nod to the 2013 American biographical drama-thriller movie , where the pirate says "I'm the captain now", a phrase commonly used within meme communities on the internet.
+
+== History ==
+
+
+# 文档：The Dirtiest Block
+- 类别：buffs
+- 标识：the-dirtiest-block
+- 来源：wiki/The_Dirtiest_Block
+
+The Dirtiest Block is a pet summoning item that summons a Dirt Block. It can be obtained by mining a block that looks almost identical to Dirt Blocks. Only 3 can be obtained in a small world, 6 in a medium sized world and 9 in a Large World.
+
+The chance of the The Dirtiest Block to drop from a Dirt Block that has been mined by a player is a .
+
+== Notes ==
+* Because of the number that is obtainable in a world, The Dirtiest Block is one of the rarest objects in the game.
+* Dirtiest Blocks can also be a Mud Block in the Not the bees seed.
+
+== Tips ==
+* Using a Drill Containment Unit can make it easier to find the Dirtiest Blocks.
+* A Celebration Mk2 with some Mini Nuke IIs can also make it easier.
+* A small corruption world with the seed "1.2.1.1562140810" will have a dirtiest block 25 blocks to the right 3 blocks down from spawn. (1.4.1.1562140810 for Journey mode characters wanting to research The Dirtiest Block)
+** Recreating this world will allow an infinite number of dirtiest blocks to be obtained.
+
+== Trivia ==
+* One of the Merchant's phrases mentions this block: "".
+* The Dirt Rod cannot be used to pick up The Dirtiest Block while in tile form.
+
+== History ==
+
+
+# 文档：Tiki Totem
+- 类别：buffs
+- 标识：tiki-totem
+- 来源：wiki/Tiki_Totem
+
+The Tiki Totem is a Hardmode item that summons a Tiki Spirit pet that floats and spins above the player's head. It is purchased from the Witch Doctor for , when the Witch Doctor is housed in the Jungle biome during Hardmode. Unlike most pets, it will not teleport to the player when the player moves too quickly for it to keep up; it will simply float straight towards the player.
+
+== Trivia ==
+*It is likely a reference to the character Aku Aku from the Crash Bandicoot games.
+
+== History ==
+
+
+# 文档：Toy Sled
+- 类别：buffs
+- 标识：toy-sled
+- 来源：wiki/Toy_Sled
+
+The Toy Sled is a pet summoning item that summons a baby snowman pet when used. It has a 1/20 (5%) chance of being dropped by Ice Mimics found in the Snow Biome. When far enough away, the Baby Snowman will ride a toy sled to catch up to the player.
+
+== Trivia ==
+* Even though the Toy Sled is Christmas-themed, it can be obtained at any time of the year.
+
+== History ==
+
+
+# 文档：Toy Tank
+- 类别：buffs
+- 标识：toy-tank
+- 来源：wiki/Toy_Tank
+
+The Toy Tank is a mount-summon item that spawns a rideable Santa-NK1. It is dropped by the Santa-NK1 in Master Mode.
+
+The mount is notable for having a double jump as well as two auto-targeting weapons attached; a front-facing machine gun and a homing rocket launcher.
+
+The maximum movement speed of the mount is 41 mph, and it takes about 1.5 seconds to reach top speed. The maximum jump height is 12 blocks without a double jump, or 26 blocks with the double jump when timed right. The double jump can be stacked with other double jump accessories. The tank is 2 blocks wide and 3 blocks tall, making it easier to mine with than larger mounts such as The Black Spot.
+
+The two attached weapons target Enemies in a cone shaped area in front of the player up to 30 blocks away. The machine gun does around 80-120 damage on a normal hit. Combined with its fast rate of fire, that makes this mount a reliable weapon. The homing rockets do around 100-131 damage on a normal hit. Once shot from the tank, homing rockets seek the closest target, including targets that did not cause it to fire such as ones behind the player. The damage dealt does not scale with any modifiers the player has.
+
+== Notes ==
+* The player can use items or other weapons while the tank attacks, making it useful as a DPS boost.
+* This mount reduces fall damage to 1.
+
+== Trivia ==
+* Its tooltip, “For the REALLY naughty ones,” is a reference to Santa’s nice/naughty list. The buff tooltip, "Crossing off the naughty list..." references the same story.
+* Its item tooltip references the name of Santa-NK1 while it was in development.
+*The Toy Tank is likely a reference to the Total Tank from the movie The Santa Clause, in which a toy depicting Santa riding a tank is being marketed.
+
+== Achievements ==
+
+== History ==
+
+
+# 文档：Unlucky Yarn
+- 类别：buffs
+- 标识：unlucky-yarn
+- 来源：wiki/Unlucky_Yarn
+
+The Unlucky Yarn is a pet-summoning item which summons a Black Cat pet that follows the player around. It is obtained from a Goodie Bag with a chance. It will fly on a broom to catch up with a player that moves too far away from it. 
+
+== Trivia ==
+* The "Unlucky" in the item's name references a common superstition that black cats will bring bad luck.
+* Black cats are often a stereotypical familiar for witches, hence the cat wearing a witch's hat, and the flying animation depicting a witch's broom.
+* The hat appears to be the Wizard Hat dropped by Tim.
+
+== History ==
+
+
+# 文档：Vampire Frog Staff
+- 类别：buffs
+- 标识：vampire-frog-staff
+- 来源：wiki/Vampire_Frog_Staff
+
+| / 13 }}
+| tags = minion / drop
+}}
+
+frame|right|The Vampire Frog Staff in action.
+
+The Vampire Frog Staff is a pre-Hardmode summon weapon. It spawns a Vampire Frog minion that follows the player and attacks enemies using its tongue. It has a chance to be dropped by a Zombie Merman or Wandering Eye Fish, both of which will spawn while fishing during a Blood Moon.
+
+The best modifier is Mythical but Godly, Demonic, Ruthless, Furious, and Masterful all raise its base damage by the same amount due to rounding.
+
+== Tips ==
+* This minion can be obtained earlier than the Hornet Staff and is fairly useful for close-range defense and clearing out enemies in open areas. However, Vampire Frogs are prone to getting stuck behind blocks. For more agile minions that can target airborne targets, the player can use the .
+* It can do relatively high damage at this point of the game, especially when paired with the Shark Tooth Necklace.
+* Because the frog deals damage on contact rather than with a bespoke attack pattern, the vampire frog is one of the few minions that can be tested on Target Dummies without an enemy onscreen.
+
+== History ==
+
+
+# 文档：War Table
+- 类别：buffs
+- 标识：war-table
+- 来源：wiki/War_Table
+
+The War Table is an animated furniture item that is dropped by the Dark Mage during the Old One's Army event. During the last Tier 1 wave, it has a / chance to drop; during the fourth and sixth Tier 3 waves, it has a / chance to drop.
+
+Placing and pressing on the War Table grants the Strategist buff, which increases the player's sentry capacity by 1. This lasts until the player dies or leaves the world, but can be canceled at any time. .
+
+Unlike equipment buff items, the War Table must be placed in order to activate the buff. It can be mined with a pickaxe or drill and picked up again, even while the buff is active, which will not cancel the buff. Placement is only dependent on an adequate space of 5×4 tiles being available.
+
+== Trivia ==
+* The War Table is an item originally from Dungeon Defenders 2, where it is used to select which map to play next.
+
+== See also ==
+* 
+* War Table Banner
+
+== History ==
+
+
+# 文档：Wisp in a Bottle
+- 类别：buffs
+- 标识：wisp-in-a-bottle
+- 来源：wiki/Wisp_in_a_Bottle
+
+frame|right|The Wisp can be controlled using the movement keys.
+
+The Wisp in a Bottle is a Hardmode, post-Plantera Light Pet item used to summon a light-providing Wisp that follows the player. While active, it is similar to the Flickerwick. The Wisp is brighter and keeps better pace with the player than other Light Pets, except the Suspicious Looking Tentacle and which have the same light radius. It moves in accordance with the direction keys the player is pressing. The Wisps' movement range appears to be about 7 tiles to the left, right, and below the player's hitbox and 7 tiles above the Wisp's normal starting position.
+
+The Wisp in a Bottle has a / chance to drop from Blue Armored Bones, Hell Armored Bones, and Rusty Armored Bones.
+
+== Notes ==
+* The Wisp will often remain deep within the blocks ahead, causing the immediate area around your character to remain dark. To negate this effect, stand still and the Wisp should return.
+* Using will not direct the Wisp upward, and falling will not direct it downward. You must use the or keys, respectively.
+* When the player is far ahead, the Wisp will spin to catch up to the player, giving off less light.
+* The Wisp moves at 26 mph when not spinning, and 61 mph when spinning. The latter is equal to the Unicorn Mount's top speed.
+** If the player's speed exceeds 61 mph, the wisp will teleport to the player when too far away.
+* On the and , the Wisp is controlled with the right joystick and left joystick, respectively
+* Dye applied to the Wisp does not change the amount or color of light emitted, even if the Wisp is made invisible.
+
+== Achievements ==
+
+== Tips ==
+* Grappling a block will allow the player to freely direct the Wisp.
+* Applying Twilight Dye, Living Ocean Dye or Living Flame Dye seemingly turns the Wisp completely invisible while still providing light, should players wish for such a thing for cosmetic reasons or when fighting Dungeon Spirits. Some other dyes can achieve this effect as well, such as Shadow Dye, although to a lesser degree.
+* When directing the Wisp into a Cloud Block, it will glow significantly brighter, unlike most light sources.
+
+== Trivia ==
+* The Wisp appears to be a flaming skull.
+* Wisp refers to s, mythological ghost lights reported to lead travelers to their death in swamps.
+
+== History ==
+
+
+# 文档：Witch's Broom
+- 类别：buffs
+- 标识：witchs-broom
+- 来源：wiki/Witch's_Broom
+
+The Witch's Broom is a mount summon which is dropped from the Mourning Wood boss in Expert Mode. When used, it summons a rideable broom that allows the player to fly and hover indefinitely in any direction.
+
+== Notes ==
+* The broom mount behaves exactly the same as the UFO mount from the Cosmic Car Key. Unlike the UFO mount, however, the player can still ride the broom in liquids.
+** The broom mount has a top speed of 46 mph when flying horizontally and 41 mph when flying vertically. When flying diagonally, however, it can reach 62 mph max. When in liquids, the speed is reduced to 23 mph when flying horizontally and 21 mph when flying vertically, 26 mph when flying downward diagonally, and 31 mph when flying upward diagonally, respectively. However, when in Merfolk form granted by Neptune's Shell, Moon Shell or Celestial Shell, the broom acts like it is not submerged in liquid.
+*** Because of this, one can fly at the same speed as, if not faster, than the Dungeon Guardian (41 mph consistently).
+* The broom's hitbox is the same size as the player: 2 by 3 tiles, so unlike the UFO mount, the broom can fit through doorways making the Rod of Discord less essential for traversal.
+* The broom cannot fly downwards through "bottom" platforms (that is, hammered to the lower half of the block), and will instead bounce off them. Other platforms can be passed downward with only a slight delay.
+* Falling from maximum speed and mounting the broom allows it to fly at 51 mph.
+* Similarly, it is possible to fall from a height at max speed and then mount the broom and fly diagonally. This reaches a speed of 66 mph.
+* The lantern hanging from the front of the broom also provides a small amount of light.
+
+== Achievements ==
+
+== Tips ==
+* When using this mount, it may be useful to replace accessories such as any Wings or Boots.
+* Using wings with hovering abilities in tandem with Lightning, Frostspark, or Terraspark Boots can provide more speed and mobility, although they lack infinite flight time.
+* Using wings with a fast ascent speed such as Fishron Wings, it is possible to fly upwards with the wings, deploy the mount and maintain the speed of the wings beyond the duration of the wings.
+* The mobility of this mount and the ability to use items while riding it makes it a good mount for construction.
+* This mount can be considered better than the Cosmic Car Key in certain scenarios, because it can be obtained earlier in Expert Mode worlds, and can fly through liquids. It also has a smaller hitbox than it, letting the player go through doors while mounted.
+
+== Trivia ==
+* It is the only Expert mode exclusive item to be dropped by an event boss.
+** It is also the only Expert mode exclusive item to not be obtained in a Treasure Bag.
+* The Broom's Tooltip and lightsource might indicate that it's a reference to Marisa Kirisame from the Touhou Project as the lightsource looks familiar to her mini-Hakkero, as well as the Tooltip saying "Grants a witching spark of inspiration".
+
+== History ==
+
+
+# 文档：Writhing Remains
+- 类别：buffs
+- 标识：writhing-remains
+- 来源：wiki/Writhing_Remains
+
+The Writhing Remains is a pet item that can be dropped by Eater of Worlds in Master Mode at a chance. It summons a pet Eater of Worms. It acts similarly to The Deactivated Probe, which is the Master Mode pet of The Destroyer.
+
+== Notes ==
+* Despite the tooltip and summoned pet's name, the Eater of Worms interacts with neither the critter nor item form of the Worm.
+
+== Trivia ==
+* The buff tooltip "May ruin several backyards" could possibly be a reference to worms often digging holes in backyards or worms being important to backyards.
+
+== History ==
+## DEBUFFS
+共 8 篇文档
+
+# 文档：Chaos State
+- 类别：debuffs
+- 标识：chaos-state
+- 来源：wiki/Chaos_State
+
+Teleports you to the position of the cursor
+| debuff = Chaos State
+| debuffduration = 6 seconds <br/> 9 seconds
+| debuffchance = 100%
+| tags = hardmode / drop
+}}
+
+framed|Rod of Discord's cast animation.
+
+The Rod of Discord is a Hardmode tool that instantly teleports the player to the mouse cursor. It has a / chance of being dropped by Chaos Elementals.
+
+Using the Rod of Discord costs no mana or ammunition; however, each use inflicts the Chaos State debuff on the player for 6 / 9 seconds. Using the Rod while the debuff is active causes the player to lose health equal to 1/7 / 1/6 of their maximum health.
+
+== Crafting ==
+=== Used-in ===
+
+== Notes ==
+* The target location must be at least 3 tiles high and 2 tiles wide. Pressing the button will always place the player's feet at the cursor position. Thus, in order to teleport into a 3-tile-high opening, the player must aim at the floor. Unsuccessful teleports play the same sound, but do not inflict the debuff.
+** While riding a mount, the target location must usually be taller, depending on the mount. For instance, while riding the Unicorn Mount, the location must be 5 tiles high.
+* Attempting to teleport into the Jungle Temple before Plantera is defeated will not work. It will work after Plantera is defeated, even allowing the player to enter a locked Jungle Temple without using up a Temple Key.
+* While teleporting cancels fall damage, it does not reset the wing flight timer.
+* Despite causing no damage to enemies, the Rod of Discord can be placed on a Weapon Rack.
+* Using the Rod of Discord when moving maintains the player's movement speed.
+* Using it does not cancel the Shroomite armor's stealth.
+* If the player simply taps the button with the Rod of Discord on the , they will be teleported slightly right of the spot where they were standing (and above if blocks are in the way or furniture is to the right). Using the thumbpad can see mixed results if the aim mode is set to Aim & Use rather than Aim Only.
+* The damage incurred by Chaos State cannot be dodged with a Black Belt/Master Ninja Gear, Holy Protection or .
+** It is always negated in , like all other damage.
+**It bypasses and does not trigger invulnerability frames.
+* In worlds, the drop rate of the Rod of Discord is increased to .
+*If the Rod of Discord is tossed into Shimmer after the Moon Lord has been defeated, it will transform into the Rod of Harmony, which works identically but no longer inflicts any status effects, giving it unlimited uses with no risk of health loss.
+
+== Tips ==
+* If this item is used correctly, it has the potential to become one of the best items for maneuvering the map. For instance, it is very useful for capturing Truffle Worms because they can be caught almost immediately upon materializing. It is also useful for maintaining high movement speed, e.g. on fast mounts, by surpassing obstacles that would otherwise require slowing down.
+* This item is valuable for dodging high-damage attacks, such as the Phantasmal Deathray, contact damage from the Dungeon Guardian, or the Ethereal Lance during her "enraged" state. Losing health from chaos state doesn't matter with these attacks, as the damage take otherwise would be either much higher or outright lethal.
+* This item is a necessity for fighting Empress of Light during the daytime, as it can save the player from multiple near-death situations.
+* While it is one of the rarest items in the game, it can be obtained immediately after the start of Hardmode without requiring defeating any additional bosses.
+* Since this item is one of the few ways to deal self-damage on command, it can be used with the Shrimpy Truffle or the Panic Necklace to activate the speed boost. Furthermore, it allows easily getting the Frequent Flyer achievement.
+* Increasing the player's view, then quickly switching to the Rod of Discord and using it, allows teleporting larger distances. There are multiple ways to increase the view range:
+** Using items like the Binoculars, Rifle Scope, or any of its upgrades.
+** Hitting a Golf Ball; the camera will follow it as long as the player is holding a Golf Club.
+
+== Trivia ==
+* Dying from teleporting during the Chaos State will display unique death messages:
+** ""
+** "" 
+** "&lt;Player name&gt;'s legs appeared where his head should be." 
+** "&lt;Player name&gt;'s legs appeared where her head should be." 
+*** This is the only death message that changes based on the character's gender.
+* The Chaos State debuff was introduced to combat the problem of being able to use the Rod of Discord repeatedly, granting the user an arguably overpowered method of transportation or evasion.
+* The abbreviation of the Rod of Discord, RoD, is the same as the first word, rod.
+* This is one of the only ways in the game the player can have negative health. 
+* In earlier mobile versions, using the Rod of Discord would instantly kill its user, and the death message would read "Structures".
+*The Nurse can heal the Chaos State Debuff.
+
+== History ==
+
+
+# 文档：Debuffs
+- 类别：debuffs
+- 标识：debuffs
+- 来源：wiki/Debuffs
+
+Debuffs are temporary, negative status effects, as opposed to buffs, which affect the player positively. Once a debuff has been inflicted, the debuff's icon will display to the upper right / upper left of the player's window, along with a icon shading / count-down timer, showing how much longer the debuff will be in effect. The counter will begin at one minute/second less than its listed duration and show zero during the final minute/second.
+
+Most debuffs can only be inflicted by enemies, however it is also possible for traps and Red Potion to inflict some debuffs on players.
+
+Players can inflict various debuffs on most enemies. See Notes for a list of weapons that inflict debuffs on enemies.
+
+In general, damaging debuffs will stack: If a player is both Poisoned and On Fire!, they will take damage from both debuffs. However, Poisoned and Venom do not stack, and Poisoned will take precedence over Venom. Death always cancels any active buffs or debuffs.
+
+Unlike buffs, debuffs cannot be canceled by right-clicking their icons. The Nurse can cancel debuffs at a cost of per active debuff. This does not apply to the Potion Sickness debuff, because when trying to cancel the Potion Sickness debuff, the Nurse will not charge for recovery of the debuff and the debuff will not be canceled, but the Potion Sickness icon will disappear.
+
+== From enemies ==
+{| class="terraria lined sortable"
+! Icon !! Name !! Effect !! Tooltip !! Duration
+
+|}
+
+== From items and environment ==
+{| class="terraria lined sortable"
+! Icon !! Name !! Effect !! Tooltip !! Duration
+
+|}
+
+== Other debuffs ==
+{| class="terraria lined sortable"
+! Icon !! Name !! Effect !! Tooltip !! Duration
+
+|}
+
+== Unobtainable debuffs ==
+{| class="terraria lined sortable"
+! Icon !! Name !! Effect !! Tooltip !! Notes
+
+|}
+
+== Notes ==
+* Players with the Darkness debuff will keep their eyes shut as a cosmetic indicator.
+* The duration of the following debuffs, if inflicted on players, is increased by 100% in (i.e. doubled) and by 150% in :<section begin=expert_doubled />
+
+<section end=expert_doubled />
+
+:* Furthermore, players in Expert worlds are inflicted with the Chilled debuff when they enter water in a Snow biome. The Chilled debuff lasts for as long as the player is in the water and lasts for 5 seconds after getting out.
+* The maximum possible damage per second that can be inflicted on an enemy with damaging debuffs is 1331. This can be achieved by consuming a Flask of Cursed Flames, switching between wearing Frost armor and Huntress armor/Red Riding armor and a Magma Stone, and using the Daybreak, Bone Javelin, Shadowflame Knife, Venom Staff, while having a Imp Staff, a Hornet Staff, a Stardust Cell Staff minion , and a Explosive Trap sentry summons active, against a target that has been Oiled (due to the explosive trap) and within the range of Dryad's aura in a world with all bosses defeated.
+* The following weapons inflict debuffs on enemies:
+{| class="terraria lined sortable"
+! Weapon !! Debuff
+
+|}
+
+== See also ==
+* Buffs
+
+== History ==
+
+== References ==
+
+
+# 文档：Dryad's Bane
+- 类别：debuffs
+- 标识：dryads-bane
+- 来源：wiki/Dryad's_Bane
+
+thumb|right|The Dryad in the midst of her blessing.
+thumb|right|350px|A Larger view of Dryad's Blessing.
+
+Dryad's Blessing is a buff granted through the Dryad's NPC action. Rather than attacking nearby enemies, the Dryad casts a shield of leaves while enemies are near.
+
+All players and NPCs will gain the following effects while within the range of the Dryad's ability:
+* +8 Defense to players and +6 / / Defense to NPCs
+* +50% Thorns effect to players (50% damage reflected onto attacker, stackable with Thorns buff only) and +33.33% Thorns effect to NPCs
+* +3 Health per second regeneration rate to players and +3.33 Health per second to NPCs
+* Visual effect: Green sparkle trail from feet while moving
+
+Enemies are afflicted with the Dryad's Bane debuff, which applies 4 damage per-second to enemies within the Dryad's leaf field. This debuff deals additional damage based on players' progression through the current world; see NPCs#Stat boosts for the specific details of these progression boosts. Additionally, the total progression boost is multiplied by a game mode-specific multiplier: 1.0× / / . So if, for example, the current progression boost is +40% total and the world is in Expert Mode, the Dryad's Bane damage is actually raised by (1.4 × 1.5) = 2.1 = +110%. The final damage rate is rounded down, so e.g. 4 damage per second × 2.7 = 10.8, rounded down to 10.
+* With no bosses defeated, the total damage rate is 4 / / .
+* With all bosses defeated, the total damage rate is 10 / / .
+
+== Notes ==
+* The buff stacks with the Thorns buff, but not with the thorns effect from the Turtle armor set bonus, which overrides it.
+* On the , this buff is overridden by the Thorns buff, but it does stack with Cactus armor's set bonus.
+* The reflected damage is capped at 1000.
+
+== Trivia ==
+* The tooltip of Dryad's Bane is based on the phrase, "The power of Christ compels you!" from the classic film .
+
+== Immune NPCs ==
+
+== History ==
+
+== References ==
+
+
+# 文档：Magma Stone
+- 类别：debuffs
+- 标识：magma-stone
+- 来源：wiki/Magma_Stone
+
+| tags = drop
+}}
+{| class="terraria" style="float:right; margin-left:0.5em;"
+|+ duration
+! Duration !! Chance
+|-
+| || 
+|-
+| || 
+|-
+| || 
+|}
+
+The Magma Stone is an accessory that drops from Lava Bats (2% chance) and Hellbats (0.67% chance) in The Underworld. It causes the wearer's melee attacks to inflict the Hellfire / On Fire! debuff on enemies, and also add orange flame particles effect on both the weapon sprite and their projectile that gives off light. The duration of the debuff is random, and varies according to the table on the right.
+
+The Hellfire debuff is a stronger version of On Fire! and causes the afflicted enemy to lose 15 instead of 4 health per second.
+
+== Crafting ==
+
+=== Recipes ===
+
+=== Used in ===
+
+== Notes ==
+* Though the tooltip does not specifically say so, the fire effect works not only on melee weapons, but also tools that inflict melee damage such as pickaxes, axes and hammers.
+* Whips are not affected by the Magma Stone, despite being affected by many melee-related stats, and even the other bonuses of the Fire Gauntlet.
+* Javelins and Bone Javelins will apply the fire effect, even though they deal throwing damage.
+*The Magma Stone can be thrown into shimmer to change into the Lava Charm.
+
+== Tips ==
+* Lava Bats are three times more likely to drop this item than Hellbats, so farming for it in Hardmode is more efficient than in pre-Hardmode.
+* The Magma Stone's effects stack with those of Frost armor, flasks, and the .
+* Using the Magma Stone with any is useful for quickly mapping out underground caverns.
+* The Hellfire debuff is not put out by water, similar to Cursed Inferno and unlike On Fire!.
+* The Magma Stone can be very useful when dealing with the Hungry. However, the Wall of Flesh itself is immune to both debuffs inflicted by the Magma Stone.
+
+== Immune NPCs ==
+
+== History ==
+
+
+# 文档：Rod of Discord
+- 类别：debuffs
+- 标识：rod-of-discord
+- 来源：wiki/Rod_of_Discord
+
+Teleports you to the position of the cursor
+| debuff = Chaos State
+| debuffduration = 6 seconds <br/> 9 seconds
+| debuffchance = 100%
+| tags = hardmode / drop
+}}
+
+framed|Rod of Discord's cast animation.
+
+The Rod of Discord is a Hardmode tool that instantly teleports the player to the mouse cursor. It has a / chance of being dropped by Chaos Elementals.
+
+Using the Rod of Discord costs no mana or ammunition; however, each use inflicts the Chaos State debuff on the player for 6 / 9 seconds. Using the Rod while the debuff is active causes the player to lose health equal to 1/7 / 1/6 of their maximum health.
+
+== Crafting ==
+=== Used-in ===
+
+== Notes ==
+* The target location must be at least 3 tiles high and 2 tiles wide. Pressing the button will always place the player's feet at the cursor position. Thus, in order to teleport into a 3-tile-high opening, the player must aim at the floor. Unsuccessful teleports play the same sound, but do not inflict the debuff.
+** While riding a mount, the target location must usually be taller, depending on the mount. For instance, while riding the Unicorn Mount, the location must be 5 tiles high.
+* Attempting to teleport into the Jungle Temple before Plantera is defeated will not work. It will work after Plantera is defeated, even allowing the player to enter a locked Jungle Temple without using up a Temple Key.
+* While teleporting cancels fall damage, it does not reset the wing flight timer.
+* Despite causing no damage to enemies, the Rod of Discord can be placed on a Weapon Rack.
+* Using the Rod of Discord when moving maintains the player's movement speed.
+* Using it does not cancel the Shroomite armor's stealth.
+* If the player simply taps the button with the Rod of Discord on the , they will be teleported slightly right of the spot where they were standing (and above if blocks are in the way or furniture is to the right). Using the thumbpad can see mixed results if the aim mode is set to Aim & Use rather than Aim Only.
+* The damage incurred by Chaos State cannot be dodged with a Black Belt/Master Ninja Gear, Holy Protection or .
+** It is always negated in , like all other damage.
+**It bypasses and does not trigger invulnerability frames.
+* In worlds, the drop rate of the Rod of Discord is increased to .
+*If the Rod of Discord is tossed into Shimmer after the Moon Lord has been defeated, it will transform into the Rod of Harmony, which works identically but no longer inflicts any status effects, giving it unlimited uses with no risk of health loss.
+
+== Tips ==
+* If this item is used correctly, it has the potential to become one of the best items for maneuvering the map. For instance, it is very useful for capturing Truffle Worms because they can be caught almost immediately upon materializing. It is also useful for maintaining high movement speed, e.g. on fast mounts, by surpassing obstacles that would otherwise require slowing down.
+* This item is valuable for dodging high-damage attacks, such as the Phantasmal Deathray, contact damage from the Dungeon Guardian, or the Ethereal Lance during her "enraged" state. Losing health from chaos state doesn't matter with these attacks, as the damage take otherwise would be either much higher or outright lethal.
+* This item is a necessity for fighting Empress of Light during the daytime, as it can save the player from multiple near-death situations.
+* While it is one of the rarest items in the game, it can be obtained immediately after the start of Hardmode without requiring defeating any additional bosses.
+* Since this item is one of the few ways to deal self-damage on command, it can be used with the Shrimpy Truffle or the Panic Necklace to activate the speed boost. Furthermore, it allows easily getting the Frequent Flyer achievement.
+* Increasing the player's view, then quickly switching to the Rod of Discord and using it, allows teleporting larger distances. There are multiple ways to increase the view range:
+** Using items like the Binoculars, Rifle Scope, or any of its upgrades.
+** Hitting a Golf Ball; the camera will follow it as long as the player is holding a Golf Club.
+
+== Trivia ==
+* Dying from teleporting during the Chaos State will display unique death messages:
+** ""
+** "" 
+** "&lt;Player name&gt;'s legs appeared where his head should be." 
+** "&lt;Player name&gt;'s legs appeared where her head should be." 
+*** This is the only death message that changes based on the character's gender.
+* The Chaos State debuff was introduced to combat the problem of being able to use the Rod of Discord repeatedly, granting the user an arguably overpowered method of transportation or evasion.
+* The abbreviation of the Rod of Discord, RoD, is the same as the first word, rod.
+* This is one of the only ways in the game the player can have negative health. 
+* In earlier mobile versions, using the Rod of Discord would instantly kill its user, and the death message would read "Structures".
+*The Nurse can heal the Chaos State Debuff.
+
+== History ==
+
+
+# 文档：Slime Gun
+- 类别：debuffs
+- 标识：slime-gun
+- 来源：wiki/Slime_Gun
+
+thumb|248.991x248.991px|The Slime Gun in action.
+
+The Slime Gun is a novelty weapon that deals no damage. It auto-fires an arc of slime that inflicts the Slime debuff on players, enemies, and NPCs, causing them to drip blue goo for 30 seconds. This effect is purely cosmetic. The Slime Gun can be used limitlessly and does not consume any ammunition or mana. It has a chance of being dropped by King Slime.
+
+It can be considered a counterpart to the Sparkle Slime Balloon.
+
+== Notes ==
+* Unlike the Water Gun, the Slime Gun can autofire. However, the Water Gun has a longer range than the Slime Gun.
+* Just like the Water Gun, the Slime Gun cannot be placed on a Weapon Rack but instead on an Item Frame.
+* As it is a debuff, the Slime debuff cannot be manually removed.
+
+== Tips ==
+* The Slime debuff is effective for locating while they are traveling through blocks.
+* It can also be used to locate invisible players using the Invisibility Potion or Psycho Knife, or invisible players wearing Shroomite armor or Vortex armor.
+
+== History ==
+
+
+# 文档：Sparkle Slime Balloon
+- 类别：debuffs
+- 标识：sparkle-slime-balloon
+- 来源：wiki/Sparkle_Slime_Balloon
+
+The Sparkle Slime Balloon is a Hardmode novelty consumable item. When thrown at players, enemies, and NPCs, it will inflict the Sparkle Slime debuff for 30 seconds. This debuff is only cosmetic and deals no damage.
+
+Queen Slime always drops 25–75 balloons upon her defeat.
+
+When thrown into Shimmer, it spawns the Diva slime pet.
+
+== Trivia ==
+* It can be considered a Hardmode counterpart to the Slime Gun.
+* The tooltip is a reference to the "Gamer Girl Bathwater" product sold by Belle Delphine during 2019.
+
+== History ==
+
+
+# 文档：Water Candle
+- 类别：debuffs
+- 标识：water-candle
+- 来源：wiki/Water_Candle
+
+The Water Candle is a furniture item that can be placed or held to increase enemy and critter spawn rates in the area, and emits a low amount of light. When placed, it gives nearby players the Water Candle debuff. Holding a Water Candle does not cause the debuff icon to display, but still causes an identical effect. Several Water Candles are found commonly on the shelves of the Dungeon. They can also be crafted at a Crystal Ball, which is bought from the Wizard.
+
+The Water Candle debuff increases all enemy and critter spawn rates by 33%, and increases the maximum number of simultaneous on-screen enemies by 50%. The debuff is applied to any players holding or standing within a centered on a Water Candle. In order to be considered "holding" the candle, the player must be currently selecting it; merely being in a player's inventory or Hotbar will not suffice. Multiple candles will not stack with each other, even if one is placed and the other held. Water Candles can only be placed on platforms and flat furniture items like Work Benches and Tables.
+
+ Placed Water Candles can be shut off by pressing the button on them, and will toggle when activated via wiring. Water Candles that are turned off will not activate the Water Candle debuff.
+
+ Water Candles cannot be turned off, and do not act as mechanisms.
+
+The Water Candle's effect is the opposite of the , which decreases enemy spawn rates. If a Peace Candle and a Water Candle are active at the same time, neither have any effect on spawn rates. Conversely, the Water Candle's effect stacks with that of the Battle Potion.
+
+== Crafting ==
+=== Recipes ===
+
+== Notes ==
+* On the , the effect of a placed Water Candle will stack with that of a held Water Candle.
+* The Water Candle can be placed underwater, but it cannot be held underwater. It will give off light underwater if placed, but not if held. However, it will increase enemy spawn rates underwater, whether placed or held.
+* Water Candles cannot be used to increase the spawn rates of certain events like the Pumpkin and Frost Moons, or the Goblin and Pirate Invasions, though the increase in spawned enemies still applies to the Blood Moon and Solar Eclipse.
+* In Space, the Water Candle's effects are much more prominent, increasing the effective spawn rate from +33% to +167%. This is the only situation in which the Peace Candle does not fully cancel out the Water Candle, but rather reduces its effect to a spawn rate increase of +100%. Being in Space also entirely prevents the Peace Candle from canceling out the Water Candle's increase of +50% maximum amount of simultaneous on-screen enemies.
+
+== Tips ==
+* It may help to collect or turn off all Water Candles found in the Dungeon, as doing so will lower enemy spawn rates in the area.
+* If the player enjoys fishing, it can often be useful to place Water Candles around their town, as it increases the spawn rate of bait critters like Fireflies and Worms. The NPC presence still prevents the spawn of hostile enemies.
+* Water Candles can be useful for farming enemies for rare items, since the increased spawn rate provides more enemies from which to acquire drops.
+*When waiting for a Martian Probe to spawn, placing or holding a Water Candle will drastically reduce the wait time, letting you trigger the Martian Madness event faster.
+
+== History ==
+
+== References ==
+## VANITY_ITEMS
+共 204 篇文档
+
+# 文档：0x33's Aviators
+- 类别：vanity_items
+- 标识：0x33s-aviators
+- 来源：wiki/0x33's_Aviators
+
+0x33's Aviators are a vanity item. On , they can be obtained by defeating the Eye of Cthulhu in Master Mode with any character, while on , they can be obtained from the Eye of Cthulhu's Treasure Bag if opened in Expert Mode by a Hardcore character.
+
+== Notes ==
+* The Eye of Cthulhu's Treasure Bag does not need to be obtained with a Hardcore character. Defeating the Eye of Cthulhu with a Soft- or Mediumcore character and giving the Treasure Bag to a Hardcore character to open it will still reward 0x33's Aviators.
+
+== Trivia ==
+* This item is a reference to Terraria streamer 0x33 who killed the Moon Lord in Expert Mode with a Hardcore character.
+* Its tooltip, "", is both a reference to 0x33 and to developer items, whose tooltips are similar ("").
+* 0x33's Aviators and developer items are the only Expert-exclusive items that do not have the rarity.
+* 0x33's Aviators are the only Master Mode-exclusive item without the rarity.
+* 0x33's Aviators, Badger's Hat, Chippy's Couch, and Pedguin's set are the only pre-Hardmode items to have the base rarity. These items are also all references to Terraria streamers.
+
+== History ==
+
+
+# 文档：Aaron's Breastplate
+- 类别：vanity_items
+- 标识：aarons-breastplate
+- 来源：wiki/Aaron's_Breastplate
+
+== Trivia ==
+* Aaron's Breastplate is the first item in alphabetical order of all items. (If ignoring items with names beginning with punctuation or numbers such as 0x33's Aviators)
+* This is the only developer set to have only three items.
+
+== History ==
+
+
+# 文档：Aaron's Helmet
+- 类别：vanity_items
+- 标识：aarons-helmet
+- 来源：wiki/Aaron's_Helmet
+
+== Trivia ==
+* Aaron's Breastplate is the first item in alphabetical order of all items. (If ignoring items with names beginning with punctuation or numbers such as 0x33's Aviators)
+* This is the only developer set to have only three items.
+
+== History ==
+
+
+# 文档：Aaron's Leggings
+- 类别：vanity_items
+- 标识：aarons-leggings
+- 来源：wiki/Aaron's_Leggings
+
+== Trivia ==
+* Aaron's Breastplate is the first item in alphabetical order of all items. (If ignoring items with names beginning with punctuation or numbers such as 0x33's Aviators)
+* This is the only developer set to have only three items.
+
+== History ==
+
+
+# 文档：Aaron's set
+- 类别：vanity_items
+- 标识：aarons-set
+- 来源：wiki/Aaron's_set
+
+== Trivia ==
+* Aaron's Breastplate is the first item in alphabetical order of all items. (If ignoring items with names beginning with punctuation or numbers such as 0x33's Aviators)
+* This is the only developer set to have only three items.
+
+== History ==
+
+
+# 文档：Ancient set
+- 类别：vanity_items
+- 标识：ancient-set
+- 来源：wiki/Ancient_set
+
+The Ancient set is a Hardmode vanity set which consists of the Ancient Headdress, Ancient Garments and Ancient Slacks.
+
+== Set ==
+
+== Crafting ==
+=== Recipes ===
+
+== Tips ==
+* Selling the Ancient set will net () more than selling all required ingredients.
+
+== Trivia ==
+* The Ancient set visually resembles the Forbidden armor set despite it having no unique ability.
+* The Ancient Headdress resembles common depictions of , the jackal-headed ancient Egyptian god of (an ancient method of corpse preservation).
+* Instances of Horned God set pieces were replaced with the Ancient Headdress/Garments/Slacks upon upgrading to 1.4.0.5.4.1.
+
+== History ==
+
+
+# 文档：Archaeologist's set
+- 类别：vanity_items
+- 标识：archaeologists-set
+- 来源：wiki/Archaeologist's_set
+
+The Archaeologist's set is a Vanity set composed of the Archaeologist's Hat, the Archaeologist's Jacket and the Archaeologist's Pants. 
+
+While two of the pieces are crafted, the Archaeologist's Hat is not, but rather dropped by Doctor Bones.
+
+It is possible to craft these items in a world that has The Crimson instead of The Corruption only by creating an artificial Corruption or by simply bringing leather to the Crimson world (or using a Corrupt Statue to spawn Eater of Souls).
+
+== Set ==
+
+== Crafting ==
+=== Recipes ===
+
+== Notes ==
+<br />
+
+* To create both the jacket and pants, 150 Rotten Chunks are required to make the 30 pieces of leather (75 rotten chunks each). 
+* Filling out this set implies forgoing a great deal of lucrative boss-summoning, as this number of rotten chunks would help make 10 Worm Food.
+
+== Trivia ==
+* This outfit is a reference to the character , protagonist of the film franchise of the same name.
+
+== History ==
+
+
+# 文档：Arkhalis' Bodice
+- 类别：vanity_items
+- 标识：arkhalis-bodice
+- 来源：wiki/Arkhalis'_Bodice
+
+== Notes ==
+* Unlike most other developer items, the set changes color based on the player's undershirt color.
+* The color of the Arkhalis projectile will change to the color of the player's undershirt and its span will be larger if Arkhalis' Bodice is equipped. This is purely visual and does not affect the size of its hitbox.
+*The Arkhalis' Lightwings has been known to cause heavy lag and FPS drops on lower end devices when equipped.
+
+== Trivia ==
+* The tooltip 'I didn't get this from the Grid' could be a possible reference to the 2010 film , in which the digital world it takes place in is referred to as the Grid. It shares the same format as the tooltip for the Arkhalis sword, which states "I didn't get this off of a Schmoo."
+
+== History ==
+
+
+# 文档：Arkhalis' Hood
+- 类别：vanity_items
+- 标识：arkhalis-hood
+- 来源：wiki/Arkhalis'_Hood
+
+== Notes ==
+* Unlike most other developer items, the set changes color based on the player's undershirt color.
+* The color of the Arkhalis projectile will change to the color of the player's undershirt and its span will be larger if Arkhalis' Bodice is equipped. This is purely visual and does not affect the size of its hitbox.
+*The Arkhalis' Lightwings has been known to cause heavy lag and FPS drops on lower end devices when equipped.
+
+== Trivia ==
+* The tooltip 'I didn't get this from the Grid' could be a possible reference to the 2010 film , in which the digital world it takes place in is referred to as the Grid. It shares the same format as the tooltip for the Arkhalis sword, which states "I didn't get this off of a Schmoo."
+
+== History ==
+
+
+# 文档：Arkhalis' Tights
+- 类别：vanity_items
+- 标识：arkhalis-tights
+- 来源：wiki/Arkhalis'_Tights
+
+== Notes ==
+* Unlike most other developer items, the set changes color based on the player's undershirt color.
+* The color of the Arkhalis projectile will change to the color of the player's undershirt and its span will be larger if Arkhalis' Bodice is equipped. This is purely visual and does not affect the size of its hitbox.
+*The Arkhalis' Lightwings has been known to cause heavy lag and FPS drops on lower end devices when equipped.
+
+== Trivia ==
+* The tooltip 'I didn't get this from the Grid' could be a possible reference to the 2010 film , in which the digital world it takes place in is referred to as the Grid. It shares the same format as the tooltip for the Arkhalis sword, which states "I didn't get this off of a Schmoo."
+
+== History ==
+
+
+# 文档：Arkhalis' set
+- 类别：vanity_items
+- 标识：arkhalis-set
+- 来源：wiki/Arkhalis'_set
+
+== Notes ==
+* Unlike most other developer items, the set changes color based on the player's undershirt color.
+* The color of the Arkhalis projectile will change to the color of the player's undershirt and its span will be larger if Arkhalis' Bodice is equipped. This is purely visual and does not affect the size of its hitbox.
+*The Arkhalis' Lightwings has been known to cause heavy lag and FPS drops on lower end devices when equipped.
+
+== Trivia ==
+* The tooltip 'I didn't get this from the Grid' could be a possible reference to the 2010 film , in which the digital world it takes place in is referred to as the Grid. It shares the same format as the tooltip for the Arkhalis sword, which states "I didn't get this off of a Schmoo."
+
+== History ==
+
+
+# 文档：Badger's Hat
+- 类别：vanity_items
+- 标识：badgers-hat
+- 来源：wiki/Badger's_Hat
+
+Badger's Hat is a Hardmode vanity item dropped by the Eye of Cthulhu or the Wall of Flesh when they are both defeated on the same day (from 7:30PM to 7:30PM the next day).
+
+== Trivia ==
+* This item is a reference to Terraria streamer [https://twitch.tv/Badger Badger]. The requirement of defeating the Eye of Cthulhu and Wall of Flesh on the same day to obtain the item is a reference to his speedruns, where doing so is an expected strategy.
+* The first part of the tooltip, "", is in reference to how the green part of Badger's iconic hat is invisible during his streams due to a .
+** While equipped, the green part of the hat may turn invisible at random times.
+* The second part of the tooltip, "", is both a reference to Badger and to developer items, whose tooltips are similar (""). This tooltip is also present on 0x33's Aviators, Chippy's Couch, and Pedguin's set.
+* Equipping the hat in the armor slot and the vanity slot at the same time will stack them, creating a taller hat (this behavior is similar to Empty Buckets).
+* The hat wiggles back and forth while the player walks.
+* The hat will appear above the player's character's icon on the map.
+
+== History ==
+
+== References ==
+
+
+# 文档：Balla Hat
+- 类别：vanity_items
+- 标识：balla-hat
+- 来源：wiki/Balla_Hat
+
+The Balla Hat is a vanity item purchased from the Clothier for , after the Frost Legion has been defeated. On the , the hat is free.
+
+== Notes ==
+* Neither the Balla Hat nor Gangsta Hat are sold in multiplayer even if the conditions are met.
+
+== History ==
+
+
+# 文档：Balloony Beads
+- 类别：vanity_items
+- 标识：balloony-beads
+- 来源：wiki/Balloony_Beads
+
+Balloony Beads are a vanity accessory.
+
+== History ==
+
+
+# 文档：Beanie
+- 类别：vanity_items
+- 标识：beanie
+- 来源：wiki/Beanie
+
+The Beanie is a vanity item purchased from the Clothier for , while living in the Snow Biome.
+
+== Notes ==
+* Because of its lack of color, it may be hard to dye a beanie with regular dye. Try combining the dye with Black Dye, or swap in a Strange Dye.
+
+== History ==
+
+
+# 文档：Bee set
+- 类别：vanity_items
+- 标识：bee-set
+- 来源：wiki/Bee_set
+
+The Bee set is a vanity set consisting of the Bee Hat, the Bee Shirt, and the Bee Pants. All three pieces are dropped by Queen Bee, with a chance each. In , each piece instead has a chance to be dropped from her Treasure Bag, and one piece is always dropped.
+
+== Set ==
+
+== History ==
+
+
+# 文档：Black Graduation set
+- 类别：vanity_items
+- 标识：black-graduation-set
+- 来源：wiki/Black_Graduation_set
+
+The Black Graduation set is a Hardmode vanity set consisting of the Black Graduation Cap and the Black Graduation Gown. They are purchased from the Clothier for during a Waxing Gibbous.
+
+== Set ==
+
+== See also ==
+* Blue Graduation set
+* Maroon Graduation set
+
+== History ==
+
+
+# 文档：Blue Graduation set
+- 类别：vanity_items
+- 标识：blue-graduation-set
+- 来源：wiki/Blue_Graduation_set
+
+The Blue Graduation set is a Hardmode vanity set consisting of the Blue Graduation Cap and the Blue Graduation Gown. They are purchased from the Clothier for during a Waning Crescent.
+
+== Set ==
+
+== See also ==
+* Maroon Graduation set
+* Black Graduation set
+
+== History ==
+
+
+# 文档：Bride of Frankenstein set
+- 类别：vanity_items
+- 标识：bride-of-frankenstein-set
+- 来源：wiki/Bride_of_Frankenstein_set
+
+The Bride of Frankenstein set is a 2-piece Vanity set that has a chance to be dropped by Goodie Bags, which are collected during Halloween with a chance.
+
+== Set ==
+
+== Trivia ==
+* This set is a reference to the 1935 American science-fiction darkly comic horror movie .
+
+== History ==
+
+
+# 文档：Buccaneer set
+- 类别：vanity_items
+- 标识：buccaneer-set
+- 来源：wiki/Buccaneer_set
+
+The Buccaneer set is a Vanity Items set made up of the Buccaneer Bandana, the Buccaneer Tunic and the Buccaneer Pantaloons. 
+
+They can be obtained as a rare drop from any Pirate Invasion enemy, except the Pirate Captain and Parrots.
+
+== Set ==
+
+== Trivia ==
+* It was originally suggested by Leinfors, a Terraria Forum moderator, beta tester, and programmer.
+
+== History ==
+
+
+# 文档：Bunny Hood
+- 类别：vanity_items
+- 标识：bunny-hood
+- 来源：wiki/Bunny_Hood
+
+The Bunny Hood is a vanity headgear item. It has a chance of being dropped by Corrupt Bunnies and . On the , it can also be dropped by Diseaster Bunnies or Lepus.
+
+== Tips ==
+* The Bunny Hood can easily be obtained during a Blood Moon by releasing large amounts of caught Bunnies or by using a Bunny Statue.
+
+== Trivia ==
+* The eyes of the hood change in color by the amount of health the player has.
+
+== See also ==
+* Bunny set
+
+== History ==
+
+
+# 文档：Capricorn set
+- 类别：vanity_items
+- 标识：capricorn-set
+- 来源：wiki/Capricorn_set
+
+thumb|right|Original concept art of the Capricorn set by R-MK.
+
+The Capricorn set is a vanity set consisting of the Capricorn Helmet, the Capricorn Chestplate, the Capricorn Hooves, and the Capricorn Tail. 
+
+The leggings of this vanity have the unique feature of being able to switch from tail to legs and vice-versa via the key when they are not equipped.
+
+== Set ==
+
+=== Leg variants ===
+
+== Crafting ==
+=== Recipes ===
+
+== Notes==
+
+The horns, shoulderplates, gauntlets and all other gold parts will always appear in the dark, though do not give any light off. 
+
+==Trivia==
+*The Capricorn Tail and Hooves are internally considered grab-bag type items, like Goodie Bags or Treasure Bags, since they also drop an item when the button is pressed on them.
+
+==History==
+
+
+# 文档：Cat Ears
+- 类别：vanity_items
+- 标识：cat-ears
+- 来源：wiki/Cat_Ears
+
+Cat Ears are a headpiece vanity item that has a chance to be dropped by Goodie Bags, which are collected during Halloween with a chance.
+
+== See also ==
+* Cat set
+* Reindeer Antlers
+
+== History ==
+
+
+# 文档：Cat set
+- 类别：vanity_items
+- 标识：cat-set
+- 来源：wiki/Cat_set
+
+The Cat set is a set of vanity items consisting of the Cat Mask, Cat Shirt, and Cat Pants. It has a chance to be dropped by Goodie Bags, which are collected during Halloween with a chance.
+
+ Its male and female variants look identical.
+
+== Set ==
+
+== See also ==
+* Cat Ears
+
+== History ==
+
+
+# 文档：Chef set
+- 类别：vanity_items
+- 标识：chef-set
+- 来源：wiki/Chef_set
+
+The Chef set is a set of Vanity items made up of the Chef Hat, the Chef Uniform, and the Chef Pants. It is purchased from the Traveling Merchant for .
+
+== Set ==
+
+== Trivia ==
+* The Chef Hat's tooltip is a reference to the Scottish born, English chef and his frequent, impassioned outbursts.
+
+== History ==
+
+
+# 文档：Clothier's set
+- 类别：vanity_items
+- 标识：clothiers-set
+- 来源：wiki/Clothier's_set
+
+The Clothier's set is a set of vanity items made up of the Red Hat, Clothier's Jacket and Clothier's Pants . 
+
+The Red Hat has a 100% drop chance from the Clothier NPC. The other parts of the set are sold by the Clothier for each, during Halloween.
+
+== Set ==
+
+== Notes ==
+* Common methods to kill the Clothier for the hat include wearing the Clothier Voodoo Doll in an accessory slot (spawning Skeletron can be avoided by unequipping the item or doing it at daytime), luring an enemy over to him, using a lava trap (lava will destroy the hat, so be careful using a lava trap unless it's a very thin layer) or using Rotten Eggs, obtained from a Goodie Bag during Halloween (the eggs damage all NPCs under any circumstances. If using this method, Frost armor is recommended, as its set effect will inflict the Frostburn debuff).
+
+== Trivia ==
+* While wearing the Red Hat and speaking to the clothier, he will sometimes say, "That Red Hat of yours looks familiar..."
+* Despite its name, the Red Hat can be dyed. However, the Clothier still says that it is red, as if it was not dyed.
+
+== History ==
+
+
+# 文档：Clown set
+- 类别：vanity_items
+- 标识：clown-set
+- 来源：wiki/Clown_set
+
+The Clown set is a set of vanity items made up of the Clown Hat, the Clown Shirt, and the Clown Pants. It is purchased from the Clothier for , once a Clown has been defeated.
+
+== Set ==
+
+== History ==
+
+
+# 文档：Country Club set
+- 类别：vanity_items
+- 标识：country-club-set
+- 来源：wiki/Country_Club_set
+
+The Country Club set is a vanity set. It is purchased from the Golfer for .
+
+== Set ==
+
+== History ==
+
+
+# 文档：Cowboy set
+- 类别：vanity_items
+- 标识：cowboy-set
+- 来源：wiki/Cowboy_set
+
+The Cowboy set is a Hardmode vanity set that includes the Cowboy Hat, Cowboy Jacket, and Cowboy Pants. It is purchased from the Clothier for in total, during the first-quarter moon phase in Hardmode.
+
+== Set ==
+
+== History ==
+
+
+# 文档：Creeper set
+- 类别：vanity_items
+- 标识：creeper-set
+- 来源：wiki/Creeper_set
+
+The Creeper set is a set of vanity items consisting of the Creeper Mask, Creeper Shirt, and Creeper Pants. Its male and female variants look identical. It has a chance to be dropped by Goodie Bags, which are collected during Halloween with a chance.
+
+== Set ==
+
+ 
+== Trivia ==
+* The is an enemy from the 3D sandbox game and is considered one of the game's most iconic elements, as its face appears in the , the , and in most merchandise.
+* Re-Logic was given permission by , the creator of Minecraft, to add the Creeper set to Terraria.
+* The Creeper Pants and the are the only pieces of clothing to have more than two visible legs.
+* The Creeper set includes arms, something that Minecraft creepers lack. This is likely because the item use animation requires arms to be working properly.
+
+== See also ==
+* on Wikipedia.
+
+==History==
+
+==References==
+
+
+# 文档：Crowno's Breastplate
+- 类别：vanity_items
+- 标识：crownos-breastplate
+- 来源：wiki/Crowno's_Breastplate
+
+== Trivia ==
+* The headgear of the armor resembles the Ancient Cultist Mask.
+
+== History ==
+
+
+# 文档：Crowno's Leggings
+- 类别：vanity_items
+- 标识：crownos-leggings
+- 来源：wiki/Crowno's_Leggings
+
+== Trivia ==
+* The headgear of the armor resembles the Ancient Cultist Mask.
+
+== History ==
+
+
+# 文档：Crowno's Mask
+- 类别：vanity_items
+- 标识：crownos-mask
+- 来源：wiki/Crowno's_Mask
+
+== Trivia ==
+* The headgear of the armor resembles the Ancient Cultist Mask.
+
+== History ==
+
+
+# 文档：Crowno's set
+- 类别：vanity_items
+- 标识：crownos-set
+- 来源：wiki/Crowno's_set
+
+== Trivia ==
+* The headgear of the armor resembles the Ancient Cultist Mask.
+
+== History ==
+
+
+# 文档：Cultist set
+- 类别：vanity_items
+- 标识：cultist-set
+- 来源：wiki/Cultist_set
+
+The Cultist set is a vanity set purchased from the Clothier for after the Lunatic Cultist has been defeated. Its appearance is based on the clothing worn by Cultists, but its design is different from the robes worn either by normal Lunatic Devotes or the Lunatic Cultist itself.
+
+* The Solar Cultist set consists of the Solar Cultist Robe and the Solar Cultist Hood, which are sold during the day.
+* The Lunar Cultist set consists of the Lunar Cultist Robe and the Lunar Cultist Hood, which are sold during the night.
+
+== Set ==
+
+== Notes ==
+
+* The Lunar Cultist set resemble that of the Lunatic Devotes at the Dungeon's entrance, while the Solar Cultist set are the same shape, but have the color theme of the unspawnable White Cultist Archer.
+* While wearing the full Lunar Cultist set, the Lunar Cultist Hood can be replaced with the Lunatic Cultist Mask to make the player look like the Lunatic Cultist.
+* While wearing the full Solar Cultist set, the Solar Cultist Hood can be replaced with the Lunatic Cultist Mask with Bright Orange Dye to make the player look like a Solar Cultist.
+
+== History ==
+
+
+# 文档：Cyborg set
+- 类别：vanity_items
+- 标识：cyborg-set
+- 来源：wiki/Cyborg_set
+
+The Cyborg set is a vanity item set which consists of the Cyborg Helmet, Cyborg Shirt, and Cyborg Pants, resembling the Cyborg NPC. 
+
+It is purchased from the Cyborg for total, during Halloween.
+
+== Set ==
+
+== History ==
+
+
+# 文档：Dead Man's Sweater
+- 类别：vanity_items
+- 标识：dead-mans-sweater
+- 来源：wiki/Dead_Man's_Sweater
+
+The Dead Man's Sweater is a vanity item that can be found in Dead Man's Chests. It appears to have holes in it.
+
+== Trivia ==
+* The Dead Man's Sweater is a reference to Redigit’s band of the same name. 
+* The tooltip of the Ivy says 'Property of Dead Man's Sweater'. This is likely a reference to the fact that it drops from the Steampunker named Whitney, Redigit's wife.
+
+== History ==
+
+== References ==
+
+
+# 文档：Demon Horns
+- 类别：vanity_items
+- 标识：demon-horns
+- 来源：wiki/Demon_Horns
+
+Demon Horns are a vanity item purchased from the Traveling Merchant for .
+
+== History ==
+
+
+# 文档：Devil Horns
+- 类别：vanity_items
+- 标识：devil-horns
+- 来源：wiki/Devil_Horns
+
+The Devil Horns are a head vanity item that can be purchased from the Traveling Merchant for .
+
+Unlike Demon Horns, they do not hide the player's hair.
+
+== History ==
+
+
+# 文档：Dizzy's Rare Gecko Chester
+- 类别：vanity_items
+- 标识：dizzys-rare-gecko-chester
+- 来源：wiki/Dizzy's_Rare_Gecko_Chester
+
+Dizzy's Rare Gecko Chester is a vanity item that has a chance of being dropped by Deerclops.
+
+== Trivia ==
+* This item is a reference to the streamer Dizzy Dizaster, who streams with an upside-down yellow Chester on his head.
+* The tooltip of the item could refer to his reaction on the song "[https://www.youtube.com/watch?v=K6Els3iplTc Синий трактор]" (Blue Tractor in Russian).
+
+== See also ==
+* Eye Bone
+* 
+
+== History ==
+
+
+# 文档：Djinn's Curse
+- 类别：vanity_items
+- 标识：djinns-curse
+- 来源：wiki/Djinn's_Curse
+
+Djinn's Curse is a Hardmode vanity item that can be equipped in the "pants" slot. It visually replaces the player's feet with a genie-like effect, similar to the Desert Spirit's appearance. It has a chance of dropping from Desert Spirits. However, the Desert Spirit will only drop one of its special drops at a time (i.e. it may drop either the Desert Spirit Lamp or the Djinn's Curse, but never both).
+
+When equipped in the functional "pants" armor slot, it provides a slow fall effect similar to Featherfall Potion, but provides no defense.
+
+== Notes ==
+* While running with the Hermes Boots or any other boots, it will instead use the Spectre Boots' flying .
+* This item and the Featherfall Potion are the only items that can prevent fall damage while the Stoned debuff is active.
+* Due to programming limitations, Djinn's Curse does not appear on Mannequins like it does on players; instead, it is shown as a pair of purple pants: link=
+
+== Trivia ==
+* , jinn, or genies are creatures from Arabian mythology that were the basis of stories about genies who grant wishes. As many genie stories involve the granting of a selfish wish at some horrible unforeseen expense, Djinn's Curse refers to the player being granted the ability to float, at the expense of having to sacrifice their feet (and potentially, defense from armor pieces), which is reflected in the tooltip.
+* The Djinn's Curse is labeled in-game as a "vanity item", despite having a functional effect when worn in the main armor slot.
+
+== History ==
+
+== References ==
+
+
+# 文档：Dr. Man Fly set
+- 类别：vanity_items
+- 标识：dr-man-fly-set
+- 来源：wiki/Dr._Man_Fly_set
+
+The Dr. Man Fly set is a Hardmode vanity set consisting of the Dr. Man Fly Mask and the Dr. Man Fly's Lab Coat. It is dropped by Dr. Man Fly during the Solar Eclipse event.
+
+== Set ==
+
+== History ==
+
+
+# 文档：Dryad set
+- 类别：vanity_items
+- 标识：dryad-set
+- 来源：wiki/Dryad_set
+
+The Dryad set is a vanity set which is purchased from the Dryad for each, during Halloween. It resembles the clothing that the Dryad wears regularly.
+
+== Set ==
+
+== Notes ==
+* The Dryad Loincloth's anklets don't appear to go around a Mannequin's legs properly. This may likely be because most (if not all) other vanity items fully cover the legs, and if not, don't go down to the ankles. Its graphic was drawn for female legs, rather than pants. This issue does not appear when using the Womannequin.
+*The male version of the Dryad Loincloth has the Internal Armor ID of 117
+*The female version of the Dyad Loincloth is the most revealing pants in-game, only having 2 pixels as cover. It is less revealing when wearing the Dryad Coverings.
+*When using certain top pieces with the female Dryads Loincloth, a black band will sometimes appear around the waist.
+
+== History ==
+
+
+# 文档：Dye Trader's set
+- 类别：vanity_items
+- 标识：dye-traders-set
+- 来源：wiki/Dye_Trader's_set
+
+The Dye Trader clothes is a set of vanity items made up of the Dye Trader's Turban () and the Dye Trader Robe. 
+
+They are purchased from the Dye Trader NPC for each during Halloween.
+
+== Set ==
+
+== History ==
+
+
+# 文档：Elf set
+- 类别：vanity_items
+- 标识：elf-set
+- 来源：wiki/Elf_set
+
+The Elf set is a Hardmode vanity set consisting of the Elf Hat, the Elf Shirt, and the Elf Pants. Zombie Elves have a chance to drop a random piece of the set.
+
+== Set ==
+
+== Trivia ==
+* The Elf Hat, Goblorc Ears, Huntress's Wig, and Vulkelf Ears are the only items that change the shape of the player's ears.
+
+== History ==
+
+
+# 文档：Engineering Helmet
+- 类别：vanity_items
+- 标识：engineering-helmet
+- 来源：wiki/Engineering_Helmet
+
+The Engineering Helmet is a vanity item equipped on the Social Helmet Slot. It is purchased from the Mechanic for .
+
+== Trivia ==
+* This helmet resembles a real-life hard hat, which is a piece of safety gear worn by workers on a job site to protect themselves from falling objects and frayed wiring. Engineers working on a job site are, in most countries, required to wear a hard hat.
+
+* The Engineering Helmet is most likely a reference to the Engineer from Valve's , due to their extreme visual similarities and usage of similar clothing in the 1.3.1 spoilers.
+
+* The Engineering Helmet seamlessly connects with the Architect Gizmo Pack
+
+== History ==
+
+
+# 文档：Eye Patch
+- 类别：vanity_items
+- 标识：eye-patch
+- 来源：wiki/Eye_Patch
+
+The Eye Patch is a vanity item placed in the helmet social slot. It can be dropped by the Pirate Corsair, Pirate Deckhand, Pirate Deadeye, and the Pirate Crossbower with a chance of . These enemies can all be found during a Pirate Invasion Event.
+
+== Tips ==
+* In platforms that do not have an equivalent to the Desktop 1.4 update, the Eye Patch has a small dark-colored inventory icon that is difficult to see within an inventory screen. One should be wary of not losing it by error: It is easy to select it unknowingly when placing something else in the seemingly empty slot, then dropping it.
+
+== Trivia ==
+* Regardless of direction, the character always wears an eye-patch. This suggests they are wearing two eye-patches, over both eyes.
+
+== See also ==
+* 
+
+== History ==
+
+
+# 文档：Eyebrella
+- 类别：vanity_items
+- 标识：eyebrella
+- 来源：wiki/Eyebrella
+
+frame|The raincloud effect.
+
+The Eyebrella is a vanity item that has a chance of being dropped by the Deerclops. When equipped, it summons a raincloud over the player's head. This effect is purely visual; it does not deal any damage.
+
+== Trivia ==
+* The tooltip is a reference to 's examination quote for the Eyebrella in Don't Starve.
+* Wearing the Eyebrella in the helmet slot allows the rain cloud to appear above an equipped vanity helmet.
+* The color of the rain depends on the color of the water in the biome the player is in.
+*The cloud will not be in the right place while being in reversed gravity.
+
+== See also ==
+* 
+
+== History ==
+
+
+# 文档：Fabulous set
+- 类别：vanity_items
+- 标识：fabulous-set
+- 来源：wiki/Fabulous_set
+
+The Fabulous set is a Vanity items set which consists of the Fabulous Ribbon, Fabulous Dress and Fabulous Slippers. It is purchased from the Clothier for (set), during a Blood Moon, but is only available to female characters. It is the female counterpart to George's set.
+
+When wearing the full set, the Fabulous Ribbon will bob up and down in response to movement.
+
+== Set ==
+
+
+# 文档：Fallen Tuxedo set
+- 类别：vanity_items
+- 标识：fallen-tuxedo-set
+- 来源：wiki/Fallen_Tuxedo_set
+
+The Fallen Tuxedo set is a set of Vanity items made up of the Fallen Tuxedo Shirt and the Fallen Tuxedo Pants. 
+
+They are purchased from the Clothier for , during a Blood Moon.
+
+== Set ==
+
+== Notes ==
+* The Top Hat, which is dropped by The Groom, suits well with this set.
+
+== History ==
+
+
+# 文档：Familiar set
+- 类别：vanity_items
+- 标识：familiar-set
+- 来源：wiki/Familiar_set
+
+The Familiar set is a set of vanity items that displays the player's default clothes. It consists of the Familiar Wig, the Familiar Shirt, and the Familiar Pants, and can be purchased from the Clothier for .
+
+When a piece of the Familiar set is equipped in the vanity armor slot, it will disable the graphics of any item worn in the corresponding armor slot. As such, the Familiar Wig will show the character's hairstyle whereas the Familiar Shirt and Familiar Pants will show the character's default shirt and pants, respectively.
+
+Like all vanity items, the Familiar set does not provide anything but a change in appearance.
+
+== Set ==
+
+== Notes ==
+* Dressers can be used to change the character's default clothing colors, and thereby change the appearance of the Familiar set.
+* While the Invisibility Potion normally leaves armor visible, wearing the Familiar set completely conceals the player's armor. However, enemies' behavior is unaffected by this and they will still attack the player.
+* The Familiar set cannot be placed on Mannequins, , or , most likely because character appearances would conflict in multiplayer.
+* The Familiar Shirt and Pants are not affected by dyes, including Strange Plant quest reward dyes.
+* The Familiar set will not preserve the gender or character style it was bought as; a Familiar Shirt bought by a female character with style 2 will not appear as a style 2 Familiar Shirt if equipped on a female character with style 1, nor will Familiar Pants bought by a female character with style 1 appear as female Familiar Pants if equipped on a male character.
+* The inventory sprites of the Familiar set items represent the character's default clothes.
+
+== Tips ==
+* Wearing the Familiar Wig will allow the player to keep the hairstyle and Hair Dye they have bought from the Stylist visible.
+* The Familiar Wig can be used to wear certain accessories as the primary headgear item. For instance, the Obsidian Skull will usually be overridden by any other headgear, but the Familiar Wig will render it visible.
+* The Familiar set could be used in multiplayer to disguise oneself as an unequipped beginner.
+** This could prove useful for ambushing another team.
+
+== History ==
+
+
+# 文档：Fedora
+- 类别：vanity_items
+- 标识：fedora
+- 来源：wiki/Fedora
+
+The Fedora is a vanity item purchased from the Traveling Merchant for .
+
+== Trivia ==
+* Its tooltip, '', is a reference to the [https://knowyourmeme.com/memes/tips-fedora fedora tipping] meme, typically associated with young men who wear fedoras as a "sign of class" and attempt to impress women with said hats and cordial behavior.
+
+== History ==
+
+
+# 文档：Fez
+- 类别：vanity_items
+- 标识：fez
+- 来源：wiki/Fez
+
+The Fez is a head vanity item purchased from the Traveling Merchant for .
+
+== Trivia ==
+* This item is also often considered to be an official part of The Doctor's set.
+* The , protagonist of the British science fiction television program , was well known for claiming that certain clothing items, most often bow ties and fezzes, were cool. A popular example is his quote "It's a fez. I wear a fez now. Fezzes are cool" in the episode titled "".
+* was a traditional headwear that was worn by Ottoman men in late 19th century.
+
+== History ==
+
+
+# 文档：Firestarter's set
+- 类别：vanity_items
+- 标识：firestarters-set
+- 来源：wiki/Firestarter's_set
+
+The Firestarter's set is a vanity set consisting of the Firestarter's Sweater and the Firestarter's Skirt.
+
+== Set ==
+
+== Crafting ==
+=== Recipes ===
+
+== Trivia ==
+* This set is a reference to in the video game .
+
+== See also ==
+* Gentleman's set
+* 
+
+== History ==
+
+
+# 文档：Fish Bowl
+- 类别：vanity_items
+- 标识：fish-bowl
+- 来源：wiki/Fish_Bowl
+
+The Fish Bowl, Gold Fish Bowl , Pupfish Bowl , and Lava Serpent Bowl are decorative furniture items. The Fish Bowl and Gold Fish Bowl also double as wearable items that can be equipped in the player's helmet slot.
+
+Fish Bowls cause only visual effects when placed in the helmet vanity slot. When instead placed in the functional head armor slot, the breath meter appears as if the player were underwater, and if worn long enough the player will drown and die. Breathing aids like the Breathing Reed or Gills Potion will allow for normal breathing when wearing the bowl.
+
+The Fish, Gold Fish and Pupfish Bowls are crafted, while the Lava Serpent Bowl has a chance of being found inside Obsidian Crates and Hellstone Crates.
+
+== Types ==
+
+== Crafting ==
+=== Recipes ===
+
+== Notes ==
+* On , wearing a Fish Bowl will activate the Merfolk buff when the Neptune's Shell is equipped; on , it will not.
+* When placed, attempting to destroy a Fish Bowl with a pickaxe or drill will not drop it, so it cannot be recovered once placed. However, it is possible to retrieve it by breaking the blocks beneath it.
+
+== Tips ==
+* The Fish Bowl sells for , while its components only net in total when sold ( / % less).
+
+== Trivia ==
+* Fish Bowls will not turn red during a Blood Moon.
+* The Gold Fish Bowl's tooltip, "", is a reference to the ambiguous name which could either mean a fish bowl which is gold, or a bowl containing a gold fish.
+* The Lava Serpent seems to be the alive form of Bone Serpents, as it is mentioned in their Bestiary entry that they had obsidian scales: ""
+*The Lava Serpent Bowl's tooltip ("No, you can't wear it on your head") is referencing the fact that the Fish Bowl and the Gold Fish Bowl are wearable as a helmet. It's unclear as to why this was specifically singled out, as the water-filled bowls are still dangerous to wear (considering you drown while they're equipped in an armor slot), though it's also likely it was simply a joke due to the fact that lava is clearly the more dangerous of the two.
+
+== History ==
+
+
+# 文档：Fish Bowls
+- 类别：vanity_items
+- 标识：fish-bowls
+- 来源：wiki/Fish_Bowls
+
+The Fish Bowl, Gold Fish Bowl , Pupfish Bowl , and Lava Serpent Bowl are decorative furniture items. The Fish Bowl and Gold Fish Bowl also double as wearable items that can be equipped in the player's helmet slot.
+
+Fish Bowls cause only visual effects when placed in the helmet vanity slot. When instead placed in the functional head armor slot, the breath meter appears as if the player were underwater, and if worn long enough the player will drown and die. Breathing aids like the Breathing Reed or Gills Potion will allow for normal breathing when wearing the bowl.
+
+The Fish, Gold Fish and Pupfish Bowls are crafted, while the Lava Serpent Bowl has a chance of being found inside Obsidian Crates and Hellstone Crates.
+
+== Types ==
+
+== Crafting ==
+=== Recipes ===
+
+== Notes ==
+* On , wearing a Fish Bowl will activate the Merfolk buff when the Neptune's Shell is equipped; on , it will not.
+* When placed, attempting to destroy a Fish Bowl with a pickaxe or drill will not drop it, so it cannot be recovered once placed. However, it is possible to retrieve it by breaking the blocks beneath it.
+
+== Tips ==
+* The Fish Bowl sells for , while its components only net in total when sold ( / % less).
+
+== Trivia ==
+* Fish Bowls will not turn red during a Blood Moon.
+* The Gold Fish Bowl's tooltip, "", is a reference to the ambiguous name which could either mean a fish bowl which is gold, or a bowl containing a gold fish.
+* The Lava Serpent seems to be the alive form of Bone Serpents, as it is mentioned in their Bestiary entry that they had obsidian scales: ""
+*The Lava Serpent Bowl's tooltip ("No, you can't wear it on your head") is referencing the fact that the Fish Bowl and the Gold Fish Bowl are wearable as a helmet. It's unclear as to why this was specifically singled out, as the water-filled bowls are still dangerous to wear (considering you drown while they're equipped in an armor slot), though it's also likely it was simply a joke due to the fact that lava is clearly the more dangerous of the two.
+
+== History ==
+
+
+# 文档：Fish set
+- 类别：vanity_items
+- 标识：fish-set
+- 来源：wiki/Fish_set
+
+The Fish set is a vanity set composed of the Fish Costume Mask, Fish Costume Shirt, and Fish Costume Finskirt. The complete set can be acquired randomly as a reward for completing a Fishing quest from the Angler NPC.
+
+ Its male and female variants look identical.
+
+== Set ==
+
+== History ==
+
+
+# 文档：Floret Protector set
+- 类别：vanity_items
+- 标识：floret-protector-set
+- 来源：wiki/Floret_Protector_set
+
+thumb|right|Original concept art of the Floret Protector set by yikescloud.
+
+The Floret Protector set is a vanity set consisting of the Floret Protector Helmet, the Floret Protector Shirt, and the Floret Protector Pants. 
+
+== Set ==
+
+== Crafting ==
+=== Recipes ===
+
+== Notes ==
+* Its male and female variants look identical.
+
+== Trivia ==
+* Although a Daybloom is needed, the flower inside the helmet appears red.
+
+== History ==
+
+
+# 文档：Funeral set
+- 类别：vanity_items
+- 标识：funeral-set
+- 来源：wiki/Funeral_set
+
+The Funeral set is a vanity set consisting of the Funeral Hat, Funeral Coat, and Funeral Pants.
+
+These items are all equipped in the social vanity slots as they only provide a visual appearance, not affecting stats. They are purchased from the Clothier for when he is spoken to in the Graveyard biome.
+
+== Set ==
+
+== History ==
+
+
+# 文档：Gangsta Hat
+- 类别：vanity_items
+- 标识：gangsta-hat
+- 来源：wiki/Gangsta_Hat
+
+The Gangsta Hat is a vanity item purchased from the Clothier for , at night after the Frost Legion has been defeated. It is free on the .
+
+== Notes ==
+* Neither the Balla Hat nor Gangsta Hat are sold in multiplayer modes even if the conditions are met.
+
+== Trivia ==
+* The Gangsta Hat resembles bowler hats stereotypically worn by the Mafia in the early 20th century.
+* The Snowman Gangstas that spawn during the Frost Legion event wear an identical hat.
+
+== History ==
+
+
+# 文档：Garland
+- 类别：vanity_items
+- 标识：garland
+- 来源：wiki/Garland
+
+The Garland is a vanity item for the Social Helmet slot.
+
+== Crafting ==
+=== Recipes ===
+
+== Trivia ==
+* The tooltip is a reference to 's examination quote for the Garland in .
+
+== See also ==
+* 
+
+== History ==
+
+
+# 文档：George's set
+- 类别：vanity_items
+- 标识：georges-set
+- 来源：wiki/George's_set
+
+George's set is a vanity items set that is purchased from the Clothier for , during a Blood Moon, but is only available to male characters. It consists of George's Hat, George's Shirt, and George's Pants. It is the male counterpart to the Fabulous set.
+
+== Set ==
+
+
+# 文档：Ghost set
+- 类别：vanity_items
+- 标识：ghost-set
+- 来源：wiki/Ghost_set
+
+The Ghost set is a vanity set. It has a chance to be dropped by Goodie Bags, which are collected during Halloween with a chance. When a player wearing it is killed, the set parts float down into the ground and the player's severed remains do not appear. The set also becomes transparent, possibly meaning the player becomes a ghost, however the set parts are still separated.
+
+== Set ==
+
+== Trivia ==
+* The Shroomite armor's stealth bonus can give this set an excellent ghost-like effect.
+
+== See also ==
+* , the form a Hardcore character takes upon dying.
+* , the Graveyard and Halloween-exclusive enemy.
+
+== History ==
+
+
+# 文档：Ghostar's set
+- 类别：vanity_items
+- 标识：ghostars-set
+- 来源：wiki/Ghostar's_set
+
+== Trivia ==
+* The items in this set use a type of apostrophe that is different from all other uses of apostrophes in the game: <code>’</code> instead of <code>'</code>.
+
+== History ==
+
+== References ==
+
+
+# 文档：Giant Bow
+- 类别：vanity_items
+- 标识：giant-bow
+- 来源：wiki/Giant_Bow
+
+The Giant Bow is a festive Vanity item that has a chance to drop during Christmas by Present Slimes, which visually have a large bow on. The Bow itself is red, but it can drop from any of the four colors of Present Slime.
+
+When worn in the helmet slot, a bow appears on top of the player's head.
+
+== Notes ==
+* When equipped with the Mirage Dye, the Bow appears to wave back and forth.
+
+== History ==
+
+
+# 文档：Goblorc Ears
+- 类别：vanity_items
+- 标识：goblorc-ears
+- 来源：wiki/Goblorc_Ears
+
+Goblorc Ears are a vanity item purchased from the Traveling Merchant for .
+
+== Trivia ==
+* The Goblorc Ears, Elf Hat, Huntress's Wig, and Vulkelf Ears are the only items that change the shape of the player's ears.
+* The name "Goblorc" is a portemanteau of "Goblin" and "Orc", both races with similar ears as the item.
+
+== History ==
+
+
+# 文档：Gold Crown
+- 类别：vanity_items
+- 标识：gold-crown
+- 来源：wiki/Gold_Crown
+
+The Gold Crown is a craftable vanity item that can be worn in the Social Helmet inventory slot. It is also one of the crafting materials for the Slime Crown, which is used to spawn King Slime. The Platinum Crown is its alternate Ore counterpart.
+
+== Crafting ==
+=== Recipes ===
+
+=== Used in ===
+
+== History ==
+
+
+# 文档：Gold Fish Bowl
+- 类别：vanity_items
+- 标识：gold-fish-bowl
+- 来源：wiki/Gold_Fish_Bowl
+
+The Fish Bowl, Gold Fish Bowl , Pupfish Bowl , and Lava Serpent Bowl are decorative furniture items. The Fish Bowl and Gold Fish Bowl also double as wearable items that can be equipped in the player's helmet slot.
+
+Fish Bowls cause only visual effects when placed in the helmet vanity slot. When instead placed in the functional head armor slot, the breath meter appears as if the player were underwater, and if worn long enough the player will drown and die. Breathing aids like the Breathing Reed or Gills Potion will allow for normal breathing when wearing the bowl.
+
+The Fish, Gold Fish and Pupfish Bowls are crafted, while the Lava Serpent Bowl has a chance of being found inside Obsidian Crates and Hellstone Crates.
+
+== Types ==
+
+== Crafting ==
+=== Recipes ===
+
+== Notes ==
+* On , wearing a Fish Bowl will activate the Merfolk buff when the Neptune's Shell is equipped; on , it will not.
+* When placed, attempting to destroy a Fish Bowl with a pickaxe or drill will not drop it, so it cannot be recovered once placed. However, it is possible to retrieve it by breaking the blocks beneath it.
+
+== Tips ==
+* The Fish Bowl sells for , while its components only net in total when sold ( / % less).
+
+== Trivia ==
+* Fish Bowls will not turn red during a Blood Moon.
+* The Gold Fish Bowl's tooltip, "", is a reference to the ambiguous name which could either mean a fish bowl which is gold, or a bowl containing a gold fish.
+* The Lava Serpent seems to be the alive form of Bone Serpents, as it is mentioned in their Bestiary entry that they had obsidian scales: ""
+*The Lava Serpent Bowl's tooltip ("No, you can't wear it on your head") is referencing the fact that the Fish Bowl and the Gold Fish Bowl are wearable as a helmet. It's unclear as to why this was specifically singled out, as the water-filled bowls are still dangerous to wear (considering you drown while they're equipped in an armor slot), though it's also likely it was simply a joke due to the fact that lava is clearly the more dangerous of the two.
+
+== History ==
+
+
+# 文档：Gravedigger set
+- 类别：vanity_items
+- 标识：gravedigger-set
+- 来源：wiki/Gravedigger_set
+
+The Gravedigger set is a vanity set consisting of the Gravedigger Hat and Gravedigger Coat.
+
+ They are purchased from the Clothier for when he is in the Graveyard biome.
+
+== Set ==
+
+== See also ==
+* 
+
+== History ==
+
+
+# 文档：Green Cap
+- 类别：vanity_items
+- 标识：green-cap
+- 来源：wiki/Green_Cap
+
+, the Guide will always drop the Green Cap, regardless of his name.
+
+== Notes ==
+* 
+* In addition, equipping the Guide Voodoo Doll allows the player to damage the Guide with any weapon.
+
+== Tips ==
+* The world seed will always produce a world with a Guide named Andrew, no matter what map size, difficulty, or evil biome is set.
+** The secret world seeds and also have this feature; however, it is not the only unique feature for either.
+
+== Trivia ==
+* The name Andrew is a reference to the creator and lead developer of Terraria, Andrew "Redigit" Spinks.
+* It has a similar appearance to the cap worn by , a character from the .
+* It is one of the only three items dropped by NPCs with special names, the others being the and , which are dropped by Steampunkers named Whitney and Painters named Jim respectively.
+
+== History ==
+
+== References ==
+
+
+# 文档：Grox The Great's set
+- 类别：vanity_items
+- 标识：grox-the-greats-set
+- 来源：wiki/Grox_The_Great's_set
+
+== Trivia ==
+* This vanity set is most likely a reference to Grox The Great's mod [https://forums.terraria.org/index.php?threads/grox-the-greats-mods-o-magic-revamped.52399/ GRealm], which contains a very similar set of armor called Grovite armor.
+** The mod [https://terrariamods.gamepedia.com/Ancients_Awakened Ancients Awakened] also has a vanity set dedicated to Grox The Great, the [https://terrariamods.gamepedia.com/Ancients_Awakened/Angry_Pirate%27s_set Angry Pirate's set].
+
+== History ==
+
+
+# 文档：Guy Fawkes Mask
+- 类别：vanity_items
+- 标识：guy-fawkes-mask
+- 来源：wiki/Guy_Fawkes_Mask
+
+The Guy Fawkes Mask is a head-slot vanity item. It is purchased from the Clothier during Halloween for .
+
+== Trivia ==
+* In real life, s are based on a stylized depiction of , a member of a group of provincial English Catholics who planned the failed of 1605.
+* Two of the Scarecrow variants in the Pumpkin Moon event appear to be wearing Guy Fawkes Masks. 
+== See also ==
+* Mime Mask, a vanity item with a very similar appearance.
+
+== History ==
+
+
+# 文档：Heart Hairpin
+- 类别：vanity_items
+- 标识：heart-hairpin
+- 来源：wiki/Heart_Hairpin
+
+The Heart Hairpin is a vanity item that is sold by the Traveling Merchant for . It is worn in the helmet slot.
+
+== See also ==
+* Star Hairpin, a similar item sold by the Traveling Merchant
+
+== History ==
+
+
+# 文档：Hero's set
+- 类别：vanity_items
+- 标识：heros-set
+- 来源：wiki/Hero's_set
+
+The Hero's set is a set of vanity items composed of the Hero's Hat, the Hero's Shirt, and the Hero's Pants. The set's color is green on the , and purple on the . The pieces can be crafted from 20 Silk, requiring 140 Cobwebs, and three items of thread each:
+* 3 Green Thread, requiring 9 Jungle Grass Seeds
+* 3 Purple Thread, requiring 9 Mushroom Grass Seeds
+
+In order to craft an entire set, a total of 420 Cobwebs and 27 Jungle Seeds / Mushroom Grass Seeds are necessary.
+
+== Set ==
+
+== Crafting ==
+=== Recipes ===
+
+== Trivia ==
+* This set is a reference to , the protagonist of the fantasy action-adventure video game franchise .
+* The Hero's Hat, the Lamia Mask, and the Robot Hat are the only vanity items that appear to change the character's hairstyle.
+* Even though the set is green on the , it still requires Purple Thread to craft.
+* Despite being a Nintendo console, the Wii U edition of the game does not change the set to green.
+
+== History ==
+
+
+# 文档：HiTek Sunglasses
+- 类别：vanity_items
+- 标识：hitek-sunglasses
+- 来源：wiki/HiTek_Sunglasses
+
+The HiTek Sunglasses are a Hardmode, post-Golem vanity item for the social helmet slot. They are similar to the Sunglasses and Goggles, in that they provide eye graphics without concealing the player's hair. HiTek Sunglasses are purchased from the Cyborg for , after at least one Martian Madness event has been defeated.
+
+== History ==
+
+
+# 文档：Horned God set
+- 类别：vanity_items
+- 标识：horned-god-set
+- 来源：wiki/Horned_God_set
+
+== Trivia ==
+* It is a reference to the "Horned God" unit in the turn-based strategy video game series (hence the tooltip).
+* Wearing the robe makes a visual effect of the player with their hands on their hips.
+
+== History ==
+
+
+# 文档：Jack 'O Lantern Mask
+- 类别：vanity_items
+- 标识：jack-o-lantern-mask
+- 来源：wiki/Jack_'O_Lantern_Mask
+
+The Jack 'O Lantern Mask is a vanity item. It has a 0.83-5% / / chance to be dropped from the Headless Horseman.
+
+== Notes ==
+* The inventory icon shows it as unlit, but upon placing it in the armor slot, it is rendered with a glowing pattern over the face. 
+* This is visible even if in darkness or stealth from Shroomite/Vortex armor/Psycho Knife.
+* When displayed on a Mannequin, it is shown without the glow.
+* Using dyes on the mask will change the color of the pumpkin, while leaving the glow unaffected, which may be unintentional.
+
+== Trivia ==
+* The glowing pattern is rendered separately from the sprite, and does not appear pixellated at any zoom level.
+
+== History ==
+
+
+# 文档：Jim's Breastplate
+- 类别：vanity_items
+- 标识：jims-breastplate
+- 来源：wiki/Jim's_Breastplate
+
+== Trivia ==
+* Jim's Wings act similar to the Hoverboard in the fact that when not in use, they do not appear on the characters back.
+* Jim's Leggings are the only leggings in the game that have a "cape" on it, typically most "capes" or "cloaks" are either an accessory or a chestpiece item.
+
+== History ==
+
+
+# 文档：Jim's Cap
+- 类别：vanity_items
+- 标识：jims-cap
+- 来源：wiki/Jim's_Cap
+
+Jim's Cap is an vanity item. It is dropped from the Painter when his name is Jim.
+
+== Notes ==
+* 
+
+== History ==
+
+
+# 文档：Jim's Helmet
+- 类别：vanity_items
+- 标识：jims-helmet
+- 来源：wiki/Jim's_Helmet
+
+== Trivia ==
+* Jim's Wings act similar to the Hoverboard in the fact that when not in use, they do not appear on the characters back.
+* Jim's Leggings are the only leggings in the game that have a "cape" on it, typically most "capes" or "cloaks" are either an accessory or a chestpiece item.
+
+== History ==
+
+
+# 文档：Jim's Leggings
+- 类别：vanity_items
+- 标识：jims-leggings
+- 来源：wiki/Jim's_Leggings
+
+== Trivia ==
+* Jim's Wings act similar to the Hoverboard in the fact that when not in use, they do not appear on the characters back.
+* Jim's Leggings are the only leggings in the game that have a "cape" on it, typically most "capes" or "cloaks" are either an accessory or a chestpiece item.
+
+== History ==
+
+
+# 文档：Jim's set
+- 类别：vanity_items
+- 标识：jims-set
+- 来源：wiki/Jim's_set
+
+== Trivia ==
+* Jim's Wings act similar to the Hoverboard in the fact that when not in use, they do not appear on the characters back.
+* Jim's Leggings are the only leggings in the game that have a "cape" on it, typically most "capes" or "cloaks" are either an accessory or a chestpiece item.
+
+== History ==
+
+
+# 文档：Karate Tortoise set
+- 类别：vanity_items
+- 标识：karate-tortoise-set
+- 来源：wiki/Karate_Tortoise_set
+
+The Karate Tortoise set is a vanity set that has a chance to be dropped by Goodie Bags, which are collected during Halloween with a chance. Its male and female variants look identical.
+
+== Set ==
+
+== Trivia ==
+* The set is a reference to the franchise and resembles the character Leonardo.
+** Although the real show has 4 different turtle characters, there is only a vanity set for Leonardo.
+
+== History ==
+
+
+# 文档：Kimono
+- 类别：vanity_items
+- 标识：kimono
+- 来源：wiki/Kimono
+
+The Kimono is a Vanity item purchased from the Traveling Merchant for .
+
+== Notes ==
+* The chest-worn garment will overwrite any leg Armor or vanity leg clothes.
+
+== Trivia ==
+
+* The inventory sprite for the Kimono is folded right over left, which people fold that way for corpses. The correct way to wear a kimono is to fold left over right.
+
+== History ==
+
+
+# 文档：Lamia set
+- 类别：vanity_items
+- 标识：lamia-set
+- 来源：wiki/Lamia_set
+
+The Lamia set is a vanity set which consists of the Lamia Mask, Lamia Wraps and the Lamia Tail. It is rarely dropped by Lamias, with a chance per piece for the Light Lamia and a chance per piece for the Dark Lamia.
+
+== Set ==
+
+== Trivia ==
+* The full set strongly resembles a Dark Lamia.
+* The female version of the set has the chest covered with wraps, while the Lamia enemy does not wear any wraps. This change was likely made as the Lamia enemy is covered by its hair, while the player can wear the chest piece without equipping the mask.
+* Since a male character equipped with Lamia Wraps is bare-chested, the item is completely invisible on Mannequins (but can still be obtained after placing).
+* Like the tail of the Mermaid set, the Lamia Tail does not appear correctly on Mannequins and Womannequins.
+* The Lamia Mask, the Hero's Hat and the Robot Hat are the only vanity items that appear to change the character's hairstyle.
+
+== History ==
+
+
+# 文档：Leinfors' Excessive Style
+- 类别：vanity_items
+- 标识：leinfors-excessive-style
+- 来源：wiki/Leinfors'_Excessive_Style
+
+== Notes ==
+* Its male and female variants look identical.
+
+== Trivia ==
+* The set was heavily inspired by [https://castlevania.fandom.com/wiki/Alucard Alucard], the protagonist of the action role-playing game [https://castlevania.fandom.com/wiki/Castlevania:_Symphony_of_the_Night Castlevania: Symphony of the Night].
+
+== History ==
+
+== References ==
+
+
+# 文档：Leinfors' Fancypants
+- 类别：vanity_items
+- 标识：leinfors-fancypants
+- 来源：wiki/Leinfors'_Fancypants
+
+== Notes ==
+* Its male and female variants look identical.
+
+== Trivia ==
+* The set was heavily inspired by [https://castlevania.fandom.com/wiki/Alucard Alucard], the protagonist of the action role-playing game [https://castlevania.fandom.com/wiki/Castlevania:_Symphony_of_the_Night Castlevania: Symphony of the Night].
+
+== History ==
+
+== References ==
+
+
+# 文档：Leinfors' Hair Protector
+- 类别：vanity_items
+- 标识：leinfors-hair-protector
+- 来源：wiki/Leinfors'_Hair_Protector
+
+== Notes ==
+* Its male and female variants look identical.
+
+== Trivia ==
+* The set was heavily inspired by [https://castlevania.fandom.com/wiki/Alucard Alucard], the protagonist of the action role-playing game [https://castlevania.fandom.com/wiki/Castlevania:_Symphony_of_the_Night Castlevania: Symphony of the Night].
+
+== History ==
+
+== References ==
+
+
+# 文档：Leinfors' Luxury Shampoo
+- 类别：vanity_items
+- 标识：leinfors-luxury-shampoo
+- 来源：wiki/Leinfors'_Luxury_Shampoo
+
+== Notes ==
+* Its male and female variants look identical.
+
+== Trivia ==
+* The set was heavily inspired by [https://castlevania.fandom.com/wiki/Alucard Alucard], the protagonist of the action role-playing game [https://castlevania.fandom.com/wiki/Castlevania:_Symphony_of_the_Night Castlevania: Symphony of the Night].
+
+== History ==
+
+== References ==
+
+
+# 文档：Leinfors' set
+- 类别：vanity_items
+- 标识：leinfors-set
+- 来源：wiki/Leinfors'_set
+
+== Notes ==
+* Its male and female variants look identical.
+
+== Trivia ==
+* The set was heavily inspired by [https://castlevania.fandom.com/wiki/Alucard Alucard], the protagonist of the action role-playing game [https://castlevania.fandom.com/wiki/Castlevania:_Symphony_of_the_Night Castlevania: Symphony of the Night].
+
+== History ==
+
+== References ==
+
+
+# 文档：Leprechaun set
+- 类别：vanity_items
+- 标识：leprechaun-set
+- 来源：wiki/Leprechaun_set
+
+The Leprechaun set is a vanity set. It has a chance to be dropped by Goodie Bags, which are collected during Halloween with a chance.
+
+== Set ==
+
+== Trivia ==
+* A is a magical creature resembling a dwarf. They appear in Irish folklore and are said to hoard gold in pots, spend their time making shoes, and possess the power to make wishes come true.
+* If the Leprechaun Shirt is combined with a Silver Dye, the character will somewhat appear to have a white beard.
+* The tooltips of the Leprechaun set items are a reference to the 2006 , a supposed sighting of a leprechaun in a tree in Crichton (Mobile, Alabama).
+
+== History ==
+
+
+# 文档：Loki's Breastplate
+- 类别：vanity_items
+- 标识：lokis-breastplate
+- 来源：wiki/Loki's_Breastplate
+
+== Trivia ==
+* All tooltips of Loki's set are quotes from the Chinese general, military strategist, writer, and philosopher .
+* Loki's set design is mainly based off of [https://elderscrolls.fandom.com/wiki/Daedric_Armor_(Skyrim) Daedric Armor] from the series of role-playing fantasy video games [https://elderscrolls.fandom.com/wiki/The_Elder_Scrolls The Elder Scrolls].
+
+== References ==
+
+== History ==
+
+
+# 文档：Loki's Greaves
+- 类别：vanity_items
+- 标识：lokis-greaves
+- 来源：wiki/Loki's_Greaves
+
+== Trivia ==
+* All tooltips of Loki's set are quotes from the Chinese general, military strategist, writer, and philosopher .
+* Loki's set design is mainly based off of [https://elderscrolls.fandom.com/wiki/Daedric_Armor_(Skyrim) Daedric Armor] from the series of role-playing fantasy video games [https://elderscrolls.fandom.com/wiki/The_Elder_Scrolls The Elder Scrolls].
+
+== References ==
+
+== History ==
+
+
+# 文档：Loki's Helmet
+- 类别：vanity_items
+- 标识：lokis-helmet
+- 来源：wiki/Loki's_Helmet
+
+== Trivia ==
+* All tooltips of Loki's set are quotes from the Chinese general, military strategist, writer, and philosopher .
+* Loki's set design is mainly based off of [https://elderscrolls.fandom.com/wiki/Daedric_Armor_(Skyrim) Daedric Armor] from the series of role-playing fantasy video games [https://elderscrolls.fandom.com/wiki/The_Elder_Scrolls The Elder Scrolls].
+
+== References ==
+
+== History ==
+
+
+# 文档：Loki's set
+- 类别：vanity_items
+- 标识：lokis-set
+- 来源：wiki/Loki's_set
+
+== Trivia ==
+* All tooltips of Loki's set are quotes from the Chinese general, military strategist, writer, and philosopher .
+* Loki's set design is mainly based off of [https://elderscrolls.fandom.com/wiki/Daedric_Armor_(Skyrim) Daedric Armor] from the series of role-playing fantasy video games [https://elderscrolls.fandom.com/wiki/The_Elder_Scrolls The Elder Scrolls].
+
+== References ==
+
+== History ==
+
+
+# 文档：Maid set
+- 类别：vanity_items
+- 标识：maid-set
+- 来源：wiki/Maid_set
+
+The Maid set is a vanity set consisting of the Maid Bonnet, Maid Dress and Maid Shoes.
+
+== Set ==
+
+== Crafting ==
+=== Recipes ===
+
+== History ==
+
+
+# 文档：Maroon Graduation set
+- 类别：vanity_items
+- 标识：maroon-graduation-set
+- 来源：wiki/Maroon_Graduation_set
+
+The Maroon Graduation set is a Hardmode vanity set consisting of the Maroon Graduation Cap and the Maroon Graduation Gown. They are purchased from the Clothier for during a Waxing Crescent.
+
+== Set ==
+
+== See also ==
+* Blue Graduation set
+* Black Graduation set
+
+== History ==
+
+
+# 文档：Martian Costume set
+- 类别：vanity_items
+- 标识：martian-costume-set
+- 来源：wiki/Martian_Costume_set
+
+The Martian Costume set is a set of vanity items consisting of the Martian Costume Mask, Martian Costume Shirt, and Martian Costume Pants. Each piece has a chance to drop during the Martian Madness event.
+
+== Set ==
+
+== History ==
+
+
+# 文档：Martian Uniform set
+- 类别：vanity_items
+- 标识：martian-uniform-set
+- 来源：wiki/Martian_Uniform_set
+
+The Martian Uniform set is a set of Vanity items consisting of the Martian Uniform Helmet, Martian Uniform Torso, and Martian Uniform Pants. Each piece has a chance to drop from Martian Madness Event Enemies.
+
+== Set ==
+
+== History ==
+
+
+# 文档：Master Gamer's set
+- 类别：vanity_items
+- 标识：master-gamers-set
+- 来源：wiki/Master_Gamer's_set
+
+The Master Gamer's set is a vanity set consisting of the Master Gamer's Jacket and the Master Gamer's Pants. They are purchased from the Traveling Merchant for .
+
+== Set ==
+
+== Trivia ==
+* The Master Gamer set is a reference to the classic cartoon from 1989, "". It is the outfit worn by the show's main protagonist, Kevin Keene. The tooltip is a line said in the show's opening by Kevin's mother.
+
+== History ==
+
+
+# 文档：Mermaid set
+- 类别：vanity_items
+- 标识：mermaid-set
+- 来源：wiki/Mermaid_set
+
+The Mermaid set is a vanity set composed of the Seashell Hairpin, Mermaid Adornment, and Mermaid Tail. The complete set is awarded randomly for completing a fishing quest for the Angler NPC.
+
+== Set ==
+
+== Notes ==
+* The Mermaid Tail conceals the player's feet, and when moving, the player appears to slither rather than walk.
+* The item does not show up correctly on the Mannequin and Womannequin, since the figures' feet are still visible.
+* Equipment like the Hermes Boots or Shoe Spikes that visibly appears on feet will still show and move properly, even without visible legs. See [https://imgur.com/a/6wm4vIt here] for two examples.
+
+== History ==
+
+
+# 文档：Mime Mask
+- 类别：vanity_items
+- 标识：mime-mask
+- 来源：wiki/Mime_Mask
+
+The Mime Mask is a vanity item equipped in the Social Helmet slot. It is purchased from the Clothier during a Blood Moon for .
+
+ The game does not display the Mime Mask as a vanity item.
+
+== See also ==
+* Guy Fawkes Mask, a vanity item with a very similar appearance.
+
+== History ==
+
+
+# 文档：Monokuma set
+- 类别：vanity_items
+- 标识：monokuma-set
+- 来源：wiki/Monokuma_set
+
+|
+}}
+
+== Crafting ==
+=== Recipes ===
+
+== Trivia ==
+* This set was added as a replacement for the Hero's set due to copyright concerns over the latter costume. As such, the crafting recipes for both sets are very similar.
+
+== See also ==
+* Monomi set, another set referencing Danganronpa.
+
+== History ==
+
+== References ==
+
+
+# 文档：Monoliths
+- 类别：vanity_items
+- 标识：monoliths
+- 来源：wiki/Monoliths
+
+Monoliths are mechanisms that activate backgrounds and other screen effects normally seen during events. They can be toggled with the button, via wire, or by equipping them in the vanity slot.
+
+There are seven / four different monoliths: the Solar, Vortex, Nebula, Stardust, and can be crafted, while the is dropped by the Dreadnautilus with a chance, and the is obtained after dropping an angel statue into Shimmer.
+
+* The Blood Moon Monolith mimics the effects seen during a Blood Moon.
+* The Nebula, Solar, Stardust, and Vortex Monoliths mimic effects that normally surround the corresponding Celestial Pillar during the Lunar Events.
+* The Void Monolith mimics the screen effects of the Moon Lord boss fight.
+* The Aether Monolith mimics the effects surrounding the Aether mini-biome.
+
+== Types ==
+
+{| class="terraria sortable lined"
+! colspan=2 rowspan=2 | Monolith !! colspan=2 class=unsortable | Placed !! rowspan=2 | Tooltip !! rowspan=2 | Rarity !! rowspan=2 | Sell
+|-
+! class=unsortable | Inactive !! class=unsortable | Active
+
+|}
+
+== Crafting ==
+=== Recipes ===
+
+== Notes ==
+* Monoliths have a range of 90tiles in each direction.
+* Monoliths do not stack their effects when placed. The one placed furthest to the bottom-right takes precedence. If 2 monoliths, one at the bottom-left, and one at the top-right are active, the one to the top-right will be active. However, the Blood Moon Monolith does stack its effects with the others.
+**If multiple monoliths are equipped in vanity slots, their effects can stack. For example, equipping a Void Monolith and an Aether Monolith will combine the visual effects from Moon Lord boss fight and Aether mini-biome, whereas combining a Solar Monolith and a Vortex Monolith displays an apple green and shows the comet from Solar Monolith and the lightning from Vortex Monolith simultaneously.
+***When multiple lunar monoliths are equipped, the last equipped monolith will determine the background. For example, if a Vortex Monolith is equipped first, a Solar Monolith is equipped second, the background will show the one from the Solar Monolith, whereas the other way around will show the Vortex background instead.thumb|Combination of a Vortex Monolith with a Solar Monolith.
+**Activating a lunar monolith first and then a Blood Moon Monolith will result in different colors than vice versa. For example, activating a Stardust Monolith, then a Blood Moon Monolith will display a dark blue, whereas activating a Blood Moon Monolith, then a Stardust Monolith will display a purple similar to the Nebula Pillar.thumb|Combination of a Blood Moon Monolith with a Stardust Monolith.
+
+* Monoliths only cause modified visuals. They do not spawn any event enemies or bosses, and they do not change the music.
+* If a Monolith is left active when exiting a world, the background will remain when selecting a character and world for single player. Exiting the game returns the background to normal.
+
+== Tips ==
+* Crafting monoliths is the most profitable way to monetize extra Lunar Fragments. Even crafting the Celestial Sigil, beating the Moon Lord, and selling off all of its drops will net less money per fragment on average.
+** On , the Moon Lord drops significantly more money, and the Luminite it drops can be crafted into Void Monoliths.
+* The monoliths' effects can sometimes raise the apparent light level in an area, which may be useful.
+* The lunar monoliths have a luminescent effect on them (similar to special dyes such as the wisp dye), although the luminescent effect will only appear when there is light already casted onto it. This can be used for the monolith effects without having them visible.
+** It could be the lowest light level, and the effect will still work.
+*The Aether Monolith has an extra state that will negate any Aether biome effects. This can be useful for visibility around the Aether Biome.
+
+== Trivia ==
+* When used during a Blood Moon, a monolith will combine its light color with the red tint.
+* The lunar monoliths appear to be miniature versions of the Celestial Pillars.
+** They are the only Lunar Event items that do not have the base rarity.
+* The Party Center is internally named . Unlike monoliths, it triggers an actual Party event instead of only the background adjustment.
+* The design of the Void Monolith is based on the from the science fiction novel series .
+* The ideas for the void and lunar monoliths came from the Re-Logic staff member Leinfors.
+
+== History ==
+
+
+# 文档：Monomi set
+- 类别：vanity_items
+- 标识：monomi-set
+- 来源：wiki/Monomi_set
+
+|
+}}
+
+== See also ==
+* Monokuma set, another set referencing Danganronpa.
+
+== References ==
+
+== History ==
+
+
+# 文档：Moon Mask
+- 类别：vanity_items
+- 标识：moon-mask
+- 来源：wiki/Moon_Mask
+
+The Moon Mask is a vanity headpiece dropped by Lamias in Underground Deserts tainted with The Corruption or The Crimson with a 1/25 (4%) chance.
+
+== Trivia ==
+* The mask may be a reference to the fictional, marketing character, created by in the mid-1980's, . Although, he is missing his signature sunglasses and grin, the overall shape is very reminiscent of the character.
+
+== See also ==
+* Sun Mask, the daytime-themed counterpart.
+
+== History ==
+
+
+# 文档：Mrs. Claus set
+- 类别：vanity_items
+- 标识：mrs-claus-set
+- 来源：wiki/Mrs._Claus_set
+
+The Mrs. Claus set is a vanity set. It is dropped from Presents obtained during the Christmas event, with a chance of 1.08% in pre-Hardmode and 1.001% in Hardmode.
+
+== Set ==
+
+== Trivia ==
+* Both genders can wear this vanity set and have their own variants, despite the name indicating that it is intended for female use.
+* The source code spells the name as "Mrs. Clause."
+
+== History ==
+
+
+# 文档：Mummy set
+- 类别：vanity_items
+- 标识：mummy-set
+- 来源：wiki/Mummy_set
+
+The Mummy set is a set of Vanity items made up of the Mummy Mask, the Mummy Shirt, and the Mummy Pants. Each piece is dropped by Mummies with a 1.33% chance.
+
+== Set ==
+
+== History ==
+
+
+# 文档：Mushroom Cap
+- 类别：vanity_items
+- 标识：mushroom-cap
+- 来源：wiki/Mushroom_Cap
+
+The Mushroom Cap is a Vanity hat purchased from the Truffle for . It greatly resembles a Glowing Mushroom without the stalk.
+
+== Trivia ==
+* A mushroom's (or top) is commonly referred to as a mushroom cap, hence this item's name.
+* The Mushroom Cap may be a reference to the hat worn by Toads, a mushroom-like species from the franchise.
+** Toads are also referenced in a full set of vanity equipment (See Mushroom set).
+
+== History ==
+
+
+# 文档：Mushroom set
+- 类别：vanity_items
+- 标识：mushroom-set
+- 来源：wiki/Mushroom_set
+
+The Mushroom set is a set of vanity items consisting of the Mushroom Hat, the Mushroom Vest, and the Mushroom Pants. It is found in Mushroom Chests in the Glowing Mushroom biome in the caverns.
+
+== Set ==
+
+== Trivia ==
+* This set is a reference to the character [https://www.mariowiki.com/Toad Toad] from the .
+
+== History ==
+
+
+# 文档：Mysterious Cape
+- 类别：vanity_items
+- 标识：mysterious-cape
+- 来源：wiki/Mysterious_Cape
+
+Capes are accessories purchased from the Traveling Merchant, usually for each. They are considered vanity items, as they provide no stats or bonuses. The is an anomaly; it can be sold by the Clothier for if the player has accumulated a golf score of 2000, or by the Traveling Merchant regardless of golf score.
+
+== Types ==
+
+{| class="terraria lined align-center"
+! colspan=2 | Item !! Equipped !! Buy !! Sell
+
+|}
+
+== Notes ==
+* Capes are still visible in merfolk or werewolf form.
+* When using items such as wings (including the Hoverboard), the cape will not be visible in the social slot unless visibility has been turned off in the options menu. The cape will only be visible when running or stationary, while wings will be visible when flying.
+
+== Tips ==
+* 
+
+== Trivia ==
+* The Crimson Cloak can be purchased even in worlds generated with Corruption. Its name refers to the cape's , for which the infectious biome is also named.
+* Though any equipped shields will correctly be displayed under any of the capes, the walking animation will cause the shield to clip through the capes.
+
+== History ==
+
+
+# 文档：Nurse set
+- 类别：vanity_items
+- 标识：nurse-set
+- 来源：wiki/Nurse_set
+
+The Nurse set is a vanity set that resembles the Nurse's clothes. It is sold by the Arms Dealer during Halloween.
+
+== Set ==
+
+== Trivia ==
+* Unlike several other NPCs, who sell their own clothes on Halloween, the Nurse set is not sold by the Nurse. On a technical level, this may be because the Nurse does not have a shop interface through which to sell her own clothes.
+** The Arms Dealer in particular (and not any other NPC) was probably chosen to sell the set because his quote "" suggests he is in a relationship with her.
+* The Nurse Pants seem to have the actual legs associated with the skirt and shoes.
+
+== History ==
+
+
+# 文档：Oktoberfest sets
+- 类别：vanity_items
+- 标识：oktoberfest-sets
+- 来源：wiki/Oktoberfest_sets
+
+The Oktoberfest sets are two sets of vanity clothing previously available from the Clothier during Oktoberfest.
+
+== Set ==
+
+== Trivia ==
+* These costumes reference traditional German clothing worn during the .
+
+== History ==
+
+
+# 文档：Panda Ears
+- 类别：vanity_items
+- 标识：panda-ears
+- 来源：wiki/Panda_Ears
+
+Panda Ears are a vanity item purchased from the Traveling Merchant for .
+
+== History ==
+
+
+# 文档：Parka set
+- 类别：vanity_items
+- 标识：parka-set
+- 来源：wiki/Parka_set
+
+The Parka set is a set of vanity items: Parka Hood, Parka Coat, and Parka Pants. It is dropped from Presents obtained during the Christmas event, with a chance of 1.08% in pre-Hardmode and 1.001% in Hardmode.
+
+== Set ==
+
+== Trivia ==
+* This vanity set is likely a reference to [https://southpark.fandom.com/wiki/Kenny_McCormick Kenny McCormick]'s parka from the American animated sitcom [https://southpark.fandom.com/wiki/South_Park South Park]. This coincides with the lore tidbit that Kenny is immortal due to some sort of meddling due to a cult that worshipped Cthulhu.
+
+== History ==
+
+
+# 文档：Party Hat
+- 类别：vanity_items
+- 标识：party-hat
+- 来源：wiki/Party_Hat
+
+The Party Hat is a Vanity item sold by the Party Girl NPC for .
+
+== Notes ==
+* Variations of this hat are donned by all NPCs except for the Zoologist, Tax Collector, Old Man, and Skeleton Merchant during a party.
+** Along with the hats being on the NPCs, Confetti can also be thrown.
+
+== History ==
+
+
+# 文档：Peddler's Hat
+- 类别：vanity_items
+- 标识：peddlers-hat
+- 来源：wiki/Peddler's_Hat
+
+The Peddler's Hat is a Vanity item that drops from the Traveling Merchant if he is killed. It appears identical to the hat that the Traveling Merchant wears.
+
+== Crafting ==
+=== Used in ===
+
+== Tips ==
+* You can easily receive one by drowning (or otherwise killing) the Traveling Merchant.
+
+== Trivia ==
+* The Clothier also drops his hat, the Red Hat when he dies. Unlike the Clothier, wearing the Peddler's Hat will not cause the Traveling Merchant to display different dialog.
+
+== History ==
+
+
+# 文档：Pedguin's set
+- 类别：vanity_items
+- 标识：pedguins-set
+- 来源：wiki/Pedguin's_set
+
+== Tips ==
+* Pedguin's set can be easily obtained using one or more Penguin Statues and a timer. During a Blood Moon, activate the timers and keep killing the Corrupt or Vicious Penguins until all pieces are obtained.
+
+== Trivia ==
+* This set is a reference to Terraria streamer and YouTuber [https://www.youtube.com/user/PedguinGames Pedguin].
+* Its tooltip, "", is both a reference to Pedguin and to developer items, whose tooltips are similar ("").
+* Pedguin's set, 0x33's Aviators, Badger's Hat, and Chippy's Couch are the only pre-Hardmode items to have the base rarity. These items are also all references to Terraria streamers.
+
+== History ==
+
+
+# 文档：Pharaoh's set
+- 类别：vanity_items
+- 标识：pharaohs-set
+- 来源：wiki/Pharaoh's_set
+
+The Pharaoh's set is a vanity set consisting of the Pharaoh's Mask and the Pharaoh's Robe. It can only be found in chests in Pyramids, or by shimmering a Sandstorm in a Bottle and Flying Carpet
+
+== Set ==
+
+== Crafting ==
+=== Used in ===
+
+== Trivia ==
+* This is one of the three items that can appear in a pyramid's chest. It is often referred to as the "Pharaoh's Curse" by the speedrunning community because it is relatively worthless compared to the Flying Carpet or Sandstorm in a Bottle. As of 1.4.4 however, shimmer allows the conversion of the robe into the Flying Carpet, and the mask into a Sandstorm in a Bottle, meaning it is now the best of the three items as it can yield both of the other two.
+* The Pharaoh's set is directly linked to the clothing a mummified Pharaoh would wear. It being found in a Desert makes sense due to the fact that Egyptians (can be crowned as Pharaohs) lived in the Sahara and Libyan desert.
+
+== History ==
+
+
+# 文档：Pink Maid set
+- 类别：vanity_items
+- 标识：pink-maid-set
+- 来源：wiki/Pink_Maid_set
+
+The Pink Maid set is a vanity set consisting of the Pink Maid Bonnet, Pink Maid Dress and Pink Maid Shoes.
+
+== Set ==
+
+== Crafting ==
+=== Recipes ===
+
+== History ==
+
+
+# 文档：Pirate set
+- 类别：vanity_items
+- 标识：pirate-set
+- 来源：wiki/Pirate_set
+
+The Pirate set is a Vanity items set made up of the Pirate Hat, Pirate Shirt and Pirate Pants.
+
+ They are purchased from the Pirate for (set).
+
+== Set ==
+
+== History ==
+
+
+# 文档：Pixie set
+- 类别：vanity_items
+- 标识：pixie-set
+- 来源：wiki/Pixie_set
+
+The Pixie set is a Vanity items set that can be obtained from Goodie Bags with a chance.
+
+== Set ==
+
+== History ==
+
+
+# 文档：Plaguebringer's set
+- 类别：vanity_items
+- 标识：plaguebringers-set
+- 来源：wiki/Plaguebringer's_set
+
+thumb|right|Original concept art of the Plaguebringer's set by SodaHunter.
+
+The Plaguebringer set is a vanity set consisting of the Plaguebringer's Skull, the Plaguebringer's Cloak, and the Plaguebringer's Treads. 
+
+Crafting the set requires materials that can only be found in the Crimson. Its Corruption counterpart is the Timeless Traveler's set.
+
+It is possible for the player to create an artificial Crimson biome in a Corrupt world by purchasing Crimson Seeds from the Dryad in a Graveyard during Hardmode to get the materials necessary to make this set. 
+
+When the full set is worn, it displays a special set animation of Cursed Flames emitting from it. The color of the flames will change according to the dye applied to the cloak.
+
+== Set ==
+
+== Crafting ==
+=== Recipes ===
+
+== Trivia ==
+* The tooltip for the helmet is a reference to the multiplayer first-person shooter video game Destiny, and [https://destiny.fandom.com/wiki/Destiny_2 Destiny 2], as [https://destiny.fandom.com/wiki/Ahamkara Ahamkara] are a form of dragon in the game. It is also worth noting that an NPC from the game, [https://destiny.fandom.com/wiki/The_Drifter_(Character) the Drifter], often says "Trust!" at the end of sentences.
+* Strangely, this set is crafted from Crimson materials, yet it visually emits Cursed Flames, which (in item form) are only found in the Corruption.
+
+== History ==
+
+
+# 文档：Platinum Crown
+- 类别：vanity_items
+- 标识：platinum-crown
+- 来源：wiki/Platinum_Crown
+
+The Platinum Crown is a craftable vanity item that can be worn in the Social Helmet inventory slot. It is also one of the crafting materials for the Slime Crown, which is used to spawn the King Slime.
+
+The Gold Crown is its alternate ore counterpart.
+
+== Crafting ==
+=== Recipes ===
+
+=== Used in ===
+
+== History ==
+
+
+# 文档：Plumber's set
+- 类别：vanity_items
+- 标识：plumbers-set
+- 来源：wiki/Plumber's_set
+
+The Plumber's set is a vanity set made up of the Plumber's Hat, the Plumber's Shirt, and the Plumber's Pants. On the , the set's upper part is red and the lower part is blue. On the , the colors are inverted. The Plumber's Hat has a 1/250 (0.4%) chance to be dropped by Fire Imps. The shirt and pants are purchased from the Clothier for each, during a full moon. If you’re looking to get the Plumber’s Hat, despite the chances being worse from statues, an easy way to get it would be to place down a few Imp Statues and farm it that way.
+
+These items are purely vanity items and provide no increase in defense or other bonuses.
+
+== Set ==
+
+== Trivia ==
+* This set of vanity clothes is a reference to Nintendo's . The depict Mario's iconic blue overalls and red shirt and hat, while on the , the set is similar to his original appearance in the Donkey Kong arcade game and his appearance in the Super Mario All-Stars version of Super Mario Brothers.
+** Due to copyright concerns, it is replaced with the Shiren set on and Wii U versions of the game despite the Wii U being a Nintendo console.
+
+== History ==
+
+
+# 文档：Pretty Pink set
+- 类别：vanity_items
+- 标识：pretty-pink-set
+- 来源：wiki/Pretty_Pink_set
+
+The Pretty Pink set is a vanity set consisting of the Pretty Pink Ribbon, Pretty Pink Dress, and Pretty Pink Stockings. The set is purchased from the Traveling Merchant for .
+
+== Set ==
+
+== Trivia ==
+*This set largely resembles the clothes worn by Madoka Kaname from .
+*The Pretty Pink Stockings are one of few leg items with two separate sprites; one for each gender.
+*The Pretty Pink Ribbon may be a reference to the song of the same name by the band CAKE.
+
+== History ==
+
+
+# 文档：Prince set
+- 类别：vanity_items
+- 标识：prince-set
+- 来源：wiki/Prince_set
+
+The Prince set is a Hardmode vanity set consisting of the Prince Uniform, Prince Cape, and the Prince Pants. It is purchased from the Princess for .
+
+== Set ==
+
+== History ==
+
+
+# 文档：Princess set
+- 类别：vanity_items
+- 标识：princess-set
+- 来源：wiki/Princess_set
+
+The Princess set is a vanity set that can be obtained from Goodie Bags with a chance.
+
+== Set ==
+
+== Trivia ==
+* "Princess Dress" is one of only two names that are shared by two items in-game. See Princess set (Clothier) for the other Princess Dress, and Seaweed and Seaweed (junk) for both others.
+
+== History ==
+
+
+# 文档：Princess set (Clothier)
+- 类别：vanity_items
+- 标识：princess-set-clothier
+- 来源：wiki/Princess_set_(Clothier)
+
+The Princess set is a Hardmode vanity set consisting of the Tiara and the Princess Dress. It is purchased from the Clothier for , during a New Moon.
+
+== Set ==
+
+== Trivia ==
+* The Princess Dress bears resemblance to the dress worn by in the action-adventure game ' from ' series. Princess Zelda's tiara in the game contains a ruby instead of a sapphire, however.
+* The Princess Dress is one of only two item pairs that have duplicate names (see Princess set for the other Princess Dress). The other pair of duplicate names are Seaweed and Seaweed (junk).
+
+== History ==
+
+
+# 文档：Pumpkin set
+- 类别：vanity_items
+- 标识：pumpkin-set
+- 来源：wiki/Pumpkin_set
+
+The Pumpkin set is a set of vanity items made up of the Pumpkin Mask, Pumpkin Shirt, and Pumpkin Pants. It has a chance to be dropped by Goodie Bags, which are collected during Halloween with a chance. Unlike Pumpkin armor, the Pumpkin set can not be crafted.
+
+== Set ==
+
+== History ==
+
+
+# 文档：Pupfish Bowl
+- 类别：vanity_items
+- 标识：pupfish-bowl
+- 来源：wiki/Pupfish_Bowl
+
+The Fish Bowl, Gold Fish Bowl , Pupfish Bowl , and Lava Serpent Bowl are decorative furniture items. The Fish Bowl and Gold Fish Bowl also double as wearable items that can be equipped in the player's helmet slot.
+
+Fish Bowls cause only visual effects when placed in the helmet vanity slot. When instead placed in the functional head armor slot, the breath meter appears as if the player were underwater, and if worn long enough the player will drown and die. Breathing aids like the Breathing Reed or Gills Potion will allow for normal breathing when wearing the bowl.
+
+The Fish, Gold Fish and Pupfish Bowls are crafted, while the Lava Serpent Bowl has a chance of being found inside Obsidian Crates and Hellstone Crates.
+
+== Types ==
+
+== Crafting ==
+=== Recipes ===
+
+== Notes ==
+* On , wearing a Fish Bowl will activate the Merfolk buff when the Neptune's Shell is equipped; on , it will not.
+* When placed, attempting to destroy a Fish Bowl with a pickaxe or drill will not drop it, so it cannot be recovered once placed. However, it is possible to retrieve it by breaking the blocks beneath it.
+
+== Tips ==
+* The Fish Bowl sells for , while its components only net in total when sold ( / % less).
+
+== Trivia ==
+* Fish Bowls will not turn red during a Blood Moon.
+* The Gold Fish Bowl's tooltip, "", is a reference to the ambiguous name which could either mean a fish bowl which is gold, or a bowl containing a gold fish.
+* The Lava Serpent seems to be the alive form of Bone Serpents, as it is mentioned in their Bestiary entry that they had obsidian scales: ""
+*The Lava Serpent Bowl's tooltip ("No, you can't wear it on your head") is referencing the fact that the Fish Bowl and the Gold Fish Bowl are wearable as a helmet. It's unclear as to why this was specifically singled out, as the water-filled bowls are still dangerous to wear (considering you drown while they're equipped in an armor slot), though it's also likely it was simply a joke due to the fact that lava is clearly the more dangerous of the two.
+
+== History ==
+
+
+# 文档：Rabbit Perch
+- 类别：vanity_items
+- 标识：rabbit-perch
+- 来源：wiki/Rabbit_Perch
+
+The Rabbit Perch is a vanity helmet sold by the Zoologist for after the Bestiary is 40% complete.
+
+Although the item appears to be a hat with rabbit ears, equipping it will show an animated rabbit on the player's head.
+
+== Notes ==
+* Just like Empty Buckets, the Rabbit Perch can be stacked up on one another on vanity and armor slots.
+* The Rabbit Perch's animation will also play on the player's icon on the minimap.
+* The rabbit can rest on the Finch Staff's nest.
+* The rabbit will not be animated if placed on the lower part of a Hat Rack.
+
+== Trivia ==
+* The item sprite matches the Angora variant of the Town Bunny.
+** The Bestiary entry for the Town Bunny, "", references this item.
+
+== History ==
+
+
+# 文档：Radio Thing
+- 类别：vanity_items
+- 标识：radio-thing
+- 来源：wiki/Radio_Thing
+
+thumb|500px|The screen shader effect caused by the Radio Thing.
+
+The Radio Thing is an accessory that activates a screen effect identical to that of The Constant world seed in normal worlds. In The Constant seed, it will instead cancel out the screen effect, granting the player normal visuals. The accessory functions in both the ordinary inventory slots and vanity accessory slots. It is dropped by the Deerclops with a chance.
+
+== Notes ==
+* The screen effect produced does not display properly under Retro or Trippy lighting modes.
+
+== Trivia ==
+* The tooltip is a reference to the , the backstory of , the main character of . In the short, the main antagonist sends out forbidden knowledge to Wilson through a and takes him to .
+* While the Radio Thing itself does not appear in Don't Starve, its appearance is based on the game's .
+** It appears to be the PR-76 radio created by from Don't Starve.
+
+== History ==
+
+
+# 文档：Rainbow Cursor
+- 类别：vanity_items
+- 标识：rainbow-cursor
+- 来源：wiki/Rainbow_Cursor
+
+The Rainbow Cursor is a Hardmode vanity accessory that drops from the Empress of Light with a chance. It causes the player's cursor to continuously change colors.
+
+== Notes ==
+* The accessory will only be active while in a world, not in the main menu.
+
+== Tips ==
+* 
+
+== Trivia ==
+
+* The Rainbow Cursor was introduced following a suggestion by YouTuber ChippyGaming who proposed the item's effect, name, and drop source.
+
+== History ==
+
+== References ==
+
+
+# 文档：Raynebro's set
+- 类别：vanity_items
+- 标识：raynebros-set
+- 来源：wiki/Raynebro's_set
+
+Raynebro's set is a vanity set consisting of Raynebro's Hood, Raynebro's Hoodie, and Raynebro's Pants. It is purchased from the Traveling Merchant for .
+
+== Set ==
+
+== Trivia ==
+* Raynebro's set is dedicated to Redigit and Cenx's son, Lincoln. 
+
+== History ==
+
+== References ==
+
+
+# 文档：Reaper set
+- 类别：vanity_items
+- 标识：reaper-set
+- 来源：wiki/Reaper_set
+
+The Reaper set is a set of vanity items made up of the Reaper Hood and Reaper Robe. It has a chance to be dropped by Goodie Bags, which are collected during Halloween with a chance.
+
+ Its male and female variants look identical.
+
+== Set ==
+
+== Trivia ==
+* This outfit is based on the Grim Reaper from folklore, with its large scythe, skeletal figure and black cloak with a hood.
+* The scythe is a part of the outfit, and it will always be visible, even when using an item.
+
+== See also ==
+* Reaper
+
+== History ==
+
+
+# 文档：Red Cape
+- 类别：vanity_items
+- 标识：red-cape
+- 来源：wiki/Red_Cape
+
+Capes are accessories purchased from the Traveling Merchant, usually for each. They are considered vanity items, as they provide no stats or bonuses. The is an anomaly; it can be sold by the Clothier for if the player has accumulated a golf score of 2000, or by the Traveling Merchant regardless of golf score.
+
+== Types ==
+
+{| class="terraria lined align-center"
+! colspan=2 | Item !! Equipped !! Buy !! Sell
+
+|}
+
+== Notes ==
+* Capes are still visible in merfolk or werewolf form.
+* When using items such as wings (including the Hoverboard), the cape will not be visible in the social slot unless visibility has been turned off in the options menu. The cape will only be visible when running or stationary, while wings will be visible when flying.
+
+== Tips ==
+* 
+
+== Trivia ==
+* The Crimson Cloak can be purchased even in worlds generated with Corruption. Its name refers to the cape's , for which the infectious biome is also named.
+* Though any equipped shields will correctly be displayed under any of the capes, the walking animation will cause the shield to clip through the capes.
+
+== History ==
+
+
+# 文档：Red's Breastplate
+- 类别：vanity_items
+- 标识：reds-breastplate
+- 来源：wiki/Red's_Breastplate
+
+== Trivia ==
+* Prior to the 1.3.0.1 update, Red's Wings had the ability to hover and granted unlimited flight, similar to the .
+* Pieces from the set used to have the tooltip “You shouldn't have this” and would inflict the player with a variety of debuffs, killing most players almost immediately when equipped.
+* The armor somewhat resembles the Dark Knight armor of Cecil Harvey or Golbez, the hero and primary antagonist from the video game , respectively.
+** Red's Wings may also be a reference the Red Wings of Baron, the antagonistic army which both Cecil and Golbez led at different points of the game.
+* Prior to 1.3, if the Frost Breastplate and Leggings were paired with a Gold Helmet, and all pieces were dyed with Blue Flame and Black Dye, it would cause an afterimage and pulsing aura, akin to Hallowed armor. That was the armor Red used to wear before this set was added.
+
+== History ==
+
+
+# 文档：Red's Helmet
+- 类别：vanity_items
+- 标识：reds-helmet
+- 来源：wiki/Red's_Helmet
+
+== Trivia ==
+* Prior to the 1.3.0.1 update, Red's Wings had the ability to hover and granted unlimited flight, similar to the .
+* Pieces from the set used to have the tooltip “You shouldn't have this” and would inflict the player with a variety of debuffs, killing most players almost immediately when equipped.
+* The armor somewhat resembles the Dark Knight armor of Cecil Harvey or Golbez, the hero and primary antagonist from the video game , respectively.
+** Red's Wings may also be a reference the Red Wings of Baron, the antagonistic army which both Cecil and Golbez led at different points of the game.
+* Prior to 1.3, if the Frost Breastplate and Leggings were paired with a Gold Helmet, and all pieces were dyed with Blue Flame and Black Dye, it would cause an afterimage and pulsing aura, akin to Hallowed armor. That was the armor Red used to wear before this set was added.
+
+== History ==
+
+
+# 文档：Red's Leggings
+- 类别：vanity_items
+- 标识：reds-leggings
+- 来源：wiki/Red's_Leggings
+
+== Trivia ==
+* Prior to the 1.3.0.1 update, Red's Wings had the ability to hover and granted unlimited flight, similar to the .
+* Pieces from the set used to have the tooltip “You shouldn't have this” and would inflict the player with a variety of debuffs, killing most players almost immediately when equipped.
+* The armor somewhat resembles the Dark Knight armor of Cecil Harvey or Golbez, the hero and primary antagonist from the video game , respectively.
+** Red's Wings may also be a reference the Red Wings of Baron, the antagonistic army which both Cecil and Golbez led at different points of the game.
+* Prior to 1.3, if the Frost Breastplate and Leggings were paired with a Gold Helmet, and all pieces were dyed with Blue Flame and Black Dye, it would cause an afterimage and pulsing aura, akin to Hallowed armor. That was the armor Red used to wear before this set was added.
+
+== History ==
+
+
+# 文档：Red's set
+- 类别：vanity_items
+- 标识：reds-set
+- 来源：wiki/Red's_set
+
+== Trivia ==
+* Prior to the 1.3.0.1 update, Red's Wings had the ability to hover and granted unlimited flight, similar to the .
+* Pieces from the set used to have the tooltip “You shouldn't have this” and would inflict the player with a variety of debuffs, killing most players almost immediately when equipped.
+* The armor somewhat resembles the Dark Knight armor of Cecil Harvey or Golbez, the hero and primary antagonist from the video game , respectively.
+** Red's Wings may also be a reference the Red Wings of Baron, the antagonistic army which both Cecil and Golbez led at different points of the game.
+* Prior to 1.3, if the Frost Breastplate and Leggings were paired with a Gold Helmet, and all pieces were dyed with Blue Flame and Black Dye, it would cause an afterimage and pulsing aura, akin to Hallowed armor. That was the armor Red used to wear before this set was added.
+
+== History ==
+
+
+# 文档：Reindeer Antlers
+- 类别：vanity_items
+- 标识：reindeer-antlers
+- 来源：wiki/Reindeer_Antlers
+
+The Reindeer Antlers are a vanity item that is dropped from Presents obtained during the Christmas seasonal event, with a chance of 2.308% in pre-Hardmode and 2.154% in Hardmode. When worn in the helmet slot, they place antlers on the player's head.
+
+== See also ==
+* Cat Ears
+
+== History ==
+
+
+# 文档：Robe
+- 类别：vanity_items
+- 标识：robe
+- 来源：wiki/Robe
+
+The Robe is a vanity item equipped in the shirt slot. It resembles the robes worn by Dark Casters and Tim. 
+== Crafting ==
+=== Recipes ===
+
+=== Used in ===
+
+== See also ==
+* Wizard set
+
+== Notes ==
+* 
+
+== History ==
+
+
+# 文档：Robot Hat
+- 类别：vanity_items
+- 标识：robot-hat
+- 来源：wiki/Robot_Hat
+
+thumb|A complete overview of the Player dressed as Quote from Cave Story.
+
+The Robot Hat is a vanity item equipped on the Social Helmet Slot. It has a chance to drop from Piranhas and Angler Fish.
+
+== Trivia ==
+* The Robot Hat appears to be a reference to the hat worn by Quote, the protagonist from the action-adventure platforming video game , as seen [http://i.imgur.com/VRjuA.png here]. While the Terraria sprite does resemble the Cave Story sprite, the resemblance is more apparent in official Cave Story artwork and depictions in the credits of Cave Story.
+* The Robot Hat dropping from the Piranhas might be a reference to [https://cavestory.fandom.com/wiki/Ironhead Ironhead], a Piranha-like boss in .
+* The Robot Hat, the Lamia Mask and the Hero's Hat are the only vanity items that appear to change the character's hairstyle.
+
+== History ==
+
+
+# 文档：Robot set
+- 类别：vanity_items
+- 标识：robot-set
+- 来源：wiki/Robot_set
+
+The Robot set is a set of vanity items consisting of the Robot Mask, Robot Shirt, and Robot Pants. Its male and female variants are identical. It has a chance to be dropped by Goodie Bags, which are collected during Halloween with a chance. When the Robot Shirt is equipped, the player will appear to have their arms facing forward when walking.
+
+== Set ==
+
+== History ==
+
+
+# 文档：Rock Golem Head
+- 类别：vanity_items
+- 标识：rock-golem-head
+- 来源：wiki/Rock_Golem_Head
+
+The Rock Golem Head is a dual-purpose vanity and furniture item dropped by Rock Golems at a chance. It can be worn or placed.
+
+== Notes ==
+* Unlike most placed items, the eyes of the head will always be directed at the player when it is placed, regardless of the direction the head is facing.
+*Neither its placed nor worn sprite feature the flower atop the Rock Golem's head. However, its placed sprite does have a bit of moss on it.
+* Flowers will grow from the Rock Golem Head when it is placed, similarly to Clay Pots. However, seeds cannot be planted within it. This may or may not be a reference to the "On TV" product Chia Pets.
+
+== History ==
+
+
+# 文档：Royal Scepter
+- 类别：vanity_items
+- 标识：royal-scepter
+- 来源：wiki/Royal_Scepter
+
+The Royal Scepter is a vanity accessory sold by the Princess for .
+
+== Tips ==
+* 
+
+== Trivia ==
+* It is one of the only vanity items where it is held by the player.
+* It appears to float if you use a weapon when it's equipped.
+
+== History ==
+
+
+# 文档：Royal set
+- 类别：vanity_items
+- 标识：royal-set
+- 来源：wiki/Royal_set
+
+The Royal set is a Hardmode vanity set consisting of the Royal Tiara, Royal Blouse, and the Royal Dress. It is purchased from the Princess for .
+
+== Set ==
+
+== Trivia ==
+* The Royal set is nearly identical to the Princess' clothes.
+
+== History ==
+
+
+# 文档：Rune set
+- 类别：vanity_items
+- 标识：rune-set
+- 来源：wiki/Rune_set
+
+frame|Animation of the Rune set.
+
+The Rune set is a Hardmode vanity set consisting of the Rune Hat and Rune Robe. Both pieces are always dropped by the Rune Wizard, a rare Underground Hardmode enemy. Wearing the full set causes the player to emit a pulse effect, as well as a bright orange and green particle effect from their feet when walking. The particles are visible in darkness but do not emit light onto other objects. 
+
+== Set ==
+
+== Notes ==
+* The particle trail must be dyed by applying dye to boots, not the armor set.
+* Boots worn while the Rune Robe is equipped will not appear visible on the character.
+* Equipping the Rune Hat creates a small "shadow" of a few pixels under the character icon on the minimap. The Wizard Hat also does this.
+
+== Trivia ==
+* Unlike the Wizard Hat, dropped by Tim, who appears to be a pre-Hardmode equivalent of the Rune Wizard, the Rune Hat and Rune Robes do not grant any stats when equipped in the armor slot.
+* The Rune Hat is a recolor of the Wizard's Hat.
+
+== History ==
+
+
+# 文档：SWAT Helmet
+- 类别：vanity_items
+- 标识：swat-helmet
+- 来源：wiki/SWAT_Helmet
+
+The SWAT Helmet is a vanity item that has a / chance to drop from Tactical Skeletons in the post-Plantera Dungeon.
+
+== Achievements ==
+
+== Trivia ==
+* In the United States, a (special weapons and tactics) team is a law enforcement unit which uses specialized or military equipment and tactics.
+* Even though SWAT Helmets are designed to be very resilient in the real world, they do not grant any defense in Terraria.
+
+== History ==
+
+
+# 文档：Safeman's set
+- 类别：vanity_items
+- 标识：safemans-set
+- 来源：wiki/Safeman's_set
+
+== Trivia ==
+* Safeman's Sunny Day causes the Forbidden armor set bonus to move along with the sun causing it to sit within the ring.
+
+== History ==
+
+
+# 文档：Sailor set
+- 类别：vanity_items
+- 标识：sailor-set
+- 来源：wiki/Sailor_set
+
+The Sailor set is a vanity set that includes the Sailor Hat, Sailor Shirt and the Sailor Pants. All three pieces can be dropped by the Pirate Corsair, Pirate Deckhand, Pirate Deadeye, and the Pirate Crossbower with a chance of 0.2% or 1/500 for any piece. These enemies can all be found during a Pirate Invasion event.
+
+== Set ==
+
+== Trivia ==
+* The Sailor Hat is worn by the and the Sailor Shirt is worn by the .
+
+== See also ==
+* 
+* 
+* 
+
+== History ==
+
+
+# 文档：Santa set
+- 类别：vanity_items
+- 标识：santa-set
+- 来源：wiki/Santa_set
+
+The Santa set is a set of Vanity items made up of the Santa Hat, the Santa Shirt, and the Santa Pants. It is purchased from Santa Claus for after the Frost Legion has been defeated.
+
+== Set ==
+
+== History ==
+
+
+# 文档：Scarecrow set
+- 类别：vanity_items
+- 标识：scarecrow-set
+- 来源：wiki/Scarecrow_set
+
+The Scarecrow set is a vanity set made up of the Scarecrow Hat, the Scarecrow Shirt and the Scarecrow Pants. 
+
+All the parts of the set are dropped by the Scarecrows during the Pumpkin Moon Event.
+
+== Set ==
+
+== History ==
+
+
+# 文档：Shiren set
+- 类别：vanity_items
+- 标识：shiren-set
+- 来源：wiki/Shiren_set
+
+The Shiren set is a vanity set exclusive to the and Wii U versions of the game that looks like the character of the same name from the game series Shiren the Wanderer. It consists of Shiren Hat, Shiren Shirt, and Shiren Pants. The Shiren Hat has a chance to be dropped by Fire Imps and the Shiren Shirt and Shiren Pants are purchased from the Clothier during a full moon.
+
+== History ==
+
+== References ==
+
+
+# 文档：Silly Sunflower set
+- 类别：vanity_items
+- 标识：silly-sunflower-set
+- 来源：wiki/Silly_Sunflower_set
+
+The Silly Sunflower set is a vanity set made up of the Silly Sunflower Petals, Silly Sunflower Tops and Silly Sunflower Bottoms.
+
+ They are purchased from the Clothier for while a Party is active.
+
+== Set ==
+
+== History ==
+
+
+# 文档：Skiphs' Bear Butt
+- 类别：vanity_items
+- 标识：skiphs-bear-butt
+- 来源：wiki/Skiphs'_Bear_Butt
+
+== Notes ==
+* Its male and female variants look identical.
+
+== Trivia ==
+* In the release candidate version of 1.3, Skiphs' set and wings appear to be brown.
+* It is a common misconception that Skiphs' Paws are supposed to resemble the wings of , a species, but Lugia does not have any claws and has more fingers.
+
+== History ==
+
+
+# 文档：Skiphs' Mask
+- 类别：vanity_items
+- 标识：skiphs-mask
+- 来源：wiki/Skiphs'_Mask
+
+== Notes ==
+* Its male and female variants look identical.
+
+== Trivia ==
+* In the release candidate version of 1.3, Skiphs' set and wings appear to be brown.
+* It is a common misconception that Skiphs' Paws are supposed to resemble the wings of , a species, but Lugia does not have any claws and has more fingers.
+
+== History ==
+
+
+# 文档：Skiphs' Skin
+- 类别：vanity_items
+- 标识：skiphs-skin
+- 来源：wiki/Skiphs'_Skin
+
+== Notes ==
+* Its male and female variants look identical.
+
+== Trivia ==
+* In the release candidate version of 1.3, Skiphs' set and wings appear to be brown.
+* It is a common misconception that Skiphs' Paws are supposed to resemble the wings of , a species, but Lugia does not have any claws and has more fingers.
+
+== History ==
+
+
+# 文档：Skiphs' set
+- 类别：vanity_items
+- 标识：skiphs-set
+- 来源：wiki/Skiphs'_set
+
+== Notes ==
+* Its male and female variants look identical.
+
+== Trivia ==
+* In the release candidate version of 1.3, Skiphs' set and wings appear to be brown.
+* It is a common misconception that Skiphs' Paws are supposed to resemble the wings of , a species, but Lugia does not have any claws and has more fingers.
+
+== History ==
+
+
+# 文档：Skull
+- 类别：vanity_items
+- 标识：skull
+- 来源：wiki/Skull
+
+The Skull is a rare vanity item that has a chance of being dropped by Skeletons, which are found in the Cavern layer, or a chance by those spawned from a Skeleton Statue or a (on , Bone Skeleton Statues only generate in Expert Mode worlds).
+
+== Trivia ==
+* If one equips the Skull and the Robe, the player will strongly resemble a Dark Caster.
+* The Skull was added as a reference to the Terraria webcomic [https://legendofmaxx.com/archives/501 The Legend of Maxx].
+
+== History ==
+
+
+# 文档：Snow Hat
+- 类别：vanity_items
+- 标识：snow-hat
+- 来源：wiki/Snow_Hat
+
+The Snow Hat is a vanity item dropped from Presents obtained during the Christmas event, with a chance of 1.08% in pre-Hardmode and 1.001% in Hardmode.
+
+== Trivia ==
+* This item is a reference to [https://southpark.fandom.com/wiki/Stan_Marsh Stan Marsh]'s hat from the American animated sitcom [https://southpark.fandom.com/wiki/South_Park South Park].
+
+== History ==
+
+
+# 文档：Space Creature set
+- 类别：vanity_items
+- 标识：space-creature-set
+- 来源：wiki/Space_Creature_set
+
+The Space Creature set is a set of vanity items consisting of the Space Creature Mask, Space Creature Shirt, and Space Creature Pants. Its male and female variants look identical. It has a chance to drop from Goodie Bags during Halloween.
+
+== Set ==
+
+== Trivia ==
+* The set is a reference to the Xenomorphs from the film series.
+
+== History ==
+
+
+# 文档：Star Hairpin
+- 类别：vanity_items
+- 标识：star-hairpin
+- 来源：wiki/Star_Hairpin
+
+The Star Hairpin is a vanity item that can be purchased from the Traveling Merchant for . It is worn in the helmet slot.
+
+== See also ==
+* Heart Hairpin, a similar item sold by the Traveling Merchant
+
+== History ==
+
+
+# 文档：Star Princess set
+- 类别：vanity_items
+- 标识：star-princess-set
+- 来源：wiki/Star_Princess_set
+
+The Star Princess set is a vanity set consisting of the Star Princess Crown and Star Princess Dress.
+
+ They are purchased from the Traveling Merchant for , and is always sold along with the Celestial Wand.
+
+== Set ==
+
+== Trivia ==
+* The Star Princess Set and its companion item, the Celestial Wand, are a reference to Rosalina and the Lumas from the game .
+
+== History ==
+
+
+# 文档：Steampunk Goggles
+- 类别：vanity_items
+- 标识：steampunk-goggles
+- 来源：wiki/Steampunk_Goggles
+
+The Steampunk Goggles are a vanity item purchased from the Steampunker for during the Halloween Event.
+
+== See also ==
+* 
+* 
+
+== History ==
+
+
+# 文档：Steampunk set
+- 类别：vanity_items
+- 标识：steampunk-set
+- 来源：wiki/Steampunk_set
+
+The Steampunk set is a vanity set made up of the Steampunk Hat, Steampunk Shirt, and Steampunk Pants. It is purchased from the Steampunker for in total, during the full and waning moon phases.
+
+== Set ==
+
+== Trivia ==
+* When the shirt and pants are dyed using Silver Dye, the outfit closely resembles that of Alex DeLarge, the protagonist of the 1971 dystopian crime film .
+
+== See also ==
+* 
+* 
+
+== History ==
+
+
+# 文档：Summer Hat
+- 类别：vanity_items
+- 标识：summer-hat
+- 来源：wiki/Summer_Hat
+
+The Summer Hat is a vanity item equipped in the Social Helmet Slot. It is purchased from the Clothier for , during the day.
+
+== Trivia ==
+* It resembles the hat worn by , the protagonist of the Japanese manga series . Its internal item ID is close to a few vanity sets that are references (e.g. the Hero's, Plumber's, and Archaeologist's sets), which might indicate this to be intentional.
+
+== History ==
+
+
+# 文档：Sun Mask
+- 类别：vanity_items
+- 标识：sun-mask
+- 来源：wiki/Sun_Mask
+
+The Sun Mask is a vanity helmet dropped by Lamias in normal Underground Deserts with a chance.
+
+== See also ==
+* Moon Mask, the night-themed counterpart.
+
+== History ==
+
+
+# 文档：Sunglasses
+- 类别：vanity_items
+- 标识：sunglasses
+- 来源：wiki/Sunglasses
+
+thumb|Sun as it appears to a player wearing Sunglasses
+
+Sunglasses are a vanity item equipped in the Social Helmet slot. They do not offer any bonus stats to the character.
+
+Like Goggles, these do not cover the player's hair, allowing for the player to hide their helmet and/or show their hair. As an additional effect, while the player is wearing sunglasses, the sun in the background will appear to be doing the same.
+
+== Crafting ==
+=== Recipes ===
+
+== Trivia ==
+* The sun texture with sunglasses has not been updated for the 1.2 sun. It is likely this is intentional.
+* The sun on the title screen will still be the sunglasses-wearing sun when upon exiting a world where the player had the sunglasses equipped.
+
+== See also ==
+* Goggles
+
+== History ==
+
+
+# 文档：Superhero set
+- 类别：vanity_items
+- 标识：superhero-set
+- 来源：wiki/Superhero_set
+
+The Superhero set is a set of Vanity items made up of the Superhero Mask, the Superhero Costume, and the Superhero Tights.
+
+== Set ==
+
+== Crafting ==
+=== Recipes ===
+
+== History ==
+
+
+# 文档：TV Head set
+- 类别：vanity_items
+- 标识：tv-head-set
+- 来源：wiki/TV_Head_set
+
+thumb|right|Original concept art of the TV Head set by Dr.Zootsuit.
+
+The TV Head set is a vanity set consisting of the Video Visage, the Lazer Blazer, and the Pinstripe Pants. 
+
+The Video Visage has the unique ability to change colors depending on where the player is and what they are doing.
+
+== Set ==
+
+== Crafting ==
+=== Recipes ===
+
+== Notes ==
+framed|right|The six possible states of the Video Visage.
+* The Video Visage will animate based on the conditions below:
+** If the player is in the Corruption, Crimson, or a Graveyard, the screen turns off.
+** If the player's health decreases below one fourth of their maximum health, the screen will turn to monochrome static.
+** If the player is in a liquid, the screen will become dark blue and scroll vertically.
+** If the player is fighting a boss or an event is occurring, the screen will scroll sideways while flashing marine colors.
+** If there is a Lantern Night or Party occurring, or the player is in a town with 3 or more inhabitants, the screen will turn into a purple smiley face. This face also will blink the same way the player does (e.g. taking damage, sleeping, etc.)
+***This effect can be used to easily determine the edge of the town for spawning purposes.
+***Additionally, if the player has the Tipsy debuff or the player is sleeping, the face will have its eyes closed.
+** If none of these conditions are met, the screen will display a . It will always use this display if placed on a mannequin.
+* As seen in an official [https://www.youtube.com/watch?v=FtUrljrk8FI trailer] for 1.4.1, the Video Visage is always visible, even in complete darkness, despite not giving out any actual light. The only exception to this is when the screen is black.
+
+== Trivia ==
+* Each item of the set's tooltip contains a reference to the lyrics of a specific song:
+** The Video Visage's tooltip references the song "Cabinet Man" by .
+** The Lazer Blazer's tooltip references the song "How Bad Can I Be" from the 2012 American 3D computer-animated musical fantasy comedy movie .
+** The Pinstripe Pants' tooltip references the song "I Can't Decide" by the .
+* Unlike the other five sets, the TV Head set was not announced as a winner of the Journey's End Vanity Contest, and was only teased one day before the update that introduced it to the game.
+
+== History ==
+
+
+# 文档：Tam O' Shanter
+- 类别：vanity_items
+- 标识：tam-o-shanter
+- 来源：wiki/Tam_O'_Shanter
+
+The Tam O' Shanter is a Hardmode vanity item purchased from the Clothier for , during the third quarter moon phase in Hardmode.
+
+== Trivia ==
+* The name "Tam O' Shanter" stems from the with the same title, where Tam, the protagonist, is wearing such a bonnet.
+* While jumping, the hat goes slightly downwards.
+
+== History ==
+
+
+# 文档：Tax Collector's set
+- 类别：vanity_items
+- 标识：tax-collectors-set
+- 来源：wiki/Tax_Collector's_set
+
+The Tax Collector's set is a Hardmode vanity set consisting of the Tax Collector's Hat, the Tax Collector's Suit and the Tax Collector's Pants. On the , it is purchased from the Clothier for when the Tax Collector is present in the world. On the , it is purchased from the Merchant during Halloween.
+
+== Set ==
+
+== History ==
+
+
+# 文档：The Doctor's set
+- 类别：vanity_items
+- 标识：the-doctors-set
+- 来源：wiki/The_Doctor's_set
+
+The Doctor's set is a vanity set made up of the The Doctor's Shirt and The Doctor's Pants. They are purchased from the Clothier for in total, during Waning Gibbous.
+
+== Set ==
+
+== Trivia ==
+* The Doctor's clothes are a reference to the from the British science fiction television program .
+* The Fez may also be considered to be a part of the set, since the Eleventh Doctor has been known to wear fezzes with the excuse that "Fezzes are cool", which is also the tooltip for the Fez. However, it is sold by the .
+
+== History ==
+
+
+# 文档：Timeless Traveler's set
+- 类别：vanity_items
+- 标识：timeless-travelers-set
+- 来源：wiki/Timeless_Traveler's_set
+
+thumb|right|Original concept art of the Timeless Traveler's set by DisRicardo.
+
+The Timeless Traveler's set is a vanity set consisting of the Timeless Traveler's Hood, the Timeless Traveler's Cloak, and the Timeless Traveler's Footwear. 
+
+It can only be crafted in a Corruption world, unless the player creates an artificial Corruption biome or farms the chunks from a Corrupt Statue. Its Crimson counterpart is the Plaguebringer's set.
+
+When wearing the full set, the set displays an animation of soul-like apparitions that bear a striking visual resemblance to Mana Boosters.
+
+== Set ==
+
+== Crafting ==
+=== Recipes ===
+
+== Notes ==
+* Its male and female variants are identical.
+
+== History ==
+
+
+# 文档：Treasure Hunter set
+- 类别：vanity_items
+- 标识：treasure-hunter-set
+- 来源：wiki/Treasure_Hunter_set
+
+The Treasure Hunter set is a 2-piece Vanity items set. It consists of a turquoise tank top and leather pants. It has a chance to be dropped by Goodie Bags, which are collected during Halloween with a chance.
+
+== Set ==
+
+== Trivia ==
+* The female Treasure Hunter set is a reference to from the media franchise , who is a well-known treasure hunter.
+* The male Treasure Hunter set is a reference to the from the action-adventure third-person shooter platform video game series .
+
+== History ==
+
+
+# 文档：Tree set
+- 类别：vanity_items
+- 标识：tree-set
+- 来源：wiki/Tree_set
+
+The Tree set is a vanity set consisting of the Tree Mask, Tree Shirt, and Tree Trunks. It is dropped from Presents obtained during the Christmas event, with a chance of 1.08% in pre-Hardmode and 1.001% in Hardmode. Its male and female variants look identical.
+
+== Set ==
+
+== History ==
+
+
+# 文档：Tuxedo set
+- 类别：vanity_items
+- 标识：tuxedo-set
+- 来源：wiki/Tuxedo_set
+
+The Tuxedo set is a vanity set made up of the Top Hat, Tuxedo Shirt and Tuxedo Pants.
+
+While the other two pieces are crafted, the Top Hat is not, and is instead dropped by The Groom.
+
+== Set ==
+
+== Crafting ==
+=== Recipes ===
+
+== History ==
+
+
+# 文档：Ugly Sweater
+- 类别：vanity_items
+- 标识：ugly-sweater
+- 来源：wiki/Ugly_Sweater
+
+The Ugly Sweater is a vanity item dropped from Presents obtained during the Christmas event, with a chance of 1.08% in pre-Hardmode and 1.001% in Hardmode.
+
+== Trivia ==
+* The Ugly Sweater is most likely a reference to the tradition of receiving a as a Christmas present that the recipient may not like that much.
+
+== History ==
+
+# 文档：Vanity items
+- 类别：vanity_items
+- 标识：vanity-items
+- 来源：wiki/Vanity_items
+
+Vanity items are wearable items that can be equipped in social slots next to the armor and accessories slots in a character's inventory. Wearing them will change a character's appearance, but will not provide any functionality. Vanity items placed in the armor slots will also cover all armor appearances. Many of these vanity items are references to popular culture and other video games.
+
+== All vanity items ==
+
+=== Vanity Pieces ===
+{{#dpl:
+| category = Vanity items
+| notcategory = Vanity sets
+| notcategory = Accessory items
+| notcategory = Developer items
+| nottitleregexp = itemsMasksFish BowlsPupfish BowlUnicorn on a Stick$
+| redirects = include
+| namespace = 
+| includesubpages = false
+| ordermethod = titlewithoutnamespace
+| order = ascending
+| format= ²{itemlist,¦²{#vardefine:pn¦²{pagename2en¦%PAGE%}²}²²{item¦²{#var:pn}²¦image=²{image¦²{#var:pn}² (equipped).png}² ²{image¦²{#var:pn}² (equipped) female.png}²}²,,}²
+}}
+
+=== Halloween Sets ===
+These sets can only be found in Goodie Bags or from NPCs during the Halloween season.
+
+===Christmas Sets===
+These costumes can only be found in Presents or from NPCs during the Christmas season.
+
+===Vanity Sets===
+These sets do not follow any season. They can be purchased from NPCs, looted from bosses or enemies, looted during events, looted from chests, or crafted by the player.
+
+===Boss Masks===
+All bosses, including ones, but not and , have a 14.29% chance to drop their respective mask.
+{{#dpl:
+| category = Drop items
+| redirects = only | linksto = Masks
+| namespace =
+| includesubpages = false
+| ordermethod = titlewithoutnamespace
+| order = ascending
+| format= ²{itemlist,¦²{item¦²{pagename2en¦%PAGE%}²}²,,}²
+}}
+===Vanity Accessories===
+{{#dpl:
+| category = Vanity items&Accessory items
+| notcategory = Vanity sets
+| nottitleregexp = itemsCapes$Critter ShampooRadio Thing
+| redirects = include
+| namespace = 
+| includesubpages = false
+| ordermethod = titlewithoutnamespace
+| order = ascending
+| format= ²{itemlist,¦²{item¦²{pagename2en¦%PAGE%}²}²,,}²
+}}
+=== Developer Sets===
+{{#dpl:
+| category = Developer items&Vanity sets
+| namespace = 
+| includesubpages = false
+| ordermethod = titlewithoutnamespace
+| order = ascending
+| format= ²{itemlist,¦²{item¦²{pagename2en¦%PAGE%}²}²,,}²
+}}
+=== Oktoberfest Vanity Sets===
+
+===-only Set===
+
+===Removed Items===
+
+== Interactions with Hair ==
+frame|right|The same hairstyle on a character shown in its flat version (left) and its original version (right).
+
+Some head pieces in Terraria show the player's original hair under them, while others hide hair completely, even if that item does not cover the entirety of the player's head. When an item shows player hair, the game will either display the full hairstyle, or a variant of it that flattens the hair so it fits under headgear. This allows items such as the Wizard's Hat to also display the beard of a player. With the exception of the Wizard Hat, armor items generally do not show player hair. Note that, by default, the game hides player hair, so items not listed below hide player hair entirely.
+
+=== Items that show original hair ===
+
+=== Items that show flattened hair ===
+
+== Achievement ==
+
+== History ==
+
+# 文档：Umbrella Hat
+- 类别：vanity_items
+- 标识：umbrella-hat
+- 来源：wiki/Umbrella_Hat
+
+The Umbrella Hat is a vanity item that has a chance to drop from Umbrella Slimes during Rain.
+
+== History ==
+
+# 文档：Unicorn on a Stick
+- 类别：vanity_items
+- 标识：unicorn-on-a-stick
+- 来源：wiki/Unicorn_on_a_Stick
+
+The Unicorn on a Stick is a Hardmode novelty item which, when selected, is held stationary in front of the player to provide the illusion that they are riding a unicorn. It has no real function, unlike the Unicorn Mount.
+
+It can be dropped by Unicorns with a 1% drop chance.
+
+== Notes ==
+* It cannot be held while in water.
+
+== Trivia ==
+* This item is a nod to the classic , a once-common children's toy.
+* The item's tooltip is possibly a reference to the song "" written by and .
+
+== History ==
+
+# 文档：Unicorn set
+- 类别：vanity_items
+- 标识：unicorn-set
+- 来源：wiki/Unicorn_set
+
+The Unicorn set is a vanity set consisting of the Unicorn Mask, Unicorn Shirt, and Unicorn Pants. It has a chance to be dropped by Goodie Bags, which are collected during Halloween with a chance.
+
+== Set ==
+
+== History ==
+
+# 文档：Vampire set
+- 类别：vanity_items
+- 标识：vampire-set
+- 来源：wiki/Vampire_set
+
+The Vampire set is a vanity set consisting of the Vampire Mask, Vampire Shirt, and Vampire Pants. It has a chance to be dropped by Goodie Bags, which are collected during Halloween with a chance.
+
+== Set ==
+
+== Trivia ==
+* This outfit along with the hair style is a reference to the film starring .
+* This can also be used as a secondary cape in the s.
+
+== History ==
+
+# 文档：Victorian Goth set
+- 类别：vanity_items
+- 标识：victorian-goth-set
+- 来源：wiki/Victorian_Goth_set
+
+The Victorian Goth set is a vanity set consisting of the Victorian Goth Hat and Victorian Goth Dress.
+
+ They are purchased from the Clothier for when he is spoken to in the Graveyard biome.
+
+== Set ==
+
+== History ==
+
+# 文档：Vulkelf Ears
+- 类别：vanity_items
+- 标识：vulkelf-ears
+- 来源：wiki/Vulkelf_Ears
+
+Vulkelf Ears are a vanity item purchased from the Traveling Merchant for .
+
+== Trivia ==
+* The Vulkelf Ears, Elf Hat, Goblorc Ears, and Huntress's Wig are the only items that change the shape of the player's ears.
+* The name "Vulkelf" is a portemanteau of "Vulcan" (Star Trek) and "Elf", both races with pointy ears.
+
+== History ==
+
+# 文档：Wandering set
+- 类别：vanity_items
+- 标识：wandering-set
+- 来源：wiki/Wandering_set
+
+thumb|right|Original concept art of the Wandering set by crowflux.
+
+The Wandering set or Wandering Ronin set is a vanity set consisting of the Wandering Jingasa, the Wandering Yukata, and the Wandering Geta. 
+
+When the full set is worn, fireflies can be seen flying around the player.
+
+== Set ==
+
+== Crafting ==
+=== Recipes ===
+
+== Notes ==
+* Despite the Jingasa's tooltip, the headpiece does not light up the player's surroundings. Rather, the orb on the back is always visible, even when the player is in complete darkness.
+* The fireflies spawned when wearing the full set are affected by dyes placed in the body slot.
+
+== Trivia ==
+* The fireflies used in the recipe are a reference to the 1988 Japanese animated war tragedy movie [https://ghibli.fandom.com/wiki/Grave_of_the_Fireflies Grave of the Fireflies].
+
+== History ==
+
+# 文档：Wedding set
+- 类别：vanity_items
+- 标识：wedding-set
+- 来源：wiki/Wedding_set
+
+The Wedding set is a set of Vanity items made up of the Wedding Veil and the Wedding Dress. 
+
+They are guaranteed to be dropped by The Bride, a rare Enemy that spawns during a Blood Moon and in the Graveyard mini-biome.
+
+== Set ==
+
+== Trivia ==
+* The tooltips are a reference to the priest from the 1987 film, .
+
+== History ==
+
+# 文档：White Tuxedo set
+- 类别：vanity_items
+- 标识：white-tuxedo-set
+- 来源：wiki/White_Tuxedo_set
+
+The White Tuxedo set is a vanity set which consists of the White Tuxedo Shirt and the White Tuxedo Pants. It is purchased from the Clothier for , on the night of a Full Moon.
+
+The set exists on , but is unobtainable on these versions.
+
+== Set ==
+
+== See also ==
+* Tuxedo set
+
+== History ==
+
+# 文档：Whoopie Cushion
+- 类别：vanity_items
+- 标识：whoopie-cushion
+- 来源：wiki/Whoopie_Cushion
+
+The Whoopie Cushion is a novelty item that makes a farting sound when used. It has no other functional effect. It can be crafted into a Fart in a Jar which can then be upgraded further. It has a / or chance to be dropped by Giant Worms and Diggers, in the Underground and Cavern layers.
+
+== Crafting ==
+=== Recipes ===
+
+=== Used in ===
+
+== Trivia ==
+* The , an expensive pet sometimes sold by the Traveling Merchant, occasionally emits the same noise as the Whoopie Cushion.
+
+== History ==
+
+# 文档：Will's Breastplate
+- 类别：vanity_items
+- 标识：wills-breastplate
+- 来源：wiki/Will's_Breastplate
+
+== Notes ==
+* Its male and female variants look identical.
+
+== History ==
+
+# 文档：Will's Helmet
+- 类别：vanity_items
+- 标识：wills-helmet
+- 来源：wiki/Will's_Helmet
+
+== Notes ==
+* Its male and female variants look identical.
+
+== History ==
+
+# 文档：Will's Leggings
+- 类别：vanity_items
+- 标识：wills-leggings
+- 来源：wiki/Will's_Leggings
+
+== Notes ==
+* Its male and female variants look identical.
+
+== History ==
+
+# 文档：Will's set
+- 类别：vanity_items
+- 标识：wills-set
+- 来源：wiki/Will's_set
+
+== Notes ==
+* Its male and female variants look identical.
+
+== History ==
+
+# 文档：Winter Cape
+- 类别：vanity_items
+- 标识：winter-cape
+- 来源：wiki/Winter_Cape
+
+Capes are accessories purchased from the Traveling Merchant, usually for each. They are considered vanity items, as they provide no stats or bonuses. The is an anomaly; it can be sold by the Clothier for if the player has accumulated a golf score of 2000, or by the Traveling Merchant regardless of golf score.
+
+== Types ==
+
+{| class="terraria lined align-center"
+! colspan=2 | Item !! Equipped !! Buy !! Sell
+
+|}
+
+== Notes ==
+* Capes are still visible in merfolk or werewolf form.
+* When using items such as wings (including the Hoverboard), the cape will not be visible in the social slot unless visibility has been turned off in the options menu. The cape will only be visible when running or stationary, while wings will be visible when flying.
+
+== Tips ==
+* 
+
+== Trivia ==
+* The Crimson Cloak can be purchased even in worlds generated with Corruption. Its name refers to the cape's , for which the infectious biome is also named.
+* Though any equipped shields will correctly be displayed under any of the capes, the walking animation will cause the shield to clip through the capes.
+
+== History ==
+
+# 文档：Witch set
+- 类别：vanity_items
+- 标识：witch-set
+- 来源：wiki/Witch_set
+
+The Witch set is a vanity set consisting of the Witch Hat, Witch Dress, and Witch Boots. It has a chance to be dropped by Goodie Bags, which are collected during Halloween with a chance.
+
+== Set ==
+
+== History ==
+
+# 文档：Wizard's Hat
+- 类别：vanity_items
+- 标识：wizards-hat
+- 来源：wiki/Wizard's_Hat
+
+The Wizard's Hat is a vanity item purchased from the Wizard during Halloween for .
+
+== Trivia ==
+* Its color and pattern schemes are strikingly similar to those of the Star Cloak.
+
+== History ==
+
+# 文档：Wolf set
+- 类别：vanity_items
+- 标识：wolf-set
+- 来源：wiki/Wolf_set
+
+The Wolf set is a vanity set that has a chance to be dropped by Goodie Bags, which are collected during Halloween with a chance.
+
+== Set ==
+
+== Tips ==
+
+* Since the mask doesn't cover the full head, you can replace it with a dyed , since it covers the whole head.
+
+== History ==
+
+# 文档：Yoraiz0r's Recolored Goggles
+- 类别：vanity_items
+- 标识：yoraiz0rs-recolored-goggles
+- 来源：wiki/Yoraiz0r's_Recolored_Goggles
+
+== Trivia ==
+* As Terraria item names are now stored in separate language files, the "name" statistic for items are now merely internal placeholders. Yoraiz0r seems to have used this space to leave an Easter Egg for fans examining the game code. The internal names for these items are:
+** Goggles: "Testokun"
+** Uniform: "If you're reading this, hi"
+** Skirt: "Yes, this is my dev armor, deal with it"
+** Spell: "Isn't this glorious?"
+** Scowl: "Dark..."
+* Yoraiz0r's Goggles, akin to their name, are a recolored version of the Steampunk Goggles. The item sprite is purely recolored and the character sprite is recolored with slight changes to the structure.
+*Despite Yoraizor's Scowl having a completely black texture, modifying it with a texture pack reveals that its color changes along with the player's skin color.
+
+== History ==
+
+# 文档：Yoraiz0r's Scowl
+- 类别：vanity_items
+- 标识：yoraiz0rs-scowl
+- 来源：wiki/Yoraiz0r's_Scowl
+
+== Trivia ==
+* As Terraria item names are now stored in separate language files, the "name" statistic for items are now merely internal placeholders. Yoraiz0r seems to have used this space to leave an Easter Egg for fans examining the game code. The internal names for these items are:
+** Goggles: "Testokun"
+** Uniform: "If you're reading this, hi"
+** Skirt: "Yes, this is my dev armor, deal with it"
+** Spell: "Isn't this glorious?"
+** Scowl: "Dark..."
+* Yoraiz0r's Goggles, akin to their name, are a recolored version of the Steampunk Goggles. The item sprite is purely recolored and the character sprite is recolored with slight changes to the structure.
+*Despite Yoraizor's Scowl having a completely black texture, modifying it with a texture pack reveals that its color changes along with the player's skin color.
+
+== History ==
+
+# 文档：Yoraiz0r's set
+- 类别：vanity_items
+- 标识：yoraiz0rs-set
+- 来源：wiki/Yoraiz0r's_set
+
+== Trivia ==
+* As Terraria item names are now stored in separate language files, the "name" statistic for items are now merely internal placeholders. Yoraiz0r seems to have used this space to leave an Easter Egg for fans examining the game code. The internal names for these items are:
+** Goggles: "Testokun"
+** Uniform: "If you're reading this, hi"
+** Skirt: "Yes, this is my dev armor, deal with it"
+** Spell: "Isn't this glorious?"
+** Scowl: "Dark..."
+* Yoraiz0r's Goggles, akin to their name, are a recolored version of the Steampunk Goggles. The item sprite is purely recolored and the character sprite is recolored with slight changes to the structure.
+*Despite Yoraizor's Scowl having a completely black texture, modifying it with a texture pack reveals that its color changes along with the player's skin color.
+
+== History ==
+
+# 文档：Yoraiz0r's Skirt
+- 类别：vanity_items
+- 标识：yoraiz0rs-skirt
+- 来源：wiki/Yoraiz0r's_Skirt
+
+== Trivia ==
+* As Terraria item names are now stored in separate language files, the "name" statistic for items are now merely internal placeholders. Yoraiz0r seems to have used this space to leave an Easter Egg for fans examining the game code. The internal names for these items are:
+** Goggles: "Testokun"
+** Uniform: "If you're reading this, hi"
+** Skirt: "Yes, this is my dev armor, deal with it"
+** Spell: "Isn't this glorious?"
+** Scowl: "Dark..."
+* Yoraiz0r's Goggles, akin to their name, are a recolored version of the Steampunk Goggles. The item sprite is purely recolored and the character sprite is recolored with slight changes to the structure.
+*Despite Yoraizor's Scowl having a completely black texture, modifying it with a texture pack reveals that its color changes along with the player's skin color.
+
+== History ==
+
+# 文档：Yoraiz0r's Uniform
+- 类别：vanity_items
+- 标识：yoraiz0rs-uniform
+- 来源：wiki/Yoraiz0r's_Uniform
+
+== Trivia ==
+* As Terraria item names are now stored in separate language files, the "name" statistic for items are now merely internal placeholders. Yoraiz0r seems to have used this space to leave an Easter Egg for fans examining the game code. The internal names for these items are:
+** Goggles: "Testokun"
+** Uniform: "If you're reading this, hi"
+** Skirt: "Yes, this is my dev armor, deal with it"
+** Spell: "Isn't this glorious?"
+** Scowl: "Dark..."
+* Yoraiz0r's Goggles, akin to their name, are a recolored version of the Steampunk Goggles. The item sprite is purely recolored and the character sprite is recolored with slight changes to the structure.
+*Despite Yoraizor's Scowl having a completely black texture, modifying it with a texture pack reveals that its color changes along with the player's skin color.
+
+== History ==
 
