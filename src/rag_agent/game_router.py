@@ -60,6 +60,7 @@ AVAILABLE_GAMES = {
 GAME_SIGNALS: Dict[str, List[str]] = {
     "hollow_knight": [
         "hollow knight", "空洞骑士", "hallownest", "圣巢",
+        "hk",
         "辐光", "radiance", "纯粹容器", "pure vessel",
         "hornet", "大黄蜂", "grimm", "格林",
         "螳螂领主", "deepnest", "pale king", "白王",
@@ -72,6 +73,7 @@ GAME_SIGNALS: Dict[str, List[str]] = {
     ],
     "silksong": [
         "silksong", "丝之歌",
+        "丝之鸽",
         "hornet", "黄蜂公主", "pharloom",
         "lace", "编织者",
         "绸缎", "丝线",
@@ -95,7 +97,7 @@ GAME_SIGNALS: Dict[str, List[str]] = {
     ],
     "va11halla": [
         "va-11 hall-a", "赛博朋克酒保", "酒保行动",
-        "va11halla", "valhalla",
+        "va11halla", "valhalla", "瓦尔哈拉", "va11",
         "jill", "吉尔", "dana", "戴娜",
         "调制", "调酒", "鸡尾酒", "bartender",
         "坏Touch", "brandtini",
@@ -103,6 +105,7 @@ GAME_SIGNALS: Dict[str, List[str]] = {
     ],
     "mhw": [
         "monster hunter wilds", "怪物猎人荒野", "mh wilds",
+        "mhwilds", "mhws", "怪猎荒野",
         "rey dau", "uth duna", "chatacabra", "arkveld",
         "oilwell basin", "windward plains", "ruins of wyveria",
         "煌雷龙", "沼龙", "风铗龙",
@@ -110,7 +113,7 @@ GAME_SIGNALS: Dict[str, List[str]] = {
     ],
     "cyberpunk2077": [
         "cyberpunk 2077", "赛博朋克2077", "赛博朋克 2077",
-        "2077",
+        "2077", "cp2077",
         "v", "强尼", "johnny silverhand", "银手",
         "夜之城", "night city", "荒坂", "arasaka",
         "义体", "cyberware", "relic", "圣物",
@@ -122,6 +125,20 @@ GAME_SIGNALS: Dict[str, List[str]] = {
         "黑墙", "blackwall", "黑客", "quickhack",
     ],
 }
+
+
+def _match_signal(signal: str, q: str) -> bool:
+    """检查信号词是否匹配查询。
+
+    纯字母信号词使用相邻英文字母检查避免误触，
+    例如 "oni" 不应匹配 "monitor"、"v" 不应匹配 "va11"。
+    """
+    sl = signal.lower()
+    # 纯字母信号词：前后不能紧跟英文字母，避免作为其他单词的一部分被匹配
+    if re.match(r'^[a-z]+$', sl):
+        return bool(re.search(r'(?<![a-zA-Z])' + re.escape(sl) + r'(?![a-zA-Z])', q))
+    # 含中文、空格或非字母的信号词直接用子串匹配
+    return sl in q
 
 
 def detect_game(query: str) -> Tuple[Optional[str], float]:
@@ -137,13 +154,13 @@ def detect_game(query: str) -> Tuple[Optional[str], float]:
 
     # 优先精确匹配游戏全称
     exact_patterns = {
-        "hollow_knight": [r"\b(?:hollow knight|空洞骑士)\b"],
-        "cyberpunk2077": [r"\b(?:cyberpunk 2077|赛博朋克2077|赛博朋克 2077)\b"],
-        "va11halla": [r"\b(?:va-11 hall-a|va11halla|赛博朋克酒保|酒保行动)\b"],
+        "hollow_knight": [r"\b(?:hollow knight|空洞骑士|hk)\b"],
+        "cyberpunk2077": [r"\b(?:cyberpunk 2077|赛博朋克2077|赛博朋克 2077|2077|cp2077)\b"],
+        "va11halla": [r"\b(?:va-11 hall-a|va11halla|赛博朋克酒保|酒保行动|va11)\b"],
         "terraria": [r"\b(?:terraria|泰拉瑞亚|泰拉)\b"],
-        "oni": [r"\b(?:oxygen not included|缺氧)\b"],
+        "oni": [r"\b(?:oxygen not included|缺氧|oni)\b"],
         "silksong": [r"\b(?:silksong|丝之歌)\b"],
-        "mhw": [r"\b(?:怪物猎人荒野|monster hunter wilds|mh wilds|Monster Hunter Wilds)\b"],
+        "mhw": [r"\b(?:怪物猎人荒野|monster hunter wilds|mh wilds|mhwilds|mhws)\b"],
     }
 
     for game, patterns in exact_patterns.items():
@@ -156,7 +173,7 @@ def detect_game(query: str) -> Tuple[Optional[str], float]:
     for game, signals in GAME_SIGNALS.items():
         score = 0
         for signal in signals:
-            if signal.lower() in q:
+            if _match_signal(signal, q):
                 score += 1
         if score > 0:
             scores[game] = score
