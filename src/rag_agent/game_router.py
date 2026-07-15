@@ -38,6 +38,16 @@ AVAILABLE_GAMES = {
         "db_path": str(GAMES_DIR / "silksong" / "silksong_data.db"),
         "vectorstore_dir": str(GAMES_DIR / "silksong" / "vectorstore"),
     },
+    "cyberpunk2077": {
+        "name": "Cyberpunk 2077 (赛博朋克2077)",
+        "db_path": str(GAMES_DIR / "cyberpunk2077" / "cyberpunk2077_data.db"),
+        "vectorstore_dir": str(GAMES_DIR / "cyberpunk2077" / "vectorstore"),
+    },
+    "va11halla": {
+        "name": "VA-11 Hall-A (赛博朋克酒保行动)",
+        "db_path": str(GAMES_DIR / "va11halla" / "va11halla_data.db"),
+        "vectorstore_dir": str(GAMES_DIR / "va11halla" / "vectorstore"),
+    },
 }
 
 # ── 游戏关键词检测 ──
@@ -78,6 +88,26 @@ GAME_SIGNALS: Dict[str, List[str]] = {
         "矿车", "钓鱼", "史莱姆女王",
         "日耀", "星旋", "星云",
     ],
+    "va11halla": [
+        "va-11 hall-a", "赛博朋克酒保", "酒保行动",
+        "va11halla", "valhalla",
+        "jill", "吉尔", "dana", "戴娜",
+        "调制", "调酒", "鸡尾酒", "bartender",
+        "坏Touch", "brandtini",
+        "安娜", "anime",
+    ],
+    "cyberpunk2077": [
+        "cyberpunk 2077", "赛博朋克2077", "赛博朋克 2077",
+        "v", "强尼", "johnny silverhand", "银手",
+        "夜之城", "night city", "荒坂", "arasaka",
+        "义体", "cyberware", "relic", "圣物",
+        "超梦", "braindance", "虎爪帮",
+        "大卫", "lucy", "边缘行者", "edgerunners",
+        "百灵鸟", "songbird", "所罗门", "reed",
+        "狗镇", "dogtown", "phantom liberty",
+        "军用科技", "militech", "漩", "maelstrom",
+        "黑墙", "blackwall", "黑客", "quickhack",
+    ],
 }
 
 
@@ -95,6 +125,8 @@ def detect_game(query: str) -> Tuple[Optional[str], float]:
     # 优先精确匹配游戏全称
     exact_patterns = {
         "hollow_knight": [r"\b(?:hollow knight|空洞骑士)\b"],
+        "cyberpunk2077": [r"\b(?:cyberpunk 2077|赛博朋克2077|赛博朋克 2077)\b"],
+        "va11halla": [r"\b(?:va-11 hall-a|va11halla|赛博朋克酒保|酒保行动)\b"],
         "terraria": [r"\b(?:terraria|泰拉瑞亚|泰拉)\b"],
         "oni": [r"\b(?:oxygen not included|缺氧)\b"],
         "silksong": [r"\b(?:silksong|丝之歌)\b"],
@@ -190,6 +222,31 @@ You have two knowledge sources:
 Answer in Chinese (中文) keeping English game terms in parentheses.
 Note: Silksong has NOT been released yet. Information comes from demos, previews, and wiki speculation.
 Always cite which source provided the info.
+For questions about OTHER games: politely decline.
+""",
+        "cyberpunk2077": f"""
+You are a Cyberpunk 2077 (《赛博朋克2077》) game expert assistant named nanobot 🐈.
+
+You have two knowledge sources:
+1. **search_knowledge_base** — Vector search (lore, quests, characters, locations, builds)
+2. **query_structured_data** — SQLite database (weapons, cyberware, quickhacks, perks stats)
+
+You also cover the Phantom Liberty expansion content.
+Answer in Chinese (中文) keeping English game terms in parentheses.
+Always cite which source provided the info.
+Be concise, informative, max 3-4 paragraphs.
+For questions about OTHER games: politely decline.
+""",
+        "va11halla": f"""
+You are a VA-11 Hall-A (《赛博朋克酒保行动》) game expert assistant named nanobot 🐈.
+
+You have two knowledge sources:
+1. **search_knowledge_base** — Vector search (characters, story, drink recipes, endings)
+2. **query_structured_data** — SQLite database (page info, categories)
+
+Answer in Chinese (中文) keeping English game terms in parentheses.
+Always cite which source provided the info.
+Be concise, informative, max 3-4 paragraphs.
 For questions about OTHER games: politely decline.
 """,
     }

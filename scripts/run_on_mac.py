@@ -8,10 +8,12 @@
 用法：
     cd /data/learning/agent
     python3 scripts/run_on_mac.py --game all          ← 构建所有游戏
-    python3 scripts/run_on_mac.py --game oni           ← 只构建某个游戏
-    python3 scripts/run_on_mac.py --game terraria
-    python3 scripts/run_on_mac.py --game silksong
-    python3 scripts/run_on_mac.py --game hollow_knight
+     python3 scripts/run_on_mac.py --game oni           ← 只构建某个游戏
+     python3 scripts/run_on_mac.py --game terraria
+     python3 scripts/run_on_mac.py --game silksong
+     python3 scripts/run_on_mac.py --game hollow_knight
+     python3 scripts/run_on_mac.py --game cyberpunk2077
+     python3 scripts/run_on_mac.py --game va11halla
 
 前置条件：
     pip install -r requirements.txt              # 安装 fastembed 等依赖
@@ -52,6 +54,16 @@ GAME_DATA: Dict[str, Dict[str, str]] = {
         "data_path": str(GAMES_DIR / "silksong" / "data" / "wiki_data.md"),
         "vectorstore_dir": str(GAMES_DIR / "silksong" / "vectorstore"),
     },
+    "cyberpunk2077": {
+        "name": "Cyberpunk 2077 (赛博朋克2077)",
+        "data_path": str(GAMES_DIR / "cyberpunk2077" / "data" / "wiki_data.md"),
+        "vectorstore_dir": str(GAMES_DIR / "cyberpunk2077" / "vectorstore"),
+    },
+    "va11halla": {
+        "name": "VA-11 Hall-A (赛博朋克酒保行动)",
+        "data_path": str(GAMES_DIR / "va11halla" / "data" / "wiki_data.md"),
+        "vectorstore_dir": str(GAMES_DIR / "va11halla" / "vectorstore"),
+    },
 }
 
 
@@ -64,33 +76,71 @@ def load_wiki_documents(filepath: str) -> List[Dict]:
 
     text = path.read_text(encoding="utf-8")
 
-    # 以 # 文档： 作为文档分割标记
-    chunks = re.split(r"(?=^# 文档[：:])", text, flags=re.MULTILINE)
+    # 以 # 文档： 或 ## 标题 作为文档分割标记
+    # 支持两种格式：
+    #   格式 A: # 文档：标题   ← 旧格式
+    #   格式 B: ## 标题        ← fetch_wiki.py 格式
+    split_a = re.split(r"(?=^# 文档[：:])", text, flags=re.MULTILINE)
+    split_b = re.split(r"(?=^##\s+.*(?:\n|$))", text, flags=re.MULTILINE)
+
+    # 判断使用哪种格式：优先用格式 A
+    chunks_a = [c for c in split_a if c.strip().startswith("# 文档")]
+    chunks_b = [c for c in split_b if c.strip().startswith("##") and not c.strip().startswith("###") and not c.strip().startswith("####")]
+    # 跳过第一个分块如果它是文件标题（没有 ##）
+    if split_b and not split_b[0].strip().startswith("##"):
+        split_b = split_b[1:]
+        chunks_b = [c for c in split_b if c.strip().startswith("##") and not c.strip().startswith("###") and not c.strip().startswith("####")]
+
+    if chunks_a:
+        chunks = split_a
+        fmt = "doc"
+    elif chunks_b:
+        chunks = split_b
+        fmt = "h2"
+    else:
+        print("  ℹ️ 无法识别文档格式")
+        return []
+
     docs = []
 
     for chunk in chunks:
         chunk = chunk.strip()
-        if not chunk or not chunk.startswith("# 文档"):
+        if not chunk:
             continue
 
-        lines = chunk.split("\n")
-        title_match = re.search(r"^#\s*文档[：:]\s*(.*)", lines[0]) if lines else None
-        title = title_match.group(1).strip() if title_match else "Unknown"
-
-        category = ""
-        for line in lines[:6]:
-            cat_match = re.search(r"- 类别[：:]\s*(.*)", line)
-            if cat_match:
-                category = cat_match.group(1).strip()
-                break
-
-        content_lines = []
-        for line in lines:
-            if any(line.startswith(p) for p in ("# 文档", "- 类别", "- 标识", "- 来源", "- 路径")):
+        if fmt == "doc":
+            if not chunk.startswith("# 文档"):
                 continue
-            content_lines.append(line)
+            lines = chunk.split("\n")
+            title_match = re.search(r"^#\s*文档[：:]\s*(.*)", lines[0]) if lines else None
+            title = title_match.group(1).strip() if title_match else "Unknown"
 
-        content = "\n".join(content_lines).strip()
+            category = ""
+            for line in lines[:6]:
+                cat_match = re.search(r"- 类别[：:]\s*(.*)", line)
+                if cat_match:
+                    category = cat_match.group(1).strip()
+                    break
+
+            content_lines = []
+            for line in lines:
+                if any(line.startswith(p) for p in ("# 文档", "- 类别", "- 标识", "- 来源", "- 路径")):
+                    continue
+                content_lines.append(line)
+
+            content = "\n".join(content_lines).strip()
+        else:
+            # 格式 B: ## 标题 \n ...（直到下一个 ## 或文件结尾）
+            lines = chunk.split("\n")
+            title_match = re.search(r"^##\s+(.*)", lines[0])
+            title = title_match.group(1).strip() if title_match else "Unknown"
+            category = ""
+            content_lines = lines[1:]  # 跳过标题行
+            # 去掉末尾的 --- 分隔线
+            while content_lines and content_lines[-1].strip() in ("---", ""):
+                content_lines = content_lines[:-1]
+            content = "\n".join(content_lines).strip()
+
         if content:
             docs.append({
                 "content": content,
@@ -202,6 +252,8 @@ def load_structured_data(game_key: str) -> List[Dict]:
         "oni": "games/oni/oni_data.db",
         "terraria": "games/terraria/terraria_data.db",
         "silksong": "games/silksong/silksong_data.db",
+        "cyberpunk2077": "games/cyberpunk2077/cyberpunk2077_data.db",
+        "va11halla": "games/va11halla/va11halla_data.db",
     }
 
     db_path = Path(__file__).resolve().parent.parent / db_mapping[game_key]
@@ -320,6 +372,8 @@ def main():
     print("  scp -r games/oni/vectorstore/ snap@114.132.189.56:/data/learning/agent/games/oni/")
     print("  scp -r games/terraria/vectorstore/ snap@114.132.189.56:/data/learning/agent/games/terraria/")
     print("  scp -r games/silksong/vectorstore/ snap@114.132.189.56:/data/learning/agent/games/silksong/")
+    print("  scp -r games/cyberpunk2077/vectorstore/ snap@114.132.189.56:/data/learning/agent/games/cyberpunk2077/")
+    print("  scp -r games/va11halla/vectorstore/ snap@114.132.189.56:/data/learning/agent/games/va11halla/")
     print("  scp -r vectorstore/ snap@114.132.189.56:/data/learning/agent/vectorstore/   (如果重建 HK)")
     print()
     print("覆盖后重启服务器即可生效。")
