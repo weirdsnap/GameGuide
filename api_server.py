@@ -19,7 +19,7 @@ from aiohttp import web
 project_root = Path(__file__).parent
 sys.path.insert(0, str(project_root / "src"))
 
-from rag_agent.multi_agent import ask
+from rag_agent.multi_agent import ask, ask_stream
 
 # ====== 配置 ======
 CONFIG_FILE = project_root / "api_config.json"
@@ -190,6 +190,86 @@ async def handle_ask(request):
         return web.json_response({"error": f"处理请求时出错"}, status=500)
 
 
+async def handle_ask_stream(request):
+    """POST /api/ask/stream — 流式提问（SSE）"""
+    try:
+        body = await request.json()
+    except json.JSONDecodeError:
+        return web.json_response({"error": "无效的 JSON 格式"}, status=400)
+
+    question = body.get("question", "").strip()
+    token = body.get("token", "")
+    history = body.get("history", [])
+
+    if not question:
+        return web.json_response({"error": "问题不能为空"}, status=400)
+
+    if not sessions.verify(token):
+        return web.json_response({"error": "token 无效或已过期，请重新登录"}, status=401)
+
+    ip = request.remote or "unknown"
+    ok, msg = rate_limiter.check(ip)
+    if not ok:
+        return web.json_response({"error": msg}, status=429)
+
+    rate_limiter.record(ip)
+
+    # SSE 响应头
+    resp = web.StreamResponse(
+        status=200,
+        reason="OK",
+        headers={
+            "Content-Type": "text/event-stream",
+            "Cache-Control": "no-cache",
+            "Connection": "keep-alive",
+            "X-Accel-Buffering": "no",
+        },
+    )
+
+    allow_origin = os.environ.get("CORS_ORIGIN", "*")
+    resp.headers["Access-Control-Allow-Origin"] = allow_origin
+    resp.headers["Access-Control-Allow-Methods"] = "POST, OPTIONS"
+    resp.headers["Access-Control-Allow-Headers"] = "Content-Type, Authorization"
+
+    await resp.prepare(request)
+
+    t0 = time.time()
+    token_count = 0
+
+    try:
+        async for event_type, data in ask_stream(question, history=history if history else None, verbose=True):
+            if event_type == "token":
+                payload = json.dumps({"type": "token", "content": data}, ensure_ascii=False)
+                await resp.write(f"data: {payload}\n\n".encode("utf-8"))
+                token_count += 1
+            elif event_type == "meta":
+                payload = json.dumps({"type": "meta", **data}, ensure_ascii=False)
+                await resp.write(f"data: {payload}\n\n".encode("utf-8"))
+            elif event_type == "error":
+                payload = json.dumps({"type": "error", "content": data}, ensure_ascii=False)
+                await resp.write(f"data: {payload}\n\n".encode("utf-8"))
+                break
+
+        # 结束标志
+        elapsed = round(time.time() - t0, 1)
+        await resp.write(
+            f"data: {json.dumps({'type': 'done', 'elapsed': elapsed})}\n\n".encode("utf-8")
+        )
+
+    except (ConnectionResetError, ConnectionAbortedError):
+        logger.warning(f"客户端断开连接: {ip}")
+    except Exception as e:
+        logger.error(f"流式处理失败: {e}")
+        try:
+            await resp.write(f"data: {json.dumps({'type': 'error', 'content': str(e)[:200]})}\n\n".encode("utf-8"))
+        except Exception:
+            pass
+
+    elapsed = time.time() - t0
+    print(f"  [{time.strftime('%H:%M:%S')}] {ip[:15]:15s} 💨 {question[:40]:40s} | {elapsed:.1f}s | {token_count}t")
+    return resp
+
+
 async def handle_status(request):
     """GET /api/status — 健康检查"""
     return web.json_response({
@@ -205,6 +285,7 @@ def create_app() -> web.Application:
     app = web.Application(middlewares=[cors_middleware])
     app.router.add_post("/api/login", handle_login)
     app.router.add_post("/api/ask", handle_ask)
+    app.router.add_post("/api/ask/stream", handle_ask_stream)
     app.router.add_get("/api/status", handle_status)
     return app
 

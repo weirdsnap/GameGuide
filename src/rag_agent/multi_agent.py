@@ -278,7 +278,87 @@ def create_game_tools(game_key: str) -> List:
 
 
 # ══════════════════════════════════════════
-#  游戏检测 + 对话路由
+#  共享：游戏检测 + 准备
+# ══════════════════════════════════════════
+
+_MENU_NEW = """请问你想问哪款游戏的攻略？请选择：
+
+1. 🐈 **空洞骑士** (Hollow Knight)
+2. 🪱 **丝之歌** (Hollow Knight Silksong)
+3. 💨 **缺氧** (Oxygen Not Included)
+4. 🪨 **泰拉瑞亚** (Terraria)
+
+直接告诉我游戏名称就可以开始啦！"""
+
+_MENU_SWITCH = """你想切换到哪个游戏？请选择：
+
+1. 🐈 **空洞骑士** (Hollow Knight)
+2. 🪱 **丝之歌** (Hollow Knight Silksong)
+3. 💨 **缺氧** (Oxygen Not Included)
+4. 🪨 **泰拉瑞亚** (Terraria)
+
+直接告诉我游戏名称就可以啦！"""
+
+
+def _resolve_game(question: str, history: Optional[list] = None):
+    """
+    游戏检测 + 连续性判断。
+
+    Returns:
+        (game_key, full_prompt, llm, tools, messages)   — 正常
+        (None, 菜单文本, ...)                            — 需要弹菜单
+    """
+    global _LAST_GAME, _LAST_GAME_CONFIRMED
+
+    q = question.strip()
+    if not q:
+        return None, "请问你想了解哪款游戏的攻略？", None, None, None
+
+    # 检测游戏
+    game_key, confidence = detect_game(q)
+    logger.info(f"检测游戏: key={game_key}, confidence={confidence:.2f}, query={q[:50]}")
+
+    # 连续性判断
+    if confidence >= 0.4:
+        _LAST_GAME = game_key
+        _LAST_GAME_CONFIRMED = True
+        logger.info(f"检测到游戏: {game_key}")
+    elif is_switch_query(q):
+        logger.info(f"检测到切换意图: {q[:50]}")
+        _reset_game_state()
+        return None, _MENU_SWITCH, None, None, None
+    elif history and _LAST_GAME is not None and _LAST_GAME_CONFIRMED:
+        game_key = _LAST_GAME
+        logger.info(f"延续上轮游戏: {game_key}")
+    else:
+        _reset_game_state()
+        return None, _MENU_NEW, None, None, None
+
+    # 检查知识库
+    cfg = AVAILABLE_GAMES[game_key]
+    vs_ok = os.path.isdir(cfg["vectorstore_dir"])
+    db_ok = os.path.isfile(cfg["db_path"])
+
+    if not vs_ok and not db_ok:
+        _reset_game_state()
+        return None, f"抱歉，{cfg['name']} 的知识库尚未准备好。请联系管理员初始化数据。", None, None, None
+
+    # 构建 prompt
+    full_prompt = build_game_prompt(game_key) + """
+**Rules:**
+- Answer in Chinese (中文) keeping English game terms in parentheses.
+- Always cite your sources: mention whether info came from knowledge base or database.
+- If both sources are needed, use both tools.
+- Never fabricate game information.
+- Be concise, informative, max 3-4 paragraphs.
+- If the user asks about another game or topic, politely decline.
+"""
+
+    return game_key, full_prompt, vs_ok, db_ok, cfg
+
+
+# ══════════════════════════════════════════
+#  构建消息
 # ══════════════════════════════════════════
 
 def build_messages(
@@ -298,7 +378,6 @@ def build_messages(
             elif role == "assistant":
                 messages.append(AIMessage(content=content))
 
-    # Insert system prompt at start if not already there
     if game_prompt and (not history or not any(isinstance(m, SystemMessage) for m in messages)):
         messages.insert(0, SystemMessage(content=game_prompt))
 
@@ -306,13 +385,17 @@ def build_messages(
     return messages
 
 
+# ══════════════════════════════════════════
+#  ask() — 非流式（兼容旧接口）
+# ══════════════════════════════════════════
+
 def ask(
     question: str,
     history: Optional[List[Dict[str, str]]] = None,
     model_name: Optional[str] = None,
     verbose: bool = False,
 ) -> str:
-    """多游戏 Agent 入口。
+    """多游戏 Agent 入口（非流式）。
 
     自动检测游戏、加载对应工具、路由问题。
 
@@ -325,74 +408,11 @@ def ask(
     Returns:
         Agent 回复文本
     """
-    global _LAST_GAME, _LAST_GAME_CONFIRMED
+    game_key, prompt, vs_ok, db_ok, cfg = _resolve_game(question, history)
 
-    q = question.strip()
-    if not q:
-        return "请问你想了解哪款游戏的攻略？"
-
-    # 检测游戏
-    game_key, confidence = detect_game(q)
-
-    logger.info(f"检测游戏: key={game_key}, confidence={confidence:.2f}, query={q[:50]}")
-
-    # 连续性判断
-    if confidence >= 0.4:
-        # 检测到明确的游戏，使用检测结果
-        _LAST_GAME = game_key
-        _LAST_GAME_CONFIRMED = True
-        logger.info(f"检测到游戏: {game_key}")
-    elif is_switch_query(q):
-        # 用户想切换游戏但没指名 → 弹菜单
-        logger.info(f"检测到切换意图: {q[:50]}")
-        _reset_game_state()
-        return (
-            "你想切换到哪个游戏？请选择：\n\n"
-            "1. 🐈 **空洞骑士** (Hollow Knight)\n"
-            "2. 🪱 **丝之歌** (Hollow Knight Silksong)\n"
-            "3. 💨 **缺氧** (Oxygen Not Included)\n"
-            "4. 🪨 **泰拉瑞亚** (Terraria)\n\n"
-            "直接告诉我游戏名称就可以啦！"
-        )
-    elif history and _LAST_GAME is not None and _LAST_GAME_CONFIRMED:
-        # 置信度低但有历史对话 + 上次已确认的游戏 → 延续上轮
-        game_key = _LAST_GAME
-        logger.info(f"延续上轮游戏: {game_key}")
-    else:
-        # 啥都没有 → 弹选择菜单
-        _reset_game_state()
-        return (
-            "请问你想问哪款游戏的攻略？请选择：\n\n"
-            "1. 🐈 **空洞骑士** (Hollow Knight)\n"
-            "2. 🪱 **丝之歌** (Hollow Knight Silksong)\n"
-            "3. 💨 **缺氧** (Oxygen Not Included)\n"
-            "4. 🪨 **泰拉瑞亚** (Terraria)\n\n"
-            "直接告诉我游戏名称就可以开始啦！"
-        )
-
-    # 检查向量库和数据库是否存在
-    cfg = AVAILABLE_GAMES[game_key]
-    vs_ok = os.path.isdir(cfg["vectorstore_dir"])
-    db_ok = os.path.isfile(cfg["db_path"])
-
-    if not vs_ok and not db_ok:
-        _reset_game_state()
-        return f"抱歉，{cfg['name']} 的知识库尚未准备好。请联系管理员初始化数据。"
-
-    game_prompt = build_game_prompt(game_key)
-
-    # 修正 system prompt：如果 game_prompt 包含工具说明但不够 HK 时丢失了引用
-    # 补充通用规则
-    base_rules = """
-**Rules:**
-- Answer in Chinese (中文) keeping English game terms in parentheses.
-- Always cite your sources: mention whether info came from knowledge base or database.
-- If both sources are needed, use both tools.
-- Never fabricate game information.
-- Be concise, informative, max 3-4 paragraphs.
-- If the user asks about another game or topic, politely decline.
-"""
-    full_prompt = game_prompt + base_rules
+    # 需要弹菜单
+    if game_key is None:
+        return prompt
 
     # 创建 LLM
     config = dict(LLM_CONFIG)
@@ -400,14 +420,12 @@ def ask(
         config["model"] = model_name
     llm = ChatOpenAI(**config)
 
-    # 创建游戏工具
+    # 创建工具 + Agent
     tools = create_game_tools(game_key)
-
-    # 创建 Agent
-    agent = create_agent(llm, tools, prompt=SystemMessage(content=full_prompt))
+    agent = create_agent(llm, tools, prompt=SystemMessage(content=prompt))
 
     # 构建消息
-    messages = build_messages(q, history)
+    messages = build_messages(question.strip(), history, prompt)
 
     if verbose:
         logger.info(f"🕹️ 游戏: {game_key}")
@@ -422,3 +440,70 @@ def ask(
     except Exception as e:
         logger.error(f"Agent 调用失败: {e}")
         return f"[查询出错] {e}"
+
+
+# ══════════════════════════════════════════
+#  ask_stream() — 流式输出
+# ══════════════════════════════════════════
+
+from langchain_core.messages import AIMessageChunk
+
+
+async def ask_stream(
+    question: str,
+    history: Optional[List[Dict[str, str]]] = None,
+    model_name: Optional[str] = None,
+    verbose: bool = False,
+):
+    """
+    流式 Agent 入口。多游戏检测+路由，逐 token 产出。
+
+    Yields:
+        ("token", str)  — LLM 生成文本片段
+        ("error", str)  — 出错信息
+        ("meta", dict)  — 元信息（游戏、模型等）
+    """
+    game_key, prompt, vs_ok, db_ok, cfg = _resolve_game(question, history)
+
+    # 需要弹菜单或错误 → 当 token 一次性吐出
+    if game_key is None:
+        yield "token", prompt
+        return
+
+    # 创建 LLM（streaming 开启）
+    config = dict(LLM_CONFIG)
+    if model_name:
+        config["model"] = model_name
+    config["streaming"] = True
+    llm = ChatOpenAI(**config)
+
+    # 创建工具 + Agent
+    tools = create_game_tools(game_key)
+    agent = create_agent(llm, tools, prompt=SystemMessage(content=prompt))
+
+    # 构建消息
+    messages = build_messages(question.strip(), history, prompt)
+
+    if verbose:
+        logger.info(f"🕹️ 流式 游戏: {game_key}")
+        logger.info(f"  🤖 模型: {config.get('model', 'default')}")
+        logger.info(f"  📊 向量库: {'✅' if vs_ok else '❌'} | 数据库: {'✅' if db_ok else '❌'}")
+        logger.info(f"  💬 消息: {len(messages)} 条")
+
+    # 先发元信息，方便前端显示
+    yield "meta", {
+        "game": game_key,
+        "game_name": cfg["name"],
+        "model": config.get("model", "default"),
+        "sources": {"vectorstore": vs_ok, "database": db_ok},
+    }
+
+    try:
+        async for event in agent.astream_events({"messages": messages}, version="v2"):
+            if event["event"] == "on_chat_model_stream":
+                chunk = event["data"]["chunk"]
+                if isinstance(chunk, AIMessageChunk) and chunk.content:
+                    yield "token", chunk.content
+    except Exception as e:
+        logger.error(f"Agent 流式调用失败: {e}")
+        yield "error", str(e)
