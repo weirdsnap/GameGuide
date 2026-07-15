@@ -14,6 +14,7 @@
      python3 scripts/run_on_mac.py --game hollow_knight
      python3 scripts/run_on_mac.py --game cyberpunk2077
      python3 scripts/run_on_mac.py --game va11halla
+     python3 scripts/run_on_mac.py --game mhw
 
 前置条件：
     pip install -r requirements.txt              # 安装 fastembed 等依赖
@@ -63,6 +64,11 @@ GAME_DATA: Dict[str, Dict[str, str]] = {
         "name": "VA-11 Hall-A (赛博朋克酒保行动)",
         "data_path": str(GAMES_DIR / "va11halla" / "data" / "wiki_data.md"),
         "vectorstore_dir": str(GAMES_DIR / "va11halla" / "vectorstore"),
+    },
+    "mhw": {
+        "name": "Monster Hunter Wilds (怪物猎人荒野)",
+        "data_path": str(GAMES_DIR / "mhw" / "data" / "wiki_data.md"),
+        "vectorstore_dir": str(GAMES_DIR / "mhw" / "vectorstore"),
     },
 }
 
@@ -254,6 +260,7 @@ def load_structured_data(game_key: str) -> List[Dict]:
         "silksong": "games/silksong/silksong_data.db",
         "cyberpunk2077": "games/cyberpunk2077/cyberpunk2077_data.db",
         "va11halla": "games/va11halla/va11halla_data.db",
+        "mhw": "games/mhw/mhw_data.db",
     }
 
     db_path = Path(__file__).resolve().parent.parent / db_mapping[game_key]
@@ -374,6 +381,7 @@ def main():
     print("  scp -r games/silksong/vectorstore/ snap@114.132.189.56:/data/learning/agent/games/silksong/")
     print("  scp -r games/cyberpunk2077/vectorstore/ snap@114.132.189.56:/data/learning/agent/games/cyberpunk2077/")
     print("  scp -r games/va11halla/vectorstore/ snap@114.132.189.56:/data/learning/agent/games/va11halla/")
+    print("  scp -r games/mhw/vectorstore/ snap@114.132.189.56:/data/learning/agent/games/mhw/")
     print("  scp -r vectorstore/ snap@114.132.189.56:/data/learning/agent/vectorstore/   (如果重建 HK)")
     print()
     print("覆盖后重启服务器即可生效。")
