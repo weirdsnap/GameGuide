@@ -21,7 +21,7 @@ from langchain_openai import ChatOpenAI
 from langgraph.prebuilt import create_react_agent as create_agent
 
 from rag_agent.config import LLM_CONFIG
-from rag_agent.game_router import AVAILABLE_GAMES, build_game_description, build_game_prompt, detect_game
+from rag_agent.game_router import AVAILABLE_GAMES, build_game_description, build_game_prompt, detect_game, is_switch_query
 from rag_agent.vectorstore import get_retriever
 
 logger = logging.getLogger(__name__)
@@ -342,6 +342,18 @@ def ask(
         _LAST_GAME = game_key
         _LAST_GAME_CONFIRMED = True
         logger.info(f"检测到游戏: {game_key}")
+    elif is_switch_query(q):
+        # 用户想切换游戏但没指名 → 弹菜单
+        logger.info(f"检测到切换意图: {q[:50]}")
+        _reset_game_state()
+        return (
+            "你想切换到哪个游戏？请选择：\n\n"
+            "1. 🐈 **空洞骑士** (Hollow Knight)\n"
+            "2. 🪱 **丝之歌** (Hollow Knight Silksong)\n"
+            "3. 💨 **缺氧** (Oxygen Not Included)\n"
+            "4. 🪨 **泰拉瑞亚** (Terraria)\n\n"
+            "直接告诉我游戏名称就可以啦！"
+        )
     elif history and _LAST_GAME is not None and _LAST_GAME_CONFIRMED:
         # 置信度低但有历史对话 + 上次已确认的游戏 → 延续上轮
         game_key = _LAST_GAME

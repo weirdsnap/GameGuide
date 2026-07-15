@@ -200,3 +200,27 @@ For questions about OTHER games: politely decline.
 def build_game_description(game_key: str) -> str:
     """构建游戏显示名称。"""
     return AVAILABLE_GAMES.get(game_key, {}).get("name", game_key)
+
+
+# ── 切换意图检测 ──
+
+SWITCH_PATTERNS: List[str] = [
+    r"换(个|一)?(游戏|话题|别的|其他)",
+    r"讲(讲|一下|一哈)?(别的|其他|下一个|新)",
+    r"(换个|换个别的|换一个|查别的|看别的)",
+    r"(查|看|讲)(别的|其他|下一个)游戏",
+    r"其他游戏|别的游戏|下一个游戏",
+    r"(不说|不问|不谈|不讲)(这个|这个了)",
+    r"有没有.*(别的|其他).*(游戏|攻略)",
+    r"(还有|还有什么)?(别的|其他的|其他的游戏|其他游戏).*(推荐|说说|讲讲|介绍|问)",
+    r"(不聊|不谈|不说|不讲)(这个|这个了|了)",
+    r"算了.*(换|别的|其他)",
+]
+
+
+def is_switch_query(query: str) -> bool:
+    """判断用户是否想切换游戏（但不一定指向具体哪个）。"""
+    for pattern in SWITCH_PATTERNS:
+        if re.search(pattern, query):
+            return True
+    return False
