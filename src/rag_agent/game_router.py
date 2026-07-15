@@ -110,6 +110,7 @@ GAME_SIGNALS: Dict[str, List[str]] = {
     ],
     "cyberpunk2077": [
         "cyberpunk 2077", "赛博朋克2077", "赛博朋克 2077",
+        "2077",
         "v", "强尼", "johnny silverhand", "银手",
         "夜之城", "night city", "荒坂", "arasaka",
         "义体", "cyberware", "relic", "圣物",
