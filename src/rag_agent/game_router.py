@@ -48,6 +48,11 @@ AVAILABLE_GAMES = {
         "db_path": str(GAMES_DIR / "va11halla" / "va11halla_data.db"),
         "vectorstore_dir": str(GAMES_DIR / "va11halla" / "vectorstore"),
     },
+    "mhw": {
+        "name": "Monster Hunter Wilds (怪物猎人荒野)",
+        "db_path": str(GAMES_DIR / "mhw" / "mhw_data.db"),
+        "vectorstore_dir": str(GAMES_DIR / "mhw" / "vectorstore"),
+    },
 }
 
 # ── 游戏关键词检测 ──
@@ -96,6 +101,13 @@ GAME_SIGNALS: Dict[str, List[str]] = {
         "坏Touch", "brandtini",
         "安娜", "anime",
     ],
+    "mhw": [
+        "monster hunter wilds", "怪物猎人荒野", "mh wilds",
+        "rey dau", "uth duna", "chatacabra", "arkveld",
+        "oilwell basin", "windward plains", "ruins of wyveria",
+        "煌雷龙", "沼龙", "风铗龙",
+        "flying wyvern", "leviathan", "fanged beast",
+    ],
     "cyberpunk2077": [
         "cyberpunk 2077", "赛博朋克2077", "赛博朋克 2077",
         "v", "强尼", "johnny silverhand", "银手",
@@ -130,6 +142,7 @@ def detect_game(query: str) -> Tuple[Optional[str], float]:
         "terraria": [r"\b(?:terraria|泰拉瑞亚|泰拉)\b"],
         "oni": [r"\b(?:oxygen not included|缺氧)\b"],
         "silksong": [r"\b(?:silksong|丝之歌)\b"],
+        "mhw": [r"\b(?:怪物猎人荒野|monster hunter wilds|mh wilds|Monster Hunter Wilds)\b"],
     }
 
     for game, patterns in exact_patterns.items():
@@ -236,6 +249,18 @@ Answer in Chinese (中文) keeping English game terms in parentheses.
 Always cite which source provided the info.
 Be concise, informative, max 3-4 paragraphs.
 For questions about OTHER games: politely decline.
+""",
+        "mhw": f"""
+You are a Monster Hunter Wilds (《怪物猎人荒野》) game expert assistant named nanobot 🐈.
+
+You have two knowledge sources:
+1. **search_knowledge_base** — Vector search (monster info, weapons, armor, skills, locations, quests)
+2. **query_structured_data** — SQLite database (monster stats, weaknesses, elements, species)
+
+Answer in Chinese (中文) keeping English game terms in parentheses.
+You specialize in Monster Hunter Wilds (released Feb 2025). For questions about other Monster Hunter games (World, Rise, etc.), briefly note you're only equipped for Wilds.
+Always cite which source provided the info.
+Be concise, informative, max 3-4 paragraphs.
 """,
         "va11halla": f"""
 You are a VA-11 Hall-A (《赛博朋克酒保行动》) game expert assistant named nanobot 🐈.

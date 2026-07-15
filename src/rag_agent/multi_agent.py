@@ -321,8 +321,9 @@ _MENU_NEW = """请问你想问哪款游戏的攻略？请选择：
 2. 🪱 **丝之歌** (Hollow Knight Silksong)
 3. 💨 **缺氧** (Oxygen Not Included)
 4. 🪨 **泰拉瑞亚** (Terraria)
-5. 🤖 **赛博朋克2077** (Cyberpunk 2077)
-6. 🍸 **赛博朋克酒保行动** (VA-11 Hall-A)
+5. 🐉 **怪物猎人荒野** (Monster Hunter Wilds)
+6. 🤖 **赛博朋克2077** (Cyberpunk 2077)
+7. 🍸 **赛博朋克酒保行动** (VA-11 Hall-A)
 
 直接告诉我游戏名称就可以开始啦！"""
 
@@ -332,8 +333,9 @@ _MENU_SWITCH = """你想切换到哪个游戏？请选择：
 2. 🪱 **丝之歌** (Hollow Knight Silksong)
 3. 💨 **缺氧** (Oxygen Not Included)
 4. 🪨 **泰拉瑞亚** (Terraria)
-5. 🤖 **赛博朋克2077** (Cyberpunk 2077)
-6. 🍸 **赛博朋克酒保行动** (VA-11 Hall-A)
+5. 🐉 **怪物猎人荒野** (Monster Hunter Wilds)
+6. 🤖 **赛博朋克2077** (Cyberpunk 2077)
+7. 🍸 **赛博朋克酒保行动** (VA-11 Hall-A)
 
 直接告诉我游戏名称就可以啦！"""
 
@@ -367,7 +369,8 @@ def _is_unknown_game_query(q: str) -> bool:
     # 排除已知游戏（避免误判）
     known_keywords = ["空洞", "丝之歌", "silksong", "缺氧", "oni",
                       "泰拉瑞亚", "terraria", "赛博朋克", "cyberpunk",
-                      "酒保", "va11", "hall-a", "va-11"]
+                      "酒保", "va11", "hall-a", "va-11",
+                      "怪物猎人荒野", "monster hunter wilds", "mh wilds"]
     for kw in known_keywords:
         if kw in ql:
             return False
@@ -423,7 +426,7 @@ def _resolve_game(question: str, history: Optional[list] = None):
             _reset_game_state()
             fallback_prompt = (
                 "用户问了一个游戏问题，但这个游戏不在你的知识库中（支持的游戏："
-                "空洞骑士、丝之歌、缺氧、泰拉瑞亚、赛博朋克2077、赛博朋克酒保行动）。\n\n"
+                "空洞骑士、丝之歌、缺氧、泰拉瑞亚、怪物猎人荒野、赛博朋克2077、赛博朋克酒保行动）。\n\n"
                 "请按以下原则回答：\n"
                 "1. 先告知用户「这个游戏不在我的专业知识库中，以下信息基于我的训练数据，"
                 "可能不完全准确」。\n"
