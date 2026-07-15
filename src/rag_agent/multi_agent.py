@@ -588,6 +588,26 @@ async def ask_stream(
         yield "token", prompt
         return
 
+    # LLM 兜底：不在知识库的游戏，用 LLM 自身知识回答
+    if game_key == "__llm_fallback__":
+        config = dict(LLM_CONFIG)
+        if model_name:
+            config["model"] = model_name
+        config["streaming"] = True
+        llm = ChatOpenAI(**config)
+        messages = build_messages(question.strip(), history, prompt)
+        if verbose:
+            logger.info(f"🕹️ LLM兜底（不在知识库中）")
+            logger.info(f"  🤖 模型: {config.get('model', 'default')}")
+        try:
+            async for chunk in llm.astream(messages):
+                if chunk.content:
+                    yield "token", chunk.content
+        except Exception as e:
+            logger.error(f"LLM兜底流式调用失败: {e}")
+            yield "error", str(e)
+        return
+
     # 创建 LLM（streaming 开启）
     config = dict(LLM_CONFIG)
     if model_name:
