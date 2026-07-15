@@ -101,31 +101,47 @@ def _search_all_tables(db_path: str, keyword: str) -> str:
 
     results = []
     for table in tables:
+        # Try name column first (common across all structured tables)
         try:
-            sql = f"SELECT name, slug FROM [{table}] WHERE name LIKE ? LIMIT 5"
+            sql = f"SELECT * FROM [{table}] WHERE name LIKE ? LIMIT 5"
             cur.execute(sql, (f"%{keyword}%",))
             for r in cur.fetchall():
                 results.append(f"  [{table}] {r['name']}")
         except Exception:
-            pass
+            # Some tables might not have a 'name' column; try title
+            try:
+                sql = f"SELECT * FROM [{table}] WHERE title LIKE ? LIMIT 5"
+                cur.execute(sql, (f"%{keyword}%",))
+                for r in cur.fetchall():
+                    results.append(f"  [{table}] {r.get('title', r.get('name', '?'))}")
+            except Exception:
+                pass
 
     db.close()
     if results:
         return "数据库中找到以下相关条目：\n" + "\n".join(results[:15]) + \
-               "\n\n💡 试试更具体的查询，如「查询护符 Grubsong」或「列出 3 格 Cost 的护符」"
+               "\n\n💡 试试更具体的查询，如「查询 Jackie」或「列出所有武器」"
     return "(数据库中未找到相关内容)"
 
 
-def _fmt_table_name(db_path: str) -> str:
-    """获取数据库的表名列表（用于提示）。"""
+def _fmt_table_names(db_path: str) -> str:
+    """获取数据库的表名和行数列（用于提示）。"""
     db = _get_db(db_path)
     if not db:
         return ""
     cur = db.cursor()
-    cur.execute("SELECT name FROM sqlite_master WHERE type='table'")
+    cur.execute("SELECT name FROM sqlite_master WHERE type='table' AND name NOT IN ('sqlite_sequence', 'game_meta')")
     tables = [r['name'] for r in cur.fetchall()]
+    info = []
+    for t in tables:
+        try:
+            cur.execute(f"SELECT COUNT(*) FROM [{t}]")
+            cnt = cur.fetchone()[0]
+            info.append(f"{t}({cnt}条)")
+        except:
+            info.append(t)
     db.close()
-    return ", ".join(tables)
+    return ", ".join(info)
 
 
 # ══════════════════════════════════════════
@@ -193,16 +209,16 @@ def create_game_tools(game_key: str) -> List:
         """
         try:
             q = query.lower().strip()
-            tbl = _fmt_table_name(db_path)
+            tbl_list = _fmt_table_names(db_path)
 
-            # Try entity query: "查询 X Y"
+            # Try entity query: "查询 X Y" / "查 X"
             for prefix in ["查询", "查", "搜索", "搜"]:
                 if q.startswith(prefix) and len(q) > 3:
                     keyword = q[len(prefix):].strip()
                     if keyword:
                         return _search_all_tables(db_path, keyword)
 
-            # Try "所有 X" / "全部 X"
+            # Try "所有 X" / "全部 X" / "列出所有 X"
             for cmd in ["所有", "全部", "列出所有", "列出全部"]:
                 if cmd in q:
                     keyword = q.split(cmd)[-1].strip()
@@ -213,12 +229,12 @@ def create_game_tools(game_key: str) -> List:
                             if rows:
                                 return _format_db_result(rows, table_match)
                         # Try fuzzy table name match
-                        db = _get_db(db_path)
-                        if db:
-                            cur = db.cursor()
+                        db2 = _get_db(db_path)
+                        if db2:
+                            cur = db2.cursor()
                             cur.execute("SELECT name FROM sqlite_master WHERE type='table'")
                             tables = [r['name'] for r in cur.fetchall()]
-                            db.close()
+                            db2.close()
                             for table in tables:
                                 if any(k in table for k in keyword.split()):
                                     rows = _query_db(db_path, f"SELECT * FROM [{table}] LIMIT 30")
@@ -227,49 +243,67 @@ def create_game_tools(game_key: str) -> List:
                         # If no table match, search all tables
                         return _search_all_tables(db_path, keyword)
 
-            # Try cost/number filter
-            cost_match = __import__('re').search(r"(?:cost|等级|级|格|槽)\s*[:：=]?\s*(\d+)", q)
-            if cost_match:
-                val = cost_match.group(1)
-                rows = _query_db(db_path, f"SELECT * FROM ['enemies'] WHERE hp >= {val} LIMIT 30")
-                # Alternative: search all tables for numeric columns
-                db = _get_db(db_path)
-                if db:
-                    cur = db.cursor()
-                    cur.execute("SELECT name FROM sqlite_master WHERE type='table'")
-                    tables = [r['name'] for r in cur.fetchall()]
-                    db.close()
+            # ── 通用数值筛选 ──
+            # 自动发现所有表中的数值列，然后逐个尝试匹配
+            db3 = _get_db(db_path)
+            if db3:
+                cur = db3.cursor()
+                cur.execute("SELECT name FROM sqlite_master WHERE type='table' AND name NOT IN ('sqlite_sequence','game_meta')")
+                tables = [r['name'] for r in cur.fetchall()]
+                db3.close()
+
+                # 提取查询中的数值
+                num_match = __import__('re').search(r"(\d+)", q)
+                val = num_match.group(1) if num_match else None
+
+                if val:
+                    # 判断查询是 cost/价格筛选还是 HP/血量筛选
+                    is_cost_query = bool(__import__('re').search(r"(?:cost|价格|价|费用|等级|级|格|槽|品质)", q))
+                    is_hp_query = bool(__import__('re').search(r"(?:HP|hp|血量|生命|health|强度|战力)", q))
+
+                    # 收集所有表的所有数值列名
+                    num_cols = ['hp', 'health', 'damage', 'cost', 'buy_price', 'sell_price',
+                                'power', 'defense', 'capacity', 'ram_cost', 'reward_eb',
+                                'reward_xp', 'buy_price', 'top_speed', 'horse_power',
+                                'ammo_capacity', 'armor_penetration', 'weight',
+                                'attack_speed', 'upload_time', 'effective_range']
+
+                    if is_hp_query:
+                        priority_cols = ['hp', 'health', 'reward_xp', 'ram_cost']
+                    elif is_cost_query:
+                        priority_cols = ['cost', 'buy_price', 'sell_price', 'reward_eb']
+                    else:
+                        priority_cols = ['cost', 'hp', 'health', 'damage']
+
                     results = []
                     for table in tables:
-                        for col in ['hp', 'health', 'damage', 'cost', 'power', 'defense', 'calories']:
+                        for col in priority_cols:
                             try:
-                                rows = _query_db(db_path, f"SELECT name, {col} FROM [{table}] WHERE {col} IS NOT NULL AND {col} >= {val} LIMIT 5")
+                                rows = _query_db(db_path, f"SELECT name, {col} FROM [{table}] WHERE {col} IS NOT NULL AND CAST({col} AS REAL) >= CAST(? AS REAL) LIMIT 5", (val,))
                                 if rows:
                                     results.append(f"  [{table}] " + ", ".join(f"{r.get('name','?')} ({col}={r.get(col,'?')})" for r in rows))
+                                    break
                             except Exception:
                                 pass
-                    if results:
-                        return f"筛选 {val} 以上的结果：\n" + "\n".join(results[:20])
-                return f"（未找到匹配 {val} 的结果）"
 
-            # HP filter
-            hp_match = __import__('re').search(r"(?:HP|hp|血量|生命)\s*[>≥:：=]?\s*(\d+)", q)
-            if hp_match:
-                val = hp_match.group(1)
-                results = []
-                for table in ['bosses', 'enemies', 'npcs', 'critters']:
-                    rows = _query_db(db_path, f"SELECT name, hp, health, damage FROM [{table}] WHERE hp >= {val} LIMIT 10")
-                    if not rows:
-                        rows = _query_db(db_path, f"SELECT name, health FROM [{table}] WHERE health >= {val} LIMIT 10")
-                    if rows:
-                        results.append(f"[{table}]")
-                        results.extend(f"  {r.get('name','?')} (HP={r.get('hp') or r.get('health','?')})" for r in rows)
-                if results:
-                    return "\n".join(results)
-                return f"(未找到 HP ≥ {val} 的结果)"
+                    # 如果没找到，尝试所有可能数值列
+                    if not results:
+                        for table in tables:
+                            for col in num_cols:
+                                try:
+                                    rows = _query_db(db_path, f"SELECT name, {col} FROM [{table}] WHERE {col} IS NOT NULL AND CAST({col} AS REAL) >= CAST(? AS REAL) LIMIT 5", (val,))
+                                    if rows:
+                                        results.append(f"  [{table}] " + ", ".join(f"{r.get('name','?')} ({col}={r.get(col,'?')})" for r in rows))
+                                        break
+                                except Exception:
+                                    pass
+
+                    if results:
+                        return f"筛选 ≥{val} 的结果：\n" + "\n".join(results[:20])
+                    return f"（数据库中没有匹配 ≥{val} 的数值条目）"
 
             # Fallback: search all tables
-            return _search_all_tables(db_path, q)
+            return _search_all_tables(db_path, q) + f"\n\n💡 可用的表: {tbl_list}"
 
         except Exception as e:
             return f"[结构化查询出错] {e}"
@@ -304,6 +338,55 @@ _MENU_SWITCH = """你想切换到哪个游戏？请选择：
 直接告诉我游戏名称就可以啦！"""
 
 
+# ── 外部游戏列表（不在我们的知识库中，由 LLM 自身知识回答）──
+_KNOWN_EXTERNAL_GAMES = [
+    "原神", "genshin", "星穹铁道", "崩坏", "honkai",
+    "星露谷", "stardew valley", "我的世界", "minecraft",
+    "艾尔登法环", "elden ring", "黑魂", "dark souls", "只狼", "sekiro",
+    "巫师", "witcher", "gta", "荒野大镖客", "red dead",
+    "博德之门", "baldur", "最终幻想", "final fantasy",
+    "塞尔达", "zelda", "宝可梦", "pokemon",
+    "怪物猎人", "monster hunter", "文明", "civilization",
+    "英雄联盟", "league of legends", "lol", "dota",
+    "战神", "god of war", "神秘海域", "uncharted",
+    "古墓丽影", "tomb raider", "生化危机", "resident evil",
+    "死亡搁浅", "死亡搁浅", "death stranding",
+    "上古卷轴", "skyrim", "辐射", "fallout",
+    "双人成行", "it takes two", "胡闹厨房", "overcooked",
+]
+
+
+def _is_unknown_game_query(q: str) -> bool:
+    """检查是否在问一个不在我们知识库里的游戏。
+
+    先排除已知游戏的关键词命中（避免误判），然后检查
+    是否提到外部游戏名或游戏相关术语。
+    """
+    ql = q.lower().strip()
+
+    # 排除已知游戏（避免误判）
+    known_keywords = ["空洞", "丝之歌", "silksong", "缺氧", "oni",
+                      "泰拉瑞亚", "terraria", "赛博朋克", "cyberpunk",
+                      "酒保", "va11", "hall-a", "va-11"]
+    for kw in known_keywords:
+        if kw in ql:
+            return False
+
+    # 检查外部游戏名
+    for game in _KNOWN_EXTERNAL_GAMES:
+        if game in ql:
+            return True
+
+    # 检查泛游戏用语
+    game_terms = ["攻略", "boss", "怎么打", "如何获得", "在哪里",
+                  "装备", "技能", "职业", "等级", "通关"]
+    for term in game_terms:
+        if term in ql:
+            return True
+
+    return False
+
+
 def _resolve_game(question: str, history: Optional[list] = None):
     """
     游戏检测 + 连续性判断。
@@ -335,6 +418,20 @@ def _resolve_game(question: str, history: Optional[list] = None):
         game_key = _LAST_GAME
         logger.info(f"延续上轮游戏: {game_key}")
     else:
+        # 未匹配已知游戏 → 检查是否仍是游戏相关提问
+        if _is_unknown_game_query(q):
+            _reset_game_state()
+            fallback_prompt = (
+                "用户问了一个游戏问题，但这个游戏不在你的知识库中（支持的游戏："
+                "空洞骑士、丝之歌、缺氧、泰拉瑞亚、赛博朋克2077、赛博朋克酒保行动）。\n\n"
+                "请按以下原则回答：\n"
+                "1. 先告知用户「这个游戏不在我的专业知识库中，以下信息基于我的训练数据，"
+                "可能不完全准确」。\n"
+                "2. 然后尽力回答用户的问题。\n"
+                "3. 如果确实不知道答案，诚实承认不知道。\n"
+                "4. 使用中文回答。"
+            )
+            return "__llm_fallback__", fallback_prompt, None, None, None
         _reset_game_state()
         return None, _MENU_NEW, None, None, None
 
@@ -417,6 +514,23 @@ def ask(
     # 需要弹菜单
     if game_key is None:
         return prompt
+
+    # LLM 兜底：不在知识库的游戏，用 LLM 自身知识回答
+    if game_key == "__llm_fallback__":
+        config = dict(LLM_CONFIG)
+        if model_name:
+            config["model"] = model_name
+        llm = ChatOpenAI(**config)
+        messages = build_messages(question.strip(), history, prompt)
+        if verbose:
+            logger.info(f"🕹️ LLM兜底（不在知识库中）")
+            logger.info(f"  🤖 模型: {config.get('model', 'default')}")
+        try:
+            response = llm.invoke(messages)
+            return response.content if response.content else "（无回复）"
+        except Exception as e:
+            logger.error(f"LLM兜底调用失败: {e}")
+            return f"[查询出错] {e}"
 
     # 创建 LLM
     config = dict(LLM_CONFIG)
