@@ -336,8 +336,18 @@ def ask(
 
     logger.info(f"检测游戏: key={game_key}, confidence={confidence:.2f}, query={q[:50]}")
 
-    # 不确定或新游戏
-    if game_key is None or confidence < 0.4:
+    # 连续性判断
+    if confidence >= 0.4:
+        # 检测到明确的游戏，使用检测结果
+        _LAST_GAME = game_key
+        _LAST_GAME_CONFIRMED = True
+        logger.info(f"检测到游戏: {game_key}")
+    elif history and _LAST_GAME is not None and _LAST_GAME_CONFIRMED:
+        # 置信度低但有历史对话 + 上次已确认的游戏 → 延续上轮
+        game_key = _LAST_GAME
+        logger.info(f"延续上轮游戏: {game_key}")
+    else:
+        # 啥都没有 → 弹选择菜单
         _reset_game_state()
         return (
             "请问你想问哪款游戏的攻略？请选择：\n\n"
@@ -347,9 +357,6 @@ def ask(
             "4. 🪨 **泰拉瑞亚** (Terraria)\n\n"
             "直接告诉我游戏名称就可以开始啦！"
         )
-
-    # 更新游戏状态
-    _LAST_GAME = game_key
 
     # 检查向量库和数据库是否存在
     cfg = AVAILABLE_GAMES[game_key]
