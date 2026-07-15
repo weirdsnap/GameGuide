@@ -161,7 +161,7 @@ def create_game_tools(game_key: str) -> List:
             return (f"[知识库暂时不可用] {game_name} 的向量库尚未构建。\n"
                     f"请在 Mac 本地运行 `python3 scripts/run_on_mac.py --game {game_key}` 来构建。\n")
         try:
-            retriever = get_retriever(k=k, vectorstore_dir=vs_dir)
+            retriever = get_retriever(save_dir=vs_dir, k=k)
             docs = retriever.invoke(query)
             if not docs:
                 return f"(知识库未找到关于「{query}」的内容)"
