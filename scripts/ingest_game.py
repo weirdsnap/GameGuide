@@ -64,51 +64,91 @@ GAME_DATA: Dict[str, Dict[str, str]] = {
 
 
 def load_wiki_documents(filepath: str) -> List[Dict]:
-    """从 wiki_data.md 加载文档列表（以 # 文档： 作为分割标记）。"""
+    """从 wiki_data.md 加载文档列表，支持多种格式。"""
     path = Path(filepath)
     if not path.exists():
         print(f"  ❌ 找不到数据文件：{filepath}")
         return []
 
     text = path.read_text(encoding="utf-8")
-
-    # 以 # 文档： 作为文档分割标记
-    chunks = re.split(r"(?=^# 文档[：:])", text, flags=re.MULTILINE)
     docs = []
 
-    for chunk in chunks:
-        chunk = chunk.strip()
-        if not chunk:
-            continue
-
-        # 跳过非文档内容的题头行（游戏名分类索引等）
-        if not chunk.startswith("# 文档"):
-            continue
-
-        lines = chunk.split("\n")
-        title_match = re.search(r"^#\s*文档[：:]\s*(.*)", lines[0]) if lines else None
-        title = title_match.group(1).strip() if title_match else "Unknown"
-
-        # Extract category if available
-        category = ""
-        for line in lines[:6]:
-            cat_match = re.search(r"- 类别[：:]\s*(.*)", line)
-            if cat_match:
-                category = cat_match.group(1).strip()
-                break
-
-        # Build content (skip metadata lines)
-        content_lines = []
-        for line in lines:
-            if any(line.startswith(p) for p in ("# 文档", "- 类别", "- 标识", "- 来源", "- 路径")):
+    # === 格式1：# 文档： 作为分割标记（HK / ONI / Terraria / Silksong） ===
+    if "# 文档" in text:
+        chunks = re.split(r"(?=^# 文档[：:])", text, flags=re.MULTILINE)
+        for chunk in chunks:
+            chunk = chunk.strip()
+            if not chunk:
                 continue
-            content_lines.append(line)
+            if not chunk.startswith("# 文档"):
+                continue
 
+            lines = chunk.split("\n")
+            title_match = re.search(r"^#\s*文档[：:]\s*(.*)", lines[0]) if lines else None
+            title = title_match.group(1).strip() if title_match else "Unknown"
+
+            category = ""
+            for line in lines[:6]:
+                cat_match = re.search(r"- 类别[：:]\s*(.*)", line)
+                if cat_match:
+                    category = cat_match.group(1).strip()
+                    break
+
+            content_lines = []
+            for line in lines:
+                if any(line.startswith(p) for p in ("# 文档", "- 类别", "- 标识", "- 来源", "- 路径")):
+                    continue
+                content_lines.append(line)
+
+            content = "\n".join(content_lines).strip()
+            if content:
+                docs.append({
+                    "content": content,
+                    "metadata": {"title": title, "category": category},
+                })
+
+    # === 格式2：## Title 分割（cyberpunk2077 / va11halla） ===
+    elif "\n## " in text or text.startswith("## "):
+        # 以 ## Title 作为分割标记（忽略前面的全局题头）
+        prefix = text.split("\n## ", 1)[0] if "\n## " in text else ""
+        # 从第一个 ## 开始拆分
+        body = text[len(prefix):]
+        # 把每个 ## Title 作为一个块
+        chunks = re.split(r"\n(?=## )", body)
+        for chunk in chunks:
+            chunk = chunk.strip()
+            if not chunk:
+                continue
+            lines = chunk.split("\n")
+            title_match = re.match(r"^##\s+(.+)", lines[0]) if lines else None
+            title = title_match.group(1).strip() if title_match else "Unknown"
+            if title == "Unknown":
+                continue
+            # 跳过 ## Title 行和 --- 分隔线
+            content_lines = [l for l in lines if not l.startswith("## ") and not l.strip().startswith("---")]
+            content = "\n".join(content_lines).strip()
+            if content:
+                docs.append({
+                    "content": content,
+                    "metadata": {"title": title, "category": ""},
+                })
+
+    # === 格式3：无法识别格式，整篇作为一个文档 ===
+    if not docs:
+        lines = text.split("\n")
+        title = "Unknown"
+        for line in lines:
+            m = re.match(r"^#\s+(.+)", line)
+            if m:
+                title = m.group(1).strip()
+                break
+        content_lines = [l for l in lines if not l.startswith("# ")]
         content = "\n".join(content_lines).strip()
         if content:
+            print(f"  ⚠ 无法识别格式，整篇作为单文档（标题: {title}）")
             docs.append({
                 "content": content,
-                "metadata": {"title": title, "category": category},
+                "metadata": {"title": title, "category": ""},
             })
 
     return docs
