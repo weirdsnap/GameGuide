@@ -1,44 +1,36 @@
-# Python
-__pycache__/
-*.py[cod]
-*.egg-info/
-.venv/
-venv/
 
-# 环境变量
-.env
-
-# IDE
-.vscode/
-.idea/
-
-# 运行时
-*.log
-
-# 中间缓存（不大，但属于运行时产物）
-data/.llm_merge_cache/
+AGENTS.md
+api_config.json
+# API 配置（含密码）
 data/*.bak.*
 data/*.bak.items
-
-# 旧版本备份（保留在仓库外部对照）
+data/hallownest_knowledge.llm_merged.md
+data/.llm_merge_cache/
+data/phase2_beta.backup.jsonl
 data/phase2_fixed.jsonl
 data/phase2_merged.jsonl
-data/hallownest_knowledge.llm_merged.md
-
-# 临时文件 & 配置
-*.log
+*.egg-info/
 .env
-AGENTS.md
-
-# API 配置（含密码）
-api_config.json
-scripts/collect_wiki_data.py
-scripts/expand_wiki_data.py
-scripts/collect_poi_pages.py
-scripts/dedup_wiki.py
-scripts/collect_hollowknight_wiki.py
-scripts/charms_catcher.py
-
-# 备份文件
-data/phase2_beta.backup.jsonl
 games/*/vectorstore/
+# IDE
+.idea/
+*.log
+*.pid
+__pycache__/
+*.py[cod]
+# Python
+scripts/charms_catcher.py
+scripts/collect_hollowknight_wiki.py
+scripts/collect_poi_pages.py
+scripts/collect_wiki_data.py
+scripts/dedup_wiki.py
+scripts/expand_wiki_data.py
+.venv/
+venv/
+.vscode/
+# 中间缓存（不大，但属于运行时产物）
+# 临时文件 & 配置
+# 备份文件
+# 旧版本备份（保留在仓库外部对照）
+# 环境变量
+# 运行时
