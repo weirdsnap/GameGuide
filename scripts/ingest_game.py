@@ -45,6 +45,21 @@ GAME_DATA: Dict[str, Dict[str, str]] = {
         "data_path": str(GAMES_DIR / "silksong" / "data" / "wiki_data.md"),
         "vectorstore_dir": str(GAMES_DIR / "silksong" / "vectorstore"),
     },
+    "cyberpunk2077": {
+        "name": "Cyberpunk 2077",
+        "data_path": str(GAMES_DIR / "cyberpunk2077" / "data" / "wiki_data.md"),
+        "vectorstore_dir": str(GAMES_DIR / "cyberpunk2077" / "vectorstore"),
+    },
+    "va11halla": {
+        "name": "VA-11 Hall-A",
+        "data_path": str(GAMES_DIR / "va11halla" / "data" / "wiki_data.md"),
+        "vectorstore_dir": str(GAMES_DIR / "va11halla" / "vectorstore"),
+    },
+    "mhw": {
+        "name": "Monster Hunter Wilds",
+        "data_path": str(GAMES_DIR / "mhw" / "data" / "wiki_data.md"),
+        "vectorstore_dir": str(GAMES_DIR / "mhw" / "vectorstore"),
+    },
 }
 
 
@@ -161,20 +176,26 @@ def build_vectorstore(game_key: str):
 def main():
     parser = argparse.ArgumentParser(description="构建游戏向量库")
     parser.add_argument("--game", "-g", required=True,
-                        choices=list(GAME_DATA.keys()) + ["all"],
-                        help="要构建的游戏")
+                        help="要构建的游戏，逗号分隔多个或 all")
     args = parser.parse_args()
 
-    if args.game == "all":
-        for key in GAME_DATA:
-            try:
-                build_vectorstore(key)
-            except Exception as e:
-                print(f"  ❌ {key} 构建失败: {e}")
-                import traceback
-                traceback.print_exc()
-    else:
-        build_vectorstore(args.game)
+    game_list = [g.strip() for g in args.game.split(",")]
+
+    for game_key in game_list:
+        if game_key == "all":
+            for key in GAME_DATA:
+                try:
+                    build_vectorstore(key)
+                except Exception as e:
+                    print(f"  ❌ {key} 构建失败: {e}")
+                    import traceback
+                    traceback.print_exc()
+        elif game_key in GAME_DATA:
+            build_vectorstore(game_key)
+        else:
+            print(f"  ❌ 未知游戏: {game_key}")
+            print(f"     可用选项: {', '.join(GAME_DATA.keys())}, all")
+            sys.exit(1)
 
 
 if __name__ == "__main__":
