@@ -21,7 +21,7 @@ from langchain_openai import ChatOpenAI
 from langgraph.prebuilt import create_react_agent as create_agent
 
 from rag_agent.config import LLM_CONFIG
-from rag_agent.game_router import AVAILABLE_GAMES, build_game_description, build_game_prompt, detect_game, is_switch_query
+from rag_agent.game_router import AVAILABLE_GAMES, build_common_rules, build_game_description, build_game_prompt, detect_game, is_switch_query
 from rag_agent.vectorstore import get_retriever
 
 logger = logging.getLogger(__name__)
@@ -395,28 +395,34 @@ def _resolve_game(question: str, history: Optional[list] = None):
     游戏检测 + 连续性判断。
 
     Returns:
-        (game_key, full_prompt, llm, tools, messages)   — 正常
-        (None, 菜单文本, ...)                            — 需要弹菜单
+        (game_key, full_prompt, vs_ok, db_ok, cfg, switched)
+        switched=True 表示检测到游戏切换
     """
     global _LAST_GAME, _LAST_GAME_CONFIRMED
 
     q = question.strip()
     if not q:
-        return None, "请问你想了解哪款游戏的攻略？", None, None, None
+        return None, "请问你想了解哪款游戏的攻略？", None, None, None, False
 
     # 检测游戏
     game_key, confidence = detect_game(q)
     logger.info(f"检测游戏: key={game_key}, confidence={confidence:.2f}, query={q[:50]}")
 
+    # 检测游戏切换（在更新 _LAST_GAME 之前检查）
+    switched = False
+
     # 连续性判断
     if confidence >= 0.4:
+        if _LAST_GAME is not None and _LAST_GAME_CONFIRMED and game_key != _LAST_GAME:
+            switched = True
+            logger.info(f"检测到游戏切换: {_LAST_GAME} → {game_key}")
         _LAST_GAME = game_key
         _LAST_GAME_CONFIRMED = True
         logger.info(f"检测到游戏: {game_key}")
     elif is_switch_query(q):
         logger.info(f"检测到切换意图: {q[:50]}")
         _reset_game_state()
-        return None, _MENU_SWITCH, None, None, None
+        return None, _MENU_SWITCH, None, None, None, False
     elif history and _LAST_GAME is not None and _LAST_GAME_CONFIRMED:
         game_key = _LAST_GAME
         logger.info(f"延续上轮游戏: {game_key}")
@@ -434,9 +440,9 @@ def _resolve_game(question: str, history: Optional[list] = None):
                 "3. 如果确实不知道答案，诚实承认不知道。\n"
                 "4. 使用中文回答。"
             )
-            return "__llm_fallback__", fallback_prompt, None, None, None
+            return "__llm_fallback__", fallback_prompt, None, None, None, False
         _reset_game_state()
-        return None, _MENU_NEW, None, None, None
+        return None, _MENU_NEW, None, None, None, False
 
     # 检查知识库
     cfg = AVAILABLE_GAMES[game_key]
@@ -445,20 +451,15 @@ def _resolve_game(question: str, history: Optional[list] = None):
 
     if not vs_ok and not db_ok:
         _reset_game_state()
-        return None, f"抱歉，{cfg['name']} 的知识库尚未准备好。请联系管理员初始化数据。", None, None, None
+        return None, f"抱歉，{cfg['name']} 的知识库尚未准备好。请联系管理员初始化数据。", None, None, None, False
 
-    # 构建 prompt
-    full_prompt = build_game_prompt(game_key) + """
-**Rules:**
-- Answer in Chinese (中文) keeping English game terms in parentheses.
-- Always cite your sources: mention whether info came from knowledge base or database.
-- If both sources are needed, use both tools.
-- Never fabricate game information.
-- Be concise, informative, max 3-4 paragraphs.
-- If the user asks about another game or topic, politely decline.
-"""
+    # 构建 prompt（身份 + 通用规则）
+    full_prompt = build_game_prompt(game_key) + "\n\n" + build_common_rules()
 
-    return game_key, full_prompt, vs_ok, db_ok, cfg
+    if switched:
+        full_prompt += f"\n\n**系统提示：** 用户切换了话题开始聊{cfg['name']}，除非用户主动提及和之前游戏的对比，否则上述的历史请忽略。"
+
+    return game_key, full_prompt, vs_ok, db_ok, cfg, switched
 
 
 # ══════════════════════════════════════════
@@ -512,7 +513,7 @@ def ask(
     Returns:
         Agent 回复文本
     """
-    game_key, prompt, vs_ok, db_ok, cfg = _resolve_game(question, history)
+    game_key, prompt, vs_ok, db_ok, cfg, switched = _resolve_game(question, history)
 
     # 需要弹菜单
     if game_key is None:
@@ -584,7 +585,7 @@ async def ask_stream(
         ("error", str)  — 出错信息
         ("meta", dict)  — 元信息（游戏、模型等）
     """
-    game_key, prompt, vs_ok, db_ok, cfg = _resolve_game(question, history)
+    game_key, prompt, vs_ok, db_ok, cfg, switched = _resolve_game(question, history)
 
     # 需要弹菜单或错误 → 当 token 一次性吐出
     if game_key is None:

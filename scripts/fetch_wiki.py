@@ -29,6 +29,23 @@ GAMES_DIR = PROJECT_ROOT / "games"
 # ── Wiki Configs ──
 
 WIKI_CONFIGS = {
+    "silksong": {
+        "api": "https://hollowknight.fandom.com/api.php",
+        "user_agent": "GameGuideBot/2.0 (Silksong wiki fetcher)",
+        "output": GAMES_DIR / "silksong" / "data" / "wiki_data.md",
+        "categories": [
+            "Additional_Content_(Silksong)",
+            "Areas_(Silksong)",
+            "Bosses_(Silksong)",
+            "Combat_(Silksong)",
+            "Enemies_(Silksong)",
+            "Exploration_(Silksong)",
+            "Hollow_Knight:_Silksong",
+            "Items_(Silksong)",
+            "NPCs_(Silksong)",
+            "Points_of_Interest_(Silksong)",
+        ],
+    },
     "cyberpunk2077": {
         "api": "https://cyberpunk.fandom.com/api.php",
         "user_agent": "GameGuideBot/2.0 (Cyberpunk 2077 wiki fetcher)",

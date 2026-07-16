@@ -70,6 +70,25 @@ MHW_PAGES = [
     "MHWilds: Turf War List",
 ]
 
+# Weapon tree pages (for structured weapon data parsing)
+WEAPON_TREE_PAGES = [
+    "MHWilds: Bow Weapon Tree",
+    "MHWilds: Charge Blade Weapon Tree",
+    "MHWilds: Dual Blades Weapon Tree",
+    "MHWilds: Great Sword Weapon Tree",
+    "MHWilds: Gunlance Weapon Tree",
+    "MHWilds: Hammer Weapon Tree",
+    "MHWilds: Heavy Bowgun Weapon Tree",
+    "MHWilds: Hunting Horn Weapon Tree",
+    "MHWilds: Insect Glaive Weapon Tree",
+    "MHWilds: Kinsect Tree",
+    "MHWilds: Lance Weapon Tree",
+    "MHWilds: Light Bowgun Weapon Tree",
+    "MHWilds: Long Sword Weapon Tree",
+    "MHWilds: Switch Axe Weapon Tree",
+    "MHWilds: Sword and Shield Weapon Tree",
+]
+
 # Also fetch individual monster pages
 MONSTER_PAGES = [
     "Ajarakan",
@@ -143,6 +162,17 @@ def fetch_page_content(title: str) -> Optional[str]:
     text = text.replace("&quot;", '"').replace("&#39;", "'")
     
     return text
+
+
+def clean_text(raw: str) -> str:
+    """Clean raw HTML cell content to plain text."""
+    text = re.sub(r"<[^>]+>", " ", raw)
+    text = re.sub(r"\s+", " ", text).strip()
+    # Decode HTML entities
+    text = text.replace("&amp;", "&").replace("&lt;", "<").replace("&gt;", ">")
+    text = text.replace("&quot;", '"').replace("&#39;", "'")
+    text = text.replace("&#160;", " ").replace("&nbsp;", " ")
+    return text.strip()
 
 
 def extract_infobox_data(html: str) -> Dict[str, str]:
@@ -270,17 +300,239 @@ def build_wiki_md() -> List[Dict[str, Any]]:
     return monsters_data
 
 
-def build_database(monsters: List[Dict[str, Any]]):
+def parse_weapon_tree_html(html: str, weapon_type: str) -> List[Dict[str, Any]]:
+    """Parse weapon tree HTML table into structured weapon data.
+
+    MH Fandom wiki weapon tree pages use <table class="themetable">
+    with columns varying by weapon type.
+    """
+    weapons = []
+    themetables = re.findall(
+        r'<table class="themetable"[^>]*>(.*?)</table>', html, re.DOTALL
+    )
+
+    for themetable in themetables:
+        trs = re.findall(r'<tr>(.*?)</tr>', themetable, re.DOTALL)
+        if len(trs) < 2:
+            continue
+
+        # Find header row (contains "Weapon Name")
+        header_row = None
+        header_idx = None
+        for i, tr in enumerate(trs):
+            cells = re.findall(r'<t[dh][^>]*>(.*?)</t[dh]>', tr, re.DOTALL)
+            raw = [clean_text(c) for c in cells]
+            if any('Weapon Name' in r for r in raw):
+                header_row = raw
+                header_idx = i
+                break
+
+        if not header_row:
+            continue
+
+        # Parse data rows after header
+        for tr in trs[header_idx + 1:]:
+            cells = re.findall(r'<t[dh][^>]*>(.*?)</t[dh]>', tr, re.DOTALL)
+            if len(cells) != len(header_row):
+                continue
+
+            values = [clean_text(c) for c in cells]
+            if not values[0] or values[0].lower() == 'weapon name':
+                continue
+
+            weapon: Dict[str, Any] = {
+                'name': values[0],
+                'type': weapon_type,
+                'attack': values[1] if len(values) > 1 else '',
+                'element': values[2] if len(values) > 2 else '',
+            }
+
+            # Map remaining columns by header name
+            for j in range(3, len(values)):
+                h = header_row[j].lower()
+                v = values[j]
+                if 'sharpness' in h:
+                    weapon['sharpness'] = v
+                elif 'slot' in h:
+                    weapon['slots'] = v
+                elif 'affinity' in h:
+                    weapon['affinity'] = v
+                elif h in ('def', 'defense'):
+                    weapon['defense'] = v
+                elif 'skill' in h:
+                    weapon['skills'] = v
+                elif 'coating' in h:
+                    weapon['coatings'] = v
+                elif 'kinsect' in h:
+                    weapon['kinsect_level'] = v
+                elif 'note' in h:
+                    weapon['notes'] = v
+                elif 'melod' in h:
+                    weapon['melodies'] = v
+                elif 'rarity' in h:
+                    weapon['rarity'] = v
+
+            weapons.append(weapon)
+
+    return weapons
+
+
+def fetch_page_raw_html(title: str) -> Optional[str]:
+    """Fetch page and return raw HTML (for table parsing)."""
+    params = {"action": "parse", "page": title, "prop": "text", "format": "json"}
+    data = api_request(params)
+    if not data or "parse" not in data:
+        return None
+    return data["parse"]["text"].get("*", "")
+
+
+def fetch_weapons_from_pages() -> List[Dict[str, Any]]:
+    """Fetch weapon tree pages and parse structured weapon data."""
+    all_weapons = []
+
+    type_map = {
+        "MHWilds: Bow Weapon Tree": "Bow",
+        "MHWilds: Charge Blade Weapon Tree": "Charge Blade",
+        "MHWilds: Dual Blades Weapon Tree": "Dual Blades",
+        "MHWilds: Great Sword Weapon Tree": "Great Sword",
+        "MHWilds: Gunlance Weapon Tree": "Gunlance",
+        "MHWilds: Hammer Weapon Tree": "Hammer",
+        "MHWilds: Heavy Bowgun Weapon Tree": "Heavy Bowgun",
+        "MHWilds: Hunting Horn Weapon Tree": "Hunting Horn",
+        "MHWilds: Insect Glaive Weapon Tree": "Insect Glaive",
+        "MHWilds: Lance Weapon Tree": "Lance",
+        "MHWilds: Light Bowgun Weapon Tree": "Light Bowgun",
+        "MHWilds: Long Sword Weapon Tree": "Long Sword",
+        "MHWilds: Switch Axe Weapon Tree": "Switch Axe",
+        "MHWilds: Sword and Shield Weapon Tree": "Sword and Shield",
+    }
+
+    print(f"\n🔫 Fetching {len(WEAPON_TREE_PAGES)} weapon tree pages...")
+    for i, page in enumerate(WEAPON_TREE_PAGES, 1):
+        weapon_type = type_map.get(page, page.replace("MHWilds: ", ""))
+        print(f"  [{i}/{len(WEAPON_TREE_PAGES)}] {weapon_type}...", end=" ")
+        sys.stdout.flush()
+
+        html = fetch_page_raw_html(page)
+        if not html:
+            print("❌ (fetch failed)")
+            time.sleep(0.5)
+            continue
+
+        parsed = parse_weapon_tree_html(html, weapon_type)
+        if parsed:
+            all_weapons.extend(parsed)
+            print(f"✅ {len(parsed)} weapons")
+        else:
+            print("⚠️  (no weapons parsed)")
+
+        time.sleep(0.5)
+
+    return all_weapons
+
+
+def parse_skills_from_wiki() -> List[Dict[str, Any]]:
+    """Parse MHW skills from wiki_data.md text."""
+    import re, json
+
+    with open(str(WIKI_PATH), encoding="utf-8") as f:
+        content = f.read()
+
+    JP = '\u3040-\u309f\u30a0-\u30ff\u4e00-\u9fff\u3000-\u303f\u2160-\u217f\uff00-\uffef\u3400-\u4dbf'
+
+    skills_pos = content.find('# MHWilds: Skills')
+    if skills_pos < 0:
+        return []
+
+    lines = content[skills_pos:skills_pos+60000].split('\n')
+    if len(lines) < 3:
+        return []
+
+    data_line = lines[2]
+    idx = data_line.find('Airborne')
+    if idx < 0:
+        return []
+
+    data = data_line[idx:]
+
+    boundary = r'(?<=[.\d)])\s+(?=[A-Z][a-z]+[\w\s\'\/\-]+ [' + JP + r'])'
+    segments = re.split(boundary, data)
+
+    def _parse_one(text):
+        m = re.match(r'^([A-Za-z][A-Za-z\s\'.\/\-]*)', text)
+        if not m:
+            return None
+
+        name = m.group(1).strip()
+        rest = text[m.end():].strip()
+
+        desc_start = re.search(
+            r'\s+([A-Z][a-z]+(?:ed|es|s|ing|ly)\b)|'
+            r'(?<![A-Z])\s+(?:Increases|Extends|Grants|Reduces|Powers|Allows|Lets|Has|The|Once|While|Temporarily|Prevents|Delays|Shortens|Slightly|Moderately|Greatly|Nullifies|Activates|Enables|Adds|Makes|Pro)|'
+            r'(?<![A-Z])\s+(?:Restores|Recovers|Infects|Grants|Regenerates|Level|Further|Additionally|Greatly)',
+            rest
+        )
+
+        if desc_start:
+            jp_text = rest[:desc_start.start()].strip()
+            after_jp = rest[desc_start.start():].strip()
+        else:
+            jp_text = rest
+            after_jp = ""
+
+        if not after_jp:
+            return {"name": name, "name_jp": jp_text, "description": "", "max_level": 0, "levels_json": "[]"}
+
+        level_pattern = r'(\d+)\s+(.+?)(?=\s+\d+\s+[A-Z' + JP + r']|\s*$)'
+        levels = re.findall(level_pattern, after_jp)
+
+        if levels:
+            first_lv_pos = re.search(
+                r'(?<!\d)\b(\d+)\s+(?:[A-Z][a-z]|Bonus|Activates|Extends|Increases|Grants|Slightly|Moderately|Greatly|Reduces|Nullifies|Delays|Prevents|Allows|Lets|Enables|Temporarily|While|The|Once|When|After|Makes|Pro|Restores|Recovers|Infects|Regenerates|Level|Further|Additionally|Greatly)',
+                after_jp
+            )
+            if first_lv_pos:
+                description = after_jp[:first_lv_pos.start()].strip()
+                level_data = after_jp[first_lv_pos.start():]
+                level_list = re.findall(r'(\d+)\s+(.+?)(?=\s+\d+\s+[A-Z' + JP + r']|\s*$)', level_data)
+            else:
+                description = after_jp
+                level_list = levels
+        else:
+            description = after_jp
+            level_list = []
+
+        max_level = max(int(l[0]) for l in level_list) if level_list else 1
+        level_effects = [f"Lv{l[0]}: {l[1].strip()}" for l in level_list]
+
+        return {
+            "name": name,
+            "name_jp": jp_text,
+            "description": description,
+            "max_level": max_level,
+            "levels_json": json.dumps(level_effects)
+        }
+
+    results = []
+    for seg in segments:
+        s = _parse_one(seg)
+        if s:
+            results.append(s)
+    return results
+
+
+def build_database(monsters: List[Dict[str, Any]], weapons: List[Dict[str, Any]]):
     """Build SQLite database for MH Wilds."""
     print(f"\n🗄️  Building database: {DB_PATH}")
-    
+
     if DB_PATH.exists():
         DB_PATH.unlink()
-    
+
     conn = sqlite3.connect(str(DB_PATH))
     conn.execute("PRAGMA journal_mode=WAL")
+    conn.execute("PRAGMA foreign_keys=ON")
     cur = conn.cursor()
-    
+
     # ── monsters table ──
     cur.execute("""
         CREATE TABLE monsters (
@@ -295,7 +547,7 @@ def build_database(monsters: List[Dict[str, Any]]):
             ailments TEXT
         )
     """)
-    
+
     for m in monsters:
         cur.execute("""
             INSERT OR IGNORE INTO monsters
@@ -306,24 +558,46 @@ def build_database(monsters: List[Dict[str, Any]]):
             m["weaknesses"], m["hp"], m["size"],
             m["elements"], m["ailments"]
         ))
-    
+
     # ── weapons table ──
     cur.execute("""
         CREATE TABLE weapons (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
-            name TEXT,
-            type TEXT,
-            rarity TEXT,
+            name TEXT NOT NULL,
+            type TEXT NOT NULL,
             attack TEXT,
-            affinity TEXT,
             element TEXT,
-            slots TEXT,
             sharpness TEXT,
+            slots TEXT,
+            affinity TEXT,
+            defense TEXT,
+            skills TEXT,
+            coatings TEXT,
+            kinsect_level TEXT,
+            notes TEXT,
+            melodies TEXT,
+            rarity TEXT,
             page_title TEXT
         )
     """)
-    
-    # ── armor table ──
+
+    for w in weapons:
+        cur.execute("""
+            INSERT INTO weapons
+                (name, type, attack, element, sharpness, slots, affinity,
+                 defense, skills, coatings, kinsect_level, notes, melodies, rarity)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        """, (
+            w.get("name", ""), w.get("type", ""),
+            w.get("attack", ""), w.get("element", ""),
+            w.get("sharpness", ""), w.get("slots", ""),
+            w.get("affinity", ""), w.get("defense", ""),
+            w.get("skills", ""), w.get("coatings", ""),
+            w.get("kinsect_level", ""), w.get("notes", ""),
+            w.get("melodies", ""), w.get("rarity", ""),
+        ))
+
+    # ── armor table (empty, need HTML parser) ──
     cur.execute("""
         CREATE TABLE armor (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -336,18 +610,34 @@ def build_database(monsters: List[Dict[str, Any]]):
             page_title TEXT
         )
     """)
-    
+
     # ── skills table ──
     cur.execute("""
         CREATE TABLE skills (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
-            name TEXT UNIQUE,
+            name TEXT NOT NULL,
+            name_jp TEXT,
             description TEXT,
-            max_level INTEGER
+            max_level INTEGER,
+            levels_json TEXT
         )
     """)
-    
-    # ── items table ──
+    # Parse skills from wiki_data.md
+    if WIKI_PATH.exists():
+        try:
+            skills = parse_skills_from_wiki()
+            for s in skills:
+                cur.execute(
+                    "INSERT INTO skills (name, name_jp, description, max_level, levels_json) VALUES (?, ?, ?, ?, ?)",
+                    (s["name"], s["name_jp"], s["description"], s["max_level"], s["levels_json"])
+                )
+            print(f"  Skills: {len(skills)}")
+        except Exception as e:
+            print(f"  Skills: error - {e}")
+    else:
+        print(f"  Skills: WIKI_PATH not found at {WIKI_PATH}")
+
+    # ── items table (empty) ──
     cur.execute("""
         CREATE TABLE items (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -359,8 +649,8 @@ def build_database(monsters: List[Dict[str, Any]]):
             category TEXT
         )
     """)
-    
-    # ── locations table ──
+
+    # ── locations table (empty) ──
     cur.execute("""
         CREATE TABLE locations (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -369,14 +659,16 @@ def build_database(monsters: List[Dict[str, Any]]):
             areas TEXT
         )
     """)
-    
+
     conn.commit()
-    print(f"  Tables created: monsters({len(monsters)}), weapons, armor, skills, items, locations")
-    
-    # Database stats
+
     cur.execute("SELECT COUNT(*) FROM monsters")
-    print(f"    Monsters: {cur.fetchone()[0]}")
-    
+    print(f"  Monsters: {cur.fetchone()[0]}")
+    cur.execute("SELECT COUNT(*) FROM weapons")
+    print(f"  Weapons: {cur.fetchone()[0]}")
+    cur.execute("SELECT COUNT(*) FROM skills")
+    print(f"  Skills: {cur.fetchone()[0]}")
+
     conn.close()
     print(f"✅ Database: {DB_PATH}")
 
@@ -386,23 +678,31 @@ def verify_database():
     conn = sqlite3.connect(str(DB_PATH))
     conn.row_factory = sqlite3.Row
     cur = conn.cursor()
-    
-    # Table list
+
     cur.execute("SELECT name FROM sqlite_master WHERE type='table'")
     tables = [r[0] for r in cur.fetchall()]
     print(f"\n📊 Database tables ({len(tables)}): {', '.join(tables)}")
-    
+
     for table in tables:
-        cur.execute(f"SELECT COUNT(*) FROM \"{table}\"")
+        cur.execute(f'SELECT COUNT(*) FROM "{table}"')
         count = cur.fetchone()[0]
         print(f"  {table}: {count} records")
-    
-    # Sample data
+
     print("\n  Sample monsters:")
     cur.execute("SELECT name, species, locations FROM monsters LIMIT 5")
     for row in cur.fetchall():
-        print(f"    - {row['name']} ({row['species']}) - {row['locations'][:40] if row['locations'] else 'N/A'}")
-    
+        print(f"    - {row['name']} ({row['species']}) - {str(row['locations'])[:40] if row['locations'] else 'N/A'}")
+
+    print("\n  Sample weapons (by type):")
+    cur.execute("SELECT type, COUNT(*) as cnt FROM weapons GROUP BY type ORDER BY cnt DESC")
+    for row in cur.fetchall():
+        print(f"    {row['type']}: {row['cnt']} weapons")
+
+    print("\n  First 5 weapons:")
+    cur.execute("SELECT name, type, attack, element, affinity, skills FROM weapons LIMIT 5")
+    for row in cur.fetchall():
+        print(f"    - {row['name']} ({row['type']}) ATK:{row['attack']} ELE:{row['element']} AFF:{row['affinity']}")
+
     conn.close()
 
 
@@ -410,16 +710,19 @@ def main():
     print("=" * 60)
     print("  Monster Hunter Wilds DB Builder")
     print("=" * 60)
-    
+
     # Step 1: Build wiki data
     monsters = build_wiki_md()
-    
-    # Step 2: Build database
-    build_database(monsters)
-    
-    # Step 3: Verify
+
+    # Step 2: Parse weapon trees
+    weapons = fetch_weapons_from_pages()
+
+    # Step 3: Build database
+    build_database(monsters, weapons)
+
+    # Step 4: Verify
     verify_database()
-    
+
     print("\n✅ Done!")
 
 
