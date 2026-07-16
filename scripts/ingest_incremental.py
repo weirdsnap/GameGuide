@@ -105,8 +105,10 @@ def build_vectorstore_incremental(game_key: str):
     print(f"  🧩 {total} 个片段")
 
     # Embedding 模型
-    print(f"  🧠 加载 fastembed (bge-small-en-v1.5)...")
-    embed_model = FastEmbedEmbeddings(model_name="BAAI/bge-small-en-v1.5")
+    from rag_agent.config import FASTEMBED_MODEL as DEFAULT_MODEL
+    model_name = os.environ.get("FASTEMBED_MODEL", DEFAULT_MODEL)
+    print(f"  🧠 加载 fastembed ({model_name})...")
+    embed_model = FastEmbedEmbeddings(model_name=model_name)
 
     # 增量构建 FAISS
     print(f"  🔨 逐块构建 FAISS 索引...")

@@ -4,6 +4,8 @@
 ======================================
 在你本地机器上运行（Mac 或 2080Ti），生成 FAISS 向量索引后复制回服务器。
 
+⚠️ 注意：现在是多项目架构，建议用 scripts/ingest_game.py 替代本脚本。
+
 使用方法：
   1. 将本脚本和 hallownest_knowledge.md 放在同一目录
   2. 安装依赖（只需一次）：
@@ -15,7 +17,8 @@
 输出： vectorstore/index.faiss + vectorstore/index.pkl（标准 langchain 兼容格式）
 
 说明：
-  - 模型使用 BAAI/bge-small-en-v1.5（约300MB，首次运行自动下载）
+  - 模型默认使用多语言 paraphrase-multilingual-MiniLM-L12-v2（支持中文检索英文内容）
+  - 如需换模型，通过 FASTEMBED_MODEL 环境变量覆盖
   - 国内用户自动使用 hf-mirror.com 加速（如需官方源：HF_ENDPOINT= pip3 install ...）
   - 有 GPU（如 2080Ti）会自动使用 CUDA 加速
 """
@@ -52,7 +55,7 @@ except ImportError:
 # ============================================================
 # 配置
 # ============================================================
-MODEL_NAME = "BAAI/bge-small-en-v1.5"
+MODEL_NAME = os.environ.get("FASTEMBED_MODEL", "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
 DATA_FILE = "data/hallownest_knowledge.md"    # 传回服务器后放在项目根目录下
 OUTPUT_DIR = "vectorstore"
 CHUNK_SIZE = 500

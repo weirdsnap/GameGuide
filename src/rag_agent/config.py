@@ -8,7 +8,7 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL") or None
 
 # 默认使用 OpenAI 的 embedding 模型（远程用）
-# 本地 fastembed 模型由 FASTEMBED_MODEL 指定（默认 bge-small-en-v1.5）
+# 本地 fastembed 模型由 FASTEMBED_MODEL 指定（默认多语言模型，支持中英文检索）
 EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "text-embedding-3-small")
 
 # 本地 fastembed 模型（使用多语言模型，支持中文查询检索英文文档）
