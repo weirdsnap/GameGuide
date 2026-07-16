@@ -37,8 +37,8 @@ GAMES_DIR = PROJECT_ROOT / "games"
 GAME_DATA: Dict[str, Dict[str, str]] = {
     "hollow_knight": {
         "name": "Hollow Knight (空洞骑士)",
-        "data_path": str(PROJECT_ROOT / "data" / "wiki_data.md"),
-        "vectorstore_dir": str(PROJECT_ROOT / "vectorstore"),
+        "data_path": str(GAMES_DIR / "hollow_knight" / "data" / "wiki_data.md"),
+        "vectorstore_dir": str(GAMES_DIR / "hollow_knight" / "vectorstore"),
     },
     "oni": {
         "name": "Oxygen Not Included (缺氧)",
@@ -326,7 +326,12 @@ def build_vectorstore(game_key: str):
     from langchain_core.documents import Document
 
     # 3. Embedding 模型
-    model_name = os.environ.get("FASTEMBED_MODEL", "BAAI/bge-small-en-v1.5")
+    # 默认使用配置中的多语言模型（支持中文检索英文文档）
+    try:
+        from rag_agent.config import FASTEMBED_MODEL as DEFAULT_MODEL
+    except ImportError:
+        DEFAULT_MODEL = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+    model_name = os.environ.get("FASTEMBED_MODEL", DEFAULT_MODEL)
     print(f"  🧠 {model_name}")
     embed_model = FastEmbedEmbeddings(model_name=model_name)
 
@@ -382,7 +387,7 @@ def main():
     print("  scp -r games/cyberpunk2077/vectorstore/ snap@114.132.189.56:/data/learning/agent/games/cyberpunk2077/")
     print("  scp -r games/va11halla/vectorstore/ snap@114.132.189.56:/data/learning/agent/games/va11halla/")
     print("  scp -r games/mhw/vectorstore/ snap@114.132.189.56:/data/learning/agent/games/mhw/")
-    print("  scp -r vectorstore/ snap@114.132.189.56:/data/learning/agent/vectorstore/   (如果重建 HK)")
+    print("  scp -r games/hollow_knight/vectorstore/ snap@114.132.189.56:/data/learning/agent/games/hollow_knight/     (如果重建 HK)")
     print()
     print("覆盖后重启服务器即可生效。")
 

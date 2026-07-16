@@ -175,10 +175,10 @@ def build_vectorstore(game_key: str):
     from langchain_community.embeddings.fastembed import FastEmbedEmbeddings
     from langchain_community.vectorstores import FAISS
     from langchain_core.documents import Document
-    import os
 
-    # 设置 embedding 模型
-    model_name = os.environ.get("FASTEMBED_MODEL", "BAAI/bge-small-en-v1.5")
+    # 设置 embedding 模型（从 config.py 读取默认值）
+    from rag_agent.config import FASTEMBED_MODEL as DEFAULT_MODEL
+    model_name = os.environ.get("FASTEMBED_MODEL", DEFAULT_MODEL)
     print(f"  🧠 Embedding 模型: {model_name}")
     embed_model = FastEmbedEmbeddings(model_name=model_name)
 
