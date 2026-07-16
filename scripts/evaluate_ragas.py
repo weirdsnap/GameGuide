@@ -29,8 +29,8 @@ logger = logging.getLogger("evaluate_ragas")
 
 # ── Configuration ───────────────────────────────────────────────────
 
-DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "")
-DEEPSEEK_BASE_URL = os.getenv("DEEPSEEK_BASE_URL", "https://api.deepseek.com/v1")
+DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY") or os.getenv("OPENAI_API_KEY", "")
+DEEPSEEK_BASE_URL = os.getenv("DEEPSEEK_BASE_URL") or os.getenv("OPENAI_BASE_URL", "https://api.deepseek.com/v1")
 DEEPSEEK_MODEL = "deepseek-chat"
 
 REPORT_DIR = Path(__file__).resolve().parent.parent / "evaluation" / "reports"
