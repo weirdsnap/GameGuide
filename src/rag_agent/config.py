@@ -11,9 +11,9 @@ OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL") or None
 # 本地 fastembed 模型由 FASTEMBED_MODEL 指定（默认 bge-small-en-v1.5）
 EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "text-embedding-3-small")
 
-# 本地 fastembed 模型（当前向量库使用 BAAI/bge-small-en-v1.5）
-# 如果更换模型，需要在 Mac 上重新构建向量库
-FASTEMBED_MODEL = os.getenv("FASTEMBED_MODEL", "BAAI/bge-small-en-v1.5")
+# 本地 fastembed 模型（使用多语言模型，支持中文查询检索英文文档）
+# 如果更换模型，需要在 Mac 上重新构建向量库（重跑 ingest_game.py）
+FASTEMBED_MODEL = os.getenv("FASTEMBED_MODEL", "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
 
 # HuggingFace 镜像（国内加速下载）
 HF_ENDPOINT = os.getenv("HF_ENDPOINT", "https://hf-mirror.com")
