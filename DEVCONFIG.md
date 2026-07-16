@@ -2,9 +2,15 @@
 
 ## ⚠️ Embedding 模型：必须用多语言！
 
-**当前默认**：`paraphrase-multilingual-MiniLM-L12-v2`
+**当前默认**：`sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2`（384维，fastembed 原生支持）
 
-**为什么**：bge-small-en-v1.5 是纯英文模型，中文 query 几乎检索不到任何内容。
+**选择原因**：
+1. **多语言语义空间** — 维基内容是英文，用户用中文提问。这个模型支持 50+ 语言，中文 query 能和英文文档向量在同一个空间匹配。
+2. **维度 384** — 和 bge-small-en-v1.5 一致，检索速度/存储开销不变。
+3. **轻量快速** — MiniLM 架构，Mac 上 300MB 模型，推理速度和 bge 系列接近。
+4. **fastembed 开箱即用** — `FastEmbedEmbeddings(model_name=...)` 直接支持。
+
+**反面教训**：之前用 bge-small-en-v1.5（纯英文模型），中文问"螳螂爪在哪里"检索几乎不命中任何英文文档，RAG 等于没有。
 
 **血泪史**（别再犯了）：
 1. ✅ `1245c6e` — 第一次切到多语言模型，功臣
