@@ -24,6 +24,10 @@ from pathlib import Path
 from datetime import datetime
 from dataclasses import dataclass, field, asdict
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 logging.basicConfig(level=logging.WARNING, format="%(message)s")
 logger = logging.getLogger("evaluate_ragas")
 
