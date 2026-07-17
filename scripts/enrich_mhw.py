@@ -281,6 +281,13 @@ def upgrade_schema(conn: sqlite3.Connection):
         """)
         print("  ✅ Created table 'armor'")
 
+    if "items" in tables:
+        existing = {row[1] for row in cur.execute("PRAGMA table_info(items)").fetchall()}
+        for col, dtype in {"how_to_get": "TEXT DEFAULT ''", "capacity": "TEXT DEFAULT ''"}.items():
+            if col not in existing:
+                print(f"  ⬆️  Adding column 'items.{col}'")
+                cur.execute(f"ALTER TABLE items ADD COLUMN {col} {dtype}")
+
     conn.commit()
 
 
@@ -329,6 +336,54 @@ def insert_armor(conn: sqlite3.Connection, armors: List[Dict[str, str]]):
                 skipped += 1
         except Exception as e:
             print(f"  ⚠️  Failed to insert {a['set_name']}: {e}")
+    conn.commit()
+    return inserted, skipped
+
+
+def insert_items(conn: sqlite3.Connection, items: List[Dict[str, str]]):
+    """Insert items, skip duplicates by name."""
+    cur = conn.cursor()
+    inserted = 0
+    skipped = 0
+    for item in items:
+        try:
+            cur.execute("""
+                INSERT OR IGNORE INTO items
+                    (name, description, rarity, buy_price, sell_price, category, how_to_get, capacity)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+            """, (
+                item["name"], item["description"], item["rarity"],
+                item["buy_price"], item["sell_price"], item["category"],
+                item.get("how_to_get", ""), item.get("capacity", ""),
+            ))
+            if cur.rowcount:
+                inserted += 1
+            else:
+                skipped += 1
+        except Exception as e:
+            print(f"  ⚠️  插入失败 {item['name']}: {e}")
+    conn.commit()
+    return inserted, skipped
+
+
+def insert_locations(conn: sqlite3.Connection, locations: List[Dict[str, str]]):
+    """Insert locations, skip duplicates by name."""
+    cur = conn.cursor()
+    inserted = 0
+    skipped = 0
+    for loc in locations:
+        try:
+            cur.execute("""
+                INSERT OR IGNORE INTO locations
+                    (name, description, areas)
+                VALUES (?, ?, ?)
+            """, (loc["name"], loc["description"], loc["areas"]))
+            if cur.rowcount:
+                inserted += 1
+            else:
+                skipped += 1
+        except Exception as e:
+            print(f"  ⚠️  插入失败 {loc['name']}: {e}")
     conn.commit()
     return inserted, skipped
 
@@ -404,12 +459,170 @@ def main():
     else:
         print("\n⚠️  未解析到任何防具数据")
 
+    # ── Items ──
+    print(f"\n📦 解析物品...")
+    sys.stdout.flush()
+    items = extract_items_from_html()
+    if items:
+        inserted, skipped = insert_items(conn, items)
+        print(f"📌 物品入库: {inserted} 新增, {skipped} 跳过 (共 {len(items)} 条)")
+    else:
+        print("⚠️  未解析到任何物品")
+
+    # ── Locations ──
+    print(f"\n🗺️  解析区域...")
+    sys.stdout.flush()
+    locations = extract_locations()
+    if locations:
+        inserted, skipped = insert_locations(conn, locations)
+        print(f"📌 区域入库: {inserted} 新增, {skipped} 跳过 (共 {len(locations)} 个)")
+    else:
+        print("⚠️  未解析到任何区域")
+
     # ── Stats ──
     print_stats(conn)
     conn.close()
 
     print("\n✅ MHW 数据补全完成!")
     print("💡 下一步: 在 Mac 上重新构建向量库: python3 scripts/ingest_game.py --game mhw")
+
+
+# ── Item list page ──
+ITEM_PAGE = "MHWilds: Item List"
+
+# ── Location pages ──
+LOCATION_NAMES = [
+    "Windward Plains",
+    "Scarlet Forest",
+    "Oilwell Basin",
+    "Iceshard Cliffs",
+    "Ruins of Wyveria",
+    "Wounded Hollow",
+]
+# ════════════════════════════════════════════════════════════
+#  Item parser
+# ════════════════════════════════════════════════════════════
+
+def extract_items_from_html() -> List[Dict[str, str]]:
+    """Parse all items from MHWilds: Item List categories."""
+    html = api_get_html(ITEM_PAGE)
+    if not html:
+        return []
+
+    items = []
+    # Split by h2 boundaries to associate headings with their tables
+    parts = re.split(r'(<h2[^>]*>.*?</h2>)', html, flags=re.DOTALL)
+
+    current_cat = ""
+    for part in parts:
+        h2_match = re.search(r'<h2[^>]*>(.*?)</h2>', part, re.DOTALL)
+        if h2_match:
+            current_cat = clean_html_text(h2_match.group(1))
+            current_cat = re.sub(r'\s*\[.*?\]\s*', '', current_cat).strip()
+            continue
+
+        if not current_cat or current_cat == "Contents":
+            continue
+
+        tables = re.findall(r'<table[^>]*>(.*?)</table>', part, re.DOTALL | re.IGNORECASE)
+        if not tables:
+            continue
+
+        for tbl_html in tables:
+            rows = re.findall(r'<tr>(.*?)</tr>', tbl_html, re.DOTALL)
+            if len(rows) < 2:
+                continue
+
+            for row in rows:
+                tds = re.findall(r'<td[^>]*>(.*?)</td>', row, re.DOTALL)
+                if len(tds) < 6:
+                    continue
+
+                # Name is typically in td[1] (td[0] is icon)
+                name_td = (tds[1] if len(tds) >= 7 else tds[0])
+                name_text = clean_html_text(name_td)
+                name = name_text.split('\n')[0].strip() if '\n' in name_text else name_text.strip()
+                if not name:
+                    continue
+
+                # Column mapping varies by td count:
+                # 7+ tds: [icon, name, rarity, capacity, value, how_to_get, desc]
+                # 6 tds:  [name, rarity, capacity, value, how_to_get, desc]
+                if len(tds) >= 7:
+                    rarity = clean_html_text(tds[2])
+                    capacity = clean_html_text(tds[3])
+                    value = clean_html_text(tds[4]).replace('z', '').strip()
+                    how_to_get = clean_html_text(tds[5])
+                    desc = clean_html_text(tds[6])
+                else:
+                    rarity = clean_html_text(tds[1])
+                    capacity = clean_html_text(tds[2])
+                    value = clean_html_text(tds[3]).replace('z', '').strip()
+                    how_to_get = clean_html_text(tds[4])
+                    desc = clean_html_text(tds[5])
+
+                items.append({
+                    "name": name,
+                    "description": desc,
+                    "rarity": rarity,
+                    "buy_price": "",
+                    "sell_price": value,
+                    "category": current_cat,
+                    "how_to_get": how_to_get,
+                    "capacity": capacity,
+                })
+
+    print(f"  📦 解析到 {len(items)} 个物品")
+    return items
+
+
+# ════════════════════════════════════════════════════════════
+#  Location parser
+# ════════════════════════════════════════════════════════════
+
+def extract_locations() -> List[Dict[str, str]]:
+    """Parse individual location pages."""
+    result = []
+    for loc_name in LOCATION_NAMES:
+        html = api_get_html(loc_name)
+        if not html:
+            print(f"  ⚠️  无法获取 {loc_name}")
+            continue
+
+        desc = ""
+        areas = ""
+
+        # Infobox description
+        infobox_match = re.search(
+            r'<aside[^>]*>.*?<div[^>]*>(.*?)</div>',
+            html, re.DOTALL
+        )
+        if infobox_match:
+            desc = clean_html_text(infobox_match.group(1))
+
+        # First paragraph if infobox insufficient
+        if not desc or len(desc) < 30:
+            p_match = re.search(r'<p>(.*?)</p>', html, re.DOTALL)
+            if p_match:
+                desc = clean_html_text(p_match.group(1))
+
+        # Number of areas
+        a_match = re.search(r'(\d+)\s*areas?', html, re.DOTALL | re.IGNORECASE)
+        if a_match:
+            areas = a_match.group(1)
+
+        if len(desc) > 500:
+            desc = desc[:500]
+
+        result.append({
+            "name": loc_name,
+            "description": desc,
+            "areas": areas,
+        })
+        print(f"  🗺️  {loc_name}: areas={areas if areas else '?'}, desc={len(desc)} chars")
+        time.sleep(0.5)
+
+    return result
 
 
 if __name__ == "__main__":

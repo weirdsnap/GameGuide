@@ -834,7 +834,15 @@ SILKSONG_CONFIG = {
         "Abilities_(Silksong)": "abilities",
         "Items_(Silksong)": "items",
         "Areas_(Silksong)": "areas",
-    }
+        "NPCs_(Silksong)": "npcs",
+    },
+    "extra_abilities": [
+        "Weaver Talents (Silksong)",
+        "Clawline (Silksong)",
+    ],
+    "extra_areas": [
+        "The Abyss (Silksong)",
+    ]
 }
 
 SILKSONG_SCHEMA = """
@@ -872,6 +880,14 @@ CREATE TABLE IF NOT EXISTS areas (
     name TEXT NOT NULL,
     description TEXT
 );
+
+CREATE TABLE IF NOT EXISTS npcs (
+    slug TEXT PRIMARY KEY,
+    name TEXT NOT NULL,
+    role TEXT,
+    location TEXT,
+    description TEXT
+);
 """
 
 
@@ -898,7 +914,7 @@ def build_silksong_db():
     raw_data = fetch_raw_wikitext(cfg["api"], all_to_fetch, cfg["user_agent"])
     print(f"  → 获取到 {len(raw_data)} 篇")
 
-    count = {"bosses": 0, "enemies": 0, "abilities": 0, "items": 0, "areas": 0}
+    count = {"bosses": 0, "enemies": 0, "abilities": 0, "items": 0, "areas": 0, "npcs": 0}
 
     for doc_type, titles in all_titles.items():
         print(f"\n📋 处理 {doc_type}...")
@@ -983,6 +999,62 @@ def build_silksong_db():
                         VALUES (?,?,?)""",
                         (slug, title, desc))
                     count["areas"] += 1
+                except sqlite3.IntegrityError:
+                    pass
+
+            elif doc_type == "npcs":
+                params = extract_infobox(wt, "SS Infobox NPC")
+                if not params:
+                    params = extract_infobox(wt, "HK Infobox NPC")
+                role = clean_value(params.get("role", "")) or clean_value(params.get("title", ""))
+                loc = clean_value(params.get("location", "")) or clean_value(params.get("area", ""))
+                desc = clean_value(params.get("description", ""))
+
+                try:
+                    db.execute("""INSERT OR REPLACE INTO npcs
+                        (slug, name, role, location, description)
+                        VALUES (?,?,?,?,?)""",
+                        (slug, title, role, loc, desc))
+                    count["npcs"] += 1
+                except sqlite3.IntegrityError:
+                    pass
+
+    # ── Fetch extra pages not covered by categories ──
+    extra_titles = cfg.get("extra_abilities", []) + cfg.get("extra_areas", [])
+    if extra_titles:
+        print(f"\n📥 获取额外页面（{len(extra_titles)} 篇）...")
+        extra_raw = fetch_raw_wikitext(cfg["api"], extra_titles, cfg["user_agent"])
+        for title in extra_titles:
+            wt = extra_raw.get(title)
+            if not wt:
+                continue
+            slug = title.lower().replace(' ', '-').replace("'", '').replace('(', '').replace(')', '')
+            slug = re.sub(r'[^a-z0-9\-]', '', slug)
+
+            if title in cfg.get("extra_abilities", []):
+                params = extract_infobox(wt, "HK Infobox Ability")
+                effect = clean_value(params.get("effect", "")) or clean_value(params.get("description", ""))
+                acq = clean_value(params.get("acquisition", "")) or clean_value(params.get("source", ""))
+                try:
+                    db.execute("""INSERT OR REPLACE INTO abilities
+                        (slug, name, effect, acquisition)
+                        VALUES (?,?,?,?)""",
+                        (slug, title, effect, acq))
+                    count["abilities"] += 1
+                    print(f"    + abilities: {title}")
+                except sqlite3.IntegrityError:
+                    pass
+
+            elif title in cfg.get("extra_areas", []):
+                params = extract_infobox(wt, "HK Infobox Area")
+                desc = clean_value(params.get("description", ""))
+                try:
+                    db.execute("""INSERT OR REPLACE INTO areas
+                        (slug, name, description)
+                        VALUES (?,?,?)""",
+                        (slug, title, desc))
+                    count["areas"] += 1
+                    print(f"    + areas: {title}")
                 except sqlite3.IntegrityError:
                     pass
 

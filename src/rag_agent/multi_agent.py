@@ -195,14 +195,13 @@ def create_game_tools(game_key: str) -> List:
     def query_structured_data(query: str) -> str:
         """Query the game structured database for precise data.
 
-        Use this for: boss HP, item stats, damage values, costs, prices,
+        Use this for: boss/character stats, item prices, damage values, costs,
         and any numerical/quantifiable game data.
 
         Input format: natural language query like:
-        - "查询护符 Grubsong" — get details about a specific item/boss/enemy
-        - "3格Cost的护符" — filter by cost/level/stat
-        - "HP>500" — filter by HP threshold
-        - "所有敌人" — list all entries in a category
+        - "查询 X" — get details about a specific item/boss/enemy
+        - "所有敌人" or "所有武器" — list all entries in a category
+        - "HP>500" or "cost 3" — filter by stat/value
 
         Args:
             query: Natural language query
@@ -240,6 +239,43 @@ def create_game_tools(game_key: str) -> List:
                                     rows = _query_db(db_path, f"SELECT * FROM [{table}] LIMIT 30")
                                     if rows:
                                         return _format_db_result(rows, table)
+                        # Try table name aliases (跨游戏通用表别名)
+                        table_aliases = {
+                            "boss": ["bosses", "monsters", "monster"],
+                            "bosses": ["bosses", "monsters"],
+                            "敌人": ["enemies", "monsters", "monster"],
+                            "enemy": ["enemies", "monsters"],
+                            "enemies": ["enemies", "monsters"],
+                            "怪物": ["monsters", "monster", "enemies"],
+                            "monster": ["monsters"],
+                            "技能": ["skills", "skill"],
+                            "skill": ["skills"],
+                            "武器": ["weapons", "weapon"],
+                            "weapon": ["weapons"],
+                            "防具": ["armor", "armors"],
+                            "armour": ["armor"],
+                            "物品": ["items", "item"],
+                            "item": ["items"],
+                            "道具": ["items"],
+                            "区域": ["areas", "locations", "location"],
+                            "地区": ["areas", "locations"],
+                            "area": ["areas"],
+                            "location": ["locations"],
+                            "角色": ["characters", "character"],
+                            "character": ["characters", "character"],
+                            "NPC": ["characters", "character"],
+                        }
+                        for kw in keyword.split():
+                            aliases = table_aliases.get(kw.lower(), []) + table_aliases.get(kw, [])
+                            if not aliases:
+                                aliases = table_aliases.get(kw, [])
+                            for alias in aliases:
+                                for table in tables:
+                                    if alias == table:
+                                        rows = _query_db(db_path, f"SELECT * FROM [{table}] LIMIT 30")
+                                        if rows:
+                                            return _format_db_result(rows, table)
+
                         # If no table match, search all tables
                         return _search_all_tables(db_path, keyword)
 
@@ -592,7 +628,7 @@ def ask(
         logger.info(f"  💬 消息: {len(messages)} 条")
 
     try:
-        result = agent.invoke({"messages": messages})
+        result = agent.invoke({"messages": messages}, {"recursion_limit": 50})
         answer = result.get("messages", [])[-1].content if result.get("messages") else ""
         return answer or "（Agent 没有返回有效回答）"
     except Exception as e:
@@ -677,7 +713,7 @@ async def ask_stream(
     }
 
     try:
-        async for event in agent.astream_events({"messages": messages}, version="v2"):
+        async for event in agent.astream_events({"messages": messages}, {"recursion_limit": 50}, version="v2"):
             if event["event"] == "on_chat_model_stream":
                 chunk = event["data"]["chunk"]
                 if isinstance(chunk, AIMessageChunk) and chunk.content:

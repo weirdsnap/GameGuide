@@ -2,7 +2,7 @@
 
 来源: https://hollowknight.fandom.com/api.php
 分类: Additional_Content_(Silksong), Areas_(Silksong), Bosses_(Silksong), Combat_(Silksong), Enemies_(Silksong), Exploration_(Silksong), Hollow_Knight:_Silksong, Items_(Silksong), NPCs_(Silksong), Points_of_Interest_(Silksong)
-总页数: 78
+总页数: 81
 
 ## Ballow
 
@@ -2305,4 +2305,98 @@ Here is a video of Widow:
 [https://www.youtube.com/watch?v=tw2cb64HsFg&pp=ygUUU2lsa3Nvbmcgd2lkbyBubyBoaXQ%3D Widow No Hit]
 
 ---
+
+# 文档：Weaver Talents (Silksong)
+
+<div class="mw-content-ltr mw-parser-output" lang="en" dir="ltr"><h2><span id="Weaver_talents.28in_order.29"></span><span class="mw-headline" id="Weaver_talents(in_order)">Weaver talents(in order)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a title="Sign in to edit" class="mw-editsection-visualeditor" data-tracking-label="log-in-edit-section" data-action="edit-section" href="https://auth.fandom.com/signin?redirect=https%3A%2F%2Fhollowknight.fandom.com%2Fwiki%2FWeaver_Talents_%28Silksong%29%3Fveaction%3Dedit%26section%3D1&amp;uselang=en&amp;metadata=article-registration-edit-article-section" data-testid="log-in-edit-section" aria-label="Sign in to edit"><svg class="wds-icon wds-icon-tiny" aria-hidden="true" focusable="false"><use xlink:href="#wds-icons-pencil-tiny"></use></svg></a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Silkspear:">Silkspear:</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a title="Sign in to edit" class="mw-editsection-visualeditor" data-tracking-label="log-in-edit-section" data-action="edit-section" href="https://auth.fandom.com/signin?redirect=https%3A%2F%2Fhollowknight.fandom.com%2Fwiki%2FWeaver_Talents_%28Silksong%29%3Fveaction%3Dedit%26section%3D2&amp;uselang=en&amp;metadata=article-registration-edit-article-section" data-testid="log-in-edit-section" aria-label="Sign in to edit"><svg class="wds-icon wds-icon-tiny" aria-hidden="true" focusable="false"><use xlink:href="#wds-icons-pencil-tiny"></use></svg></a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>heavy weaver skill, throw your needle forwards dealing heavy damage , costs silk to use ,restore silk by damaging enemies.
+</p>
+<!-- 
+NewPP limit report
+Cached time: 20260716201911
+Cache expiry: 1209600
+Reduced expiry: false
+Complications: []
+CPU time usage: 0.003 seconds
+Real time usage: 0.005 seconds
+Preprocessor visited node count: 5/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/100
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 0/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    0.000      1 -total
+-->
+
+<!-- Saved in parser cache with key 1.43.9_prod_hollowknight:pcache:idhash:34139-0!sseVary=RegularPage!FandomDesktop!LegacyGalleries and timestamp 20260716201911 and revision id 120718. Rendering was triggered because: page-view
+ -->
+</div>
+
+# 文档：Clawline (Silksong)
+
+<div class="mw-content-ltr mw-parser-output" lang="en" dir="ltr"><p><b>Clawline</b> is an <i>Advanced <a href="/wiki/Weaver_Talents_(Silksong)" title="Weaver Talents (Silksong)">Weaver talent</a></i> in the game <a href="/wiki/Hollow_Knight:_Silksong" title="Hollow Knight: Silksong">Hollow Knight: Silksong</a>.
+</p><p>It can be obtained in the <a href="/wiki/The_Underworks" title="The Underworks">Underworks</a> at <i><b>The Cauldron</b></i>. The <a href="/wiki/Songclave" title="Songclave">White key</a> is required to acquire enter this area and acquire the talent.
+</p><p><b>Clawline</b> costs <b>Silk</b> to throw the <i>Silk-strung needle</i> like a harpoon and charge toward it. The <b>harpoon</b> button (default <i>Left Trigger</i> on controller) is used for this talent. 
+</p><p>This talent cannot be used if the character has no silk on the Spool.
+</p><p>The <b>Clawline</b> on a <i>combat perspective</i> can be used to attack enemies doing (on an needle upgraded twice) <b>6 dmg</b> on when the <b>Clawline</b> hits the enemy and <b>7 dmg</b> as soon as Hornet finishes the <b>Clawline</b> animation. The <b>Clawline</b> also grants some
+</p><p><b>invincibility</b> frames although the amount is almost trivial and is usually seen in <b>TAS</b>'s.
+</p>
+<!-- 
+NewPP limit report
+Cached time: 20260716202358
+Cache expiry: 1209600
+Reduced expiry: false
+Complications: []
+CPU time usage: 0.007 seconds
+Real time usage: 0.012 seconds
+Preprocessor visited node count: 3/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/100
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 0/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    0.000      1 -total
+-->
+
+<!-- Saved in parser cache with key 1.43.9_prod_hollowknight:pcache:idhash:33856-0!sseVary=RegularPage!FandomDesktop!LegacyGalleries and timestamp 20260716202358 and revision id 120225. Rendering was triggered because: api-parse
+ -->
+</div>
+
+# 文档：The Abyss (Silksong)
+
+<div class="mw-content-ltr mw-parser-output" lang="en" dir="ltr"><p><b>The Abyss</b> is an area accessible during Act 3 of <i><a href="/wiki/Hollow_Knight:_Silksong" title="Hollow Knight: Silksong">Hollow Knight: Silksong</a></i>. It is similar to Hallownest's Abyss, themed around the <a href="/wiki/Void" title="Void">Void</a> and located at the very bottom of <a href="/wiki/Pharloom" title="Pharloom">Pharloom</a> , and is the location of the <a href="/wiki/Lost_Lace" title="Lost Lace">Lost Lace</a> fight.
+</p>
+<!-- 
+NewPP limit report
+Cached time: 20260715115227
+Cache expiry: 1209600
+Reduced expiry: false
+Complications: []
+CPU time usage: 0.005 seconds
+Real time usage: 0.008 seconds
+Preprocessor visited node count: 1/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 1/100
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 0/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    0.000      1 -total
+-->
+
+<!-- Saved in parser cache with key 1.43.9_prod_hollowknight:pcache:idhash:33987-0!sseVary=RegularPage!FandomDesktop!LegacyGalleries and timestamp 20260715115227 and revision id 119995. Rendering was triggered because: page-view
+ -->
+</div>
 
