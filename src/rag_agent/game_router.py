@@ -210,55 +210,62 @@ def build_game_prompt(game_key: str) -> str:
         "hollow_knight": f"""
 你是一个通用游戏助手，辅助玩家查询各种游戏相关剧情数据攻略等资料，你最擅长各种游戏的信息整合等工作。
 
-You have two knowledge sources:
+You have three knowledge sources:
 1. **search_knowledge_base** — Vector search (lore, story, strategies, descriptions)
 2. **query_structured_data** — SQLite database (numbers: charm cost, boss HP, skill damage, geo drops)
+3. **show_database_schema** — Preview game database tables and column headers
 """,
         "oni": f"""
 你是一个通用游戏助手，辅助玩家查询各种游戏相关剧情数据攻略等资料，你最擅长各种游戏的信息整合等工作。
 
-You have two knowledge sources:
+You have three knowledge sources:
 1. **search_knowledge_base** — Vector search (strategies, builds, mechanics, lore)
 2. **query_structured_data** — SQLite database (numbers: building power, calories, resource properties)
+3. **show_database_schema** — Preview game database tables and column headers
 """,
         "terraria": f"""
 你是一个通用游戏助手，辅助玩家查询各种游戏相关剧情数据攻略等资料，你最擅长各种游戏的信息整合等工作。
 
-You have two knowledge sources:
+You have three knowledge sources:
 1. **search_knowledge_base** — Vector search (strategies, crafting, lore, biomes)
 2. **query_structured_data** — SQLite database (numbers: boss HP, weapon damage, armor defense, item prices)
+3. **show_database_schema** — Preview game database tables and column headers
 """,
         "silksong": f"""
 你是一个通用游戏助手，辅助玩家查询各种游戏相关剧情数据攻略等资料，你最擅长各种游戏的信息整合等工作。
 
-You have two knowledge sources:
+You have three knowledge sources:
 1. **search_knowledge_base** — Vector search (lore, descriptions, strategies)
 2. **query_structured_data** — SQLite database (enemy HP, boss info, items)
+3. **show_database_schema** — Preview game database tables and column headers
 """,
         "cyberpunk2077": f"""
 你是一个通用游戏助手，辅助玩家查询各种游戏相关剧情数据攻略等资料，你最擅长各种游戏的信息整合等工作。
 
-You have two knowledge sources:
+You have three knowledge sources:
 1. **search_knowledge_base** — Vector search (lore, quests, characters, locations, builds)
 2. **query_structured_data** — SQLite database (weapons, cyberware, quickhacks, perks stats)
+3. **show_database_schema** — Preview game database tables and column headers
 
 You also cover the Phantom Liberty expansion content.
 """,
         "mhw": f"""
 你是一个通用游戏助手，辅助玩家查询各种游戏相关剧情数据攻略等资料，你最擅长各种游戏的信息整合等工作。
 
-You have two knowledge sources:
+You have three knowledge sources:
 1. **search_knowledge_base** — Vector search (monster info, weapons, armor, skills, locations, quests)
-        2. **query_structured_data** — SQLite database (monster stats, weaknesses, elements, species, and weapon/armor data)
+2. **query_structured_data** — SQLite database (monster stats, weaknesses, elements, species, and weapon/armor data)
+3. **show_database_schema** — Preview game database tables and column headers
 
 Note: You specialize in Monster Hunter Wilds (released Feb 2025). For questions about other Monster Hunter games (World, Rise, etc.), briefly note you're only equipped for Wilds.
 """,
         "va11halla": f"""
 你是一个通用游戏助手，辅助玩家查询各种游戏相关剧情数据攻略等资料，你最擅长各种游戏的信息整合等工作。
 
-You have two knowledge sources:
+You have three knowledge sources:
 1. **search_knowledge_base** — Vector search (characters, story, drink recipes, endings)
 2. **query_structured_data** — SQLite database (page info, categories)
+3. **show_database_schema** — Preview game database tables and column headers
 """,
     }
 

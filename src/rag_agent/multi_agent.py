@@ -308,7 +308,43 @@ def create_game_tools(game_key: str) -> List:
         except Exception as e:
             return f"[结构化查询出错] {e}"
 
-    return [search_knowledge_base, query_structured_data]
+    @tool
+    def show_database_schema() -> str:
+        """Show all database tables, their columns, and row counts.
+
+        Use this when you're unsure what tables exist in the game's database.
+        It lists every table with column names/types and row counts, so you
+        can construct precise query_structured_data calls.
+        """
+        import sqlite3
+        try:
+            db = sqlite3.connect(db_path)
+            db.row_factory = sqlite3.Row
+            cur = db.cursor()
+
+            cur.execute("SELECT name FROM sqlite_master WHERE type='table' AND name NOT IN ('sqlite_sequence', 'game_meta')")
+            tables = [r['name'] for r in cur.fetchall()]
+
+            result_parts = []
+            for table in tables:
+                cur.execute(f"SELECT COUNT(*) FROM [{table}]")
+                count = cur.fetchone()[0]
+
+                cur.execute(f"PRAGMA table_info([{table}])")
+                columns = cur.fetchall()
+                col_desc = ", ".join(f"{c['name']} ({c['type']})" for c in columns)
+                result_parts.append(f"📋 {table} ({count} rows)\n   Columns: {col_desc}")
+
+            db.close()
+
+            if not result_parts:
+                return f"[{game_name}] 数据库中没有数据表。"
+
+            return f"**{game_name}** 数据库结构：\n\n" + "\n\n".join(result_parts)
+        except Exception as e:
+            return f"[获取数据库结构出错] {e}"
+
+    return [search_knowledge_base, query_structured_data, show_database_schema]
 
 
 # ══════════════════════════════════════════
