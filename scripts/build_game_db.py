@@ -258,7 +258,7 @@ TERRARIA_CONFIG = {
         "Armor_items": "armor",
         "Accessory_items": "accessories",
         "Potion_items": "potions",
-        "NPCs": "npcs",
+        "NPC_NPCs": "npcs",
     }
 }
 
