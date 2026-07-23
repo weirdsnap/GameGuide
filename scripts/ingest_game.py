@@ -12,11 +12,17 @@
 
 import argparse
 import os
+from dotenv import load_dotenv
 
-# 必须在任何本地模块导入前设置 HuggingFace 镜像
-# 否则 fastembed/huggingface_hub 会直接访问 huggingface.co 导致超时
+# 加载 .env → os.environ（必须在导入本地模块之前加载，
+# 否则 fastembed/huggingface_hub 已初始化，环境变量不生效）
+# .env 中的值优先；未设置时走下方默认值
+load_dotenv()
+
+# HuggingFace 镜像（国内加速下载）
 os.environ.setdefault("HF_ENDPOINT", "https://hf-mirror.com")
 os.environ.setdefault("HF_HUB_DISABLE_XET", "1")
+# 模型已缓存时跳过联网检查
 os.environ.setdefault("HF_HUB_OFFLINE", "1")
 
 import re
