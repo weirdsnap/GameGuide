@@ -12,6 +12,12 @@
 
 import argparse
 import os
+
+# 必须在任何本地模块导入前设置 HuggingFace 镜像
+# 否则 fastembed/huggingface_hub 会直接访问 huggingface.co 导致超时
+os.environ.setdefault("HF_ENDPOINT", "https://hf-mirror.com")
+os.environ.setdefault("HF_HUB_DISABLE_XET", "1")
+
 import re
 import sys
 from pathlib import Path
@@ -266,8 +272,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-    # 设置 HuggingFace 镜像（模型下载加速）
-    from rag_agent.config import HF_ENDPOINT as HF_MIRROR
-    os.environ.setdefault("HF_ENDPOINT", HF_MIRROR)
-    os.environ.setdefault("HF_HUB_DISABLE_XET", "1")
 
