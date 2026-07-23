@@ -29,36 +29,43 @@ GAME_DATA: Dict[str, Dict[str, str]] = {
     "hollow_knight": {
         "name": "Hollow Knight",
         "data_path": str(GAMES_DIR / "hollow_knight" / "data" / "wiki_data.md"),
+        "data_path_zh": str(GAMES_DIR / "hollow_knight" / "data" / "wiki_data_zh.md"),
         "vectorstore_dir": str(GAMES_DIR / "hollow_knight" / "vectorstore"),
     },
     "oni": {
         "name": "Oxygen Not Included",
         "data_path": str(GAMES_DIR / "oni" / "data" / "wiki_data.md"),
+        "data_path_zh": str(GAMES_DIR / "oni" / "data" / "wiki_data_zh.md"),
         "vectorstore_dir": str(GAMES_DIR / "oni" / "vectorstore"),
     },
     "terraria": {
         "name": "Terraria",
         "data_path": str(GAMES_DIR / "terraria" / "data" / "wiki_data.md"),
+        "data_path_zh": str(GAMES_DIR / "terraria" / "data" / "wiki_data_zh.md"),
         "vectorstore_dir": str(GAMES_DIR / "terraria" / "vectorstore"),
     },
     "silksong": {
         "name": "Hollow Knight Silksong",
         "data_path": str(GAMES_DIR / "silksong" / "data" / "wiki_data.md"),
+        "data_path_zh": "",
         "vectorstore_dir": str(GAMES_DIR / "silksong" / "vectorstore"),
     },
     "cyberpunk2077": {
         "name": "Cyberpunk 2077",
         "data_path": str(GAMES_DIR / "cyberpunk2077" / "data" / "wiki_data.md"),
+        "data_path_zh": "",
         "vectorstore_dir": str(GAMES_DIR / "cyberpunk2077" / "vectorstore"),
     },
     "va11halla": {
         "name": "VA-11 Hall-A",
         "data_path": str(GAMES_DIR / "va11halla" / "data" / "wiki_data.md"),
+        "data_path_zh": str(GAMES_DIR / "va11halla" / "data" / "wiki_data_zh.md"),
         "vectorstore_dir": str(GAMES_DIR / "va11halla" / "vectorstore"),
     },
     "mhw": {
         "name": "Monster Hunter Wilds",
         "data_path": str(GAMES_DIR / "mhw" / "data" / "wiki_data.md"),
+        "data_path_zh": "",
         "vectorstore_dir": str(GAMES_DIR / "mhw" / "vectorstore"),
     },
 }
@@ -162,14 +169,32 @@ def build_vectorstore(game_key: str):
     print(f"📦 {cfg['name']} — 构建向量库")
     print(f"{'='*50}")
 
-    # 加载文档
+    # 加载英文文档
     docs = load_wiki_documents(cfg["data_path"])
+    for d in docs:
+        d["metadata"]["language"] = "en"
+
     if not docs:
-        print("  ❌ 没有文档可处理")
+        print("  ❌ 英文 Wiki 没有文档可处理")
         return
-    print(f"  📄 加载了 {len(docs)} 篇文档")
-    total_chars = sum(len(d["content"]) for d in docs)
-    print(f"  📏 总字符数: ~{total_chars:,}")
+    print(f"  📄 EN: {len(docs)} 篇文档")
+    total_chars_en = sum(len(d["content"]) for d in docs)
+    print(f"  📏 总字符数: ~{total_chars_en:,}")
+
+    # 加载中文文档（如果有）
+    zh_path = cfg.get("data_path_zh", "")
+    zh_docs = load_wiki_documents(zh_path) if zh_path and Path(zh_path).exists() else []
+    for d in zh_docs:
+        d["metadata"]["language"] = "zh"
+    if zh_docs:
+        print(f"  📄 ZH: {len(zh_docs)} 篇文档")
+        total_chars_zh = sum(len(d["content"]) for d in zh_docs)
+        print(f"  📏 总字符数: ~{total_chars_zh:,}")
+        docs.extend(zh_docs)
+    else:
+        print("  📄 ZH: 无中文 Wiki 数据")
+
+    print(f"  📄 合计: {len(docs)} 篇文档")
 
     # 构建向量库
     from langchain_text_splitters import RecursiveCharacterTextSplitter
