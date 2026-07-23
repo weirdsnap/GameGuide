@@ -266,3 +266,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+    # 设置 HuggingFace 镜像（模型下载加速）
+    from rag_agent.config import HF_ENDPOINT as HF_MIRROR
+    os.environ.setdefault("HF_ENDPOINT", HF_MIRROR)
+    os.environ.setdefault("HF_HUB_DISABLE_XET", "1")
+
