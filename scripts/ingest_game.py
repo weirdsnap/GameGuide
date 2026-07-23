@@ -17,6 +17,7 @@ import os
 # 否则 fastembed/huggingface_hub 会直接访问 huggingface.co 导致超时
 os.environ.setdefault("HF_ENDPOINT", "https://hf-mirror.com")
 os.environ.setdefault("HF_HUB_DISABLE_XET", "1")
+os.environ.setdefault("HF_HUB_OFFLINE", "1")
 
 import re
 import sys
