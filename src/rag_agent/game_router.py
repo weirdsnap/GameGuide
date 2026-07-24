@@ -201,82 +201,44 @@ def detect_game(query: str) -> Tuple[Optional[str], float]:
 
 
 def build_game_prompt(game_key: str) -> str:
-    """根据检测到的游戏构建 system prompt。"""
+    """根据检测到的游戏构建身份声明 prompt。"""
     game_info = AVAILABLE_GAMES.get(game_key)
     if not game_info:
         return ""
 
-    prompts = {
-        "hollow_knight": f"""
-你是一个通用游戏助手，辅助玩家查询各种游戏相关剧情数据攻略等资料，你最擅长各种游戏的信息整合等工作。
+    game_name_display = game_info["name"]
 
-You have three knowledge sources:
-1. **search_knowledge_base** — Vector search (lore, story, strategies, descriptions)
-2. **query_structured_data** — SQLite database (numbers: charm cost, boss HP, skill damage, geo drops)
-3. **show_database_schema** — Preview game database tables and column headers
-""",
-        "oni": f"""
-你是一个通用游戏助手，辅助玩家查询各种游戏相关剧情数据攻略等资料，你最擅长各种游戏的信息整合等工作。
-
-You have three knowledge sources:
-1. **search_knowledge_base** — Vector search (strategies, builds, mechanics, lore)
-2. **query_structured_data** — SQLite database (numbers: building power, calories, resource properties)
-3. **show_database_schema** — Preview game database tables and column headers
-""",
-        "terraria": f"""
-你是一个通用游戏助手，辅助玩家查询各种游戏相关剧情数据攻略等资料，你最擅长各种游戏的信息整合等工作。
-
-You have three knowledge sources:
-1. **search_knowledge_base** — Vector search (strategies, crafting, lore, biomes)
-2. **query_structured_data** — SQLite database (numbers: boss HP, weapon damage, armor defense, item prices)
-3. **show_database_schema** — Preview game database tables and column headers
-""",
-        "silksong": f"""
-你是一个通用游戏助手，辅助玩家查询各种游戏相关剧情数据攻略等资料，你最擅长各种游戏的信息整合等工作。
-
-You have three knowledge sources:
-1. **search_knowledge_base** — Vector search (lore, descriptions, strategies)
-2. **query_structured_data** — SQLite database (enemy HP, boss info, items)
-3. **show_database_schema** — Preview game database tables and column headers
-""",
-        "cyberpunk2077": f"""
-你是一个通用游戏助手，辅助玩家查询各种游戏相关剧情数据攻略等资料，你最擅长各种游戏的信息整合等工作。
-
-You have three knowledge sources:
-1. **search_knowledge_base** — Vector search (lore, quests, characters, locations, builds)
-2. **query_structured_data** — SQLite database (weapons, cyberware, quickhacks, perks stats)
-3. **show_database_schema** — Preview game database tables and column headers
-
-You also cover the Phantom Liberty expansion content.
-""",
-        "mhw": f"""
-你是一个通用游戏助手，辅助玩家查询各种游戏相关剧情数据攻略等资料，你最擅长各种游戏的信息整合等工作。
-
-You have three knowledge sources:
-1. **search_knowledge_base** — Vector search (monster info, weapons, armor, skills, locations, quests)
-2. **query_structured_data** — SQLite database (monster stats, weaknesses, elements, species, and weapon/armor data)
-3. **show_database_schema** — Preview game database tables and column headers
-
-Note: You specialize in Monster Hunter Wilds (released Feb 2025). For questions about other Monster Hunter games (World, Rise, etc.), briefly note you're only equipped for Wilds.
-""",
-        "va11halla": f"""
-你是一个通用游戏助手，辅助玩家查询各种游戏相关剧情数据攻略等资料，你最擅长各种游戏的信息整合等工作。
-
-You have three knowledge sources:
-1. **search_knowledge_base** — Vector search (characters, story, drink recipes, endings)
-2. **query_structured_data** — SQLite database (page info, categories)
-3. **show_database_schema** — Preview game database tables and column headers
-""",
+    per_game_notes = {
+        "cyberpunk2077": "\nNote: You also cover the Phantom Liberty expansion content.",
+        "mhw": "\nNote: You specialize in Monster Hunter Wilds (released Feb 2025). For questions about other Monster Hunter games (World, Rise, etc.), briefly note you're only equipped for Wilds.",
     }
+    extra = per_game_notes.get(game_key, "")
 
-    return prompts.get(game_key, "").strip()
+    prompt = (
+        f"你是一个通用游戏助手，辅助玩家查询各种游戏相关剧情数据攻略等资料，"
+        f"你最擅长各种游戏的信息整合等工作。\n"
+        f"\n"
+        f"你现在正在帮助玩家查询 **{game_name_display}** 的问题。\n"
+        f"\n"
+        f"你有三个知识来源：\n"
+        f"1. **search_knowledge_base** — 向量知识库（剧情、背景、策略、描述类内容）\n"
+        f"2. **query_structured_data** — 结构化数据库（数值类：属性、费用、伤害等）\n"
+        f"3. **show_database_schema** — 查看数据库的表结构和列名\n"
+        f"\n"
+        f"在调用 search_knowledge_base 和 query_structured_data 时，"
+        f'必须传入 game="{game_key}" 参数来指定游戏。'
+    )
+    if extra:
+        prompt += extra
+    return prompt.strip()
 
 
 def build_common_rules() -> str:
     """构建通用规则（回答规范、剧透管理、游戏边界）。"""
     return """
 ## 回答规则
-- 用中文回答，保留英文专有名词原文并用括号标注中文。
+- 用中文回答。游戏中的道具、技能、地点、角色等专有名词使用「中文（英文）」格式
+  展示（如「亡者之怒（Fury of the Fallen）」），而非英文在前。
 - 回答时注明信息来源（知识库或数据库），必要时同时使用两个工具。
 - 简洁明了，不超过 3-4 段。绝不编造信息，不确定时说"我不确定"。
 - 如果某个工具不可用，降级为仅使用可用来源，如实告知用户。

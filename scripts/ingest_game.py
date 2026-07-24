@@ -23,7 +23,8 @@ load_dotenv()
 os.environ.setdefault("HF_ENDPOINT", "https://hf-mirror.com")
 os.environ.setdefault("HF_HUB_DISABLE_XET", "1")
 # 模型已缓存时跳过联网检查
-os.environ.setdefault("HF_HUB_OFFLINE", "1")
+# 不设默认值，由 .env 中的 HF_HUB_OFFLINE 控制
+# 第一次下载时请注释掉（或设为 0），模型缓存后可设为 1 加速
 
 import re
 import sys
@@ -154,7 +155,32 @@ def load_wiki_documents(filepath: str) -> List[Dict]:
                     "metadata": {"title": title, "category": ""},
                 })
 
-    # === 格式3：无法识别格式，整篇作为一个文档 ===
+    # === 格式3：# Title 分割（如 Silksong） ===
+    if not docs and re.search(r"^# ", text, re.MULTILINE):
+        # 以 # Title 作为分割标记，忽略文件级全局头（第一个 #）
+        chunks = re.split(r"\n(?=# )", text)
+        # 跳过文件级头部（第一个 chunk，如 "# Silksong Wiki Data"）
+        for i, chunk in enumerate(chunks):
+            chunk = chunk.strip()
+            if not chunk:
+                continue
+            lines = chunk.split("\n")
+            title_match = re.match(r"^#\s+(.+)", lines[0])
+            if not title_match:
+                continue
+            title = title_match.group(1).strip()
+            # 跳过文件级头部
+            if i == 0:
+                continue
+            content_lines = [l for l in lines if not l.startswith("# ")]
+            content = "\n".join(content_lines).strip()
+            if content:
+                docs.append({
+                    "content": content,
+                    "metadata": {"title": title, "category": ""},
+                })
+
+    # === 格式4：无法识别格式，整篇作为一个文档 ===
     if not docs:
         lines = text.split("\n")
         title = "Unknown"
