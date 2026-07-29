@@ -53,6 +53,11 @@ AVAILABLE_GAMES = {
         "db_path": str(GAMES_DIR / "mhw" / "mhw_data.db"),
         "vectorstore_dir": str(GAMES_DIR / "mhw" / "vectorstore"),
     },
+    "baldurs_gate3": {
+        "name": "Baldur's Gate 3 (博德之门3)",
+        "db_path": str(GAMES_DIR / "baldurs_gate3" / "baldurs_gate3_data.db"),
+        "vectorstore_dir": str(GAMES_DIR / "baldurs_gate3" / "vectorstore"),
+    },
 }
 
 # ── 游戏关键词检测 ──
@@ -111,6 +116,21 @@ GAME_SIGNALS: Dict[str, List[str]] = {
         "煌雷龙", "沼龙", "风铗龙",
         "flying wyvern", "leviathan", "fanged beast",
     ],
+    "baldurs_gate3": [
+        "baldur's gate 3", "博德之门3", "博德之门 3", "bg3",
+        "bg3", "博德之门",
+        "dnd", "d&d", "龙与地下城",
+        "影心", "shadowheart", "养鸡妹", "laezel",
+        "阿斯代伦", "astarion", "盖尔", "gale",
+        "威尔", "wyll", "卡拉克", "karlach",
+        "塔夫", "tav", "邪念", "dark urge",
+        "至上真神", "absolute", "夺心魔", "illithid",
+        "费伦", "faerun", "剑湾", "sword coast",
+        "第一章", "第二章", "第三章", "月出之塔",
+        "博德之门", "下城区", "利文顿", "幽暗地域",
+        "蝌蚪", "tadpole", "遗物", "artifact",
+        "按等级", "第5版", "5e", "法术", "动作",
+    ],
     "cyberpunk2077": [
         "cyberpunk 2077", "赛博朋克2077", "赛博朋克 2077",
         "2077", "cp2077",
@@ -160,6 +180,7 @@ def detect_game(query: str) -> Tuple[Optional[str], float]:
         "terraria": [r"\b(?:terraria|泰拉瑞亚|泰拉)\b"],
         "oni": [r"\b(?:oxygen not included|缺氧|oni)\b"],
         "silksong": [r"\b(?:silksong|丝之歌)\b"],
+        "baldurs_gate3": [r"\b(?:博德之门3|博德之门 3|baldur'?s? gate 3|bg3)\b"],
         "mhw": [r"\b(?:怪物猎人荒野|monster hunter wilds|mh wilds|mhwilds|mhws)\b"],
     }
 
@@ -211,6 +232,7 @@ def build_game_prompt(game_key: str) -> str:
     per_game_notes = {
         "cyberpunk2077": "\nNote: You also cover the Phantom Liberty expansion content.",
         "mhw": "\nNote: You specialize in Monster Hunter Wilds (released Feb 2025). For questions about other Monster Hunter games (World, Rise, etc.), briefly note you're only equipped for Wilds.",
+        "baldurs_gate3": "\nNote: Baldur's Gate 3 is a D&D 5e-based CRPG. Use the correct 5e terminology for spells, actions, classes, and mechanics.",
     }
     extra = per_game_notes.get(game_key, "")
 

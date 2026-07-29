@@ -16,7 +16,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
-from rag_agent.agent import ask
+from rag_agent.multi_agent import ask
 
 # ── 测试用例 ──
 # (名称, 问题, 应包含关键词列表, 不应包含关键词列表)

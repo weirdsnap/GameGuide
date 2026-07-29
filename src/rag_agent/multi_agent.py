@@ -177,7 +177,7 @@ def search_knowledge_base(query: str, game: str, k: int = 8) -> str:
 
     Args:
         query: 搜索关键词，使用英文关键词效果更佳
-        game: 目标游戏键名（如 hollow_knight、oni、terraria、silksong、cyberpunk2077、va11halla、mhw）
+        game: 目标游戏键名（如 hollow_knight、oni、terraria、silksong、cyberpunk2077、va11halla、mhw、baldurs_gate3）
         k: 返回的相关结果数量（默认 8）
     """
     try:
@@ -191,7 +191,7 @@ def search_knowledge_base(query: str, game: str, k: int = 8) -> str:
 
     if not vs_ok:
         return (f"[知识库暂时不可用] {game_name} 的向量库尚未构建。\n"
-                f"请在 Mac 本地运行 `python3 scripts/run_on_mac.py --game {_game_key}` 来构建。")
+                f"请在 Mac 本地运行 `python3 scripts/tool/mac_build.py --game {_game_key}` 来构建。")
     try:
         vs = load_vectorstore(save_dir=vs_dir)
 
@@ -500,7 +500,9 @@ def _is_unknown_game_query(q: str) -> bool:
     known_keywords = ["空洞", "丝之歌", "silksong", "缺氧", "oni",
                       "泰拉瑞亚", "terraria", "赛博朋克", "cyberpunk",
                       "酒保", "va11", "hall-a", "va-11",
-                      "怪物猎人荒野", "monster hunter wilds", "mh wilds"]
+                      "怪物猎人荒野", "monster hunter wilds", "mh wilds",
+                      "博德之门", "baldur", "bg3", "dnd", "d&d",
+                      "龙与地下城", "至上真神", "夺心魔"]
     for kw in known_keywords:
         if kw in ql:
             return False

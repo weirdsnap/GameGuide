@@ -1,62 +1,79 @@
 # GameGuide RAG Agent — 路线图
 
-> **当前版本**: beta3 (2026-07-07)
+> **当前版本**: beta5 (2026-07-17)
+> **代码行数**: ~10,400 行 Python
 > **主分支**: `master`
-> **知识源**: Fandom Wiki (`wiki_data.md`, 416篇, 1.04MB)
-> **Git tag**: 待定
+> **运行模式**: API Server (FastAPI, Caddy 反向代理)
 
 ---
 
-## 最终目标
+## 项目现状
 
-让 AI 助手能准确回答《空洞骑士》的游戏知识问题，包括能
-力获取、Boss 策略、护符搭配、路线规划等。
-
----
-
-## 版本演进
-
-| 版本 | 知识源 | 说明 |
-|:----:|:------:|------|
-| beta1 | HallownestAPI (结构化JSON) | 初期数据源，文档太短(234chars) |
-| beta2 | HallownestAPI + Wiki 合并 | LLM多源整合尝试，有幻/丢关联问题 |
-| **beta3** | **Fandom Wiki (纯Wiki)** | 直接以Wiki自然语言文档建RAG，当前方案 |
-
----
-
-## 当前进度
+### 已完成
 
 | # | 事项 | 状态 | 说明 |
 |---|:----|:----:|:------|
-| 1 | **Wiki 数据全面采集** | ✅ 完成 | Fandom Wiki 12个分类 416篇(去重后), 1.04MB |
-| 2 | **补抓 POI 页面** | ✅ 完成 | 6篇 Points of Interest (Geo, Hot Spring, Lore Tablets, Shade Gate, Whispering Root) |
-| 3 | **去重清理** | ✅ 完成 | 43篇重复移除 |
-| 4 | **`load_wiki_documents()`** | ✅ 完成 | 新的文档加载器，直接从 `wiki_data.md` 分块入库 |
-| 5 | **FAISS 入库** | 🛠️ 用户本地运行 | `python scripts/ingest.py` 在 Mac 上跑一次 |
-| 6 | **回归测试验证** | 📝 待FAISS就绪 | 跑 `tests/test_qa.py` 确保问答质量 |
-| 7 | **Agent 调优** | 📝 待做 | 剧透过滤、检索参数调优 |
+| 1 | **多游戏架构** | ✅ | 7 款游戏，统一 LangGraph ReAct Agent，信号词自动路由 |
+| 2 | **双通道检索** | ✅ | RAG 向量检索（Wiki 自然语言）+ SQLite 结构化查询 |
+| 3 | **中文/Bilingual 支持** | ✅ | 多语言 Embedding 模型，中文查询可检索英文文档 |
+| 4 | **API 服务器** | ✅ | FastAPI + 密码认证 + 速率限制（18次/分, 600次/天）|
+| 5 | **Caddy 反向代理** | ✅ | api.weirdsnap.top:443 → 内部 8765 |
+| 6 | **剧透管理** | ✅ | Prompt 层控制，对剧情驱动游戏追问玩家进度 |
+| 7 | **对话记忆维护** | ✅ | 多轮对话上下文保持 |
+| 8 | **代码结构整理** | ✅ | scripts/ 按功能分目录，僵尸代码已归档 |
+| 9 | **轻量测试** | ✅ | test_light.py 31/31 通过 |
+| 10 | **MHW 数据补全** | ✅ | weapons(1074), armor(181), items(248), locations(6) |
+| 11 | **ONI 数据补全** | ✅ | resources(118), plants(32)，共 271 条 |
 
----
+### 数据结构总览
 
-## 方案对比
-
-### beta2（旧方案）— 已弃用
-phase2_beta.jsonl → 结构化实体 → 增强提示 → FAISS
-
-- 优点：有剧透等级、关联实体等结构化元数据
-- 缺点：LLM 合并产生幻觉、内容碎片化（平均值 234 字符/篇）
-
-### beta3（当前方案）
-Fandom Wiki 原始文档 → 自然语言分段 → FAISS
-
-- 优点：文档丰富（平均值 2600 字符/篇）、无LLM交融错误
-- 待弥补：无结构化剧透等级（可在检索后加过滤层）
+| 游戏 | 结构化 DB 记录 | 向量库状态 |
+|:----|:--------------:|:----------:|
+| 空洞骑士 | 437 条 | ✅ |
+| 缺氧 (ONI) | 271 条 | ✅ |
+| 泰拉瑞亚 | 820 条 | ✅ |
+| 丝之歌 | 100 条 | ✅ |
+| 赛博朋克2077 | ~4,300 条 | ✅ |
+| 怪物猎人：荒野 | ~1,960 条 | ✅ |
+| VA-11 Hall-A | 133 条 | ✅ |
 
 ---
 
 ## 下步计划
 
-1. 用户在 Mac 本地跑 `python scripts/ingest.py` 生成向量库
-2. 结果同步回服务器 `vectorstore/` 目录
-3. 跑回归测试验证问答质量
-4. 评估是否需要追加 `hollowknight.wiki` 数据
+### P0 — 核心质量
+
+- [ ] **RAGAS 评估**: 运行 `scripts/eval/ragas.py` 量化检索质量
+- [ ] **Silksong 向量库重构建**: wiki_data.md 已修复（29MB, 196页），需在 Mac 运行 ingest_game.py
+- [ ] **Bilingual 检索优化**: 中文 Wiki 数据融入向量库（语言标记 + 按 source 去重）
+
+### P1 — 数据补全
+
+- [ ] **泰拉瑞亚**: 合成配方表 + NPC 补全
+- [ ] **中英术语翻译表**: 辅助 Agent 正确翻译游戏专有名词
+- [ ] **Silksong 数据增量**: 利用已发布后的 Fandom Wiki 补全内容
+
+### P2 — 工程改进
+
+- [ ] **LangGraph 超时兜底**: 防止 agent.invoke() 卡死
+- [ ] **服务器模型缓存**: FastEmbed 模型本地化，无需从 HuggingFace 下载
+- [ ] **API 流式响应**: 支持 SSE streaming
+
+### P3 — 长期目标
+
+- [ ] **Playwright BWIKI 爬虫**: 绕过 EdgeOne CDN 获取中文游戏数据
+- [ ] **更多游戏接入**: 根据需求新增
+- [ ] **前端聊天 UI**: 提供网页版交互界面
+- [ ] **用户积分系统集成**: 与 nanobot 积分系统联动
+
+---
+
+## 版本历史
+
+| 版本 | 日期 | 说明 |
+|:----:|:----:|------|
+| beta1 | 2026-03 | 空洞骑士单体 RAG（Phase 1 数据分析） |
+| beta2 | 2026-07-07 | 多源整合，LLM 合并（有幻觉问题） |
+| beta3 | 2026-07-10 | 纯 Fandom Wiki 单游戏 RAG |
+| beta4 | 2026-07-16 | 多游戏架构（7 款），双通道检索 |
+| **beta5** | **2026-07-17** | **Bilingual Embedding + API Server + 代码整理** |
