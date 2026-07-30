@@ -6,7 +6,7 @@
 #   bash scripts/deploy/vectorstores.sh [全部|游戏名...]
 #
 # 例子:
-#   bash scripts/deploy/vectorstores.sh                   ← 全部 7 个游戏
+#   bash scripts/deploy/vectorstores.sh                   ← 全部游戏
 #   bash scripts/deploy/vectorstores.sh hollow_knight     ← 只传空洞骑士
 #   bash scripts/deploy/vectorstores.sh mhw silksong      ← 只传 MHW + 丝之歌
 #
@@ -25,15 +25,14 @@ set -euo pipefail
 SERVER="snap@114.132.189.56"
 REMOTE_ROOT="/data/learning/agent"
 
-GAMES=(
-    hollow_knight
-    oni
-    terraria
-    cyberpunk2077
-    va11halla
-    mhw
-    silksong
-)
+# 从 Python 注册表动态获取游戏列表（单源真理）
+PROJECT_ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
+GAMES=($(python3 -c "
+import sys
+sys.path.insert(0, '$PROJECT_ROOT/src')
+from rag_agent.game_registry import GAME_KEYS
+print(' '.join(GAME_KEYS))
+"))
 
 # ── 解析参数 ──
 if [ $# -eq 0 ]; then

@@ -9,142 +9,12 @@ import os
 import re
 import sqlite3
 from functools import lru_cache
-from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
 from langchain.tools import tool
 
-PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
-GAMES_DIR = PROJECT_ROOT / "games"
+from rag_agent.game_registry import AVAILABLE_GAMES, GAME_SIGNALS, GAME_EXACT_PATTERNS, EXTRA_PROMPT_NOTES, GAMES_DIR
 
-AVAILABLE_GAMES = {
-    "hollow_knight": {
-        "name": "Hollow Knight (空洞骑士)",
-        "db_path": str(GAMES_DIR / "hollow_knight" / "hk_data.db"),
-        "vectorstore_dir": str(GAMES_DIR / "hollow_knight" / "vectorstore"),
-    },
-    "oni": {
-        "name": "Oxygen Not Included (缺氧)",
-        "db_path": str(GAMES_DIR / "oni" / "oni_data.db"),
-        "vectorstore_dir": str(GAMES_DIR / "oni" / "vectorstore"),
-    },
-    "terraria": {
-        "name": "Terraria (泰拉瑞亚)",
-        "db_path": str(GAMES_DIR / "terraria" / "terraria_data.db"),
-        "vectorstore_dir": str(GAMES_DIR / "terraria" / "vectorstore"),
-    },
-    "silksong": {
-        "name": "Hollow Knight Silksong (丝之歌)",
-        "db_path": str(GAMES_DIR / "silksong" / "silksong_data.db"),
-        "vectorstore_dir": str(GAMES_DIR / "silksong" / "vectorstore"),
-    },
-    "cyberpunk2077": {
-        "name": "Cyberpunk 2077 (赛博朋克2077)",
-        "db_path": str(GAMES_DIR / "cyberpunk2077" / "cyberpunk2077_data.db"),
-        "vectorstore_dir": str(GAMES_DIR / "cyberpunk2077" / "vectorstore"),
-    },
-    "va11halla": {
-        "name": "VA-11 Hall-A (赛博朋克酒保行动)",
-        "db_path": str(GAMES_DIR / "va11halla" / "va11halla_data.db"),
-        "vectorstore_dir": str(GAMES_DIR / "va11halla" / "vectorstore"),
-    },
-    "mhw": {
-        "name": "Monster Hunter Wilds (怪物猎人荒野)",
-        "db_path": str(GAMES_DIR / "mhw" / "mhw_data.db"),
-        "vectorstore_dir": str(GAMES_DIR / "mhw" / "vectorstore"),
-    },
-    "baldurs_gate3": {
-        "name": "Baldur's Gate 3 (博德之门3)",
-        "db_path": str(GAMES_DIR / "baldurs_gate3" / "baldurs_gate3_data.db"),
-        "vectorstore_dir": str(GAMES_DIR / "baldurs_gate3" / "vectorstore"),
-    },
-}
-
-# ── 游戏关键词检测 ──
-
-GAME_SIGNALS: Dict[str, List[str]] = {
-    "hollow_knight": [
-        "hollow knight", "空洞骑士", "hallownest", "圣巢",
-        "hk",
-        "辐光", "radiance", "纯粹容器", "pure vessel",
-        "hornet", "大黄蜂", "grimm", "格林",
-        "螳螂领主", "deepnest", "pale king", "白王",
-        "虚空之心", "灵魂", "梦境", "梦钉",
-        "泪水之城", "city of tears", "王国边缘", "王后驿站",
-        "遗忘十字路", "十字路", "fungal wastes",
-        "骨钉", "复仇之魂", "护符", "perma",
-        "苦痛之路", "白宫", "神居", "godhome",
-        "空洞骑士", "黑卵", "辐光者",
-    ],
-    "silksong": [
-        "silksong", "丝之歌",
-        "丝之鸽",
-        "hornet", "黄蜂公主", "pharloom",
-        "lace", "编织者",
-        "绸缎", "丝线",
-    ],
-    "oni": [
-        "oxygen not included", "缺氧", "oni",
-        "复制人", "duplicant", "drecko", "hatch",
-        "氧齿蕨", "净水", "石油", "塑料",
-        "精炼", "热", "温度", "冷却",
-        "管道", "电", "发电", "电池",
-        "火箭", "太空", "星图",
-    ],
-    "terraria": [
-        "terraria", "泰拉瑞亚",
-        "肉山", "wall of flesh", "月总", "moon lord",
-        "克苏鲁", "史莱姆", "泰拉刃", "terra blade",
-        "叶绿", "神圣", "血腥", "腐化",
-        "恶魔", "向导", "npc",
-        "矿车", "钓鱼", "史莱姆女王",
-        "日耀", "星旋", "星云",
-    ],
-    "va11halla": [
-        "va-11 hall-a", "赛博朋克酒保", "酒保行动",
-        "va11halla", "valhalla", "瓦尔哈拉", "va11",
-        "jill", "吉尔", "dana", "戴娜",
-        "调制", "调酒", "鸡尾酒", "bartender",
-        "坏Touch", "brandtini",
-        "安娜", "anime",
-    ],
-    "mhw": [
-        "monster hunter wilds", "怪物猎人荒野", "mh wilds",
-        "mhwilds", "mhws", "怪猎荒野",
-        "rey dau", "uth duna", "chatacabra", "arkveld",
-        "oilwell basin", "windward plains", "ruins of wyveria",
-        "煌雷龙", "沼龙", "风铗龙",
-        "flying wyvern", "leviathan", "fanged beast",
-    ],
-    "baldurs_gate3": [
-        "baldur's gate 3", "博德之门3", "博德之门 3", "bg3",
-        "bg3", "博德之门",
-        "dnd", "d&d", "龙与地下城",
-        "影心", "shadowheart", "养鸡妹", "laezel",
-        "阿斯代伦", "astarion", "盖尔", "gale",
-        "威尔", "wyll", "卡拉克", "karlach",
-        "塔夫", "tav", "邪念", "dark urge",
-        "至上真神", "absolute", "夺心魔", "illithid",
-        "费伦", "faerun", "剑湾", "sword coast",
-        "第一章", "第二章", "第三章", "月出之塔",
-        "博德之门", "下城区", "利文顿", "幽暗地域",
-        "蝌蚪", "tadpole", "遗物", "artifact",
-        "按等级", "第5版", "5e", "法术", "动作",
-    ],
-    "cyberpunk2077": [
-        "cyberpunk 2077", "赛博朋克2077", "赛博朋克 2077",
-        "2077", "cp2077",
-        "v", "强尼", "johnny silverhand", "银手",
-        "夜之城", "night city", "荒坂", "arasaka",
-        "义体", "cyberware", "relic", "圣物",
-        "超梦", "braindance", "虎爪帮",
-        "大卫", "lucy", "边缘行者", "edgerunners",
-        "百灵鸟", "songbird", "所罗门", "reed",
-        "狗镇", "dogtown", "phantom liberty",
-        "军用科技", "militech", "漩", "maelstrom",
-        "黑墙", "blackwall", "黑客", "quickhack",
-    ],
-}
 
 
 def _match_signal(signal: str, q: str) -> bool:
@@ -172,19 +42,7 @@ def detect_game(query: str) -> Tuple[Optional[str], float]:
 
     q = query.lower().strip()
 
-    # 优先精确匹配游戏全称
-    exact_patterns = {
-        "hollow_knight": [r"\b(?:hollow knight|空洞骑士|hk)\b"],
-        "cyberpunk2077": [r"\b(?:cyberpunk 2077|赛博朋克2077|赛博朋克 2077|2077|cp2077)\b"],
-        "va11halla": [r"\b(?:va-11 hall-a|va11halla|赛博朋克酒保|酒保行动|va11)\b"],
-        "terraria": [r"\b(?:terraria|泰拉瑞亚|泰拉)\b"],
-        "oni": [r"\b(?:oxygen not included|缺氧|oni)\b"],
-        "silksong": [r"\b(?:silksong|丝之歌)\b"],
-        "baldurs_gate3": [r"\b(?:博德之门3|博德之门 3|baldur'?s? gate 3|bg3)\b"],
-        "mhw": [r"\b(?:怪物猎人荒野|monster hunter wilds|mh wilds|mhwilds|mhws)\b"],
-    }
-
-    for game, patterns in exact_patterns.items():
+    for game, patterns in GAME_EXACT_PATTERNS.items():
         for pat in patterns:
             if re.search(pat, q):
                 return game, 1.0
@@ -229,12 +87,7 @@ def build_game_prompt(game_key: str) -> str:
 
     game_name_display = game_info["name"]
 
-    per_game_notes = {
-        "cyberpunk2077": "\nNote: You also cover the Phantom Liberty expansion content.",
-        "mhw": "\nNote: You specialize in Monster Hunter Wilds (released Feb 2025). For questions about other Monster Hunter games (World, Rise, etc.), briefly note you're only equipped for Wilds.",
-        "baldurs_gate3": "\nNote: Baldur's Gate 3 is a D&D 5e-based CRPG. Use the correct 5e terminology for spells, actions, classes, and mechanics.",
-    }
-    extra = per_game_notes.get(game_key, "")
+    extra = EXTRA_PROMPT_NOTES.get(game_key, "")
 
     prompt = (
         f"你是一个通用游戏助手，辅助玩家查询各种游戏相关剧情数据攻略等资料，"

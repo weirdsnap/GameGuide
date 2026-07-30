@@ -31,46 +31,17 @@ import sys
 from pathlib import Path
 from typing import List, Dict
 
-PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
-GAMES_DIR = PROJECT_ROOT / "games"
+from rag_agent.game_registry import GAME_REGISTRY, GAME_DB_MAPPING, GAMES_DIR
 
-GAME_DATA: Dict[str, Dict[str, str]] = {
-    "hollow_knight": {
-        "name": "Hollow Knight (空洞骑士)",
-        "data_path": str(GAMES_DIR / "hollow_knight" / "data" / "wiki_data.md"),
-        "vectorstore_dir": str(GAMES_DIR / "hollow_knight" / "vectorstore"),
-    },
-    "oni": {
-        "name": "Oxygen Not Included (缺氧)",
-        "data_path": str(GAMES_DIR / "oni" / "data" / "wiki_data.md"),
-        "vectorstore_dir": str(GAMES_DIR / "oni" / "vectorstore"),
-    },
-    "terraria": {
-        "name": "Terraria (泰拉瑞亚)",
-        "data_path": str(GAMES_DIR / "terraria" / "data" / "wiki_data.md"),
-        "vectorstore_dir": str(GAMES_DIR / "terraria" / "vectorstore"),
-    },
-    "silksong": {
-        "name": "Hollow Knight: Silksong (丝之歌)",
-        "data_path": str(GAMES_DIR / "silksong" / "data" / "wiki_data.md"),
-        "vectorstore_dir": str(GAMES_DIR / "silksong" / "vectorstore"),
-    },
-    "cyberpunk2077": {
-        "name": "Cyberpunk 2077 (赛博朋克2077)",
-        "data_path": str(GAMES_DIR / "cyberpunk2077" / "data" / "wiki_data.md"),
-        "vectorstore_dir": str(GAMES_DIR / "cyberpunk2077" / "vectorstore"),
-    },
-    "va11halla": {
-        "name": "VA-11 Hall-A (赛博朋克酒保行动)",
-        "data_path": str(GAMES_DIR / "va11halla" / "data" / "wiki_data.md"),
-        "vectorstore_dir": str(GAMES_DIR / "va11halla" / "vectorstore"),
-    },
-    "mhw": {
-        "name": "Monster Hunter Wilds (怪物猎人荒野)",
-        "data_path": str(GAMES_DIR / "mhw" / "data" / "wiki_data.md"),
-        "vectorstore_dir": str(GAMES_DIR / "mhw" / "vectorstore"),
-    },
-}
+
+# 从注册表动态构建 mac_build 所用 GAME_DATA
+GAME_DATA: Dict[str, Dict[str, str]] = {}
+for key, cfg in GAME_REGISTRY.items():
+    GAME_DATA[key] = {
+        "name": cfg["name"],
+        "data_path": str(GAMES_DIR / cfg["dir"] / "data" / cfg["data_file"]),
+        "vectorstore_dir": str(GAMES_DIR / cfg["dir"] / "vectorstore"),
+    }
 
 
 def load_wiki_documents(filepath: str) -> List[Dict]:
@@ -253,17 +224,7 @@ def load_structured_data(game_key: str) -> List[Dict]:
     """从游戏的 .db 文件加载结构化数据，转为自然语言文档。"""
     import sqlite3
 
-    db_mapping = {
-        "hollow_knight": "games/hollow_knight/hk_data.db",
-        "oni": "games/oni/oni_data.db",
-        "terraria": "games/terraria/terraria_data.db",
-        "silksong": "games/silksong/silksong_data.db",
-        "cyberpunk2077": "games/cyberpunk2077/cyberpunk2077_data.db",
-        "va11halla": "games/va11halla/va11halla_data.db",
-        "mhw": "games/mhw/mhw_data.db",
-    }
-
-    db_path = Path(__file__).resolve().parent.parent.parent / db_mapping[game_key]
+    db_path = Path(GAME_DB_MAPPING[game_key])
     if not db_path.exists():
         print(f"  ℹ️ 无结构化数据库: {db_path.name}")
         return []

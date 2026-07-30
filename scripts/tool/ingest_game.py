@@ -35,64 +35,12 @@ import sys
 from pathlib import Path
 from typing import List, Dict
 
-PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
-GAMES_DIR = PROJECT_ROOT / "games"
-SRC_DIR = PROJECT_ROOT / "src"
+from rag_agent.game_registry import GAME_DATA, GAMES_DIR
+
+SRC_DIR = GAMES_DIR.parent / "src"
 sys.path.insert(0, str(SRC_DIR))
 
 from rag_agent.vectorstore import load_vectorstore
-
-
-GAME_DATA: Dict[str, Dict[str, str]] = {
-    "hollow_knight": {
-        "name": "Hollow Knight",
-        "data_path": str(GAMES_DIR / "hollow_knight" / "data" / "wiki_data.md"),
-        "data_path_zh": str(GAMES_DIR / "hollow_knight" / "data" / "wiki_data_zh.md"),
-        "vectorstore_dir": str(GAMES_DIR / "hollow_knight" / "vectorstore"),
-    },
-    "oni": {
-        "name": "Oxygen Not Included",
-        "data_path": str(GAMES_DIR / "oni" / "data" / "wiki_data.md"),
-        "data_path_zh": str(GAMES_DIR / "oni" / "data" / "wiki_data_zh.md"),
-        "vectorstore_dir": str(GAMES_DIR / "oni" / "vectorstore"),
-    },
-    "terraria": {
-        "name": "Terraria",
-        "data_path": str(GAMES_DIR / "terraria" / "data" / "wiki_data.md"),
-        "data_path_zh": str(GAMES_DIR / "terraria" / "data" / "wiki_data_zh.md"),
-        "vectorstore_dir": str(GAMES_DIR / "terraria" / "vectorstore"),
-    },
-    "silksong": {
-        "name": "Hollow Knight Silksong",
-        "data_path": str(GAMES_DIR / "silksong" / "data" / "wiki_data.md"),
-        "data_path_zh": "",
-        "vectorstore_dir": str(GAMES_DIR / "silksong" / "vectorstore"),
-    },
-    "cyberpunk2077": {
-        "name": "Cyberpunk 2077",
-        "data_path": str(GAMES_DIR / "cyberpunk2077" / "data" / "wiki_data.md"),
-        "data_path_zh": "",
-        "vectorstore_dir": str(GAMES_DIR / "cyberpunk2077" / "vectorstore"),
-    },
-    "va11halla": {
-        "name": "VA-11 Hall-A",
-        "data_path": str(GAMES_DIR / "va11halla" / "data" / "wiki_data.md"),
-        "data_path_zh": str(GAMES_DIR / "va11halla" / "data" / "wiki_data_zh.md"),
-        "vectorstore_dir": str(GAMES_DIR / "va11halla" / "vectorstore"),
-    },
-    "mhw": {
-        "name": "Monster Hunter Wilds",
-        "data_path": str(GAMES_DIR / "mhw" / "data" / "wiki_data.md"),
-        "data_path_zh": "",
-        "vectorstore_dir": str(GAMES_DIR / "mhw" / "vectorstore"),
-    },
-    "baldurs_gate3": {
-        "name": "Baldur's Gate 3",
-        "data_path": str(GAMES_DIR / "baldurs_gate3" / "data" / "wiki_data.md"),
-        "data_path_zh": "",
-        "vectorstore_dir": str(GAMES_DIR / "baldurs_gate3" / "vectorstore"),
-    },
-}
 
 
 def load_wiki_documents(filepath: str) -> List[Dict]:

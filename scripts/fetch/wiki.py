@@ -15,7 +15,6 @@ import os
 import re
 import sys
 import time
-from pathlib import Path
 from typing import List, Dict, Optional
 
 try:
@@ -24,166 +23,10 @@ except ImportError:
     print("❌ 需要 requests 库：pip install requests")
     sys.exit(1)
 
-PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
-GAMES_DIR = PROJECT_ROOT / "games"
-
 # ── Wiki Configs ──
 #
-# 每个游戏可以定义：
-#   api            — Fandom API URL
-#   user_agent     — User-Agent 头部
-#   output         — 输出文件（会根据 --lang zh 自动加 _zh）
-#   categories     — 英文分类名列表
-#   zh_categories  — [可选] 中文分类名列表，当 --lang zh 时优先使用
-#
-# 如未定义 zh_categories，--lang zh 时会尝试使用英文分类名
-# （部分中文 wiki 如 怪物猎人荒野 仍使用英文分类）
-
-WIKI_CONFIGS = {
-    "va11halla": {
-        "api": "https://va11halla.fandom.com/api.php",
-        "user_agent": "GameGuideBot/2.0 (VA-11 Hall-A wiki fetcher)",
-        "output": GAMES_DIR / "va11halla" / "data" / "wiki_data.md",
-        "categories": [
-            "Characters",
-            "Drinks",
-            "Ingredients",
-            "Events",
-            "Places",
-            "Bars",
-            "Organisations",
-        ],
-        "zh_categories": [
-            "VA-11 Hall-A 员工",
-            "VA-11 Hall-A 顾客",
-            "饮品",
-            "配料",
-            "人类",
-            "动物",
-            "地点",
-            "组织",
-        ],
-    },
-    "hollow_knight": {
-        "api": "https://hollowknight.fandom.com/api.php",
-        "user_agent": "GameGuideBot/2.0 (Hollow Knight wiki fetcher)",
-        "output": GAMES_DIR / "hollow_knight" / "data" / "wiki_data.md",
-        "categories": [
-            "Bosses",
-            "Charms_(Hollow_Knight)",
-            "Characters",
-            "Enemies_(Hollow_Knight)",
-            "Items_(Hollow_Knight)",
-        ],
-        "zh_categories": [
-            "Boss",
-            "护符",
-            "技能",
-            "法术",
-            "物品",
-            "敌人",
-        ],
-    },
-    "oni": {
-        "api": "https://oxygennotincluded.fandom.com/api.php",
-        "user_agent": "GameGuideBot/2.0 (ONI wiki fetcher)",
-        "output": GAMES_DIR / "oni" / "data" / "wiki_data.md",
-        "categories": [
-            "Animals",
-            "Buildings",
-            "Critters",
-            "Food",
-            "Geysers",
-            "Plants",
-            "Resources",
-            "Technology",
-        ],
-        "zh_categories": [
-            "小动物",
-            "复制人技能",
-            "可食用物",
-            "房间",
-            "功能性植物",
-            "工业性植物",
-            "娱乐建筑",
-            "医疗建筑",
-            "传感器",
-            "发电机",
-        ],
-    },
-    "terraria": {
-        "api": "https://terraria.fandom.com/api.php",
-        "user_agent": "GameGuideBot/2.0 (Terraria wiki fetcher)",
-        "output": GAMES_DIR / "terraria" / "data" / "wiki_data.md",
-        "categories": [
-            "Armor_items",
-            "Accessory_items",
-            "Weapon_items",
-            "Bosses",
-            "NPCs",
-            "Enemies",
-        ],
-    },
-    "mhw": {
-        "api": "https://monsterhunter.fandom.com/api.php",
-        "user_agent": "GameGuideBot/2.0 (MHWilds wiki fetcher)",
-        "output": GAMES_DIR / "mhw" / "data" / "wiki_data.md",
-        "categories": [
-            "Monsters_in_Monster_Hunter_Wilds",
-            "Weapons_in_Monster_Hunter_Wilds",
-            "Armor_in_Monster_Hunter_Wilds",
-            "Skills_in_Monster_Hunter_Wilds",
-            "Locations_in_Monster_Hunter_Wilds",
-        ],
-        # 中文 MH Wiki 是全系列通用 Wiki，无法按 MHWilds 过滤，暂不抓取
-        # 如需手动探索中文分类：list_zh_categories('https://monsterhunter.fandom.com/api.php')
-        "zh_categories": [],
-    },
-    "silksong": {
-        "api": "https://hollowknight.fandom.com/api.php",
-        "user_agent": "GameGuideBot/2.0 (Silksong wiki fetcher)",
-        "output": GAMES_DIR / "silksong" / "data" / "wiki_data.md",
-        "categories": [
-            "Additional_Content_(Silksong)",
-            "Areas_(Silksong)",
-            "Bosses_(Silksong)",
-            "Combat_(Silksong)",
-            "Enemies_(Silksong)",
-            "Exploration_(Silksong)",
-            "Hollow_Knight:_Silksong",
-            "Items_(Silksong)",
-            "NPCs_(Silksong)",
-            "Points_of_Interest_(Silksong)",
-        ],
-        # 丝之歌没有独立的中文 Wiki（与空洞骑士共用），暂不抓取
-        "zh_categories": [],
-    },
-    "cyberpunk2077": {
-        "api": "https://cyberpunk.fandom.com/api.php",
-        "user_agent": "GameGuideBot/2.0 (Cyberpunk 2077 wiki fetcher)",
-        "output": GAMES_DIR / "cyberpunk2077" / "data" / "wiki_data.md",
-        "categories": [
-            "Cyberpunk_2077_Characters",
-            "Cyberpunk_2077_Locations",
-            "Cyberpunk_2077_Weapons",
-            "Cyberpunk_2077_Cyberware",
-            "Cyberpunk_2077_Vehicles",
-            "Cyberpunk_2077_Main_Jobs",
-            "Cyberpunk_2077_Side_Jobs",
-            "Cyberpunk_2077_Gigs",
-            "Cyberpunk_2077_Enemies",
-            "Cyberpunk_2077_Perks",
-            "Cyberpunk_2077_Quickhacks",
-            "Cyberpunk_2077_Quest_Items",
-            "Cyberpunk_2077_Consumables",
-            "Cyberpunk_2077_DLC",
-            "Cyberpunk_2077_Phantom_Liberty",
-        ],
-        # 中文 Wiki 几乎没有实质内容（仅 2 个内容分类，各 1 页）
-        # 运行看详情：list_zh_categories('https://cyberpunk.fandom.com/api.php')
-        "zh_categories": [],
-    },
-}
+# 所有游戏配置统一托管于 game_registry.py
+from rag_agent.game_registry import WIKI_CONFIGS
 
 # ── 用户代理池 ──
 USER_AGENTS = [
