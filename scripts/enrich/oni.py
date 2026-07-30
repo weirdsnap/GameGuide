@@ -17,7 +17,7 @@ import urllib.error
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 GAME_DIR = PROJECT_ROOT / "games" / "oni"
 DB_PATH = GAME_DIR / "oni_data.db"
 

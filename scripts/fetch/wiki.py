@@ -24,7 +24,7 @@ except ImportError:
     print("❌ 需要 requests 库：pip install requests")
     sys.exit(1)
 
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 GAMES_DIR = PROJECT_ROOT / "games"
 
 # ── Wiki Configs ──

@@ -37,8 +37,8 @@ DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY") or os.getenv("OPENAI_API_KEY", 
 DEEPSEEK_BASE_URL = os.getenv("DEEPSEEK_BASE_URL") or os.getenv("OPENAI_BASE_URL", "https://api.deepseek.com/v1")
 DEEPSEEK_MODEL = "deepseek-chat"
 
-REPORT_DIR = Path(__file__).resolve().parent.parent / "evaluation" / "reports"
-GAMES_DIR = Path(__file__).resolve().parent.parent / "games"
+REPORT_DIR = Path(__file__).resolve().parent.parent.parent / "evaluation" / "reports"
+GAMES_DIR = Path(__file__).resolve().parent.parent.parent / "games"
 
 # ── Test Questions per Game ─────────────────────────────────────────
 
@@ -186,7 +186,7 @@ def run_ragas_evaluation(game: str, questions: list, dry_run: bool = False) -> d
     logger.info(f"\n  Running {len(questions)} questions for {game}...")
     
     # Import agent
-    sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "src"))
+    sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent / "src"))
     from rag_agent.multi_agent import ask, get_retriever
     
     results = []
