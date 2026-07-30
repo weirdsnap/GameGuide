@@ -10,7 +10,8 @@
   python scripts/tool/ingest_game.py --game all
   python scripts/tool/ingest_game.py --game cyberpunk2077
   python scripts/tool/ingest_game.py --game mhw
-  python scripts/tool/ingest_game.py --game va11halla
+   python scripts/tool/ingest_game.py --game va11halla
+   python scripts/tool/ingest_game.py --game baldurs_gate3
 """
 
 import argparse
@@ -84,6 +85,12 @@ GAME_DATA: Dict[str, Dict[str, str]] = {
         "data_path": str(GAMES_DIR / "mhw" / "data" / "wiki_data.md"),
         "data_path_zh": "",
         "vectorstore_dir": str(GAMES_DIR / "mhw" / "vectorstore"),
+    },
+    "baldurs_gate3": {
+        "name": "Baldur's Gate 3",
+        "data_path": str(GAMES_DIR / "baldurs_gate3" / "data" / "wiki_data.md"),
+        "data_path_zh": "",
+        "vectorstore_dir": str(GAMES_DIR / "baldurs_gate3" / "vectorstore"),
     },
 }
 
