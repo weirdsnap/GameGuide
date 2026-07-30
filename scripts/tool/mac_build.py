@@ -263,7 +263,7 @@ def load_structured_data(game_key: str) -> List[Dict]:
         "mhw": "games/mhw/mhw_data.db",
     }
 
-    db_path = Path(__file__).resolve().parent.parent / db_mapping[game_key]
+    db_path = Path(__file__).resolve().parent.parent.parent / db_mapping[game_key]
     if not db_path.exists():
         print(f"  ℹ️ 无结构化数据库: {db_path.name}")
         return []
