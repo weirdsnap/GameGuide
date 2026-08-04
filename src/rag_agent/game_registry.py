@@ -298,7 +298,7 @@ _reg({
     "name_short": "Baldur's Gate 3",
 
     "dir": "baldurs_gate3",
-    "db_file": "baldurs_gate3_data.db",
+    "db_file": "data/baldurs_gate3_data.db",
     "data_file": "wiki_data.md",
     "data_file_zh": "",
 

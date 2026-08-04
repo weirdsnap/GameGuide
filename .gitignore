@@ -12,6 +12,8 @@ data/phase2_merged.jsonl
 *.egg-info/
 .env
 games/*/vectorstore/
+*.db-shm
+*.db-wal
 # IDE
 .idea/
 *.log
