@@ -248,8 +248,23 @@ def query_structured_data(query: str, game: str) -> str:
     db_path = cfg["db_path"]
     game_name = cfg["name"]
 
+    # 中英专名映射：把中文译名替换为英文原名，便于 LIKE 匹配英文数据库
+    # （BG3 角色/关键名词常用译名，覆盖 Agent 直接传入中文名的情况）
+    _ZH_TO_EN = {
+        "阿斯代伦": "Astarion", "影心": "Shadowheart", "盖尔": "Gale",
+        "威尔": "Wyll", "卡拉克": "Karlach", "莱埃泽尔": "Lae'zel",
+        "养鸡妹": "Lae'zel", "哈尔辛": "Halsin", "明萨拉": "Minthara",
+        "贾希拉": "Jaheira", "明斯克": "Minsc", "塔夫": "Tav",
+        "邪念": "Dark Urge", "戈塔什": "Gortash", "奥林": "Orin",
+        "凯瑟里克": "Ketheric", "夺心魔": "Illithid", "至上真神": "Absolute",
+    }
+    q = query.lower().strip()
+    if game == "baldurs_gate3":
+        for zh, en in _ZH_TO_EN.items():
+            if zh in q:
+                q = q.replace(zh, en)
+
     try:
-        q = query.lower().strip()
         tbl_list = _fmt_table_names(db_path)
 
         # Try entity query: "查询 X Y" / "查 X"
@@ -264,11 +279,19 @@ def query_structured_data(query: str, game: str) -> str:
             if cmd in q:
                 keyword = q.split(cmd)[-1].strip()
                 if keyword:
-                    # Find matching table
+                    # Find matching table (only query tables that actually exist)
+                    db1 = _get_db(db_path)
+                    existing = set()
+                    if db1:
+                        cur = db1.cursor()
+                        cur.execute("SELECT name FROM sqlite_master WHERE type='table'")
+                        existing = {r['name'] for r in cur.fetchall()}
+                        db1.close()
                     for table_match in keyword.split():
-                        rows = _query_db(db_path, f"SELECT * FROM [{table_match}] LIMIT 30")
-                        if rows:
-                            return _format_db_result(rows, table_match)
+                        if table_match in existing:
+                            rows = _query_db(db_path, f"SELECT * FROM [{table_match}] LIMIT 30")
+                            if rows:
+                                return _format_db_result(rows, table_match)
                     # Try fuzzy table name match
                     db2 = _get_db(db_path)
                     if db2:
@@ -301,11 +324,33 @@ def query_structured_data(query: str, game: str) -> str:
                         "道具": ["items"],
                         "区域": ["areas", "locations", "location"],
                         "地区": ["areas", "locations"],
+                        "地点": ["locations", "areas"],
+                        "位置": ["locations"],
                         "area": ["areas"],
                         "location": ["locations"],
+                        "places": ["locations"],
                         "角色": ["characters", "character"],
                         "character": ["characters", "character"],
                         "NPC": ["characters", "character"],
+                        "同伴": ["characters"],
+                        "伙伴": ["characters"],
+                        "companion": ["characters"],
+                        "法术": ["spells"],
+                        "魔法": ["spells"],
+                        "spell": ["spells"],
+                        "spells": ["spells"],
+                        "书": ["books"],
+                        "书籍": ["books"],
+                        "book": ["books"],
+                        "books": ["books"],
+                        "任务": ["quests"],
+                        "quest": ["quests"],
+                        "quests": ["quests"],
+                        "首领": ["bosses"],
+                        "boss": ["bosses", "monsters"],
+                        "装备": ["items", "weapons", "armor"],
+                        "护甲": ["armor"],
+                        "盔甲": ["armor"],
                     }
                     for kw in keyword.split():
                         aliases = table_aliases.get(kw.lower(), []) + table_aliases.get(kw, [])

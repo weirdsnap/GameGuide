@@ -332,7 +332,11 @@ _reg({
 
     "extra_prompt": (
         "\nNote: Baldur's Gate 3 is a D&D 5e-based CRPG. "
-        "Use the correct 5e terminology for spells, actions, classes, and mechanics."
+        "Use the correct 5e terminology for spells, actions, classes, and mechanics.\n"
+        "Structured DB tables: characters(角色/同伴), spells(法术), weapons(武器), armor(护甲), "
+        "items(物品), locations(地点), quests(任务), bosses(Boss), books(书籍). "
+        "For entity lookups just pass the entity name, e.g. 「查询 Astarion」or 「查询 阿斯代伦」; "
+        "table names in queries are English only. If unsure, call show_database_schema first."
     ),
 })
 
