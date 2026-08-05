@@ -11,6 +11,7 @@
 
 import logging
 import os
+import re
 from functools import lru_cache
 from pathlib import Path
 from typing import Any, Dict, List, Optional
@@ -98,7 +99,7 @@ def _format_db_result(rows: List[Dict], table: str) -> str:
 
 
 def _search_all_tables(db_path: str, keyword: str) -> str:
-    """在所有表中搜索关键词。"""
+    """在所有表中搜索关键词，返回命中条目的关键字段（供 Agent 直接引用）。"""
     db = _get_db(db_path)
     if not db:
         return "(数据库不可用)"
@@ -106,23 +107,37 @@ def _search_all_tables(db_path: str, keyword: str) -> str:
     cur.execute("SELECT name FROM sqlite_master WHERE type='table'")
     tables = [r['name'] for r in cur.fetchall()]
 
+    INFO_COLS = {"description", "effect", "where_to_find", "special_effect",
+                 "loot", "objectives", "subtitle", "properties"}
     results = []
     for table in tables:
         # Try name column first (common across all structured tables)
         try:
             sql = f"SELECT * FROM [{table}] WHERE name LIKE ? LIMIT 5"
             cur.execute(sql, (f"%{keyword}%",))
-            for r in cur.fetchall():
-                results.append(f"  [{table}] {r['name']}")
+            rows = cur.fetchall()
         except Exception:
+            rows = []
+        if not rows:
             # Some tables might not have a 'name' column; try title
             try:
                 sql = f"SELECT * FROM [{table}] WHERE title LIKE ? LIMIT 5"
                 cur.execute(sql, (f"%{keyword}%",))
-                for r in cur.fetchall():
-                    results.append(f"  [{table}] {r.get('title', r.get('name', '?'))}")
+                rows = cur.fetchall()
             except Exception:
-                pass
+                rows = []
+        for r in rows:
+            r = dict(r)
+            name = r.get('name') or r.get('title') or '?'
+            extras = []
+            for c in INFO_COLS:
+                v = r.get(c)
+                if v:
+                    extras.append(str(v)[:140])
+            line = f"  [{table}] {name}"
+            if extras:
+                line += " | " + " | ".join(extras[:2])
+            results.append(line)
 
     db.close()
     if results:
@@ -257,9 +272,13 @@ def query_structured_data(query: str, game: str) -> str:
         "贾希拉": "Jaheira", "明斯克": "Minsc", "塔夫": "Tav",
         "邪念": "Dark Urge", "戈塔什": "Gortash", "奥林": "Orin",
         "凯瑟里克": "Ketheric", "夺心魔": "Illithid", "至上真神": "Absolute",
+        "蒸煮罐": "Bubbling Cauldron", "沸腾蒸煮罐": "Bubbling Cauldron",
+        "咕噜粥": "Gruel", "营地补给": "Camp Supplies",
     }
     q = query.lower().strip()
     if game == "baldurs_gate3":
+        # 剥离游戏名残留（Agent 可能把完整问题传给搜索工具）
+        q = re.sub(r"(博德之门3|博德之门 3|博得之门3|博得之门 3|博德之门|博得之门|bg3|baldur'?s? gate 3)", " ", q, flags=re.I).strip()
         for zh, en in _ZH_TO_EN.items():
             if zh in q:
                 q = q.replace(zh, en)
@@ -272,6 +291,12 @@ def query_structured_data(query: str, game: str) -> str:
             if q.startswith(prefix) and len(q) > 3:
                 keyword = q[len(prefix):].strip()
                 if keyword:
+                    # Agent 可能画蛇添足拼接多个词（如「查询 蒸煮罐 stewpot 烹饪锅」），
+                    # 逐个 token 搜索，取第一个能命中的即可
+                    for token in keyword.split():
+                        hit = _search_all_tables(db_path, token)
+                        if "未找到" not in hit:
+                            return hit
                     return _search_all_tables(db_path, keyword)
 
         # Try "所有 X" / "全部 X" / "列出所有 X"
@@ -426,7 +451,16 @@ def query_structured_data(query: str, game: str) -> str:
                 return f"（数据库中没有匹配 ≥{val} 的数值条目）"
 
         # Fallback: search all tables
-        return _search_all_tables(db_path, q) + f"\n\n💡 可用的表: {tbl_list}"
+        # 去掉常见疑问词/语气词，提高英文 LIKE 命中率（如「Bubbling Cauldron 有什么用」）
+        search_q = re.sub(
+            r"(有什么用处|有什么用|是什么|有哪些|在哪里|在哪|怎么获得|如何获得|怎么得到|"
+            r"多少钱|价格|介绍|资料|攻略|用处|用途|作用|效果|干嘛|物品|道具|装备|武器|角色|"
+            r"what is |吗|呢|的|，|。|？)",
+            "", q,
+        ).strip()
+        if not search_q:
+            search_q = q
+        return _search_all_tables(db_path, search_q) + f"\n\n💡 可用的表: {tbl_list}"
 
     except Exception as e:
         return f"[结构化查询出错] {e}"
@@ -546,7 +580,7 @@ def _is_unknown_game_query(q: str) -> bool:
                       "泰拉瑞亚", "terraria", "赛博朋克", "cyberpunk",
                       "酒保", "va11", "hall-a", "va-11",
                       "怪物猎人荒野", "monster hunter wilds", "mh wilds",
-                      "博德之门", "baldur", "bg3", "dnd", "d&d",
+                      "博德之门", "博得之门", "baldur", "bg3", "dnd", "d&d",
                       "龙与地下城", "至上真神", "夺心魔"]
     for kw in known_keywords:
         if kw in ql:

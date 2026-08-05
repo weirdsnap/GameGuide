@@ -313,7 +313,7 @@ _reg({
 
     "signals": [
         "baldur's gate 3", "博德之门3", "博德之门 3", "bg3",
-        "博德之门",
+        "博德之门", "博得之门3", "博得之门 3", "博得之门",
         "dnd", "d&d", "龙与地下城",
         "影心", "shadowheart", "养鸡妹", "laezel",
         "阿斯代伦", "astarion", "盖尔", "gale",
@@ -327,7 +327,7 @@ _reg({
         "按等级", "第5版", "5e", "法术", "动作",
     ],
     "exact_patterns": [
-        r"\b(?:博德之门3|博德之门 3|baldur'?s? gate 3|bg3)\b"
+        r"\b(?:博德之门3|博德之门 3|博得之门3|博得之门 3|baldur'?s? gate 3|bg3)\b"
     ],
 
     "extra_prompt": (
@@ -336,7 +336,10 @@ _reg({
         "Structured DB tables: characters(角色/同伴), spells(法术), weapons(武器), armor(护甲), "
         "items(物品), locations(地点), quests(任务), bosses(Boss), books(书籍). "
         "For entity lookups just pass the entity name, e.g. 「查询 Astarion」or 「查询 阿斯代伦」; "
-        "table names in queries are English only. If unsure, call show_database_schema first."
+        "table names in queries are English only. If unsure, call show_database_schema first. "
+        "When querying structured data, pass the exact Chinese/English name as-is "
+        "(e.g. 「查询 蒸煮罐」) — do NOT translate or append guessed words; "
+        "the system already maps common Chinese names internally."
     ),
 })
 
