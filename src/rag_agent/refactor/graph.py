@@ -8,6 +8,7 @@ from langchain_core.messages import AIMessage, BaseMessage, HumanMessage, System
 from langgraph.graph import StateGraph, END
 from langgraph.prebuilt import create_react_agent as create_agent
 from langgraph.config import get_stream_writer
+from langgraph.utils.runnable import RunnableCallable
 
 from rag_agent.config import LLM_CONFIG
 from rag_agent.game_router import detect_game, build_game_prompt, build_common_rules, is_switch_query
@@ -261,31 +262,35 @@ def _make_llm(state: AgentState, streaming: bool = False):
         config["streaming"] = True
     return ChatOpenAI(**config)
 
-async def fallback_node(state: AgentState) -> dict:
-    """LLM 兜底节点：游戏不在知识库时，用 LLM 自身知识回答。
-
-    对应旧 ask() 的 __llm_fallback__ 分支（multi_agent.py:655-669）：
-      1. llm = _make_llm(state, streaming=True)
-      2. messages = build_messages(question, history, state["prompt"])
-         —— 注意：这里的 prompt 是 detect 节点写好的 _FALLBACKPT，不是游戏 prompt
-      3. response = await llm.ainvoke(messages)
-      4. 返回 {"answer": response.content or "（无回复）"}
-
-    前置依赖：build_messages 还在 multi_agent.py:601，需要先复制进本文件。
-
-    测试策略：涉及真实 LLM 调用，不进离线 TDD 循环——
-    用 pytest.mark.skipif(not os.getenv("OPENAI_API_KEY")) 标记，或手动冒烟。
-
-    注意：必须是 async 节点 + ainvoke。同步节点会被框架丢到线程池执行，
-    LLM 流式 token 的回调传不回外层 astream 事件流（曾导致流式零 token）。
-    """
-    llm = _make_llm(state, streaming=True)                        # ① 建 LLM
-    messages = build_messages(                                    # ② 拼消息
+def _fallback_setup(state: AgentState):
+    """fallback 节点的共用准备：建 LLM + 拼消息。"""
+    llm = _make_llm(state, streaming=True)
+    messages = build_messages(
         state["question"].strip(),
         state.get("history"),
         state["prompt"],          # detect 写好的 _FALLBACKPT，不是游戏 prompt
     )
-    response = await llm.ainvoke(messages)                        # ③ 一问一答（必须 ainvoke，见 docstring）
+    return llm, messages
+
+
+def fallback_node_sync(state: AgentState) -> dict:
+    """LLM 兜底节点（同步版，graph.invoke / ask() 路径用）。"""
+    llm, messages = _fallback_setup(state)
+    response = llm.invoke(messages)
+    return {"answer": response.content or "（无回复）"}
+
+
+async def fallback_node(state: AgentState) -> dict:
+    """LLM 兜底节点（异步版，astream / ask_stream 路径用）。
+
+    对应旧 ask() 的 __llm_fallback__ 分支（multi_agent.py:655-669）。
+    与 fallback_node_sync 成对注册（RunnableCallable），勿只改一个。
+
+    注意：流式路径必须是 async 节点 + ainvoke。同步节点会被框架丢到线程池
+    执行，LLM 流式 token 的回调传不回外层 astream 事件流（曾导致流式零 token）。
+    """
+    llm, messages = _fallback_setup(state)
+    response = await llm.ainvoke(messages)
     return {"answer": response.content or "（无回复）"}
 
 
@@ -293,37 +298,16 @@ async def fallback_node(state: AgentState) -> dict:
 #  Agent 节点（正常游戏的主路径）
 # ══════════════════════════════════════════
 
-async def agent_node(state: AgentState) -> dict:
-    """Agent 节点：识别出正常游戏后的主工作路径。
-
-    对应旧 ask() 的主体（multi_agent.py:671-695）：
-      1. llm = _make_llm(state, streaming=True)
-      2. agent = create_agent(llm, GAME_TOOLS, prompt=SystemMessage(state["prompt"]))
-      3. get_stream_writer()({"type": "meta", ...})  —— 流式入口的元信息
-      4. messages = build_messages(question, history, state["prompt"])
-      5. result = await agent.ainvoke({"messages": messages}, {"recursion_limit": 50})
-      6. 返回 {"answer": result["messages"][-1].content}
-
-    前置依赖：GAME_TOOLS 从 refactor/tools.py import；build_messages 复制进本文件。
-
-    两个流式陷阱（接线期踩过的坑，勿回退）：
-      - 必须是 async 节点 + ainvoke：同步节点被框架丢线程池执行，
-        LLM token 回调传不回外层 astream（曾导致流式零 token）；
-      - create_react_agent 是子图：ask_stream 必须开 subgraphs=True 才能
-        收到内部 LLM 的 token（见其注释）。
-    """
-    # ① 建 LLM —— 和 fallback 共用 _make_llm
-    #    streaming=True：保证 ask_stream 的 astream_events 能捕获逐 token chunk
+def _agent_setup(state: AgentState):
+    """agent 节点的共用准备：建 LLM + ReAct agent + 发 meta + 拼消息。"""
+    # ① 建 LLM —— streaming=True 保证流式路径能拿到逐 token chunk
     llm = _make_llm(state, streaming=True)
 
-    # ② 建 ReAct agent —— langgraph.prebuilt.create_react_agent
-    #    参数三件套：llm / 工具列表 / system prompt
-    #    prompt 是 detect 节点拼好的（游戏身份 + 通用规则 + 可能的切换提示）
+    # ② 建 ReAct agent：llm / 工具列表 / system prompt（detect 拼好的游戏 prompt）
     agent = create_agent(llm, GAME_TOOLS,
-                            prompt=SystemMessage(content=state["prompt"]))
+                         prompt=SystemMessage(content=state["prompt"]))
 
-    # ③ 发 meta 自定义事件 —— 给流式前端显示"当前游戏/模型/知识库可用性"
-    #    stream_mode 不含 "custom" 时（如 invoke）为 no-op，静默忽略
+    # ③ 发 meta 自定义事件（stream_mode 不含 "custom" 时为 no-op）
     get_stream_writer()({
         "type": "meta",
         "game": state["detected_game"],
@@ -335,21 +319,44 @@ async def agent_node(state: AgentState) -> dict:
         },
     })
 
-    # ④ 拼消息 —— system prompt 由 create_agent 的 prompt 参数注入了，
-    #    这里 build_messages 第三个参数要不要传 prompt 是个关键决策点（见下方说明）
+    # ④ 拼消息（prompt 双份注入是沿用旧 ask() 的行为，勿顺手"优化"）
     messages = build_messages(
         state["question"].strip(),
         state.get("history"),
         state["prompt"]
     )
+    return agent, messages
 
-    # ⑤ 驱动 ReAct 循环 —— recursion_limit 是循环保险丝
-    #    async 节点 + ainvoke：token 回调才能传播到外层 astream 的 messages 流
-    result = await agent.ainvoke({"messages": messages}, {"recursion_limit": 50})
 
-    # ⑥ 提取最终回答 —— result["messages"] 是整个循环轨迹，最后一条才是答案
+def _agent_answer(result: dict) -> dict:
+    """⑥ 提取最终回答：result["messages"] 是整个循环轨迹，最后一条才是答案。"""
     answer = result["messages"][-1].content if result.get("messages") else ""
     return {"answer": answer or "（Agent 没有返回有效回答）"}
+
+
+def agent_node_sync(state: AgentState) -> dict:
+    """Agent 节点（同步版，graph.invoke / ask() 路径用）。"""
+    agent, messages = _agent_setup(state)
+    result = agent.invoke({"messages": messages}, {"recursion_limit": 50})
+    return _agent_answer(result)
+
+
+async def agent_node(state: AgentState) -> dict:
+    """Agent 节点（异步版，astream / ask_stream 路径用）。
+
+    对应旧 ask() 的主体（multi_agent.py:671-695）。
+    与 agent_node_sync 成对注册（RunnableCallable），勿只改一个。
+
+    两个流式陷阱（接线期踩过的坑，勿回退）：
+      - 流式路径必须是 async 节点 + ainvoke：同步节点被框架丢线程池执行，
+        LLM token 回调传不回外层 astream（曾导致流式零 token）；
+      - create_react_agent 是子图：ask_stream 必须开 subgraphs=True 才能
+        收到内部 LLM 的 token（见其注释）。
+    """
+    agent, messages = _agent_setup(state)
+    # ⑤ 驱动 ReAct 循环 —— recursion_limit 是循环保险丝
+    result = await agent.ainvoke({"messages": messages}, {"recursion_limit": 50})
+    return _agent_answer(result)
 
 
 #  构建消息
@@ -398,10 +405,13 @@ def build_graph():
     workflow = StateGraph(AgentState)
 
     # 1. 注册节点：名字 ↔ 函数
+    #    fallback/agent 用 RunnableCallable 注册同步+异步双版本：
+    #    graph.invoke（ask 路径）走同步版，astream（流式路径）走异步版。
+    #    只注册异步版会导致同步 invoke 报 "No synchronous function provided"。
     workflow.add_node("detect_game", detect_game_node)
     workflow.add_node("menu", menu_node)
-    workflow.add_node("fallback", fallback_node)
-    workflow.add_node("agent", agent_node)
+    workflow.add_node("fallback", RunnableCallable(fallback_node_sync, fallback_node))
+    workflow.add_node("agent", RunnableCallable(agent_node_sync, agent_node))
 
     # 2. 入口：一切从 detect 开始
     workflow.set_entry_point("detect_game")
