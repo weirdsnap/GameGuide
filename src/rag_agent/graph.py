@@ -13,7 +13,7 @@ from langgraph.utils.runnable import RunnableCallable
 from rag_agent.config import LLM_CONFIG
 from rag_agent.game_router import detect_game, build_game_prompt, build_common_rules, is_switch_query
 from rag_agent.game_router import AVAILABLE_GAMES
-from rag_agent.refactor.tools import GAME_TOOLS
+from rag_agent.tools import GAME_TOOLS
 
 # 图状态类
 class AgentState(TypedDict, total=False):

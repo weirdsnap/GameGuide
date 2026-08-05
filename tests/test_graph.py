@@ -1,6 +1,6 @@
 """detect_game_node 契约测试（离线，不依赖 LLM）。"""
 
-from rag_agent.refactor.graph import detect_game_node
+from rag_agent.graph import detect_game_node
 
 
 def _detect(question, history=None, last_game=None, confirmed=False):
@@ -71,13 +71,13 @@ def test_detect_未知游戏走LLM兜底():
 
 
 def test_menu_直通():
-    from rag_agent.refactor.graph import menu_node
+    from rag_agent.graph import menu_node
     assert menu_node({"menu_text": "任意文案"}) == {"answer": "任意文案"}
 
 
 def test_graph_菜单路径端到端():
     """不需要 LLM 的完整图调用：无关键词 → 弹菜单。"""
-    from rag_agent.refactor.graph import get_graph
+    from rag_agent.graph import get_graph
     result = get_graph().invoke({
         "question": "今天天气不错", "history": [],
         "last_game": None, "last_game_confirmed": False,
@@ -98,7 +98,7 @@ def test_detect_游戏切换带提示语():
 
 def test_detect_知识库未就绪弹报错(monkeypatch):
     """注册一个路径不存在的假游戏，命中后应走"知识库未就绪"菜单。"""
-    import rag_agent.refactor.graph as graph_mod
+    import rag_agent.graph as graph_mod
     monkeypatch.setitem(graph_mod.AVAILABLE_GAMES, "fake_game", {
         "name": "Fake Game (假游戏)",
         "db_path": "/nonexistent/fake.db",
@@ -125,7 +125,7 @@ def test_detect_有last_game但无历史不延续():
 
 import pytest
 
-from rag_agent.refactor.graph import route_after_detect
+from rag_agent.graph import route_after_detect
 
 
 @pytest.mark.parametrize("game_key", ["hollow_knight", "oni", "terraria", "mhw"])
@@ -143,7 +143,7 @@ def test_route_魔法值进fallback():
 
 # ── build_messages ─────────────────────────────────────────
 
-from rag_agent.refactor.graph import build_messages
+from rag_agent.graph import build_messages
 
 
 def test_build_messages_角色转换与顺序():
@@ -173,7 +173,7 @@ def test_build_messages_无prompt不插系统消息():
 
 def test_make_llm_默认与覆盖(monkeypatch):
     """构建对象不发网络请求；假 api_key 仅为绕开本地校验。"""
-    import rag_agent.refactor.graph as graph_mod
+    import rag_agent.graph as graph_mod
     monkeypatch.setitem(graph_mod.LLM_CONFIG, "api_key", "sk-test")
 
     llm_default = graph_mod._make_llm({})

@@ -187,7 +187,8 @@ def run_ragas_evaluation(game: str, questions: list, dry_run: bool = False) -> d
     
     # Import agent
     sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent / "src"))
-    from rag_agent.multi_agent import ask, get_retriever
+    from rag_agent.multi_agent import ask
+    from rag_agent.vectorstore import get_retriever
     
     results = []
     errors = []
