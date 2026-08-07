@@ -1,18 +1,19 @@
 #!/usr/bin/env python3
 """《空洞骑士》RAG Agent — 自动化回归测试。
 
-用法：
-  # 跑全部测试
+两种跑法：
+  # pytest（默认跳过 e2e；--run-e2e 才真实调用 LLM）
+  .venv/bin/python -m pytest tests/test_qa.py --run-e2e
+
+  # 脚本模式（直接跑全部 e2e，支持过滤）
   python tests/test_qa.py
-
-  # 只跑指定测试
   python tests/test_qa.py --filter "mantis"
-
-  # 列出测试用例
   python tests/test_qa.py --list
 """
 import sys
 from pathlib import Path
+
+import pytest
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
@@ -158,9 +159,8 @@ PASS = "✅"
 FAIL = "❌"
 
 
-def test_one(name: str, question: str, must_have: list, must_not_have: list) -> bool:
-    """Run a single test case, return pass/fail."""
-    print(f"  ❓ {question}")
+def run_case(name: str, question: str, must_have: list, must_not_have: list) -> tuple[list[str], str]:
+    """跑单条用例，返回 (问题列表, 完整回答)。问题列表为空 = 通过。"""
     answer = ask(question)
     answer_lower = answer.lower()
 
@@ -171,15 +171,21 @@ def test_one(name: str, question: str, must_have: list, must_not_have: list) -> 
     for kw in must_not_have:
         if kw.lower() in answer_lower:
             problems.append(f"不应出现「{kw}」")
+    return problems, answer
 
-    if problems:
-        print(f"    {FAIL} {'; '.join(problems)}")
-        print(f"    回答预览：{answer[:200]}")
-        return False
-    else:
-        prefix = answer[:min(len(answer), 100)]
-        print(f"    {PASS} {prefix}...")
-        return True
+
+# ── pytest 入口（e2e：真实调用 LLM，默认跳过，--run-e2e 开启）──
+
+
+@pytest.mark.e2e
+@pytest.mark.parametrize(
+    "name,question,must_have,must_not_have",
+    TEST_CASES,
+    ids=[c[0] for c in TEST_CASES],
+)
+def test_qa_case(name: str, question: str, must_have: list, must_not_have: list):
+    problems, answer = run_case(name, question, must_have, must_not_have)
+    assert not problems, f"{'; '.join(problems)}\n回答预览: {answer[:200]}"
 
 
 def list_tests():
@@ -221,10 +227,16 @@ def main():
 
     for i, (name, question, must_have, must_not_have) in enumerate(cases, 1):
         print(f"\n[{i}/{total}] [{name}]")
-        if test_one(name, question, must_have, must_not_have):
-            passed += 1
-        else:
+        print(f"  ❓ {question}")
+        problems, answer = run_case(name, question, must_have, must_not_have)
+        if problems:
             failed += 1
+            print(f"    {FAIL} {'; '.join(problems)}")
+            print(f"    回答预览：{answer[:200]}")
+        else:
+            passed += 1
+            prefix = answer[:min(len(answer), 100)]
+            print(f"    {PASS} {prefix}...")
 
     print("\n" + "━" * 50)
     print(f"\n{PASS} {passed}/{total} passed", end="")
