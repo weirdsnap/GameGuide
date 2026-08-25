@@ -21,6 +21,8 @@ logger = logging.getLogger(__name__)
 def _resolve_game_key(name: str) -> Optional[str]:
     """将游戏显示名或内部键解析为内部键。"""
     clean = name.lower().strip().replace(' ', '_')
+    if not clean:
+        return None
     if clean in AVAILABLE_GAMES:
         return clean
     for key, cfg in AVAILABLE_GAMES.items():
