@@ -43,7 +43,7 @@
 
 ### P0 — 核心质量
 
-- [ ] **RAGAS 评估**: 运行 `scripts/eval/ragas.py` 量化检索质量
+- [ ] **RAGAS 评估**: 运行 `scripts/eval/ragas_eval.py` 量化检索质量
 - [ ] **Silksong 向量库重构建**: wiki_data.md 已修复（29MB, 196页），需在 Mac 运行 ingest_game.py
 - [ ] **Bilingual 检索优化**: 中文 Wiki 数据融入向量库（语言标记 + 按 source 去重）
 

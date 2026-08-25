@@ -4,12 +4,12 @@ Tier 2 RAGAS Evaluation — runs on Mac M3 for comprehensive assessment.
 
 Usage:
     # Install RAGAS first
-    pip install ragas datasets
+    pip install ragas
 
     # Run evaluation
-    python scripts/eval/ragas.py --game all              # All games
-    python scripts/eval/ragas.py --game hollow_knight     # Single game
-    python scripts/eval/ragas.py --game all --limit 5     # Quick test (5 per game)
+    python scripts/eval/ragas_eval.py --game all              # All games
+    python scripts/eval/ragas_eval.py --game hollow_knight     # Single game
+    python scripts/eval/ragas_eval.py --game all --limit 5     # Quick test (5 per game)
 
     # Reports saved to: evaluation/reports/ragas_{game}_{timestamp}.json
 """
@@ -18,6 +18,8 @@ import sys
 import os
 import json
 import time
+import asyncio
+import inspect
 import argparse
 import logging
 from pathlib import Path
@@ -170,16 +172,14 @@ def run_ragas_evaluation(game: str, questions: list, dry_run: bool = False) -> d
     Returns dict with metrics.
     """
     try:
-        from datasets import Dataset
-        from ragas import evaluate
-        from ragas.metrics import (
-            faithfulness,
-            answer_relevancy,
-            context_precision,
-            context_recall,
+        from ragas.metrics.collections import (
+            Faithfulness,
+            AnswerAccuracy,
+            ContextPrecision,
+            ContextRecall,
         )
     except ImportError:
-        logger.error("ragas and datasets are required. Install with: pip install ragas datasets")
+        logger.error("ragas is required. Install with: pip install ragas")
         sys.exit(1)
 
     # ── 1. Gather answers and contexts ──
@@ -187,22 +187,32 @@ def run_ragas_evaluation(game: str, questions: list, dry_run: bool = False) -> d
     
     # Import agent
     sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent / "src"))
+    import rag_agent.multi_agent as ma
     from rag_agent.multi_agent import ask
     from rag_agent.vectorstore import get_retriever
-    
+
     results = []
     errors = []
-    
+
     vs_path = str(GAMES_DIR / game / "vectorstore")
     has_vs = (GAMES_DIR / game / "vectorstore" / "index.faiss").exists()
-    
+
     for i, q in enumerate(questions):
         logger.info(f"    [{i+1}/{len(questions)}] {q.question[:60]}...")
-        
+
+        # 预置会话游戏状态：题库多为纯英文问题，不带游戏信号词，
+        # 直接问会路由不到游戏而弹菜单。评估语义是"已确认游戏的会话中
+        # 追问"，故每题前把当前游戏写入过渡期全局（ask 会回写，需每题重置）。
+        # 注意：图的"延续上轮游戏"分支要求 history 非空（graph.py 延续分支），
+        # 所以 ask 必须带一条占位 history 才会生效。
+        ma._LAST_GAME = game
+        ma._LAST_GAME_CONFIRMED = True
+
         # ── Run agent ──
         t0 = time.time()
         try:
-            answer = ask(q.question, verbose=False)
+            answer = ask(q.question, verbose=False,
+                         history=[{"role": "user", "content": f"（评估会话：{game}）"}])
         except Exception as e:
             logger.info(f"      ❌ Agent error: {e}")
             errors.append({"question": q.question, "error": str(e)})
@@ -261,47 +271,63 @@ def run_ragas_evaluation(game: str, questions: list, dry_run: bool = False) -> d
     if not results:
         return {"game": game, "error": "All questions failed", "errors": errors}
     
-    # ── 2. Build Dataset for RAGAS ──
-    ds = Dataset.from_dict({
-        "question": [r["question"] for r in results],
-        "answer": [r["answer"] for r in results],
-        "contexts": [r["contexts"] for r in results],
-        "ground_truth": [r["ground_truth"] for r in results],
-    })
-    
-    # ── 3. Run RAGAS metrics ──
+    # ── 2~3. 逐题计算 RAGAS 指标 ──
+    # ragas 0.4：collections 指标不走 evaluate()（它不是 ragas.metrics.base.Metric
+    # 的子类，会被 evaluate 的类型校验拒绝），官方用法是逐条 ascore 自行聚合。
+    # collections 指标只接受现代 InstructorLLM，用 llm_factory + OpenAI 兼容
+    # 客户端（DeepSeek 端点）。
+    # answer_relevancy 需要 embeddings，但 DeepSeek 无 embedding API、本地
+    # sentence-transformers 未安装，故改用纯 LLM 的 answer_accuracy
+    # （双裁判对比 ground_truth，对本评测集更贴切）。
     logger.info(f"\n  Computing RAGAS metrics for {game}...")
-    
-    from langchain_openai import ChatOpenAI
-    
-    judge_llm = ChatOpenAI(
-        model=DEEPSEEK_MODEL,
-        api_key=DEEPSEEK_API_KEY,
-        base_url=DEEPSEEK_BASE_URL,
-        temperature=0,
+
+    from openai import AsyncOpenAI
+    from ragas.llms import llm_factory
+    # 指标走 agenerate()（异步），client 必须是 AsyncOpenAI，同步 client 会被拒
+    ragas_llm = llm_factory(
+        DEEPSEEK_MODEL,
+        client=AsyncOpenAI(api_key=DEEPSEEK_API_KEY, base_url=DEEPSEEK_BASE_URL),
     )
-    
-    # Override the LLM used by RAGAS for faithfulness/relevancy
-    # (RAGAS uses its own LLM config by default)
+
     metrics_config = {
-        "faithfulness": faithfulness,
-        "answer_relevancy": answer_relevancy,
-        "context_precision": context_precision,
-        "context_recall": context_recall,
+        "faithfulness": Faithfulness(llm=ragas_llm),
+        "answer_accuracy": AnswerAccuracy(llm=ragas_llm),
+        "context_precision": ContextPrecision(llm=ragas_llm),
+        "context_recall": ContextRecall(llm=ragas_llm),
     }
-    
+
+    async def _score_questions() -> list:
+        """逐题计算各指标，返回与 results 对齐的 [{指标名: 分数}, ...]。"""
+        rows = []
+        for r in results:
+            kwargs = {
+                "user_input": r["question"],
+                "response": r["answer"],
+                "retrieved_contexts": r["contexts"],
+                "reference": r["ground_truth"],
+            }
+            row = {}
+            for name, metric in metrics_config.items():
+                # 各指标 ascore 签名不同，按签名挑参数
+                params = inspect.signature(metric.ascore).parameters
+                try:
+                    res = await metric.ascore(
+                        **{k: v for k, v in kwargs.items() if k in params})
+                    row[name] = float(res.value)
+                except Exception as e:
+                    logger.info(f"      ⚠️ {name} 打分失败（{r['question'][:30]}…）: {e}")
+                    row[name] = None
+            rows.append(row)
+        return rows
+
+    def _mean(values):
+        vals = [v for v in values if v is not None]
+        return round(sum(vals) / len(vals), 4) if vals else None
+
     t0 = time.time()
-    try:
-        score = evaluate(
-            dataset=ds,
-            metrics=list(metrics_config.values()),
-            llm=judge_llm,
-        )
-        eval_time = time.time() - t0
-    except Exception as e:
-        logger.info(f"    ❌ RAGAS evaluation failed: {e}")
-        return {"game": game, "questions": len(results), "error": str(e), "errors": errors}
-    
+    score_rows = asyncio.run(_score_questions())
+    eval_time = time.time() - t0
+
     # ── 4. Format results ──
     report = {
         "game": game,
@@ -312,45 +338,32 @@ def run_ragas_evaluation(game: str, questions: list, dry_run: bool = False) -> d
         "questions_detail": [],
         "errors": errors,
     }
-    
-    # Overall metrics
-    for metric_name in metrics_config:
-        try:
-            value = score[metric_name]
-            report["metrics"][metric_name] = round(float(value), 4)
-        except:
-            report["metrics"][metric_name] = None
-    
+
+    # Overall metrics（忽略单题失败的 None）
+    for name in metrics_config:
+        report["metrics"][name] = _mean(row[name] for row in score_rows)
+
     # Per-category breakdown
     categories = set(r["category"] for r in results)
     for cat in categories:
-        mask = [r["category"] == cat for r in results]
-        cat_questions = [r for r in results if r["category"] == cat]
-        cat_ds = Dataset.from_dict({
-            "question": [r["question"] for r in cat_questions],
-            "answer": [r["answer"] for r in cat_questions],
-            "contexts": [r["contexts"] for r in cat_questions],
-            "ground_truth": [r["ground_truth"] for r in cat_questions],
-        })
-        try:
-            cat_score = evaluate(dataset=cat_ds, metrics=list(metrics_config.values()), llm=judge_llm)
-            report["per_category"][cat] = {
-                "count": len(cat_questions),
-                "metrics": {m: round(float(cat_score[m]), 4) for m in metrics_config},
-            }
-        except:
-            pass
-    
-    # Per-question detail
-    for r in results:
+        idx = [i for i, r in enumerate(results) if r["category"] == cat]
+        report["per_category"][cat] = {
+            "count": len(idx),
+            "metrics": {name: _mean(score_rows[i][name] for i in idx)
+                        for name in metrics_config},
+        }
+
+    # Per-question detail（附各指标单题分数）
+    for r, row in zip(results, score_rows):
         report["questions_detail"].append({
             "question": r["question"],
             "category": r["category"],
             "answer_length": len(r["answer"]),
             "num_contexts": len(r["contexts"]),
             "elapsed_ms": r["elapsed_ms"],
+            "scores": row,
         })
-    
+
     return report
 
 
@@ -373,7 +386,7 @@ def print_report(report: dict):
     print(f"\n  {'Overall Metrics':-^40}")
     metric_labels = {
         "faithfulness": "Faithfulness (factual accuracy)",
-        "answer_relevancy": "Answer Relevancy",
+        "answer_accuracy": "Answer Accuracy (vs ground truth)",
         "context_precision": "Context Precision (retrieval relevance)",
         "context_recall": "Context Recall (retrieval completeness)",
     }
