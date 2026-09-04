@@ -18,6 +18,8 @@ games/*/vectorstore/
 .idea/
 *.log
 *.pid
+# 评估报告（运行产物，趋势对比用本地留存即可）
+evaluation/reports/
 __pycache__/
 *.py[cod]
 # Python
