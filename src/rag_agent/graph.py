@@ -21,7 +21,7 @@ class AgentState(TypedDict, total=False):
     history: Optional[List[dict]]
     model_name: Optional[str]
     verbose: bool
-    # ── 路由状态（替代 _LAST_GAME 全局）──
+    # ── 当前请求内的路由状态 ──
     last_game: Optional[str]
     last_game_confirmed: bool
     detected_game: Optional[str]

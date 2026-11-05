@@ -161,6 +161,45 @@ def test_meta_带出_usage():
     assert (meta["tokens_in"], meta["tokens_out"], meta["tool_calls"]) == (30, 9, 2)
 
 
+# ── 请求状态隔离 ───────────────────────────────────────────
+
+def test_initial_state_只从当前请求历史推导游戏():
+    hk_history = [
+        {"role": "user", "content": "空洞骑士辐光怎么打"},
+        {"role": "assistant", "content": "可以参考知识库"},
+    ]
+    oni_history = [{"role": "user", "content": "缺氧净水怎么造"}]
+
+    hk_state = m._build_initial_state("它多少血", hk_history, None, False)
+    oni_state = m._build_initial_state("它多少血", oni_history, None, False)
+    empty_state = m._build_initial_state("它多少血", [], None, False)
+
+    assert hk_state["last_game"] == "hollow_knight"
+    assert hk_state["last_game_confirmed"] is True
+    assert oni_state["last_game"] == "oni"
+    assert empty_state["last_game"] is None
+    assert empty_state["last_game_confirmed"] is False
+
+
+def test_initial_state_忽略无效历史项():
+    history = [None, {"role": "assistant", "content": "空洞骑士"},
+               {"role": "user", "content": 42}]
+
+    state = m._build_initial_state("它多少血", history, None, False)
+
+    assert state["last_game"] is None
+    assert not hasattr(m, "_LAST_GAME")
+
+
+def test_initial_state_切换或未知游戏会中断旧上下文():
+    hk = {"role": "user", "content": "空洞骑士辐光怎么打"}
+    switched = [hk, {"role": "user", "content": "换个游戏"}]
+    unknown = [hk, {"role": "user", "content": "原神怎么玩"}]
+
+    assert m._game_from_history(switched) is None
+    assert m._game_from_history(unknown) is None
+
+
 # ── ask / ask_stream 的 meta 出口 ──────────────────────────
 
 class _FakeGraph:

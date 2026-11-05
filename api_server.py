@@ -4,6 +4,7 @@
 自动识别问题所属游戏，路由到正确的 Agent 和知识库。
 """
 
+import asyncio
 import json
 import logging
 import os
@@ -31,6 +32,8 @@ DEFAULT_CONFIG = {
     "rate_limit_per_day": 600,
     "daily_quota": 100,          # 全局每日提问上限（所有 IP / 所有会话共享）
     "quota_file": "data/quota.json",
+    "trusted_proxies": ["127.0.0.1", "::1"],
+    "request_timeout": 120,
     "port": 8765,
     "host": "0.0.0.0",
 }
@@ -58,6 +61,16 @@ def load_config():
 
 
 config = load_config()
+
+
+def _client_ip(request) -> str:
+    """只在已知反向代理之后采信 X-Forwarded-For 的第一个地址。"""
+    remote = request.remote or "unknown"
+    if remote not in config["trusted_proxies"]:
+        return remote
+    forwarded = request.headers.get("X-Forwarded-For", "")
+    client = forwarded.split(",", 1)[0].strip()
+    return client or remote
 
 
 # ====== 全局每日额度 ======
@@ -246,7 +259,7 @@ async def handle_ask(request):
     if not question:
         return web.json_response({"error": "问题不能为空"}, status=400)
 
-    ip = request.remote or "unknown"
+    ip = _client_ip(request)
     ok, msg = rate_limiter.check(ip)
     if not ok:
         return web.json_response({"error": msg}, status=429)
@@ -258,15 +271,30 @@ async def handle_ask(request):
 
     rate_limiter.record(ip)
 
+    t0 = time.time()
+    meta: dict = {}
     try:
-        t0 = time.time()
-        meta: dict = {}
-        answer = ask(question, history=history if history else None, verbose=True, meta=meta)
+        answer = await asyncio.wait_for(
+            asyncio.to_thread(
+                ask, question, history=history if history else None,
+                verbose=True, meta=meta,
+            ),
+            timeout=config["request_timeout"],
+        )
         elapsed = time.time() - t0
         print(f"  [{time.strftime('%H:%M:%S')}] {ip[:15]:15s} | {question[:50]:50s} | {elapsed:.1f}s")
         log_turn(turn_record(ip=ip, question=question, elapsed=elapsed, meta=meta))
         return web.json_response({"answer": answer, "elapsed": round(elapsed, 1),
                                   "quota": quota_status})
+    except asyncio.TimeoutError:
+        elapsed = time.time() - t0
+        meta.update({"route": "error", "error": "请求处理超时"})
+        logger.warning(f"非流式请求超时: {ip}")
+        log_turn(turn_record(ip=ip, question=question, elapsed=elapsed, meta=meta))
+        return web.json_response(
+            {"error": "请求处理超时，请稍后重试", "quota": quota_status},
+            status=504,
+        )
     except Exception as e:
         logger.exception("处理失败")
         print(f"  ❌ 处理失败: {e}")
@@ -286,7 +314,7 @@ async def handle_ask_stream(request):
     if not question:
         return web.json_response({"error": "问题不能为空"}, status=400)
 
-    ip = request.remote or "unknown"
+    ip = _client_ip(request)
     ok, msg = rate_limiter.check(ip)
     if not ok:
         return web.json_response({"error": msg}, status=429)
@@ -362,7 +390,7 @@ async def handle_status(request):
     """GET /api/status — 健康检查"""
     return web.json_response({
         "status": "ok",
-        "version": "beta4",
+        "version": "beta5",
         "uptime": round(time.time() - start_time, 1),
         "quota": quota.status(),
     })

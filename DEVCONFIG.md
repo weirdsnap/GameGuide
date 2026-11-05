@@ -1,45 +1,65 @@
-# 💡 项目配置记忆 — 改配置前先看这里
+# 项目配置说明
 
-## ⚠️ Embedding 模型：必须用多语言！
+## Embedding：必须使用多语言模型
 
-**当前默认**：`sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2`（384维，fastembed 原生支持）
+当前默认：
 
-**选择原因**：
-1. **多语言语义空间** — 维基内容是英文，用户用中文提问。这个模型支持 50+ 语言，中文 query 能和英文文档向量在同一个空间匹配。
-2. **维度 384** — 和 bge-small-en-v1.5 一致，检索速度/存储开销不变。
-3. **轻量快速** — MiniLM 架构，Mac 上 300MB 模型，推理速度和 bge 系列接近。
-4. **fastembed 开箱即用** — `FastEmbedEmbeddings(model_name=...)` 直接支持。
+```text
+sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+```
 
-**反面教训**：之前用 bge-small-en-v1.5（纯英文模型），中文问"螳螂爪在哪里"检索几乎不命中任何英文文档，RAG 等于没有。
+原因是 Wiki 以英文为主，而用户常用中文提问。纯英文模型曾导致中文查询无法命中英文文档。模型维度相同并不代表语义空间兼容，切换模型后必须全量重建向量库。
 
-**血泪史**（别再犯了）：
-1. ✅ `1245c6e` — 第一次切到多语言模型，功臣
-2. ❌ `99213ca` — beta4 重构重写了 config.py，**覆盖回了** bge-small-en-v1.5
-3. ✅ 现在 — 又切回来了，别再丢了
+默认模型只在 `src/rag_agent/config.py` 的 `FASTEMBED_MODEL` 中维护；构建脚本
+`scripts/tool/ingest_game.py` 会读取同一配置，也允许通过环境变量覆盖。
 
-**改默认值的地方（全部都要改！否则构建向量库时仍会用旧模型）：**
-- `src/rag_agent/config.py` — `FASTEMBED_MODEL`（核心配置）
-- `scripts/ingest_game.py:181` — `os.environ.get("FASTEMBED_MODEL", DEFAULT_MODEL)` ✅ 已修复
-- `scripts/run_on_mac.py:329` — `os.environ.get("FASTEMBED_MODEL", DEFAULT_MODEL)` ✅ 已修复
+### 更换模型
 
-**切模型后必须全量重构建库**，否则服务器端的查询 embedding 和存储的文档 embedding 空间不一致，检索结果是垃圾。
+1. 修改 `FASTEMBED_MODEL` 或设置对应环境变量。
+2. 在 Mac 上运行 `python3 scripts/tool/ingest_game.py --game all`。
+3. 运行 `bash scripts/deploy/vectorstores.sh` 部署向量库。
+4. 在服务器运行 `bash scripts/deploy/api.sh` 重启服务。
 
-## ⚙️ 迁移步骤（换模型时）
+不要在未重建向量库的情况下只修改服务器查询模型。
 
-1. **Mac 上** `git pull`
-2. **Mac 上** `python3 scripts/ingest_game.py --game all`
-3. **Mac 上** `bash scripts/deploy_vectorstores.sh`（scp 到服务器）
-4. **服务器** `bash scripts/start_api.sh`（重启 API，加载新配置和新向量库）
+## LLM 与环境变量
 
-## 🐛 已知 bug / 踩坑记录
+复制 `.env.example` 为 `.env`，配置：
 
-- **切换 embedding 模型会静默产生垃圾结果**：FAISS 不校验 query embedding 与 document embedding 是否来自同一模型。两个 384d 向量只要维度相同就能检索，但语义空间不同，结果毫无意义。**千万别在向量库未重建的情况下切换模型！**
-- **config.py 被覆盖过**：beta4 重构（99213ca）重写了 config.py，把多语言模型换回了英文。所有改配置的操作都要 git add 确保提交了。
+- `OPENAI_API_KEY`：OpenAI 兼容服务密钥。
+- `OPENAI_BASE_URL`：兼容接口地址。
+- `CHAT_MODEL`：默认对话模型。
+- `FASTEMBED_MODEL`：可选，覆盖本地 Embedding 模型。
+- `HF_ENDPOINT`、`HF_HUB_OFFLINE`：模型下载镜像与离线缓存控制。
 
-## 快速参考
+## API 配置
+
+`api_server.py` 首次运行会生成 `api_config.json`。主要字段：
+
+| 字段 | 默认值 | 说明 |
+|:-----|:-------|:-----|
+| `daily_quota` | `100` | 全局每日提问额度 |
+| `quota_file` | `data/quota.json` | 额度持久化文件 |
+| `rate_limit_per_min` | `20` | 单客户端 IP 每分钟上限 |
+| `rate_limit_per_day` | `600` | 单客户端 IP 每日上限 |
+| `request_timeout` | `120` | 非流式请求超时秒数 |
+| `trusted_proxies` | `127.0.0.1`, `::1` | 可信反向代理地址 |
+
+Caddy 默认通过 `X-Forwarded-For` 传递客户端地址。服务只采信来自
+`trusted_proxies` 的转发头，防止公网客户端伪造 IP 绕过限流。
+
+## 多轮对话状态
+
+服务不保存全局游戏状态。前端每次请求都应传入当前会话的 `history`；后端从最近的
+用户消息推导游戏。无历史且问题不含可识别游戏信号时，接口返回游戏菜单。
+
+## 常用命令
 
 | 操作 | 命令 |
-|------|------|
-| 全量重构建库 | `python3 scripts/ingest_game.py --game all` |
-| 部署到服务器 | `bash scripts/deploy_vectorstores.sh` |
-| 启动 API | `bash scripts/start_api.sh` |
+|:-----|:-----|
+| 启动 API | `python api_server.py` |
+| 离线测试 | `python -m pytest tests -q` |
+| 构建全部向量库 | `python3 scripts/tool/ingest_game.py --game all` |
+| Mac 远程构建 | `python3 scripts/tool/mac_build.py --game all` |
+| 部署向量库 | `bash scripts/deploy/vectorstores.sh` |
+| 重启 API | `bash scripts/deploy/api.sh` |

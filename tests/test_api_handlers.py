@@ -58,6 +58,38 @@ def _ok_ask(question, history=None, verbose=False, meta=None):
     return "螳螂爪可以攀墙"
 
 
+# ── 反向代理后的客户端 IP ────────────────────────────────
+
+def test_可信代理使用转发链中的真实客户端ip():
+    from types import SimpleNamespace
+
+    request = SimpleNamespace(
+        remote="127.0.0.1",
+        headers={"X-Forwarded-For": "203.0.113.10, 127.0.0.1"},
+    )
+
+    assert api_server._client_ip(request) == "203.0.113.10"
+
+
+def test_非可信来源不能伪造转发ip():
+    from types import SimpleNamespace
+
+    request = SimpleNamespace(
+        remote="198.51.100.20",
+        headers={"X-Forwarded-For": "203.0.113.10"},
+    )
+
+    assert api_server._client_ip(request) == "198.51.100.20"
+
+
+def test_可信代理没有转发头时回退到对端ip():
+    from types import SimpleNamespace
+
+    request = SimpleNamespace(remote="::1", headers={})
+
+    assert api_server._client_ip(request) == "::1"
+
+
 # ── 无密码访问 ───────────────────────────────────────────
 
 def test_不带任何_token_也能提问(monkeypatch, tmp_path):
@@ -178,6 +210,22 @@ def test_ask_空问题返回400且不占额度(monkeypatch, tmp_path):
     assert status == 400
     assert records == []
     assert quota.status()["used"] == 0
+
+
+def test_ask_超时返回504并记录错误(monkeypatch, tmp_path):
+    def slow_ask(question, history=None, verbose=False, meta=None):
+        time.sleep(0.05)
+        return "迟到答案"
+
+    app, records, _ = _fresh(monkeypatch, tmp_path, ask=slow_ask)
+    monkeypatch.setitem(api_server.config, "request_timeout", 0.001)
+
+    status, body = _post(app, "/api/ask", {"question": "慢问题"})
+
+    assert status == 504
+    assert "超时" in json.loads(body)["error"]
+    assert records[0]["route"] == "error"
+    assert "超时" in records[0]["error"]
 
 
 # ── 流式 /api/ask/stream ─────────────────────────────────

@@ -1,7 +1,7 @@
 
 AGENTS.md
 api_config.json
-# API 配置（含密码）
+# API 本地配置
 data/*.bak.*
 data/*.bak.items
 data/hallownest_knowledge.llm_merged.md
