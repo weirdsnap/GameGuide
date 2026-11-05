@@ -72,7 +72,10 @@ def test_detect_未知游戏走LLM兜底():
 
 def test_menu_直通():
     from rag_agent.graph import menu_node
-    assert menu_node({"menu_text": "任意文案"}) == {"answer": "任意文案"}
+    out = menu_node({"menu_text": "任意文案"})
+    assert out["answer"] == "任意文案"
+    # 第 0 步观测：菜单路径不过 LLM，但也要带出全零 usage，供上层统一记录
+    assert out["usage"] == {"tokens_in": 0, "tokens_out": 0, "tool_calls": 0}
 
 
 def test_graph_菜单路径端到端():

@@ -42,22 +42,61 @@ def _writeback_game_state(result: dict):
     _LAST_GAME_CONFIRMED = result.get("last_game_confirmed", False)
 
 
-def ask(question, history=None, model_name=None, verbose=False):
-    """多游戏 Agent 入口（非流式）。签名与旧版完全一致。"""
+def _meta_from_state(state: dict) -> dict:
+    """把图终态翻译成一行的观测元数据（第 0 步：只记录，不参与决策）。
+
+    route 与 detected_game 的对应关系沿用 route_after_detect 的契约：
+      None → menu（弹菜单/报错，不过 LLM）
+      "__llm_fallback__" → fallback（知识库外游戏，LLM 自身知识回答）
+      其余 → agent（正常游戏主路径）
+    """
+    detected = state.get("detected_game")
+    if detected is None:
+        route = "menu"
+    elif detected == "__llm_fallback__":
+        route = "fallback"
+    else:
+        route = "agent"
+    usage = state.get("usage") or {}
+    return {
+        "route": route,
+        "game": detected if route == "agent" else None,
+        "tokens_in": int(usage.get("tokens_in") or 0),
+        "tokens_out": int(usage.get("tokens_out") or 0),
+        "tool_calls": int(usage.get("tool_calls") or 0),
+    }
+
+
+def ask(question, history=None, model_name=None, verbose=False, meta=None):
+    """多游戏 Agent 入口（非流式）。
+
+    meta：可选的 dict，函数结束时被填入本轮观测数据
+          （route / game / tokens_in / tokens_out / tool_calls）。
+          传 None 时行为与旧版完全一致；不用模块全局，避免并发串数据。
+    """
     try:
         result = get_graph().invoke(
             _build_initial_state(question, history, model_name, verbose))
     except Exception as e:
         logger.error(f"Agent 调用失败: {e}")
+        if meta is not None:
+            meta.update({"route": "error", "game": None, "tokens_in": 0,
+                         "tokens_out": 0, "tool_calls": 0, "error": str(e)[:200]})
         return f"[查询出错] {e}"
     _writeback_game_state(result)
+    if meta is not None:
+        meta.update(_meta_from_state(result))
     return result.get("answer") or "（无回复）"
 
 
-async def ask_stream(question, history=None, model_name=None, verbose=False):
-    """流式入口。产出协议不变：("token"|"meta"|"error", data)。"""
+async def ask_stream(question, history=None, model_name=None, verbose=False, meta=None):
+    """流式入口。产出协议不变：(token|meta|error, data)。
+
+    meta 参数含义同 ask()：结束时被填入本轮的观测数据。
+    """
     final_state = {}
     emitted_token = False
+    error_msg = None
     try:
         # subgraphs=True：agent_node 内部的 create_react_agent 是子图，
         # 不开这个开关其 LLM token 不会冒泡到外层流。
@@ -81,7 +120,12 @@ async def ask_stream(question, history=None, model_name=None, verbose=False):
             elif namespace == () and mode == "values":
                 final_state = chunk          # 父图每步全量 state，最后一份即终态
     except Exception as e:
+        error_msg = str(e)
         logger.error(f"Agent 流式调用失败: {e}")
+        # 观测数据必须在 yield 之前落地：消费方收到 error 事件通常立即 break，
+        # 生成器不再被恢复，yield 以后的收尾代码不会执行
+        if meta is not None:
+            meta.update({"route": "error", "error": error_msg[:200]})
         yield "error", str(e)
     finally:
         if final_state:
@@ -90,3 +134,6 @@ async def ask_stream(question, history=None, model_name=None, verbose=False):
     # token，与旧版"菜单文本当单 token 吐出"的行为对齐
     if not emitted_token and final_state.get("answer"):
         yield "token", final_state["answer"]
+    # 观测数据后置填：正常路径在此时才拿到完整终态（含 usage）
+    if meta is not None and not error_msg:
+        meta.update(_meta_from_state(final_state))

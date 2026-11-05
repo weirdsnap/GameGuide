@@ -47,7 +47,7 @@
 ```
 .
 ├── api_server.py              # FastAPI 服务器入口
-├── api_config.json            # 服务器配置（端口、密码、限速）
+├── api_config.json            # 服务器配置（端口、限速、每日额度）
 ├── src/rag_agent/
 │   ├── multi_agent.py         # Agent 主逻辑 + 工具定义
 │   ├── vectorstore.py         # FAISS 向量库加载
@@ -97,7 +97,7 @@
 已在服务器上部署，通过 Caddy 反向代理暴露：
 - **地址**: `https://api.weirdsnap.top`
 - **端口**: 8765（内部）→ 443（公共）
-- **认证**: 密码（在 `api_config.json` 中配置）
+- **认证**: 无密码（公开访问），靠**全局每日额度 100 个问题** + 单 IP 每分钟限速兑底；额度用尽返回 429与「明天再来吧」
 
 ```bash
 # 本地测试（需要先配置 .env）
@@ -108,11 +108,12 @@ python api_server.py
 ### 发送请求
 
 ```bash
-curl -X POST https://api.weirdsnap.top/chat \
+curl -X POST https://api.weirdsnap.top/api/ask \
   -H "Content-Type: application/json" \
-  -H "Authorization: Bearer <密码>" \
-  -d '{"message": "空洞骑士里亡者之怒在哪里拿？"}'
+  -d '{"question": "空洞骑士里亡者之怒在哪里拿？"}'
 ```
+
+额度状态：`GET /api/quota` → `{"date": "2026-11-05", "used": 12, "limit": 100, "remaining": 88}`
 
 响应格式：
 ```json

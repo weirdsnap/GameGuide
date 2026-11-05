@@ -1,15 +1,15 @@
 """
 多游戏 Agent API Server
-提供密码保护的 API 接口，供博客前端调用。
+提供给博客前端调用的 API 接口（无密码、全局每日额度控制）。
 自动识别问题所属游戏，路由到正确的 Agent 和知识库。
 """
 
 import json
+import logging
 import os
+import threading
 import time
 import sys
-import secrets
-import uuid
 from pathlib import Path
 from collections import defaultdict
 
@@ -21,16 +21,28 @@ sys.path.insert(0, str(project_root / "src"))
 
 from rag_agent.multi_agent import ask, ask_stream
 
+logger = logging.getLogger("gameguide.api")
+
 # ====== 配置 ======
 CONFIG_FILE = project_root / "api_config.json"
 
 DEFAULT_CONFIG = {
-    "password": "hollowknight2024",
     "rate_limit_per_min": 20,
-    "rate_limit_per_day": 200,
+    "rate_limit_per_day": 600,
+    "daily_quota": 100,          # 全局每日提问上限（所有 IP / 所有会话共享）
+    "quota_file": "data/quota.json",
     "port": 8765,
-    "host": "0.0.0.0"
+    "host": "0.0.0.0",
 }
+
+
+# 额度用完时的统一文案（前端直接当一条回答展示），limit 由配置决定
+QUOTA_EXCEEDED_TMPL = "今天的 {limit} 个问题额度已经用完了，明天再来吧"
+
+
+def quota_exceeded_message(status: dict) -> str:
+    """根据当前额度状态生成提示文案（不写死 100，改配置不用改代码）。"""
+    return QUOTA_EXCEEDED_TMPL.format(limit=status.get("limit", ""))
 
 
 def load_config():
@@ -42,41 +54,84 @@ def load_config():
     with open(CONFIG_FILE, "w") as f:
         json.dump(DEFAULT_CONFIG, f, indent=2, ensure_ascii=False)
     print(f"  📝 已生成默认配置: {CONFIG_FILE}")
-    print(f"  ⚠️  请修改 password 字段！")
     return dict(DEFAULT_CONFIG)
 
 
 config = load_config()
 
 
-# ====== Session 管理 ======
-class SessionStore:
-    def __init__(self, expiry: int = 3600):
-        self._tokens: dict[str, float] = {}
-        self._expiry = expiry
+# ====== 全局每日额度 ======
+class DailyQuota:
+    """全局每日提问额度，跨 IP / 跨会话共享，文件持久化（重启不清零）。
 
-    def create(self) -> str:
-        """创建新 session，返回 token。"""
-        token = secrets.token_hex(32)
-        self._tokens[token] = time.time() + self._expiry
-        return token
+    - 日期按本地时区切日（凌晨自然重置）
+    - 写文件用临时文件 + os.replace 原子替换，避免写一半崩溃留下坏文件
+    - threading.Lock 保证同一进程内多协程/多线程下计数不丢
+    """
 
-    def verify(self, token: str) -> bool:
-        """验证 token 是否有效，自动清理过期 token。"""
-        now = time.time()
-        # 惰性清理
-        expired = [t for t in self._tokens if self._tokens[t] < now]
-        for t in expired:
-            del self._tokens[t]
-        if token in self._tokens:
-            return True
-        return False
+    def __init__(self, path: Path, limit: int = 100, clock=time.time):
+        self._path = Path(path)
+        self._limit = limit
+        self._clock = clock
+        self._lock = threading.Lock()
+        self._state = self._load()
 
-    def revoke(self, token: str):
-        self._tokens.pop(token, None)
+    @staticmethod
+    def _day_key(ts: float) -> str:
+        return time.strftime("%Y-%m-%d", time.localtime(ts))
+
+    def _load(self) -> dict:
+        try:
+            data = json.loads(self._path.read_text(encoding="utf-8"))
+            if isinstance(data, dict) and "date" in data and isinstance(data.get("count"), int):
+                return {"date": data["date"], "count": data["count"]}
+        except (OSError, ValueError):
+            pass
+        # 首次运行 / 文件损坏 / 格式不对 → 从头计数，不因坏文件把服务拖挂
+        return {"date": self._day_key(self._clock()), "count": 0}
+
+    def _save(self):
+        self._path.parent.mkdir(parents=True, exist_ok=True)
+        tmp = self._path.with_name(self._path.name + ".tmp")
+        tmp.write_text(json.dumps(self._state, ensure_ascii=False), encoding="utf-8")
+        os.replace(tmp, self._path)
+
+    def _roll(self):
+        today = self._day_key(self._clock())
+        if self._state.get("date") != today:
+            self._state = {"date": today, "count": 0}
+
+    def status(self) -> dict:
+        with self._lock:
+            self._roll()
+            return {
+                "date": self._state["date"],
+                "used": self._state["count"],
+                "limit": self._limit,
+                "remaining": max(0, self._limit - self._state["count"]),
+            }
+
+    def consume(self) -> tuple[bool, dict]:
+        """占用一次额度。返回 (是否允许, 最新状态)；超限时不计数。"""
+        with self._lock:
+            self._roll()
+            if self._state["count"] >= self._limit:
+                return False, self.status_unlocked()
+            self._state["count"] += 1
+            self._save()
+            return True, self.status_unlocked()
+
+    def status_unlocked(self) -> dict:
+        """已持锁时的 status（避免重复获取不可重入的 Lock）。"""
+        return {
+            "date": self._state["date"],
+            "used": self._state["count"],
+            "limit": self._limit,
+            "remaining": max(0, self._limit - self._state["count"]),
+        }
 
 
-sessions = SessionStore(expiry=3600)
+quota = DailyQuota(project_root / config["quota_file"], limit=config["daily_quota"])
 
 
 # ====== 速率限制 ======
@@ -131,28 +186,51 @@ async def cors_middleware(app, handler):
 # (向量库按需懒加载，由 multi_agent 内部管理)
 
 
+# ====== 观测：每轮一行的结构化记录（第 0 步，只记录不改行为）======
+def turn_record(*, ip: str, question: str, elapsed: float, meta: dict,
+                streamed: bool = False, chunks: int | None = None) -> dict:
+    """把一轮请求的关键指标集中成 dict，方便 grep / 后续落库。
+
+    纯函数，不碰 I/O，便于单测。字段名与后续 SQLite turns 表对齐。
+    """
+    meta = meta or {}
+    record = {
+        "ts": int(time.time()),
+        "ip": ip,
+        "stream": streamed,
+        "question": question[:120],
+        "elapsed_ms": int(elapsed * 1000),
+        "route": meta.get("route"),
+        "game": meta.get("game"),
+        "tokens_in": int(meta.get("tokens_in") or 0),
+        "tokens_out": int(meta.get("tokens_out") or 0),
+        "tool_calls": int(meta.get("tool_calls") or 0),
+    }
+    if chunks is not None:
+        record["stream_chunks"] = chunks
+    if meta.get("error"):
+        record["error"] = str(meta["error"])[:200]
+    return record
+
+
+def log_turn(record: dict):
+    logger.info("turn %s", json.dumps(record, ensure_ascii=False))
+
+
 # ====== API 端点 ======
 
 async def handle_login(request):
-    """POST /api/login — 密码登录，换取 session token"""
-    try:
-        body = await request.json()
-    except json.JSONDecodeError:
-        return web.json_response({"error": "无效的 JSON 格式"}, status=400)
+    """POST /api/login — 已废弃：不再验证密码。
 
-    password = body.get("password", "")
-    ip = request.remote or "unknown"
+    保留这个端点只是为了让浏览器缓存里的旧版页面不报错：依旧返回一个 token，
+    但后续请求不再校验它。新页面已不再调用本接口。
+    """
+    return web.json_response({"token": "public", "expires_in": 86400})
 
-    if password != config["password"]:
-        print(f"  [{time.strftime('%H:%M:%S')}] ❌ 登录失败: {ip}")
-        return web.json_response({"error": "密码错误"}, status=403)
 
-    token = sessions.create()
-    print(f"  [{time.strftime('%H:%M:%S')}] ✅ 登录成功: {ip}")
-    return web.json_response({
-        "token": token,
-        "expires_in": 3600,
-    })
+async def handle_quota(request):
+    """GET /api/quota — 今日全局额度状态（前端可用来显示剩余次数）"""
+    return web.json_response(quota.status())
 
 
 async def handle_ask(request):
@@ -163,29 +241,34 @@ async def handle_ask(request):
         return web.json_response({"error": "无效的 JSON 格式"}, status=400)
 
     question = body.get("question", "").strip()
-    token = body.get("token", "")
     history = body.get("history", [])
 
     if not question:
         return web.json_response({"error": "问题不能为空"}, status=400)
-
-    if not sessions.verify(token):
-        return web.json_response({"error": "token 无效或已过期，请重新登录"}, status=401)
 
     ip = request.remote or "unknown"
     ok, msg = rate_limiter.check(ip)
     if not ok:
         return web.json_response({"error": msg}, status=429)
 
+    allowed, quota_status = quota.consume()
+    if not allowed:
+        print(f"  [{time.strftime('%H:%M:%S')}] 🚧 每日额度用尽，拒绝: {ip}")
+        return web.json_response({"error": quota_exceeded_message(quota_status), "quota": quota_status}, status=429)
+
     rate_limiter.record(ip)
 
     try:
         t0 = time.time()
-        answer = ask(question, history=history if history else None, verbose=True)
+        meta: dict = {}
+        answer = ask(question, history=history if history else None, verbose=True, meta=meta)
         elapsed = time.time() - t0
         print(f"  [{time.strftime('%H:%M:%S')}] {ip[:15]:15s} | {question[:50]:50s} | {elapsed:.1f}s")
-        return web.json_response({"answer": answer, "elapsed": round(elapsed, 1)})
+        log_turn(turn_record(ip=ip, question=question, elapsed=elapsed, meta=meta))
+        return web.json_response({"answer": answer, "elapsed": round(elapsed, 1),
+                                  "quota": quota_status})
     except Exception as e:
+        logger.exception("处理失败")
         print(f"  ❌ 处理失败: {e}")
         return web.json_response({"error": f"处理请求时出错"}, status=500)
 
@@ -198,19 +281,21 @@ async def handle_ask_stream(request):
         return web.json_response({"error": "无效的 JSON 格式"}, status=400)
 
     question = body.get("question", "").strip()
-    token = body.get("token", "")
     history = body.get("history", [])
 
     if not question:
         return web.json_response({"error": "问题不能为空"}, status=400)
 
-    if not sessions.verify(token):
-        return web.json_response({"error": "token 无效或已过期，请重新登录"}, status=401)
-
     ip = request.remote or "unknown"
     ok, msg = rate_limiter.check(ip)
     if not ok:
         return web.json_response({"error": msg}, status=429)
+
+    allowed, quota_status = quota.consume()
+    if not allowed:
+        # 流式接口同样用 429 + JSON：额度用尽时不开 SSE，前端当普通提示渲染
+        print(f"  [{time.strftime('%H:%M:%S')}] 🚧 每日额度用尽，拒绝(流式): {ip}")
+        return web.json_response({"error": quota_exceeded_message(quota_status), "quota": quota_status}, status=429)
 
     rate_limiter.record(ip)
 
@@ -235,9 +320,10 @@ async def handle_ask_stream(request):
 
     t0 = time.time()
     token_count = 0
+    meta: dict = {}
 
     try:
-        async for event_type, data in ask_stream(question, history=history if history else None, verbose=True):
+        async for event_type, data in ask_stream(question, history=history if history else None, verbose=True, meta=meta):
             if event_type == "token":
                 payload = json.dumps({"type": "token", "content": data}, ensure_ascii=False)
                 await resp.write(f"data: {payload}\n\n".encode("utf-8"))
@@ -253,7 +339,7 @@ async def handle_ask_stream(request):
         # 结束标志
         elapsed = round(time.time() - t0, 1)
         await resp.write(
-            f"data: {json.dumps({'type': 'done', 'elapsed': elapsed})}\n\n".encode("utf-8")
+            f"data: {json.dumps({'type': 'done', 'elapsed': elapsed, 'quota': quota_status}, ensure_ascii=False)}\n\n".encode("utf-8")
         )
 
     except (ConnectionResetError, ConnectionAbortedError):
@@ -267,6 +353,8 @@ async def handle_ask_stream(request):
 
     elapsed = time.time() - t0
     print(f"  [{time.strftime('%H:%M:%S')}] {ip[:15]:15s} 💨 {question[:40]:40s} | {elapsed:.1f}s | {token_count}t")
+    log_turn(turn_record(ip=ip, question=question, elapsed=elapsed, meta=meta,
+                         streamed=True, chunks=token_count))
     return resp
 
 
@@ -276,6 +364,7 @@ async def handle_status(request):
         "status": "ok",
         "version": "beta4",
         "uptime": round(time.time() - start_time, 1),
+        "quota": quota.status(),
     })
 
 
@@ -287,6 +376,7 @@ def create_app() -> web.Application:
     app.router.add_post("/api/ask", handle_ask)
     app.router.add_post("/api/ask/stream", handle_ask_stream)
     app.router.add_get("/api/status", handle_status)
+    app.router.add_get("/api/quota", handle_quota)
     return app
 
 
@@ -294,12 +384,14 @@ def create_app() -> web.Application:
 start_time = time.time()
 
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO,
+                        format="%(asctime)s %(levelname)s %(name)s %(message)s")
     print(f"")
     print(f"  ╔══════════════════════════════════╗")
     print(f"  ║  🐈  多游戏 Agent API            ║")
     print(f"  ╚══════════════════════════════════╝")
     print(f"")
-    print(f"  🔑 密码验证已启用")
+    print(f"  🔑 无密码访问，全局每日额度 {config['daily_quota']} 问")
     print(f"  🚦 速率限制: {config['rate_limit_per_min']}/分钟, {config['rate_limit_per_day']}/天")
     print(f"  🌐 监听: http://{config['host']}:{config['port']}")
     print(f"")
