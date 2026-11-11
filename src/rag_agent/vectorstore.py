@@ -1,4 +1,6 @@
 """向量数据库管理：文档切分、embedding、存储、检索。"""
+import os
+from functools import lru_cache
 from pathlib import Path
 from typing import List, Optional
 
@@ -11,11 +13,37 @@ from .config import OPENAI_API_KEY, OPENAI_BASE_URL, EMBEDDING_MODEL, FASTEMBED_
 from .data_converter import json_to_documents
 
 
+def _hf_model_cached(model_name: str) -> bool:
+    """判断 HuggingFace 模型是否已在本地缓存。
+
+    只读缓存目录，不联网。用不到 huggingface_hub 的常量导入失败时按"未缓存"处理。
+    """
+    try:
+        from huggingface_hub.constants import HF_HUB_CACHE
+    except Exception:
+        return False
+    cache = Path(os.getenv("HF_HUB_CACHE") or HF_HUB_CACHE)
+    return (cache / ("models--" + model_name.replace("/", "--"))).is_dir()
+
+
+@lru_cache(maxsize=4)
 def get_embeddings():
-    """获取 embedding 模型实例。"""
+    """获取 embedding 模型实例（进程内只构造一次）。
+
+    两个坑：
+      - fastembed 构造时会向 HuggingFace 查询仓库 revision，服务器没有外网时
+        会直接连不上（ConnectError: Network is unreachable），每次检索都失败；
+        模型已在本地缓存时强制离线（HF_HUB_OFFLINE=1），完全不联网。
+        注意 langchain 的 FastEmbedEmbeddings 不透传 local_files_only，
+        只能走环境变量这条路。
+      - 构造 + 加载 ONNX 会话要几百毫秒到几秒，原先每次 load_vectorstore 都新建，
+        既慢又容易和 lru_cache 的语义打架，这里加缓存。
+    """
     try:
         # 优先使用本地 fastembed（轻量，无需 API Key）
         from langchain_community.embeddings import FastEmbedEmbeddings
+        if _hf_model_cached(FASTEMBED_MODEL):
+            os.environ.setdefault("HF_HUB_OFFLINE", "1")
         print(f"使用本地 embedding（fastembed: {FASTEMBED_MODEL}）")
         return FastEmbedEmbeddings(model_name=FASTEMBED_MODEL)
     except ImportError:
@@ -261,7 +289,8 @@ def get_retriever(save_dir: str = VECTORSTORE_DIR, k: int = 8):
     """获取检索器。"""
     vectorstore = load_vectorstore(save_dir)
     return vectorstore.as_retriever(search_kwargs={"k": k})
-from functools import lru_cache
+
+
 @lru_cache(maxsize=8)
 def _load_vectorstore(save_dir: str = VECTORSTORE_DIR) -> FAISS:
     """加载已有向量库（支持离线生成的索引）。\n    使用 @lru_cache 避免多次加载。

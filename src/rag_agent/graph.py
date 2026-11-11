@@ -21,7 +21,7 @@ class AgentState(TypedDict, total=False):
     history: Optional[List[dict]]
     model_name: Optional[str]
     verbose: bool
-    # ── 路由状态（替代 _LAST_GAME 全局）──
+    # ── 当前请求内的路由状态 ──
     last_game: Optional[str]
     last_game_confirmed: bool
     detected_game: Optional[str]
@@ -33,6 +33,8 @@ class AgentState(TypedDict, total=False):
     db_ok: Optional[bool]
     # ── 最终回答 ──
     answer: str
+    # ── 观测（第 0 步：只统计不参与决策）──
+    usage: Optional[Dict[str, int]]
 
 
 _MENU_SWITCH = """你想切换到哪个游戏？请选择：
@@ -103,6 +105,38 @@ _KNOWN_EXTERNAL_GAMES = [
     "双人成行", "it takes two", "胡闹厨房", "overcooked",
 ]
 
+
+
+# ══════════════════════════════════════════
+#  用量统计（第 0 步观测层）
+# ══════════════════════════════════════════
+
+ZERO_USAGE: Dict[str, int] = {"tokens_in": 0, "tokens_out": 0, "tool_calls": 0}
+
+
+def usage_from_messages(messages) -> Dict[str, int]:
+    """从 Agent 的消息轨迹里汇总 token 与工具调用次数。
+
+    - 只统计 AIMessage：ToolMessage/HumanMessage 不产生用量
+    - 优先 usage_metadata（langchain 标准化字段）；缺失时回退到
+      response_metadata["token_usage"]（OpenAI 兼容接口的原始字段）
+    - 流式路径要拿到 usage，ChatOpenAI 必须开 stream_usage（见 _make_llm），
+      否则这里永远统计到 0
+    """
+    tokens_in = tokens_out = tool_calls = 0
+    for msg in messages or []:
+        if not isinstance(msg, AIMessage):
+            continue
+        tool_calls += len(getattr(msg, "tool_calls", None) or [])
+        usage = getattr(msg, "usage_metadata", None)
+        if usage:
+            tokens_in += int(usage.get("input_tokens") or 0)
+            tokens_out += int(usage.get("output_tokens") or 0)
+            continue
+        legacy = (getattr(msg, "response_metadata", None) or {}).get("token_usage") or {}
+        tokens_in += int(legacy.get("prompt_tokens") or 0)
+        tokens_out += int(legacy.get("completion_tokens") or 0)
+    return {"tokens_in": tokens_in, "tokens_out": tokens_out, "tool_calls": tool_calls}
 
 
 def _is_unknown_game_query(q: str) -> bool:
@@ -238,10 +272,11 @@ def menu_node(state: AgentState) -> dict:
       - 切换意图               → _MENU_SWITCH
       - 知识库未就绪            → 报错文案
 
-    返回：{"answer": state["menu_text"]}
+    返回：{"answer": state["menu_text"], "usage": 全零}
     """
     return {
-        "answer": state["menu_text"]
+        "answer": state["menu_text"],
+        "usage": dict(ZERO_USAGE),      # 菜单路径不过 LLM，用量恒为 0
     }
 
 
@@ -260,6 +295,10 @@ def _make_llm(state: AgentState, streaming: bool = False):
         config["model"] = state["model_name"]
     if streaming:                          # ③ 用途标记：要不要逐 token 输出
         config["streaming"] = True
+    # ④ 流式必须显式要求用量：不带 stream_options.include_usage 时，
+    #    OpenAI 兼容接口不会返回 usage，流式请求的 token 统计会恒为 0。
+    #    非流式路径下这个开关无副作用。
+    config["stream_usage"] = True
     return ChatOpenAI(**config)
 
 def _fallback_setup(state: AgentState):
@@ -277,7 +316,10 @@ def fallback_node_sync(state: AgentState) -> dict:
     """LLM 兜底节点（同步版，graph.invoke / ask() 路径用）。"""
     llm, messages = _fallback_setup(state)
     response = llm.invoke(messages)
-    return {"answer": response.content or "（无回复）"}
+    return {
+        "answer": response.content or "（无回复）",
+        "usage": usage_from_messages([response]),
+    }
 
 
 async def fallback_node(state: AgentState) -> dict:
@@ -291,7 +333,10 @@ async def fallback_node(state: AgentState) -> dict:
     """
     llm, messages = _fallback_setup(state)
     response = await llm.ainvoke(messages)
-    return {"answer": response.content or "（无回复）"}
+    return {
+        "answer": response.content or "（无回复）",
+        "usage": usage_from_messages([response]),
+    }
 
 
 # ══════════════════════════════════════════
@@ -329,9 +374,16 @@ def _agent_setup(state: AgentState):
 
 
 def _agent_answer(result: dict) -> dict:
-    """⑥ 提取最终回答：result["messages"] 是整个循环轨迹，最后一条才是答案。"""
+    """⑥ 提取最终回答：result["messages"] 是整个循环轨迹，最后一条才是答案。
+
+    顺带汇总用量（第 0 步观测）：API 层只拿到 answer 字符串，
+    工具调用轨迹只有节点里看得到，所以统计必须在这里做。
+    """
     answer = result["messages"][-1].content if result.get("messages") else ""
-    return {"answer": answer or "（Agent 没有返回有效回答）"}
+    return {
+        "answer": answer or "（Agent 没有返回有效回答）",
+        "usage": usage_from_messages(result.get("messages")),
+    }
 
 
 def agent_node_sync(state: AgentState) -> dict:

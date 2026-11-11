@@ -9,8 +9,8 @@
 
 ## 背景与动机
 
-GameGuide 已具备: 7 款游戏、LangGraph ReAct Agent、双通道检索（FAISS 向量 + SQLite 结构化）、
-Bilingual Embedding、剧透分级管理、API Server。
+GameGuide 已具备: 8 款游戏、LangGraph ReAct Agent、双通道检索（FAISS 向量 + SQLite 结构化）、
+Bilingual Embedding、剧透分级管理、API Server、SSE 流式响应和逐轮用量日志。
 
 但对照 AI 应用工程岗位的 JD 高频词（评测意识 Recall@K/MRR、重排、Agent 工具设计、trace、成本优化），
 还有四块硬伤:
@@ -18,7 +18,7 @@ Bilingual Embedding、剧透分级管理、API Server。
 1. **没有评测基线** — `scripts/eval/ragas.py` 写好了没跑过，检索质量没有数字
 2. **双通道未融合** — FAISS 与 SQLite 结果各自喂 LLM，没有 RRF 融合 + 重排，多阶段 RAG 只做了半程
 3. **没有查询理解层** — 问题不分类、不改写，剧透过滤只停留在 Prompt 层
-4. **工程化外壳不完整** — 无流式、无 trace、无缓存、无超时兜底
+4. **工程化外壳不完整** — 已有流式、逐轮用量日志和非流式超时，但仍无完整 trace、缓存和统一的底层超时/取消策略
 
 本计划按"先评测、再优化、每步可量化"的顺序推进，每阶段交付代码 + 数据 + 一篇博客。
 
@@ -110,15 +110,17 @@ Bilingual Embedding、剧透分级管理、API Server。
 
 ## Phase 5 — 生产化外壳
 
-现状: ROADMAP P2 已列"LangGraph 超时兜底 / 服务器模型缓存 / API 流式响应"，均未做。
+现状: 已有 aiohttp SSE、逐轮用量日志和非流式请求超时；完整 trace、缓存及底层调用的统一超时仍未完成。
 
 任务:
-- [ ] SSE 流式响应（FastAPI StreamingResponse）
+- [x] SSE 流式响应（aiohttp `StreamResponse`）
+- [x] 逐轮结构化用量日志（路由、游戏、Token、工具调用、耗时）
+- [x] 非流式请求移出事件循环，并增加默认 120 秒超时
 - [ ] 语义缓存 / 结果缓存: 相同或近似查询命中缓存，降低 LLM 调用成本
-- [ ] 可观测性: 每轮对话输出结构化 trace（路由选择 → 检索了什么 → 召回了什么 → 最终答案），
+- [ ] 可观测性: 在现有用量日志上补充检索内容与工具轨迹，
       能回放"为什么答成这样"（自写轻量方案或 langfuse）
 - [ ] 模型路由意识: 简单问题走小/快模型、复杂走强模型（可作为实验，不强制上线）
-- [ ] 超时与重试兜底（对齐 ROADMAP P2）
+- [ ] SSE、底层模型调用的统一超时、取消与重试兜底
 
 验收: 一次完整对话能从 trace 还原每一跳决策；流式可用；缓存命中率有记录。
 

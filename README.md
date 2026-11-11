@@ -1,148 +1,169 @@
-# GameGuide RAG Agent 🎮
+# GameGuide RAG Agent
 
-多游戏 RAG（检索增强生成）Agent，基于 LangGraph + FAISS + SQLite 架构，
-支持对 7 款游戏的 Wiki 知识进行问答。
+多游戏 RAG（检索增强生成）Agent，基于 LangGraph + FAISS + SQLite，
+目前注册了 8 款游戏的 Wiki 知识库。
 
 ## 支持的游戏
 
-| 游戏 | 数据来源 | 结构化 DB 记录 | 向量库 |
-|:----|:---------|:--------------:|:------:|
-| 空洞骑士 (Hollow Knight) | Fandom Wiki + HallownestAPI | 437 条 | ✅ |
-| 缺氧 (ONI) | Fandom Wiki EN/ZH | 271 条 | ✅ |
-| 泰拉瑞亚 (Terraria) | Fandom Wiki | 820 条 | ✅ |
-| 丝之歌 (Silksong) | Fandom Wiki | 100 条 | ✅ |
-| 赛博朋克2077 (Cyberpunk 2077) | Fandom Wiki | ~4,302 条 | ✅ |
-| 怪物猎人：荒野 (MH Wilds) | Fandom Wiki | ~1,961 条 | ✅ |
-| VA-11 Hall-A | Fandom Wiki | 133 条 | ✅ |
+| 游戏 | 内部键 | 主要数据来源 |
+|:----|:-------|:------------|
+| 空洞骑士 (Hollow Knight) | `hollow_knight` | Fandom Wiki + HallownestAPI |
+| 丝之歌 (Hollow Knight: Silksong) | `silksong` | Fandom Wiki |
+| 缺氧 (Oxygen Not Included) | `oni` | Fandom Wiki EN/ZH |
+| 泰拉瑞亚 (Terraria) | `terraria` | Fandom Wiki |
+| 怪物猎人：荒野 (Monster Hunter Wilds) | `mhw` | Fandom Wiki |
+| 赛博朋克 2077 (Cyberpunk 2077) | `cyberpunk2077` | Fandom Wiki |
+| 赛博朋克酒保行动 (VA-11 Hall-A) | `va11halla` | Fandom Wiki |
+| 博德之门 3 (Baldur's Gate 3) | `baldurs_gate3` | bg3.wiki |
+
+游戏名称、路径、路由关键词和 Wiki 配置统一维护在
+`src/rag_agent/game_registry.py`。
 
 ## 架构
 
-```
+```text
 用户问题
-    │
-    ▼
-┌────────────────────┐
-│   game_router      │  ← 检测是哪个游戏
-│   (信号词匹配)     │
-└────────┬───────────┘
-         ▼
-┌────────────────────┐
-│  LangGraph Agent   │  ← 自动选择工具
-│  (ReAct 模式)      │
-└──┬─────────────┬───┘
-   ▼             ▼
-┌────────┐ ┌──────────┐
-│ RAG    │ │ SQLite   │
-│ 向量   │ │ 结构化   │
-│ 检索   │ │ 查询     │
-└────────┘ └──────────┘
+   ↓
+aiohttp API：限流、每日额度、请求观测
+   ↓
+LangGraph detect_game：识别游戏与对话上下文
+   ├─ 无法识别 → 游戏菜单
+   ├─ 未支持的游戏 → LLM 兜底
+   └─ 已支持的游戏 → ReAct Agent
+                       ├─ FAISS：剧情、机制、位置、攻略等文本检索
+                       ├─ SQLite：属性、费用、伤害等结构化查询
+                       └─ Schema：查看数据库表结构
 ```
 
-**双通道检索：**
-- **RAG 向量检索** — 自然语言描述、剧情、策略、攻略等非结构化文本
-- **SQLite 结构化查询** — 数值、属性、精确数据（Boss HP、护符费用等）
+多轮上下文由调用方随每次请求传入 `history`。服务不会在不同请求或用户之间
+共享“上一轮游戏”；没有历史且无法识别游戏时会返回游戏菜单。
 
 ## 项目结构
 
-```
+```text
 .
-├── api_server.py              # FastAPI 服务器入口
-├── api_config.json            # 服务器配置（端口、密码、限速）
+├── api_server.py                 # aiohttp 服务入口
 ├── src/rag_agent/
-│   ├── multi_agent.py         # Agent 主逻辑 + 工具定义
-│   ├── vectorstore.py         # FAISS 向量库加载
-│   ├── data_converter.py      # 文档→向量转换
-│   ├── config.py              # LLM / Embedding 配置
-│   ├── db/                    # 各游戏数据库模块
-│   └── games/                 # 各游戏数据路径配置
+│   ├── multi_agent.py            # ask / ask_stream 对外入口
+│   ├── graph.py                  # LangGraph 路由与 ReAct Agent
+│   ├── tools.py                  # 向量检索与 SQLite 工具
+│   ├── game_registry.py          # 游戏配置单源
+│   ├── game_router.py            # 游戏识别与提示词
+│   ├── vectorstore.py            # FAISS 加载、缓存与检索器
+│   ├── data_converter.py         # 空洞骑士 JSON 转文档
+│   ├── hk_db.py                  # 空洞骑士结构化数据库
+│   └── config.py                 # LLM / Embedding 配置
 ├── scripts/
-│   ├── build/                 # 数据库构建
-│   │   ├── build_game_db.py
-│   │   ├── cyberpunk_db.py
-│   │   ├── generic_db.py
-│   │   ├── mhw_db.py
-│   │   └── va11halla_db.py
-│   ├── enrich/                # 数据补全
-│   │   ├── mhw.py
-│   │   ├── oni.py
-│   │   ├── terraria.py
-│   │   └── wiki_data.py
-│   ├── fetch/                 # Wiki 数据采集
-│   │   ├── wiki.py
-│   │   └── silksong.py
-│   ├── eval/                  # 评估
-│   │   ├── ragas.py
-│   │   └── check_imports.py
-│   ├── deploy/                # 部署
-│   │   ├── api.sh             # 服务器启动/重启
-│   │   └── vectorstores.sh    # 向量库 scp 部署
-│   ├── tool/                  # 开发工具
-│   │   ├── ingest_game.py     # 向量库构建（本地）
-│   │   └── mac_build.py       # Mac 远程构建助手
-│   └── archive/               # 已归档的旧脚本
-├── games/                     # 各游戏数据目录
-│   ├── hollow_knight/data/
-│   ├── oni/data/
-│   │   ...
-├── tests/                     # 测试
-├── config.py                  # 项目级配置
-├── requirements.txt           # Python 依赖
-└── .env                       # API Key 配置
+│   ├── fetch/                    # Wiki 数据采集
+│   ├── build/                    # SQLite 数据库构建
+│   ├── enrich/                   # 数据补全
+│   ├── tool/ingest_game.py       # FAISS 向量库构建
+│   ├── tool/mac_build.py         # Mac 远程构建助手
+│   ├── eval/                     # 评估脚本
+│   └── deploy/                   # 部署脚本
+├── games/<游戏键>/               # 各游戏文档、数据库和向量库
+└── tests/                        # 离线单测与可选端到端测试
 ```
 
-## 快速开始
+## 启动 API
 
-### 启动 API 服务器
-
-已在服务器上部署，通过 Caddy 反向代理暴露：
-- **地址**: `https://api.weirdsnap.top`
-- **端口**: 8765（内部）→ 443（公共）
-- **认证**: 密码（在 `api_config.json` 中配置）
+先准备 Python 环境、安装 `requirements.txt`，并根据 `.env.example` 配置模型服务：
 
 ```bash
-# 本地测试（需要先配置 .env）
-source .venv/bin/activate
+python -m pip install -r requirements.txt
 python api_server.py
 ```
 
-### 发送请求
+服务默认监听 `0.0.0.0:8765`，生产环境通过 Caddy 暴露为
+`https://api.weirdsnap.top`。
+
+`api_config.json` 不存在时会按默认值生成。主要配置：
+
+| 配置 | 默认值 | 用途 |
+|:-----|:-------|:-----|
+| `daily_quota` | `100` | 所有访客共享的每日提问额度 |
+| `rate_limit_per_min` | `20` | 单客户端 IP 每分钟请求上限 |
+| `rate_limit_per_day` | `600` | 单客户端 IP 每日请求上限 |
+| `request_timeout` | `120` | 非流式问答的秒级超时 |
+| `trusted_proxies` | `["127.0.0.1", "::1"]` | 允许提供真实客户端 IP 的可信代理 |
+
+只有来自 `trusted_proxies` 的请求才会读取 `X-Forwarded-For`。如果更换代理
+部署方式，需要同步调整此列表；不要无条件信任公网请求中的转发头。
+
+## API
+
+接口无密码认证。`/api/login` 仅为旧前端保留兼容占位。
+
+### 普通问答
 
 ```bash
-curl -X POST https://api.weirdsnap.top/chat \
+curl -X POST https://api.weirdsnap.top/api/ask \
   -H "Content-Type: application/json" \
-  -H "Authorization: Bearer <密码>" \
-  -d '{"message": "空洞骑士里亡者之怒在哪里拿？"}'
+  -d '{"question": "空洞骑士里亡者之怒在哪里拿？", "history": []}'
 ```
 
-响应格式：
+响应示例：
+
 ```json
 {
-  "answer": "亡者之怒（Fury of the Fallen）可以在国王小径（King's Pass）找到...",
-  "game": "hollow_knight"
+  "answer": "亡者之怒（Fury of the Fallen）可以在国王小径找到……",
+  "elapsed": 3.2,
+  "quota": {"date": "2026-11-05", "used": 12, "limit": 100, "remaining": 88}
 }
 ```
 
+多轮对话传入本会话自己的历史：
+
+```json
+{
+  "question": "它占用几个护符槽？",
+  "history": [
+    {"role": "user", "content": "空洞骑士里亡者之怒在哪里拿？"},
+    {"role": "assistant", "content": "亡者之怒可以在国王小径找到……"}
+  ]
+}
+```
+
+### 其他端点
+
+- `POST /api/ask/stream`：SSE 流式问答，事件类型为 `meta`、`token`、`error`、`done`。
+- `GET /api/quota`：查询当天全局额度。
+- `GET /api/status`：健康检查，包含运行时长和额度状态。
+
+额度或 IP 限流触发时返回 HTTP 429；非流式请求超时返回 HTTP 504。
+
 ## 数据流水线
 
-添加新游戏或更新数据的流程：
-
-```
-① fetch/wiki.py           ← 从 Fandom API 抓取 Wiki 页面
-② build/build_game_db.py  ← 解析并存入 SQLite 数据库
-③ enrich/*                ← 可选：从其他来源补全数据
-④ tool/ingest_game.py     ← 构建 FAISS 向量库（需在 Mac 本地运行）
-⑤ deploy/vectorstores.sh  ← 将向量库 scp 到服务器
-⑥ deploy/api.sh           ← 在服务器上重启 API
+```text
+① scripts/fetch/               从 Wiki API 抓取页面
+② scripts/build/               解析并构建 SQLite 数据库
+③ scripts/enrich/              可选：从其他来源补全数据
+④ scripts/tool/ingest_game.py  构建 FAISS 向量库（在 Mac 本地运行）
+⑤ scripts/deploy/vectorstores.sh  部署向量库
+⑥ scripts/deploy/api.sh        重启 API
 ```
 
-## 开发笔记
+## 测试
 
-- **Embedding 模型**: `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2`
-  - 支持中文查询检索英文文档
-  - 切换模型需全量重构建向量库
-- **向量库构建**：必须在 Mac 本地运行（服务器仅 3.6GB 内存，跑不动 FastEmbed + FAISS）
-- **Mac 远程构建**: `python3 scripts/tool/mac_build.py --game all`
-- **LLM**: DeepSeek Flash (deepseek-chat)，兼容 OpenAI API
+```bash
+# 离线测试，不调用真实 LLM
+python -m pytest tests -q
+
+# 真实 LLM 端到端用例，需要 API Key
+python -m pytest tests/test_qa.py --run-e2e
+
+# 路由、检索与轻量端到端评估脚本
+python tests/test_light.py
+```
+
+`tests/test_light.py` 是独立评估脚本，不属于默认 pytest 收集范围。
+
+## 开发注意事项
+
+- Embedding 默认使用 `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2`，支持中文查询检索英文文档。
+- 更换 Embedding 模型后必须全量重建向量库。
+- 向量库在 Mac 本地构建，服务器只负责加载与查询。
+- 默认对话模型由 `CHAT_MODEL` 配置，通过 OpenAI 兼容接口调用。
 
 ## 许可
 

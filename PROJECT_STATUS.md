@@ -1,46 +1,46 @@
-# 空洞骑士 RAG Agent — 项目状态
+# GameGuide — 当前项目状态
 
-## ✅ 已完成
+## 已完成
 
-### P0 — 核心 MVP
+### 核心问答
 
-- [x] HallownestAPI 数据导入与转换（53区域、137连接、12能力锁标注）
-- [x] 253条自然语言知识文档（hallownest_knowledge.md）
-- [x] 本地 embedding 生成（Mac M3 → BAAI/bge-small-en-v1.5）
-- [x] FAISS 向量库构建 & 上传服务器（255 vectors, 384 dims）
-- [x] 服务器端 fastembed 模型下载（hf-mirror 镜像）
-- [x] LangChain 1.3.11 新 API（create_agent）适配
-- [x] DeepSeek V4 + RAG 查询链路打通
-- [x] 3 个测试问题验证通过
-- [x] GitHub 代码推送
+- 8 款游戏统一注册与信号词路由。
+- LangGraph 外层路由 + ReAct Agent 工具调用。
+- FAISS 非结构化检索 + SQLite 精确数据查询。
+- 多语言 Embedding 与 FAISS 加载缓存。
+- 普通问答、SSE 流式问答和 LLM 未知游戏兜底。
 
-### P1 — 体验完善
+### API 与可靠性
 
-- [x] 向量库加载缓存（避免每次工具调用重复加载）
+- 无密码公开访问，全局每日 100 问额度并持久化。
+- 按客户端 IP 的分钟级和每日限速。
+- Caddy 可信代理后的真实客户端 IP 解析。
+- 每轮路由、Token、工具调用、耗时和错误日志。
+- 非流式 Agent 调用移出 aiohttp 事件循环，默认 120 秒超时。
+- 多轮游戏上下文只从当前请求的 `history` 推导，不再使用进程级全局状态。
 
-## 📋 待办
+### 测试
 
-### P1 — 体验完善
+- 离线测试覆盖游戏路由、LangGraph 契约、额度、用量观测和 API 处理器。
+- 真实 LLM 测试默认跳过，需显式传入 `--run-e2e`。
+- 路由、检索和轻量端到端评估通过 `tests/test_light.py` 单独运行。
 
-- [ ] Web UI / 飞书机器人集成
-- [ ] 交互式 CLI 测试更多场景（Boss 攻略、护符搭配等）
+## 待办优先级
 
-### P2 — 进阶功能
+1. 建立 golden QA 与 RAGAS 基线，用数字指导检索优化。
+2. 为流式请求和底层模型调用补全统一超时与取消策略。
+3. 限制历史长度和单请求 Token 成本，明确失败请求的额度策略。
+4. 持续补全各游戏数据与中英术语映射。
 
-- [ ] 多轮对话上下文记忆
-- [ ] 数据更新脚本（当 HallownestAPI 有变化时重建）
-- [ ] 中文模型（BAAI/bge-large-zh-v1.5 等）可选方案
-- [ ] 查询结果排序优化（MMR / 重新排序）
+详细计划见 `ROADMAP.md` 和 `docs/AI_APPLICATION_ENGINEERING_PLAN.md`。
 
-## 🐛 已知问题
-
-- `get_retriever()` 每次工具调用都会重新加载向量库（当前通过模块级缓存缓解）
-
-## 📊 技术栈
+## 技术栈
 
 | 组件 | 方案 |
-|------|------|
-| 向量库 | FAISS (langchain_community) |
-| 本地 Embedding | fastembed + BAAI/bge-small-en-v1.5 |
-| LLM | DeepSeek V4 Flash (OpenAI 兼容) |
-| Agent 框架 | LangChain 1.3.11 + LangGraph |
+|:-----|:-----|
+| HTTP | aiohttp + Caddy |
+| Agent | LangChain + LangGraph ReAct |
+| LLM | OpenAI 兼容接口，默认模型由 `CHAT_MODEL` 配置 |
+| 向量库 | FAISS |
+| Embedding | fastembed + paraphrase-multilingual-MiniLM-L12-v2 |
+| 结构化数据 | SQLite |
