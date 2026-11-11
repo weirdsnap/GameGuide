@@ -15,6 +15,10 @@
     python3 scripts/tool/mac_build.py --game cyberpunk2077
     python3 scripts/tool/mac_build.py --game va11halla
     python3 scripts/tool/mac_build.py --game mhw
+    python3 scripts/tool/mac_build.py --game baldurs_gate3
+
+一键版（拉代码 + 环境自检 + 建库 + 本地检索自检 + 给部署命令）：
+    bash scripts/tool/mac_prepare_build.sh --game baldurs_gate3
 
 前置条件：
     pip install -r requirements.txt              # 安装 fastembed 等依赖
@@ -236,6 +240,7 @@ def load_structured_data(game_key: str) -> List[Dict]:
         return []
 
     docs = []
+    used_tables = []
     conn = sqlite3.connect(str(db_path))
     conn.row_factory = sqlite3.Row
     cur = conn.cursor()
@@ -244,8 +249,12 @@ def load_structured_data(game_key: str) -> List[Dict]:
     tables = [t[0] for t in cur.fetchall()]
 
     for table in tables:
-        if table == "game_meta":
+        # game_meta：库元信息；sqlite_sequence：自增计数；pages：整页原文，
+        # 与 wiki_data.md 完全重复（BG3 实测 9342 页标题全部能在 wiki 里找到），
+        # 不跳过会让块数几乎翻倍、造成重复命中
+        if table in ("game_meta", "sqlite_sequence", "pages"):
             continue
+        used_tables.append(table)
         cur.execute(f"SELECT * FROM \"{table}\"")
         cols = [d[0] for d in cur.description]
         rows = cur.fetchall()
@@ -259,7 +268,7 @@ def load_structured_data(game_key: str) -> List[Dict]:
             })
 
     conn.close()
-    print(f"  🗄️  {len(docs)} 条结构化数据 ({', '.join(tables)})")
+    print(f"  🗄️  {len(docs)} 条结构化数据 ({', '.join(used_tables)})")
     return docs
 
 
@@ -347,16 +356,12 @@ def main():
         build_vectorstore(args.game)
 
     print(f"\n🎉 全部完成！")
-    print("请将 vectorstore 目录传回服务器：")
-    print("  scp -r games/oni/vectorstore/ snap@114.132.189.56:/data/learning/agent/games/oni/")
-    print("  scp -r games/terraria/vectorstore/ snap@114.132.189.56:/data/learning/agent/games/terraria/")
-    print("  scp -r games/silksong/vectorstore/ snap@114.132.189.56:/data/learning/agent/games/silksong/")
-    print("  scp -r games/cyberpunk2077/vectorstore/ snap@114.132.189.56:/data/learning/agent/games/cyberpunk2077/")
-    print("  scp -r games/va11halla/vectorstore/ snap@114.132.189.56:/data/learning/agent/games/va11halla/")
-    print("  scp -r games/mhw/vectorstore/ snap@114.132.189.56:/data/learning/agent/games/mhw/")
-    print("  scp -r games/hollow_knight/vectorstore/ snap@114.132.189.56:/data/learning/agent/games/hollow_knight/     (如果重建 HK)")
+    print("请将向量库传回服务器：")
+    targets = list(GAME_DATA.keys()) if args.game == "all" else [args.game]
+    for key in targets:
+        print(f"  bash scripts/deploy/vectorstores.sh {key}")
     print()
-    print("覆盖后重启服务器即可生效。")
+    print("覆盖后重启服务器 API 即可生效：bash scripts/deploy/api.sh")
 
 
 if __name__ == "__main__":
