@@ -31,6 +31,12 @@ import sys
 from pathlib import Path
 from typing import List, Dict
 
+# 保证从任意 cwd 运行都能 import rag_agent（与 ingest_game.py 一致）
+_PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+_SRC_DIR = _PROJECT_ROOT / "src"
+if str(_SRC_DIR) not in sys.path:
+    sys.path.insert(0, str(_SRC_DIR))
+
 from rag_agent.game_registry import GAME_REGISTRY, GAME_DB_MAPPING, GAMES_DIR
 
 
