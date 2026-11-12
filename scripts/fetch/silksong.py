@@ -75,6 +75,35 @@ def find_titles():
     
     return sorted(found)
 
+def keep_silksong_only(titles):
+    """按页面分类过滤：只保留分类里带 Silksong 的页面。
+
+    策略 1/3 的全文搜索会把「提到 Silksong」的空洞骑士页面（Grimm、Radiance 等）
+    一起捞进来——旧库 47k 块里混 HK Boss 就是这么来的（2026-11-12 服务器实测）。
+    """
+    ok, dropped = [], []
+    for i in range(0, len(titles), 50):
+        batch = titles[i:i+50]
+        try:
+            data = api({"action": "query", "titles": "|".join(batch),
+                        "prop": "categories", "cllimit": "max", "format": "json"})
+            pages = data.get("query", {}).get("pages", {})
+            for p in pages.values():
+                t = p.get("title", "")
+                cats = [c.get("title", "") for c in p.get("categories", [])]
+                if any("silksong" in c.lower() for c in cats):
+                    ok.append(t)
+                else:
+                    dropped.append(t)
+        except Exception as e:
+            print(f"   ⚠️ 分类校验失败（{e}），本批保守丢弃")
+            dropped.extend(batch)
+        time.sleep(0.2)
+    print(f"   分类过滤: 保留 {len(ok)}，丢弃 {len(dropped)}"
+          f"（样例: {', '.join(dropped[:5])}{'…' if len(dropped) > 5 else ''}）")
+    return ok
+
+
 def fetch(title):
     data = api({"action":"parse","page":title,"prop":"text","format":"json","redirects":"1"})
     html = data["parse"]["text"]["*"]
@@ -91,7 +120,9 @@ def main():
     
     print(f"\n1️⃣  查找页面...")
     titles = find_titles()
-    print(f"   共 {len(titles)} 个页面")
+    print(f"   候选 {len(titles)} 个页面")
+    titles = keep_silksong_only(titles)
+    print(f"   过滤后 {len(titles)} 个页面")
     
     print(f"\n2️⃣  爬取内容...")
     ok, err, sections = 0, 0, []
