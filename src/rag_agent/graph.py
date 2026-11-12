@@ -13,6 +13,7 @@ from langgraph.utils.runnable import RunnableCallable
 from rag_agent.config import LLM_CONFIG
 from rag_agent.game_router import detect_game, build_game_prompt, build_common_rules, is_switch_query
 from rag_agent.game_router import AVAILABLE_GAMES
+from rag_agent.game_registry import GAME_MENU, KNOWN_KEYWORDS
 from rag_agent.tools import GAME_TOOLS
 
 # 图状态类
@@ -37,36 +38,20 @@ class AgentState(TypedDict, total=False):
     usage: Optional[Dict[str, int]]
 
 
-_MENU_SWITCH = """你想切换到哪个游戏？请选择：
-
-1. 🐈 **空洞骑士** (Hollow Knight)
-2. 🪱 **丝之歌** (Hollow Knight Silksong)
-3. 💨 **缺氧** (Oxygen Not Included)
-4. 🪨 **泰拉瑞亚** (Terraria)
-5. 🐉 **怪物猎人荒野** (Monster Hunter Wilds)
-6. 🤖 **赛博朋克2077** (Cyberpunk 2077)
-7. 🍸 **赛博朋克酒保行动** (VA-11 Hall-A)
-8. 🧙 **博德之门3** (Baldur's Gate 3)
-
-直接告诉我游戏名称就可以啦！"""
+def _build_menu(header: str, tail: str) -> str:
+    """菜单从注册表派生（GAME_MENU），新增游戏不用改这里。"""
+    lines = [f"{i}. {g['emoji']} **{g['zh']}** ({g['en']})"
+             for i, g in enumerate(GAME_MENU, 1)]
+    return f"{header}\n\n" + "\n".join(lines) + f"\n\n{tail}"
 
 
-_MENU_NEW = """请问你想问哪款游戏的攻略？请选择：
-
-1. 🐈 **空洞骑士** (Hollow Knight)
-2. 🪱 **丝之歌** (Hollow Knight Silksong)
-3. 💨 **缺氧** (Oxygen Not Included)
-4. 🪨 **泰拉瑞亚** (Terraria)
-5. 🐉 **怪物猎人荒野** (Monster Hunter Wilds)
-6. 🤖 **赛博朋克2077** (Cyberpunk 2077)
-7. 🍸 **赛博朋克酒保行动** (VA-11 Hall-A)
-8. 🧙 **博德之门3** (Baldur's Gate 3)
-
-直接告诉我游戏名称就可以开始啦！"""
+_MENU_SWITCH = _build_menu("你想切换到哪个游戏？请选择：", "直接告诉我游戏名称就可以啦！")
+_MENU_NEW = _build_menu("请问你想问哪款游戏的攻略？请选择：", "直接告诉我游戏名称就可以开始啦！")
+_SUPPORTED_ZH = "、".join(g["zh"] for g in GAME_MENU)
 
 _FALLBACKPT = (
-                "用户问了一个游戏问题，但这个游戏不在你的知识库中（支持的游戏："
-                "空洞骑士、丝之歌、缺氧、泰拉瑞亚、怪物猎人荒野、赛博朋克2077、赛博朋克酒保行动、博德之门3）。\n\n"
+                f"用户问了一个游戏问题，但这个游戏不在你的知识库中（支持的游戏："
+                f"{_SUPPORTED_ZH}）。\n\n"
                 "请按以下原则回答：\n"
                 "1. 先告知用户「这个游戏不在我的专业知识库中，以下信息基于我的训练数据，"
                 "可能不完全准确」。\n"
@@ -147,14 +132,8 @@ def _is_unknown_game_query(q: str) -> bool:
     """
     ql = q.lower().strip()
 
-    # 排除已知游戏（避免误判）
-    known_keywords = ["空洞", "丝之歌", "silksong", "缺氧", "oni",
-                      "泰拉瑞亚", "terraria", "赛博朋克", "cyberpunk",
-                      "酒保", "va11", "hall-a", "va-11",
-                      "怪物猎人荒野", "monster hunter wilds", "mh wilds",
-                      "博德之门", "博得之门", "baldur", "bg3", "dnd", "d&d",
-                      "龙与地下城", "至上真神", "夺心魔"]
-    for kw in known_keywords:
+    # 排除已知游戏（避免误判）；词表从注册表派生（名称 + aliases）
+    for kw in KNOWN_KEYWORDS:
         if kw in ql:
             return False
 

@@ -34,6 +34,8 @@ def _reg(entry: GameEntry) -> None:
 
 _reg({
     "key": "hollow_knight",
+    "emoji": "🐈",
+    "aliases": ["空洞", "hk"],
     "spoiler_axis": "ability",
     "name": "Hollow Knight (空洞骑士)",
     "name_short": "Hollow Knight",
@@ -75,6 +77,8 @@ _reg({
 
 _reg({
     "key": "oni",
+    "emoji": "💨",
+    "aliases": ["oni"],
     "spoiler_axis": "none",
     "name": "Oxygen Not Included (缺氧)",
     "name_short": "Oxygen Not Included",
@@ -111,6 +115,8 @@ _reg({
 
 _reg({
     "key": "terraria",
+    "emoji": "🪨",
+    "aliases": [],
     "spoiler_axis": "ability",
     "name": "Terraria (泰拉瑞亚)",
     "name_short": "Terraria",
@@ -143,6 +149,8 @@ _reg({
 
 _reg({
     "key": "silksong",
+    "emoji": "🪱",
+    "aliases": [],
     "spoiler_axis": "ability",
     "name": "Hollow Knight Silksong (丝之歌)",
     "name_short": "Silksong",
@@ -176,6 +184,8 @@ _reg({
 
 _reg({
     "key": "cyberpunk2077",
+    "emoji": "🤖",
+    "aliases": ["赛博朋克", "cyberpunk"],
     "spoiler_axis": "chapter",
     "name": "Cyberpunk 2077 (赛博朋克2077)",
     "name_short": "Cyberpunk 2077",
@@ -223,6 +233,8 @@ _reg({
 
 _reg({
     "key": "va11halla",
+    "emoji": "🍸",
+    "aliases": ["酒保", "va11", "hall-a", "va-11", "valhalla"],
     "spoiler_axis": "chapter",
     "name": "VA-11 Hall-A (赛博朋克酒保行动)",
     "name_short": "VA-11 Hall-A",
@@ -260,6 +272,8 @@ _reg({
 
 _reg({
     "key": "mhw",
+    "emoji": "🐉",
+    "aliases": ["怪猎", "怪物猎人", "mh wilds", "mhw"],
     "spoiler_axis": "none",
     "name": "Monster Hunter Wilds (怪物猎人荒野)",
     "name_short": "Monster Hunter Wilds",
@@ -301,6 +315,8 @@ _reg({
 
 _reg({
     "key": "baldurs_gate3",
+    "emoji": "🧙",
+    "aliases": ["博德之门", "博得之门", "baldur", "bg3", "dnd", "d&d", "龙与地下城", "至上真神", "夺心魔"],
     "spoiler_axis": "act",
     "name": "Baldur's Gate 3 (博德之门3)",
     "name_short": "Baldur's Gate 3",
@@ -395,6 +411,22 @@ for key, cfg in GAME_REGISTRY.items():
     GAME_EXACT_PATTERNS[key] = cfg["exact_patterns"]
     if cfg.get("extra_prompt"):
         EXTRA_PROMPT_NOTES[key] = cfg["extra_prompt"]
+
+
+# ── graph.py：菜单与 known_keywords（单一来源，别再在 graph.py 里另维护一份）──
+
+GAME_MENU: List[Dict[str, str]] = []     # [{key, emoji, zh, en}]，注册顺序即菜单顺序
+KNOWN_KEYWORDS: List[str] = []           # _is_unknown_game_query 的已知游戏排除词
+
+for key, cfg in GAME_REGISTRY.items():
+    m = re.search(r"\((.+?)\)", cfg["name"])
+    zh = m.group(1) if m else cfg["name"]
+    en = cfg["name"][:m.start()].strip() if m else cfg.get("name_short", cfg["name"])
+    GAME_MENU.append({"key": key, "emoji": cfg.get("emoji", "🎮"), "zh": zh, "en": en})
+    KNOWN_KEYWORDS += [zh, en.lower(), cfg.get("name_short", "").lower()]
+    KNOWN_KEYWORDS += [a.lower() for a in cfg.get("aliases", [])]
+
+KNOWN_KEYWORDS = sorted({k for k in KNOWN_KEYWORDS if k}, key=len, reverse=True)
 
 
 # ── ingest_game.py / mac_build.py ──

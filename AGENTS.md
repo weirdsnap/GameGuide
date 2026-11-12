@@ -241,11 +241,10 @@ python scripts/eval/ragas_eval.py --game all --limit 5   # 报告输出到 evalu
   huggingface_hub 已初始化，HF_* 环境变量不生效），见 `ingest_game.py` 头部。
 - 新增游戏需要改的地方：
   1. `src/rag_agent/game_registry.py` — 加一条 `_reg({...})`（key/name/dir/db_file/data_file/
-     signals/exact_patterns/wiki_*/spoiler_axis）。`game_router`、`tools`、`ingest_game`、`mac_build`、
-     `vectorstores.sh` 都从注册表派生，不需要再改；
-  2. `src/rag_agent/graph.py` — 菜单文案（`_MENU_NEW`/`_MENU_SWITCH`）和
-     `_is_unknown_game_query` 的 known_keywords 仍是硬编码，记得同步；
-  3. 准备 `games/<game>/data/wiki_data.md`（+ 可选 `wiki_data_zh.md`）与 `<game>_data.db`。
+     signals/exact_patterns/wiki_*/spoiler_axis/emoji/aliases）。`game_router`、`tools`、
+     `ingest_game`、`mac_build`、`vectorstores.sh`、`graph.py` 的菜单与 known_keywords
+     都从注册表派生，不需要再改；
+  2. 准备 `games/<game>/data/wiki_data.md`（+ 可选 `wiki_data_zh.md`）与 `<game>_data.db`。
 - 脚本入口必须先 `sys.path.insert(.../src)` 再 `import rag_agent`。反了会直接
   `ModuleNotFoundError`（`ingest_game.py`/`wiki.py` 曾踩过），
   `tests/test_script_entrypoints.py` 会从任意 cwd 跑 `--help` 冒烟。
