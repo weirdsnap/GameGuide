@@ -83,7 +83,7 @@
 {"name_en": "Raphael", "base_en": "Raphael", "kind": "boss", "name_zh": "拉斐尔", "conf": 0.98, "variants": [], "wiki_freq": 1016, "model": "deepseek-v4-flash", "ts": "2026-11-05T18:50:27+08:00"}
 {"name_en": "Mayrina", "base_en": "Mayrina", "kind": "character", "name_zh": "梅丽娜", "conf": 0.95, "variants": [], "wiki_freq": 1009, "model": "deepseek-v4-flash", "ts": "2026-11-05T18:50:27+08:00"}
 {"name_en": "Mol", "base_en": "Mol", "kind": "character", "name_zh": "摩尔", "conf": 0.95, "variants": [], "wiki_freq": 1006, "model": "deepseek-v4-flash", "ts": "2026-11-05T18:50:27+08:00"}
-{"name_en": "Lae'zel", "base_en": "Lae'zel", "kind": "character", "name_zh": "莱埃泽尔", "conf": 0.98, "variants": [], "wiki_freq": 1003, "model": "deepseek-v4-flash", "ts": "2026-11-05T18:50:27+08:00"}
+{"name_en": "Lae'zel", "base_en": "Lae'zel", "kind": "character", "name_zh": "莱埃泽尔", "conf": 0.98, "variants": ["养鸡妹"], "wiki_freq": 1003, "model": "deepseek-v4-flash", "ts": "2026-11-05T18:50:27+08:00"}
 {"name_en": "Daughter of Darkness", "base_en": "Daughter of Darkness", "kind": "quest", "name_zh": "黑暗之女", "conf": 0.9, "variants": ["Daughter of Darkness (Origin)"], "wiki_freq": 1002, "model": "deepseek-v4-flash", "ts": "2026-11-05T18:50:27+08:00"}
 {"name_en": "Investigate the Suspicious Toys", "base_en": "Investigate the Suspicious Toys", "kind": "quest", "name_zh": "调查可疑的玩具", "conf": 0.9, "variants": [], "wiki_freq": 995, "model": "deepseek-v4-flash", "ts": "2026-11-05T18:50:27+08:00"}
 {"name_en": "Get Orin's Netherstone", "base_en": "Get Orin's Netherstone", "kind": "quest", "name_zh": "取得奥林的耐瑟石", "conf": 0.85, "variants": [], "wiki_freq": 991, "model": "deepseek-v4-flash", "ts": "2026-11-05T18:50:27+08:00"}
@@ -124,7 +124,7 @@
 {"name_en": "Avenge the Drowned", "base_en": "Avenge the Drowned", "kind": "quest", "name_zh": "为溺亡者复仇", "conf": 0.5, "variants": [], "wiki_freq": 808, "model": "deepseek-v4-flash", "ts": "2026-11-05T18:50:27+08:00"}
 {"name_en": "Storehouse", "base_en": "Storehouse", "kind": "location", "name_zh": "仓库", "conf": 0.55, "variants": [], "wiki_freq": 794, "model": "deepseek-v4-flash", "ts": "2026-11-05T18:50:27+08:00"}
 {"name_en": "The Wizard of Waterdeep", "base_en": "The Wizard of Waterdeep", "kind": "quest", "name_zh": "深水城的法师", "conf": 0.9, "variants": ["The Wizard of Waterdeep (Origin)"], "wiki_freq": 788, "model": "deepseek-v4-flash", "ts": "2026-11-05T18:50:27+08:00"}
-{"name_en": "Karlach", "base_en": "Karlach", "kind": "character", "name_zh": "卡菈克", "conf": 0.9, "variants": [], "wiki_freq": 785, "model": "deepseek-v4-flash", "ts": "2026-11-05T18:50:27+08:00"}
+{"name_en": "Karlach", "base_en": "Karlach", "kind": "character", "name_zh": "卡菈克", "conf": 0.9, "variants": ["卡拉克"], "wiki_freq": 785, "model": "deepseek-v4-flash", "ts": "2026-11-05T18:50:27+08:00"}
 {"name_en": "Mystra", "base_en": "Mystra", "kind": "character", "name_zh": "密斯特拉", "conf": 0.95, "variants": [], "wiki_freq": 783, "model": "deepseek-v4-flash", "ts": "2026-11-05T18:50:27+08:00"}
 {"name_en": "Gretta", "base_en": "Gretta", "kind": "character", "name_zh": "格蕾塔", "conf": 0.6, "variants": [], "wiki_freq": 779, "model": "deepseek-v4-flash", "ts": "2026-11-05T18:50:27+08:00"}
 {"name_en": "Investigate the House of Grief", "base_en": "Investigate the House of Grief", "kind": "quest", "name_zh": "调查悲伤之屋", "conf": 0.6, "variants": [], "wiki_freq": 750, "model": "deepseek-v4-flash", "ts": "2026-11-05T18:50:27+08:00"}

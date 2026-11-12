@@ -65,14 +65,21 @@ def _clean_en(en: str) -> str:
 
 @lru_cache(maxsize=16)
 def _zh_index(game: str) -> Tuple[Tuple[str, str, float, int], ...]:
-    """(中文名, 英文原名, 置信度, wiki 频次)，按中文名长度降序，用于最长优先匹配。"""
+    """(中文名, 英文原名, 置信度, wiki 频次)，按中文名长度降序，用于最长优先匹配。
+
+    除 name_zh 外也索引 variants——玩家外号/别名（如 养鸡妹→Lae'zel）走这里。
+    """
     pairs = []
     for r in load_glossary(game):
-        zh = (r.get("name_zh") or "").strip()
         en = _clean_en((r.get("name_en") or "").strip())
-        if not zh or not en or len(zh) < MIN_ZH_LEN:
+        if not en:
             continue
-        pairs.append((zh, en, float(r.get("conf") or 0), int(r.get("wiki_freq") or 0)))
+        zh_names = [r.get("name_zh")] + list(r.get("variants") or [])
+        for zh in zh_names:
+            zh = (zh or "").strip()
+            if not zh or len(zh) < MIN_ZH_LEN:
+                continue
+            pairs.append((zh, en, float(r.get("conf") or 0), int(r.get("wiki_freq") or 0)))
     pairs.sort(key=lambda x: (-len(x[0]), -x[2]))
     return tuple(pairs)
 

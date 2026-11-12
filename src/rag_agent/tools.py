@@ -199,8 +199,9 @@ def search_knowledge_base(query: str, game: str, k: int = 8, max_act: int | None
         # 把名字信号稀释到 top-8 开外；扩展后 影心 rank 1 / 下城区 rank 1）。
         # 术语表缺失或异常时静默用原 query，不拖垮检索。
         search_query = query
+        hits = []
         try:
-            search_query, _hits = expand_query(query, _game_key)
+            search_query, hits = expand_query(query, _game_key)
         except Exception:
             pass
         if search_query != query:
@@ -227,6 +228,26 @@ def search_knowledge_base(query: str, game: str, k: int = 8, max_act: int | None
         en_docs = vs.similarity_search(search_query, k=k, filter=en_filter, fetch_k=200)
         zh_docs = vs.similarity_search(search_query, k=k, filter=zh_filter, fetch_k=200)
 
+        # 标题精确匹配直通：术语扩展命中的英文名若在库里有同标题文档，直接置顶，
+        # 不赌向量排序——"Lae'zel 养鸡妹好用吗"这类带撇号实体的向量排名可能
+        # 落在 k 窗口之外（实测 top4 全是无关条目），排序置顶救不回来。
+        pinned = []
+        if hits:
+            try:
+                wanted = {en.lower() for _zh, en, _c, _f in hits}
+                for d in getattr(vs.docstore, "_dict", {}).values():
+                    t = (d.metadata or {}).get("title", "").strip().lower()
+                    if t and t in wanted:
+                        # 遵循与检索一致的过滤：语言必须在 en/zh，act 不越界
+                        if max_act is not None and d.metadata.get("act") is not None \
+                                and int(d.metadata["act"]) > max_act:
+                            continue
+                        pinned.append(d)
+                        if len(pinned) >= 2 * len(hits):
+                            break
+            except Exception:
+                pinned = []
+
         # 合并，去重（按 page_content 去重）
         #
         # 故意不做「两路都空 → 退回到无过滤整库检索」的兜底：language 是建库契约，
@@ -240,6 +261,24 @@ def search_knowledge_base(query: str, game: str, k: int = 8, max_act: int | None
             if sig not in seen:
                 seen.add(sig)
                 docs.append(doc)
+
+        # 直通文档插到最前（按内容去重，避免和语义检索结果重复）
+        if pinned:
+            pinned_sigs = set()
+            unique_pinned = []
+            for d in pinned:
+                sig = d.page_content[:100]
+                if sig not in pinned_sigs:
+                    pinned_sigs.add(sig)
+                    unique_pinned.append(d)
+            docs = unique_pinned + [d for d in docs if d.page_content[:100] not in pinned_sigs]
+
+        # 标题词面命中置顶：实体名查询（尤其带撇号的，如 Lae'zel）在向量排序里
+        # 不稳——实测 "Lae'zel" 查询下 Lae'zel 条目被 Lorroakan 压到 rank 4。
+        # 稳定排序，只把 title 出现在 query 里的块提前，其余保持语义顺序。
+        q_low = search_query.lower()
+        docs.sort(key=lambda d: 0 if (d.metadata or {}).get("title", "").strip().lower()
+                  and (d.metadata or {})["title"].strip().lower() in q_low else 1)
 
         if not docs:
             return f"(知识库未找到关于「{query}」的内容)"

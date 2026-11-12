@@ -300,3 +300,30 @@ def test_registry_必备字段齐全():
         entry = AVAILABLE_GAMES[key]
         for field in ("name", "db_path", "vectorstore_dir"):
             assert entry.get(field), f"{key} 缺少 AVAILABLE_GAMES 字段 {field}"
+
+
+def test_search_标题词面命中置顶(monkeypatch):
+    """向量排序对实体名不稳（带撇号的 Lae'zel 实测被压到 rank 4），
+    title 出现在 query 里的块必须置顶；组内保持原语义顺序。"""
+    docs = [
+        Document(page_content="语义更近的别的角色", metadata={"language": "en", "title": "Lorroakan"}),
+        Document(page_content="目标条目", metadata={"language": "en", "title": "Lae'zel"}),
+    ]
+    _patch_vs(monkeypatch, docs)
+    monkeypatch.setattr("rag_agent.tools.expand_query",
+                        lambda q, g: ("Lae'zel 养鸡妹好用吗", []))
+    out = search_knowledge_base.invoke({"query": "养鸡妹好用吗", "game": "test_game"})
+    assert out.index("Lae'zel") < out.index("Lorroakan")
+
+
+def test_search_术语命中标题直通置顶(monkeypatch):
+    """术语扩展命中的英文名在库里有同标题文档时，即使语义检索没捞到也直通置顶。"""
+    target = Document(page_content="Lae'zel 条目正文", metadata={"language": "en", "title": "Lae'zel"})
+    other = Document(page_content="无关条目", metadata={"language": "en", "title": "Lorroakan"})
+    vs = _patch_vs(monkeypatch, [other])       # 语义检索只返回无关条目
+    vs.docstore = type("DS", (), {"_dict": {"1": target, "2": other}})()
+    monkeypatch.setattr("rag_agent.tools.expand_query",
+                        lambda q, g: ("Lae'zel 养鸡妹", [("养鸡妹", "Lae'zel", 0.98, 1003)]))
+
+    out = search_knowledge_base.invoke({"query": "养鸡妹好用吗", "game": "test_game"})
+    assert "【参考 1】[EN] Lae'zel" in out
