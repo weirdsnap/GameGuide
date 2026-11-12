@@ -8,6 +8,7 @@ import asyncio
 import json
 import logging
 import os
+import subprocess
 import threading
 import time
 import sys
@@ -34,6 +35,7 @@ DEFAULT_CONFIG = {
     "quota_file": "data/quota.json",
     "trusted_proxies": ["127.0.0.1", "::1"],
     "request_timeout": 120,
+    "stream_timeout": 240,      # 流式整体超时：之前没设，挂起会永久占着连接
     "port": 8765,
     "host": "0.0.0.0",
 }
@@ -64,6 +66,26 @@ def load_config():
 
 
 config = load_config()
+
+
+def _app_version() -> str:
+    """当前代码版本：优先 git describe（提交/标签），取不到再退回配置。
+
+    以前 /api/status 里写死 "beta5"，项目早就 beta6 了，健康检查据此判断会误判。
+    """
+    try:
+        out = subprocess.run(
+            ["git", "-C", str(project_root), "describe", "--tags", "--always", "--dirty"],
+            capture_output=True, text=True, timeout=3,
+        )
+        if out.returncode == 0 and out.stdout.strip():
+            return out.stdout.strip()
+    except Exception:
+        pass
+    return str(config.get("version") or "unknown")
+
+
+APP_VERSION = _app_version()
 
 
 def _client_ip(request) -> str:
@@ -137,6 +159,14 @@ class DailyQuota:
             self._save()
             return True, self.status_unlocked()
 
+    def refund(self, n: int = 1) -> dict:
+        """退回额度。菜单轮 / 未识别游戏 / 失败轮不该计费（这些问题没调 LLM）。"""
+        with self._lock:
+            self._roll()
+            self._state["count"] = max(0, self._state["count"] - n)
+            self._save()
+            return self.status_unlocked()
+
     def status_unlocked(self) -> dict:
         """已持锁时的 status（避免重复获取不可重入的 Lock）。"""
         return {
@@ -146,6 +176,9 @@ class DailyQuota:
             "remaining": max(0, self._limit - self._state["count"]),
         }
 
+
+# 这些路由没调 LLM（菜单、未识别游戏、出错），不该占用户额度
+NON_LLM_ROUTES = {"menu", "unknown", "error"}
 
 quota = DailyQuota(project_root / config["quota_file"], limit=config["daily_quota"])
 
@@ -333,6 +366,9 @@ async def handle_ask(request):
             timeout=config["request_timeout"],
         )
         elapsed = time.time() - t0
+        # 菜单 / 未识别 / 失败轮没调 LLM，不该占用户额度
+        if (meta.get("route") or "") in NON_LLM_ROUTES:
+            quota_status = quota.refund()
         print(f"  [{time.strftime('%H:%M:%S')}] {ip[:15]:15s} | {question[:50]:50s} | {elapsed:.1f}s")
         log_turn(turn_record(ip=ip, question=question, elapsed=elapsed, meta=meta,
                              answer=answer))
@@ -340,6 +376,7 @@ async def handle_ask(request):
                                   "quota": quota_status})
     except asyncio.TimeoutError:
         elapsed = time.time() - t0
+        quota_status = quota.refund()
         meta.update({"route": "error", "error": "请求处理超时"})
         logger.warning(f"非流式请求超时: {ip}")
         log_turn(turn_record(ip=ip, question=question, elapsed=elapsed, meta=meta))
@@ -348,6 +385,7 @@ async def handle_ask(request):
             status=504,
         )
     except Exception as e:
+        quota_status = quota.refund()
         logger.exception("处理失败")
         print(f"  ❌ 处理失败: {e}")
         return web.json_response({"error": f"处理请求时出错"}, status=500)
@@ -404,19 +442,26 @@ async def handle_ask_stream(request):
     meta: dict = {}
 
     try:
-        async for event_type, data in ask_stream(question, history=history if history else None, verbose=True, meta=meta):
-            if event_type == "token":
-                payload = json.dumps({"type": "token", "content": data}, ensure_ascii=False)
-                await resp.write(f"data: {payload}\n\n".encode("utf-8"))
-                token_count += 1
-                answer_parts.append(str(data))
-            elif event_type == "meta":
-                payload = json.dumps({"type": "meta", **data}, ensure_ascii=False)
-                await resp.write(f"data: {payload}\n\n".encode("utf-8"))
-            elif event_type == "error":
-                payload = json.dumps({"type": "error", "content": data}, ensure_ascii=False)
-                await resp.write(f"data: {payload}\n\n".encode("utf-8"))
-                break
+        # 流式以前完全没超时：LLM 卡住会永久占住连接和线程（曾出现 275s 零 chunk）。
+        # 整体给一个上限，超了推 error 事件收尾、退回额度。
+        async with asyncio.timeout(float(config.get("stream_timeout", 240))):
+            async for event_type, data in ask_stream(question, history=history if history else None, verbose=True, meta=meta):
+                if event_type == "token":
+                    payload = json.dumps({"type": "token", "content": data}, ensure_ascii=False)
+                    await resp.write(f"data: {payload}\n\n".encode("utf-8"))
+                    token_count += 1
+                    answer_parts.append(str(data))
+                elif event_type == "meta":
+                    payload = json.dumps({"type": "meta", **data}, ensure_ascii=False)
+                    await resp.write(f"data: {payload}\n\n".encode("utf-8"))
+                elif event_type == "error":
+                    payload = json.dumps({"type": "error", "content": data}, ensure_ascii=False)
+                    await resp.write(f"data: {payload}\n\n".encode("utf-8"))
+                    break
+
+        # 菜单 / 未识别 / 失败轮不计费
+        if (meta.get("route") or "") in NON_LLM_ROUTES:
+            quota_status = quota.refund()
 
         # 结束标志
         elapsed = round(time.time() - t0, 1)
@@ -424,6 +469,16 @@ async def handle_ask_stream(request):
             f"data: {json.dumps({'type': 'done', 'elapsed': elapsed, 'quota': quota_status}, ensure_ascii=False)}\n\n".encode("utf-8")
         )
 
+    except TimeoutError:
+        quota_status = quota.refund()
+        meta.update({"route": "error", "error": "流式响应超时"})
+        logger.warning(f"流式响应超时（>{config.get('stream_timeout')}s）: {ip}")
+        try:
+            await resp.write(
+                f"data: {json.dumps({'type': 'error', 'content': '响应超时，请重试', 'quota': quota_status}, ensure_ascii=False)}\n\n".encode("utf-8")
+            )
+        except Exception:
+            pass
     except (ConnectionResetError, ConnectionAbortedError):
         logger.warning(f"客户端断开连接: {ip}")
     except Exception as e:
@@ -445,9 +500,74 @@ async def handle_status(request):
     """GET /api/status — 健康检查"""
     return web.json_response({
         "status": "ok",
-        "version": "beta5",
+        "version": APP_VERSION,
         "uptime": round(time.time() - start_time, 1),
         "quota": quota.status(),
+    })
+
+
+def _load_turns(days: int) -> list[dict]:
+    """读 data/turns 里最近 N 天的记录（轻量聚合，不碰模型）。"""
+    turns_dir = TURNS_DIR
+    files = sorted(turns_dir.glob("*.jsonl"))[-days:]
+    records = []
+    for f in files:
+        try:
+            for line in f.read_text(encoding="utf-8").splitlines():
+                line = line.strip()
+                if line:
+                    try:
+                        records.append(json.loads(line))
+                    except json.JSONDecodeError:
+                        continue
+        except OSError:
+            continue
+    return records
+
+
+def _pct(values: list[float], q: float) -> float:
+    if not values:
+        return 0.0
+    values = sorted(values)
+    return round(values[min(len(values) - 1, int(round(q * (len(values) - 1))))], 1)
+
+
+async def handle_stats(request):
+    """GET /api/stats?days=7 — 用量聚合（源：data/turns/*.jsonl）。"""
+    try:
+        days = max(1, min(90, int(request.query.get("days", "7"))))
+    except ValueError:
+        days = 7
+    records = _load_turns(days)
+    by_day: dict[str, int] = {}
+    games: dict[str, int] = {}
+    routes: dict[str, int] = {}
+    elapsed: list[float] = []
+    tokens_in = tokens_out = tool_calls = 0
+    spoiler = 0
+    for r in records:
+        day = time.strftime("%Y-%m-%d", time.localtime(r.get("ts") or 0))
+        by_day[day] = by_day.get(day, 0) + 1
+        games[r.get("game") or "unknown"] = games.get(r.get("game") or "unknown", 0) + 1
+        routes[r.get("route") or "none"] = routes.get(r.get("route") or "none", 0) + 1
+        elapsed.append((r.get("elapsed_ms") or 0) / 1000)
+        tokens_in += int(r.get("tokens_in") or 0)
+        tokens_out += int(r.get("tokens_out") or 0)
+        tool_calls += int(r.get("tool_calls") or 0)
+        if r.get("spoiler_hits"):
+            spoiler += 1
+    return web.json_response({
+        "days": days,
+        "turns": len(records),
+        "by_day": dict(sorted(by_day.items())),
+        "games": dict(sorted(games.items(), key=lambda kv: -kv[1])),
+        "routes": dict(sorted(routes.items(), key=lambda kv: -kv[1])),
+        "elapsed_s": {"avg": _pct(elapsed, 0.5) if elapsed else 0,
+                      "p90": _pct(elapsed, 0.9)},
+        "tokens_in": tokens_in,
+        "tokens_out": tokens_out,
+        "tool_calls": tool_calls,
+        "spoiler_hit_turns": spoiler,
     })
 
 
@@ -460,6 +580,7 @@ def create_app() -> web.Application:
     app.router.add_post("/api/ask/stream", handle_ask_stream)
     app.router.add_get("/api/status", handle_status)
     app.router.add_get("/api/quota", handle_quota)
+    app.router.add_get("/api/stats", handle_stats)
     return app
 
 

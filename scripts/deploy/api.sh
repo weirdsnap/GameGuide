@@ -57,24 +57,26 @@ if [ -f "$PID_FILE" ]; then
 fi
 
 # 方式 B: 搜索 api_server.py 进程
-OLD_PIDS=$(pgrep -f "api_server.py" || true)
-if [ -n "$OLD_PIDS" ] && [ "$OLD_PIDS" != "$OLD_PID" ]; then
-    echo "  ⚙️ 发现额外进程: ${OLD_PIDS}，正在关停..."
-    for pid in $OLD_PIDS; do
-        # 排除 grep 和当前的 shell
-        if [ "$pid" != "$OLD_PID" ] && [ "$pid" != "$$" ]; then
-            kill "$pid" 2>/dev/null || true
-        fi
-    done
-    sleep 1
-    # 补刀
-    REMAINING=$(pgrep -f "api_server.py" || true)
-    if [ -n "$REMAINING" ]; then
-        echo "  ⚙️ 强制终止残留进程: ${REMAINING}..."
-        kill -9 $REMAINING 2>/dev/null || true
-        sleep 1
-    fi
+# 方式 B: 端口占用兜底（不用 pgrep -f）
+# 旧写法 `pgrep -f api_server.py` 会匹配任意命令行里带这串的进程（同事的 tail、
+# 我的 exec 包装 shell 都被误杀过），还配 kill -9，破坏面太大。改成只看 8765 端口
+# 到底被哪个 pid 占着，只动它。
+PORT_PIDS=""
+if command -v ss &>/dev/null; then
+    PORT_PIDS=$(ss -ltnp 2>/dev/null | awk -v p=":${PORT}" '$4 ~ p"$"' | grep -oP 'pid=\K[0-9]+' | sort -u || true)
 fi
+for pid in $PORT_PIDS; do
+    if [ "$pid" != "$OLD_PID" ] && [ "$pid" != "$$" ]; then
+        echo "  ⚙️ 端口 ${PORT} 被 PID=${pid} 占用，关停..."
+        kill "$pid" 2>/dev/null || true
+        sleep 1
+        if kill -0 "$pid" 2>/dev/null; then
+            echo "  ⚙️ 仍未退出，强制终止 PID=${pid}..."
+            kill -9 "$pid" 2>/dev/null || true
+            sleep 1
+        fi
+    fi
+done
 
 # ── 2. 检查端口 ──
 echo ""
@@ -110,6 +112,12 @@ fi
 # ── 3. 启动新进程 ──
 echo ""
 echo "🚀 启动 API Server..."
+
+# 上一个进程的日志超过 5MB 就留一份 .prev，避免每轮重启前的现场全丢
+if [ -f "$LOG_FILE" ] && [ "$(stat -c%s "$LOG_FILE" 2>/dev/null || echo 0)" -gt 5242880 ]; then
+    mv -f "$LOG_FILE" "${LOG_FILE}.prev" 2>/dev/null || true
+    echo "  📦 旧日志已转为 ${LOG_FILE}.prev"
+fi
 echo "  Python: ${PYTHON}"
 echo "  脚本:   api_server.py"
 echo "  端口:   ${PORT}"
