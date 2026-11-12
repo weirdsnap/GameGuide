@@ -248,6 +248,12 @@ python scripts/eval/ragas_eval.py --game all --limit 5   # 报告输出到 evalu
   缺 `language` 的 BG3 库连纯英文 query 都能出结果，测试和线上都看不出库是坏的。
   代价：旧库在严格模式下零命中，所以**建库修复必须和向量库替换同一次上线**，
   只推代码不传库会让线上检索全线变空。
+  **服务器侧待办（2026-11-12 Mac 侧留）**：严格模式上线后，核对线上**每个游戏**的
+  向量库是否带 `language` 标签（不只 BG3）。Mac 侧已审计本地 8 库全部合规
+  （BG3 新库 66698 块全 en、HK/oni/terraria/va11halla 为 en+zh 混合），
+  但线上库可能是更旧的版本。检查方法（在服务器仓库根跑）：
+  `.venv/bin/python -c "import pickle;d=pickle.load(open('games/<game>/vectorstore/index.pkl','rb'))[0];print(sum('language' not in x.metadata for x in d._dict.values()),'块缺标')"`
+  输出 0 即合规；非 0 的库要在 Mac 重建后重传（`mac_prepare_build.sh --game <游戏>`）。
 - **术语表尚未接入检索**：`glossary.expand_query()` 目前只有 `scripts/eval/glossary_probe.py`
   在调用，`tools.py` 仍用原始 query。接入前先用探针 + golden QA 做 A/B，别只凭直觉开；
   `tests/test_glossary.py` 锁住最长优先/遮挡/去重/置信度阈值。
