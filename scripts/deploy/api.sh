@@ -25,6 +25,12 @@ LOG_FILE="${LOG_FILE:-${SCRIPT_DIR}/api_server.log}"
 PID_FILE="${SCRIPT_DIR}/api_server.pid"
 PYTHON="${SCRIPT_DIR}/.venv/bin/python"
 
+# fastembed 默认把 ONNX 模型下到 $TMPDIR/fastembed_cache，重启机器 / 清 /tmp 就没了，
+# 之后每次检索都报模型加载失败（2026-11-12 踩过）。固定到仓库内持久目录。
+# PYTHONUNBUFFERED：默认 stdout 块缓冲，日志会揣在内存里不落盘。
+export FASTEMBED_CACHE_PATH="${FASTEMBED_CACHE_PATH:-${SCRIPT_DIR}/.cache/fastembed}"
+export PYTHONUNBUFFERED=1
+
 echo "============================================"
 echo "  🐈 Agent API Server 启动脚本"
 echo "============================================"
@@ -108,6 +114,7 @@ echo "  Python: ${PYTHON}"
 echo "  脚本:   api_server.py"
 echo "  端口:   ${PORT}"
 echo "  日志:   ${LOG_FILE}"
+echo "  模型缓存: ${FASTEMBED_CACHE_PATH}"
 echo ""
 
 nohup "${PYTHON}" api_server.py > "${LOG_FILE}" 2>&1 &

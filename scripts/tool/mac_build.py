@@ -131,7 +131,13 @@ def load_wiki_documents(filepath: str) -> List[Dict]:
         if content:
             docs.append({
                 "content": content,
-                "metadata": {"title": title, "category": category},
+                "metadata": {
+                    "title": title,
+                    "category": category,
+                    # tools.search_knowledge_base 按 language 分 en/zh 两路检索，
+                    # 缺这个字段带 filter 检索会零命中（BG3 踩过）
+                    "language": "zh" if "zh" in Path(filepath).stem else "en",
+                },
             })
 
     return docs
@@ -264,7 +270,7 @@ def load_structured_data(game_key: str) -> List[Dict]:
             name = row["name"] if "name" in cols else (row["slug"] if "slug" in cols else table)
             docs.append({
                 "content": text,
-                "metadata": {"title": name, "category": f"struct/{table}"},
+                "metadata": {"title": name, "category": f"struct/{table}", "language": "en"},
             })
 
     conn.close()

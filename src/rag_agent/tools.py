@@ -197,13 +197,22 @@ def search_knowledge_base(query: str, game: str, k: int = 8) -> str:
         zh_docs = vs.similarity_search(query, k=k, filter={"language": "zh"}, fetch_k=200)
 
         # 合并，去重（按 page_content 去重）
-        seen = set()
-        docs = []
-        for doc in en_docs + zh_docs:
-            sig = doc.page_content[:100]
-            if sig not in seen:
-                seen.add(sig)
-                docs.append(doc)
+        def _dedupe(docs_in):
+            seen = set()
+            out = []
+            for doc in docs_in:
+                sig = doc.page_content[:100]
+                if sig not in seen:
+                    seen.add(sig)
+                    out.append(doc)
+            return out
+
+        docs = _dedupe(en_docs + zh_docs)
+
+        if not docs:
+            # 兼容没有 language 字段的旧向量库（如 mac_build 早期产物）：
+            # 带 filter 的检索对缺该字段的文档必然空结果，退回到整库检索。
+            docs = _dedupe(vs.similarity_search(query, k=k, fetch_k=200))
 
         if not docs:
             return f"(知识库未找到关于「{query}」的内容)"
