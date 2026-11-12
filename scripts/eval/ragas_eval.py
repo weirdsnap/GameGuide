@@ -16,6 +16,7 @@ Usage:
 
 import sys
 import os
+import re
 import json
 import time
 import asyncio
@@ -187,9 +188,14 @@ def run_ragas_evaluation(game: str, questions: list, dry_run: bool = False) -> d
     
     # Import agent
     sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent / "src"))
-    import rag_agent.multi_agent as ma
     from rag_agent.multi_agent import ask
     from rag_agent.vectorstore import get_retriever
+    from rag_agent.game_registry import AVAILABLE_GAMES
+
+    # 当前游戏的中文显示名，用于占位 history（见循环内注释）
+    _name = AVAILABLE_GAMES[game].get("name", game)
+    _m = re.search(r"\((.+?)\)", _name)
+    game_zh = _m.group(1) if _m else _name
 
     results = []
     errors = []
@@ -200,19 +206,18 @@ def run_ragas_evaluation(game: str, questions: list, dry_run: bool = False) -> d
     for i, q in enumerate(questions):
         logger.info(f"    [{i+1}/{len(questions)}] {q.question[:60]}...")
 
-        # 预置会话游戏状态：题库多为纯英文问题，不带游戏信号词，
+        # 预置会话游戏上下文：题库多为纯英文问题，不带游戏信号词，
         # 直接问会路由不到游戏而弹菜单。评估语义是"已确认游戏的会话中
-        # 追问"，故每题前把当前游戏写入过渡期全局（ask 会回写，需每题重置）。
-        # 注意：图的"延续上轮游戏"分支要求 history 非空（graph.py 延续分支），
-        # 所以 ask 必须带一条占位 history 才会生效。
-        ma._LAST_GAME = game
-        ma._LAST_GAME_CONFIRMED = True
+        # 追问"，靠占位 history 让 _game_from_history 推导出当前游戏
+        # （重构后已无 _LAST_GAME 全局，状态完全从 history 推导）。
+        # 注意占位文本必须含中文显示名——内部键名（如 hollow_knight）
+        # 不是信号词会路由失败；英文全名会让 silksong 误中 hollow_knight。
 
         # ── Run agent ──
         t0 = time.time()
         try:
             answer = ask(q.question, verbose=False,
-                         history=[{"role": "user", "content": f"（评估会话：{game}）"}])
+                         history=[{"role": "user", "content": f"（评估会话：{game_zh}）"}])
         except Exception as e:
             logger.info(f"      ❌ Agent error: {e}")
             errors.append({"question": q.question, "error": str(e)})
