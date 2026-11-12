@@ -223,7 +223,7 @@ def detect_game_node(state) -> dict:
                 "menu_text": f"抱歉，{cfg['name']} 的知识库尚未准备好。请联系管理员初始化数据。",
                 "last_game": None, "last_game_confirmed": False}
 
-    prompt = build_game_prompt(game_key) + "\n\n" + build_common_rules()
+    prompt = build_game_prompt(game_key) + "\n\n" + build_common_rules(game_key)
     if switched:
         prompt += f"\n\n**系统提示：** 用户切换了话题开始聊{cfg['name']}，除非用户主动提及和之前游戏的对比，否则上述的历史请忽略。"
 

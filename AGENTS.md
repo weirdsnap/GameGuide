@@ -60,9 +60,11 @@ src/rag_agent/           # 核心包（sys.path 插入 src/ 后按 rag_agent.xxx
   ├── game_router.py     # detect_game() 信号词识别 + prompt 构建
   ├── graph.py           # LangGraph：detect_game 节点 + ReAct Agent + 菜单/未知游戏回退
   ├── multi_agent.py     # 对外薄壳 ask()/ask_stream()，多轮游戏上下文从 history 推导
-  ├── tools.py           # 三个 @tool：FAISS 检索 / SQLite 查询 / schema（检索带 language filter）
-  ├── glossary.py        # 中英专名术语表 + query 扩展（尚未接入检索链路）
-  ├── vectorstore.py     # FAISS 构建/加载（lru_cache）、文档切分、wiki 文档解析
+  ├── tools.py           # 三个 @tool：FAISS 检索 / SQLite 查询 / schema
+  │                      # （检索带 language filter + 术语表 query 扩展）
+  ├── glossary.py        # 中英专名术语表 + query 扩展（已接入 tools.search_knowledge_base）
+  ├── vectorstore.py     # FAISS 构建/加载（lru_cache）、文档切分、wiki 文档解析、
+  │                      # prepend_title_to_chunks（标题前置，建库契约）
   ├── data_converter.py  # HallownestAPI JSON → 文本块（空洞骑士专用，旧管线）
   └── hk_db.py           # 空洞骑士 SQLite 构建模块
 games/<game>/            # 每游戏数据目录：
@@ -79,9 +81,11 @@ scripts/
   │             # mac_prepare_build.sh（Mac 一键建库 + 真实检索路径自检）
   ├── deploy/   # api.sh（服务器重启 API）、vectorstores.sh（scp 向量库到服务器）
   ├── eval/     # ragas_eval.py（Tier 2）、check_imports.py、glossary_probe.py、golden/
+  ├── analysis/ # turns_report.py 等用户日志分析脚本（服务器侧领地）
   └── archive/  # 已归档旧脚本，勿修改、勿引用
 tests/                   # pytest 离线套件（见下），conftest 排除 test_light.py
-docs/                    # LangGraph 图化重构记录（历史方案）、AI 应用工程深化计划
+docs/                    # REFACTOR_LANGGRAPH.md（历史方案）、AI_APPLICATION_ENGINEERING_PLAN.md、
+                         # SPOILER_CONTROL_PLAN.md（防剧透分层方案，P0 提示词层已实现）
 data/                    # 空洞骑士早期管线遗留数据；quota.json 额度文件
 evaluation/reports/      # ragas 评估输出（.gitignore，运行产物）
 ```
@@ -147,6 +151,12 @@ README 的结构说明滞后于代码，如有出入以本文件和实际代码�
   游戏分布、响应耗时、挖 badcase、给 golden set 选题。
   **数据分析/存储功能由服务器 agent 负责写**（turns 落库、日志统计脚本，它离数据最近），
   这类轻量分析直接在服务器上跑没问题（红线是不跑模型，见上）。
+  **观测层已知待改进（2026-11-12 联合评审，归服务器侧）**：
+  `spoiler_hits`/`turn_record`/JSONL 双写/`turns_report.py` 缺单测；
+  `answer_head` 只存前 200 字，尾部命中词在报告里看不到（复盘对不上）；
+  同一实体中英文重复计数；`data/turns/*.jsonl` 无轮转/清理策略；
+  `log_turn` 是事件循环里的同步写；答案落盘的留存/隐私策略未定（目前仅 gitignore）；
+  `turns_report.py` 边界：`--days 0`、缺 `ts` 的记录会 KeyError。
 - Caddy 反代 `https://api.weirdsnap.top` → `localhost:8765`（见 `Caddyfile`）。
 
 ### 两端协作流水线（向量库更新）
@@ -231,7 +241,7 @@ python scripts/eval/ragas_eval.py --game all --limit 5   # 报告输出到 evalu
   huggingface_hub 已初始化，HF_* 环境变量不生效），见 `ingest_game.py` 头部。
 - 新增游戏需要改的地方：
   1. `src/rag_agent/game_registry.py` — 加一条 `_reg({...})`（key/name/dir/db_file/data_file/
-     signals/exact_patterns/wiki_*）。`game_router`、`tools`、`ingest_game`、`mac_build`、
+     signals/exact_patterns/wiki_*/spoiler_axis）。`game_router`、`tools`、`ingest_game`、`mac_build`、
      `vectorstores.sh` 都从注册表派生，不需要再改；
   2. `src/rag_agent/graph.py` — 菜单文案（`_MENU_NEW`/`_MENU_SWITCH`）和
      `_is_unknown_game_query` 的 known_keywords 仍是硬编码，记得同步；
@@ -259,8 +269,10 @@ python scripts/eval/ragas_eval.py --game all --limit 5   # 报告输出到 evalu
   但线上库可能是更旧的版本。检查方法（在服务器仓库根跑）：
   `.venv/bin/python -c "import pickle;d=pickle.load(open('games/<game>/vectorstore/index.pkl','rb'))[0];print(sum('language' not in x.metadata for x in d._dict.values()),'块缺标')"`
   输出 0 即合规；非 0 的库要在 Mac 重建后重传（`mac_prepare_build.sh --game <游戏>`）。
-- **术语表尚未接入检索**：`glossary.expand_query()` 目前只有 `scripts/eval/glossary_probe.py`
-  在调用，`tools.py` 仍用原始 query。接入前先用探针 + golden QA 做 A/B，别只凭直觉开；
+- **术语表已接入检索（2026-11-12）**：`tools.search_knowledge_base` 内部调用
+  `glossary.expand_query()`，命中中文专名时自动追加英文原名（A/B 证据：
+  影心 top-8 不中 → 扩展后 rank 1）。术语表异常时静默回退原 query。
+  新增游戏的术语表放 `games/<game>/data/<game>_glossary.jsonl` 即生效；
   `tests/test_glossary.py` 锁住最长优先/遮挡/去重/置信度阈值。
 - **Embedding 模型必须是多语言模型** `paraphrase-multilingual-MiniLM-L12-v2`。
   维基内容是英文、用户用中文提问，纯英文模型（如 bge-small-en-v1.5）会让

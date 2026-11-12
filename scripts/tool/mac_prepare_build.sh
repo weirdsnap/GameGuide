@@ -140,7 +140,7 @@ VS_DIR="games/${GAME}/vectorstore"
 ok "产物：$VS_DIR（$(du -sh "$VS_DIR" | cut -f1)）"
 
 if [ "$DO_VERIFY" -eq 1 ]; then
-    say "5/5 本地检索自检（走 tools.search_knowledge_base 的真实 language filter 路径）"
+    say "5/5 本地检索自检（走 tools.search_knowledge_base 的真实 language filter 路径 + 期望命中断言）"
     $PY - "$GAME" <<'PY'
 import sys
 from pathlib import Path
@@ -149,27 +149,48 @@ from rag_agent import glossary
 from rag_agent.tools import search_knowledge_base
 
 game = sys.argv[1]
-queries = ["影心是谁", "月出之塔怎么走", "钢铁卫士铸造厂在哪", "How does Divine Smite work"]
+
+# 期望命中断言表：每条 = (问题, [结果里必须出现的关键词])。
+# 只判「非空」的自检发现不了排序退化（"影心是谁"返回 Lorroakan 也算有结果），
+# 必须断言期望实体真的被检索到。没有术语表的游戏暂时只查不报错。
+PROBES = {
+    "baldurs_gate3": [
+        ("影心是谁", ["Shadowheart"]),
+        ("卡菈克是谁", ["Karlach"]),
+        ("月出之塔怎么走", ["Moonrise"]),
+        ("钢铁卫士铸造厂在哪", ["Steel Watch"]),
+        ("How does Divine Smite work", ["Divine Smite"]),
+    ],
+}
+probes = PROBES.get(game, [(f"{game} 介绍", [])])
+
 bad = []
-for q in queries:
-    expanded, hits = glossary.expand_query(q, game)
+for q, expect in probes:
+    _expanded, hits = glossary.expand_query(q, game)
     tag = "，".join(f"{zh}→{en}" for zh, en, _c, _f in hits) or "无扩展"
-    # 用真实工具而不是裸 similarity_search：工具带 language filter，
-    # 缺 language 元数据的文档在这里会暴露成 0 命中。
-    out = search_knowledge_base.invoke({"query": expanded, "game": game, "k": 3})
+    # 用真实工具而不是裸 similarity_search：工具带 language filter + 术语扩展，
+    # 缺 language 元数据的文档在这里会暴露成 0 命中。原始 query 直接传给工具，
+    # 不要预先扩展——扩展是工具的内部职责，这里要测的就是完整链路。
+    out = search_knowledge_base.invoke({"query": q, "game": game, "k": 5})
     print(f"\n  问：{q}   [{tag}]")
     for line in out.splitlines()[:6]:
         print(f"    {line[:110]}")
     if out.startswith(("[知识库暂时不可用]", "[知识库检索出错]", "(知识库未找到")):
-        bad.append(q)
+        bad.append((q, "检索失败"))
+        continue
+    low = out.lower()
+    miss = [kw for kw in expect if kw.lower() not in low]
+    if miss:
+        bad.append((q, f"期望关键词未命中: {miss}"))
 
 if bad:
-    print(f"\n  ❌ {len(bad)}/{len(queries)} 条走真实检索路径失败：")
-    for q in bad:
-        print(f"     - {q}")
-    print("  常见原因：文档缺 language 元数据（en/zh）被 filter 过滤、向量库没建全")
+    print(f"\n  ❌ {len(bad)}/{len(probes)} 条自检失败：")
+    for q, why in bad:
+        print(f"     - {q}：{why}")
+    print("  常见原因：文档缺 language 元数据（en/zh）被 filter 过滤、"
+          "向量库没建全、标题未前置进 chunk（prepend_title_to_chunks）")
     sys.exit(1)
-print("\n  ✅ 自检通过：真实检索路径有命中，可以上传")
+print("\n  ✅ 自检通过：真实检索路径命中且期望实体在位，可以上传")
 PY
 else
     say "5/5 跳过检索自检"

@@ -246,6 +246,21 @@ def split_documents(docs: List[Document], chunk_size: int = 800, chunk_overlap: 
     return splitter.split_documents(docs)
 
 
+def prepend_title_to_chunks(chunks: List[Document]) -> List[Document]:
+    """把 metadata.title 前置到每个 chunk 的 page_content 开头（原地修改）。
+
+    动机（2026-11 BG3 实测）：标题/实体名只活在 metadata 里，embedding 看不到——
+    800 字长块会把实体名信号稀释掉（"影心" vs Shadowheart 正文块最高 cos 只有
+    0.434，词对词 cos 有 0.692）。前置标题后每个分块都带实体名锚点。
+    已以标题开头的 chunk 不重复前置。
+    """
+    for c in chunks:
+        title = (c.metadata or {}).get("title", "").strip()
+        if title and not c.page_content.startswith(title):
+            c.page_content = f"{title}\n{c.page_content}"
+    return chunks
+
+
 def build_vectorstore(
     docs: Optional[List[Document]] = None,
     save_dir: str = VECTORSTORE_DIR,

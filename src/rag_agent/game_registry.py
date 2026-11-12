@@ -34,6 +34,7 @@ def _reg(entry: GameEntry) -> None:
 
 _reg({
     "key": "hollow_knight",
+    "spoiler_axis": "ability",
     "name": "Hollow Knight (空洞骑士)",
     "name_short": "Hollow Knight",
 
@@ -74,6 +75,7 @@ _reg({
 
 _reg({
     "key": "oni",
+    "spoiler_axis": "none",
     "name": "Oxygen Not Included (缺氧)",
     "name_short": "Oxygen Not Included",
 
@@ -109,6 +111,7 @@ _reg({
 
 _reg({
     "key": "terraria",
+    "spoiler_axis": "ability",
     "name": "Terraria (泰拉瑞亚)",
     "name_short": "Terraria",
 
@@ -140,6 +143,7 @@ _reg({
 
 _reg({
     "key": "silksong",
+    "spoiler_axis": "ability",
     "name": "Hollow Knight Silksong (丝之歌)",
     "name_short": "Silksong",
 
@@ -172,6 +176,7 @@ _reg({
 
 _reg({
     "key": "cyberpunk2077",
+    "spoiler_axis": "chapter",
     "name": "Cyberpunk 2077 (赛博朋克2077)",
     "name_short": "Cyberpunk 2077",
 
@@ -218,6 +223,7 @@ _reg({
 
 _reg({
     "key": "va11halla",
+    "spoiler_axis": "chapter",
     "name": "VA-11 Hall-A (赛博朋克酒保行动)",
     "name_short": "VA-11 Hall-A",
 
@@ -254,6 +260,7 @@ _reg({
 
 _reg({
     "key": "mhw",
+    "spoiler_axis": "none",
     "name": "Monster Hunter Wilds (怪物猎人荒野)",
     "name_short": "Monster Hunter Wilds",
 
@@ -294,6 +301,7 @@ _reg({
 
 _reg({
     "key": "baldurs_gate3",
+    "spoiler_axis": "act",
     "name": "Baldur's Gate 3 (博德之门3)",
     "name_short": "Baldur's Gate 3",
 
@@ -322,7 +330,8 @@ _reg({
         "至上真神", "absolute", "夺心魔", "illithid",
         "费伦", "faerun", "剑湾", "sword coast",
         "第一章", "第二章", "第三章", "月出之塔",
-        "下城区", "利文顿", "幽暗地域",
+        "下城区", "利文顿", "幽暗地域", "最后之光旅店",
+        "塞伦涅", "塞伦捏",
         "蝌蚪", "tadpole", "遗物", "artifact",
         "按等级", "第5版", "5e", "法术", "动作",
     ],
@@ -339,7 +348,14 @@ _reg({
         "table names in queries are English only. If unsure, call show_database_schema first. "
         "When querying structured data, pass the exact Chinese/English name as-is "
         "(e.g. 「查询 蒸煮罐」) — do NOT translate or append guessed words; "
-        "the system already maps common Chinese names internally."
+        "the system already maps common Chinese names internally.\n"
+        "Progress anchors (three acts): Act 1 = 第一章地表/幽暗地域 → "
+        "Act 2 = 最后之光旅店/月出之塔一带 → Act 3 = 利文顿/下城区. "
+        "Structured tables locations/quests have an `act` column (1/2/3) — "
+        "use it to judge whether a place/quest is beyond the user's reported progress, "
+        "and never positively describe content past that boundary. "
+        "When the user's act progress is known, pass max_act (1/2/3) to "
+        "search_knowledge_base so later-act locations/quests are filtered out."
     ),
 })
 
@@ -373,6 +389,7 @@ for key, cfg in GAME_REGISTRY.items():
         "name": cfg["name"],
         "db_path": _abs_path(key, cfg["db_file"]),
         "vectorstore_dir": _abs_path(key, "vectorstore"),
+        "spoiler_axis": cfg.get("spoiler_axis", "none"),
     }
     GAME_SIGNALS[key] = cfg["signals"]
     GAME_EXACT_PATTERNS[key] = cfg["exact_patterns"]

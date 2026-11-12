@@ -109,3 +109,50 @@ def test_collect_documents_rejects_missing_language(fake_game, monkeypatch):
 
     with pytest.raises(RuntimeError, match="language"):
         mac_build.collect_documents(fake_game)
+
+
+# ══════════════════════════════════════════════
+#  prepend_title_to_chunks（实体名前置契约）
+# ══════════════════════════════════════════════
+
+def test_prepend_title_把标题前置进chunk():
+    """标题/实体名必须进 page_content——否则长块把实体信号稀释（BG3 实测）。"""
+    import sys
+    sys.path.insert(0, str(ROOT / "src"))
+    from langchain_core.documents import Document
+    from rag_agent.vectorstore import prepend_title_to_chunks
+
+    chunks = [
+        Document(page_content="正文很长……", metadata={"title": "Shadowheart"}),
+        Document(page_content="Shadowheart\n已经带标题", metadata={"title": "Shadowheart"}),
+        Document(page_content="没有标题元数据", metadata={"language": "en"}),
+    ]
+    out = prepend_title_to_chunks(chunks)
+
+    assert out[0].page_content.startswith("Shadowheart\n正文很长")
+    assert out[1].page_content == "Shadowheart\n已经带标题"   # 不重复前置
+    assert out[2].page_content == "没有标题元数据"             # 无 title 不动
+
+
+# ══════════════════════════════════════════════
+#  防剧透 P1：act 元数据契约
+# ══════════════════════════════════════════════
+
+def test_extract_act_从分类文本解析():
+    assert mac_build._extract_act("categories: Act_Two_Locations, Quests") == 2
+    assert mac_build._extract_act("act: 3\n下城区入口") == 3
+    assert mac_build._extract_act("Act_One_X，又见 Act_Three_Y") == 1   # 跨幕取最小
+    assert mac_build._extract_act("普通设定词条") is None
+
+
+def test_load_wiki_documents_带act标签(tmp_path):
+    wiki = tmp_path / "wiki.md"
+    wiki.write_text(
+        "## Mason's Guild\n\ncategories: Act_Two_Locations\n石匠工会正文\n\n"
+        "## Magic Missile\n\n飞弹法术正文\n",
+        encoding="utf-8",
+    )
+    docs = mac_build.load_wiki_documents(str(wiki), language="en")
+    by_title = {d["metadata"]["title"]: d for d in docs}
+    assert by_title["Mason's Guild"]["metadata"]["act"] == 2
+    assert "act" not in by_title["Magic Missile"]["metadata"]   # 解析不出不写

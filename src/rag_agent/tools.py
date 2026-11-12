@@ -13,6 +13,7 @@ from typing import Dict, List, Optional
 from langchain.tools import tool
 
 from rag_agent.game_router import AVAILABLE_GAMES
+from rag_agent.glossary import expand_query
 from rag_agent.vectorstore import load_vectorstore
 
 logger = logging.getLogger(__name__)
@@ -163,7 +164,7 @@ def _tool_game_cfg(game: str) -> tuple:
 
 
 @tool
-def search_knowledge_base(query: str, game: str, k: int = 8) -> str:
+def search_knowledge_base(query: str, game: str, k: int = 8, max_act: int | None = None) -> str:
     """使用向量检索搜索游戏的维基知识库。
 
     适合查询：剧情背景、区域/地点描述、Boss 打法、游戏机制、
@@ -175,6 +176,8 @@ def search_knowledge_base(query: str, game: str, k: int = 8) -> str:
         query: 搜索关键词，使用英文关键词效果更佳
         game: 目标游戏键名（如 hollow_knight、oni、terraria、silksong、cyberpunk2077、va11halla、mhw、baldurs_gate3）
         k: 返回的相关结果数量（默认 8）
+        max_act: 防剧透过滤（仅 BG3 等按幕推进的游戏）：用户已报进度时传当前幕数
+            （1/2/3），act 大于该值的地点/任务文档会被过滤；缺 act 标签的文档保留
     """
     try:
         _game_key, cfg = _tool_game_cfg(game)
@@ -191,10 +194,38 @@ def search_knowledge_base(query: str, game: str, k: int = 8) -> str:
     try:
         vs = load_vectorstore(save_dir=vs_dir)
 
+        # 中文专名扩展：命中术语表时把英文原名追加进 query（跨语专名是主要
+        # 检索弱点——BG3 实测 cos("影心","Shadowheart")=0.692 不低，但长正文块
+        # 把名字信号稀释到 top-8 开外；扩展后 影心 rank 1 / 下城区 rank 1）。
+        # 术语表缺失或异常时静默用原 query，不拖垮检索。
+        search_query = query
+        try:
+            search_query, _hits = expand_query(query, _game_key)
+        except Exception:
+            pass
+        if search_query != query:
+            logger.info("术语扩展: %s → %s", query, search_query)
+
         # 分语言检索，保证中文和英文文档都能命中
         # fetch_k 设为 200 确保过滤后的候选数充足
-        en_docs = vs.similarity_search(query, k=k, filter={"language": "en"}, fetch_k=200)
-        zh_docs = vs.similarity_search(query, k=k, filter={"language": "zh"}, fetch_k=200)
+        if max_act is not None:
+            # 防剧透：语言 + act 上界组合过滤（dict filter 表达不了「缺 act 放行」，
+            # 用 callable）。act 解析不出的文档（设定/法术/物品类）始终保留。
+            def _lang_act_filter(lang):
+                def _f(meta):
+                    if meta.get("language") != lang:
+                        return False
+                    a = meta.get("act")
+                    return a is None or int(a) <= max_act
+                return _f
+            en_filter = _lang_act_filter("en")
+            zh_filter = _lang_act_filter("zh")
+        else:
+            en_filter = {"language": "en"}
+            zh_filter = {"language": "zh"}
+
+        en_docs = vs.similarity_search(search_query, k=k, filter=en_filter, fetch_k=200)
+        zh_docs = vs.similarity_search(search_query, k=k, filter=zh_filter, fetch_k=200)
 
         # 合并，去重（按 page_content 去重）
         #

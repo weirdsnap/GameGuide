@@ -72,12 +72,16 @@ def fake_game(tmp_path, monkeypatch):
 # ══════════════════════════════════════════════
 
 class _FakeVS:
-    """模拟向量库：按 language filter 返回预置文档。"""
+    """模拟向量库：按 language filter 返回预置文档（严格模式——缺 language 的文档必然不中）。"""
 
     def __init__(self, docs):
         self._docs = docs
+        self.queries = []          # 记录实际收到的 query，供断言术语扩展生效
 
     def similarity_search(self, query, k=8, filter=None, fetch_k=None):
+        self.queries.append(query)
+        if callable(filter):
+            return [d for d in self._docs if filter(d.metadata)][:k]
         lang = (filter or {}).get("language")
         return [d for d in self._docs
                 if d.metadata.get("language") == lang][:k]
@@ -92,8 +96,10 @@ def _patch_vs(monkeypatch, docs):
     # 让 vs_ok 检查通过 + load_vectorstore 返回假库
     monkeypatch.setattr("rag_agent.tools.os.path.isdir", lambda p: True)
     monkeypatch.setattr("rag_agent.tools.os.path.isfile", lambda p: True)
+    vs = _FakeVS(docs)
     monkeypatch.setattr(
-        "rag_agent.tools.load_vectorstore", lambda save_dir: _FakeVS(docs))
+        "rag_agent.tools.load_vectorstore", lambda save_dir: vs)
+    return vs
 
 
 def test_search_无效游戏返回参数错误():
@@ -126,6 +132,61 @@ def test_search_空结果给出明确提示(monkeypatch):
     _patch_vs(monkeypatch, [])
     out = search_knowledge_base.invoke({"query": "不存在的东西", "game": "test_game"})
     assert "知识库未找到" in out
+
+
+def test_search_严格模式_缺language文档必然不中(monkeypatch):
+    """锁住契约：读端无兜底，缺 language 的文档等于不存在（2026-11-12 定）。"""
+    docs = [
+        Document(page_content="No language tag at all.", metadata={"source": "old_lib"}),
+    ]
+    _patch_vs(monkeypatch, docs)
+    out = search_knowledge_base.invoke({"query": "language", "game": "test_game"})
+    assert "知识库未找到" in out
+
+
+def test_search_术语扩展后query进检索(monkeypatch):
+    """命中术语表时，扩展后的 query（追加英文原名）才是真正发给向量库的。"""
+    docs = [Document(page_content="Shadowheart is a half-elf cleric.",
+                     metadata={"language": "en", "source": "wiki/Shadowheart"})]
+    vs = _patch_vs(monkeypatch, docs)
+    monkeypatch.setattr("rag_agent.tools.expand_query",
+                        lambda q, g: (f"{q} (Shadowheart)", [("影心", "Shadowheart", 0.95, 800)]))
+
+    out = search_knowledge_base.invoke({"query": "影心是谁", "game": "test_game"})
+
+    assert vs.queries and all("Shadowheart" in q for q in vs.queries)
+    assert "Shadowheart" in out
+
+
+def test_search_术语表异常静默回退原query(monkeypatch):
+    """术语表坏了（KeyError/JSON 错误等）不能拖垮检索，静默用原 query。"""
+    docs = [Document(page_content="mantis", metadata={"language": "en"})]
+    vs = _patch_vs(monkeypatch, docs)
+
+    def _boom(q, g):
+        raise KeyError("dir")
+
+    monkeypatch.setattr("rag_agent.tools.expand_query", _boom)
+    out = search_knowledge_base.invoke({"query": "mantis", "game": "test_game"})
+    assert vs.queries == ["mantis", "mantis"]   # en/zh 两路都用原 query
+    assert "【参考 1】" in out
+
+
+def test_search_max_act过滤越界内容(monkeypatch):
+    """防剧透：max_act=1 时 act=2/3 的文档被过滤，缺 act 的文档保留。"""
+    docs = [
+        Document(page_content="Act 1 area.", metadata={"language": "en", "act": 1}),
+        Document(page_content="Act 2 spoiler.", metadata={"language": "en", "act": 2}),
+        Document(page_content="Act 3 spoiler.", metadata={"language": "en", "act": 3}),
+        Document(page_content="设定类词条，无幕归属。", metadata={"language": "en"}),
+    ]
+    _patch_vs(monkeypatch, docs)
+    out = search_knowledge_base.invoke(
+        {"query": "area", "game": "test_game", "max_act": 1})
+    assert "Act 1 area" in out
+    assert "设定类词条" in out            # 缺 act 的放行
+    assert "Act 2 spoiler" not in out
+    assert "Act 3 spoiler" not in out
 
 
 # ══════════════════════════════════════════════

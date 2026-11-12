@@ -51,6 +51,23 @@ if str(_SRC_DIR) not in sys.path:
 # 直接复用注册表导出的 GAME_DATA（含 data_path_zh），避免维护第二份配置
 from rag_agent.game_registry import GAME_DATA, GAME_DB_MAPPING
 
+# ── 防剧透 P1：act 元数据 ──
+# 按幕推进的游戏（BG3）建库时给文档打 act 标签，检索侧用 max_act 过滤。
+# 解析不出 act 的文档不写该字段（视为 unrestricted，过滤时放行）。
+_ACT_WORD = {"one": 1, "two": 2, "three": 3}
+
+
+def _extract_act(text: str) -> int | None:
+    """从正文/分类文本解析 Act 归属（如 BG3 wiki 的 Act_Two_Locations、act: 2）。
+
+    跨多幕的条目取最小值（最早可见的幕）。
+    """
+    acts = [_ACT_WORD[m.group(1).lower()]
+            for m in re.finditer(r"Act_(One|Two|Three)", text, re.IGNORECASE)]
+    acts += [int(m.group(1))
+             for m in re.finditer(r"\bact[:：]\s*([123])\b", text, re.IGNORECASE)]
+    return min(acts) if acts else None
+
 
 def load_wiki_documents(filepath: str, language: str = "en") -> List[Dict]:
     """从 wiki_data.md 加载文档列表，并给每篇打上 language 元数据。"""
@@ -157,6 +174,13 @@ def load_wiki_documents(filepath: str, language: str = "en") -> List[Dict]:
                 "metadata": {"title": title, "category": category,
                              "language": language},
             })
+
+    # 防剧透 P1：从正文/分类文本解析 act 归属（BG3 wiki 分类自带
+    # Act_One/Two/Three_* 与 act: N 字样）；解析不出不写该字段（unrestricted）
+    for d in docs:
+        act = _extract_act(d["content"])
+        if act is not None:
+            d["metadata"]["act"] = act
 
     return docs
 
@@ -285,9 +309,16 @@ def load_structured_data(game_key: str) -> List[Dict]:
         for row in rows:
             text = _row_to_text(table, cols, row)
             name = row["name"] if "name" in cols else (row["slug"] if "slug" in cols else table)
+            meta = {"title": name, "category": f"struct/{table}"}
+            # 防剧透 P1：locations/quests 等表带 act 列（BG3）时透传进元数据
+            if "act" in cols and row["act"]:
+                try:
+                    meta["act"] = int(row["act"])
+                except (TypeError, ValueError):
+                    pass
             docs.append({
                 "content": text,
-                "metadata": {"title": name, "category": f"struct/{table}"},
+                "metadata": meta,
             })
 
     conn.close()
@@ -367,6 +398,9 @@ def build_vectorstore(game_key: str):
         Document(page_content=d["content"], metadata=d["metadata"]) for d in docs
     ]
     chunks = splitter.split_documents(documents)
+    # 标题/实体名前置进 chunk，避免长块稀释实体信号（见 vectorstore.prepend_title_to_chunks）
+    from rag_agent.vectorstore import prepend_title_to_chunks
+    chunks = prepend_title_to_chunks(chunks)
     print(f"  🧩 {len(chunks)} 个分块")
 
     if not chunks:

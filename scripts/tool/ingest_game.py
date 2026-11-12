@@ -216,6 +216,9 @@ def build_vectorstore(game_key: str):
         Document(page_content=d["content"], metadata=d["metadata"]) for d in docs
     ]
     chunks = splitter.split_documents(documents)
+    # 标题/实体名前置进 chunk，避免长块稀释实体信号（见 vectorstore.prepend_title_to_chunks）
+    from rag_agent.vectorstore import prepend_title_to_chunks
+    chunks = prepend_title_to_chunks(chunks)
     print(f"  🧩 分块后: {len(chunks)} 个片段")
 
     if not chunks:

@@ -21,7 +21,7 @@
 
 ### 测试
 
-- 离线测试覆盖游戏路由、LangGraph 契约、额度、用量观测、API 处理器、工具契约、术语表匹配和建库元数据契约（119 passed / 20 skipped）。
+- 离线测试覆盖游戏路由、LangGraph 契约、额度、用量观测、API 处理器、工具契约、术语表匹配、建库元数据契约和防剧透提示词契约（137 passed / 20 skipped）。
 - 真实 LLM 测试默认跳过，需显式传入 `--run-e2e`。
 - 脚本入口有 `--help` 冒烟测试，防止 `sys.path` 顺序回归。
 - 路由、检索和轻量端到端评估通过 `tests/test_light.py` 单独运行。
@@ -30,12 +30,20 @@
 
 - 空洞骑士 golden QA 已起步（`scripts/eval/golden/hollow_knight.jsonl`，9 题，目标 30–50）。
 - RAGAS 评估已迁移到 0.4，基线报告本地留存于 `evaluation/reports/`。
-- BG3 中英术语表 4238 条（`games/baldurs_gate3/data/baldurs_gate3_glossary.jsonl`）+ 只读探针；尚未接入检索。
+- BG3 中英术语表 4238 条（`games/baldurs_gate3/data/baldurs_gate3_glossary.jsonl`），
+  已接入 `search_knowledge_base`（命中中文专名自动追加英文原名；A/B：影心 top-8 不中 → rank 1）。
+- 建库契约：文档必须带 `language` 标签（读端严格模式，漏标即零命中）；
+  标题/实体名前置进 chunk（`prepend_title_to_chunks`，防长块稀释实体信号）。
+- 防剧透 P0 提示词层：每游戏标注 `spoiler_axis`（act/chapter/ability/none），
+  进度即硬上界、别剧透先复述边界；方案全文见 `docs/SPOILER_CONTROL_PLAN.md`。
+- 观测层（服务器侧）：turn 记录含 `answer_head`/`spoiler_hits`，按日 JSONL 落盘
+  `data/turns/`，分析脚本 `scripts/analysis/turns_report.py`。
 
 ## 待办优先级
 
 1. 扩充 golden QA 到 30–50 题并跑出可复现的 RAGAS 基线；基线数字落盘后再改检索。
-2. 把 BG3 术语表接入 `search_knowledge_base`，用探针 + golden QA 做 A/B 对比。
+2. 防剧透 P1：BG3 建库补 `act` 元数据 + 检索 `max_act` 过滤（需重建 BG3 库）；
+   P2：服务端 session 持久化用户进度。
 3. 为流式请求和底层模型调用补全统一超时与取消策略。
 4. 限制历史长度和单请求 Token 成本，明确失败请求的额度策略。
 5. 持续补全各游戏数据（泰拉瑞亚配方/NPC、Silksong 向量库重建）。
