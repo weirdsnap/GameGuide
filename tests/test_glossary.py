@@ -35,14 +35,14 @@ def test_longest_match_wins():
     expanded, hits = glossary.expand_query("怎么打奥利弗", "fake_game")
 
     assert [h[1] for h in hits] == ["Oliver"]
-    assert expanded == "怎么打奥利弗 (Oliver)"
+    assert expanded == "Oliver 怎么打奥利弗"
 
 
 def test_masking_allows_second_real_hit():
     expanded, hits = glossary.expand_query("奥利弗和奥利", "fake_game")
 
     assert [h[0] for h in hits] == ["奥利弗", "奥利"]
-    assert expanded.endswith("(Oliver Ollie)")
+    assert expanded.startswith("Oliver Ollie ")
 
 
 def test_english_name_already_present_is_not_duplicated():
@@ -74,7 +74,7 @@ def test_mid_conf_passes_with_wiki_freq():
     expanded, hits = glossary.expand_query("高频物", "fake_game")
 
     assert [h[1] for h in hits] == ["Freq Thing"]
-    assert expanded == "高频物 (Freq Thing)"
+    assert expanded == "Freq Thing 高频物"
 
 
 def test_single_char_zh_is_ignored():

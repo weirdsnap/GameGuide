@@ -108,8 +108,11 @@ def expand_query(query: str, game: str, min_conf: float = DEFAULT_MIN_CONF,
 
     if not hits:
         return query, []
-    suffix = " ".join(en for _zh, en, _c, _f in hits)
-    return f"{query} ({suffix})", hits
+    # 英文原名**前置**而不是括号后缀追加：BG3 实测「卡菈克是谁 (Karlach)」
+    # 里 Karlach 排不进 top-10（后缀权重太弱，被中文问句稀释），
+    # 前置「Karlach 卡菈克是谁」则影心/卡菈克双双 rank 1（2026-11-12 实测）。
+    prefix = " ".join(en for _zh, en, _c, _f in hits)
+    return f"{prefix} {query}", hits
 
 
 def dropped_terms(query: str, game: str, min_conf: float = DEFAULT_MIN_CONF,
