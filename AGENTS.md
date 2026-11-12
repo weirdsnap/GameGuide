@@ -259,6 +259,10 @@ python scripts/eval/ragas_eval.py --game all --limit 5   # 报告输出到 evalu
   但线上库可能是更旧的版本。检查方法（在服务器仓库根跑）：
   `.venv/bin/python -c "import pickle;d=pickle.load(open('games/<game>/vectorstore/index.pkl','rb'))[0];print(sum('language' not in x.metadata for x in d._dict.values()),'块缺标')"`
   输出 0 即合规；非 0 的库要在 Mac 重建后重传（`mac_prepare_build.sh --game <游戏>`）。
+  **核对结果（2026-11-12 服务器侧已做）**：8 款库走真实 `tools.search_knowledge_base`
+  路径全部命中，`language` 齐；唯独 BG3 原库（10-41 构建）缺标签，已就地补 `language=en`
+  （66698 条，未重算向量，备份 `index.pkl.bak-20261112`），重启后严格路径正常。
+  Mac 侧重建上传后覆盖这份补丁产物，并删掉 `.bak`。
 - **术语表尚未接入检索**：`glossary.expand_query()` 目前只有 `scripts/eval/glossary_probe.py`
   在调用，`tools.py` 仍用原始 query。接入前先用探针 + golden QA 做 A/B，别只凭直觉开；
   `tests/test_glossary.py` 锁住最长优先/遮挡/去重/置信度阈值。
