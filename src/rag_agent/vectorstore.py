@@ -306,7 +306,10 @@ def get_retriever(save_dir: str = VECTORSTORE_DIR, k: int = 8):
     return vectorstore.as_retriever(search_kwargs={"k": k})
 
 
-@lru_cache(maxsize=8)
+# 内存红线（2026-11-12 实测）：BG3 单库常驻 ≈610–860MB，8 库全驻留估 2.2–2.5GB，
+# 服务器只有 3.6GB 且 swap 已吃紧。maxsize=3 封顶（≈1.8–2.6GB 上限），
+# 用户会话通常集中在单游戏，LRU 逐出代价可接受；长期可换「空闲定时释放」。
+@lru_cache(maxsize=3)
 def _load_vectorstore(save_dir: str = VECTORSTORE_DIR) -> FAISS:
     """加载已有向量库（支持离线生成的索引）。\n    使用 @lru_cache 避免多次加载。
     """

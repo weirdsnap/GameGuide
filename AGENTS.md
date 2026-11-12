@@ -286,8 +286,9 @@ python scripts/eval/ragas_eval.py --game all --limit 5   # 报告输出到 evalu
 - 向量库构建只能在 Mac 本地做（服务器内存不够），分工详见「运行环境分工」一节。
 - 多轮游戏状态是**每请求**从 `history` 推导的（`multi_agent._game_from_history` →
   LangGraph state 的 `last_game`），没有跨请求全局变量；改这块时注意别把状态塞回进程全局。
-- `vectorstore.py` 的 `_load_vectorstore` 带 `@lru_cache(maxsize=8)`，
-  向量库文件更新后必须重启进程才能生效。
+- `vectorstore.py` 的 `_load_vectorstore` 带 `@lru_cache(maxsize=3)`——
+  内存红线：BG3 单库常驻 ≈610–860MB，8 库全驻留会压垮服务器（3.6GB），
+  3 封顶后上限 ≈1.8–2.6GB。向量库文件更新后必须重启进程才能生效。
 - FAISS 加载使用 `allow_dangerous_deserialization=True`（本地可信文件，必要项）。
 - 结构化查询工具（`query_structured_data`）是启发式中文指令解析
   （"查询 X" / "所有 X" / 数值筛选），不是通用 SQL 生成，改逻辑时先读现有分支。
