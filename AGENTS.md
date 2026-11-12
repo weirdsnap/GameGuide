@@ -243,6 +243,11 @@ python scripts/eval/ragas_eval.py --game all --limit 5   # 报告输出到 evalu
   `ingest_game.py` 与 `mac_build.py` 都必须打标；`mac_build.collect_documents()` 有守卫。
   改动后用 `tests/test_mac_build_contract.py` 和 `mac_prepare_build.sh` 第 5 步
   （走真实 `tools.search_knowledge_base` 路径）验证。
+  **读端不做兜底（2026-11-12 定）**：两路都空时**不**退回无过滤整库检索。
+  兜底会把「建库漏标」这个契约错误静默降级成「混合语言照样能答」——兜底存在期间，
+  缺 `language` 的 BG3 库连纯英文 query 都能出结果，测试和线上都看不出库是坏的。
+  代价：旧库在严格模式下零命中，所以**建库修复必须和向量库替换同一次上线**，
+  只推代码不传库会让线上检索全线变空。
 - **术语表尚未接入检索**：`glossary.expand_query()` 目前只有 `scripts/eval/glossary_probe.py`
   在调用，`tools.py` 仍用原始 query。接入前先用探针 + golden QA 做 A/B，别只凭直觉开；
   `tests/test_glossary.py` 锁住最长优先/遮挡/去重/置信度阈值。
