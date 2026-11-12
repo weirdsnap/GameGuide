@@ -118,7 +118,12 @@ README 的结构说明滞后于代码，如有出入以本文件和实际代码�
   Mac 侧 agent **不要直接 ssh 操作服务器**；Mac 侧只需把向量库构建好、自检通过，
   上传（`vectorstores.sh`）和后续重启/验收交给服务器 agent 或人工执行。
 - **防冲突纪律**（两端都有 agent 在改同一仓库，务必遵守）：
-  动手前一律先 `git pull --ff-only`；改动小步提交、及时推送，别攒大 diff；
+  **开工前必拉：`git status -sb` → `git fetch --prune` → `git pull --ff-only`（用户要求，每次无例外）；
+  push 前再拉一次**——本地改完先 `git fetch` 看 origin 是否又前进了，有就先把
+  `git pull --rebase`（或按双方约定合并）拉下来再推，别拿旧基准直接 push。
+  这样即使是交叉改同一个文件（tools.py / AGENTS.md 都出过）也能当场对齐，
+  而不是推上去才发现冲突。
+  改动小步提交、及时推送，别攒大 diff；
   服务器 agent 的领地：部署/配置（`api.sh`、`api_config.json`、`Caddyfile`）
   **以及用户数据分析/存储功能**（`api_server.py` 的日志/turns 落库、
   日志分析脚本——它离数据最近，适合它写）；
