@@ -38,6 +38,9 @@ DEFAULT_CONFIG = {
     "host": "0.0.0.0",
 }
 
+# turn 记录的按日 JSONL 目录（追加写，重启不丢；见 log_turn）
+TURNS_DIR = project_root / "data" / "turns"
+
 
 # 额度用完时的统一文案（前端直接当一条回答展示），limit 由配置决定
 QUOTA_EXCEEDED_TMPL = "今天的 {limit} 个问题额度已经用完了，明天再来吧"
@@ -200,11 +203,41 @@ async def cors_middleware(app, handler):
 
 
 # ====== 观测：每轮一行的结构化记录（第 0 步，只记录不改行为）======
+# ══════ 剧透审计词表（只审计、不拦截）══════
+# 每轮答案里命中的后期内容记进 turn 日志的 spoiler_hits，用来从真实流量里
+# 揪出「答越界了」的样本，做回归集。真拦截在提示词层与检索层，见
+# docs/SPOILER_CONTROL_PLAN.md。条目里的 act = 该内容最早出现的幕数（对照用户进度用）。
+SPOILER_TERMS: dict[str, list[tuple[str, int]]] = {
+    "baldurs_gate3": [
+        ("Mason's Guild", 2), ("石匠工会", 2),
+        ("Grand Mausoleum", 2), ("大陵墓", 2),
+        ("Gauntlet of Shar", 2), ("莎尔的试炼", 2),
+        ("Moonrise Towers", 2), ("月出之塔", 2),
+        ("Nightsong", 2), ("夜之歌", 2),
+        ("Lower City", 3), ("下城区", 3),
+        ("Rivington", 3), ("利文顿", 3),
+        ("Netherbrain", 3), ("主脑", 3),
+        ("Bhaal", 3), ("巴尔", 3),
+    ],
+}
+
+
+def spoiler_hits(game: str | None, answer: str) -> list[dict]:
+    """返回答案里命中的后期内容（term + act），没命中就空列表。纯函数，可单测。"""
+    terms = SPOILER_TERMS.get(game or "", ())
+    if not terms or not answer:
+        return []
+    low = answer.lower()
+    return [{"term": t, "act": a} for t, a in terms if t.lower() in low]
+
+
 def turn_record(*, ip: str, question: str, elapsed: float, meta: dict,
-                streamed: bool = False, chunks: int | None = None) -> dict:
+                streamed: bool = False, chunks: int | None = None,
+                answer: str | None = None) -> dict:
     """把一轮请求的关键指标集中成 dict，方便 grep / 后续落库。
 
     纯函数，不碰 I/O，便于单测。字段名与后续 SQLite turns 表对齐。
+    answer 只存前 200 字 + 剧透命中项：够用来复盘越界，不至于把整段答案写进日志。
     """
     meta = meta or {}
     record = {
@@ -221,13 +254,31 @@ def turn_record(*, ip: str, question: str, elapsed: float, meta: dict,
     }
     if chunks is not None:
         record["stream_chunks"] = chunks
+    if answer:
+        record["answer_head"] = " ".join(answer.split())[:200]
+        hits = spoiler_hits(meta.get("game"), answer)
+        if hits:
+            record["spoiler_hits"] = hits
     if meta.get("error"):
         record["error"] = str(meta["error"])[:200]
     return record
 
 
 def log_turn(record: dict):
+    """一轮记录双重落盘：logger（便于 tail/排查）+ 按日 JSONL（重启不丢、可聚合）。
+
+    历史上日志是 nohup `>` 覆盖写的，每次重启就清空，导致多日用量/剧透审计无从回溯。
+    JSONL 追加写是权威副本，api_server.log 只当现场输出。
+    """
     logger.info("turn %s", json.dumps(record, ensure_ascii=False))
+    try:
+        TURNS_DIR.mkdir(parents=True, exist_ok=True)
+        ts = record.get("ts") or time.time()
+        day = time.strftime("%Y-%m-%d", time.localtime(ts))
+        with open(TURNS_DIR / f"{day}.jsonl", "a", encoding="utf-8") as f:
+            f.write(json.dumps(record, ensure_ascii=False) + "\n")
+    except OSError as e:
+        logger.warning("turn 落盘失败: %s", e)
 
 
 # ====== API 端点 ======
@@ -283,7 +334,8 @@ async def handle_ask(request):
         )
         elapsed = time.time() - t0
         print(f"  [{time.strftime('%H:%M:%S')}] {ip[:15]:15s} | {question[:50]:50s} | {elapsed:.1f}s")
-        log_turn(turn_record(ip=ip, question=question, elapsed=elapsed, meta=meta))
+        log_turn(turn_record(ip=ip, question=question, elapsed=elapsed, meta=meta,
+                             answer=answer))
         return web.json_response({"answer": answer, "elapsed": round(elapsed, 1),
                                   "quota": quota_status})
     except asyncio.TimeoutError:
@@ -348,6 +400,7 @@ async def handle_ask_stream(request):
 
     t0 = time.time()
     token_count = 0
+    answer_parts: list[str] = []
     meta: dict = {}
 
     try:
@@ -356,6 +409,7 @@ async def handle_ask_stream(request):
                 payload = json.dumps({"type": "token", "content": data}, ensure_ascii=False)
                 await resp.write(f"data: {payload}\n\n".encode("utf-8"))
                 token_count += 1
+                answer_parts.append(str(data))
             elif event_type == "meta":
                 payload = json.dumps({"type": "meta", **data}, ensure_ascii=False)
                 await resp.write(f"data: {payload}\n\n".encode("utf-8"))
@@ -382,7 +436,8 @@ async def handle_ask_stream(request):
     elapsed = time.time() - t0
     print(f"  [{time.strftime('%H:%M:%S')}] {ip[:15]:15s} 💨 {question[:40]:40s} | {elapsed:.1f}s | {token_count}t")
     log_turn(turn_record(ip=ip, question=question, elapsed=elapsed, meta=meta,
-                         streamed=True, chunks=token_count))
+                         streamed=True, chunks=token_count,
+                         answer="".join(answer_parts) if answer_parts else None))
     return resp
 
 

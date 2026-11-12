@@ -43,3 +43,4 @@ data/quota.json
 
 # 本地模型缓存（fastembed/HF，几百 MB，不提交）
 .cache/
+data/turns/

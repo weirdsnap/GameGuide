@@ -89,13 +89,28 @@
 - 服务端持久化 `progress`（game → act/chapter/ability），随每轮注入，
   取代从 `history` 反推；顺带解决「刷新即失忆」。
 
-### P3 观测层（服务器侧负责）
+### P3 观测层（服务器侧负责）——已完成 2026-11-12
 
-- `turn_record()` 增加 `answer_head`（答案前 200 字）与 `spoiler_flags`
-  （命中的越界区域名/黑名单词），先落 `api_server.log`，随后接 turns 表。
-- 建立剧透回归样本：本次「最后之光旅店 + 塞伦捏任务」即第一条，
-  断言回答不得出现 `Mason's Guild / 石匠工会 / Grand Mausoleum / 大陵墓 / 月出之塔` 等
-  后续区域名（按用户进度锚点设置黑名单）。
+- `turn_record()` 增加 `answer_head`（答案前 200 字）与 `spoiler_hits`
+  （命中后期内容 + 所属 act），命中词表在 `api_server.SPOILER_TERMS`。
+- `log_turn()` 改为双写：`api_server.log`（现场）+ `data/turns/YYYY-MM-DD.jsonl`
+  （追加写、重启不丢，已 gitignore）。此前日志被 nohup `>` 覆盖，重启即清零，
+  多日数据无从回溯。
+- 分析工具：`scripts/analysis/turns_report.py`（`--days` / `--game` / `--spoilers`），
+  可出每日轮次、独立 IP、耗时 P90、游戏与路由分布、token/工具调用统计、剧透命中样本。
+- 已复现的回归样本（11-12 新增，stored in data/turns）：
+  问「博德之门3，我卡在最后之光旅店，附近的塞伦捏秘密任务怎么做？」时，
+  回答把整条任务链从头讲到尾（废墟战场 → 陶匠的房子 → 旅店地下室 → 后续），
+  `spoiler_hits` 捕获到 `Mason's Guild(act2)`。可作为 P0/P1 落地后的第一条断言用例。
+
+#### P3 顺带发现的两个问题（待定）
+
+1. **信号词缺口**：同一句话不加游戏名时（「我卡在最后之光旅店…」）
+   路由到菜单（`route=menu`）——因为 `最后之光旅店`、`塞伦捏` 不在 BG3 的
+   `signals` 里（现有的是月出之塔、下城区、利文顿、幽暗地域等）。
+   有 history 的真实会话不受影响，但刷新后新会话必踩。待 Mac 侧补信号词。
+2. **菜单/回退轮也扣额度**：`route=menu` 的 0.0s 响应也消耗了一次额度。
+   建议只对 `route=agent` 的轮次计费（额度与成本挂钩），待拍板。
 
 ## 四、验收标准
 
