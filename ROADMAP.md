@@ -21,23 +21,23 @@
 
 ## 测试与评估现状
 
-- 默认 `pytest tests` 覆盖路由、图契约、额度、观测和 API 处理器，不调用真实 LLM。
+- 默认 `pytest tests` 覆盖路由、图契约、额度、观测、API 处理器、工具契约、术语表和建库元数据契约，不调用真实 LLM（119 passed / 20 skipped）。
 - `tests/test_qa.py --run-e2e` 提供真实模型回归。
 - `tests/test_light.py` 独立运行路由、检索 Hit@K 和轻量端到端评估。
-- RAGAS 基线已跑通（`scripts/eval/ragas_eval.py`，报告本地留存），golden QA 集建设中。
+- RAGAS 基线已跑通（`scripts/eval/ragas_eval.py`，已迁移 ragas 0.4，报告本地留存），golden QA 集已起步（9 题）。
 
 ## 下一步
 
 ### P0 — 核心质量
 
-- [ ] 建立空洞骑士 golden QA 集并运行 RAGAS 基线。（进行中：RAGAS 基线已跑通，报告本地留存于 evaluation/reports/；golden 集已起步，`scripts/eval/golden/hollow_knight.jsonl` 9 题）
-- [ ] 为 Silksong 重建并验证最新向量库。（wiki_data.md 已修复：29MB / 196 页，需在 Mac 运行 ingest_game.py）
+- [ ] 建立空洞骑士 golden QA 集并运行 RAGAS 基线。（进行中：RAGAS 已迁移 0.4 并跑通，报告本地留存于 evaluation/reports/；golden 集 9 题起步，目标 30–50 题，见 `scripts/eval/golden/hollow_knight.jsonl`）
+- [ ] 为 Silksong 重建并验证最新向量库。（wiki_data.md 已修复：29MB / 196 页，需在 Mac 运行 `mac_prepare_build.sh --game silksong`，建后自检走真实检索路径）
 - [ ] 量化中英文检索的 Recall@K / Hit@K，再调整融合和排序策略。
 
 ### P1 — 数据与回答质量
 
 - [ ] 补全泰拉瑞亚合成配方与 NPC 数据。
-- [ ] 建立跨游戏中英术语映射，减少专名查询失败。
+- [ ] 建立跨游戏中英术语映射，减少专名查询失败。（进行中：BG3 术语表 4238 条 + 只读探针已建，`glossary.expand_query()` 尚未接入检索；接入前用探针和 golden QA 做 A/B）
 - [ ] 增量更新 Silksong 等仍在变化的游戏资料。
 - [ ] 增加跨工具、多步骤问题的端到端评估。
 
@@ -64,3 +64,4 @@
 | beta4 | 2026-07-16 | 多游戏架构与双通道检索 |
 | beta5 | 2026-07-17 | 多语言 Embedding、API 与代码整理 |
 | main 后续 | 2026-11 | 全局额度、逐轮观测、请求状态隔离与代理限流修正 |
+| main 后续 | 2026-11-11 | 建库 language 元数据契约修复、检索路径自检、术语表与 golden QA 起步 |

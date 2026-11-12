@@ -16,11 +16,35 @@ sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
 ### 更换模型
 
 1. 修改 `FASTEMBED_MODEL` 或设置对应环境变量。
-2. 在 Mac 上运行 `python3 scripts/tool/ingest_game.py --game all`。
+2. 在 Mac 上运行 `python3 scripts/tool/ingest_game.py --game all`（或 `mac_build.py`，
+   它会额外并入结构化 DB；一键脚本 `mac_prepare_build.sh --game <game>` 含建后自检）。
 3. 运行 `bash scripts/deploy/vectorstores.sh` 部署向量库。
 4. 在服务器运行 `bash scripts/deploy/api.sh` 重启服务。
 
 不要在未重建向量库的情况下只修改服务器查询模型。
+
+## 向量库元数据契约（language）
+
+`tools.search_knowledge_base` 检索时用 `filter={"language": "en"}` / `{"language": "zh"}`。
+FAISS 会直接过滤掉**缺少** `language` 字段的文档，因此建库时每篇文档都必须打标：
+
+- 英文 wiki、结构化数据库导出的文档 → `language: "en"`
+- 中文 wiki（`wiki_data_zh.md`）→ `language: "zh"`
+
+`ingest_game.py` 与 `mac_build.py` 都已按此实现（`mac_build.collect_documents()` 还有
+缺失守卫）。漏标的症状很隐蔽：向量库看起来建好了、裸 `similarity_search` 也有结果，
+但线上工具恒返回「(知识库未找到…)」。快速排查：
+
+```bash
+python3 - <<'PY'
+import pickle, collections
+obj = pickle.load(open("games/baldurs_gate3/vectorstore/index.pkl", "rb"))
+print(collections.Counter(
+    (d.metadata or {}).get("language", "<missing>") for d in obj[0]._dict.values()))
+PY
+```
+
+`mac_prepare_build.sh` 第 5 步会调用真实检索工具自检（带 filter），建完库建议直接跑。
 
 ## LLM 与环境变量
 
@@ -59,7 +83,8 @@ Caddy 默认通过 `X-Forwarded-For` 传递客户端地址。服务只采信来�
 |:-----|:-----|
 | 启动 API | `python api_server.py` |
 | 离线测试 | `python -m pytest tests -q` |
+| Mac 一键建库 + 自检 | `bash scripts/tool/mac_prepare_build.sh --game <game>` |
 | 构建全部向量库 | `python3 scripts/tool/ingest_game.py --game all` |
-| Mac 远程构建 | `python3 scripts/tool/mac_build.py --game all` |
+| Mac 远程构建（含结构化 DB） | `python3 scripts/tool/mac_build.py --game all` |
 | 部署向量库 | `bash scripts/deploy/vectorstores.sh` |
 | 重启 API | `bash scripts/deploy/api.sh` |

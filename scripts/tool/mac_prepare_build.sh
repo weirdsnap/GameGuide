@@ -140,41 +140,36 @@ VS_DIR="games/${GAME}/vectorstore"
 ok "产物：$VS_DIR（$(du -sh "$VS_DIR" | cut -f1)）"
 
 if [ "$DO_VERIFY" -eq 1 ]; then
-    say "5/5 本地检索自检（中文问句 + 英文术语，看是否命中真内容）"
-    $PY - "$GAME" "$VS_DIR" <<'PY'
+    say "5/5 本地检索自检（走 tools.search_knowledge_base 的真实 language filter 路径）"
+    $PY - "$GAME" <<'PY'
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path.cwd() / "src"))
-from rag_agent.vectorstore import load_vectorstore
 from rag_agent import glossary
+from rag_agent.tools import search_knowledge_base
 
-game, vs_dir = sys.argv[1], sys.argv[2]
-vs = load_vectorstore(vs_dir)
-try:
-    n = vs.index.ntotal
-except Exception:
-    n = -1
-if n <= 0:
-    sys.exit("  ❌ 索引向量数为 0")
-print(f"  ✅ 索引向量数：{n}")
-
+game = sys.argv[1]
 queries = ["影心是谁", "月出之塔怎么走", "钢铁卫士铸造厂在哪", "How does Divine Smite work"]
-weak = 0
+bad = []
 for q in queries:
     expanded, hits = glossary.expand_query(q, game)
-    docs = vs.similarity_search(expanded, k=3)
     tag = "，".join(f"{zh}→{en}" for zh, en, _c, _f in hits) or "无扩展"
+    # 用真实工具而不是裸 similarity_search：工具带 language filter，
+    # 缺 language 元数据的文档在这里会暴露成 0 命中。
+    out = search_knowledge_base.invoke({"query": expanded, "game": game, "k": 3})
     print(f"\n  问：{q}   [{tag}]")
-    for i, d in enumerate(docs, 1):
-        title = (d.metadata or {}).get("title", "?")
-        snippet = " ".join(d.page_content.split())[:90]
-        print(f"    {i}. {title} — {snippet}")
-    if not docs:
-        weak += 1
-if weak:
-    print(f"\n  ⚠️  {weak} 条问句零命中，先别上传，回头查数据/分块")
+    for line in out.splitlines()[:6]:
+        print(f"    {line[:110]}")
+    if out.startswith(("[知识库暂时不可用]", "[知识库检索出错]", "(知识库未找到")):
+        bad.append(q)
+
+if bad:
+    print(f"\n  ❌ {len(bad)}/{len(queries)} 条走真实检索路径失败：")
+    for q in bad:
+        print(f"     - {q}")
+    print("  常见原因：文档缺 language 元数据（en/zh）被 filter 过滤、向量库没建全")
     sys.exit(1)
-print("\n  ✅ 自检通过，可以上传")
+print("\n  ✅ 自检通过：真实检索路径有命中，可以上传")
 PY
 else
     say "5/5 跳过检索自检"

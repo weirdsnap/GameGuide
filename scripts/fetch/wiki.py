@@ -15,6 +15,7 @@ import os
 import re
 import sys
 import time
+from pathlib import Path
 from typing import List, Dict, Optional
 
 try:
@@ -26,6 +27,8 @@ except ImportError:
 # ── Wiki Configs ──
 #
 # 所有游戏配置统一托管于 game_registry.py
+# 先补 sys.path 再导入：脚本从任意 cwd 运行都能找到 src/rag_agent
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent / "src"))
 from rag_agent.game_registry import WIKI_CONFIGS
 
 # ── 用户代理池 ──

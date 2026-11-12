@@ -27,6 +27,13 @@
 
 输出目录：
     games/{game}/vectorstore/                     ← 每个游戏独立的向量库
+
+元数据契约（勿删）：
+    tools.search_knowledge_base 用 filter={"language": "en"/"zh"} 检索，
+    FAISS 会把缺少 language 字段的文档直接过滤掉。因此本脚本产出的每篇文档
+    都必须带 language：英文 wiki/结构化数据 = en，中文 wiki = zh。
+    漏标会导致线上检索恒为空（返回「知识库未找到」），而普通 similarity_search
+    自检发现不了——脚本末尾的 mac_prepare_build.sh 会按真实 filter 路径自检。
 """
 
 import argparse
@@ -41,21 +48,12 @@ _SRC_DIR = _PROJECT_ROOT / "src"
 if str(_SRC_DIR) not in sys.path:
     sys.path.insert(0, str(_SRC_DIR))
 
-from rag_agent.game_registry import GAME_REGISTRY, GAME_DB_MAPPING, GAMES_DIR
+# 直接复用注册表导出的 GAME_DATA（含 data_path_zh），避免维护第二份配置
+from rag_agent.game_registry import GAME_DATA, GAME_DB_MAPPING
 
 
-# 从注册表动态构建 mac_build 所用 GAME_DATA
-GAME_DATA: Dict[str, Dict[str, str]] = {}
-for key, cfg in GAME_REGISTRY.items():
-    GAME_DATA[key] = {
-        "name": cfg["name"],
-        "data_path": str(GAMES_DIR / cfg["dir"] / "data" / cfg["data_file"]),
-        "vectorstore_dir": str(GAMES_DIR / cfg["dir"] / "vectorstore"),
-    }
-
-
-def load_wiki_documents(filepath: str) -> List[Dict]:
-    """从 wiki_data.md 加载文档列表。"""
+def load_wiki_documents(filepath: str, language: str = "en") -> List[Dict]:
+    """从 wiki_data.md 加载文档列表，并给每篇打上 language 元数据。"""
     path = Path(filepath)
     if not path.exists():
         print(f"  ❌ 找不到数据文件：{filepath}")
@@ -63,20 +61,23 @@ def load_wiki_documents(filepath: str) -> List[Dict]:
 
     text = path.read_text(encoding="utf-8")
 
-    # 以 # 文档： 或 ## 标题 作为文档分割标记
-    # 支持两种格式：
-    #   格式 A: # 文档：标题   ← 旧格式
-    #   格式 B: ## 标题        ← fetch_wiki.py 格式
+    # 支持三种分页格式（与 scripts/tool/ingest_game.py 对齐）：
+    #   格式 A: # 文档：标题   ← 旧格式（HK/ONI/Terraria 等）
+    #   格式 B: ## 标题        ← fetch_wiki.py
+    #   格式 C: # 标题         ← silksong / mhw（每页一个一级标题）
     split_a = re.split(r"(?=^# 文档[：:])", text, flags=re.MULTILINE)
     split_b = re.split(r"(?=^##\s+.*(?:\n|$))", text, flags=re.MULTILINE)
+    split_c = re.split(r"\n(?=# )", text)
 
-    # 判断使用哪种格式：优先用格式 A
+    # 判断使用哪种格式：优先用格式 A，其次 B，再次 C
     chunks_a = [c for c in split_a if c.strip().startswith("# 文档")]
     chunks_b = [c for c in split_b if c.strip().startswith("##") and not c.strip().startswith("###") and not c.strip().startswith("####")]
     # 跳过第一个分块如果它是文件标题（没有 ##）
     if split_b and not split_b[0].strip().startswith("##"):
         split_b = split_b[1:]
         chunks_b = [c for c in split_b if c.strip().startswith("##") and not c.strip().startswith("###") and not c.strip().startswith("####")]
+    # 格式 C 的第一个 chunk 是文件级头部（如 "# Silksong Wiki Data"），跳过
+    chunks_c = [c for c in split_c[1:] if c.strip().startswith("# ")]
 
     if chunks_a:
         chunks = split_a
@@ -84,9 +85,14 @@ def load_wiki_documents(filepath: str) -> List[Dict]:
     elif chunks_b:
         chunks = split_b
         fmt = "h2"
+    elif chunks_c:
+        chunks = chunks_c
+        fmt = "h1"
     else:
-        print("  ℹ️ 无法识别文档格式")
-        return []
+        # 兜底：整篇作为单文档，至少不让 wiki 内容凭空消失
+        print("  ℹ️ 未识别分页格式，整篇作为单文档")
+        chunks = [text]
+        fmt = "whole"
 
     docs = []
 
@@ -116,7 +122,7 @@ def load_wiki_documents(filepath: str) -> List[Dict]:
                 content_lines.append(line)
 
             content = "\n".join(content_lines).strip()
-        else:
+        elif fmt == "h2":
             # 格式 B: ## 标题 \n ...（直到下一个 ## 或文件结尾）
             lines = chunk.split("\n")
             title_match = re.search(r"^##\s+(.*)", lines[0])
@@ -127,17 +133,29 @@ def load_wiki_documents(filepath: str) -> List[Dict]:
             while content_lines and content_lines[-1].strip() in ("---", ""):
                 content_lines = content_lines[:-1]
             content = "\n".join(content_lines).strip()
+        elif fmt == "h1":
+            # 格式 C: # 标题 \n ...（silksong / mhw）
+            lines = chunk.split("\n")
+            title_match = re.search(r"^#\s+(.*)", lines[0])
+            title = title_match.group(1).strip() if title_match else "Unknown"
+            category = ""
+            content_lines = lines[1:]
+            while content_lines and content_lines[-1].strip() in ("---", ""):
+                content_lines = content_lines[:-1]
+            content = "\n".join(content_lines).strip()
+        else:
+            # 格式 D: 无法识别，整篇一个文档；标题取第一个一级标题
+            title_match = re.search(r"^#\s+(.+)", chunk, flags=re.MULTILINE)
+            title = title_match.group(1).strip() if title_match else "Unknown"
+            category = ""
+            lines = [l for l in chunk.split("\n") if not l.startswith("# ")]
+            content = "\n".join(lines).strip()
 
         if content:
             docs.append({
                 "content": content,
-                "metadata": {
-                    "title": title,
-                    "category": category,
-                    # tools.search_knowledge_base 按 language 分 en/zh 两路检索，
-                    # 缺这个字段带 filter 检索会零命中（BG3 踩过）
-                    "language": "zh" if "zh" in Path(filepath).stem else "en",
-                },
+                "metadata": {"title": title, "category": category,
+                             "language": language},
             })
 
     return docs
@@ -194,7 +212,6 @@ def _row_to_text(table: str, cols: List[str], row: tuple) -> str:
         if data.get("kind"): lines.append(f"类型: {data['kind']}")
         if data.get("effect"): lines.append(f"效果: {data['effect']}")
         if data.get("description"): lines.append(data["description"])
-        if data.get("description"): None  # already handled
         if data.get("damage"): lines.append(f"伤害: {data['damage']}")
         if data.get("soul_cost"): lines.append(f"魂耗: {data['soul_cost']}")
         if data.get("acquisition"): lines.append(f"获取: {data['acquisition']}")
@@ -270,11 +287,42 @@ def load_structured_data(game_key: str) -> List[Dict]:
             name = row["name"] if "name" in cols else (row["slug"] if "slug" in cols else table)
             docs.append({
                 "content": text,
-                "metadata": {"title": name, "category": f"struct/{table}", "language": "en"},
+                "metadata": {"title": name, "category": f"struct/{table}"},
             })
 
     conn.close()
     print(f"  🗄️  {len(docs)} 条结构化数据 ({', '.join(used_tables)})")
+    return docs
+
+
+def collect_documents(game_key: str) -> List[Dict]:
+    """汇总建库文档：英文 wiki + 中文 wiki（若有）+ 结构化数据库。
+
+    保证每篇文档都带 language 元数据（见文件头「元数据契约」）。
+    """
+    cfg = GAME_DATA[game_key]
+    docs = load_wiki_documents(cfg["data_path"], language="en")
+    en_chars = sum(len(d["content"]) for d in docs)
+    print(f"  📄 英文 Wiki: {len(docs)} 篇, ~{en_chars:,} 字符")
+
+    zh_path = cfg.get("data_path_zh") or ""
+    if zh_path and Path(zh_path).exists():
+        zh_docs = load_wiki_documents(zh_path, language="zh")
+        print(f"  📄 中文 Wiki: {len(zh_docs)} 篇")
+        docs.extend(zh_docs)
+    else:
+        print("  📄 中文 Wiki: 无")
+
+    struct_docs = load_structured_data(game_key)
+    for d in struct_docs:
+        d["metadata"]["language"] = "en"
+    docs.extend(struct_docs)
+
+    missing = [d for d in docs if not d["metadata"].get("language")]
+    if missing:
+        raise RuntimeError(
+            f"{len(missing)} 篇文档缺少 language 元数据，检索会被 filter 过滤掉"
+        )
     return docs
 
 
@@ -285,16 +333,8 @@ def build_vectorstore(game_key: str):
     print(f"📦 {cfg['name']}")
     print(f"{'='*50}")
 
-    # 1. 加载 Wiki 文档
-    wiki_docs = load_wiki_documents(cfg["data_path"])
-    wiki_chars = sum(len(d["content"]) for d in wiki_docs)
-    print(f"  📄 {len(wiki_docs)} 篇 Wiki 文档, ~{wiki_chars:,} 字符")
-
-    # 2. 加载结构化数据
-    struct_docs = load_structured_data(game_key)
-
-    # 合并
-    docs = wiki_docs + struct_docs
+    # 1. 汇总 wiki（中英）+ 结构化数据，全部带 language 元数据
+    docs = collect_documents(game_key)
     if not docs:
         print("  ❌ 没有文档可处理")
         return

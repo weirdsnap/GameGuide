@@ -15,7 +15,7 @@ Bilingual Embedding、剧透分级管理、API Server、SSE 流式响应和逐�
 但对照 AI 应用工程岗位的 JD 高频词（评测意识 Recall@K/MRR、重排、Agent 工具设计、trace、成本优化），
 还有四块硬伤:
 
-1. **没有评测基线** — `scripts/eval/ragas.py` 写好了没跑过，检索质量没有数字
+1. **没有评测基线** — `scripts/eval/ragas_eval.py` 写好但基线报告未沉淀（2026-11 已补跑通，见 Phase 1 进展），检索质量没有数字
 2. **双通道未融合** — FAISS 与 SQLite 结果各自喂 LLM，没有 RRF 融合 + 重排，多阶段 RAG 只做了半程
 3. **没有查询理解层** — 问题不分类、不改写，剧透过滤只停留在 Prompt 层
 4. **工程化外壳不完整** — 已有流式、逐轮用量日志和非流式超时，但仍无完整 trace、缓存和统一的底层超时/取消策略
@@ -37,10 +37,13 @@ Bilingual Embedding、剧透分级管理、API Server、SSE 流式响应和逐�
 
 ## Phase 1 — 评测基线（先有数字）
 
-现状: `scripts/eval/ragas.py`（Tier 2 RAGAS，标注在 Mac M3 上跑）已存在，从未运行出报告。
+现状: `scripts/eval/ragas_eval.py`（Tier 2 RAGAS，标注在 Mac M3 上跑）已存在。
+
+进展（2026-11-11）: RAGAS 脚本已迁移到 0.4 并跑通，报告本地留存；golden QA 已起步
+（`scripts/eval/golden/hollow_knight.jsonl`，9 题，目标 30–50）；基线数字待正式落盘。
 
 任务:
-- [ ] 在 Mac M3 本地跑通 `python scripts/eval/ragas.py --game hollow_knight`，修掉运行期报错
+- [ ] 在 Mac M3 本地跑通 `python scripts/eval/ragas_eval.py --game hollow_knight`，修掉运行期报错
 - [ ] 建立 golden QA 集（聚焦空洞骑士，30–50 条，覆盖: 位置查询 / 护符属性 / Boss 打法 / 配方 /
       带剧透等级的问题），存为 `scripts/eval/golden/hollow_knight.jsonl`
 - [ ] 跑出基线报告: context precision / context recall / faithfulness / answer relevancy，
@@ -76,6 +79,10 @@ Bilingual Embedding、剧透分级管理、API Server、SSE 流式响应和逐�
 ## Phase 3 — 查询理解层
 
 现状: 剧透过滤在 Prompt 层，无查询分类/改写，中文与英文查询混走同一条检索。
+
+已有基础（2026-11-11）: 建了 BG3 中英术语表（4238 条）和「中文专名 → 追加英文原名」的
+`glossary.expand_query()` 扩写原型，配只读探针 `scripts/eval/glossary_probe.py`
+与单测；尚未接入 `tools.search_knowledge_base`，需要先做 A/B 评估再开。
 
 任务:
 - [ ] 查询分类器: 判定问题类型（位置/物品属性/Boss 攻略/配方合成/剧情进度/闲聊），路由到不同检索策略

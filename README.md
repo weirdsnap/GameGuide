@@ -49,6 +49,7 @@ LangGraph detect_game：识别游戏与对话上下文
 │   ├── tools.py                  # 向量检索与 SQLite 工具
 │   ├── game_registry.py          # 游戏配置单源
 │   ├── game_router.py            # 游戏识别与提示词
+│   ├── glossary.py               # 中英专名术语表（query 扩展，尚未接入检索）
 │   ├── vectorstore.py            # FAISS 加载、缓存与检索器
 │   ├── data_converter.py         # 空洞骑士 JSON 转文档
 │   ├── hk_db.py                  # 空洞骑士结构化数据库
@@ -56,10 +57,11 @@ LangGraph detect_game：识别游戏与对话上下文
 ├── scripts/
 │   ├── fetch/                    # Wiki 数据采集
 │   ├── build/                    # SQLite 数据库构建
-│   ├── enrich/                   # 数据补全
-│   ├── tool/ingest_game.py       # FAISS 向量库构建
-│   ├── tool/mac_build.py         # Mac 远程构建助手
-│   ├── eval/                     # 评估脚本
+│   ├── enrich/                   # 数据补全 + 术语表生成
+│   ├── tool/ingest_game.py       # FAISS 向量库构建（中英 wiki）
+│   ├── tool/mac_build.py         # 向量库构建（额外并入结构化 DB）
+│   ├── tool/mac_prepare_build.sh # Mac 一键建库 + 真实检索路径自检
+│   ├── eval/                     # 评估脚本（RAGAS、术语表探针、golden QA）
 │   └── deploy/                   # 部署脚本
 ├── games/<游戏键>/               # 各游戏文档、数据库和向量库
 └── tests/                        # 离线单测与可选端到端测试
@@ -143,6 +145,15 @@ curl -X POST https://api.weirdsnap.top/api/ask \
 ⑥ scripts/deploy/api.sh        重启 API
 ```
 
+也可以在 Mac 上一键完成依赖/数据自检、建库和检索自检：
+
+```bash
+bash scripts/tool/mac_prepare_build.sh --game <游戏键>
+```
+
+第 5 步会调用真实的 `tools.search_knowledge_base`（带 `language` filter）自检，
+避免「库建好了但线上检索恒为空」的元数据漏标问题。
+
 ## 测试
 
 ```bash
@@ -162,6 +173,7 @@ python tests/test_light.py
 
 - Embedding 默认使用 `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2`，支持中文查询检索英文文档。
 - 更换 Embedding 模型后必须全量重建向量库。
+- 向量库文档的 metadata 必须带 `language`（`en` / `zh`）：检索工具按该字段过滤，缺字段的文档会被 FAISS 直接忽略。`ingest_game.py` / `mac_build.py` 已处理，新增数据源时别漏。
 - 向量库在 Mac 本地构建，服务器只负责加载与查询。
 - 默认对话模型由 `CHAT_MODEL` 配置，通过 OpenAI 兼容接口调用。
 

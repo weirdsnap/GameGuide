@@ -35,11 +35,12 @@ import sys
 from pathlib import Path
 from typing import List, Dict
 
-from rag_agent.game_registry import GAME_DATA, GAMES_DIR
-
-SRC_DIR = GAMES_DIR.parent / "src"
+# 先补 sys.path，再从 src/rag_agent 导入（项目无 pyproject，约定见 AGENTS.md）。
+# 注意顺序：写在 import rag_agent 之后会直接 ModuleNotFoundError。
+SRC_DIR = Path(__file__).resolve().parent.parent.parent / "src"
 sys.path.insert(0, str(SRC_DIR))
 
+from rag_agent.game_registry import GAME_DATA
 from rag_agent.vectorstore import load_vectorstore
 
 
