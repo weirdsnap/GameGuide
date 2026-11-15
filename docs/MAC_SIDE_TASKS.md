@@ -38,9 +38,16 @@
   内容混着空洞骑士的 Boss（Grimm、Radiance、Mantis Lords、Hornet、Lost Kin、
   Watcher Knight、Grey Prince Zote 等），就是历史上「149/196 页是空洞骑士」那个问题的残留。
 - 代价：109MB 磁盘，一旦被问到约 600MB 常驻内存。
-- 要做：先从 `scripts/fetch/silksong.py` 重新采（确认分类只取 Silksong），再
-  `mac_prepare_build.sh --game silksong`，建完检查 title 数与内容归属。
-- 验收：随机抽 20 条 title 全部属丝之歌；块数与该游戏 wiki 规模相称（不应是 4 万级）。
+- **新增证据（2026-11-15）：连 `wiki_data.md` 本身都是垃圾，不只是分类混了。**
+  文件 29MB / 196 页 = **平均 150KB/页**，正常 wiki 页面 5–20KB。抽样看：
+  `# Baldur Shell` 一节正文写的是 Zote 的来历，`# Absolute Radiance` 一节开头是
+  空洞骑士 beta 版的发售信息。说明旧版采集抓到的不是页面正文，而是整站导航/
+  搜索片段拼成的文本块——这种产物无论怎么过滤分类都救不回来，必须重抓。
+  所以重抓后**不能只看页数**，要抽 20 页比对「标题 vs 正文是否对题」。
+- 采集网络：Mac 与服务器**都**直连 fandom.com 超时。服务器实测：DNS 只返回 AAAA
+  （`2a03:2880:...`），无 IPv6 路由；`fandom.com`、`r.jina.ai`、`zh.wikipedia.org`
+  全部不可达，本地无代理端口。只能靠出墙（Mac 挂机场代理跑脚本，或给服务器配一个
+  代理节点仅供采集用）。这一步卡在网络上，等用户决定。
 
 ## P1-1 信号词缺口
 
