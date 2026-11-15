@@ -272,6 +272,18 @@ python scripts/eval/ragas_eval.py --game all --limit 5   # 报告输出到 evalu
   路径全部命中，`language` 齐；唯独 BG3 原库（10-41 构建）缺标签，已就地补 `language=en`
   （66698 条，未重算向量，备份 `index.pkl.bak-20261112`），重启后严格路径正常。
   Mac 侧重建上传后覆盖这份补丁产物，并删掉 `.bak`。
+- **服务器侧待办（2026-11-15 Mac 侧留）：silksong wiki 重采集**。
+  现有 silksong 向量库是坏的（47155 块/196 标题，混有 Grimm/Radiance 等空洞骑士条目，
+  服务器实测）——根因是采集脚本的全文搜索策略捞进了 HK 页面。`scripts/fetch/silksong.py`
+  已修复（`keep_silksong_only` 按页面分类过滤，fe12e58），但 **Mac 直连 fandom.com 超时
+  （无代理），采集只能在服务器跑**：
+  1. 服务器上 `git pull` 后运行 `.venv/bin/python scripts/fetch/silksong.py`
+     （纯网络 IO，不跑模型，几百页约 10 分钟）；
+  2. 校验产物 `games/silksong/data/wiki_data.md`：页数应在数百级，
+     随机抽 20 条标题确认全部属丝之歌、无空洞骑士 Boss；
+  3. 把新的 `wiki_data.md` 提交推送（该文件在 git 里）；
+  4. 告诉 Mac 侧重建：`bash scripts/tool/mac_prepare_build.sh --game silksong`
+     （建库只能在 Mac，建完块数不应再是 4 万级）。
 - **术语表已接入检索（2026-11-12）**：`tools.search_knowledge_base` 内部调用
   `glossary.expand_query()`，命中中文专名时自动追加英文原名（A/B 证据：
   影心 top-8 不中 → 扩展后 rank 1）。术语表异常时静默回退原 query。
