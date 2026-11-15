@@ -21,7 +21,7 @@ from aiohttp import web
 project_root = Path(__file__).parent
 sys.path.insert(0, str(project_root / "src"))
 
-from rag_agent.multi_agent import ask, ask_stream
+from rag_agent.multi_agent import ask, ask_stream, _game_from_history
 
 logger = logging.getLogger("gameguide.api")
 
@@ -266,7 +266,8 @@ def spoiler_hits(game: str | None, answer: str) -> list[dict]:
 
 def turn_record(*, ip: str, question: str, elapsed: float, meta: dict,
                 streamed: bool = False, chunks: int | None = None,
-                answer: str | None = None) -> dict:
+                answer: str | None = None,
+                history_msgs: int = 0, hist_game: str | None = None) -> dict:
     """把一轮请求的关键指标集中成 dict，方便 grep / 后续落库。
 
     纯函数，不碰 I/O，便于单测。字段名与后续 SQLite turns 表对齐。
@@ -287,6 +288,9 @@ def turn_record(*, ip: str, question: str, elapsed: float, meta: dict,
     }
     if chunks is not None:
         record["stream_chunks"] = chunks
+    # 路由诊断：菜单/兜底误判靠这两列定位（history 缺失还是中断）
+    record["history_msgs"] = history_msgs
+    record["hist_game"] = hist_game
     if answer:
         record["answer_head"] = " ".join(answer.split())[:200]
         hits = spoiler_hits(meta.get("game"), answer)
@@ -339,6 +343,11 @@ async def handle_ask(request):
 
     question = body.get("question", "").strip()
     history = body.get("history", [])
+    # 只做观测：记录路由器原本能从 history 推出哪款游戏（诊断菜单/兜底误判）
+    try:
+        hist_game = _game_from_history(history) if history else None
+    except Exception:
+        hist_game = None
 
     if not question:
         return web.json_response({"error": "问题不能为空"}, status=400)
@@ -371,7 +380,8 @@ async def handle_ask(request):
             quota_status = quota.refund()
         print(f"  [{time.strftime('%H:%M:%S')}] {ip[:15]:15s} | {question[:50]:50s} | {elapsed:.1f}s")
         log_turn(turn_record(ip=ip, question=question, elapsed=elapsed, meta=meta,
-                             answer=answer))
+                             answer=answer, history_msgs=len(history or []),
+                             hist_game=hist_game))
         return web.json_response({"answer": answer, "elapsed": round(elapsed, 1),
                                   "quota": quota_status})
     except asyncio.TimeoutError:
@@ -379,7 +389,8 @@ async def handle_ask(request):
         quota_status = quota.refund()
         meta.update({"route": "error", "error": "请求处理超时"})
         logger.warning(f"非流式请求超时: {ip}")
-        log_turn(turn_record(ip=ip, question=question, elapsed=elapsed, meta=meta))
+        log_turn(turn_record(ip=ip, question=question, elapsed=elapsed, meta=meta,
+                             history_msgs=len(history or []), hist_game=hist_game))
         return web.json_response(
             {"error": "请求处理超时，请稍后重试", "quota": quota_status},
             status=504,
@@ -400,6 +411,11 @@ async def handle_ask_stream(request):
 
     question = body.get("question", "").strip()
     history = body.get("history", [])
+    # 只做观测：记录路由器原本能从 history 推出哪款游戏（诊断菜单/兜底误判）
+    try:
+        hist_game = _game_from_history(history) if history else None
+    except Exception:
+        hist_game = None
 
     if not question:
         return web.json_response({"error": "问题不能为空"}, status=400)
@@ -492,7 +508,8 @@ async def handle_ask_stream(request):
     print(f"  [{time.strftime('%H:%M:%S')}] {ip[:15]:15s} 💨 {question[:40]:40s} | {elapsed:.1f}s | {token_count}t")
     log_turn(turn_record(ip=ip, question=question, elapsed=elapsed, meta=meta,
                          streamed=True, chunks=token_count,
-                         answer="".join(answer_parts) if answer_parts else None))
+                         answer="".join(answer_parts) if answer_parts else None,
+                         history_msgs=len(history or []), hist_game=hist_game))
     return resp
 
 
