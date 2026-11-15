@@ -112,9 +112,9 @@ def build_common_rules(game_key: Optional[str] = None) -> str:
     """构建通用规则（回答规范、剧透管理、游戏边界）。
 
     剧透追问方式按游戏注册表的 `spoiler_axis` 标注决定，不再靠举例：
-      act     — 按幕/章节区域推进的游戏（BG3），问「第几章/哪个区域」
+      act     — 按幕/章节区域推进的游戏（BG3、丝之歌），问「第几章/哪个区域」
       chapter — 按天/章节推进的叙事游戏（CP2077、VA-11 Hall-A）
-      ability — 按能力/Boss 推进的探索游戏（空洞骑士、丝之歌、泰拉瑞亚）
+      ability — 按能力/Boss 推进的探索游戏（空洞骑士、泰拉瑞亚）
       none    — 进度不敏感的游戏（缺氧、MHW），不追问进度
     """
     axis_prompt = ""

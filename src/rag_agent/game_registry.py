@@ -151,7 +151,10 @@ _reg({
     "key": "silksong",
     "emoji": "🪱",
     "aliases": [],
-    "spoiler_axis": "ability",
+    # 丝之歌按 Act 1/2/3 推进，章节归属比能力轴更贴合（与 BG3 同理）。
+    # 注意：max_act 过滤要等 wiki 重采集后给 chunk 打 act 元数据才生效，
+    # 目前只影响进度追问的 prompt 文案。
+    "spoiler_axis": "act",
     "name": "Hollow Knight Silksong (丝之歌)",
     "name_short": "Silksong",
 
