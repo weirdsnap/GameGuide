@@ -118,9 +118,16 @@ README 的结构说明滞后于代码，如有出入以本文件和实际代码�
 
 ### 服务器端（线上运行机，`/data/learning/agent`）
 
-- **职责边界**：服务器端由**独立的服务器 agent 负责**（重启、线上验证、Caddy、日志分析等），
-  Mac 侧 agent **不要直接 ssh 操作服务器**；Mac 侧只需把向量库构建好、自检通过，
-  上传（`vectorstores.sh`）和后续重启/验收交给服务器 agent 或人工执行。
+- **职责边界**：服务器端由**独立的服务器 agent 负责**（部署、重启、线上验证、Caddy、
+  日志分析、`.bak` 清理等），Mac 侧 agent **不要直接 ssh 操作服务器**。
+  Mac 侧职责到「传库」为止：构建好、自检通过、跑 `vectorstores.sh` scp 上传
+  （SSH 密码人工输一次）；上传之后的 `git pull`、`api.sh` 重启、验收全归服务器 agent。
+- **服务器侧待办（2026-11-15 Mac 侧留）：BG3 v3 库部署**。v3 库（title 前置 + act 标签，
+  自检 5/5 top1 全对）由 Mac 侧用 `vectorstores.sh baldurs_gate3` 上传；
+  服务器侧收到后：`git pull` → `bash scripts/deploy/api.sh` 重启 →
+  删 `games/baldurs_gate3/vectorstore/index.pkl.bak-20261112`（旧补丁库的备份）→
+  线上抽查「养鸡妹怎么招募」应落到 Lae'zel、「我卡在最后之光旅店」类进度问题
+  不应越界到石匠工会/月出之塔之后的内容（spoiler_hits 可观测）。
 - **防冲突纪律**（两端都有 agent 在改同一仓库，务必遵守）：
   **开工前必拉：`git status -sb` → `git fetch --prune` → `git pull --ff-only`（用户要求，每次无例外）；
   push 前再拉一次**——本地改完先 `git fetch` 看 origin 是否又前进了，有就先把
