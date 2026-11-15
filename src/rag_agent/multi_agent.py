@@ -15,7 +15,7 @@ import logging
 from langchain_core.messages import AIMessageChunk
 
 from rag_agent.game_router import detect_game, is_switch_query
-from rag_agent.graph import GAME_CONFIDENCE_TH, _is_unknown_game_query, get_graph
+from rag_agent.graph import GAME_CONFIDENCE_TH, _names_external_game, get_graph
 
 logger = logging.getLogger(__name__)
 
@@ -31,7 +31,7 @@ def _game_from_history(history) -> str | None:
         game, confidence = detect_game(content)
         if confidence >= GAME_CONFIDENCE_TH:
             return game
-        if is_switch_query(content) or _is_unknown_game_query(content):
+        if is_switch_query(content) or _names_external_game(content):
             return None
     return None
 

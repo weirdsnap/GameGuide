@@ -124,6 +124,56 @@ def test_detect_有last_game但无历史不延续():
     assert result["detected_game"] is None
 
 
+# ── 会话连续性回归（docs/ROUTING_FINDINGS.md：泛游戏用语不得打断上下文）──
+
+_BG3_HISTORY = [
+    {"role": "user", "content": "博德之门3第一章怎么过"},
+    {"role": "assistant", "content": "……"},
+]
+
+
+def test_detect_会话中段短追问不弹菜单():
+    """线上回归：BG3 会话中段追问「主厅？」曾被打断弹菜单。"""
+    result = _detect("主厅？", history=_BG3_HISTORY,
+                     last_game="baldurs_gate3", confirmed=True)
+
+    assert result["detected_game"] == "baldurs_gate3"
+
+
+def test_detect_含泛游戏用语的追问不中断上下文():
+    """「在哪里/职业/装备」等泛用语是正常追问，不是未知游戏证据。"""
+    result = _detect("影心在哪里", history=_BG3_HISTORY,
+                     last_game="baldurs_gate3", confirmed=True)
+
+    assert result["detected_game"] == "baldurs_gate3"
+
+
+def test_detect_会话中段点名外部游戏走兜底并清空():
+    """会话中段明确问「塞尔达」→ LLM 兜底，旧游戏上下文作废。"""
+    result = _detect("塞尔达怎么打", history=_BG3_HISTORY,
+                     last_game="baldurs_gate3", confirmed=True)
+
+    assert result["detected_game"] == "__llm_fallback__"
+    assert result["last_game"] is None
+    assert result["last_game_confirmed"] is False
+
+
+def test_detect_有历史推不出游戏走兜底不打断():
+    """有历史但无游戏信号也非外部游戏：LLM 带历史作答，不弹菜单。"""
+    result = _detect("今天天气不错", history=_BG3_HISTORY,
+                     last_game=None, confirmed=False)
+
+    assert result["detected_game"] == "__llm_fallback__"
+    assert "last_game" not in result  # 不清空也不确认
+
+
+def test_detect_水电工不再误判oni():
+    """oni signals 曾含单字「电」，「水电工怎么玩」被误判 oni（conf=1.0）。"""
+    from rag_agent.game_router import detect_game
+    game, _ = detect_game("水电工怎么玩")
+    assert game != "oni"
+
+
 # ── route_after_detect ─────────────────────────────────────
 
 import pytest

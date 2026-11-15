@@ -124,11 +124,12 @@ def usage_from_messages(messages) -> Dict[str, int]:
     return {"tokens_in": tokens_in, "tokens_out": tokens_out, "tool_calls": tool_calls}
 
 
-def _is_unknown_game_query(q: str) -> bool:
-    """检查是否在问一个不在我们知识库里的游戏。
+def _names_external_game(q: str) -> bool:
+    """检查是否明确点名了一个不在我们知识库里的游戏。
 
-    先排除已知游戏的关键词命中（避免误判），然后检查
-    是否提到外部游戏名或游戏相关术语。
+    只有「点名外部游戏名」才算未知游戏证据。曾经还匹配
+    「在哪里/职业/装备」等泛游戏用语，导致会话中段的正常追问
+    被误判为未知游戏、清空游戏上下文（见 docs/ROUTING_FINDINGS.md）。
     """
     ql = q.lower().strip()
 
@@ -140,13 +141,6 @@ def _is_unknown_game_query(q: str) -> bool:
     # 检查外部游戏名
     for game in _KNOWN_EXTERNAL_GAMES:
         if game in ql:
-            return True
-
-    # 检查泛游戏用语
-    game_terms = ["攻略", "boss", "怎么打", "如何获得", "在哪里",
-                  "装备", "技能", "职业", "等级", "通关"]
-    for term in game_terms:
-        if term in ql:
             return True
 
     return False
@@ -165,6 +159,13 @@ def detect_game_node(state) -> dict:
     last_game_confirmed = state.get("last_game_confirmed", False)
     switched = False
 
+    # 决策顺序（切换权交给用户，见 docs/ROUTING_FINDINGS.md 建议 A-D）：
+    #   1. 明确点名已知游戏（含跨游戏点名→切换）
+    #   2. 明确切换意图 → 切换菜单
+    #   3. 明确点名外部游戏 → LLM 兜底并清空上下文
+    #   4. 有历史且上轮游戏已确认 → 无条件沿用，不再被泛游戏用语打断
+    #   5. 有历史但推不出游戏 → LLM 带历史兜底（不打断会话）
+    #   6. 无历史也推不出 → 新菜单（菜单只留给空历史）
     if confidence >= GAME_CONFIDENCE_TH:
         if last_game and last_game_confirmed and game_key != last_game:
             switched = True
@@ -175,17 +176,20 @@ def detect_game_node(state) -> dict:
             "menu_text": _MENU_SWITCH,
             "last_game": None,
             "last_game_confirmed": False
-        } 
+        }
+    elif _names_external_game(q):
+        return {
+            "detected_game": "__llm_fallback__",
+            "prompt": _FALLBACKPT,
+            "last_game": None,
+            "last_game_confirmed": False
+        }
     elif state.get("history") and last_game and last_game_confirmed:
         game_key = last_game
+    elif state.get("history"):
+        # 会话中段但推不出游戏：LLM 带历史作答，不清空也不确认游戏
+        return {"detected_game": "__llm_fallback__", "prompt": _FALLBACKPT}
     else:
-        if _is_unknown_game_query(q):
-            return {
-                "detected_game": "__llm_fallback__",
-                "prompt": _FALLBACKPT,
-                "last_game": None,
-                "last_game_confirmed": False
-            }
         return {
             "detected_game": None,
             "menu_text": _MENU_NEW,
