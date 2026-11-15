@@ -28,7 +28,7 @@ def test_所有游戏都标注了spoiler_axis():
     ("cyberpunk2077", "第几天/第几章"),
     ("va11halla", "第几天/第几章"),
     ("hollow_knight", "已获得的能力"),
-    ("silksong", "已获得的能力"),
+    ("silksong", "第几章/哪个区域"),
     ("terraria", "已获得的能力"),
 ])
 def test_进度敏感游戏有对应追问(game, expect):
