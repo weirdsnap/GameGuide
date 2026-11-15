@@ -6,7 +6,9 @@
 
 ## P0-1 剧透控制（提示词 + 数据）
 
-方案全文在 `docs/SPOILER_CONTROL_PLAN.md`，这里只列要动手的点：
+方案全文在 `docs/SPOILER_CONTROL_PLAN.md`，其中**第三节「用户进度：怎么来、怎么存、
+在哪一层生效」是最新补充的骨架**（进度对象、单调规则、未知进度不问、L1–L3 分工），
+动手前先读那一节。这里只列要动手的点：
 
 - `game_registry.py` 每款游戏加 `spoiler_axis` 字段（act / chapter / ability / none），
   BG3 = act；`game_router.build_common_rules()` 的「剧透管理」改为按该字段生成，
