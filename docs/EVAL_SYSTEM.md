@@ -187,7 +187,35 @@ bg3-to-oni-switch）全绿，证明修的是评测器而不是把问题掩下去
 
 ## 已知缺口
 
-- L2 全量模式尚未跑过一轮（工具记录器在一次性脚本里验证过，未端到端验证）。
+- L2 全量已于 2026-11-16 跑过（9 用例 14 轮，见上文首跑节），但当时是「临时修过评测器」
+  的版本，需等评测器修复落地后重跑才能与基线对齐。
 - L3 RAGAS 从未实跑（需 Mac 装 ragas/datasets）。
 - 剧透词表只有 BG3；丝之歌/空洞骑士要 axis-aware 词表（act / ability 轴不同）。
 - 单轮分钟级、每轮都真调 LLM，因此 L2 全量不进 CI，只在改路由/提示词/检索前后手动跑。
+
+## TODO（跳端待办，2026-11-16）
+
+三条，谁有空谁做，动手前先在本节开工行写一句，做完改成已完成并附 commit。
+
+1. **[未做] 评测器缺陷 A**：`scripts/eval/agent_behavior.py` 的 `run_full()` 没有注入
+   `case["context"]` 前置轮次（`run_routing()` 有）。依赖前文的轮次在无历史时落 menu，
+   被判成路由错（假阴性）。修法：每个 case 开头按 context 真跑一遍、不计分。
+2. **[未做] 评测器缺陷 B**：`check_citation()` 用 `来源|知识库|条目` 匹配整行再取整行引号，
+   把正文引号当来源（实测假报「代价」「护符里困着幽灵」）。修法：只认 `来源\s*[:：]`，
+   且每条标注只负责它后面到下一个标注之间的引号。代码片段见上文首跑节。
+3. **[未做] G4：`turn_record` 加 `sources`**：把工具返回的来源标题（去重、上限 30）落进
+   每轮记录，供 P1 引用校验与离线伪引用率统计。对应
+   `tests/test_routing_gaps.py::test_turn_record_carries_sources`（当前唯一还挂 xfail 的一条）。
+
+**完成后的验收（由服务器侧跑，不要自己宣布通过）：**
+
+```bash
+.venv/bin/python -m pytest -q                     # 期望 187 passed / 20 skipped / 0 xfailed
+.venv/bin/python scripts/eval/agent_behavior.py   # routing 模式应仍 9/9
+FASTEMBED_CACHE_PATH=$PWD/.cache/fastembed \
+  .venv/bin/python scripts/eval/agent_behavior.py --mode full \
+  --json data/eval/beh_baseline.json               # 重跑基线，跟旧报告 --baseline 对比
+```
+
+重跑 full 时顺便确认两件事：`bg3-spoiler-act2` 的偶发 L3（首跑命中 `Nightsong`/`夜之歌`，
+后两轮通过）是否复现；`query_structured_data` 的 `no such column` 日志噪音有没有变化。
