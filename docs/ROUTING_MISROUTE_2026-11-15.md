@@ -97,6 +97,10 @@
 决策表、接口改法、连锁点（`_game_from_history` 必须同源）、验收清单与回滚方案。
 实现归 Mac 端，本文不再重复细节。
 
+同批扫描还发现一批**非误判类**缺口（「BG」简写不识别、专名两种译法、fallback 不承接
+上下文导致追问掉菜单、来源不可事后审计），见
+[`docs/ROUTING_GAPS_2026-11-16.md`](ROUTING_GAPS_2026-11-16.md)。
+
 ## 5. 回归集挂载点
 
 代码层（`tests/test_routing_regression.py`）：
