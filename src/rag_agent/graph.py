@@ -363,11 +363,12 @@ def _agent_setup(state: AgentState):
         },
     })
 
-    # ④ 拼消息（prompt 双份注入是沿用旧 ask() 的行为，勿顺手"优化"）
+    # ④ 拼消息。系统提示词只由 ② 的 create_agent(prompt=...) 注入一次，
+    #    这里不再传 game_prompt——历史上两处都注入，每轮请求白烧一倍
+    #    system prompt 的 token（2026-11 修）。
     messages = build_messages(
         state["question"].strip(),
         state.get("history"),
-        state["prompt"]
     )
     return agent, messages
 
