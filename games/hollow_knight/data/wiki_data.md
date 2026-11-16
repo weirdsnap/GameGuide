@@ -16570,11 +16570,11 @@ Initial GOG release version
 - 标识：damage-values-and-enemy-health-hollow-knight
 - 来源：wiki/Damage_Values_and_Enemy_Health_(Hollow_Knight)
 
-#Damage Values
+\#Damage Values
 
 Nail • #Nail • #Spells and Abilities • #Charms
 
-#Health Values
+\#Health Values
 
 Standard Enemies • #Bosses and Minibosses
 

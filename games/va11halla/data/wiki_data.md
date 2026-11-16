@@ -414,7 +414,7 @@ The Canine Independent Rescue Association, or CIRA for short, is a dog rehabilit
 ## Cobalt Velvet
 ]]
 
-引文：It's like champaigne served on a cup that had a bit of cola left.
+引文：It's like champaigne served on a cup that had a bit of cola left.（CALICOMP 1.1）
 
 A Cobalt Velvet is .
 
@@ -1548,7 +1548,7 @@ The name of the company may be a reference to the anime "Mobile Fighter G Gundam
 ## Sparkle Star
 ]]
 
-引文：They used to actually sparkle, but too many complaints about skin problem made them redesign the drink without sparkling.
+引文：They used to actually sparkle, but too many complaints about skin problem made them redesign the drink without sparkling.（CALICOMP 1.1）
 
 A Sparkle Star is .
 
@@ -1982,6 +1982,5 @@ tablerow=$%%,class="adelhyde"|,class="bronson extract"|,class="powdered delta"|,
 
 tablesortcol=1
 allowcachedresults=true
-</dpl>
 
 ---

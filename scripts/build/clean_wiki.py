@@ -26,32 +26,46 @@ import sys
 from datetime import date
 from pathlib import Path
 
-# Infobox 里属于噪音的字段（标题已在节名里，图片/baseid 对检索无意义）
+# Infobox 里属于噪音的字段（标题已在节名里，图片/baseid/发行信息对检索无意义；
+# source / caption 有实际信息（获取来源、描述），必须保留）
 DROP_FIELDS = {
-    "title", "name", "image", "imagecaption", "caption", "baseid", "id",
-    "appears_games", "appears_in", "appears", "source", "japanese", "chinese",
+    "title", "name", "image", "imagecaption", "baseid", "id",
+    "appears_games", "appears_in", "appears", "japanese", "chinese",
 }
 
 FILE_CANDIDATES = ["data/wiki_data.md", "data/wiki_data_zh.md"]
 
+# 审计收集：(类别, 所在节, 被删内容前 300 字)；--write 时也会填，供 audit_clean.py 报告
+AUDIT: list[tuple[str, str, str]] = []
+_CUR: dict = {"title": ""}
+
 # 需要压平（而不是删掉）的模板：里面的字段对检索有价值
-FLATTEN_RE = re.compile(r"(?i)infobox|dbentry|dbchar|db ?entry|ttstats|block ?quote|quote|quote2")
+FLATTEN_RE = re.compile(
+    r"(?i)infobox|dbentry|dbchar|db ?entry|ttstats|block ?quote|quote2?|plainlist|related ?box|craftingtable|/row"
+)
+
+# 纯展示类模板：压平时只取内容不做字段包装
+VAL_ONLY_RE = re.compile(r"(?i)plainlist")
 
 
 def flatten_template(block: str) -> list[str] | None:
-    """把 {{Infobox ... |k = v}} / {{Block Quote|text=|speaker=}} 压平成文本行。"""
+    """把模板压平成文本行：Infobox → `- 字段：值`；Quote → 引文；Plainlist → 纯内容。"""
     inner = block[2:-2]
-    parts = re.split(r"(?m)\n\s*\|\s*|\A\|", inner)
-    if len(parts) <= 1:  # 单行模板，字段用 | 分隔
-        parts = re.split(r"\|", inner)
-    head = re.match(r"\s*([^\n\|]*)", inner)
-    tname = head.group(1).strip() if head else ""
+    m = re.match(r"\s*([^\|\n]{1,40})", inner)
+    tname = m.group(1).strip() if m else ""
+    rest = inner[m.end():] if m else inner
+    # 只在实际字段分隔处切（|key = ...），避开 [[a|b]] 这类 wikilink
+    parts = re.split(r"(?m)\n\s*\|\s*|\|(?=\s*[a-zA-Z_][\w #]{0,20}\s*=)", rest)
     kv: list[tuple[str, str]] = []
-    for part in parts[1:]:
+    loose: list[str] = []
+    for part in parts:
         if "=" not in part:
+            txt = re.sub(r"\s*\n\s*", " ", part).strip().lstrip("|* ").strip()
+            if txt:
+                loose.append(txt)
             continue
         key, val = part.split("=", 1)
-        key, val = key.strip(), val.strip()
+        key, val = key.strip().strip("|"), val.strip()
         if not val or key.lower() in DROP_FIELDS:
             continue
         val = re.sub(r"\s*\n\s*", " ", val).strip().strip("* ").strip()
@@ -60,15 +74,17 @@ def flatten_template(block: str) -> list[str] | None:
             val = re.sub(r"\s{2,}", " ", val).strip()
         if val:
             kv.append((key, val))
-    if not kv:
-        return None
+    if VAL_ONLY_RE.search(tname):
+        txt = " ".join(loose + [v for _, v in kv]).strip()
+        return [txt] if txt else None
     if re.search(r"(?i)quote", tname):
-        text = next((v for k, v in kv if k.lower() == "text"), "")
-        who = next((v for k, v in kv if k.lower() in ("speaker", "by", "author")), "")
+        text = next((v for k, v in kv if k.lower() in ("text", "quote", "1")), "")
+        who = next((v for k, v in kv if k.lower() in ("speaker", "by", "author", "source", "2")), "")
         if text:
-            return [f"引文：{text}" + (f"（{who}）" if who else "")]
-        return None
-    return [f"- {k}：{v}" for k, v in kv]
+            return [f"引文：{text}" + (f"（{who}）" if who else "")] + loose
+        return loose or None
+    # loose 是无 “key =” 的散段（如 {{/row| Plenty Satisfied ...}} 的行名），不能丢
+    return loose + [f"- {k}：{v}" for k, v in kv]
 
 
 def strip_templates(text: str) -> tuple[str, dict]:
@@ -102,10 +118,14 @@ def strip_templates(text: str) -> tuple[str, dict]:
             if lines:
                 out.append("\n" + "\n".join(lines) + "\n")
                 flattened += 1
+                AUDIT.append(("flatten", _CUR["title"], block[:300]))
             else:
                 removed += 1
+                AUDIT.append(("tpl_empty", _CUR["title"], block[:300]))
         else:
             removed += 1
+            tname = re.match(r"\{\{\s*([^\|\}\n]{1,40})", block)
+            AUDIT.append(("tpl_" + (tname.group(1).strip() if tname else "?"), _CUR["title"], block[:300]))
         i = k
     return "".join(out), {"tpl_removed": removed, "tpl_flattened": flattened}
 
@@ -121,32 +141,47 @@ def strip_refs_html(text: str) -> tuple[str, dict]:
     text = re.sub(r"<[a-zA-Z/][^>]*>", "", text)
     # 兜底：跨节/未闭合的 ref 只剩残标签
     text = re.sub(r"</?ref[^>]*>", "", text, flags=re.I)
-    text = html.unescape(text)
+    # 多重实体（&amp;lt;b&amp;gt;）反转义后可能再露出标签，循环到不再变化为止
+    for _ in range(3):
+        nxt = re.sub(r"<[a-zA-Z/][^>]*>", "", html.unescape(text))
+        if nxt == text:
+            break
+        text = nxt
     return text, {"ref": n_ref, "br": n_br, "html_tag": n_tag}
 
 
 def drop_nav_lines(text: str) -> tuple[str, int, int]:
-    """删纯导航行；超长行（通常导航+正文挤在一行）只断句保留，绝不整行删。"""
-    keep, n, split = [], 0, 0
+    """只删「短且纯导航」的行。
+
+    超长行（>600B）通常是「页内目录 / 导航 + 正文」挤在一行（BG3、MHW 就是这样），
+    整行删会丢正文，断句又会让第二次运行把断后的短行当导航删（不幂等）。
+    所以超长行一律原样保留。
+    """
+    keep, n = [], 0
     for line in text.split("\n"):
         s = line.strip()
-        if s.count("・") >= 4 or s.count(" | ") >= 5 or re.match(r"Contents\s+\d", s):
-            if len(s) <= 600:
-                n += 1
-                continue
-            line = re.sub(r"(?<=[.!?。！？])\s+", "\n", line)
-            split += 1
+        if len(s) <= 600 and (
+            s.count("・") >= 4 or s.count(" | ") >= 5 or re.match(r"Contents\s+\d", s)
+        ):
+            n += 1
+            AUDIT.append(("nav_line", _CUR["title"], s[:300]))
+            continue
         keep.append(line)
-    return "\n".join(keep), n, split
+    return "\n".join(keep), n, 0
 
 
 def dedup_lines(text: str) -> tuple[str, int]:
     seen, keep, n = set(), [], 0
     for line in text.split("\n"):
         s = line.strip()
+        # 表格结构行（{| |} |- !）不能当重复行删，否则表格塌掉
+        if s.startswith(("{|", "|}", "|-", "!", "|")):
+            keep.append(line)
+            continue
         if len(s) > 20:
             if s in seen:
                 n += 1
+                AUDIT.append(("dup_line", _CUR["title"], s[:200]))
                 continue
             seen.add(s)
         keep.append(line)
@@ -172,6 +207,8 @@ def clean_section(body: str, stats: dict, samples: list, title: str, sample_n: i
     stats["nav_split"] = stats.get("nav_split", 0) + split
     body, n = dedup_lines(body)
     stats["dup_line"] = stats.get("dup_line", 0) + n
+    # 删标签后行首可能露出 `#`（原文是 <b>#Damage Values</b>），转义掉免得被当标题
+    body = re.sub(r"(?m)^(#{1,3})(?=\S)", r"\\\1", body)
     body = "\n" + tidy(body) if body.strip() else "\n"
     if len(samples) < sample_n and before != body:
         samples.append((title, before, body))
@@ -195,6 +232,7 @@ def clean_file(path: Path, write: bool, sample_n: int, stats: dict, samples: lis
         title = ""
         prev = parts[idx - 1].strip() if idx else ""
         title = prev.lstrip("#").strip()
+        _CUR["title"] = title
         out.append(clean_section(part, stats, samples, title, sample_n))
     new = "".join(out)
     new = tidy(new)

@@ -8887,6 +8887,7 @@ style="text-align:left"|Wolframite
 ! rowspan="2" | Tile
 Strength
 ! rowspan="2" | Material
+! rowspan="2" | Material
 Strength
 ! colspan="2" | Max Pressure (kg)
 |-
@@ -9691,9 +9692,9 @@ Re: Objectionable Request
 Unique name:
 
 ENCRYPTION LEVEL: TWO
-To: Director Stern <jstern@gravitas.nova>
+To: Director Stern
 
-From: Dr. Broussard <obroussard@gravitas.nova>
+From: Dr. Broussard
 
 −−−−−−−−−−−−−−−−−−
 
@@ -9710,9 +9711,9 @@ The Gravitas Facility
 −−−−−−−−−−−−−−−−−−
 
 SUBJECT: Re: Objectionable Request
-To: Dr. Broussard <obroussard@gravitas.nova>
+To: Dr. Broussard
 
-From: Director Stern <jstern@gravitas.nova>
+From: Director Stern
 
 −−−−−−−−−−−−−−−−−−
 
@@ -9724,6 +9725,10 @@ It would be an invaluable safety measure and protect your printing subjects.
 
 −−−−−−−−−−−−−−−−−−
 
+To: Director Stern
+
+From: Dr. Broussard
+
 −−−−−−−−−−−−−−−−−−
 
 You can't be serious, Jacquelyn?
@@ -9731,6 +9736,10 @@ You can't be serious, Jacquelyn?
 -Dr. Broussard
 
 −−−−−−−−−−−−−−−−−−
+
+To: Dr. Broussard
+
+From: Director Stern
 
 −−−−−−−−−−−−−−−−−−
 
@@ -9745,6 +9754,9 @@ Please give them any materials they require to move forward with their research.
 −−−−−−−−−−−−−−−−−−
 
 SUBJECT: Objectionable Request
+To: Director Stern
+
+From: Dr. Broussard
 
 −−−−−−−−−−−−−−−−−−
 
@@ -9760,6 +9772,10 @@ I believe they are seeking a way to exert temporary control over implanted subje
 Re: Implant Database Request
 Unique name:
 
+To: Dr. Broussard
+
+From: Director Stern
+
 −−−−−−−−−−−−−−−−−−
 
 Doctor,
@@ -9771,6 +9787,9 @@ If there is room available after the necessary scientific and survival knowledge
 −−−−−−−−−−−−−−−−−−
 
 Implant Database Request
+To: Director Stern
+
+From: Dr. Broussard
 
 −−−−−−−−−−−−−−−−−−
 
@@ -9791,7 +9810,9 @@ Unique name:
 UNENCRYPTED
 ----
 
-From: Dr. Jones <ejones@gravitas.nova>
+To: Director Stern
+
+From: Dr. Jones
 
 −−−−−−−−−−−−−−−−−−
 
@@ -9812,7 +9833,9 @@ Re: devon's bloggg
 Unique name:
 
 UNENCRYPTED
-To: Dr. Summers <jsummers@gravitas.nova>
+To: Dr. Summers
+
+From: Dr. Jones
 
 −−−−−−−−−−−−−−−−−−
 
@@ -9825,9 +9848,9 @@ Dr. Jones
 −−−−−−−−−−−−−−−−−−
 
 SUBJECT: devon's bloggg
-To: Dr. Jones <ejones@gravitas.nova>
+To: Dr. Jones
 
-From: Dr. Summers <jsummers@gravitas.nova>
+From: Dr. Summers
 
 −−−−−−−−−−−−−−−−−−
 
@@ -9838,6 +9861,10 @@ I'll see you guys in a bit! :)
 -Dr. Summers
 
 −−−−−−−−−−−−−−−−−−
+
+To: Dr. Summers
+
+From: Dr. Jones
 
 −−−−−−−−−−−−−−−−−−
 
@@ -9854,7 +9881,9 @@ Hiiiii!
 Unique name:
 
 ENCRYPTION LEVEL: NONE
-To: Dr. Techna <ntechna@gravitas.nova>
+To: Dr. Techna
+
+From: Dr. Jones
 
 −−−−−−−−−−−−−−−−−−
 
@@ -9881,6 +9910,9 @@ Re: dr. holland's dog
 Unique name:
 
 UNENCRYPTED
+To: Dr. Summers
+
+From: Dr. Jones
 
 −−−−−−−−−−−−−−−−−−
 
@@ -9893,6 +9925,10 @@ XOXO,
 Dr. Jones
 
 −−−−−−−−−−−−−−−−−−
+
+To: Dr. Jones
+
+From: Dr. Summers
 
 −−−−−−−−−−−−−−−−−−
 
@@ -9907,6 +9943,9 @@ Haha, I think it's nice, he really loves his dog. Oh! Did I show you the thing m
 −−−−−−−−−−−−−−−−−−
 
 dr. holland's dog
+To: Dr. Summers
+
+From: Dr. Jones
 
 −−−−−−−−−−−−−−−−−−
 
@@ -9923,6 +9962,8 @@ Dr. Jones
 −−−−−−−−−−−−−−−−−−
 Duplicant Memory Solution
 Unique name:
+
+To: Director Stern
 
 From: [REDACTED]
 
@@ -9947,7 +9988,7 @@ Unique name:
 UNENCRYPTED
 To: ALL
 
-From: Admin <admin@gravitas.nova>
+From: Admin
 
 −−−−−−−−−−−−−−−−−−
 
@@ -10044,7 +10085,7 @@ Unlocked by: inspecting Computer Podium
 
 To: ALL
 
-From: ADMIN <admin@gravitas.nova>
+From: ADMIN
 
 −−−−−−−−−−−−−−−−−−
 
@@ -10063,6 +10104,8 @@ Polite Request
 Unique name:
 
 To: All
+
+From: Admin
 
 −−−−−−−−−−−−−−−−−−
 
@@ -10098,6 +10141,8 @@ Unique name:
 
 To: [REDACTED]
 
+From: Director Stern
+
 −−−−−−−−−−−−−−−−−−
 
 Please pay it no mind. If any of these journals reach out to you, deny comment.
@@ -10107,6 +10152,7 @@ Please pay it no mind. If any of these journals reach out to you, deny comment.
 −−−−−−−−−−−−−−−−−−
 
 SUBJECT: Have you seen this?
+To: Director Stern
 
 From: [REDACTED]
 
@@ -10123,9 +10169,9 @@ RE: To Otto (Spec Changes)
 Unique name:
 
 UNENCRYPTED
-To: Dr. Sklodowska <msklodowska@gravitas.nova>
+To: Dr. Sklodowska
 
-From: Mr. Kraus <okraus@gravitas.nova>
+From: Mr. Kraus
 
 −−−−−−−−−−−−−−−−−−
 
@@ -10142,9 +10188,9 @@ Physics Department
 −−−−−−−−−−−−−−−−−−
 
 To Otto (Spec Changes)
-To: Mr. Kraus <okraus@gravitas.nova>
+To: Mr. Kraus
 
-From: Dr. Sklodowska <msklodowska@gravitas.nova>
+From: Dr. Sklodowska
 
 −−−−−−−−−−−−−−−−−−
 
@@ -10163,6 +10209,9 @@ Spec Changes
 Unique name:
 
 UNENCRYPTED
+To: Dr. Sklodowska
+
+From: Mr. Kraus
 
 −−−−−−−−−−−−−−−−−−
 
@@ -10178,6 +10227,9 @@ Re: omg the janitor
 Unique name:
 
 UNENCRYPTED
+To: Dr. Summers
+
+From: Dr. Jones
 
 −−−−−−−−−−−−−−−−−−
 
@@ -10190,6 +10242,9 @@ Dr. Jones
 −−−−−−−−−−−−−−−−−−
 
 SUBJECT: Re: omg the janitor
+To: Dr. Jones
+
+From: Dr. Summers
 
 −−−−−−−−−−−−−−−−−−
 
@@ -10200,6 +10255,9 @@ Aw, he's really nice if you get to know him though. Really dependable too. One t
 −−−−−−−−−−−−−−−−−−
 
 SUBJECT: omg the janitor
+To: Dr. Summers
+
+From: Dr. Jones
 
 −−−−−−−−−−−−−−−−−−
 
@@ -10214,6 +10272,9 @@ The Laws of Thermodynamics
 Unique name:
 
 UNENCRYPTED
+To: Mr. Kraus
+
+From: Dr. Jones
 
 −−−−−−−−−−−−−−−−−−
 
@@ -10247,7 +10308,9 @@ Dr. Jones
 Vacation Request Approved
 Unique name:
 
-To: Dr. Ross <dross@gravitas.nova>
+To: Dr. Ross
+
+From: Admin
 
 −−−−−−−−−−−−−−−−−−
 
@@ -10269,6 +10332,8 @@ RE: Engineer Candidate?
 Unique name:
 
 To: [REDACTED]
+
+From: Director Stern
 
 −−−−−−−−−−−−−−−−−−
 
@@ -10306,7 +10371,7 @@ ENCRYPTION LEVEL: TWO
 
 Reminder to all Personnel
 
-From: Admin <admin@gravitas.nova>
+From: Admin
 
 To: All
 
@@ -10329,6 +10394,8 @@ ENCRYPTION LEVEL: NONE
 ----
 
 Casual Friday!
+
+From: Admin
 
 To: All
 
@@ -10353,6 +10420,8 @@ Unique name:
 
 Please Claim Your Bot
 
+From: Admin
+
 To: All
 
 −−−−−−−−−−−−−−−−−−
@@ -10372,6 +10441,8 @@ Unique name:
 
 Reminder: Mailroom Etiquette
 
+From: Admin
+
 To: All
 
 −−−−−−−−−−−−−−−−−−
@@ -10390,6 +10461,8 @@ Unique name:
 ----
 
 Subject: New Security Protocol
+
+From: Admin
 
 To: All
 
@@ -16303,10 +16376,20 @@ The two nodes with the arrow facing toward the device are the inputs, while the 
 ! Output
 |-
 | style="background:red;" | Red
+| style="background:red;" | Red
+| style="background:red;" | Red
+|-
+| style="background:red;" | Red
+| style="background:green;" | Green
+| style="background:red;" | Red
 |-
 | style="background:green;" | Green
+| style="background:red;" | Red
+| style="background:red;" | Red
 |-
-|-
+| style="background:green;" | Green
+| style="background:green;" | Green
+| style="background:green;" | Green
 |}
 
 == Automation Ribbon ==
@@ -16642,11 +16725,20 @@ Memory Toggle is an Automation Building that takes in two inputs and produces an
 ! Output
 |-
 | style="background:red;" | Red
+| style="background:red;" | Red
 | unchanged
 |-
 | style="background:green;" | Green
+| style="background:red;" | Red
+| style="background:green;" | Green
 |-
+| style="background:red;" | Red
+| style="background:green;" | Green
+| style="background:red;" | Red
 |-
+| style="background:green;" | Green
+| style="background:green;" | Green
+| style="background:red;" | Red
 |}
 
 == Usage ==
@@ -16680,10 +16772,13 @@ Or it could be explained by below time sequence.
 |-
 | Reset
 | style="border-right:none;padding-right:0;background:red;" colspan="3" |000000000
+| style="border-left:none;padding-left:0;border-right:none;padding-right:0;background:green;" |111
 | style="border-left:none;padding-left:0;background:red;" |000
 |-
 | Output
+| style="border-right:none;padding-right:0;background:red;" |000
 | style="border-left:none;padding-left:0;border-right:none;padding-right:0;background:green;" colspan="2" |111111
+| style="border-left:none;padding-left:0;background:red;" colspan="2" |000000
 |}
 
 == Automation Ribbon ==
@@ -16709,6 +16804,8 @@ NOT Gate will effectively reverse the behavior of buildings or sensors that outp
 | style="background:red;" | Red
 | style="background:green;" | Green
 |-
+| style="background:green;" | Green
+| style="background:red;" | Red
 |}
 
 == Automation Ribbon ==
@@ -16733,10 +16830,20 @@ OR Gate is an Automation Building that takes in two inputs and outputs Green whe
 ! Output
 |-
 | style="background:red;" | Red
+| style="background:red;" | Red
+| style="background:red;" | Red
 |-
+| style="background:red;" | Red
+| style="background:green;" | Green
 | style="background:green;" | Green
 |-
+| style="background:green;" | Green
+| style="background:red;" | Red
+| style="background:green;" | Green
 |-
+| style="background:green;" | Green
+| style="background:green;" | Green
+| style="background:green;" | Green
 |}
 
 == Automation Ribbon ==
@@ -16849,14 +16956,32 @@ with the lowest numbered output (0) furthest from the input signal and next to t
 ! Output 0
 |-
 | style="background:red;" | Red
+| style="background:red;" | Red
+| style="background:red;" | Red
+| style="background:red;" | Red
+| style="background:red;" | Red
 | Input Signal
+|-
+| style="background:red;" | Red
+| style="background:green;" | Green
+| style="background:red;" | Red
+| style="background:red;" | Red
+| Input Signal
+| style="background:red;" | Red
 |-
 | style="background:green;" | Green
+| style="background:red;" | Red
+| style="background:red;" | Red
 | Input Signal
+| style="background:red;" | Red
+| style="background:red;" | Red
 |-
+| style="background:green;" | Green
+| style="background:green;" | Green
 | Input Signal
-|-
-| Input Signal
+| style="background:red;" | Red
+| style="background:red;" | Red
+| style="background:red;" | Red
 |}
 
 == See Also ==
@@ -17024,10 +17149,20 @@ XOR Gate is an Automation Building that takes in two inputs and will output a Gr
 ! Output
 |-
 | style="background:red;" | Red
+| style="background:red;" | Red
+| style="background:red;" | Red
 |-
+| style="background:red;" | Red
+| style="background:green;" | Green
 | style="background:green;" | Green
 |-
+| style="background:green;" | Green
+| style="background:red;" | Red
+| style="background:green;" | Green
 |-
+| style="background:green;" | Green
+| style="background:green;" | Green
+| style="background:red;" | Red
 |}
 
 == Automation Ribbon ==
@@ -17099,9 +17234,11 @@ Sensors are the way that buildings can be made to interact with the environment 
 These sensors interact with
  the contents of a liquid pipe.
 
+|style="text-align:center; vertical-align:top; width:33%"|
 === Gas Pipe Sensors ===
  the contents of a gas pipe.
 
+|style="text-align:center; vertical-align:top; width:33%"|
 === Conveyor Sensors ===
  the contents of a Conveyor Rail.
 
@@ -19142,6 +19279,7 @@ The carbon dioxide can be traditionally fed to slicksters to regain some fuel, b
 
 === Ethanol ===
 Comparison with Wood Burner, which uses the same fuel source, and has similar by-products:
+{| class="wikitable" style="text-align:right"
 !
 ! Wood
 Burner

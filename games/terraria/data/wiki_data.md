@@ -12927,9 +12927,11 @@ Furthermore, both the Creepers (in the first phase) and the Brain (in the second
 |-
 |  || class="m-expert expert" | 1.5 - 3 seconds || class="m-master master" | 1.88 - 3.75 seconds ||  ||
 |-
+|  || class="m-expert expert" | 5.25 - 10.5 seconds || class="m-master master" | 6.56 - 13.13 seconds ||  ||
 |-
 |  || class="m-expert expert" | 11.25 - 22.5 seconds || class="m-master master" | 14.06 - 28.13 seconds ||  ||
 |-
+|  || class="m-expert expert" | 1.5 - 3 seconds || class="m-master master" | 1.88 - 3.75 seconds ||  ||
 |-
 |  || class="m-expert expert" | 9.75 - 19.5 seconds || class="m-master master" | 12.19 - 24.38 seconds ||  ||
 
@@ -13620,7 +13622,9 @@ The Ice Queen's projectiles inflict the following debuffs:
 | 10 seconds || class="m-expert expert" | 20 seconds || class="m-master master" | 25 seconds ||
 |-
 |
+| 5 seconds || class="m-expert expert" | 10 seconds || class="m-master master" | 12.5 seconds ||
 |-
+| 10 seconds || class="m-expert expert" | 20 seconds || class="m-master master" | 25 seconds ||
 |-
 | rowspan=3 style="border-bottom:0px" |  || rowspan="3" style="border-bottom:0px;" |  || rowspan="3" style="border-bottom:0px;" |
 | 1/3 of a second || class="m-expert expert" | 2/3 of a second || class="m-master master" | 5/6 of a second ||
@@ -15023,6 +15027,12 @@ Recipes
 Noncraftable lanterns
 colspan=2 | Lantern !! Notes
 || Found in the Dungeon.
+|| Found in the Dungeon.
+|| Found in the Dungeon.
+|| Found in the Dungeon.
+|| Found in the Dungeon.
+|| Found in the Dungeon.
+|| Found in the Dungeon.
 || Found in Ruined houses, does not break from lava.
 || Dropped by Pirates.
 }
@@ -15557,11 +15567,11 @@ will create white, the color shown when a player types something in the chat.
 By setting an Announcement Box up with  the text will be indistinguishable from an actual player's input.
 will create the color shown when some events start - "The Blood Moon is rising..."; "Impending doom approaches..."
 will create the color shown when an invasion starts or when a boss is summoned and defeated - "Skeletron has awoken!"
-will create the color shown when a player dies - "<Player name> was slain."
+will create the color shown when a player dies - " was slain."
 Note that this color is different from the one that is displayed when an NPC or a town pet dies.
-will create the color shown when an NPC or a town pet dies - "<Name of NPC> the <type of NPC> was slain..."
+will create the color shown when an NPC or a town pet dies - " the  was slain..."
 Note that this color is different from the one that is displayed when a player dies.
-will create the color shown when an NPC or a town pet arrives - "<Name of NPC> the <type of NPC> has arrived!"
+will create the color shown when an NPC or a town pet arrives - " the  has arrived!"
 will create the color shown by some general status messages, such as - "Spawn point set!"; "You are not close enough to a pylon to teleport with the pylon network"
 will create the color shown when an NPC throws a Party - "Looks like  is throwing a party"
 
@@ -16633,6 +16643,8 @@ Recipes
 Noncraftable Bathtubs
 colspan=2 | Bathtub !! Notes
 || Found in the Dungeon. ()
+|| Found in the Dungeon. ()
+|| Found in the Dungeon. ()
 || Found in Ruined houses, does not break from lava. ()
 || Dropped by Pirates.
 }
@@ -16754,6 +16766,8 @@ Crafting
 Recipes
 Noncraftable Beds
 colspan=2 | Bed !! Notes
+|| Found in the Dungeon.
+|| Found in the Dungeon.
 || Found in the Dungeon.
 || Found in Ruined houses, does not disappear in lava.
 || Dropped by Pirates.
@@ -17796,6 +17810,8 @@ Recipes
 Noncraftable Beds
 colspan=2 | Bed !! Notes
 || Found in the Dungeon.
+|| Found in the Dungeon.
+|| Found in the Dungeon.
 || Found in Ruined houses, does not disappear in lava.
 || Dropped by Pirates.
 }
@@ -17834,6 +17850,8 @@ Crafting
 Recipes
 Noncraftable Candles
 colspan=2 | Candle !! Notes
+|| Found in the Dungeon.
+|| Found in the Dungeon.
 || Found in the Dungeon.
 || Found in Ruined Houses, does not break from lava.
 || Dropped by Pirates.
@@ -22385,6 +22403,8 @@ Recipes
 Non-craftable Pianos
 colspan=2 | Piano !! Notes
 || Found in the Dungeon. ()
+|| Found in the Dungeon. ()
+|| Found in the Dungeon. ()
 || Found in Ruined houses, does not break from lava. ()
 || Dropped by Pirates.
 
@@ -22638,6 +22658,12 @@ Crafting
 Recipes
 Noncraftable lanterns
 colspan=2 | Lantern !! Notes
+|| Found in the Dungeon.
+|| Found in the Dungeon.
+|| Found in the Dungeon.
+|| Found in the Dungeon.
+|| Found in the Dungeon.
+|| Found in the Dungeon.
 || Found in the Dungeon.
 || Found in Ruined houses, does not break from lava.
 || Dropped by Pirates.
@@ -22988,6 +23014,12 @@ Recipes
 Noncraftable lanterns
 colspan=2 | Lantern !! Notes
 || Found in the Dungeon.
+|| Found in the Dungeon.
+|| Found in the Dungeon.
+|| Found in the Dungeon.
+|| Found in the Dungeon.
+|| Found in the Dungeon.
+|| Found in the Dungeon.
 || Found in Ruined houses, does not break from lava.
 || Dropped by Pirates.
 }
@@ -23084,6 +23116,8 @@ Recipes
 Noncraftable Candelabras
 colspan = 2 | Candelabra !! Notes
 || Found in the Dungeon.
+|| Found in the Dungeon.
+|| Found in the Dungeon.
 || Found in Ruined houses, does not break from lava.
 || Dropped by Pirates.
 
@@ -23110,6 +23144,8 @@ Crafting
 Recipes
 Noncraftable Candles
 colspan=2 | Candle !! Notes
+|| Found in the Dungeon.
+|| Found in the Dungeon.
 || Found in the Dungeon.
 || Found in Ruined Houses, does not break from lava.
 || Dropped by Pirates.
@@ -23168,6 +23204,12 @@ Crafting
 Recipes
 Noncraftable lanterns
 colspan=2 | Lantern !! Notes
+|| Found in the Dungeon.
+|| Found in the Dungeon.
+|| Found in the Dungeon.
+|| Found in the Dungeon.
+|| Found in the Dungeon.
+|| Found in the Dungeon.
 || Found in the Dungeon.
 || Found in Ruined houses, does not break from lava.
 || Dropped by Pirates.
@@ -23228,6 +23270,8 @@ Crafting
 Recipes
 Noncraftable Chandeliers
 colspan=2 | Chandelier !! Notes
+|| () Found in the Dungeon.
+|| () Found in the Dungeon.
 || () Found in the Dungeon.
 || () Found in Ruined houses, does not break from lava.
 || Dropped by Pirates.
@@ -23652,7 +23696,25 @@ Item !! Chance !! Quantity !! Average !! Yield/1000
 || 64.2145% || 1–100 || 35.5588 ||  (≈ )
 || 0.01% || 1 || 1 ||
 || 0.3333% || 1–16 || 1.1775 ||
+|| 0.3333% || 1–16 || 1.1775 ||
+|| 0.3333% || 1–16 || 1.1775 ||
+|| 0.3333% || 1–16 || 1.1775 ||
+|| 0.3333% || 1–16 || 1.1775 ||
+|| 0.3333% || 1–16 || 1.1775 ||
 || 0.9598% || 1–16 || 1.1775 ||
+|| 2.239552% || 1–16 || 1.1775 ||
+|| 2.239552% || 1–16 || 1.1775 ||
+|| 2.239552% || 1–16 || 1.1775 ||
+|| 2.239552% || 1–16 || 1.1775 ||
+|| 2.239552% || 1–16 || 1.1775 ||
+|| 2.239552% || 1–16 || 1.1775 ||
+|| 2.239552% || 1–16 || 1.1775 ||
+|| 2.239552% || 1–16 || 1.1775 ||
+|| 2.239552% || 1–16 || 1.1775 ||
+|| 2.239552% || 1–16 || 1.1775 ||
+|| 2.239552% || 1–16 || 1.1775 ||
+|| 2.239552% || 1–16 || 1.1775 ||
+|| 2.239552% || 1–16 || 1.1775 ||
 || 2.239552% || 1–16 || 1.1775 ||
 }
 + With
@@ -23663,7 +23725,25 @@ Item !! Chance !! Quantity !! Average !! Yield/1000
 || 57.7876% || 1–100 || 26.892 ||  ()
 || 0.027% || 1 || 1 ||
 || 0.15% || 1–16 || 1.1775 ||
+|| 0.15% || 1–16 || 1.1775 ||
+|| 0.15% || 1–16 || 1.1775 ||
+|| 0.15% || 1–16 || 1.1775 ||
+|| 0.15% || 1–16 || 1.1775 ||
+|| 0.15% || 1–16 || 1.1775 ||
 || 1.7629% || 1–16 || 1.1775 ||
+|| 1.9938% || 1–16 || 1.1775 ||
+|| 1.9938% || 1–16 || 1.1775 ||
+|| 1.9938% || 1–16 || 1.1775 ||
+|| 1.9938% || 1–16 || 1.1775 ||
+|| 1.9938% || 1–16 || 1.1775 ||
+|| 1.9938% || 1–16 || 1.1775 ||
+|| 1.9938% || 1–16 || 1.1775 ||
+|| 1.9938% || 1–16 || 1.1775 ||
+|| 1.9938% || 1–16 || 1.1775 ||
+|| 1.9938% || 1–16 || 1.1775 ||
+|| 1.9938% || 1–16 || 1.1775 ||
+|| 1.9938% || 1–16 || 1.1775 ||
+|| 1.9938% || 1–16 || 1.1775 ||
 || 1.9938% || 1–16 || 1.1775 ||
 }
 + With
@@ -23861,6 +23941,8 @@ Crafting
 Recipes
 Noncraftable Chandeliers
 colspan=2 | Chandelier !! Notes
+|| () Found in the Dungeon.
+|| () Found in the Dungeon.
 || () Found in the Dungeon.
 || () Found in Ruined houses, does not break from lava.
 || Dropped by Pirates.
@@ -26067,6 +26149,12 @@ Crafting
 Recipes
 Noncraftable lanterns
 colspan=2 | Lantern !! Notes
+|| Found in the Dungeon.
+|| Found in the Dungeon.
+|| Found in the Dungeon.
+|| Found in the Dungeon.
+|| Found in the Dungeon.
+|| Found in the Dungeon.
 || Found in the Dungeon.
 || Found in Ruined houses, does not break from lava.
 || Dropped by Pirates.
@@ -31469,7 +31557,7 @@ Because of its rapid attack rate, it is an effective summon for killing a Dungeo
 
 Trivia
 Despite being a Hardmode drop, the Blade Staff has the second lowest base damage out of all summon weapons, the lowest being the Lightning Aura Rod.
-Along with the Stardust Dragon Staff, Desert Tiger Staff, and Raven Staff, the Blade Staff is one of four summon weapons whose buff description is not "<name of minion> will fight for you", instead being "".
+Along with the Stardust Dragon Staff, Desert Tiger Staff, and Raven Staff, the Blade Staff is one of four summon weapons whose buff description is not " will fight for you", instead being "".
 "", or Lingchi, was a torture and execution method used in China from roughly 900 CE until it was banned in 1905.
 It is also the title of a song by popular American singer .
 The Blade Staff seems to have a similar color scheme to the Hallowed Mimic's drops, most closely resembling the Flying Knife.
@@ -34780,6 +34868,8 @@ Nearly all crafting stations are furniture. There are currently 44 crafting stat
 |}
 
 === Hardmode ===
+{| class="terraria lined"
+! Station !! Description
 |-
 |
 
@@ -34805,8 +34895,10 @@ Nearly all crafting stations are furniture. There are currently 44 crafting stat
 == Specialized ==
 These have limited crafting use and only craft a couple of arguably non-essential items.
 
+{| class="terraria lined"
 |+Pre-Hardmode
 |-
+! Station !! Description
 |-
 |
 | Solely crafts Ale.
@@ -34817,8 +34909,10 @@ These have limited crafting use and only craft a couple of arguably non-essentia
 |
 | Solely crafts Living Wood Walls.
 |}
+{| class="terraria lined"
 |+Hardmode
 |-
+! Station !! Description
 |-
 |
 | Solely crafts Asphalt Blocks.
@@ -34830,6 +34924,7 @@ These have limited crafting use and only craft a couple of arguably non-essentia
 == Themed furniture ==
 The following crafting stations are used to craft themed versions of various furniture items.
 
+{| class="terraria lined"
 |+Pre-Hardmode
 |-
 ! Station !! Furniture Theme
@@ -34855,8 +34950,10 @@ The following crafting stations are used to craft themed versions of various fur
 |
 | Slime
 |}
+{| class="terraria lined"
 |+Hardmode
 |-
+! Station !! Furniture Theme
 |-
 |
 | Corruption (Lesion)
@@ -34900,6 +34997,7 @@ Liquids also produce unique blocks when colliding with each other ( + = , + = , 
 These do not use the crafting menu but produce items in unique ways.
 
 {| class="terraria"
+! Station !! Description
 |-
 |
 | The player holds a Marshmallow on a Stick near the fire to turn it into a Cooked Marshmallow.
@@ -35002,6 +35100,7 @@ Gần như tất cả bàn chế tạo là nội thất. Có tất cả 44 bàn 
 |}
 
 === Hardmode ===
+{| class="terraria lined"
 ! Bàn chế tạo !! Mô tả
 |-
 |
@@ -35028,8 +35127,10 @@ Gần như tất cả bàn chế tạo là nội thất. Có tất cả 44 bàn 
 == Đặc biệt ==
 Chúng dùng để chế tạo một số ít vật phẩm và chỉ dùng để chế tạo vật phẩm có vẻ là không cần thiết cho lắm.
 
+{| class="terraria lined"
 |+Pre-Hardmode
 |-
+! Bàn chế tạo !! Mô tả
 |-
 |
 | Chủ yếu chế tạo Bia.
@@ -35040,8 +35141,10 @@ Chúng dùng để chế tạo một số ít vật phẩm và chỉ dùng để
 |
 | Chủ yếu chế tạo Tường Gỗ Sống.
 |}
+{| class="terraria lined"
 |+Hardmode
 |-
+! Bàn chế tạo !! Mô tả
 |-
 |
 | Chủ yếu chế tạo Khối Nhựa đường.
@@ -35053,6 +35156,7 @@ Chúng dùng để chế tạo một số ít vật phẩm và chỉ dùng để
 == Themed furniture ==
 The following crafting stations are used to craft themed versions of various furniture items.
 
+{| class="terraria lined"
 |+Pre-Hardmode
 |-
 ! Station !! Furniture Theme
@@ -35078,8 +35182,10 @@ The following crafting stations are used to craft themed versions of various fur
 |
 | Slime
 |}
+{| class="terraria lined"
 |+Hardmode
 |-
+! Station !! Furniture Theme
 |-
 |
 | Corruption (Lesion)
@@ -36064,6 +36170,8 @@ Some permanent character upgrades can be made by throwing certain items into Shi
 
 Some items can be upgraded by throwing them into Shimmer:
 
+{| class="terraria sortable lined mw-collapsible"
+! Input !! Output !! Notes
 |-
 |
 |
@@ -36150,6 +36258,7 @@ These items will cycle between each other when placed into Shimmer.
 
 These items cycle from left to right.
 
+{| class="fandom-table"
 |
 |
 |
@@ -36166,6 +36275,7 @@ These items cycle from left to right.
 |
 |
 |}
+{| class="fandom-table"
 |
 |
 |
@@ -36382,16 +36492,19 @@ These items decraft into random ingredients.
 
 |}
 
+{| class="terraria mw-collapsible"
 |+ Items that cannot be decrafted until Skeletron is defeated
 |
 
 |}
 
+{| class="terraria mw-collapsible"
 |+ Items that cannot be decrafted until Golem is defeated
 |
 
 |}
 
+{| class="terraria mw-collapsible"
 |+ Items that cannot be decrafted
 |
 
@@ -36443,6 +36556,7 @@ Recipes that contain the following recipe groups will always be decrafted into t
 |}
 
 == Enemy and Critter transmutations ==
+{| class="terraria sortable lined mw-collapsible"
 ! Input !! Output
 |-
 |
@@ -36840,10 +36954,13 @@ Also see , which also fulfills a house's comfort item requirement. Including the
 | Furniture found in the Dungeon.
 |-
 |
+| Furniture found in the Dungeon.
 |-
 |
+| Furniture found in the Dungeon.
 |-
 |
+| Furniture found in the Dungeon.
 |-
 |
 | Found in Ruined Houses, does not break from lava.
@@ -37039,10 +37156,13 @@ Also see , which also fulfills a house's comfort item requirement. Including the
 | Furniture found in the Dungeon.
 |-
 |
+| Furniture found in the Dungeon.
 |-
 |
+| Furniture found in the Dungeon.
 |-
 |
+| Furniture found in the Dungeon.
 |-
 |
 | Found in Ruined Houses, does not break from lava.
@@ -37515,36 +37635,43 @@ These buffs are provided from sources and consumed upon use, such as potions, fl
 
 == Equipment ==
 These buffs are provided naturally by equipment, either permanently or under certain circumstances.
+{| class="terraria sortable lined"
 ! width="34" | Icon
 ! Name
 ! Source
 ! Effect
 ! Tooltip
+! data-sort-type="number" | Duration
 
 |}
 
 == Activated Furniture ==
 These buffs are provided upon right-clicking particular placed furniture.
+{| class="terraria sortable lined"
 ! width="34" | Icon
 ! Name
 ! Source
 ! Effect
 ! Tooltip
+! data-sort-type="number" | Duration
 
 |}
 
 == Environmental ==
 These buffs are provided by being in range of particular placed furniture, blocks, or NPCs. Banners, as well as static effects from objects like Peace Candle and Happy!, have a 170×125 / 100×84 tile area of effect centered on the object. Since they cannot be canceled by right clicking them, the only way to remove the buff is to leave the area (with the exception of honey).
+{| class="terraria sortable lined"
 ! width="34" | Icon
 ! Name
 ! Source
 ! Effect
 ! Tooltip
+! data-sort-type="number" | Duration
 
 |}
 
 == Summons ==
 Aside from the normal buffs, some buffs provide you with a minion. Unlike other buffs, they last until the player dies, cancels the buff, or leaves the current world.
+{| class="terraria sortable lined"
 ! width="34" | Icon
 ! Name
 ! Source
@@ -37555,6 +37682,7 @@ Aside from the normal buffs, some buffs provide you with a minion. Unlike other 
 |}
 
 == Mounts ==
+{| class="terraria sortable lined"
 ! width="34" | Icon
 ! Name
 ! Source
@@ -37599,20 +37727,37 @@ Aside from the normal buffs, some buffs provide you with a minion. Unlike other 
 !
 ! data-sort-type="number" | 持續時間
 
+Plenty Satisfied
+中提升某啲基礎數值，例如，之類。
+- source：一啲嘢食類
+- duration：5-20分鐘 }
+
+Well Fed
+提升某啲基礎數值，例如，之類。
+- source：一啲嘢食類
+- duration：10-45分鐘 }
+
+Weapon Imbue: Ichor
+近戰攻擊會對造成}嘅。
+Flask of Ichor
+
 |}
 
 == 裝備 ==
 呢一啲會由裝備永久或者喺特定情況之下提供。
+{| class="terraria sortable lined"
 ! width="34" | Icon
 ! 名稱
 ! 來源
 ! 效果
 !
+! data-sort-type="number" | 持續時間
 
 |}
 
 == 使用咗嘅家私 ==
 呢一啲係由右鍵點擊特定嘅家私所提供。
+{| class="terraria sortable lined"
 ! width="34" | Icon
 ! Name
 ! Source
@@ -37624,16 +37769,19 @@ Aside from the normal buffs, some buffs provide you with a minion. Unlike other 
 
 == 環境性 ==
 呢一類係當玩家喺一啲放咗喺度嘅傢俬，方塊或者NPCs嘅範圍嘅時候提供嘅，同埋例如，呢一類嘅背景效果，都有由物件中心出發170×125 / 100×84 圖格面積嘅效果範圍。由於唔可以通過右鍵取消效果，要整走呢一啲唯一嘅方法就係離開嗰個區域(除咗)。
+{| class="terraria sortable lined"
 ! width="34" | Icon
 ! Name
 ! Source
 ! Effect
 ! Tooltip
+! data-sort-type="number" | Duration
 
 |}
 
 == Summons ==
 Aside from the normal buffs, some buffs provide you with a minion. Unlike other buffs, they last until the player dies, cancels the buff, or leaves the current world.
+{| class="terraria sortable lined"
 ! width="34" | Icon
 ! Name
 ! Source
@@ -37644,6 +37792,7 @@ Aside from the normal buffs, some buffs provide you with a minion. Unlike other 
 |}
 
 == Mounts ==
+{| class="terraria sortable lined"
 ! width="34" | Icon
 ! Name
 ! Source
@@ -39883,8 +40032,8 @@ Using the Rod of Discord costs no mana or ammunition; however, each use inflicts
 * Dying from teleporting during the Chaos State will display unique death messages:
 ** ""
 ** ""
-** "<Player name>'s legs appeared where his head should be."
-** "<Player name>'s legs appeared where her head should be."
+** "'s legs appeared where his head should be."
+** "'s legs appeared where her head should be."
 *** This is the only death message that changes based on the character's gender.
 * The Chaos State debuff was introduced to combat the problem of being able to use the Rod of Discord repeatedly, granting the user an arguably overpowered method of transportation or evasion.
 * The abbreviation of the Rod of Discord, RoD, is the same as the first word, rod.
@@ -39915,14 +40064,19 @@ Unlike buffs, debuffs cannot be canceled by right-clicking their icons. The Nurs
 |}
 
 == From items and environment ==
+{| class="terraria lined sortable"
+! Icon !! Name !! Effect !! Tooltip !! Duration
 
 |}
 
 == Other debuffs ==
+{| class="terraria lined sortable"
+! Icon !! Name !! Effect !! Tooltip !! Duration
 
 |}
 
 == Unobtainable debuffs ==
+{| class="terraria lined sortable"
 ! Icon !! Name !! Effect !! Tooltip !! Notes
 
 |}
@@ -39934,6 +40088,7 @@ Unlike buffs, debuffs cannot be canceled by right-clicking their icons. The Nurs
 :* Furthermore, players in Expert worlds are inflicted with the Chilled debuff when they enter water in a Snow biome. The Chilled debuff lasts for as long as the player is in the water and lasts for 5 seconds after getting out.
 * The maximum possible damage per second that can be inflicted on an enemy with damaging debuffs is 1331. This can be achieved by consuming a Flask of Cursed Flames, switching between wearing Frost armor and Huntress armor/Red Riding armor and a Magma Stone, and using the Daybreak, Bone Javelin, Shadowflame Knife, Venom Staff, while having a Imp Staff, a Hornet Staff, a Stardust Cell Staff minion , and a Explosive Trap sentry summons active, against a target that has been Oiled (due to the explosive trap) and within the range of Dryad's aura in a world with all bosses defeated.
 * The following weapons inflict debuffs on enemies:
+{| class="terraria lined sortable"
 ! Weapon !! Debuff
 
 |}
@@ -40072,8 +40227,8 @@ Using the Rod of Discord costs no mana or ammunition; however, each use inflicts
 * Dying from teleporting during the Chaos State will display unique death messages:
 ** ""
 ** ""
-** "<Player name>'s legs appeared where his head should be."
-** "<Player name>'s legs appeared where her head should be."
+** "'s legs appeared where his head should be."
+** "'s legs appeared where her head should be."
 *** This is the only death message that changes based on the character's gender.
 * The Chaos State debuff was introduced to combat the problem of being able to use the Rod of Discord repeatedly, granting the user an arguably overpowered method of transportation or evasion.
 * The abbreviation of the Rod of Discord, RoD, is the same as the first word, rod.

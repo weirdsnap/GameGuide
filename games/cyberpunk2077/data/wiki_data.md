@@ -87,6 +87,7 @@ ru:1R-0NC-LAD
 
 ---
 ## 21st Stout
+- caption：Beer. Simple.
 - type：Consumable
 - duration：30 sec
 - effects：Reduces movement speed by 20%. *Reduces weapon accuracy by 50%.
@@ -583,6 +584,7 @@ uk:Життя починається знов
 
 ---
 ## A Like Supreme (quest)
+image
 - type：Side Job
 - quest_giver：Johnny Silverhand
 - district：Santo Domingo
@@ -635,6 +637,7 @@ uk:Верховний
 
 ---
 ## AR Raygun Supreme 9000
+- caption：God's gift to the inalienable right of self-defense.
 - manufacturer：Militech
 - type：Pistol
 - technology：Power
@@ -646,6 +649,7 @@ uk:Верховний
 - ammo_capacity：20
 - headshot_damage_multiplier：125
 - type_of_mod_slots：Scope, Muzzle
+- source：Following the River (temporarily)
 - weight：4.3
 
 AR Raygun Supreme 9000 is a toy variant of the Militech M-10AF Lexington in .
@@ -663,6 +667,7 @@ Notes
 
 ---
 ## ARCH Nazaré
+appears_other
 - type：Motorcycle
 - group：Road
 - manufacturer：ARCH
@@ -676,6 +681,7 @@ Notes
 - seats：1
 - cost：71000
 - street_cred：34
+- source：See acquisition
 
 引文：#1 viewer's favorite on the show "Guns and Horses" for two years in a row.（Nazaré）
 
@@ -724,6 +730,7 @@ ru:Арч Назаре
 - horse_power：170
 - weight：661
 - seats：1
+- source：See acquisition
 
 The "Itsumade" is a modified version of the Nazaré, a motorcycle manufactured by ARCH in .
 
@@ -759,6 +766,7 @@ ru:Арч Назаре «Ицумадэ»
 - seats：1
 - cost：68000
 - street_cred：34
+- source：See acquisition
 
 The "Kobold" is a modified version of the Nazaré, a motorcycle manufactured by ARCH in .
 
@@ -784,6 +792,7 @@ References
 - seats：1
 - cost：74000
 - street_cred：42
+- source：See acquisition
 
 The Nazaré "Racer" is a customized motorcycle manufactured by ARCH in .
 
@@ -969,6 +978,7 @@ ru:Аарон Уэйнс
 
 ---
 ## Ab-synth
+- caption：Be Bohemian.
 - type：Consumable
 - quality：Common
 - weight：0.2
@@ -1135,6 +1145,7 @@ Abandoned_Warehouse_(Northside) Interior 01_CP2077.png|Interior
 
 ---
 ## Abydos Classic
+- caption：Some things should never change.
 - manufacturer：Abydos
 - type：Consumable
 - duration：30 sec
@@ -1152,6 +1163,7 @@ fr:Abydos Classic
 
 ---
 ## Abydos King Size
+- caption：Sometimes only a king can satisfy.
 - manufacturer：Abydos
 - type：Consumable
 - duration：30 sec
@@ -1185,7 +1197,9 @@ ru:Поглощение токсина
 
 ---
 ## Access Shard
+- caption：Opens armored Militech cases.
 - type：Misc
+- source：Space Oddity
 - sell_price：1
 - weight：0.0
 
@@ -1199,6 +1213,7 @@ Acquisition
 
 ---
 ## Achilles x-MOD2
+- caption：Your enemies never stood a chance.
 - manufacturer：Militech
 - type：Precision Rifle
 - technology：Tech
@@ -1214,6 +1229,7 @@ Acquisition
 - headshot_damage_multiplier：175
 - armor_penetration：50
 - no_of_mod_slots：2
+- source：Black Sapphire
 - weight：7.8
 
 The Achilles x-MOD2 is an variant of the Militech M-179 Achilles in . It was added in Patch 2.1.
@@ -1291,9 +1307,11 @@ ru:Специализация
 
 ---
 ## Action Figure
+- caption："The figurine depicts a ninja in black and yellow robes. Looks like some kind of knockoff."
 - type：Misc
 - weight：0
 - cost：1
+- source：I'll Fly Away
 
 Action Figure is a miscellaneous quest item in .
 
@@ -1533,6 +1551,7 @@ uk:Аби з очей
 
 ---
 ## Adrenaline Booster
+- caption：Helps the body maintain performance when under great strain.
 - manufacturer：BioDyne Systems
 - type：Circulatory System
 - attribute：Reflexes
@@ -1540,6 +1559,7 @@ uk:Аби з очей
 - attribute_value：0.1
 - capacity：14
 - effects：+-% Stamina whenever you use a melee weapon to neutralize an enemy.
+- source：Ripperdocs
 
 The Adrenaline Booster are Cyberware for the Circulatory System in .
 
@@ -1551,12 +1571,14 @@ Acquisition
 
 ---
 ## Adrenaline Converter
+- caption：Be in two places at once. Almost.
 - type：Nervous System
 - attribute：Cool
 - attribute_attunement：HeadshotDamage
 - attribute_value：0.2
 - capacity：6
 - effects：+-% movement speed for - sec. when entering combat.
+- source：Ripperdocs
 - cprice：-
 - rprice：5273
 
@@ -1588,6 +1610,7 @@ ru:Прилив адреналина
 
 ---
 ## Adreno-trigger
+- caption：Be in two places at once. Almost.
 - type：Nervous System
 - quality：/
 - attribute：Reflexes
@@ -1595,6 +1618,8 @@ ru:Прилив адреналина
 - attribute_value：3.0
 - capacity：20
 - effects：+-% movement speed for - sec. when entering combat.
+- source：Airdrop
+Dogtown Ripperdocs
 
 The Adreno-trigger is an variant of the Adrenaline Converter Cyberware for the Nervous System in .
 
@@ -1773,6 +1798,7 @@ Afterlife Mercs
 |}
 
 Clients
+{| class="fandom-table" width="100%"
 |-
 !Name
 !Info
@@ -1811,6 +1837,7 @@ ru:Отголосок потрясения
 
 ---
 ## Agaou
+- caption：Henceforth thou shall be known as "V, God/Goddess of Thunder."
 - type：Axe
 - technology：Thrown
 - iconic：This one will have 'em shakin' in their boots. Crit Hits with throws emit a shockwave that can damage multiple enemies.
@@ -1821,6 +1848,7 @@ ru:Отголосок потрясения
 - return_time：9.1
 - headshot_damage_multiplier：125
 - armor_penetration：25
+- source：Increased Criminal Activity: Voodoo Boys
 - weight：3.2
 
 Agaou is an variant of the Tomahawk in .
@@ -1935,6 +1963,7 @@ Shards
 
 ---
 ## Akebono Hotel
+appears_other
 - type：Unfinished hotel
 - city：Night City
 - district：Pacifica
@@ -1969,8 +1998,9 @@ ru:Акэбоно
 - gender：Male
 - affiliation：Arasaka
 - equipment：Arasaka Nowaki
-- role：Solo|image=Char profile Akira.pngVideo Game
-- status：Deceased|place_of_birth=Japan
+- role：Solo
+- status：Deceased
+- place_of_birth：Japan
 - dod：2013
 - place_of_death：Arasaka Tower, Night City
 - appearances：
@@ -2015,6 +2045,7 @@ References
 
 ---
 ## Alabai
+- caption：High caliber, high damage, high recoil.
 - manufacturer：Techtronika
 - type：Shotgun
 - technology：Power
@@ -2028,6 +2059,7 @@ References
 - headshot_damage_multiplier：85
 - armor_penetration：25
 - no_of_projectiles：10
+- source：Airdrops
 - weight：9.6
 
 Alabai is an variant of the Techtronika VST-37 Pozhar in .
@@ -2189,6 +2221,7 @@ ru:Альберт Мёрфи
 
 ---
 ## Aldecaldo Camp (2077)
+- caption：Original campsite
 - aka：Mobile Camp
 Nomad Camp
 - type：Mobile nomad campsite
@@ -2309,7 +2342,8 @@ Aurore/Aymeric Cassel
 Braindance Actress (formerly)
 - role：Lawman
 - voiced_by：Yvonne Senat Jones
-- dod：2077 (dependent)|place_of_death=EBM Petrochem Stadium (dependent)
+- dod：2077 (dependent)
+- place_of_death：EBM Petrochem Stadium (dependent)
 
 Alena Xenakis, also known as Alex, is a character in .
 
@@ -2490,6 +2524,7 @@ ru:Фабрика «Олл фудс»
 
 ---
 ## All Foods Meat Delight
+- caption：Tastes just like real meat!
 - brand：All Foods
 - type：Consumable
 - duration：450 sec.
@@ -2505,6 +2540,7 @@ fr:« Délice de viande » All Foods
 
 ---
 ## All Foods Veggie Delight
+- caption：Tastes just like real veggies!
 - brand：All Foods
 - type：Consumable
 - duration：450 sec.
@@ -2577,9 +2613,11 @@ Notes
 
 ---
 ## Alois' Laptop
+- caption："A PC that belonged to Alois Daquin, an employee of Kang Tao."
 - type：Misc
 - weight：0
 - cost：3
+- source：Gig: Last Login
 
 Alois' Laptop is a miscellaneous quest item in .
 
@@ -2591,9 +2629,11 @@ Acquisition
 
 ---
 ## Altar
+- caption："Zen Master's Altar"
 - type：Misc
 - weight：0
 - cost：1
+- source：Meetings Along The Edge
 
 Altar is a miscellaneous quest item in .
 
@@ -2727,6 +2767,7 @@ ru:Универсальность
 
 ---
 ## Ambition
+- caption：It will get you far.
 - manufacturer：Arasaka
 Hasan Demir
 - type：Pistol
@@ -2741,6 +2782,7 @@ Hasan Demir
 - charge_time：0.5
 - headshot_damage_multiplier：150
 - armor_penetration：25
+- source：Go Your Own Way
 - weight：4.3
 
 Amibition is an variant of the Arasaka JKE-X2 Kenshin in .
@@ -2765,6 +2807,7 @@ uk:Амбіція
 
 ---
 ## Amnesty
+- caption：Some things never get old.
 - type：Revolver
 - technology：Power
 - iconic：Cassidy's mods have turned this into the Wild West's most lethal revolver. Hip firing and landing a headshot immediately after drawing this weapon guarantees Crit Damage.
@@ -2777,6 +2820,7 @@ uk:Амбіція
 - ammo_capacity：6
 - headshot_damage_multiplier：200
 - armor_penetration：25
+- source：We Gotta Live Together
 - weight：4.6
 
 Amnesty is an variant of the Malorian Overture in .
@@ -2799,6 +2843,7 @@ uk:Амністія
 
 ---
 ## Amstaff
+- caption：Time to hunt.
 - type：Shotgun
 - technology：Power
 - quality：/
@@ -2815,6 +2860,8 @@ BARGHEST weapons also gain increased Armor Penetration.
 - armor_penetration：25
 - no_of_projectiles：3
 - type_of_mod_slots：Scope
+- source：Airdrops
+[https://gaming.amazon.com Amazon Prime Gaming]
 - weight：9.6
 
 Amstaff is an variant of the Militech Crusher in .
@@ -2833,6 +2880,8 @@ Trivia
 
 ---
 ## Amsterdam
+image
+population
 - type：Capital City
 - country：Benelux
 
@@ -2848,6 +2897,7 @@ References
 
 ---
 ## Ana Friedman
+appears_other
 - status：Alive
 - gender：Female
 - eyes：Black
@@ -3128,6 +3178,8 @@ fr:Anel Duffault
 - role：Doll
 - voiced_by：Keisuke Hoashi
 
+引文：My sole aim is to fulfill your greatest need.（Angel）
+
 Angel is a doll employed at Clouds in .
 
 Associated Quests
@@ -3140,6 +3192,7 @@ ru:Ангел
 
 ---
 ## Angelica Whelan
+hair_color
 - aka：Angie
 - status：Dependent
 - home：Dogtown
@@ -3562,6 +3615,7 @@ ru:Анна Хэмилл
 
 ---
 ## Anna Nox
+appearances
 - aka：Annie
 - status：Dependent
 - home：Night City
@@ -3796,6 +3850,7 @@ ru:Энтони Харрис
 
 ---
 ## Anton Kolev
+appears_games
 - status：Dependent
 - place_of_death：West Wind Estates, Pacifica
 - gender：Male
@@ -3829,6 +3884,7 @@ ru:Антон Колев
 
 ---
 ## Antonio Luccessi
+- caption：2020
 - age：142
 - status：Deceased
 - dob：1935
@@ -3882,6 +3938,7 @@ In 2077, a newspaper from the Night City Journal can be found with the headline 
 
 Stats & Equipment
 
+citation
 - int：10
 - ref：4
 - tech：10
@@ -3986,6 +4043,7 @@ References
 
 ---
 ## Apparition
+- caption：A modified version of the Kenshin. Popular among Arasaka agents.
 - manufacturer：Arasaka
 - type：Pistol
 - technology：Tech
@@ -4000,6 +4058,7 @@ References
 - headshot_damage_multiplier：150
 - armor_penetration：50
 - type_of_mod_slots：Scope
+- source：War Pigs
 - weight：4.3
 
 Apparition is an variant of the Arasaka JKE-X2 Kenshin in .
@@ -4215,6 +4274,7 @@ Locations
 
 ---
 ## Arasaka HJKE-11 Yukimura
+- caption：Aiming takes time you might not have.
 - manufacturer：Arasaka
 - type：Pistol
 - technology：Smart
@@ -4284,6 +4344,7 @@ ru:Арасака HJKE-11 Юкимура
 
 ---
 ## Arasaka HJSH-18 Masamune
+- caption：Masamune - power reimagined.
 - manufacturer：Arasaka
 - type：Assault Rifle
 - technology：Power
@@ -4296,6 +4357,7 @@ ru:Арасака HJKE-11 Юкимура
 - headshot_damage_multiplier：125
 - armor_penetration：25
 - type_of_mod_slots：Scope, Muzzle
+- source：See acquisition
 - weight：7.2
 
 The HJSH-18 Masamune (Japanese: 正宗) is a Power Assault Rifle manufactured by Arasaka in .
@@ -4355,6 +4417,7 @@ fr:Arasaka HJSH-18 Masamune
 
 ---
 ## Arasaka Industrial Park
+image
 - type：Warehouse
 - owner：Arasaka
 - city：Night City
@@ -4400,6 +4463,7 @@ ru:Промышленный парк «Арасаки»
 
 ---
 ## Arasaka JKE-X2 Kenshin
+- caption：Elegance in lethality.
 - manufacturer：Arasaka
 - type：Pistol
 - technology：Tech
@@ -4535,6 +4599,7 @@ Weapons
 
 ---
 ## Arasaka Nowaki
+- caption：Wreaking havoc since the dawn of the 21st century.
 - manufacturer：Arasaka
 - type：Assault Rifle
 - technology：Power
@@ -4547,6 +4612,7 @@ Weapons
 - headshot_damage_multiplier：150
 - armor_penetration：50
 - type_of_mod_slots：Scope, Muzzle
+- source：See acquisition
 - weight：7.2
 
 The Nowaki (Japanese: 野分) is a Power Assault Rifle manufactured by Arasaka in .
@@ -4613,6 +4679,7 @@ ru:Орбитальная станция «Арасаки»
 
 ---
 ## Arasaka Port
+appears_books
 - type：Port
 - owner：Arasaka
 - city：Night City
@@ -4666,6 +4733,7 @@ Locations
 
 ---
 ## Arasaka Senkoh LX
+- caption：High caliber, high damage, high recoil.
 - manufacturer：Arasaka & Jinguji
 - type：Submachine Gun
 - technology：Tech
@@ -4678,6 +4746,7 @@ Locations
 - ammo_capacity：30
 - charge_time：0.75
 - headshot_damage_multiplier：100
+- source：See acquisition
 - weight：5.0
 
 The Senkoh LX (Japanese: 閃光 LX) is a Tech Submachine Gun manufactured by Arasaka in partnership with Jinguji in . It was added in Patch 1.6 as part of the New Weapons: Firearms DLC.
@@ -4726,6 +4795,8 @@ References
 
 ---
 ## Arasaka Shadow
+attribute_value
+- caption：A top-tier cyberdeck, commonly used by netrunners specializing in infiltration and corporate espionage.
 - manufacturer：Arasaka
 - type：Cyberdeck
 - capacity：14
@@ -4755,6 +4826,7 @@ Notes
 
 ---
 ## Arasaka Shigure
+- caption：Purrs like a kitten.
 - manufacturer：Arasaka
 - type：Submachine Gun
 - technology：Power
@@ -4766,6 +4838,7 @@ Notes
 - ammo_capacity：50
 - headshot_damage_multiplier：100
 - type_of_mod_slots：Scope, Muzzle
+- source：See acquisition
 - weight：5.0
 
 The Shigure (Japanese: 時雨) is a Power Submachine Gun manufactured by Arasaka in .
@@ -4869,6 +4942,7 @@ Locations
 
 ---
 ## Arasaka TKI-20 Shingen
+- caption：Nothing can hold you back now.
 - manufacturer：Arasaka
 - type：Submachine Gun
 - technology：Smart
@@ -4880,6 +4954,7 @@ Locations
 - ammo_capacity：30
 - headshot_damage_multiplier：50
 - lock_on_time：1.10
+- source：See acquisition
 - weight：5.0
 
 The TKI-20 Shingen (Japanese: 信玄) is a Smart Submachine Gun manufactured by Arasaka in .
@@ -4919,6 +4994,7 @@ Shingen Prototype.png|
 Behind the Scenes
 
 引文：A high-quality smart submachine gun from Arasaka. Very easy to conceal, as it is short, and thanks to the detachable magazine, shortenable. Like all smart weapons, it is equipped with a smartlink in the grip and uses caseless, self-propelled and self-guiding ammunition.
+speaker
 
 Trivia
 *Like many Arasaka-manufactured weapons, the name is a reference to a famous Japanese daimyō. In this case, it is Takeda Shingen.
@@ -5358,6 +5434,7 @@ ru:Набережная «Арасаки»
 
 ---
 ## Archangel
+- caption：A piece of art that should never waste away in a display case.
 - type：Revolver
 - technology：Power
 - iconic：An angel of a weapon with a devil's attitude. Full-auto mode allows you to fire rounds in the rhythm of Samurai's "Archangel". Successive hits after short intervals knock enemies to the ground.
@@ -5371,6 +5448,7 @@ ru:Набережная «Арасаки»
 - headshot_damage_multiplier：200
 - armor_penetration：25
 - type_of_mod_slots：Scope
+- source：A Like Supreme
 - weight：4.6
 
 Archangel is an variant of the Malorian Overture in .
@@ -5409,6 +5487,7 @@ uk:Архангел
 - door_mount：Standard
 - windscreen：Glass
 - top_speed：101
+- source：See acquisition
 
 引文：The first unit rolled off the assembly line in 2023. Notorious for its low quality.（Hella EC-D i360）
 
@@ -5449,6 +5528,7 @@ ru:Арчер Хелла EC-D i360
 - door_mount：Swing
 - windscreen：Glass
 - top_speed：102
+- source：See acquisition
 
 The Hella EC-D i360 is a vehicle manufactured by Archer in .
 
@@ -5590,6 +5670,7 @@ References
 - door_mount：Standard
 - windscreen：Glass
 - cost：69000
+- source：See acquisition
 
 引文：Archer's cooperation with the legendary racer Billy "Bandit" McCarty gave us this limited-edition masterpiece designed to reign the streets.（Quartz "Bandit"）
 
@@ -5642,6 +5723,7 @@ ru:Арчер Кварц «Бандит»
 - windscreen：Militech CrystalDome
 - street_cred：20
 - cost：90000
+- source：See acquisition
 
 引文：Equipped with a modified engine that is perfectly suited to desert terrain.（Sidewinder's description）
 
@@ -5693,6 +5775,7 @@ fr:Archer Quartz "Sidewinder"
 - windscreen：Militech CrystalDome
 - top_speed：158mph (255km/h)
 - cost：79000
+- source：AUTOFIXER
 
 引文：Equipped with a modified engine that is perfectly suited to desert terrain.
 
@@ -5733,6 +5816,7 @@ ru:Арчер Кварц «Призрак»
 - door_mount：Standard
 - windscreen：Glass
 - cost：21000
+- source：See acquisition
 
 引文：The first sportscar released by Archer. In production since 2041.（Quartz EC-L r275's description）
 
@@ -5779,6 +5863,7 @@ ru:Арчер Кварц EC-L R275
 - windscreen：Glass
 - cost：31000
 - street_cred：12
+- source：See acquisition
 
 引文：According to NCPD statistics, this model is found in as many as 17% of reported accidents in Night City despite making up only 2% of all registered vehicles.（Quartz EC-T2 r660）
 
@@ -5825,6 +5910,8 @@ ru:Арчибальд Крейн
 
 ---
 ## Argentina
+literacy_rate
+military
 - location：South America
 - capital：Buenos Aires
 - leader：Gen. Juan Fidel Pérez III (part of 2013)
@@ -5907,6 +5994,7 @@ References
 
 ---
 ## Armagnac Massy
+- caption：Don't drink it. Savor it.
 - type：Consumable
 - duration：30 sec
 - effects：Reduces movement speed by 20%. *Reduces weapon accuracy by 50%.
@@ -6105,6 +6193,7 @@ fr:Arthur Jenkins
 
 ---
 ## Artichoke 'n' Avocado Pizza
+- caption：Topping it to the next level.
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -6189,6 +6278,7 @@ Navigation
 
 ---
 ## AssKick
+- caption：Is it a refreshment? A dietary supplement? A drug? Does it matter? Open up a can of AssKick, and try our new fruit flavor - purple!
 - type：Long-lasting
 - effects：+20% Max Health
 −50% Stamina Regen Rate
@@ -6248,6 +6338,8 @@ References
 
 ---
 ## Atlanta
+location
+population
 - type：City
 - country：NUSA
 - region：South
@@ -6285,6 +6377,7 @@ References
 
 ---
 ## Atomic Sensors
+- caption：The ware she told you not to worry about.
 - manufacturer：Kang Tao
 - type：Nervous System
 - attribute：Cool
@@ -6292,6 +6385,7 @@ References
 - attribute_value：0.2
 - capacity：5
 - effects：Increases movement speed proportional to the enemy's detection of you outside of combat. (max. -% movement speed at 80% detection). The effect ends when you enter combat.
+- source：Ripperdocs
 
 The Atomic Sensors are Cyberware for the Nervous System in .
 
@@ -6303,6 +6397,7 @@ Acquisition
 
 ---
 ## Au Cabanon
+appears_books
 - type：Restaurant
 - city：Night City
 - district：Westbrook
@@ -6382,6 +6477,27 @@ ru:Аврора Кассель
 
 ---
 ## Australia
+caption
+motto
+aka
+type
+owner
+leader
+mascot
+prefecture
+state
+province
+region
+district
+sub_district
+street
+location
+demonym
+gangs
+appears_other
+map1
+map2
+map3
 - country：Australia
 - city：New Canberra
 Sydney
@@ -6632,6 +6748,7 @@ References
 
 ---
 ## Ave Saitan
+- caption：666 grams of temptation.
 - brand：All Foods
 - type：Consumable
 - duration：450 sec.
@@ -6645,6 +6762,7 @@ Consuming Ave Saitan applies the Nourishment status, increasing max Health by 5%
 
 ---
 ## Axel Mankievicz
+- caption：2020
 - aka：Axeman
 - age：40 (2020)
 - status：Alive (2045)
@@ -6678,10 +6796,13 @@ ru:Аксман
 
 ---
 ## Axolotl
+- caption：Best things come to those who don't have to wait.
 - type：Frontal Cortex
 - quality：/
 - capacity：48
 - effects：−-% Cooldown instantly for all cyberware after neutralizing an enemy.
+- source：Last Call
+Dogtown Ripperdocs
 
 Axolotl is an Frontal Cortex Cyberware implant in .
 
@@ -6772,6 +6893,7 @@ ru:Эмерик Кассель
 
 ---
 ## Ayo Zarin
+residence
 - status：Dependent
 - dod：2077 (dependent)
 - place_of_death：Luxor High Wellness Spa (dependent)
@@ -6783,6 +6905,7 @@ ru:Эмерик Кассель
 - affiliation：Voodoo Boys
 
 引文：Un seul peuple, une seule foi ! ("One nation, one faith!" in French)（Ayo Zarin）
+citation
 
 Ayo Zarin is a Voodoo Boys lieutenant and Slider's right hand in Dogtown.
 
@@ -7114,6 +7237,7 @@ Location(s)
 ---
 ## BD 9430
 - type：Misc
+- source：Gig: Dirty Biz
 
 BD_9430 is an illegal braindance (XBD) and a miscellaneous quest item in .
 
@@ -7125,6 +7249,7 @@ Acquisition
 
 ---
 ## BFC 9000
+- caption：A big fucking you-know-what.
 - type：One-Handed Club
 - technology：Blunt
 - iconic：No amount of pornos and skin BDs can prepare you for an encounter with the BFC 9000. Attacks at high Stamina have a greatly increased Crit Chance. Packs a few extra inches for improved range. Strong Attacks deal more damage, both physical and psychological.
@@ -7132,6 +7257,7 @@ Acquisition
 - damage_per_hit：138.0
 - stamina_cost：9.6
 - armor_penetration：25
+- source：Dam Viewpoint
 - weight：3.4
 
 BFC 9000 is an One-Handed Club in . It was added in Patch 2.1.
@@ -7156,6 +7282,7 @@ ru:МПХ-9000
 
 ---
 ## Ba Xing Chong
+- caption：The perfect arsenal for a one-person army.
 - type：Shotgun
 - technology：Smart
 - iconic：A rocket launcher that fires explosive rounds. This weapon can smart-target up to six enemies simultaneously. Everything caught in the blast radius is torn to shreds. Be careful - that goes for you too. At low Health, reload speed and Burn chance is increased.
@@ -7169,6 +7296,7 @@ ru:МПХ-9000
 - headshot_damage_multiplier：50
 - lock_on_time：1.2
 - no_of_projectiles：4
+- source：DV Ebunike (dependent)
 - weight：9.6
 
 Ba Xing Chong (Simplified Chinese: 八星铳, "Eight-Star Gun") is an variant of the Kang Tao L-69 Zhuo in .
@@ -7204,6 +7332,7 @@ uk:Ба Сін Чон
 
 ---
 ## Baalbek Arak
+- caption：We've bottled the heat of the desert sun.
 - type：Consumable
 - duration：30 sec
 - effects：Reduces movement speed by 20%. *Reduces weapon accuracy by 50%.
@@ -7218,12 +7347,14 @@ The effect lasts 30 seconds.
 
 ---
 ## Baby Boomer
+- caption：Okay, boomer.
 - type：Two-Handed Club
 - technology：Blunt
 - iconic：Has zero tolerance for losers. Every consecutive attack in a combo increases Crit chance.
 - attack_speed：1.5
 - damage_per_hit：216.0
 - stamina_cost：12.0
+- source：Dazed and Confused (dependent)
 - weight：5.7
 
 The Baby Boomer is an Baseball Bat in .
@@ -7421,10 +7552,12 @@ ru:Бэрд
 
 ---
 ## Bait
+- caption：Simulates an aid request in the network's comms system, calling the target's nearest ally to the their position.
 - type：Covert
 - ram_cost：→ → →
 - effects：Untraceable. *Lures an enemy to your current position in an Alerted state. *: Changes effect to not put the enemy in an Alerted state. *: Can be used during combat, forcing the affected enemy out of cover. *: When uploaded through a camera, the enemy will be lured to the camera instead of you. *: When uploaded a second time to the same enemy outside of combat, they will stop their approach and turn back. *: Reduces RAM cost by 1.
 - traceability：0
+- source：Netrunners
 
 Bait is a Covert Quickhack in .
 
@@ -7457,6 +7590,7 @@ ru:Приманка
 
 ---
 ## Bald Eagle
+- caption：The predator stalks his prey. Nothing escapes his sight.
 - type：Revolver
 - technology：Power
 - iconic：After throwing Iconic knife Fang into an enemy's leg, shooting the same leg will shred it to pieces and return Fang to your hand. Effective against moving targets.
@@ -7469,6 +7603,7 @@ ru:Приманка
 - ammo_capacity：8
 - headshot_damage_multiplier：250
 - armor_penetration：75
+- source：Firestarter (dependent)
 - weight：4.6
 
 Bald Eagle is an variant of the Techtronika Metel in .
@@ -7498,6 +7633,7 @@ uk:Орлан
 - capacity：2
 - effects：Increased ricochet chance with Power weapons.
 +-% ricochet damage Links the user's weapon and optics, offering real-time data-tracking of the weapon's status and preview of ricochet trajectory.
+- source：Ripperdocs
 
 The Ballistic Coprocessor is Cyberware for the Hands in .
 
@@ -7766,9 +7902,11 @@ References
 
 ---
 ## Bartmoss' Cyberdeck
+- caption："Contains encrypted data."
 - type：Misc
 - weight：0
 - cost：1
+- source：KOLD MIRAGE
 
 Bartmoss' Cyberdeck is a miscellaneous quest item in .
 
@@ -7815,12 +7953,14 @@ ru:Бартоломео Морделлини
 
 ---
 ## Baseball Bat
+- caption：Great for cracking shins and homers.
 - type：Two-Handed Club
 - technology：Blunt
 - attack_speed：1.2
 - damage_per_hit：240.0
 - stamina_cost：12.0
 - armor_penetration：25
+- source：See acquisition
 - weight：5.7
 
 The Baseball Bat is a Blunt Two-Handed Club in .
@@ -7862,6 +8002,7 @@ Notes
 
 ---
 ## Baseball Bat x-MOD2
+- caption：Great for cracking shins and homers.
 - type：Two-Handed Club
 - technology：Blunt
 - iconic：A special version of the weapon capable of additional modification. Optimized design also allows for improved handling.
@@ -7870,6 +8011,7 @@ Notes
 - stamina_cost：12.0
 - armor_penetration：25
 - no_of_mod_slots：2
+- source：Black Sapphire
 - weight：5.7
 
 Baseball Bat x-MOD2 is an variant of the Baseball Bat in .
@@ -7889,6 +8031,8 @@ uk:Бейсбольна бита (вер. 2)
 
 ---
 ## Basic Kiroshi Optics
+cd_ram
+- caption：Image of Basic Kiroshi Optica
 - manufacturer：Kiroshi
 - type：Face
 - attribute：Cool
@@ -7896,6 +8040,7 @@ uk:Бейсбольна бита (вер. 2)
 - attribute_value：0.2
 - capacity：1
 - effects：−–% camera detection speed ///x optical zoom when scanning
+- source：The Ripperdoc
 
 The Basic Kiroshi Optics is a Face Cyberware implant manufactured by Kiroshi Optics in .
 
@@ -7913,7 +8058,9 @@ Notes
 
 ---
 ## Basketball
+- caption："Autographed by Dante Gonzalez."
 - type：Misc
+- source：Heroes
 
 Basketball is an miscellaneous quest item in .
 
@@ -8130,6 +8277,7 @@ ru:8ug8ear
 
 ---
 ## Behavioral Imprint-synced Faceplate
+- caption：Advanced FIA spytech based on abandoned Militech research. Pairing it with a behavioral imprint allows the user to take on the appearance of another person as well as replicate their facial expressions and speech pattern. An experienced agent equipped with a faceplate is virtually indistinguishable from the person they're mimicking, and are capable of clearing even the most sophisticated security scans.
 - alias：TNRTX10.0
 - manufacturer：Zetatech/Militech
 - type：Face
@@ -8139,6 +8287,7 @@ ru:8ug8ear
 - attribute_value：0.05
 - capacity：0
 - effects：Activating a faceplate alters both your physical and digital identity, making you virtually unrecognizable. Outside of combat, you can easily escape the Law (up to Bounty level 4). Cooldown: 1500 sec.
+- source：Birds with Broken Wings
 
 The Behavioral Imprint-synced Faceplate, also known as the TNRTX10.0, is an Cyberware implant for the Face manufactured by Zetatech and Militech in .
 
@@ -8203,6 +8352,7 @@ uk:Лігво зла
 
 ---
 ## Below Deck
+appears_books
 - type：Club
 - city：Night City
 
@@ -8226,6 +8376,7 @@ fr:Below Deck
 
 ---
 ## Ben DeBaillon
+appears_games
 - aka：SpaceBoy_66
 - status：Dependent
 - home：Night City
@@ -8277,6 +8428,11 @@ ru:Бен ДеБайон
 
 ---
 ## Benedict McAdams
+status
+dod
+home
+affiliation
+appears_games
 - gender：Male
 - aka：Ben McAdams
 - role：Solo
@@ -8311,6 +8467,7 @@ ru:Бенедикт МакАдамс
 
 ---
 ## Berlin
+population
 - type：Capital City
 - country：Germany
 
@@ -8385,9 +8542,11 @@ ru:Нэнси Хартли
 
 ---
 ## Beta Acid
+- caption：Used to produce many drugs - both good and bad.
 - type：Misc
 - weight：0
 - cost：3
+- source：Gig: Serious Side Effects
 
 Beta Acid is a miscellaneous quest item in .
 
@@ -8441,6 +8600,7 @@ ru:Большой Пит
 
 ---
 ## Big Rock
+caption
 - type：Landmark
 - region：Badlands
 - subregion：Rocky Ridge Plains
@@ -8521,6 +8681,7 @@ ru:Билл Митчелл
 
 ---
 ## BioDyne Berserk
+- caption：The Berserk model from BioDyne is an affordable and versatile implant for those who want quick and easy results, but don't expect miracles. It does what it says on the box, so let's not get picky.
 - manufacturer：BioDyne
 - type：Berserk
 - attribute：Reflexes
@@ -8538,6 +8699,7 @@ Melee weapons only
 +100% Crit Damage When it ends:
 +25% Health for each enemy neutralized. Duration: - sec.
 Cooldown: - sec.
+- source：Ripperdocs
 
 The BioDyne Berserk is a Berserk Operating System manufactured by BioDyne in .
 
@@ -8586,9 +8748,11 @@ fr:BioDyne Berserk
 
 ---
 ## Bioconductor
+- caption：Facilitates superconductivity in the circuitry that connects the body's cyberware.
 - type：Frontal Cortex
 - capacity：16
 - effects：Allows your quickhacks to deal Crit Hits. -% Crit Chance with quickhacks. −4 Max RAM
+- source：Ripperdocs
 
 The Bioconductor is a Frontal Cortex Cyberware implant in .
 
@@ -8603,12 +8767,14 @@ Acquisition
 
 ---
 ## Biomonitor
+- caption：An implant designed to coordinate regenerative processes.
 - type：Circulatory System
 - attribute：Technical Ability
 - attribute_attunement：ConsumableBoost
 - attribute_value：0.1
 - capacity：14
 - effects：Automatically heals you with your equipped Health Item when your Health drops below 50%. +-% Health item effectiveness.
+- source：Ripperdocs
 
 The Biomonitor is Cyberware for the Circulatory System in .
 
@@ -8633,6 +8799,7 @@ Changelog
 - capacity：8
 - armor：-
 - effects：Armor - simple but effective.
+- source：Ripperdocs
 
 The Bionic Joints is Cyberware for the Skeleton in .
 
@@ -8644,6 +8811,7 @@ Acquisition
 
 ---
 ## Biotech Σ (cyberdeck)
+- caption：This cyberdeck is popular among netrunners whose equipment relies on speedy RAM recovery. On that front, the overclocked Biotech coprocessors easily get the job done.
 - manufacturer：Biotech Σ
 - type：Cyberdeck
 - capacity：16
@@ -8938,9 +9106,12 @@ uk:Правила гри
 
 ---
 ## Black Lace
+- caption：Sometimes you just want to feel like a badass motherfucker.
 - alias：s-keef
 - type：Inhaler
+- effects：+- Armor *+-% Stamina Regen Rate *+-% damage *+-% Crit Chance *+-% Crit Damage *−-% Max Health
 - duration：300 sec.
+- source：The Pickup (Streetkid only)
 
 Black Lace is a consumable in .
 
@@ -8965,6 +9136,7 @@ ru:Чёрная дурь
 
 ---
 ## Black Mamba
+- caption：Remember what your therapist said about you being "toxic"? This is probably what they meant.
 - type：Circulatory System
 - attribute：Reflexes
 - attribute_attunement：CritChance
@@ -8973,6 +9145,7 @@ ru:Чёрная дурь
 - effects：Against Poisoned enemies:
 −% Poison damage
 +-% all other damage
+- source：Ripperdocs
 
 The Black Mamba is Cyberware for the Circulatory System in .
 
@@ -9194,6 +9367,7 @@ Location(s)
 
 ---
 ## Black Sapphire
+appears_other
 - type：Unfinished hotel
 Headquarters
 - city：Night City
@@ -9278,6 +9452,12 @@ Journal Entry
 Objectives
 *Call a netrunner to help breach MaxTac.
 
+- column：4
+- column1：Call Carol and convince her to help. *Call a different Netrunner contact. **Retrieve Carol's gift from the stash. [Optional]
+- column2：Call Chang-Hoon Nam and convince him to help. *Meet with Chang-Hoon Nam in 12 hours. *Read Chang-Hoon's message. [Optional] *Talk to Chang-Hoon.
+- column3：Talk to Nix and convince him to help. *Meet with Nix at the Arasaka Memorial in 6 hours. *Read Nix's message. [Optional] *Talk to Nix.
+- column4：Talk to Sandra and convince her to help. *Meet Sandra at the park in 8 hours. *Read Sandra's message. [Optional] *Talk to Sandra.
+
 *Call Mr. Hands. [Optional]
 **Use the netrunner working for Mr. Hands.
 **Meet the netrunner in Kabuki in 10 hours.
@@ -9321,6 +9501,7 @@ uk:Пташка в клітці
 
 ---
 ## Black Unicorn
+- caption：The razor-like blade is as merciless as death itself, the guard is fashioned from premium materials and the handle is crafted so exquisitely it belongs in a museum. Most importantly, it remains light and nimble to wield because it was forged DRM-free.
 - type：Katana
 - technology：Blade
 - iconic：Crafted for perfect balance. Attack speed is not affected by Stamina.
@@ -9328,6 +9509,7 @@ uk:Пташка в клітці
 - damage_per_hit：148.0
 - stamina_cost：6.4
 - armor_penetration：25
+- source：Stash ([https://cyberpunk.net/myrewards GOG Reward])
 - weight：4.5
 
 Black Unicorn is an Katana in .
@@ -9361,6 +9543,7 @@ uk:Чорний одноріг
 
 ---
 ## Blackwall Gateway
+- caption：It's hard to say what exactly makes the deck able to open temporary gates through the Blackwall. It could be a permaflux algorithm, or perhaps even more terrifyingly, its capable of directly communicate with rogue AIs from beyond the Blackwall and somehow persuading them to open these gates.
 - type：Ultimate
 - effects：This quickhack spreads to 3 enemies within 20 m., causing lethal damage to cyberware and neural systems. Mechs, robots, drones and turrets are deactivated. *Automatically consumes RAM every time it spreads. Each spread has a shorter upload time and a higher RAM cost than the last. But the cost can be cut in half if you're willing to pay in blood...
 - traceability：50
@@ -9522,12 +9705,14 @@ ru:Возмездие
 
 ---
 ## Blood Pump
+- caption：Accelerates oxygen supply to the body's cells.
 - type：Circulatory System
 - attribute：Technical Ability
 - attribute_attunement：ConsumableBoost
 - attribute_value：0.1
 - capacity：15
 - effects：Functions as a powerful Health Item. Instantly restores - Health, then regenerates - Health per second for 6 sec.
+- source：Ripperdocs
 
 The Blood Pump is Cyberware for the Circulatory System in .
 
@@ -9555,6 +9740,7 @@ ru:Кровожадность
 
 ---
 ## Bloody Maria
+- caption：As mean throughout all Night City as it is on the streets of Santo
 - manufacturer：Constitutional Arms
 - type：Shotgun
 - technology：Power
@@ -9568,6 +9754,7 @@ ru:Кровожадность
 - headshot_damage_multiplier：85
 - armor_penetration：25
 - no_of_projectiles：6
+- source：Ride Captain Ride
 - weight：9.6
 
 Bloody Maria is an variant of the Constitutional Arms M2038 Tactician in . It was added in Patch 1.5 as a quest reward.
@@ -9588,6 +9775,7 @@ uk:Кривава Марія
 
 ---
 ## Blue Fang
+- caption：The neurotoxin coating the blade of this prototype knife is stunningly effective.
 - type：Knife
 - technology：Thrown
 - iconic：Stuns the enemy on hit. Headshots stuns after 1 sec while other hits stun after 3 sec. Enemies outside combat state get stunned immediately.
@@ -9597,6 +9785,7 @@ uk:Кривава Марія
 - stamina_cost：4.8
 - return_time：7.0
 - headshot_damage_multiplier：150
+- source：Melee Weapon Vendor (Jackson Plains)
 - weight：2.3
 
 The Blue Fang is an variant of the Neurotoxin Knife in . It was added in Patch 1.6 as part of the New Weapons: Melee DLC.
@@ -9615,6 +9804,7 @@ uk:Блакитне ікло
 
 ---
 ## Blue Grass
+- caption：Perfect for drowning sorrows, fears and an uninteresting past.
 - type：Consumable
 - duration：30 sec
 - effects：Reduces movement speed by 20%. *Reduces weapon accuracy by 50%.
@@ -9786,6 +9976,25 @@ ru:Боб Саган
 
 ---
 ## Boeing B-17 "Flying Fortress"
+sdp
+image
+caption
+style
+country
+year
+body
+seats
+doors
+door_mount
+windscreen
+horse_power
+weight
+acc/dcc
+passengers
+cargo
+maneuver
+mass
+aka
 - type：Heavy Bomber
 - group：Bomber
 - manufacturer：Boeing
@@ -9801,6 +10010,7 @@ References
 
 ---
 ## Bolshevik Vodka
+- caption：With a kick of class revolution.
 - type：Consumable
 - duration：30 sec
 - effects：Reduces movement speed by 20%. *Reduces weapon accuracy by 50%.
@@ -9896,6 +10106,7 @@ ru:Жизненная необходимость
 
 ---
 ## Borzaya
+- caption：Can't be domesticated.
 - manufacturer：Techtronika
 - type：Sniper Rifle
 - technology：Power
@@ -9910,6 +10121,7 @@ ru:Жизненная необходимость
 - ammo_capacity：5
 - headshot_damage_multiplier：200
 - armor_penetration：50
+- source：Airdrops
 - weight：11.7
 
 Borzaya is an variant of the Techtronika SPT32 Grad in .
@@ -10010,6 +10222,7 @@ uk:Тебе це може вбити
 
 ---
 ## Bounce Back
+- caption：Take a deep breath... Now, get back in the game.
 - type：Injector
 - effects：Instantly restores - Health, then regenerates - Health per second for sec.
 - duration：10 sec.
@@ -10081,9 +10294,11 @@ References
 
 ---
 ## Braindance Wreath
+- caption："A braindance player with editing capability."
 - type：Misc
 - weight：0
 - cost：1
+- source：The Information
 
 Braindance Wreath is a miscellaneous quest item in .
 
@@ -10164,6 +10379,7 @@ References
 
 ---
 ## Brazil
+type
 - location：South America
 - capital：Brasilia
 - affiliation：Central American Federation
@@ -10220,6 +10436,7 @@ Notes
 
 ---
 ## Breakthrough
+- caption：Pierces concrete like cardboard.
 - manufacturer：Tsunami
 - type：Sniper Rifle
 - technology：Tech
@@ -10234,6 +10451,7 @@ Notes
 - charge_time：1.25
 - headshot_damage_multiplier：300
 - armor_penetration：100
+- source：New Boss, New Rules
 - weight：11.7
 
 Breakthrough is an variant of the Tsunami Nekomata in .
@@ -10403,6 +10621,7 @@ ru:Брендан
 - seats：1
 - cost：30000
 - street_cred：12
+- source：See acquisition
 
 引文：Fitted with a powerful engine perfect for off-road conditions.（Off-road Apollo）
 
@@ -10475,6 +10694,7 @@ References
 - top_speed：108
 - cost：36000
 - street_cred：26
+- source：See acquisition
 - horse_power：99
 
 引文：NCPD statistics show that this is one of the most frequently stolen vehicles in Night City.（Apollo 650-S）
@@ -10672,6 +10892,7 @@ ru:Бриттани Хейс
 
 ---
 ## Broseph Lager
+- caption：Fuck it. Have a lager.
 - manufacturer：Broseph
 - type：Consumable
 - duration：30 sec
@@ -10801,6 +11022,7 @@ es:Brunei
 
 ---
 ## Brussels
+population
 - type：Capital City
 - country：Benelux
 - appears_books：
@@ -10874,12 +11096,16 @@ ru:Брайс Мосли
 
 ---
 ## Buck Arnold
-- status：Dependent|dod=2077 (dependent)
+equipment
+appearances
+- status：Dependent
+- dod：2077 (dependent)
 - home：Night City
 - gender：Male
 - affiliation：United States Armed Forces (formerly)
 6th Street
-- location：Santo Domingo|occupation=6th Street Ganger, Arroyo fighting champion
+- location：Santo Domingo
+- occupation：6th Street Ganger, Arroyo fighting champion
 
 Buck Arnold is a member of 6th Street who V can encounter in Arroyo.
 
@@ -10917,6 +11143,7 @@ Quotes
 
 ---
 ## Budget Arms Carnage
+- caption：Blast a hole through spacetime!
 - manufacturer：Budget Arms
 - type：Shotgun
 - technology：Power
@@ -10930,6 +11157,7 @@ Quotes
 - headshot_damage_multiplier：85
 - armor_penetration：50
 - no_of_projectiles：10
+- source：See acquisition
 - weight：9.6
 
 The Carnage is a Power Shotgun manufactured by Budget Arms in .
@@ -10989,6 +11217,7 @@ ru:Баджет армс «Карнаж»
 
 ---
 ## Budget Arms Cut-o-Matic
+- caption：The missing link between machetes and chainsaws. As effective and it is noisy – forget about stealth when using this baby.
 - manufacturer：Budget Arms
 - type：Chainsword
 - technology：Blade
@@ -10998,6 +11227,7 @@ ru:Баджет армс «Карнаж»
 - stamina_cost：9.6
 - charge_time：1.20
 - armor_penetration：50
+- source：Maelstrom Heat
 - weight：5.4
 
 The Cut-o-Matic is a Bladed Chainsword manufactured by Budget Arms in . It was added in Patch 1.6 as part of the New Weapons: Melee DLC.
@@ -11043,6 +11273,7 @@ References
 
 ---
 ## Budget Arms Guillotine
+- caption：Only slightly better than bringing a knife to a gunfight.
 - manufacturer：Budget Arms
 - type：Submachine Gun
 - technology：Power
@@ -11054,6 +11285,7 @@ References
 - ammo_capacity：45
 - headshot_damage_multiplier：100
 - type_of_mod_slots：Muzzle
+- source：See acquisition
 - weight：5.0
 
 The Guillotine is a Power Submachine Gun manufactured by Budget Arms in . It was added in Patch 1.5 as part of the Budget Arms Guillotine DLC.
@@ -11105,6 +11337,8 @@ References
 
 ---
 ## Budget Arms Slaught-O-Matic
+iconic
+- caption：Single-use and non-reloadable, but perfect for a pinch.
 - manufacturer：Budget Arms
 - type：Pistol
 - technology：Power
@@ -11116,6 +11350,7 @@ References
 - ammo_capacity：36
 - headshot_damage_multiplier：150
 - armor_penetration：25
+- source：Budget Arms S.C.S.M.
 - cost：100
 - weight：4.3
 
@@ -11264,6 +11499,7 @@ References
 
 ---
 ## Bumelant
+- caption：Pop a squat, take a shot.
 - type：Consumable
 - duration：30 sec
 - effects：Reduces movement speed by 20%. *Reduces weapon accuracy by 50%.
@@ -11300,6 +11536,7 @@ ru:Пожар в городе
 
 ---
 ## Burrito XXL
+- caption：It's big. Like really big.
 - brand：All Foods
 - type：Consumable
 - duration：450 sec.
@@ -11313,6 +11550,7 @@ Consuming Burrito XXL applies the Nourishment status, increasing max Health by 5
 
 ---
 ## Burrito XXL Rosado
+- caption：Big burrito energy.
 - brand：All Foods
 - type：Consumable
 - duration：450 sec.
@@ -11326,6 +11564,7 @@ Consuming Burrito XXL Rosado applies the Nourishment status, increasing max Heal
 
 ---
 ## Burrito XXL Turquesa
+- caption：A burrito to die for. Seriously.
 - brand：All Foods
 - type：Consumable
 - duration：450 sec.
@@ -11386,7 +11625,9 @@ References
 
 ---
 ## Bus Ticket
+- caption："One person. One way."
 - type：Misc
+- source：New Dawn Fades
 
 Bus Ticket is an miscellaneous quest item in .
 
@@ -11406,6 +11647,7 @@ q204_ticket_back.png|Back
 
 ---
 ## Busan
+population
 - type：Destroyed City
 - country：United Korea
 
@@ -11418,6 +11660,7 @@ References
 
 ---
 ## Butcher's Cleaver
+- caption：This cleaver has a thirst for blood. Quench it.
 - type：Knife
 - technology：Blade
 - iconic：Definition of "bloodthirsty." When your enemy is bleeding, the cleaver attacks faster and uses less stamina.
@@ -11425,6 +11668,7 @@ References
 - damage_per_hit：201.0
 - stamina_cost：8.0
 - armor_penetration：25
+- source：M'ap Tann Pèlen
 - weight：4.0
 
 The Butcher's Cleaver is an Bladed Melee Weapon in .
@@ -11452,6 +11696,7 @@ uk:Тесак м'ясаря
 
 ---
 ## Buzzsaw
+- caption：An absolute beast with a nasty bite. Don't get too close.
 - manufacturer：Darra Polytechnic
 - type：Submachine Gun
 - technology：Power
@@ -11465,6 +11710,7 @@ uk:Тесак м'ясаря
 - headshot_damage_multiplier：100
 - armor_penetration：25
 - type_of_mod_slots：Scope, Muzzle
+- source：Vice Control
 - weight：5.0
 
 Buzzsaw is an variant of the Darra Polytechnic DS1 Pulsar in .
@@ -11495,6 +11741,7 @@ uk:Циркулярка
 
 ---
 ## Byakko
+- caption：Spent most of the time collecting dust on Wakako's desk. Except for the occasional heated negotiation.
 - type：Katana
 - technology：Blade
 - iconic：Byakko's perfect balancing allows you to leap towards an enemy with full force. Killing them allows you to temporarily perform a rapid combo of attacks.
@@ -11502,6 +11749,7 @@ uk:Циркулярка
 - damage_per_hit：148.0
 - stamina_cost：6.4
 - armor_penetration：25
+- source：Professional Widow
 - weight：4.5
 
 Byakko (Japanese: 白虎) is an variant of the Katana in . It was added in Patch 1.5 as a quest reward.
@@ -11522,9 +11770,11 @@ uk:Б'якко
 
 ---
 ## Bzzzzt! Energy Drink (recalled)
+- caption：A super-sugared beverage with 1,000mg of caffeine that provides a tremendous boost to short-term productivity. Recalled for obvious reasons.
 - duration：600 sec.
 - effects：+4 RAM
 −50% RAM Recovery Rate
+- source：See acquisition
 
 Bzzzzt! Energy Drink (recalled) is a Consumable in .
 
@@ -11539,6 +11789,7 @@ Acquisiton
 
 ---
 ## CHAR Incendiary Grenade
+- caption：Creates a fiery cloud that deals Thermal damage and applies Burn to enemies in range. Especially effective against organic enemies.
 - manufacturer：Militech
 - radius：3.5
 - duration：5
@@ -11576,6 +11827,7 @@ Filippo-ubertino-grenade-artstation-v1-10.jpg|Artist render by [https://www.arts
 
 ---
 ## COX-2 Cybersomatic Optimizer
+- caption：Facilitates superconductivity in the circuitry that connects the body's cyberware.
 - type：Frontal Cortex
 - quality：/
 - attribute：Intelligence
@@ -11583,6 +11835,8 @@ Filippo-ubertino-grenade-artstation-v1-10.jpg|Artist render by [https://www.arts
 - attribute_value：0.5
 - capacity：50
 - effects：Allows your quickhacks to deal Crit Hits. -% Crit Chance with quickhacks. −- Max RAM
+- source：Airdrop
+Dogtown Ripperdocs
 
 The COX-2 Cybersomatic Optimizer is an variant of the Bioconductor Cyberware for the Frontal Cortex in .
 
@@ -11597,6 +11851,7 @@ Acquisition
 
 ---
 ## Cactus Juice
+- caption：Goes down smooth and glows in the dark.
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Hydration status. +5% Stamina Regen Rate
@@ -11610,6 +11865,7 @@ fr:Jus de cactus
 
 ---
 ## Calavera Feliz
+- caption：Fiesta? Calavera.
 - type：Consumable
 - duration：30 sec
 - effects：Reduces movement speed by 20%. *Reduces weapon accuracy by 50%.
@@ -11774,6 +12030,7 @@ References
 
 ---
 ## Camillo RAM Manager
+- caption：A mod that manages and optimizes RAM use between your brain and your cyberdeck.
 - type：Frontal Cortex
 - attribute：Intelligence
 - attribute_attunement：Cooldown
@@ -11781,6 +12038,7 @@ References
 - capacity：8
 - effects：Instantly recovers -% Max RAM when available RAM falls to -%.
 + Max RAM Cooldown: sec.
+- source：Ripperdocs
 
 The Camillo RAM Manager is a Frontal Cortex Cyberware implant in .
 
@@ -11837,6 +12095,9 @@ ru:Колобок
 
 ---
 ## Canada
+caption
+motto
+appears_other
 - type：Country
 - capital：Ottawa
 - demonym：Canadian
@@ -11864,6 +12125,7 @@ References
 
 ---
 ## Capacity Booster
+- caption：Perfect if you carry a large weight on your shoulders.
 - type：Long-lasting
 - effects：+50% Carrying Capacity
 - duration：1800 sec.
@@ -11923,6 +12185,8 @@ ru:Капитан Кальенте (Пёсий город)
 
 ---
 ## Car Battery Cable
+- caption："A standard cable for battery recharging."
+
 Car Battery Cable is a miscellaneous quest item in .
 
 Overview
@@ -11933,6 +12197,7 @@ Sources
 
 ---
 ## Carapace
+- caption：No need for 360 vision anymore.
 - type：Integumentary System
 - attribute：Technical Ability
 - attribute_attunement：Armor
@@ -11940,6 +12205,7 @@ Sources
 - capacity：16
 - armor：-
 - effects：+-% Armor effectiveness when attacked from the side or rear.
+- source：Ripperdocs
 
 The Carapace is Cyberware for the Integumentary System in .
 
@@ -11979,6 +12245,7 @@ ru:Карьерные возможности
 
 ---
 ## Caretaker's Spade
+- caption：For a little light gardening and body disposal.
 - type：Hammer
 - technology：Blunt
 - iconic：Resembles an ordinary shovel from a different dimension.
@@ -11986,6 +12253,7 @@ ru:Карьерные возможности
 - attack_speed：1.2
 - damage_per_hit：240.0
 - stamina_cost：16.0
+- source：Knockin' on Heaven's Door (missable)
 - weight：6.8
 
 Caretaker's Spade is an weapon in .
@@ -12124,6 +12392,7 @@ Associated Shards
 
 ---
 ## Carmen
+- caption：Shoots off fiercely and rapidly, just like Paco's old flame.
 - manufacturer：Darra Polytechnic
 - type：Assault Rifle
 - technology：Power
@@ -12137,6 +12406,7 @@ Associated Shards
 - headshot_damage_multiplier：100
 - armor_penetration：50
 - type_of_mod_slots：Muzzle
+- source：Balls to the Wall (dependent)
 - weight：7.2
 
 Carmen is an variant of the Darra Polytechnic DA8 Umbra in .
@@ -12327,6 +12597,7 @@ ru:Кассиус Райдер
 
 ---
 ## Cat Food
+- caption：It'll have you purring in no time.
 - type：Consumable
 - cost：5
 - duration：450 sec.
@@ -12357,6 +12628,7 @@ pl:Karma dla kota
 
 ---
 ## Catahoula
+- caption：Good for guarding. Better for attacking.
 - manufacturer：Hansen Armory
 - type：Pistol
 - technology：Tech
@@ -12373,6 +12645,8 @@ BARGHEST weapons also gain increased Armor Penetration.
 - charge_time：1.00
 - headshot_damage_multiplier：150
 - armor_penetration：75
+- source：Airdrops
+[https://gaming.amazon.com Amazon Prime Gaming]
 - weight：4.3
 
 Catahoula is an variant of the HA-4 Grit in .
@@ -12429,6 +12703,7 @@ ru:Седрик Мюллер
 
 ---
 ## Cellular Adapter
+- caption：Achieve internal harmony.
 - type：Integumentary System
 - attribute：Technical Ability
 - attribute_attunement：MasterCyberware
@@ -12440,6 +12715,7 @@ ru:Седрик Мюллер
  +0.5% Tech weapon damage
  +0.5% Health Item recharge speed
  +0.5% Grenade recharge speed
+- source：Ripperdocs
 
 The Cellular Adapter is Cyberware for the Integumentary System in .
 
@@ -12488,6 +12764,7 @@ ru:Центр нейромоторного развития №341
 
 ---
 ## Centzon Totochtin
+- caption：Tequila with no equal.
 - manufacturer：Centzon
 - type：Consumable
 - weight：0.2
@@ -12504,10 +12781,12 @@ The effect lasts 30 seconds.
 
 ---
 ## Centzon Totochtin Indigo
+- caption：Distilled from the bluest of blue agaves.
 - manufacturer：Centzon
 - type：Alcohol
 - duration：30 sec.
 - effects：Reduces movement speed by 20%. *Reduces weapon accuracy by 50%.
+- source：I Really Want to Stay at Your House
 
 Centzon Totochtin Indigo is an exquisite quality alcohol manufactured by Centzon in . It was added in Patch 2.1.
 
@@ -12534,6 +12813,7 @@ ru:Цепная молния
 
 ---
 ## Champaradise
+- caption：Swallow a load of bliss.
 - type：Consumable
 - weight：0.2
 - duration：30 sec
@@ -12656,6 +12936,7 @@ If completing Belly of the Beast or (Don't Fear) The Reaper, Alt will recite a f
 :"Let us go and make our visit."
 |}
 
+{| class="fandom-table mw-collapsible mw-collapsed" width="100%"
 !Knockin' on Heaven's Door poem (Johnny's)
 |-
 |
@@ -12679,6 +12960,7 @@ uk:Зміни неминучі
 
 ---
 ## Chaos
+- caption：A weapon that's easy to fall in love with, but difficult to trust.
 - manufacturer：Arasaka
 - type：Pistol
 - technology：Tech
@@ -12693,6 +12975,7 @@ uk:Зміни неминучі
 - headshot_damage_multiplier：150
 - armor_penetration：50
 - type_of_mod_slots：Scope
+- source：Royce (dependent)
 - weight：4.3
 
 Chaos is an variant of the Arasaka JKE-X2 Kenshin in .
@@ -12755,6 +13038,7 @@ ru:Шарлин Фокс
 
 ---
 ## Charles Bucks
+appearances
 - status：Dependent
 - home：Kabuki, Night City
 - gender：Male
@@ -12762,6 +13046,7 @@ ru:Шарлин Фокс
 - voiced_by：Akie Kotabe
 
 引文：Half the heavy lifting in business is the networking. This and the will to be cooperative and flexible.（Charles Bucks）
+citation
 
 Charles Bucks is a Ripperdoc in . He operates out of his clinic in northern Kabuki.
 
@@ -12921,6 +13206,8 @@ ru:Чартер-Хилл
 
 ---
 ## Chase Coley
+appears_games
+affiliation
 - equipment：Militech Centaur
 - occupation：Construction Worker
 - role：Cyberpsycho
@@ -12943,6 +13230,7 @@ ru:Чейз Коли
 
 ---
 ## Chateau Delen 2012
+- caption：Only 200 bottled. Claim yours.
 - type：Consumable
 - duration：30 sec
 - effects：Reduces movement speed by 20%. *Reduces weapon accuracy by 50%.
@@ -12957,8 +13245,10 @@ The effect lasts 30 seconds.
 
 ---
 ## Cheese HawtDawg
+- caption：This cheese "sausage" in a soft steamed bun will literally melt in your mouth.
 - effects：Applies the Nourishment status. +5% Max Health
  +5% Health Regen per sec. outside combat
+- source：Bill Mitchell
 
 Cheese HawtDawg is a consumable in .
 
@@ -12973,6 +13263,7 @@ Notes
 
 ---
 ## Cheetah
+- caption：Small and fierce. Real fierce.
 - manufacturer：Constitutional Arms
 - type：Pistol
 - technology：Power
@@ -12985,6 +13276,7 @@ Notes
 - ammo_capacity：12
 - headshot_damage_multiplier：150
 - type_of_mod_slots：Scope, Muzzle
+- source：No Easy Way Out (dependent)
 - weight：4.3
 
 Cheetah is an variant of the Constitutional Arms Unity in .
@@ -13003,6 +13295,7 @@ uk:Гепард
 
 ---
 ## Chef's Knife
+- caption：It slices, it dices, it minces, it stabs! It does it all!
 - type：Knife
 - technology：Thrown
 - attack_speed：3.1
@@ -13011,6 +13304,7 @@ uk:Гепард
 - stamina_cost：4.8
 - return_time：3.9
 - headshot_damage_multiplier：150
+- source：See acquisition
 - weight：4.0
 
 The Chef's Knife is a Throwable Knife in .
@@ -13119,6 +13413,7 @@ ru:Рынок «Цветок сакуры»
 
 ---
 ## Chesapeake
+- caption：Man's best friend.
 - manufacturer：Hansen Armory
 - type：Submachine Gun
 - technology：Smart
@@ -13135,6 +13430,8 @@ BARGHEST weapons also gain increased Armor Penetration.
 - headshot_damage_multiplier：50
 - armor_penetration：25
 - lock_on_time：1.00
+- source：Airdrops
+[https://gaming.amazon.com Amazon Prime Gaming]
 - weight：5.0
 
 The Chesapeake is an variant of the HA-7 Warden in .
@@ -13212,6 +13509,8 @@ ru:Честер Беннетт
 
 ---
 ## Chester Hamilton
+cyberware
+equipment
 - status：Dependent
 - location：Founding Our Future Expo
 - gender：Male
@@ -13364,6 +13663,7 @@ References
 - top_speed：137
 - cost：38,000
 - street_cred：19
+- source：See acquisition
 
 引文：Awarded the "Golden Seatbelt" at the Cologne Motor Show in 2072.（Emperor 620 Ragnar）
 
@@ -13470,6 +13770,7 @@ fr:Chevillon Emperor 720 NCPD Cuirassée
 Suicide (rear)
 - cost：55000
 - street_cred：19
+- source：See acquisition
 
 引文：Bold, colorful and spacious enough to comfortably sit four juiced-up beefcakes from the Animals.（Legatus 450 Aquila）
 
@@ -13595,6 +13896,7 @@ Suicide (rear)
 - windscreen：Bulletproof glass
 - cost：34000
 - street_cred：12
+- source：See acquisition
 
 引文：The heaviest car ever allowed to roam the streets and responsible for a quarter of all pedestrian collisions.（Thrax 388 Jefferson）
 
@@ -13649,6 +13951,7 @@ References
 
 ---
 ## Chicago
+- caption：2020 downtown Chicago
 - motto：The City in a Garden
 - type：City
 - country：NUSA
@@ -13741,9 +14044,11 @@ References
 
 ---
 ## Chilli HawtDawg
+- caption：Classic weiner with a spicy kick for those who like it hot.
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
  +5% Health Regen per sec. outside combat
+- source：Bill Mitchell
 
 Chilli HawtDawg is a consumable in .
 
@@ -13758,6 +14063,7 @@ Notes
 
 ---
 ## China
+appears_books
 - population：1.72 Billion
 - language：Mandarin Chinese (Official)
 Cantonese
@@ -13851,6 +14157,7 @@ ru:Китай
 
 ---
 ## Chinook
+- caption：Loves to bury fresh kills in the backyard.
 - type：Assault Rifle
 - technology：Power
 - quality：/
@@ -13866,6 +14173,8 @@ BARGHEST weapons also gain increased Armor Penetration.
 - headshot_damage_multiplier：100
 - armor_penetration：50
 - type_of_mod_slots：Scope, Muzzle
+- source：Airdrops
+[https://gaming.amazon.com Amazon Prime Gaming]
 - weight：7.2
 
 The Chinook is an variant of the Tsunami Kyubi in .
@@ -14004,6 +14313,7 @@ ru:Разборчивость
 
 ---
 ## Chirrisco
+- caption：Alcohol. No bullshit.
 - type：Consumable
 - duration：30 sec
 - effects：Reduces movement speed by 20%. *Reduces weapon accuracy by 50%.
@@ -14018,6 +14328,7 @@ The effect lasts 30 seconds.
 
 ---
 ## Chitin
+- caption：Neither sticks nor stones.
 - type：Integumentary System
 - quality：/
 - attribute：Body
@@ -14026,6 +14337,8 @@ The effect lasts 30 seconds.
 - capacity：50
 - armor：-
 - effects：An extremely durable subcutaneous shell made of genetically modified chitin. Provides additional Health Regen.
+- source：Airdrop
+Dogtown Ripperdocs
 
 The Chitin is an variant of the Subdermal Armor Cyberware for the Integumentary System in .
 
@@ -14038,6 +14351,7 @@ Acquisition
 
 ---
 ## Chiyo Omoto
+appears_games
 - status：Alive
 - home：Japantown, Night City
 - gender：Female
@@ -14125,6 +14439,7 @@ ru:Кристина Маркофф
 
 ---
 ## ChroManticore (drink)
+- caption：A new mix every time!
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Hydration status. +5% Stamina Regen Rate
@@ -14139,6 +14454,7 @@ Notes
 
 ---
 ## ChroManticore Carnival
+- caption：Carbonated as fuck!
 - brand：ChroManticore
 - type：Consumable
 - duration：450 sec.
@@ -14151,6 +14467,7 @@ Consuming ChroManticore Carnival applies the Hydration status, increasing Stamin
 
 ---
 ## ChroManticore Lime
+- caption：Kick your ass into high gear!
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Hydration status. +5% Stamina Regen Rate
@@ -14164,10 +14481,12 @@ fr:ChroManticore Lime
 
 ---
 ## ChroManticore Ultraviolet
+- caption：Make your taste buds glow!
 - manufacturer：ChroManticore
 - type：Consumable
 - duration：450 sec.
 - effects：+5% Stamina Regen Rate
+- source：I Really Want to Stay at Your House
 
 ChroManticore Ultraviolet is a Consumable in . It was added in Patch 2.1.
 
@@ -14183,6 +14502,8 @@ Acquisiton
 - quality：/
 - capacity：0
 - effects：+- Cyberware Capacity
+- source：Airdrop
+Dogtown Ripperdocs
 
 The Chrome Compressor is an Operating System in .
 
@@ -14234,6 +14555,7 @@ ru:Мордатый бизон
 
 ---
 ## Cirrus Cola Blood Breeze
+- caption：Now an excellent source of iron!
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Hydration status. +5% Stamina Regen Rate
@@ -14247,6 +14569,7 @@ fr:Cirrus Cola Blood Breeze
 
 ---
 ## Cirrus Cola Classic
+- caption：Cirrus – feel free!
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Hydration status. +5% Stamina Regen Rate
@@ -14260,6 +14583,7 @@ fr:Cirrus Cola Classic
 
 ---
 ## Cirrus Cola Corn and Lemon
+- caption：Let freedom ring. Open a Cirrus Light now!
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Hydration status. +5% Stamina Regen Rate
@@ -14519,6 +14843,7 @@ References
 
 ---
 ## Claw x-MOD2
+- caption：Deals heavy damage, but requires serious brawn to wield it.
 - type：Axe
 - technology：Thrown
 - iconic：A special version of the weapon capable of additional modification. Optimized design also allows for improved handling.
@@ -14530,6 +14855,7 @@ References
 - armor_penetration：25
 - return_time：4.9
 - no_of_mod_slots：2
+- source：Heavy Hearts
 - weight：4.2
 
 The Claw x-MOD2 is an variant of the Claw in . It was added in Patch 2.1.
@@ -15328,6 +15654,7 @@ Management
 |}
 
 Employees
+{| class="fandom-table" width="100%"
 !Name
 !Info
 |-
@@ -15342,6 +15669,7 @@ Employees
 |}
 
 Dolls
+{| class="fandom-table" width="100%"
 !Name
 !Info
 |-
@@ -15352,21 +15680,28 @@ Dolls
 |A doll who works at Clouds
 |-
 |Celeste
+|A doll who works at Clouds
 |-
 |Divine
+|A doll who works at Clouds
 |-
 |Evelyn Parker (formerly)
 |A doll who worked in Booth 11
 |-
 |Gale
+|A doll who works at Clouds
 |-
 |Heaven
+|A doll who works at Clouds
 |-
 |Mistral
+|A doll who works at Clouds
 |-
 |Morning Star
+|A doll who works at Clouds
 |-
 |Rainn
+|A doll who works at Clouds
 |-
 |Roxanne Sumner (formerly, dependent)
 |A doll who works in Booth 02, and has worked at Clouds longer than Tom and Judy
@@ -15375,15 +15710,19 @@ Dolls
 |A doll who works in Booth 9
 |-
 |Storm
+|A doll who works at Clouds
 |-
 |Sun
+|A doll who works at Clouds
 |-
 |Tom Caldera (formerly, dependent)
 |A doll who works in VIP Booth 2
 |-
 |Torrent
+|A doll who works at Clouds
 |-
 |Zephyr
+|A doll who works at Clouds
 |}
 
 Shards
@@ -15476,12 +15815,14 @@ ru:Атлантида
 
 ---
 ## Clutch Padding
+- caption：Empty a full clip and you'll still have the energy to take cover.
 - type：Circulatory System
 - attribute：Body
 - attribute_attunement：Health
 - attribute_value：0.5
 - capacity：12
 - effects：−-% Stamina cost for shooting.
+- source：Ripperdocs
 
 The Clutch Padding are Cyberware for the Circulatory System in .
 
@@ -15553,8 +15894,10 @@ Cred
 |}
 
 Modifications
+{| class="fandom-table" width="100%"
 ! width="70%" |Name
 ! width="20%" |€$
+! width="10%" |Street
 Cred
 |-
 |Airstrike
@@ -15631,6 +15974,8 @@ ru:Побережье
 
 ---
 ## Cocktail Stick
+stamina_cost
+- caption：Vivid, beautiful and ideal for skewering.
 - manufacturer：Arasaka
 - type：Katana
 - technology：Blade
@@ -15639,6 +15984,7 @@ ru:Побережье
 - damage_per_hit：133.0
 - stamina_cost：6.4
 - armor_penetration：25
+- source：Automatic Love
 - weight：4.5
 
 Cocktail Stick is an Katana in .
@@ -15686,6 +16032,7 @@ ru:Коди Кросби
 
 ---
 ## Coffee
+- caption：Made from natural, freshly roasted GMO beans. Origin: Brazil.
 - type：Consumable
 - duration：450 sec.
 - effects：+5% Stamina Regen Rate
@@ -15699,6 +16046,7 @@ fr:Café
 
 ---
 ## Coffee with Syn-Milk
+- caption：That creamy, velvety texture? Thank syn-milk.
 - type：Consumable
 - duration：450 sec.
 - effects：+5% Stamina Regen Rate
@@ -15717,6 +16065,7 @@ Consuming Coffee with Syn-Milk applies the Hydration status, increasing Stamina 
 - capacity：12
 - armor：-
 - effects：+-% Armor from this cyberware when available RAM is below -
+- source：Ripperdocs
 
 The Cogito Lattice is a Integumentary System Cyberware implant in . It was added in Patch 2.1.
 
@@ -15861,9 +16210,11 @@ Acquisition
 
 ---
 ## Comrade Kolya's Premium Black Caviar
+- caption：A highly prized product of Soviet aquaculture, though rarely found outside the USSR. Its presence in Dogtown is likely a direct result of Kurt Hansen's connections.
 - duration：600 sec.
 - effects：+25% Health Item effectiveness
 −20% Max Health
+- source：See acquisition
 
 Comrade Kolya's Premium Black Caviar is a Consumable in .
 
@@ -15876,6 +16227,7 @@ Acquisiton
 
 ---
 ## Comrade's Hammer
+- caption：Powered by revolutionary fervor.
 - manufacturer：Techtronika
 - type：Revolver
 - technology：Tech
@@ -15890,6 +16242,7 @@ Acquisiton
 - ammo_capacity：1
 - charge_time：1.00
 - armor_penetration：75
+- source：Suspected Organized Crime Activity (Arroyo)
 - weight：4.6
 
 Comrade's Hammer is an variant of the Techtronika RT-46 Burya in .
@@ -15924,6 +16277,7 @@ uk:Молот таваріща
 
 ---
 ## Conine
+- caption：Cognac's cock of the walk.
 - type：Consumable
 - duration：30 sec
 - effects：Reduces movement speed by 20%. *Reduces weapon accuracy by 50%.
@@ -15938,6 +16292,7 @@ The effect lasts 30 seconds.
 
 ---
 ## Constitutional Arms Liberty
+- caption：Smells like gunpowder. And freedom.
 - manufacturer：Constitutional Arms
 - type：Pistol
 - technology：Power
@@ -16001,6 +16356,7 @@ ru:Конститьюшнл армс «Либерти»
 
 ---
 ## Constitutional Arms M2038 Tactician
+- caption：Proof that you mean business.
 - manufacturer：Constitutional Arms
 - type：Shotgun
 - technology：Power
@@ -16014,6 +16370,7 @@ ru:Конститьюшнл армс «Либерти»
 - armor_penetration：25
 - no_of_projectiles：6
 - type_of_mod_slots：Scope
+- source：See acquisition
 - weight：9.6
 
 The M2038 Tactician is a Power Shotgun manufactured by Constitutional Arms in .
@@ -16069,6 +16426,7 @@ ru:Конститьюшнл армс M2038 «Тактик»
 
 ---
 ## Constitutional Arms M2067 Defender
+- caption：Exercise your Second Amendment rights.
 - manufacturer：Constitutional Arms
 - type：Light Machine Gun
 - technology：Power
@@ -16081,6 +16439,7 @@ ru:Конститьюшнл армс M2038 «Тактик»
 - ammo_capacity：80
 - headshot_damage_multiplier：85
 - armor_penetration：25
+- source：See acquisition
 - weight：11.5
 - appears_books：
 
@@ -16139,6 +16498,7 @@ Defender Kurt.png|
 Behind the Scenes
 
 引文：This light machine gun from Constitution Arms was designed to present the lowest possible profile. The pistol grip has been shifted to the right side to allow increased maneuverability while the wielder is prone, and a frontal bipod also aids shooting in that position. The magazine has a high capacity without the bulky outline usually associated with LMGs.
+citation
 
 Gallery
 
@@ -16152,6 +16512,8 @@ fr:Constitutional Arms M2067 Defender
 
 ---
 ## Constitutional Arms Unity
+iconic
+- caption：It's mid-tier, but there's nothing really to complain about. It's easy to use, has a comfortable grip and most importantly – it's reliable. Don't overthink it.
 - manufacturer：Constitutional Arms
 - type：Pistol
 - technology：Power
@@ -16163,6 +16525,7 @@ fr:Constitutional Arms M2067 Defender
 - ammo_capacity：12
 - headshot_damage_multiplier：150
 - type_of_mod_slots：Scope, Muzzle
+- source：See acquisition
 - weight：4.3
 
 The Unity is a Power Pistol manufactured by Constitutional Arms in .
@@ -16225,12 +16588,14 @@ ru:Конститьюшнл армс «Юнити»
 
 ---
 ## Contagion
+- caption：Did you know most alloys used in cyberware manufacturing contain trace amounts of toxic elements such as lead, cadmium and mercury? And that the safeguards keeping them from slipping into your bloodstream can be broken? Well you're not alone.
 - type：Combat
 - duration：→ →
 - upload_time：→
 - ram_cost：→ → →
 - effects：Infects the enemy with a virus that causes toxic cyberware substances to leak. This deals poison damage over time and can spread to 2 enemy[-ies] within 8m. Effective against closely grouped enemies. Ineffective against mechs, robots, drones and turrets. Stacks 2 times. *: Can spread to enemy[-ies]. Duration increased by sec. *: Applying a Burn or Overheat effect against an affected enemy will cause the leaked toxic substance to detonate. The explosion removes Contagion's effect. Duration increased by 1 sec. Upload time reduced by 1 sec. *: +15% damage with this quickhack against each subsequent enemy it spreads to. *: Increases maximum stacks from 2 to 3.
 - traceability：30
+- source：Netrunners
 
 Contagion is a Combat Quickhack in .
 
@@ -16266,9 +16631,11 @@ ru:Заражение
 
 ---
 ## Coolant
+- caption："Allows the body to cool down immediately."
 - type：Misc
 - weight：0
 - cost：3
+- source：Gig: Getting Warmer...
 
 Coolant is a miscellaneous quest item in .
 
@@ -16520,7 +16887,9 @@ References
 
 ---
 ## CorpCracker
+- caption："A prototype device designed to unlock corporate cyberware for unauthorized use."
 - type：Misc
+- source：Wired Head
 
 The CorpCracker is a miscellaneous quest item in .
 
@@ -16532,6 +16901,7 @@ Acquisition
 
 ---
 ## Corpo Plaza Docks
+appears_books
 - type：Docks & port
 - city：Night City
 - district：City Center
@@ -16784,6 +17154,7 @@ ru:Костин Лаговари
 
 ---
 ## Cottonmouth
+- caption：Many are quick to underestimate people who use a cane. Use that.
 - type：One-Handed Club
 - technology：Blunt
 - iconic：Electrically charged and tipped with venom, it deals Electrical and Chemical damage. Small chance to apply Poison and/or Shock.
@@ -16791,6 +17162,7 @@ ru:Костин Лаговари
 - damage_per_hit：179.0
 - stamina_cost：9.6
 - armor_penetration：25
+- source：The Space in Between
 - weight：3.4
 
 Cottonmouth is an One-Handed Club in .
@@ -16826,6 +17198,7 @@ ru:Цифровая контратака
 
 ---
 ## Countershell
+- caption：List of creatures damn near impossible to eradicate: 1. Cockroaches. 2. You.
 - type：Integumentary System
 - attribute：Reflexes
 - attribute_attunement：CritChance
@@ -16833,6 +17206,7 @@ ru:Цифровая контратака
 - capacity：12
 - armor：-
 - effects：+-% Mitigation Chance for 4 sec. if you lose 35% Health within 3 sec. Cooldown 6 sec.
+- source：Ripperdocs
 
 The Countershell is Cyberware for the Integumentary System in .
 
@@ -16878,6 +17252,7 @@ ru:Койоакан
 
 ---
 ## Crash
+- caption：A weapon for someone who won't miss the first time.
 - manufacturer：Malorian Arms
 - type：Revolver
 - technology：Power
@@ -16891,6 +17266,7 @@ ru:Койоакан
 - headshot_damage_multiplier：200
 - armor_penetration：25
 - type_of_mod_slots：Scope
+- source：Following the River
 - weight：4.6
 
 Crash is an variant of the Malorian Overture in .
@@ -16908,10 +17284,12 @@ uk:Гуркіт
 
 ---
 ## Creatine-Loaded Protein Log
+- caption：Loaded with everything you need for maximum short-term gains. Warning: may cause kidney damage and bloating.
 - type：Consumable
 - duration：600 sec.
 - effects：+30% Crit Damage
 −15% Crit Chance
+- source：See acquisition
 
 Creatine-Loaded Protein Log is a Consumable in .
 
@@ -16939,6 +17317,7 @@ ru:Поступь смерти
 
 ---
 ## Crimestopper
+- caption：It has seen some action. Lots of it, in fact. Seems like it was worth holding on to.
 - type：Pistol
 - technology：Smart
 - iconic：Freeze, dirtbag! Rounds have a chance to disable cyber-limbs, immobilizing the enemy and increasing Crit Damage. Crit Chance is momentarily increased after equipping this weapon.
@@ -16951,6 +17330,7 @@ ru:Поступь смерти
 - ammo_capacity：20
 - headshot_damage_multiplier：85
 - lock_on_time：0.9
+- source：Heaviest of Hearts
 - weight：4.3
 
 Crimestopper is an variant of the Tsunami Kappa in .
@@ -16977,6 +17357,7 @@ uk:Прокурорка
 - ram_cost：→ →
 - effects：Disables enemy movement and cyberware that supports movement and dodging. *: +15% melee damage against affected enemies. *: Affected enemies are more susceptible to melee Finishers. *: +5% Health and +2 RAM after performing Finishers on affected enemies. *: Doubles the effects of the bonus.
 - traceability：15
+- source：Netrunners
 
 Cripple Movement is an Control Quickhack in .
 
@@ -17058,12 +17439,14 @@ ru:Криспин Уэйланд
 
 ---
 ## Crowbar
+- caption：The favorite tool of burglars and theoretical physicists from MIT.
 - type：One-Handed Club
 - technology：Blunt
 - attack_speed：1.3
 - damage_per_hit：223.0
 - stamina_cost：9.6
 - armor_penetration：25
+- source：See acquisition
 - weight：3.4
 
 The Crowbar is a Blunt One-Handed Club in .
@@ -17086,6 +17469,7 @@ Trivia
 
 ---
 ## Crowbar (iconic)
+- caption：Try not to lose it - crowbars don't grow on trees. Shit, even trees don't grow.
 - type：One-Handed Club
 - technology：Blunt
 - iconic：Trusty as always.
@@ -17093,6 +17477,7 @@ Trivia
 - damage_per_hit：134.0
 - stamina_cost：9.6
 - armor_penetration：25
+- source：Somewhat Damaged
 - weight：3.4
 
 The bunker Crowbar is an Crowbar in .
@@ -17266,6 +17651,7 @@ Crystal Palace Pamphlet
 During the Path of Glory epilogue quest in , a man will give V a pamphlet about the Crystal Palace. This pamphlet can also be found on one of the seats of Rogue Amendiares' booth in the Afterlife at any time. Due to its low resolution, it may be difficult to distinguish what it says.
 
 引文：FEEL ALIVE IN THE DEAD OF SPACE! After docking at one of the Crystal Palace boarding bridges, passengers disembark and enter the palace - that is, a gigantic space station. This ESA-owned construction is made up of five ring-like levels (each measuring around 2 km in diameter) rotating around the station's central core. Inside the inner "rings," one can find living quarters, a support system, a factory and workshops. The outer rings house vast green spaces (used not only for a little rest and relaxation but also to produce much of the Palace's oxygen), apartments for high-ranking ESA officials and corporate CEO's as well as recreational facilities; including casinos, hotels and restaurants. Not for nothing is the Cristal Palace renowned "The Las Vegas of Space"! In the lower part of the Palace, the station's vast solar arrays spread like sails, while its fuel tanks hang like ballast. Anyone who's anyone in space, plus all the most important corporations, all lease space in the Crystal Palace.（Crystal Palace pamphlet）
+citation
 
 Associated Shards
 
@@ -17292,6 +17678,7 @@ ru:Хрустальный дворец
 
 ---
 ## Cut-o-Matic x-MOD2
+- caption：The missing link between machetes and chainsaws. As effective and it is noisy - forget about stealth when using this baby.
 - manufacturer：Budget Arms
 - type：Chainsword
 - technology：Blade
@@ -17303,6 +17690,7 @@ ru:Хрустальный дворец
 - charge_time：1.00
 - armor_penetration：50
 - no_of_mod_slots：2
+- source：Terra Cognita, Dogtown
 - weight：5.4
 
 The Cut-o-Matic x-MOD2 is an variant of the Budget Arms Cut-o-Matic in .
@@ -17405,10 +17793,12 @@ References
 
 ---
 ## Cyberdeck Shard
+- caption："Allows you to perform basic quickhacks."
 - type：Quest Item
 - quality：Common
 - weight：0
 - cost：1
+- source：The Rescue (temporarily)
 
 Cyberdeck Shard is a miscellaneous quest item in .
 
@@ -17515,10 +17905,12 @@ Cyberlimbs can also include built-in weapons, which are frequently designed for 
 
 ---
 ## Cyberpsychosis (quickhack)
+- caption："If cyberpsychos are an invention of the tabloids, then who was behind yesterday's massacre of 76 people at 7th Hell?" – Op-ed excerpt, Night City Herald
 - type：Ultimate
 - duration：→
 - effects：Forces the enemy to attack the nearest friendly or hostile. If no one is nearby, they will commit suicide instead. *−6 RAM cost for a short time after applying a stack of Cyberware Malfunction or an EMP effect. Stacks 3 times. *: +25% duration and +25% damage dealt by the affected enemy for each other quickhack affecting them. *: +15% additional duration and +15% additional damage dealt by the affected enemy for each other quickhack affecting them.
 - traceability：50
+- source：Netrunners
 
 Cyberpsychosis is an Ultimate Quickhack in .
 
@@ -17837,7 +18229,9 @@ The prologue takes place in 2076 and establishes V's background, consisting of a
 Act 1
 Upon completion of the prologue, a 6 month montage is played in which Jackie and V become better acquaintances and start their careers are mercenaries in Night City. They take on a new job from Fixer Wakako Okada, and have to rescue a kidnapped woman from a Scavenger Den in Japantown. During Act 1, exploration is limited to the Watson district.
 
+{| class="fandom-table" style="width:100%;"
 ! width=25% |Title
+! width=25% |Location(s)
 ! width=25% |Quest Giver
 ! width=25% |BaseID
 |-
@@ -17893,7 +18287,10 @@ Upon completion of the prologue, a 6 month montage is played in which Jackie and
 Interlude
 The interlude occurs between the end of Act 1 and start of Act 2, and is played from the perspective of Johnny Silverhand in the year 2023.
 
+{| class="fandom-table" style="width:100%;"
 ! width=25% |Title
+! width=25% |Location(s)
+! width=25% |Quest Giver
 ! width=25% |BaseID
 |-
 |Love Like Fire
@@ -17907,6 +18304,7 @@ The interlude occurs between the end of Act 1 and start of Act 2, and is played 
 Act 2
 Act 2 begins after V has mostly recovered from their injuries sustained during the Heist. Their first task is to meet up with the man they met at the junkyard. After talking with Goro Takemura, the main job branches off into multiple jobs. At this point, all of Night City and its surrounding Badlands become available for exploration.
 
+{| class="fandom-table" style="width:100%;"
 ! width=25%; |Title
 ! width=25%; |Location(s)
 ! width=25%; |Quest Giver
@@ -17933,8 +18331,11 @@ Act 2 begins after V has mostly recovered from their injuries sustained during t
 
 *The section of the main quest Tapeworm will automatically be triggered after completing any of the paths. After Tapeworm has been completed, Act 3 will automatically start.
 
+{| class="fandom-table" style="width:100%;"
 |+ Anders Hellman
 ! width=25%; |Title
+! width=25%; |Location(s)
+! width=25%; |Quest Giver
 ! width=25%; |BaseID
 |-
 |Ghost Town
@@ -17962,8 +18363,11 @@ Act 2 begins after V has mostly recovered from their injuries sustained during t
 |q104_02_av_chase
 |}
 
+{| class="fandom-table" style="width:100%;"
 |+ Evelyn Parker
 ! width=25%; |Title
+! width=25%; |Location(s)
+! width=25%; |Quest Giver
 ! width=25%; |BaseID
 |-
 |-
@@ -18001,8 +18405,11 @@ Act 2 begins after V has mostly recovered from their injuries sustained during t
 |q105_04_judys
 |}
 
+{| class="fandom-table" style="width:100%;"
 |+ Alt Cunningham
 ! width=25%; |Title
+! width=25%; |Location(s)
+! width=25%; |Quest Giver
 ! width=25%; |BaseID
 |-
 |-
@@ -18040,8 +18447,11 @@ Act 2 begins after V has mostly recovered from their injuries sustained during t
 |q108_johnny
 |}
 
+{| class="fandom-table" style="width:100%;"
 |+ Goro Takemura
 ! width=25%; |Title
+! width=25%; |Location(s)
+! width=25%; |Quest Giver
 ! width=25%; |BaseID
 |-
 |Down on the Street
@@ -18078,7 +18488,10 @@ Act 2 begins after V has mostly recovered from their injuries sustained during t
 Act 3
 Act 3 begins after completion of Tapeworm. It is now possible for V to pursue an ending of their choice—depending on if they have unlocked them by completing various other jobs—by visiting Hanako Arasaka at Embers.
 
+{| class="fandom-table" style="width:100%;"
 ! width=25%; |Title
+! width=25%; |Location(s)
+! width=25%; |Quest Giver
 ! width=25%; |BaseID
 |-
 |Nocturne Op55N1
@@ -18096,7 +18509,10 @@ Pursuing Op55N1 automatically creates a "Point of No Return" save, which the gam
 
 Hanako Arasaka
 
+{| class="fandom-table" style="width:100%;"
 ! width=25%; |Title
+! width=25%; |Location(s)
+! width=25%; |Quest Giver
 ! width=25%; |BaseID
 |-
 |Last Caress
@@ -18116,7 +18532,10 @@ Hanako Arasaka
 
 Aldecaldos
 
+{| class="fandom-table" style="width:100%;"
 ! width=25%; |Title
+! width=25%; |Location(s)
+! width=25%; |Quest Giver
 ! width=25%; |BaseID
 |-
 |We Gotta Live Together
@@ -18150,7 +18569,10 @@ Aldecaldos
 
 The Afterlife
 
+{| class="fandom-table" style="width:100%;"
 ! width=25%; |Title
+! width=25%; |Location(s)
+! width=25%; |Quest Giver
 ! width=25%; |BaseID
 |-
 |For Whom the Bell Tolls
@@ -18179,7 +18601,10 @@ The Afterlife
 Secret Ending
 This path is only available if you chose the correct dialogue options during the side quest Chippin' In, requiring you to have given Johnny Silverhand a second chance.
 
+{| class="fandom-table" style="width:100%;"
 ! width=25%; |Title
+! width=25%; |Location(s)
+! width=25%; |Quest Giver
 ! width=25%; |BaseID
 |-
 |(Don't Fear) The Reaper
@@ -18202,7 +18627,10 @@ There are four epilogues in the base game and one epilogue in Phantom Liberty th
 
 The Devil
 
+{| class="fandom-table" style="width:100%;"
 ! width=25%; |Title
+! width=25%; |Location(s)
+! width=25%; |Quest Giver
 ! width=25%; |BaseID
 |-
 |Where is My Mind?
@@ -18214,7 +18642,10 @@ The Devil
 
 The Star
 
+{| class="fandom-table" style="width:100%;"
 ! width=25%; |Title
+! width=25%; |Location(s)
+! width=25%; |Quest Giver
 ! width=25%; |BaseID
 |-
 |All Along the Watchtower
@@ -18230,7 +18661,10 @@ Panam Palmer
 
 The Sun
 
+{| class="fandom-table" style="width:100%;"
 ! width=25%; |Title
+! width=25%; |Location(s)
+! width=25%; |Quest Giver
 ! width=25%; |BaseID
 |-
 |Path of Glory
@@ -18247,7 +18681,10 @@ V
 
 Temperance
 
+{| class="fandom-table" style="width:100%;"
 ! width=25%; |Title
+! width=25%; |Location(s)
+! width=25%; |Quest Giver
 ! width=25%; |BaseID
 |-
 |New Dawn Fades
@@ -18265,7 +18702,10 @@ Temperance
 The Tower
 This ending requires completing Phantom Liberty either with King of Swords or King of Pentacles. This is the only option that doesn't require starting Nocturne Op55N1, or even Act 3 at all.
 
+{| class="fandom-table" style="width:100%;"
 ! width=25% |Title
+! width=25% |Location(s)
+! width=25% |Quest Giver
 ! width=25% |BaseID
 |-
 |Who Wants to Live Forever
@@ -18292,7 +18732,10 @@ A quest to track the progress until the Phantom Liberty expansion unlocks, start
 
 After completing Transmission, V is contacted by an unknown caller asking them to go to the gates of Dogtown, with the promise of knowing a way to save their life.
 
+{| class="fandom-table" style="width:100%;"
 ! width=25% |Title
+! width=25% |Location(s)
+! width=25% |Quest Giver
 ! width=25% |BaseID
 |-
 |Phantom Liberty
@@ -18374,7 +18817,10 @@ After Firestarter, the quest line will branch depending on whom V decided to sid
 Solomon Reed's Path
 This path opens up by choosing to side with Solomon Reed during Firestarter.
 
+{| class="fandom-table" style="width:100%;"
 ! width=25% |Title
+! width=25% |Location(s)
+! width=25% |Quest Giver
 ! width=25% |BaseID
 |-
 |Black Steel In The Hour of Chaos
@@ -18416,7 +18862,10 @@ This path opens up by choosing to side with Solomon Reed during Firestarter.
 Songbird's Path
 This path opens up by choosing to side with Songbird during Firestarter. Later on, another decision will be made which determines the epilogue for this specific path.
 
+{| class="fandom-table" style="width:100%;"
 ! width=25% |Title
+! width=25% |Location(s)
+! width=25% |Quest Giver
 ! width=25% |BaseID
 |-
 |The Killing Moon
@@ -18560,7 +19009,9 @@ Judy Álvarez
 
 Panam Palmer
 
+{| class="fandom-table" style="width:100%"
 ! width=33% |Title
+! width=33% |Location(s)
 ! width=33% |BaseID
 |-
 |Riders on the Storm
@@ -18588,7 +19039,9 @@ Panam Palmer
 
 Kerry Eurodyne
 
+{| class="fandom-table" style="width:100%"
 ! width=33% |Title
+! width=33% |Location(s)
 ! width=33% |BaseID
 |-
 |Rebel! Rebel!
@@ -18622,7 +19075,9 @@ Kerry Eurodyne
 
 River Ward
 
+{| class="fandom-table" style="width:100%"
 ! width=33% |Title
+! width=33% |Location(s)
 ! width=33% |BaseID
 |-
 |The Hunt
@@ -18647,7 +19102,9 @@ River Ward
 Story Characters
 Johnny Silverhand
 
+{| class="fandom-table" style="width:100%"
 ! width=33% |Title
+! width=33% |Location(s)
 ! width=33% |BaseID
 |-
 |Chippin' In
@@ -18705,7 +19162,9 @@ Johnny Silverhand
 
 Mamá Welles
 
+{| class="fandom-table" style="width:100%"
 ! width=33% |Title
+! width=33% |Location(s)
 ! width=33% |BaseID
 |-
 |Heroes
@@ -18720,7 +19179,9 @@ Mamá Welles
 
 Peralezes
 
+{| class="fandom-table" style="width:100%"
 ! width=33% |Title
+! width=33% |Location(s)
 ! width=33% |BaseID
 |-
 |I Fought the Law
@@ -18749,7 +19210,9 @@ Peralezes
 
 Joshua Stephenson
 
+{| class="fandom-table" style="width:100%"
 ! width=33% |Title
+! width=33% |Location(s)
 ! width=33% |BaseID
 |-
 |Sinnerman
@@ -18773,7 +19236,9 @@ Joshua Stephenson
 
 Claire Russell
 
+{| class="fandom-table" style="width:100%"
 ! width=33% |Title
+! width=33% |Location(s)
 ! width=33% |BaseID
 |-
 |The Beast In Me
@@ -18814,7 +19279,9 @@ Claire Russell
 
 Delamain
 
+{| class="fandom-table" style="width:100%"
 ! width=33% |Title
+! width=33% |Location(s)
 ! width=33% |BaseID
 |-
 |Human Nature
@@ -18880,7 +19347,9 @@ Delamain
 
 Bill Mitchel
 
+{| class="fandom-table" style="width:100%"
 ! width=33% |Title
+! width=33% |Location(s)
 ! width=33% |BaseID
 |-
 |New Person, Same Old Mistakes
@@ -18894,6 +19363,7 @@ Miscellaneous
 
 These quests can be obtained during The Rescue and The Ripperdoc at the start of Act 1.
 
+{| class="fandom-table" style="width:100%"
 ! width=25% |Title
 ! width=25% |Location(s)
 ! width=25% | Quest Giver
@@ -19002,6 +19472,7 @@ Complete Just Another Story 10 times
 |Chevillon Thrax 388 Jefferson
 |AUTOFIXER
 (€$38,000)
+|Requires 12 Street Cred
 |-
 |
 |Chevillon Legatus 450 Aquila
@@ -19143,6 +19614,7 @@ Purchased on AUTOFIXER for €$73,000, starting the minor job. Requires 26 Stree
 |Quadra Turbo-R 740
 |AUTOFIXER
 (€$69,000)
+|Requires 42 Street Cred
 |-
 |
 |Quadra Turbo-R V-Tech
@@ -19165,6 +19637,7 @@ Purchased on AUTOFIXER for €$73,000, starting the minor job. Requires 26 Stree
 |Quadra Type-66 Avenger
 |AUTOFIXER
 (€$75,000)
+|Requires 42 Street Cred
 |-
 |
 |Quadra Type-66 "BULITT"
@@ -19180,6 +19653,7 @@ Purchased on AUTOFIXER for €$73,000, starting the minor job. Requires 26 Stree
 |Quadra Type-66 "Jen Rowley"
 |AUTOFIXER
 (€$52,000)
+|Requires 26 Street Cred
 |-
 |
 |Quadra Type-66 "Hoon"
@@ -19191,6 +19665,7 @@ Ken Block (1967-2023) tribute
 |Quadra Type-66 "Javelina"
 |AUTOFIXER
 (€$99,000)
+|Requires 42 Street Cred
 |-
 |
 |Quadra Type-66 "Wingate"
@@ -19233,6 +19708,7 @@ Alternative obtainable if pre-ordered Phantom Liberty
 |Rayfield Caliburn
 |AUTOFIXER
 (€$135,000)
+|Requires 50 Street Cred
 |-
 |
 |Rayfield Caliburn "Mordred"
@@ -19267,6 +19743,7 @@ Complete Just Another Story 1 time
 |Thorton Colby CX410 Butte
 |AUTOFIXER
 (€$25,000)
+|Requires 6 Street Cred
 |-
 |
 |Thorton Colby CX410 "Gran Butte"
@@ -19277,6 +19754,7 @@ Complete Just Another Story 1 time
 |Thorton Colby "Little Mule"
 |AUTOFIXER
 (€$41,000)
+|Requires 26 Street Cred
 |-
 |
 |Thorton Colby "Vulture"
@@ -19307,6 +19785,7 @@ No requirements
 |Thorton Galena "Gecko"
 |AUTOFIXER
 (€$45,000)
+|Requires 26 Street Cred
 |-
 |
 |Thorton Galena "Locust"
@@ -19319,6 +19798,7 @@ Complete Just Another Story 8 times
 |Thorton Mackinaw MTL1
 |AUTOFIXER
 (€$33,000)
+|Requires 12 Street Cred
 |-
 |
 |Thorton Mackinaw "Beast"
@@ -19347,6 +19827,7 @@ Complete Just Another Story 6 times
 |Villefort Alvarado V4F 570 Delegate
 |AUTOFIXER
 (€$38,000)
+|Requires 19 Street Cred
 |-
 |
 |Villefort Alvarado V4FH 570 Herman
@@ -19370,6 +19851,7 @@ Complete Just Another Story 5 times
 |Villefort Cortes V5000 Valor
 |AUTOFIXER
 (€$28,000)
+|Requires 6 Street Cred
 |-
 |
 |Villefort Deleon V410-S Coupé
@@ -19392,6 +19874,7 @@ Complete Just Another Story 3 times
 
 Motorcycles
 
+{| class="fandom-table sortable" width="100%"
 ! width=20% |Image
 ! width=25% |Model
 ! width=25% |Source
@@ -19401,6 +19884,7 @@ Motorcycles
 |ARCH Nazaré
 |AUTOFIXER
 (€$71,000)
+|Requires 34 Street Cred
 |-
 |
 |Jackie's ARCH
@@ -19435,6 +19919,7 @@ Convince Lina Malina to tell Edgar Tool that she is his sister
 |Brennan Apollo
 |AUTOFIXER
 (€$30,000)
+|Requires 12 Street Cred
 |-
 |
 |Brennan Apollo 650-S
@@ -19451,6 +19936,7 @@ Convince Lina Malina to tell Edgar Tool that she is his sister
 |Yaiba Kusanagi CT-3X
 |AUTOFIXER
 (€$66,000)
+|Requires 26 Street Cred
 |-
 |
 |Yaiba Kusanagi "Akashita"
@@ -19473,6 +19959,7 @@ Has one-time customization options.
 
 List of Vehicles by Manufacturer
 
+{| class="fandom-table sortable" width="100%"
 |-
 !Brand
 !Products
@@ -19492,6 +19979,7 @@ Jackie's ARCH
 Malina-mobile
 |-
 |Archer
+|Archer Hella EC-D i360
 Archer Hella EC-V i660 Voyage
 Archer Quartz EC-L r275
 Archer Quartz EC-T2 r660
@@ -19527,6 +20015,7 @@ Chevillon Emperor 720 NCPD Ironclad
 |Herrera
 |Herrera Outlaw GTS
 Herrera Riptide GT2
+|Herrera Outlaw "Weiler"
 Herrera Riptide "Terrier"
 |-
 |Kaukaz
@@ -19547,6 +20036,7 @@ Mahir Supron "Trailbruiser"
 |Makigai MaiMai E126
 Makigai MaiMai P126
 Makigai Tanishi T400
+|Makigai Tanishi "Kuma"
 |-
 |Militech
 |Militech Behemoth
@@ -19565,6 +20055,7 @@ Mizutani Hozuki MH2
 Mizutani Shion MZ1
 Mizutani Shion MZ2
 Mizutani Shion Targa MZT
+|Mizutani Hozuki "Hoseki"
 Mizutani Shion "Kyokotsu"
 Mizutani Shion "Bonewrecker"
 Mizutani Shion "Coyote"
@@ -19573,6 +20064,7 @@ Mizutani Shion "Samum"
 Mizutani Shion "Wendigo"
 |-
 |Porsche
+|Porsche 911 Turbo (930)
 Porsche 911 Turbo Cabriolet (930)
 |
 |-
@@ -19602,6 +20094,7 @@ Quadra Sport R-7 "Vigilante"
 |Rayfield Caliburn
 Rayfield Aerondight "Guinevere"
 Rayfield Excalibur
+|Rayfield Caliburn "Murkmobile"
 Rayfield Caliburn "Mordred"
 |-
 |Thorton
@@ -19637,12 +20130,14 @@ Thorton Merrimac MSP3 Dreadnought
 |
 |-
 |Villefort
+|Villefort Alvarado V4F 570 Delegate
 Villefort Alvarado V4FC 580 Playboy
 Villefort Alvarado V4FH 570 Herman
 Villefort Columbus V340-F Freight
 Villefort Cortes V5000 Valor
 Villefort Deleon V400 Coupé
 Villefort Deleon V410-S Coupé
+|Villefort Alvarado "Vato"
 Villefort Columbus "Sea Dragon"
 Delamain Cab
 Villefort Cortes V6000 NCPD Overlord
@@ -19652,6 +20147,7 @@ Villefort Deleon "Vindicator"
 |Kusanagi CT-3X
 ASM-R250 Muramasa
 ARV-Q340 Semimaru
+|Yaiba Kusanagi "Akashita"
 Yaiba Kusanagi "Misfit"
 Yaiba Kusanagi "Mizuchi"
 Yaiba Kusanagi "Peacekeeper"
@@ -20028,10 +20524,12 @@ fr:Cyberpunk 2077/DLC
 
 ---
 ## Cyberware Malfunction
+- caption：What better way to discourage an enemy than by making them carry around literal pounds of dead weight?
 - type：Control
 - ram_cost：→
 - effects：: Stacks up to → → times. *Disables enemy cyberware for 10 sec. and increases all damage against the affected enemy by 5%. *: At 2 stacks, permanently disables enemy cyberware. *: At 3 stacks, deals Electrical damage over time. Each application refreshes the effect's duration or reapplies the effect. *: At maximum stacks, enemy cyberware overloads, dealing massive damage. Cyberware Malfunction cannot be used on the same enemy again. *: Increases the damage bonus from 5% to 15% per stack of Cyberware Malfunction.
 - traceability：15
+- source：Netrunners
 
 Cyberware Malfunctions is a Control Quickhack in .
 
@@ -20414,6 +20912,7 @@ ru:Гараж Дакоты
 
 ---
 ## Dairing Dairy "Milkshake"
+- caption：With authentic milk flavoring!
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -20658,13 +21157,16 @@ ru:Дариус Кларк
 
 ---
 ## Darius Miles
+appears_games
+hair_color
 - affiliation：6th Street
 - home：Santo Domingo, Night City
 - status：Dependent
 - gender：Male
 - cyberware：Fortified Ankles
 Kerenzikov
-Sandevistan|equipment=Militech M251s Ajax
+Sandevistan
+- equipment：Militech M251s Ajax
 
 Darius Miles is a high-ranking member of the 6th Street gang in .
 
@@ -20686,6 +21188,7 @@ Associated Shards
 
 ---
 ## Dark Chocolate
+- caption：Rich chocolate flavor packed with vitamin C!
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -20752,6 +21255,7 @@ fr:Darline Boucicault
 
 ---
 ## Darra Polytechnic DA8 Umbra
+- caption：Fire, kill, toss. Not exactly a keepsake – you'll ditch the Umbra as soon as something better comes along, and not a moment later.
 - manufacturer：Darra Polytechnic
 - type：Assault Rifle
 - technology：Power
@@ -20764,6 +21268,7 @@ fr:Darline Boucicault
 - headshot_damage_multiplier：100
 - armor_penetration：25
 - type_of_mod_slots：Muzzle
+- source：See acquisition
 - weight：7.2
 
 The DA8 Umbra is a Power Assault Rifle manufactured by Darra Polytechnic in . It was added in Patch 1.5 as part of the Darra Polytechnic Umbra DLC.
@@ -20808,6 +21313,7 @@ References
 
 ---
 ## Darra Polytechnic DR-12 Quasar
+- caption：For the gunslinger that ain't afraid of change.
 - manufacturer：Darra Polytechnic
 - type：Revolver
 - technology：Tech
@@ -20822,6 +21328,7 @@ References
 - headshot_damage_multiplier：175
 - armor_penetration：50
 - type_of_mod_slots：Scope
+- source：See acquisition
 - weight：4.6
 
 The DR-12 Quasar is a Tech Revolver manufactured by Darra Polytechnic in .
@@ -20884,6 +21391,7 @@ References
 
 ---
 ## Darra Polytechnic DR-5 Nova
+- caption：Because revolvers never go out of fashion.
 - manufacturer：Darra Polytechnic
 - type：Revolver
 - technology：Power
@@ -20896,6 +21404,7 @@ References
 - headshot_damage_multiplier：200
 - armor_penetration：25
 - type_of_mod_slots：Scope
+- source：See acquisition
 - weight：4.6
 
 The DR-5 Nova is a Power Revolver manufactured by Darra Polytechnic in .
@@ -20952,6 +21461,7 @@ ru:Дарра политекник DR-5 «Нова»
 
 ---
 ## Darra Polytechnic DS1 Pulsar
+- caption：Pulsar. Dawn of a legacy.
 - manufacturer：Darra Polytechnic
 - type：Submachine Gun
 - technology：Power
@@ -20963,6 +21473,7 @@ ru:Дарра политекник DR-5 «Нова»
 - ammo_capacity：40
 - headshot_damage_multiplier：100
 - type_of_mod_slots：Scope, Muzzle
+- source：See acquisition
 - weight：5.0
 
 The DS1 Pulsar is a Power Submachine Gun manufactured by Darra Polytechnic in .
@@ -21099,9 +21610,11 @@ ru:Туннелирование
 
 ---
 ## Databank (Saburo Arasaka)
+- caption："The personal databank of Saburo Arasaka. Encrypted."
 - type：Misc
 - weight：0
 - cost：1
+- source：The Heist
 
 Databank is a miscellaneous quest item in .
 
@@ -21162,6 +21675,7 @@ Junk
 |}
 
 Misc
+{| class="fandom-table" width="100%"
 ! width="80%" |Name
 ! width="20%" |€$
 |-
@@ -21297,9 +21811,11 @@ Feet
 ## David's Jacket
 - imagef：MQ049 martinez jacketF.png
 - imagem：MQ049 martinez jacketM.png
+- caption：A jacket for a true edgerunner. Belonged once to David Martinez, and before that – his mother, Gloria.
 - manufacturer：REO Meatwagon
 - type：Outer Torso
 - style：Neokitsch
+- source：Over the Edge
 - weight：3.0
 
 David's Jacket is a piece of Outer Torso equipment in . It was added in Patch 1.6 as part of the Edgerunners Content DLC.
@@ -21485,9 +22001,11 @@ ru:Преданность
 
 ---
 ## DeLuze Orphean
+- caption："An electric guitar."
 - type：Misc
 - buy_price：5000
 - sell_price：500
+- source：New Dawn Fades
 
 DeLuze Orphean is an miscellaneous quest item in .
 
@@ -21550,6 +22068,7 @@ References
 
 ---
 ## Dean Russell
+- caption：Claire and Russell
 - status：Deceased
 - home：Night City
 - gender：Male
@@ -21569,6 +22088,7 @@ ru:Дин Расселл
 
 ---
 ## Death and Taxes
+- caption：In this world nothing can be said to be certain, except victory when you have this gun in your hands.
 - manufacturer：Tsunami
 - type：Pistol
 - technology：Power
@@ -21581,6 +22101,7 @@ ru:Дин Расселл
 - ammo_capacity：10
 - headshot_damage_multiplier：125
 - type_of_mod_slots：Scope, Muzzle
+- source：Ex-Factor
 - weight：4.3
 
 Death and Taxes is an variant of the Tsunami Nue in .
@@ -21753,6 +22274,7 @@ References
 
 ---
 ## Deep-field Visual Interface
+- caption：A brain mod that improves perception and targeting.
 - type：Nervous System
 - quality：/
 - attribute：Cool
@@ -21760,6 +22282,8 @@ References
 - attribute_value：1.0
 - capacity：40
 - effects：Crit Chance increases the further you are from the enemy. (max. -% at -m).
+- source：Airdrop
+Dogtown Ripperdocs
 
 The Deep-field Visual Interface is an variant of the Visual Cortex Support Cyberware for the Nervous System in .
 
@@ -21772,11 +22296,13 @@ Acquisition
 
 ---
 ## Defenzikov
+- caption：Snap back to reality without a headache.
 - type：Integumentary System
 - capacity：20
 - armor：-
 - effects：When Kerenzikov ends:
 +-% Mitigation Chance for - sec.
+- source：Ripperdocs
 
 The Defenzikov is Cyberware for the Integumentary System in .
 
@@ -21953,6 +22479,7 @@ Delamain
 - doors：4
 - door_mount：Standard
 - windscreen：Bulletproof glass
+- source：See acquisition
 
 引文：An autonomous cab service offering safe, secure and sophisticated transportation to any destination.（Delamain Cab）
 
@@ -22035,7 +22562,9 @@ References
 
 ---
 ## Delamain's Scanner
+- caption："A device used to establish contact with Delamain vehicles at close range."
 - type：Misc
+- source：Epistrophy
 
 Delamain's Scanner is a miscellaneous quest item in .
 
@@ -22061,6 +22590,7 @@ ru:Взрывной дождь
 
 ---
 ## Dendritic Protoplasma Supplier
+- caption：This experimental supplement provides the biological building blocks for new neural synapses to rapidly form.
 - type：Permanent
 - effects：Permanently increases RAM Recovery Rate.
 - buy_price：12000
@@ -22105,6 +22635,8 @@ ru:Деннис Кранмер
 
 ---
 ## Denny
+appears_books
+appears_other
 - status：Alive
 - home：North Oak, Night City
 - gender：Female
@@ -22169,6 +22701,7 @@ ru:Вилла Керри Евродина
 
 ---
 ## Dense Marrow
+- caption：Increases body weight and the power behind melee attacks.
 - type：Skeleton
 - attribute：Reflexes
 - attribute_attunement：CritChance
@@ -22176,6 +22709,7 @@ ru:Вилла Керри Евродина
 - capacity：16
 - armor：-
 - effects：+-% melee damage +% melee Stamina cost
+- source：Ripperdocs
 
 The Dense Marrow is Cyberware for the Skeleton in .
 
@@ -22254,10 +22788,12 @@ References
 
 ---
 ## Detonate Grenade
+- caption：Especially popular with South American mercenaries, believing they were doing their enemies a favor by helping them "go out with a bang."
 - type：Ultimate
 - duration：→
 - effects：Forces the enemy to detonate a grenade in their hands. The explosion and its effects depend on the grenade type they have equipped. *Can also detonate weakspots on robots, drones, mechs and turrets. *−10 RAM cost for a short time after exploding an enemy, vehicle or device with a quickhack. Stacks 2 time(s). *: Detonation now occurs instantly after upload. *: −5 additional RAM cost for a short time after exploding an enemy, vehicle or device with a quickhack. Stacks reduced to 1.
 - traceability：50
+- source：Netrunners
 
 Detonate Grenade is an Ultimate Quickhack in .
 
@@ -22297,10 +22833,12 @@ References
 
 ---
 ## Devildick Pepper Chips
+- caption：Potato chips coated generously with powder made from the world's hottest pepper, the Devildick Pepper. Gloves recommended.
 - type：Consumable
 - duration：600 sec.
 - effects：+30% melee damage
 +30% damage received
+- source：See acquisition
 
 Devildick Pepper Chips is a Consumable in .
 
@@ -22426,6 +22964,7 @@ pl:Dexter DeShawn
 
 ---
 ## Dezerter
+- caption：Faultless as far as murder weapons go.
 - manufacturer：Rostović
 - type：Double-Barrel Shotgun
 - technology：Power
@@ -22440,6 +22979,7 @@ pl:Dexter DeShawn
 - headshot_damage_multiplier：85
 - armor_penetration：75
 - no_of_projectiles：15
+- source：Addicted To Chaos
 - weight：9.6
 
 Dezerter is an variant of the Rostović DB-2 Testera in .
@@ -22483,6 +23023,7 @@ ru:Диана Куно
 
 ---
 ## Dicky Twister
+caption
 - type：Bar & club
 - owner：Señor Ladrillo
 - city：Night City
@@ -22606,6 +23147,7 @@ ru:Диего Рамирес
 
 ---
 ## Dietlinde
+status
 - location：Totentanz
 - occupation：Bartender
 - gender：Female
@@ -22656,6 +23198,8 @@ References
 
 ---
 ## Dino Dinovic
+dod
+equipment
 - status：Alive
 - home：Night City
 - gender：Male
@@ -22814,6 +23358,7 @@ uk:Шмоньдевр
 
 ---
 ## Divided We Stand
+- caption：Be a patriot. Express your support for the Second Amendment.
 - manufacturer：Nokota
 - type：Assault Rifle
 - technology：Smart
@@ -22828,6 +23373,7 @@ uk:Шмоньдевр
 - ammo_capacity：30
 - headshot_damage_multiplier：50
 - lock_on_time：1.20
+- source：Stadium Love
 - weight：7.2
 
 Divided We Stand is an variant of the Nokota D5 Sidewinder in .
@@ -23170,6 +23716,7 @@ fr:Dogtown
 
 ---
 ## Dogtown Gate
+- caption：Northern gate
 - type：Checkpoints
 - city：Night City
 - district：Pacifica
@@ -23245,12 +23792,14 @@ References
 
 ---
 ## Dolphin Jerky
+- caption：Though frowned upon by most in America, in a coastal combat zone, food is food.
 - type：Consumable
 - duration：600 sec.
 - effects：+5% damage
 +10% Crit Chance
 +20% Crit Damage
 −35% max Health
+- source：See acquisition
 
 Dolphin Jerky is a Consumable in .
 
@@ -23361,6 +23910,7 @@ ru:Последний рывок
 
 ---
 ## Donaghy's
+- caption：Your end of the rainbow.
 - type：Consumable
 - weight：0.2
 - duration：30 sec
@@ -23446,6 +23996,7 @@ ru:Дональд Ланди Мл.
 
 ---
 ## Doom Doom
+- caption：Known for turning enemies into unrecognizable piles of flesh. Warning: Requires extensive clean-up afterwards.
 - manufacturer：Darra Polytechnic
 - type：Revolver
 - technology：Power
@@ -23458,6 +24009,7 @@ ru:Дональд Ланди Мл.
 - ammo_capacity：6
 - headshot_damage_multiplier：150
 - armor_penetration：25
+- source：Second Conflict
 - weight：4.6
 
 Doom Doom is an variant of the Darra Polytechnic DR-5 Nova in .
@@ -23777,6 +24329,7 @@ uk:БудуВуду
 
 ---
 ## Dried Meat
+- caption：Curiosity killed the cat. You don't want to know what killed this...
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -23854,6 +24407,7 @@ ru:Обновление драйверов
 
 ---
 ## Dry Creek
+image
 - type：Riverbed area
 - state：Southern California
 - county：Los Padres County
@@ -23908,6 +24462,7 @@ References
 
 ---
 ## Dublin
+population
 - type：Capital City
 - country：Ireland
 
@@ -24014,6 +24569,7 @@ Acquisition
 
 ---
 ## Dying Night
+- caption：This thing looks like it was cobbled together by some gonk-brained DIYer, but it shoots like a dream.
 - manufacturer：Militech
 - type：Pistol
 - technology：Power
@@ -24027,6 +24583,7 @@ Acquisition
 - headshot_damage_multiplier：125
 - armor_penetration：25
 - type_of_mod_slots：Scope, Muzzle
+- source：The Gun
 - weight：4.3
 
 Dying Night is an variant of the Militech M-10AF Lexington in .
@@ -24054,6 +24611,7 @@ uk:Смертоніч
 
 ---
 ## Dynalar Complex
+- caption：2077
 - type：Regional HQ
 Manufactory plant
 - owner：Dynalar
@@ -24089,6 +24647,7 @@ References
 
 ---
 ## Dynalar Sandevistan
+- caption：The Sandevistan from Dynalar has been a standard go-to for soldiers and mercenaries. It guarantees not only speed, but built-in combat support at a very attractive price.
 - manufacturer：Dynalar
 - type：Sandevistan
 - attribute：Reflexes
@@ -24100,6 +24659,7 @@ Slows time by 50% (you are not slowed)
 +-% Crit Chance
 +-% Crit Damage Max duration: 8 sec.
 Cooldown: 55 sec.
+- source：See acquisition
 
 The Dynalar Sandevistan is a Sandevistan Operating System manufactured by Dynalar in .
 
@@ -24224,6 +24784,7 @@ ru:Стадион «И-би-эм — Петрохем»
 
 ---
 ## EEZYBEEF
+- caption：Synthetic meat – you're in for a treat!
 - brand：All Foods
 - type：Consumable
 - duration：450 sec.
@@ -24237,6 +24798,7 @@ Consuming EEZYBEEF applies the Nourishment status, increasing max Health by 5% a
 
 ---
 ## EMP Grenade
+- caption：Emits electromagnetic waves that deal Electrical damage. Especially effective against drones, mechs, robots, turrets and cameras as well as their abilities.
 - manufacturer：Tsunami
 - damage：-
 - radius：3.5
@@ -24678,6 +25240,7 @@ ru:Настоящий киберпанк
 
 ---
 ## Edgewood Farm
+caption
 - type：Defunct farmstead
 - owner：Anthony Harris
 - state：North California (formerly)
@@ -24717,6 +25280,7 @@ fr:Ferme d'Edgewood
 
 ---
 ## Edward Kernaghan Military Medical Center
+appears_books
 - type：Military hospital
 - country：NUSA
 - state：Virginia
@@ -24921,6 +25485,7 @@ References
 
 ---
 ## Electric Baton Alpha
+- caption：Perfect for crowd control. Or just for one unlucky person.
 - type：One-Handed Club
 - technology：Blunt
 - intrinsic：Attacks can hit multiple enemies at once.
@@ -24929,6 +25494,7 @@ References
 - stamina_cost：8.0
 - charge_time：0.50
 - armor_penetration：25
+- source：See acquisition
 - weight：4.2
 
 Electric Baton Alpha is a Blunt One-Handed Clubs in .
@@ -24954,6 +25520,7 @@ Baton Murphy.png|
 
 ---
 ## Electric Baton Beta
+- caption：Do NOT use while swimming!
 - type：One-Handed Club
 - technology：Blunt
 - intrinsic：Attacks can hit multiple enemies at once.
@@ -24962,6 +25529,7 @@ Baton Murphy.png|
 - stamina_cost：8.0
 - charge_time：0.75
 - armor_penetration：50
+- source：See acquisition
 - weight：4.2
 
 Electric Baton Beta is a Blunt One-Handed Clubs in .
@@ -24987,6 +25555,7 @@ Baton Murphy.png|
 
 ---
 ## Electric Baton Gamma
+- caption：Has a spicy kick.
 - type：One-Handed Club
 - technology：Blunt
 - intrinsic：Attacks can hit multiple enemies at once.
@@ -24995,6 +25564,7 @@ Baton Murphy.png|
 - stamina_cost：8.0
 - charge_time：1.00
 - armor_penetration：50
+- source：See acquisition
 - weight：4.2
 
 Electric Baton Gamma is a Blunt One-Handed Clubs in .
@@ -25108,6 +25678,7 @@ ru:Электрический оргазм
 
 ---
 ## Electrifying Gorilla Arms
+- caption：Classic and reliable replacements for natural limbs, suited for all kinds of hard labor.
 - manufacturer：Arasaka
 - type：Arms
 - attribute：Technical Ability
@@ -25116,6 +25687,7 @@ ru:Электрический оргазм
 - capacity：8
 - effects：Gorilla Arms are lightweight, efficient and hard-hitting arm replacement cyberware. +- to Body Attribute checks. Deal Electrical damage.
 -% Shock chance
+- source：Ripperdocs
 
 The Electrifying Gorilla Arms are Cyberware for the Arms in .
 
@@ -25139,6 +25711,7 @@ fr:Bras de gorille électrisants
 - effects：Mantis Blades allow you to slice and dice your enemies with swift, deadly slashes.
 You can also leap at a target to deal massive damage. Deal Electrical damage.
 -% Shock chance
+- source：Ripperdocs
 - rprice：28783
 
 The Electrifying Mantis Blades are Cyberware for the Arms in .
@@ -25154,6 +25727,7 @@ Acquisition
 
 ---
 ## Electrifying Monowire
+- caption：Whip-like monofilament wire with a cutting edge only a molecule wide.
 - type：Arms
 - attribute：Reflexes
 - attribute_attunement：ArmsDamage
@@ -25161,6 +25735,7 @@ Acquisition
 - capacity：8
 - effects：Monowire is arm replacement cyberware that allows you to whip multiple enemies at once from a distance. Deal Electrical damage.
 -% Shock chance Empty Quickhack Slot
+- source：Ripperdoc
 
 The Electrifying Monowire is Cyberware for the Arms in .
 
@@ -25183,6 +25758,7 @@ Acquisition
 +30% damage
 +25% explosion radius
 +100% Stun chance
+- source：Ripperdocs
 
 The Electrifying Projectile Launch System is Cyberware for the Arms in .
 
@@ -25197,6 +25773,7 @@ Acquisition
 
 ---
 ## Electromag Recycler
+- caption：Additional circuitry that links your body and cyberware with weapons and devices.
 - type：Circulatory System
 - quality：/
 - attribute：Technical Ability
@@ -25204,6 +25781,8 @@ Acquisition
 - attribute_value：1
 - capacity：40
 - effects：+-% Health and Stamina when you hit an enemy with a fully charged Tech weapon shot.
+- source：Airdrop
+Dogtown Ripperdocs
 
 The Electromag Recycler is an variant of the Feedback Circuit Cyberware for the Circulatory System in .
 
@@ -25665,6 +26244,7 @@ ru:Эпицентр
 - capacity：40
 - armor：-
 - effects：+-% Max Health
+- source：Ripperdocs
 
 The Epimorphic Skeleton is Cyberware for the Skeleton in .
 
@@ -25933,6 +26513,7 @@ uk:Роздвоєння: Велспринґз
 
 ---
 ## Erebus
+- caption：For those unafraid to pry open forbidden pathways...
 - manufacturer：Midnight Arms
 Militech
 - type：Submachine Gun
@@ -25946,6 +26527,7 @@ Militech
 - ammo_capacity：50
 - headshot_damage_multiplier：100
 - armor_penetration：25
+- source：Somewhat Damaged
 - weight：5.0
 
 Erebus is an Power Submachine Gun in .
@@ -25967,7 +26549,12 @@ Acquisition
 **The deciphered is required to craft the weapon, which can be obtained during This Corrosion.
 
 Crafting
-|-|T5=|-|T5+=|-|T5++=
+|-|T5=
+item
+- quality：L
+- mat：L
+- mat#：40
+|-|T5+=|-|T5++=
 
 Quotes
 The Erebus has unique voice-lines from the rogue AI housed on the cyberdeck.
@@ -26086,6 +26673,7 @@ ru:Эрон Аседо
 
 ---
 ## Errata
+- caption：It was worth the wait.
 - manufacturer：Arasaka
 - type：Katana
 - technology：Blade
@@ -26094,6 +26682,7 @@ ru:Эрон Аседо
 - damage_per_hit：133.0
 - stamina_cost：6.4
 - armor_penetration：25
+- source：Disasterpiece
 - weight：4.5
 
 Errata is an variant of the Katana in .
@@ -26206,7 +26795,8 @@ References
 - role：Nomad
 - gender：Male
 - affiliation：Aldecaldos
-- hair_color：Ginger|place_of_death=Badlands, NUSA
+- hair_color：Ginger
+- place_of_death：Badlands, NUSA
 
 Euralio Alma is an Aldecaldo nomad and cyberpsycho in .
 
@@ -26370,6 +26960,8 @@ ru:Эвелин Паркер
 
 ---
 ## Eventide Resort & Spa
+appears_books
+appears_other
 - type：Resort & spa
 - leader：Wilky Laguerre
 - city：Night City
@@ -26446,10 +27038,13 @@ uk:Зернятко до зернятка
 
 ---
 ## Ex-Disk
+attribute_value
+- caption：An implant that increases the brain's capacity to store and process information.
 - type：Frontal Cortex
 - capacity：10
 - effects：+- Max RAM
  +-% upload speed for quickhacks
+- source：Ripperdocs
 
 The Ex-Disk is a Frontal Cortex Cyberware implant in .
 
@@ -26547,10 +27142,12 @@ uk:Лялькові мелодрами
 
 ---
 ## Exotic flora and fungi mystery bag
+- caption：Invisibility is a state of mind. Just close your eyes and down the bag.
 - type：Consumable
 - duration：600 sec.
 - effects：−30% visibility
 −30% Max Health
+- source：See acquisition
 
 Exotic flora and fungi mystery bag is a Consumable in .
 
@@ -26624,6 +27221,7 @@ uk:Єзекиїл передбачив колесо
 
 ---
 ## F-GX Frag Grenade
+- caption：Hand grenade with conventional explosive filler.
 - manufacturer：Techtronika
 - effects：Hits enemies with an explosive blast and shrapnel.
 - damage：-
@@ -26758,6 +27356,7 @@ ru:Фалько
 
 ---
 ## Fang
+- caption：Good for hunting bear. Or chopping firewood. Or eviscerating another human being.
 - type：Knife
 - technology：Thrown
 - iconic：Thrown hits cripples the target, enemy when thrown, preventing their escape. Continuing attacks in close combat increases damage.
@@ -26767,6 +27366,7 @@ ru:Фалько
 - stamina_cost：4.8
 - return_time：4.9
 - headshot_damage_multiplier：50
+- source：Firestarter (dependent)
 - weight：2.3
 
 Fang is an knife in .
@@ -26836,6 +27436,7 @@ fr:Farah Bleus
 
 ---
 ## Farida Nazeri
+appears_other
 - status：Alive
 - home：Golden Pacific, Dogtown
 - gender：Female
@@ -27079,12 +27680,14 @@ ru:Фей Руссо
 
 ---
 ## Feedback Circuit
+- caption：Additional circuitry that links your body and cyberware with weapons and devices.
 - type：Circulatory System
 - attribute：Technical Ability
 - attribute_attunement：TechWeaponDamage
 - attribute_value：0.1
 - capacity：14
 - effects：+-% Health when you hit an enemy with a fully charged Tech weapon shot.
+- source：Ripperdocs
 
 The Feedback Circuit is Cyberware for the Circulatory System in .
 
@@ -27117,6 +27720,7 @@ ru:Обратная связь
 - capacity：16
 - armor：-
 - effects：+250% RAM Regen Rate when available RAM is below -
+- source：Ripperdocs
 
 The Feen-X is a Skeleton Cyberware implant in . It was added in Patch 2.1.
 
@@ -27142,6 +27746,7 @@ ru:Кошачьи лапы
 
 ---
 ## Fenrir
+- caption：Belches fire like a dragon with heartburn.
 - manufacturer：Militech
 - type：Submachine Gun
 - technology：Power
@@ -27155,6 +27760,7 @@ ru:Кошачьи лапы
 - ammo_capacity：40
 - headshot_damage_multiplier：100
 - no_of_mod_slots：Scope, Muzzle
+- source：Sacrum Profanum/Losing My Religion (missable)
 - weight：5.0
 
 Fenrir is an variant of the Militech M221 Saratoga in .
@@ -27200,6 +27806,7 @@ ru:Полевая медицина
 
 ---
 ## Filtered Rainwater
+- caption：Subtle metallic aftertaste.
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Hydration status. +5% Stamina Regen Rate
@@ -27626,6 +28233,7 @@ ru:Сосредоточение
 
 ---
 ## Following the River
+image
 - type：Side Job
 - quest_giver：River Ward
 - district：Badlands
@@ -27715,6 +28323,7 @@ Melee Weapons
 |}
 
 Consumables
+{| class="fandom-table" width="100%"
 ! width="70%" |Name
 ! width="30%" |€$
 |-
@@ -27792,6 +28401,7 @@ Melee Weapons
 |}
 
 Consumables
+{| class="fandom-table" width="100%"
 ! width="70%" |Name
 ! width="30%" |€$
 |-
@@ -27924,6 +28534,7 @@ Melee Weapons
 |}
 
 Consumables
+{| class="fandom-table" width="100%"
 ! width="70%" |Name
 ! width="30%" |€$
 |-
@@ -28043,6 +28654,7 @@ Melee Weapons
 |}
 
 Consumables
+{| class="fandom-table" width="100%"
 ! width="70%" |Name
 ! width="30%" |€$
 |-
@@ -28178,6 +28790,7 @@ ru:Перебор по словарю
 
 ---
 ## Fortified Ankles
+- caption：Ankle joints reinforced with plastic fibers and nanogel-filled joint capsules.
 - manufacturer：Zetatech
 - type：Legs
 - attribute：Body
@@ -28281,6 +28894,9 @@ uk:На лінії вогню
 
 ---
 ## Founding Our Future Expo
+caption
+appears_books
+appears_other
 - aka：Palladia Center
 Expo Hall
 - type：Exposition hall
@@ -28380,6 +28996,7 @@ ru:Четвёртая стена
 
 ---
 ## Foxhound
+- caption：Sensitive to the scent of blood on the air.
 - type：Sniper Rifle
 - technology：Tech
 - iconic：Unleash the power of the pack! Gain increased movement speed on kills and dismemberments.
@@ -28396,6 +29013,8 @@ BARGHEST weapons also gain increased Armor Penetration.
 - headshot_damage_multiplier：300
 - armor_penetration：75
 - type_of_mod_slots：Sniper Scope
+- source：Airdrops
+[https://gaming.amazon.com Amazon Prime Gaming]
 - weight：7.2
 
 Foxhound is an variant of the Tsunami Nekomata in .
@@ -28564,6 +29183,8 @@ Associated Computer Messages
 
 ---
 ## Frank Nostra
+equipment
+appearances
 - status：Dependent
 - home：Night City
 - dod：2077 (Dependent)
@@ -28598,6 +29219,8 @@ ru:Фрэнк Ностра
 
 ---
 ## Frankfurt
+image
+population
 - type：City
 - country：Germany
 
@@ -28797,6 +29420,7 @@ References
 
 ---
 ## GASH Antipersonnel Grenade
+- caption：Activates lasers to deal damage to enemies.
 - manufacturer：Arasaka
 - damage：32
 - radius：-
@@ -28886,8 +29510,10 @@ References
 
 ---
 ## Galician Pierogi
+- caption：Why have swords when you can have dumplings? Heartily recommended!
 - effects：Applies the Nourishment status. +5% Max Health
  +5% Health Regen per sec. outside combat
+- source：I Really Want to Stay at Your House
 
 Galician Pierogi is a Consumable in . It was added in Patch 2.1.
 
@@ -29063,6 +29689,7 @@ References
 
 ---
 ## Genjiroh
+- caption：A top-shelf pistol found only in the hands of the world's elite... or those brave enough to take it from them.
 - manufacturer：Arasaka
 - type：Pistol
 - technology：Smart
@@ -29075,6 +29702,7 @@ References
 - ammo_capacity：40
 - headshot_damage_multiplier：85
 - lock_on_time：1.00
+- source：Various
 - weight：4.3
 
 Genjiroh (Japanese: 源二郎) is an variant of the Arasaka HJKE-11 Yukimura in .
@@ -32557,6 +33185,7 @@ ru:Социальная дистанция
 
 ---
 ## Gojilla
+- caption：No such thing as too much perfection.
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -32621,6 +33250,7 @@ ru:Площадь Золотого Ниваки
 
 ---
 ## Gold-plated baseball bat
+- caption：Although it's no katana, it did belong to a Samurai.
 - type：Two-Handed Club
 - technology：Blunt
 - iconic：Infused with Denny's rage. High chance to apply Bleeding. Low chance to apply Stun.
@@ -32628,6 +33258,7 @@ ru:Площадь Золотого Ниваки
 - damage_per_hit：240.0
 - stamina_cost：12.0
 - armor_penetration：25
+- source：Second Conflict (missable)
 - weight：5.7
 
 Gold-plated baseball bat is an Baseball Bat in .
@@ -32715,6 +33346,7 @@ ru:Голдхенд
 
 ---
 ## Gomorrah
+caption
 - motto："Wide Open"
 - type：Dollhouse
 - city：Night City
@@ -32808,6 +33440,7 @@ References
 
 ---
 ## Gorilla Arms
+- caption：Classic and reliable replacements for natural limbs, suited for all kinds of hard labor.
 - manufacturer：Arasaka
 - type：Arms
 - attribute：Body
@@ -32816,6 +33449,7 @@ References
 - capacity：8
 - effects：Gorilla Arms are lightweight, efficient and hard-hitting arm replacement cyberware. +- to Body Attribute checks. Deal Physical damage.
 -% Bleeding chance
+- source：Ripperdocs
 
 The Gorilla Arms are Cyberware for the Arms in .
 
@@ -32988,6 +33622,7 @@ Behind the Scenes
 The information in was written during the development of the videogame and is outdated in some topics.
 
 引文：Takemura's career peaked when Saburo Arasaka made him his personal bodyguard. That was the culmination of the long road he'd traveled from the gutters of Tokyo, one that took him through countless armed conflicts as an Arasaka soldier. Cyberware screwed into evey inch of the tall, thin frame draped with elegant black-and-white clothing, his face etched with unfazed expertise, he cut the figure of the perfect corporate samurai. Takemura's career tanked when Yorinobu Arasaka accused him failing to prevent his father's murder. Exiled from the organization he had made his life, stripped of titles and dignity, bounty hunters on his trail, he deactivated his implants and started, once more, on the streets. What remained was pure grit, determination and strength of character that allowed him to transform a tragic end into a turning-point.
+citation
 
 Notes
 *When initially picking up V from the landfill, Takemura drives a red Mizutani Shion Targa MZT - gameplay-wise it is an MZ1, even when scanned.
@@ -33076,6 +33711,7 @@ ru:Грация
 
 ---
 ## Grand Illusion
+- caption：The building behind the skyscraper (2020)
 - type：Club
 - owner：Kerry Eurodyne
 - manager：Filomena Reyes
@@ -33350,6 +33986,8 @@ ru:Грег Уилсон
 
 ---
 ## Gris-Gris
+stamina_cost
+- caption：A bad omen for any who stray in its path.
 - manufacturer：Darra Polytechnic
 - type：Revolver
 - technology：Tech
@@ -33365,6 +34003,7 @@ ru:Грег Уилсон
 - headshot_damage_multiplier：175
 - armor_penetration：50
 - type_of_mod_slots：Scope
+- source：Slider's Hideout
 - weight：4.6
 
 Gris-Gris is an variant of the Darra Polytechnic DR-12 Quasar in .
@@ -33459,6 +34098,7 @@ ru:Мама Уэллс
 
 ---
 ## Guillotine x-MOD2
+- caption：Only slightly better than bringing a knife to a gunfight.
 - type：Submachine Gun
 - technology：Power
 - iconic：A special version of the weapon capable of additional modification. Optimized design also allows for improved handling.
@@ -33471,6 +34111,7 @@ ru:Мама Уэллс
 - headshot_damage_multiplier：125
 - type_of_mod_slots：Muzzle
 - no_of_mod_slots：2
+- source：Longshore Stacks, Dogtown
 - weight：5.0
 
 Guillotine x-MOD2 is an variant of the Budget Arms Guillotine in .
@@ -33525,7 +34166,7 @@ José (cousin)
 - voiced_by：Christian Lanz
 - appears_books：(mentioned)
 
-引文：You here to do me, too? Do it. Just shoot straight this time, don't hit no more innocent bystanders.|speaker = Gustavo to V when confronting him in his apartment|citation=
+引文：You here to do me, too? Do it. Just shoot straight this time, don't hit no more innocent bystanders.（Gustavo to V when confronting him in his apartment）
 
 Gustavo Orta is a high-ranking member of the Valentinos, and a relative of the gang's leader, Campo Orta.
 
@@ -33589,9 +34230,11 @@ References
 
 ---
 ## Gutierrez's Shard
+- caption："Contains important personal information."
 - type：Misc
 - weight：0
 - cost：3
+- source：Gig: Until Death Do Us Part
 
 Gutierrez's Shard is a miscellaneous quest item in .
 
@@ -33625,6 +34268,7 @@ References
 
 ---
 ## Guts
+- caption：Originally belonged to Rebecca from David Martinez's crew. It'll wreak bloody havoc, though it can be a little unpredictable. Much like its original owner.
 - manufacturer：Budget Arms
 - type：Shotgun
 - technology：Power
@@ -33639,6 +34283,7 @@ References
 - headshot_damage_multiplier：85
 - armor_penetration：75
 - no_of_projectiles：20
+- source：Memorial Park
 - weight：9.8
 
 Guts is an variant of the Budget Arms Carnage in . It was added in Patch 1.6 as part of the Edgerunners Content DLC.
@@ -33676,6 +34321,7 @@ uk:Жовч
 
 ---
 ## Gwynbleidd
+- caption："My glare will pierce the dark, my brilliance will dispel the gloom."
 - type：Sword
 - technology：Blade
 - iconic：Deals extra damage against bosses. After killing enemies in rapid succession, all attacks are temporarily guaranteed Crit Hits. The effect refreshes after quickly killing another enemy. If your Health is critically low, all attacks are guaranteed Crit Hits regardless of kills.
@@ -33683,6 +34329,7 @@ uk:Жовч
 - damage_per_hit：148.0
 - stamina_cost：6.4
 - headshot_damage_multiplier：25
+- source：Stash ([https://cyberpunk.net/myrewards GOG Reward])
 - weight：8.0
 
 Gwynbleidd is an Sword in .
@@ -33718,6 +34365,8 @@ uk:Ґвинблейдд
 
 ---
 ## HA-4 Grit
+iconic
+- caption：Manufactured by Dogtown's own Hansen Armory. Dependable, but that's all it is.
 - manufacturer：Hansen Armory
 - type：Pistol
 - technology：Tech
@@ -33731,6 +34380,7 @@ uk:Ґвинблейдд
 - charge_time：0.75
 - headshot_damage_multiplier：125
 - armor_penetration：50
+- source：Herold Lowe
 - weight：4.3
 
 The HA-4 Grit is a Tech Pistol manufactured by Hansen Armory in .
@@ -33786,6 +34436,8 @@ References
 
 ---
 ## HA-7 Warden
+iconic
+- caption：Looks a bit unwieldy, but is great at drilling holes in enemies.
 - manufacturer：Hansen Armory
 - type：Submachine Gun
 - technology：Smart
@@ -33798,6 +34450,7 @@ References
 - ammo_capacity：40
 - headshot_damage_multiplier：50
 - lock_on_time：1.15
+- source：See acquisition
 - weight：5.0
 
 The HA-7 Warden is a Smart Submachine Gun manufactured by Hansen Armory in .
@@ -33969,8 +34622,10 @@ References
 
 ---
 ## Ham and Mushroom Pizza
+- caption：Pizza's a lot like your health – you don't realize the value of it until it's gone.
 - effects：Applies the Nourishment status. +5% Max Health
  +5% Health Regen per sec. outside combat
+- source：I Really Want to Stay at Your House
 
 Ham and Mushroom Pizza is a Consumable in . It was added in Patch 2.1.
 
@@ -33982,8 +34637,10 @@ Acquisiton
 
 ---
 ## Ham and cheese sandwich
+- caption：A handmade sandwich with syn-ham and cheese-flavored paste.
 - effects：Applies the Nourishment status. +5% Max Health
  +5% Health Regen per sec. outside combat
+- source：Talkin' 'bout a Revolution
 
 Ham and cheese sandwich is a Consumable in .
 
@@ -33995,6 +34652,7 @@ Acquisiton
 
 ---
 ## Hammer
+- caption：With a hammer in your hand, every problem looks a nail.
 - type：Hammer
 - technology：Blunt
 - intrinsic：Heavy weapon. Slightly reduces movement speed and jump height.
@@ -34002,6 +34660,7 @@ Acquisiton
 - damage_per_hit：240.0
 - stamina_cost：16.0
 - armor_penetration：25
+- source：See acquisition
 - weight：6.8
 
 The Hammer is a Blunt Melee Weapon in .
@@ -34116,6 +34775,9 @@ Stats & Equipment
 
 Behind the Scenes
 
+引文：This beautiful, elegant, delicate woman is Saburo Arasaka's youngest child and only daughter-thus elevating her into the ranks of the world's most powerful. Born when Saburo was already eighty years of age, she became the apple of his eye. Fearing she would get beaten and bruised in the many Arasaka Corporation backroom brawls, he chose to keep her in a glided cage rather than prime her for the family trade. However, this prison of over-protection could not keep her spirit contained. She became skilled in netrunning and eventually assumed powerful roles as keeper of the company secrets and trusted representative of her father's interests. Yet, in the wake of Saburo's death, all she had known threatened to unravel around her. Hanako lives in an entirely different realm than V. Ethereal and otherworldly, she has never had grime from the street besmirch her clothes or the imperfections of age or illness pock her body-the latest and greatest marvels of cosmetic engineering have always been at her back and call. Her entire essence is one of dissonance: age without aging, power without agency, family without real intimacy or trust.
+citation
+
 Notes
 *In the Arasaka ending, V refers to Yorinobu Arasaka as Hanako's baby brother. This is either an oversight or a mistake on V's part, as Hanako is the youngest of Saburo Arasaka's children. Hanako also regularly addresses Yorinobu as her older brother in Japanese (niisan).
 
@@ -34133,6 +34795,8 @@ ru:Ханако Арасака
 
 ---
 ## Handgun Ammo
+- caption：A case of handgun ammo.
+- source：Weapon Vendors
 - buy_price：2
 - sell_price：1
 - weight：0
@@ -34161,6 +34825,7 @@ fr:Munitions d'arme de poing
 - capacity：8
 - effects：When equipping or throwing a throwable weapon:
 +-% Crit Chance with throwable weapons for 6 sec.
+- source：Ripperdocs
 
 The Handle Wrap is Cyberware for the Hands in .
 
@@ -34288,7 +34953,9 @@ ru:Гарри
 - status：Dependent
 - aka：Surgeon
 - gender：Male
-- place_of_birth：Japan|place_of_death=Kabuki, Watson, Night City (dependent)|voiced_by=Yoshi Ando
+- place_of_birth：Japan
+- place_of_death：Kabuki, Watson, Night City (dependent)
+- voiced_by：Yoshi Ando
 
 Haruyoshi Nishikata is a character in .
 
@@ -34389,6 +35056,7 @@ ru:Обитель
 
 ---
 ## Hawk
+- caption：A masterpiece of military craftsmanship - has served President Myers well for many years.
 - type：Assault Rifle
 - technology：Power
 - iconic：Headshots temporarily weaken and mark enemies. In this weakened state, enemies move slower, cannot use abilities, deal less damage and are more prone to losing their balance.
@@ -34401,6 +35069,7 @@ ru:Обитель
 - headshot_damage_multiplier：175
 - armor_penetration：25
 - type_of_mod_slots：Scope, Muzzle
+- source：Lucretia My Reflection
 - weight：7.2
 
 Hawk is an variant of the Tsunami Kyubi in .
@@ -34420,6 +35089,7 @@ uk:Яструб
 
 ---
 ## Hawt Dawg
+- caption：The thickest dogs and tightest buns in town!
 - effects：Applies the Nourishment status. +5% Max Health
  +5% Health Regen per sec. outside combat
 
@@ -34450,6 +35120,7 @@ ru:Конфронтация
 
 ---
 ## Headhunter
+- caption：Throwing this knife is like imposing a death sentence.
 - type：Knife
 - technology：Thrown
 - iconic：Marks enemy on hit. Attacking the enemy's head with any weapon deals 200% damage, returns the Headhunter and clears the mark.
@@ -34459,6 +35130,7 @@ ru:Конфронтация
 - stamina_cost：4.8
 - return_time：3.5
 - headshot_damage_multiplier：150
+- source：Melee Weapon Vendor (West Wind Estate)
 - weight：2.3
 
 Headhunter is an variant of the Punknife in . It was added in Patch 1.6 as part of the New Weapons: Melee DLC.
@@ -34477,12 +35149,14 @@ uk:Головоріз
 
 ---
 ## Heal-On-Kill
+- caption：A combat implant that regulates hormones and regenerates Health after an enemy is defeated.
 - type：Circulatory System
 - attribute：Intelligence
 - attribute_attunement：AllDamage
 - attribute_value：0.05
 - capacity：10
 - effects：+-% Health when you neutralize an enemy.
+- source：Ripperdocs
 
 The Heal-On-Kill is Cyberware for the Circulatory System in .
 
@@ -34496,6 +35170,7 @@ fr:Mort-réparatrice
 
 ---
 ## Health Booster
+- caption：Because all you have is your health!
 - type：Long-lasting
 - effects：+10% Max Health
 - duration：1800 sec.
@@ -34606,6 +35281,8 @@ Locations
 
 ---
 ## Heavy Ammo
+- caption：A case of heavy ammo.
+- source：Weapon Vendors
 - buy_price：2
 - sell_price：1
 - weight：0
@@ -34665,10 +35342,12 @@ ru:Тяжёлые сердца
 
 ---
 ## Hefty Chef Fettuccine Alfredo XXL (discontinued)
+- caption：Rich, creamy, and will quite literally stick to your ribs.
 - type：Consumable
 - duration：600 sec.
 - effects：+25% Max Health
 Deactivates double jump, dodge, Dash, sprint and crouch-sprint
+- source：See acquisition
 
 Hefty Chef Fettuccine Alfredo XXL (discontinued) is a Consumable in .
 
@@ -34766,6 +35445,7 @@ ru:Генри Стинтс
 
 ---
 ## Her Majesty
+- caption：Alex's old service weapon. Perfectly balanced and reliable - everything an NUSA agent could ever want.
 - manufacturer：Constitutional Arms
 - type：Pistol
 - technology：Power
@@ -34778,6 +35458,7 @@ ru:Генри Стинтс
 - ammo_capacity：10
 - headshot_damage_multiplier：150
 - type_of_mod_slots：Scope
+- source：Get It Together
 - weight：4.3
 
 Her Majesty is an variant of the Constitutional Arms Unity in .
@@ -34981,6 +35662,7 @@ Crafting Specs
 - doors：4
 - door_mount：Standard
 - windscreen：Militech CrystalDome
+- source：See acquisition
 - top_speed：182
 - horse_power：755
 
@@ -35024,6 +35706,7 @@ References
 - top_speed：182
 - cost：92000
 - street_cred：42
+- source：See acquisition
 
 引文：A favorite in showbiz, the Outlaw is driven by the most popular talk-show host, Ziggy Q - among others.（Outlaw GTS）
 
@@ -35077,6 +35760,7 @@ ru:Эррера Аутло GTS
 - door_mount：Canopy
 - windscreen：Glass
 - cost：108000
+- source：See acquisition
 
 引文：Is the standard Riptide GT2 not exclusive enough for your taste? Figures... Only 10 of this limited edition were ever produced. Streamlined tail lights, integrated fog lights with aerodynamic cover, a modified front splitter and a 12 mph-higher top_speed than the standard GT2. Now ask yourself... What would you sacrifice to become one of the lucky 10?（Riptide "Terrier"）
 
@@ -35359,8 +36043,10 @@ References
 
 ---
 ## Higurashi 20-13 Mantis Blades
+image
 - manufacturer：Unknown
 - type：Arms
+- source：Unobtainable
 
 The Higurashi 20-13 is an unobtainable mantis blade cyberware implant which appear in .
 
@@ -35384,6 +36070,7 @@ References
 
 ---
 ## Hilary McKenna
+appears_games
 - status：Dependent
 - location：Mission Street, Arroyo
 - gender：Female
@@ -35443,6 +36130,7 @@ ru:Хироми Сато
 
 ---
 ## Hiromi's Apartment
+appears_books
 - aka：Hiromi's Penthouse
 - type：Penthouse apartment
 - owner：Hiromi Sato
@@ -35661,6 +36349,7 @@ uk:Жорстке приземлення
 
 ---
 ## Holobites Grape Pie
+- caption：The flavor you didn't know you loved.
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -35673,6 +36362,7 @@ Consuming Holobites Grape Pie applies the Nourishment status, increasing max Hea
 
 ---
 ## Holobites Mint Pie
+- caption：Melts on your tongue and refreshes it too.
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -35685,6 +36375,7 @@ Consuming Holobites Mint Pie applies the Nourishment status, increasing max Heal
 
 ---
 ## Holobites Peach Pie
+- caption：Just like meemaw used to make. But in paste form!
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -35747,10 +36438,12 @@ Hong Kong Map.jpeg
 
 ---
 ## Hot Roddy's Road-Ready Coffee (recalled)
+- caption：A bitter coffee drink packaged in a self-heating container capable of scalding-hot temperatures. Note: Product recalled due to faulty lids.
 - type：Consumable
 - duration：600 sec.
 - effects：+20% damage while driving
 +25% damage received while driving
+- source：See acquisition
 
 Hot Roddy's Road-Ready Coffee (recalled) is a Consumable in .
 
@@ -36014,6 +36707,7 @@ ru:Хванбо
 - ammo_capacity：6
 - headshot_damage_multiplier：200
 - armor_penetration：50
+- source：Concrete Cage Trap
 - weight：7.8
 
 Hypercritical is an variant of the Rostović Kolac in . It was added in Patch 1.6 as part of the New Weapons: Firearms DLC.
@@ -36407,9 +37101,11 @@ ru:Ледокол
 
 ---
 ## Iguana Egg
+- caption："An iguana's egg."
 - type：Misc
 - weight：0
 - cost：15
+- source：Yorinobu's Penthouse
 
 Iguana Egg is a miscellaneous quest item in .
 
@@ -36456,12 +37152,15 @@ uk:Знайомство зі стихіями. Перша зустріч
 
 ---
 ## Immovable Force
+- caption：Take a load off when letting the lead fly.
 - manufacturer：Militech
 - type：Hands
 - quality：/
 - capacity：35
 - effects：−-% recoil
 −% bullet spread Automatically activates effects for ranged weapons that otherwise only occur when behind cover.
+- source：Airdrop
+Dogtown Ripperdocs
 
 The Immovable Force is an Cyberware for the Hands in .
 
@@ -36819,6 +37518,7 @@ References
 
 ---
 ## Isometric Stabilizer
+- caption：Empty a full clip and you'll still have the energy to take cover.
 - type：Circulatory System
 - quality：/
 - attribute：Reflexes
@@ -36826,6 +37526,8 @@ References
 - attribute_value：0.5
 - capacity：40
 - effects：−-% Stamina cost for all attacks.
+- source：Airdrop
+Dogtown Ripperdocs
 
 The Isometric Stabilizer is an variant of the Clutch Padding Cyberware for the Circulatory System in .
 
@@ -36838,6 +37540,14 @@ Acquisition
 
 ---
 ## Israel
+type
+location
+capital
+population
+language
+ethnic_groups
+literacy_rate
+military
 - demonym：Israeli
 
 Israel is one of the remaining countries of the Middle East.
@@ -37182,6 +37892,7 @@ pt-br:Jackie Welles
 - horse_power：170/185
 - weight：661/666
 - seats：1
+- source：See acquisition
 
 Jackie's ARCH (or Jackie's Tuned ARCH) is a modified version of the standard Nazaré, a motorcycle manufactured by ARCH in .
 
@@ -37224,7 +37935,9 @@ ru:Арч Джеки
 
 ---
 ## Jackie's Book
+- caption："For Whom the Bell Tolls, by Ernest Hemingway."
 - type：Misc
+- source：Heroes
 
 Jackie's Book is an miscellaneous quest item in .
 
@@ -37260,6 +37973,7 @@ References
 
 ---
 ## Jackie's Machete
+- caption："One ivory-white handle, one gilded blade, one beautiful piece of custom craftsmanship."
 - type：Misc
 
 Jackie's Machete is a miscellaneous quest item in .
@@ -37429,9 +38143,11 @@ References
 
 ---
 ## Jacob Lamb's Eye
+- caption："It looks like a custom job - and an expensive one."
 - type：Misc
 - weight：0
 - cost：3
+- source：Gig: Playing for Keeps
 
 Jacob Lamb's Eye is a miscellaneous quest item in . It belongs to Jacob Lamb.
 
@@ -37712,6 +38428,7 @@ References
 
 ---
 ## Jambalaya
+- caption：Ancient French for, "Fuck it, just toss in everything."
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -38165,6 +38882,7 @@ References
 
 ---
 ## Jasmine Dixon
+equipment
 - status：Alive
 - gender：Female
 - affiliation：NCPD
@@ -38263,6 +38981,7 @@ ru:Джаспер Коллинз
 
 ---
 ## Javier Alvarado
+image
 - status：Alive
 - home：Night City
 - gender：Male
@@ -38455,6 +39174,7 @@ ru:Джефферсон Пералес
 
 ---
 ## Jellytricity
+- caption：For a jolt of jiggly juice on the go! Note: Not recommended for daily use.
 - type：Long-lasting
 - effects：+20% Stamina Regen Rate
 −15% Max Health
@@ -38476,6 +39196,7 @@ Notes
 
 ---
 ## Jenkins' Tendons
+- caption：At least you'll have chicken.
 - type：Legs
 - attribute：Body
 - attribute_attunement：Health
@@ -38696,6 +39417,7 @@ References
 
 ---
 ## Jinchu-maru
+- caption：The purest essence of a katana. No add-ons, no modifications - only razor-sharp steel.
 - manufacturer：Arasaka
 - type：Katana
 - technology：Blade
@@ -38704,6 +39426,7 @@ References
 - damage_per_hit：148.0
 - stamina_cost：6.4
 - armor_penetration：25
+- source：Sandayu Oda
 
 Jinchu-maru (Japanese: 尽忠丸) is an Katana in .
 
@@ -38729,6 +39452,7 @@ uk:Джинчу-мару
 
 ---
 ## Jinguji (Downtown)
+image
 - type：Clothing store
 - owner：Jinguji
 - manager：Zane Jagger
@@ -38806,6 +39530,7 @@ ru:Джоанна Кох
 
 ---
 ## Joe Tiel's Okie Hooch
+- caption：A taste of Oklahoma.
 - type：Consumable
 - duration：30 sec
 - effects：Reduces movement speed by 20%. *Reduces weapon accuracy by 50%.
@@ -39094,6 +39819,7 @@ Silverhand released six albums between 2009 and 2020.
 |}
 
 Songs
+{| class="fandom-table" width="100%"
 |-
 !Title
 !Album
@@ -39101,22 +39827,27 @@ Songs
 !Label
 |-
 |Phantom Hand
+|SINS of Your Brothers
 |2009
 |Universal Records
 |-
 |Never Faithful
+|SINS of Your Brothers
 |2009
 |Universal Records
 |-
 |Rancid Water
+|SINS of Your Brothers
 |2009
 |Universal Records
 |-
 |Old Gold
+|SINS of Your Brothers
 |2009
 |Universal Records
 |-
 |Kill Steel
+|SINS of Your Brothers
 |2009
 |Universal Records
 |-
@@ -39342,6 +40073,7 @@ Johnny Silverhand Tags Real.png|The real tags Johnny wore
 
 Equipment
 Cyberpunk 2013/2020
+{| class="fandom-table" width="100%"
 |-
 !Type
 !Description
@@ -39366,6 +40098,7 @@ Cyberpunk 2013/2020
 |}
 
 Firestorm Shockwave
+{| class="fandom-table" width="100%"
 |-
 !Type
 !Description
@@ -39387,6 +40120,7 @@ Firestorm Shockwave
 |}
 
 Cyberpunk 2077
+{| class="fandom-table" width="100%"
 |-
 !Type
 !Items
@@ -39638,7 +40372,9 @@ Unnamed father
 - role：Ganger
 - voiced_by：Bernardo De Paula
 - equipment：L-69 Zhuo
-CHAR Incendiary Grenade|hair_color=Bald|cyberware=Cyberlimbs
+CHAR Incendiary Grenade
+- hair_color：Bald
+- cyberware：Cyberlimbs
 Fortified Ankles
 Kerenzikov
 Sandevistan
@@ -39683,7 +40419,8 @@ ru:Хосе Луис
 - gender：Male
 - affiliation：Tyger Claws
 - voiced_by：Yoshi Ando
-- location：Kabuki, Watson|equipment=DS1 Pulsar
+- location：Kabuki, Watson
+- equipment：DS1 Pulsar
 
 Jotaro Shobo (Japanese: 正法 承太郎) is a high-ranking member of the Tyger Claws, owner of Kabuki's Ho-Oh club and a notorious XBD scroller with at least seventeen murders to his name.
 
@@ -39780,6 +40517,7 @@ References
 
 ---
 ## Juan Troy
+appears_games
 - aka：El Gallo
 - status：Dependent
 - gender：Male
@@ -40019,6 +40757,7 @@ Articles
 |}
 
 Equipment
+{| class="fandom-table" width="100%"
 |-
 !Type
 !Products
@@ -40068,6 +40807,8 @@ tr:Judy Alvarez
 
 ---
 ## Judy's Apartment
+appears_books
+- caption：Exterior of the building
 - type：Apartment
 - owner：Judy Álvarez
 - city：Night City
@@ -40181,6 +40922,9 @@ References
 
 ---
 ## Juliet Horrigan
+image
+equipment
+appearances
 - status：Deceased
 - home：Horrigan Family Home
 - gender：Female
@@ -40227,7 +40971,8 @@ References
 - home：Night City
 - gender：Male
 - affiliation：Tyger Claws
-- cyberware：Subdermal Armor|equipment=EMP Grenade
+- cyberware：Subdermal Armor
+- equipment：EMP Grenade
 M2038 Tactician
 
 引文："You know what always annoyed me about Hiromi? He had no vision."（Jun Azegami）
@@ -40338,6 +41083,7 @@ Junk
 |}
 
 Components
+{| class="fandom-table" width="100%"
 ! width="80%" |Name
 ! width="20%" |€$
 |-
@@ -40410,6 +41156,7 @@ Junk
 |}
 
 Components
+{| class="fandom-table" width="100%"
 ! width="80%" |Name
 ! width="20%" |€$
 |-
@@ -40492,6 +41239,7 @@ uk:Відлига
 
 ---
 ## Kab Tools
+appears_books
 - type：Store
 - owner：Mike Kowalski
 - city：Night City
@@ -40647,6 +41395,7 @@ ru:Кольцо Кабуки
 
 ---
 ## Kaiken
+- caption：When the swordsmith doesn't have enough steel left for a katana.
 - type：Knife
 - technology：Thrown
 - intrinsic：Deals bonus melee damage.
@@ -40656,6 +41405,7 @@ ru:Кольцо Кабуки
 - stamina_cost：4.8
 - return_time：4.9
 - headshot_damage_multiplier：150
+- source：See acquisition
 - weight：2.3
 
 The Kaiken (Japanese: 懐剣) is a Throwable Knife in .
@@ -40694,9 +41444,10 @@ fr:Kaiken
 - aka：The Surgeon
 - status：Determinant
 - home：Clean Cut, Watson, Night City
-- gender：Male|affiliation=Maelstrom
+- gender：Male
+- affiliation：Maelstrom
 - role：Ripperdoc
-- appearances：|equipment=Carnage
+- equipment：Carnage
 
 Kaiser Herzog, also known as the Surgeon, is a wanted Maelstromer in Night City.
 
@@ -40742,12 +41493,14 @@ ru:Каетан Зилевски
 
 ---
 ## Kanabo
+- caption：To nonspeakers, most everything in Japanese sounds sophisticated. Even a simple stick.
 - type：Two-Handed Club
 - technology：Blunt
 - attack_speed：1.2
 - damage_per_hit：240.0
 - stamina_cost：12.0
 - armor_penetration：25
+- source：See acquisition
 - weight：5.7
 
 The Kanabo (Japanese: 金棒) is a Blunt Two-Handed Club in .
@@ -40771,6 +41524,7 @@ References
 
 ---
 ## Kang Tao A-22B Chao
+- caption：Kang Tao does the thinking for you.
 - manufacturer：Kang Tao
 - type：Pistol
 - technology：Smart
@@ -40846,6 +41600,7 @@ References
 
 ---
 ## Kang Tao G-58 Dian
+- caption：Most all-time appearances atop the "Guns and Horses" rankings.
 - manufacturer：Kang Tao
 - type：Submachine Gun
 - technology：Smart
@@ -40857,6 +41612,7 @@ References
 - ammo_capacity：45
 - headshot_damage_multiplier：50
 - lock_on_time：1.15
+- source：See acquisition
 - weight：5.0
 
 The G-58 Dian (Chinese: 典, "Classical") is a Smart Submachine Gun manufactured by Kang Tao in Cyberpunk 2077.
@@ -40921,6 +41677,7 @@ fr:Kang Tao G-58 Dian
 
 ---
 ## Kang Tao L-69 Zhuo
+- caption：The benchmark in arms innovation.
 - manufacturer：Kang Tao
 - type：Shotgun
 - technology：Smart
@@ -40935,6 +41692,7 @@ fr:Kang Tao G-58 Dian
 - armor_penetration：25
 - lock_on_time：1.15
 - no_of_projectiles：8
+- source：See acquisition
 
 The L-69 Zhuo (Chinese: 卓, "Excellent") is a Smart Shotgun manufactured by Kang Tao in .
 
@@ -41014,6 +41772,7 @@ ru:Каору Фудзиока
 
 ---
 ## Kappa x-MOD2
+- caption：This speed demon can smart-target two enemies simultaneously. Especially lethal at close range.
 - manufacturer：Tsunami
 - type：Pistol
 - technology：Smart
@@ -41027,6 +41786,7 @@ ru:Каору Фудзиока
 - headshot_damage_multiplier：85
 - lock_on_time：1.00
 - no_of_mod_slots：2
+- source：See acquisition
 - weight：4.3
 
 Kappa x-MOD2 is an variant of the Tsunami Kappa in .
@@ -41210,12 +41970,14 @@ ru:Касю хантэн
 
 ---
 ## Katana
+- caption：As elegant as it is deadly.
 - type：Katana
 - technology：Blade
 - attack_speed：2.1
 - damage_per_hit：148.0
 - stamina_cost：6.4
 - armor_penetration：25
+- source：See acquisition
 - weight：4.5
 
 The Katana is a Bladed Melee Weapon in .
@@ -41285,6 +42047,7 @@ References
 
 ---
 ## Katya Karelina
+appears_other
 - age：42/43
 - status：Deceased
 - dob：2034
@@ -41502,6 +42265,7 @@ Marc Sanderson (son-in-law)
 - appears_books：
 
 引文：The ocean waves swell... Stare into Death's eyes, laughing... The seagulls cry above...（Kei Arasaka's haiku upon his death）
+citation
 
 Kei Arasaka (荒坂 敬) (born in Tokyo, Japan, 1980), was the first child of Saburo Arasaka and either his first or second wife. From 1997 to 2023, he was the acting CEO of the Arasaka Corporation.
 
@@ -41654,12 +42418,14 @@ Trivia
 
 ---
 ## Kerenzikov
+- caption：A classic reflex booster.
 - type：Nervous System
 - attribute：Reflexes
 - attribute_attunement：CritChance
 - attribute_value：0.1
 - capacity：12
 - effects：Allows you to aim and perform ranged attacks while sliding, dodging or Dashing. Slows time by % for - sec. when you aim a ranged attack during a slide, dodge or Dash. Cooldown: - sec.
+- source：Ripperdocs
 
 The Kerenzikov is Cyberware for the Nervous System in .
 
@@ -41675,6 +42441,7 @@ Acquisition
 
 ---
 ## Kerenzikov Boost System
+attribute_value
 - manufacturer：Militech
 - type：Frontal Cortex
 - capacity：3
@@ -41823,6 +42590,7 @@ Albums
 The non-canon CyberGeneration sourcebook MediaFront states the reasoning of some of Kerry's early albums: "Modern Trenches" was about chronicling the tragedies of the heroes of the Second Central American War; "Critical Mass" was a tribute to the victims of the 2008 destruction of Colorado Springs; and "Made in America" was a dedication to the families of the Chicago bio-plague of 2012.
 
 Songs
+{| class="fandom-table" width="100%"
 |-
 !Title
 !Album
@@ -41880,22 +42648,27 @@ Songs
 |Universal Music
 |-
 |Derryland
+|Facing the Nightmare
 |2021
 |?
 |-
 |Domino Destiny
+|Facing the Nightmare
 |2021
 |?
 |-
 |False Terrorist
+|Facing the Nightmare
 |2021
 |?
 |-
 |GlitterKids
+|Facing the Nightmare
 |2021
 |?
 |-
 |Simulation of Real
+|Facing the Nightmare
 |2021
 |?
 |-
@@ -42029,6 +42802,7 @@ Notes
 *maybe this could be a single?
 *they're gonna ask who this is about... even if I wanted to tell them the truth, do I even know what's hiding behind these words?
 |}
+{| class="fandom-table mw-collapsible mw-collapsed" width="100%"
 !DARK MATTER
 |-
 |
@@ -42055,6 +42829,7 @@ Notes
 Notes
 *Dark Matter [hmm... or maybe Dark Energy??]
 |}
+{| class="fandom-table mw-collapsible mw-collapsed" width="100%"
 !SHIVERS
 |-
 |
@@ -42147,6 +42922,7 @@ Side Jobs
 *Boat Drinks
 
 Equipment
+{| class="fandom-table" width="100%"
 |-
 !Type
 !Products
@@ -42195,8 +42971,10 @@ pt-br:Kerry Eurodyne
 
 ---
 ## Kerry Eurodyne's Guitar
+- caption：A guitar stolen from one of the greatest rockerboys of a generation; an instrument worthy of the ego it belonged to
 - type：Misc
 - manufacturer：Orphean
+- source：Gig: Psychofan
 - base_price：20000
 - sell_price：500
 
@@ -42214,7 +42992,9 @@ fr:Guitare de Kerry Eurodyne
 
 ---
 ## Key to Jackie's Bike
+- caption："There's an engraving: HANDS OFF!"
 - type：Misc
+- source：Heroes
 
 Key to Jackie's Bike is an miscellaneous quest item in .
 
@@ -42230,7 +43010,9 @@ Heroes Screenshot Bike Keys.png|Mamá Welles handing the keys to V.
 
 ---
 ## Key to Jackie's Room
+- caption："The key to his castle."
 - type：Misc
+- source：Heroes
 
 Key to Jackie's Room is an miscellaneous quest item in .
 
@@ -42242,7 +43024,9 @@ Acquisition
 
 ---
 ## Key to Jackie's Stash
+- caption："Opens the storage container where Jackie keeps some odds and ends."
 - type：Access Card
+- source：Heroes
 
 Key to Jackie's Stash is an access card quest item in .
 
@@ -42254,6 +43038,9 @@ Acquisition
 
 ---
 ## Key to Thorton Mackinaw
+- caption："The key to Panam's truck."
+- source：Ghost Town
+
 Key to Thorton Mackinaw is a miscellaneous quest item in .
 
 Overview
@@ -42331,6 +43118,7 @@ ru:Поглощение энергии
 - capacity：16
 - armor：-
 - effects：+-% Mitigation Chance when Stamina is above 85%.
+- source：Ripperdocs
 
 The Kinetic Frame is Cyberware for the Skeleton in .
 
@@ -42454,6 +43242,7 @@ References
 
 ---
 ## Kiroshi Clairvoyant Optics
+cd_ram
 - manufacturer：Kiroshi
 - type：Face
 - attribute：Cool
@@ -42462,6 +43251,7 @@ References
 - capacity：8
 - effects：Effect active when scanning:
  Highlights enemies within -m. The effect remains active for 60 sec. after scanning. //x optical zoom when scanning
+- source：Ripperdocs
 
 The Clairvoyant is a Face Cyberware implant manufactured by Kiroshi Optics in .
 
@@ -42476,11 +43266,13 @@ Acquisition
 
 ---
 ## Kiroshi Cockatrice Optics
+cd_ram
 - manufacturer：Kiroshi
 - type：Face
 - quality：/
 - capacity：30
 - effects：Increases Crit Chance by –% x optical zoom when scanning
+- source：Dogtown Ripperdocs
 
 The Cockatrice is an Cyberware implant for the Face manufactured Kiroshi Optics in .
 
@@ -42495,6 +43287,7 @@ Acquisition
 
 ---
 ## Kiroshi Doomsayer Optics
+cd_ram
 - manufacturer：Kiroshi
 Militech
 - type：Face
@@ -42504,6 +43297,7 @@ Militech
 - capacity：2
 - effects：Effect active when scanning:
  Highlight explosive devices and traps near your crosshair and within –m. The effect remains active for 60 sec. after scanning. ///x optical zoom when scanning
+- source：Ripperdocs
 
 The Doomsayer is a Face Cyberware implant manufactured by Kiroshi Optics in .
 
@@ -42517,6 +43311,7 @@ Acquisition
 
 ---
 ## Kiroshi Sentry Optics
+cd_ram
 - manufacturer：Kiroshi
 Militech
 - type：Face
@@ -42539,6 +43334,7 @@ Acquisition
 
 ---
 ## Kiroshi Stalker Optics
+cd_ram
 - manufacturer：Kiroshi
 - type：Face
 - attribute：Technical Ability
@@ -42560,6 +43356,7 @@ Acquisition
 
 ---
 ## Kiroshi The Oracle Optics
+cd_ram
 - manufacturer：Kiroshi
 - type：Face
 - attribute：Body
@@ -42570,6 +43367,7 @@ Acquisition
  Highlights enemies within -m, including enemies behind cover.
  Highlights cameras and turrets within -m.
  Highlights explosive devices and traps near your crosshair and within -m. These effects remain active for 60 sec. after scanning. /x optical zoom when scanning
+- source：Ripperdocs
 
 The Oracle is a Face Cyberware implant manufactured by Kiroshi Optics in .
 
@@ -42649,6 +43447,7 @@ References
 
 ---
 ## Knife
+- caption：Handy for when things get dicey.
 - type：Knife
 - technology：Thrown
 - attack_speed：3.1
@@ -42657,6 +43456,7 @@ References
 - stamina_cost：4.8
 - return_time：2.8
 - headshot_damage_multiplier：200
+- source：See acquisition
 - weight：2.3
 
 The Knife is a Throwable Knife in .
@@ -42859,6 +43659,7 @@ References
 
 ---
 ## Kongou
+- caption：The iron packed by Yorinobu Arasaka during his troubled youth. As beautiful as it is deadly.
 - manufacturer：Constitutional Arms
 - type：Pistol
 - technology：Power
@@ -42871,6 +43672,7 @@ References
 - ammo_capacity：12
 - headshot_damage_multiplier：150
 - type_of_mod_slots：Scope, Muzzle
+- source：The Heist (missable)
 - weight：4.3
 
 Kongou (Japanese: 金剛) is an variant of the Constitutional Arms Liberty in .
@@ -43001,9 +43803,11 @@ ru:Компэки плаза
 
 ---
 ## Kopi Kadal Coffee
+- caption：Made with real beans for real connoisseurs.
 - type：Consumable
 - duration：450 sec.
 - effects：+5% Stamina Regen Rate
+- source：I Really Want to Stay at Your House
 
 Kopi Kadal Coffee is a Consumable in . It was added in Patch 2.1.
 
@@ -43082,12 +43886,14 @@ References
 
 ---
 ## Kukri
+- caption：This Nepalese knife is a testament to the cultural melting pot of the Night City streets.
 - type：Machete
 - technology：Blade
 - attack_speed：1.7
 - damage_per_hit：181.0
 - stamina_cost：9.6
 - armor_penetration：25
+- source：See acquisition
 - weight：4.0
 
 The Kukri is a Bladed Machete in .
@@ -43354,6 +44160,7 @@ References
 
 ---
 ## Kyoto
+appears_books
 - type：City
 - country：Japan
 - region：Kansai
@@ -43378,6 +44185,7 @@ References
 
 ---
 ## Kyubi x-MOD2
+- caption：Semi-auto, all awesome.
 - manufacturer：Tsunami
 - type：Assault Rifle
 - technology：Power
@@ -43392,6 +44200,7 @@ References
 - armor_penetration：25
 - type_of_mod_slots：Scope, Muzzle
 - no_of_mod_slots：2
+- source：Dogtown
 - weight：7.2
 
 The Kyubi x-MOD2 is an variant of the Tsunami Kyubi in .
@@ -43456,6 +44265,7 @@ ru:Ла Катрина
 
 ---
 ## La Chingona Dorada
+- caption：Jackie's pistol. A beautiful marriage of Japanese technology and Valentino style.
 - manufacturer：Tsunami
 - type：Pistol
 - technology：Power
@@ -43469,6 +44279,7 @@ ru:Ла Катрина
 - headshot_damage_multiplier：100
 - armor_penetration：25
 - type_of_mod_slots：Scope, Muzzle
+- source：Heroes
 - weight：4.3
 
 La Chingona Dorada is an variant of the Tsunami Nue in .
@@ -43496,6 +44307,7 @@ uk:Ла чінґона дорада
 
 ---
 ## La Perle des Alpes
+- caption：Quality doesn't cut corners.
 - type：Consumable
 - weight：0.2
 - duration：30 sec
@@ -43522,6 +44334,7 @@ Acquisition
 
 ---
 ## Laguna Bend
+- caption：Judy's picture of the submerged ruins
 - type：Town
 - state：North California (formerly)
 - county：San Luis Obispo (formerly)
@@ -43726,6 +44539,7 @@ References
 
 ---
 ## Laika
+- caption：Let it off the leash.
 - manufacturer：Techtronika
 - type：Revolver
 - technology：Tech
@@ -43741,6 +44555,7 @@ References
 - charge_time：0.75
 - headshot_damage_multiplier：150
 - armor_penetration：50
+- source：Airdrops
 - weight：4.6
 
 Laika is an variant of the Techtronika RT-46 Burya in .
@@ -43816,6 +44631,8 @@ ru:Лэнс Харди
 
 ---
 ## Langley
+population
+appears_books
 - type：Community/City
 - country：NUSA
 - state：Virginia
@@ -43836,6 +44653,7 @@ References
 
 ---
 ## Laos
+appears_books
 - aka：Lao People's Democratic Republic
 - population：1.5 million
 - language：Khmer
@@ -43999,6 +44817,7 @@ uk:Початок кінця
 
 ---
 ## Latte
+- caption：Latte™ is a trademarked All Foods Corp product.
 - manufacturer：All Foods
 - type：Consumable
 - duration：450 sec.
@@ -44123,7 +44942,9 @@ Associated Shards
 
 ---
 ## Leather Belt
+- caption："Age-worn. It used to belong to Jackie's father."
 - type：Misc
+- source：Heroes
 
 Leather Belt is an miscellaneous quest item in .
 
@@ -44179,6 +45000,7 @@ uk:Повернення додому
 
 ---
 ## Leelou Beans Lagoon
+- caption：Give it a taste and sail into the unknown.
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -44191,6 +45013,7 @@ Consuming Leelou Beans Lagoon applies the Nourishment status, increasing max Hea
 
 ---
 ## Leelou Beans Meyer Lemon
+- caption：Pucker up for Leelou.
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -44203,6 +45026,7 @@ Consuming Leelou Beans Meyer Lemon applies the Nourishment status, increasing ma
 
 ---
 ## Leelou Beans Plantain
+- caption：This is what magic tastes like.
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -44215,6 +45039,7 @@ Consuming Leelou Beans Plantain applies the Nourishment status, increasing max H
 
 ---
 ## Leelou Beans Tropical
+- caption：Take your tongue on a romantic vacation.
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -44233,6 +45058,8 @@ Consuming Leelou Beans Tropical applies the Nourishment status, increasing max H
 - capacity：8
 - armor：-
 - effects：+-% Movement Speed
+- source：Airdrop
+Dogtown Ripperdocs
 
 The Leeroy Ligament System are a Legs Cyberware implant in .
 
@@ -44370,6 +45197,7 @@ Misc
 |}
 
 Junk
+{| class="fandom-table" width="100%"
 !|Name
 |-
 |Medical Gauze
@@ -44481,6 +45309,7 @@ Crafting Specs
 
 ---
 ## Lexington x-MOD2
+- caption：God's gift to the unalienable right of self-defense.
 - manufacturer：Militech
 - type：Pistol
 - technology：Power
@@ -44494,6 +45323,7 @@ Crafting Specs
 - headshot_damage_multiplier：175
 - type_of_mod_slots：Muzzle
 - no_of_mod_slots：2
+- source：Shoot To Thrill
 - weight：4.3
 
 Lexington x-MOD2 is an variant of the Militech M-10AF Lexington in .
@@ -44788,6 +45618,7 @@ ru:Снятие ограничителей
 
 ---
 ## Lina Malina
+appears_other
 - aka：Queen Bitch of Dogtown
 - status：Alive
 - home：Longshore Stacks, Dogtown
@@ -45030,6 +45861,8 @@ References
 
 ---
 ## Little China Wastewater Plant
+appears_books
+- caption：The wastewater plant as seen from Little China, Watson
 - type：Industrial wastewater treatment plant
 - owner：Government of Night City
 - city：Night City
@@ -45046,6 +45879,8 @@ References
 
 ---
 ## Lizzie
+stamina_cost
+- caption：It may look like a toy, but it sure doesn't shoot like one.
 - manufacturer：Militech
 - type：Pistol
 - technology：Tech
@@ -45061,6 +45896,7 @@ References
 - headshot_damage_multiplier：150
 - armor_penetration：50
 - type_of_mod_slots：Scope
+- source：Automatic Love
 - weight：4.3
 
 Lizzie is an variant of the Militech M-76e Omaha in .
@@ -45224,6 +46060,7 @@ Albums
 |}
 
 Songs
+{| class="fandom-table" width="100%"
 |-
 !Title
 !Album
@@ -45288,6 +46125,7 @@ Songs
 |}
 
 Braindances
+{| class="fandom-table" width="100%"
 |-
 !Title
 !Year
@@ -45346,6 +46184,7 @@ ru:Лиззи Уиззи
 
 ---
 ## Loaded Tamale
+- caption：Brought to you by the Aztecs.
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -45358,6 +46197,7 @@ Consuming Loaded Tamale applies the Nourishment status, increasing max Health by
 
 ---
 ## Locust Pepperoni Pizza
+- caption：It'll swarm your taste buds!
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -45370,6 +46210,8 @@ Consuming Locust Pepperoni Pizza applies the Nourishment status, increasing max 
 
 ---
 ## Logan Garcia
+role
+appears_games
 - status：Dependent
 - dod：2077 (dependent)
 - home：Night City
@@ -45416,6 +46258,7 @@ ru:Логан Скотт
 
 ---
 ## London
+population
 - type：Capital City
 - country：United Kingdom
 - appears_books：
@@ -45533,6 +46376,7 @@ ru:Лос-Анджелес
 
 ---
 ## Los Osos (West Wind Estate)
+appears_books
 - type：Defunct hotel
 - owner：Los Osos (formerly)
 - city：Night City
@@ -45620,6 +46464,8 @@ References
 
 ---
 ## Louise Nordin Eurodyne
+affiliation
+occupation
 - home：Tokyo, Japan
 - gender：Female
 - partner：Kerry Eurodyne (ex-husband)
@@ -45722,6 +46568,7 @@ uk:Голова обертом
 
 ---
 ## Lucas Harford
+image
 - status：Alive
 - home：NUSA
 - gender：Male
@@ -45816,7 +46663,8 @@ ru:Люциус Райн
 - dod：2077 (dependent)
 - role：Techie
 - cyberware：Fortified Ankles
-Sandevistan|equipment=D5 Copperhead
+Sandevistan
+- equipment：D5 Copperhead
 
 Lucius Thoran is a character in .
 
@@ -45998,9 +46846,11 @@ ru:Люси Теккери
 ## Luminescent punk jacket
 - imagef：Jacket 19 basic 04F.png
 - imagem：Jacket 19 basic 04M.png
+- caption：More zippers and buckles means more dangerous. Like bright colors on a poison dart frog.
 - type：Outer Torso
 - style：Kitsch
 - weight：3.0
+- source：Stash
 
 Luminescent punk jacket is a piece of Outer Torso equipment in . Included with the V's New Jackets DLC in Patch 1.3.
 
@@ -46052,6 +46902,8 @@ ru:Пик Луксора
 
 ---
 ## Luxor High Wellness Spa
+appears_books
+appears_other
 - type：Wellness spa
 - owner：Biotechnica (formerly)
 - leader：Milko Alexis
@@ -46133,6 +46985,11 @@ Associated Quests
 Stats & Equipment
 Cyberpunk 2013
 
+tech
+attr
+luck
+emp
+gear
 - citation：,
 - int：8
 - ref：8
@@ -46146,6 +47003,7 @@ Cyberpunk 2013
 
 Cyberpunk 2020
 
+citation
 - int：8
 - ref：8
 - tech：7
@@ -46177,6 +47035,7 @@ ru:Лайл Томпсон
 
 ---
 ## Lynx Paws
+- caption：Biomechanical connective tissue supporting leg muscles.
 - type：Legs
 - attribute：Cool
 - attribute_attunement：HeadshotDamage
@@ -46262,6 +47121,7 @@ uk:Загублений рай
 - headshot_damage_multiplier：100
 - armor_penetration：25
 - no_of_mod_slots：2
+- source：Luxor Heights
 - weight：11.5
 
 The MA70 HB x-MOD2 is an variant of the Midnight Arms MA70 HB in . It was added in Patch 2.1.
@@ -46287,6 +47147,7 @@ uk:МА70 НВ (вер. 2)
 
 ---
 ## MOLODETS BioHaz Grenade
+- caption：Creates a toxic cloud that deals Chemical damage to enemies in range. May apply Poison to organic enemies.
 - manufacturer：Techtronika
 - radius：4
 - duration：8
@@ -46323,12 +47184,14 @@ Filippo-ubertino-grenade-artstation-v1-4.jpg
 
 ---
 ## Machete
+- caption：Hack your way through the urban jungle.
 - type：Machete
 - technology：Blade
 - attack_speed：1.7
 - damage_per_hit：181.0
 - stamina_cost：9.6
 - armor_penetration：25
+- source：See acquisition
 - weight：4.0
 
 The Machete is a Bladed Machete in .
@@ -46418,6 +47281,7 @@ Location(s)
 
 ---
 ## Maelstrom Cultist's Shard
+- caption：Datashard found on the body of a Maelstrom Cultist.
 - type：Misc
 
 Maelstrom Cultist's Shard is a miscellaneous and quest item in .
@@ -46742,6 +47606,7 @@ ru:Мэгги Айли
 
 ---
 ## Maglev Train
+- caption：A Planetran maglev train
 - type：Rail transport
 - group：Transportation
 - manufacturer：Numerous
@@ -46895,6 +47760,7 @@ References
 - door_mount：Standard
 - windscreen：CrystalDome
 - cost：94000
+- source：See acquisition
 
 引文：BARGHEST mechanics transformed a fleet of Suprons into a formidable fleet of their own, capable of rolling through Dogtown's alleys, barbed wire and all. When an unknown daredevil stole one of these vehicles for himself, he transformed it once again into the "Trailbruiser" - an off-road cruiser that still packs the same mean punch.（Supron "Trailbruiser"）
 
@@ -46959,6 +47825,7 @@ References
 - windscreen：Glass
 - street_cred：12
 - cost：16000
+- source：See acquisition
 
 引文：Rated F- in crash testing. One expert described it as "part guillotine, part meat-grinder" in high-speed collisions.（Supron FS3）
 
@@ -47006,6 +47873,7 @@ ru:Махир Супрон FS3
 - windscreen：Glass
 - top_speed：121 mph
 - cost：26000
+- source：See acquisition
 
 引文：The Supron FS3 is the epitome of tragicomedy in vehicle design. A basic Supron looks like a toaster and probably has a worse road safety rating than one. To make the FS3, the shrewd minds at Mahir decided to take that same toaster and juice it up by adding stickier tires, sportier suspension, (marginally) better brakes and a turbocharged engine. Buckle up.（Supron FS3-T）
 
@@ -47145,6 +48013,7 @@ ru:Макигай Маймай P126
 - windscreen：Glass
 - cost：22000
 - street_cred：6
+- source：See acquisition
 
 引文：Manufacturer warning: do not accelerate the car beyond 60mph when flanked by winds of more than 20mph.（MaiMai P126）
 
@@ -47197,6 +48066,7 @@ ru:Макигай Маймай P126
 - door_mount：Standard
 - windscreen：N/A
 - cost：35000
+- source：See acquisition
 
 引文：Do mountains, forests, fields or valleys stand between you and your destination? No problem. This reliable, no-frills Tanishi takes no detours. Nowhere is off-limits.（Tanishi "Kuma"）
 
@@ -47217,7 +48087,8 @@ References
 ## Malaysia
 - capital：Kuala Lumpur
 - population：27 million
-- language：Bahasa Malaysia (Official) *English *Mandarin Chinese *Arabic *Borneo tribal languages|ethnic_groups = *Malay *Chinese *Indians *Middle Easterners *Borneo tribes
+- language：Bahasa Malaysia (Official) *English *Mandarin Chinese *Arabic *Borneo tribal languages
+- ethnic_groups：Malay *Chinese *Indians *Middle Easterners *Borneo tribes
 - literacy_rate：80%
 - military：206,000
 
@@ -47257,6 +48128,7 @@ es:Malasia
 - horse_power：170
 - weight：661
 - seats：1
+- source：See acquisition
 
 引文：This 4-cylinder, 178-horsepower, hot piece of engine will get your fine ass to any party on time. So if you want to arrive fashionably late, lay off the CHOOH, take it slow... and enjoy the vibrations... ;)（Malina-mobile）
 
@@ -47271,6 +48143,7 @@ References
 
 ---
 ## Malorian Arms 3516 (2077)
+- caption：Custom-made for Johnny Silverhand. The guy had taste.
 - alias：Johnny Silverhand's Malorian
 - manufacturer：Malorian Arms
 - type：Pistol
@@ -47284,6 +48157,7 @@ References
 - ammo_capacity：10
 - headshot_damage_multiplier：150
 - armor_penetration：50
+- source：Chippin' In
 - weight：4.3
 - appears_books：
 
@@ -47328,6 +48202,7 @@ uk:Малоріан-3516
 
 ---
 ## Malorian Overture
+- caption：Packs one hell of a kick.
 - manufacturer：Malorian Arms
 - type：Revolver
 - technology：Power
@@ -47340,6 +48215,7 @@ uk:Малоріан-3516
 - headshot_damage_multiplier：200
 - armor_penetration：25
 - type_of_mod_slots：Scope
+- source：See acquisition
 - weight：4.6
 
 The Overture is a Power Revolver manufactured by Malorian Arms in .
@@ -47390,6 +48266,7 @@ References
 
 ---
 ## Mancinella
+- caption：Precision and efficiency for the best in the trade. Classy looks for everyone who like killing in style.
 - type：Revolver
 - technology：Power
 - iconic：Equipped with a unique silencer. Headshots have a chance to apply Poison. After entering combat, your stealth damage bonus remains momentarily active.
@@ -47402,6 +48279,7 @@ References
 - headshot_damage_multiplier：200
 - armor_penetration：25
 - type_of_mod_slots：Scope
+- source：Run This Town
 - weight：4.6
 
 Mancinella is an variant of the Darra Polytechnic DR-5 Nova in .
@@ -47426,6 +48304,7 @@ uk:Манцинела
 
 ---
 ## Mantis Blades
+- caption：Arm blades designed with lethality and concealment in mind. As effective as they are flashy.
 - manufacturer：Arasaka
 - type：Arms
 - attribute：Reflexes
@@ -47435,6 +48314,7 @@ uk:Манцинела
 - effects：Mantis Blades allow you to slice and dice your enemies with swift, deadly slashes.
 You can also leap at a target to deal massive damage. Deal Physical damage.
 -% Bleeding chance
+- source：Ripperdocs
 - rprice：28783
 
 The Mantis Blades are Cyberware for the Arms in .
@@ -47548,6 +48428,7 @@ Consumables
 
 ---
 ## Marlon Fuscino
+affiliation
 - gender：Male
 - hair_color：Brown
 - relative：Isabella Fuscino (wife)
@@ -47602,6 +48483,7 @@ fr: Mars
 
 ---
 ## Martha Frakes
+- caption：Disguised as Martha Young
 - status：Comatose
 - aka：Martha Young
 - home：Night City
@@ -47709,6 +48591,7 @@ Crafting Specs
 
 ---
 ## Matapang Coffee
+- caption：Tough morning? Let Matapang help.
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Hydration status. +5% Stamina Regen Rate
@@ -47720,6 +48603,7 @@ Consuming Matapang Coffee applies the Hydration status, increasing Stamina Regen
 
 ---
 ## Matapang Decaf
+- caption：For when your ticker starts to flicker.
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Hydration status. +5% Stamina Regen Rate
@@ -47959,6 +48843,7 @@ References
 
 ---
 ## MaxDoc
+- caption：When "healthy" just won't cut it.
 - manufacturer：Trauma Team
 - type：Inhaler
 - effects：Instantly restores - Health.
@@ -47996,6 +48881,7 @@ To be added
 
 ---
 ## MaxTac Mantis Blades
+- caption：Arm blades designed with lethality and concealment in mind. As effective as they are flashy.
 - manufacturer：MaxTac
 - type：Arms
 - attribute：Reflexes
@@ -48066,6 +48952,7 @@ To be added
 
 ---
 ## Maximum Mike
+- caption：A young Mike
 - aka：Max Mike
 The voice of Night City
 - status：Alive (2077)
@@ -48157,6 +49044,7 @@ Following the AHQ Disaster that decimated a sizable portion of Night City, Ebuni
 
 Stats & Equipment
 
+citation
 - int：10
 - ref：5
 - tech：7
@@ -48199,6 +49087,7 @@ ru:Кураж
 
 ---
 ## Mechatronic Core
+- caption：Provides information about the weak points of both mass-produced and some lesser-known machines.
 - type：Frontal Cortex
 - capacity：5
 - effects：+-% damage against drones, robots, mechs and turrets.
@@ -48304,6 +49193,7 @@ Consumables
 |300
 |}
 Crafting Specs
+{| class="fandom-table" width="100%"
 ! width="70%" |Name
 ! width="20%" |€$
 ! width="10%" |SC
@@ -48334,6 +49224,7 @@ Crafting Specs
 |}
 
 Miscellaneous
+{| class="fandom-table" width="100%"
 ! width="70%" |Name
 ! width="30%" |€$
 |-
@@ -48394,6 +49285,7 @@ Consumables
 |300
 |}
 Crafting Specs
+{| class="fandom-table" width="100%"
 ! width="70%" |Name
 ! width="20%" |€$
 ! width="10%" |SC
@@ -48424,6 +49316,7 @@ Crafting Specs
 |}
 
 Miscellaneous
+{| class="fandom-table" width="100%"
 ! width="70%" |Name
 ! width="30%" |€$
 |-
@@ -48484,6 +49377,7 @@ Consumables
 |300
 |}
 Crafting Specs
+{| class="fandom-table" width="100%"
 ! width="70%" |Name
 ! width="20%" |€$
 ! width="10%" |SC
@@ -48514,6 +49408,7 @@ Crafting Specs
 |}
 
 Miscellaneous
+{| class="fandom-table" width="100%"
 ! width="70%" |Name
 ! width="30%" |€$
 |-
@@ -48582,6 +49477,7 @@ Consumables
 |30
 |}
 Crafting Specs
+{| class="fandom-table" width="100%"
 ! width="70%" |Name
 ! width="20%" |€$
 ! width="10%" |SC
@@ -48612,6 +49508,7 @@ Crafting Specs
 |}
 
 Miscellaneous
+{| class="fandom-table" width="100%"
 ! width="70%" |Name
 ! width="30%" |€$
 |-
@@ -48675,6 +49572,7 @@ Consumables
 |300
 |}
 Crafting Specs
+{| class="fandom-table" width="100%"
 ! width="70%" |Name
 ! width="20%" |€$
 ! width="10%" |SC
@@ -48705,6 +49603,7 @@ Crafting Specs
 |}
 
 Miscellaneous
+{| class="fandom-table" width="100%"
 ! width="70%" |Name
 ! width="30%" |€$
 |-
@@ -48774,6 +49673,7 @@ Consumables
 |300
 |}
 Crafting Specs
+{| class="fandom-table" width="100%"
 ! width="70%" |Name
 ! width="20%" |€$
 ! width="10%" |SC
@@ -48804,6 +49704,7 @@ Crafting Specs
 |}
 
 Miscellaneous
+{| class="fandom-table" width="100%"
 ! width="70%" |Name
 ! width="30%" |€$
 |-
@@ -48898,6 +49799,7 @@ Consumables
 |30
 |}
 Crafting Specs
+{| class="fandom-table" width="100%"
 ! width="70%" |Name
 ! width="20%" |€$
 ! width="10%" |SC
@@ -48928,6 +49830,7 @@ Crafting Specs
 |}
 
 Miscellaneous
+{| class="fandom-table" width="100%"
 ! width="70%" |Name
 ! width="30%" |€$
 |-
@@ -48991,6 +49894,7 @@ Consumables
 |30
 |}
 Crafting Specs
+{| class="fandom-table" width="100%"
 ! width="70%" |Name
 ! width="20%" |€$
 ! width="10%" |SC
@@ -49021,6 +49925,7 @@ Crafting Specs
 |}
 
 Miscellaneous
+{| class="fandom-table" width="100%"
 ! width="70%" |Name
 ! width="30%" |€$
 |-
@@ -49086,6 +49991,7 @@ Consumables
 |30
 |}
 Crafting Specs
+{| class="fandom-table" width="100%"
 ! width="70%" |Name
 ! width="20%" |€$
 ! width="10%" |SC
@@ -49116,6 +50022,7 @@ Crafting Specs
 |}
 
 Miscellaneous
+{| class="fandom-table" width="100%"
 ! width="70%" |Name
 ! width="30%" |€$
 |-
@@ -49179,6 +50086,7 @@ Consumables
 |300
 |}
 Crafting Specs
+{| class="fandom-table" width="100%"
 ! width="70%" |Name
 ! width="20%" |€$
 ! width="10%" |SC
@@ -49209,6 +50117,7 @@ Crafting Specs
 |}
 
 Miscellaneous
+{| class="fandom-table" width="100%"
 ! width="70%" |Name
 ! width="30%" |€$
 |-
@@ -49740,6 +50649,7 @@ ru:Мегабашня H9
 
 ---
 ## Megapax Export
+appears_other
 - type：Storage Facilities
 - status：Active
 - location：Night City
@@ -50016,6 +50926,7 @@ References
 
 ---
 ## Memorial Park Station
+street
 - type：Metro hub & station
 - owner：NCART
 - city：Night City
@@ -50058,6 +50969,8 @@ fr:Station de Memorial Park
 
 ---
 ## Memory Boost
+attribute_value
+- caption：A module that optimizes the sync between brain and cyberware.
 - type：Frontal Cortex
 - capacity：18
 - effects：+- RAM when you neutralize an enemy
@@ -50082,6 +50995,7 @@ fr:Boost de mémoire
 - ram_cost：→ →
 - effects：Untraceable. *Prevents the targeted enemy from noticing you for a short time. −25% trace progress when uploaded outside of combat. *: Quickhacks queued after Memory Wipe are not traceable. +10% to trace progress reduction. *: Forces all enemies to exit combat state. *: Reduces upload time by 7 sec.
 - traceability：0
+- source：Netrunners
 
 Memory Wipe is a Covert Quickhack in .
 
@@ -50257,6 +51171,7 @@ tr:Meredith Stout
 
 ---
 ## MetaKey
+population
 - aka：Metakey
 - type：Drift city
 - owner：MetaCorp
@@ -50331,6 +51246,21 @@ References
 
 ---
 ## Mexico
+caption
+motto
+aka
+owner
+leader
+mascot
+country
+district
+sub_district
+street
+population
+ethnic_groups
+literacy_rate
+military
+appears_other
 - type：Country
 - location：North America
 - capital：Mexico City
@@ -50625,12 +51555,14 @@ References
 
 ---
 ## Microgenerator
+- caption：A small, high-voltage generator that packs a shocking punch.
 - type：Hands
 - attribute：Intelligence
 - attribute_attunement：AllDamage
 - attribute_value：0.05
 - capacity：9
 - effects：Reloading an empty weapon causes the next shot to release an electroshock that deals up to - Electrical damage to enemies near the point of impact. Electroshock damage increases with the number of bullet reloaded (max. 5 bullets).
+- source：Ripperdocs
 
 The Microgenerator is Cyberware for the Hands in .
 
@@ -50647,12 +51579,14 @@ Changelog
 
 ---
 ## Microrotors
+- caption：Improves agility in melee combat.
 - type：Circulatory System
 - attribute：Reflexes
 - attribute_attunement：CritChance
 - attribute_value：0.1
 - capacity：12
 - effects：+-% melee attack speed
+- source：Ripperdocs
 
 The Microrotors are Cyberware for the Circulatory System in .
 
@@ -50669,6 +51603,7 @@ Notes
 
 ---
 ## Midnight Arms MA70 HB
+- caption：It's time to bring out the big guns.
 - manufacturer：Midnight Arms
 - type：Light Machine Gun
 - technology：Power
@@ -50681,6 +51616,7 @@ Notes
 - ammo_capacity：60
 - headshot_damage_multiplier：85
 - armor_penetration：25
+- source：See acquisition
 - weight：11.5
 
 The MA70 HB is a Power Light Machine Gun manufactured by Midnight Arms in . It was added in Patch 1.6 as part of the New Weapons: Firearms DLC.
@@ -50723,6 +51659,7 @@ References
 
 ---
 ## Midnight Arms SOR-22
+- caption：Reliable. Dependable. Midnight Arms.
 - alias：Elephant
 - manufacturer：Midnight Arms
 - type：Precision Rifle
@@ -50736,6 +51673,7 @@ References
 - headshot_damage_multiplier：150
 - armor_penetration：25
 - type_of_mod_slots：Scope
+- source：See acquisition
 - weight：7.8
 
 引文：The SOR-22. Somebody offload an entire shipment onto black market. Dangerous tech. One bullet and you dead.（Weapon Vendor）
@@ -51060,6 +51998,7 @@ Trivia
 
 ---
 ## Military-Grade Lactic Acid Recyclers
+- caption："Due to known complications with lactic acidosis, this treatment for optimizing anaerobic energy generation is only authorized for use by the world's national and corporate armed forces."
 - type：Permanent
 - effects：Permanently increases Stamina regen.
 - buy_price：12000
@@ -51083,6 +52022,7 @@ fr:Recycleur d'acide lactique de qualité militaire
 
 ---
 ## Militech Apogee
+- caption：This model of Sandevistan doesn't exist, at least officially. Off the record, there's gossip of secret Militech Lunar labs producing covert cyberware. It was never meant to be mass produced, but an army would only really need a few pieces like this one to dominate their enemy.
 - manufacturer：Militech
 - type：Sandevistan
 - quality：/
@@ -51098,6 +52038,7 @@ Slows time by 85% (you are not slowed)
 +10% extended duration
 +22% Stamina Max duration: 6 sec.
 Cooldown: - sec.
+- source：See acquisition
 - buy_price：120000
 
 The Apogee is an Sandevistan Operating System manufactured by Militech in .
@@ -51290,6 +52231,7 @@ References
 
 ---
 ## Militech Berserk
+- caption：The only official Berserk implant from Militech available on the market, but an exceptionally fine one at that. Its genius lies in being nanopowered, making it highly suited for regenerative purposes.
 - manufacturer：Militech
 - type：Berserk
 - quality：/
@@ -51307,6 +52249,7 @@ Melee weapons only
 Increased damage at low Health (max +50% damage when below +20% Health) When it ends:
 +25% Health for each enemy neutralized. Duration: - sec.
 Cooldown: - sec.
+- source：See acquisition
 
 The Militech Berserk is an Berserk Operating System manufactured by Militech in .
 
@@ -51346,10 +52289,12 @@ Changelog
 
 ---
 ## Militech Canto
+- caption：A rare cyberdeck model with unique Militech-produced components. This gear was allegedly used in the secret Cynosure project. Fun fact: the model's name is a reference to Dante's "Divine Comedy". In the sixth canto, Dante descends into Inferno's third circle, guarded by the three-headed beast Cerberus.
 - manufacturer：Militech
 - type：Cyberdeck
 - quality：/
 - capacity：33
+- source：Somewhat Damaged
 
 The Canto Mk.6 is an Cyberdeck Operating System designed by Militech in .
 
@@ -51368,7 +52313,12 @@ Acquisition
 **The deciphered is required to craft the cyberdeck, which can be obtained during This Corrosion.
 
 Crafting
-|-|T5=|-|T5+=|-|T5++=
+|-|T5=
+item
+- quality：L
+- mat：QHL,L
+- mat#：12,50
+|-|T5+=|-|T5++=
 
 Quotes
 The Canto has unique voicelines from the rogue AI housed on the cyberdeck.
@@ -51422,6 +52372,7 @@ Location(s)
 
 ---
 ## Militech Crusher (2077)
+- caption：A firearm staple since 2020.
 - manufacturer：Militech
 - type：Shotgun
 - technology：Power
@@ -51434,6 +52385,7 @@ Location(s)
 - headshot_damage_multiplier：135
 - no_of_projectiles：5
 - type_of_mod_slots：Scope
+- source：See acquisition
 - weight：9.6
 
 The Crusher is a Power Shotgun manufactured by Militech in .
@@ -51521,6 +52473,7 @@ References
 
 ---
 ## Militech Falcon
+- caption：Manufactured by Militech, the "Falcon" is hands down the best and most advanced Sandevistan model out there. Previously used only by elite Militech soldiers, its now available to the average consumer. The nickname is no accident - the peregrine falcon was once one of the fastest animals in the world, as this implant is among cyberware.
 - manufacturer：Militech
 - type：Sandevistan
 - quality：/
@@ -51536,6 +52489,7 @@ Slows time by 70% (you are not slowed)
 +% extended duration
 +-% Health Max duration: - sec.
 Cooldown: - sec.
+- source：Ripperdocs
 
 The Falcon is a Sandevistan Operating System manufactured by Militech in .
 
@@ -51651,6 +52605,7 @@ Location(s)
 - windscreen：Militech CrystalDome
 - top_speed：121
 - cost：150000
+- source：See acquisition
 
 引文：Did someone order a chariot of the apocalypse? Because a new harbinger of the end just arrived, sporting 6-wheel drive, armor plating, 820 horsepower and a curb weight of 7 tons. And let's not forget the airless tires and CrystalDome technology that keep you safe as you crush enemies on any road or hellscape. Oh, and the built-in arsenal is a nice touch.（Hellhound）
 
@@ -51769,6 +52724,8 @@ Location(s)
 
 ---
 ## Militech M-10AF Lexington
+iconic
+- caption：God's gift to the inalienable right of self-defense.
 - manufacturer：Militech
 - type：Pistol
 - technology：Power
@@ -51780,6 +52737,7 @@ Location(s)
 - ammo_capacity：20
 - headshot_damage_multiplier：125
 - type_of_mod_slots：Scope, Muzzle
+- source：See acquisition
 - weight：4.3
 
 The M-10AF Lexington is a Power Pistol manufactured by Militech in .
@@ -51868,6 +52826,7 @@ ru:Милитех M-10AF «Лексингтон»
 
 ---
 ## Militech M-76e Omaha
+- caption：Size doesn't matter. Results do.
 - manufacturer：Militech
 - type：Pistol
 - technology：Tech
@@ -51882,6 +52841,7 @@ ru:Милитех M-10AF «Лексингтон»
 - headshot_damage_multiplier：170
 - armor_penetration：50
 - type_of_mod_slots：Scope
+- source：See acquisition
 - weight：4.3
 - appears_books：
 
@@ -51950,6 +52910,7 @@ ru:Милитех M-76e «Омаха»
 
 ---
 ## Militech M221 Saratoga
+- caption：Purrs like a kitten.
 - manufacturer：Militech
 - type：Submachine Gun
 - technology：Power
@@ -51961,6 +52922,7 @@ ru:Милитех M-76e «Омаха»
 - ammo_capacity：40
 - headshot_damage_multiplier：100
 - type_of_mod_slots：Scope, Muzzle
+- source：See acquisition
 - weight：5.0
 
 The M221 Saratoga is a Power Submachine Gun manufactured by Militech in .
@@ -52026,6 +52988,8 @@ fr:Militech M221 Saratoga
 
 ---
 ## Militech M251s Ajax
+iconic
+- caption：Come rain or shine, it'll weather it out.
 - manufacturer：Militech
 - type：Assault Rifle
 - technology：Power
@@ -52038,6 +53002,7 @@ fr:Militech M221 Saratoga
 - headshot_damage_multiplier：100
 - armor_penetration：25
 - type_of_mod_slots：Scope, Muzzle
+- source：See acquisition
 - weight：7.2
 
 The M251s Ajax is a Power Assault Rifle manufactured by Militech in .
@@ -52099,10 +53064,12 @@ fr:Militech M251s Ajax
 
 ---
 ## Militech MT0D12 "Flathead"
+- caption："A highly sought Militech drone production model."
 - manufacturer：Militech
 - type：Misc
 - buy_price：10000
 - sell_price：5000
+- source：The Pickup
 
 The Militech MT0D12 "Flathead", commonly abbreviated to Flathead, is a robot in .
 
@@ -52215,6 +53182,8 @@ References
 
 ---
 ## Militech Mk. 31 HMG
+iconic
+- caption：Time for the artillery to roll in.
 - manufacturer：Militech
 - type：Heavy Machine Gun
 - technology：Power
@@ -52245,6 +53214,7 @@ Crafting
 Behind the Scenes
 
 引文：A massive weapon originally meant only to be used mounted, the Mk. 31 was modified for portability when advances in cyberware made carrying it possible. The grips were moved from underneath to the left and right and an advanced recoil system inspired by artillery cannons was added. Also cannon-like is its barrel, which flies backwards when shooting to chamber the next round. A mechanism on top of the barrel sprays gas downwards to cool metal temperatures when they get too high.
+citation
 
 Gallery
 
@@ -52348,12 +53318,15 @@ References
 
 ---
 ## Militech Paraline
+attribute_value
+- caption：Not the most powerful cyberdeck on the market, but capable of performing multiple tasks – even if it does require a little patience.
 - manufacturer：Militech
 - type：Cyberdeck
 - capacity：14
 - cd_ram：-
 - cd_slots：-
 - cd_buffer：-
+- source：The Rescue
 
 The Paraline Mk.1-5 is a Cyberdeck Operating System manufactured by Militech in .
 
@@ -52509,6 +53482,7 @@ References
 
 ---
 ## Militech Ticon
+- caption：Old version of the Omaha handgun. Good at what it does despite its age. Just like an old-school special agent.
 - manufacturer：Militech
 - type：Pistol
 - technology：Tech
@@ -52522,6 +53496,7 @@ References
 - charge_time：0.75
 - headshot_damage_multiplier：170
 - armor_penetration：50
+- source：See acquisition
 - weight：4.3
 
 The Ticon is a Tech Pistol manufactured by Militech in .
@@ -52577,8 +53552,10 @@ References
 
 ---
 ## Militech Training Shard
+- caption：Contains a comprehensive, interactive and reusable combat training program designed by Militech.
 - manufacturer：Militech
 - type：Misc
+- source：The Rescue
 
 The Militech Training Shard is a miscellaneous quest item in . It was added in Update 2.3.
 
@@ -52653,6 +53630,9 @@ ru:Милко Алексис
 
 ---
 ## Milt Nauman
+eyes
+appears_books
+appears_other
 - status：Alive
 - home：Night City
 - gender：Male
@@ -52833,6 +53813,7 @@ References
 
 ---
 ## Misha Orlova
+appears_games
 - status：Dependent
 - dod：2077 (Dependent)
 - place_of_death：Wild Blue, Coastview
@@ -52948,9 +53929,11 @@ uk:Місті Ольшевська
 
 ---
 ## Misty's Dreamcatcher
+- caption："Misty's show of appreciation for finding all the Tarot cards. You can hang it up in your apartment."
 - type：Misc
 - weight：0
 - cost：1
+- source：Fool on the Hill
 
 Misty's Dreamcatcher is a miscellaneous quest item in .
 
@@ -52969,6 +53952,7 @@ Misty's Dreamcatcher.png
 
 ---
 ## Misty's Esoterica
+appears_books
 - type：New-age store
 - owner：Misty Olszewski
 - city：Night City
@@ -53090,6 +54074,7 @@ ru:Митч Андерсон
 - windscreen：Glass
 - cost：37000
 - street_cred：12
+- source：See acquisition
 
 引文：Rumor has it, the former owner of this custom Hozuki MH2 was a corpo who suffered from severe workplace burnout. But rather than leave everything behind to start a simple life of apple farming in Vermont, she decided to tune her ride and join a nomad racing circuit in the California desert. Although she died soon thereafter of pneumaconiosis, the epitaph left on her grave immortalizes how she felt about her decision: "This is how you live."（Hozuki "Hoseki"）
 
@@ -53158,6 +54143,7 @@ References
 - door_mount：Standard
 - windscreen：Glass
 - cost：29000
+- source：See acquisition
 - horse_power：242
 
 引文：A more powerful engine, improved braking, increased traction and more responsive suspension - the MH2 does everything the MH1 can, only better.（Hozuki MH2）
@@ -53188,6 +54174,7 @@ References
 - doors：2
 - door_mount：Swing
 - windscreen：Militech CrystalDome
+- source：See acquisition
 
 引文：With highly tuned dampers and extra ground clearance, this model is like a mechanical kangaroo on steroids.（Shion "Bonewrecker"）
 
@@ -53234,6 +54221,7 @@ References
 - windscreen：Militech CrystalDome
 - cost：77000
 - street_cred：34
+- source：See acquisition
 
 引文：Thanks to its upgrades, this model is capable of going at full speed even in temperatures above 135F.（Shion "Coyote"）
 
@@ -53312,6 +54300,7 @@ References
 - windscreen：Militech CrystalDome
 - cost：87000
 - street_cred：32
+- source：See acquisition
 - horse_power：464
 
 引文：With highly tuned dampers and extra ground clearance, this model is like a mechanical kangaroo on steroids.（Shion "Samum"）
@@ -53353,6 +54342,7 @@ References
 - door_mount：Swing
 - windscreen：Glass
 - cost：43000
+- source：See acquisition
 
 引文：The most frequently seen sportscar in Night City.（Shion MZ1）
 
@@ -53390,6 +54380,7 @@ fr:Mizutani Shion
 - windscreen：Glass
 - cost：57000
 - street_cred：26
+- source：See acquisition
 
 引文：The Shion MZ2 features an upgraded turbo, increased tire grip and a more robust drivetrain, making it the fastest in the Mizutani collection.（Shion MZ2）
 
@@ -53436,6 +54427,7 @@ ru:Мидзутани Сион MZ2
 - door_mount：Swing
 - windscreen：Glass
 - cost：61000
+- source：See acquisition
 
 The Shion Targa MZT is a vehicle manufactured by Mizutani in .
 
@@ -53581,6 +54573,7 @@ References
 
 ---
 ## Monowire
+- caption：Whip-like monofilament wire with a cutting edge only a molecule wide.
 - type：Arms
 - attribute：Intelligence
 - attribute_attunement：ArmsDamage
@@ -53588,6 +54581,7 @@ References
 - capacity：8
 - effects：Monowire is arm replacement cyberware that allows you to whip multiple enemies at once from a distance. Deal Physical damage.
 -% Bleeding chance Empty Quickhack Slot
+- source：Ripperdoc
 
 The Monowire is Cyberware for the Arms in .
 
@@ -53633,6 +54627,7 @@ ru:Трон Монтесумы
 
 ---
 ## Moon
+appears_books
 - aka：Luna
 - type：Natural satellite
 - owner：Highrider Confederation
@@ -53694,6 +54689,7 @@ ru:Луна (Планеты)
 
 ---
 ## Moonchies
+- caption：For when you're sky high!
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -53706,6 +54702,7 @@ Consuming Moonchies applies the Nourishment status, increasing max Health by 5% 
 
 ---
 ## Moonchies Andromeda
+- caption：An out-of-this-galaxy snack experience!
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -53718,6 +54715,7 @@ Consuming Moonchies Andromeda applies the Nourishment status, increasing max Hea
 
 ---
 ## Moonchies Pulsar
+- caption：A beam of bliss from across the galaxy!
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -53730,6 +54728,7 @@ Consuming Moonchies Pulsar applies the Nourishment status, increasing max Health
 
 ---
 ## Moonchies Sour Planet
+- caption：With the tart kick of an alien planet's acidic atmosphere.
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -53764,6 +54763,7 @@ References
 
 ---
 ## Moore Tech Berserk
+- caption：A classic implant, one of the more popular "Berserk" model made by Moore Technologies. Tested and proven in high-stakes combat.
 - manufacturer：MoorE Technologies
 - type：Berserk
 - attribute：Body
@@ -53778,6 +54778,7 @@ Melee weapons only
 −100% Stamina cost When it ends:
 +25% Health for each enemy neutralized. Duration: - sec.
 Cooldown: - sec.
+- source：Ripperdocs
 
 The Moore Tech Berserk is a Berserk Operating System manufactured by MoorE Technologies in .
 
@@ -53821,6 +54822,7 @@ Changelog
 
 ---
 ## Morgan Blackhand
+- caption：2020
 - status：Alive (2077)
 - place_of_birth：New York City, USA
 - home：Brooklyn, NYC
@@ -53964,6 +54966,10 @@ ru:Морган Блэкхенд
 
 ---
 ## Morocco
+type
+population
+literacy_rate
+military
 - location：Africa
 - capital：Rabat
 - demonym：Moroccan
@@ -53995,6 +55001,7 @@ References
 
 ---
 ## Moron Labe
+- caption：A weapon for an alpha amongst alphas.
 - manufacturer：Militech
 - type：Assault Rifle
 - technology：Power
@@ -54008,6 +55015,7 @@ References
 - headshot_damage_multiplier：85
 - armor_penetration：25
 - type_of_mod_slots：Scope, Muzzle
+- source：Suspected Organized Crime Activity (West Wind Estate)
 - weight：7.2
 
 Moron Labe is an variant of the Militech M251s Ajax in .
@@ -54076,6 +55084,7 @@ References
 
 ---
 ## Morro Rock
+- caption：The island in 2045
 - type：Volcanic plug (formerly)
 Artificial island
 - city：Night City
@@ -54319,6 +55328,7 @@ ru:Лейтенант Моуэр
 
 ---
 ## Mox
+- caption：An uncompromising force weapons technology that once belonged to Judy.
 - manufacturer：Budget Arms
 - type：Shotgun
 - technology：Power
@@ -54333,6 +55343,7 @@ ru:Лейтенант Моуэр
 - headshot_damage_multiplier：85
 - armor_penetration：25
 - no_of_projectiles：6
+- source：Pyramid Song
 - weight：9.6
 
 Mox is an variant of the Budget Arms Carnage in .
@@ -54517,6 +55528,7 @@ ru:Мистер Перчик
 
 ---
 ## Mr. Whitey
+- caption：FASTER FASTER FASTER!!!
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -54529,6 +55541,7 @@ Consuming Mr. Whitey applies the Nourishment status, increasing max Health by 5%
 
 ---
 ## Mr. Whitey Crystal
+- caption：Don't stop! Never stop!
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -54541,6 +55554,7 @@ Consuming Mr. Whitey Crystal applies the Nourishment status, increasing max Heal
 
 ---
 ## Mr. Whitey Mint
+- caption：A delicious, calorie-packed snack.
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -54553,6 +55567,7 @@ Consuming Mr. Whitey Mint applies the Nourishment status, increasing max Health 
 
 ---
 ## Mr. Whitey Spiced
+- caption：Spice up your speed!
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -54676,10 +55691,12 @@ Acquisition
 ## Multilayered syn-leather deltajock jacket
 - imagef：Jacket 20 basic 01F.png
 - imagem：Jacket 20 basic 01M.png
+- caption：Synthetic fabric, retro feel.
 - type：Outer Torso
 - style：Kitsch
 - weight：3.0
 - slot_number：2
+- source：Stash
 
 Multilayered syn-leather deltajock jacket is a piece of Outer Torso equipment in . Included with the V's New Jackets DLC in Patch 1.3.
 
@@ -54734,6 +55751,7 @@ References
 
 ---
 ## Murphy's Law
+- caption：Gets you down on your luck. Hard.
 - type：One-handed Club
 - technology：Blunt
 - iconic：For when things go very, very wrong. Hits against a knocked-down enemy increases attack speed. Strong attacks deal more damage.
@@ -54743,6 +55761,7 @@ References
 - stamina_cost：8.0
 - charge_time：1.0
 - armor_penetration：50
+- source：Firestarter (dependent)
 - weight：4.2
 
 Murphy's Law is an Electric Baton Gamma in .
@@ -54774,6 +55793,7 @@ ru:Мышечная память
 
 ---
 ## Myanmar
+appears_books
 - population：3.5 million
 - language：Burmese *English
 - ethnic_groups：Burmese *Tribes
@@ -54843,6 +55863,7 @@ ru:Мистериум
 
 ---
 ## NCPD Lab
+appears_books
 - type：Laboratory
 - city：Night City
 - district：Heywood
@@ -54971,6 +55992,7 @@ ru:Международный и трансорбитальный космопо
 
 ---
 ## Nadezhda Tiurina
+place_of_death
 - status：Dependent
 - dod：2077 (dependent)
 - home：Soviet Union
@@ -55007,6 +56029,7 @@ ru:Надежда_Тюрина
 
 ---
 ## Nadia
+appears_books
 - status：Unknown
 - home：Night City
 - gender：Female
@@ -55087,6 +56110,7 @@ Nadya Papayanova (Надя Папаянова) manages a snuff braindance produc
 
 ---
 ## Nairobi
+affiliation
 - type：Capital City
 - country：Kenya, Pan-African Alliance
 - demonym：Nairobian
@@ -55119,6 +56143,7 @@ References
 
 ---
 ## Nano-plating
+- caption：You see this and you don't run – you're either stupid or dumb.
 - manufacturer：Kang Tao
 - type：Integumentary System
 - attribute：Reflexes
@@ -55127,6 +56152,7 @@ References
 - capacity：20
 - armor：-
 - effects：-% chance to block an incoming projectile. +100% bonus chance after performing a dodge or Dash. This bonus lasts - sec. or until the next projectile is blocked, whichever comes first. Cannot block more than 3 projectiles in a - sec. span.
+- source：Ripperdocs
 
 The Nano-plating is Cyberware for the Integumentary System in .
 
@@ -55145,6 +56171,7 @@ Changelog
 
 ---
 ## Naranjita Classic
+- caption：Feel the chemistry!
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Hydration status. +5% Stamina Regen Rate
@@ -55156,6 +56183,7 @@ Consuming Naranjita Classic applies the Hydration status, increasing Stamina Reg
 
 ---
 ## Naranjita Zero
+- caption：No calories. No regrets.
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Hydration status. +5% Stamina Regen Rate
@@ -55217,6 +56245,7 @@ ru:Нэш
 
 ---
 ## Nehan
+- caption：Shurikenjutsu is the term for traditional Japanese martial arts that involve small, sharp weapons. While it used to be a specialty of the samurai, the practice has become more egalitarian in recent history. That said, today's street samurai could only dream of wielding a weapon to match Saburo Arasaka's kaiken.
 - type：Knife
 - technology：Thrown
 - iconic：Thrown hits apply Bleeding. If the enemy is already affected by Bleeding from Satori, Nehan will cause hemorrhaging instead. Hemorrhaging drains enemy Health and regenerates yours.
@@ -55227,6 +56256,7 @@ ru:Нэш
 - stamina_cost：4.8
 - return_time：2.8
 - headshot_damage_multiplier：150
+- source：Saburo Arasaka
 - weight：2.3
 
 Nehan(Japanese: 涅槃) is an variant of the Kaiken in . It was added in Patch 2.0.
@@ -55601,6 +56631,7 @@ ru:Киберпространство
 
 ---
 ## NetWatch Netdriver
+- caption：A cyberdeck series used by the best NetWatch agents and a frightening beast in terms of its offensive capabilities. It's best if NetWatch didn't catch you using this.
 - manufacturer：NetWatch
 - type：Cyberdeck
 - quality：/
@@ -55719,9 +56750,11 @@ ru:Нетраннер (Виста-дель-Рей)
 
 ---
 ## Netrunner's Shard
+- caption：A shard used by netrunners to improve their skills.
 - type：Misc
 - weight：0
 - cost：3
+- source：Gig: Wakako's Favorite
 
 Netrunner's Shard is a miscellaneous quest item in .
 
@@ -55792,6 +56825,7 @@ ru:Нейротоксин
 
 ---
 ## Neurotoxin Knife
+- caption：Deadly combination of physical and chemical damage.
 - type：Knife
 - technology：Thrown
 - attack_speed：3.1
@@ -55800,6 +56834,7 @@ ru:Нейротоксин
 - stamina_cost：4.8
 - return_time：2.8
 - headshot_damage_multiplier：150
+- source：See acquisition
 - weight：2.3
 
 The Neurotoxin Knife is a Throwable Knife in . It was added in Patch 1.6 as part of the New Weapons: Melee DLC.
@@ -55969,6 +57004,8 @@ ru:Автомастерская (Равнина Джексона)
 
 ---
 ## New Barcelona
+image
+population
 - type：City
 - country：Spain
 - appears_books：
@@ -56109,7 +57146,9 @@ uk:Нове життя, старі помилки
 ## New Philippines
 - capital：Manila
 - population：105 million
-- language：Filipino *Spanish *English *Cebuano *Arabic|ethnic_groups = *Filipino *Spanish *Middle Easterners *Chinese *Pacific Islanders|literacy_rate = 85%
+- language：Filipino *Spanish *English *Cebuano *Arabic
+- ethnic_groups：Filipino *Spanish *Middle Easterners *Chinese *Pacific Islanders
+- literacy_rate：85%
 - military：425,000
 - demonym：Filipino
 - appears_books：
@@ -56170,6 +57209,7 @@ Turkish
 - military：United States Armed Forces
 
 引文：Imagine a world where Central America didn't become a battleground; where the U.S. solved its problems of crime, inflation and drugs; where the Cold War ended in democracy, not a succession of squabbling dictatorships...（Dr. Albert Harper）
+citation
 
 The New United States of America (NUSA) is a country consisting of 51 states and other various territorial possessions across the world. In 2020, the United States had one of the highest levels of income inequality in the world, with 90% of the wealth controlled by 10% of its population. Over 65% of the population lived in squalid misery, and another 25 to 50 million were disenfranchised, homeless nomads or boosters wandering the ghost towns of the central states.
 
@@ -56412,18 +57452,21 @@ USA Map 2020 2020NT.jpg|2021
 Political Divisions (2077)
 By 2077, although the New United States hadn't completely subdued the remaining Free States, much of the territory was restructured after the Unification War.
 
+{| class="fandom-table" width="100%"
 !
 !Regions
 !States
 |-
 ! rowspan="4" |Eastern States
 |Appalachia
+|Kentucky, North Carolina, Tennessee, Virginia, West Virginia
 |-
 |Midwest &
 Great Plains
 |Illinois, Indiana, Iowa, Kansas, Michigan, Minnesota, Missouri, Nebraska, North Dakota, Ohio, South Dakota, Wisconsin
 |-
 |Northeast
+|Connecticut, Delaware, Maine, Maryland, Massachusetts, New Jersey, New Hampshire, New York, Pennsylvania, Rhode Island, Vermont
 |-
 |South
 |Alabama, Arkansas, Florida, Georgia, Louisiana, Mississippi, Oklahoma, South Carolina
@@ -56664,7 +57707,8 @@ ru:Нью-Йорк
 - capital：Wellington
 - population：5.2 million
 - language：English (official) *Maori (official) *Pacific Islander languages *Mandarin Chinese
-- literacy_rate：87%|military = 130,000
+- literacy_rate：87%
+- military：130,000
 - ethnic_groups：European *Maori *Pacific Islander *Chinese
 
 New Zealand is an island nation within the Oceania region. Due to its small size and lack of fundamental resources, the country has largely avoided the worldwide collapse and corruption of society.
@@ -56699,6 +57743,8 @@ es:Nueva Zelanda
 
 ---
 ## Newton Module
+attribute_value
+- caption：Best things come to those who don't have to wait.
 - type：Frontal Cortex
 - capacity：14
 - effects：−-% Cooldown instantly for all cyberware after neutralizing an enemy.
@@ -56713,6 +57759,7 @@ Acquisition
 
 ---
 ## NiCola (drink)
+- caption：America's favorite drink!
 - manufacturer：NiCola
 - type：Consumable
 - duration：450 sec.
@@ -56733,6 +57780,7 @@ pt-br:NiCola_(bebida)
 
 ---
 ## NiCola Blue
+- caption：Limited edition! Don't miss it!
 - manufacturer：NiCola
 - type：Consumable
 - duration：450 sec.
@@ -56748,6 +57796,7 @@ pt-br:NiCola Blue
 
 ---
 ## NiCola Fire
+- caption：Have a slurp of love!
 - manufacturer：NiCola
 - type：Consumable
 - duration：450 sec.
@@ -56762,6 +57811,7 @@ fr:NiCola Fire
 
 ---
 ## NiCola Sakura
+- caption：For when love isn't enough.
 - manufacturer：NiCola
 - type：Consumable
 - duration：450 sec.
@@ -56912,6 +57962,7 @@ Night City
 |}
 |-|
 Cyberpunk 2020
+{| class="fandom-table" width="100%"
 !Locations
 !Sections
 !Zones
@@ -56956,6 +58007,7 @@ The new districts were governed by their City Manager, who represented the inter
 
 At that time Night City residents mentally divided the city into four areas: The Island, Northside, Mainland, and Southside, with each area containing multiple districts. Some locals also referred to these areas based on the type of environment they were dominated by, with majority belonging to eighter the Overpacked Suburbs, the Rebuilding Urban Zones or the Combat Zones.
 
+{| class="fandom-table" width="100%"
 !Areas
 !Districts & Locations
 |-
@@ -56985,6 +58037,8 @@ Night City Area 2045 Map REDNCA.jpg|Night City (2045)
 2070s Distribution
 After the Time of the Red and the Unification War, Night City was mostly rebuilt and had maintained its autonomy. By 2077, the city was overrun with crime, its rate doubling that of the NUSA. The homeless population had been a problem since the early 2000s, and in 2077 had risen by 300%. Each district was dominated by at least one powerful gang. The city was divided into six districts — each with their own environment and denizens — and 16 official sub-districts. The total size of the city was around 75.42 km².
 
+{| class="fandom-table" width="100%"
+!Districts & Locations
 !Sub-districts & Areas
 !Information
 |-
@@ -57429,6 +58483,7 @@ References
 
 ---
 ## Night City University
+- caption：2045
 - type：University
 - owner：Government of Night City
 - manager：Dean Michaels (2010s-2040s)
@@ -57621,6 +58676,7 @@ References
 
 ---
 ## Nigiri
+- caption：Now with improved rice texture and non-toxic color additives!
 - brand：All Foods
 - type：Consumable
 - duration：450 sec.
@@ -58012,6 +59068,7 @@ uk:Ноктюрн Шопена
 
 ---
 ## Nokota D5 Copperhead
+- caption：From Alaska to Zimbabwe – a versatile weapon for versatile combatants.
 - manufacturer：Nokota
 - type：Assault Rifle
 - technology：Power
@@ -58024,6 +59081,7 @@ uk:Ноктюрн Шопена
 - headshot_damage_multiplier：100
 - armor_penetration：25
 - type_of_mod_slots：Scope, Muzzle
+- source：See acquisition
 - weight：7.2
 
 The D5 Copperhead is a Power Assault Rifle manufactured by Nokota in .
@@ -58088,6 +59146,7 @@ ru:Нокота D5 «Копперхед»
 
 ---
 ## Nokota D5 Sidewinder
+- caption：Smart rifle. Smart choice. It doesn't happen too often, but missed shots do happen.
 - manufacturer：Nokota
 - type：Assault Rifle
 - technology：Smart
@@ -58100,6 +59159,7 @@ ru:Нокота D5 «Копперхед»
 - ammo_capacity：30
 - headshot_damage_multiplier：50
 - lock_on_time：1.20
+- source：See acquisition
 - weight：7.2
 
 The D5 Sidewinder is a Smart Assault Rifle manufactured by Nokota in .
@@ -58161,6 +59221,7 @@ ru:Нокота D5 «Сайдвиндер»
 
 ---
 ## Nokota Osprey
+- caption：Large caliber, using tons of gunpowder. Nokota's signature weapon.
 - alias：NDI Osprey
 - manufacturer：Nokota
 - type：Sniper Rifle
@@ -58175,6 +59236,7 @@ ru:Нокота D5 «Сайдвиндер»
 - ammo_capacity：12
 - headshot_damage_multiplier：200
 - armor_penetration：50
+- source：Birds with Broken Wings (missable)
 - weight：11.7
 
 The Osprey is an Power Sniper Rifle manufactured by Nokota in .
@@ -58377,6 +59439,7 @@ References
 
 ---
 ## Norimaki
+- caption：Sushi never goes out of style.
 - brand：All Foods
 - type：Consumable
 - duration：450 sec.
@@ -58658,6 +59721,7 @@ Note that some niches will always appear while others are dependent on one's act
 |-
 |David Martinez
 |"You didn't take me to the moon, but you were there with me."
+|From the beginning. Added in Patch 2.0.
 |-
 |Dean Russell
 |"His friendship was an inspiration, his love a blessing."
@@ -58681,6 +59745,7 @@ Note that some niches will always appear while others are dependent on one's act
 |-
 |Galina Valieva
 |She fought for our country.
+|From the beginning. Added in Patch 2.0.
 |-
 |Gerald Winkler
 |"He knew too much, so THEY dealt with him."
@@ -58688,6 +59753,7 @@ Note that some niches will always appear while others are dependent on one's act
 |-
 |Gloria Martinez
 |"You were right. David reached the top of Arasaka Tower."
+|From the beginning. Added in Patch 2.0.
 |-
 |Gustavo Orta
 |"To walk away and live, or to stay and die?"
@@ -58739,6 +59805,7 @@ Note that some niches will always appear while others are dependent on one's act
 |-
 |Julio
 |"He blew us away with his enthusiasm."
+|From the beginning. Added in Patch 2.0.
 |-
 |Karubo Bairei
 |"Rest in peace."
@@ -58750,6 +59817,7 @@ Note that some niches will always appear while others are dependent on one's act
 |-
 |Kiwi
 |"You taught me to never trust anyone in NC."
+|From the beginning. Added in Patch 2.0.
 |-
 |Leonard Swedenborg-Riviera
 |"His silencing will not be in vain."
@@ -58793,6 +59861,7 @@ Note that some niches will always appear while others are dependent on one's act
 |-
 |Pilar, Dorio, Maine
 |"You were the only family I ever had."
+|From the beginning. Added in Patch 2.0.
 |-
 |Randy Kutcher
 |"O, how briefly you lent us the gift of your life."
@@ -58804,6 +59873,7 @@ Note that some niches will always appear while others are dependent on one's act
 |-
 |Rebecca
 |"I regret not finishing our conversation."
+|From the beginning. Added in Patch 2.0.
 |-
 |Rhino
 |"Tough on the outside, sweet on the inside."
@@ -58827,6 +59897,7 @@ Note that some niches will always appear while others are dependent on one's act
 |-
 |"Royce"
 |"A great leader and a friend."
+|If he is killed during The Pickup or Second Conflict.
 |-
 |Ruby Barrett
 |"She lived life to the fullest."
@@ -59134,6 +60205,7 @@ Consumables
 
 ---
 ## O'Dickin Whiskey
+- caption：Whiskey. Anything else is just frills.
 - type：Consumable
 - duration：30 sec
 - effects：Reduces movement speed by 20%. *Reduces weapon accuracy by 50%.
@@ -59148,6 +60220,7 @@ The effect lasts 30 seconds.
 
 ---
 ## O'Neill Colonies
+- caption：Typical O'Neill colony
 - type：Space stations
 - owner：European Space Council
 Highrider Confederation
@@ -59183,6 +60256,7 @@ References
 
 ---
 ## O'Neill One
+- caption：Typical O'Neill colony
 - aka：O'Neill 1
 - type：Space station
 - owner：Highrider Confederation
@@ -59384,6 +60458,7 @@ uk:У найтемніші часи
 - type：Misc
 - weight：0
 - cost：1
+- source：The Nomad
 
 Official Document is a miscellaneous quest item in .
 
@@ -59422,6 +60497,7 @@ q000 LOA Papers Screenshot.png|The document in first-person.
 
 ---
 ## Ogou
+- caption：Your enemies will fall to their knees before you... after you blow off their feet.
 - manufacturer：Kang Tao
 - type：Pistol
 - technology：Smart
@@ -59435,6 +60511,7 @@ q000 LOA Papers Screenshot.png|The document in first-person.
 - headshot_damage_multiplier：50
 - armor_penetration：25
 - lock_on_time：1.20
+- source：Treating Symptoms
 - weight：4.3
 
 Ogou is an variant of the Kang Tao A-22B Chao in
@@ -59455,6 +60532,7 @@ uk:Оґу
 
 ---
 ## Ol' Donkey
+- caption：Perfect for hoarders, piano movers and for unloading all your groceries in a single trip.
 - type：Long-lasting
 - effects：+100 Carrying Capacity
 −20% Stamina Regen Rate
@@ -59475,6 +60553,7 @@ Notes
 
 ---
 ## Ol' Reliable
+- caption：Can't count on anyone? Count on this baby.
 - manufacturer：Malorian Arms
 - type：Revolver
 - technology：Power
@@ -59488,6 +60567,7 @@ Notes
 - ammo_capacity：6
 - headshot_damage_multiplier：200
 - armor_penetration：25
+- source：Dante Caruso
 - weight：4.6
 
 Ol' Reliable is an variant of the Malorian Overture in .
@@ -59506,7 +60586,9 @@ uk:Кумпель
 
 ---
 ## Old Access Card
+- caption："All indications point to the container with Johnny's mysterious possession."
 - type：Misc
+- source：Chippin' In
 
 Old Access Card is a miscellaneous quest item in .
 
@@ -59763,6 +60845,7 @@ ru:Натиск
 
 ---
 ## Oolong Tea
+- caption：Delicious. Exclusive.
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Hydration status. +5% Stamina Regen Rate
@@ -59790,6 +60873,7 @@ ru:Истощение
 
 ---
 ## Optical Camo
+- caption：Makes the user impossible to locate in visible spectrum light.
 - manufacturer：Kang Tao
 - type：Integumentary System
 - attribute：Cool
@@ -59798,6 +60882,7 @@ ru:Истощение
 - capacity：20
 - armor：-
 - effects：−-% visibility to enemies for - sec., making it more difficult for them to detect you outside of combat and hit you during combat. Cooldown: - sec.
+- source：Ripperdocs
 
 The Optical Camo is Cyberware for the Integumentary System in .
 
@@ -59818,9 +60903,11 @@ Notes
 
 ---
 ## Optical Camo/Pre-2.0 Update
+- caption："Makes the user impossible to locate in visible spectrum light."
 - type：Integumentary System
 - effects：Activate to turn almost invisible for / seconds, greatly reducing the likelihood of detection (cooldown / seconds)
 - base_price：//
+- source：Various
 
 The Optical Camo is a piece of Integumentary System Cyberware in .
 
@@ -59871,6 +60958,7 @@ References
 
 ---
 ## Order
+- caption：Don't bother aiming. Something's guaranteed to hit.
 - manufacturer：Rostović
 - type：Double-Barrel Shotgun
 - technology：Tech
@@ -59886,6 +60974,7 @@ References
 - headshot_damage_multiplier：50
 - armor_penetration：100
 - no_of_projectiles：14
+- source：Herold Lowe
 - weight：9.6
 
 Order is an variant of the Rostović DB-2 Satara in .
@@ -60013,6 +61102,7 @@ References
 
 ---
 ## Orgiatic Omniflave
+- caption：Let your tongue do all the work.
 - brand：All Foods
 - type：Consumable
 - duration：450 sec.
@@ -60026,6 +61116,7 @@ Consuming Orgiatic Omniflave applies the Nourishment status, increasing max Heal
 
 ---
 ## Orgiatic Salsa Agave
+- caption：Suckle on that southwest flavor!
 - brand：All Foods
 - type：Consumable
 - duration：450 sec.
@@ -60039,6 +61130,7 @@ Consuming Orgiatic Salsa Agave applies the Nourishment status, increasing max He
 
 ---
 ## Orgiatic Vinegar Chili
+- caption：Tongue out, give it a squeeze, lap up the ecstasy.
 - brand：All Foods
 - type：Consumable
 - duration：450 sec.
@@ -60269,10 +61361,12 @@ ru:Разгон (Способности)
 
 ---
 ## Overheat
+- caption：When your bodily fluids begin to boil, it becomes pretty difficult to focus on much else.
 - type：Combat
 - ram_cost：→ → → →
 - effects：Sets the enemy on fire, dealing damage over time. *: Uploading Overheat to an enemy already affected by it will extend its duration. *: Successful attacks on enemies affect by Overheat slightly extend its duration. *: Melts enemy armor over time (max −40%). *: Attacks on the affected enemy also deal Thermal damage equal to 10% of the normal physical damage. *: +10% damage bonus to this quickhack's Tier 5 effect.
 - traceability：30
+- source：Netrunners
 
 Overheat is a Combat Quickhack in .
 
@@ -60308,6 +61402,7 @@ ru:Перегрев
 
 ---
 ## Overwatch
+- caption：A sniper rifle that belonged to Panam. Increased reload spead and lethal accuracy - a rifle you can count on.
 - manufacturer：Techtronika
 - type：Sniper Rifle
 - technology：Power
@@ -60320,6 +61415,7 @@ ru:Перегрев
 - ammo_capacity：5
 - headshot_damage_multiplier：300
 - armor_penetration：50
+- source：Riders on the Storm
 - weight：11.7
 
 Overwatch is an variant of the Techtronika SPT32 Grad in .
@@ -60350,6 +61446,7 @@ uk:Наглядач
 
 ---
 ## Oxy Booster
+- caption：The next best thing to gills!
 - type：Long-lasting
 - effects：Allows you to breathe under water.
 - duration：1800 sec.
@@ -60448,6 +61545,7 @@ ru:Озоб Бозо
 
 ---
 ## Ozob's Nose
+- caption：Brings new meaning to blowing one's nose.
 - quality：/
 - radius：4
 - effects：Hits enemies with an explosive blast and shrapnel.
@@ -60721,7 +61819,9 @@ ru:Библейская церковь Чистоты в Пасифике
 
 ---
 ## Pack of Morleys
+- caption："The iconic cigarettes with "Ebunike" scrawled on the packet."
 - type：Misc
+- source：Chippin' In
 
 Pack of Morleys is an miscellaneous quest item in .
 
@@ -60775,6 +61875,8 @@ ru:Пако Торрес
 
 ---
 ## Padania
+military
+
 Padania is a country that split off from Italy.
 
 History
@@ -60786,6 +61888,7 @@ References
 
 ---
 ## Pain Editor
+- caption：Teach them to respect your personal space.
 - type：Integumentary System
 - attribute：Cool
 - attribute_attunement：DamageReduction
@@ -60793,6 +61896,7 @@ References
 - capacity：35
 - armor：-
 - effects：−-% all incoming damage
+- source：Ripperdocs
 
 The Pain Editor is Cyberware for the Integumentary System in .
 
@@ -60825,6 +61929,7 @@ ru:Катализатор
 
 ---
 ## Painducer
+- caption：Break your suffering up into small, manageable installments.
 - type：Integumentary System
 - attribute：Body
 - attribute_attunement：DOTReduction
@@ -60832,6 +61937,7 @@ ru:Катализатор
 - capacity：30
 - armor：-
 - effects：Converts -% of damage taken into damage-over-time.
+- source：Ripperdocs
 
 The Painducer is Cyberware for the Integumentary System in .
 
@@ -61059,6 +62165,7 @@ tr:Panam Palmer
 
 ---
 ## Papa Garcin
+- caption：Hey, ho, and a bottle of rum!
 - type：Consumable
 - duration：30 sec
 - effects：Reduces movement speed by 20%. *Reduces weapon accuracy by 50%.
@@ -61080,6 +62187,7 @@ The effect lasts 30 seconds.
 - capacity：25
 - armor：-
 - effects：+-% Armor
+- source：Ripperdocs
 
 The Para Bellum is Cyberware for the Skeleton in .
 
@@ -61118,6 +62226,7 @@ ru:Парадиз
 
 ---
 ## Paradox
+- caption：Avatar in Cyberpunk 2077
 - status：Presumed alive (2077)
 - gender：Unknown
 - cyberware：See Cyberware
@@ -61138,6 +62247,7 @@ By 2020, Paradox began heavily promoting otherwise baseless conspiracy theories,
 Stats & Equipment
 Cyberpunk 2020
 
+citation
 - int：8
 - ref：5
 - tech：7
@@ -61176,6 +62286,7 @@ ru:Паразитирование
 
 ---
 ## Pariah
+- caption：Owned by Special Agent Solomon Reed. Time-worn, tried, tested and true.
 - type：Pistol
 - technology：Tech
 - iconic：Reed's modifications have turned this into a silent weapon. Headshots reduce charge time and increase reload speed.
@@ -61189,6 +62300,7 @@ ru:Паразитирование
 - charge_time：0.75
 - headshot_damage_multiplier：175
 - armor_penetration：50
+- source：The Killing Moon
 - weight：4.3
 
 Pariah is an variant of the Militech Ticon in .
@@ -61206,6 +62318,7 @@ uk:Парія
 
 ---
 ## Paris
+population
 - type：Capital City
 - country：France
 - appears_books：
@@ -61353,6 +62466,7 @@ To be added
 
 ---
 ## Paul Craven
+appears_games
 - status：Dependent
 - hair_color：White
 - equipment：M-179e Achilles
@@ -61383,6 +62497,7 @@ ru:Пол Крейвен
 
 ---
 ## Paul Night
+- caption：A favorite drink among artists and dreamers.
 - type：Consumable
 - duration：30 sec
 - effects：Reduces movement speed by 20%. *Reduces weapon accuracy by 50%.
@@ -61413,6 +62528,7 @@ ru:Предоплата
 
 ---
 ## Pedro Aimar
+appears_other
 - status：Dependent
 - gender：Male
 - hair_color：Gray
@@ -61441,6 +62557,8 @@ ru:Педро Аймар
 
 ---
 ## Pepe Najarro
+affiliation
+appearances
 - status：Alive
 - home：Heywood, Night City
 - gender：Male
@@ -61509,6 +62627,7 @@ References
 
 ---
 ## Peripheral Inverse
+- caption：Teach them to respect your personal space.
 - type：Integumentary System
 - quality：/
 - attribute：Body
@@ -61518,6 +62637,8 @@ References
 - armor：-
 - effects：The closer an attacking enemy is, the less damage they deal to you. −-% incoming damage at 3 m.
 Damage reduction tapers off to 0% at 6 m.
+- source：Airdrop
+Dogtown Ripperdocs
 
 The Peripheral Inverse is an variant of the ProxiShield Cyberware for the Integumentary System in .
 
@@ -61626,6 +62747,7 @@ Associated Shards
 
 ---
 ## Petrochem Fuel Station (Interstate 9)
+- caption：2077
 - aka：Petrochem CHOOH2 Station
 - type：Fuel station
 - owner：Petrochem
@@ -62083,9 +63205,11 @@ References
 
 ---
 ## Phish & Chips
+- caption：Is it real fish? Doesn't matter. Most netrunners prefer convenience (and puns) to nutrition anyway.
 - duration：600 sec.
 - effects：+25% RAM Recovery Rate
 −50% Health Item Effectiveness
+- source：See acquisition
 
 Phish & Chips is a Consumable in .
 
@@ -62100,6 +63224,7 @@ Acquisiton
 
 ---
 ## Phoenix
+population
 - type：Capital City
 - country：NUSA
 - state：Arizona
@@ -62131,11 +63256,13 @@ References
 
 ---
 ## Ping
+- caption：Some of the oldest, most basic functions in computing may never outlive their usefulness.
 - type：Covert
 - duration：→ → →
 - ram_cost：→ → →
 - effects：Untraceable. *Reveals enemies and devices connected to the local network. * +25% lock-on speed with Smart weapons against Pinged enemies. *: Highlights devices and allows you to quickhack them through walls. *: Reduces RAM cost by 3.
 - traceability：0
+- source：Netrunners
 
 Ping is a Covert Quickhack in .
 
@@ -62164,6 +63291,7 @@ ru:Запрос
 
 ---
 ## Pingo Pálido
+- caption：A touch of class.
 - type：Consumable
 - duration：30 sec
 - effects：Reduces movement speed by 20%. *Reduces weapon accuracy by 50%.
@@ -62272,6 +63400,7 @@ uk:Кишенькова революція
 
 ---
 ## Pit Bull
+- caption：Who's a good boy?
 - type：Assault Rifle
 - technology：Power
 - iconic：Unleash the power of the pack! Gain increased movement speed on kills and dismemberments.
@@ -62286,6 +63415,8 @@ BARGHEST weapons also gain increased Armor Penetration.
 - headshot_damage_multiplier：100
 - armor_penetration：50
 - type_of_mod_slots：Scope, Muzzle
+- source：Airdrops
+[https://gaming.amazon.com Amazon Prime Gaming]
 - weight：7.2
 
 Pit Bull is an variant of the Militech M251s Ajax in .
@@ -62301,6 +63432,7 @@ Acquisition
 
 ---
 ## Pitorro
+- caption：Cheap. But could cost you a new pair of eyes.
 - type：Consumable
 - duration：30 sec
 - effects：Reduces movement speed by 20%. *Reduces weapon accuracy by 50%.
@@ -62326,6 +63458,7 @@ Acquisition
 
 ---
 ## Pizdets
+- caption：Soviet intelligence uses Smart weapons to track enemies. When they're located, "Pizdets" is typically the last word they'll ever say.
 - manufacturer：Hansen Armory
 - type：Submachine Gun
 - technology：Smart
@@ -62339,6 +63472,7 @@ Acquisition
 - ammo_capacity：20
 - headshot_damage_multiplier：85
 - lock_on_time：1.20
+- source：Spy in the Jungle
 - weight：5.0
 
 Pizdets is an variant of the HA-7 Warden in
@@ -62376,6 +63510,7 @@ Machete
 - voiced_by：Lovensky Jean-Baptiste
 
 引文：You do not steal from the Voodoo Boys. I see you. Always.（Placide to V）
+citation
 
 Placide is a high-ranking member of the Voodoo Boys gang in .
 
@@ -62465,6 +63600,7 @@ ru:Пласид
 
 ---
 ## Plan B
+- caption：Always have a backup plan for when your Plan A falls through.
 - manufacturer：Constitutional Arms
 - type：Pistol
 - technology：Power
@@ -62477,6 +63613,7 @@ ru:Пласид
 - ammo_capacity：20
 - headshot_damage_multiplier：200
 - type_of_mod_slots：Scope, Muzzle
+- source：Dexter DeShawn
 - weight：4.3
 
 Plan B is an variant of the Constitutional Arms Liberty in .
@@ -62726,6 +63863,7 @@ To be added
 
 ---
 ## Pop-Turd
+- caption：The best turd you've ever tasted!
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -62785,6 +63923,7 @@ References
 - door_mount：Standard
 - windscreen：Glass
 - top_speed：149
+- source：See acquisition
 - appears_books：
 
 引文：Took fifth place in the "Car of the Century" award in 1999.（911 Turbo (930)）
@@ -62860,6 +63999,7 @@ ru:Порше 911 II (930) «Турбо»
 - top_speed：149
 - cost：73000
 - street_cred：26
+- source：See acquisition
 
 引文：What's the only thing rarer than a unicorn? A unicorn convertible with custom decals and a black and yellow paint job. This Porsche 911 Turbo Cabriolet (930) is a convertible that hits all the same notes as Johnny Silverhand's iconic car: class, style and a rear engine, rear-wheel drive powertrain that'll literally blow your hair back. It's time to rock 'n' roll, choomba.（911 Turbo Cabriolet (930)）
 
@@ -62891,6 +64031,7 @@ ru:Порше Турбо 911 «Кабриолет» (930)
 
 ---
 ## Portugal
+type
 - location：Iberian Peninsula, Europe
 - capital：Lisbon
 - population：10,000,000 (2020)
@@ -63106,6 +64247,7 @@ See also
 
 ---
 ## Prejudice
+- caption：One of the best rifles to ever grace the planet. Treat it with the respect it deserves.
 - manufacturer：Arasaka
 - type：Assault Rifle
 - technology：Power
@@ -63120,6 +64262,7 @@ See also
 - headshot_damage_multiplier：100
 - armor_penetration：25
 - type_of_mod_slots：Scope, Muzzle
+- source：See acquisition
 - weight：7.2
 
 Prejudice is an variant of the Arasaka HJSH-18 Masamune in .
@@ -63153,8 +64296,10 @@ uk:Упередження
 
 ---
 ## Premium HawtDawg
+- caption：The house special. Pickled and smoked pork sausage with original sauce, based on Bill's original recipe. Real meat for real connoisseurs.
 - effects：Applies the Nourishment status. +5% Max Health
  +5% Health Regen per sec. outside combat
+- source：Bill Mitchell
 
 Premium HawtDawg is a consumable in .
 
@@ -63169,6 +64314,7 @@ Notes
 
 ---
 ## Pride
+- caption：A monument to pistols everywhere.
 - manufacturer：Constitutional Arms
 - type：Pistol
 - technology：Power
@@ -63182,6 +64328,8 @@ Increases headshot damage against Elite enemies.
 - ammo_capacity：10
 - headshot_damage_multiplier：150
 - type_of_mod_slots：Scope, Muzzle
+- source：Knockin' on Heaven's Door
+(Don't Fear) The Reaper
 - weight：4.3
 
 Pride is a variant of the Constitutional Arms Liberty in .
@@ -63222,6 +64370,7 @@ uk:Гордість
 
 ---
 ## Problem Solver
+- caption：Don't bother aiming. Something's guaranteed to hit.
 - manufacturer：Militech
 - type：Submachine Gun
 - technology：Power
@@ -63234,6 +64383,7 @@ uk:Гордість
 - ammo_capacity：90
 - headshot_damage_multiplier：100
 - no_of_mod_slots：Scope, Muzzle
+- source：Riders on the Storm (missable)
 - weight：5.0
 
 Problem Solver is an variant of the Militech M221 Saratoga in .
@@ -63295,6 +64445,7 @@ uk:Балада про вдову
 
 ---
 ## Projectile Launch System
+- caption：A missile launcher in the palm of your hand (more or less literally).
 - manufacturer：Arasaka
 - type：Arms
 - attribute：Technical Ability
@@ -63305,6 +64456,7 @@ uk:Балада про вдову
 +30% damage
 +25% explosion radius
 +40% dismemberment chance
+- source：Ripperdocs
 
 The Projectile Launch System is Cyberware for the Arms in .
 
@@ -63351,6 +64503,7 @@ References
 
 ---
 ## Prototype Pseudoembryonic Cell Builder
+- caption：Although not capable of limb regeneration, this experimental supplement greatly supports human cell health and resilience.
 - type：Permanent
 - effects：Permanently increases max Health.
 - buy_price：12000
@@ -63370,6 +64523,7 @@ Acquisition
 
 ---
 ## Prototype: Shingen Mark V
+- caption：Won't hit the market for a few years. Interested in giving it a test run?
 - manufacturer：Arasaka
 - type：Submachine Gun
 - technology：Smart
@@ -63383,6 +64537,7 @@ Acquisition
 - ammo_capacity：30
 - headshot_damage_multiplier：50
 - lock_on_time：1.10
+- source：Arasaka Industrial Park
 - weight：5.0
 
 Prototype: Shingen Mark V (Japanese: 試作型シンゲンMK.V) is an variant of the Arasaka TKI-20 Shingen in .
@@ -63407,6 +64562,7 @@ uk:Прототипний «Шінґен» 5
 
 ---
 ## ProxiShield
+- caption：Teach them to respect your personal space.
 - type：Integumentary System
 - attribute：Body
 - attribute_attunement：Health
@@ -63415,6 +64571,7 @@ uk:Прототипний «Шінґен» 5
 - armor：-
 - effects：The closer an attacking enemy is, the less damage they deal to you. −-% incoming damage at 3 m.
 Damage reduction tapers off to 0% at 6 m.
+- source：Ripperdocs
 
 The ProxiShield is Cyberware for the Integumentary System in .
 
@@ -63442,6 +64599,7 @@ ru:Локальная система
 
 ---
 ## Psalm 11:6
+- caption："Let him rain coals on the wicked; fire and sulfur and scorching wind shall be the portion of their cup."
 - manufacturer：Nokota
 - type：Assault Rifle
 - technology：Power
@@ -63456,6 +64614,7 @@ ru:Локальная система
 - headshot_damage_multiplier：100
 - armor_penetration：25
 - type_of_mod_slots：Scope, Muzzle
+- source：Just Say No
 - weight：7.2
 
 Psalm 11:6 is an variant of the Nokota D5 Copperhead in .
@@ -63536,6 +64695,7 @@ Associated Quests
 
 ---
 ## Punknife
+- caption：Perfectly balanced, lethal and fun. Be careful when throwing this knife – you could (and will) poke someone's Kiroshi out.
 - type：Knife
 - technology：Thrown
 - attack_speed：3.1
@@ -63544,6 +64704,7 @@ Associated Quests
 - stamina_cost：4.8
 - return_time：1.4
 - headshot_damage_multiplier：150
+- source：See acquisition
 
 The Punknife is a Throwable Knife in . It was added in Patch 1.6 as part of the New Weapons: Melee DLC.
 
@@ -63778,6 +64939,7 @@ Related Quests
 
 ---
 ## QianT Warp Dancer
+- caption：Defense is the best defense with this Sandevistan model by QianT. It utilizes cutting-edge defensive protocols to ensure the best possible response to continuous enemy attacks.
 - manufacturer：QianT
 - type：Sandevistan
 - attribute：Reflexes
@@ -63790,6 +64952,7 @@ Related Quests
 +-% Mitigation Strength
 +-% resistance to Thermal, Chemical and Electrical damage Max Duration: - sec.
 Cooldown: - sec.
+- source：See acquisition
 
 The Warp Dancer is a Sandevistan Operating System manufactured by QianT in .
 
@@ -63837,6 +65000,7 @@ Upgrading
 - doors：2
 - door_mount：Standard
 - windscreen：Glass
+- source：See acquisition
 
 The "Charon" is a custom variant of the Sport R-7 540, a vehicle manufactured by Quadra in .
 
@@ -63884,6 +65048,7 @@ References
 - door_mount：Standard
 - windscreen：Glass
 - cost：81000
+- source：See acquisition
 
 The "Chiaroscuro" is a custom variant of the Sport R-7, a vehicle manufactured by Quadra in .
 
@@ -63916,6 +65081,7 @@ References
 - doors：2
 - door_mount：Standard
 - windscreen：Glass
+- source：See acquisition
 - horse_power：537
 
 The "Sterling" is a custom variant of the Sport R-7 580 vehicle manufactured by Quadra in .
@@ -63952,6 +65118,7 @@ References
 - door_mount：Standard
 - windscreen：Glass
 - cost：86000
+- source：See acquisition
 - horse_power：723
 
 引文：The final work of iconic Quadra designer Georgia Barberis was a prototype for the manufacturer's new Sport R-7 model. Initially, the company's board members found her vision too "grim, brooding and extreme" for the brand. Incensed by their corporate narrow-mindedness and inspired by her own rage, Barberis created another prototype - this one even more stripped down and painted a furious red. The Board fell in love at first sight.（Sport R-7 "Vigilante"）
@@ -64094,6 +65261,7 @@ References
 - windscreen：Glass
 - cost：69,000
 - street_cred：34
+- source：See acquisition
 - appears_books：
 
 引文：The best-selling sports car of the last decade. As many as 300,000 units were produced by May 2075.（Turbo-R 740）
@@ -64150,6 +65318,7 @@ ru:Квадра Турбо-Р 740
 - door_mount：Swing
 - windscreen：Glass
 - top_speed：167
+- source：See acquisition
 
 引文：Appears in the iconic car chase on a factory roof in Jakarta in the blockbuster movie Bushidō 7: Revenge Never Sleeps.（Turbo-R V-Tech）
 
@@ -64228,6 +65397,7 @@ ru:Квадра Турбо-Р «Ви-Тех»
 - doors：2
 - door_mount：Swing
 - windscreen：Glass
+- source：See acquisition
 
 The "BULITT" is a slightly modified version of Type-66 640 TS, a vehicle manufactured by Quadra in .
 
@@ -64274,6 +65444,7 @@ References
 - windscreen：Bulletproof Glass
 - cost：67,000
 - street_cred：50
+- source：See acquisition
 
 The "Cthulhu" is a modified version of the Type-66, a vehicle manufactured by Quadra in .
 
@@ -64338,6 +65509,7 @@ ru:Квадра Тайп-66 «Ктулху»
 - doors：2
 - door_mount：Swing
 - windscreen：Militech CrystalDome
+- source：I'm in Love with My Car
 
 The "Hoon" is a unique version of the Type-66, a vehicle manufactured by Quadra in .
 
@@ -64381,6 +65553,7 @@ ru:Квадра Тайп-66 «Хун»
 - windscreen：Militech CrystalDome
 - cost：99000
 - street_cred：42
+- source：See acquisition
 
 引文：Powered by a tuned-up engine with an armored finish.（Type-66 "Javelina"）
 
@@ -64429,6 +65602,7 @@ ru:Квадра Тайп-66 «Хавелина»
 - windscreen：Glass
 - cost：52000
 - street_cred：26
+- source：See acquisition
 
 The "Jen Rowley" is a slightly modified version of Type-66 680 TS, a vehicle manufactured by Quadra in .
 
@@ -64558,6 +65732,7 @@ ru:Квадра Тайп-66 «Ривер»
 - windscreen：Militech CrystalDome
 - top_speed：185
 - cost：99000
+- source：See acquisition
 
 引文：Powered by a tuned-up engine with an armored finish.（Type-66 "Wingate"）
 
@@ -64596,6 +65771,7 @@ References
 - door_mount：Swing
 - windscreen：Glass
 - cost：40000
+- source：See acquisition
 
 引文：Considered by viewers to be the sexiest-looking car on the show "Guns and Horses."（Type-66 640 TS）
 
@@ -64646,6 +65822,7 @@ ru:Квадра Тайп-66 640 TS
 - door_mount：Swing
 - windscreen：Glass
 - cost：50000
+- source：See acquisition
 
 引文：Considered by viewers to be the sexiest-looking car on the show "Guns and Horses."（Type-66 680 TS）
 
@@ -64680,6 +65857,7 @@ References
 - windscreen：Glass
 - cost：75000
 - street_cred：48
+- source：See acquisition
 
 The Type-66 Avenger is a vehicle manufactured by Quadra in .
 
@@ -64730,12 +65908,15 @@ ru:Землетрясение
 
 ---
 ## Quantum Tuner
+attribute_value
+- caption：Restraint is for losers.
 - manufacturer：Rostović
 - type：Frontal Cortex
 - quality：/
 - capacity：45
 - effects：Whenever another cyberware implant is fully used, Quantum Tuner instantly restores its Cooldown. (up to a max of // sec.) Cooldown: 60 sec. outside of combat Passive Effect:
 −//% Cooldown Time for all other cyberware.
+- source：From Her to Eternity
 
 The Quantum Tuner is an Frontal Cortex Cyberware implant manufactured by Rostović in .
 
@@ -64903,6 +66084,7 @@ ru:Ловкость рук
 
 ---
 ## RAM Jolt
+- caption：A wise addition if you love to reminisce.
 - type：Long-lasting
 - effects：+2 Max RAM
 - duration：1800 sec.
@@ -64919,6 +66101,7 @@ Acquisition
 
 ---
 ## RAM Nugs
+- caption：Just pretend you're eating pickled eggs... Unless that makes it worse.
 - type：Long-lasting
 - effects：+4 RAM unit(s)
 −20% Max Health
@@ -64940,6 +66123,7 @@ Notes
 
 ---
 ## RAM Reallocator
+- caption：A mod that manages and optimizes RAM use between your brain and your cyberdeck.
 - type：Frontal Cortex
 - quality：/
 - attribute：Intelligence
@@ -64948,6 +66132,8 @@ Notes
 - capacity：40
 - effects：Instantly recovers -% Max RAM when available RAM falls to -%.
 + Max RAM Cooldown: - sec.
+- source：Airdrop
+Dogtown Ripperdocs
 
 The RAM Reallocator is an Frontal Cortex Cyberware implant in .
 
@@ -64973,6 +66159,7 @@ Acquisition
 - capacity：14
 - armor：-
 - effects：Receiving damage restores RAM equal to -% of damage received. +- Max RAM
+- source：Ripperdocs
 
 The RAM Recoup is Cyberware for the Skeleton in .
 
@@ -64984,6 +66171,8 @@ Acquisition
 
 ---
 ## RAM Upgrade
+attribute_value
+- caption：An upgrade to your system's random-access memory to support processing speed.
 - manufacturer：Militech
 - type：Frontal Cortex
 - capacity：8
@@ -65020,6 +66209,7 @@ External links
 
 ---
 ## ROMVLVS GIN
+- caption：Take a sip of status.
 - type：Consumable
 - duration：30 sec
 - effects：Reduces movement speed by 20%. *Reduces weapon accuracy by 50%.
@@ -65034,6 +66224,7 @@ The effect lasts 30 seconds.
 
 ---
 ## RaMMMMen
+- caption：Brand new recipe! 3X more MSG!
 - brand：Kabayan Foods
 - type：Consumable
 - duration：450 sec.
@@ -65211,6 +66402,7 @@ ru:Рейчел Касич
 
 ---
 ## Rafael Pérez
+status
 - home：Night City, Arroyo, Santo Domingo
 - gender：Male
 - occupation：Ripperdoc
@@ -65231,6 +66423,7 @@ ru:Рафаэль Перес
 
 ---
 ## Raiju
+- caption：Fashion's last gasp along with your enemy's in perfect synchrony.
 - manufacturer：Arasaka
 - type：Submachine Gun
 - technology：Tech
@@ -65244,6 +66437,7 @@ ru:Рафаэль Перес
 - ammo_capacity：30
 - charge_time：0.75
 - headshot_damage_multiplier：100
+- source：Increased Criminal Activity: BARGHEST
 - weight：5.0
 
 Raiju （Japanese：雷獣） is an variant of the Arasaka Senkoh LX in .
@@ -65287,6 +66481,7 @@ References
 
 ---
 ## Ramen Joint (Cherry Blossom Market)
+- caption：Entrance (2077)
 - type：Restaurant
 - owner：Kunio Shiki (2077)
 - manager：Food Vendor (2077)
@@ -65458,6 +66653,7 @@ ru:Парк Кендал
 
 ---
 ## Randver
+- caption：Beer for those who demand more.
 - type：Consumable
 - weight：0.2
 - duration：30 sec
@@ -65516,6 +66712,7 @@ ru:Рэнди Катчер
 
 ---
 ## RangeGuard
+- caption：Keep your friends far and your enemies even farther.
 - type：Integumentary System
 - attribute：Cool
 - attribute_attunement：HeadshotDamage
@@ -65523,6 +66720,7 @@ ru:Рэнди Катчер
 - capacity：14
 - armor：-
 - effects：+- Armor when there are no enemies within 6 m.
+- source：Ripperdocs
 
 The RangeGuard is Cyberware for the Integumentary System in .
 
@@ -65564,6 +66762,8 @@ Locations
 - attribute_value：2.0
 - capacity：45
 - effects：+-% Armor
+- source：Airdrop
+Dogtown Ripperdocs
 
 The Rara Avis is Cyberware for the Skeleton in .
 
@@ -65609,6 +66809,7 @@ ru:Рэттлснейк-Крик
 
 ---
 ## Rattlesnake Smuggling Tunnel
+- caption：Hidden entrance
 - type：Smuggling tunnel
 - region：Badlands
 - subregion：Rattlesnake Creek
@@ -65652,11 +66853,13 @@ Bugs
 
 ---
 ## Raven Control Shard
+- caption：Allows you to issue commands to the Flathead.
 - manufacturer：Raven Microcybernetics
 - type：Misc
 - weight：0
 - buy_price：10000
 - sell_price：5000
+- source：The Pickup
 
 Raven Control Shard is a miscellaneous quest item in .
 
@@ -65670,12 +66873,14 @@ References
 
 ---
 ## Raven Microcyber
+- caption：Some call these decks battleships. When it comes to system security and fortified anti-theft protocols, it's a foolproof piece of machinery.
 - manufacturer：Raven Microcybernetics
 - type：Cyberdeck
 - capacity：20
 - cd_ram：-
 - cd_slots：-
 - cd_buffer：-
+- source：Ripperdocs
 
 The Raven Microcyber Mk.1-3 is a Cyberdeck Operating System manufactured by Raven Microcybernetics in .
 
@@ -65718,6 +66923,7 @@ References
 - top_speed：209
 - cost：135000
 - street_cred：50
+- source：See acquisition
 
 引文：Boasts a rip-roaring engine - making it the most powerful, street-legal car allowed on Night City roads. And perhaps the best-looking, too.（Caliburn）
 
@@ -65775,6 +66981,7 @@ ru:Рейфилд Калибурн
 - doors：2
 - door_mount：Swing
 - windscreen：Rayfield CrystalDome
+- source：See acquisition
 
 引文：Its fierce, aggressive attitude mirrors that of its former owner.（Caliburn "Mordred"）
 
@@ -65811,6 +67018,7 @@ References
 - windscreen：Rayfield CrystalDome
 - top_speed：209
 - street_cred：40
+- source：See acquisition
 
 The Murkmobile is a variant of the Caliburn, a vehicle manufactured by Rayfield in .
 
@@ -65863,7 +67071,9 @@ ru:Рейфилд «Эскалибур»
 
 ---
 ## Rayfield Service Key
+- caption："Should grant access to any Rayfield in the city."
 - type：Misc
+- source：The Streetkid
 
 Rayfield Service Key is a miscellaneous quest item in .
 
@@ -65879,7 +67089,9 @@ Rayfield Service Key ScreenShot CP2077.png|They key as it is seen on the table.
 
 ---
 ## Razor Hugh
-- status：Alive|home=Night City
+appearances
+- status：Alive
+- home：Night City
 - gender：Male
 - affiliation：Animals
 - occupation：Boxer
@@ -65972,6 +67184,7 @@ ru:Непрерывный огонь
 
 ---
 ## Real Water (Sparkling)
+- caption：Give hydration a chance.
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Hydration status. +5% Stamina Regen Rate
@@ -65983,6 +67196,7 @@ Consuming Real Water (Sparkling) applies the Hydration status, increasing Stamin
 
 ---
 ## Real Water (Still)
+- caption：The tasteless taste of nature.
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Hydration status. +5% Stamina Regen Rate
@@ -65994,6 +67208,7 @@ Consuming Real Water (Still) applies the Hydration status, increasing Stamina Re
 
 ---
 ## RealFruit
+- caption：It's not marketing. It's real.
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -66149,11 +67364,13 @@ uk:Буря й натиск
 
 ---
 ## Reboot Optics
+- caption：When you pay for expensive optical implants, you leave behind your worries of dry eyes, allergy irritation and pink eye. But not blindness.
 - type：Control
 - duration：→
 - ram_cost：→ →
 - effects：Resets detection progress of target enemy. In combat, it reduces enemy accuracy. *: Extends the base effect's duration. *: +15% headshot and weakspot damage against the affected enemy. *: Blinds the enemy for the duration of the quickhack. In combat, it greatly reduces enemy accuracy. *: Neutralizing the affected enemy via headshot or weakspot resplenishes +3 RAM units and spreads the quickhack to the nearest enemy. *: Doubles Reboot Optics headshot and weakspot bonus damage against the affected enemy.
 - traceability：15
+- source：Netrunners
 
 Reboot Optics is a Control Quickhack in .
 
@@ -66222,6 +67439,7 @@ ru:Круговорот
 
 ---
 ## Recon Grenade
+- caption：A grenade with a built-in scanner that reveals enemies hidden behind cover.
 - manufacturer：Kang Tao
 - radius：-
 - duration：-
@@ -66335,6 +67553,7 @@ ru:Красная грязь
 
 ---
 ## Red Menace
+voiced_by
 - aka：Akai Kyōi
 - status：Dependent
 - place_of_birth：NUSA
@@ -66498,12 +67717,14 @@ ru:Рынок Редвуд
 
 ---
 ## Reflex Tuner
+- caption：A coprocessor that supports decision-making processes in emergency situations.
 - type：Nervous System
 - attribute：Cool
 - attribute_attunement：HeadshotDamage
 - attribute_value：0.2
 - capacity：5
 - effects：Slows time by -% for - sec. when your Health drops below 25%. Cooldown: - sec.
+- source：Ripperdocs
 
 The Reflex Tuner is Cyberware for the Nervous System in .
 
@@ -66606,6 +67827,7 @@ uk:Реджина Джонс
 
 ---
 ## Reinforced Tendons
+- caption：Biomechanical connective tissue supporting leg muscles.
 - manufacturer：Tsunami
 - type：Legs
 - attribute：Reflexes
@@ -66701,6 +67923,7 @@ ru:Расцвет киберпанка
 ---
 ## Report (quest item)
 - type：Misc
+- source：Cyberpsycho Sighting: Ticket to the Major Leagues
 
 Report is a miscellaneous quest item in .
 
@@ -66712,10 +67935,12 @@ Acquisition
 
 ---
 ## Request Backup
+- caption：Simulates an aid request in the network's comms system, calling the target's nearest ally to the their position.
 - type：Covert
 - ram_cost：→ → →
 - effects：Range: ///m *Simulates a request for aid by calling 1 enemy within range to the target enemy's location. *: When uploaded to an enemy affected by Sonic Shock, the enemy will instead leave to provide backup at an ally's location. *: You can use this quickhack during combat to force the enemy out from cover. *: When uploaded to an enemy affected by Bait, up to 4 enemies will be called over. *: Increases the number of enemies called by the bonus by 1. Also reduces RAM cost by 3.
 - traceability：0
+- source：Netrunners
 
 Request Backup is a Covert Quickhack in .
 
@@ -66748,9 +67973,11 @@ ru:Вызов подкрепления
 ## Retrothrusters (from Rogue)
 - imagef：q115_thrustersF.png
 - imagem：q115_thrustersM.png
+- caption：No they're not vintage. Far from it, in fact.
 - manufacturer：Arasaka
 - type：Feet
 - style：Neomilitarism
+- source：For Whom the Bell Tolls
 - weight：0.5
 
 Retrothrusters (from Rogue) is a piece of Feet equipment in .
@@ -66811,6 +68038,7 @@ References
 
 ---
 ## Revulsor
+- caption：A coprocessor that supports decision-making processes in emergency situations.
 - type：Nervous System
 - quality：/
 - attribute：Cool
@@ -66818,6 +68046,8 @@ References
 - attribute_value：0.25
 - capacity：35
 - effects：Slows time by -% for - sec. when your Health drops below 25%. Your movement is not slowed. Cooldown: - sec.
+- source：Airdrop
+Dogtown Ripperdocs
 
 The Revulsor is an variant of the Reflex Tuner Cyberware for the Nervous System in .
 
@@ -67225,6 +68455,7 @@ ru:Злорадство
 
 ---
 ## Riskit
+- caption：Only slightly more efficient than pepper spray.
 - manufacturer：Tsunami
 - type：Pistol
 - technology：Power
@@ -67238,6 +68469,7 @@ ru:Злорадство
 - headshot_damage_multiplier：150
 - armor_penetration：25
 - type_of_mod_slots：Scope, Muzzle
+- source：Shot by Both Sides (dependent)
 - weight：4.3
 
 Riskit is an variant of the Tsunami Nue in
@@ -67551,6 +68783,7 @@ ru:Гонка со временем
 ---
 ## Robert Rainwater
 引文：Replace even a single hand and you'll notice a dip in concentration and overall well-being. Cyberware's more harm than help.（Robert Rainwater）
+citation
 
 Robert Rainwater is a Ripperdoc operating his business on the corner edge of an open space in Kabuki Market in Kabuki, Watson.
 
@@ -67912,6 +69145,7 @@ ru:Роки-Ридж
 
 ---
 ## Rogelio Cruz
+appears_games
 - status：Dependent
 - dod：2077 (dependent)
 - place_of_death：Valentino Alley, The Glen
@@ -68006,6 +69240,7 @@ Consumables
 |30
 |}
 Crafting Specs
+{| class="fandom-table" width="100%"
 ! width="70%" |Name
 ! width="20%" |€$
 ! width="10%" |SC
@@ -68036,6 +69271,7 @@ Crafting Specs
 |}
 
 Miscellaneous
+{| class="fandom-table" width="100%"
 ! width="70%" |Name
 ! width="30%" |€$
 |-
@@ -68160,7 +69396,15 @@ Associated Shards
 
 Stats & Equipment
 
-- int：7|ref = 10/12|tech = 6|cool = 9|attr = 8|luck = 7|ma = 10|body = 8|emp = 7/4
+- int：7
+- ref：10/12
+- tech：6
+- cool：9
+- attr：8
+- luck：7
+- ma：10
+- body：8
+- emp：7/4
 - skills：Combat Sense +10, Athletics +10, Awareness +10, Basic Tech +7, Brawling +9, Driving +8, Education +4, Endurance +3, First Aid +4, Handgun +10, Heavy Weapons +3, Hide/Evade +6, Intimidate +4, Melee +8, Pilot Boat +5, Pilot Vectored Thrust +6, Rifle +10, Seduction +8, Shadow/Track +5, SMG +10, Stealth +8, Streetwise +4, Swimming +6, Tactics +7, Tae Kwon Do +7, Weapons Tech +4, Wilderness Survival +3
 - cyberware：Neural processor, Sandevistan boost, smartgun and vehicle links, interface plugs, chipware socket (w/ ambidexterity chip), two cyberoptics (w/ independent targeting, low-lite, infrared, anti-dazzle), nanosurgeons
 - weapons：2 custom SAS-Model "Spitfire" pistols (w/ cyberoptic triangulation, gas compensation, custom grips, frag flechette ammo), smartchipped Militech M-31a1 (w/ 3 extra clips), 24 mini-grenades
@@ -68210,6 +69454,7 @@ pt-br:Rogue Amendiares
 
 ---
 ## Roh Chi-Won
+caption
 - status：Alive
 - home：Night City
 - gender：Male
@@ -68357,6 +69602,7 @@ ru:Рони Лафлёр
 
 ---
 ## Rook
+- caption：Wieldy, efficient, cool. Need anything else?
 - type：Pistol
 - technology：Power
 - iconic：Fully customized with a scope and silencer. Each rapid successive hit increases Crit Chance, but decreases accuracy. Keep 'er steady! One miss and the effect is gone.
@@ -68367,6 +69613,7 @@ ru:Рони Лафлёр
 - weapon_handling：8.0
 - ammo_capacity：30
 - headshot_damage_multiplier：125
+- source：Voodoo Treasure (optional)
 - weight：4.3
 
 Rook is an variant of the Militech M-10AF Lexington in .
@@ -68514,6 +69761,7 @@ uk:Розалінда Маєрс
 
 ---
 ## Rosco
+- caption：Great for those all-important face-to-face meets.
 - manufacturer：Malorian Arms
 - type：Revolver
 - technology：Power
@@ -68528,6 +69776,7 @@ uk:Розалінда Маєрс
 - headshot_damage_multiplier：150
 - armor_penetration：25
 - type_of_mod_slots：Scope
+- source：Waiting for Dodger
 - weight：4.6
 
 The Rosco is an variant of the Malorian Overture in .
@@ -68547,6 +69796,7 @@ uk:Роско
 
 ---
 ## Rose Horrigan
+appears_games
 - aka：Rosie
 - status：Dependant
 - home：Horrigan Family Home
@@ -68636,6 +69886,7 @@ ru:Росс Ульмер
 
 ---
 ## Rostović DB-2 Satara
+- caption：Faith can move mountains. Satara doesn't need to.
 - manufacturer：Rostović
 - type：Double-Barrel Shotgun
 - technology：Tech
@@ -68650,6 +69901,7 @@ ru:Росс Ульмер
 - headshot_damage_multiplier：85
 - armor_penetration：50
 - no_of_projectiles：14
+- source：See acquisition
 - weight：9.6
 
 The DB-2 Satara is a Tech Double-Barrel Shotgun manufactured by Rostović in .
@@ -68709,6 +69961,7 @@ References
 
 ---
 ## Rostović DB-2 Testera
+- caption：Double barrel. Double satisfaction.
 - manufacturer：Rostović
 - type：Double-Barrel Shotgun
 - technology：Power
@@ -68721,6 +69974,7 @@ References
 - headshot_damage_multiplier：85
 - armor_penetration：50
 - no_of_projectiles：12
+- source：See acquisition
 - weight：9.6
 
 The DB-2 Testera is a Power Double-Barrel Shotgun manufactured by Rostović in .
@@ -68769,6 +70023,7 @@ References
 
 ---
 ## Rostović DB-4 Igla
+- caption：Devastating power at an affordable price.
 - manufacturer：Rostović
 - type：Double-Barrel Shotgun
 - technology：Power
@@ -68781,6 +70036,7 @@ References
 - headshot_damage_multiplier：85
 - armor_penetration：25
 - no_of_projectiles：6
+- source：See acquisition
 - weight：9.6
 
 The DB-4 Igla is a Power Double-Barrel Shotgun manufactured by Rostović in .
@@ -68833,6 +70089,7 @@ References
 
 ---
 ## Rostović Kolac
+- caption：The pride of Serbia's arms industry. So yeah, like kinda above average.
 - manufacturer：Rostović
 - type：Precision Rifle
 - technology：Power
@@ -68871,6 +70128,7 @@ References
 
 ---
 ## Roxanne Colton
+- caption：2077 (flashback)
 - aka：Roxxi
 - age：23 (2020)
 - status：Alive (2045)
@@ -68943,6 +70201,7 @@ ru:Руби Коллинз
 
 ---
 ## Rufus McBride
+appears_games
 - status：Dependent
 - home：Tango Tors Motel, Badlands
 - gender：Male
@@ -69137,10 +70396,12 @@ References
 
 ---
 ## SAMURAI Concert Recording
+- caption："Worth a small fortune."
 - type：Misc
 - weight：0
 - buy_price：0
 - sell_price：1
+- source：Karim Noel
 
 SAMURAI Concert Recording is a miscellaneous quest item in .
 
@@ -69191,6 +70452,7 @@ Arasaka CEO
 - appears_books：
 
 引文：I have found that people lie, most often deceiving themselves. Not so the dead... The dead are so very, very loud. And yet, lying is not in their nature. It is so... Humbling – to listen to the dead speak.（Saburo to Johnny Silverhand）
+citation
 
 Saburo Arasaka (荒坂 三郎), also known as the Emperor, went from being an Imperial Japanese Navy Air Service Pilot to the corporate God of the 21st century. Born in Tokyo, Japan he made the Arasaka Corporation into one of the largest corporations of the world. Saburo is proud, honorable and, like the true Samurai Shogun he claims to be, he's power hungry. Although he is ancient and physically decrepit, Saburo Arasaka remains the genius he always was in his younger years. Despite his age, Saburo never gave up his control over Arasaka. When his eldest son, Kei, became the Chief Executive Officer of the Corporation, Saburo remained the chairman of the board and the true puppeteer behind all the major corporate decisions.
 
@@ -69199,6 +70461,7 @@ Saburo, after decades of building up the Arasaka Corporation, focused his effort
 Biography
 
 引文：Life, death... and in between... glass. That is what we are doing. Making the dividing line thinner and thinner.（Saburo Arasaka）
+citation
 
 1919 – 1945
 Saburo Arasaka was born to Sasai and Yui Arasaka in Tokyo, Japan in 1919 – a family that could trace their lineage back to the noble samurai of old. His parents were rich and his father was a shrewd businessman and was the founder of the Arasaka company in 1915. He grew up in the Arasaka family estate located just outside of Tokyo and from a young age was involved in the family business. In the 1930s, as a young adult he displayed a good work ethic and natural talent needed to be an exceptional manager. This was before his career was interrupted by World War II.
@@ -69270,6 +70533,7 @@ Database Entry (2077)
 Ambitions
 
 引文：I hate America. I will bring them to their knees by supplying them with everything they want, and then strangling them with their own dependency. I will sell them the chain with which they will bind themselves to me.（Saburo, surveillance tape stolen by Rache Bartmoss）
+citation
 
 Saburo is an obsessive megalomaniac. He is highly arrogant and considers himself the most adept man that has and will ever exist, and sees it as his duty to elevate Japan to what he believes to be its former glory. He works tirelessly to see this ideal come true. His family believes his dedication to his work is the thing that keeps him alive. Saburo concentrated so hard on building his Empire that he did not even begin having children until he was in his 60s. He firmly believes in the traditional Japanese values and enforces them rigidly at the family compound. He also maintains a classical decor inside the compound, dismissing any non-functional modern appointing.
 
@@ -69296,6 +70560,7 @@ Cyberpunk 2020
 |}
 
 Cyberpunk 2077
+{| class="fandom-table" width="100%"
 |-
 !Type
 !Products
@@ -69363,9 +70628,11 @@ ru:Сабуро Арасака
 
 ---
 ## Saburo's Dog Tag
+- caption："A military identification tag from Saburo's service in World War II."
 - type：Misc
 - weight：0
 - cost：1
+- source：The Heist
 
 Saburo's Dog Tags is a miscellaneous quest item in .
 
@@ -69381,10 +70648,12 @@ See also
 
 ---
 ## Sachiko Kusama
+appearances
 - status：Alive
 - place_of_birth：Japan
 - home：Arasaka Orbital Station
-- gender：Female|affiliation=Arasaka
+- gender：Female
+- affiliation：Arasaka
 - role：Doctor
 - voiced_by：Cristina Valenzuela
 
@@ -69443,6 +70712,7 @@ References
 
 ---
 ## Sain Ruisseau
+- caption：Cleanliness. Godliness. Sain Ruisseau.
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Hydration status. +5% Stamina Regen Rate
@@ -69457,6 +70727,7 @@ Notes
 
 ---
 ## Saint Catherine's Church
+- caption：The submerged church
 - type：Church
 - region：Badlands
 - town：Laguna Bend
@@ -69490,6 +70761,7 @@ References
 
 ---
 ## Sake Utagawa
+- caption：The perfect gift to yourself.
 - type：Consumable
 - duration：30 sec
 - effects：Reduces movement speed by 20%. *Reduces weapon accuracy by 50%.
@@ -69534,6 +70806,11 @@ Consumables
 
 ---
 ## Sal Bigelow
+caption
+aka
+age
+voiced_by
+appears_games
 - status：Alive (2077)
 - place_of_birth：Italy
 - home：Night City
@@ -70107,6 +71384,7 @@ References
 
 ---
 ## Sasquatch's Hammer
+- caption：Created for a woman, but won't fit in any handbag.
 - type：Hammer
 - technology：Blunt
 - iconic：If you're considering using Sasquatch's Hammer, be ready for blood, sweat and tears. You provide the sweat, your enemies - the blood and tears. This monster drains a lot of stamina, but inflicts massive damage.
@@ -70115,6 +71393,7 @@ References
 - damage_per_hit：527.0
 - stamina_cost：16.0
 - armor_penetration：75
+- source：Sasquatch
 - weight：30.0
 
 Sasquatch's Hammer is an Hammer in .
@@ -70146,6 +71425,7 @@ ru:Молот Сасквоч
 
 ---
 ## Satori
+- caption：Iaidō is more than a martial art. It demands razor-sharp concentration, an awareness of the here and now, conscious action that finds it expression in the lightning-quick technique of sword drawing. With this katana forged in the first half of the 20th century – formerly owned by Saburo Arasaka – no opponent will take you by surprise. And if they manage, they'll very quickly regret it.
 - manufacturer：Arasaka
 - type：Katana
 - technology：Blade
@@ -70154,6 +71434,7 @@ ru:Молот Сасквоч
 - damage_per_hit：133.0
 - stamina_cost：6.4
 - armor_penetration：25
+- source：The Heist
 - weight：4.5
 
 Satori (Japanese: 悟) is an variant of the Katana in .
@@ -70276,6 +71557,7 @@ ru:Солнечная электростанция
 
 ---
 ## Saul Bright
+appears_other
 - status：Dependent
 - dod：2077 (dependent)
 - place_of_death：Arasaka Tower (dependent)
@@ -70361,6 +71643,7 @@ ru:Сол Брайт
 
 ---
 ## Scalpel
+- caption：It cuts with surgical precision.
 - manufacturer：Arasaka
 - type：Katana
 - technology：Blade
@@ -70369,6 +71652,7 @@ ru:Сол Брайт
 - damage_per_hit：148.0
 - stamina_cost：6.4
 - armor_penetration：25
+- source：Big in Japan
 - weight：4.5
 
 Scalpel is an Katana in .
@@ -70397,6 +71681,7 @@ uk:Скальпель
 
 ---
 ## Scandinavia
+capital *Stockholm, Sweden *Copenhagen, Denmark *Oslo, Norway *Helsinki, Finland *Reykjavik, Iceland
 - affiliation：European Economic Community
 - population：29 million
 - language：Swedish (official) *Danish *Finnish *Norwegian *English *German *Sami
@@ -70435,9 +71720,11 @@ es:Bloque Escandinavo
 
 ---
 ## Scandium Rods
+- caption："A rare and precious metal prized by ripperdocs."
 - type：Misc
 - weight：0
 - cost：3
+- source：Gig: Going Up or Down?
 
 Scandium Rods are a miscellaneous quest item in .
 
@@ -70457,6 +71744,7 @@ Acquisition
 - capacity：20
 - armor：-
 - effects：+-% Armor when below 50% Health.
+- source：Ripperdocs
 
 The Scar Coalescer is Cyberware for the Skeleton in .
 
@@ -70479,6 +71767,7 @@ Acquisition
 - effects：When crouched:
 +- Armor
 −% Movement Speed
+- source：Ripperdocs
 
 The Scarab is Cyberware for the Skeleton in .
 
@@ -70837,6 +72126,7 @@ Location(s)
 
 ---
 ## Scorch
+- caption：Pillars of flame turn the mightiest to ash. All others tremble in shock and awe.
 - manufacturer：Militech
 - type：Pistol
 - technology：Tech
@@ -70851,6 +72141,7 @@ Location(s)
 - charge_time：0.5
 - headshot_damage_multiplier：150
 - armor_penetration：50
+- source：Stash ([https://cyberpunk.net/myrewards GOG Reward])
 - weight：4.3
 
 Scorch is an variant of the Militech Ticon in .
@@ -70911,6 +72202,7 @@ ru:Укол скорпиона
 - horse_power：94
 - weight：503
 - seats：1
+- source：See acquisition
 
 Scorpion's Apollo is a modified version of the Apollo, a motorcycle manufactured by Brennan in .
 
@@ -71013,6 +72305,7 @@ ru:Шеймас Савицкий
 
 ---
 ## Sean McMillan
+eyes
 - status：Dependent
 - location：on top of a damaged apartment block behind Dream Gig
 - gender：Male
@@ -71090,6 +72383,8 @@ uk:Помешкання № 303
 
 ---
 ## Seattle
+population
+- caption：2077 Seattle night view with Mount Rainier in the background
 - type：City
 - country：NUSA
 - region：Pacific Northwest / WCS
@@ -71208,6 +72503,7 @@ ru:Падре
 
 ---
 ## Second Conflict (quest)
+image
 - type：Side Job
 - quest_giver：Johnny Silverhand
 - district：Watson
@@ -71288,12 +72584,14 @@ uk:Другий конфлікт
 
 ---
 ## Second Heart
+- caption：Corrects one of nature's greatest flaws by giving you a second lease on life.
 - type：Circulatory System
 - attribute：Body
 - attribute_attunement：Health
 - attribute_value：0.5
 - capacity：30
 - effects：+100% Health when your Health reaches 0. Cooldown: - sec.
+- source：Ripperdocs
 
 The Second Heart is Cyberware for the Circulatory System in .
 
@@ -71364,10 +72662,13 @@ ru:Яростный отпор
 
 ---
 ## Self-ICE
+attribute_value
+- caption：An intrusion countermeasure electronics system that protects cybernetic implants from nasty bugs.
 - manufacturer：Rostović
 - type：Frontal Cortex
 - capacity：5
 - effects：Automatically negates an enemy quickhack. +- Max RAM. Cooldown: - sec.
+- source：Ripperdocs
 
 The Self-ICE is a Frontal Cortex Cyberware implant in .
 
@@ -71418,6 +72719,7 @@ ru:Сенсорный протокол
 
 ---
 ## Seoul
+population
 - type：Capital City
 - country：United Korea
 
@@ -71432,6 +72734,7 @@ References
 
 ---
 ## Seraph
+- caption：Padre's closest companion. Judge, jury, and executioner for divine justice - all rolled into one.
 - manufacturer：Constitutional Arms
 - type：Pistol
 - technology：Power
@@ -71445,6 +72748,7 @@ References
 - ammo_capacity：14
 - headshot_damage_multiplier：150
 - type_of_mod_slots：Scope, Muzzle
+- source：God Bless This Mess
 - weight：4.3
 
 Seraph is an variant of the Constitutional Arms Liberty in .
@@ -71710,6 +73014,7 @@ ru:Синобу Имай
 - attribute_value：0.2
 - capacity：12
 - effects：−-% recoil
+- source：Ripperdocs
 
 The Shock Absorber is Cyberware for the Hands in .
 
@@ -71738,6 +73043,7 @@ ru:Электропроводность
 
 ---
 ## Shock-n-Awe
+- caption：An effective self-defense tool engineered in Shanghai.
 - type：Integumentary System
 - attribute：Technical Ability
 - attribute_attunement：ChanceIncrease
@@ -71745,6 +73051,7 @@ ru:Электропроводность
 - capacity：25
 - armor：-
 - effects：Whenever you take damage, you have a % chance to release a large electroshock that deals - damage to nearby enemies.
+- source：Ripperdocs
 
 The Shock-n-Awe is Cyberware for the Integumentary System in .
 
@@ -71775,11 +73082,13 @@ ru:Расслабляющая стрельба
 
 ---
 ## Short Circuit
+- caption：Overloads an enemy's microcircuits, producing a devastating electrical current of almost 2 million Volts.
 - type：Combat
 - upload_time：→ →
 - ram_cost：→ → → →
 - effects：Deals Damage. Mechs, Robots, drones and turrets receive additional damage. *: +3 sec. duration for all Control quickhacks currently affecting the target. *: +10% damage for each stack of Cyberware Malfunction affecting the enemy. This increased damage also causes the affected enemy's weakspot to explode. *: Applies an EMP effect that deals additional damage over time. *: +20% damage against enemies below a High threat level. *: +15% damage bonus to this quickhack's Tier 3 effect.
 - traceability：30
+- source：Netrunners
 
 Short Circuit is a Combat Quickhack in .
 
@@ -71897,6 +73206,8 @@ uk:Поміж ковадлом і молотом
 
 ---
 ## Shotgun Ammo
+- caption：A case of shotgun ammo.
+- source：Weapon Vendors
 - buy_price：2
 - sell_price：1
 - weight：0
@@ -71920,6 +73231,7 @@ Csaba-szilagyi-csaba-portfolio-rostovic-db-2-satara-5.jpg|Render by Csaba Szilag
 
 ---
 ## Shwabshwab Blue
+- caption：Loaded with more coloring than the leading competitor!
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -71932,6 +73244,7 @@ Consuming Shwabshwab Blue applies the Nourishment status, increasing max Health 
 
 ---
 ## Shwabshwab Grape
+- caption：Flavor gains without the tongue stains!
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -71944,6 +73257,7 @@ Consuming Shwabshwab Grape applies the Nourishment status, increasing max Health
 
 ---
 ## Shwabshwab Ketchup
+- caption：Your favorite food flavored with your second favorite food.
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -72089,6 +73403,7 @@ fr:Royce
 
 ---
 ## Singapore
+- caption：A City State
 - type：Autonomous Free City
 - leader：President Rhea Ying (2045)
 - population：20 million (2020)
@@ -72207,6 +73522,7 @@ ru:Возмещение расходов
 
 ---
 ## Sir John Phallustiff
+- caption：Perfect for when someone is just asking to get fucked.
 - type：One-Handed Club
 - technology：Blunt
 - iconic：Strike your enemy in the face and watch their pride crumble as your Crit Chance rises! And if you really want to add insult to emotional injury, put some extra strength into your dildoslap – Sir John could even stun 'em.
@@ -72214,6 +73530,7 @@ ru:Возмещение расходов
 - damage_per_hit：138.0
 - stamina_cost：9.6
 - armor_penetration：25
+- source：Venus in Furs
 - weight：3.4
 
 Sir John Phallustiff is an One-Handed Club in .
@@ -72257,6 +73574,7 @@ References
 
 ---
 ## Skippy
+- caption：A smartgun with a unique voice-over interface. Slightly unpredictable.
 - manufacturer：Arasaka
 - type：Pistol
 - technology：Smart
@@ -72268,6 +73586,7 @@ References
 - ammo_capacity：30
 - headshot_damage_multiplier：85
 - lock_on_time：1.20
+- source：Machine Gun
 - weight：4.3
 
 Skippy is an variant of the Arasaka HJKE-11 Yukimura in .
@@ -72384,6 +73703,7 @@ ru:Бойня
 
 ---
 ## Slaughterhouse Jerky
+- caption：Eat like a predator. Satisfy your instincts.
 - brand：All Foods
 - type：Consumable
 - duration：450 sec.
@@ -72397,6 +73717,7 @@ Consuming Slaughterhouse Jerky applies the Nourishment status, increasing max He
 
 ---
 ## Slaughterhouse Prime
+- caption：With over 70% syn-meat derivatives!
 - brand：All Foods
 - type：Consumable
 - duration：450 sec.
@@ -72410,6 +73731,7 @@ Consuming Slaughterhouse Prime applies the Nourishment status, increasing max He
 
 ---
 ## Slaughterhouse Veggie
+- caption：We may not agree with you, but we won't let you go hungry.
 - brand：All Foods
 - type：Consumable
 - duration：450 sec.
@@ -72577,6 +73899,7 @@ ru:Мелкая цель
 - capacity：4
 - effects：Enables the use of smart-targeting in Smart weapons. +-% target-lock duration
  +-% Crit Damage with Smart weapons. Directly links the user's optical implant to the weapon's system, offering real-time data-tracking of the weapon info. +- Max RAM
+- source：Ripperdocs
 
 The Smart Link is Cyberware for the Hands in .
 
@@ -72608,6 +73931,7 @@ ru:Манипуляция
 
 ---
 ## Smoke Grenade
+- caption：Your own personal smokescreen.
 - manufacturer：Militech
 - radius：4
 - effects：Creates a smoke screen for - sec.
@@ -72667,6 +73991,8 @@ Weapons
 
 ---
 ## Sniper Ammo
+- caption：A case of sniper ammo.
+- source：Weapon Vendors
 - buy_price：2
 - sell_price：1
 - weight：0
@@ -72801,6 +74127,7 @@ ru:Сого Ватанабэ
 
 ---
 ## Sojasil Dynamite
+- caption：An eXpLoOoOsioN of TaSTe!
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -72813,6 +74140,7 @@ Consuming Sojasil Dynamite applies the Nourishment status, increasing max Health
 
 ---
 ## Sojasil Eruption
+- caption：A violent explosion of flavor straight into your face!
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -72825,6 +74153,7 @@ Consuming Sojasil Eruption applies the Nourishment status, increasing max Health
 
 ---
 ## Sojasil Molotov Cocktail
+- caption：Coat your throat in fire!
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -72837,6 +74166,7 @@ Consuming Sojasil Molotov Cocktail applies the Nourishment status, increasing ma
 
 ---
 ## Sojasil Nitroglycerin
+- caption：Drop it in your gut.
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -72849,6 +74179,7 @@ Consuming Sojasil Nitroglycerin applies the Nourishment status, increasing max H
 
 ---
 ## Sojasil Radioactive
+- caption：Warning: May give you superpowers.
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -72861,6 +74192,7 @@ Consuming Sojasil Radioactive applies the Nourishment status, increasing max Hea
 
 ---
 ## Sojasil Second Impact
+- caption：A snack that'll rock your world!
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -72915,7 +74247,8 @@ Bouncer (temporarily)
 - portrayed_by：Idris Elba
 - appears_books：
  (mentioned)
-- place_of_death：Night City International and Translunar Spaceport (dependent)|dod=2077 (dependent)
+- place_of_death：Night City International and Translunar Spaceport (dependent)
+- dod：2077 (dependent)
 
 Solomon Reed is a Solo/Lawman and a major character in .
 
@@ -72999,6 +74332,10 @@ ru:Соломон Рид
 
 ---
 ## Somalia
+capital
+language
+ethnic_groups
+appears_books
 - location：Africa
 - affiliation：Pan-African Alliance
 - demonym：Somalian
@@ -73196,7 +74533,8 @@ President Myers' right hand
 - relative：Unnamed mother
 - role：Netrunner/Lawman
 - voiced_by：Minji Chang
-- dod：2077 (dependent)|place_of_death=Cynosure Site C (dependent)
+- dod：2077 (dependent)
+- place_of_death：Cynosure Site C (dependent)
 
 Song So Mi (송소미), more commonly known by her pseudonym Songbird, is a major character in .
 
@@ -73324,11 +74662,13 @@ ru:Сойка
 
 ---
 ## Sonic Shock
+- caption：Emits a high-pitched frequency inside the target's skull. Some say that if it lasts long enough it can induce a psychological break. One version of the program written by netrunners from the Glen is known as Banshee's Wail.
 - type：Covert
 - upload_time：→
 - ram_cost：→ → → →
 - effects：Untraceable. *Quickhacks against the affected enemy still initiate and increase trace progress. *Deafens the enemy, reducing their ability to detect you. *: Scrambles comms, preventing the affected enemy from communicating with their allies. Quickhacks no longer increase trace progress. *: Cloaks the enemy from their allies' sensory systems, causing them to be ignored. *: Uploading Sonic Shock to an enemy already affected by Memory Wipe and Reboot Optics will cause them to lose consciousness. *: Reduces RAM cost by 4
 - traceability：0
+- source：Netrunners
 
 Sonic Shock is an Covert Quickhack in .
 
@@ -73362,6 +74702,7 @@ ru:Звуковой шок
 
 ---
 ## Soop
+- caption：Is it a soup? A juice? A smoothie? Yes.
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Hydration status. +5% Stamina Regen Rate
@@ -73495,6 +74836,7 @@ References
 
 ---
 ## SovOil Fuel Station (Highway 101)
+- caption：2077
 - aka：SovOil CHOOH2 Station
 - type：Fuel station
 - owner：SovOil
@@ -73543,6 +74885,7 @@ ru:Заправочная станция (Равнины «Биотехники�
 
 ---
 ## Sovereign
+- caption：Become the king of the hunt.
 - manufacturer：Rostović
 - type：Double-Barrel Shotgun
 - technology：Power
@@ -73556,6 +74899,7 @@ ru:Заправочная станция (Равнины «Биотехники�
 - headshot_damage_multiplier：85
 - armor_penetration：75
 - no_of_projectiles：6
+- source：Modern Labor Market
 - weight：9.6
 
 Sovereign is an variant of the Rostović DB-4 Igla in .
@@ -73580,6 +74924,10 @@ uk:Суверен
 
 ---
 ## Soviet Union
+leader
+region
+ethnic_groups
+appears_other
 - aka：Soviet Union
 Neo-Sov
 Neo-Soviets
@@ -73728,6 +75076,7 @@ ru:Советский Союз
 
 ---
 ## Soy Paste
+- caption：A shot of essential nutrients. The quicker the better.
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -73802,6 +75151,9 @@ References
 
 ---
 ## Space Oddity
+location
+reward_eb
+reward_item
 - reward_xp：768
 - reward_sc：1727
 - enemies：Militech
@@ -73845,6 +75197,7 @@ uk:Манна небесна
 
 ---
 ## Spain
+type
 - location：Iberian Peninsula, Europe
 - capital：Madrid
 - population：30,000,000 (2020)
@@ -73917,6 +75270,7 @@ es:España
 
 ---
 ## Sparky
+- caption：Incredibly precise sniper rifle. Scavs are meticulous like that.
 - type：Sniper Rifle
 - technology：Power
 - iconic：Modded by Scavs. Rounds fired from this weapon emit electric bolts on each headshot.
@@ -73928,6 +75282,7 @@ es:España
 - ammo_capacity：4
 - headshot_damage_multiplier：250
 - armor_penetration：50
+- source：Increased Criminal Activity: SCAVENGERS
 - weight：11.7
 
 Sparky is an variant of the Techtronika SPT32 Grad in .
@@ -73959,9 +75314,12 @@ ru:Анатомическая карта
 
 ---
 ## Spector Cheng
+appearances
+status
 - role：Weapon vendor
 - home：Night City
-- gender：Male|voiced_by=Josh Han
+- gender：Male
+- voiced_by：Josh Han
 
 Spector Cheng is a Melee Weapon vendor in Japantown and a friend of Kerry Eurodyne.
 
@@ -74345,6 +75703,7 @@ uk:Балончик фарби
 - armor：-
 - effects：+-% Mitigation Strength
 (Total Mitigation Strength cannot exceed 90%)
+- source：Ripperdocs
 
 The Spring Joints are Cyberware for the Skeleton in .
 
@@ -74356,6 +75715,7 @@ Acquisition
 
 ---
 ## Spunky Monkey (drink)
+- caption：We're going bananas for high-fructose corn syrup! Are you?
 - brand：Spunky Monkey
 - type：Consumable
 
@@ -74368,6 +75728,7 @@ fr:Spunky Monkey (boisson)
 
 ---
 ## Spunky Monkey Mint
+- caption：For a minty punch to the face!
 - brand：Spunky Monkey
 - type：Consumable
 
@@ -74378,6 +75739,7 @@ Consuming Spunky Monkey Mint applies the Hydration status, increasing max Stamin
 
 ---
 ## Stabber
+- caption：Sashimi on a platter, that's what they'll become.
 - manufacturer：Tsunami
 - type：Nervous System
 - attribute：Reflexes
@@ -74385,6 +75747,7 @@ Consuming Spunky Monkey Mint applies the Hydration status, increasing max Stamin
 - attribute_value：0.1
 - capacity：12
 - effects：+-% Crit Chance with Blades and throwable weapons
+- source：Ripperdocs
 
 The Stabber is Cyberware for the Nervous System in .
 
@@ -74396,6 +75759,7 @@ Acquisition
 
 ---
 ## Stadium Love
+location
 - quest_giver：Automatic
 - district：Santo Domingo
 - sub_district：Rancho Coronado
@@ -74478,6 +75842,7 @@ uk:Знайомство зі стихіями. Друга зустріч
 
 ---
 ## Stamina Booster
+- caption：Never run out of steam!
 - type：Long-lasting
 - effects：+10% Stamina Regen Rate
 - duration：1800 sec.
@@ -74628,12 +75993,14 @@ ru:Твёрдая рука
 
 ---
 ## Steel Pipe
+- caption：In desperate times, anything can be used as a weapon.
 - type：One-Handed Club
 - technology：Blunt
 - attack_speed：1.3
 - damage_per_hit：223.0
 - stamina_cost：9.6
 - armor_penetration：25
+- source：See acquisition
 - weight：3.4
 
 The Steel Pipe is a Blunt One-Handed Club in .
@@ -74771,6 +76138,7 @@ ru:Стив Санчес
 
 ---
 ## Steven Santos
+appears_other
 - status：Alive
 - gender：Male
 - eyes：Black
@@ -74796,6 +76164,7 @@ ru:Стивен Сантос
 
 ---
 ## Stinger
+- caption：Small but incredibly deadly. It belonged to Scorpion, a nomad of the Aldecaldos clan.
 - type：Knife
 - technology：Thrown
 - iconic：Attacks against poisoned enemies have a 100% chance to cause bleeding. Attacks against bleeding enemies have a 100% chance to cause poisoning.
@@ -74805,6 +76174,7 @@ ru:Стивен Сантос
 - stamina_cost：4.8
 - return_time：2.8
 - headshot_damage_multiplier：150
+- source：I'll Fly Away
 - weight：2.3
 
 Stinger is an Knife in .
@@ -74822,9 +76192,11 @@ uk:Жало
 
 ---
 ## Stolen Medication
+- caption："Ripperdoc meds stolen by Cpl. Hare"
 - type：Misc
 - weight：0
 - cost：3
+- source：William Hare's apartment
 
 Stolen Medication is a miscellaneous quest item in .
 
@@ -74930,6 +76302,7 @@ ru:Торжество формы
 
 ---
 ## Stylishly (Little China)
+appears_books
 - type：Clothing store
 - owner：Stylishly
 - city：Night City
@@ -74994,6 +76367,7 @@ Navigation
 
 ---
 ## Subdermal Armor
+- caption：Neither sticks nor stones.
 - type：Integumentary System
 - attribute：Technical Ability
 - attribute_attunement：Armor
@@ -75001,6 +76375,7 @@ Navigation
 - capacity：5
 - armor：-
 - effects：Armor - simple but effective.
+- source：Ripperdocs
 
 The Subdermal Armor is Cyberware for the Integumentary System in .
 
@@ -75060,6 +76435,15 @@ ru:Субординация
 
 ---
 ## Sue Glover
+image
+dod
+hair_color
+eyes
+equipment
+affiliation
+role
+voiced_by
+appears_games
 - status：Alive
 - home：Urmland Street, Night City
 - gender：Female
@@ -75076,9 +76460,11 @@ Associated Quests
 
 ---
 ## Suicide
+- caption："Suicide note not included." – Emmalicious, purported author of the first suicide program
 - type：Ultimate
 - effects：Forces the enemy to put a gun to their head and pull the trigger, neutralizing them. *−10 RAM cost for 30 sec. after performing a melee Finisher. Stacks 2 times. *: +10% Health from neutralizing an enemy with Suicide. *: +20% Health from neutralizing an enemy with Suicide.
 - traceability：50
+- source：Netrunners
 
 Suicide is an Ultimate Quickhack in .
 
@@ -75324,6 +76710,7 @@ ru:Сьюзи Кью
 
 ---
 ## Swamp Forest
+caption
 - type：Swampy woodland
 - region：Badlands
 - subregion：Rocky Ridge Plains
@@ -75352,8 +76739,10 @@ References
 
 ---
 ## Sweets for Sweetie Cupcake
+- caption：For a love so sweet it'll make you puke sprinkles.
 - effects：Applies the Nourishment status. +5% Max Health
  +5% Health Regen per sec. outside combat
+- source：I Really Want to Stay at Your House
 
 Sweets for Sweetie Cupcake is a Consumable in . It was added in Patch 2.1.
 
@@ -75385,10 +76774,12 @@ References
 
 ---
 ## Synapse Burnout
+- caption：Causes the brain to suffer from stroke-like symptoms: paresis, visual and speech disorders, and even loss of balance.
 - type：Combat
 - ram_cost：→ →
 - effects：Deals heavy damage. Damage increases by 10% for each RAM unit currently spent (max. +300%). *: −2 RAM cost for 15 sec. after neutralizing an enemy with this quickhack. Stacks 3 times. *: When Overclock is active, the damage bonus for Synapse Burnout (based on spent RAM) increases by 100%. Neutralizing an enemy with this quickhack extends Overclock's duration by 3 sec. *: Increases maximum damage bonus to 400%.
 - traceability：30
+- source：Netrunners
 
 Synapse Burnout is a Combat Quickhack in .
 
@@ -75425,12 +76816,14 @@ ru:Плавление синапсов
 
 ---
 ## Synaptic Accelerator
+- caption：A neuroprocessor that regulates hormonal balance during threatening situations.
 - type：Nervous System
 - attribute：Cool
 - attribute_attunement：HeadshotDamage
 - attribute_value：0.2
 - capacity：5
 - effects：Slows time by -% for - sec. when enemy detection reaches 50%. Cooldown: sec.
+- source：Ripperdocs
 
 The Synaptic Accelerator is Cyberware for the Nervous System in .
 
@@ -75444,6 +76837,7 @@ Acquisition
 
 ---
 ## SynthSnack
+- caption：Salt. Fat. Sugar. All the basic food groups in one snack.
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -75467,9 +76861,11 @@ Acquisition
 
 ---
 ## System Collapse
+- caption：The magnum opus of a corporate netrunner who believed most problems could be solved by simply turning off whatever is giving you trouble.
 - type：Ultimate
 - effects：Untraceable *Knocks out the enemy without making noise by crippling their nervous system. *−12 RAM cost for a short time after reducing trace progress. Stacks 2 times. *: Neutralizing an enemy with this quickhack reduces trace progress by 20%. Neutralizing an enemy netrunner this way removes all trace progress. *: Neutralizing an enemy with this quickhack reduces trace progress by an additional 20%.
 - traceability：50
+- source：Netrunners
 
 System Collapse is an Ultimate Quickhack in .
 
@@ -75578,6 +76974,7 @@ fr:T-Bug
 
 ---
 ## Taco
+- caption：Fuck sliced bread. Tacos are the food world's benchmark.
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -75624,6 +77021,7 @@ To be added
 
 ---
 ## Taigan
+- caption：Trained to kill.
 - manufacturer：Techtronika
 - type：Revolver
 - technology：Power
@@ -75638,6 +77036,7 @@ To be added
 - ammo_capacity：10
 - headshot_damage_multiplier：175
 - armor_penetration：50
+- source：Airdrops
 - weight：4.3
 
 Taigan is an variant of the Techtronika Metel in .
@@ -75722,6 +77121,7 @@ References
 
 ---
 ## Tajine!
+- caption：You can't mispronounce it if your mouth's full of it.
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -76108,9 +77508,11 @@ See also
 
 ---
 ## Tattoo: Johnny's Special
+- caption：The Arasaka logo... with a few special touches of Johnny's.
 - type：Hands
 - capacity：0
 - effects：Enables the use of smart-targeting in Smart weapons. Directly links the user's optical implant to the weapon's system, offering real-time data-tracking of the weapon info.
+- source：Chippin' In.
 
 The Tattoo: Johnny's Special is Cyberware for the Hands in .
 
@@ -76124,9 +77526,11 @@ Acquisition
 
 ---
 ## Tattoo: Together Forever
+- caption：J+V 4EVAH.
 - type：Hands
 - capacity：0
 - effects：Enables the use of smart-targeting in Smart weapons. Directly links the user's optical implant to the weapon's system, offering real-time data-tracking of the weapon info.
+- source：Chippin' In.
 
 The Tattoo: Together Forever is Cyberware for the Hands in .
 
@@ -76140,6 +77544,7 @@ Acquisition
 
 ---
 ## Tattoo: Tyger Claws Dermal Imprint
+- caption：A Tyger Claws speciality, this dermal ink features effective Smart weapon jamming capabilities. Only for a select few – those Wakako trusts to remain loyal.
 - type：Hands
 - attribute：Intelligence
 - attribute_attunement：SmartDamage
@@ -76147,6 +77552,7 @@ Acquisition
 - capacity：0
 - effects：Enables the use of smart-targeting in Smart weapons. +//% lock-on speed
 % smaller Smart-targeting reticle Directly links the user's optical implant to the weapon's system, offering real-time data-tracking of the weapon info.
+- source：The Gig
 
 The Tyger Claws Dermal Imprint is Cyberware tattoo for the Hands in .
 
@@ -76208,6 +77614,8 @@ References
 
 ---
 ## Techtronika Metel
+iconic
+- caption：Nothing new under the sun, but you can rely on it when things get hot. That's what counts.
 - manufacturer：Techtronika
 - type：Revolver
 - technology：Power
@@ -76220,6 +77628,7 @@ References
 - ammo_capacity：8
 - headshot_damage_multiplier：175
 - armor_penetration：50
+- source：See acquisition
 - weight：4.6
 
 The Metel is a Power Revolver manufactured by Techtronika in .
@@ -76266,6 +77675,8 @@ References
 
 ---
 ## Techtronika RT-46 Burya
+iconic
+- caption：Electromagnetic pistol. Always ready to fire. All together now, choomrades: Glory to the progress of Soviet Socialist science!
 - manufacturer：Techtronika
 - type：Revolver
 - technology：Tech
@@ -76335,6 +77746,7 @@ ru:Техтроника RT-46 «Буря»
 
 ---
 ## Techtronika Razor
+- caption：If it ain't reinforced concrete, you'll dismember it in a few slashes. Gotta be beefy enough to wield it, though.
 - manufacturer：Techtronika
 - type：Machete
 - technology：Blade
@@ -76342,6 +77754,7 @@ ru:Техтроника RT-46 «Буря»
 - damage_per_hit：217.0
 - stamina_cost：9.6
 - armor_penetration：25
+- source：See acquisition
 - weight：6.5
 
 The Razor is a Bladed Machete manufactured by Techtronika in . It was added in Patch 1.6 as part of the New Weapons: Melee DLC.
@@ -76374,6 +77787,7 @@ References
 
 ---
 ## Techtronika SPT32 Grad
+- caption：From this weapon there is no cover.
 - manufacturer：Techtronika
 - type：Sniper Rifle
 - technology：Power
@@ -76387,6 +77801,7 @@ References
 - headshot_damage_multiplier：300
 - armor_penetration：50
 - type_of_mod_slots：Sniper Scope
+- source：See acquisition
 - weight：11.7
 
 The SPT32 Grad is a Power Sniper Rifle manufactured by Techtronika in .
@@ -76448,6 +77863,7 @@ ru:Техтроника СВ-32 Град
 
 ---
 ## Techtronika T40 Uragan
+magazine
 - manufacturer：Techtronika
 - type：Rocket Launcher
 
@@ -76471,6 +77887,7 @@ References
 
 ---
 ## Techtronika VST-37 Pozhar
+- caption：High caliber, high damage, high recoil.
 - manufacturer：Techtronika
 - type：Shotgun
 - technology：Power
@@ -76483,6 +77900,7 @@ References
 - headshot_damage_multiplier：85
 - armor_penetration：25
 - no_of_projectiles：5
+- source：See acquisition
 - weight：9.6
 
 The VST-37 Pozhar is a Power Shotgun manufactured by Techtronika in . It was added in Patch 1.6 as part of the New Weapons: Firearms DLC.
@@ -76584,9 +78002,11 @@ References
 
 ---
 ## Tenzor Paradize
+- caption："An electric guitar."
 - type：Misc
 - buy_price：5000
 - sell_price：500
+- source：New Dawn Fades
 
 Tenzor Paradize is an miscellaneous quest item in .
 
@@ -76598,7 +78018,9 @@ Acquisition
 
 ---
 ## Tequila Bottle
+- caption："Homemade. Jackie's go-to liquor."
 - type：Misc
+- source：Heroes
 
 Tequila Bottle is an miscellaneous quest item in .
 
@@ -76612,6 +78034,7 @@ Acquisition
 
 ---
 ## Tequila Especial
+- caption：Savor that spiky agave punch.
 - type：Consumable
 - weight：0.2
 - duration：30 sec
@@ -76754,6 +78177,7 @@ ru:Терра когнита
 
 ---
 ## Tetratronic Rippler
+- caption：Tetratronic takes pride in the fact that its decks are indispensable in combat operations around the globe. Even if it's not entirely true, one thing's for sure – these cyberdecks are powerful, effective and optimized for offensive daemons.
 - manufacturer：Tetratronic
 - type：Cyberdeck
 - capacity：16
@@ -77103,7 +78527,9 @@ uk:Жага швидкості: Великі перегони
 
 ---
 ## The Book of Spells
+- caption："An antique datapad containing encrypted data."
 - type：Misc
+- source：Spellbound
 
 The Book of Spells is an miscellaneous quest item in .
 
@@ -77242,10 +78668,12 @@ uk:Сіль на рану
 
 ---
 ## The David Martinez
+- caption：A shot of vodka on the rocks, topped with NiCola. Aim high and go out with a bang.
 - type：Consumable
 - weight：0.2
 - duration：30 sec
 - effects：Reduces movement speed by 20%. *Reduces weapon accuracy by 50%.
+- source：Claire Russell
 - base_price：150
 
 引文："The David Martinez"—it's a cocktail found at a bar in Night City called The Afterlife. Vodka, ice and a splash of NiCola. It's funny... David never liked fizzy drinks... For most, that drink honors a merc legend. For me... a man my heart will never forget.（Lucy Kushinada）
@@ -77543,6 +78971,7 @@ References
 
 ---
 ## The Headsman
+- caption：The go-to choice for when you've lost track of your enemies.
 - type：Shotgun
 - technology：Power
 - iconic：Fires a single round instead of pellets. Coupled with a unique scope, this shotgun gains ridiculous accuracy for its range. Headshots momentarily increase reload speed and accuracy and a subsequent headshot deals Crit Damage.
@@ -77555,6 +78984,7 @@ References
 - headshot_damage_multiplier：200
 - armor_penetration：25
 - no_of_projectiles：1
+- source：Privacy Policy Violation
 - weight：9.6
 
 The Headsman is an variant of the Constitutional Arms M2038 Tactician in .
@@ -78085,9 +79515,11 @@ uk:Ось до чого техніка дійшла
 
 ---
 ## The Jackie Welles
+- caption：A shot of vodka, lime juice, ginger beer and, most importantly… a splash of love.
 - type：Consumable
 - duration：30 sec
 - effects：Reduces movement speed by 10%. *Reduces weapon accuracy by 50%.
+- source：Claire Russell
 - base_price：150
 
 The Jackie Welles is a top-quality alcoholic beverage in . It was added in Patch 1.5.
@@ -78104,9 +79536,11 @@ References
 
 ---
 ## The Johnny Silverhand
+- caption：A tequila old fashioned with a splash of beer and a chili garnish. For the rockerboy who never gave up.
 - type：Consumable
 - duration：30 sec
 - effects：Reduces movement speed by 20%. *Reduces weapon accuracy by 50%.
+- source：Claire Russell
 - base_price：150
 - appears_books：
 ()
@@ -79249,6 +80683,7 @@ uk:Знамення пророка Йони
 
 ---
 ## Thermal Gorilla Arms
+- caption：Classic and reliable replacements for natural limbs, suited for all kinds of hard labor.
 - manufacturer：Arasaka
 - type：Arms
 - attribute：Reflexes
@@ -79257,6 +80692,7 @@ uk:Знамення пророка Йони
 - capacity：8
 - effects：Gorilla Arms are lightweight, efficient and hard-hitting arm replacement cyberware. +- to Body Attribute checks. Deal Thermal damage.
 -% Burn chance
+- source：Ripperdocs
 
 The Thermal Gorilla Arms are Cyberware for the Arms in .
 
@@ -79278,6 +80714,7 @@ Acquisition
 - effects：Mantis Blades allow you to slice and dice your enemies with swift, deadly slashes.
 You can also leap at a target to deal massive damage. Deal Thermal damage.
 -% Burn chance
+- source：Ripperdocs
 
 The Thermal Mantis Blades are Cyberware for the Arms in .
 
@@ -79291,6 +80728,7 @@ Acquisition
 
 ---
 ## Thermal Monowire
+- caption：Whip-like monofilament wire with a cutting edge only a molecule wide.
 - type：Arms
 - attribute：Cool
 - attribute_attunement：ArmsDamage
@@ -79298,6 +80736,7 @@ Acquisition
 - capacity：8
 - effects：Monowire is arm replacement cyberware that allows you to whip multiple enemies at once from a distance. Deal Thermal damage.
 -% Burn chance Empty Quickhack Slot
+- source：Ripperdoc
 
 The Thermal Monowire is Cyberware for the Arms in .
 
@@ -79320,6 +80759,7 @@ Acquisition
 +30% damage
 +25% explosion radius
 +30% Burn chance
+- source：Ripperdocs
 
 The Thermal Projectile Launch System is Cyberware for the Arms in .
 
@@ -79597,6 +81037,7 @@ References
 - top_speed：148
 - cost：41000
 - street_cred：26
+- source：See acquisition
 
 引文：Equipped with a CrystalDome holoprojection system. Extra-reinforced.（Little Mule）
 
@@ -79725,6 +81166,7 @@ References
 - cost：56000
 - windscreen：Militech CrystalDome
 - top_speed：148
+- source：See acquisition
 
 The "Vulture" is a modified version of the pickup truck Colby CX410, a vehicle manufactured by Thorton in .
 
@@ -79768,6 +81210,7 @@ References
 Bulletproof glass
 - top_speed：101
 - cost：29000
+- source：See acquisition
 
 引文：Durable and long-lasting, like an unexploded bomb from the First Corporate War.（Colby BARGHEST）
 
@@ -79805,6 +81248,7 @@ References
 - windscreen：Glass
 - cost：18000
 - street_cred：25
+- source：See acquisition
 
 引文：One of the most popular cars manufactured in North America. By 2060, fifty million units were sold.（Colby C125）
 
@@ -79880,6 +81324,7 @@ References
 - door_mount：Standard
 - windscreen：Glass
 - cost：33000
+- source：See acquisition
 
 引文：The Colby CST40 is like Frankenstein's monster - stitched together helter skelter by some skezzed-out engineer and reanimated with a drive system to give this relatively common car an exciting, new lease on life. With all-wheel drive and an engine borrowed from its twin model, the CX410 Butte, this ride is the first choice for bored office workers everywhere who are fighting through a mid-life crisis.（Colby CST40）
 
@@ -79924,6 +81369,7 @@ References
 - windscreen：Glass
 - top_speed：102
 - street_cred：12
+- source：See acquisition
 
 The Colby CX410 "Gran Butte" is a variant of the Colby CX410 Butte, a vehicle manufactured by Thorton in .
 
@@ -79953,6 +81399,7 @@ References
 - windscreen：Militech CrystalDome
 - cost：45000
 - street_cred：26
+- source：See acquisition
 - horse_power：365
 
 引文：A car that handles like butter and floats like a dream - no matter where the road takes you.（Galena "Gecko"）
@@ -80005,6 +81452,7 @@ ru:Тортон Галена «Геккон»
 - door_mount：Standard
 - windscreen：Militech CrystalDome
 - cost：60,000
+- source：See acquisition
 
 The "Locust" is a nomad version of the Galena, a vehicle manufactured by Thorton in .
 
@@ -80081,6 +81529,7 @@ References
 - windscreen：Glass
 - cost：13000
 - street_cred：1
+- source：See acquisition
 
 引文：Cheap and reliable, this cult favorite was immortalized in the 2034 punk-rock hit, "Poundin' Gina in my Galena."（Galena G240）
 
@@ -80130,6 +81579,7 @@ ru:Тортон Галена G240
 - windscreen：Glass
 - top_speed：107 mph
 - cost：26000
+- source：See acquisition
 - horse_power：150
 
 引文：One of the cheaper sports cars on the market. Particularly popular among younger drivers, who couldn't care less about its one-star safety rating.（Galena GA32t）
@@ -80168,6 +81618,7 @@ References
 - doors：4
 - door_mount：Standard
 - windscreen：Glass
+- source：See acquisition
 - horse_power：294
 
 引文：With its unusually high mileage and relatively small frame, this car is a perennial favorite among taxi and delivery drivers.（Galena "Rattler"）
@@ -80220,6 +81671,7 @@ ru:Тортон Галена «Рэттлер»
 - door_mount：Standard (front)
 Swing (rear)
 - windscreen：Bulletproof glass
+- source：See acquisition
 
 引文：With a souped-up suspension and performance-tuned engine, this car is ready for a wild ride.（Mackinaw "Beast"）
 
@@ -80279,6 +81731,7 @@ ru:Тортон Макино «Бист»
 - doors：2
 - door_mount：Standard
 - windscreen：Glass
+- source：See acquisition
 
 引文："Demiurge" - a fitting name from someone who calls himself "Polyhistor". That said, there's no denying this Mackinaw truly evokes a sense of wrathful divinity. Blessed with gargantuan size and almost apocalyptic power under the hood, its driver will feel like a god of the road. Many would undoubtedly sell their souls to get behind the wheel of this monster truck.（Mackinaw "Demiurge"）
 
@@ -80324,6 +81777,7 @@ ru:Тортон Макино «Демиург»
 - door_mount：Standard (front)
 Swing (rear)
 - windscreen：Bulletproof Glass
+- source：See acquisition
 
 引文：Every nomad's dream set of wheels. Though and reliable, with plenty of room to boot - all essential when your home's the open road.（Mackinaw "Saguaro" (see below)）
 
@@ -80467,6 +81921,7 @@ Swing (rear)
 - windscreen：Glass
 - cost：33000
 - street_cred：12
+- source：See acquisition
 
 引文：An obligatory addition to every country song, the car even has its own museum in the backwoods of Tennessee.（Mackinaw MTL1）
 
@@ -80680,6 +82135,7 @@ References
 
 ---
 ## Tiancha (drink)
+- caption：Soothes and stimulates your nerves. Drink the impossible.
 - manufacturer：Tiancha
 - type：Consumable
 - duration：450 sec.
@@ -80692,6 +82148,7 @@ Consuming Tiancha applies the Hydration status, increasing Stamina Regen Rate by
 
 ---
 ## Tiancha Kumquat
+- caption：Feeling kumquaty today?
 - manufacturer：Tiancha
 - type：Consumable
 - duration：450 sec.
@@ -80706,6 +82163,7 @@ fr:Tiancha Kumquat
 
 ---
 ## Tiancha Pomegranate
+- caption：A tidal wave of pomeganate punch.
 - manufacturer：Tiancha
 - type：Consumable
 - duration：450 sec.
@@ -80720,6 +82178,7 @@ fr:Tiancha Pomegranate
 
 ---
 ## Tiancha Pomelo
+- caption：A citrus beyond.
 - manufacturer：Tiancha
 - type：Consumable
 - duration：450 sec.
@@ -80871,6 +82330,7 @@ References
 
 ---
 ## Timothee LeBeau
+image
 - status：Dependent
 - dod：2077
 - place_of_death：Deravaja Dojo
@@ -80878,7 +82338,8 @@ References
 - gender：Male
 - affiliation：Tyger Claws
 - cyberware：Fortified Ankles
-Subdermal Armor|equipment=Kanabo
+Subdermal Armor
+- equipment：Kanabo
 
 Timothee LeBeau is a character in .
 
@@ -80895,6 +82356,7 @@ References
 
 ---
 ## Tinker Bell
+- caption：One tap and you're off to Neverland.
 - type：One-Handed Club
 - technology：Blunt
 - iconic：Deals less damage, but with a chance to knock out a target using a Strong Attack.
@@ -80903,6 +82365,7 @@ References
 - stamina_cost：9.6
 - charge_time：1.00
 - armor_penetration：50
+- source：The Hunt
 - weight：4.2
 
 Tinker Bell is an Electric Baton in .
@@ -80924,12 +82387,14 @@ uk:Дзвоник
 
 ---
 ## Tire Iron
+- caption：Offer to help, change the tire, break a knee, steal the car.
 - type：One-Handed Club
 - technology：Blunt
 - attack_speed：1.3
 - damage_per_hit：223.0
 - stamina_cost：9.6
 - armor_penetration：25
+- source：See acquisition
 - weight：3.4
 
 The Tire Iron is a Blunt One-Handed Club in .
@@ -80970,6 +82435,7 @@ References
 
 ---
 ## Tofu'd Tuna and Pineapple Pizza
+- caption：Vegans can't get enough of it.
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -81084,6 +82550,13 @@ ru:Токио
 
 ---
 ## Tom
+aka
+dob
+place_of_birth
+dod
+place_of_death
+partner
+affiliation
 - status：Alive
 - gender：Male
 - occupation：Cook, Owner of Tom's Diner
@@ -81251,6 +82724,8 @@ References
 
 ---
 ## Tomahawk
+iconic
+- caption：Walk the warpath.
 - manufacturer：Militech
 - type：Axe
 - technology：Thrown
@@ -81261,6 +82736,7 @@ References
 - return_time：4.9
 - headshot_damage_multiplier：125
 - armor_penetration：25
+- source：See acquisition
 - weight：3.2
 
 The Tomahawk is a Throwable Axe manufactured by Militech in .
@@ -81286,6 +82762,7 @@ VB_Axe.png|
 
 ---
 ## Tomato "Juice"
+- caption：A vibrant red color that makes it easier to imagine the taste.
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Hydration status. +5% Stamina Regen Rate
@@ -81352,6 +82829,7 @@ uk:Незвідане майбуття
 - voiced_by：Yoshi Ando
 
 引文：So... Ms. Cunningham. I wish for you to tell me all about the program you call... Soulkiller.（Toshiro）
+citation
 
 Toshiro Harada (Japanese: 原田敏郎) is an Arasaka executive who appears in the universe.
 
@@ -81512,6 +82990,7 @@ ru:Тотентанц
 
 ---
 ## Toxic Gorilla Arms
+- caption：Classic and reliable replacements for natural limbs, suited for all kinds of hard labor.
 - manufacturer：Arasaka
 - type：Arms
 - attribute：Cool
@@ -81520,6 +82999,7 @@ ru:Тотентанц
 - capacity：8
 - effects：Gorilla Arms are lightweight, efficient and hard-hitting arm replacement cyberware. +- to Body Attribute checks. Deal Chemical damage.
 -% Poison chance
+- source：Ripperdocs
 
 The Toxic Gorilla Arms are Cyberware for the Arms in .
 
@@ -81543,6 +83023,7 @@ fr:Bras de gorille toxiques
 - effects：Mantis Blades allow you to slice and dice your enemies with swift, deadly slashes.
 You can also leap at a target to deal massive damage. Deal Chemical damage.
 -% Poison chance
+- source：Ripperdocs
 
 The Toxic Mantis Blades are Cyberware for the Arms in .
 
@@ -81556,6 +83037,7 @@ Acquisition
 
 ---
 ## Toxic Monowire
+- caption：Whip-like monofilament wire with a cutting edge only a molecule wide.
 - type：Arms
 - attribute：Technical Ability
 - attribute_attunement：ArmsDamage
@@ -81563,6 +83045,7 @@ Acquisition
 - capacity：8
 - effects：Monowire is arm replacement cyberware that allows you to whip multiple enemies at once from a distance. Deal Chemical damage.
 -% Poison chance Empty Quickhack Slot
+- source：Ripperdoc
 
 The Toxic Monowire is Cyberware for the Arms in .
 
@@ -81585,6 +83068,7 @@ Acquisition
 +30% damage
 +25% explosion radius
 +30% Poison chance
+- source：Ripperdocs
 - rprice：29483
 
 The Toxic Projectile Launch System is Cyberware for the Arms in .
@@ -81662,6 +83146,7 @@ ru:Трейлерный парк
 
 ---
 ## Trailerbrew Beer
+- caption：Bursting with yeast.
 - type：Consumable
 - duration：30 sec
 - effects：Reduces movement speed by 20%. *Reduces weapon accuracy by 50%.
@@ -81730,6 +83215,7 @@ ru:Трансфузия
 
 ---
 ## Transmission
+reward_eb
 - type：Main Job
 - quest_giver：Brigitte
 - district：Pacifica
@@ -81964,6 +83450,7 @@ ru:Тройной экстрим
 
 ---
 ## Tsumetogi
+- caption："A custom-made marvel. Truly one of a kind."
 - manufacturer：Arasaka
 - type：Katana
 - technology：Blade
@@ -81973,6 +83460,7 @@ ru:Тройной экстрим
 - damage_per_hit：163.0
 - stamina_cost：6.4
 - armor_penetration：25
+- source：Pisces
 - weight：4.5
 
 Tsumetogi (Japanese: 爪とぎ) is an Katana in .
@@ -81999,6 +83487,7 @@ uk:Цуметоґі
 
 ---
 ## Tsunami Ashura
+- caption：More than a rifle.
 - manufacturer：Tsunami
 - type：Sniper Rifle
 - technology：Smart
@@ -82012,6 +83501,7 @@ uk:Цуметоґі
 - headshot_damage_multiplier：150
 - armor_penetration：25
 - lock_on_time：1.35
+- source：See acquisition
 - weight：11.7
 
 The Ashura (Japanese: 阿修羅 or アシュラ) is a Smart Sniper Rifle manufactured by Tsunami in .
@@ -82071,6 +83561,7 @@ fr:Tsunami Ashura
 
 ---
 ## Tsunami Kappa
+- caption：This hyperactive weapon can mark up to two targets at the same time, though it works best at close range.
 - manufacturer：Tsunami
 - type：Pistol
 - technology：Smart
@@ -82125,6 +83616,7 @@ ru:Цунами «Каппа»
 
 ---
 ## Tsunami Kyubi
+- caption：Semi-auto, all awesome.
 - manufacturer：Tsunami
 - type：Assault Rifle
 - technology：Power
@@ -82137,6 +83629,7 @@ ru:Цунами «Каппа»
 - headshot_damage_multiplier：125
 - armor_penetration：25
 - no_of_mod_slots：Scope, Muzzle
+- source：See acquisition
 - weight：7.2
 
 The Kyubi (Japanese: 九尾) is a Power Assault Rifle manufactured by Tsunami Defense Systems in . It was added in Patch 1.6 as part of the New Weapons: Firearms DLC.
@@ -82193,6 +83686,7 @@ ru:Цунами «Кюби»
 
 ---
 ## Tsunami Nekomata
+- caption：Precision without compromise.
 - manufacturer：Tsunami
 - type：Sniper Rifle
 - technology：Tech
@@ -82207,6 +83701,7 @@ ru:Цунами «Кюби»
 - headshot_damage_multiplier：300
 - armor_penetration：50
 - type_of_mod_slots：Sniper Scope
+- source：See acquisition
 - weight：11.7
 
 The Nekomata (Japanese: 猫又) is a Tech Sniper Rifle manufactured by Tsunami in .
@@ -82268,6 +83763,7 @@ ru:Цунами «Нэкомата»
 
 ---
 ## Tsunami Nue
+- caption：Engineered to fit any hand.
 - manufacturer：Tsunami
 - type：Pistol
 - technology：Power
@@ -82334,6 +83830,8 @@ ru:Цунами «Нуэ»
 
 ---
 ## Tsunami Rasetsu
+stamina_cost
+- caption：This rifle behaves as if it actually wants to kill people. Just point it in the right direction.
 - manufacturer：Tsunami
 - type：Sniper Rifle
 - technology：Tech
@@ -82347,6 +83845,7 @@ ru:Цунами «Нуэ»
 - charge_time：1.50
 - headshot_damage_multiplier：300
 - armor_penetration：50
+- source：You Know My Name
 - weight：11.7
 
 Rasetsu (Japanese：羅剎) is an Tech Sniper Rifle manufactured by Tsunami in .
@@ -83056,6 +84555,7 @@ Associated Quests
 
 ---
 ## Tyrosine Injector
+- caption：Enhances intracellular transduction.
 - type：Nervous System
 - attribute：Cool
 - attribute_attunement：HeadshotDamage
@@ -83064,6 +84564,7 @@ Associated Quests
 - effects：Successful Takedowns grant:
 +-% headshot damage for 15 sec.
 +-% Movement Speed for 15 sec.
+- source：Ripperdocs
 
 The Tyrosine Injector is Cyberware for the Nervous System in .
 
@@ -83078,6 +84579,7 @@ Notes
 
 ---
 ## Té Matcha
+- caption：Chant your mantra. Drink Té.
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Hydration status. +5% Stamina Regen Rate
@@ -83089,6 +84591,7 @@ Consuming Té Matcha applies the Hydration status, increasing Stamina Regen Rate
 
 ---
 ## Té Oolong
+- caption：Brewed for inner peace.
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Hydration status. +5% Stamina Regen Rate
@@ -83100,6 +84603,7 @@ Consuming Té Oolong applies the Hydration status, increasing Stamina Regen Rate
 
 ---
 ## Té Sencha
+- caption：Calm your nerves. Find your center.
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Hydration status. +5% Stamina Regen Rate
@@ -83111,6 +84615,7 @@ Consuming Té Sencha applies the Hydration status, increasing Stamina Regen Rate
 
 ---
 ## Umbra x-MOD2
+- caption：Fire, kill, toss. Not exactly a keepsake - you'll ditch the Umbra as soon as something better comes along, and not a moment later.
 - manufacturer：Darra Polytechnic
 - type：Assault Rifle
 - technology：Power
@@ -83125,6 +84630,7 @@ Consuming Té Sencha applies the Hydration status, increasing Stamina Regen Rate
 - armor_penetration：25
 - type_of_mod_slots：Muzzle
 - no_of_mod_slots：2
+- source：Wild Blue, Terra Cognita
 - weight：7.2
 
 Umbra x-MOD2 is an variant of the Darra Polytechnic DA8 Umbra in .
@@ -83463,6 +84969,7 @@ ru:Великобритания
 
 ---
 ## United Korea
+caption
 - population：58.1 million
 - language：Korean
 English
@@ -83533,6 +85040,7 @@ ru:Единая Корея
 - effects：Health Items now also give:
 +-% Armor for sec.
 −-% all Stamina cost for 5 sec. These effects can stack.
+- source：Ripperdocs
 
 The Universal Booster is Cyberware for the Skeleton in .
 
@@ -83547,9 +85055,11 @@ Changelog
 
 ---
 ## Unlabeled Braindance
+- caption：Who knows what's on this...
 - type：Misc
 - weight：0
 - cost：1
+- source：Sweet Dreams
 
 Unlabeled Braindance is a miscellaneous quest item in .
 
@@ -83619,7 +85129,9 @@ ru:Неудержимая сила
 
 ---
 ## Untitled 18 – Brancesi, 2021
+- caption：An extremely valuable painting, long considered lost.
 - type：Misc
+- source：Space Oddity
 - sell_price：8000
 - weight：0.0
 
@@ -83965,6 +85477,7 @@ Reputation
 |}
 
 Time
+{| class="fandom-table mw-collapsible mw-collapsed" width="100%"
 !Time Percentage
 |-
 |
@@ -84294,6 +85807,7 @@ ru:Квартира Ви (Нортсайд)
 
 ---
 ## V's Penthouse
+appears_books
 - type：Penthouse
 - owner：V
 Rogue Amendiares (formerly)
@@ -84730,6 +86244,7 @@ ru:Васкес-Пасс
 
 ---
 ## Vatnajökull (Sparkling)
+- caption：Naturally carbonated. Naturally.
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Hydration status. +5% Stamina Regen Rate
@@ -84743,6 +86258,7 @@ fr:Vatnajökull (gazeuse)
 
 ---
 ## Vatnajökull (Still)
+- caption：A drink from a glacier is a drink from history.
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Hydration status. +5% Stamina Regen Rate
@@ -84756,6 +86272,8 @@ fr:Vatnajökull (plate)
 
 ---
 ## Venice
+image
+population
 - type：Destroyed City
 - country：Padania, formerly Italy
 - appears_books：
@@ -84831,7 +86349,8 @@ Associated Quests
 - capital：Hanoi
 - population：70 million
 - language：Vietnamese *French *English
-- ethnic_groups：Vietnamese *Chinese (Hoa) *Various Hill Tribes s|literacy_rate = 90%
+- ethnic_groups：Vietnamese *Chinese (Hoa) *Various Hill Tribes s
+- literacy_rate：90%
 - military：70,000 *(+15,000 Freelance Mercs)
 
 Vietnam is a Southeast Asian country on the South China Sea known for its beaches, rivers, Buddhist pagodas and bustling cities.
@@ -85069,6 +86588,7 @@ ru:Вилла Керри Евродина
 - door_mount：Standard (front)
 Suicide (rear)
 - windscreen：Glass
+- source：See acquisition
 
 The "Vato" is a customized version of the Alvarado V4FC 580 Playboy, a vehicle manufactured by Villefort in .
 
@@ -85120,6 +86640,7 @@ Suicide (rear)
 - windscreen：Glass
 - cost：38,000
 - street_cred：19
+- source：See acquisition
 
 引文：The Alvarado features surprisingly responsive steering thanks to its dual front axles.（Alvarado V4F 570 Delegate）
 
@@ -85217,6 +86738,7 @@ fr:Villefort Alvarado
 - door_mount：Standard
 - windscreen：Glass
 - cost：39000
+- source：See acquisition
 
 引文：The Alvarado features surprisingly responsive steering thanks to its dual front axles.（Alvarado V4FH 570 Herman）
 
@@ -85302,6 +86824,7 @@ Slide (rear)
 - windscreen：Glass
 - street_cred：1
 - cost：19000
+- source：See acquisition
 
 引文：The Columbus is the youngest, cheapest, most popular model in the Villefort lineup. A favorite among shipping companies and large families alike.（Columbus V340-F Freight）
 
@@ -85348,6 +86871,7 @@ ru:Вильфор Коламбус V340-F «Фрейт»
 - windscreen：Glass
 - cost：28000
 - street_cred：6
+- source：See acquisition
 
 引文：The car's formidable engine accelerates in a flash, while it's reinforced body (created in partnership with Militech) ensures a greater sense of safety and security on the road.（Cortes V5000 Valor）
 
@@ -85459,6 +86983,7 @@ References
 - door_mount：Standard
 - windscreen：Glass
 - cost：36000
+- source：See acquisition
 
 引文：Here's the sitch: you're cruisin' above the legal limit in your Deleon and the NCPD pulls you over. No, the officer doesn't write you a ticket - he wants to shake your hand and get photo with that preem set of wheels. Such is life behind the wheel of this beauty with an aerodynamic body, sporty suspension, front and rear spoilers and the fender flares to match.（Deleon "Vindicator"）
 
@@ -85530,6 +87055,7 @@ References
 - door_mount：Standard
 - windscreen：Glass
 - cost：26000
+- source：See acquisition
 
 引文：The preferred choice of hitchhikers everywhere, regardless of how sketchy the driver seems. This ride is simply irresistible. With a classic American look, comfortable interior, 4-liter V8 engine, rear-wheel drive and 390 horsepower under the hood, who could say no?（Deleon V410-S Coupé）
 
@@ -85612,12 +87138,14 @@ ru:Виста-дель-Рей
 
 ---
 ## Visual Cortex Support
+- caption：A brain mod that improves perception and targeting.
 - type：Nervous System
 - attribute：Cool
 - attribute_attunement：HeadshotDamage
 - attribute_value：0.2
 - capacity：20
 - effects：Crit Chance increases the farther you are from the enemy. (max. -% at 30m).
+- source：Ripperdocs
 
 The Visual Cortex Support is Cyberware for the Nervous System in .
 
@@ -85631,6 +87159,7 @@ fr:Cortex visuel soutenu
 
 ---
 ## Vita-Mine
+- caption：Every vitamin under the stars in the palm of your hand!
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Hydration status. +5% Stamina Regen Rate
@@ -85642,6 +87171,7 @@ Consuming Vita-Mine applies the Hydration status, increasing Stamina Regen Rate 
 
 ---
 ## Volkodav
+- caption：Not up to date on its rabies shots.
 - manufacturer：Techtronika
 - type：Machete
 - technology：Blade
@@ -85650,6 +87180,7 @@ Consuming Vita-Mine applies the Hydration status, increasing Stamina Regen Rate 
 - damage_per_hit：195.0
 - stamina_cost：9.6
 - armor_penetration：25
+- source：Gig: Waiting for Dodger
 - weight：6.5
 
 Volkodav is an variant of the Razor in .
@@ -85925,9 +87456,11 @@ References
 
 ---
 ## Vortex's Credchip
+- caption："Contains a small fortune in cryptocurrency."
 - type：Misc
 - weight：0
 - cost：3
+- source：Gig: Tyger and Vulture
 
 Vortex's Credchip is a miscellaneous quest item in .
 
@@ -86149,6 +87682,7 @@ Reward:
 Stats & Equipment
 Cyberpunk RED
 
+citation
 - int：8
 - ref：4
 - dex：3
@@ -86259,6 +87793,7 @@ ru:Угроза взрыва
 
 ---
 ## Warsaw
+population
 - type：Capital City
 - country：Poland
 
@@ -86320,6 +87855,7 @@ Associated Quests
 
 ---
 ## Water
+- caption：Clean water. A real treat.
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Hydration status. +5% Stamina Regen Rate
@@ -86519,10 +88055,12 @@ uk:Сім'ю не вибирають
 
 ---
 ## Weapon Glitch
+- caption：During the Unification War, Militech soldiers feared little more than the chance their weapons might jam in the heat of battle.
 - type：Control
 - ram_cost：→ →
 - effects：Jam's a target's weapon, rendering in temporarily unusable. *Causes a weapon malfunction that reduces enemy accuracy and disables Smart-targeting and cover-penetration. *: Locking onto the affected enemy with a Smart weapon will extend Weapon Glitch's duration until target-lock is released. *: Detonates the enemy's primary weapon, forcing them to switch to their secondary weapon which will be affected by the quickhack's core effects. *: +6% Crit Chance with Smart Weapons for 10 sec. whenever you upload this quickhack. Stacks 5 times. *: Doubles the Crit Chance gained per stack of the bonus.
 - traceability：15
+- source：Netrunners
 
 Weapon Glitch is an Control Quickhack in .
 
@@ -87603,6 +89141,7 @@ ru:Уэллспрингс
 
 ---
 ## Wellsprings Water Treatment Plant
+- caption：2077
 - aka：See Notes
 - type：Water treatment facility
 - owner：Government of Night City
@@ -87742,6 +89281,7 @@ References
 
 ---
 ## West Wind Estate
+image
 - type：Sub-district
 Combat Zone
 - city：Night City
@@ -87969,9 +89509,11 @@ uk:Думки блука у далечінь і далі
 ## White Hive LED-lined anti-piercing jacket
 - imagef：Jacket 19 basic 06F.png
 - imagem：Jacket 19 basic 06M.png
+- caption：With coolness regulators on the shoulders.
 - type：Outer Torso
 - style：Kitsch
 - weight：3.0
+- source：Clothing Vendor (Japantown)
 
 White Hive LED-lined anti-piercing jacket is a piece of Outer Torso equipment in . Included with the V's New Jackets DLC in Patch 1.3.
 
@@ -88041,6 +89583,7 @@ References
 
 ---
 ## Widow Maker
+- caption：A rifle that belonged to a cagey Raffen. Wasn't cagey enough, as it turns out.
 - manufacturer：Militech
 - type：Precision Rifle
 - technology：Tech
@@ -88055,6 +89598,7 @@ References
 - charge_time：1.20
 - headshot_damage_multiplier：150
 - armor_penetration：50
+- source：Ghost Town (dependent)
 - weight：7.8
 
 Widow Maker is an variant of the Militech M-179 Achilles in .
@@ -88103,6 +89647,7 @@ References
 
 ---
 ## Wild Dog
+- caption：This dog's got a big appetite. Don't forget to feed it.
 - type：Light Machine Gun
 - technology：Power
 - iconic：Repeated hits increase fire rate and Crit Chance. Quick Melee Attacks deal massive damage when ammo is empty.
@@ -88115,6 +89660,7 @@ References
 - ammo_capacity：150
 - headshot_damage_multiplier：85
 - armor_penetration：25
+- source：Firestarter (dependent)
 - weight：11.5
 
 Wild Dog is an variant of the Constitutional Arms Defender in .
@@ -88248,6 +89794,7 @@ ru:Уильям Хэр
 
 ---
 ## Willie McCoy
+affiliation
 - status：Alive
 - home：SoCal
 - gender：Male
@@ -88311,6 +89858,7 @@ ru:Ветряные двигатели
 
 ---
 ## Wired Head
+appears_books
 - type：Braindance club
 - city：Night City
 - district：Westbrook
@@ -88453,6 +90001,7 @@ References
 
 ---
 ## Wontons
+- caption：The city's best are served in Little China.
 - type：Consumable
 - duration：450 sec.
 - effects：Applies the Nourishment status. +5% Max Health
@@ -88936,6 +90485,7 @@ ru:Уайатт Алкен
 
 ---
 ## X-22 Flashbang Grenade
+- caption：A grenade that temporarily blinds enemies.
 - manufacturer：Militech
 - radius：7
 - effects：Applies Blinding for - sec. *−-% accuracy for affected human enemies for - sec.
@@ -88977,8 +90527,10 @@ Filippo-ubertino-grenade-artstation-v1-7.jpg
 
 ---
 ## XBD: Deep-Fried Death's-Head Moth
+- caption："An illicit braindance. Incompatible with your software."
 - type：Misc
 - buy_price：5000
+- source：Disasterpiece
 
 XBD: Deep-Fried Death's-Head Moth is a miscellaneous quest item in .
 
@@ -89067,6 +90619,7 @@ References
 - seats：2
 - doors：2
 - door_mount：Standard
+- source：See acquisition
 
 引文：It took two years to put this Yaiba together. An ultra-rare speed machine that's built for driving only one way: sideways.（ARV-Q340 Semimaru）
 
@@ -89099,6 +90652,7 @@ References
 
 ---
 ## Yaiba ASM-R250 Muramasa
+street_cred
 - type：Motorcycle
 - group：Road
 - manufacturer：Yaiba
@@ -89110,6 +90664,7 @@ References
 - weight：829
 - seats：1
 - cost：95000
+- source：See acquisition
 - horse_power：187
 
 引文：No matter its configuration, a tailor-made Muramasa never fails to deliver the perfect blend of elegance and performance worthy of Yaiba's exclusive clientele.（ASM-R250 Muramasa）
@@ -89166,6 +90721,7 @@ References
 - seats：1
 - cost：72000
 - street_cred：42
+- source：See acquisition
 
 The "Akashita" is a modified version of the standard Kusanagi, a motorcycle manufactured by Yaiba in .
 
@@ -89249,6 +90805,7 @@ ru:Яйба Кусанаги «Мидзути»
 - seats：1
 - cost：75000
 - street_cred：42
+- source：See acquisition
 - horse_power：183
 
 The Kusanagi "Peacekeeper" is a customized motorcycle manufactured by Yaiba in .
@@ -89275,6 +90832,7 @@ References
 - seats：1
 - cost：66,000
 - street_cred：26
+- source：See acquisition
 
 引文：This Kusanagi's sleek, aerodynamic frame conceals a powerful engine. Superhuman reflexes are recommended for optimal handling.（Kusanagi CT-3X）
 
@@ -89322,6 +90880,7 @@ ru:Яйба Кусанаги СТ-3Х
 
 ---
 ## Yaiba Tower
+appears_books
 - aka：Regina's Den
 - type：Office building
 - owner：Yaiba (formerly)
@@ -89357,6 +90916,8 @@ ru:Небоскрёб корпорации «Яйба»
 
 ---
 ## Yasha
+stamina_cost
+- caption：An Arasaka targeting system mounted on a Tsunami weapon? This formidable combination is starting to make waves.
 - manufacturer：Tsunami
 - type：Sniper Rifle
 - technology：Smart
@@ -89372,6 +90933,7 @@ ru:Небоскрёб корпорации «Яйба»
 - armor_penetration：25
 - lock_on_time：1.25
 - no_of_mod_slots：2
+- source：[https://cyberpunk.net/twitch-drops Twitch.tv Promotion]
 - weight：11.7
 
 Yasha (Japanese: 夜叉) is an variant of the Tsunami Ashura in .
@@ -89456,6 +91018,7 @@ ru:Елена Сидорова
 
 ---
 ## Yikes! Tofu Bar
+- caption：Flavor doesn't keep you moving – calories do!
 - brand：All Foods
 - type：Consumable
 - duration：450 sec.
@@ -89469,6 +91032,7 @@ Consuming Yikes! Tofu Bar applies the Nourishment status, increasing max Health 
 
 ---
 ## Yinglong
+- caption：A genius among smartguns.
 - manufacturer：Kang Tao
 - type：Submachine Gun
 - technology：Smart
@@ -89482,6 +91046,7 @@ Consuming Yikes! Tofu Bar applies the Nourishment status, increasing max Health 
 - ammo_capacity：45
 - headshot_damage_multiplier：50
 - lock_on_time：1.15
+- source：Living the Big Life
 - weight：5.0
 
 Yinglong (Simplified Chinese: 应龙) is an Kang Tao G-58 Dian in .
@@ -89988,6 +91553,8 @@ References
 
 ---
 ## Yugoslavia
+language *Croatian *Serbian *German *Russian
+ethnic_groups *Croat *Serb *Bosnian *Magyar *Albanian
 - population：24 million
 - literacy_rate：90%
 - military：300,000
@@ -90070,7 +91637,8 @@ References
 - gender：Male
 - hair_color：Black
 - eyes：Brown
-- location：Downtown, City Center|occupation=Clothing manager
+- location：Downtown, City Center
+- occupation：Clothing manager
 
 Zane Jagger is a Clothing Vendor in .
 
@@ -90164,6 +91732,7 @@ ru:Зария Хьюз
 
 ---
 ## Zeke Daniels
+- caption：2020
 - aka：ZZ Destroyer
 - age：24 (2020)
 - status：Alive (2020)
@@ -90273,6 +91842,7 @@ fr:Zetatech Atlus
 
 ---
 ## Zetatech Berserk
+- caption：Zetatech's Berserk implant will make you into a lean, mean killing machine. Not to mention hard to kill yourself, thanks to its revolutionary nanodermal impact-absorption systems.
 - manufacturer：Zetatech
 - type：Berserk
 - attribute：Body
@@ -90289,6 +91859,7 @@ Melee weapons only
 −-% fall damage. When it ends:
 +25% Health for each enemy neutralized. Duration: - sec.
 Cooldown: - sec.
+- source：Ripperdocs
 
 The Zetatech Berserk is a Berserk Operating System manufactured by Zetatech in .
 
@@ -90420,6 +91991,7 @@ References
 
 ---
 ## Zetatech Sandevistan
+- caption：The popular, mass-market Sandevistan from Zetatech. It's widely praised by users for its minimalism, useful airborne features and ease-of-use.
 - manufacturer：Zetatech
 - type：Sandevistan
 - attribute：Reflexes
@@ -90434,6 +92006,7 @@ Slows time by 60%
 +-% headshot and weakspot damage
 −30% fall damage Max duration: 6 sec.
 Cooldown: 45 sec.
+- source：See acquisition
 
 The Zetatech Sandevistan is a Sandevistan Operating System manufactured by Zetatech in .
 
@@ -90590,6 +92163,7 @@ Junk
 |}
 
 Misc
+{| class="fandom-table" width="100%"
 ! width="80%" |Name
 ! width="20%" |€$
 |-
@@ -90651,6 +92225,7 @@ ru:Зигги Кью
 
 ---
 ## Zion Wylde
+appears_games
 - status：Dependent
 - dod：2077
 - home：Badlands
@@ -90734,6 +92309,7 @@ fr:Zoli Barnes
 
 ---
 ## Zor
+role
 - aka：Jay (real name)
 ArS-03 (human-AI hybrid)
 - status：Deceased
