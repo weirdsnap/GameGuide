@@ -4,15 +4,15 @@
 # 用途：tests/test_qa.py 的 20 条 e2e 用例真调 LLM（一次约 10 分钟、消耗额度），
 # 不适合每次 pytest 都跑，也不该像以前那样永远跳过。规则（见 docs/EVAL_SYSTEM.md §L1.5）：
 #   - 上次跑过之后，若 HK 相关文件有改动 → 跑
-#   - 没有改动 → 跳过（最长间隔一周，由外部 cron 保证每周至少触发一次）
+#   - 没有改动 → 跳过
 #
 # 用法：
 #   scripts/eval/hk_e2e_gate.sh              # 判定 + 需要时跑
 #   scripts/eval/hk_e2e_gate.sh --dry-run    # 只判定，不跑
 #   scripts/eval/hk_e2e_gate.sh --force      # 无条件跑
 #
-# crontab（任选一处装，Mac 端优先——服务器只跑部署验证）：
-#   0 4 * * 1  cd /path/to/agent && scripts/eval/hk_e2e_gate.sh >> data/eval/hk_e2e.log 2>&1
+# 不装 crontab。触发时机：改完 HK 相关文件后手动跑，或看 scripts/deploy/api.sh
+# 启动时的提醒（它会调本脚本 --dry-run 判定）。
 #
 # 退出码：0 = 通过或按规则跳过；1 = 用例失败；2 = 环境不满足（未跑）。
 

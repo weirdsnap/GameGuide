@@ -10,6 +10,7 @@
 #   2. 等待端口释放
 #   3. 启动新的 API Server（后台运行）
 #   4. 检查启动状态
+#   5. HK e2e 提醒（不做定时：按「HK 相关文件是否改动」判定，只提示不阻断）
 #
 # 注意:
 #   在 Mac 上传完向量库后，SSH 到服务器运行此脚本
@@ -143,6 +144,19 @@ if kill -0 "${NEW_PID}" 2>/dev/null; then
     echo "  测试:"
     echo "    curl http://localhost:${PORT}/api/status"
     echo "    curl http://localhost:${PORT}/api/quota"
+    echo ""
+    # ── 5. HK e2e 提醒（无定时任务；改了 HK 相关文件就提醒跑一次）──
+    if [ -x "${SCRIPT_DIR}/scripts/eval/hk_e2e_gate.sh" ]; then
+        GATE_OUT="$("${SCRIPT_DIR}/scripts/eval/hk_e2e_gate.sh" --dry-run 2>&1 | head -1 || true)"
+        case "${GATE_OUT}" in
+            *"跑："*)
+                echo "  ⚠️  空洞骑士相关文件有改动，建议先跑一遍 e2e："
+                echo "      bash scripts/eval/hk_e2e_gate.sh"
+                echo "      （依据：scripts/eval/hk_e2e_gate.sh 的命中路径判定；不跑也不影响启动）"
+                echo ""
+                ;;
+        esac
+    fi
 else
     echo "❌ 启动失败！请查看日志:"
     echo "   tail -50 ${LOG_FILE}"
