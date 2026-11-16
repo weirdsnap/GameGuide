@@ -17,7 +17,8 @@ from rag_agent.game_router import (
 )
 from rag_agent.game_router import AVAILABLE_GAMES
 from rag_agent.game_registry import GAME_MENU, KNOWN_KEYWORDS
-from rag_agent.tools import GAME_TOOLS
+from rag_agent.tools import ACT_LIMIT, GAME_TOOLS
+from rag_agent.progress import infer_progress, progress_prompt_note
 
 # 图状态类
 class AgentState(TypedDict, total=False):
@@ -35,6 +36,7 @@ class AgentState(TypedDict, total=False):
     menu_text: Optional[str]
     vs_ok: Optional[bool]
     db_ok: Optional[bool]
+    progress_level: Optional[int]     # 防剧透 P1：本轮用户进度上界（act 轴）
     # ── 最终回答 ──
     answer: str
     # ── 观测（第 0 步：只统计不参与决策）──
@@ -218,7 +220,11 @@ def detect_game_node(state) -> dict:
                 "menu_text": f"抱歉，{cfg['name']} 的知识库尚未准备好。请联系管理员初始化数据。",
                 "last_game": None, "last_game_confirmed": False}
 
+    # 防剧透 P1：把用户进度解析成结构化上界，既写进 prompt（L2），
+    # 也通过 state.progress_level 传给 agent 节点注入检索层（L1）。
+    progress = infer_progress(game_key, q, state.get("history"))
     prompt = build_game_prompt(game_key) + "\n\n" + build_common_rules(game_key)
+    prompt += progress_prompt_note(progress)
     if switched:
         prompt += f"\n\n**系统提示：** 用户切换了话题开始聊{cfg['name']}，除非用户主动提及和之前游戏的对比，否则上述的历史请忽略。"
 
@@ -229,7 +235,8 @@ def detect_game_node(state) -> dict:
         "db_ok": db_ok, 
         "game_switched": switched,
         "last_game": last_game,
-        "last_game_confirmed": last_game_confirmed
+        "last_game_confirmed": last_game_confirmed,
+        "progress_level": progress.level
     }
 
 
@@ -384,7 +391,11 @@ def _agent_answer(result: dict) -> dict:
 def agent_node_sync(state: AgentState) -> dict:
     """Agent 节点（同步版，graph.invoke / ask() 路径用）。"""
     agent, messages = _agent_setup(state)
-    result = agent.invoke({"messages": messages}, {"recursion_limit": 50})
+    token = ACT_LIMIT.set(state.get("progress_level"))
+    try:
+        result = agent.invoke({"messages": messages}, {"recursion_limit": 50})
+    finally:
+        ACT_LIMIT.reset(token)
     return _agent_answer(result)
 
 
@@ -402,7 +413,11 @@ async def agent_node(state: AgentState) -> dict:
     """
     agent, messages = _agent_setup(state)
     # ⑤ 驱动 ReAct 循环 —— recursion_limit 是循环保险丝
-    result = await agent.ainvoke({"messages": messages}, {"recursion_limit": 50})
+    token = ACT_LIMIT.set(state.get("progress_level"))
+    try:
+        result = await agent.ainvoke({"messages": messages}, {"recursion_limit": 50})
+    finally:
+        ACT_LIMIT.reset(token)
     return _agent_answer(result)
 
 

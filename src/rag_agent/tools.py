@@ -7,6 +7,7 @@
 import logging
 import os
 import re
+from contextvars import ContextVar
 from pathlib import Path
 from typing import Dict, List, Optional
 
@@ -17,6 +18,10 @@ from rag_agent.glossary import expand_query
 from rag_agent.vectorstore import load_vectorstore
 
 logger = logging.getLogger(__name__)
+
+# 本轮请求的进度上界：graph 在调用 Agent 前设置，工具在模型没传 max_act 时兜底。
+# 用 ContextVar 而不是模块全局，保证并发请求之间互不串（aiohttp 每个请求一个 task）。
+ACT_LIMIT: ContextVar[Optional[int]] = ContextVar("gameguide_act_limit", default=None)
 
 
 def _resolve_game_key(name: str) -> Optional[str]:
@@ -183,6 +188,10 @@ def search_knowledge_base(query: str, game: str, k: int = 8, max_act: int | None
         _game_key, cfg = _tool_game_cfg(game)
     except ValueError as e:
         return f"[参数错误] {e}"
+
+    # 模型没有显式传 max_act 时，使用 graph 注入的本轮进度上界（确定性兜底）
+    if max_act is None:
+        max_act = ACT_LIMIT.get()
 
     vs_dir = cfg["vectorstore_dir"]
     game_name = cfg["name"]
