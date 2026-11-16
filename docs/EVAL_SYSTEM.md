@@ -18,6 +18,9 @@ L0/L2 是这次事故后新加的两层，正好对应「代码层」与「模�
 
 - `tests/test_routing_regression.py`：线上误判轮次固化成用例。
   已知缺陷挂 `xfail(strict=True)`——修好后变 XPASS 会直接报错，逼着摘标记。
+- `tests/test_routing_gaps.py`：非误判类缺口（简写不识别、专名两种译法、兜底静默、
+  专有与通用词打平、来源不可审计），来源见 `docs/ROUTING_GAPS_2026-11-16.md`。
+  与上面的文件分开是为了避免两端同时改同一文件。
 - `tests/test_spoiler_severity.py`：剧透分级词表与阈值筛选（`spoiler_hits` / `spoiler_over`）。
 - 其余：`test_graph.py`、`test_api_handlers.py`、`test_quota.py`、`test_tools.py` 等。
 
