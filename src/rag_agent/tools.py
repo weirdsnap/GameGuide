@@ -14,6 +14,7 @@ from typing import Dict, List, Optional
 from langchain.tools import tool
 
 from rag_agent.game_router import AVAILABLE_GAMES
+from rag_agent.act_index import title_act
 from rag_agent.glossary import expand_query
 from rag_agent.vectorstore import load_vectorstore
 
@@ -221,12 +222,23 @@ def search_knowledge_base(query: str, game: str, k: int = 8, max_act: int | None
         if max_act is not None:
             # 防剧透：语言 + act 上界组合过滤（dict filter 表达不了「缺 act 放行」，
             # 用 callable）。act 解析不出的文档（设定/法术/物品类）始终保留。
+            # 建库时只有约 10% 的 wiki 块带 act；这里用结构化库的
+            # locations/quests 同名表做查询期兜底（act_index.py），不重建也能收紧。
+            def _resolved_act(meta):
+                a = meta.get("act")
+                if a is None:
+                    a = title_act(_game_key, meta.get("title"))
+                return a
+
             def _lang_act_filter(lang):
                 def _f(meta):
                     if meta.get("language") != lang:
                         return False
-                    a = meta.get("act")
-                    return a is None or int(a) <= max_act
+                    try:
+                        a = _resolved_act(meta)
+                        return a is None or int(a) <= max_act
+                    except (TypeError, ValueError):
+                        return True
                 return _f
             en_filter = _lang_act_filter("en")
             zh_filter = _lang_act_filter("zh")
@@ -247,10 +259,16 @@ def search_knowledge_base(query: str, game: str, k: int = 8, max_act: int | None
                 for d in getattr(vs.docstore, "_dict", {}).values():
                     t = (d.metadata or {}).get("title", "").strip().lower()
                     if t and t in wanted:
-                        # 遵循与检索一致的过滤：语言必须在 en/zh，act 不越界
-                        if max_act is not None and d.metadata.get("act") is not None \
-                                and int(d.metadata["act"]) > max_act:
-                            continue
+                        # 遵循与检索一致的过滤：act 不越界（含 DB 同名兜底）
+                        if max_act is not None:
+                            a = (d.metadata or {}).get("act")
+                            if a is None:
+                                a = title_act(_game_key, t)
+                            try:
+                                if a is not None and int(a) > max_act:
+                                    continue
+                            except (TypeError, ValueError):
+                                pass
                         pinned.append(d)
                         if len(pinned) >= 2 * len(hits):
                             break
