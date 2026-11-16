@@ -71,32 +71,25 @@ _FALLBACKPT = (
                 "「来源：知识库「X」」；没有工具返回时不要写来源。"
             )
 
-SWITCH_PATTERNS: List[str] = [
-    r"换(个|一)?(游戏|话题|别的|其他)",
-    r"讲(讲|一下|一哈)?(别的|其他|下一个|新)",
-    r"(换个|换个别的|换一个|查别的|看别的)",
-    r"(查|看|讲)(别的|其他|下一个)游戏",
-    r"其他游戏|别的游戏|下一个游戏",
-    r"(不说|不问|不谈|不讲)(这个|这个了)",
-    r"有没有.*(别的|其他).*(游戏|攻略)",
-    r"(还有|还有什么)?(别的|其他的|其他的游戏|其他游戏).*(推荐|说说|讲讲|介绍|问)",
-    r"(不聊|不谈|不说|不讲)(这个|这个了|了)",
-    r"算了.*(换|别的|其他)",
-]
+# 切换意图的正则表已收敛到 game_router.SWITCH_PATTERNS（is_switch_query 使用），
+# 这里不要再维护第二份（历史上有过一份完全相同的死代码，已删）。
 
 # ── 外部游戏列表（不在我们的知识库中，由 LLM 自身知识回答）──
+# 注意：别再列「博德之门 / 怪物猎人」这类已支持游戏的词——KNOWN_KEYWORDS
+# 排除先跑，那些词在这里是永远不会触发的死条目（「monster hunter」保留：
+# 用户问的是怪物猎人世界等未收录作品时要走兜底）。
 _KNOWN_EXTERNAL_GAMES = [
     "原神", "genshin", "星穹铁道", "崩坏", "honkai",
     "星露谷", "stardew valley", "我的世界", "minecraft",
     "艾尔登法环", "elden ring", "黑魂", "dark souls", "只狼", "sekiro",
     "巫师", "witcher", "gta", "荒野大镖客", "red dead",
-    "博德之门", "baldur", "最终幻想", "final fantasy",
+    "最终幻想", "final fantasy",
     "塞尔达", "zelda", "宝可梦", "pokemon",
     "怪物猎人", "monster hunter", "文明", "civilization",
     "英雄联盟", "league of legends", "lol", "dota",
     "战神", "god of war", "神秘海域", "uncharted",
     "古墓丽影", "tomb raider", "生化危机", "resident evil",
-    "死亡搁浅", "死亡搁浅", "death stranding",
+    "死亡搁浅", "death stranding",
     "上古卷轴", "skyrim", "辐射", "fallout",
     "双人成行", "it takes two", "胡闹厨房", "overcooked",
 ]

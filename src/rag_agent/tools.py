@@ -61,12 +61,12 @@ def _query_db(db_path: str, sql: str, params: tuple = ()) -> List[Dict]:
     try:
         cur = db.cursor()
         cur.execute(sql, params)
-        rows = [dict(r) for r in cur.fetchall()]
-        db.close()
-        return rows
+        return [dict(r) for r in cur.fetchall()]
     except Exception as e:
         logger.warning(f"DB query error: {e}")
         return []
+    finally:
+        db.close()
 
 
 def _table_columns(db_path: str, table: str) -> set[str]:
