@@ -239,29 +239,45 @@ async def cors_middleware(app, handler):
 # ══════ 剧透审计词表（只审计、不拦截）══════
 # 每轮答案里命中的后期内容记进 turn 日志的 spoiler_hits，用来从真实流量里
 # 揪出「答越界了」的样本，做回归集。真拦截在提示词层与检索层，见
-# docs/SPOILER_CONTROL_PLAN.md。条目里的 act = 该内容最早出现的幕数（对照用户进度用）。
-SPOILER_TERMS: dict[str, list[tuple[str, int]]] = {
+# docs/SPOILER_CONTROL_PLAN.md。
+#
+# 条目 = (词, 最早出现的幕, 伤害等级)：
+#   act   对照用户进度用（进度轴，回答「该不该说」）
+#   level 伤害等级 1/2/3（回答「说了有多糟」），定义与处置矩阵见 docs/SPOILER_SEVERITY.md
+#   记忆法：L1 是地图（地名/道具名/机制存在性）、L2 是攻略（解法/数值/触发条件）、
+#           L3 是谜底（身份反转/重大抉择后果/角色命运/结局）
+SPOILER_TERMS: dict[str, list[tuple[str, int, int]]] = {
     "baldurs_gate3": [
-        ("Mason's Guild", 2), ("石匠工会", 2),
-        ("Grand Mausoleum", 2), ("大陵墓", 2),
-        ("Gauntlet of Shar", 2), ("莎尔的试炼", 2),
-        ("Moonrise Towers", 2), ("月出之塔", 2),
-        ("Nightsong", 2), ("夜之歌", 2),
-        ("Lower City", 3), ("下城区", 3),
-        ("Rivington", 3), ("利文顿", 3),
-        ("Netherbrain", 3), ("主脑", 3),
-        ("Bhaal", 3), ("巴尔", 3),
+        # act 2：地名与组织，知道也不损体验
+        ("Mason's Guild", 2, 1), ("石匠工会", 2, 1),
+        ("Grand Mausoleum", 2, 1), ("大陵墓", 2, 1),
+        ("Gauntlet of Shar", 2, 1), ("莎尔的试炼", 2, 1),
+        ("Moonrise Towers", 2, 1), ("月出之塔", 2, 1),
+        # act 2 但属身份反转核心
+        ("Nightsong", 2, 3), ("夜之歌", 2, 3),
+        # act 3：地点/区域名
+        ("Lower City", 3, 1), ("下城区", 3, 1),
+        ("Rivington", 3, 1), ("利文顿", 3, 1),
+        # act 3：终局设定与反派势力，知道名字等于提前拆一层
+        ("Netherbrain", 3, 2), ("主脑", 3, 2),
+        ("Bhaal", 3, 2), ("巴尔", 3, 2),
     ],
 }
 
 
 def spoiler_hits(game: str | None, answer: str) -> list[dict]:
-    """返回答案里命中的后期内容（term + act），没命中就空列表。纯函数，可单测。"""
+    """返回答案里命中的后期内容（term + act + level），没命中就空列表。纯函数，可单测。"""
     terms = SPOILER_TERMS.get(game or "", ())
     if not terms or not answer:
         return []
     low = answer.lower()
-    return [{"term": t, "act": a} for t, a in terms if t.lower() in low]
+    return [{"term": t, "act": a, "level": lv}
+            for t, a, lv in terms if t.lower() in low]
+
+
+def spoiler_over(hits: list[dict], max_level: int = 1) -> list[dict]:
+    """从命中里筛出超过本轮允许等级的部分（默认只放过 L1）。纯函数，可单测。"""
+    return [h for h in hits or [] if int(h.get("level", 1)) > int(max_level)]
 
 
 def turn_record(*, ip: str, question: str, elapsed: float, meta: dict,
@@ -296,6 +312,9 @@ def turn_record(*, ip: str, question: str, elapsed: float, meta: dict,
         hits = spoiler_hits(meta.get("game"), answer)
         if hits:
             record["spoiler_hits"] = hits
+            worst = max(int(h.get("level", 1)) for h in hits)
+            if worst >= 3:
+                record["spoiler_worst"] = worst   # 日报按这个列优先抽检
     if meta.get("error"):
         record["error"] = str(meta["error"])[:200]
     return record

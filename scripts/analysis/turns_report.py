@@ -64,10 +64,13 @@ def main() -> None:
 
     if args.spoilers:
         hits = [r for r in records if r.get("spoiler_hits")]
-        print(f"剧透命中样本 {len(hits)} / {len(records)} 轮\n")
+        worst_l3 = sum(1 for r in hits
+                       if max(int(h.get("level", 1)) for h in r["spoiler_hits"]) >= 3)
+        print(f"剧透命中样本 {len(hits)} / {len(records)} 轮（其中 L3 {worst_l3} 轮）\n")
         for r in hits:
             ts = datetime.fromtimestamp(r["ts"]).strftime("%m-%d %H:%M")
-            terms = ", ".join(f"{h['term']}(act{h['act']})" for h in r["spoiler_hits"])
+            terms = ", ".join(f"{h['term']}(act{h['act']},L{h.get('level', 1)})"
+                              for h in r["spoiler_hits"])
             print(f"[{ts}] {r.get('game')} | {r.get('question','')[:40]}")
             print(f"    命中: {terms}")
             head = r.get("answer_head", "")
@@ -81,15 +84,16 @@ def main() -> None:
         by_day[datetime.fromtimestamp(r["ts"]).strftime("%Y-%m-%d")].append(r)
 
     print(f"总轮次 {len(records)}，覆盖 {len(by_day)} 天\n")
-    print(f"{'日期':<12}{'轮次':>6}{'独立IP':>8}{'均耗s':>8}{'P90s':>7}{'失败':>6}{'剧透命中':>8}")
+    print(f"{'日期':<12}{'轮次':>6}{'独立IP':>8}{'均耗s':>8}{'P90s':>7}{'失败':>6}{'剧透':>5}{'L3':>4}")
     for day in sorted(by_day):
         rs = by_day[day]
         ips = {r.get("ip") for r in rs}
         elapsed = [r.get("elapsed_ms", 0) / 1000 for r in rs]
         fails = sum(1 for r in rs if r.get("error") or r.get("route") == "error")
         spoilers = sum(1 for r in rs if r.get("spoiler_hits"))
+        l3 = sum(1 for r in rs if r.get("spoiler_worst", 0) >= 3)
         print(f"{day:<12}{len(rs):>6}{len(ips):>8}{statistics.mean(elapsed):>8.1f}"
-              f"{pct(elapsed, 0.9):>7.1f}{fails:>6}{spoilers:>8}")
+              f"{pct(elapsed, 0.9):>7.1f}{fails:>6}{spoilers:>5}{l3:>4}")
 
     games = Counter(r.get("game") or "<未识别>" for r in records)
     routes = Counter(r.get("route") or "<空>" for r in records)
