@@ -7,6 +7,7 @@
 |---|---|---|---|---|---|
 | L0 单测 | `pytest tests/` | 纯函数与契约：路由决策、剧透分级、额度、SSE 协议 | 否 | ~2s | 每次改动 / CI |
 | L1 冒烟评估 | `tests/test_light.py` | 路由 12 + 检索 13 + E2E 6（脚本式，pytest 里被 collect_ignore） | E2E 部分要 | 分钟级 | 部署前 |
+| L1.5 单游戏 e2e | `scripts/eval/hk_e2e_gate.sh` → `tests/test_qa.py` | 空洞骑士 20 条关键词式用例，按改动触发 | 是 | 约 10 分钟 | 每周至少一次 / HK 改动后 |
 | L2 表现回放 | `scripts/eval/agent_behavior.py` | 多轮场景：落库游戏 / 工具 game 参数 / 引用真伪 / 剧透等级 | routing 不要，full 要 | routing ~2s，full 分钟级 | 改路由、改提示词、改检索前后 |
 | L3 质量打分 | `scripts/eval/ragas_eval.py` | RAGAS（忠实度/相关性）+ LLM 裁判 | 要 | 十分钟级 | 阶段迭代（Mac 端跑） |
 
@@ -29,6 +30,57 @@ L0/L2 是这次事故后新加的两层，正好对应「代码层」与「模�
 - 一发现问题先写一条会失败的用例，再改代码。
 - 用例 id 带线上时间戳（如 `online-2026-11-15#2346`），能直接定位到 `data/turns/` 里的记录。
 - 单字信号词、单字剧透词这类数据契约用测试兜住，别靠 review 记性。
+
+## L1.5：单游戏端到端——按改动触发 + 每周兜底
+
+`tests/test_qa.py` 是空洞骑士的关键词式回归（20 条：螳螂爪中英 / 梦钉 / 水晶之心 /
+伊丝玛的眼泪 / 帝王之翼 / 泪水之城 / 深巢入口 / 愚人竞技场 / 白宫 / Boss / 辐光 /
+白王 / 大黄蜂 / 面具碎片 / 骨钉升级 + silksong_info / unrelated_game / unrelated_math 三条边界）。
+每条断言是「回答必须包含 X、不得出现 Y」，真调 LLM 与检索。
+
+**历史问题**：它标了 `@pytest.mark.e2e`，默认永远 skip，等于存在但不验证任何东西
+（僵尸用例，还在 `pytest -q` 的 skipped 计数里占 20）。
+
+**现在的规则**：用闸门脚本判定「该不该跑」，不靠人记。
+
+```bash
+scripts/eval/hk_e2e_gate.sh            # 判定 + 需要时跑
+scripts/eval/hk_e2e_gate.sh --dry-run  # 只看判定结果
+scripts/eval/hk_e2e_gate.sh --force    # 无条件跑
+```
+
+判定逻辑：读 `data/eval/hk_e2e.state` 里上次通过的 commit，
+`git diff --name-only <last>..HEAD` 命中下列任一前缀才跑，否则跳过：
+
+```
+src/rag_agent/game_registry.py      # HK 信号词与配置
+src/rag_agent/game_router.py        # 共享路由
+src/rag_agent/graph.py              # 决策节点与提示词
+src/rag_agent/tools.py              # 检索工具
+src/rag_agent/vectorstore.py        # 分块与 embedding
+games/hollow_knight/                # HK 数据与库
+tests/test_qa.py                    # 用例本身
+requirements.txt                    # 换 embedding 模型也算
+```
+
+（完整名单以脚本里的 `HK_PATHS` 数组为准，上表可能漏记共享模块如 `multi_agent.py`。）
+
+**每周兜底**：改动触发只管「跑不跑」，保证不了「多久跑一次」。cron 每周触发一次脚本，
+两者合起来就是「每周一次，期间无 HK 改动则跳过」。由 Mac 端装（核心测试归 Mac）：
+
+```cron
+0 4 * * 1  cd ~/learning/GameGuide && scripts/eval/hk_e2e_gate.sh >> data/eval/hk_e2e.log 2>&1
+```
+
+**约定**：
+
+- 只在**通过**时写 `hk_e2e.state`；失败不更新，下次 cron 仍会跑——避免一次失败被
+  「SHA 没变」跳过而永远看不见。`data/eval/hk_e2e.history` 记 pass/FAIL 流水。
+- 需要 `.env` 的 API key 与 `FASTEMBED_CACHE_PATH`（脚本默认 `$ROOT/.cache/fastembed`）；
+  缓存不在时退出码 2，不当作失败。
+- 一次跑 20 问、约 10 分钟，会消耗 DeepSeek 额度，所以不进 CI、不跟单测绑。
+- 新增游戏若要类似保障，把用例拆到 `tests/test_qa_<game>.py` 并在脚本 `HK_PATHS`
+  旁再加一套路径与状态文件；不要往 `test_qa.py` 塞别的游戏。
 
 ## L2：模型/Agent 表现层（场景回放）
 
