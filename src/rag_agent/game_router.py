@@ -13,7 +13,24 @@ from typing import Any, Dict, List, Optional, Tuple
 
 from langchain.tools import tool
 
-from rag_agent.game_registry import AVAILABLE_GAMES, GAME_SIGNALS, GAME_EXACT_PATTERNS, EXTRA_PROMPT_NOTES, GAMES_DIR
+from rag_agent.game_registry import (
+    AVAILABLE_GAMES, GAME_SIGNALS, GAME_EXACT_PATTERNS,
+    EXTRA_PROMPT_NOTES, GAMES_DIR, GENERIC_SIGNALS,
+)
+
+# ── 路由阈值（与 multi_agent._game_from_history 共用，别各写一份）──────────
+# DETECT_TH：新建会话靠它定游戏；通用词封顶 0.35，刚好能过。
+# SWITCH_TH：会话中段从 A 切到 B，必须同时有专有命中（见 graph.detect_game_node）。
+DETECT_TH = 0.30
+SWITCH_TH = 0.60
+# 旧名兼容（外部调用方/测试还在 import）；新代码请用 DETECT_TH/SWITCH_TH。
+GAME_CONFIDENCE_TH = DETECT_TH
+
+# 信号权重：专有词是硬证据，跨游戏通用词只做弱证据。
+W_EXCLUSIVE = 1.0
+W_GENERIC = 0.25
+# 只有通用词时 confidence 的上限：能过 DETECT_TH，但过不了 SWITCH_TH。
+GEN_ONLY_CAP = 0.35
 
 
 
@@ -31,52 +48,80 @@ def _match_signal(signal: str, q: str) -> bool:
     return sl in q
 
 
-def detect_game(query: str) -> Tuple[Optional[str], float]:
-    """检测用户问题指向哪个游戏。
+def detect_game_detail(query: str) -> Tuple[Optional[str], float, bool]:
+    """检测游戏并返回 (game_key, confidence, exclusive_hit)。
 
-    Returns:
-        (game_key, confidence) 或 (None, 0) 不确定时
+    exclusive_hit 表示最佳候选命中了**专有词**（含 exact_patterns）。
+    会话中段切换只允许 exclusive_hit=True 且 confidence >= SWITCH_TH 的情况，
+    通用词（GENERIC_SIGNALS）不能单独把用户从已确认的游戏里拽走。
+
+    规则与算例见 docs/P0_ROUTING_GATE_PLAN.md §4.2。
     """
     if not query or not query.strip():
-        return None, 0
+        return None, 0, False
 
     q = query.lower().strip()
 
+    # 1) 精确模式（游戏名/整句简写）是硬证据，直接短路
     for game, patterns in GAME_EXACT_PATTERNS.items():
         for pat in patterns:
             if re.search(pat, q):
-                return game, 1.0
+                return game, 1.0, True
 
-    # 模糊匹配信号词
-    scores: Dict[str, int] = {}
+    # 2) 信号词加权：专有 1.0，跨游戏通用 0.25
+    scores: Dict[str, float] = {}
+    exclusive_hits: Dict[str, bool] = {}
     for game, signals in GAME_SIGNALS.items():
-        score = 0
+        score = 0.0
+        has_exclusive = False
         for signal in signals:
-            if _match_signal(signal, q):
-                score += 1
+            if not _match_signal(signal, q):
+                continue
+            if signal in GENERIC_SIGNALS:
+                score += W_GENERIC
+            else:
+                score += W_EXCLUSIVE
+                has_exclusive = True
         if score > 0:
             scores[game] = score
+            exclusive_hits[game] = has_exclusive
 
     if not scores:
-        return None, 0
+        return None, 0, False
 
     total = sum(scores.values())
     best_game = max(scores, key=scores.get)
     best_score = scores[best_game]
-
-    # 置信度 = 最佳分数 / 总分
     confidence = best_score / total
 
-    # 如果与第二名差距很小，降低置信度
+    # 打平（通常只发生在两边都只有通用词时）沿用旧的折半规则
     sorted_scores = sorted(scores.values(), reverse=True)
-    if len(sorted_scores) > 1 and sorted_scores[0] - sorted_scores[1] <= 0:
+    if len(sorted_scores) > 1 and sorted_scores[0] == sorted_scores[1]:
         confidence *= 0.5
 
-    # 最低阈值 0.3
-    if confidence < 0.3:
-        return None, confidence
+    exclusive = exclusive_hits.get(best_game, False)
 
-    return best_game, min(confidence, 1.0)
+    # 全靠通用词时：
+    #   - 两个游戏互相打架 → 结论是「不知道」，不许挑一个；
+    #   - 只有一个候选 → 允许定游戏（新会话「这个护符怎么拿」），但封顶 0.35。
+    if not exclusive:
+        if len(scores) > 1:
+            return None, confidence, False
+        confidence = min(confidence, GEN_ONLY_CAP)
+
+    if confidence < DETECT_TH:
+        return None, confidence, False
+
+    return best_game, min(confidence, 1.0), exclusive
+
+
+def detect_game(query: str) -> Tuple[Optional[str], float]:
+    """兼容旧签名：返回 (game_key, confidence)。
+
+    需要区分「专有命中/通用词」时用 `detect_game_detail`。
+    """
+    game, confidence, _exclusive = detect_game_detail(query)
+    return game, confidence
 
 
 def build_game_prompt(game_key: str) -> str:

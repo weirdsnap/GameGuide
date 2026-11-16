@@ -11,7 +11,10 @@ from langgraph.config import get_stream_writer
 from langgraph.utils.runnable import RunnableCallable
 
 from rag_agent.config import LLM_CONFIG
-from rag_agent.game_router import detect_game, build_game_prompt, build_common_rules, is_switch_query
+from rag_agent.game_router import (
+    DETECT_TH, SWITCH_TH, build_common_rules, build_game_prompt,
+    detect_game, detect_game_detail, is_switch_query,
+)
 from rag_agent.game_router import AVAILABLE_GAMES
 from rag_agent.game_registry import GAME_MENU, KNOWN_KEYWORDS
 from rag_agent.tools import GAME_TOOLS
@@ -57,7 +60,9 @@ _FALLBACKPT = (
                 "可能不完全准确」。\n"
                 "2. 然后尽力回答用户的问题。\n"
                 "3. 如果确实不知道答案，诚实承认不知道。\n"
-                "4. 使用中文回答。"
+                "4. 使用中文回答。\n"
+                "5. 如果用户想要知识库级别的准确信息，提示他直接说出游戏名称"
+                "（支持列表见上），这样就能切换到对应知识库。"
             )
 
 SWITCH_PATTERNS: List[str] = [
@@ -146,7 +151,8 @@ def _names_external_game(q: str) -> bool:
     return False
 
 
-GAME_CONFIDENCE_TH = 0.4
+# 兼容旧名（外部/测试可能还在 import）；判定逻辑用 DETECT_TH / SWITCH_TH。
+GAME_CONFIDENCE_TH = DETECT_TH
 
 def detect_game_node(state) -> dict:
     
@@ -154,21 +160,27 @@ def detect_game_node(state) -> dict:
     if not q:
         return  {"detected_game": None, "menu_text": "请问你想了解哪款游戏的攻略？"}
 
-    game_key, confidence = detect_game(q)
+    game_key, confidence, exclusive = detect_game_detail(q)
     last_game = state.get("last_game")
     last_game_confirmed = state.get("last_game_confirmed", False)
     switched = False
 
     # 决策顺序（切换权交给用户，见 docs/ROUTING_FINDINGS.md 建议 A-D）：
-    #   1. 明确点名已知游戏（含跨游戏点名→切换）
+    #   1. 明确点名已知游戏：专有命中且过 SWITCH_TH 才允许跨游戏切换
     #   2. 明确切换意图 → 切换菜单
     #   3. 明确点名外部游戏 → LLM 兜底并清空上下文
     #   4. 有历史且上轮游戏已确认 → 无条件沿用，不再被泛游戏用语打断
     #   5. 有历史但推不出游戏 → LLM 带历史兜底（不打断会话）
     #   6. 无历史也推不出 → 新菜单（菜单只留给空历史）
-    if confidence >= GAME_CONFIDENCE_TH:
-        if last_game and last_game_confirmed and game_key != last_game:
+    if game_key and last_game and last_game_confirmed and game_key != last_game:
+        # 通用词（护符/灵魂/法术）不能单独推翻已确认的会话：
+        # 只有专有命中（游戏名/角色/地名）且过门槛才切；否则静默沿用。
+        if exclusive and confidence >= SWITCH_TH:
             switched = True
+            last_game, last_game_confirmed = game_key, True
+        else:
+            game_key = last_game
+    elif game_key:
         last_game, last_game_confirmed = game_key, True
     elif is_switch_query(q):
         return {

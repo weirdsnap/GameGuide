@@ -14,26 +14,34 @@ import logging
 
 from langchain_core.messages import AIMessageChunk
 
-from rag_agent.game_router import detect_game, is_switch_query
-from rag_agent.graph import GAME_CONFIDENCE_TH, _names_external_game, get_graph
+from rag_agent.game_router import DETECT_TH, detect_game_detail, is_switch_query
+from rag_agent.graph import _names_external_game, get_graph
 
 logger = logging.getLogger(__name__)
 
 
 def _game_from_history(history) -> str | None:
-    """从当前会话推导游戏，切换和未知游戏会中断旧上下文。"""
+    """从当前会话推导游戏，切换和未知游戏会中断旧上下文。
+
+    与 graph.detect_game_detail 共用 DETECT_TH：先找**专有命中**（游戏名/角色/地名），
+    找不到再退回最近一条仅靠通用词定向的消息。这样「BG3 会话里追问一句护符」
+    不会被下一轮的历史反推误判成空洞骑士（通用词只做弱证据）。
+    """
+    weak_game: str | None = None
     for message in reversed(history or []):
         if not isinstance(message, dict) or message.get("role") != "user":
             continue
         content = message.get("content", "")
         if not isinstance(content, str):
             continue
-        game, confidence = detect_game(content)
-        if confidence >= GAME_CONFIDENCE_TH:
+        game, confidence, exclusive = detect_game_detail(content)
+        if game and exclusive:
             return game
+        if game and confidence >= DETECT_TH and weak_game is None:
+            weak_game = game
         if is_switch_query(content) or _names_external_game(content):
             return None
-    return None
+    return weak_game
 
 
 def _build_initial_state(question, history, model_name, verbose) -> dict:
