@@ -171,6 +171,10 @@ terraria 中文 `/row` 的无 key 散段（行名）被丢；**wiki 有序列表
 `hollow_knight_data.db`、`data/terraria_data.db` 已删（无代码引用）。
 
 **未做（需重抓，卡在 Fandom 不可达）**：silksong 整站碎片、terraria 中文标题垃圾。
+根因已定位（不是清洗能修的）：silksong 是采集脚本把整页 HTML 压成单行 + 只删外层 navbox，
+单页中位 161KB、88.8% 页超 20KB；terraria 中文抽的是英文正文，标题才是中文。
+方案与脚本见 `docs/REFETCH_PLAN.md`（新增 `scripts/fetch/refetch_wiki.py`，带质量闸门与断点续传，
+在 Mac 上跑）。
 **生效条件**：改的是源文本，向量库还是旧的——需 Mac 按现有流程重建。
 
 ## 本轮已解决（别再重复排查）
