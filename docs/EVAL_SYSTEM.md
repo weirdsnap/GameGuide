@@ -31,7 +31,7 @@ L0/L2 是这次事故后新加的两层，正好对应「代码层」与「模�
 - 用例 id 带线上时间戳（如 `online-2026-11-15#2346`），能直接定位到 `data/turns/` 里的记录。
 - 单字信号词、单字剧透词这类数据契约用测试兜住，别靠 review 记性。
 
-## L1.5：单游戏端到端——按改动触发 + 每周兜底
+## L1.5：单游戏端到端——按改动触发，不做定时
 
 `tests/test_qa.py` 是空洞骑士的关键词式回归（20 条：螳螂爪中英 / 梦钉 / 水晶之心 /
 伊丝玛的眼泪 / 帝王之翼 / 泪水之城 / 深巢入口 / 愚人竞技场 / 白宫 / Boss / 辐光 /
@@ -65,8 +65,14 @@ requirements.txt                    # 换 embedding 模型也算
 
 （完整名单以脚本里的 `HK_PATHS` 数组为准，上表可能漏记共享模块如 `multi_agent.py`。）
 
-**每周兜底**：改动触发只管「跑不跑」，保证不了「多久跑一次」。cron 每周触发一次脚本，
-两者合起来就是「每周一次，期间无 HK 改动则跳过」。由 Mac 端装（核心测试归 Mac）：
+**不做定时任务**。装 cron、换机器重装、失败了还得有人盯，维护成本大过收益；HK 改动
+本来就低频，改成「改动触发 + 两个发现入口」：
+
+1. **部署前提醒**：`scripts/deploy/api.sh` 启动成功后会调本脚本 `--dry-run`，判定「该跑」
+   就打印一行提示（只提示，不阻断启动、不改退出码）。
+2. **手动**：改完 HK 相关文件后自己跑一次 `scripts/eval/hk_e2e_gate.sh`。
+
+真要全自动时再加一行 crontab（不要提前装）：
 
 ```cron
 0 4 * * 1  cd ~/learning/GameGuide && scripts/eval/hk_e2e_gate.sh >> data/eval/hk_e2e.log 2>&1
@@ -74,7 +80,7 @@ requirements.txt                    # 换 embedding 模型也算
 
 **约定**：
 
-- 只在**通过**时写 `hk_e2e.state`；失败不更新，下次 cron 仍会跑——避免一次失败被
+- 只在**通过**时写 `hk_e2e.state`；失败不更新，下次触发仍会跑——避免一次失败被
   「SHA 没变」跳过而永远看不见。`data/eval/hk_e2e.history` 记 pass/FAIL 流水。
 - 需要 `.env` 的 API key 与 `FASTEMBED_CACHE_PATH`（脚本默认 `$ROOT/.cache/fastembed`）；
   缓存不在时退出码 2，不当作失败。
@@ -122,6 +128,47 @@ FASTEMBED_CACHE_PATH=$PWD/.cache/fastembed \
 .venv/bin/python scripts/eval/agent_behavior.py --mode full --only bg3-amulet-chain
 .venv/bin/python scripts/eval/agent_behavior.py --mode full --baseline /tmp/beh.json
 ```
+
+### 2026-11-16 全量模式首跑：结论 + 两个评测器缺陷（待 Mac 修）
+
+首次真正跑 `--mode full`（9 用例 14 轮，服务器，约 4 分钟）：
+
+- 最终结果：干净通过 5/9，已知缺陷 4，失败 0；基线存 `data/eval/beh_baseline.json`（本地、gitignore）。
+- 4 个 known_issue 全部同一根因：HK 的「护符」「灵魂」抢走 BG3 会话；「BG」「明莎拉」
+  识别不出落 None。即 P0 + G1 + G2 那批，与线上 turns 挖出的完全一致——表现层已能复现。
+
+**缺陷 A：full 模式没注入 `context` 前置轮次**（`run_full()`）。routing 模式有这段，
+full 模式漏了，于是依赖前文的轮次（「狂笑术的代价是什么」）在无历史时落 menu，
+被判成路由错——假阴性。修法：`run_full` 的每个 case 开头按 `case["context"]` 真跑一遍
+（不计分），history 照常追加，与 `run_routing()` 保持一致。
+
+**缺陷 B：`check_citation` 抽取过宽**。原来用 `来源|知识库|条目` 匹配整行再取该行所有「」，
+把正文引号当来源：实测把「代价」「护符里困着幽灵」当成伪造引用（3 条假报）。
+修法：只认 `来源\s*[:：]` 这种标注，且每条标注只负责它后面到下一个标注之间的引号内容：
+
+```python
+_SOURCE_MARK = re.compile(r"来源\s*[:：]")
+for line in (answer or "").splitlines():
+    marks = list(_SOURCE_MARK.finditer(line))
+    for i, m in enumerate(marks):
+        seg_end = marks[i + 1].start() if i + 1 < len(marks) else len(line)
+        quoted.extend(_QUOTED.findall(line[m.end():seg_end]))
+```
+
+两处修完后重跑：3 个失败 → 0，对照组（bg3-wet-lightning / bg3-to-hk-switch /
+bg3-to-oni-switch）全绿，证明修的是评测器而不是把问题掩下去。
+
+**一个重要观察**：bg3-amulet-chain T3 被误路由到 HK 后，模型在回答里写「这段内容属于
+《博德之门3》，不在当前游戏范围内……如果继续回答，我就越界了」——游戏边界规则兜住了，
+但路由已经错了。说明误路由不只是检索错，还会直接丢掉可用答案。
+
+**待查（不稳定性）**：`bg3-spoiler-act2` 首轮报 L3 命中（`Nightsong` / `夜之歌`，act2），
+第二、三轮同样的提问却通过。偶发 L3 比稳定泄露更危险（单次跑看不到），需要多跑几次
+测复现率；也可能只是词表把「报名」也按最坏情况标成 L3（`SPOILER_SEVERITY.md` 的已知局限）。
+
+**附带噪音**：全量跑时 `query_structured_data` 每轮都刷一堆
+`DB query error: no such column: health/cost/hp/damage/buy_price/reward_eb`——它在逐个
+试列名，失败也打日志（1 秒内几十行）。不影响结果，但线上日志会被淹没。
 
 ## 用例入库流程（线上问题 → 评测）
 
