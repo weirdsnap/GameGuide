@@ -69,6 +69,21 @@ def _query_db(db_path: str, sql: str, params: tuple = ()) -> List[Dict]:
         return []
 
 
+def _table_columns(db_path: str, table: str) -> set[str]:
+    """读取表的列名（PRAGMA），避免对不存在的列发查询刷 warning。"""
+    db = _get_db(db_path)
+    if not db:
+        return set()
+    try:
+        cur = db.cursor()
+        cur.execute(f"PRAGMA table_info([{table}])")
+        return {row["name"] for row in cur.fetchall()}
+    except Exception:
+        return set()
+    finally:
+        db.close()
+
+
 def _format_db_result(rows: List[Dict], table: str) -> str:
     """格式化查询结果为可读文本（与表无关的通用格式）。"""
     if not rows:
@@ -506,28 +521,29 @@ def query_structured_data(query: str, game: str) -> str:
                 else:
                     priority_cols = ['cost', 'hp', 'health', 'damage']
 
+                # 先按表过滤掉不存在的列：否则每轮会为几十个候选列发无效 SQL，
+                # 把 "no such column" 刷进线上日志（2026-11-16 实测每秒几十行）。
+                table_cols = {table: _table_columns(db_path, table) for table in tables}
                 results = []
                 for table in tables:
                     for col in priority_cols:
-                        try:
+                        if col not in table_cols[table]:
+                            continue
+                        rows = _query_db(db_path, f"SELECT name, {col} FROM [{table}] WHERE {col} IS NOT NULL AND CAST({col} AS REAL) >= CAST(? AS REAL) LIMIT 5", (val,))
+                        if rows:
+                            results.append(f"  [{table}] " + ", ".join(f"{r.get('name','?')} ({col}={r.get(col,'?')})" for r in rows))
+                            break
+
+                # 如果没找到，尝试所有可能数值列（同样只查真实存在的列）
+                if not results:
+                    for table in tables:
+                        for col in dict.fromkeys(num_cols):
+                            if col not in table_cols[table]:
+                                continue
                             rows = _query_db(db_path, f"SELECT name, {col} FROM [{table}] WHERE {col} IS NOT NULL AND CAST({col} AS REAL) >= CAST(? AS REAL) LIMIT 5", (val,))
                             if rows:
                                 results.append(f"  [{table}] " + ", ".join(f"{r.get('name','?')} ({col}={r.get(col,'?')})" for r in rows))
                                 break
-                        except Exception:
-                            pass
-
-                # 如果没找到，尝试所有可能数值列
-                if not results:
-                    for table in tables:
-                        for col in num_cols:
-                            try:
-                                rows = _query_db(db_path, f"SELECT name, {col} FROM [{table}] WHERE {col} IS NOT NULL AND CAST({col} AS REAL) >= CAST(? AS REAL) LIMIT 5", (val,))
-                                if rows:
-                                    results.append(f"  [{table}] " + ", ".join(f"{r.get('name','?')} ({col}={r.get(col,'?')})" for r in rows))
-                                    break
-                            except Exception:
-                                pass
 
                 if results:
                     return f"筛选 ≥{val} 的结果：\n" + "\n".join(results[:20])
