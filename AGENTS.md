@@ -1,6 +1,8 @@
 # GameGuide RAG Agent — 给 AI 编码助手的项目指南
 
 > 本文件面向不了解本项目的 AI 编码 agent。项目注释与文档主要使用中文，请保持一致。
+>
+> 当前未解决问题见 `docs/CURRENT_ISSUES_2026-11-16.md`（按日期更新，解决后移到「已解决」）。
 
 ## 项目概述
 
@@ -211,7 +213,7 @@ python scripts/build/build_game_db.py --game <game>
 主套件是 pytest，默认离线（不调真实 LLM，e2e 用例自动 skip）：
 
 ```bash
-.venv/bin/python -m pytest tests -q          # 当前 119 passed / 20 skipped
+.venv/bin/python -m pytest tests -q          # 当前 186 passed / 20 skipped / 1 xfailed（G4）
 .venv/bin/python -m pytest tests --run-e2e   # 真实模型端到端（需要 .env 的 key）
 ```
 
@@ -340,7 +342,7 @@ python scripts/eval/ragas_eval.py --game all --limit 5   # 报告输出到 evalu
   新增 `tests/test_script_entrypoints.py` 从任意 cwd 冒烟 `--help`。
 - **补测试与依赖**：新增 `tests/test_glossary.py`（术语表匹配策略）、
   `tests/test_mac_build_contract.py`；`requirements.txt` 补 pytest。
-  离线套件 119 passed / 20 skipped。
+  离线套件 186 passed / 20 skipped / 1 xfailed（G4）。
 - **文档同步**：本文件按当前代码更新（无密码 + 全局额度、pytest 主套件、
   game_registry 单源、新增游戏步骤、language 契约）；README / DEVCONFIG / ROADMAP /
   PROJECT_STATUS / AI 应用工程计划同步记录。

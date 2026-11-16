@@ -1,6 +1,11 @@
 # Mac 端待办清单（交接给 Mac 侧 agent）
 
 > 来源：服务器端线上数据与部署体检，2026-11-12。
+>
+> **2026-11-16 状态快照**：未解决问题已统一记录到
+> [`docs/CURRENT_ISSUES_2026-11-16.md`](CURRENT_ISSUES_2026-11-16.md)。
+> 本文件的完成状态：P0-1 剧透提示词 ✅、P1-1 信号词 ✅、P1-2 内存上限 ✅（maxsize=3）、
+> P2-1 术语表接线 ✅；P0-2 BG3 v3 本地已建、待服务器部署；P0-3 silksong 仍阻塞（网络）。
 > 分工依据 AGENTS.md：`src/rag_agent/`、`tests/`、`scripts/tool|build|fetch|enrich|eval` 以 Mac 侧为主。
 > 服务器侧当天已做的不要重做，见文末「服务器侧已完成」。
 
