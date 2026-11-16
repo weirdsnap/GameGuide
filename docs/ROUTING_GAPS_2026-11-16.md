@@ -238,3 +238,32 @@ $ .venv/bin/python scripts/eval/agent_behavior.py --mode routing
 - 不为了兜底「猜」游戏（会产生伪引用）。
 - 不把菜单文案扩展到兜底路径以外的位置。
 - 不在这一轮接 BG3 术语表到信号源（属后续阶段）。
+
+---
+
+## 9. 修复验收（2026-11-16 服务器端）
+
+Mac 推上来的四个 commit：`5ee96b9`（通用词降权 + 切换门槛）、`c844e09`（进度推断 +
+max_act 注入）、`e38ed98`（兜底路径进度边界 + 来源约束）、`15b62f6`（结构化库 act 列
+补检索期上界）。服务器端 pull 后验收：
+
+**代码层**：`pytest --runxfail`（撤掉豁免、按真失败算）只有 1 失败——G4 `turn_record` 缺
+`sources`（本轮未做），其余 186 passed。正常模式下 13 条报 `XPASS(strict)` 变红，就是
+「缺陷修好了但标记没摘」，按 §8 第 5 条由 Mac 摘除后回绿。
+
+**表现层**：`agent_behavior.py` routing 模式 9/9 全绿、known_issue 0。原先 4 条已知缺陷
+全部转绿：`bg-shorthand-bg`（BG → baldurs_gate3）、`bg-minthara-spelling`（明萨拉 →
+baldurs_gate3）、`bg3-amulet-chain`、`bg3-minthara-weapons`；对照组 `hk-charm-slot` /
+`bg3-to-hk-switch` / `bg3-to-oni-switch` 没被改坏。
+
+**部署**：`scripts/deploy/api.sh` 重启。旧进程启动于 11-15 13:24（缺 c9f3f90 与 ca058fe），
+新进程 PID 3136046，启动日志正常；api.sh 新增的 HK e2e 提醒按预期触发（本轮改动命中
+`HK_PATHS` 里的 game_registry / game_router / graph / tools）。
+
+**尚未完成**：
+
+- G4 的 `sources` 字段（契约 + 采集两步，待做）。
+- 线上真实会话抽检「BG」「明萨拉」两句：服务器本机 HTTP 请求被 SSRF 守卫拦，改由前端
+  实测，或把 `127.0.0.1/32` 加进 `tools.ssrfWhitelist` 后由助手代跑。
+- L2 full 模式重跑：需等 Mac 修好评测器两处缺陷（见 `EVAL_SYSTEM.md`），否则基线数字
+  与旧版不可比。
