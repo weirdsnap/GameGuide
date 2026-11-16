@@ -3,6 +3,8 @@ api_config.json
 # API 本地配置
 data/*.bak.*
 data/*.bak.items
+# 数据清洗/人工改稿的本地备份（不入库，磁盘保留）
+*.bak-20*
 data/hallownest_knowledge.llm_merged.md
 data/.llm_merge_cache/
 data/phase2_beta.backup.jsonl

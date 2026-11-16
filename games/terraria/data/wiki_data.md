@@ -1,16 +1,12 @@
 # Terraria Wiki 数据
-
 自动采集自 Wiki
 采集时间：2026-07-10 15:46
 文档总数：1622
 
 ---
-
 ## ACCESSORIES
 共 149 篇文档
-
 # 文档：Accessories
-
 - 类别：accessories
 - 标识：accessories
 - 来源：wiki/Accessories
@@ -59,9 +55,7 @@ Guide:Crafting Quick Reference - Shows complex Accessory Crafting trees.
 History
 
 ---
-
 # 文档：Combat Accessories
-
 - 类别：accessories
 - 标识：combat accessories
 - 来源：wiki/Combat_Accessories
@@ -76,9 +70,9 @@ character
 ref = combat1
 image =
 ref = combat1
-image = <p> </p><p> </p>
+image =
 ref = combat1
-image = <p> </p><p> </p>
+image =
 3=Dungeon Chests, Dungeon Crates/Stockade Crates (Golden Lock Box)
 ref = combat2
 gif = y
@@ -87,9 +81,7 @@ ref = combat3
 ----
 
 ---
-
 # 文档：Construction Accessories
-
 - 类别：accessories
 - 标识：construction accessories
 - 来源：wiki/Construction_Accessories
@@ -103,9 +95,7 @@ Visible on
 character
 
 ---
-
 # 文档：Expert Mode Accessories
-
 - 类别：accessories
 - 标识：expert mode accessories
 - 来源：wiki/Expert_Mode_Accessories
@@ -123,9 +113,7 @@ ref=shinystone
 ----
 
 ---
-
 # 文档：Fishing Accessories
-
 - 类别：accessories
 - 标识：fishing accessories
 - 来源：wiki/Fishing_Accessories
@@ -142,14 +130,11 @@ character
 3=
 Increases fishing power by 10
 3=
-Increases fishing power by 10
 Your bobber now glows
 3= + 5  ( @  )
 
 ---
-
 # 文档：Golf Ball Accessories
-
 - 类别：accessories
 - 标识：golf ball accessories
 - 来源：wiki/Golf_Ball_Accessories
@@ -160,9 +145,7 @@ Notes
 All Golf Balls are obtainable pre-Hardmode, and none are visible on the character.
 
 ---
-
 # 文档：Health and Mana Accessories
-
 - 类别：accessories
 - 标识：health and mana accessories
 - 来源：wiki/Health_and_Mana_Accessories
@@ -181,9 +164,7 @@ ref=healthmana1
 ----
 
 ---
-
 # 文档：Immunity accessories
-
 - 类别：accessories
 - 标识：immunity accessories
 - 来源：wiki/Immunity_accessories
@@ -194,9 +175,7 @@ Types
 colspan=2 | Item !! Immunity !! Source
 
 ---
-
 # 文档：Informational Accessories
-
 - 类别：accessories
 - 标识：informational accessories
 - 来源：wiki/Informational_Accessories
@@ -224,9 +203,7 @@ On the , the Ruler does not function as an informational accessory.
 History
 
 ---
-
 # 文档：Miscellaneous Accessories
-
 - 类别：accessories
 - 标识：miscellaneous accessories
 - 来源：wiki/Miscellaneous_Accessories
@@ -240,9 +217,7 @@ Visible on
 character
 
 ---
-
 # 文档：Movement Accessories
-
 - 类别：accessories
 - 标识：movement accessories
 - 来源：wiki/Movement_Accessories
@@ -318,33 +293,8 @@ Sold by Steampunker ()
 Can ascend quicker by holding , and emits light particles
 5% chance to find in a Hardmode Treasure Bag
 Developer item, usable by normal characters.
-5% chance to find in a Hardmode Treasure Bag
-Developer item, usable by normal characters.
-5% chance to find in a Hardmode Treasure Bag
-Developer item, usable by normal characters.
-5% chance to find in a Hardmode Treasure Bag
-Developer item, usable by normal characters.
-5% chance to find in a Hardmode Treasure Bag
-Developer item, usable by normal characters.
 gif=y
-5% chance to find in a Hardmode Treasure Bag
-Developer item, usable by normal characters.
-5% chance to find in a Hardmode Treasure Bag
-Developer item, usable by normal characters.
-5% chance to find in a Hardmode Treasure Bag
-Developer item, usable by normal characters.
-5% chance to find in a Hardmode Treasure Bag
-Developer item, usable by normal characters.
-5% chance to find in a Hardmode Treasure Bag
-Developer item, usable by normal characters.
-5% chance to find in a Hardmode Treasure Bag
 Particle effect emits white light, glows in the dark. The color emitted from the wings is the same color as the player's shirt color.
-5% chance to find in a Hardmode Treasure Bag
-5% chance to find in a Hardmode Treasure Bag
-5% chance to find in a Hardmode Treasure Bag
-5% chance to find in a Hardmode Treasure Bag
-5% chance to find in a Hardmode Treasure Bag
-Emits light particles in use
 Emits light particles in use, translucent
 Translucent
 Completely silent
@@ -354,7 +304,6 @@ ref = movement2
 Dropped by Mothron during Solar Eclipse
 Emits yellow light and glows in the dark.
 Dropped by Everscream
-Sold by Steampunker ()
 Dropped by Betsy
 Hover speed boosted +300%, longer hovering duration, and faster acceleration. 50% extra max ascent speed, faster acceleration.
 Dropped by Empress of Light
@@ -371,9 +320,7 @@ Dropped by Moon Lord in Expert Mode
 ----
 
 ---
-
 # 文档：Music Box Accessories
-
 - 类别：accessories
 - 标识：music box accessories
 - 来源：wiki/Music_Box_Accessories
@@ -392,15 +339,12 @@ icon =
 icon =
 icon =
 Crafted at a Tinkerer's Workshop
-Crafted at a Tinkerer's Workshop
 
 Notes
 All Music Boxes are obtainable only in Hardmode, and none are visible on the character.
 
 ---
-
 # 文档：Sprinting accessories
-
 - 类别：accessories
 - 标识：sprinting accessories
 - 来源：wiki/Sprinting_accessories
@@ -448,9 +392,7 @@ Combines the effects of Lava Waders and Frostspark Boots:
 }
 
 ---
-
 # 文档：Vanity Accessories
-
 - 类别：accessories
 - 标识：vanity accessories
 - 来源：wiki/Vanity_Accessories
@@ -462,22 +404,15 @@ Pre-Hardmode
 Visible on
 Character
 Randomly sold by Traveling Merchant for
-Randomly sold by Traveling Merchant for
-Randomly sold by Traveling Merchant for
-Randomly sold by Traveling Merchant for
-Randomly sold by Traveling Merchant for
-Randomly sold by Traveling Merchant for
 Found in Iron Crates obtained from fishing
 ref=vanity1
 Rarely obtained from any Treasure Bag dropped by a Hardmode boss in Expert Mode
 hardmodeonly=y
 ref=vanity1
-Rarely obtained from any Treasure Bag dropped by a Hardmode boss in Expert Mode
 hardmodeonly=y
 gif=y
 Sold by the Clothier during a Party for
 gif =y
-Sold by the Clothier during a Party for
 gif = y
 Obsidian Crates or Hellstone Crates
 Sold by the Zoologist when part of the Bestiary is complete for
@@ -489,7 +424,6 @@ Sold by the Traveling Merchant for
 Sold by the Clothier for  when having a golf score of 2000, or from Traveling Merchant for
 Sold by the Princess for
 hardmodeonly=y
-Sold by the Princess for
 hardmodeonly=y
 Dropped by Empress of Light with a  chance
 hardmodeonly=y
@@ -497,9 +431,7 @@ hardmodeonly=y
 Tips
 
 ---
-
 # 文档：Yoyo Accessories
-
 - 类别：accessories
 - 标识：yoyo accessories
 - 来源：wiki/Yoyo_Accessories
@@ -514,9 +446,7 @@ character
 gif = y
 
 ---
-
 # 文档：Adhesive Bandage
-
 - 类别：accessories
 - 标识：adhesive bandage
 - 来源：wiki/Adhesive_Bandage
@@ -530,9 +460,7 @@ Used in
 History
 
 ---
-
 # 文档：Aglet
-
 - 类别：accessories
 - 标识：aglet
 - 来源：wiki/Aglet
@@ -557,9 +485,7 @@ Movement information
 History
 
 ---
-
 # 文档：Amber Horseshoe Balloon
-
 - 类别：accessories
 - 标识：amber horseshoe balloon
 - 来源：wiki/Amber_Horseshoe_Balloon
@@ -573,9 +499,7 @@ Gallery
 History
 
 ---
-
 # 文档：Amphibian Boots
-
 - 类别：accessories
 - 标识：amphibian boots
 - 来源：wiki/Amphibian_Boots
@@ -598,9 +522,7 @@ The Amphibian Boots, compared to the Terraspark Boots, can be obtained easily th
 History
 
 ---
-
 # 文档：Ancient Chisel
-
 - 类别：accessories
 - 标识：ancient chisel
 - 来源：wiki/Ancient_Chisel
@@ -619,9 +541,7 @@ The tooltip is a reference to the phrase, "Modern problems require modern soluti
 History
 
 ---
-
 # 文档：Angel Halo
-
 - 类别：accessories
 - 标识：angel halo
 - 来源：wiki/Angel_Halo
@@ -639,9 +559,7 @@ The Angel Halo is the rarest item sold by the Traveling Merchant.
 History
 
 ---
-
 # 文档：Angler Tackle Bag
-
 - 类别：accessories
 - 标识：angler tackle bag
 - 来源：wiki/Angler_Tackle_Bag
@@ -656,9 +574,7 @@ Used In
 History
 
 ---
-
 # 文档：Ankh Charm
-
 - 类别：accessories
 - 标识：ankh charm
 - 来源：wiki/Ankh_Charm
@@ -684,9 +600,7 @@ Since 1.4.4 and the introduction of Shimmer, it is now possible to obtain the Ad
 History
 
 ---
-
 # 文档：Ankh Shield
-
 - 类别：accessories
 - 标识：ankh shield
 - 来源：wiki/Ankh_Shield
@@ -729,9 +643,7 @@ Despite giving immunity to Chilled, the crafting chain for the Ankh Shield does 
 History
 
 ---
-
 # 文档：Anklet of the Wind
-
 - 类别：accessories
 - 标识：anklet of the wind
 - 来源：wiki/Anklet_of_the_Wind
@@ -749,9 +661,7 @@ Movement info
 History
 
 ---
-
 # 文档：Apprentice's Scarf
-
 - 类别：accessories
 - 标识：apprentices scarf
 - 来源：wiki/Apprentice's_Scarf
@@ -772,9 +682,7 @@ Apprentice armor
 History
 
 ---
-
 # 文档：Arcane Flower
-
 - 类别：accessories
 - 标识：arcane flower
 - 来源：wiki/Arcane_Flower
@@ -793,9 +701,7 @@ The Arcane Flower's appearance is similar to a blue flower-type plant that grows
 History
 
 ---
-
 # 文档：Architect Gizmo Pack
-
 - 类别：accessories
 - 标识：architect gizmo pack
 - 来源：wiki/Architect_Gizmo_Pack
@@ -821,9 +727,7 @@ Although all ingredients and the Tinkerer's Workshop can be obtained pre-Hardmod
 History
 
 ---
-
 # 文档：Arctic Diving Gear
-
 - 类别：accessories
 - 标识：arctic diving gear
 - 来源：wiki/Arctic_Diving_Gear
@@ -843,9 +747,7 @@ The Arctic Diving Gear is very useful for exploring flooded areas, as it can be 
 History
 
 ---
-
 # 文档：Armor Bracing
-
 - 类别：accessories
 - 标识：armor bracing
 - 来源：wiki/Armor_Bracing
@@ -860,9 +762,7 @@ Used in
 History
 
 ---
-
 # 文档：Armor Polish
-
 - 类别：accessories
 - 标识：armor polish
 - 来源：wiki/Armor_Polish
@@ -880,9 +780,7 @@ If Plantera has not been defeated yet, Armor Polish can still be obtained from A
 History
 
 ---
-
 # 文档：Avenger Emblem
-
 - 类别：accessories
 - 标识：avenger emblem
 - 来源：wiki/Avenger_Emblem
@@ -901,9 +799,7 @@ While multiples of the Avenger Emblem cannot be worn at once, multiple emblems o
 History
 
 ---
-
 # 文档：Balloon Animal
-
 - 类别：accessories
 - 标识：balloon animal
 - 来源：wiki/Balloon_Animal
@@ -914,9 +810,7 @@ Tips
 History
 
 ---
-
 # 文档：Balloon Pufferfish
-
 - 类别：accessories
 - 标识：balloon pufferfish
 - 来源：wiki/Balloon_Pufferfish
@@ -932,9 +826,7 @@ Gallery
 History
 
 ---
-
 # 文档：Balloons
-
 - 类别：accessories
 - 标识：balloons
 - 来源：wiki/Balloons
@@ -952,7 +844,6 @@ character
 Increases jump duration to 20 and jump speed to 6.51
 
 gifequipped = y
-Increases jump duration to 20 and jump speed to 6.51
 Fishing in any biome
 gifequipped = y
 Grants the ability to perform a blizzard-type extra jump midair
@@ -961,19 +852,15 @@ gifequipped = y
 Grants the ability to perform a cloud-type extra jump midair
 
 gifequipped = y
-Grants the ability to perform a blizzard-type extra jump midair
 
 gifequipped = y
-Grants the ability to perform a cloud-type extra jump midair
-
-gifequipped = y
-Grants the ability to perform a fart-type extra jump midair
 
 gifequipped = y
 Grants the ability to perform a fart-type extra jump midair
 
 gifequipped = y
-Increases jump duration to 20 and jump speed to 6.51
+
+gifequipped = y
 
 gifequipped = y
 Grants the ability to perform a tsunami-type extra jump midair
@@ -982,16 +869,12 @@ gifequipped = y
 Grants the ability to perform a sandstorm-type extra jump midair
 
 gifequipped = y
-Grants the ability to perform a tsunami-type extra jump midair
 
 gifequipped = y
-Increases jump duration to 20 and jump speed to 6.51
 
 gifequipped = y
-Grants the ability to perform a blizzard-type extra jump midair
 
 gifequipped = y
-Grants the ability to perform a sandstorm-type extra jump midair
 
 gifequipped = y
 
@@ -1001,9 +884,7 @@ Jump Height Comparison
 History
 
 ---
-
 # 文档：Band of Regeneration
-
 - 类别：accessories
 - 标识：band of regeneration
 - 来源：wiki/Band_of_Regeneration
@@ -1024,9 +905,7 @@ Heavy users of magic in a Corruption world will probably want a second and third
 History
 
 ---
-
 # 文档：Band of Starpower
-
 - 类别：accessories
 - 标识：band of starpower
 - 来源：wiki/Band_of_Starpower
@@ -1050,9 +929,7 @@ On the , the Band of Starpower can be found in Living Wood Chests, allowing play
 History
 
 ---
-
 # 文档：Bee Cloak
-
 - 类别：accessories
 - 标识：bee cloak
 - 来源：wiki/Bee_Cloak
@@ -1077,9 +954,7 @@ The Bee Cloak's, the Star Cloak's, and the Star Veil's projectile is called a Ha
 History
 
 ---
-
 # 文档：Berserker's Glove
-
 - 类别：accessories
 - 标识：berserkers glove
 - 来源：wiki/Berserker's_Glove
@@ -1100,9 +975,7 @@ Since the Berserker's Glove has increased defense and its autoswing and melee sp
 History
 
 ---
-
 # 文档：Bezoar
-
 - 类别：accessories
 - 标识：bezoar
 - 来源：wiki/Bezoar
@@ -1125,9 +998,7 @@ Despite Venom also being poison, the Bezoar does not prevent the Venom debuff.
 History
 
 ---
-
 # 文档：Black Belt
-
 - 类别：accessories
 - 标识：black belt
 - 来源：wiki/Black_Belt
@@ -1151,9 +1022,7 @@ The black belt is used to denote a martial arts trainee with the highest obtaina
 History
 
 ---
-
 # 文档：Blindfold
-
 - 类别：accessories
 - 标识：blindfold
 - 来源：wiki/Blindfold
@@ -1178,9 +1047,7 @@ In Terraria, the character may be using the blindfold to "see without using one'
 History
 
 ---
-
 # 文档：Blizzard in a Balloon
-
 - 类别：accessories
 - 标识：blizzard in a balloon
 - 来源：wiki/Blizzard_in_a_Balloon
@@ -1204,9 +1071,7 @@ Gallery
 History
 
 ---
-
 # 文档：Blizzard in a Bottle
-
 - 类别：accessories
 - 标识：blizzard in a bottle
 - 来源：wiki/Blizzard_in_a_Bottle
@@ -1230,9 +1095,7 @@ Gallery
 History
 
 ---
-
 # 文档：Blue Horseshoe Balloon
-
 - 类别：accessories
 - 标识：blue horseshoe balloon
 - 来源：wiki/Blue_Horseshoe_Balloon
@@ -1254,9 +1117,7 @@ Gallery
 History
 
 ---
-
 # 文档：Bone Glove
-
 - 类别：accessories
 - 标识：bone glove
 - 来源：wiki/Bone_Glove
@@ -1268,8 +1129,6 @@ The Bone Glove is an Expert Mode-exclusive item obtained from the Treasure Bag d
 On the , the Bone Glove is an accessory which throws two crossed bones every time a weapon is used, at maximum once per second. The bones can bounce off walls three times or pierce two enemies before being destroyed, deal 25 classless damage, and additionally have 25 armor penetration.
 
 On the , the Bone Glove is a ranged weapon which allows the player to throw two crossed bones that can bounce off walls three times or pierce two enemies before being destroyed. It consumes one Bone per throw and has a  chance not to consume any.
-
-
 
 Notes
 If the Bone Glove hits an enemy right next to the player, the amount of damage dealt excludes the Bones' damage, only the Bone Glove's base damage counts.
@@ -1284,9 +1143,7 @@ The Bone Glove is one of the few Expert Mode items that cannot be equipped in an
 History
 
 ---
-
 # 文档：Bone Helm
-
 - 类别：accessories
 - 标识：bone helm
 - 来源：wiki/Bone_Helm
@@ -1309,9 +1166,7 @@ See also
 History
 
 ---
-
 # 文档：Boots
-
 - 类别：accessories
 - 标识：boots
 - 来源：wiki/Boots
@@ -1337,7 +1192,6 @@ Crafted at a Tinkerer's Workshop with Frostspark Boots and Lava Waders
 Combines the effects of Frostspark Boots and Lava Waders:
 
 Other boots
-colspan="2" | Accessory !! Source !! Effects
 
 Purchased from the Goblin Tinkerer
 Allows limited flight
@@ -1357,9 +1211,7 @@ Boot Statues are purely decorative items that can be found depicting Hermes Boot
 History
 
 ---
-
 # 文档：Brain of Confusion
-
 - 类别：accessories
 - 标识：brain of confusion
 - 来源：wiki/Brain_of_Confusion
@@ -1375,27 +1227,27 @@ The base chance to inflict the Confused debuff is . It is increased by  per poin
 
 The debuff duration is determined randomly, and the bounds depend on the amount of damage taken:
 
-math|Brain of Confusion-math-3|inline=y|alt=#uesc:<esc>duration_{min} = \left( 90 + \left\lfloor \frac{dmg}{3} \right\rfloor \right) \div 60</esc>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-math|Brain of Confusion-math-4|inline=y|alt=#uesc:<esc>duration_{max} = \left( 300 + \left\lfloor \frac{dmg}{2} \right\rfloor \right) \div 60</esc>
+math|Brain of Confusion-math-3|inline=y|alt=#uesc:duration_{min} = \left( 90 + \left\lfloor \frac{dmg}{3} \right\rfloor \right) \div 60
+       
+math|Brain of Confusion-math-4|inline=y|alt=#uesc:duration_{max} = \left( 300 + \left\lfloor \frac{dmg}{2} \right\rfloor \right) \div 60
 
 The values are in seconds.
 
 The range within which enemies are affected is determined randomly as well. There are certain damage thresholds that affect which equation to use:
 
-math|Brain of Confusion-math-1|alt=#uesc:<esc>range_{min} = \begin{cases}
+math|Brain of Confusion-math-1|alt=#uesc:range_{min} = \begin{cases}
 \ \ \ \ \ \ \ \ \ \ \ \ \ dmg \leq 600 & :         \ \left\lfloor \frac{dmg}{2} \right\rfloor + 200 \\
 \ \ 600 < dmg \leq 1333 & :  \ \frac{3}{4}  \times \left\lfloor \frac{dmg}{2} \right\rfloor + 275 \\
 1333 < dmg \leq 2200 & : \ \frac{3}{8}  \times \left\lfloor \frac{dmg}{2} \right\rfloor + 487.5 \\
 2200 < dmg & :           \ \frac{3}{32} \times \left\lfloor \frac{dmg}{2} \right\rfloor + 796.875 \\
-\end{cases}</esc>
+\end{cases}
 
-math|Brain of Confusion-math-2|alt=#uesc:<esc>range_{max} =\begin{cases}
+math|Brain of Confusion-math-2|alt=#uesc:range_{max} =\begin{cases}
 \ \ \ \ \ \ \ \ \ \ \ dmg\leq 100\ :\ 2\times dmg+300\\
 100< dmg\leq 233\ :\ \frac{3}{2} \times dmg+350\\
 233< dmg\leq 500\ :\ \frac{3}{4} \times dmg+525\\
 500< dmg\ \ \ \ \ \ \ \ \ \ \ \ :\ \frac{3}{16} \times dmg+806.25
-\end{cases}</esc>
+\end{cases}
 
 The values are in pixels; divide by 16 to obtain tiles.
 
@@ -1413,9 +1265,7 @@ Debuff range
 show-combatacc = yes
 
 ---
-
 # 文档：Brick Layer
-
 - 类别：accessories
 - 标识：brick layer
 - 来源：wiki/Brick_Layer
@@ -1430,9 +1280,7 @@ The increase in placement speed additively stacks with the bonus from the Builde
 History
 
 ---
-
 # 文档：Bundle of Balloons
-
 - 类别：accessories
 - 标识：bundle of balloons
 - 来源：wiki/Bundle_of_Balloons
@@ -1468,9 +1316,7 @@ Even though the sprite of the Bundle of Balloons depicts a green balloon, assume
 History
 
 ---
-
 # 文档：Bundle of Horseshoe Balloons
-
 - 类别：accessories
 - 标识：bundle of horseshoe balloons
 - 来源：wiki/Bundle_of_Horseshoe_Balloons
@@ -1487,9 +1333,7 @@ If crafted from 2 or more horseshoe balloons, only one horseshoe is preserved in
 History
 
 ---
-
 # 文档：Bundled Party Balloons
-
 - 类别：accessories
 - 标识：bundled party balloons
 - 来源：wiki/Bundled_Party_Balloons
@@ -1500,9 +1344,7 @@ Tips
 History
 
 ---
-
 # 文档：Bunny set
-
 - 类别：accessories
 - 标识：bunny set
 - 来源：wiki/Bunny_set
@@ -1519,9 +1361,7 @@ Bunny Hood
 History
 
 ---
-
 # 文档：Bunny Tail
-
 - 类别：accessories
 - 标识：bunny tail
 - 来源：wiki/Bunny_Tail
@@ -1538,9 +1378,7 @@ Bunny Hood
 History
 
 ---
-
 # 文档：Capes
-
 - 类别：accessories
 - 标识：capes
 - 来源：wiki/Capes
@@ -1553,9 +1391,7 @@ colspan=2 | Item !! Equipped !! Buy !! Sell
 show-vanityacc = yes
 
 ---
-
 # 文档：Celestial Cuffs
-
 - 类别：accessories
 - 标识：celestial cuffs
 - 来源：wiki/Celestial_Cuffs
@@ -1586,9 +1422,7 @@ Using a slime statue hooked up to a lever with high defense can be an efficient 
 History
 
 ---
-
 # 文档：Celestial Emblem
-
 - 类别：accessories
 - 标识：celestial emblem
 - 来源：wiki/Celestial_Emblem
@@ -1608,9 +1442,7 @@ However, the Celestial Emblem is the only accessory derived from the Avenger Emb
 History
 
 ---
-
 # 文档：Celestial Magnet
-
 - 类别：accessories
 - 标识：celestial magnet
 - 来源：wiki/Celestial_Magnet
@@ -1628,9 +1460,7 @@ Heartreach Potion, a potion with a similar effect.
 History
 
 ---
-
 # 文档：Celestial Shell
-
 - 类别：accessories
 - 标识：celestial shell
 - 来源：wiki/Celestial_Shell
@@ -1662,9 +1492,7 @@ Every other part of the Celestial Shell are Pre-Plantera except the Sun Stone, w
 History
 
 ---
-
 # 文档：Celestial Starboard
-
 - 类别：accessories
 - 标识：celestial starboard
 - 来源：wiki/Celestial_Starboard
@@ -1691,9 +1519,7 @@ The item's internal name is .
 History
 
 ---
-
 # 文档：Celestial Stone
-
 - 类别：accessories
 - 标识：celestial stone
 - 来源：wiki/Celestial_Stone
@@ -1725,9 +1551,7 @@ History
 References
 
 ---
-
 # 文档：Cenx's Wings
-
 - 类别：accessories
 - 标识：cenxs wings
 - 来源：wiki/Cenx's_Wings
@@ -1782,14 +1606,11 @@ col:time = 1.67
 col:height = 53
 col:xspeed = 32
 col:yspeed = 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
-col:source = alignleft
 col:time = 1.67
 col:height = 53
 col:xspeed = 32
 col:yspeed = 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
 col:source = alignleft  Sold by Witch Doctor
 col:time = 1.67
@@ -1799,21 +1620,16 @@ col:height = 53
 col:xspeed = 32
 34
 col:yspeed = 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
-col:source = alignleft
 col:time = 1.67
 col:height = 53
 col:xspeed = 32
 col:yspeed = 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
-col:source = alignleft
 col:time = 2.17
 col:height = 67
 col:xspeed = 34
 col:yspeed = 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
 col:source = alignleft  Quest reward from Angler
 col:time = 2.17
@@ -1823,9 +1639,7 @@ col:height = 67
 col:xspeed = 34
 15
 col:yspeed = 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
-col:source = alignleft
 col:time = 2.17
 2.67
 col:height = 67
@@ -1833,9 +1647,7 @@ col:height = 67
 col:xspeed = 34
 38
 col:yspeed = 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
-col:source = alignleft
 col:time = 2.17
 2.33
 col:height = 67
@@ -1843,7 +1655,6 @@ col:height = 67
 col:xspeed = 34
 36
 col:yspeed = 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
 col:source = alignleft  Sold by Steampunker
 col:time = 2.5
@@ -1852,121 +1663,87 @@ col:height = 77
 60
 col:xspeed = 33
 col:yspeed = 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
-col:source = alignleft
 col:time = 2.5
 col:height = 77
 col:xspeed = 36
 col:yspeed = 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
-col:source = alignleft
 col:time = 2.5
 col:height = 77
 col:xspeed = 36
 col:yspeed = 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
-col:source = alignleft
 col:time = 2.5
 col:height = 77
 col:xspeed = 36
 col:yspeed = 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
-col:source = alignleft
 col:time = 2.5
 col:height = 77
 col:xspeed = 36
 col:yspeed = 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
-col:source = alignleft
 col:time = 2.5
 col:height = 77
 col:xspeed = 36
 col:yspeed = 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
-col:source = alignleft
 col:time = 2.5
 col:height = 77
 col:xspeed = 36
 col:yspeed = 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
-col:source = alignleft
 col:time = 2.5
 col:height = 77
 col:xspeed = 36
 col:yspeed = 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
-col:source = alignleft
 col:time = 2.5
 col:height = 77
 col:xspeed = 36
 col:yspeed = 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
-col:source = alignleft
 col:time = 2.5
 col:height = 77
 col:xspeed = 36
 col:yspeed = 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
-col:source = alignleft
 col:time = 2.5
 col:height = 77
 col:xspeed = 36
 col:yspeed = 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
-col:source = alignleft
 col:time = 2.5
 col:height = 77
 col:xspeed = 36
 col:yspeed = 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
-col:source = alignleft
 col:time = 2.5
 col:height = 77
 col:xspeed = 36
 col:yspeed = 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
-col:source = alignleft
 col:time = 2.5
 col:height = 77
 col:xspeed = 36
 col:yspeed = 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
-col:source = alignleft
 col:time = 2.5
 col:height = 77
 col:xspeed = 36
 col:yspeed = 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
-col:source = alignleft
 col:time = 2.5
 col:height = 77
 col:xspeed = 36
 col:yspeed = 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
-col:source = alignleft
 col:time = 2.5
 col:height = 77
 col:xspeed = 36
 col:yspeed = 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
-col:source = alignleft
 col:time = 2.67
 2.33
 col:height = 81
@@ -1974,9 +1751,7 @@ col:height = 81
 col:xspeed = 38
 15
 col:yspeed = 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
-col:source = alignleft
 col:time = 2.67
 2.17
 col:height = 81
@@ -1984,9 +1759,7 @@ col:height = 81
 col:xspeed = 38
 34
 col:yspeed = 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
-col:source = alignleft
 col:time = 2.67
 2.17
 col:height = 81
@@ -1994,23 +1767,17 @@ col:height = 81
 col:xspeed = 38
 34
 col:yspeed = 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
-col:source = alignleft
 col:time = 2.67
 col:height = 81
 col:xspeed = 38
 col:yspeed = 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
-col:source = alignleft
 col:time = 2.67
 col:height = 81
 col:xspeed = 38
 col:yspeed = 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
-col:source = alignleft
 col:time = 2.83
 col:height = 94
 86
@@ -2018,9 +1785,7 @@ col:xspeed = 33
 32
 col:yspeed = 166%
 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
-col:source = alignleft
 col:time = 2.83
 2.33
 col:height = 94
@@ -2029,7 +1794,6 @@ col:xspeed = 38
 36
 col:yspeed = 166%
 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
 col:source = alignleft  Dropped by Mothron
 col:time = 2.83
@@ -2040,9 +1804,7 @@ col:xspeed = 38
 15
 col:yspeed = 166%
 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
-col:source = alignleft
 col:time = 2.83
 2.67
 col:height = 94
@@ -2050,9 +1812,7 @@ col:height = 94
 col:xspeed = 38
 col:yspeed = 166%
 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
-col:source = alignleft
 col:time = 2.83
 2.67
 col:height = 94
@@ -2060,7 +1820,6 @@ col:height = 94
 col:xspeed = 38
 col:yspeed = 166%
 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
 col:source = alignleft  Dropped by Everscream
 col:time = 3
@@ -2070,27 +1829,21 @@ col:height = 107
 col:xspeed = 38
 col:yspeed = 180%
 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
-col:source = alignleft
 col:time = 3
 col:height = 107
 91
 col:xspeed = 38
 col:yspeed = 180%
 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
-col:source = alignleft
 col:time = 3
 col:height = 107
 91
 col:xspeed = 38
 col:yspeed = 180%
 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
-col:source = alignleft  Sold by Steampunker
 col:time = 3
 col:height = 107
 91
@@ -2098,7 +1851,6 @@ col:xspeed = 38
 40
 col:yspeed = 180%
 150%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
 col:source = alignleft  Dropped by Betsy
 col:time = 2.5
@@ -2106,14 +1858,12 @@ col:height = 119
 col:xspeed = 36
 31
 col:yspeed = 250%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
 col:source = alignleft  Dropped by Empress of Light
 col:time = 2.5
 col:height = 128
 col:xspeed = 41
 col:yspeed = 275%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
 col:source = alignleft  Dropped by Duke Fishron
 col:time = 3
@@ -2121,9 +1871,7 @@ col:height = 143
 91
 col:xspeed = 41
 col:yspeed = 250%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
-col:source = alignleft
 col:time = 3
 2.67
 col:height = 143
@@ -2131,9 +1879,7 @@ col:height = 143
 col:xspeed = 33
 col:yspeed = 245%
 200%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
-col:source = alignleft
 col:time = 3
 2.67
 col:height = 143
@@ -2141,28 +1887,22 @@ col:height = 143
 col:xspeed = 33
 col:yspeed = 245%
 200%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
-col:source = alignleft
 col:time = 3
 col:height = 167
 col:xspeed = 46
 col:yspeed = 300%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
-col:source = alignleft
 col:time = 3
 col:height = 167
 col:xspeed = 46
 col:yspeed = 300%
-col:notes = style"font-size: 85%; text-align: left;"
 cate =
 col:source = alignleft  Dropped by Moon Lord in Expert Mode
 col:time = 3
 col:height = 201
 col:xspeed = 41
 col:yspeed = 450%
-col:notes = style"font-size: 85%; text-align: left;"
 
 (Created by u/zacyquack on r/terraria).]]
 colspan=2 | Stacked accessories !! Boost
@@ -2225,9 +1965,7 @@ Despite being non-moving constructs of technology, Ghostar's Infinity Eight and 
 History
 
 ---
-
 # 文档：Charm of Myths
-
 - 类别：accessories
 - 标识：charm of myths
 - 来源：wiki/Charm_of_Myths
@@ -2247,9 +1985,7 @@ The Charm of Myths' Health regeneration still applies even when afflicted with t
 History
 
 ---
-
 # 文档：Chromatic Cloak
-
 - 类别：accessories
 - 标识：chromatic cloak
 - 来源：wiki/Chromatic_Cloak
@@ -2264,9 +2000,7 @@ The Chromatic Cloak can be replaced with the Water Walking Boots, Obsidian Water
 History
 
 ---
-
 # 文档：Climbing Claws
-
 - 类别：accessories
 - 标识：climbing claws
 - 来源：wiki/Climbing_Claws
@@ -2283,9 +2017,7 @@ Used in
 History
 
 ---
-
 # 文档：Clothier Voodoo Doll
-
 - 类别：accessories
 - 标识：clothier voodoo doll
 - 来源：wiki/Clothier_Voodoo_Doll
@@ -2307,9 +2039,7 @@ In popular culture, a  is a figurine resembling a person, which can be harmed in
 History
 
 ---
-
 # 文档：Cloud in a Balloon
-
 - 类别：accessories
 - 标识：cloud in a balloon
 - 来源：wiki/Cloud_in_a_Balloon
@@ -2332,9 +2062,7 @@ Gallery
 History
 
 ---
-
 # 文档：Cloud in a Bottle
-
 - 类别：accessories
 - 标识：cloud in a bottle
 - 来源：wiki/Cloud_in_a_Bottle
@@ -2362,9 +2090,7 @@ History
 References
 
 ---
-
 # 文档：Cobalt Shield
-
 - 类别：accessories
 - 标识：cobalt shield
 - 来源：wiki/Cobalt_Shield
@@ -2386,9 +2112,7 @@ Even though it has the word "Cobalt" in it, and visually appears similar to othe
 History
 
 ---
-
 # 文档：Coin Ring
-
 - 类别：accessories
 - 标识：coin ring
 - 来源：wiki/Coin_Ring
@@ -2406,9 +2130,7 @@ You can also farm in a Solar Eclipse, but the Mothrons and Reapers can travel th
 History
 
 ---
-
 # 文档：Compass
-
 - 类别：accessories
 - 标识：compass
 - 来源：wiki/Compass
@@ -2424,9 +2146,7 @@ The compass can drop from Piranhas and Undead Vikings spawned from statues.
 History
 
 ---
-
 # 文档：Copper Watch
-
 - 类别：accessories
 - 标识：copper watch
 - 来源：wiki/Copper_Watch
@@ -2439,9 +2159,7 @@ Used in
 History
 
 ---
-
 # 文档：Countercurse Mantra
-
 - 类别：accessories
 - 标识：countercurse mantra
 - 来源：wiki/Countercurse_Mantra
@@ -2459,9 +2177,7 @@ A  is a religious hymn believed to have psychological or spiritual powers.
 History
 
 ---
-
 # 文档：Counterweights
-
 - 类别：accessories
 - 标识：counterweights
 - 来源：wiki/Counterweights
@@ -2487,9 +2203,7 @@ show-main = yes
 show-combatacc = yes
 
 ---
-
 # 文档：Crimson Cloak
-
 - 类别：accessories
 - 标识：crimson cloak
 - 来源：wiki/Crimson_Cloak
@@ -2502,9 +2216,7 @@ colspan=2 | Item !! Equipped !! Buy !! Sell
 show-vanityacc = yes
 
 ---
-
 # 文档：Critter Shampoo
-
 - 类别：accessories
 - 标识：critter shampoo
 - 来源：wiki/Critter_Shampoo
@@ -2522,9 +2234,7 @@ The bottle seems to depict a Bunny, similar to the Guide to Critter Companionshi
 History
 
 ---
-
 # 文档：Cross Necklace
-
 - 类别：accessories
 - 标识：cross necklace
 - 来源：wiki/Cross_Necklace
@@ -2548,9 +2258,7 @@ It bears resemblance to a Catholic .
 History
 
 ---
-
 # 文档：Depth Meter
-
 - 类别：accessories
 - 标识：depth meter
 - 来源：wiki/Depth_Meter
@@ -2579,9 +2287,7 @@ The Depth Meter can only be crafted with Copper, Silver, and Gold, so it might b
 History
 
 ---
-
 # 文档：Destroyer Emblem
-
 - 类别：accessories
 - 标识：destroyer emblem
 - 来源：wiki/Destroyer_Emblem
@@ -2604,9 +2310,7 @@ The average damage increase is 18.8%, as the critical chance increase stacks mul
 History
 
 ---
-
 # 文档：Developer items
-
 - 类别：accessories
 - 标识：developer items
 - 来源：wiki/Developer_items
@@ -2616,7 +2320,7 @@ Developer items are Hardmode vanity items, wings, dyes, and other items, that we
 A random set of developer items can rarely ( chance) drop from a Hardmode boss' Treasure Bag (except ) in an Expert Mode or Master Mode world.
 
 Items
-<onlyinclude>
+
 +  Aaron's set (AaronC)
 Item
 Type
@@ -2822,7 +2526,6 @@ Vanity Shirt
 Vanity Pants
 
 Wings
-</onlyinclude>
 
 Notes
 All developer's wings have a flight time of 2.5 seconds.
@@ -2839,9 +2542,7 @@ The developer items were unobtainable before the 1.3.0.1 update, and, if somehow
 History
 
 ---
-
 # 文档：Discount Card
-
 - 类别：accessories
 - 标识：discount card
 - 来源：wiki/Discount_Card
@@ -2870,9 +2571,7 @@ Farming Lucky Coin/Discount Card/Gold Ring is most efficient from Flying Dutchma
 History
 
 ---
-
 # 文档：Diving Gear
-
 - 类别：accessories
 - 标识：diving gear
 - 来源：wiki/Diving_Gear
@@ -2890,9 +2589,7 @@ Note that while the Diving Helmet, one of the ingredients, grants +2 defense, th
 History
 
 ---
-
 # 文档：Dog set
-
 - 类别：accessories
 - 标识：dog set
 - 来源：wiki/Dog_set
@@ -2903,9 +2600,7 @@ Set
 History
 
 ---
-
 # 文档：Dog Tail
-
 - 类别：accessories
 - 标识：dog tail
 - 来源：wiki/Dog_Tail
@@ -2916,9 +2611,7 @@ Set
 History
 
 ---
-
 # 文档：DPS Meter
-
 - 类别：accessories
 - 标识：dps meter
 - 来源：wiki/DPS_Meter
@@ -2935,9 +2628,7 @@ The DPS Meter displays the damage per real-time second instead of the damage per
 History
 
 ---
-
 # 文档：Dunerider Boots
-
 - 类别：accessories
 - 标识：dunerider boots
 - 来源：wiki/Dunerider_Boots
@@ -2959,9 +2650,7 @@ The Dunerider Boots' tooltip is a reference to the science fiction media franchi
 History
 
 ---
-
 # 文档：Echo Chamber
-
 - 类别：accessories
 - 标识：echo chamber
 - 来源：wiki/Echo_Chamber
@@ -2986,9 +2675,7 @@ Spectre Goggles
 History
 
 ---
-
 # 文档：Extendo Grip
-
 - 类别：accessories
 - 标识：extendo grip
 - 来源：wiki/Extendo_Grip
@@ -3009,9 +2696,7 @@ This item, when equipped, can be useful to mine Hellstone at a distance, without
 History
 
 ---
-
 # 文档：Eye of the Golem
-
 - 类别：accessories
 - 标识：eye of the golem
 - 来源：wiki/Eye_of_the_Golem
@@ -3029,9 +2714,7 @@ By using other damage increasing accessories along with this one, like emblems a
 History
 
 ---
-
 # 文档：Fairy Boots
-
 - 类别：accessories
 - 标识：fairy boots
 - 来源：wiki/Fairy_Boots
@@ -3047,9 +2730,7 @@ While the Spectre Boots can be further crafted into the Lightning Boots, the Fai
 History
 
 ---
-
 # 文档：Fake Unicorn Horn
-
 - 类别：accessories
 - 标识：fake unicorn horn
 - 来源：wiki/Fake_Unicorn_Horn
@@ -3066,9 +2747,7 @@ Unicorn Horn, a crafting material dropped from Unicorns.
 History
 
 ---
-
 # 文档：Fart in a Balloon
-
 - 类别：accessories
 - 标识：fart in a balloon
 - 来源：wiki/Fart_in_a_Balloon
@@ -3091,9 +2770,7 @@ Gallery
 History
 
 ---
-
 # 文档：Fart in a Jar
-
 - 类别：accessories
 - 标识：fart in a jar
 - 来源：wiki/Fart_in_a_Jar
@@ -3124,9 +2801,7 @@ History
 References
 
 ---
-
 # 文档：Fast Clock
-
 - 类别：accessories
 - 标识：fast clock
 - 来源：wiki/Fast_Clock
@@ -3144,9 +2819,7 @@ Although it is a clock, it will not display time.
 History
 
 ---
-
 # 文档：Feral Claws
-
 - 类别：accessories
 - 标识：feral claws
 - 来源：wiki/Feral_Claws
@@ -3164,9 +2837,7 @@ Before 1.2, Feral Claws were the only pre-Hardmode offensive accessory.
 History
 
 ---
-
 # 文档：Fire Gauntlet
-
 - 类别：accessories
 - 标识：fire gauntlet
 - 来源：wiki/Fire_Gauntlet
@@ -3196,9 +2867,7 @@ The Fire Gauntlet can be worn alongside the Mechanical Glove with the effects of
 History
 
 ---
-
 # 文档：Fish Finder
-
 - 类别：accessories
 - 标识：fish finder
 - 来源：wiki/Fish_Finder
@@ -3223,9 +2892,7 @@ Reference
 History
 
 ---
-
 # 文档：Fisherman's Pocket Guide
-
 - 类别：accessories
 - 标识：fishermans pocket guide
 - 来源：wiki/Fisherman's_Pocket_Guide
@@ -3244,9 +2911,7 @@ History
 References
 
 ---
-
 # 文档：Fishing Bobbers
-
 - 类别：accessories
 - 标识：fishing bobbers
 - 来源：wiki/Fishing_Bobbers
@@ -3264,9 +2929,7 @@ Sell
 show-acc = yes
 
 ---
-
 # 文档：Flame Waker Boots
-
 - 类别：accessories
 - 标识：flame waker boots
 - 来源：wiki/Flame_Waker_Boots
@@ -3289,9 +2952,7 @@ This item is the only vanity accessory that is also a crafting material.
 History
 
 ---
-
 # 文档：Flesh Knuckles
-
 - 类别：accessories
 - 标识：flesh knuckles
 - 来源：wiki/Flesh_Knuckles
@@ -3317,23 +2978,19 @@ The Flesh Knuckles' palm grip, in addition to being made of bone, appears to be 
 History
 
 ---
-
 # 文档：Flipper
-
 - 类别：accessories
 - 标识：flipper
 - 来源：wiki/Flipper
 
-The Flipper is an accessory that allows a player to swim in liquid. With the Flipper equipped in an accessory slot, the player can swim upwards in Water, Lava, or Honey, by pressing  repeatedly &mdash; essentially allowing unlimited multi-jumps while within liquid. The Flipper is found in Water Chests, which are found submerged in water. They can also be found in  and .
+The Flipper is an accessory that allows a player to swim in liquid. With the Flipper equipped in an accessory slot, the player can swim upwards in Water, Lava, or Honey, by pressing  repeatedly — essentially allowing unlimited multi-jumps while within liquid. The Flipper is found in Water Chests, which are found submerged in water. They can also be found in  and .
 
 Crafting
 Used in
 History
 
 ---
-
 # 文档：Flower Boots
-
 - 类别：accessories
 - 标识：flower boots
 - 来源：wiki/Flower_Boots
@@ -3367,9 +3024,7 @@ History
 Footnotes
 
 ---
-
 # 文档：Flurry Boots
-
 - 类别：accessories
 - 标识：flurry boots
 - 来源：wiki/Flurry_Boots
@@ -3389,9 +3044,7 @@ It can be equipped with the Hermes Boots or Sailfish Boots, but these effects do
 History
 
 ---
-
 # 文档：Flying Carpet
-
 - 类别：accessories
 - 标识：flying carpet
 - 来源：wiki/Flying_Carpet
@@ -3420,9 +3073,7 @@ It can be used together with Shoe Spikes or Climbing Claws to imitate the Tiger 
 History
 
 ---
-
 # 文档：Fox set
-
 - 类别：accessories
 - 标识：fox set zoologist
 - 来源：wiki/Fox_set_(Zoologist)
@@ -3436,9 +3087,7 @@ Fox set
 History
 
 ---
-
 # 文档：Fox Tail
-
 - 类别：accessories
 - 标识：fox tail
 - 来源：wiki/Fox_Tail
@@ -3452,9 +3101,7 @@ Fox set
 History
 
 ---
-
 # 文档：FPV Goggles
-
 - 类别：accessories
 - 标识：fpv goggles
 - 来源：wiki/FPV_Goggles
@@ -3471,9 +3118,7 @@ Currently, the FPV Goggles have the last internal ID number.
 History
 
 ---
-
 # 文档：Frog Flipper
-
 - 类别：accessories
 - 标识：frog flipper
 - 来源：wiki/Frog_Flipper
@@ -3486,9 +3131,7 @@ Used in
 History
 
 ---
-
 # 文档：Frog Gear
-
 - 类别：accessories
 - 标识：frog gear
 - 来源：wiki/Frog_Gear
@@ -3504,9 +3147,7 @@ Its tooltip is a reference to the song  from The Muppet Show.
 History
 
 ---
-
 # 文档：Frog Webbing
-
 - 类别：accessories
 - 标识：frog webbing
 - 来源：wiki/Frog_Webbing
@@ -3519,9 +3160,7 @@ Used in
 History
 
 ---
-
 # 文档：Frostspark Boots
-
 - 类别：accessories
 - 标识：frostspark boots
 - 来源：wiki/Frostspark_Boots
@@ -3551,9 +3190,7 @@ The snow particles from the Frostspark Boots fall as fast as the player is falli
 History
 
 ---
-
 # 文档：Frozen Shield
-
 - 类别：accessories
 - 标识：frozen shield
 - 来源：wiki/Frozen_Shield
@@ -3574,9 +3211,7 @@ With the Warding modifier, the Frozen Shield has 10 defense and a 25% damage red
 History
 
 ---
-
 # 文档：Frozen Turtle Shell
-
 - 类别：accessories
 - 标识：frozen turtle shell
 - 来源：wiki/Frozen_Turtle_Shell
@@ -3601,9 +3236,7 @@ The buff can be canceled, although it will immediately activate again.
 History
 
 ---
-
 # 文档：Gentleman's Beard
-
 - 类别：accessories
 - 标识：gentlemans beard
 - 来源：wiki/Gentleman's_Beard
@@ -3624,9 +3257,7 @@ Firestarter's set
 History
 
 ---
-
 # 文档：Gentleman's Long Beard
-
 - 类别：accessories
 - 标识：gentlemans long beard
 - 来源：wiki/Gentleman's_Long_Beard
@@ -3647,9 +3278,7 @@ Firestarter's set
 History
 
 ---
-
 # 文档：Gentleman's Magnificent Beard
-
 - 类别：accessories
 - 标识：gentlemans magnificent beard
 - 来源：wiki/Gentleman's_Magnificent_Beard
@@ -3670,9 +3299,7 @@ Firestarter's set
 History
 
 ---
-
 # 文档：Gentleman's set
-
 - 类别：accessories
 - 标识：gentlemans set
 - 来源：wiki/Gentleman's_set
@@ -3693,9 +3320,7 @@ Firestarter's set
 History
 
 ---
-
 # 文档：Glass Slipper
-
 - 类别：accessories
 - 标识：glass slipper
 - 来源：wiki/Glass_Slipper
@@ -3709,9 +3334,7 @@ Tips
 History
 
 ---
-
 # 文档：Goblin Tech
-
 - 类别：accessories
 - 标识：goblin tech
 - 来源：wiki/Goblin_Tech
@@ -3731,9 +3354,7 @@ The Goblin Tech is one of the hardest items to get for the PDA, surpassed only b
 History
 
 ---
-
 # 文档：Gold Ring
-
 - 类别：accessories
 - 标识：gold ring
 - 来源：wiki/Gold_Ring
@@ -3758,9 +3379,7 @@ The Gold Ring is visually very similar to the Diamond Ring. While the Gold Ring'
 History
 
 ---
-
 # 文档：Gold Watch
-
 - 类别：accessories
 - 标识：gold watch
 - 来源：wiki/Gold_Watch
@@ -3777,9 +3396,7 @@ It must be equipped to work in the . It will not display the time if it is in th
 History
 
 ---
-
 # 文档：Golf Balls
-
 - 类别：accessories
 - 标识：golf balls
 - 来源：wiki/Golf_Balls
@@ -3808,9 +3425,7 @@ If you hit a Golf Ball up past the upper world boundary, it will stay up there a
 History
 
 ---
-
 # 文档：GPS
-
 - 类别：accessories
 - 标识：gps
 - 来源：wiki/GPS
@@ -3838,9 +3453,7 @@ The GPS was the first combined informational accessory, existing far before any 
 History
 
 ---
-
 # 文档：Gravity Globe
-
 - 类别：accessories
 - 标识：gravity globe
 - 来源：wiki/Gravity_Globe
@@ -3868,9 +3481,7 @@ Gravitation Potion, a potion which affects the player in a similar manner.
 History
 
 ---
-
 # 文档：Greedy Ring
-
 - 类别：accessories
 - 标识：greedy ring
 - 来源：wiki/Greedy_Ring
@@ -3898,9 +3509,7 @@ The Greedy Ring is one of the most difficult items to obtain, given that the com
 History
 
 ---
-
 # 文档：Green Horseshoe Balloon
-
 - 类别：accessories
 - 标识：green horseshoe balloon
 - 来源：wiki/Green_Horseshoe_Balloon
@@ -3928,9 +3537,7 @@ Gallery
 History
 
 ---
-
 # 文档：Guide to Plant Fiber Cordage
-
 - 类别：accessories
 - 标识：guide to plant fiber cordage
 - 来源：wiki/Guide_to_Plant_Fiber_Cordage
@@ -3953,9 +3560,7 @@ The book seems to be closely related to the Guide To Critter Companionship, whic
 History
 
 ---
-
 # 文档：Guide Voodoo Doll
-
 - 类别：accessories
 - 标识：guide voodoo doll
 - 来源：wiki/Guide_Voodoo_Doll
@@ -3989,9 +3594,7 @@ Throwing a stack of dolls will kill multiple NPCs, such as it killing the guide 
 History
 
 ---
-
 # 文档：Hand Of Creation
-
 - 类别：accessories
 - 标识：hand of creation
 - 来源：wiki/Hand_Of_Creation
@@ -4007,9 +3610,7 @@ The effects of this Accessory do not stack with the Ancient Chisel or the Step S
 History
 
 ---
-
 # 文档：Hand Warmer
-
 - 类别：accessories
 - 标识：hand warmer
 - 来源：wiki/Hand_Warmer
@@ -4022,9 +3623,7 @@ The Hand Warmer is one of the only debuff-negating accessories that is not a com
 History
 
 ---
-
 # 文档：Hellfire Treads
-
 - 类别：accessories
 - 标识：hellfire treads
 - 来源：wiki/Hellfire_Treads
@@ -4042,9 +3641,7 @@ The tooltip may be a reference to the song Transdermal Celebration by .
 History
 
 ---
-
 # 文档：Hercules Beetle
-
 - 类别：accessories
 - 标识：hercules beetle
 - 来源：wiki/Hercules_Beetle
@@ -4064,9 +3661,7 @@ History
 References
 
 ---
-
 # 文档：Hermes Boots
-
 - 类别：accessories
 - 标识：hermes boots
 - 来源：wiki/Hermes_Boots
@@ -4098,9 +3693,7 @@ The Hermes Boots are a reference to , god of trade, roads, sports, and travelers
 History
 
 ---
-
 # 文档：Hero Shield
-
 - 类别：accessories
 - 标识：hero shield
 - 来源：wiki/Hero_Shield
@@ -4122,9 +3715,7 @@ Naturally, the Hero Shield offers few benefits to a single-player character.
 History
 
 ---
-
 # 文档：Hive Pack
-
 - 类别：accessories
 - 标识：hive pack
 - 来源：wiki/Hive_Pack
@@ -4145,9 +3736,7 @@ As of 1.4.4, the hornets spawned by the Hornet Staff get a 22.2% fire rate incre
 History
 
 ---
-
 # 文档：Honey Balloon
-
 - 类别：accessories
 - 标识：honey balloon
 - 来源：wiki/Honey_Balloon
@@ -4169,9 +3758,7 @@ Gallery
 History
 
 ---
-
 # 文档：Honey Comb
-
 - 类别：accessories
 - 标识：honey comb
 - 来源：wiki/Honey_Comb
@@ -4189,9 +3776,7 @@ The Honey Comb works well with a full set of Orichalcum armor as the bee damage 
 History
 
 ---
-
 # 文档：Hoverboard
-
 - 类别：accessories
 - 标识：hoverboard
 - 来源：wiki/Hoverboard
@@ -4220,9 +3805,7 @@ The concept of the Hoverboard was first widely popularized with the American sci
 History
 
 ---
-
 # 文档：Hunter Cloak
-
 - 类别：accessories
 - 标识：hunter cloak
 - 来源：wiki/Hunter_Cloak
@@ -4242,9 +3825,7 @@ History
 References
 
 ---
-
 # 文档：Huntress's Buckler
-
 - 类别：accessories
 - 标识：huntresss buckler
 - 来源：wiki/Huntress's_Buckler
@@ -4265,9 +3846,7 @@ Huntress armor
 History
 
 ---
-
 # 文档：Ice Skates
-
 - 类别：accessories
 - 标识：ice skates
 - 来源：wiki/Ice_Skates
@@ -4287,9 +3866,7 @@ When worn on a female character, ice skates appear far wider than most other foo
 History
 
 ---
-
 # 文档：Inner Tube
-
 - 类别：accessories
 - 标识：inner tube
 - 来源：wiki/Inner_Tube
@@ -4316,9 +3893,7 @@ Movement Accessories
 History
 
 ---
-
 # 文档：Jellyfish Diving Gear
-
 - 类别：accessories
 - 标识：jellyfish diving gear
 - 来源：wiki/Jellyfish_Diving_Gear
@@ -4332,13 +3907,10 @@ Used in
 Notes
 It has a pink glow, as opposed to the light blue glow from the Arctic Diving Gear.
 
-
 History
 
 ---
-
 # 文档：Jellyfish Necklace
-
 - 类别：accessories
 - 标识：jellyfish necklace
 - 来源：wiki/Jellyfish_Necklace
@@ -4355,9 +3927,7 @@ When worn in a social slot, the Jellyfish Necklace does not emit light even when
 History
 
 ---
-
 # 文档：Jungle Rose
-
 - 类别：accessories
 - 标识：jungle rose
 - 来源：wiki/Jungle_Rose
@@ -4374,9 +3944,7 @@ History
 References
 
 ---
-
 # 文档：Lava Charm
-
 - 类别：accessories
 - 标识：lava charm
 - 来源：wiki/Lava_Charm
@@ -4401,9 +3969,7 @@ The Lava Waders, , , , and  stack with the Lava Charm to increase lava immunity 
 History
 
 ---
-
 # 文档：Lava Waders
-
 - 类别：accessories
 - 标识：lava waders
 - 来源：wiki/Lava_Waders
@@ -4441,9 +4007,7 @@ History
 ---
 ## AMMO
 共 78 篇文档
-
 # 文档：Ammunition items
-
 - 类别：ammo
 - 标识：ammunition items
 - 来源：wiki/Ammunition_items
@@ -4525,11 +4089,11 @@ The easiest (or the way that does not heavily depend on the weapon you are using
 
 Ammo conservation effects are treated as , calculated with the following formula:
 
-math|Ammunition_items_math_1|<esc>p_{total} = p_1 + p_2 - p_1 \times p_2</esc>
+math|Ammunition_items_math_1|p_{total} = p_1 + p_2 - p_1 \times p_2
 
-For example, using a Minishark (math|Ammunition_items_math_2|<esc>p_1 = \frac{1}{3}</esc>|inline=y) with an Ammo Box (math|Ammunition_items_math_3|<esc>p_2 = \frac{1}{5}</esc>|inline=y) results in a total chance of math|Ammunition_items_math_4|<esc>p_{total} = \frac{7}{15}</esc>|inline=y ( not to consume ammo):
+For example, using a Minishark (math|Ammunition_items_math_2|p_1 = \frac{1}{3}|inline=y) with an Ammo Box (math|Ammunition_items_math_3|p_2 = \frac{1}{5}|inline=y) results in a total chance of math|Ammunition_items_math_4|p_{total} = \frac{7}{15}|inline=y ( not to consume ammo):
 
-math|Ammunition_items_math_5|<esc>p_{total} = \frac{1}{3} + \frac{1}{5} - \frac{1}{3} \times \frac{1}{5} = \frac{7}{15}</esc>
+math|Ammunition_items_math_5|p_{total} = \frac{1}{3} + \frac{1}{5} - \frac{1}{3} \times \frac{1}{5} = \frac{7}{15}
 
 The highest conservation possible is attainable by using a Phantasm with a Magic Quiver, an Ammo Box, an Ammo Reservation Potion, a Vortex Breastplate and a Chlorophyte Helmet. It amounts to , which means that, on average, only  out of 1000 arrows will be consumed.
 
@@ -4540,9 +4104,7 @@ The following ammo items do not automatically get placed into the ammo slots. If
 References
 
 ---
-
 # 文档：Ale
-
 - 类别：ammo
 - 标识：ale
 - 来源：wiki/Ale
@@ -4566,9 +4128,7 @@ Sake
 History
 
 ---
-
 # 文档：Blue Flare
-
 - 类别：ammo
 - 标识：blue flare
 - 来源：wiki/Blue_Flare
@@ -4619,9 +4179,7 @@ On the , with Flower Boots, farming fishing bait becomes easy; Wearing the boots
 History
 
 ---
-
 # 文档：Bone Arrow
-
 - 类别：ammo
 - 标识：bone arrow
 - 来源：wiki/Bone_Arrow
@@ -4635,9 +4193,7 @@ The name of this item may be a play on the phrase "Bow and arrow".
 History
 
 ---
-
 # 文档：Candy Corn
-
 - 类别：ammo
 - 标识：candy corn
 - 来源：wiki/Candy_Corn
@@ -4650,9 +4206,7 @@ is a candy that's popular during Halloween, mostly found in the United States. I
 History
 
 ---
-
 # 文档：Chlorophyte Arrow
-
 - 类别：ammo
 - 标识：chlorophyte arrow
 - 来源：wiki/Chlorophyte_Arrow
@@ -4672,9 +4226,7 @@ As with most piercing weapons, if multiple arrows would penetrate an enemy, an i
 History
 
 ---
-
 # 文档：Chlorophyte Bullet
-
 - 类别：ammo
 - 标识：chlorophyte bullet
 - 来源：wiki/Chlorophyte_Bullet
@@ -4706,9 +4258,7 @@ When fighting weak enemies (such as Slimes) and using a fast-firing gun (such as
 History
 
 ---
-
 # 文档：Cluster Rocket I
-
 - 类别：ammo
 - 标识：cluster rocket i
 - 来源：wiki/Cluster_Rocket_I
@@ -4726,9 +4276,7 @@ Stynger Bolts have a very similar function while costing a fraction of the price
 History
 
 ---
-
 # 文档：Cluster Rocket II
-
 - 类别：ammo
 - 标识：cluster rocket ii
 - 来源：wiki/Cluster_Rocket_II
@@ -4742,9 +4290,7 @@ Cluster Rocket IIs can be purchased from the Cyborg for  each during a Blood Moo
 History
 
 ---
-
 # 文档：Coins
-
 - 类别：ammo
 - 标识：coins
 - 来源：wiki/Coins
@@ -4819,9 +4365,7 @@ Although coins are considered as ammunition due to being fired by the Coin Gun, 
 History
 
 ---
-
 # 文档：Confetti
-
 - 类别：ammo
 - 标识：confetti
 - 来源：wiki/Confetti
@@ -4833,9 +4377,7 @@ Used in
 History
 
 ---
-
 # 文档：Copper Coin
-
 - 类别：ammo
 - 标识：copper coin
 - 来源：wiki/Copper_Coin
@@ -4910,9 +4452,7 @@ Although coins are considered as ammunition due to being fired by the Coin Gun, 
 History
 
 ---
-
 # 文档：Copper Coin/cs
-
 - 类别：ammo
 - 标识：copper coin/cs
 - 来源：wiki/Copper_Coin/cs
@@ -4926,9 +4466,7 @@ Mince mohou být získány zabíjením nepřátel, interakcí s NPC nebo prohled
 Množství mincí, které padne z nepřítele je počítáno z pevných hodnot v kódu hry s několika náhodnými variacemi.
 
 ---
-
 # 文档：Crimsand Block
-
 - 类别：ammo
 - 标识：crimsand block
 - 来源：wiki/Crimsand_Block
@@ -4949,9 +4487,7 @@ Tile ID
 show-blocks = yes
 
 ---
-
 # 文档：Crystal Bullet
-
 - 类别：ammo
 - 标识：crystal bullet
 - 来源：wiki/Crystal_Bullet
@@ -4973,9 +4509,7 @@ Despite their low knockback, knockback-susceptible enemies are easily stun-locke
 History
 
 ---
-
 # 文档：Crystal Dart
-
 - 类别：ammo
 - 标识：crystal dart
 - 来源：wiki/Crystal_Dart
@@ -4998,9 +4532,7 @@ It is the only dart that does not inflict any debuffs, other than seeds.
 History
 
 ---
-
 # 文档：Cursed Arrow
-
 - 类别：ammo
 - 标识：cursed arrow
 - 来源：wiki/Cursed_Arrow
@@ -5017,9 +4549,7 @@ Although they can be acquired much earlier, Cursed Arrows, Chlorophyte Arrows, a
 History
 
 ---
-
 # 文档：Cursed Bullet
-
 - 类别：ammo
 - 标识：cursed bullet
 - 来源：wiki/Cursed_Bullet
@@ -5033,9 +4563,7 @@ Recipes
 History
 
 ---
-
 # 文档：Cursed Dart
-
 - 类别：ammo
 - 标识：cursed dart
 - 来源：wiki/Cursed_Dart
@@ -5058,9 +4586,7 @@ The flames pierce their target, so they will do immense damage against verticall
 History
 
 ---
-
 # 文档：Ebonsand Block
-
 - 类别：ammo
 - 标识：ebonsand block
 - 来源：wiki/Ebonsand_Block
@@ -5081,9 +4607,7 @@ Tile ID
 show-blocks = yes
 
 ---
-
 # 文档：Endless Musket Pouch
-
 - 类别：ammo
 - 标识：endless musket pouch
 - 来源：wiki/Endless_Musket_Pouch
@@ -5113,9 +4637,7 @@ Endless Quiver, the counterpart for arrows.
 History
 
 ---
-
 # 文档：Endless Quiver
-
 - 类别：ammo
 - 标识：endless quiver
 - 来源：wiki/Endless_Quiver
@@ -5148,9 +4670,7 @@ Endless Musket Pouch, the counterpart for Musket Balls.
 History
 
 ---
-
 # 文档：Exploding Bullet
-
 - 类别：ammo
 - 标识：exploding bullet
 - 来源：wiki/Exploding_Bullet
@@ -5174,9 +4694,7 @@ The Tactical Shotgun works incredibly well with these, effectively clearing out 
 History
 
 ---
-
 # 文档：Explosive Bunny
-
 - 类别：ammo
 - 标识：explosive bunny
 - 来源：wiki/Explosive_Bunny
@@ -5205,9 +4723,7 @@ When fired from the bunny cannon, the Explosive Bunny has the highest base damag
 History
 
 ---
-
 # 文档：Explosive Jack 'O Lantern
-
 - 类别：ammo
 - 标识：explosive jack o lantern
 - 来源：wiki/Explosive_Jack_'O_Lantern
@@ -5217,9 +4733,7 @@ Explosive Jack 'O Lanterns are a type of ammunition fired by the Jack 'O Lantern
 History
 
 ---
-
 # 文档：Fallen Star
-
 - 类别：ammo
 - 标识：fallen star
 - 来源：wiki/Fallen_Star
@@ -5265,9 +4779,7 @@ History
 References
 
 ---
-
 # 文档：Flaming Arrow
-
 - 类别：ammo
 - 标识：flaming arrow
 - 来源：wiki/Flaming_Arrow
@@ -5289,9 +4801,7 @@ When using the Molten Fury with the Endless Quiver equipped, firing will turn th
 History
 
 ---
-
 # 文档：Flare
-
 - 类别：ammo
 - 标识：flare
 - 来源：wiki/Flare
@@ -5342,9 +4852,7 @@ On the , with Flower Boots, farming fishing bait becomes easy; Wearing the boots
 History
 
 ---
-
 # 文档：Flare Gun
-
 - 类别：ammo
 - 标识：flare gun
 - 来源：wiki/Flare_Gun
@@ -5395,9 +4903,7 @@ On the , with Flower Boots, farming fishing bait becomes easy; Wearing the boots
 History
 
 ---
-
 # 文档：Frostburn Arrow
-
 - 类别：ammo
 - 标识：frostburn arrow
 - 来源：wiki/Frostburn_Arrow
@@ -5424,9 +4930,7 @@ resemble , a type of arrow exclusive to the .
 History
 
 ---
-
 # 文档：Gel
-
 - 类别：ammo
 - 标识：gel
 - 来源：wiki/Gel
@@ -5453,9 +4957,7 @@ Umbrella Slimes are the only source of Gel that is not guaranteed to drop it all
 History
 
 ---
-
 # 文档：Gold Coin
-
 - 类别：ammo
 - 标识：gold coin
 - 来源：wiki/Gold_Coin
@@ -5530,9 +5032,7 @@ Although coins are considered as ammunition due to being fired by the Coin Gun, 
 History
 
 ---
-
 # 文档：Gold Coin/cs
-
 - 类别：ammo
 - 标识：gold coin/cs
 - 来源：wiki/Gold_Coin/cs
@@ -5546,9 +5046,7 @@ Mince mohou být získány zabíjením nepřátel, interakcí s NPC nebo prohled
 Množství mincí, které padne z nepřítele je počítáno z pevných hodnot v kódu hry s několika náhodnými variacemi.
 
 ---
-
 # 文档：Golden Bullet
-
 - 类别：ammo
 - 标识：golden bullet
 - 来源：wiki/Golden_Bullet
@@ -5567,9 +5065,7 @@ Flask of Gold
 History
 
 ---
-
 # 文档：Heart Arrow
-
 - 类别：ammo
 - 标识：heart arrow
 - 来源：wiki/Heart_Arrow
@@ -5597,9 +5093,7 @@ Heart Arrows combined with a fast bow or repeater make most bosses extremely eas
 History
 
 ---
-
 # 文档：Hellfire Arrow
-
 - 类别：ammo
 - 标识：hellfire arrow
 - 来源：wiki/Hellfire_Arrow
@@ -5628,9 +5122,7 @@ The name of Hellfire Arrows may be a reference to the .
 History
 
 ---
-
 # 文档：High Velocity Bullet
-
 - 类别：ammo
 - 标识：high velocity bullet
 - 来源：wiki/High_Velocity_Bullet
@@ -5657,9 +5149,7 @@ If fired at close range, the bullets may seem invisible due to their very large 
 History
 
 ---
-
 # 文档：Holy Arrow
-
 - 类别：ammo
 - 标识：holy arrow
 - 来源：wiki/Holy_Arrow
@@ -5707,18 +5197,14 @@ Can be crafted pre-Hardmode.
 Deals  more direct damage.
 Inflicts Cursed Inferno debuff, dealing extra damage over time.
 :
-Deals  more direct damage.
 Inflicts Ichor debuff, reducing the target's defense.
 :
-Deals  more direct damage.
 Afterimages are far easier to control.
 
 History
 
 ---
-
 # 文档：Ichor Arrow
-
 - 类别：ammo
 - 标识：ichor arrow
 - 来源：wiki/Ichor_Arrow
@@ -5736,9 +5222,7 @@ Alternatively, one can use Unholy Arrows until they acquire Hardmode-tier weapon
 History
 
 ---
-
 # 文档：Ichor Bullet
-
 - 类别：ammo
 - 标识：ichor bullet
 - 来源：wiki/Ichor_Bullet
@@ -5756,9 +5240,7 @@ In a PvP scenario, the damage increase from Ichor actually changes depending on 
 History
 
 ---
-
 # 文档：Ichor Dart
-
 - 类别：ammo
 - 标识：ichor dart
 - 来源：wiki/Ichor_Dart
@@ -5776,9 +5258,7 @@ With their piercing, ability to potentially hit the same enemy dozens of times i
 History
 
 ---
-
 # 文档：Jester's Arrow
-
 - 类别：ammo
 - 标识：jesters arrow
 - 来源：wiki/Jester's_Arrow
@@ -5802,9 +5282,7 @@ Jester's Arrows have a 10% damage penalty for every enemy hit.
 History
 
 ---
-
 # 文档：Launchers
-
 - 类别：ammo
 - 标识：launchers
 - 来源：wiki/Launchers
@@ -5836,9 +5314,7 @@ Behavior
 Some launchers give unusual behavior to rockets, including transforming them into different kinds of projectiles with different behaviors. This table lists how some of the basic properties of the rocket variants are affected by the different rocket-using launchers. Additional info on how and why some of these changes happen can be found on the launchers' individual pages.
 
 ---
-
 # 文档：Liquid rockets
-
 - 类别：ammo
 - 标识：liquid rockets
 - 来源：wiki/Liquid_rockets
@@ -5873,9 +5349,7 @@ Gallery
 History
 
 ---
-
 # 文档：Luminite Arrow
-
 - 类别：ammo
 - 标识：luminite arrow
 - 来源：wiki/Luminite_Arrow
@@ -5909,9 +5383,7 @@ History
 References
 
 ---
-
 # 文档：Luminite Bullet
-
 - 类别：ammo
 - 标识：luminite bullet
 - 来源：wiki/Luminite_Bullet
@@ -5941,9 +5413,7 @@ Luminite Bullets are the only bullets that can be crafted without using Musket B
 History
 
 ---
-
 # 文档：Meteor Shot
-
 - 类别：ammo
 - 标识：meteor shot
 - 来源：wiki/Meteor_Shot
@@ -5964,9 +5434,7 @@ While no other bullets have both bouncing and piercing capabilities, in Hardmode
 History
 
 ---
-
 # 文档：Mini Nuke I
-
 - 类别：ammo
 - 标识：mini nuke i
 - 来源：wiki/Mini_Nuke_I
@@ -5986,9 +5454,7 @@ The recipe's use of a Shroomite Bar is in reference to the mushroom clouds that 
 History
 
 ---
-
 # 文档：Mini Nuke II
-
 - 类别：ammo
 - 标识：mini nuke ii
 - 来源：wiki/Mini_Nuke_II
@@ -6006,9 +5472,7 @@ The recipe's use of a Shroomite Bar is in reference to the mushroom clouds that 
 History
 
 ---
-
 # 文档：Musket Ball
-
 - 类别：ammo
 - 标识：musket ball
 - 来源：wiki/Musket_Ball
@@ -6030,9 +5494,7 @@ Despite being called "Musket Balls", they can be used as ammunition for any weap
 History
 
 ---
-
 # 文档：Nail
-
 - 类别：ammo
 - 标识：nail
 - 来源：wiki/Nail
@@ -6042,9 +5504,7 @@ The Nail is a type of ammunition used solely by the Nail Gun, attainable from a 
 History
 
 ---
-
 # 文档：Nano Bullet
-
 - 类别：ammo
 - 标识：nano bullet
 - 来源：wiki/Nano_Bullet
@@ -6053,8 +5513,6 @@ History
 Nano Bullets are a type of bullet available post-Plantera and are one of six types of craftable ammunition made from Empty Bullets, which are sold by the Arms Dealer after Hardmode has been enabled. Shooting an enemy with Nano Bullets will inflict enemies with the Confused debuff, causing them to have their movement reversed, running away from the player rather than towards them. The Confused debuff has a 33.3% (1/3) chance to last for 3 seconds, and a 66.7% (2/3) chance to last for 1 second.
 
 Nano Bullets do not inflict debuffs to players.
-
-
 
 Crafting
 Recipes
@@ -6065,9 +5523,7 @@ While many enemies are immune to the Confused debuff, Nano Bullets are otherwise
 History
 
 ---
-
 # 文档：Party Bullet
-
 - 类别：ammo
 - 标识：party bullet
 - 来源：wiki/Party_Bullet
@@ -6092,9 +5548,7 @@ Party Bullets can be acquired before Hardmode, through the use of Pigronatas, bu
 History
 
 ---
-
 # 文档：Pearlsand Block
-
 - 类别：ammo
 - 标识：pearlsand block
 - 来源：wiki/Pearlsand_Block
@@ -6115,9 +5569,7 @@ Tile ID
 show-blocks = yes
 
 ---
-
 # 文档：Platinum Coin
-
 - 类别：ammo
 - 标识：platinum coin
 - 来源：wiki/Platinum_Coin
@@ -6192,9 +5644,7 @@ Although coins are considered as ammunition due to being fired by the Coin Gun, 
 History
 
 ---
-
 # 文档：Platinum Coin/cs
-
 - 类别：ammo
 - 标识：platinum coin/cs
 - 来源：wiki/Platinum_Coin/cs
@@ -6208,9 +5658,7 @@ Mince mohou být získány zabíjením nepřátel, interakcí s NPC nebo prohled
 Množství mincí, které padne z nepřítele je počítáno z pevných hodnot v kódu hry s několika náhodnými variacemi.
 
 ---
-
 # 文档：Poison Dart
-
 - 类别：ammo
 - 标识：poison dart
 - 来源：wiki/Poison_Dart
@@ -6225,9 +5673,7 @@ Dart Trap
 History
 
 ---
-
 # 文档：Rockets
-
 - 类别：ammo
 - 标识：rockets
 - 来源：wiki/Rockets
@@ -6253,48 +5699,36 @@ col:source = Purchased from Cyborg ()
 col:radius = Small
 col:tile =
 col:availability = Blood Moon
-col:source = Purchased from Cyborg ()
 col:radius = Small
 col:tile =
 col:availability = Night or
 Solar Eclipse
-col:source = Purchased from Cyborg ()
 col:radius = Large
 col:tile =
 col:availability = Solar Eclipse
-col:source = Purchased from Cyborg ()
 col:radius = Large
 col:tile =
 col:availability = Post-Martian Madness
-col:source = Purchased from Cyborg ()
 col:radius = Spread
 col:tile =
 col:availability = Post-Martian Madness,
 During Blood Moon or Solar Eclipse
-col:source = Purchased from Cyborg ()
 col:radius = Spread
 col:tile =
-col:availability = Always
-col:source = Purchased from Cyborg ()
 col:radius = Tiny
 col:tile =
-col:availability = Always
 col:source =
 col:radius = Tiny
 col:tile =
-col:availability = Always
 col:source =
 col:radius = Tiny
 col:tile =
-col:availability = Always
 col:source =
 col:radius = Tiny
 col:tile =
-col:availability = Always
 col:source =
 col:radius = Huge
 col:tile =
-col:availability = Always
 col:source =
 col:radius = Huge
 col:tile =
@@ -6308,9 +5742,7 @@ The Snowman Cannon, Jack 'O Lantern Launcher, Electrosphere Launcher, Celebratio
 History
 
 ---
-
 # 文档：Sand Block
-
 - 类别：ammo
 - 标识：sand block
 - 来源：wiki/Sand_Block
@@ -6331,9 +5763,7 @@ Tile ID
 show-blocks = yes
 
 ---
-
 # 文档：Sand Blocks
-
 - 类别：ammo
 - 标识：sand blocks
 - 来源：wiki/Sand_Blocks
@@ -6354,9 +5784,7 @@ Tile ID
 show-blocks = yes
 
 ---
-
 # 文档：Seed
-
 - 类别：ammo
 - 标识：seed
 - 来源：wiki/Seed
@@ -6369,9 +5797,7 @@ Unlike other ammunition that can be fired from dart weapons, Seeds cannot deal c
 History
 
 ---
-
 # 文档：Shimmer Arrow
-
 - 类别：ammo
 - 标识：shimmer arrow
 - 来源：wiki/Shimmer_Arrow
@@ -6387,9 +5813,7 @@ When used with the Daedalus Stormbow, the arrows will operate like any other arr
 History
 
 ---
-
 # 文档：Silver Bullet
-
 - 类别：ammo
 - 标识：silver bullet
 - 来源：wiki/Silver_Bullet
@@ -6421,9 +5845,7 @@ Despite their folklore, Silver Bullets do not deal extra damage to Werewolves.
 History
 
 ---
-
 # 文档：Silver Coin
-
 - 类别：ammo
 - 标识：silver coin
 - 来源：wiki/Silver_Coin
@@ -6498,9 +5920,7 @@ Although coins are considered as ammunition due to being fired by the Coin Gun, 
 History
 
 ---
-
 # 文档：Silver Coin/cs
-
 - 类别：ammo
 - 标识：silver coin/cs
 - 来源：wiki/Silver_Coin/cs
@@ -6514,9 +5934,7 @@ Mince mohou být získány zabíjením nepřátel, interakcí s NPC nebo prohled
 Množství mincí, které padne z nepřítele je počítáno z pevných hodnot v kódu hry s několika náhodnými variacemi.
 
 ---
-
 # 文档：Snowball
-
 - 类别：ammo
 - 标识：snowball
 - 来源：wiki/Snowball
@@ -6532,9 +5950,7 @@ Although the knockback and damage is low, snowballs can be a useful starter weap
 History
 
 ---
-
 # 文档：Solution
-
 - 类别：ammo
 - 标识：solution
 - 来源：wiki/Solution
@@ -6556,11 +5972,9 @@ is spoken to anywhere other than The Hallow after Moon Lord has been defeated
 Spreads Desert, converting snow/dirt to sand and stone/ice to sandstone
 
 When the Steampunker
-is spoken to anywhere other than The Hallow after Moon Lord has been defeated
 Spreads Snow, converting dirt/sand to snow and stone/sandstone to ice
 
 When the Steampunker
-is spoken to anywhere other than The Hallow after Moon Lord has been defeated
 Spreads Forest, converting snow/sand to dirt and sandstone/ice to stone
 
 When the Steampunker
@@ -6574,7 +5988,6 @@ Spreads Corruption
 From the Truffle, any time
 Converts Jungle to Glowing Mushroom biome
 
-During a Blood Moon or Solar Eclipse,
 in a Crimson world
 Spreads Crimson
 
@@ -6618,7 +6031,6 @@ itemlist
 itemlist
 
 Yellow solution
-Converted tiles !! Original tiles
 
 itemlist
 
@@ -6627,8 +6039,6 @@ itemlist
 itemlist
 
 itemlist
-
-Converted walls !! Original walls
 
 itemlist
 
@@ -6638,9 +6048,7 @@ itemlist
 show-ammo = yes
 
 ---
-
 # 文档：Solutions
-
 - 类别：ammo
 - 标识：solutions
 - 来源：wiki/Solutions
@@ -6662,11 +6070,9 @@ is spoken to anywhere other than The Hallow after Moon Lord has been defeated
 Spreads Desert, converting snow/dirt to sand and stone/ice to sandstone
 
 When the Steampunker
-is spoken to anywhere other than The Hallow after Moon Lord has been defeated
 Spreads Snow, converting dirt/sand to snow and stone/sandstone to ice
 
 When the Steampunker
-is spoken to anywhere other than The Hallow after Moon Lord has been defeated
 Spreads Forest, converting snow/sand to dirt and sandstone/ice to stone
 
 When the Steampunker
@@ -6680,7 +6086,6 @@ Spreads Corruption
 From the Truffle, any time
 Converts Jungle to Glowing Mushroom biome
 
-During a Blood Moon or Solar Eclipse,
 in a Crimson world
 Spreads Crimson
 
@@ -6724,7 +6129,6 @@ itemlist
 itemlist
 
 Yellow solution
-Converted tiles !! Original tiles
 
 itemlist
 
@@ -6733,8 +6137,6 @@ itemlist
 itemlist
 
 itemlist
-
-Converted walls !! Original walls
 
 itemlist
 
@@ -6744,9 +6146,7 @@ itemlist
 show-ammo = yes
 
 ---
-
 # 文档：Spectral Arrow
-
 - 类别：ammo
 - 标识：spectral arrow
 - 来源：wiki/Spectral_Arrow
@@ -6766,9 +6166,7 @@ On the , Spectral Arrows have the highest base damage of all arrows.
 History
 
 ---
-
 # 文档：Stake
-
 - 类别：ammo
 - 标识：stake
 - 来源：wiki/Stake
@@ -6778,9 +6176,7 @@ Stakes serve as ammunition for the Stake Launcher. They can be purchased from th
 History
 
 ---
-
 # 文档：Stynger Bolt
-
 - 类别：ammo
 - 标识：stynger bolt
 - 来源：wiki/Stynger_Bolt
@@ -6798,9 +6194,7 @@ Because Stynger Bolts are not arrows, they do not receive a boost from the Magic
 History
 
 ---
-
 # 文档：Tungsten Bullet
-
 - 类别：ammo
 - 标识：tungsten bullet
 - 来源：wiki/Tungsten_Bullet
@@ -6824,9 +6218,7 @@ Despite the fact that Silver Bullets are cheaper than Tungsten Bullets, both amm
 History
 
 ---
-
 # 文档：Unholy Arrow
-
 - 类别：ammo
 - 标识：unholy arrow
 - 来源：wiki/Unholy_Arrow
@@ -6846,9 +6238,7 @@ On versions where it cannot be crafted with Vertebrae, Unholy Arrows must be obt
 History
 
 ---
-
 # 文档：Venom Arrow
-
 - 类别：ammo
 - 标识：venom arrow
 - 来源：wiki/Venom_Arrow
@@ -6866,9 +6256,7 @@ Venom Arrows' high base damage makes them the best choice for bows that convert 
 History
 
 ---
-
 # 文档：Venom Bullet
-
 - 类别：ammo
 - 标识：venom bullet
 - 来源：wiki/Venom_Bullet
@@ -6883,9 +6271,7 @@ While Venom Bullets have the highest base damage of any pre- bullet, they are la
 History
 
 ---
-
 # 文档：Vulcan Bolt
-
 - 类别：ammo
 - 标识：vulcan bolt
 - 来源：wiki/Vulcan_Bolt
@@ -6902,9 +6288,7 @@ Vulcan Bolts can be very useful for lighting. However, one should keep in mind t
 History
 
 ---
-
 # 文档：Wire
-
 - 类别：ammo
 - 标识：wire
 - 来源：wiki/Wire
@@ -6949,9 +6333,7 @@ Guide:Wiring
 History
 
 ---
-
 # 文档：Wooden Arrow
-
 - 类别：ammo
 - 标识：wooden arrow
 - 来源：wiki/Wooden_Arrow
@@ -6978,9 +6360,7 @@ In the beta version of Terraria, Wooden Arrows could not be crafted. Instead, th
 ---
 ## ARMOR
 共 96 篇文档
-
 # 文档：Armor
-
 - 类别：armor
 - 标识：armor
 - 来源：wiki/Armor
@@ -7004,62 +6384,48 @@ style="font-size:95%;" data-sort-type=number | Total
 
 style="text-align:center" | 02
 style="text-align:center" | 03
-style="text-align:center" | 02
 style="text-align:center" | 08
 class="small" |
 colspan="2" class="small" |
 
 style="text-align:center" | 05
-style="text-align:center" | 08
 style="text-align:center" | 07
 style="text-align:center" | 20
 class="small" |
-colspan="2" class="small" |
 
 style="text-align:center" | 2-
-style="text-align:center" | 08
 style="text-align:center" | 8
 7
 style="text-align:center" | 17-
 class="small" |
-colspan="2" class="small" |
 
 style="text-align:center" | 3-
 style="text-align:center" | 010
-style="text-align:center" | 08
 style="text-align:center" | 21-
 class="small" |
-colspan="2" class="small" |
 
-style="text-align:center" | 3-
 style="text-align:center" | 12
 style="text-align:center" | 09
 style="text-align:center" | 24-
 class="small" |
-colspan="2" class="small" |
 
 style="text-align:center" | 4-
 style="text-align:center" | 013
-style="text-align:center" | 010
 style="text-align:center" | 27-
 class="small" |
-colspan="2" class="small" |
 
 style="text-align:center" | 04-
 style="text-align:center" | 016
 style="text-align:center" | 012
 style="text-align:center" | 28-
 class="small" |
-colspan="2" class="small" |
 
 style="text-align:center" |
 style="text-align:center" | 015
 style="text-align:center" | 011
 style="text-align:center" | 30-
 class="small" |
-colspan="2" class="small" |
 
-style="text-align:center" | 12
 style="text-align:center" | 14
 style="text-align:center" | 10
 style="text-align:center" | 36
@@ -7067,103 +6433,60 @@ class="small" |
 colspan="2" style="text-align:center" |
 class="topline"
 
-style="text-align:center" | 010
 style="text-align:center" | 020
-style="text-align:center" | 013
 style="text-align:center" | 043
 class="small" |
-colspan="2" class="small" |
 
 style="text-align:center" | 06
-style="text-align:center" | 012
-style="text-align:center" | 08
 style="text-align:center" | 026
 class="small" |
-colspan="2" class="small" |
 
-style="text-align:center" | 013
 style="text-align:center" | 027
 style="text-align:center" | 018
 style="text-align:center" | 056
 class="small" |
-colspan="2" style="text-align:center" |
 
-style="text-align:center" | 08
 style="text-align:center" | 022
-style="text-align:center" | 016
 style="text-align:center" | 046
 class="small" |
-colspan="2" style="text-align:center" |
 
-style="text-align:center" | 07
 style="text-align:center" | 017
-style="text-align:center" | 012
 style="text-align:center" | 036
 class="small" |
-colspan="2" style="text-align:center" |
 
-style="text-align:center" | 07
-style="text-align:center" | 015
-style="text-align:center" | 010
 style="text-align:center" | 032
 class="small" |
-colspan="2" style="text-align:center" |
 
-style="text-align:center" |
-style="text-align:center" | 015
-style="text-align:center" | 011
-style="text-align:center" | 27-
 class="small" |
-colspan="2" class="small" |
 
-style="text-align:center" |
-style="text-align:center" | 015
-style="text-align:center" | 011
 style="text-align:center" | 31-
 class="small" |
-colspan="2" class="small" |
 
 style="text-align:center" nowrap | 07-
 style="text-align:center" | 18
 style="text-align:center" | 13
 style="text-align:center" nowrap | 38-
 class="small" |
-colspan="2" class="small" |
 
 style="text-align:center" | 21
 style="text-align:center" | 27
 style="text-align:center" | 17
 style="text-align:center" | 65
 class="small" |
-colspan="2" class="small" |
 
-style="text-align:center" | 06
-style="text-align:center" | 017
-style="text-align:center" | 012
 style="text-align:center" | 035
 class="small" |
-colspan="2" style="text-align:center" |
 
 style="text-align:center" | 23
-style="text-align:center" |
-style="text-align:center" | 18
-style="text-align:center" |
 class="small" |
-colspan="2" class="small" |
 
 style="text-align:center" | 11
 style="text-align:center" | 24
 style="text-align:center" | 16
 style="text-align:center" | 51
 class="small" |
-colspan="2" class="small" |
 
-style="text-align:center" |
-style="text-align:center" | 14
-style="text-align:center" | 10
-style="text-align:center" |
 class="small" |
-colspan="2" class="small" |
 
 style="text-align:center" | 9
 8
@@ -7174,87 +6497,51 @@ style="text-align:center" nowrap | 10
 style="text-align:center" | 30
 27
 class="small" |
-colspan="2" class="small" |
 
 style="text-align:center" | 31
-style="text-align:center" | 20
-style="text-align:center" | 14
-style="text-align:center" | 65
 class="small" |
 class="small" |
 class="small" |
 
-style="text-align:center" | 14
-style="text-align:center" | 18
-style="text-align:center" | 13
 style="text-align:center" | 45
 class="small" |
 class="small" |
 class="small" |
 
-style="text-align:center" | 10
-style="text-align:center" | 15
 style="text-align:center" | 15
 style="text-align:center" | 40
 class="small" |
 class="small" |
 class="small" |
 
-style="text-align:center" | 020
-style="text-align:center" | 024
 style="text-align:center" | 024
 style="text-align:center" | 068
 class="small" |
-colspan="2" style="text-align:center" |
 
-style="text-align:center" | 010
-style="text-align:center" | 026
-style="text-align:center" | 018
 style="text-align:center" | 054
 class="small" |
-colspan="2" style="text-align:center" |
 
-style="text-align:center" | 08
-style="text-align:center" | 024
-style="text-align:center" | 016
 style="text-align:center" | 048
 class="small" |
-colspan="2" style="text-align:center" |
 
-style="text-align:center" | 07
 style="text-align:center" | 021
 style="text-align:center" | 014
 style="text-align:center" | 042
 class="small" |
-colspan="2" style="text-align:center" |
 
-style="text-align:center" | 24
 style="text-align:center" | 34
-style="text-align:center" | 20
 style="text-align:center" | 78
 class="small" |
-colspan="2" class="small" |
 
-style="text-align:center" | 14
 style="text-align:center" | 28
-style="text-align:center" | 20
 style="text-align:center" | 62
 class="small" |
-colspan="2" class="small" |
 
-style="text-align:center" | 14
-style="text-align:center" | 18
-style="text-align:center" | 14
 style="text-align:center" | 46
 class="small" |
-colspan="2" class="small" |
 
-style="text-align:center" | 10
-style="text-align:center" | 16
-style="text-align:center" | 12
 style="text-align:center" | 38
 class="small" |
-colspan="2" class="small" |
 
 Wizard set
 Though not a traditional armor set, these hats and robes confer a set bonus when worn together.
@@ -7270,115 +6557,55 @@ class="unsortable" | Cost / Source
 style="text-align:center" | Head
 style="text-align:center" | 2
 +60 mana capacity
-style="text-align:center" |
 
-style="text-align:center" | Head
 style="text-align:center" | 4
 2
 +10% magic critical strike chance
-style="text-align:center" |
 
-class="unsortable" |Appearance
 Item
 Body Slot
 Defense
-class="unsortable" | Bonuses
-class="unsortable" | Cost / Source
 
 style="text-align:center" | Chest
 style="text-align:center" | 0
 class="small" |
 
-style="text-align:center" | Chest
 style="text-align:center" | 1
 class="small" |
 
-style="text-align:center" | Chest
-style="text-align:center" | 1
-colspan="2" class="small" |
-
-style="text-align:center" | Chest
-style="text-align:center" | 2
 class="small" |
 
-style="text-align:center" | Chest
-style="text-align:center" | 2
 class="small" |
 
-style="text-align:center" | Chest
 style="text-align:center" | 3
 class="small" |
 
-style="text-align:center" | Chest
-style="text-align:center" | 3
 class="small" |
-
-style="text-align:center" | Chest
-style="text-align:center" | 2
-style="text-align:center" |
 
 Miscellaneous armor
 A few pieces of armor aren't part of any particular set.
 
-class="unsortable" |Appearance
 Item
 Body Slot
 Defense
-class="unsortable" | Bonuses
-class="unsortable" | Cost / Source
 
-style="text-align:center" | Head
-style="text-align:center" | 1
 Normally used for carrying liquids instead.
-colspan="2" class="small" |
 
-style="text-align:center" | Head
-style="text-align:center" | 1
-colspan="2" class="small" |
-
-style="text-align:center" | Head
-style="text-align:center" | 2
 Greatly extends underwater breathing time
-style="text-align:center" |
 Night Vision Helmet
-style="text-align:center" | Head
-style="text-align:center" | 4
 Provides an effect similar to the Night Owl Potion
-style="text-align:center" |
 
-style="text-align:center" | Head
-style="text-align:center" | 4
-style="text-align:center" |
-
-style="text-align:center" | Head
-style="text-align:center" | 4
 Provides a light with an intensity similar to the Ultrabright Torch
-colspan="2" class="small" |
 
-style="text-align:center" | Chest
-style="text-align:center" | 1
 +1 minion capacity, +5% minion damage
-colspan="2" class="small" |
 
-style="text-align:center" | Chest
-style="text-align:center" | 4
 +5% damage, +5% critical strike chance
 +10% melee speed, +10% movement speed
-style="text-align:center" |
 
 style="text-align:center" | Feet
-style="text-align:center" | 3
 Creates grass on dirt. Able to perform several "bunny hops".
-style="text-align:center" |
 
-style="text-align:center" | Feet
-style="text-align:center" | 3
 Provides 25% movement speed and four blocks extra jump height.
-style="text-align:center" |
-
-style="text-align:center" | Head
-style="text-align:center" | 2
-style="text-align:center" |
 
 Achievements
 Notes
@@ -7402,9 +6629,7 @@ Summoners can summon their minions while wearing the Shinobi Infiltrator's Helme
 References
 
 ---
-
 # 文档：Adamantite armor
-
 - 类别：armor
 - 标识：adamantite armor
 - 来源：wiki/Adamantite_armor
@@ -7440,9 +6665,7 @@ The full Adamantite set equipped with the helmet looks similar to Crimson armor.
 History
 
 ---
-
 # 文档：Amber Robe
-
 - 类别：armor
 - 标识：amber robe
 - 来源：wiki/Amber_Robe
@@ -7459,9 +6682,7 @@ This item is the armor analog to the Amber Staff.
 History
 
 ---
-
 # 文档：Amethyst Robe
-
 - 类别：armor
 - 标识：amethyst robe
 - 来源：wiki/Amethyst_Robe
@@ -7481,9 +6702,7 @@ The Amethyst Robe is one of the three items which provide bonuses when equipped 
 History
 
 ---
-
 # 文档：Ancient Cobalt armor
-
 - 类别：armor
 - 标识：ancient cobalt armor
 - 来源：wiki/Ancient_Cobalt_armor
@@ -7503,9 +6722,7 @@ Despite its name, Ancient Cobalt armor is not functionally related to the curren
 History
 
 ---
-
 # 文档：Ancient Gold Helmet
-
 - 类别：armor
 - 标识：ancient gold helmet
 - 来源：wiki/Ancient_Gold_Helmet
@@ -7536,9 +6753,7 @@ Prior to 1.3, if the Frost Breastplate and Leggings were paired with a Gold Helm
 History
 
 ---
-
 # 文档：Ancient Hallowed armor
-
 - 类别：armor
 - 标识：ancient hallowed armor
 - 来源：wiki/Ancient_Hallowed_armor
@@ -7566,9 +6781,7 @@ The Ancient Hallowed armor pieces are the only Hardmode items crafted at an Alta
 History
 
 ---
-
 # 文档：Ancient Iron Helmet
-
 - 类别：armor
 - 标识：ancient iron helmet
 - 来源：wiki/Ancient_Iron_Helmet
@@ -7591,9 +6804,7 @@ The Ancient Iron Helmet has the same sprite that the Iron Armor Helmet had prior
 History
 
 ---
-
 # 文档：Ancient Shadow armor
-
 - 类别：armor
 - 标识：ancient shadow armor
 - 来源：wiki/Ancient_Shadow_armor
@@ -7603,7 +6814,6 @@ Ancient Shadow armor is an armor set that reproduces the pre-1.0.3 Shadow armor 
 When the full set is equipped, the player will emit purple bubbles, and create a semi-transparent after-image effect behind themselves when moving. This effect appears to be clones of the player. These clones do not appear to have bodies inside of the armor, as there is no face prevalent.
 
 Each piece has a  chance of being dropped by an Eater of Souls. Each piece can also be obtained by transmutating its non-ancient counterpart in Shimmer.
-
 
 Set
 Crafting
@@ -7621,9 +6831,7 @@ It's a surprisingly good armor choice for summoners on the  – it is obtainable
 History
 
 ---
-
 # 文档：Angler armor
-
 - 类别：armor
 - 标识：angler armor
 - 来源：wiki/Angler_armor
@@ -7644,9 +6852,7 @@ Fishing Pole
 History
 
 ---
-
 # 文档：Apprentice armor
-
 - 类别：armor
 - 标识：apprentice armor
 - 来源：wiki/Apprentice_armor
@@ -7684,9 +6890,7 @@ Monk armor
 History
 
 ---
-
 # 文档：Ash Wood armor
-
 - 类别：armor
 - 标识：ash wood armor
 - 来源：wiki/Ash_Wood_armor
@@ -7711,9 +6915,7 @@ History
 References
 
 ---
-
 # 文档：Bee armor
-
 - 类别：armor
 - 标识：bee armor
 - 来源：wiki/Bee_armor
@@ -7734,9 +6936,7 @@ Achievements
 History
 
 ---
-
 # 文档：Beetle armor
-
 - 类别：armor
 - 标识：beetle armor
 - 来源：wiki/Beetle_armor
@@ -7760,7 +6960,6 @@ With
 +11% melee damage
 +6% melee speed
 +6% movement speed
-Significantly higher chance that enemies will target the wearer
 Beetle Endurance defensive buff: When the player avoids taking damage, this buff reduces damage taken on the next hit by 15%, with further boosts to 30% and 45% if the player continues to avoid damage for a longer duration. The buff gets first applied after 3 seconds from taking damage, and will then increase after another 3 seconds. When the player takes damage thereafter, each hit lowers the boost applied to the next hit by one step. This buff features a visual effect showing one to three "beetles" flying around the player, signifying the 15%, 30%, or 45% damage reduction boost currently in effect.
 
 Crafting the full set with one chest piece requires 18 Beetle Husks and a full set of Turtle armor (54 Chlorophyte Bars (or 324 pieces of Chlorophyte Ore), and 3 Turtle Shells). Crafting all four pieces from scratch requires 26 Beetle Husks, 78 Chlorophyte Bars (or 468 pieces of Chlorophyte Ore), and 4 Turtle Shells.
@@ -7792,9 +6991,7 @@ Excluding the Gi, the Beetle Shell and Beetle Scale mail is the only chest plate
 History
 
 ---
-
 # 文档：Boots of Ostara
-
 - 类别：armor
 - 标识：boots of ostara
 - 来源：wiki/Boots_of_Ostara
@@ -7814,9 +7011,7 @@ If worn with the Silver Helmet and Silver Chainmail, they still give the usual 3
 History
 
 ---
-
 # 文档：Boreal Wood armor
-
 - 类别：armor
 - 标识：boreal wood armor
 - 来源：wiki/Boreal_Wood_armor
@@ -7839,9 +7034,7 @@ The helmet of the armor set has horns similar to the Viking Helmet.
 History
 
 ---
-
 # 文档：Buckets
-
 - 类别：armor
 - 标识：buckets
 - 来源：wiki/Buckets
@@ -7870,9 +7063,7 @@ While falling, a Water or Honey Bucket can be used as an emergency method to pre
 History
 
 ---
-
 # 文档：Cactus armor
-
 - 类别：armor
 - 标识：cactus armor
 - 来源：wiki/Cactus_armor
@@ -7891,9 +7082,7 @@ Due to the Thorns set bonus, it is an upgrade over Wood armor. It provides damag
 History
 
 ---
-
 # 文档：Chlorophyte armor
-
 - 类别：armor
 - 标识：chlorophyte armor
 - 来源：wiki/Chlorophyte_armor
@@ -7946,9 +7135,7 @@ Despite its set bonus being very similar to summoning weapons, there is no summo
 History
 
 ---
-
 # 文档：Cobalt armor
-
 - 类别：armor
 - 标识：cobalt armor
 - 来源：wiki/Cobalt_armor
@@ -7980,9 +7167,7 @@ Ancient Cobalt armor
 History
 
 ---
-
 # 文档：Copper armor
-
 - 类别：armor
 - 标识：copper armor
 - 来源：wiki/Copper_armor
@@ -8003,9 +7188,7 @@ However, on the promotional image for the town slime shirt on 2022 august state 
 History
 
 ---
-
 # 文档：Crimson armor
-
 - 类别：armor
 - 标识：crimson armor
 - 来源：wiki/Crimson_armor
@@ -8025,9 +7208,7 @@ While Crimson armor is named directly after its biome (Crimson), its Corruption 
 History
 
 ---
-
 # 文档：Crystal Assassin armor
-
 - 类别：armor
 - 标识：crystal assassin armor
 - 来源：wiki/Crystal_Assassin_armor
@@ -8063,9 +7244,7 @@ Ninja armor, a pre-Hardmode counterpart dropped by King Slime
 History
 
 ---
-
 # 文档：Dark Artist armor
-
 - 类别：armor
 - 标识：dark artist armor
 - 来源：wiki/Dark_Artist_armor
@@ -8106,9 +7285,7 @@ Shinobi Infiltrator armor
 History
 
 ---
-
 # 文档：Diamond Robe
-
 - 类别：armor
 - 标识：diamond robe
 - 来源：wiki/Diamond_Robe
@@ -8125,9 +7302,7 @@ This item is the armor analog to the Diamond Staff.
 History
 
 ---
-
 # 文档：Diving Helmet
-
 - 类别：armor
 - 标识：diving helmet
 - 来源：wiki/Diving_Helmet
@@ -8145,9 +7320,7 @@ The Diving Helmet is the only piece of armor that can be used to craft something
 History
 
 ---
-
 # 文档：Dragon armor
-
 - 类别：armor
 - 标识：dragon armor
 - 来源：wiki/Dragon_armor
@@ -8187,9 +7360,7 @@ See also
 History
 
 ---
-
 # 文档：Ebonwood armor
-
 - 类别：armor
 - 标识：ebonwood armor
 - 来源：wiki/Ebonwood_armor
@@ -8213,9 +7384,7 @@ The helmet appears to have spikes, which might be a reference to the Eater of Wo
 History
 
 ---
-
 # 文档：Emerald Robe
-
 - 类别：armor
 - 标识：emerald robe
 - 来源：wiki/Emerald_Robe
@@ -8232,9 +7401,7 @@ This item is the armor analog to the Emerald Staff.
 History
 
 ---
-
 # 文档：Empty Bucket
-
 - 类别：armor
 - 标识：empty bucket
 - 来源：wiki/Empty_Bucket
@@ -8263,9 +7430,7 @@ While falling, a Water or Honey Bucket can be used as an emergency method to pre
 History
 
 ---
-
 # 文档：Flinx Fur Coat
-
 - 类别：armor
 - 标识：flinx fur coat
 - 来源：wiki/Flinx_Fur_Coat
@@ -8284,9 +7449,7 @@ Flinx Staff
 History
 
 ---
-
 # 文档：Forbidden armor
-
 - 类别：armor
 - 标识：forbidden armor
 - 来源：wiki/Forbidden_armor
@@ -8316,7 +7479,6 @@ The total bonuses of the Forbidden armor are composed of the following on the :
 +40 maximum mana, 10% minion damage, and +1 minion capacity from the Forbidden Robes.
 +40 maximum mana, 10% magic damage, and +1 minion capacity from the Forbidden Treads.
 The total bonuses are composed of the following on the :
-15% magic and minion damage each from the Forbidden Mask.
 +80 maximum mana from the Forbidden Robes.
 +2 minion capacity from the Forbidden Treads.
 The sand tornado can be summoned even when afflicted with the Stoned debuff.
@@ -8338,9 +7500,7 @@ History
 References
 
 ---
-
 # 文档：Fossil armor
-
 - 类别：armor
 - 标识：fossil armor
 - 来源：wiki/Fossil_armor
@@ -8368,9 +7528,7 @@ There seems to be an amber on the front of the helmet and in the middle of the c
 History
 
 ---
-
 # 文档：Frost armor
-
 - 类别：armor
 - 标识：frost armor
 - 来源：wiki/Frost_armor
@@ -8424,9 +7582,7 @@ See also
 History
 
 ---
-
 # 文档：Gi
-
 - 类别：armor
 - 标识：gi
 - 来源：wiki/Gi
@@ -8443,9 +7599,7 @@ A Gi, or Keikogi (稽古着 or 稽古衣), is a traditional uniform favored by m
 History
 
 ---
-
 # 文档：Gladiator armor
-
 - 类别：armor
 - 标识：gladiator armor
 - 来源：wiki/Gladiator_armor
@@ -8467,9 +7621,7 @@ Despite being named after the people who fought in the  in , the Gladiator armor
 History
 
 ---
-
 # 文档：Goggles
-
 - 类别：armor
 - 标识：goggles
 - 来源：wiki/Goggles
@@ -8484,9 +7636,7 @@ Sunglasses
 History
 
 ---
-
 # 文档：Gold armor
-
 - 类别：armor
 - 标识：gold armor
 - 来源：wiki/Gold_armor
@@ -8517,9 +7667,7 @@ Prior to 1.3, if the Frost Breastplate and Leggings were paired with a Gold Helm
 History
 
 ---
-
 # 文档：Hallowed armor
-
 - 类别：armor
 - 标识：hallowed armor
 - 来源：wiki/Hallowed_armor
@@ -8556,9 +7704,7 @@ Pre 1.4.0.1 Hallowed Plate Mail (female version) is surprisingly revealing. This
 History
 
 ---
-
 # 文档：Honey Dispenser
-
 - 类别：armor
 - 标识：honey dispenser
 - 来源：wiki/Honey_Dispenser
@@ -8570,9 +7716,7 @@ Used to craft
 History
 
 ---
-
 # 文档：Huntress armor
-
 - 类别：armor
 - 标识：huntress armor
 - 来源：wiki/Huntress_armor
@@ -8611,9 +7755,7 @@ Monk armor
 History
 
 ---
-
 # 文档：Iron armor
-
 - 类别：armor
 - 标识：iron armor
 - 来源：wiki/Iron_armor
@@ -8636,9 +7778,7 @@ The Ancient Iron Helmet has the same sprite that the Iron Armor Helmet had prior
 History
 
 ---
-
 # 文档：Jungle armor
-
 - 类别：armor
 - 标识：jungle armor
 - 来源：wiki/Jungle_armor
@@ -8664,9 +7804,7 @@ Despite being the cheapest to craft, the hat sells for the most Coins.
 History
 
 ---
-
 # 文档：Lead armor
-
 - 类别：armor
 - 标识：lead armor
 - 来源：wiki/Lead_armor
@@ -8685,9 +7823,7 @@ Recipes
 History
 
 ---
-
 # 文档：Meteor armor
-
 - 类别：armor
 - 标识：meteor armor
 - 来源：wiki/Meteor_armor
@@ -8711,9 +7847,7 @@ Despite the Meteorite Helmet requiring the fewest bars to craft, it sells for th
 History
 
 ---
-
 # 文档：Mining armor
-
 - 类别：armor
 - 标识：mining armor
 - 来源：wiki/Mining_armor
@@ -8737,9 +7871,7 @@ Using a Shroomite Digging Claw with the Light modifier, Mining armor, and the We
 History
 
 ---
-
 # 文档：Molten armor
-
 - 类别：armor
 - 标识：molten armor
 - 来源：wiki/Molten_armor
@@ -8762,9 +7894,7 @@ Recipes
 History
 
 ---
-
 # 文档：Monk armor
-
 - 类别：armor
 - 标识：monk armor
 - 来源：wiki/Monk_armor
@@ -8800,9 +7930,7 @@ Shinobi Infiltrator armor
 History
 
 ---
-
 # 文档：Moon Lord Legs
-
 - 类别：armor
 - 标识：moon lord legs
 - 来源：wiki/Moon_Lord_Legs
@@ -8832,9 +7960,7 @@ The tooltip "" is a reference to the fact that Arkhayla jokingly claimed the Moo
 History
 
 ---
-
 # 文档：Mystic Robe
-
 - 类别：armor
 - 标识：mystic robe
 - 来源：wiki/Mystic_Robe
@@ -8846,9 +7972,7 @@ Wearing the Wizard Hat alongside the robe provides a set bonus of +10% magic cri
 History
 
 ---
-
 # 文档：Mythril armor
-
 - 类别：armor
 - 标识：mythril armor
 - 来源：wiki/Mythril_armor
@@ -8869,9 +7993,7 @@ is a fictional metal in J.R.R. Tolkien's Middle Earth writings, where it is a ra
 History
 
 ---
-
 # 文档：Nebula armor
-
 - 类别：armor
 - 标识：nebula armor
 - 来源：wiki/Nebula_armor
@@ -8924,9 +8046,7 @@ History
 References
 
 ---
-
 # 文档：Necro armor
-
 - 类别：armor
 - 标识：necro armor
 - 来源：wiki/Necro_armor
@@ -8967,9 +8087,7 @@ It is the only armor set in the game of a  rarity.
 History
 
 ---
-
 # 文档：Night Vision Helmet
-
 - 类别：armor
 - 标识：night vision helmet
 - 来源：wiki/Night_Vision_Helmet
@@ -8986,9 +8104,7 @@ The Ultrabright Helmet can be used in place for the Mining Helmet when using the
 History
 
 ---
-
 # 文档：Ninja armor
-
 - 类别：armor
 - 标识：ninja armor
 - 来源：wiki/Ninja_armor
@@ -9011,9 +8127,7 @@ Crystal Assassin armor, a Hardmode counterpart dropped by the Queen Slime.
 History
 
 ---
-
 # 文档：Obsidian armor
-
 - 类别：armor
 - 标识：obsidian armor
 - 来源：wiki/Obsidian_armor
@@ -9050,9 +8164,7 @@ Despite being available in late pre-Hardmode, it only has a Rarity of .
 History
 
 ---
-
 # 文档：Orichalcum armor
-
 - 类别：armor
 - 标识：orichalcum armor
 - 来源：wiki/Orichalcum_armor
@@ -9086,9 +8198,7 @@ The Orichalcum armor set with the headgear is a reference to Andromeda Shun from
 History
 
 ---
-
 # 文档：Palladium armor
-
 - 类别：armor
 - 标识：palladium armor
 - 来源：wiki/Palladium_armor
@@ -9123,9 +8233,7 @@ The Palladium armor represents a fuedal European/medival theme
 History
 
 ---
-
 # 文档：Palm Wood armor
-
 - 类别：armor
 - 标识：palm wood armor
 - 来源：wiki/Palm_Wood_armor
@@ -9145,9 +8253,7 @@ Boreal Wood armor and Rich Mahogany armor share identical stats. Because the pla
 History
 
 ---
-
 # 文档：Pearlwood armor
-
 - 类别：armor
 - 标识：pearlwood armor
 - 来源：wiki/Pearlwood_armor
@@ -9170,9 +8276,7 @@ Pearlwood armor and Spooky armor are the only Hardmode Armor sets crafted at a W
 History
 
 ---
-
 # 文档：Pink Snow armor
-
 - 类别：armor
 - 标识：pink snow armor
 - 来源：wiki/Pink_Snow_armor
@@ -9199,9 +8303,7 @@ Previously, only the  of Terraria used the "Snow" set names.
 History
 
 ---
-
 # 文档：Platinum armor
-
 - 类别：armor
 - 标识：platinum armor
 - 来源：wiki/Platinum_armor
@@ -9224,9 +8326,7 @@ While the Tin, Lead, and Tungsten armors closely resemble their ore counterparts
 History
 
 ---
-
 # 文档：Pumpkin armor
-
 - 类别：armor
 - 标识：pumpkin armor
 - 来源：wiki/Pumpkin_armor
@@ -9245,9 +8345,7 @@ During Halloween, this armor set may prove useful to those using Summon weapons.
 History
 
 ---
-
 # 文档：Rain armor
-
 - 类别：armor
 - 标识：rain armor
 - 来源：wiki/Rain_armor
@@ -9264,9 +8362,7 @@ Despite the similar method of obtaining them, the Snow armor actually has a lowe
 History
 
 ---
-
 # 文档：Red Riding armor
-
 - 类别：armor
 - 标识：red riding armor
 - 来源：wiki/Red_Riding_armor
@@ -9308,9 +8404,7 @@ Shinobi Infiltrator armor
 History
 
 ---
-
 # 文档：Rich Mahogany armor
-
 - 类别：armor
 - 标识：rich mahogany armor
 - 来源：wiki/Rich_Mahogany_armor
@@ -9333,9 +8427,7 @@ The Dye Trader NPC states that it is the only wood type worth dyeing, although t
 History
 
 ---
-
 # 文档：Ruby Robe
-
 - 类别：armor
 - 标识：ruby robe
 - 来源：wiki/Ruby_Robe
@@ -9352,9 +8444,7 @@ This item is the armor analog to the Ruby Staff.
 History
 
 ---
-
 # 文档：Sapphire Robe
-
 - 类别：armor
 - 标识：sapphire robe
 - 来源：wiki/Sapphire_Robe
@@ -9371,9 +8461,7 @@ This item is the armor analog to the Sapphire Staff.
 History
 
 ---
-
 # 文档：Shadewood armor
-
 - 类别：armor
 - 标识：shadewood armor
 - 来源：wiki/Shadewood_armor
@@ -9394,9 +8482,7 @@ Shadewood is initially obtainable in Crimson worlds only.  An artificial Crimson
 History
 
 ---
-
 # 文档：Shadow armor
-
 - 类别：armor
 - 标识：shadow armor
 - 来源：wiki/Shadow_armor
@@ -9419,9 +8505,7 @@ Despite requiring the fewest resources to craft, the Shadow Helmet sells for the
 History
 
 ---
-
 # 文档：Shinobi Infiltrator armor
-
 - 类别：armor
 - 标识：shinobi infiltrator armor
 - 来源：wiki/Shinobi_Infiltrator_armor
@@ -9462,9 +8546,7 @@ Valhalla Knight armor
 History
 
 ---
-
 # 文档：Shroomite armor
-
 - 类别：armor
 - 标识：shroomite armor
 - 来源：wiki/Shroomite_armor
@@ -9532,9 +8614,7 @@ History
 References
 
 ---
-
 # 文档：Silver armor
-
 - 类别：armor
 - 标识：silver armor
 - 来源：wiki/Silver_armor
@@ -9557,9 +8637,7 @@ This armor is used in this wiki for demonstrating how dyes work on the character
 History
 
 ---
-
 # 文档：Snow armor
-
 - 类别：armor
 - 标识：snow armor
 - 来源：wiki/Snow_armor
@@ -9589,9 +8667,7 @@ Previously, only the  of Terraria used the "Snow" set names.
 History
 
 ---
-
 # 文档：Solar Flare armor
-
 - 类别：armor
 - 标识：solar flare armor
 - 来源：wiki/Solar_Flare_armor
@@ -9651,9 +8727,7 @@ Stardust armor
 History
 
 ---
-
 # 文档：Spectral armor
-
 - 类别：armor
 - 标识：spectral armor
 - 来源：wiki/Spectral_armor
@@ -9688,9 +8762,7 @@ See also
 History
 
 ---
-
 # 文档：Spectre armor
-
 - 类别：armor
 - 标识：spectre armor
 - 来源：wiki/Spectre_armor
@@ -9735,9 +8807,7 @@ is another word for ghost or spirit, alluding to the fact that the Ectoplasm, re
 History
 
 ---
-
 # 文档：Spider armor
-
 - 类别：armor
 - 标识：spider armor
 - 来源：wiki/Spider_armor
@@ -9765,9 +8835,7 @@ History
 References
 
 ---
-
 # 文档：Spooky armor
-
 - 类别：armor
 - 标识：spooky armor
 - 来源：wiki/Spooky_armor
@@ -9811,9 +8879,7 @@ The Moon Lord's screen effect causes the Spooky armor to lose its orange/red mar
 History
 
 ---
-
 # 文档：Squire armor
-
 - 类别：armor
 - 标识：squire armor
 - 来源：wiki/Squire_armor
@@ -9847,9 +8913,7 @@ Monk armor
 History
 
 ---
-
 # 文档：Stardust armor
-
 - 类别：armor
 - 标识：stardust armor
 - 来源：wiki/Stardust_armor
@@ -9903,9 +8967,7 @@ History
 References
 
 ---
-
 # 文档：Steampunk Boiler
-
 - 类别：armor
 - 标识：steampunk boiler
 - 来源：wiki/Steampunk_Boiler
@@ -9917,9 +8979,7 @@ Used to craft
 History
 
 ---
-
 # 文档：Tiki armor
-
 - 类别：armor
 - 标识：tiki armor
 - 来源：wiki/Tiki_armor
@@ -9955,9 +9015,7 @@ It is often a good idea to use Spooky armor to first summon the minions (for the
 History
 
 ---
-
 # 文档：Tin armor
-
 - 类别：armor
 - 标识：tin armor
 - 来源：wiki/Tin_armor
@@ -9979,9 +9037,7 @@ The headpiece for the Tin armor seems to have pigtails, whereas Copper armor has
 History
 
 ---
-
 # 文档：Titan armor
-
 - 类别：armor
 - 标识：titan armor
 - 来源：wiki/Titan_armor
@@ -10015,9 +9071,7 @@ See also
 History
 
 ---
-
 # 文档：Titanium armor
-
 - 类别：armor
 - 标识：titanium armor
 - 来源：wiki/Titanium_armor
@@ -10045,9 +9099,7 @@ If the player changes their mind, the helmet piece can be shimmered and crafted 
 History
 
 ---
-
 # 文档：Topaz Robe
-
 - 类别：armor
 - 标识：topaz robe
 - 来源：wiki/Topaz_Robe
@@ -10064,9 +9116,7 @@ This item is the armor analog to the Topaz Staff.
 History
 
 ---
-
 # 文档：Tungsten armor
-
 - 类别：armor
 - 标识：tungsten armor
 - 来源：wiki/Tungsten_armor
@@ -10083,9 +9133,7 @@ Recipes
 History
 
 ---
-
 # 文档：Turtle armor
-
 - 类别：armor
 - 标识：turtle armor
 - 来源：wiki/Turtle_armor
@@ -10126,9 +9174,7 @@ On the , the Turtle armor can be seen as the Hardmode counterpart of the Cactus 
 History
 
 ---
-
 # 文档：Ultrabright Helmet
-
 - 类别：armor
 - 标识：ultrabright helmet
 - 来源：wiki/Ultrabright_Helmet
@@ -10149,9 +9195,7 @@ The Ultrabright Helmet is the only item in the game that uses the term "Ultrabri
 History
 
 ---
-
 # 文档：Valhalla Knight armor
-
 - 类别：armor
 - 标识：valhalla knight armor
 - 来源：wiki/Valhalla_Knight_armor
@@ -10195,9 +9239,7 @@ Shinobi Infiltrator armor
 History
 
 ---
-
 # 文档：Viking Helmet
-
 - 类别：armor
 - 标识：viking helmet
 - 来源：wiki/Viking_Helmet
@@ -10207,9 +9249,7 @@ The Viking Helmet is an armor piece for the helmet slot. It has a  chance to be 
 History
 
 ---
-
 # 文档：Vortex armor
-
 - 类别：armor
 - 标识：vortex armor
 - 来源：wiki/Vortex_armor
@@ -10260,9 +9300,7 @@ Stardust armor
 History
 
 ---
-
 # 文档：Wizard Hat
-
 - 类别：armor
 - 标识：wizard hat
 - 来源：wiki/Wizard_Hat
@@ -10279,9 +9317,7 @@ When using a Gravitation Potion the Wizard Hat appears to fall down over the pla
 History
 
 ---
-
 # 文档：Wizard set
-
 - 类别：armor
 - 标识：wizard set
 - 来源：wiki/Wizard_set
@@ -10305,7 +9341,6 @@ q?where= itemid in (2275, 238)
 q?limit=1000
 template=:Wizard set/row0
 q?tables=Items
-q?fields= _pageName=page, itemid, name, bodyslot, defense, buy, sell, rare, internalname
 q?groupBy=itemid
 q?orderBy=rare
 q?where= itemid in (2279, 1282, 1283, 1284, 1285, 1286, 1287, 4256)
@@ -10327,9 +9362,7 @@ data-sort-type=number | Mana costs
 show-armor = yes
 
 ---
-
 # 文档：Wood armor
-
 - 类别：armor
 - 标识：wood armor
 - 来源：wiki/Wood_armor
@@ -10360,9 +9393,7 @@ History
 ---
 ## BLOCKS
 共 137 篇文档
-
 # 文档：Blocks
-
 - 类别：blocks
 - 标识：blocks
 - 来源：wiki/Blocks
@@ -10428,9 +9459,7 @@ Achievements
 History
 
 ---
-
 # 文档：Soils
-
 - 类别：blocks
 - 标识：soils
 - 来源：wiki/Soils
@@ -10494,9 +9523,7 @@ Trivia
 The only block types that can be converted by Corruption, Crimson, and Hallow are among soils.
 
 ---
-
 # 文档：Crafted Blocks
-
 - 类别：blocks
 - 标识：crafted blocks
 - 来源：wiki/Crafted_Blocks
@@ -10513,9 +9540,7 @@ Crafting station
 align=center |
 
 ---
-
 # 文档：Grown Blocks
-
 - 类别：blocks
 - 标识：grown blocks
 - 来源：wiki/Grown_Blocks
@@ -10578,9 +9603,7 @@ Can be harvested with a Pickaxe. The amount depends on how developed the plant i
 History
 
 ---
-
 # 文档：Looted Blocks
-
 - 类别：blocks
 - 标识：looted blocks
 - 来源：wiki/Looted_Blocks
@@ -10624,9 +9647,7 @@ Moon Lord
 Luminite is dropped in stacks of 70-90 by the Moon Lord. It is the only ore not found underground.
 
 ---
-
 # 文档：Ore Blocks
-
 - 类别：blocks
 - 标识：ore blocks
 - 来源：wiki/Ore_Blocks
@@ -10640,27 +9661,9 @@ Notes
 
 Copper or Tin Pickaxe
 
-Copper or Tin Pickaxe
-
-Copper or Tin Pickaxe
-
-Copper or Tin Pickaxe
-
-Copper or Tin Pickaxe
-
-Copper or Tin Pickaxe
-
-Copper or Tin Pickaxe
-
-Copper or Tin Pickaxe
-
 Tungsten Pickaxe
 /
 Inflicts Burning on unprotected players. After defeating the Wall of Flesh, Meteorite will no longer be immune to explosives.
-
-Gold or Platinum Pickaxe
-
-Can be mined with any pickaxe above ground level
 
 Gold or Platinum Pickaxe
 
@@ -10670,32 +9673,21 @@ Nightmare or Deathbringer Pickaxe
 
 Obsidian is created when Water comes into contact with Lava. Unlike other ores it is only found where this has happened, forming a barrier between the two liquids.
 
-Nightmare or Deathbringer Pickaxe
 /
 Spawns lava when mined and inflicts Burning on unprotected players. After defeating the Wall of Flesh, Hellstone will no longer be immune to explosives.
 
 Molten Pickaxe or Reaver Shark
 
-Molten Pickaxe or Reaver Shark
-
 Cobalt or Palladium Pickaxe
-
-Cobalt or Palladium Pickaxe
-
-Mythril or Orichalcum Pickaxe
 
 Mythril or Orichalcum Pickaxe
 
 Drax or Pickaxe Axe
 
-Copper or Tin Pickaxe
-
 Included here for completion, Luminite is dropped by the Moon Lord instead of being found underground.
 
 ---
-
 # 文档：Other Found Blocks
-
 - 类别：blocks
 - 标识：other found blocks
 - 来源：wiki/Other_Found_Blocks
@@ -10753,9 +9745,7 @@ Spider Cave
 Cobwebs will greatly reduce the player's movement speed. Cobwebs are not solid blocks - the player will sink through them and eventually fall.
 
 ---
-
 # 文档：Purchased Blocks
-
 - 类别：blocks
 - 标识：purchased blocks
 - 来源：wiki/Purchased_Blocks
@@ -10776,11 +9766,7 @@ All Dynasty items are only sold at the same time as other Dynasty items.
 
 Traveling Merchant
 
-All Dynasty items are only sold at the same time as other Dynasty items.
-
 Traveling Merchant
-
-All Dynasty items are only sold at the same time as other Dynasty items.
 
 Traveling Merchant
 
@@ -10788,23 +9774,13 @@ All Team blocks are only sold at the same time as the Team Platform from the sam
 
 Traveling Merchant
 
-All Team blocks are only sold at the same time as the Team Platform from the same color.
+Traveling Merchant
 
 Traveling Merchant
 
-All Team blocks are only sold at the same time as the Team Platform from the same color.
-
 Traveling Merchant
 
-All Team blocks are only sold at the same time as the Team Platform from the same color.
-
 Traveling Merchant
-
-All Team blocks are only sold at the same time as the Team Platform from the same color.
-
-Traveling Merchant
-
-All Team blocks are only sold at the same time as the Team Platform from the same color.
 
 Steampunker
 
@@ -10835,9 +9811,7 @@ Cyborg
 Echo Blocks can only be purchased in a Graveyard. Players can only see them with  equipped.
 
 ---
-
 # 文档：Summoned Blocks
-
 - 类别：blocks
 - 标识：summoned blocks
 - 来源：wiki/Summoned_Blocks
@@ -10860,9 +9834,7 @@ Included here for completion, Sand Blocks are summoned from sand "projectiles" f
 Included here for completion, Snow Blocks are summoned from snow ball "projectiles" thrown from Snow Ballas during the Frost Legion invasion. The snow ball may become a Snow Block when it comes into contact with another block.
 
 ---
-
 # 文档：Trap Blocks
-
 - 类别：blocks
 - 标识：trap blocks
 - 来源：wiki/Trap_Blocks
@@ -10918,9 +9890,7 @@ Underground, Cavern
 Geysers function similarly to Flame Traps, but are able to shoot through blocks and can only be mounted on floors or ceilings.
 
 ---
-
 # 文档：Active Stone Block
-
 - 类别：blocks
 - 标识：active stone block
 - 来源：wiki/Active_Stone_Block
@@ -10959,9 +9929,7 @@ Guide:Wiring
 History
 
 ---
-
 # 文档：Aetherium Block
-
 - 类别：blocks
 - 标识：aetherium block
 - 来源：wiki/Aetherium_Block
@@ -10974,9 +9942,7 @@ Used in
 History
 
 ---
-
 # 文档：Anti-Portal Block
-
 - 类别：blocks
 - 标识：anti-portal block
 - 来源：wiki/Anti-Portal_Block
@@ -10990,9 +9956,7 @@ See also
 History
 
 ---
-
 # 文档：Ash Block
-
 - 类别：blocks
 - 标识：ash block
 - 来源：wiki/Ash_Block
@@ -11006,9 +9970,7 @@ Used in
 History
 
 ---
-
 # 文档：Ash Wood
-
 - 类别：blocks
 - 标识：ash wood
 - 来源：wiki/Ash_Wood
@@ -11024,9 +9986,7 @@ One of the best ways to obtain Ash Wood is by using the Remix Seed or Everything
 History
 
 ---
-
 # 文档：Asphalt Block
-
 - 类别：blocks
 - 标识：asphalt block
 - 来源：wiki/Asphalt_Block
@@ -11058,9 +10018,7 @@ Honey Block, which has the opposite effect of the Asphalt Block, decreasing move
 History
 
 ---
-
 # 文档：Bamboo
-
 - 类别：blocks
 - 标识：bamboo
 - 来源：wiki/Bamboo
@@ -11079,9 +10037,7 @@ History
 References
 
 ---
-
 # 文档：Blue Starry Block
-
 - 类别：blocks
 - 标识：blue starry block
 - 来源：wiki/Blue_Starry_Block
@@ -11094,9 +10050,7 @@ Used in
 History
 
 ---
-
 # 文档：Bone Block
-
 - 类别：blocks
 - 标识：bone block
 - 来源：wiki/Bone_Block
@@ -11114,9 +10068,7 @@ The Bone Block item appears to be a skull while the center block in a 3x3 square
 History
 
 ---
-
 # 文档：Boreal Wood
-
 - 类别：blocks
 - 标识：boreal wood
 - 来源：wiki/Boreal_Wood
@@ -11138,9 +10090,7 @@ In real life, a , also known as a snow forest or taiga, is a biome characterized
 History
 
 ---
-
 # 文档：Boulder
-
 - 类别：blocks
 - 标识：boulder
 - 来源：wiki/Boulder
@@ -11195,9 +10145,7 @@ History
 References
 
 ---
-
 # 文档：Bouncy Boulder
-
 - 类别：blocks
 - 标识：bouncy boulder
 - 来源：wiki/Bouncy_Boulder
@@ -11215,9 +10163,7 @@ The sprite for the Bouncy Boulder is slightly translucent, almost like a bubble 
 History
 
 ---
-
 # 文档：Bubble
-
 - 类别：blocks
 - 标识：bubble
 - 来源：wiki/Bubble
@@ -11261,9 +10207,7 @@ History
 References
 
 ---
-
 # 文档：Bubblegum Block
-
 - 类别：blocks
 - 标识：bubblegum block
 - 来源：wiki/Bubblegum_Block
@@ -11279,9 +10223,7 @@ The Bubblegum Block is the only block crafted from ores that does not contain an
 History
 
 ---
-
 # 文档：Cactus
-
 - 类别：blocks
 - 标识：cactus
 - 来源：wiki/Cactus
@@ -11325,9 +10267,7 @@ History
 References
 
 ---
-
 # 文档：Candy Cane Blocks
-
 - 类别：blocks
 - 标识：candy cane blocks
 - 来源：wiki/Candy_Cane_Blocks
@@ -11340,9 +10280,7 @@ Used in
 History
 
 ---
-
 # 文档：Cannonball
-
 - 类别：blocks
 - 标识：cannonball
 - 来源：wiki/Cannonball
@@ -11358,9 +10296,7 @@ Before Update 1.4.5 cannonballs where used as ammunition by the Cannon. While he
 History
 
 ---
-
 # 文档：Clay Block
-
 - 类别：blocks
 - 标识：clay block
 - 来源：wiki/Clay_Block
@@ -11376,9 +10312,7 @@ Clay can be painted with Brown Paint to make it quite similar to dirt. This can 
 History
 
 ---
-
 # 文档：Cloud
-
 - 类别：blocks
 - 标识：cloud
 - 来源：wiki/Cloud
@@ -11398,9 +10332,7 @@ Clouds can be used at the bottom of Hellevators to avoid dying from fall damage.
 History
 
 ---
-
 # 文档：Cobweb
-
 - 类别：blocks
 - 标识：cobweb
 - 来源：wiki/Cobweb
@@ -11425,9 +10357,7 @@ An easy way to find Cobweb is to use a Dangersense Potion as it highlights the C
 History
 
 ---
-
 # 文档：Cog
-
 - 类别：blocks
 - 标识：cog
 - 来源：wiki/Cog
@@ -11444,9 +10374,7 @@ Used in
 History
 
 ---
-
 # 文档：Confetti Block
-
 - 类别：blocks
 - 标识：confetti block
 - 来源：wiki/Confetti_Block
@@ -11459,9 +10387,7 @@ Used in
 History
 
 ---
-
 # 文档：Conveyor Belt
-
 - 类别：blocks
 - 标识：conveyor belt
 - 来源：wiki/Conveyor_Belt
@@ -11488,9 +10414,7 @@ A skybridge made of Conveyor Belts can be used to automatically farm Fallen Star
 History
 
 ---
-
 # 文档：Copper Plating
-
 - 类别：blocks
 - 标识：copper plating
 - 来源：wiki/Copper_Plating
@@ -11509,9 +10433,7 @@ Copper has historically been a common material in  and  due to its durability an
 History
 
 ---
-
 # 文档：Coralstone Block
-
 - 类别：blocks
 - 标识：coralstone block
 - 来源：wiki/Coralstone_Block
@@ -11525,9 +10447,7 @@ Recipes
 History
 
 ---
-
 # 文档：Crimsandstone Block
-
 - 类别：blocks
 - 标识：crimsandstone block
 - 来源：wiki/Crimsandstone_Block
@@ -11551,9 +10471,7 @@ Oddly enough, it cannot be used to make Sandstone Brick and Sandstone Slab, desp
 History
 
 ---
-
 # 文档：Crimstone Block
-
 - 类别：blocks
 - 标识：crimstone block
 - 来源：wiki/Crimstone_Block
@@ -11577,9 +10495,7 @@ Trivia
 History
 
 ---
-
 # 文档：Crispy Honey Block
-
 - 类别：blocks
 - 标识：crispy honey block
 - 来源：wiki/Crispy_Honey_Block
@@ -11594,9 +10510,7 @@ Used in
 History
 
 ---
-
 # 文档：Crystal Block
-
 - 类别：blocks
 - 标识：crystal block
 - 来源：wiki/Crystal_Block
@@ -11612,9 +10526,7 @@ This can loosely be seen as the Hardmode Hallow counterpart of the Pre-Hardmode 
 History
 
 ---
-
 # 文档：Dart Trap
-
 - 类别：blocks
 - 标识：dart trap
 - 来源：wiki/Dart_Trap
@@ -11658,9 +10570,7 @@ History
 Footnotes
 
 ---
-
 # 文档：Desert Fossil
-
 - 类别：blocks
 - 标识：desert fossil
 - 来源：wiki/Desert_Fossil
@@ -11688,9 +10598,7 @@ History
 References
 
 ---
-
 # 文档：Dirt Block
-
 - 类别：blocks
 - 标识：dirt block
 - 来源：wiki/Dirt_Block
@@ -11724,9 +10632,7 @@ In some of his quotes, the Merchant claims to sell dirt, despite not actually se
 History
 
 ---
-
 # 文档：Dynasty Shingles
-
 - 类别：blocks
 - 标识：dynasty shingles
 - 来源：wiki/Dynasty_Shingles
@@ -11736,9 +10642,7 @@ Dynasty Shingles are Blocks purchased from the Traveling Merchant for  a piece, 
 History
 
 ---
-
 # 文档：Dynasty Wood
-
 - 类别：blocks
 - 标识：dynasty wood
 - 来源：wiki/Dynasty_Wood
@@ -11762,9 +10666,7 @@ Dynasty Shingles
 History
 
 ---
-
 # 文档：Ebonsandstone Block
-
 - 类别：blocks
 - 标识：ebonsandstone block
 - 来源：wiki/Ebonsandstone_Block
@@ -11788,9 +10690,7 @@ Oddly enough, it cannot be used to make Sandstone Brick and Sandstone Slab, desp
 History
 
 ---
-
 # 文档：Ebonstone Block
-
 - 类别：blocks
 - 标识：ebonstone block
 - 来源：wiki/Ebonstone_Block
@@ -11812,9 +10712,7 @@ The real-life Ebonstone is Hematite, a dark-black stone.
 History
 
 ---
-
 # 文档：Ebonwood
-
 - 类别：blocks
 - 标识：ebonwood
 - 来源：wiki/Ebonwood
@@ -11838,9 +10736,7 @@ Placed Ebonwood resembles the placed wood texture, rotated 90 degrees and tinted
 History
 
 ---
-
 # 文档：Flame Trap
-
 - 类别：blocks
 - 标识：flame trap
 - 来源：wiki/Flame_Trap
@@ -11858,9 +10754,7 @@ Unlike the Geyser, the Flame Trap's jet will only pierce blocks placed directly 
 History
 
 ---
-
 # 文档：Flesh Block
-
 - 类别：blocks
 - 标识：flesh block
 - 来源：wiki/Flesh_Block
@@ -11883,9 +10777,7 @@ Water and rain will appear slightly red around flesh blocks, exactly like how it
 History
 
 ---
-
 # 文档：Frozen Slime Block
-
 - 类别：blocks
 - 标识：frozen slime block
 - 来源：wiki/Frozen_Slime_Block
@@ -11913,9 +10805,7 @@ Although using ice as a material, It does not cause the Snow Biome to take over 
 History
 
 ---
-
 # 文档：Gemspark Blocks
-
 - 类别：blocks
 - 标识：gemspark blocks
 - 来源：wiki/Gemspark_Blocks
@@ -11939,9 +10829,7 @@ It is possible that Gemspark Blocks, along with several other items and mechanic
 History
 
 ---
-
 # 文档：Gemstone Blocks
-
 - 类别：blocks
 - 标识：gemstone blocks
 - 来源：wiki/Gemstone_Blocks
@@ -11964,9 +10852,7 @@ These blocks cannot be obtained by a player, as they are exclusively naturally g
 History
 
 ---
-
 # 文档：Glass
-
 - 类别：blocks
 - 标识：glass
 - 来源：wiki/Glass
@@ -11979,9 +10865,7 @@ Used in
 History
 
 ---
-
 # 文档：Glowing Mushroom
-
 - 类别：blocks
 - 标识：glowing mushroom
 - 来源：wiki/Glowing_Mushroom
@@ -12011,9 +10895,7 @@ Glowing Mushrooms placed into an upside-down T shape can be hammered and painted
 History
 
 ---
-
 # 文档：Gold Starry Block
-
 - 类别：blocks
 - 标识：gold starry block
 - 来源：wiki/Gold_Starry_Block
@@ -12026,9 +10908,7 @@ Used in
 History
 
 ---
-
 # 文档：Golf Cup
-
 - 类别：blocks
 - 标识：golf cup
 - 来源：wiki/Golf_Cup
@@ -12041,9 +10921,7 @@ The golf ball has to be struck with a club at least once to activate the Golf Cu
 History
 
 ---
-
 # 文档：Granite Block
-
 - 类别：blocks
 - 标识：granite block
 - 来源：wiki/Granite_Block
@@ -12064,9 +10942,7 @@ Granite Golems spawned from their respective statue will still drop Granite Bloc
 History
 
 ---
-
 # 文档：Grate
-
 - 类别：blocks
 - 标识：grate
 - 来源：wiki/Grate
@@ -12085,15 +10961,13 @@ Tips
 Grates make gathering Hellstone without lava immunity much easier, as the lava produced from mined Hellstone will flow through the Grates but the ore will land on them where it can be safely collected.
 
 Trivia
-The tooltip for the item, <i></i>, is a reference to the catchphrase of , the advertising cartoon mascot for   breakfast cereal.
+The tooltip for the item, , is a reference to the catchphrase of , the advertising cartoon mascot for   breakfast cereal.
 It is furthermore a play on grate and great being homonyms.
 
 History
 
 ---
-
 # 文档：Green Candy Cane Block
-
 - 类别：blocks
 - 标识：green candy cane block
 - 来源：wiki/Green_Candy_Cane_Block
@@ -12106,9 +10980,7 @@ Used in
 History
 
 ---
-
 # 文档：Hardened Crimsand Block
-
 - 类别：blocks
 - 标识：hardened crimsand block
 - 来源：wiki/Hardened_Crimsand_Block
@@ -12130,9 +11002,7 @@ History
 Infected Hardened Sands are now craftable into glass like regular Hardened Sand.
 
 ---
-
 # 文档：Hardened Ebonsand Block
-
 - 类别：blocks
 - 标识：hardened ebonsand block
 - 来源：wiki/Hardened_Ebonsand_Block
@@ -12154,9 +11024,7 @@ History
 Infected Hardened Sands are now craftable into glass like regular Hardened Sand.
 
 ---
-
 # 文档：Hardened Pearlsand Block
-
 - 类别：blocks
 - 标识：hardened pearlsand block
 - 来源：wiki/Hardened_Pearlsand_Block
@@ -12178,9 +11046,7 @@ History
 Infected Hardened Sands are now craftable into glass like regular Hardened Sand.
 
 ---
-
 # 文档：Hardened Sand Block
-
 - 类别：blocks
 - 标识：hardened sand block
 - 来源：wiki/Hardened_Sand_Block
@@ -12202,9 +11068,7 @@ History
 Infected Hardened Sands are now craftable into glass like regular Hardened Sand.
 
 ---
-
 # 文档：Hardened Sand Blocks
-
 - 类别：blocks
 - 标识：hardened sand blocks
 - 来源：wiki/Hardened_Sand_Blocks
@@ -12226,9 +11090,7 @@ History
 Infected Hardened Sands are now craftable into glass like regular Hardened Sand.
 
 ---
-
 # 文档：Hay
-
 - 类别：blocks
 - 标识：hay
 - 来源：wiki/Hay
@@ -12248,9 +11110,7 @@ Using the Flower Boots, the player can repeatedly swing a Sickle for very large 
 History
 
 ---
-
 # 文档：Hive
-
 - 类别：blocks
 - 标识：hive
 - 来源：wiki/Hive
@@ -12268,9 +11128,7 @@ Since Hive blocks count as Jungle biome blocks, it can be used to create small J
 History
 
 ---
-
 # 文档：Honey Block
-
 - 类别：blocks
 - 标识：honey block
 - 来源：wiki/Honey_Block
@@ -12290,9 +11148,7 @@ Used in
 History
 
 ---
-
 # 文档：Honeyfall Block
-
 - 类别：blocks
 - 标识：honeyfall block
 - 来源：wiki/Honeyfall_Block
@@ -12306,9 +11162,7 @@ See also
 History
 
 ---
-
 # 文档：Ice Blocks
-
 - 类别：blocks
 - 标识：ice blocks
 - 来源：wiki/Ice_Blocks
@@ -12329,9 +11183,7 @@ Tile ID
 show-blocks = yes
 
 ---
-
 # 文档：Lavafall Block
-
 - 类别：blocks
 - 标识：lavafall block
 - 来源：wiki/Lavafall_Block
@@ -12345,9 +11197,7 @@ See also
 History
 
 ---
-
 # 文档：Leaf Block
-
 - 类别：blocks
 - 标识：leaf block
 - 来源：wiki/Leaf_Block
@@ -12363,9 +11213,7 @@ Mahogany Leaf Block
 History
 
 ---
-
 # 文档：Lesion Block
-
 - 类别：blocks
 - 标识：lesion block
 - 来源：wiki/Lesion_Block
@@ -12386,9 +11234,7 @@ The word 'lesion' is derived from the Latin word 'læssio' meaning 'injury.'
 History
 
 ---
-
 # 文档：Living Fire Blocks
-
 - 类别：blocks
 - 标识：living fire blocks
 - 来源：wiki/Living_Fire_Blocks
@@ -12407,9 +11253,7 @@ Tile ID
 show-other = yes
 
 ---
-
 # 文档：Living Mahogany
-
 - 类别：blocks
 - 标识：living mahogany
 - 来源：wiki/Living_Mahogany
@@ -12422,9 +11266,7 @@ Living Wood
 History
 
 ---
-
 # 文档：Living Wood
-
 - 类别：blocks
 - 标识：living wood
 - 来源：wiki/Living_Wood
@@ -12439,9 +11281,7 @@ See also
 History
 
 ---
-
 # 文档：Mahogany Leaf Block
-
 - 类别：blocks
 - 标识：mahogany leaf block
 - 来源：wiki/Mahogany_Leaf_Block
@@ -12456,9 +11296,7 @@ Leaf Block
 History
 
 ---
-
 # 文档：Marble Block
-
 - 类别：blocks
 - 标识：marble block
 - 来源：wiki/Marble_Block
@@ -12471,9 +11309,7 @@ Used in
 History
 
 ---
-
 # 文档：Martian Conduit Plating
-
 - 类别：blocks
 - 标识：martian conduit plating
 - 来源：wiki/Martian_Conduit_Plating
@@ -12497,9 +11333,7 @@ When Dropped on the floor, the Martian Conduit Plating shows the previous 1.3 te
 History
 
 ---
-
 # 文档：Midnight Confetti Block
-
 - 类别：blocks
 - 标识：midnight confetti block
 - 来源：wiki/Midnight_Confetti_Block
@@ -12512,9 +11346,7 @@ Used in
 History
 
 ---
-
 # 文档：Moss
-
 - 类别：blocks
 - 标识：moss
 - 来源：wiki/Moss
@@ -12534,9 +11366,7 @@ rowspan=2 colspan=2 | Type !! colspan=2 | Placed on
 show-blocks = yes
 
 ---
-
 # 文档：Mud Block
-
 - 类别：blocks
 - 标识：mud block
 - 来源：wiki/Mud_Block
@@ -12558,9 +11388,7 @@ References
 History
 
 ---
-
 # 文档：Nebula Fragment Block
-
 - 类别：blocks
 - 标识：nebula fragment block
 - 来源：wiki/Nebula_Fragment_Block
@@ -12580,9 +11408,7 @@ Stardust Fragment Block
 History
 
 ---
-
 # 文档：Ore Brick Walls
-
 - 类别：blocks
 - 标识：ore brick walls
 - 来源：wiki/Ore_Brick_Walls
@@ -12594,9 +11420,7 @@ Recipes
 Used in
 
 ---
-
 # 文档：Ore Bricks
-
 - 类别：blocks
 - 标识：ore bricks
 - 来源：wiki/Ore_Bricks
@@ -12608,9 +11432,7 @@ Recipes
 Used in
 
 ---
-
 # 文档：Palm Wood
-
 - 类别：blocks
 - 标识：palm wood
 - 来源：wiki/Palm_Wood
@@ -12623,9 +11445,7 @@ Used in
 History
 
 ---
-
 # 文档：Pearlsandstone Block
-
 - 类别：blocks
 - 标识：pearlsandstone block
 - 来源：wiki/Pearlsandstone_Block
@@ -12649,9 +11469,7 @@ Oddly enough, it cannot be used to make Sandstone Brick and Sandstone Slab, desp
 History
 
 ---
-
 # 文档：Pearlstone Block
-
 - 类别：blocks
 - 标识：pearlstone block
 - 来源：wiki/Pearlstone_Block
@@ -12667,9 +11485,7 @@ Used in
 History
 
 ---
-
 # 文档：Pearlwood
-
 - 类别：blocks
 - 标识：pearlwood
 - 来源：wiki/Pearlwood
@@ -12688,9 +11504,7 @@ Placed Pearlwood will not spread the Hallow.
 History
 
 ---
-
 # 文档：Pine Tree Block
-
 - 类别：blocks
 - 标识：pine tree block
 - 来源：wiki/Pine_Tree_Block
@@ -12708,9 +11522,7 @@ Christmas Tree
 History
 
 ---
-
 # 文档：Pink Slime Block
-
 - 类别：blocks
 - 标识：pink slime block
 - 来源：wiki/Pink_Slime_Block
@@ -12729,9 +11541,7 @@ Bouncing on Pink Slime Blocks only negates fall damage, and does not count as la
 History
 
 ---
-
 # 文档：Plants
-
 - 类别：blocks
 - 标识：plants
 - 来源：wiki/Plants
@@ -12823,7 +11633,6 @@ Placed strange plants.
 
 Strange Plants are uncommon quest items that can be traded with the Dye Trader, who rewards the player with 1 out of 33 special dyes in accordance to which bosses and/or events have been defeated. Only two dyes are not quest-exclusive (the player receives a quantity of 3 of the randomly chosen dye type).
 
-
 Plantera's Bulb
 Plantera's Bulb is a pink plant in the Underground Jungle that will begin to grow after all 3 mechanical bosses have been defeated (1 will suffice on the 3DS version) and the world is in Hardmode. It will summon Plantera when mined with a pickaxe/drill, broken by explosives, hit by a Clentaminator with Solution, or if the jungle grass under it is hammered or converted to another block. Though it cannot be broken by other weapons or projectiles, caution should still be taken if these conditions are met to prevent any unwanted boss fights. One bulb will spawn about every six minutes (roughly one quarter of an in-game day.)
 
@@ -12863,9 +11672,7 @@ Guide:Gardening
 History
 
 ---
-
 # 文档：Platforms
-
 - 类别：blocks
 - 标识：platforms
 - 来源：wiki/Platforms
@@ -12904,33 +11711,17 @@ tags = plunder
 col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
-col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
-col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
-col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
-col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
-col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
-col:notes = Found in the Dungeon.
 (Noncraftable on )
-tags = buy/vendor:Traveling Merchant
-col:notes = Sold by the Traveling Merchant.
-tags = buy/vendor:Traveling Merchant
-col:notes = Sold by the Traveling Merchant.
-tags = buy/vendor:Traveling Merchant
-col:notes = Sold by the Traveling Merchant.
-tags = buy/vendor:Traveling Merchant
-col:notes = Sold by the Traveling Merchant.
-tags = buy/vendor:Traveling Merchant
-col:notes = Sold by the Traveling Merchant.
 tags = buy/vendor:Traveling Merchant
 col:notes = Sold by the Traveling Merchant.
 tags = drop
@@ -12941,9 +11732,7 @@ show-other = yes
 show-blocks = yes
 
 ---
-
 # 文档：Poo
-
 - 类别：blocks
 - 标识：poo
 - 来源：wiki/Poo
@@ -12966,9 +11755,7 @@ Developers Redigit and Cenx made multiple social media posts about the Poo block
 History
 
 ---
-
 # 文档：Pumpkin
-
 - 类别：blocks
 - 标识：pumpkin
 - 来源：wiki/Pumpkin
@@ -13003,9 +11790,7 @@ History
 References
 
 ---
-
 # 文档：Rain Cloud
-
 - 类别：blocks
 - 标识：rain cloud
 - 来源：wiki/Rain_Cloud
@@ -13030,9 +11815,7 @@ Rain Clouds can be used at the bottom of Hellevators to avoid dying from fall da
 History
 
 ---
-
 # 文档：Reef Block
-
 - 类别：blocks
 - 标识：reef block
 - 来源：wiki/Reef_Block
@@ -13045,9 +11828,7 @@ Used in
 History
 
 ---
-
 # 文档：Rich Mahogany
-
 - 类别：blocks
 - 标识：rich mahogany
 - 来源：wiki/Rich_Mahogany
@@ -13070,9 +11851,7 @@ While both regular wood and rich mahogany possess a "living" variant, only regul
 History
 
 ---
-
 # 文档：Sandfall Block
-
 - 类别：blocks
 - 标识：sandfall block
 - 来源：wiki/Sandfall_Block
@@ -13090,9 +11869,7 @@ See also
 History
 
 ---
-
 # 文档：Sandstone Block
-
 - 类别：blocks
 - 标识：sandstone block
 - 来源：wiki/Sandstone_Block
@@ -13116,9 +11893,7 @@ Oddly enough, it cannot be used to make Sandstone Brick and Sandstone Slab, desp
 History
 
 ---
-
 # 文档：Sandstone Blocks
-
 - 类别：blocks
 - 标识：sandstone blocks
 - 来源：wiki/Sandstone_Blocks
@@ -13142,9 +11917,7 @@ Oddly enough, it cannot be used to make Sandstone Brick and Sandstone Slab, desp
 History
 
 ---
-
 # 文档：Sandstone Slab
-
 - 类别：blocks
 - 标识：sandstone slab
 - 来源：wiki/Sandstone_Slab
@@ -13161,9 +11934,7 @@ Despite their name, Sandstone Slabs are not made out of Sandstone.
 History
 
 ---
-
 # 文档：Shadewood
-
 - 类别：blocks
 - 标识：shadewood
 - 来源：wiki/Shadewood
@@ -13186,9 +11957,7 @@ Used in
 History
 
 ---
-
 # 文档：Shell Pile
-
 - 类别：blocks
 - 标识：shell pile
 - 来源：wiki/Shell_Pile
@@ -13206,9 +11975,7 @@ Shell Pile is considered a soft tile by the Gravedigger's Shovel.
 History
 
 ---
-
 # 文档：Shroomite Plating
-
 - 类别：blocks
 - 标识：shroomite plating
 - 来源：wiki/Shroomite_Plating
@@ -13224,9 +11991,7 @@ Shroomite Plating is tied with the Living Demon Fire Block for having the longes
 History
 
 ---
-
 # 文档：Silly Balloons
-
 - 类别：blocks
 - 标识：silly balloons
 - 来源：wiki/Silly_Balloons
@@ -13241,9 +12006,7 @@ Used in
 History
 
 ---
-
 # 文档：Silt Block
-
 - 类别：blocks
 - 标识：silt block
 - 来源：wiki/Silt_Block
@@ -13268,9 +12031,7 @@ Extractinator items
 History
 
 ---
-
 # 文档：Slime Block
-
 - 类别：blocks
 - 标识：slime block
 - 来源：wiki/Slime_Block
@@ -13286,9 +12047,7 @@ Despite it being called a Slime Block, nothing will bounce if dropped on them, a
 History
 
 ---
-
 # 文档：Slush Block
-
 - 类别：blocks
 - 标识：slush block
 - 来源：wiki/Slush_Block
@@ -13307,9 +12066,7 @@ As with other blocks that possess gravity, Slush can be easily harvested by digg
 History
 
 ---
-
 # 文档：Smoke Block
-
 - 类别：blocks
 - 标识：smoke block
 - 来源：wiki/Smoke_Block
@@ -13324,9 +12081,7 @@ After being hammered, Smoke Blocks allow for Banners to be placed, which allows 
 History
 
 ---
-
 # 文档：Smooth Granite Block
-
 - 类别：blocks
 - 标识：smooth granite block
 - 来源：wiki/Smooth_Granite_Block
@@ -13345,9 +12100,7 @@ The Granite furniture is themed after a retro-futuristic look, as opposed to Mar
 History
 
 ---
-
 # 文档：Smooth Marble Block
-
 - 类别：blocks
 - 标识：smooth marble block
 - 来源：wiki/Smooth_Marble_Block
@@ -13363,9 +12116,7 @@ Smooth Marble strongly resembles either the real-life , found in Carrara, Tuscan
 History
 
 ---
-
 # 文档：Snow Block
-
 - 类别：blocks
 - 标识：snow block
 - 来源：wiki/Snow_Block
@@ -13393,9 +12144,7 @@ Snow Blocks Hammered into half-blocks have an alternate appearance when placed o
 History
 
 ---
-
 # 文档：Snow Cloud
-
 - 类别：blocks
 - 标识：snow cloud
 - 来源：wiki/Snow_Cloud
@@ -13421,9 +12170,7 @@ The Guide refers to the Snow biome requirement for crafting this item as "".
 History
 
 ---
-
 # 文档：Snowfall Block
-
 - 类别：blocks
 - 标识：snowfall block
 - 来源：wiki/Snowfall_Block
@@ -13440,9 +12187,7 @@ See also
 History
 
 ---
-
 # 文档：Solar Fragment Block
-
 - 类别：blocks
 - 标识：solar fragment block
 - 来源：wiki/Solar_Fragment_Block
@@ -13462,9 +12207,7 @@ Stardust Fragment Block
 History
 
 ---
-
 # 文档：Spear Trap
-
 - 类别：blocks
 - 标识：spear trap
 - 来源：wiki/Spear_Trap
@@ -13485,9 +12228,7 @@ When actuated, these can be used as a very efficient way to kill off bosses, or 
 History
 
 ---
-
 # 文档：Spider Nest Block
-
 - 类别：blocks
 - 标识：spider nest block
 - 来源：wiki/Spider_Nest_Block
@@ -13502,9 +12243,7 @@ Used in
 History
 
 ---
-
 # 文档：Spike
-
 - 类别：blocks
 - 标识：spike
 - 来源：wiki/Spike
@@ -13523,9 +12262,7 @@ Spikes are the only pre-Hardmode tile that a Picksaw cannot mine in one hit.
 History
 
 ---
-
 # 文档：Spiky Ball Trap
-
 - 类别：blocks
 - 标识：spiky ball trap
 - 来源：wiki/Spiky_Ball_Trap
@@ -13570,9 +12307,7 @@ History
 References
 
 ---
-
 # 文档：Spooky Wood
-
 - 类别：blocks
 - 标识：spooky wood
 - 来源：wiki/Spooky_Wood
@@ -13588,9 +12323,7 @@ Spooky Wood, together with Dynasty Wood, are the only wood types that cannot be 
 History
 
 ---
-
 # 文档：Stardust Fragment Block
-
 - 类别：blocks
 - 标识：stardust fragment block
 - 来源：wiki/Stardust_Fragment_Block
@@ -13610,9 +12343,7 @@ Vortex Fragment Block
 History
 
 ---
-
 # 文档：Stone Accent Slab
-
 - 类别：blocks
 - 标识：stone accent slab
 - 来源：wiki/Stone_Accent_Slab
@@ -13627,9 +12358,7 @@ The Stone Accent Slab was added because of feedback from builders who relied on 
 History
 
 ---
-
 # 文档：Stone Block
-
 - 类别：blocks
 - 标识：stone block
 - 来源：wiki/Stone_Block
@@ -13655,9 +12384,7 @@ The look when stone is mined is different from the look when stone is placed.
 History
 
 ---
-
 # 文档：Stone Slab
-
 - 类别：blocks
 - 标识：stone slab
 - 来源：wiki/Stone_Slab
@@ -13673,9 +12400,7 @@ Many weapon animations on this wiki use the Stone Slab and Stone Slab Wall as a 
 History
 
 ---
-
 # 文档：Stucco
-
 - 类别：blocks
 - 标识：stucco
 - 来源：wiki/Stucco
@@ -13688,9 +12413,7 @@ colspan=2 | Item !! Placed !! Tile ID
 show-bricks = yes
 
 ---
-
 # 文档：Sturdy Fossil
-
 - 类别：blocks
 - 标识：sturdy fossil
 - 来源：wiki/Sturdy_Fossil
@@ -13711,9 +12434,7 @@ Placed Sturdy Fossils only blend with Desert Fossil blocks.
 History
 
 ---
-
 # 文档：Sunplate Block
-
 - 类别：blocks
 - 标识：sunplate block
 - 来源：wiki/Sunplate_Block
@@ -13731,9 +12452,7 @@ Sunplate Blocks, like water and cloud blocks, reduce the chance of Meteorite fal
 History
 
 ---
-
 # 文档：Super Dart Trap
-
 - 类别：blocks
 - 标识：super dart trap
 - 来源：wiki/Super_Dart_Trap
@@ -13757,9 +12476,7 @@ The Super Dart Trap's graphic resembles a stylized stone head. Traps involving s
 History
 
 ---
-
 # 文档：Team Blocks
-
 - 类别：blocks
 - 标识：team blocks
 - 来源：wiki/Team_Blocks
@@ -13780,9 +12497,7 @@ History
 References
 
 ---
-
 # 文档：Thin Ice
-
 - 类别：blocks
 - 标识：thin ice
 - 来源：wiki/Thin_Ice
@@ -13805,9 +12520,7 @@ When not underwater, grappling to the bottom of a Thin Ice block can still drown
 History
 
 ---
-
 # 文档：Tin Plating
-
 - 类别：blocks
 - 标识：tin plating
 - 来源：wiki/Tin_Plating
@@ -13826,9 +12539,7 @@ Unlike Copper Plating, tin was actually not used as a building material by itsel
 History
 
 ---
-
 # 文档：Venom Dart Trap
-
 - 类别：blocks
 - 标识：venom dart trap
 - 来源：wiki/Venom_Dart_Trap
@@ -13849,9 +12560,7 @@ History
 References
 
 ---
-
 # 文档：Vortex Fragment Block
-
 - 类别：blocks
 - 标识：vortex fragment block
 - 来源：wiki/Vortex_Fragment_Block
@@ -13871,9 +12580,7 @@ Stardust Fragment Block
 History
 
 ---
-
 # 文档：Waterfall Block
-
 - 类别：blocks
 - 标识：waterfall block
 - 来源：wiki/Waterfall_Block
@@ -13887,9 +12594,7 @@ See also
 History
 
 ---
-
 # 文档：Wood
-
 - 类别：blocks
 - 标识：wood
 - 来源：wiki/Wood
@@ -13938,9 +12643,7 @@ Wood armor sets are of the few that can be crafted at a Work Bench, along with .
 History
 
 ---
-
 # 文档：Wooden Spike
-
 - 类别：blocks
 - 标识：wooden spike
 - 来源：wiki/Wooden_Spike
@@ -13959,9 +12662,7 @@ Wooden Spikes are valid walls for NPC housing.
 History
 
 ---
-
 # 文档：Woods
-
 - 类别：blocks
 - 标识：woods
 - 来源：wiki/Woods
@@ -14012,9 +12713,7 @@ History
 ---
 ## BOSSES
 共 37 篇文档
-
 # 文档：Bosses
-
 - 类别：bosses
 - 标识：bosses
 - 来源：wiki/Bosses
@@ -14093,9 +12792,7 @@ Achievements
 History
 
 ---
-
 # 文档：Mechanical bosses
-
 - 类别：bosses
 - 标识：mechanical bosses
 - 来源：wiki/Mechanical_bosses
@@ -14153,9 +12850,7 @@ They are the only bosses whose -exclusive items are crafting materials.
 History
 
 ---
-
 # 文档：Betsy
-
 - 类别：bosses
 - 标识：betsy
 - 来源：wiki/Betsy
@@ -14193,9 +12888,7 @@ History
 References
 
 ---
-
 # 文档：Brain of Cthulhu
-
 - 类别：bosses
 - 标识：brain of cthulhu
 - 来源：wiki/Brain_of_Cthulhu
@@ -14234,17 +12927,14 @@ Furthermore, both the Creepers (in the first phase) and the Brain (in the second
 |-
 |  || class="m-expert expert" | 1.5 - 3 seconds || class="m-master master" | 1.88 - 3.75 seconds ||  ||
 |-
-|  || class="m-expert expert" | 5.25 - 10.5 seconds || class="m-master master" | 6.56 - 13.13 seconds ||  ||
 |-
 |  || class="m-expert expert" | 11.25 - 22.5 seconds || class="m-master master" | 14.06 - 28.13 seconds ||  ||
 |-
-|  || class="m-expert expert" | 1.5 - 3 seconds || class="m-master master" | 1.88 - 3.75 seconds ||  ||
 |-
 |  || class="m-expert expert" | 9.75 - 19.5 seconds || class="m-master master" | 12.19 - 24.38 seconds ||  ||
 
 All Expert mode changes apply.
 In Master Mode, the Brain of Cthulhu gains a % health increase. This brings its original Expert Mode health of  health up to  health.
-The Creepers gain a health increase of the same percentage, going from  health up to  health. This brings the boss's overall health up from  health to  health.
 The debuffs inflicted by the Brain and the Creepers are extended in duration, as detailed in the table above.
 (Tested in a pre-hardmode For The Worthy world) In its second phase, Brain of Cthulhu will also flip gravity, which will prevent gravitation potions from working. The gravity effect prevents the player from standing on platforms, so be mindful of this when building your arena.
 
@@ -14305,9 +12995,7 @@ History
 References
 
 ---
-
 # 文档：Celestial Pillars
-
 - 类别：bosses
 - 标识：celestial pillars
 - 来源：wiki/Celestial_Pillars
@@ -14342,9 +13030,7 @@ show-luminite = yes
 show-boss = yes
 
 ---
-
 # 文档：Dark Mage
-
 - 类别：bosses
 - 标识：dark mage
 - 来源：wiki/Dark_Mage
@@ -14373,9 +13059,7 @@ History
 References
 
 ---
-
 # 文档：Deerclops
-
 - 类别：bosses
 - 标识：deerclops
 - 来源：wiki/Deerclops
@@ -14427,9 +13111,7 @@ History
 References
 
 ---
-
 # 文档：Duke Fishron
-
 - 类别：bosses
 - 标识：duke fishron
 - 来源：wiki/Duke_Fishron
@@ -14441,9 +13123,7 @@ infobox wrapper
 | type = Boss
 | environment = Ocean
 
-| damage2 = &#32;
-
-
+| damage2 =
 
 | defense2 =
 
@@ -14457,9 +13137,7 @@ History
 References
 
 ---
-
 # 文档：Eater of Worlds
-
 - 类别：bosses
 - 标识：eater of worlds
 - 来源：wiki/Eater_of_Worlds
@@ -14490,12 +13168,10 @@ Demonite Ore|2–5|50%
 Shadow Scale||50%
 auto = 14
 type = Boss Part
-environment = The Corruption
 Demonite Ore|2–5|50%
 Shadow Scale||50%
 auto = 15
 type = Boss Part
-environment = The Corruption
 Demonite Ore|2–5|50%
 Shadow Scale||50%
 
@@ -14559,9 +13235,7 @@ History
 References
 
 ---
-
 # 文档：Empress of Light
-
 - 类别：bosses
 - 标识：empress of light
 - 来源：wiki/Empress_of_Light
@@ -14678,9 +13352,7 @@ History
 References
 
 ---
-
 # 文档：Everscream
-
 - 类别：bosses
 - 标识：everscream
 - 来源：wiki/Everscream
@@ -14714,9 +13386,7 @@ History
 References
 
 ---
-
 # 文档：Eye of Cthulhu
-
 - 类别：bosses
 - 标识：eye of cthulhu
 - 来源：wiki/Eye_of_Cthulhu
@@ -14794,9 +13464,7 @@ History
 References
 
 ---
-
 # 文档：Flying Dutchman
-
 - 类别：bosses
 - 标识：flying dutchman
 - 来源：wiki/Flying_Dutchman
@@ -14824,9 +13492,7 @@ The real-life  is a legendary ghost ship that can never make port and is doomed 
 History
 
 ---
-
 # 文档：Golem
-
 - 类别：bosses
 - 标识：golem
 - 来源：wiki/Golem
@@ -14892,9 +13558,7 @@ History
 References
 
 ---
-
 # 文档：Ice Queen
-
 - 类别：bosses
 - 标识：ice queen
 - 来源：wiki/Ice_Queen
@@ -14917,27 +13581,27 @@ Rate of Fire
 (shards/sec) !! Twirl Attack
 Rate of Fire
 (shards/sec)
-&ge; 75%
+≥ 75%
 ( /  / )
 2.07
 3.33
 7.5
-&ge; 50%
+≥ 50%
 ( /  / )
 2.22
 3.53
 8.57
-&ge; 25%
+≥ 25%
 ( /  / )
 2.4
 4
 12
-&ge; 10%
+≥ 10%
 ( /  / )
 rowspan="2" style="border-bottom:0px;" | 2.61
 4.62
 30
-&lt; 10%
+< 10%
 5.46
 60
 
@@ -14956,9 +13620,7 @@ The Ice Queen's projectiles inflict the following debuffs:
 | 10 seconds || class="m-expert expert" | 20 seconds || class="m-master master" | 25 seconds ||
 |-
 |
-| 5 seconds || class="m-expert expert" | 10 seconds || class="m-master master" | 12.5 seconds ||
 |-
-| 10 seconds || class="m-expert expert" | 20 seconds || class="m-master master" | 25 seconds ||
 |-
 | rowspan=3 style="border-bottom:0px" |  || rowspan="3" style="border-bottom:0px;" |  || rowspan="3" style="border-bottom:0px;" |
 | 1/3 of a second || class="m-expert expert" | 2/3 of a second || class="m-master master" | 5/6 of a second ||
@@ -14970,7 +13632,7 @@ Tips
 Both of the Ice Queen's attacks will inflict the Chilled debuff, which slows the player's movement speed, and Frost Waves will sometimes inflict the Frozen debuff which completely immobilizes the player. Drinking a , equipping a , or equipping an Ankh Shield in the  versions will negate these effects and potentially make the fight much less frustrating.
 The Frozen debuff causes players to exit their mount. This may kill a player without immunity to fall damage if inflicted at a high point in the sky.
 The Ice Queen is most vulnerable while executing her "Ice Twirl" attack, when she begins to spin in place rapidly, shooting Frost Shards in all directions. This is the only time she stays in one spot.
-The distribution of the Ice Queen's frost shards during her twirl attack is weighted such that the projectiles have a significantly higher chance of shooting near-diagonally than near-vertically or near-horizontally. Thus, players standing roughly along one cardinal direction from the Ice Queen (up, down, left, or right from her) have a lesser chance of being hit than players standing diagonally from her.#tag:ref|For this attack, the frost shards are assigned an angle by being given a random, uniformly-distributed X-velocity and a random, uniformly-distributed Y-velocity, and their velocity vectors are then normalized to have a length of 15.0 (which does not change the angle). Thus, the distribution of the polar angles of their velocity vectors is nonuniform, being proportional to math|Ice_Queen-math-1|scale=0.7|alt=#uesc:<esc>\frac{1}{8 \cos^2 \theta},\quad -\pi \leq \theta < \pi</esc>|inline=y. One external source which illustrates and explains this can be found here.|name=iqaidist
+The distribution of the Ice Queen's frost shards during her twirl attack is weighted such that the projectiles have a significantly higher chance of shooting near-diagonally than near-vertically or near-horizontally. Thus, players standing roughly along one cardinal direction from the Ice Queen (up, down, left, or right from her) have a lesser chance of being hit than players standing diagonally from her.#tag:ref|For this attack, the frost shards are assigned an angle by being given a random, uniformly-distributed X-velocity and a random, uniformly-distributed Y-velocity, and their velocity vectors are then normalized to have a length of 15.0 (which does not change the angle). Thus, the distribution of the polar angles of their velocity vectors is nonuniform, being proportional to math|Ice_Queen-math-1|scale=0.7|alt=#uesc:\frac{1}{8 \cos^2 \theta},\quad -\pi \leq \theta < \pi|inline=y. One external source which illustrates and explains this can be found here.|name=iqaidist
 To mitigate her damage, using wings and possibly movement enhancing accessories for chasing and dodging, in addition to equipping a Cross Necklace/Star Veil combined with healing (Spectre armor/Vampire Knives), proves very effective.
 
 Trivia
@@ -14983,9 +13645,7 @@ History
 References
 
 ---
-
 # 文档：King Slime
-
 - 类别：bosses
 - 标识：king slime
 - 来源：wiki/King_Slime
@@ -14996,7 +13656,7 @@ npc infobox
 | type2 = Slime
 | environment = Forest/Slime Rain
 | image = King Slime.gif
-|2=1|4=Slimy Saddle|5=1|6=25% @normal|7=:group:start|8=One of the following 3 items will be dropped&nbsp;|9=@normal|10=Ninja Hood|11=1|12=33.33% @normal|13=Ninja Shirt|14=1|15=33.33% @normal|16=Ninja Pants|17=1|18=33.33% @normal|19=:group:end|20=--------------------------------------------------------|21=------------------------|22=:group:start|23=One of the following 2 items will be dropped&nbsp; and he was consumed by King Slime as a result of losing the fight against the boss.
+|2=1|4=Slimy Saddle|5=1|6=25% @normal|7=:group:start|8=One of the following 3 items will be dropped |9=@normal|10=Ninja Hood|11=1|12=33.33% @normal|13=Ninja Shirt|14=1|15=33.33% @normal|16=Ninja Pants|17=1|18=33.33% @normal|19=:group:end|20=--------------------------------------------------------|21=------------------------|22=:group:start|23=One of the following 2 items will be dropped  and he was consumed by King Slime as a result of losing the fight against the boss.
 In the  versions, he is the only boss to drop a banner.
 The trophy dropped by King Slime seems to be a  covered in slime, a common weapon which ninjas are usually shown to carry. This may be because King Slime drops the Ninja armor.
 The images for the ninja inside the King Slime and the crown are stored in separate image files. The King Slime's sprite without them looks similar to an enlarged sprite of a normal Blue Slime.
@@ -15014,9 +13674,7 @@ History
 References
 
 ---
-
 # 文档：King Slime/lt
-
 - 类别：bosses
 - 标识：king slime/lt
 - 来源：wiki/King_Slime/lt
@@ -15036,9 +13694,7 @@ Vandens Žvakė ir/ar Kovos Eliksyras gali pagreitinti jo atsiradimo procesą.
 Istorija
 
 ---
-
 # 文档：Lepus
-
 - 类别：bosses
 - 标识：lepus
 - 来源：wiki/Lepus
@@ -15082,9 +13738,7 @@ Maps on the  versions do not show boss icons. This makes Lepus one of the three 
 History
 
 ---
-
 # 文档：Lunatic Cultist
-
 - 类别：bosses
 - 标识：lunatic cultist
 - 来源：wiki/Lunatic_Cultist
@@ -15174,9 +13828,7 @@ History
 References
 
 ---
-
 # 文档：Martian Saucer
-
 - 类别：bosses
 - 标识：martian saucer
 - 来源：wiki/Martian_Saucer
@@ -15216,9 +13868,7 @@ The Martian Saucer was once named "Mothership" during development, according to 
 History
 
 ---
-
 # 文档：Martian Saucer/lt
-
 - 类别：bosses
 - 标识：martian saucer/lt
 - 来源：wiki/Martian_Saucer/lt
@@ -15226,9 +13876,7 @@ History
 The Martian Saucer is a large flying boss that spawns during the Martian Madness event. The Martian Saucer moves through blocks, and has four turrets with independent health meters that must each be destroyed before damaging the saucer itself becomes possible. The turrets include two rocket launchers and two laser machine guns. In addition, the saucer itself fires a large beam ("death ray") that can only fire directly downward, and which cannot be destroyed independently. The player can damage the core only if all four turrets have been destroyed.
 
 ---
-
 # 文档：Mechdusa
-
 - 类别：bosses
 - 标识：mechdusa
 - 来源：wiki/Mechdusa
@@ -15267,9 +13915,7 @@ History
 References
 
 ---
-
 # 文档：Moon Lord
-
 - 类别：bosses
 - 标识：moon lord
 - 来源：wiki/Moon_Lord
@@ -15345,7 +13991,7 @@ If none of these items are available, equipping accessories that allow dodging s
 Teleporting away from the Moon Lord to get healing from the Nurse might result in her death, because Moon Lord will immediately teleport to the player.
 In multiplayer, the Moon Lord will attack the nearest player. Players can take turns teleporting home to get healing from the Nurse.
 In , fighting the Moon Lord in a low difficulty, then changing the difficulty during the exploding animation will still give the player the rewards of the new difficulty.
-The Moon Lord is vulnerable to almost all debuffs, most notabl<nowiki/>y  and Betsy's Curse, which can dramatically speed up the fight. However, since the Moon Lord's eyes remove all debuffs when they close, the player will have to reapply them accordingly.
+The Moon Lord is vulnerable to almost all debuffs, most notably  and Betsy's Curse, which can dramatically speed up the fight. However, since the Moon Lord's eyes remove all debuffs when they close, the player will have to reapply them accordingly.
 It is advisable to kill the eye on the head first. It is the only eye capable of firing the Phantasmal Deathray and remains closed for significantly longer than the eyes in the hands. If the player waits to kill the head last, they may have to deal with two True Eyes of Cthulhu for a longer amount of time.
 While the frequently-applied Moon Bite debuff disables the healing effects of Vampire Knives and the Spectre Hood, it does not disable health regeneration boosts, hence the effects of Nebula Armor and the Life Drain are not affected.
 Some of the Moon Lord's attacks can be avoided using the 200 NPC limit.
@@ -15382,9 +14028,7 @@ History
 References
 
 ---
-
 # 文档：Mourning Wood
-
 - 类别：bosses
 - 标识：mourning wood
 - 来源：wiki/Mourning_Wood
@@ -15424,9 +14068,7 @@ History
 References
 
 ---
-
 # 文档：Ocram
-
 - 类别：bosses
 - 标识：ocram
 - 来源：wiki/Ocram
@@ -15438,9 +14080,7 @@ Ocram is one of the final Hardmode bosses of Terraria in the . Ocram was release
 History
 
 ---
-
 # 文档：Ogre
-
 - 类别：bosses
 - 标识：ogre
 - 来源：wiki/Ogre
@@ -15480,9 +14120,7 @@ History
 References
 
 ---
-
 # 文档：Plantera
-
 - 类别：bosses
 - 标识：plantera
 - 来源：wiki/Plantera
@@ -15502,9 +14140,7 @@ colspan=2 | Projectile !! Damage
 show-boss = yes
 
 ---
-
 # 文档：Pumpking
-
 - 类别：bosses
 - 标识：pumpking
 - 来源：wiki/Pumpking
@@ -15543,9 +14179,7 @@ History
 References
 
 ---
-
 # 文档：Queen Bee
-
 - 类别：bosses
 - 标识：queen bee
 - 来源：wiki/Queen_Bee
@@ -15613,9 +14247,7 @@ History
 References
 
 ---
-
 # 文档：Queen Slime
-
 - 类别：bosses
 - 标识：queen slime
 - 来源：wiki/Queen_Slime
@@ -15698,9 +14330,7 @@ History
 References
 
 ---
-
 # 文档：Santa-NK1
-
 - 类别：bosses
 - 标识：santa-nk1
 - 来源：wiki/Santa-NK1
@@ -15726,13 +14356,13 @@ Barrage Interval
 (seconds) !! Average Present
 Barrage Interval
 (seconds)
-&ge; 75%
+≥ 75%
 ( /  / ) || 3.75 || 10 || 20 || 45
-&ge; 50%
+≥ 50%
 ( /  / ) || 4.29 || 9 || 18 || 40.5
-&ge; 25%
+≥ 25%
 ( /  / ) || 5.46 || 7.5 || 15 || 33.75
-&lt; 25% || 7.5 || 5 || 10 || 22.5
+< 25% || 7.5 || 5 || 10 || 22.5
 
 Notes
 Santa-NK1 currently has one of the highest damage rates in the game.
@@ -15758,9 +14388,7 @@ History
 References
 
 ---
-
 # 文档：Skeletron
-
 - 类别：bosses
 - 标识：skeletron
 - 来源：wiki/Skeletron
@@ -15843,9 +14471,7 @@ Footnotes
 dj alok
 
 ---
-
 # 文档：Skeletron Prime
-
 - 类别：bosses
 - 标识：skeletron prime
 - 来源：wiki/Skeletron_Prime
@@ -15859,9 +14485,7 @@ npc infobox | boxwidth = 24em
 | defense2 =
 
 ---
-
 # 文档：The Destroyer
-
 - 类别：bosses
 - 标识：the destroyer
 - 来源：wiki/The_Destroyer
@@ -15886,23 +14510,15 @@ environment = Surface+Night
 environment2 = Space+Night
 auto = 135
 type = Boss Part
-type2 = Burrowing Enemy
-environment = Surface+Night
-environment2 = Space+Night
-damage2 = &nbsp;
-&nbsp;
+damage2 =  
+ 
 auto = 136
 type = Boss Part
-type2 = Burrowing Enemy
-environment = Surface+Night
-environment2 = Space+Night
 }
 show-boss = yes
 
 ---
-
 # 文档：The Twins
-
 - 类别：bosses
 - 标识：the twins
 - 来源：wiki/The_Twins
@@ -15967,9 +14583,7 @@ History
 References
 
 ---
-
 # 文档：Turkor the Ungrateful
-
 - 类别：bosses
 - 标识：turkor the ungrateful
 - 来源：wiki/Turkor_the_Ungrateful
@@ -16005,9 +14619,7 @@ Turkor, alongside with other Console-exclusive bosses, can be fought on the Cons
 History
 
 ---
-
 # 文档：Wall of Flesh
-
 - 类别：bosses
 - 标识：wall of flesh
 - 来源：wiki/Wall_of_Flesh
@@ -16124,9 +14736,7 @@ References
 ---
 ## CONSUMABLES
 共 133 篇文档
-
 # 文档：Abeemination
-
 - 类别：consumables
 - 标识：abeemination
 - 来源：wiki/Abeemination
@@ -16153,9 +14763,7 @@ On , Hives can be made by throwing Honey Blocks or Crispy Honey Blocks into Shim
 History
 
 ---
-
 # 文档：Acorn
-
 - 类别：consumables
 - 标识：acorn
 - 来源：wiki/Acorn
@@ -16173,9 +14781,7 @@ Used in
 History
 
 ---
-
 # 文档：Actuator
-
 - 类别：consumables
 - 标识：actuator
 - 来源：wiki/Actuator
@@ -16220,9 +14826,7 @@ However, the Grand Design, crafted from the Multicolor wrench, is capable of doi
 History
 
 ---
-
 # 文档：Adamantite Bar
-
 - 类别：consumables
 - 标识：adamantite bar
 - 来源：wiki/Adamantite_Bar
@@ -16237,9 +14841,7 @@ Used in
 History
 
 ---
-
 # 文档：Adamantite Beam
-
 - 类别：consumables
 - 标识：adamantite beam
 - 来源：wiki/Adamantite_Beam
@@ -16259,9 +14861,7 @@ The texture of a 5×5 square of Adamantite Beams loosely resembles the top surfa
 History
 
 ---
-
 # 文档：Adamantite Beam Wall
-
 - 类别：consumables
 - 标识：adamantite beam wall
 - 来源：wiki/Adamantite_Beam_Wall
@@ -16274,9 +14874,7 @@ Used in
 History
 
 ---
-
 # 文档：Adamantite Ore
-
 - 类别：consumables
 - 标识：adamantite ore
 - 来源：wiki/Adamantite_Ore
@@ -16314,9 +14912,7 @@ The Adamantite Ore's inventory sprite is exactly the same as the one for Cobalt 
 History
 
 ---
-
 # 文档：Advanced Combat Techniques
-
 - 类别：consumables
 - 标识：advanced combat techniques
 - 来源：wiki/Advanced_Combat_Techniques
@@ -16338,9 +14934,7 @@ It is recommended to fish for this item in pre-hardmode due to the lack of extre
 History
 
 ---
-
 # 文档：Advanced Combat Techniques: Volume Two
-
 - 类别：consumables
 - 标识：advanced combat techniques: volume two
 - 来源：wiki/Advanced_Combat_Techniques:_Volume_Two
@@ -16359,9 +14953,7 @@ Can be consumed independently only if the first volume, Advanced Combat Techniqu
 History
 
 ---
-
 # 文档：Aegis Fruit
-
 - 类别：consumables
 - 标识：aegis fruit
 - 来源：wiki/Aegis_Fruit
@@ -16373,9 +14965,7 @@ Recipes
 History
 
 ---
-
 # 文档：Aetherium Brick
-
 - 类别：consumables
 - 标识：aetherium brick
 - 来源：wiki/Aetherium_Brick
@@ -16391,9 +14981,7 @@ Standing on Aetherium Bricks causes an occasional particle of iridescent star du
 History
 
 ---
-
 # 文档：Aetherium Brick Wall
-
 - 类别：consumables
 - 标识：aetherium brick wall
 - 来源：wiki/Aetherium_Brick_Wall
@@ -16406,9 +14994,7 @@ Used in
 History
 
 ---
-
 # 文档：Aetherium Wall
-
 - 类别：consumables
 - 标识：aetherium wall
 - 来源：wiki/Aetherium_Wall
@@ -16421,9 +15007,7 @@ Used in
 History
 
 ---
-
 # 文档：Alchemy Lantern
-
 - 类别：consumables
 - 标识：alchemy lantern
 - 来源：wiki/Alchemy_Lantern
@@ -16439,21 +15023,13 @@ Recipes
 Noncraftable lanterns
 colspan=2 | Lantern !! Notes
 || Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in the Dungeon.
 || Found in Ruined houses, does not break from lava.
 || Dropped by Pirates.
 }
 show-light = yes
 
 ---
-
 # 文档：Alchemy Table
-
 - 类别：consumables
 - 标识：alchemy table
 - 来源：wiki/Alchemy_Table
@@ -16479,9 +15055,7 @@ The Alchemy Table's sprite appears to depict a Lesser Restoration Potion.
 History
 
 ---
-
 # 文档：Amber
-
 - 类别：consumables
 - 标识：amber
 - 来源：wiki/Amber
@@ -16501,9 +15075,7 @@ References
 History
 
 ---
-
 # 文档：Ambrosia
-
 - 类别：consumables
 - 标识：ambrosia
 - 来源：wiki/Ambrosia
@@ -16522,9 +15094,7 @@ History
 References
 
 ---
-
 # 文档：Amethyst
-
 - 类别：consumables
 - 标识：amethyst
 - 来源：wiki/Amethyst
@@ -16539,9 +15109,7 @@ Used in
 History
 
 ---
-
 # 文档：Ammo Box
-
 - 类别：consumables
 - 标识：ammo box
 - 来源：wiki/Ammo_Box
@@ -16571,9 +15139,7 @@ Ammo Reservation Potion, a potion with a similar effect.
 History
 
 ---
-
 # 文档：Ammo Reservation Potion
-
 - 类别：consumables
 - 标识：ammo reservation potion
 - 来源：wiki/Ammo_Reservation_Potion
@@ -16591,9 +15157,7 @@ Both the potion and buff icon resemble the High Velocity Bullet.
 History
 
 ---
-
 # 文档：Anchor
-
 - 类别：consumables
 - 标识：anchor
 - 来源：wiki/Anchor
@@ -16610,9 +15174,7 @@ The Anchor can be considered a Hardmode upgrade of the pre-Hardmode Harpoon.
 History
 
 ---
-
 # 文档：Ancient Cobalt Brick
-
 - 类别：consumables
 - 标识：ancient cobalt brick
 - 来源：wiki/Ancient_Cobalt_Brick
@@ -16625,9 +15187,7 @@ Used in
 History
 
 ---
-
 # 文档：Ancient Cobalt Brick Wall
-
 - 类别：consumables
 - 标识：ancient cobalt brick wall
 - 来源：wiki/Ancient_Cobalt_Brick_Wall
@@ -16640,9 +15200,7 @@ Used in
 History
 
 ---
-
 # 文档：Ancient Copper Brick
-
 - 类别：consumables
 - 标识：ancient copper brick
 - 来源：wiki/Ancient_Copper_Brick
@@ -16658,9 +15216,7 @@ Ancient Copper Bricks emit a faint orange light, making them useful for creating
 History
 
 ---
-
 # 文档：Ancient Copper Brick Wall
-
 - 类别：consumables
 - 标识：ancient copper brick wall
 - 来源：wiki/Ancient_Copper_Brick_Wall
@@ -16676,9 +15232,7 @@ Used in
 History
 
 ---
-
 # 文档：Ancient Dungeon Brick Walls
-
 - 类别：consumables
 - 标识：ancient dungeon brick walls
 - 来源：wiki/Ancient_Dungeon_Brick_Walls
@@ -16694,9 +15248,7 @@ These brick walls, along with other Shimmered bricks, use the same textures as t
 History
 
 ---
-
 # 文档：Ancient Dungeon Bricks
-
 - 类别：consumables
 - 标识：ancient dungeon bricks
 - 来源：wiki/Ancient_Dungeon_Bricks
@@ -16713,9 +15265,7 @@ Unlike regular Dungeon Bricks, these bricks don't need 100% pickaxe power or gre
 History
 
 ---
-
 # 文档：Ancient Gold Brick
-
 - 类别：consumables
 - 标识：ancient gold brick
 - 来源：wiki/Ancient_Gold_Brick
@@ -16730,9 +15280,7 @@ The sprite of the Ancient Gold Brick is based on the Gold Brick's design before 
 History
 
 ---
-
 # 文档：Ancient Gold Brick Wall
-
 - 类别：consumables
 - 标识：ancient gold brick wall
 - 来源：wiki/Ancient_Gold_Brick_Wall
@@ -16745,9 +15293,7 @@ Used in
 History
 
 ---
-
 # 文档：Ancient Hellstone Brick
-
 - 类别：consumables
 - 标识：ancient hellstone brick
 - 来源：wiki/Ancient_Hellstone_Brick
@@ -16760,9 +15306,7 @@ Used in
 History
 
 ---
-
 # 文档：Ancient Hellstone Brick Wall
-
 - 类别：consumables
 - 标识：ancient hellstone brick wall
 - 来源：wiki/Ancient_Hellstone_Brick_Wall
@@ -16775,9 +15319,7 @@ Used in
 History
 
 ---
-
 # 文档：Ancient Manipulator
-
 - 类别：consumables
 - 标识：ancient manipulator
 - 来源：wiki/Ancient_Manipulator
@@ -16801,9 +15343,7 @@ Internally, this item is referred to as .
 History
 
 ---
-
 # 文档：Ancient Mythril Brick
-
 - 类别：consumables
 - 标识：ancient mythril brick
 - 来源：wiki/Ancient_Mythril_Brick
@@ -16816,9 +15356,7 @@ Used in
 History
 
 ---
-
 # 文档：Ancient Mythril Brick Wall
-
 - 类别：consumables
 - 标识：ancient mythril brick wall
 - 来源：wiki/Ancient_Mythril_Brick_Wall
@@ -16831,9 +15369,7 @@ Used in
 History
 
 ---
-
 # 文档：Ancient Obsidian Brick
-
 - 类别：consumables
 - 标识：ancient obsidian brick
 - 来源：wiki/Ancient_Obsidian_Brick
@@ -16846,9 +15382,7 @@ Used in
 History
 
 ---
-
 # 文档：Ancient Obsidian Brick Wall
-
 - 类别：consumables
 - 标识：ancient obsidian brick wall
 - 来源：wiki/Ancient_Obsidian_Brick_Wall
@@ -16861,9 +15395,7 @@ Used in
 History
 
 ---
-
 # 文档：Ancient Silver Brick
-
 - 类别：consumables
 - 标识：ancient silver brick
 - 来源：wiki/Ancient_Silver_Brick
@@ -16878,9 +15410,7 @@ Used in
 History
 
 ---
-
 # 文档：Ancient Silver Brick Wall
-
 - 类别：consumables
 - 标识：ancient silver brick wall
 - 来源：wiki/Ancient_Silver_Brick_Wall
@@ -16893,9 +15423,7 @@ Used in
 History
 
 ---
-
 # 文档：Angel Statue
-
 - 类别：consumables
 - 标识：angel statue
 - 来源：wiki/Angel_Statue
@@ -16934,9 +15462,7 @@ show-main = yes
 show-other = yes
 
 ---
-
 # 文档：Angler Earring
-
 - 类别：consumables
 - 标识：angler earring
 - 来源：wiki/Angler_Earring
@@ -16953,9 +15479,7 @@ History
 References
 
 ---
-
 # 文档：Angler/Quests
-
 - 类别：consumables
 - 标识：angler/quests
 - 来源：wiki/Angler/Quests
@@ -16969,9 +15493,7 @@ Glowing Mushroom biome
 Space/Sky
 
 ---
-
 # 文档：Animal skins
-
 - 类别：consumables
 - 标识：animal skins
 - 来源：wiki/Animal_skins
@@ -16982,9 +15504,7 @@ Types
 History
 
 ---
-
 # 文档：Ankh Banner
-
 - 类别：consumables
 - 标识：ankh banner
 - 来源：wiki/Ankh_Banner
@@ -17015,9 +15535,7 @@ The War Table Banner is the only one with 2×3 dimension instead of 1×3.
 History
 
 ---
-
 # 文档：Announcement Box
-
 - 类别：consumables
 - 标识：announcement box
 - 来源：wiki/Announcement_Box
@@ -17039,13 +15557,13 @@ will create white, the color shown when a player types something in the chat.
 By setting an Announcement Box up with  the text will be indistinguishable from an actual player's input.
 will create the color shown when some events start - "The Blood Moon is rising..."; "Impending doom approaches..."
 will create the color shown when an invasion starts or when a boss is summoned and defeated - "Skeletron has awoken!"
-will create the color shown when a player dies - "&lt;Player name&gt; was slain."
+will create the color shown when a player dies - "<Player name> was slain."
 Note that this color is different from the one that is displayed when an NPC or a town pet dies.
-will create the color shown when an NPC or a town pet dies - "&lt;Name of NPC&gt; the &lt;type of NPC&gt; was slain..."
+will create the color shown when an NPC or a town pet dies - "<Name of NPC> the <type of NPC> was slain..."
 Note that this color is different from the one that is displayed when a player dies.
-will create the color shown when an NPC or a town pet arrives - "&lt;Name of NPC&gt; the &lt;type of NPC&gt; has arrived!"
+will create the color shown when an NPC or a town pet arrives - "<Name of NPC> the <type of NPC> has arrived!"
 will create the color shown by some general status messages, such as - "Spawn point set!"; "You are not close enough to a pylon to teleport with the pylon network"
-will create the color shown when an NPC throws a Party - "Looks like <NPC name> is throwing a party"
+will create the color shown when an NPC throws a Party - "Looks like  is throwing a party"
 
 One can achieve a color shift/gradient by using many  back to back.
 
@@ -17122,9 +15640,7 @@ The Announcement Box was a suggestion by Master Geass, a user on the Official Te
 History
 
 ---
-
 # 文档：Anti-Gravity Hook
-
 - 类别：consumables
 - 标识：anti-gravity hook
 - 来源：wiki/Anti-Gravity_Hook
@@ -17140,9 +15656,7 @@ Smooth walls can be climbed extremely quickly with the Anti-Gravity Hook by pres
 History
 
 ---
-
 # 文档：Antlion Eggs
-
 - 类别：consumables
 - 标识：antlion eggs
 - 来源：wiki/Antlion_Eggs
@@ -17165,9 +15679,7 @@ History
 References
 
 ---
-
 # 文档：Anvil
-
 - 类别：consumables
 - 标识：anvil
 - 来源：wiki/Anvil
@@ -17187,9 +15699,7 @@ Achievements
 History
 
 ---
-
 # 文档：Anvil Statue
-
 - 类别：consumables
 - 标识：anvil statue
 - 来源：wiki/Anvil_Statue
@@ -17228,9 +15738,7 @@ show-main = yes
 show-other = yes
 
 ---
-
 # 文档：Anvil Statue/cs
-
 - 类别：consumables
 - 标识：anvil statue/cs
 - 来源：wiki/Anvil_Statue/cs
@@ -17271,9 +15779,7 @@ Dekorativní sochy
 Historie
 
 ---
-
 # 文档：Apple
-
 - 类别：consumables
 - 标识：apple
 - 来源：wiki/Apple
@@ -17292,9 +15798,7 @@ Despite the similarities in name, it cannot be used to make the Apple Pie.
 History
 
 ---
-
 # 文档：Apple Juice
-
 - 类别：consumables
 - 标识：apple juice
 - 来源：wiki/Apple_Juice
@@ -17309,9 +15813,7 @@ Its tooltip is likely a reference to the TV show "", where the character Jerry S
 History
 
 ---
-
 # 文档：Apple Pie
-
 - 类别：consumables
 - 标识：apple pie
 - 来源：wiki/Apple_Pie
@@ -17325,9 +15827,7 @@ Even though Apples also exist in the game, the Apple Pie cannot be crafted from 
 History
 
 ---
-
 # 文档：Apricot
-
 - 类别：consumables
 - 标识：apricot
 - 来源：wiki/Apricot
@@ -17345,9 +15845,7 @@ The tooltip is a play on the words appreciate & apricot.
 History
 
 ---
-
 # 文档：Arcane Crystal
-
 - 类别：consumables
 - 标识：arcane crystal
 - 来源：wiki/Arcane_Crystal
@@ -17359,9 +15857,7 @@ Recipes
 History
 
 ---
-
 # 文档：Arcane Rune Wall
-
 - 类别：consumables
 - 标识：arcane rune wall
 - 来源：wiki/Arcane_Rune_Wall
@@ -17377,9 +15873,7 @@ This also applies to single pieces of Arcane Rune Walls within patches of other 
 History
 
 ---
-
 # 文档：Archery Potion
-
 - 类别：consumables
 - 标识：archery potion
 - 来源：wiki/Archery_Potion
@@ -17396,9 +15890,7 @@ History
 References
 
 ---
-
 # 文档：Argon Moss Brick
-
 - 类别：consumables
 - 标识：argon moss brick
 - 来源：wiki/Argon_Moss_Brick
@@ -17411,9 +15903,7 @@ Used in
 History
 
 ---
-
 # 文档：Argon Moss Brick Wall
-
 - 类别：consumables
 - 标识：argon moss brick wall
 - 来源：wiki/Argon_Moss_Brick_Wall
@@ -17426,9 +15916,7 @@ Used in
 History
 
 ---
-
 # 文档：Armed Zombie Statue
-
 - 类别：consumables
 - 标识：armed zombie statue
 - 来源：wiki/Armed_Zombie_Statue
@@ -17467,9 +15955,7 @@ show-main = yes
 show-other = yes
 
 ---
-
 # 文档：Armor Statue
-
 - 类别：consumables
 - 标识：armor statue
 - 来源：wiki/Armor_Statue
@@ -17508,9 +15994,7 @@ show-main = yes
 show-other = yes
 
 ---
-
 # 文档：Armor Statue/cs
-
 - 类别：consumables
 - 标识：armor statue/cs
 - 来源：wiki/Armor_Statue/cs
@@ -17551,9 +16035,7 @@ Dekorativní sochy
 Historie
 
 ---
-
 # 文档：Armored Cavefish
-
 - 类别：consumables
 - 标识：armored cavefish
 - 来源：wiki/Armored_Cavefish
@@ -17568,9 +16050,7 @@ Armored Cavefish share portions of the Common, Uncommon, and Plentiful catch qua
 History
 
 ---
-
 # 文档：Arrow Signs
-
 - 类别：consumables
 - 标识：arrow signs
 - 来源：wiki/Arrow_Signs
@@ -17582,9 +16062,7 @@ It is possible to turn the orientation of arrows with a right-click () into 8 di
 History
 
 ---
-
 # 文档：Arrows
-
 - 类别：consumables
 - 标识：arrows
 - 来源：wiki/Arrows
@@ -17629,9 +16107,7 @@ In Journey Mode only 99 arrows are needed for Research and infinite duplication,
 However, it does not need to be duplicated mid-combat like arrows do.
 
 ---
-
 # 文档：Artisan Loaf
-
 - 类别：consumables
 - 标识：artisan loaf
 - 来源：wiki/Artisan_Loaf
@@ -17647,9 +16123,7 @@ History
 References
 
 ---
-
 # 文档：Ash Grass Seeds
-
 - 类别：consumables
 - 标识：ash grass seeds
 - 来源：wiki/Ash_Grass_Seeds
@@ -17659,9 +16133,7 @@ Ash Grass Seeds are seeds used to plant Ash grass. They are purchased from the D
 History
 
 ---
-
 # 文档：Ash Wood Wall
-
 - 类别：consumables
 - 标识：ash wood wall
 - 来源：wiki/Ash_Wood_Wall
@@ -17674,9 +16146,7 @@ Used in
 History
 
 ---
-
 # 文档：Astra Brick
-
 - 类别：consumables
 - 标识：astra brick
 - 来源：wiki/Astra_Brick
@@ -17692,9 +16162,7 @@ The Sextant may be helpful for determining the current Moon Phase.
 History
 
 ---
-
 # 文档：Astra Brick Wall
-
 - 类别：consumables
 - 标识：astra brick wall
 - 来源：wiki/Astra_Brick_Wall
@@ -17707,9 +16175,7 @@ Used in
 History
 
 ---
-
 # 文档：Atlantic Cod
-
 - 类别：consumables
 - 标识：atlantic cod
 - 来源：wiki/Atlantic_Cod
@@ -17721,9 +16187,7 @@ Used in
 History
 
 ---
-
 # 文档：Autohammer
-
 - 类别：consumables
 - 标识：autohammer
 - 来源：wiki/Autohammer
@@ -17732,7 +16196,6 @@ The Autohammer is a Hardmode post-Plantera crafting station used to craft Shroom
 
 Crafting
 Used to craft
-<onlyinclude></onlyinclude>
 
 Tips
 If the player has ingredients for the desired number of Shroomite Bars in their inventory, the Autohammer can be bought, used to craft the bars, and sold back to the Truffle without incurring the cost of .
@@ -17743,9 +16206,7 @@ The Autohammer's animation seems to show it making Shroomite Bars from Chlorophy
 History
 
 ---
-
 # 文档：Axe Statue
-
 - 类别：consumables
 - 标识：axe statue
 - 来源：wiki/Axe_Statue
@@ -17784,9 +16245,7 @@ show-main = yes
 show-other = yes
 
 ---
-
 # 文档：Axe Statue/cs
-
 - 类别：consumables
 - 标识：axe statue/cs
 - 来源：wiki/Axe_Statue/cs
@@ -17827,9 +16286,7 @@ Dekorativní sochy
 Historie
 
 ---
-
 # 文档：Azure Crate
-
 - 类别：consumables
 - 标识：azure crate
 - 来源：wiki/Azure_Crate
@@ -17844,9 +16301,7 @@ Drops
 History
 
 ---
-
 # 文档：Bacon
-
 - 类别：consumables
 - 标识：bacon
 - 来源：wiki/Bacon
@@ -17865,14 +16320,11 @@ Before 1.4.2.3, if you make the Party Girl happy enough (and/or use a Discount C
 History
 
 ---
-
 # 文档：Bait
-
 - 类别：consumables
 - 标识：bait
 - 来源：wiki/Bait
 
-<onlyinclude>
 + Bait Items
 colspan=2 | Item !! Power !! Rarity
 q?tables=Items
@@ -17880,7 +16332,7 @@ q?fields=_pageName,name,itemid,bait,rare
 q?where=bait<>0 AND name NOT IN ("Apprentice Bait", "Journeyman Bait", "Master Bait")
 q?groupBy=itemid
 template=:Bait/row
-}</onlyinclude>
+}
 rowspan=2 colspan=2 | Bait type !! colspan=2 | Chance to consume
 Regular !! With Tackle Box
 q?tables=Items
@@ -17924,9 +16376,7 @@ History
 References
 
 ---
-
 # 文档：Bait/static
-
 - 类别：consumables
 - 标识：bait/static
 - 来源：wiki/Bait/static
@@ -17939,9 +16389,7 @@ References
 |}
 
 ---
-
 # 文档：Bamboo Wall
-
 - 类别：consumables
 - 标识：bamboo wall
 - 来源：wiki/Bamboo_Wall
@@ -17954,9 +16402,7 @@ Used in
 History
 
 ---
-
 # 文档：Banana
-
 - 类别：consumables
 - 标识：banana
 - 来源：wiki/Banana
@@ -17975,9 +16421,7 @@ History
 References
 
 ---
-
 # 文档：Banana Split
-
 - 类别：consumables
 - 标识：banana split
 - 来源：wiki/Banana_Split
@@ -17990,9 +16434,7 @@ Even though there are food items in the game that could reasonably be made into 
 History
 
 ---
-
 # 文档：Banners
-
 - 类别：consumables
 - 标识：banners decorative
 - 来源：wiki/Banners_(decorative)
@@ -18023,9 +16465,7 @@ The War Table Banner is the only one with 2×3 dimension instead of 1×3.
 History
 
 ---
-
 # 文档：Barrel
-
 - 类别：consumables
 - 标识：barrel
 - 来源：wiki/Barrel
@@ -18042,9 +16482,7 @@ Using Barrels instead of Chests conserves Iron/Lead Bars; a Barrel takes half as
 History
 
 ---
-
 # 文档：Bars
-
 - 类别：consumables
 - 标识：bars
 - 来源：wiki/Bars
@@ -18068,9 +16506,7 @@ The old bar textures are actually modified versions of the old   textures. (For 
 History
 
 ---
-
 # 文档：Bass
-
 - 类别：consumables
 - 标识：bass
 - 来源：wiki/Bass
@@ -18082,9 +16518,7 @@ Used in
 History
 
 ---
-
 # 文档：Bast Statue
-
 - 类别：consumables
 - 标识：bast statue
 - 来源：wiki/Bast_Statue
@@ -18105,9 +16539,7 @@ History
 References
 
 ---
-
 # 文档：Bat Statue
-
 - 类别：consumables
 - 标识：bat statue
 - 来源：wiki/Bat_Statue
@@ -18146,9 +16578,7 @@ show-main = yes
 show-other = yes
 
 ---
-
 # 文档：Bat Statue/cs
-
 - 类别：consumables
 - 标识：bat statue/cs
 - 来源：wiki/Bat_Statue/cs
@@ -18189,9 +16619,7 @@ Dekorativní sochy
 Historie
 
 ---
-
 # 文档：Bathtubs
-
 - 类别：consumables
 - 标识：bathtubs
 - 来源：wiki/Bathtubs
@@ -18205,17 +16633,13 @@ Recipes
 Noncraftable Bathtubs
 colspan=2 | Bathtub !! Notes
 || Found in the Dungeon. ()
-|| Found in the Dungeon. ()
-|| Found in the Dungeon. ()
 || Found in Ruined houses, does not break from lava. ()
 || Dropped by Pirates.
 }
 show-other = yes
 
 ---
-
 # 文档：Battle Potion
-
 - 类别：consumables
 - 标识：battle potion
 - 来源：wiki/Battle_Potion
@@ -18241,9 +16665,7 @@ History
 References
 
 ---
-
 # 文档：BBQ Ribs
-
 - 类别：consumables
 - 标识：bbq ribs
 - 来源：wiki/BBQ_Ribs
@@ -18264,9 +16686,7 @@ This item being dropped from skeletons likely alludes to their ribs being visibl
 History
 
 ---
-
 # 文档：Beach Ball
-
 - 类别：consumables
 - 标识：beach ball
 - 来源：wiki/Beach_Ball
@@ -18294,9 +16714,7 @@ The beach ball can be used to play some sports, such as soccer and volleyball.
 History
 
 ---
-
 # 文档：Beds
-
 - 类别：consumables
 - 标识：beds
 - 来源：wiki/Beds
@@ -18337,17 +16755,13 @@ Recipes
 Noncraftable Beds
 colspan=2 | Bed !! Notes
 || Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in the Dungeon.
 || Found in Ruined houses, does not disappear in lava.
 || Dropped by Pirates.
 }
 show-other = yes
 
 ---
-
 # 文档：Bee Hive
-
 - 类别：consumables
 - 标识：bee hive item
 - 来源：wiki/Bee_Hive_(item)
@@ -18369,9 +16783,7 @@ Bee Hives have a chance to drop upon  a Jungle tree. They will drop as projectil
 History
 
 ---
-
 # 文档：Bee Wax
-
 - 类别：consumables
 - 标识：bee wax
 - 来源：wiki/Bee_Wax
@@ -18386,9 +16798,7 @@ The most profitable way to sell Bee Wax is to craft them into Bee Headgear. 96 p
 History
 
 ---
-
 # 文档：Beenade
-
 - 类别：consumables
 - 标识：beenade
 - 来源：wiki/Beenade
@@ -18415,9 +16825,7 @@ Beenade is a portmanteau of bee and grenade.
 History
 
 ---
-
 # 文档：Beetle Husk
-
 - 类别：consumables
 - 标识：beetle husk
 - 来源：wiki/Beetle_Husk
@@ -18434,9 +16842,7 @@ It is not profitable to sell any piece of Beetle armor, the ingredients are wort
 History
 
 ---
-
 # 文档：Benches
-
 - 类别：consumables
 - 标识：benches
 - 来源：wiki/Benches
@@ -18452,9 +16858,7 @@ Chair
 History
 
 ---
-
 # 文档：Bewitching Table
-
 - 类别：consumables
 - 标识：bewitching table
 - 来源：wiki/Bewitching_Table
@@ -18475,9 +16879,7 @@ The staff on the buff icon could be a Raven Staff due to the apparent feather li
 History
 
 ---
-
 # 文档：Biome Chests
-
 - 类别：consumables
 - 标识：biome chests
 - 来源：wiki/Biome_Chests
@@ -18502,7 +16904,6 @@ col:key =
 col:content =
 col:key =
 col:content =
-item infobox | view = item | auto = 1532 | type = Furniture / Storage | width = 2 | height = 2 | tags = Plunder
 class = multi-line
 t = Ice Chest
 Frozen Chest
@@ -18514,9 +16915,7 @@ col:content =
 show-storage = yes
 
 ---
-
 # 文档：Biome Sight Potion
-
 - 类别：consumables
 - 标识：biome sight potion
 - 来源：wiki/Biome_Sight_Potion
@@ -18534,9 +16933,7 @@ This potion's concept may have been born out of player frustrations in trying to
 History
 
 ---
-
 # 文档：Bird Statue
-
 - 类别：consumables
 - 标识：bird statue
 - 来源：wiki/Bird_Statue
@@ -18575,9 +16972,7 @@ show-main = yes
 show-other = yes
 
 ---
-
 # 文档：Bird Statue/cs
-
 - 类别：consumables
 - 标识：bird statue/cs
 - 来源：wiki/Bird_Statue/cs
@@ -18618,9 +17013,7 @@ Dekorativní sochy
 Historie
 
 ---
-
 # 文档：Birds
-
 - 类别：consumables
 - 标识：birds
 - 来源：wiki/Birds
@@ -18650,9 +17043,7 @@ col:song =
 show-critter = yes
 
 ---
-
 # 文档：Blackcurrant
-
 - 类别：consumables
 - 标识：blackcurrant
 - 来源：wiki/Blackcurrant
@@ -18669,9 +17060,7 @@ is a berry shrub that can be found in Central and Northern Europe, as well as No
 History
 
 ---
-
 # 文档：Blend-O-Matic
-
 - 类别：consumables
 - 标识：blend-o-matic
 - 来源：wiki/Blend-O-Matic
@@ -18683,9 +17072,7 @@ Used to craft
 History
 
 ---
-
 # 文档：Blinkroot Seeds
-
 - 类别：consumables
 - 标识：blinkroot seeds
 - 来源：wiki/Blinkroot_Seeds
@@ -18697,9 +17084,7 @@ Blinkroot Seeds can be placed on bare Dirt and Mud Blocks, empty Clay Pots, or a
 History
 
 ---
-
 # 文档：Blood Moon Rising
-
 - 类别：consumables
 - 标识：blood moon rising
 - 来源：wiki/Blood_Moon_Rising
@@ -18724,13 +17109,9 @@ desc = Parody of , a well-known 1929 painting of a pipe with a caption that stat
 
 From Painter
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Buy
 Sell
-class="unsortable" | Tooltip
 class="unsortable" | Available
-class="unsortable" | Description
 available = When Painter is in a Snow biome
 desc = Snow Biome landscape.
 available = Always
@@ -18766,12 +17147,8 @@ desc = A bolt of lightning.
 
 From Painter in a
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Buy
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = Reference to "", a poem by , which prominently features the phrase "nevermore".
 desc = A hand rising from the ground.
 desc = Graveyard landscape.
@@ -18783,12 +17160,8 @@ desc = A typical  painting of a bowl of fruit beside a skull.
 
 From
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Buy
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = A castle in a field. It is a reference to Peach's Castle as it appears in . It may also be a reference to several other games in the Mario franchise.
 desc = A painting of the Princess.
 desc = A rainbow shining from a unicorn's horn. References a popular diagram of white light splitting into a rainbow after passing through a prism, while the name references the  album .
@@ -18799,30 +17172,20 @@ desc = An intimate painting of two royal Slimes.
 
 From Clothier
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Buy
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = A Terraria-themed landscape painting.
 
 From Traveling Merchant
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Buy
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = A Red Bulb hanging from a tree. A reference to .
 desc = Parody of the Wolfenstein 3D title screen featuring the player wearing Meteor armor and wielding a Space Gun, with a Martian in the back. The name of the painting itself might be a reference to another Wolfenstein game - .
 desc = Portrait of the Ice Queen attacking.
 desc = Portrait of Skeletron dressed as Santa Claus.
 desc = Parody of the  featuring a Martian.
 desc = Portrait of Moon Lord. The name is a reference to the  commercial.
-desc = Portrait of  from Don't Starve Together.
-desc = Portrait of  from Don't Starve Together.
 desc = Portrait of  from Don't Starve Together.
 desc =  Portrait of  from Don't Starve Together.
 desc = Snowy landscape with a Present, Christmas Tree, and a Candy Cane.
@@ -18840,33 +17203,21 @@ desc = Painting of Yogscast's Pedguin and Boba, as the Parsec Pals.
 
 From Truffle
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Buy
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = A portrait of the Baby Truffle pet.
 
 From
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Buy
 Sell
-class="unsortable" | Tooltip
 class="unsortable" | Availability
-class="unsortable" | Description
 desc = A portrait of the Werewolf.
 available = Sold during a Full Moon at night ().
 
 Desert Underground Cabins
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = A play on Terraria lead developer Andrew Spinks' name, featuring a  wearing Andrew's signature green cap.
 desc = An Antlion. May be a reference to Dune.
 desc = A Desert Spirit in darkness.
@@ -18884,11 +17235,7 @@ desc = An interpretation of the , or "Eye of God," a version of which appears on
 
 Other Underground Cabins
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = Possible parody of .
 Portrait of the Demolitionist.
 desc = Depicts the Aurora Borealis.
@@ -18928,11 +17275,7 @@ desc = A group of wildflowers.
 
 Dungeon
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = Blood Moon. Also possibly a parody of Blue Moon Rising by Simon R. Green or the song "" by American rock band .
 desc = Various Bones.
 desc = Parody of  featuring the Guide.
@@ -18962,11 +17305,7 @@ featuring the Party Girl on a Unicorn in the Hallow.
 
 The Underworld
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = Reaper portrait.
 desc = The back of a  card.
 desc = A demon's eye.
@@ -18982,11 +17321,7 @@ desc = An unhappy ghost trapped in limbo.
 
 Goodie Bags
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = Green Slime wearing a witch hat among Pumpkins.
 desc = A vampire lady with red eyes and a cloak.
 desc = Portrait of the Mechanic's face.
@@ -19011,11 +17346,7 @@ desc = An ominous creature peering out from the depths of the sea.
 
 Floating Islands
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = Depiction of a flying Magical Harp.
 desc = Bunny constellation.
 desc = Reference to Banksy's Love is in the Bin.
@@ -19034,28 +17365,16 @@ description
 
 Blood Moon Fishing
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = A Dreadnautilus, two Blood Squids, and a Blood Moon.
 
 Hallow Fishing
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc =A girl handing the Meowmere to a guy on a boat. It is a reference to the Arthurian Legends of the
 Solar Eclipse Drops
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = Depiction of a Reaper.
 desc = The player using an eye-based beam attack.
 desc = Depiction of a Butcher. Title is a reference to .
@@ -19067,26 +17386,16 @@ desc = Depiction of a Frankenstein and a Swamp Thing.
 
 Dungeon Chests
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = The Lunatic Cultist and four Cultists.
 
 Jungle Temple
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = A king lizard.
 
 New Chinese version
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
 width="25%" class="unsortable" | Tooltip
 width="30%" class="unsortable" | Description
@@ -19139,12 +17448,9 @@ Medium Oil Painting of Douyu Niang
 3×3
 
 (Limited) Douyu Linked Oil Painting
-Douyu platform anthropomorphic image Shark Maiden.
 Betta Fish Oil Painting
 6×4
 
-(Limited) Douyu Linked Oil Painting
-Douyu platform anthropomorphic image Shark Maiden.
 Huya's Small Oil Painting
 2×3
 
@@ -19159,7 +17465,6 @@ Huya Platform Logo.
 Huya Oil Painting
 6×4
 
-(Limited) Huya linkage oil painting
 Huya platform logo and anthropomorphic image of Huya platform.
 Terrary Potatoes
 6×4
@@ -19171,12 +17476,10 @@ Rock Potato
 3×3
 
 A photo of Captain Shu enjoying the music when he formed the Little Red Book Orchestra.
-Xiaohongshu platform mascot "sweet potato".
 Potato Light
 3×3
 
 Praise the sun, let the sweet potatoes planted by Captain Potato have a bumper harvest.
-Xiaohongshu platform mascot "sweet potato".
 
 Gallery
 Notes
@@ -19218,9 +17521,7 @@ The frames on the paintings generally correspond to a wood or block.
 History
 
 ---
-
 # 文档：Blood Orange
-
 - 类别：consumables
 - 标识：blood orange
 - 来源：wiki/Blood_Orange
@@ -19237,9 +17538,7 @@ A  is an orange cultivar that has a dark, blood-like flesh color.
 History
 
 ---
-
 # 文档：Blood Zombie Statue
-
 - 类别：consumables
 - 标识：blood zombie statue
 - 来源：wiki/Blood_Zombie_Statue
@@ -19278,9 +17577,7 @@ show-main = yes
 show-other = yes
 
 ---
-
 # 文档：Bloody Moscato
-
 - 类别：consumables
 - 标识：bloody moscato
 - 来源：wiki/Bloody_Moscato
@@ -19296,9 +17593,7 @@ Its name might also be a pun on "bloody mosquito"; mosquitos are known for feedi
 History
 
 ---
-
 # 文档：Bloody Spine
-
 - 类别：consumables
 - 标识：bloody spine
 - 来源：wiki/Bloody_Spine
@@ -19318,9 +17613,7 @@ Worm Food, the Corruption counterpart.
 History
 
 ---
-
 # 文档：Bloody Tear
-
 - 类别：consumables
 - 标识：bloody tear
 - 来源：wiki/Bloody_Tear
@@ -19341,9 +17634,7 @@ Bloody Tears will only drop if it is night and during a Blood Moon. Thus, any Bl
 History
 
 ---
-
 # 文档：Blue Berries
-
 - 类别：consumables
 - 标识：blue berries
 - 来源：wiki/Blue_Berries
@@ -19360,9 +17651,7 @@ Blue Berries cannot be placed in front of background walls. Placing background w
 History
 
 ---
-
 # 文档：Blue Brick
-
 - 类别：consumables
 - 标识：blue brick
 - 来源：wiki/Blue_Brick
@@ -19385,9 +17674,7 @@ Dungeon Brick Wall
 History
 
 ---
-
 # 文档：Blue Brick Platform
-
 - 类别：consumables
 - 标识：blue brick platform
 - 来源：wiki/Blue_Brick_Platform
@@ -19426,33 +17713,17 @@ tags = plunder
 col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
-col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
-col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
-col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
-col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
-col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
-col:notes = Found in the Dungeon.
 (Noncraftable on )
-tags = buy/vendor:Traveling Merchant
-col:notes = Sold by the Traveling Merchant.
-tags = buy/vendor:Traveling Merchant
-col:notes = Sold by the Traveling Merchant.
-tags = buy/vendor:Traveling Merchant
-col:notes = Sold by the Traveling Merchant.
-tags = buy/vendor:Traveling Merchant
-col:notes = Sold by the Traveling Merchant.
-tags = buy/vendor:Traveling Merchant
-col:notes = Sold by the Traveling Merchant.
 tags = buy/vendor:Traveling Merchant
 col:notes = Sold by the Traveling Merchant.
 tags = drop
@@ -19463,9 +17734,7 @@ show-other = yes
 show-blocks = yes
 
 ---
-
 # 文档：Blue Brick Wall
-
 - 类别：consumables
 - 标识：blue brick wall
 - 来源：wiki/Blue_Brick_Wall
@@ -19486,9 +17755,7 @@ Dungeon Brick
 History
 
 ---
-
 # 文档：Blue Dungeon Bed
-
 - 类别：consumables
 - 标识：blue dungeon bed
 - 来源：wiki/Blue_Dungeon_Bed
@@ -19529,17 +17796,13 @@ Recipes
 Noncraftable Beds
 colspan=2 | Bed !! Notes
 || Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in the Dungeon.
 || Found in Ruined houses, does not disappear in lava.
 || Dropped by Pirates.
 }
 show-other = yes
 
 ---
-
 # 文档：Blue Dungeon Bookcase
-
 - 类别：consumables
 - 标识：blue dungeon bookcase
 - 来源：wiki/Blue_Dungeon_Bookcase
@@ -19552,18 +17815,13 @@ Recipes
 Noncraftable Bookcases
 colspan=2 | Bookcase !! Notes
 col:notes = Found in the Dungeon.
-col:notes = Found in the Dungeon.
-col:notes = Found in the Dungeon.
-col:notes = Found in the Dungeon.
 col:notes = Found in Ruined houses, does not break from lava.
 col:notes = Dropped by Pirates.
 }
 show-other = yes
 
 ---
-
 # 文档：Blue Dungeon Candle
-
 - 类别：consumables
 - 标识：blue dungeon candle
 - 来源：wiki/Blue_Dungeon_Candle
@@ -19576,8 +17834,6 @@ Crafting
 Recipes
 Noncraftable Candles
 colspan=2 | Candle !! Notes
-|| Found in the Dungeon.
-|| Found in the Dungeon.
 || Found in the Dungeon.
 || Found in Ruined Houses, does not break from lava.
 || Dropped by Pirates.
@@ -19593,9 +17849,7 @@ The Cactus Candle somewhat resembles the Pink Prickly Pear.
 History
 
 ---
-
 # 文档：Blue Dungeon Chair
-
 - 类别：consumables
 - 标识：blue dungeon chair
 - 来源：wiki/Blue_Dungeon_Chair
@@ -19615,12 +17869,6 @@ colspan=2 | Chair !! Notes
 
 Furniture found in the Dungeon.
 
-Furniture found in the Dungeon.
-
-Furniture found in the Dungeon.
-
-Furniture found in the Dungeon.
-
 Found in Ruined Houses, does not break from lava.
 
 Dropped by Pirates. Sell for .
@@ -19628,9 +17876,7 @@ Dropped by Pirates. Sell for .
 show-other = yes
 
 ---
-
 # 文档：Blue Dungeon Door
-
 - 类别：consumables
 - 标识：blue dungeon door
 - 来源：wiki/Blue_Dungeon_Door
@@ -19654,18 +17900,13 @@ Recipes
 Noncraftable doors
 colspan=2 | Door !! Notes
 col:notes = Furniture found in the Dungeon.
-col:notes = Furniture found in the Dungeon.
-col:notes = Furniture found in the Dungeon.
-col:notes = Furniture found in the Dungeon.
 col:notes = Found in Ruined houses, does not disappear in lava.
 col:notes = Dropped by pirates. Sell for .
 }
 show-other = yes
 
 ---
-
 # 文档：Blue Dungeon Dresser
-
 - 类别：consumables
 - 标识：blue dungeon dresser
 - 来源：wiki/Blue_Dungeon_Dresser
@@ -19692,9 +17933,7 @@ Dresser !! Notes
 show-other = yes
 
 ---
-
 # 文档：Blue Dungeon Table
-
 - 类别：consumables
 - 标识：blue dungeon table
 - 来源：wiki/Blue_Dungeon_Table
@@ -19709,18 +17948,13 @@ Lihzahrd Tables can also be looted from the Jungle Temple, Living Wood Tables fr
 Noncraftable Tables
 colspan=2 | Table !! Notes
 col:notes = Furniture found in the Dungeon.
-col:notes = Furniture found in the Dungeon.
-col:notes = Furniture found in the Dungeon.
-col:notes = Furniture found in the Dungeon.
 col:notes = Found in Ruined houses, does not break from lava.
 col:notes = Dropped by Pirates. Sell for .
 }
 show-other = yes
 
 ---
-
 # 文档：Blue Dungeon Vase
-
 - 类别：consumables
 - 标识：blue dungeon vase
 - 来源：wiki/Blue_Dungeon_Vase
@@ -19733,9 +17967,7 @@ colspan=2 | Vase !! Placed !! Tile ID !! Notes
 History
 
 ---
-
 # 文档：Blue Dungeon Work Bench
-
 - 类别：consumables
 - 标识：blue dungeon work bench
 - 来源：wiki/Blue_Dungeon_Work_Bench
@@ -19749,9 +17981,6 @@ Recipes
 Noncraftable Work Benches
 colspan = 2 | Work Bench !! Notes
 col:notes = Furniture found in the Dungeon.
-col:notes = Furniture found in the Dungeon.
-col:notes = Furniture found in the Dungeon.
-col:notes = Furniture found in the Dungeon.
 col:notes = Furniture found in the Jungle Temple.
 col:notes = Furniture dropped during the Pirate Invasion.
 col:notes = Found in Ruined Houses, does not break from lava.
@@ -19760,9 +17989,7 @@ show-main = yes
 show-craft = yes
 
 ---
-
 # 文档：Blue Slab Wall
-
 - 类别：consumables
 - 标识：blue slab wall
 - 来源：wiki/Blue_Slab_Wall
@@ -19783,9 +18010,7 @@ Dungeon Brick
 History
 
 ---
-
 # 文档：Blue Starry Wall
-
 - 类别：consumables
 - 标识：blue starry wall
 - 来源：wiki/Blue_Starry_Wall
@@ -19801,9 +18026,7 @@ Gold Starry Wall
 History
 
 ---
-
 # 文档：Blue Tiled Wall
-
 - 类别：consumables
 - 标识：blue tiled wall
 - 来源：wiki/Blue_Tiled_Wall
@@ -19824,9 +18047,7 @@ Dungeon Brick
 History
 
 ---
-
 # 文档：Bomb
-
 - 类别：consumables
 - 标识：bomb
 - 来源：wiki/Bomb
@@ -19857,9 +18078,7 @@ See also
 History
 
 ---
-
 # 文档：Bomb Fish
-
 - 类别：consumables
 - 标识：bomb fish
 - 来源：wiki/Bomb_Fish
@@ -19883,9 +18102,7 @@ The Bomb Fish may be a reference to the Water Bombs and Bombfish from the Legend
 History
 
 ---
-
 # 文档：Bomb Statue
-
 - 类别：consumables
 - 标识：bomb statue
 - 来源：wiki/Bomb_Statue
@@ -19924,9 +18141,7 @@ show-main = yes
 show-other = yes
 
 ---
-
 # 文档：Bomb Statue/cs
-
 - 类别：consumables
 - 标识：bomb statue/cs
 - 来源：wiki/Bomb_Statue/cs
@@ -19967,9 +18182,7 @@ Dekorativní sochy
 Historie
 
 ---
-
 # 文档：Bone
-
 - 类别：consumables
 - 标识：bone
 - 来源：wiki/Bone
@@ -20001,12 +18214,9 @@ Taking only basic ammunition (arrows and bullets) into consideration, Bones have
 History
 
 ---
-
 ## ENEMIES
 共 144 篇文档
-
 # 文档：Enemies
-
 - 类别：enemies
 - 标识：enemies
 - 来源：wiki/Enemies
@@ -20039,9 +18249,7 @@ Secret seed-exclusive enemies
 Unspawnable enemies
 
 ---
-
 # 文档：Albino Antlion
-
 - 类别：enemies
 - 标识：albino antlion
 - 来源：wiki/Albino_Antlion
@@ -20068,9 +18276,7 @@ History
 References
 
 ---
-
 # 文档：Alien Hornet
-
 - 类别：enemies
 - 标识：alien hornet
 - 来源：wiki/Alien_Hornet
@@ -20081,9 +18287,7 @@ Trivia
 History
 
 ---
-
 # 文档：Alien Larva
-
 - 类别：enemies
 - 标识：alien larva
 - 来源：wiki/Alien_Larva
@@ -20094,9 +18298,7 @@ Trivia
 History
 
 ---
-
 # 文档：Alien Queen
-
 - 类别：enemies
 - 标识：alien queen
 - 来源：wiki/Alien_Queen
@@ -20114,9 +18316,7 @@ The Alien Queen is possibly a reference to the Queen Xenomorph in the 1986 film 
 History
 
 ---
-
 # 文档：Ancient Doom
-
 - 类别：enemies
 - 标识：ancient doom
 - 来源：wiki/Ancient_Doom
@@ -20130,9 +18330,7 @@ Another two enemies that follow this pattern, with a different hurt sound to the
 History
 
 ---
-
 # 文档：Angry Dandelion
-
 - 类别：enemies
 - 标识：angry dandelion
 - 来源：wiki/Angry_Dandelion
@@ -20150,9 +18348,7 @@ History
 References
 
 ---
-
 # 文档：Angry Trapper
-
 - 类别：enemies
 - 标识：angry trapper
 - 来源：wiki/Angry_Trapper
@@ -20174,9 +18370,7 @@ The name is a pun on a "", which is slang for someone who deals illegal drugs. T
 History
 
 ---
-
 # 文档：Angry Tumbler
-
 - 类别：enemies
 - 标识：angry tumbler
 - 来源：wiki/Angry_Tumbler
@@ -20194,9 +18388,7 @@ In the , if the player is killed by an Angry Tumbler, it may come towards their 
 History
 
 ---
-
 # 文档：Anomura Fungus
-
 - 类别：enemies
 - 标识：anomura fungus
 - 来源：wiki/Anomura_Fungus
@@ -20213,9 +18405,7 @@ is a group of crustaceans that includes hermit crabs.
 History
 
 ---
-
 # 文档：Antlion
-
 - 类别：enemies
 - 标识：antlion
 - 来源：wiki/Antlion
@@ -20242,9 +18432,7 @@ History
 References
 
 ---
-
 # 文档：Antlion Charger
-
 - 类别：enemies
 - 标识：antlion charger
 - 来源：wiki/Antlion_Charger
@@ -20268,9 +18456,7 @@ During Hardmode, the similarly-acting Basilisk will also spawn.
 History
 
 ---
-
 # 文档：Antlion Larva
-
 - 类别：enemies
 - 标识：antlion larva
 - 来源：wiki/Antlion_Larva
@@ -20283,9 +18469,7 @@ Trivia
 History
 
 ---
-
 # 文档：Basilisk
-
 - 类别：enemies
 - 标识：basilisk
 - 来源：wiki/Basilisk
@@ -20306,9 +18490,7 @@ The internal name for the Basilisk is .
 History
 
 ---
-
 # 文档：Beetles
-
 - 类别：enemies
 - 标识：beetles
 - 来源：wiki/Beetles
@@ -20340,9 +18522,7 @@ Beetle Might
 History
 
 ---
-
 # 文档：Black Recluse
-
 - 类别：enemies
 - 标识：black recluse
 - 来源：wiki/Black_Recluse
@@ -20366,7 +18546,7 @@ The name Black Recluse is a combination of the spider names ' and '. Both spider
 While the anatomy is accurate it is missing pedipalps, this is also applicable to the Wall creepers.
 The cooldown of the web spit attack is programmed in a way that it could technically last up to 15 seconds: Every tick, the game checks whether the last attack occurred longer than  ticks ago,  being a number between 180 and 899 randomly picked upon every check. If that is the case, the cooldown is reset and the Black Recluse fires again. Therefore, the cooldown will always last at least 181 ticks (which is equal to 3 seconds):
 {| class=terraria style="float:left;margin-right:1.6em;"
-! Ticks  !! Chance math|Png33|#uesc:<esc>{\color{white}\frac{719!\cdot(k+1)}{(719-k)! \cdot 720^{k+1}</esc>
+! Ticks  !! Chance math|Png33|#uesc:{\color{white}\frac{719!\cdot(k+1)}{(719-k)! \cdot 720^{k+1}
 |-
 | 181 || 0.138889%
 |-
@@ -20401,9 +18581,7 @@ History
 References
 
 ---
-
 # 文档：Blood Crawler
-
 - 类别：enemies
 - 标识：blood crawler
 - 来源：wiki/Blood_Crawler
@@ -20429,9 +18607,7 @@ History
 References
 
 ---
-
 # 文档：Blood Eel
-
 - 类别：enemies
 - 标识：blood eel
 - 来源：wiki/Blood_Eel
@@ -20450,9 +18626,7 @@ auto = 623
 show-event = yes
 
 ---
-
 # 文档：Blood Squid
-
 - 类别：enemies
 - 标识：blood squid
 - 来源：wiki/Blood_Squid
@@ -20471,9 +18645,7 @@ Notes
 Sometimes no Blood Squids will be spawned due to a bug (unsure when this will be patched)
 
 ---
-
 # 文档：Bone Biter
-
 - 类别：enemies
 - 标识：bone biter
 - 来源：wiki/Bone_Biter
@@ -20502,9 +18674,7 @@ History
 References
 
 ---
-
 # 文档：Bone Serpent
-
 - 类别：enemies
 - 标识：bone serpent
 - 来源：wiki/Bone_Serpent
@@ -20523,9 +18693,7 @@ auto = 41
 show-common = yes
 
 ---
-
 # 文档：Brain Scrambler
-
 - 类别：enemies
 - 标识：brain scrambler
 - 来源：wiki/Brain_Scrambler
@@ -20539,9 +18707,7 @@ Trivia
 History
 
 ---
-
 # 文档：Burning Sphere
-
 - 类别：enemies
 - 标识：burning sphere
 - 来源：wiki/Burning_Sphere
@@ -20555,9 +18721,7 @@ Water Sphere
 History
 
 ---
-
 # 文档：Butcher
-
 - 类别：enemies
 - 标识：butcher
 - 来源：wiki/Butcher
@@ -20579,9 +18743,7 @@ References
 History
 
 ---
-
 # 文档：Chaos Ball
-
 - 类别：enemies
 - 标识：chaos ball
 - 来源：wiki/Chaos_Ball
@@ -20595,9 +18757,7 @@ Water Sphere
 History
 
 ---
-
 # 文档：Chaos Elemental
-
 - 类别：enemies
 - 标识：chaos elemental
 - 来源：wiki/Chaos_Elemental
@@ -20623,9 +18783,7 @@ History
 References
 
 ---
-
 # 文档：Chattering Teeth Bomb
-
 - 类别：enemies
 - 标识：chattering teeth bomb
 - 来源：wiki/Chattering_Teeth_Bomb
@@ -20649,9 +18807,7 @@ Chattering Teeth Bombs look similar to the Bob-ombs from the Japanese media fran
 History
 
 ---
-
 # 文档：Clinger
-
 - 类别：enemies
 - 标识：clinger
 - 来源：wiki/Clinger
@@ -20674,9 +18830,7 @@ The Clinger is the only enemy that both drops and utilizes cursed flames.
 History
 
 ---
-
 # 文档：Clown
-
 - 类别：enemies
 - 标识：clown
 - 来源：wiki/Clown
@@ -20700,9 +18854,7 @@ This enemy is modeled after the archetypal , which has been a recurring urban le
 History
 
 ---
-
 # 文档：Cochineal Beetle
-
 - 类别：enemies
 - 标识：cochineal beetle
 - 来源：wiki/Cochineal_Beetle
@@ -20718,9 +18870,7 @@ The real-world  is an insect native to South America and Mexico. It is used to c
 History
 
 ---
-
 # 文档：Corrupt Bunny
-
 - 类别：enemies
 - 标识：corrupt bunny
 - 来源：wiki/Corrupt_Bunny
@@ -20739,9 +18889,7 @@ See also
 History
 
 ---
-
 # 文档：Corrupt Penguin
-
 - 类别：enemies
 - 标识：corrupt penguin
 - 来源：wiki/Corrupt_Penguin
@@ -20761,9 +18909,7 @@ See also
 History
 
 ---
-
 # 文档：Crab
-
 - 类别：enemies
 - 标识：crab
 - 来源：wiki/Crab
@@ -20779,9 +18925,7 @@ Trivia
 History
 
 ---
-
 # 文档：Crawdad
-
 - 类别：enemies
 - 标识：crawdad
 - 来源：wiki/Crawdad
@@ -20797,9 +18941,7 @@ In real life, crawdads (also called ) are a type of small, freshwater lobster. R
 History
 
 ---
-
 # 文档：Crawltipede
-
 - 类别：enemies
 - 标识：crawltipede
 - 来源：wiki/Crawltipede
@@ -20825,9 +18967,7 @@ hardmode = yes
 show-event = yes
 
 ---
-
 # 文档：Creature from the Deep
-
 - 类别：enemies
 - 标识：creature from the deep
 - 来源：wiki/Creature_from_the_Deep
@@ -20844,9 +18984,7 @@ References
 History
 
 ---
-
 # 文档：Crystal Thresher
-
 - 类别：enemies
 - 标识：crystal thresher
 - 来源：wiki/Crystal_Thresher
@@ -20875,9 +19013,7 @@ History
 References
 
 ---
-
 # 文档：Cultists
-
 - 类别：enemies
 - 标识：cultists
 - 来源：wiki/Cultists
@@ -20920,9 +19056,7 @@ History
 References
 
 ---
-
 # 文档：Cyan Beetle
-
 - 类别：enemies
 - 标识：cyan beetle
 - 来源：wiki/Cyan_Beetle
@@ -20937,9 +19071,7 @@ Trivia
 History
 
 ---
-
 # 文档：Deadly Sphere
-
 - 类别：enemies
 - 标识：deadly sphere
 - 来源：wiki/Deadly_Sphere
@@ -20965,9 +19097,7 @@ History
 References
 
 ---
-
 # 文档：Derpling
-
 - 类别：enemies
 - 标识：derpling
 - 来源：wiki/Derpling
@@ -20980,9 +19110,7 @@ The Derpling is considered to be a counterpart to the Herpling since both have n
 History
 
 ---
-
 # 文档：Desert Spirit
-
 - 类别：enemies
 - 标识：desert spirit
 - 来源：wiki/Desert_Spirit
@@ -20999,9 +19127,7 @@ History
 References
 
 ---
-
 # 文档：Devourer
-
 - 类别：enemies
 - 标识：devourer
 - 来源：wiki/Devourer
@@ -21022,9 +19148,7 @@ auto = 9
 show-common = yes
 
 ---
-
 # 文档：Digger
-
 - 类别：enemies
 - 标识：digger
 - 来源：wiki/Digger
@@ -21044,9 +19168,7 @@ auto = 97
 show-hardmode = yes
 
 ---
-
 # 文档：Diseaster Bunny
-
 - 类别：enemies
 - 标识：diseaster bunny
 - 来源：wiki/Diseaster_Bunny
@@ -21070,9 +19192,7 @@ Corrupt Bunny, the only other enemy that drops Suspicious Looking Eggs.
 History
 
 ---
-
 # 文档：Dr. Man Fly
-
 - 类别：enemies
 - 标识：dr. man fly
 - 来源：wiki/Dr._Man_Fly
@@ -21086,9 +19206,7 @@ History
 References
 
 ---
-
 # 文档：Dragon Snatcher
-
 - 类别：enemies
 - 标识：dragon snatcher
 - 来源：wiki/Dragon_Snatcher
@@ -21119,9 +19237,7 @@ Snatchers and Man Eaters are remotely reminiscent of Plantera's Hooks.
 History
 
 ---
-
 # 文档：Drakanian
-
 - 类别：enemies
 - 标识：drakanian
 - 来源：wiki/Drakanian
@@ -21134,9 +19250,7 @@ The Drakanian's weapon appears to resemble the Daybreak with the Solar Eruption'
 History
 
 ---
-
 # 文档：Drakin
-
 - 类别：enemies
 - 标识：drakin
 - 来源：wiki/Drakin
@@ -21152,20 +19266,17 @@ Defense
 KB Resist
 auto = 570
 environment = Old One's Army
-damage2 = &#32;
+damage2 =
 
 auto = 571
 image = Drakin 2.png
-environment = Old One's Army
-damage2 =&#32;
+damage2 =
 
 }
 show-event = yes
 
 ---
-
 # 文档：Drakomire
-
 - 类别：enemies
 - 标识：drakomire
 - 来源：wiki/Drakomire
@@ -21180,9 +19291,7 @@ Trivia
 History
 
 ---
-
 # 文档：Drakomire Rider
-
 - 类别：enemies
 - 标识：drakomire rider
 - 来源：wiki/Drakomire_Rider
@@ -21199,9 +19308,7 @@ They seem to wield a weapon made from solar fragments, presumably the Daybreak.
 History
 
 ---
-
 # 文档：Dreadnautilus
-
 - 类别：enemies
 - 标识：dreadnautilus
 - 来源：wiki/Dreadnautilus
@@ -21256,9 +19363,7 @@ History
 References
 
 ---
-
 # 文档：Dune Splicer
-
 - 类别：enemies
 - 标识：dune splicer
 - 来源：wiki/Dune_Splicer
@@ -21277,9 +19382,7 @@ auto = 512
 show-hardmode = yes
 
 ---
-
 # 文档：Elf Archer
-
 - 类别：enemies
 - 标识：elf archer
 - 来源：wiki/Elf_Archer
@@ -21293,9 +19396,7 @@ History
 References
 
 ---
-
 # 文档：Etherian Goblin
-
 - 类别：enemies
 - 标识：etherian goblin
 - 来源：wiki/Etherian_Goblin
@@ -21315,25 +19416,21 @@ Defense
 KB Resist
 auto = 552
 environment = Old One's Army
-damage2 =&#32;
+damage2 =
 
 auto = 553
 image = Etherian Goblin 2.png
-environment = Old One's Army
-damage2 =&#32;
+damage2 =
 
 auto = 554
 image = Etherian Goblin 3.png
-environment = Old One's Army
-damage2 =&#32;
+damage2 =
 
 }
 show-event = yes
 
 ---
-
 # 文档：Etherian Goblin Bomber
-
 - 类别：enemies
 - 标识：etherian goblin bomber
 - 来源：wiki/Etherian_Goblin_Bomber
@@ -21351,25 +19448,21 @@ Defense
 KB Resist
 auto = 555
 environment = Old One's Army
-damage2 =&#32;
+damage2 =
 
 auto = 556
 image = Etherian Goblin Bomber 2.png
-environment = Old One's Army
-damage2 =&#32;
+damage2 =
 
 auto = 557
 image = Etherian Goblin Bomber 3.png
-environment = Old One's Army
-damage2 =&#32;
+damage2 =
 
 }
 show-event = yes
 
 ---
-
 # 文档：Etherian Javelin Thrower
-
 - 类别：enemies
 - 标识：etherian javelin thrower
 - 来源：wiki/Etherian_Javelin_Thrower
@@ -21387,25 +19480,21 @@ Defense
 KB Resist
 auto = 561
 environment = Old One's Army
-damage2 =&#32;
+damage2 =
 
 auto = 562
 image = Etherian Javelin Thrower 2.png
-environment = Old One's Army
-damage2 =&#32;
+damage2 =
 
 auto = 563
 image = Etherian Javelin Thrower 3.png
-environment = Old One's Army
-damage2 =&#32;
+damage2 =
 
 }
 show-event = yes
 
 ---
-
 # 文档：Etherian Wyvern
-
 - 类别：enemies
 - 标识：etherian wyvern
 - 来源：wiki/Etherian_Wyvern
@@ -21429,21 +19518,17 @@ knockback =
 100%
 auto = 559
 image = Etherian Wyvern 2.png
-environment = Old One's Army
 knockback =
 100%
 auto = 560
 image = Etherian Wyvern 3.png
-environment = Old One's Army
 knockback =
 100%
 }
 show-event = yes
 
 ---
-
 # 文档：Evolution Beast
-
 - 类别：enemies
 - 标识：evolution beast
 - 来源：wiki/Evolution_Beast
@@ -21454,9 +19539,7 @@ Trivia
 History
 
 ---
-
 # 文档：Face Monster
-
 - 类别：enemies
 - 标识：face monster
 - 来源：wiki/Face_Monster
@@ -21472,9 +19555,7 @@ There is no Corruption counterpart for this enemy, unlike the Crimera, which has
 History
 
 ---
-
 # 文档：Fire Imp
-
 - 类别：enemies
 - 标识：fire imp
 - 来源：wiki/Fire_Imp
@@ -21503,9 +19584,7 @@ See also
 History
 
 ---
-
 # 文档：Flesh Reaver
-
 - 类别：enemies
 - 标识：flesh reaver
 - 来源：wiki/Flesh_Reaver
@@ -21534,9 +19613,7 @@ History
 References
 
 ---
-
 # 文档：Fritz
-
 - 类别：enemies
 - 标识：fritz
 - 来源：wiki/Fritz
@@ -21552,9 +19629,7 @@ References
 History
 
 ---
-
 # 文档：Fungi Bulb
-
 - 类别：enemies
 - 标识：fungi bulb
 - 来源：wiki/Fungi_Bulb
@@ -21571,9 +19646,7 @@ Trivia
 History
 
 ---
-
 # 文档：Gastropod
-
 - 类别：enemies
 - 标识：gastropod
 - 来源：wiki/Gastropod
@@ -21606,9 +19679,7 @@ Gallery
 History
 
 ---
-
 # 文档：Ghouls
-
 - 类别：enemies
 - 标识：ghouls
 - 来源：wiki/Ghouls
@@ -21628,9 +19699,7 @@ Oddly enough, the Ghouls are not immune to the debuffs they inflict, except the 
 History
 
 ---
-
 # 文档：Giant Fungi Bulb
-
 - 类别：enemies
 - 标识：giant fungi bulb
 - 来源：wiki/Giant_Fungi_Bulb
@@ -21648,9 +19717,7 @@ Trivia
 History
 
 ---
-
 # 文档：Giant Shelly
-
 - 类别：enemies
 - 标识：giant shelly
 - 来源：wiki/Giant_Shelly
@@ -21679,9 +19746,7 @@ History
 References
 
 ---
-
 # 文档：Giant Tortoise
-
 - 类别：enemies
 - 标识：giant tortoise
 - 来源：wiki/Giant_Tortoise
@@ -21715,9 +19780,7 @@ History
 References
 
 ---
-
 # 文档：Giant Worm
-
 - 类别：enemies
 - 标识：giant worm
 - 来源：wiki/Giant_Worm
@@ -21740,9 +19803,7 @@ auto = 12
 show-common = yes
 
 ---
-
 # 文档：Gigazapper
-
 - 类别：enemies
 - 标识：gigazapper
 - 来源：wiki/Gigazapper
@@ -21754,9 +19815,7 @@ History
 References
 
 ---
-
 # 文档：Gingerbread Man
-
 - 类别：enemies
 - 标识：gingerbread man
 - 来源：wiki/Gingerbread_Man
@@ -21774,9 +19833,7 @@ History
 References
 
 ---
-
 # 文档：Gnome
-
 - 类别：enemies
 - 标识：gnome
 - 来源：wiki/Gnome
@@ -21813,9 +19870,7 @@ Trivia
 History
 
 ---
-
 # 文档：Granite Golem
-
 - 类别：enemies
 - 标识：granite golem
 - 来源：wiki/Granite_Golem
@@ -21835,9 +19890,7 @@ As enemy names are now stored in a separate language file, the name parameter fo
 History
 
 ---
-
 # 文档：Gray Grunt
-
 - 类别：enemies
 - 标识：gray grunt
 - 来源：wiki/Gray_Grunt
@@ -21851,9 +19904,7 @@ Despite supposedly not carrying any weapons, as stated in their Bestiary entry, 
 History
 
 ---
-
 # 文档：Headless Horseman
-
 - 类别：enemies
 - 标识：headless horseman
 - 来源：wiki/Headless_Horseman
@@ -21885,9 +19936,7 @@ History
 References
 
 ---
-
 # 文档：Hellhound
-
 - 类别：enemies
 - 标识：hellhound
 - 来源：wiki/Hellhound
@@ -21906,9 +19955,7 @@ The Hellhound's sprite is nearly identical to the Death Hound, a creature found 
 History
 
 ---
-
 # 文档：Hemogoblin Shark
-
 - 类别：enemies
 - 标识：hemogoblin shark
 - 来源：wiki/Hemogoblin_Shark
@@ -21936,15 +19983,13 @@ Hemogoblin is also an anagram of hemoglobin.
 It is the only non-Old One's Army event enemy to follow the Attacker AI.  It also shares all of its sounds with the Drakin, possibly hinting that it was based on the Drakin.
 Unlike other enemies with this AI, it will not prioritize the Eternia Crystal over the player if both are present.
 
-This references the Minishark's tooltip, <i></i>
+This references the Minishark's tooltip,
 
 History
 References
 
 ---
-
 # 文档：Herpling
-
 - 类别：enemies
 - 标识：herpling
 - 来源：wiki/Herpling
@@ -21962,9 +20007,7 @@ The Herpling does not have a Corruption counterpart.
 History
 
 ---
-
 # 文档：Hoppin' Jack
-
 - 类别：enemies
 - 标识：hoppin jack
 - 来源：wiki/Hoppin'_Jack
@@ -21979,9 +20022,7 @@ The name Hoppin' Jack is a reference to , a creature from British folklore.
 History
 
 ---
-
 # 文档：Ice Golem
-
 - 类别：enemies
 - 标识：ice golem
 - 来源：wiki/Ice_Golem
@@ -22009,9 +20050,7 @@ History
 References
 
 ---
-
 # 文档：Ice Tortoise
-
 - 类别：enemies
 - 标识：ice tortoise
 - 来源：wiki/Ice_Tortoise
@@ -22044,9 +20083,7 @@ History
 References
 
 ---
-
 # 文档：Icy Merman
-
 - 类别：enemies
 - 标识：icy merman
 - 来源：wiki/Icy_Merman
@@ -22064,9 +20101,7 @@ See also
 History
 
 ---
-
 # 文档：Jungle Creeper
-
 - 类别：enemies
 - 标识：jungle creeper
 - 来源：wiki/Jungle_Creeper
@@ -22090,9 +20125,7 @@ History
 References
 
 ---
-
 # 文档：Kobold
-
 - 类别：enemies
 - 标识：kobold
 - 来源：wiki/Kobold
@@ -22112,19 +20145,16 @@ Defense
 KB Resist
 auto = 572
 environment = Old One's Army
-damage2 =&#32;
+damage2 =
 
 auto = 573
-environment = Old One's Army
-damage2 =&#32;
+damage2 =
 
 }
 show-event = yes
 
 ---
-
 # 文档：Kobold Glider
-
 - 类别：enemies
 - 标识：kobold glider
 - 来源：wiki/Kobold_Glider
@@ -22142,14 +20172,13 @@ Defense
 KB Resist
 auto = 574
 environment = Old One's Army
-damage2 =&#32;
+damage2 =
 
 knockback =
 knockback2 =
 100%
 auto = 575
-environment = Old One's Army
-damage2 =&#32;
+damage2 =
 
 knockback =
 knockback2 =
@@ -22158,9 +20187,7 @@ knockback2 =
 show-event = yes
 
 ---
-
 # 文档：Krampus
-
 - 类别：enemies
 - 标识：krampus
 - 来源：wiki/Krampus
@@ -22174,9 +20201,7 @@ History
 References
 
 ---
-
 # 文档：Lac Beetle
-
 - 类别：enemies
 - 标识：lac beetle
 - 来源：wiki/Lac_Beetle
@@ -22189,9 +20214,7 @@ Like the Cochineal Beetle, the Lac Beetle , but is a scale insect, not a beetle.
 History
 
 ---
-
 # 文档：Lamia
-
 - 类别：enemies
 - 标识：lamia
 - 来源：wiki/Lamia
@@ -22207,9 +20230,7 @@ The Lamia Banner appears to portray the darker version of the Lamia found in Cor
 History
 
 ---
-
 # 文档：Leech
-
 - 类别：enemies
 - 标识：leech
 - 来源：wiki/Leech
@@ -22229,9 +20250,7 @@ auto = 119
 show-boss = yes
 
 ---
-
 # 文档：Lihzahrd
-
 - 类别：enemies
 - 标识：lihzahrd
 - 来源：wiki/Lihzahrd
@@ -22248,16 +20267,13 @@ KB Resist
 auto = 198
 environment = Jungle Temple
 auto = 199
-environment = Jungle Temple
 image = Lihzahrd (crawler).png
 life = /
 }
 show-hardmode = yes
 
 ---
-
 # 文档：Man Eater
-
 - 类别：enemies
 - 标识：man eater
 - 来源：wiki/Man_Eater
@@ -22286,9 +20302,7 @@ Going by IDs, the Man Eater was the final NPC added in the official release of t
 History
 
 ---
-
 # 文档：Martian Engineer
-
 - 类别：enemies
 - 标识：martian engineer
 - 来源：wiki/Martian_Engineer
@@ -22307,9 +20321,7 @@ History
 References
 
 ---
-
 # 文档：Martian Officer
-
 - 类别：enemies
 - 标识：martian officer
 - 来源：wiki/Martian_Officer
@@ -22323,9 +20335,7 @@ History
 References
 
 ---
-
 # 文档：Martian Walker
-
 - 类别：enemies
 - 标识：martian walker
 - 来源：wiki/Martian_Walker
@@ -22344,9 +20354,7 @@ History
 References
 
 ---
-
 # 文档：Medusa
-
 - 类别：enemies
 - 标识：medusa
 - 来源：wiki/Medusa
@@ -22383,9 +20391,7 @@ This enemy is not to be confused with the newly-added "mechdusa" boss.
 History
 
 ---
-
 # 文档：Merchant/th
-
 - 类别：enemies
 - 标识：merchant/th
 - 来源：wiki/Merchant/th
@@ -22395,9 +20401,7 @@ History
 ทำไงต่อวะ
 
 ---
-
 # 文档：Milkyway Weaver
-
 - 类别：enemies
 - 标识：milkyway weaver
 - 来源：wiki/Milkyway_Weaver
@@ -22417,9 +20421,7 @@ auto = 404
 show-event = yes
 
 ---
-
 # 文档：Mimics
-
 - 类别：enemies
 - 标识：mimics
 - 来源：wiki/Mimics
@@ -22527,9 +20529,7 @@ History
 References
 
 ---
-
 # 文档：Mister Stabby
-
 - 类别：enemies
 - 标识：mister stabby
 - 来源：wiki/Mister_Stabby
@@ -22544,9 +20544,7 @@ Mister Stabby may be a reference to the  series "" by British Flash animator .
 History
 
 ---
-
 # 文档：Mothron
-
 - 类别：enemies
 - 标识：mothron
 - 来源：wiki/Mothron
@@ -22582,9 +20580,7 @@ References
 History
 
 ---
-
 # 文档：Mummies
-
 - 类别：enemies
 - 标识：mummies
 - 来源：wiki/Mummies
@@ -22616,9 +20612,7 @@ The mummies in Terraria are bound incorrectly: In , the feet of the mummies were
 History
 
 ---
-
 # 文档：Mythical Wyvern
-
 - 类别：enemies
 - 标识：mythical wyvern
 - 来源：wiki/Mythical_Wyvern
@@ -22636,9 +20630,7 @@ Defense
 History
 
 ---
-
 # 文档：Nailhead
-
 - 类别：enemies
 - 标识：nailhead
 - 来源：wiki/Nailhead
@@ -22660,9 +20652,7 @@ History
 References
 
 ---
-
 # 文档：Nutcracker
-
 - 类别：enemies
 - 标识：nutcracker
 - 来源：wiki/Nutcracker
@@ -22679,9 +20669,7 @@ History
 References
 
 ---
-
 # 文档：Nymph
-
 - 类别：enemies
 - 标识：nymph
 - 来源：wiki/Nymph
@@ -22730,9 +20718,7 @@ History
 References
 
 ---
-
 # 文档：Old One's Skeleton
-
 - 类别：enemies
 - 标识：old ones skeleton
 - 来源：wiki/Old_One's_Skeleton
@@ -22751,14 +20737,11 @@ KB Resist
 auto = 566
 environment = Old One's Army
 auto = 567
-environment = Old One's Army
 }
 show-boss = yes
 
 ---
-
 # 文档：Paladin
-
 - 类别：enemies
 - 标识：paladin
 - 来源：wiki/Paladin
@@ -22792,9 +20775,7 @@ History
 References
 
 ---
-
 # 文档：Phantasm Dragon
-
 - 类别：enemies
 - 标识：phantasm dragon
 - 来源：wiki/Phantasm_Dragon
@@ -22822,9 +20803,7 @@ image = Phantasm Dragon (Tail).png
 show-boss = yes
 
 ---
-
 # 文档：Pirate Captain
-
 - 类别：enemies
 - 标识：pirate captain
 - 来源：wiki/Pirate_Captain
@@ -22845,9 +20824,7 @@ Trivia
 History
 
 ---
-
 # 文档：Pirate Corsair
-
 - 类别：enemies
 - 标识：pirate corsair
 - 来源：wiki/Pirate_Corsair
@@ -22861,9 +20838,7 @@ Despite visibly wielding the Cutlass, they do not have a higher chance to drop i
 History
 
 ---
-
 # 文档：Pirate Crossbower
-
 - 类别：enemies
 - 标识：pirate crossbower
 - 来源：wiki/Pirate_Crossbower
@@ -22874,9 +20849,7 @@ Trivia
 History
 
 ---
-
 # 文档：Pirate Deadeye
-
 - 类别：enemies
 - 标识：pirate deadeye
 - 来源：wiki/Pirate_Deadeye
@@ -22893,9 +20866,7 @@ Since the Pirate Deadeye appears to have an eye patch while pointing either dire
 History
 
 ---
-
 # 文档：Pirate Deckhand
-
 - 类别：enemies
 - 标识：pirate deckhand
 - 来源：wiki/Pirate_Deckhand
@@ -22906,9 +20877,7 @@ Trivia
 History
 
 ---
-
 # 文档：Possessed Armor
-
 - 类别：enemies
 - 标识：possessed armor
 - 来源：wiki/Possessed_Armor
@@ -22925,9 +20894,7 @@ It seems to be the Hardmode equivalent to the Zombie enemy, with its high spawn 
 History
 
 ---
-
 # 文档：Predictor
-
 - 类别：enemies
 - 标识：predictor
 - 来源：wiki/Predictor
@@ -22944,9 +20911,7 @@ The name "Predictor" is likely a reference to the 1987 horror sci-fi film "", wh
 History
 
 ---
-
 # 文档：Present Mimic
-
 - 类别：enemies
 - 标识：present mimic
 - 来源：wiki/Present_Mimic
@@ -22974,9 +20939,7 @@ History
 References
 
 ---
-
 # 文档：Psycho
-
 - 类别：enemies
 - 标识：psycho
 - 来源：wiki/Psycho
@@ -22991,9 +20954,7 @@ References
 History
 
 ---
-
 # 文档：Ray Gunner
-
 - 类别：enemies
 - 标识：ray gunner
 - 来源：wiki/Ray_Gunner
@@ -23009,9 +20970,7 @@ History
 References
 
 ---
-
 # 文档：Rock Golem
-
 - 类别：enemies
 - 标识：rock golem
 - 来源：wiki/Rock_Golem
@@ -23031,9 +20990,7 @@ History
 References
 
 ---
-
 # 文档：Salamander
-
 - 类别：enemies
 - 标识：salamander
 - 来源：wiki/Salamander
@@ -23051,9 +21008,7 @@ Despite Salamanders having different colors, the Salamander Banner is always the
 History
 
 ---
-
 # 文档：Sand Elemental
-
 - 类别：enemies
 - 标识：sand elemental
 - 来源：wiki/Sand_Elemental
@@ -23078,9 +21033,7 @@ Similar to the  and the Ice Golem, the Sand Elemental is not a boss or mini-boss
 History
 
 ---
-
 # 文档：Sand Poacher
-
 - 类别：enemies
 - 标识：sand poacher
 - 来源：wiki/Sand_Poacher
@@ -23096,9 +21049,7 @@ The fact that the Sand Poacher may drop a Fried Egg upon death is a play on word
 History
 
 ---
-
 # 文档：Sand Sharks
-
 - 类别：enemies
 - 标识：sand sharks
 - 来源：wiki/Sand_Sharks
@@ -23127,9 +21078,7 @@ History
 References
 
 ---
-
 # 文档：Scarecrow
-
 - 类别：enemies
 - 标识：scarecrow
 - 来源：wiki/Scarecrow
@@ -23152,47 +21101,36 @@ environment = Pumpkin Moon
 auto = 306
 image = Scarecrow 2.png
 type = Enemy
-environment = Pumpkin Moon
 auto = 307
 image = Scarecrow 3.png
 type = Enemy
-environment = Pumpkin Moon
 auto = 308
 image = Scarecrow 4.png
 type = Enemy
-environment = Pumpkin Moon
 auto = 309
 image = Scarecrow 5.png
 type = Enemy
-environment = Pumpkin Moon
 auto = 310
 image = Scarecrow.png
 type = Enemy
-environment = Pumpkin Moon
 auto = 311
 image = Scarecrow 7.png
 type = Enemy
-environment = Pumpkin Moon
 auto = 312
 image = Scarecrow 8.png
 type = Enemy
-environment = Pumpkin Moon
 auto = 313
 image = Scarecrow 9.png
 type = Enemy
-environment = Pumpkin Moon
 auto = 314
 image = Scarecrow 10.png
 type = Enemy
-environment = Pumpkin Moon
 }
 show-main=yes
 show-event=yes
 
 ---
-
 # 文档：Scutlix
-
 - 类别：enemies
 - 标识：scutlix
 - 来源：wiki/Scutlix
@@ -23214,9 +21152,7 @@ Scutlix Mount
 History
 
 ---
-
 # 文档：Selenian
-
 - 类别：enemies
 - 标识：selenian
 - 来源：wiki/Selenian
@@ -23237,9 +21173,7 @@ The word  means pertaining to the moon and refers to , the Greek goddess of the 
 History
 
 ---
-
 # 文档：Sharkron
-
 - 类别：enemies
 - 标识：sharkron
 - 来源：wiki/Sharkron
@@ -23259,9 +21193,7 @@ Their name is a combination of Shark, and the suffix -ron, a pattern shared by s
 History
 
 ---
-
 # 文档：Snatcher
-
 - 类别：enemies
 - 标识：snatcher
 - 来源：wiki/Snatcher
@@ -23292,9 +21224,7 @@ Snatchers and Man Eaters are remotely reminiscent of Plantera's Hooks.
 History
 
 ---
-
 # 文档：Snow Balla
-
 - 类别：enemies
 - 标识：snow balla
 - 来源：wiki/Snow_Balla
@@ -23309,9 +21239,7 @@ This is one of only two or three creatures besides the player that can place blo
 History
 
 ---
-
 # 文档：Snow Flinx
-
 - 类别：enemies
 - 标识：snow flinx
 - 来源：wiki/Snow_Flinx
@@ -23337,9 +21265,7 @@ History
 References
 
 ---
-
 # 文档：Snowman Gangsta
-
 - 类别：enemies
 - 标识：snowman gangsta
 - 来源：wiki/Snowman_Gangsta
@@ -23357,9 +21283,7 @@ The Snowman Gangsta's hat is a bowler's hat, and it wields a Thompson Sub-machin
 History
 
 ---
-
 # 文档：Splinterling
-
 - 类别：enemies
 - 标识：splinterling
 - 来源：wiki/Splinterling
@@ -23372,9 +21296,7 @@ The Bestiary entry alludes to the real-life practice of Propagation, in which a 
 History
 
 ---
-
 # 文档：Sroller
-
 - 类别：enemies
 - 标识：sroller
 - 来源：wiki/Sroller
@@ -23391,9 +21313,7 @@ Its name is a portmanteau of the words "solar" and "roller."
 History
 
 ---
-
 # 文档：Star Cell
-
 - 类别：enemies
 - 标识：star cell
 - 来源：wiki/Star_Cell
@@ -23424,9 +21344,7 @@ In real life, living cells divide into two identical copies of themselves via . 
 History
 
 ---
-
 # 文档：Stargazer
-
 - 类别：enemies
 - 标识：stargazer
 - 来源：wiki/Stargazer
@@ -23441,9 +21359,7 @@ Stargazer shooting a beam from it's core is similar to Iron man's Unibeam
 History
 
 ---
-
 # 文档：Storm Diver
-
 - 类别：enemies
 - 标识：storm diver
 - 来源：wiki/Storm_Diver
@@ -23461,9 +21377,7 @@ Visually, the gun held by Storm Divers slightly resembles the Vortex Beater.
 History
 
 ---
-
 # 文档：Tesla Turret
-
 - 类别：enemies
 - 标识：tesla turret
 - 来源：wiki/Tesla_Turret
@@ -23485,9 +21399,7 @@ History
 References
 
 ---
-
 # 文档：The Possessed
-
 - 类别：enemies
 - 标识：the possessed
 - 来源：wiki/The_Possessed
@@ -23503,9 +21415,7 @@ History
 References
 
 ---
-
 # 文档：Twinkle Popper
-
 - 类别：enemies
 - 标识：twinkle popper
 - 来源：wiki/Twinkle_Popper
@@ -23516,9 +21426,7 @@ Trivia
 History
 
 ---
-
 # 文档：Unicorn
-
 - 类别：enemies
 - 标识：unicorn
 - 来源：wiki/Unicorn
@@ -23552,9 +21460,7 @@ Gallery
 History
 
 ---
-
 # 文档：Vicious Bunny
-
 - 类别：enemies
 - 标识：vicious bunny
 - 来源：wiki/Vicious_Bunny
@@ -23574,9 +21480,7 @@ See also
 History
 
 ---
-
 # 文档：Vicious Penguin
-
 - 类别：enemies
 - 标识：vicious penguin
 - 来源：wiki/Vicious_Penguin
@@ -23593,9 +21497,7 @@ See also
 History
 
 ---
-
 # 文档：Vortexian
-
 - 类别：enemies
 - 标识：vortexian
 - 来源：wiki/Vortexian
@@ -23610,9 +21512,7 @@ History
 ---
 ## FURNITURE
 共 95 篇文档
-
 # 文档：Furniture
-
 - 类别：furniture
 - 标识：furniture
 - 来源：wiki/Furniture
@@ -23635,9 +21535,7 @@ Furniture sets
 History
 
 ---
-
 # 文档：Bone Skeleton Statue
-
 - 类别：furniture
 - 标识：bone skeleton statue
 - 来源：wiki/Bone_Skeleton_Statue
@@ -23676,9 +21574,7 @@ show-main = yes
 show-other = yes
 
 ---
-
 # 文档：Bone Warp
-
 - 类别：furniture
 - 标识：bone warp
 - 来源：wiki/Bone_Warp
@@ -23703,13 +21599,9 @@ desc = Parody of , a well-known 1929 painting of a pipe with a caption that stat
 
 From Painter
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Buy
 Sell
-class="unsortable" | Tooltip
 class="unsortable" | Available
-class="unsortable" | Description
 available = When Painter is in a Snow biome
 desc = Snow Biome landscape.
 available = Always
@@ -23745,12 +21637,8 @@ desc = A bolt of lightning.
 
 From Painter in a
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Buy
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = Reference to "", a poem by , which prominently features the phrase "nevermore".
 desc = A hand rising from the ground.
 desc = Graveyard landscape.
@@ -23762,12 +21650,8 @@ desc = A typical  painting of a bowl of fruit beside a skull.
 
 From
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Buy
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = A castle in a field. It is a reference to Peach's Castle as it appears in . It may also be a reference to several other games in the Mario franchise.
 desc = A painting of the Princess.
 desc = A rainbow shining from a unicorn's horn. References a popular diagram of white light splitting into a rainbow after passing through a prism, while the name references the  album .
@@ -23778,30 +21662,20 @@ desc = An intimate painting of two royal Slimes.
 
 From Clothier
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Buy
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = A Terraria-themed landscape painting.
 
 From Traveling Merchant
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Buy
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = A Red Bulb hanging from a tree. A reference to .
 desc = Parody of the Wolfenstein 3D title screen featuring the player wearing Meteor armor and wielding a Space Gun, with a Martian in the back. The name of the painting itself might be a reference to another Wolfenstein game - .
 desc = Portrait of the Ice Queen attacking.
 desc = Portrait of Skeletron dressed as Santa Claus.
 desc = Parody of the  featuring a Martian.
 desc = Portrait of Moon Lord. The name is a reference to the  commercial.
-desc = Portrait of  from Don't Starve Together.
-desc = Portrait of  from Don't Starve Together.
 desc = Portrait of  from Don't Starve Together.
 desc =  Portrait of  from Don't Starve Together.
 desc = Snowy landscape with a Present, Christmas Tree, and a Candy Cane.
@@ -23819,33 +21693,21 @@ desc = Painting of Yogscast's Pedguin and Boba, as the Parsec Pals.
 
 From Truffle
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Buy
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = A portrait of the Baby Truffle pet.
 
 From
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Buy
 Sell
-class="unsortable" | Tooltip
 class="unsortable" | Availability
-class="unsortable" | Description
 desc = A portrait of the Werewolf.
 available = Sold during a Full Moon at night ().
 
 Desert Underground Cabins
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = A play on Terraria lead developer Andrew Spinks' name, featuring a  wearing Andrew's signature green cap.
 desc = An Antlion. May be a reference to Dune.
 desc = A Desert Spirit in darkness.
@@ -23863,11 +21725,7 @@ desc = An interpretation of the , or "Eye of God," a version of which appears on
 
 Other Underground Cabins
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = Possible parody of .
 Portrait of the Demolitionist.
 desc = Depicts the Aurora Borealis.
@@ -23907,11 +21765,7 @@ desc = A group of wildflowers.
 
 Dungeon
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = Blood Moon. Also possibly a parody of Blue Moon Rising by Simon R. Green or the song "" by American rock band .
 desc = Various Bones.
 desc = Parody of  featuring the Guide.
@@ -23941,11 +21795,7 @@ featuring the Party Girl on a Unicorn in the Hallow.
 
 The Underworld
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = Reaper portrait.
 desc = The back of a  card.
 desc = A demon's eye.
@@ -23961,11 +21811,7 @@ desc = An unhappy ghost trapped in limbo.
 
 Goodie Bags
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = Green Slime wearing a witch hat among Pumpkins.
 desc = A vampire lady with red eyes and a cloak.
 desc = Portrait of the Mechanic's face.
@@ -23990,11 +21836,7 @@ desc = An ominous creature peering out from the depths of the sea.
 
 Floating Islands
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = Depiction of a flying Magical Harp.
 desc = Bunny constellation.
 desc = Reference to Banksy's Love is in the Bin.
@@ -24013,28 +21855,16 @@ description
 
 Blood Moon Fishing
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = A Dreadnautilus, two Blood Squids, and a Blood Moon.
 
 Hallow Fishing
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc =A girl handing the Meowmere to a guy on a boat. It is a reference to the Arthurian Legends of the
 Solar Eclipse Drops
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = Depiction of a Reaper.
 desc = The player using an eye-based beam attack.
 desc = Depiction of a Butcher. Title is a reference to .
@@ -24046,26 +21876,16 @@ desc = Depiction of a Frankenstein and a Swamp Thing.
 
 Dungeon Chests
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = The Lunatic Cultist and four Cultists.
 
 Jungle Temple
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = A king lizard.
 
 New Chinese version
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
 width="25%" class="unsortable" | Tooltip
 width="30%" class="unsortable" | Description
@@ -24118,12 +21938,9 @@ Medium Oil Painting of Douyu Niang
 3×3
 
 (Limited) Douyu Linked Oil Painting
-Douyu platform anthropomorphic image Shark Maiden.
 Betta Fish Oil Painting
 6×4
 
-(Limited) Douyu Linked Oil Painting
-Douyu platform anthropomorphic image Shark Maiden.
 Huya's Small Oil Painting
 2×3
 
@@ -24138,7 +21955,6 @@ Huya Platform Logo.
 Huya Oil Painting
 6×4
 
-(Limited) Huya linkage oil painting
 Huya platform logo and anthropomorphic image of Huya platform.
 Terrary Potatoes
 6×4
@@ -24150,12 +21966,10 @@ Rock Potato
 3×3
 
 A photo of Captain Shu enjoying the music when he formed the Little Red Book Orchestra.
-Xiaohongshu platform mascot "sweet potato".
 Potato Light
 3×3
 
 Praise the sun, let the sweet potatoes planted by Captain Potato have a bumper harvest.
-Xiaohongshu platform mascot "sweet potato".
 
 Gallery
 Notes
@@ -24197,9 +22011,7 @@ The frames on the paintings generally correspond to a wood or block.
 History
 
 ---
-
 # 文档：Bone Welder
-
 - 类别：furniture
 - 标识：bone welder
 - 来源：wiki/Bone_Welder
@@ -24222,9 +22034,7 @@ History
 References
 
 ---
-
 # 文档：Book
-
 - 类别：furniture
 - 标识：book
 - 来源：wiki/Book
@@ -24246,9 +22056,7 @@ Water Bolt
 History
 
 ---
-
 # 文档：Bookcase
-
 - 类别：furniture
 - 标识：bookcase
 - 来源：wiki/Bookcase
@@ -24261,18 +22069,13 @@ Recipes
 Noncraftable Bookcases
 colspan=2 | Bookcase !! Notes
 col:notes = Found in the Dungeon.
-col:notes = Found in the Dungeon.
-col:notes = Found in the Dungeon.
-col:notes = Found in the Dungeon.
 col:notes = Found in Ruined houses, does not break from lava.
 col:notes = Dropped by Pirates.
 }
 show-other = yes
 
 ---
-
 # 文档：Bookcases
-
 - 类别：furniture
 - 标识：bookcases
 - 来源：wiki/Bookcases
@@ -24285,18 +22088,13 @@ Recipes
 Noncraftable Bookcases
 colspan=2 | Bookcase !! Notes
 col:notes = Found in the Dungeon.
-col:notes = Found in the Dungeon.
-col:notes = Found in the Dungeon.
-col:notes = Found in the Dungeon.
 col:notes = Found in Ruined houses, does not break from lava.
 col:notes = Dropped by Pirates.
 }
 show-other = yes
 
 ---
-
 # 文档：Boomerang Statue
-
 - 类别：furniture
 - 标识：boomerang statue
 - 来源：wiki/Boomerang_Statue
@@ -24335,9 +22133,7 @@ show-main = yes
 show-other = yes
 
 ---
-
 # 文档：Boomerang Statue/cs
-
 - 类别：furniture
 - 标识：boomerang statue/cs
 - 来源：wiki/Boomerang_Statue/cs
@@ -24378,9 +22174,7 @@ Dekorativní sochy
 Historie
 
 ---
-
 # 文档：Booster Track
-
 - 类别：furniture
 - 标识：booster track
 - 来源：wiki/Booster_Track
@@ -24400,9 +22194,7 @@ Pressure Plate Track
 History
 
 ---
-
 # 文档：Boot Statue
-
 - 类别：furniture
 - 标识：boot statue
 - 来源：wiki/Boot_Statue
@@ -24441,9 +22233,7 @@ show-main = yes
 show-other = yes
 
 ---
-
 # 文档：Boot Statue/cs
-
 - 类别：furniture
 - 标识：boot statue/cs
 - 来源：wiki/Boot_Statue/cs
@@ -24484,9 +22274,7 @@ Dekorativní sochy
 Historie
 
 ---
-
 # 文档：Boreal Crate
-
 - 类别：furniture
 - 标识：boreal crate
 - 来源：wiki/Boreal_Crate
@@ -24507,9 +22295,7 @@ Despite being called Boreal Crate, the crate is less similar to Boreal Wood than
 History
 
 ---
-
 # 文档：Boreal Wood Bookcase
-
 - 类别：furniture
 - 标识：boreal wood bookcase
 - 来源：wiki/Boreal_Wood_Bookcase
@@ -24522,18 +22308,13 @@ Recipes
 Noncraftable Bookcases
 colspan=2 | Bookcase !! Notes
 col:notes = Found in the Dungeon.
-col:notes = Found in the Dungeon.
-col:notes = Found in the Dungeon.
-col:notes = Found in the Dungeon.
 col:notes = Found in Ruined houses, does not break from lava.
 col:notes = Dropped by Pirates.
 }
 show-other = yes
 
 ---
-
 # 文档：Boreal Wood Chair
-
 - 类别：furniture
 - 标识：boreal wood chair
 - 来源：wiki/Boreal_Wood_Chair
@@ -24553,12 +22334,6 @@ colspan=2 | Chair !! Notes
 
 Furniture found in the Dungeon.
 
-Furniture found in the Dungeon.
-
-Furniture found in the Dungeon.
-
-Furniture found in the Dungeon.
-
 Found in Ruined Houses, does not break from lava.
 
 Dropped by Pirates. Sell for .
@@ -24566,9 +22341,7 @@ Dropped by Pirates. Sell for .
 show-other = yes
 
 ---
-
 # 文档：Boreal Wood Door
-
 - 类别：furniture
 - 标识：boreal wood door
 - 来源：wiki/Boreal_Wood_Door
@@ -24592,18 +22365,13 @@ Recipes
 Noncraftable doors
 colspan=2 | Door !! Notes
 col:notes = Furniture found in the Dungeon.
-col:notes = Furniture found in the Dungeon.
-col:notes = Furniture found in the Dungeon.
-col:notes = Furniture found in the Dungeon.
 col:notes = Found in Ruined houses, does not disappear in lava.
 col:notes = Dropped by pirates. Sell for .
 }
 show-other = yes
 
 ---
-
 # 文档：Boreal Wood Piano
-
 - 类别：furniture
 - 标识：boreal wood piano
 - 来源：wiki/Boreal_Wood_Piano
@@ -24617,23 +22385,19 @@ Recipes
 Non-craftable Pianos
 colspan=2 | Piano !! Notes
 || Found in the Dungeon. ()
-|| Found in the Dungeon. ()
-|| Found in the Dungeon. ()
 || Found in Ruined houses, does not break from lava. ()
 || Dropped by Pirates.
 
 Trivia
 The Bones used in a Piano's crafting recipe likely refer to a piano's  ; however, ivory consists of teeth or tusks, not bones.
-Terraria&#39;s Pianos belong to the ; with the exception of the Frozen, Granite and Marble Pianos, which are ; and the Meteorite, Steampunk, Martian, Lesion, and the four Lunar Pianos, which vaguely resemble s.
+Terraria's Pianos belong to the ; with the exception of the Frozen, Granite and Marble Pianos, which are ; and the Meteorite, Steampunk, Martian, Lesion, and the four Lunar Pianos, which vaguely resemble s.
 Because of this, objects placed on top of Granite and Marble Pianos may look like they are floating midair.
 Unlike the other instruments in game, the pianos cannot be played.
 
 History
 
 ---
-
 # 文档：Boreal Wood Platform
-
 - 类别：furniture
 - 标识：boreal wood platform
 - 来源：wiki/Boreal_Wood_Platform
@@ -24672,33 +22436,17 @@ tags = plunder
 col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
-col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
-col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
-col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
-col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
-col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
-col:notes = Found in the Dungeon.
 (Noncraftable on )
-tags = buy/vendor:Traveling Merchant
-col:notes = Sold by the Traveling Merchant.
-tags = buy/vendor:Traveling Merchant
-col:notes = Sold by the Traveling Merchant.
-tags = buy/vendor:Traveling Merchant
-col:notes = Sold by the Traveling Merchant.
-tags = buy/vendor:Traveling Merchant
-col:notes = Sold by the Traveling Merchant.
-tags = buy/vendor:Traveling Merchant
-col:notes = Sold by the Traveling Merchant.
 tags = buy/vendor:Traveling Merchant
 col:notes = Sold by the Traveling Merchant.
 tags = drop
@@ -24709,9 +22457,7 @@ show-other = yes
 show-blocks = yes
 
 ---
-
 # 文档：Boreal Wood Table
-
 - 类别：furniture
 - 标识：boreal wood table
 - 来源：wiki/Boreal_Wood_Table
@@ -24726,18 +22472,13 @@ Lihzahrd Tables can also be looted from the Jungle Temple, Living Wood Tables fr
 Noncraftable Tables
 colspan=2 | Table !! Notes
 col:notes = Furniture found in the Dungeon.
-col:notes = Furniture found in the Dungeon.
-col:notes = Furniture found in the Dungeon.
-col:notes = Furniture found in the Dungeon.
 col:notes = Found in Ruined houses, does not break from lava.
 col:notes = Dropped by Pirates. Sell for .
 }
 show-other = yes
 
 ---
-
 # 文档：Boreal Wood Work Bench
-
 - 类别：furniture
 - 标识：boreal wood work bench
 - 来源：wiki/Boreal_Wood_Work_Bench
@@ -24751,9 +22492,6 @@ Recipes
 Noncraftable Work Benches
 colspan = 2 | Work Bench !! Notes
 col:notes = Furniture found in the Dungeon.
-col:notes = Furniture found in the Dungeon.
-col:notes = Furniture found in the Dungeon.
-col:notes = Furniture found in the Dungeon.
 col:notes = Furniture found in the Jungle Temple.
 col:notes = Furniture dropped during the Pirate Invasion.
 col:notes = Found in Ruined Houses, does not break from lava.
@@ -24762,9 +22500,7 @@ show-main = yes
 show-craft = yes
 
 ---
-
 # 文档：Bottle
-
 - 类别：furniture
 - 标识：bottle
 - 来源：wiki/Bottle
@@ -24779,9 +22515,7 @@ Used in
 History
 
 ---
-
 # 文档：Bow Statue
-
 - 类别：furniture
 - 标识：bow statue
 - 来源：wiki/Bow_Statue
@@ -24820,9 +22554,7 @@ show-main = yes
 show-other = yes
 
 ---
-
 # 文档：Bow Statue/cs
-
 - 类别：furniture
 - 标识：bow statue/cs
 - 来源：wiki/Bow_Statue/cs
@@ -24863,9 +22595,7 @@ Dekorativní sochy
 Historie
 
 ---
-
 # 文档：Bowls
-
 - 类别：furniture
 - 标识：bowls
 - 来源：wiki/Bowls
@@ -24878,9 +22608,7 @@ Used in
 History
 
 ---
-
 # 文档：Bramble Crate
-
 - 类别：furniture
 - 标识：bramble crate
 - 来源：wiki/Bramble_Crate
@@ -24895,9 +22623,7 @@ Note: Only one type of ore and one type of bar can drop, not both a pre-Hardmode
 History
 
 ---
-
 # 文档：Brass Lantern
-
 - 类别：furniture
 - 标识：brass lantern
 - 来源：wiki/Brass_Lantern
@@ -24913,21 +22639,13 @@ Recipes
 Noncraftable lanterns
 colspan=2 | Lantern !! Notes
 || Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in the Dungeon.
 || Found in Ruined houses, does not break from lava.
 || Dropped by Pirates.
 }
 show-light = yes
 
 ---
-
 # 文档：Brass Shelf
-
 - 类别：furniture
 - 标识：brass shelf
 - 来源：wiki/Brass_Shelf
@@ -24966,33 +22684,17 @@ tags = plunder
 col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
-col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
-col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
-col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
-col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
-col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
-col:notes = Found in the Dungeon.
 (Noncraftable on )
-tags = buy/vendor:Traveling Merchant
-col:notes = Sold by the Traveling Merchant.
-tags = buy/vendor:Traveling Merchant
-col:notes = Sold by the Traveling Merchant.
-tags = buy/vendor:Traveling Merchant
-col:notes = Sold by the Traveling Merchant.
-tags = buy/vendor:Traveling Merchant
-col:notes = Sold by the Traveling Merchant.
-tags = buy/vendor:Traveling Merchant
-col:notes = Sold by the Traveling Merchant.
 tags = buy/vendor:Traveling Merchant
 col:notes = Sold by the Traveling Merchant.
 tags = drop
@@ -25003,9 +22705,7 @@ show-other = yes
 show-blocks = yes
 
 ---
-
 # 文档：Brown Pressure Plate
-
 - 类别：furniture
 - 标识：brown pressure plate
 - 来源：wiki/Brown_Pressure_Plate
@@ -25058,9 +22758,7 @@ Since they are regular projectiles, Falling Stars can activate Teal Pressure Pad
 History
 
 ---
-
 # 文档：Bubble Machine
-
 - 类别：furniture
 - 标识：bubble machine
 - 来源：wiki/Bubble_Machine
@@ -25079,9 +22777,7 @@ Bubbles will still form even when the game is paused, however, the bubbles do no
 History
 
 ---
-
 # 文档：Buggy Statue
-
 - 类别：furniture
 - 标识：buggy statue
 - 来源：wiki/Buggy_Statue
@@ -25120,9 +22816,7 @@ show-main = yes
 show-other = yes
 
 ---
-
 # 文档：Bunny Cannon
-
 - 类别：furniture
 - 标识：bunny cannon
 - 来源：wiki/Bunny_Cannon
@@ -25147,9 +22841,7 @@ The Bunny Cannon is considered an upgrade to the normal cannon, having a higher 
 History
 
 ---
-
 # 文档：Bunny Statue
-
 - 类别：furniture
 - 标识：bunny statue
 - 来源：wiki/Bunny_Statue
@@ -25188,9 +22880,7 @@ show-main = yes
 show-other = yes
 
 ---
-
 # 文档：Bunny Statue/cs
-
 - 类别：furniture
 - 标识：bunny statue/cs
 - 来源：wiki/Bunny_Statue/cs
@@ -25231,9 +22921,7 @@ Dekorativní sochy
 Historie
 
 ---
-
 # 文档：Butterfly Jars
-
 - 类别：furniture
 - 标识：butterfly jars
 - 来源：wiki/Butterfly_Jars
@@ -25245,9 +22933,7 @@ Recipes
 History
 
 ---
-
 # 文档：Butterfly Statue
-
 - 类别：furniture
 - 标识：butterfly statue
 - 来源：wiki/Butterfly_Statue
@@ -25286,9 +22972,7 @@ show-main = yes
 show-other = yes
 
 ---
-
 # 文档：Caged Lantern
-
 - 类别：furniture
 - 标识：caged lantern
 - 来源：wiki/Caged_Lantern
@@ -25304,21 +22988,13 @@ Recipes
 Noncraftable lanterns
 colspan=2 | Lantern !! Notes
 || Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in the Dungeon.
 || Found in Ruined houses, does not break from lava.
 || Dropped by Pirates.
 }
 show-light = yes
 
 ---
-
 # 文档：Cages
-
 - 类别：furniture
 - 标识：cages
 - 来源：wiki/Cages
@@ -25356,9 +23032,7 @@ The Truffle Worm Cage's tooltip is , alluding to the fact that the Truffle Worm 
 History
 
 ---
-
 # 文档：Campfires
-
 - 类别：furniture
 - 标识：campfires
 - 来源：wiki/Campfires
@@ -25396,9 +23070,7 @@ History
 References
 
 ---
-
 # 文档：Candelabras
-
 - 类别：furniture
 - 标识：candelabras
 - 来源：wiki/Candelabras
@@ -25411,8 +23083,6 @@ Crafting
 Recipes
 Noncraftable Candelabras
 colspan = 2 | Candelabra !! Notes
-|| Found in the Dungeon.
-|| Found in the Dungeon.
 || Found in the Dungeon.
 || Found in Ruined houses, does not break from lava.
 || Dropped by Pirates.
@@ -25427,9 +23097,7 @@ The Pink Dungeon Candelabra appears to be an Octorok from fantasy action-adventu
 History
 
 ---
-
 # 文档：Candles
-
 - 类别：furniture
 - 标识：candles
 - 来源：wiki/Candles
@@ -25442,8 +23110,6 @@ Crafting
 Recipes
 Noncraftable Candles
 colspan=2 | Candle !! Notes
-|| Found in the Dungeon.
-|| Found in the Dungeon.
 || Found in the Dungeon.
 || Found in Ruined Houses, does not break from lava.
 || Dropped by Pirates.
@@ -25459,9 +23125,7 @@ The Cactus Candle somewhat resembles the Pink Prickly Pear.
 History
 
 ---
-
 # 文档：Cannon
-
 - 类别：furniture
 - 标识：cannon
 - 来源：wiki/Cannon
@@ -25489,9 +23153,7 @@ As of update 1.4.5 Cannonballs are no longer used as ammunition and only require
 History
 
 ---
-
 # 文档：Carriage Lantern
-
 - 类别：furniture
 - 标识：carriage lantern
 - 来源：wiki/Carriage_Lantern
@@ -25507,21 +23169,13 @@ Recipes
 Noncraftable lanterns
 colspan=2 | Lantern !! Notes
 || Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in the Dungeon.
 || Found in Ruined houses, does not break from lava.
 || Dropped by Pirates.
 }
 show-light = yes
 
 ---
-
 # 文档：Catacomb
-
 - 类别：furniture
 - 标识：catacomb
 - 来源：wiki/Catacomb
@@ -25536,9 +23190,7 @@ Despite the mechanical similarity, the Catacomb is not actually considered a pai
 History
 
 ---
-
 # 文档：Chairs
-
 - 类别：furniture
 - 标识：chairs
 - 来源：wiki/Chairs
@@ -25558,12 +23210,6 @@ colspan=2 | Chair !! Notes
 
 Furniture found in the Dungeon.
 
-Furniture found in the Dungeon.
-
-Furniture found in the Dungeon.
-
-Furniture found in the Dungeon.
-
 Found in Ruined Houses, does not break from lava.
 
 Dropped by Pirates. Sell for .
@@ -25571,9 +23217,7 @@ Dropped by Pirates. Sell for .
 show-other = yes
 
 ---
-
 # 文档：Chandeliers
-
 - 类别：furniture
 - 标识：chandeliers
 - 来源：wiki/Chandeliers
@@ -25585,17 +23229,13 @@ Recipes
 Noncraftable Chandeliers
 colspan=2 | Chandelier !! Notes
 || () Found in the Dungeon.
-|| () Found in the Dungeon.
-|| () Found in the Dungeon.
 || () Found in Ruined houses, does not break from lava.
 || Dropped by Pirates.
 }
 show-light = yes
 
 ---
-
 # 文档：Chest
-
 - 类别：furniture
 - 标识：chest
 - 来源：wiki/Chest
@@ -25636,11 +23276,9 @@ Living Mahogany Trees
 align=right |
 
 Jungle Temple
-To craft, see the Craftable chests section below .
 align=right |
 
 Living Trees
-To craft, see the Craftable chests section below .
 align=right |
 
 Glowing Mushroom biomes
@@ -25648,15 +23286,12 @@ To craft, see the Craftable chests section below.
 align=right |
 
 Underground Jungle
-To craft, see the Craftable chests section below.
 align=right |
 
 Underground Desert
-To craft, see the Craftable chests section below.
 align=right |
 
 Floating Islands
-To craft, see the Craftable chests section below .
 align="right" |
 
 Oceans, and, rarely, other water bodies
@@ -25666,11 +23301,9 @@ Spider Caves
 align=right |
 
 Granite Caves
-To craft, see the Craftable chests section below.
 align=right |
 
 Marble Caves
-To craft, see the Craftable chests section below.
 align=right |
 
 Underworld
@@ -25684,27 +23317,22 @@ align=right |
 
 Dungeon
 Requires one Crimson Key.
-Plantera must be defeated before opening.
 align=right |
 
 Dungeon
 Requires one Hallowed Key.
-Plantera must be defeated before opening.
 align=right |
 
 Dungeon
 Requires one Frozen Key.
-Plantera must be defeated before opening.
 align=right |
 
 Dungeon
 Requires one Jungle Key.
-Plantera must be defeated before opening.
 align=right |
 
 Dungeon
 Requires one Desert Key.
-Plantera must be defeated before opening.
 align=right |
 
 Other chests
@@ -25747,9 +23375,7 @@ Due to the mechanics of random number generators, it is possible for a world to 
 History
 
 ---
-
 # 文档：Chest Statue
-
 - 类别：furniture
 - 标识：chest statue
 - 来源：wiki/Chest_Statue
@@ -25788,9 +23414,7 @@ show-main = yes
 show-other = yes
 
 ---
-
 # 文档：Chest Statue/cs
-
 - 类别：furniture
 - 标识：chest statue/cs
 - 来源：wiki/Chest_Statue/cs
@@ -25831,9 +23455,7 @@ Dekorativní sochy
 Historie
 
 ---
-
 # 文档：Chests
-
 - 类别：furniture
 - 标识：chests
 - 来源：wiki/Chests
@@ -25874,11 +23496,9 @@ Living Mahogany Trees
 align=right |
 
 Jungle Temple
-To craft, see the Craftable chests section below .
 align=right |
 
 Living Trees
-To craft, see the Craftable chests section below .
 align=right |
 
 Glowing Mushroom biomes
@@ -25886,15 +23506,12 @@ To craft, see the Craftable chests section below.
 align=right |
 
 Underground Jungle
-To craft, see the Craftable chests section below.
 align=right |
 
 Underground Desert
-To craft, see the Craftable chests section below.
 align=right |
 
 Floating Islands
-To craft, see the Craftable chests section below .
 align="right" |
 
 Oceans, and, rarely, other water bodies
@@ -25904,11 +23521,9 @@ Spider Caves
 align=right |
 
 Granite Caves
-To craft, see the Craftable chests section below.
 align=right |
 
 Marble Caves
-To craft, see the Craftable chests section below.
 align=right |
 
 Underworld
@@ -25922,27 +23537,22 @@ align=right |
 
 Dungeon
 Requires one Crimson Key.
-Plantera must be defeated before opening.
 align=right |
 
 Dungeon
 Requires one Hallowed Key.
-Plantera must be defeated before opening.
 align=right |
 
 Dungeon
 Requires one Frozen Key.
-Plantera must be defeated before opening.
 align=right |
 
 Dungeon
 Requires one Jungle Key.
-Plantera must be defeated before opening.
 align=right |
 
 Dungeon
 Requires one Desert Key.
-Plantera must be defeated before opening.
 align=right |
 
 Other chests
@@ -25985,9 +23595,7 @@ Due to the mechanics of random number generators, it is possible for a world to 
 History
 
 ---
-
 # 文档：Chimney
-
 - 类别：furniture
 - 标识：chimney
 - 来源：wiki/Chimney
@@ -26001,9 +23609,7 @@ Recipes
 History
 
 ---
-
 # 文档：Chippy's Couch
-
 - 类别：furniture
 - 标识：chippys couch
 - 来源：wiki/Chippy's_Couch
@@ -26024,9 +23630,7 @@ Chippy's Couch, 0x33's Aviators, Badger's Hat, and Pedguin's set are the only pr
 History
 
 ---
-
 # 文档：Chlorophyte Extractinator
-
 - 类别：furniture
 - 标识：chlorophyte extractinator
 - 来源：wiki/Chlorophyte_Extractinator
@@ -26048,29 +23652,10 @@ Item !! Chance !! Quantity !! Average !! Yield/1000
 || 64.2145% || 1–100 || 35.5588 ||  (≈ )
 || 0.01% || 1 || 1 ||
 || 0.3333% || 1–16 || 1.1775 ||
-|| 0.3333% || 1–16 || 1.1775 ||
-|| 0.3333% || 1–16 || 1.1775 ||
-|| 0.3333% || 1–16 || 1.1775 ||
-|| 0.3333% || 1–16 || 1.1775 ||
-|| 0.3333% || 1–16 || 1.1775 ||
 || 0.9598% || 1–16 || 1.1775 ||
-|| 2.239552% || 1–16 || 1.1775 ||
-|| 2.239552% || 1–16 || 1.1775 ||
-|| 2.239552% || 1–16 || 1.1775 ||
-|| 2.239552% || 1–16 || 1.1775 ||
-|| 2.239552% || 1–16 || 1.1775 ||
-|| 2.239552% || 1–16 || 1.1775 ||
-|| 2.239552% || 1–16 || 1.1775 ||
-|| 2.239552% || 1–16 || 1.1775 ||
-|| 2.239552% || 1–16 || 1.1775 ||
-|| 2.239552% || 1–16 || 1.1775 ||
-|| 2.239552% || 1–16 || 1.1775 ||
-|| 2.239552% || 1–16 || 1.1775 ||
-|| 2.239552% || 1–16 || 1.1775 ||
 || 2.239552% || 1–16 || 1.1775 ||
 }
 + With
-Item !! Chance !! Quantity !! Average !! Yield/1000
 || 10% || 1–7 || 1.3 ||
 || 0.0066% || 1–11 || 1.2758 ||  ()
 || 0.0915% || 1–100 || 10.3345 ||  ()
@@ -26078,25 +23663,7 @@ Item !! Chance !! Quantity !! Average !! Yield/1000
 || 57.7876% || 1–100 || 26.892 ||  ()
 || 0.027% || 1 || 1 ||
 || 0.15% || 1–16 || 1.1775 ||
-|| 0.15% || 1–16 || 1.1775 ||
-|| 0.15% || 1–16 || 1.1775 ||
-|| 0.15% || 1–16 || 1.1775 ||
-|| 0.15% || 1–16 || 1.1775 ||
-|| 0.15% || 1–16 || 1.1775 ||
 || 1.7629% || 1–16 || 1.1775 ||
-|| 1.9938% || 1–16 || 1.1775 ||
-|| 1.9938% || 1–16 || 1.1775 ||
-|| 1.9938% || 1–16 || 1.1775 ||
-|| 1.9938% || 1–16 || 1.1775 ||
-|| 1.9938% || 1–16 || 1.1775 ||
-|| 1.9938% || 1–16 || 1.1775 ||
-|| 1.9938% || 1–16 || 1.1775 ||
-|| 1.9938% || 1–16 || 1.1775 ||
-|| 1.9938% || 1–16 || 1.1775 ||
-|| 1.9938% || 1–16 || 1.1775 ||
-|| 1.9938% || 1–16 || 1.1775 ||
-|| 1.9938% || 1–16 || 1.1775 ||
-|| 1.9938% || 1–16 || 1.1775 ||
 || 1.9938% || 1–16 || 1.1775 ||
 }
 + With
@@ -26113,7 +23680,6 @@ Item !! Chance !! Quantity
 || 2% || 1
 }
 + With  /  /
-Item !! Chance !! Quantity
 || 16.67% || 1
 || 75% || 1
 || 5.56% || 1
@@ -26134,9 +23700,7 @@ History
 References
 
 ---
-
 # 文档：Christmas lights
-
 - 类别：furniture
 - 标识：christmas lights
 - 来源：wiki/Christmas_lights
@@ -26149,9 +23713,7 @@ Types
 History
 
 ---
-
 # 文档：Christmas Tree
-
 - 类别：furniture
 - 标识：christmas tree
 - 来源：wiki/Christmas_Tree
@@ -26171,9 +23733,7 @@ Pine Tree Block
 History
 
 ---
-
 # 文档：Christmas Tree decorations
-
 - 类别：furniture
 - 标识：christmas tree decorations
 - 来源：wiki/Christmas_Tree_decorations
@@ -26191,9 +23751,7 @@ History
 References
 
 ---
-
 # 文档：Clay Pot
-
 - 类别：furniture
 - 标识：clay pot
 - 来源：wiki/Clay_Pot
@@ -26213,9 +23771,7 @@ See also
 History
 
 ---
-
 # 文档：Cobalt Bar
-
 - 类别：furniture
 - 标识：cobalt bar
 - 来源：wiki/Cobalt_Bar
@@ -26246,9 +23802,7 @@ Palladium Bar
 History
 
 ---
-
 # 文档：Compass Rose
-
 - 类别：furniture
 - 标识：compass rose
 - 来源：wiki/Compass_Rose
@@ -26263,9 +23817,7 @@ A  is a symbol commonly found on maps and other navigational equipment to indica
 History
 
 ---
-
 # 文档：Confetti Cannon
-
 - 类别：furniture
 - 标识：confetti cannon
 - 来源：wiki/Confetti_Cannon
@@ -26283,9 +23835,7 @@ Its shot is effectively identical to that of the Confetti Gun, just with more ve
 History
 
 ---
-
 # 文档：Cooking Pots
-
 - 类别：furniture
 - 标识：cooking pots
 - 来源：wiki/Cooking_Pots
@@ -26300,9 +23850,7 @@ Used to craft
 History
 
 ---
-
 # 文档：Copper Chandelier
-
 - 类别：furniture
 - 标识：copper chandelier
 - 来源：wiki/Copper_Chandelier
@@ -26314,17 +23862,13 @@ Recipes
 Noncraftable Chandeliers
 colspan=2 | Chandelier !! Notes
 || () Found in the Dungeon.
-|| () Found in the Dungeon.
-|| () Found in the Dungeon.
 || () Found in Ruined houses, does not break from lava.
 || Dropped by Pirates.
 }
 show-light = yes
 
 ---
-
 # 文档：Coral
-
 - 类别：furniture
 - 标识：coral
 - 来源：wiki/Coral
@@ -26352,9 +23896,7 @@ On earlier versions, while each piece of Coral only needed one block under it, i
 History
 
 ---
-
 # 文档：Corrupt Crate
-
 - 类别：furniture
 - 标识：corrupt crate
 - 来源：wiki/Corrupt_Crate
@@ -26377,71 +23919,31 @@ rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 1 in 4
 
 rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 10-20
 
-style="border-bottom: 1px solid #CCCCCC;" |
-rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 25%
-rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 1 in 4
-
 rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 2-4
 
-style="border-bottom: 1px solid #CCCCCC;" |
 rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 50%
 rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 1 in 2
 
 rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 5-17
-style="border-bottom: 1px solid #CCCCCC;" |
-rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 50%
-rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 1 in 2
 
 rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 2-6
-style="border-bottom: 1px solid #CCCCCC;" |
 25%
 1 in 4
 
 5-12
 colspan="4" | Hardmode
-% !! Chance !! Items !! Amount
-rowspan="5" style="border-bottom: 1px solid #CCCCCC;" | 16.67%
-rowspan="5" style="border-bottom: 1px solid #CCCCCC;" | 1 in 6
 
-rowspan="5" style="border-bottom: 1px solid #CCCCCC;" | 1
-
-style="border-bottom: 1px solid #CCCCCC;" |
 style="border-bottom: 1px solid #CCCCCC;" | 50%
 style="border-bottom: 1px solid #CCCCCC;" | 1 in 2
-style="border-bottom: 1px solid #CCCCCC;" |
-style="border-bottom: 1px solid #CCCCCC;" | 2-5
-style="border-bottom: 1px solid #CCCCCC;" | 50%
-style="border-bottom: 1px solid #CCCCCC;" | 1 in 2
-style="border-bottom: 1px solid #CCCCCC;" |
 style="border-bottom: 1px solid #CCCCCC;" | 2-5
 rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 8.33%
 rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 1 in 12
 
-rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 10-20
-
-style="border-bottom: 1px solid #CCCCCC;" |
 rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 16.67%
 rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 1 in 6
 
 rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 8-20
 
-style="border-bottom: 1px solid #CCCCCC;" |
-rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 25%
-rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 1 in 4
-
-rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 2-4
-
-style="border-bottom: 1px solid #CCCCCC;" |
-rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 50%
-rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 1 in 2
-
-rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 5-17
-style="border-bottom: 1px solid #CCCCCC;" |
-rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 50%
-rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 1 in 2
-
-rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 2-6
-style="border-bottom: 1px solid #CCCCCC;" |
 25%
 1 in 4
 
@@ -26450,9 +23952,7 @@ style="border-bottom: 1px solid #CCCCCC;" |
 History
 
 ---
-
 # 文档：Corrupt Statue
-
 - 类别：furniture
 - 标识：corrupt statue
 - 来源：wiki/Corrupt_Statue
@@ -26491,9 +23991,7 @@ show-main = yes
 show-other = yes
 
 ---
-
 # 文档：Corrupt Statue/cs
-
 - 类别：furniture
 - 标识：corrupt statue/cs
 - 来源：wiki/Corrupt_Statue/cs
@@ -26534,9 +24032,7 @@ Dekorativní sochy
 Historie
 
 ---
-
 # 文档：Corruption Chest
-
 - 类别：furniture
 - 标识：corruption chest
 - 来源：wiki/Corruption_Chest
@@ -26561,7 +24057,6 @@ col:key =
 col:content =
 col:key =
 col:content =
-item infobox | view = item | auto = 1532 | type = Furniture / Storage | width = 2 | height = 2 | tags = Plunder
 class = multi-line
 t = Ice Chest
 Frozen Chest
@@ -26573,9 +24068,7 @@ col:content =
 show-storage = yes
 
 ---
-
 # 文档：Crab Statue
-
 - 类别：furniture
 - 标识：crab statue
 - 来源：wiki/Crab_Statue
@@ -26614,9 +24107,7 @@ show-main = yes
 show-other = yes
 
 ---
-
 # 文档：Crab Statue/cs
-
 - 类别：furniture
 - 标识：crab statue/cs
 - 来源：wiki/Crab_Statue/cs
@@ -26657,9 +24148,7 @@ Dekorativní sochy
 Historie
 
 ---
-
 # 文档：Crates
-
 - 类别：furniture
 - 标识：crates
 - 来源：wiki/Crates
@@ -26728,9 +24217,7 @@ show-other = yes
 show-other = yes
 
 ---
-
 # 文档：Crimson Chest
-
 - 类别：furniture
 - 标识：crimson chest
 - 来源：wiki/Crimson_Chest
@@ -26755,7 +24242,6 @@ col:key =
 col:content =
 col:key =
 col:content =
-item infobox | view = item | auto = 1532 | type = Furniture / Storage | width = 2 | height = 2 | tags = Plunder
 class = multi-line
 t = Ice Chest
 Frozen Chest
@@ -26767,9 +24253,7 @@ col:content =
 show-storage = yes
 
 ---
-
 # 文档：Crimson Crate
-
 - 类别：furniture
 - 标识：crimson crate
 - 来源：wiki/Crimson_Crate
@@ -26792,71 +24276,31 @@ rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 1 in 4
 
 rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 10-20
 
-style="border-bottom: 1px solid #CCCCCC;" |
-rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 25%
-rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 1 in 4
-
 rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 2-4
 
-style="border-bottom: 1px solid #CCCCCC;" |
 rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 50%
 rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 1 in 2
 
 rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 5-17
-style="border-bottom: 1px solid #CCCCCC;" |
-rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 50%
-rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 1 in 2
 
 rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 2-6
-style="border-bottom: 1px solid #CCCCCC;" |
 25%
 1 in 4
 
 5-12
 colspan=5 | Hardmode
-% !! Chance !! Items !! Amount
-rowspan="5" style="border-bottom: 1px solid #CCCCCC;" | 16.67%
-rowspan="5" style="border-bottom: 1px solid #CCCCCC;" | 1 in 6
 
-rowspan="5" style="border-bottom: 1px solid #CCCCCC;" | 1
-
-style="border-bottom: 1px solid #CCCCCC;" |
 style="border-bottom: 1px solid #CCCCCC;" | 50%
 style="border-bottom: 1px solid #CCCCCC;" | 1 in 2
-style="border-bottom: 1px solid #CCCCCC;" |
-style="border-bottom: 1px solid #CCCCCC;" | 2-5
-style="border-bottom: 1px solid #CCCCCC;" | 50%
-style="border-bottom: 1px solid #CCCCCC;" | 1 in 2
-style="border-bottom: 1px solid #CCCCCC;" |
 style="border-bottom: 1px solid #CCCCCC;" | 2-5
 rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 8.33%
 rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 1 in 12
 
-rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 10-20
-
-style="border-bottom: 1px solid #CCCCCC;" |
 rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 16.67%
 rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 1 in 6
 
 rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 8-20
 
-style="border-bottom: 1px solid #CCCCCC;" |
-rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 25%
-rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 1 in 4
-
-rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 2-4
-
-style="border-bottom: 1px solid #CCCCCC;" |
-rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 50%
-rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 1 in 2
-
-rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 5-17
-style="border-bottom: 1px solid #CCCCCC;" |
-rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 50%
-rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 1 in 2
-
-rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 2-6
-style="border-bottom: 1px solid #CCCCCC;" |
 25%
 1 in 4
 
@@ -26865,9 +24309,7 @@ style="border-bottom: 1px solid #CCCCCC;" |
 History
 
 ---
-
 # 文档：Cross Statue
-
 - 类别：furniture
 - 标识：cross statue
 - 来源：wiki/Cross_Statue
@@ -26906,9 +24348,7 @@ show-main = yes
 show-other = yes
 
 ---
-
 # 文档：Cross Statue/cs
-
 - 类别：furniture
 - 标识：cross statue/cs
 - 来源：wiki/Cross_Statue/cs
@@ -26949,9 +24389,7 @@ Dekorativní sochy
 Historie
 
 ---
-
 # 文档：Crystal Ball
-
 - 类别：furniture
 - 标识：crystal ball
 - 来源：wiki/Crystal_Ball
@@ -26972,9 +24410,7 @@ Used to craft
 History
 
 ---
-
 # 文档：Crystal Shard
-
 - 类别：furniture
 - 标识：crystal shard
 - 来源：wiki/Crystal_Shard
@@ -27007,9 +24443,7 @@ See also
 History
 
 ---
-
 # 文档：Cups
-
 - 类别：furniture
 - 标识：cups
 - 来源：wiki/Cups
@@ -27029,9 +24463,7 @@ Pink Vase
 History
 
 ---
-
 # 文档：Dark Soul Reaper
-
 - 类别：furniture
 - 标识：dark soul reaper
 - 来源：wiki/Dark_Soul_Reaper
@@ -27056,13 +24488,9 @@ desc = Parody of , a well-known 1929 painting of a pipe with a caption that stat
 
 From Painter
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Buy
 Sell
-class="unsortable" | Tooltip
 class="unsortable" | Available
-class="unsortable" | Description
 available = When Painter is in a Snow biome
 desc = Snow Biome landscape.
 available = Always
@@ -27098,12 +24526,8 @@ desc = A bolt of lightning.
 
 From Painter in a
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Buy
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = Reference to "", a poem by , which prominently features the phrase "nevermore".
 desc = A hand rising from the ground.
 desc = Graveyard landscape.
@@ -27115,12 +24539,8 @@ desc = A typical  painting of a bowl of fruit beside a skull.
 
 From
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Buy
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = A castle in a field. It is a reference to Peach's Castle as it appears in . It may also be a reference to several other games in the Mario franchise.
 desc = A painting of the Princess.
 desc = A rainbow shining from a unicorn's horn. References a popular diagram of white light splitting into a rainbow after passing through a prism, while the name references the  album .
@@ -27131,30 +24551,20 @@ desc = An intimate painting of two royal Slimes.
 
 From Clothier
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Buy
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = A Terraria-themed landscape painting.
 
 From Traveling Merchant
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Buy
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = A Red Bulb hanging from a tree. A reference to .
 desc = Parody of the Wolfenstein 3D title screen featuring the player wearing Meteor armor and wielding a Space Gun, with a Martian in the back. The name of the painting itself might be a reference to another Wolfenstein game - .
 desc = Portrait of the Ice Queen attacking.
 desc = Portrait of Skeletron dressed as Santa Claus.
 desc = Parody of the  featuring a Martian.
 desc = Portrait of Moon Lord. The name is a reference to the  commercial.
-desc = Portrait of  from Don't Starve Together.
-desc = Portrait of  from Don't Starve Together.
 desc = Portrait of  from Don't Starve Together.
 desc =  Portrait of  from Don't Starve Together.
 desc = Snowy landscape with a Present, Christmas Tree, and a Candy Cane.
@@ -27172,33 +24582,21 @@ desc = Painting of Yogscast's Pedguin and Boba, as the Parsec Pals.
 
 From Truffle
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Buy
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = A portrait of the Baby Truffle pet.
 
 From
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Buy
 Sell
-class="unsortable" | Tooltip
 class="unsortable" | Availability
-class="unsortable" | Description
 desc = A portrait of the Werewolf.
 available = Sold during a Full Moon at night ().
 
 Desert Underground Cabins
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = A play on Terraria lead developer Andrew Spinks' name, featuring a  wearing Andrew's signature green cap.
 desc = An Antlion. May be a reference to Dune.
 desc = A Desert Spirit in darkness.
@@ -27216,11 +24614,7 @@ desc = An interpretation of the , or "Eye of God," a version of which appears on
 
 Other Underground Cabins
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = Possible parody of .
 Portrait of the Demolitionist.
 desc = Depicts the Aurora Borealis.
@@ -27260,11 +24654,7 @@ desc = A group of wildflowers.
 
 Dungeon
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = Blood Moon. Also possibly a parody of Blue Moon Rising by Simon R. Green or the song "" by American rock band .
 desc = Various Bones.
 desc = Parody of  featuring the Guide.
@@ -27294,11 +24684,7 @@ featuring the Party Girl on a Unicorn in the Hallow.
 
 The Underworld
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = Reaper portrait.
 desc = The back of a  card.
 desc = A demon's eye.
@@ -27314,11 +24700,7 @@ desc = An unhappy ghost trapped in limbo.
 
 Goodie Bags
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = Green Slime wearing a witch hat among Pumpkins.
 desc = A vampire lady with red eyes and a cloak.
 desc = Portrait of the Mechanic's face.
@@ -27343,11 +24725,7 @@ desc = An ominous creature peering out from the depths of the sea.
 
 Floating Islands
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = Depiction of a flying Magical Harp.
 desc = Bunny constellation.
 desc = Reference to Banksy's Love is in the Bin.
@@ -27366,28 +24744,16 @@ description
 
 Blood Moon Fishing
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = A Dreadnautilus, two Blood Squids, and a Blood Moon.
 
 Hallow Fishing
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc =A girl handing the Meowmere to a guy on a boat. It is a reference to the Arthurian Legends of the
 Solar Eclipse Drops
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = Depiction of a Reaper.
 desc = The player using an eye-based beam attack.
 desc = Depiction of a Butcher. Title is a reference to .
@@ -27399,26 +24765,16 @@ desc = Depiction of a Frankenstein and a Swamp Thing.
 
 Dungeon Chests
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = The Lunatic Cultist and four Cultists.
 
 Jungle Temple
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = A king lizard.
 
 New Chinese version
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
 width="25%" class="unsortable" | Tooltip
 width="30%" class="unsortable" | Description
@@ -27471,12 +24827,9 @@ Medium Oil Painting of Douyu Niang
 3×3
 
 (Limited) Douyu Linked Oil Painting
-Douyu platform anthropomorphic image Shark Maiden.
 Betta Fish Oil Painting
 6×4
 
-(Limited) Douyu Linked Oil Painting
-Douyu platform anthropomorphic image Shark Maiden.
 Huya's Small Oil Painting
 2×3
 
@@ -27491,7 +24844,6 @@ Huya Platform Logo.
 Huya Oil Painting
 6×4
 
-(Limited) Huya linkage oil painting
 Huya platform logo and anthropomorphic image of Huya platform.
 Terrary Potatoes
 6×4
@@ -27503,12 +24855,10 @@ Rock Potato
 3×3
 
 A photo of Captain Shu enjoying the music when he formed the Little Red Book Orchestra.
-Xiaohongshu platform mascot "sweet potato".
 Potato Light
 3×3
 
 Praise the sun, let the sweet potatoes planted by Captain Potato have a bumper harvest.
-Xiaohongshu platform mascot "sweet potato".
 
 Gallery
 Notes
@@ -27550,9 +24900,7 @@ The frames on the paintings generally correspond to a wood or block.
 History
 
 ---
-
 # 文档：Darkness
-
 - 类别：furniture
 - 标识：darkness painting
 - 来源：wiki/Darkness_(Painting)
@@ -27577,13 +24925,9 @@ desc = Parody of , a well-known 1929 painting of a pipe with a caption that stat
 
 From Painter
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Buy
 Sell
-class="unsortable" | Tooltip
 class="unsortable" | Available
-class="unsortable" | Description
 available = When Painter is in a Snow biome
 desc = Snow Biome landscape.
 available = Always
@@ -27619,12 +24963,8 @@ desc = A bolt of lightning.
 
 From Painter in a
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Buy
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = Reference to "", a poem by , which prominently features the phrase "nevermore".
 desc = A hand rising from the ground.
 desc = Graveyard landscape.
@@ -27636,12 +24976,8 @@ desc = A typical  painting of a bowl of fruit beside a skull.
 
 From
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Buy
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = A castle in a field. It is a reference to Peach's Castle as it appears in . It may also be a reference to several other games in the Mario franchise.
 desc = A painting of the Princess.
 desc = A rainbow shining from a unicorn's horn. References a popular diagram of white light splitting into a rainbow after passing through a prism, while the name references the  album .
@@ -27652,30 +24988,20 @@ desc = An intimate painting of two royal Slimes.
 
 From Clothier
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Buy
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = A Terraria-themed landscape painting.
 
 From Traveling Merchant
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Buy
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = A Red Bulb hanging from a tree. A reference to .
 desc = Parody of the Wolfenstein 3D title screen featuring the player wearing Meteor armor and wielding a Space Gun, with a Martian in the back. The name of the painting itself might be a reference to another Wolfenstein game - .
 desc = Portrait of the Ice Queen attacking.
 desc = Portrait of Skeletron dressed as Santa Claus.
 desc = Parody of the  featuring a Martian.
 desc = Portrait of Moon Lord. The name is a reference to the  commercial.
-desc = Portrait of  from Don't Starve Together.
-desc = Portrait of  from Don't Starve Together.
 desc = Portrait of  from Don't Starve Together.
 desc =  Portrait of  from Don't Starve Together.
 desc = Snowy landscape with a Present, Christmas Tree, and a Candy Cane.
@@ -27693,33 +25019,21 @@ desc = Painting of Yogscast's Pedguin and Boba, as the Parsec Pals.
 
 From Truffle
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Buy
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = A portrait of the Baby Truffle pet.
 
 From
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Buy
 Sell
-class="unsortable" | Tooltip
 class="unsortable" | Availability
-class="unsortable" | Description
 desc = A portrait of the Werewolf.
 available = Sold during a Full Moon at night ().
 
 Desert Underground Cabins
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = A play on Terraria lead developer Andrew Spinks' name, featuring a  wearing Andrew's signature green cap.
 desc = An Antlion. May be a reference to Dune.
 desc = A Desert Spirit in darkness.
@@ -27737,11 +25051,7 @@ desc = An interpretation of the , or "Eye of God," a version of which appears on
 
 Other Underground Cabins
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = Possible parody of .
 Portrait of the Demolitionist.
 desc = Depicts the Aurora Borealis.
@@ -27781,11 +25091,7 @@ desc = A group of wildflowers.
 
 Dungeon
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = Blood Moon. Also possibly a parody of Blue Moon Rising by Simon R. Green or the song "" by American rock band .
 desc = Various Bones.
 desc = Parody of  featuring the Guide.
@@ -27815,11 +25121,7 @@ featuring the Party Girl on a Unicorn in the Hallow.
 
 The Underworld
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = Reaper portrait.
 desc = The back of a  card.
 desc = A demon's eye.
@@ -27835,11 +25137,7 @@ desc = An unhappy ghost trapped in limbo.
 
 Goodie Bags
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = Green Slime wearing a witch hat among Pumpkins.
 desc = A vampire lady with red eyes and a cloak.
 desc = Portrait of the Mechanic's face.
@@ -27864,11 +25162,7 @@ desc = An ominous creature peering out from the depths of the sea.
 
 Floating Islands
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = Depiction of a flying Magical Harp.
 desc = Bunny constellation.
 desc = Reference to Banksy's Love is in the Bin.
@@ -27887,28 +25181,16 @@ description
 
 Blood Moon Fishing
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = A Dreadnautilus, two Blood Squids, and a Blood Moon.
 
 Hallow Fishing
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc =A girl handing the Meowmere to a guy on a boat. It is a reference to the Arthurian Legends of the
 Solar Eclipse Drops
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = Depiction of a Reaper.
 desc = The player using an eye-based beam attack.
 desc = Depiction of a Butcher. Title is a reference to .
@@ -27920,26 +25202,16 @@ desc = Depiction of a Frankenstein and a Swamp Thing.
 
 Dungeon Chests
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = The Lunatic Cultist and four Cultists.
 
 Jungle Temple
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = A king lizard.
 
 New Chinese version
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
 width="25%" class="unsortable" | Tooltip
 width="30%" class="unsortable" | Description
@@ -27992,12 +25264,9 @@ Medium Oil Painting of Douyu Niang
 3×3
 
 (Limited) Douyu Linked Oil Painting
-Douyu platform anthropomorphic image Shark Maiden.
 Betta Fish Oil Painting
 6×4
 
-(Limited) Douyu Linked Oil Painting
-Douyu platform anthropomorphic image Shark Maiden.
 Huya's Small Oil Painting
 2×3
 
@@ -28012,7 +25281,6 @@ Huya Platform Logo.
 Huya Oil Painting
 6×4
 
-(Limited) Huya linkage oil painting
 Huya platform logo and anthropomorphic image of Huya platform.
 Terrary Potatoes
 6×4
@@ -28024,12 +25292,10 @@ Rock Potato
 3×3
 
 A photo of Captain Shu enjoying the music when he formed the Little Red Book Orchestra.
-Xiaohongshu platform mascot "sweet potato".
 Potato Light
 3×3
 
 Praise the sun, let the sweet potatoes planted by Captain Potato have a bumper harvest.
-Xiaohongshu platform mascot "sweet potato".
 
 Gallery
 Notes
@@ -28071,9 +25337,7 @@ The frames on the paintings generally correspond to a wood or block.
 History
 
 ---
-
 # 文档：Decay Chamber
-
 - 类别：furniture
 - 标识：decay chamber
 - 来源：wiki/Decay_Chamber
@@ -28092,9 +25356,7 @@ The Decay Chamber extremely vaguely resembles a one-eyed monster. It is unknown 
 History
 
 ---
-
 # 文档：Decorative Healing Potion
-
 - 类别：furniture
 - 标识：decorative healing potion
 - 来源：wiki/Decorative_Healing_Potion
@@ -28112,9 +25374,7 @@ Decorative Mana Potion
 History
 
 ---
-
 # 文档：Decorative Mana Potion
-
 - 类别：furniture
 - 标识：decorative mana potion
 - 来源：wiki/Decorative_Mana_Potion
@@ -28132,9 +25392,7 @@ Decorative Healing Potion
 History
 
 ---
-
 # 文档：Defender's Forge
-
 - 类别：furniture
 - 标识：defenders forge
 - 来源：wiki/Defender's_Forge
@@ -28152,9 +25410,7 @@ Despite it being named as a forge, it is actually used as a personal storage.
 History
 
 ---
-
 # 文档：Defiled Crate
-
 - 类别：furniture
 - 标识：defiled crate
 - 来源：wiki/Defiled_Crate
@@ -28169,9 +25425,7 @@ Note: Only one type of ore and one type of bar can drop, not both a pre-Hardmode
 History
 
 ---
-
 # 文档：Demon Torch
-
 - 类别：furniture
 - 标识：demon torch
 - 来源：wiki/Demon_Torch
@@ -28275,7 +25529,6 @@ col:notes = rowspan2  Cycles color linearly; can be found naturally in The Under
 col:color =
 col:notes = Placeable and functional under both water and lava;  rarity.
 col:color =
-col:notes = Placeable and functional under both water and lava;  rarity.
 col:color =
 col:notes = rowspan6  Cycles through those colors linearly;  rarity.
 
@@ -28294,9 +25547,7 @@ col:notes = rowspan2
 show-light = yes
 
 ---
-
 # 文档：Demon's Eye
-
 - 类别：furniture
 - 标识：demons eye
 - 来源：wiki/Demon's_Eye
@@ -28321,13 +25572,9 @@ desc = Parody of , a well-known 1929 painting of a pipe with a caption that stat
 
 From Painter
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Buy
 Sell
-class="unsortable" | Tooltip
 class="unsortable" | Available
-class="unsortable" | Description
 available = When Painter is in a Snow biome
 desc = Snow Biome landscape.
 available = Always
@@ -28363,12 +25610,8 @@ desc = A bolt of lightning.
 
 From Painter in a
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Buy
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = Reference to "", a poem by , which prominently features the phrase "nevermore".
 desc = A hand rising from the ground.
 desc = Graveyard landscape.
@@ -28380,12 +25623,8 @@ desc = A typical  painting of a bowl of fruit beside a skull.
 
 From
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Buy
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = A castle in a field. It is a reference to Peach's Castle as it appears in . It may also be a reference to several other games in the Mario franchise.
 desc = A painting of the Princess.
 desc = A rainbow shining from a unicorn's horn. References a popular diagram of white light splitting into a rainbow after passing through a prism, while the name references the  album .
@@ -28396,30 +25635,20 @@ desc = An intimate painting of two royal Slimes.
 
 From Clothier
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Buy
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = A Terraria-themed landscape painting.
 
 From Traveling Merchant
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Buy
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = A Red Bulb hanging from a tree. A reference to .
 desc = Parody of the Wolfenstein 3D title screen featuring the player wearing Meteor armor and wielding a Space Gun, with a Martian in the back. The name of the painting itself might be a reference to another Wolfenstein game - .
 desc = Portrait of the Ice Queen attacking.
 desc = Portrait of Skeletron dressed as Santa Claus.
 desc = Parody of the  featuring a Martian.
 desc = Portrait of Moon Lord. The name is a reference to the  commercial.
-desc = Portrait of  from Don't Starve Together.
-desc = Portrait of  from Don't Starve Together.
 desc = Portrait of  from Don't Starve Together.
 desc =  Portrait of  from Don't Starve Together.
 desc = Snowy landscape with a Present, Christmas Tree, and a Candy Cane.
@@ -28437,33 +25666,21 @@ desc = Painting of Yogscast's Pedguin and Boba, as the Parsec Pals.
 
 From Truffle
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Buy
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = A portrait of the Baby Truffle pet.
 
 From
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Buy
 Sell
-class="unsortable" | Tooltip
 class="unsortable" | Availability
-class="unsortable" | Description
 desc = A portrait of the Werewolf.
 available = Sold during a Full Moon at night ().
 
 Desert Underground Cabins
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = A play on Terraria lead developer Andrew Spinks' name, featuring a  wearing Andrew's signature green cap.
 desc = An Antlion. May be a reference to Dune.
 desc = A Desert Spirit in darkness.
@@ -28481,11 +25698,7 @@ desc = An interpretation of the , or "Eye of God," a version of which appears on
 
 Other Underground Cabins
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = Possible parody of .
 Portrait of the Demolitionist.
 desc = Depicts the Aurora Borealis.
@@ -28525,11 +25738,7 @@ desc = A group of wildflowers.
 
 Dungeon
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = Blood Moon. Also possibly a parody of Blue Moon Rising by Simon R. Green or the song "" by American rock band .
 desc = Various Bones.
 desc = Parody of  featuring the Guide.
@@ -28559,11 +25768,7 @@ featuring the Party Girl on a Unicorn in the Hallow.
 
 The Underworld
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = Reaper portrait.
 desc = The back of a  card.
 desc = A demon's eye.
@@ -28579,11 +25784,7 @@ desc = An unhappy ghost trapped in limbo.
 
 Goodie Bags
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = Green Slime wearing a witch hat among Pumpkins.
 desc = A vampire lady with red eyes and a cloak.
 desc = Portrait of the Mechanic's face.
@@ -28608,11 +25809,7 @@ desc = An ominous creature peering out from the depths of the sea.
 
 Floating Islands
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = Depiction of a flying Magical Harp.
 desc = Bunny constellation.
 desc = Reference to Banksy's Love is in the Bin.
@@ -28631,28 +25828,16 @@ description
 
 Blood Moon Fishing
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = A Dreadnautilus, two Blood Squids, and a Blood Moon.
 
 Hallow Fishing
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc =A girl handing the Meowmere to a guy on a boat. It is a reference to the Arthurian Legends of the
 Solar Eclipse Drops
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = Depiction of a Reaper.
 desc = The player using an eye-based beam attack.
 desc = Depiction of a Butcher. Title is a reference to .
@@ -28664,26 +25849,16 @@ desc = Depiction of a Frankenstein and a Swamp Thing.
 
 Dungeon Chests
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = The Lunatic Cultist and four Cultists.
 
 Jungle Temple
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
-class="unsortable" | Tooltip
-class="unsortable" | Description
 desc = A king lizard.
 
 New Chinese version
 Painting !! Name
-class="unsortable" | Placed
-class="unsortable" | Size
 Sell
 width="25%" class="unsortable" | Tooltip
 width="30%" class="unsortable" | Description
@@ -28736,12 +25911,9 @@ Medium Oil Painting of Douyu Niang
 3×3
 
 (Limited) Douyu Linked Oil Painting
-Douyu platform anthropomorphic image Shark Maiden.
 Betta Fish Oil Painting
 6×4
 
-(Limited) Douyu Linked Oil Painting
-Douyu platform anthropomorphic image Shark Maiden.
 Huya's Small Oil Painting
 2×3
 
@@ -28756,7 +25928,6 @@ Huya Platform Logo.
 Huya Oil Painting
 6×4
 
-(Limited) Huya linkage oil painting
 Huya platform logo and anthropomorphic image of Huya platform.
 Terrary Potatoes
 6×4
@@ -28768,12 +25939,10 @@ Rock Potato
 3×3
 
 A photo of Captain Shu enjoying the music when he formed the Little Red Book Orchestra.
-Xiaohongshu platform mascot "sweet potato".
 Potato Light
 3×3
 
 Praise the sun, let the sweet potatoes planted by Captain Potato have a bumper harvest.
-Xiaohongshu platform mascot "sweet potato".
 
 Gallery
 Notes
@@ -28815,9 +25984,7 @@ The frames on the paintings generally correspond to a wood or block.
 History
 
 ---
-
 # 文档：Desert Spirit Lamp
-
 - 类别：furniture
 - 标识：desert spirit lamp
 - 来源：wiki/Desert_Spirit_Lamp
@@ -28833,9 +26000,7 @@ History
 References
 
 ---
-
 # 文档：Detonator
-
 - 类别：furniture
 - 标识：detonator
 - 来源：wiki/Detonator
@@ -28856,9 +26021,7 @@ The Tooltip  'Guts... and Gory!'  is a reference to the famous quote "No Guts, N
 History
 
 ---
-
 # 文档：Diabolic Sigil
-
 - 类别：furniture
 - 标识：diabolic sigil
 - 来源：wiki/Diabolic_Sigil
@@ -28889,9 +26052,7 @@ The War Table Banner is the only one with 2×3 dimension instead of 1×3.
 History
 
 ---
-
 # 文档：Diabolist Lamp
-
 - 类别：furniture
 - 标识：diabolist lamp
 - 来源：wiki/Diabolist_Lamp
@@ -28907,21 +26068,13 @@ Recipes
 Noncraftable lanterns
 colspan=2 | Lantern !! Notes
 || Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in the Dungeon.
-|| Found in the Dungeon.
 || Found in Ruined houses, does not break from lava.
 || Dropped by Pirates.
 }
 show-light = yes
 
 ---
-
 # 文档：Disco Ball
-
 - 类别：furniture
 - 标识：disco ball
 - 来源：wiki/Disco_Ball
@@ -28937,9 +26090,7 @@ Despite the Party Girl's quote "", the disco ball is actually sold by the Mercha
 History
 
 ---
-
 # 文档：Divine Crate
-
 - 类别：furniture
 - 标识：divine crate
 - 来源：wiki/Divine_Crate
@@ -28958,9 +26109,7 @@ It uses the same sprite as the Hallowed Crate prior to 1.4.0.1.
 History
 
 ---
-
 # 文档：Doors
-
 - 类别：furniture
 - 标识：doors
 - 来源：wiki/Doors
@@ -28984,18 +26133,13 @@ Recipes
 Noncraftable doors
 colspan=2 | Door !! Notes
 col:notes = Furniture found in the Dungeon.
-col:notes = Furniture found in the Dungeon.
-col:notes = Furniture found in the Dungeon.
-col:notes = Furniture found in the Dungeon.
 col:notes = Found in Ruined houses, does not disappear in lava.
 col:notes = Dropped by pirates. Sell for .
 }
 show-other = yes
 
 ---
-
 # 文档：Dragonfly Jars
-
 - 类别：furniture
 - 标识：dragonfly jars
 - 来源：wiki/Dragonfly_Jars
@@ -29007,9 +26151,7 @@ Recipes
 History
 
 ---
-
 # 文档：Dragonfly Statue
-
 - 类别：furniture
 - 标识：dragonfly statue
 - 来源：wiki/Dragonfly_Statue
@@ -29048,9 +26190,7 @@ show-main = yes
 show-other = yes
 
 ---
-
 # 文档：Dressers
-
 - 类别：furniture
 - 标识：dressers
 - 来源：wiki/Dressers
@@ -29079,9 +26219,7 @@ show-other = yes
 ---
 ## MATERIALS
 共 49 篇文档
-
 # 文档：Ancient Cloth
-
 - 类别：materials
 - 标识：ancient cloth
 - 来源：wiki/Ancient_Cloth
@@ -29093,9 +26231,7 @@ Used in
 History
 
 ---
-
 # 文档：Antlion Mandible
-
 - 类别：materials
 - 标识：antlion mandible
 - 来源：wiki/Antlion_Mandible
@@ -29107,9 +26243,7 @@ Used in
 History
 
 ---
-
 # 文档：Bee Keeper
-
 - 类别：materials
 - 标识：bee keeper
 - 来源：wiki/Bee_Keeper
@@ -29144,9 +26278,7 @@ Unlike many other weapons, Bee Keeper's confusion effect still works in PVP.
 History
 
 ---
-
 # 文档：Bell
-
 - 类别：materials
 - 标识：bell
 - 来源：wiki/Bell
@@ -29164,9 +26296,7 @@ The Bell and the Whoopie Cushion have similar effects, although the Whoopie Cush
 History
 
 ---
-
 # 文档：Biome Key Molds
-
 - 类别：materials
 - 标识：biome key molds
 - 来源：wiki/Biome_Key_Molds
@@ -29191,9 +26321,7 @@ Since it was added after the removal of Key Molds, the  does not have a correspo
 History
 
 ---
-
 # 文档：Black Fairy Dust
-
 - 类别：materials
 - 标识：black fairy dust
 - 来源：wiki/Black_Fairy_Dust
@@ -29206,9 +26334,7 @@ Tips
 History
 
 ---
-
 # 文档：Black Ink
-
 - 类别：materials
 - 标识：black ink
 - 来源：wiki/Black_Ink
@@ -29223,9 +26349,7 @@ One of the best ways to farm Squids is during a Solar Eclipse or a Blood Moon, s
 History
 
 ---
-
 # 文档：Black Lens
-
 - 类别：materials
 - 标识：black lens
 - 来源：wiki/Black_Lens
@@ -29242,9 +26366,7 @@ Although the Dilated Eye variant appears to have a large, black pupil, its drop 
 History
 
 ---
-
 # 文档：Blade of Grass
-
 - 类别：materials
 - 标识：blade of grass
 - 来源：wiki/Blade_of_Grass
@@ -29273,9 +26395,7 @@ History
 References
 
 ---
-
 # 文档：Blinkroot
-
 - 类别：materials
 - 标识：blinkroot
 - 来源：wiki/Blinkroot
@@ -29302,9 +26422,7 @@ Similarly, the Pirate NPC will occasionally reference Blinkroots, saying: "". Th
 History
 
 ---
-
 # 文档：Blood Butcherer
-
 - 类别：materials
 - 标识：blood butcherer
 - 来源：wiki/Blood_Butcherer
@@ -29321,9 +26439,7 @@ Used in
 History
 
 ---
-
 # 文档：Bone Block Wall
-
 - 类别：materials
 - 标识：bone block wall
 - 来源：wiki/Bone_Block_Wall
@@ -29336,9 +26452,7 @@ Used in
 History
 
 ---
-
 # 文档：Bone Feather
-
 - 类别：materials
 - 标识：bone feather
 - 来源：wiki/Bone_Feather
@@ -29351,9 +26465,7 @@ Tips
 History
 
 ---
-
 # 文档：Boreal Wood Wall
-
 - 类别：materials
 - 标识：boreal wood wall
 - 来源：wiki/Boreal_Wood_Wall
@@ -29366,9 +26478,7 @@ Used in
 History
 
 ---
-
 # 文档：Bottled Honey
-
 - 类别：materials
 - 标识：bottled honey
 - 来源：wiki/Bottled_Honey
@@ -29381,9 +26491,7 @@ Used in
 History
 
 ---
-
 # 文档：Bottled Water
-
 - 类别：materials
 - 标识：bottled water
 - 来源：wiki/Bottled_Water
@@ -29410,9 +26518,7 @@ Its item ID was used for the Zapinator before it got removed.
 History
 
 ---
-
 # 文档：Bottomless Water Bucket
-
 - 类别：materials
 - 标识：bottomless water bucket
 - 来源：wiki/Bottomless_Water_Bucket
@@ -29443,9 +26549,7 @@ The Bottomless Shimmer Bucket, an item which can place an infinite amount of Shi
 History
 
 ---
-
 # 文档：Broken Bat Wing
-
 - 类别：materials
 - 标识：broken bat wing
 - 来源：wiki/Broken_Bat_Wing
@@ -29461,9 +26565,7 @@ The Broken Bat Wing can technically be obtained before any Hardmode bosses have 
 History
 
 ---
-
 # 文档：Broken Hero Sword
-
 - 类别：materials
 - 标识：broken hero sword
 - 来源：wiki/Broken_Hero_Sword
@@ -29487,9 +26589,7 @@ This item is an allusion to the classic literary trope of the disgraced or defea
 History
 
 ---
-
 # 文档：Bubblegum Block Wall
-
 - 类别：materials
 - 标识：bubblegum block wall
 - 来源：wiki/Bubblegum_Block_Wall
@@ -29502,9 +26602,7 @@ Used in
 History
 
 ---
-
 # 文档：Bug Net
-
 - 类别：materials
 - 标识：bug net
 - 来源：wiki/Bug_Net
@@ -29533,9 +26631,7 @@ Critters that are converted into Food items via the Cooking pot are much more va
 History
 
 ---
-
 # 文档：Buggy
-
 - 类别：materials
 - 标识：buggy
 - 来源：wiki/Buggy
@@ -29550,9 +26646,7 @@ Trivia
 History
 
 ---
-
 # 文档：Bunny
-
 - 类别：materials
 - 标识：bunny
 - 来源：wiki/Bunny
@@ -29576,7 +26670,6 @@ A Bunny with a Party Hat for
 Internal NPC ID: 540
 
 ----
-
 
 , which appear in Underground Towns.
 Internal NPC ID: 646-652
@@ -29605,9 +26698,7 @@ On the , a cloud in the shape of a Bunny can occasionally be seen in the backgro
 History
 
 ---
-
 # 文档：Butterfly Dust
-
 - 类别：materials
 - 标识：butterfly dust
 - 来源：wiki/Butterfly_Dust
@@ -29627,9 +26718,7 @@ Unlike most other drops from rare enemies, the Butterfly Dust does not increase 
 History
 
 ---
-
 # 文档：Cactus Wall
-
 - 类别：materials
 - 标识：cactus wall
 - 来源：wiki/Cactus_Wall
@@ -29642,9 +26731,7 @@ Used in
 History
 
 ---
-
 # 文档：Can Of Worms
-
 - 类别：materials
 - 标识：can of worms
 - 来源：wiki/Can_Of_Worms
@@ -29669,9 +26756,7 @@ A  is an idiom used for describing a complex, troublesome situation arising when
 History
 
 ---
-
 # 文档：Cell Phone
-
 - 类别：materials
 - 标识：cell phone
 - 来源：wiki/Cell_Phone
@@ -29708,9 +26793,7 @@ The Cell Phone's inherited function of teleporting the user to their spawn point
 History
 
 ---
-
 # 文档：Chain
-
 - 类别：materials
 - 标识：chain
 - 来源：wiki/Chain
@@ -29723,9 +26806,7 @@ Used in
 History
 
 ---
-
 # 文档：Chaos Fish
-
 - 类别：materials
 - 标识：chaos fish
 - 来源：wiki/Chaos_Fish
@@ -29741,9 +26822,7 @@ You can also obtain a Chaos Fish Pre-Hardmode by throwing a Teleportation Potion
 History
 
 ---
-
 # 文档：Cherry
-
 - 类别：materials
 - 标识：cherry
 - 来源：wiki/Cherry
@@ -29763,9 +26842,7 @@ The Cherry, Apricot, Grapefruit, and Plum are the only fruits that do not have u
 History
 
 ---
-
 # 文档：Chlorophyte Bar
-
 - 类别：materials
 - 标识：chlorophyte bar
 - 来源：wiki/Chlorophyte_Bar
@@ -29793,9 +26870,7 @@ Despite not including this material in their recipes, visually, many weapons cra
 History
 
 ---
-
 # 文档：Chlorophyte Brick
-
 - 类别：materials
 - 标识：chlorophyte brick
 - 来源：wiki/Chlorophyte_Brick
@@ -29811,9 +26886,7 @@ Chlorophyte Bricks and Chlorophyte Ore restrict the spread of the evil biomes ar
 History
 
 ---
-
 # 文档：Chlorophyte Brick Wall
-
 - 类别：materials
 - 标识：chlorophyte brick wall
 - 来源：wiki/Chlorophyte_Brick_Wall
@@ -29826,9 +26899,7 @@ Used in
 History
 
 ---
-
 # 文档：Chlorophyte Ore
-
 - 类别：materials
 - 标识：chlorophyte ore
 - 来源：wiki/Chlorophyte_Ore
@@ -29872,9 +26943,7 @@ History
 References
 
 ---
-
 # 文档：Clentaminator
-
 - 类别：materials
 - 标识：clentaminator
 - 来源：wiki/Clentaminator
@@ -29886,8 +26955,6 @@ It converts Grass, Trees, Ice, Sand, and Stone, but NOT between mud and dirt.  T
 It has a similar firing pattern to the Flamethrower, but has a much longer range, fires through blocks and works in water.  The Clentaminator as well as most Solutions can be purchased from the Steampunker for  and , respectively.
 
 The Clentaminator can be upgraded into the Terraformer by submerging the Clentaminator in Shimmer after Moon Lord has been defeated.
-
-
 
 Crafting
 Used in
@@ -29926,9 +26993,7 @@ Standing on a converted block while using the Clentaminator upwards will purify 
 History
 
 ---
-
 # 文档：Cloud Wall
-
 - 类别：materials
 - 标识：cloud wall
 - 来源：wiki/Cloud_Wall
@@ -29944,9 +27009,7 @@ Cloud Walls painted white become 100% white ( #FFFFFF) during sunny middays. Thi
 History
 
 ---
-
 # 文档：Cobalt Brick
-
 - 类别：materials
 - 标识：cobalt brick
 - 来源：wiki/Cobalt_Brick
@@ -29959,9 +27022,7 @@ Used in
 History
 
 ---
-
 # 文档：Cobalt Brick Wall
-
 - 类别：materials
 - 标识：cobalt brick wall
 - 来源：wiki/Cobalt_Brick_Wall
@@ -29974,9 +27035,7 @@ Used in
 History
 
 ---
-
 # 文档：Cobalt Ore
-
 - 类别：materials
 - 标识：cobalt ore
 - 来源：wiki/Cobalt_Ore
@@ -30004,9 +27063,7 @@ Palladium Ore
 History
 
 ---
-
 # 文档：Coconut
-
 - 类别：materials
 - 标识：coconut
 - 来源：wiki/Coconut
@@ -30023,9 +27080,7 @@ Its tooltip is a reference to the movie .
 History
 
 ---
-
 # 文档：Cog Wall
-
 - 类别：materials
 - 标识：cog wall
 - 来源：wiki/Cog_Wall
@@ -30038,9 +27093,7 @@ Used in
 History
 
 ---
-
 # 文档：Confetti Wall
-
 - 类别：materials
 - 标识：confetti wall
 - 来源：wiki/Confetti_Wall
@@ -30053,9 +27106,7 @@ Used in
 History
 
 ---
-
 # 文档：Copper Axe
-
 - 类别：materials
 - 标识：copper axe
 - 来源：wiki/Copper_Axe
@@ -30070,9 +27121,7 @@ Used in
 History
 
 ---
-
 # 文档：Copper Bar
-
 - 类别：materials
 - 标识：copper bar
 - 来源：wiki/Copper_Bar
@@ -30087,9 +27136,7 @@ Used in
 History
 
 ---
-
 # 文档：Copper Brick
-
 - 类别：materials
 - 标识：copper brick
 - 来源：wiki/Copper_Brick
@@ -30102,9 +27149,7 @@ Used in
 History
 
 ---
-
 # 文档：Copper Brick Wall
-
 - 类别：materials
 - 标识：copper brick wall
 - 来源：wiki/Copper_Brick_Wall
@@ -30117,9 +27162,7 @@ Used in
 History
 
 ---
-
 # 文档：Copper Ore
-
 - 类别：materials
 - 标识：copper ore
 - 来源：wiki/Copper_Ore
@@ -30144,9 +27187,7 @@ Tin Ore
 History
 
 ---
-
 # 文档：Copper Plating Wall
-
 - 类别：materials
 - 标识：copper plating wall
 - 来源：wiki/Copper_Plating_Wall
@@ -30159,9 +27200,7 @@ Used in
 History
 
 ---
-
 # 文档：Copper Shortsword
-
 - 类别：materials
 - 标识：copper shortsword
 - 来源：wiki/Copper_Shortsword
@@ -30195,9 +27234,7 @@ History
 ---
 ## NPCS
 共 5 篇文档
-
 # 文档：List of NPCs
-
 - 类别：npcs
 - 标识：list of npcs
 - 来源：wiki/List_of_NPCs
@@ -30207,7 +27244,6 @@ This page contains a sortable list of all NPCs in Terraria. This includes town N
 Note: ID 76 / 146 / 408 / 547 are unused.
 
 Exclusive NPCs
-ID !! class="unsortable" | Image !! Name !! data-sort-type="number" | Max Health !! data-sort-type="number" | Damage !! data-sort-type="number" | Defense !! data-sort-type="number" | Knockback Resistance !! AI !! data-sort-type="number" | Money Dropped !! Environment !! Type
 q?tables=NPCs
 q?fields=npcid,name,image,life,damage,defense,knockback,ai,money,environment
 q?where=npcid IS NOT NULL and npcid >1000
@@ -30217,9 +27253,7 @@ q?limit=200
 template=:/row
 
 ---
-
 # 文档：NPCs
-
 - 类别：npcs
 - 标识：npcs
 - 来源：wiki/NPCs
@@ -30289,7 +27323,6 @@ Syringes
 
 Sells .
 A player has an explosive in their inventory and the Merchant is present.
-Replaces the Guide as the starting NPC when starting a new  world.
 Grenades
 
 Sells the Dye Vat crafting station.
@@ -30378,7 +27411,6 @@ Pirate Cannon
 
 Sells the Clentaminator, Jetpack, and other items.
 A mechanical boss has been defeated.
-Spawns as a starting NPC when starting a new world with  seed.
 Clockwork Assault Rifle
 
 Sells the Proximity Mine Launcher, Rockets, and Nanites.
@@ -30391,7 +27423,6 @@ Bauble
 
 Sells several vanity and furniture items.
 All other town NPCs are in the world (except for town pets and Santa Claus).
-Spawns as a starting NPC when starting a new world with  seed.
 Crushing Crystals
 
 Town Slimes
@@ -30445,7 +27476,6 @@ colspan=2 | Damage boost
 Attack !!
 align=left |  used || +6 || +20% ||
 class=bottomline
-align=left |  used || +6 || +20% ||
 align=left | Eye of Cthulhu beaten || +3 || colspan="2" | +10%
 align=left | Eater of Worlds / Brain of Cthulhu beaten || +3 || colspan="2" | +10%
 align=left | Queen Bee beaten || +3 || colspan="2" | +10%
@@ -30550,9 +27580,7 @@ History
 References
 
 ---
-
 # 文档：List of reflected projectiles
-
 - 类别：npcs
 - 标识：list of reflected projectiles
 - 来源：wiki/List_of_reflected_projectiles
@@ -30571,9 +27599,7 @@ Vampire Knives will not heal the enemy when they are reflected and hit the playe
 References
 
 ---
-
 # 文档：NPC despawning
-
 - 类别：npcs
 - 标识：npc despawning
 - 来源：wiki/NPC_despawning
@@ -30585,9 +27611,7 @@ All players in a world have two rectangular regions centered around themselves t
 The inner rectangle, here referred to as the Timer region, is considerably smaller at 120 blocks wide by 67.5 blocks high, equal to a 1920x1080 screen region plus the size of the entity. While an NPC is outside this region, a timer begins to count down for a period of time (by default it is 750 ticks, or 12.5 seconds, but there are a lot of exceptions); when it reaches zero, the NPC will despawn, no matter whether it is counted as active. Reentering a player's Timer region will reset this timer, meaning that NPCs that remain within this region will never despawn. Segments of a larger entity, such as the Eater of Worlds, are not subject to these timers as long as the head remains active.
 
 ---
-
 # 文档：NPC spawning
-
 - 类别：npcs
 - 标识：npc spawning
 - 来源：wiki/NPC_spawning
@@ -30602,10 +27626,10 @@ The default spawn rate is 1/600. This means that for each tick, there is a chanc
 
 The default max spawns is 5. This means that a new enemy can only be spawned if the sum of the NPC slots of all current active enemies is lower than 5. Most enemies occupy 1 NPC slot by default; see the following table for a list of all enemies with a higher or lower number of NPC slots. Active enemies exclude many enemies considered part of the same enemy, for example, body and tail parts of , because a Giant Worm, which has 6–8 segments (i.e. individual enemies), would otherwise occupy a disproportionate number of NPC slots. Town NPCs are not considered active NPCs for the purposes of NPC spawning. See the following table for a list of enemies that are not considered active.
 
-+&emsp;NPCs with non-default NPC slots&emsp;
++ NPCs with non-default NPC slots 
 align=center |
 NPC !! NPC slots
-+&emsp;NPCs that are never considered active&emsp;
++ NPCs that are never considered active 
 
 Natural spawn rates
 + Key
@@ -30635,12 +27659,9 @@ colspan=3 | 1/20
 1/
 
 Hardmode
-rowspan=2 | Biome/Event/
 Boss fight
 colspan=3 | Surface
-rowspan=2 | Underground
 rowspan=2 | Cavern
-rowspan=2 | Underworld
 Day
 Night
 
@@ -30826,9 +27847,7 @@ References
 ---
 ## POTIONS
 共 125 篇文档
-
 # 文档：Buff potions
-
 - 类别：potions
 - 标识：buff potions
 - 来源：wiki/Buff_potions
@@ -30836,9 +27855,7 @@ References
 This is a list of potions that grant buffs. Also see Flasks.
 
 ---
-
 # 文档：Fishing foods
-
 - 类别：potions
 - 标识：fishing foods
 - 来源：wiki/Fishing_foods
@@ -30871,9 +27888,7 @@ The Cooked Fish's tooltip, "Where's the chips!?" refers to an English dish calle
 History
 
 ---
-
 # 文档：Flasks
-
 - 类别：potions
 - 标识：flasks
 - 来源：wiki/Flasks
@@ -30889,14 +27904,12 @@ Notes
 Despite being a magic weapon, the Wand of Sparking is affected by flask buffs.
 
 ---
-
 # 文档：Food and drink potions
-
 - 类别：potions
 - 标识：food and drink potions
 - 来源：wiki/Food_and_drink_potions
 
-This is a list all of Terraria<nowiki/>'s food and drink items. All grant the Well Fed, Plenty Satisfied, or Exquisitely Stuffed buffs (with the exception of Ale, , and ). Food and drink can be placed on plates. Food dropped by enemies seems to not be dropped by their statue-spawned counterparts.
+This is a list all of Terraria's food and drink items. All grant the Well Fed, Plenty Satisfied, or Exquisitely Stuffed buffs (with the exception of Ale, , and ). Food and drink can be placed on plates. Food dropped by enemies seems to not be dropped by their statue-spawned counterparts.
 
 Using food items in The Constant seed will cancel Hunger debuff.
 
@@ -30908,7 +27921,6 @@ Drops from Forest Trees with a  chance.
 Well Fed ()
 5 minutes
 
-Drops from Forest Trees with a  chance.
 Well Fed ()
 5 minutes
 
@@ -30936,23 +27948,12 @@ Drops from Hallow Trees (and their palm variants) with a  (Hallow Tree) and  (Ha
 Plenty Satisfied ()
 5 minutes
 
-Drops from Corrupt Trees (and their palm variants) with a  chance.
 Well Fed ()
 5 minutes
 
-Drops from Forest Trees with a  chance.
 Well Fed ()
 5 minutes
 
-Drops from Forest Trees with a  chance.
-Well Fed ()
-5 minutes
-
-Drops from Jungle Trees with a  chance.
-Well Fed ()
-5 minutes
-
-Drops from Forest Trees with a  chance.
 Well Fed ()
 5 minutes
 
@@ -30960,15 +27961,18 @@ Drops from Jungle Trees with a  chance.
 Well Fed ()
 5 minutes
 
-Drops from Boreal Trees with a  chance.
 Well Fed ()
 5 minutes
 
-Drops from Crimson Trees (and their palm variants) with a  chance.
 Well Fed ()
 5 minutes
 
-Drops from Hallow Trees (and their palm variants) with a  (Hallow Tree) and  (Hallow Palm) chance.
+Well Fed ()
+5 minutes
+
+Well Fed ()
+5 minutes
+
 Plenty Satisfied ()
 5 minutes
 Spicy Pepper
@@ -30988,7 +27992,6 @@ Dropped from Pigrons with a   /   chance, or from the Pigronata with a  chance.
 
 24 minutes
 
-
 Drops from Antlion, Antlion Chargers, Antlion Swarmers,
 Giant Antlion Chargers and Giant Antlion Swarmers with a  chance.
 Plenty Satisfied ()
@@ -30996,11 +27999,9 @@ Plenty Satisfied ()
 
 Dropped from Skeleton Commando, Skeleton Sniper, and Tactical Skeletons
 with a  chance, or from Paladins with a  chance.
-Exquisitely Stuffed ()
 24 minutes
 
 Drops from Eaters of Souls and Crimera with a  chance.
-Exquisitely Stuffed ()
 8 minutes
 
 Drops from all Skeleton variants with a  chance.
@@ -31044,7 +28045,6 @@ Plenty Satisfied ()
 14 minutes
 
 Drops from Icy Mermen and Ice Tortoises with a  chance.
-Exquisitely Stuffed ()
 16 minutes
 
 Drops from all Sand Sharks and Angry Tumblers with a  chance.
@@ -31052,7 +28052,6 @@ Plenty Satisfied ()
 16 minutes
 
 Drops from Medusas and Hoplites with a  chance.
-Exquisitely Stuffed ()
 8 minutes
 
 Drops from Salamanders, Giant Shellys, and Crawdads with a  chance.
@@ -31068,30 +28067,12 @@ Well Fed ()
 5 minutes
 
 Drops from Granite Golems and Granite Elementals with a  chance.
-Exquisitely Stuffed ()
 8 minutes
 
 Drops from Undead Miners with a  chance or from The Possessed with a  chance.
-Exquisitely Stuffed ()
 16 minutes
 
 Obtained from Presents with a  chance.
-
-
-
-
-
-Obtained from Presents with a  chance.
-
-
-
-
-
-Obtained from Presents with a  chance.
-
-
-
-
 
 Obtained from Fishings with a  chance instead of junk.
 (Minor improvements to all stats)
@@ -31104,18 +28085,7 @@ Well Fed ()
 
 Sometimes sold by the Traveling Merchant.
 
-
-
-
-
-Sometimes sold by the Traveling Merchant.
-
-
-
-
-
 Tipsy/Drunk buffs
-Food/Drink !! Source !! Effect !! Duration !! Buff icon
 
 Crafted:
 Tipsy ()
@@ -31131,9 +28101,7 @@ Drunk (Numbs the user from damage taken but also reduces damage inflicted)
 show-buff = yes
 
 ---
-
 # 文档：Potions
-
 - 类别：potions
 - 标识：potions
 - 来源：wiki/Potions
@@ -31143,8 +28111,6 @@ Potions are consumable items that either recover the user's health and/or mana e
 Potion buffs can be canceled at any time by right-clicking the buff icon (), by selecting the buff icon and canceling it in the equipment menu (), by selecting the buff with  + / then canceling the buff with  (), by double-tapping the buff icon (), or by canceling the buff from the buffs screen (). All potion buffs (including food buffs) are lost when dying, or when leaving and rejoining the world (as of 1.4.4, flasks stay).
 
 In Journey Mode, all Potions require 20 research to unlock duplication, but 30 research is needed for recovery potions.
-
-
 
 Recovery potions
 These potions restore health, mana, or even both at the same time. They are limited in use by the Potion Sickness and Mana Sickness debuffs, respectively. The Potion Sickness debuff duration can be reduced with a Charm of Myths or a Philosopher's Stone.
@@ -31181,16 +28147,12 @@ Of these four potions, only the Heartreach potion can be obtained from Crates.
 History
 
 ---
-
 # 文档：Potions/vi
-
 - 类别：potions
 - 标识：potions/vi
 - 来源：wiki/Potions/vi
 
 Thuốc là những vật phẩm tiêu hao có thể phục hồi máu và/hoặc mana/vi hoặc cho một số buffs tạm thời. Thuốc thường được tìm thấy trong tự nhiên như rương và Bình và có thể rớt ra từ Kẻ địch, mua từ các NPCs, hoặc tự chế tạo. Hầu như tất cả mọi loại thuốc đều có thể được chế tạo tại Placed Bottle hoặc Alchemy Table, nhưng 'bình thuốc' chỉ có thể được chế tạo tại Imbuing Station. Hiệu ứng của thuốc có thể bị hủy bất cứ lúc nào bằng cách nhấp chuột phải vào biểu tượng buff (), bằng cách chọn biểu tượng buff và hủy nó trong menu trang bị (), bằng cách nhấn đúp vào biểu tượng buff (), hoặc bằng cách hủy buff ra khỏi màn hình buff (). Tất cả mọi loại thuốc yêu cầu 20 để mở khóa chức năng nhân bản, nhưng 30 là cần thiết cho bình phục hồi.
-
-
 
 Thuốc phục hồi
 Những loại thuốc này sẽ hồi máu và mana/vi, hoặc thậm chí là cả hai. Khi dùng chúng sẽ gây ra Potion Sickness/vi hoặc Mana Sickness/vi debuffs với những loại tương ứng để giới hạn số lần sử dụng của người chơi. Thời gian debuff của Potion Sickness có thể giảm xuống bởi Charm of Myths/vi hoặc Philosopher's Stone/vi.
@@ -31227,9 +28189,7 @@ Note that since 1.4.0.1 update, you can place a Dryad in graveyard biome and get
 Lịch sử
 
 ---
-
 # 文档：Bowl of Soup
-
 - 类别：potions
 - 标识：bowl of soup
 - 来源：wiki/Bowl_of_Soup
@@ -31245,9 +28205,7 @@ On the  versions, only the Clay Bowl can be used to make the Bowl of Soup. Glass
 History
 
 ---
-
 # 文档：Builder Potion
-
 - 类别：potions
 - 标识：builder potion
 - 来源：wiki/Builder_Potion
@@ -31263,9 +28221,7 @@ The Builder buff's placement range increase stacks with the effects of both the 
 History
 
 ---
-
 # 文档：Bunny Stew
-
 - 类别：potions
 - 标识：bunny stew
 - 来源：wiki/Bunny_Stew
@@ -31281,9 +28237,7 @@ In seed "getfixedboi" you can't use gem bunnies to create stew.
 History
 
 ---
-
 # 文档：Burger
-
 - 类别：potions
 - 标识：burger
 - 来源：wiki/Burger
@@ -31301,9 +28255,7 @@ Burgers dropping from Crimeras and Eaters of Souls may be a reference to this co
 History
 
 ---
-
 # 文档：Calming Potion
-
 - 类别：potions
 - 标识：calming potion
 - 来源：wiki/Calming_Potion
@@ -31325,9 +28277,7 @@ While not directly helpful against bosses themselves, it can be useful to use ag
 History
 
 ---
-
 # 文档：Carton of Milk
-
 - 类别：potions
 - 标识：carton of milk
 - 来源：wiki/Carton_of_Milk
@@ -31339,9 +28289,7 @@ The fact that Skeleton variants drop milk, as well as the tooltip directly refer
 History
 
 ---
-
 # 文档：Christmas Pudding
-
 - 类别：potions
 - 标识：christmas pudding
 - 来源：wiki/Christmas_Pudding
@@ -31354,9 +28302,7 @@ is traditionally served for dinner on Christmas. It originated in England.
 History
 
 ---
-
 # 文档：Cooked Marshmallow
-
 - 类别：potions
 - 标识：cooked marshmallow
 - 来源：wiki/Cooked_Marshmallow
@@ -31376,9 +28322,7 @@ The tooltip is a play on "S'mores", a popular food item that requires a cooked m
 History
 
 ---
-
 # 文档：Crate Potion
-
 - 类别：potions
 - 标识：crate potion
 - 来源：wiki/Crate_Potion
@@ -31394,9 +28338,7 @@ History
 References
 
 ---
-
 # 文档：Damage Booster
-
 - 类别：potions
 - 标识：damage booster
 - 来源：wiki/Damage_Booster
@@ -31415,9 +28357,7 @@ If a Damage Booster is placed into the player's inventory using an inventory edi
 History
 
 ---
-
 # 文档：Dangersense Potion
-
 - 类别：potions
 - 标识：dangersense potion
 - 来源：wiki/Dangersense_Potion
@@ -31427,9 +28367,7 @@ The Dangersense Potion is a buff potion that grants the Dangersense buff when co
 List of hazards
 
 ---
-
 # 文档：Dragon Fruit
-
 - 类别：potions
 - 标识：dragon fruit
 - 来源：wiki/Dragon_Fruit
@@ -31447,9 +28385,7 @@ Despite being a cactus fruit in real life, dragon fruit has no connection to Cac
 History
 
 ---
-
 # 文档：Eggnog
-
 - 类别：potions
 - 标识：eggnog
 - 来源：wiki/Eggnog
@@ -31459,9 +28395,7 @@ The Eggnog is a type of healing potion dropped from Presents obtained during the
 History
 
 ---
-
 # 文档：Elderberry
-
 - 类别：potions
 - 标识：elderberry
 - 来源：wiki/Elderberry
@@ -31481,9 +28415,7 @@ Despite the name indicating a single elderberry, the sprite depicts multiple eld
 History
 
 ---
-
 # 文档：Endurance Potion
-
 - 类别：potions
 - 标识：endurance potion
 - 来源：wiki/Endurance_Potion
@@ -31504,9 +28436,7 @@ The Endurance Potion is more effective than the Ironskin Potion against attacks 
 History
 
 ---
-
 # 文档：Escargot
-
 - 类别：potions
 - 标识：escargot
 - 来源：wiki/Escargot
@@ -31521,9 +28451,7 @@ The tooltip, "Look at that S Car Go!" is wordplay on the silent ‘T’ at the e
 History
 
 ---
-
 # 文档：Featherfall Potion
-
 - 类别：potions
 - 标识：featherfall potion
 - 来源：wiki/Featherfall_Potion
@@ -31546,9 +28474,7 @@ This potion and the Djinn's Curse are the only items that can prevent fall damag
 History
 
 ---
-
 # 文档：Fishing Potion
-
 - 类别：potions
 - 标识：fishing potion
 - 来源：wiki/Fishing_Potion
@@ -31563,9 +28489,7 @@ The potion itself resembles a fishing hook.
 History
 
 ---
-
 # 文档：Flask of Cursed Flames
-
 - 类别：potions
 - 标识：flask of cursed flames
 - 来源：wiki/Flask_of_Cursed_Flames
@@ -31584,9 +28508,7 @@ The Flask of Cursed Flames can prove to be very useful when mining, as it gives 
 History
 
 ---
-
 # 文档：Flask of Fire
-
 - 类别：potions
 - 标识：flask of fire
 - 来源：wiki/Flask_of_Fire
@@ -31608,9 +28530,7 @@ It was previously the only non-renewable flask currently in the game, since Hell
 History
 
 ---
-
 # 文档：Flask of Gold
-
 - 类别：potions
 - 标识：flask of gold
 - 来源：wiki/Flask_of_Gold
@@ -31634,9 +28554,7 @@ Lucky Coin
 History
 
 ---
-
 # 文档：Flask of Ichor
-
 - 类别：potions
 - 标识：flask of ichor
 - 来源：wiki/Flask_of_Ichor
@@ -31656,9 +28574,7 @@ Ichor stacks with and can be used alongside Betsy's Wrath for a huge reduction o
 History
 
 ---
-
 # 文档：Flask of Nanites
-
 - 类别：potions
 - 标识：flask of nanites
 - 来源：wiki/Flask_of_Nanites
@@ -31675,9 +28591,7 @@ Effective at controlling large crowds of enemies, and can reduce the difficulty 
 History
 
 ---
-
 # 文档：Flask of Party
-
 - 类别：potions
 - 标识：flask of party
 - 来源：wiki/Flask_of_Party
@@ -31700,9 +28614,7 @@ Using a drill while under the buff will make the player appear to "shoot" confet
 History
 
 ---
-
 # 文档：Flask of Poison
-
 - 类别：potions
 - 标识：flask of poison
 - 来源：wiki/Flask_of_Poison
@@ -31716,9 +28628,7 @@ Recipes
 History
 
 ---
-
 # 文档：Flask of Venom
-
 - 类别：potions
 - 标识：flask of venom
 - 来源：wiki/Flask_of_Venom
@@ -31732,9 +28642,7 @@ Recipes
 History
 
 ---
-
 # 文档：Flipper Potion
-
 - 类别：potions
 - 标识：flipper potion
 - 来源：wiki/Flipper_Potion
@@ -31748,9 +28656,7 @@ Recipes
 History
 
 ---
-
 # 文档：Fried Egg
-
 - 类别：potions
 - 标识：fried egg
 - 来源：wiki/Fried_Egg
@@ -31763,9 +28669,7 @@ The fact that the Sand Poacher may drop a Fried Egg upon death could be a play o
 History
 
 ---
-
 # 文档：Fries
-
 - 类别：potions
 - 标识：fries
 - 来源：wiki/Fries
@@ -31780,9 +28684,7 @@ The fact that the item drops from Flying Fish may reference the meal fish and ch
 History
 
 ---
-
 # 文档：Froggle Bunwich
-
 - 类别：potions
 - 标识：froggle bunwich
 - 来源：wiki/Froggle_Bunwich
@@ -31798,9 +28700,7 @@ See also
 History
 
 ---
-
 # 文档：Frozen Banana Daiquiri
-
 - 类别：potions
 - 标识：frozen banana daiquiri
 - 来源：wiki/Frozen_Banana_Daiquiri
@@ -31815,9 +28715,7 @@ is a 1966 song by folk singer Donovan, which at the time was rumored to be about
 History
 
 ---
-
 # 文档：Fruit Juice
-
 - 类别：potions
 - 标识：fruit juice
 - 来源：wiki/Fruit_Juice
@@ -31834,9 +28732,7 @@ The Apricots, Cherries, Grapefruits, and Plums are the only fruits that have no 
 History
 
 ---
-
 # 文档：Fruit Salad
-
 - 类别：potions
 - 标识：fruit salad
 - 来源：wiki/Fruit_Salad
@@ -31853,9 +28749,7 @@ The Apricots, Cherries, Grapefruits, and Plums are the only fruits that have no 
 History
 
 ---
-
 # 文档：Gender Change Potion
-
 - 类别：potions
 - 标识：gender change potion
 - 来源：wiki/Gender_Change_Potion
@@ -31878,9 +28772,7 @@ The Gender Change Potion is the only potion which requires all seven herbs to cr
 History
 
 ---
-
 # 文档：Gills Potion
-
 - 类别：potions
 - 标识：gills potion
 - 来源：wiki/Gills_Potion
@@ -31904,9 +28796,7 @@ It has the same recipe as the Sonar Potion.
 History
 
 ---
-
 # 文档：Gingerbread Cookie
-
 - 类别：potions
 - 标识：gingerbread cookie
 - 来源：wiki/Gingerbread_Cookie
@@ -31919,9 +28809,7 @@ Its tooltip is a reference to the movies  & , in which the Gingerbread man says 
 History
 
 ---
-
 # 文档：Golden Delight
-
 - 类别：potions
 - 标识：golden delight
 - 来源：wiki/Golden_Delight
@@ -31944,9 +28832,7 @@ The Golden Delight has the longest buff duration of any food item.
 History
 
 ---
-
 # 文档：Grape Juice
-
 - 类别：potions
 - 标识：grape juice
 - 来源：wiki/Grape_Juice
@@ -31961,9 +28847,7 @@ Its tooltip refers to a joke of stand-up comedian , in which he lists the ingred
 History
 
 ---
-
 # 文档：Grapefruit
-
 - 类别：potions
 - 标识：grapefruit
 - 来源：wiki/Grapefruit
@@ -31981,9 +28865,7 @@ The Grapefruit, Apricot, Cherry, and Plum are the only fruits that do not have u
 History
 
 ---
-
 # 文档：Grapes
-
 - 类别：potions
 - 标识：grapes
 - 来源：wiki/Grapes
@@ -32007,9 +28889,7 @@ In the real world, s originated from the Mediterranean and Central Asia and are 
 History
 
 ---
-
 # 文档：Gravitation Potion
-
 - 类别：potions
 - 标识：gravitation potion
 - 来源：wiki/Gravitation_Potion
@@ -32044,9 +28924,7 @@ Gravity Globe
 History
 
 ---
-
 # 文档：Greater Healing Potion
-
 - 类别：potions
 - 标识：greater healing potion
 - 来源：wiki/Greater_Healing_Potion
@@ -32071,9 +28949,7 @@ Healing Potion
 History
 
 ---
-
 # 文档：Greater Mana Potion
-
 - 类别：potions
 - 标识：greater mana potion
 - 来源：wiki/Greater_Mana_Potion
@@ -32095,9 +28971,7 @@ The Greater Mana Potion is identical in name and fairly similar in appearance to
 History
 
 ---
-
 # 文档：Grilled Squirrel
-
 - 类别：potions
 - 标识：grilled squirrel
 - 来源：wiki/Grilled_Squirrel
@@ -32114,9 +28988,7 @@ The Grilled Squirrel closely resembles the Squirrel on a stick from the post-apo
 History
 
 ---
-
 # 文档：Grub Soup
-
 - 类别：potions
 - 标识：grub soup
 - 来源：wiki/Grub_Soup
@@ -32128,9 +29000,7 @@ Recipes
 History
 
 ---
-
 # 文档：Healing Potion
-
 - 类别：potions
 - 标识：healing potion
 - 来源：wiki/Healing_Potion
@@ -32151,9 +29021,7 @@ Before 1.4.3.3, the Wall of Flesh is the only boss to drop Healing Potions.
 History
 
 ---
-
 # 文档：Heartreach Potion
-
 - 类别：potions
 - 标识：heartreach potion
 - 来源：wiki/Heartreach_Potion
@@ -32170,9 +29038,7 @@ Like the Rage Potion to the Wrath Potion, the Heartreach Potion may be seen as a
 History
 
 ---
-
 # 文档：Honeyfin
-
 - 类别：potions
 - 标识：honeyfin
 - 来源：wiki/Honeyfin
@@ -32192,9 +29058,7 @@ The Honeyfin is one of three fished consumables, the other two being the Frost D
 History
 
 ---
-
 # 文档：Horn o' plenty
-
 - 类别：potions
 - 标识：horn o plenty
 - 来源：wiki/Horn_o'_plenty
@@ -32212,9 +29076,7 @@ It is the only healing item with infinite uses.
 History
 
 ---
-
 # 文档：Hotdog
-
 - 类别：potions
 - 标识：hotdog
 - 来源：wiki/Hotdog
@@ -32224,9 +29086,7 @@ The Hotdog is a food item dropped by the Bone Serpent and Red Devil with a  chan
 History
 
 ---
-
 # 文档：Hunter Potion
-
 - 类别：potions
 - 标识：hunter potion
 - 来源：wiki/Hunter_Potion
@@ -32252,9 +29112,7 @@ It can be quite difficult to craft, as a Shark Fin is needed for each one. Shark
 History
 
 ---
-
 # 文档：Ice Cream
-
 - 类别：potions
 - 标识：ice cream
 - 来源：wiki/Ice_Cream
@@ -32266,9 +29124,7 @@ It is dropped by Ice Slimes, Ice Bats, and Spiked Ice Slimes with a 0.67% chance
 History
 
 ---
-
 # 文档：Inferno Potion
-
 - 类别：potions
 - 标识：inferno potion
 - 来源：wiki/Inferno_Potion
@@ -32291,9 +29147,7 @@ Gallery
 History
 
 ---
-
 # 文档：Invisibility Potion
-
 - 类别：potions
 - 标识：invisibility potion
 - 来源：wiki/Invisibility_Potion
@@ -32317,9 +29171,7 @@ Its spawnrate reduction stacks with that of the Calming Potion, Peace Candle and
 History
 
 ---
-
 # 文档：Ironskin Potion
-
 - 类别：potions
 - 标识：ironskin potion
 - 来源：wiki/Ironskin_Potion
@@ -32341,9 +29193,7 @@ Lead in real life is actually toxic when orally ingested.
 History
 
 ---
-
 # 文档：Jungle Juice
-
 - 类别：potions
 - 标识：jungle juice
 - 来源：wiki/Jungle_Juice
@@ -32368,9 +29218,7 @@ Life Fruit
 History
 
 ---
-
 # 文档：Lemon
-
 - 类别：potions
 - 标识：lemon
 - 来源：wiki/Lemon
@@ -32387,9 +29235,7 @@ Its tooltip is a reference to the saying, "When life gives you lemons, make lemo
 History
 
 ---
-
 # 文档：Lesser Healing Potion
-
 - 类别：potions
 - 标识：lesser healing potion
 - 来源：wiki/Lesser_Healing_Potion
@@ -32411,9 +29257,7 @@ The Lesser Healing Potion is one of the very few potions that use Bottles instea
 History
 
 ---
-
 # 文档：Lesser Mana Potion
-
 - 类别：potions
 - 标识：lesser mana potion
 - 来源：wiki/Lesser_Mana_Potion
@@ -32427,9 +29271,7 @@ Used in
 History
 
 ---
-
 # 文档：Lesser Restoration Potion
-
 - 类别：potions
 - 标识：lesser restoration potion
 - 来源：wiki/Lesser_Restoration_Potion
@@ -32450,9 +29292,7 @@ This item cannot be used as a direct replacement for the Lesser Mana Potion as i
 History
 
 ---
-
 # 文档：Life Booster
-
 - 类别：potions
 - 标识：life booster
 - 来源：wiki/Life_Booster
@@ -32471,9 +29311,7 @@ If a Life Booster is placed into the player's inventory using an inventory edito
 History
 
 ---
-
 # 文档：Life Crystal
-
 - 类别：potions
 - 标识：life crystal
 - 来源：wiki/Life_Crystal
@@ -32517,9 +29355,7 @@ History
 References
 
 ---
-
 # 文档：Life Fruit
-
 - 类别：potions
 - 标识：life fruit
 - 来源：wiki/Life_Fruit
@@ -32571,9 +29407,7 @@ History
 References
 
 ---
-
 # 文档：Lifeforce Potion
-
 - 类别：potions
 - 标识：lifeforce potion
 - 来源：wiki/Lifeforce_Potion
@@ -32597,9 +29431,7 @@ Using the Lifeforce Potion can greatly increase a player's chances of winning an
 History
 
 ---
-
 # 文档：Love Potion
-
 - 类别：potions
 - 标识：love potion
 - 来源：wiki/Love_Potion
@@ -32626,9 +29458,7 @@ Stink Potion
 History
 
 ---
-
 # 文档：Luck Potions
-
 - 类别：potions
 - 标识：luck potions
 - 来源：wiki/Luck_Potions
@@ -32644,9 +29474,7 @@ Recipes
 History
 
 ---
-
 # 文档：Magic Power Potion
-
 - 类别：potions
 - 标识：magic power potion
 - 来源：wiki/Magic_Power_Potion
@@ -32665,9 +29493,7 @@ This potion is very useful when using the hood version of the Spectre armor, as 
 History
 
 ---
-
 # 文档：Mana Booster
-
 - 类别：potions
 - 标识：mana booster
 - 来源：wiki/Mana_Booster
@@ -32686,9 +29512,7 @@ If a Mana Booster is placed into the player's inventory using an inventory edito
 History
 
 ---
-
 # 文档：Mana Crystal
-
 - 类别：potions
 - 标识：mana crystal
 - 来源：wiki/Mana_Crystal
@@ -32713,9 +29537,7 @@ However unlike Life Crystals, they cannot be used to craft lanterns or boulders.
 History
 
 ---
-
 # 文档：Mana Potion
-
 - 类别：potions
 - 标识：mana potion
 - 来源：wiki/Mana_Potion
@@ -32735,9 +29557,7 @@ Even though the Mana Potion is used to craft the Mana Flower, the Mana Flower's 
 History
 
 ---
-
 # 文档：Mana Regeneration Potion
-
 - 类别：potions
 - 标识：mana regeneration potion
 - 来源：wiki/Mana_Regeneration_Potion
@@ -32752,9 +29572,7 @@ This potion's buff grants the user the same speed of mana regeneration as a play
 History
 
 ---
-
 # 文档：Mango
-
 - 类别：potions
 - 标识：mango
 - 来源：wiki/Mango
@@ -32768,9 +29586,7 @@ Used in
 History
 
 ---
-
 # 文档：Milkshake
-
 - 类别：potions
 - 标识：milkshake
 - 来源：wiki/Milkshake
@@ -32783,9 +29599,7 @@ Its tooltip is a reference to the namesake song Milkshake by Kelis.
 History
 
 ---
-
 # 文档：Mining Potion
-
 - 类别：potions
 - 标识：mining potion
 - 来源：wiki/Mining_Potion
@@ -32806,9 +29620,7 @@ The sprite slightly resembles a pickaxe when turned upside-down:
 History
 
 ---
-
 # 文档：Monster Lasagna
-
 - 类别：potions
 - 标识：monster lasagna
 - 来源：wiki/Monster_Lasagna
@@ -32824,9 +29636,7 @@ See also
 History
 
 ---
-
 # 文档：Mushroom
-
 - 类别：potions
 - 标识：mushroom
 - 来源：wiki/Mushroom
@@ -32857,9 +29667,7 @@ While Life Fruits technically have the lowest healing, healing 5 health per use,
 History
 
 ---
-
 # 文档：Night Owl Potion
-
 - 类别：potions
 - 标识：night owl potion
 - 来源：wiki/Night_Owl_Potion
@@ -32878,9 +29686,7 @@ The night vision given by this potion is the same as the one provided by Night V
 History
 
 ---
-
 # 文档：Obsidian Skin Potion
-
 - 类别：potions
 - 标识：obsidian skin potion
 - 来源：wiki/Obsidian_Skin_Potion
@@ -32896,9 +29702,7 @@ While the Fireblossom can easily be collected in the Underworld, the Waterleaf w
 History
 
 ---
-
 # 文档：Pad Thai
-
 - 类别：potions
 - 标识：pad thai
 - 来源：wiki/Pad_Thai
@@ -32911,9 +29715,7 @@ is a Thai dish made of noodles and various ingredients, cooked without soup.
 History
 
 ---
-
 # 文档：Peach
-
 - 类别：potions
 - 标识：peach
 - 来源：wiki/Peach
@@ -32927,9 +29729,7 @@ Used in
 History
 
 ---
-
 # 文档：Peach Sangria
-
 - 类别：potions
 - 标识：peach sangria
 - 来源：wiki/Peach_Sangria
@@ -32941,9 +29741,7 @@ Recipes
 History
 
 ---
-
 # 文档：Pho
-
 - 类别：potions
 - 标识：pho
 - 来源：wiki/Pho
@@ -32960,9 +29758,7 @@ History
 References
 
 ---
-
 # 文档：Pineapple
-
 - 类别：potions
 - 标识：pineapple
 - 来源：wiki/Pineapple
@@ -32980,9 +29776,7 @@ Its tooltip is a reference to the recent debates about whether or not pineapple 
 History
 
 ---
-
 # 文档：Plum
-
 - 类别：potions
 - 标识：plum
 - 来源：wiki/Plum
@@ -32999,9 +29793,7 @@ The Plum, Apricot, Grapefruit and Cherry are the only fruits that do not have un
 History
 
 ---
-
 # 文档：Potion of Return
-
 - 类别：potions
 - 标识：potion of return
 - 来源：wiki/Potion_of_Return
@@ -33032,9 +29824,7 @@ This item is probably a nod to the Scroll of Town Portal from the Diablo series 
 History
 
 ---
-
 # 文档：Prismatic Punch
-
 - 类别：potions
 - 标识：prismatic punch
 - 来源：wiki/Prismatic_Punch
@@ -33053,9 +29843,7 @@ The Prismatic Punch may also be a reference to the similarly colorful Prismatic 
 History
 
 ---
-
 # 文档：Pumpkin Pie
-
 - 类别：potions
 - 标识：pumpkin pie
 - 来源：wiki/Pumpkin_Pie
@@ -33076,9 +29864,7 @@ Despite the icon showing a raised and covered top, a traditional pumpkin pie has
 History
 
 ---
-
 # 文档：Rage Potion
-
 - 类别：potions
 - 标识：rage potion
 - 来源：wiki/Rage_Potion
@@ -33094,9 +29880,7 @@ Recipes
 History
 
 ---
-
 # 文档：Recall Potion
-
 - 类别：potions
 - 标识：recall potion
 - 来源：wiki/Recall_Potion
@@ -33111,9 +29895,7 @@ Used in
 History
 
 ---
-
 # 文档：Recovery potions
-
 - 类别：potions
 - 标识：recovery potions
 - 来源：wiki/Recovery_potions
@@ -33121,9 +29903,7 @@ History
 This is a list of potions which restore health, mana, or both.
 
 ---
-
 # 文档：Red Potion
-
 - 类别：potions
 - 标识：red potion
 - 来源：wiki/Red_Potion
@@ -33154,9 +29934,7 @@ The "R" on the potion's lid is a reference to its name.
 History
 
 ---
-
 # 文档：Regeneration Potion
-
 - 类别：potions
 - 标识：regeneration potion
 - 来源：wiki/Regeneration_Potion
@@ -33173,9 +29951,7 @@ The Regeneration Potion is very useful when planning to fight for an extended pe
 History
 
 ---
-
 # 文档：Restoration Potion
-
 - 类别：potions
 - 标识：restoration potion
 - 来源：wiki/Restoration_Potion
@@ -33203,9 +29979,7 @@ All Lesser Restoration Potions were replaced with Restoration Potions in .
 History
 
 ---
-
 # 文档：Resurrection Potion
-
 - 类别：potions
 - 标识：resurrection potion
 - 来源：wiki/Resurrection_Potion
@@ -33216,9 +29990,7 @@ Trivia
 Having a large number of Resurrection Potions on hand can allow a player to easily enter and explore the Dungeon before defeating Skeletron, as the Dungeon Guardians deplete a supply of potions somewhat slowly.
 
 ---
-
 # 文档：Roasted Bird
-
 - 类别：potions
 - 标识：roasted bird
 - 来源：wiki/Roasted_Bird
@@ -33236,9 +30008,7 @@ The Roasted Bird seems to be the icon for the Well Fed buff.
 History
 
 ---
-
 # 文档：Roasted Duck
-
 - 类别：potions
 - 标识：roasted duck
 - 来源：wiki/Roasted_Duck
@@ -33254,9 +30024,7 @@ Even though the buff icon for Exquisitely Stuffed depicts a Roasted Duck, the Ro
 History
 
 ---
-
 # 文档：Sake
-
 - 类别：potions
 - 标识：sake
 - 来源：wiki/Sake
@@ -33277,9 +30045,7 @@ The tooltip is likely a reference to "" martial art styles. Despite the name, th
 History
 
 ---
-
 # 文档：Shine Potion
-
 - 类别：potions
 - 标识：shine potion
 - 来源：wiki/Shine_Potion
@@ -33294,9 +30060,7 @@ It loses some of its usefulness when the Shadow Orb, Crimson Heart, or a Mining 
 History
 
 ---
-
 # 文档：Smoothie of Darkness
-
 - 类别：potions
 - 标识：smoothie of darkness
 - 来源：wiki/Smoothie_of_Darkness
@@ -33311,9 +30075,7 @@ Its tooltip "Come to the dark side, we have smoothies" is a reference to the fam
 History
 
 ---
-
 # 文档：Sonar Potion
-
 - 类别：potions
 - 标识：sonar potion
 - 来源：wiki/Sonar_Potion
@@ -33336,9 +30098,7 @@ It has the same crafting recipe as the Gills Potion.
 History
 
 ---
-
 # 文档：Spelunker Potion
-
 - 类别：potions
 - 标识：spelunker potion
 - 来源：wiki/Spelunker_Potion
@@ -33387,9 +30147,7 @@ History
 Footnotes
 
 ---
-
 # 文档：Star Fruit
-
 - 类别：potions
 - 标识：star fruit
 - 来源：wiki/Star_Fruit
@@ -33410,9 +30168,7 @@ The real-world  is a tropical fruit that grows in Southeast Asia. When cut in cr
 History
 
 ---
-
 # 文档：Steak
-
 - 类别：potions
 - 标识：steak
 - 来源：wiki/Steak
@@ -33426,9 +30182,7 @@ However, it is much more reasonable to obtain than the Golden Delight, making it
 History
 
 ---
-
 # 文档：Stink Potion
-
 - 类别：potions
 - 标识：stink potion
 - 来源：wiki/Stink_Potion
@@ -33446,9 +30200,7 @@ Slime Gun
 History
 
 ---
-
 # 文档：Strange Brew
-
 - 类别：potions
 - 标识：strange brew
 - 来源：wiki/Strange_Brew
@@ -33466,9 +30218,7 @@ Nothing || 40%
 History
 
 ---
-
 # 文档：Summoning Potion
-
 - 类别：potions
 - 标识：summoning potion
 - 来源：wiki/Summoning_Potion
@@ -33483,9 +30233,7 @@ This potion can be used to help the player earn the  achievement.
 History
 
 ---
-
 # 文档：Super Healing Potion
-
 - 类别：potions
 - 标识：super healing potion
 - 来源：wiki/Super_Healing_Potion
@@ -33509,9 +30257,7 @@ The Moon Lord is the only boss that drops Super Healing Potions. All other bosse
 History
 
 ---
-
 # 文档：Super Mana Potion
-
 - 类别：potions
 - 标识：super mana potion
 - 来源：wiki/Super_Mana_Potion
@@ -33529,9 +30275,7 @@ Crafting an entire stack of 99 Super Mana potions would require 105 Greater Mana
 History
 
 ---
-
 # 文档：Swiftness Potion
-
 - 类别：potions
 - 标识：swiftness potion
 - 来源：wiki/Swiftness_Potion
@@ -33553,9 +30297,7 @@ Horizontal movement
 History
 
 ---
-
 # 文档：Teacup
-
 - 类别：potions
 - 标识：teacup
 - 来源：wiki/Teacup
@@ -33573,9 +30315,7 @@ The only root ingredient needed to craft Teacups is sand, provided all the other
 History
 
 ---
-
 # 文档：Teleportation Potion
-
 - 类别：potions
 - 标识：teleportation potion
 - 来源：wiki/Teleportation_Potion
@@ -33604,9 +30344,7 @@ History
 References
 
 ---
-
 # 文档：Thorns Potion
-
 - 类别：potions
 - 标识：thorns potion
 - 来源：wiki/Thorns_Potion
@@ -33631,9 +30369,7 @@ Like the Wrath Potion to the Rage Potion, the Thorns Potion may be seen as a cou
 History
 
 ---
-
 # 文档：Titan Potion
-
 - 类别：potions
 - 标识：titan potion
 - 来源：wiki/Titan_Potion
@@ -33654,9 +30390,7 @@ The Titan Potion's buff icon could be a reference to the , and how the Titans po
 History
 
 ---
-
 # 文档：Tropical Smoothie
-
 - 类别：potions
 - 标识：tropical smoothie
 - 来源：wiki/Tropical_Smoothie
@@ -33668,9 +30402,7 @@ Recipes
 History
 
 ---
-
 # 文档：Warmth Potion
-
 - 类别：potions
 - 标识：warmth potion
 - 来源：wiki/Warmth_Potion
@@ -33701,9 +30433,7 @@ Despite its name, this buff does not protect against the Chilled debuff. The onl
 History
 
 ---
-
 # 文档：Water Walking Potion
-
 - 类别：potions
 - 标识：water walking potion
 - 来源：wiki/Water_Walking_Potion
@@ -33722,9 +30452,7 @@ Falling onto water will still prevent fall damage.
 History
 
 ---
-
 # 文档：Wiesnbräu
-
 - 类别：potions
 - 标识：wiesnbräu
 - 来源：wiki/Wiesnbräu
@@ -33746,9 +30474,7 @@ Ale, a consumable of similar appearance whose granted debuff acts oppositely.
 History
 
 ---
-
 # 文档：Wormhole Potion
-
 - 类别：potions
 - 标识：wormhole potion
 - 来源：wiki/Wormhole_Potion
@@ -33773,9 +30499,7 @@ Prior to 1.3.0.3, the Wormhole Potion was named  internally.
 History
 
 ---
-
 # 文档：Wrath Potion
-
 - 类别：potions
 - 标识：wrath potion
 - 来源：wiki/Wrath_Potion
@@ -33793,9 +30517,7 @@ History
 ---
 ## WEAPONS
 共 138 篇文档
-
 # 文档：List of weapons
-
 - 类别：weapons
 - 标识：list of weapons
 - 来源：wiki/List_of_weapons
@@ -33823,9 +30545,7 @@ q?limit=1000
 template=:/row
 
 ---
-
 # 文档：Weapons
-
 - 类别：weapons
 - 标识：weapons
 - 来源：wiki/Weapons
@@ -33904,9 +30624,7 @@ If an enemy is under the effect of a piercing attack (including explosions), it 
 Unlike most games, no matter how far an enemy is from the center of the blast radius, they always receive full damage from an AoE attack.
 
 ---
-
 # 文档：Weapons/ja
-
 - 类别：weapons
 - 标识：weapons/ja
 - 来源：wiki/Weapons/ja
@@ -33993,9 +30711,7 @@ If an enemy is under the effect of a piercing attack (including explosions), it 
 Unlike most games, no matter how far an enemy is from the center of the blast radius, they always receive full damage from an AoE attack.
 
 ---
-
 # 文档：Hardmode weapons
-
 - 类别：weapons
 - 标识：hardmode weapons
 - 来源：wiki/Hardmode_weapons
@@ -34030,9 +30746,7 @@ Combat Tools
 Other Weapons
 
 ---
-
 # 文档：List of possible modifiers
-
 - 类别：weapons
 - 标识：list of possible modifiers
 - 来源：wiki/List_of_possible_modifiers
@@ -34042,9 +30756,7 @@ This page lists all weapons and the modifiers that each one can receive. For the
 Footnotes
 
 ---
-
 # 文档：Abigail's Flower
-
 - 类别：weapons
 - 标识：abigails flower
 - 来源：wiki/Abigail's_Flower
@@ -34089,9 +30801,7 @@ History
 References
 
 ---
-
 # 文档：Acorn Slingshot
-
 - 类别：weapons
 - 标识：acorn slingshot
 - 来源：wiki/Acorn_Slingshot
@@ -34099,9 +30809,7 @@ References
 Acorn Slingshot is a pre-Hardmode weapon that drops from shaking trees.
 
 ---
-
 # 文档：Adamantite Chainsaw
-
 - 类别：weapons
 - 标识：adamantite chainsaw
 - 来源：wiki/Adamantite_Chainsaw
@@ -34113,9 +30821,7 @@ Recipes
 History
 
 ---
-
 # 文档：Adamantite Drill
-
 - 类别：weapons
 - 标识：adamantite drill
 - 来源：wiki/Adamantite_Drill
@@ -34132,9 +30838,7 @@ Early into Hardmode, it is usually preferable to save Adamantite for armor and w
 History
 
 ---
-
 # 文档：Adamantite Glaive
-
 - 类别：weapons
 - 标识：adamantite glaive
 - 来源：wiki/Adamantite_Glaive
@@ -34150,9 +30854,7 @@ Recipes
 History
 
 ---
-
 # 文档：Adamantite Pickaxe
-
 - 类别：weapons
 - 标识：adamantite pickaxe
 - 来源：wiki/Adamantite_Pickaxe
@@ -34169,9 +30871,7 @@ Early into Hardmode, it is usually preferable to save Adamantite for armor and w
 History
 
 ---
-
 # 文档：Adamantite Repeater
-
 - 类别：weapons
 - 标识：adamantite repeater
 - 来源：wiki/Adamantite_Repeater
@@ -34183,9 +30883,7 @@ Recipes
 History
 
 ---
-
 # 文档：Adamantite Sword
-
 - 类别：weapons
 - 标识：adamantite sword
 - 来源：wiki/Adamantite_Sword
@@ -34199,9 +30897,7 @@ Recipes
 History
 
 ---
-
 # 文档：Adamantite Waraxe
-
 - 类别：weapons
 - 标识：adamantite waraxe
 - 来源：wiki/Adamantite_Waraxe
@@ -34213,9 +30909,7 @@ Recipes
 History
 
 ---
-
 # 文档：Aerial Bane
-
 - 类别：weapons
 - 标识：aerial bane
 - 来源：wiki/Aerial_Bane
@@ -34241,9 +30935,7 @@ History
 References
 
 ---
-
 # 文档：Ale Tosser
-
 - 类别：weapons
 - 标识：ale tosser
 - 来源：wiki/Ale_Tosser
@@ -34258,9 +30950,7 @@ Like all ranged weapons, the Ale Tosser is affected by ammo conservation effects
 History
 
 ---
-
 # 文档：Amarok
-
 - 类别：weapons
 - 标识：amarok
 - 来源：wiki/Amarok
@@ -34283,9 +30973,7 @@ It is possible to get the Amarok from Deerclops.
 History
 
 ---
-
 # 文档：Amazon
-
 - 类别：weapons
 - 标识：amazon
 - 来源：wiki/Amazon
@@ -34306,9 +30994,7 @@ Its high sale price makes it a decent source of money when the required material
 History
 
 ---
-
 # 文档：Amber Staff
-
 - 类别：weapons
 - 标识：amber staff
 - 来源：wiki/Amber_Staff
@@ -34329,9 +31015,7 @@ The Amber Staff is the only gem staff that does not require metal bars to craft;
 History
 
 ---
-
 # 文档：Amethyst Staff
-
 - 类别：weapons
 - 标识：amethyst staff
 - 来源：wiki/Amethyst_Staff
@@ -34347,9 +31031,7 @@ Due to its somewhat slow projectile speed, this weapon suffers when facing movin
 History
 
 ---
-
 # 文档：Aqua Scepter
-
 - 类别：weapons
 - 标识：aqua scepter
 - 来源：wiki/Aqua_Scepter
@@ -34378,9 +31060,7 @@ Due to the blue color of the staff portion of the scepter, it can be assumed it 
 History
 
 ---
-
 # 文档：Arkhalis
-
 - 类别：weapons
 - 标识：arkhalis
 - 来源：wiki/Arkhalis
@@ -34416,9 +31096,7 @@ The weapon is named for Arkhayla, a former Quality Director at Re-Logic. Its too
 }}
 
 ---
-
 # 文档：Artery
-
 - 类别：weapons
 - 标识：artery
 - 来源：wiki/Artery
@@ -34435,9 +31113,7 @@ Continuing with the Crimson's blood and gore theme for its items, such as Bloody
 History
 
 ---
-
 # 文档：Ash Wood Bow
-
 - 类别：weapons
 - 标识：ash wood bow
 - 来源：wiki/Ash_Wood_Bow
@@ -34454,9 +31130,7 @@ Use time increased from 25 to 29.
 History
 
 ---
-
 # 文档：Ash Wood Hammer
-
 - 类别：weapons
 - 标识：ash wood hammer
 - 来源：wiki/Ash_Wood_Hammer
@@ -34482,9 +31156,7 @@ Achievements
 History
 
 ---
-
 # 文档：Ash Wood Sword
-
 - 类别：weapons
 - 标识：ash wood sword
 - 来源：wiki/Ash_Wood_Sword
@@ -34501,9 +31173,7 @@ Use time increased from 17 to 23.
 History
 
 ---
-
 # 文档：Axe of Regrowth
-
 - 类别：weapons
 - 标识：axe of regrowth
 - 来源：wiki/Axe_of_Regrowth
@@ -34534,9 +31204,7 @@ History
 References
 
 ---
-
 # 文档：Axearang
-
 - 类别：weapons
 - 标识：axearang
 - 来源：wiki/Axearang
@@ -34557,9 +31225,7 @@ The Axearang's sprite may be based on the kukri, a style of Nepali machete often
 bro this great tree vs axe war is hilarious as hell
 
 ---
-
 # 文档：Ball O' Hurt
-
 - 类别：weapons
 - 标识：ball o hurt
 - 来源：wiki/Ball_O'_Hurt
@@ -34577,9 +31243,7 @@ A rather humorous modifier for this weapon is Hurtful, making it the "Hurtful Ba
 History
 
 ---
-
 # 文档：Ballista sentry summons
-
 - 类别：weapons
 - 标识：ballista sentry summons
 - 来源：wiki/Ballista_sentry_summons
@@ -34622,9 +31286,7 @@ Explosive Trap sentry summons
 History
 
 ---
-
 # 文档：Bananarang
-
 - 类别：weapons
 - 标识：bananarang
 - 来源：wiki/Bananarang
@@ -34649,9 +31311,7 @@ The Bananarang can be obtained as early as the first Blood Moon in Hardmode, yet
 History
 
 ---
-
 # 文档：Barrel Launcher
-
 - 类别：weapons
 - 标识：barrel launcher
 - 来源：wiki/Barrel_Launcher
@@ -34661,9 +31321,7 @@ The Barrel Launcher is a Hardmode ranged weapon dropped by regular Pirate Invasi
 History
 
 ---
-
 # 文档：Bat Bat
-
 - 类别：weapons
 - 标识：bat bat
 - 来源：wiki/Bat_Bat
@@ -34681,9 +31339,7 @@ History
 References
 
 ---
-
 # 文档：Bat Scepter
-
 - 类别：weapons
 - 标识：bat scepter
 - 来源：wiki/Bat_Scepter
@@ -34707,9 +31363,7 @@ On the , it makes a subtle sound similar to that of wings when fired.
 History
 
 ---
-
 # 文档：Beam Sword
-
 - 类别：weapons
 - 标识：beam sword
 - 来源：wiki/Beam_Sword
@@ -34732,9 +31386,7 @@ It is statistically a direct upgrade to the Enchanted Sword, it can autoswing.
 History
 
 ---
-
 # 文档：Bee Gun
-
 - 类别：weapons
 - 标识：bee gun
 - 来源：wiki/Bee_Gun
@@ -34765,9 +31417,7 @@ Wasp Gun, a similar Hardmode weapon dropped from Plantera
 History
 
 ---
-
 # 文档：Betsy's Wrath
-
 - 类别：weapons
 - 标识：betsys wrath
 - 来源：wiki/Betsy's_Wrath
@@ -34786,9 +31436,7 @@ Immune NPCs
 History
 
 ---
-
 # 文档：Blade Staff
-
 - 类别：weapons
 - 标识：blade staff
 - 来源：wiki/Blade_Staff
@@ -34821,7 +31469,7 @@ Because of its rapid attack rate, it is an effective summon for killing a Dungeo
 
 Trivia
 Despite being a Hardmode drop, the Blade Staff has the second lowest base damage out of all summon weapons, the lowest being the Lightning Aura Rod.
-Along with the Stardust Dragon Staff, Desert Tiger Staff, and Raven Staff, the Blade Staff is one of four summon weapons whose buff description is not "&lt;name of minion&gt; will fight for you", instead being "".
+Along with the Stardust Dragon Staff, Desert Tiger Staff, and Raven Staff, the Blade Staff is one of four summon weapons whose buff description is not "<name of minion> will fight for you", instead being "".
 "", or Lingchi, was a torture and execution method used in China from roughly 900 CE until it was banned in 1905.
 It is also the title of a song by popular American singer .
 The Blade Staff seems to have a similar color scheme to the Hallowed Mimic's drops, most closely resembling the Flying Knife.
@@ -34830,9 +31478,7 @@ The internal name for the Blade Staff is “Smolstar”.
 History
 
 ---
-
 # 文档：Bladed Glove
-
 - 类别：weapons
 - 标识：bladed glove
 - 来源：wiki/Bladed_Glove
@@ -34856,9 +31502,7 @@ On the , the blade part of the Bladed Glove cycles through rainbow colors. On th
 History
 
 ---
-
 # 文档：Bladetongue
-
 - 类别：weapons
 - 标识：bladetongue
 - 来源：wiki/Bladetongue
@@ -34883,9 +31527,7 @@ The Bladetongue resembles the Oculus Reaver in Starbound.
 History
 
 ---
-
 # 文档：Blizzard Staff
-
 - 类别：weapons
 - 标识：blizzard staff
 - 来源：wiki/Blizzard_Staff
@@ -34904,9 +31546,7 @@ Aiming lower increases this weapon's accuracy, although this is less noticeable 
 History
 
 ---
-
 # 文档：Blood Lust Cluster
-
 - 类别：weapons
 - 标识：blood lust cluster
 - 来源：wiki/Blood_Lust_Cluster
@@ -34926,9 +31566,7 @@ It shares the same sprite as the Crimson Axe enemy, except for the red glow.
 History
 
 ---
-
 # 文档：Blood Rain Bow
-
 - 类别：weapons
 - 标识：blood rain bow
 - 来源：wiki/Blood_Rain_Bow
@@ -34949,9 +31587,7 @@ The tooltip  is a reference to the thrash metal band Slayer's
 History
 
 ---
-
 # 文档：Blood Thorn
-
 - 类别：weapons
 - 标识：blood thorn
 - 来源：wiki/Blood_Thorn
@@ -34968,9 +31604,7 @@ The Ice Blocks summoned by the Ice Rod can serve as roots for the Blood Thorns.
 History
 
 ---
-
 # 文档：Blood Water
-
 - 类别：weapons
 - 标识：blood water
 - 来源：wiki/Blood_Water
@@ -34997,9 +31631,7 @@ Guide:Artificial biomes
 History
 
 ---
-
 # 文档：Bloody Machete
-
 - 类别：weapons
 - 标识：bloody machete
 - 来源：wiki/Bloody_Machete
@@ -35023,9 +31655,7 @@ This is the iconic weapon of Jason Voorhees, the hockey-mask-wearing serial kill
 History
 
 ---
-
 # 文档：Blowgun
-
 - 类别：weapons
 - 标识：blowgun
 - 来源：wiki/Blowgun
@@ -35050,9 +31680,7 @@ Dart Rifle
 History
 
 ---
-
 # 文档：Blowpipe
-
 - 类别：weapons
 - 标识：blowpipe
 - 来源：wiki/Blowpipe
@@ -35080,9 +31708,7 @@ Dart Rifle
 History
 
 ---
-
 # 文档：Blue Moon
-
 - 类别：weapons
 - 标识：blue moon
 - 来源：wiki/Blue_Moon
@@ -35104,9 +31730,7 @@ The item's name refers to a , a natural phenomenon.
 History
 
 ---
-
 # 文档：Blue Phaseblade
-
 - 类别：weapons
 - 标识：blue phaseblade
 - 来源：wiki/Blue_Phaseblade
@@ -35129,9 +31753,7 @@ The Phaseblade can be considered the Meteorite-tier ore sword, due to there bein
 History
 
 ---
-
 # 文档：Blue Phasesaber
-
 - 类别：weapons
 - 标识：blue phasesaber
 - 来源：wiki/Blue_Phasesaber
@@ -35155,9 +31777,7 @@ In order to fix a bug where Phasesabers placed on Weapon Racks would be unbreaka
 History
 
 ---
-
 # 文档：Bone Javelin
-
 - 类别：weapons
 - 标识：bone javelin
 - 来源：wiki/Bone_Javelin
@@ -35188,9 +31808,7 @@ Javelin
 History
 
 ---
-
 # 文档：Bone Pickaxe
-
 - 类别：weapons
 - 标识：bone pickaxe
 - 来源：wiki/Bone_Pickaxe
@@ -35205,9 +31823,7 @@ Its tooltip is a reference to the same phrase and a play on words on its name.
 History
 
 ---
-
 # 文档：Bone Sword
-
 - 类别：weapons
 - 标识：bone sword
 - 来源：wiki/Bone_Sword
@@ -35223,9 +31839,7 @@ Using Skeleton Statues can make obtaining the Bone Sword easier.
 History
 
 ---
-
 # 文档：Bone Throwing Knife
-
 - 类别：weapons
 - 标识：bone throwing knife
 - 来源：wiki/Bone_Throwing_Knife
@@ -35245,9 +31859,7 @@ Crafting and selling Bone Throwing Knives is the most efficient way to get money
 History
 
 ---
-
 # 文档：Book of Skulls
-
 - 类别：weapons
 - 标识：book of skulls
 - 来源：wiki/Book_of_Skulls
@@ -35268,9 +31880,7 @@ The skulls tend to hit the same enemy multiple times, giving it both good crowd 
 History
 
 ---
-
 # 文档：Boomstick
-
 - 类别：weapons
 - 标识：boomstick
 - 来源：wiki/Boomstick
@@ -35294,9 +31904,7 @@ The Boomstick bears a slight resemblance visually to the real-world gun Remingto
 History
 
 ---
-
 # 文档：Bouncy Bomb
-
 - 类别：weapons
 - 标识：bouncy bomb
 - 来源：wiki/Bouncy_Bomb
@@ -35312,9 +31920,7 @@ The Bouncy Bomb can be very useful in PvP, as it is unpredictable and can easily
 History
 
 ---
-
 # 文档：Bouncy Dynamite
-
 - 类别：weapons
 - 标识：bouncy dynamite
 - 来源：wiki/Bouncy_Dynamite
@@ -35335,9 +31941,7 @@ The tooltip appears to be referring to the fact that Bouncy Dynamite is both har
 History
 
 ---
-
 # 文档：Bouncy Grenade
-
 - 类别：weapons
 - 标识：bouncy grenade
 - 来源：wiki/Bouncy_Grenade
@@ -35355,9 +31959,7 @@ It can also be useful in certain boss fights as it can travel much further than 
 History
 
 ---
-
 # 文档：Brand of the Inferno
-
 - 类别：weapons
 - 标识：brand of the inferno
 - 来源：wiki/Brand_of_the_Inferno
@@ -35388,9 +31990,7 @@ The Brand of the Inferno has similarities to the  in regard to blade design and 
 History
 
 ---
-
 # 文档：Breaker Blade
-
 - 类别：weapons
 - 标识：breaker blade
 - 来源：wiki/Breaker_Blade
@@ -35417,9 +32017,7 @@ It is the third largest sword in the game, only behind the Volcano and the Blade
 History
 
 ---
-
 # 文档：Breathing Reed
-
 - 类别：weapons
 - 标识：breathing reed
 - 来源：wiki/Breathing_Reed
@@ -35427,8 +32025,6 @@ History
 The Breathing Reed is an item which aids underwater travel. It can be found in Water Chests and Ocean Crates. On the , it is also a melee weapon.
 
 For the Breathing Reed to take effect, it must be held, i.e. selected in the hotbar or being attached to the cursor. When held, the reed appears above the player and the rate at which their breath meter depletes as well as the rate at which they lose health while drowning is halved. The reed's tip does not need to be above the surface of the water for this to take effect. Additionally, the breath meter refills as soon as the tip of the reed is outside of water, but not within a block.
-
-
 
 Notes
 Holding the Breathing Reed prolongs the underwater breath to 46.67seconds or, if paired with diving equipment, to 3minutes and 6.67seconds. In addition, the rate at which health is lost while drowning is reduced to 1/2 or 1/8, respectively.
@@ -35438,9 +32034,7 @@ Holding it while having a Fish Bowl in the armor slot will prevent the player fr
 History
 
 ---
-
 # 文档：Butcher's Chainsaw
-
 - 类别：weapons
 - 标识：butchers chainsaw
 - 来源：wiki/Butcher's_Chainsaw
@@ -35471,9 +32065,7 @@ History
 References
 
 ---
-
 # 文档：Cactus Pickaxe
-
 - 类别：weapons
 - 标识：cactus pickaxe
 - 来源：wiki/Cactus_Pickaxe
@@ -35488,9 +32080,7 @@ The Cactus Pickaxe does not require ores or an Anvil to craft, which means that 
 History
 
 ---
-
 # 文档：Cactus Sword
-
 - 类别：weapons
 - 标识：cactus sword
 - 来源：wiki/Cactus_Sword
@@ -35507,9 +32097,7 @@ Selling a Cactus Sword is × as profitable as selling its ingredients.
 History
 
 ---
-
 # 文档：Candy Cane Pickaxe
-
 - 类别：weapons
 - 标识：candy cane pickaxe
 - 来源：wiki/Candy_Cane_Pickaxe
@@ -35523,9 +32111,7 @@ Opening presents to get the Candy Cane Pickaxe is a way to get a third-tier pick
 History
 
 ---
-
 # 文档：Candy Cane Sword
-
 - 类别：weapons
 - 标识：candy cane sword
 - 来源：wiki/Candy_Cane_Sword
@@ -35543,9 +32129,7 @@ This sword could be quite useful early on, as it deals  base damage and has a la
 History
 
 ---
-
 # 文档：Candy Corn Rifle
-
 - 类别：weapons
 - 标识：candy corn rifle
 - 来源：wiki/Candy_Corn_Rifle
@@ -35566,9 +32150,7 @@ This weapon appears to be based off of the , a real-life pistol used during Worl
 History
 
 ---
-
 # 文档：Cascade
-
 - 类别：weapons
 - 标识：cascade
 - 来源：wiki/Cascade
@@ -35590,9 +32172,7 @@ The Wall of Flesh can drop the Cascade.
 History
 
 ---
-
 # 文档：Celebration
-
 - 类别：weapons
 - 标识：celebration
 - 来源：wiki/Celebration
@@ -35618,9 +32198,7 @@ The explosions bear a heavy resemblance to those from Firework Rockets. Addition
 History
 
 ---
-
 # 文档：Celebration Mk2
-
 - 类别：weapons
 - 标识：celebration mk2
 - 来源：wiki/Celebration_Mk2
@@ -35656,9 +32234,7 @@ History
 References
 
 ---
-
 # 文档：Chain Guillotines
-
 - 类别：weapons
 - 标识：chain guillotines
 - 来源：wiki/Chain_Guillotines
@@ -35682,9 +32258,7 @@ It has an extraordinarily low sell price for a Hardmode weapon.
 History
 
 ---
-
 # 文档：Chain Gun
-
 - 类别：weapons
 - 标识：chain gun
 - 来源：wiki/Chain_Gun
@@ -35716,9 +32290,7 @@ In real life, a chain gun is a single barreled weapon powered by an external pow
 History
 
 ---
-
 # 文档：Chain Knife
-
 - 类别：weapons
 - 标识：chain knife
 - 来源：wiki/Chain_Knife
@@ -35743,9 +32315,7 @@ Chain Guillotines, its Hardmode counterpart
 History
 
 ---
-
 # 文档：Chik
-
 - 类别：weapons
 - 标识：chik
 - 来源：wiki/Chik
@@ -35767,9 +32337,7 @@ The Chik is the only craftable One Drop yoyo.
 History
 
 ---
-
 # 文档：Chlorophyte Chainsaw
-
 - 类别：weapons
 - 标识：chlorophyte chainsaw
 - 来源：wiki/Chlorophyte_Chainsaw
@@ -35781,9 +32349,7 @@ Recipes
 History
 
 ---
-
 # 文档：Chlorophyte Claymore
-
 - 类别：weapons
 - 标识：chlorophyte claymore
 - 来源：wiki/Chlorophyte_Claymore
@@ -35807,9 +32373,7 @@ While many people associate the word 'claymore' with the , the word actually ori
 History
 
 ---
-
 # 文档：Chlorophyte Drill
-
 - 类别：weapons
 - 标识：chlorophyte drill
 - 来源：wiki/Chlorophyte_Drill
@@ -35821,9 +32385,7 @@ Recipes
 History
 
 ---
-
 # 文档：Chlorophyte Greataxe
-
 - 类别：weapons
 - 标识：chlorophyte greataxe
 - 来源：wiki/Chlorophyte_Greataxe
@@ -35835,9 +32397,7 @@ Recipes
 History
 
 ---
-
 # 文档：Chlorophyte Jackhammer
-
 - 类别：weapons
 - 标识：chlorophyte jackhammer
 - 来源：wiki/Chlorophyte_Jackhammer
@@ -35860,9 +32420,7 @@ The Chlorophyte Jackhammer is the only jackhammer in-game.
 History
 
 ---
-
 # 文档：Chlorophyte Partisan
-
 - 类别：weapons
 - 标识：chlorophyte partisan
 - 来源：wiki/Chlorophyte_Partisan
@@ -35887,9 +32445,7 @@ All existing Tonbogiris in 1.3.0.1-equivalent worlds were replaced by Chlorophyt
 History
 
 ---
-
 # 文档：Chlorophyte Pickaxe
-
 - 类别：weapons
 - 标识：chlorophyte pickaxe
 - 来源：wiki/Chlorophyte_Pickaxe
@@ -35905,9 +32461,7 @@ The pickaxe is only beneficial for +1 range, making the Pickaxe Axe a better too
 History
 
 ---
-
 # 文档：Chlorophyte Saber
-
 - 类别：weapons
 - 标识：chlorophyte saber
 - 来源：wiki/Chlorophyte_Saber
@@ -35921,9 +32475,7 @@ Recipes
 History
 
 ---
-
 # 文档：Chlorophyte Shotbow
-
 - 类别：weapons
 - 标识：chlorophyte shotbow
 - 来源：wiki/Chlorophyte_Shotbow
@@ -35950,9 +32502,7 @@ All existing Vulcan Repeaters in 1.3.0.1-equivalent worlds were replaced by Chlo
 History
 
 ---
-
 # 文档：Chlorophyte Warhammer
-
 - 类别：weapons
 - 标识：chlorophyte warhammer
 - 来源：wiki/Chlorophyte_Warhammer
@@ -35968,9 +32518,7 @@ The Chlorophyte Warhammer has the highest damage from all obtainable hammers, be
 History
 
 ---
-
 # 文档：Christmas Tree Sword
-
 - 类别：weapons
 - 标识：christmas tree sword
 - 来源：wiki/Christmas_Tree_Sword
@@ -36000,9 +32548,7 @@ History
 References
 
 ---
-
 # 文档：Classy Cane
-
 - 类别：weapons
 - 标识：classy cane
 - 来源：wiki/Classy_Cane
@@ -36021,9 +32567,7 @@ The Classy Cane's internal name is .
 History
 
 ---
-
 # 文档：Clinger Staff
-
 - 类别：weapons
 - 标识：clinger staff
 - 来源：wiki/Clinger_Staff
@@ -36052,9 +32596,7 @@ This weapon has the highest mana usage of all magic weapons in a single use.
 History
 
 ---
-
 # 文档：Clockwork Assault Rifle
-
 - 类别：weapons
 - 标识：clockwork assault rifle
 - 来源：wiki/Clockwork_Assault_Rifle
@@ -36083,9 +32625,7 @@ History
 Footnotes
 
 ---
-
 # 文档：Cobalt Chainsaw
-
 - 类别：weapons
 - 标识：cobalt chainsaw
 - 来源：wiki/Cobalt_Chainsaw
@@ -36097,9 +32637,7 @@ Recipes
 History
 
 ---
-
 # 文档：Cobalt Drill
-
 - 类别：weapons
 - 标识：cobalt drill
 - 来源：wiki/Cobalt_Drill
@@ -36113,9 +32651,7 @@ Recipes
 History
 
 ---
-
 # 文档：Cobalt Naginata
-
 - 类别：weapons
 - 标识：cobalt naginata
 - 来源：wiki/Cobalt_Naginata
@@ -36135,9 +32671,7 @@ A  is a traditional Japanese pole weapon, used by samurai. In reality, a naginat
 History
 
 ---
-
 # 文档：Cobalt Pickaxe
-
 - 类别：weapons
 - 标识：cobalt pickaxe
 - 来源：wiki/Cobalt_Pickaxe
@@ -36151,9 +32685,7 @@ Recipes
 History
 
 ---
-
 # 文档：Cobalt Repeater
-
 - 类别：weapons
 - 标识：cobalt repeater
 - 来源：wiki/Cobalt_Repeater
@@ -36165,9 +32697,7 @@ Recipes
 History
 
 ---
-
 # 文档：Cobalt Sword
-
 - 类别：weapons
 - 标识：cobalt sword
 - 来源：wiki/Cobalt_Sword
@@ -36188,9 +32718,7 @@ The Cobalt Sword has the fastest speed of all Hardmode Ore swords. This may be b
 History
 
 ---
-
 # 文档：Cobalt Waraxe
-
 - 类别：weapons
 - 标识：cobalt waraxe
 - 来源：wiki/Cobalt_Waraxe
@@ -36206,9 +32734,7 @@ It is one of the earliest available axe tools upon entering Hardmode, along with
 History
 
 ---
-
 # 文档：Cobwhip
-
 - 类别：weapons
 - 标识：cobwhip
 - 来源：wiki/Cobwhip
@@ -36220,9 +32746,7 @@ Recipes
 History
 
 ---
-
 # 文档：Code 1
-
 - 类别：weapons
 - 标识：code 1
 - 来源：wiki/Code_1
@@ -36242,9 +32766,7 @@ See also
 History
 
 ---
-
 # 文档：Code 2
-
 - 类别：weapons
 - 标识：code 2
 - 来源：wiki/Code_2
@@ -36264,16 +32786,12 @@ The colorway on the Code 2 sprite seems to be the same as One Drop’s Hairband 
 History
 
 ---
-
 # 文档：Coin Gun
-
 - 类别：weapons
 - 标识：coin gun
 - 来源：wiki/Coin_Gun
 
 The Coin Gun is a Hardmode ranged weapon that uses coins as ammunition, which cannot be retrieved once fired. Its damage and velocity depend on the type of coin fired. It is dropped very rarely (  /   chance) by regular Pirate Invasion enemies, excluding the Parrot. Its drop chance from Pirate Captain is quadrupled (  /   chance), and increased again from the Flying Dutchman (  /   chance).
-
-
 
 The Coin Gun cannot receive any modifiers that increase damage, so the modifier that boosts its  the most is Agile (+12% speed, +3% critical strike chance). Zealous (+5% critical strike chance) serves as the most ammo-efficient option, dealing the highest amount of damage per coin fired.
 
@@ -36285,9 +32803,7 @@ Velocity
 show-rangedother = yes
 
 ---
-
 # 文档：Combat Wrench
-
 - 类别：weapons
 - 标识：combat wrench
 - 来源：wiki/Combat_Wrench
@@ -36304,9 +32820,7 @@ with the Combat Wrench. Note how the wrench returns immediately when hitting blo
 History
 
 ---
-
 # 文档：Cool Whip
-
 - 类别：weapons
 - 标识：cool whip
 - 来源：wiki/Cool_Whip
@@ -36330,9 +32844,7 @@ With perfect timing, it is possible to summon a snowflake at the same time the p
 History
 
 ---
-
 # 文档：Copper Bow
-
 - 类别：weapons
 - 标识：copper bow
 - 来源：wiki/Copper_Bow
@@ -36347,9 +32859,7 @@ Though having 2 more base damage than the Wooden Bow, you may want to save your 
 History
 
 ---
-
 # 文档：Copper Broadsword
-
 - 类别：weapons
 - 标识：copper broadsword
 - 来源：wiki/Copper_Broadsword
@@ -36363,9 +32873,7 @@ Recipes
 History
 
 ---
-
 # 文档：Copper Hammer
-
 - 类别：weapons
 - 标识：copper hammer
 - 来源：wiki/Copper_Hammer
@@ -36378,9 +32886,7 @@ Achievements
 History
 
 ---
-
 # 文档：Copper Pickaxe
-
 - 类别：weapons
 - 标识：copper pickaxe
 - 来源：wiki/Copper_Pickaxe
@@ -36396,9 +32902,7 @@ Recipes
 History
 
 ---
-
 # 文档：Crimson Rod
-
 - 类别：weapons
 - 标识：crimson rod
 - 来源：wiki/Crimson_Rod
@@ -36426,9 +32930,7 @@ The Crimson Rod is the counterpart to the Corruption's Vilethorn, as the Viletho
 History
 
 ---
-
 # 文档：Crystal Serpent
-
 - 类别：weapons
 - 标识：crystal serpent
 - 来源：wiki/Crystal_Serpent
@@ -36449,9 +32951,7 @@ History
 References
 
 ---
-
 # 文档：Crystal Storm
-
 - 类别：weapons
 - 标识：crystal storm
 - 来源：wiki/Crystal_Storm
@@ -36488,9 +32988,7 @@ The initial spin of the projectiles is determined by the angle in which they are
 History
 
 ---
-
 # 文档：Cursed Flames
-
 - 类别：weapons
 - 标识：cursed flames
 - 来源：wiki/Cursed_Flames
@@ -36522,9 +33020,7 @@ The projectile of the Cursed Flames bears a resemblance to an ancient Byzantine 
 History
 
 ---
-
 # 文档：Cutlass
-
 - 类别：weapons
 - 标识：cutlass
 - 来源：wiki/Cutlass
@@ -36544,9 +33040,7 @@ It can almost be considered an upgrade of the Falcon Blade, sharing many of the
 History
 
 ---
-
 # 文档：Daedalus Stormbow
-
 - 类别：weapons
 - 标识：daedalus stormbow
 - 来源：wiki/Daedalus_Stormbow
@@ -36575,9 +33069,7 @@ The bow can be considered a Hardmode counterpart to the Blood Rain Bow due to it
 History
 
 ---
-
 # 文档：Dao of Pow
-
 - 类别：weapons
 - 标识：dao of pow
 - 来源：wiki/Dao_of_Pow
@@ -36600,15 +33092,13 @@ The Dao of Pow pairs well with flasks and other sources of lingering damage, whi
 Trivia
 This is one of a small "set" of weapons made with two shards apiece, the other members being the  and the . Their recipes, names and appearances link the weapons to themes of Darkness, Light, and Balance, with the Dao of Pow representing Balance. The set also includes one weapon for each of the three "classic" damage types (melee, magic, and ranged), where the Dao of Pow is the melee weapon.
 The Dao of Pow is colored black and white in a -style design commonly associated with . The Chinese word 道 means "way" or "path", and can also mean "philosophy". The word is often romanized to either "tao" or "dao".
-The tooltip, <i></i>, is a play on the phrase "Find your inner peace", referring to the inherent objective that Taoists should strive towards.
+The tooltip, , is a play on the phrase "Find your inner peace", referring to the inherent objective that Taoists should strive towards.
 The Dao of Pow is one of two flails that has pow used as the pun of the name, the other being the Flower Pow.
 
 History
 
 ---
-
 # 文档：Dark Harvest
-
 - 类别：weapons
 - 标识：dark harvest
 - 来源：wiki/Dark_Harvest
@@ -36639,9 +33129,7 @@ This item is similar to a , a sickle with a weighted chain attached to it.
 History
 
 ---
-
 # 文档：Dark Lance
-
 - 类别：weapons
 - 标识：dark lance
 - 来源：wiki/Dark_Lance
@@ -36667,9 +33155,7 @@ This is the only source of player-inflicted Shadowflame available pre-Hardmode.
 History
 
 ---
-
 # 文档：Dart Pistol
-
 - 类别：weapons
 - 标识：dart pistol
 - 来源：wiki/Dart_Pistol
@@ -36697,9 +33183,7 @@ It is currently the fastest dart-shooting weapon in the game.
 History
 
 ---
-
 # 文档：Dart Rifle
-
 - 类别：weapons
 - 标识：dart rifle
 - 来源：wiki/Dart_Rifle
@@ -36723,9 +33207,7 @@ The Dart Rifle is not capable of using the Rifle Scope or any of its upgrades to
 History
 
 ---
-
 # 文档：Daybreak
-
 - 类别：weapons
 - 标识：daybreak
 - 来源：wiki/Daybreak
@@ -36758,9 +33240,7 @@ Although not exactly the same in appearance, it looks similar to the spears used
 History
 
 ---
-
 # 文档：Deadly Sphere Staff
-
 - 类别：weapons
 - 标识：deadly sphere staff
 - 来源：wiki/Deadly_Sphere_Staff
@@ -36782,9 +33262,7 @@ One of the designs for the Deadly Sphere resembles a , a fictional starfighter i
 History
 
 ---
-
 # 文档：Death Sickle
-
 - 类别：weapons
 - 标识：death sickle
 - 来源：wiki/Death_Sickle
@@ -36818,9 +33296,7 @@ Despite its name, the Death Sickle more closely resembles a real-life  than a .
 History
 
 ---
-
 # 文档：Deathbringer Pickaxe
-
 - 类别：weapons
 - 标识：deathbringer pickaxe
 - 来源：wiki/Deathbringer_Pickaxe
@@ -36852,9 +33328,7 @@ After reaching Hardmode and acquiring a Cobalt/Palladium Drill or Pickaxe, howev
 History
 
 ---
-
 # 文档：Demon Bow
-
 - 类别：weapons
 - 标识：demon bow
 - 来源：wiki/Demon_Bow
@@ -36870,9 +33344,7 @@ The Demon Bow can almost always be crafted after killing the Eye of Cthulhu once
 History
 
 ---
-
 # 文档：Demon Scythe
-
 - 类别：weapons
 - 标识：demon scythe
 - 来源：wiki/Demon_Scythe
@@ -36902,9 +33374,7 @@ History
 References
 
 ---
-
 # 文档：Desert Tiger Staff
-
 - 类别：weapons
 - 标识：desert tiger staff
 - 来源：wiki/Desert_Tiger_Staff
@@ -36955,9 +33425,7 @@ History
 References
 
 ---
-
 # 文档：Diamond Staff
-
 - 类别：weapons
 - 标识：diamond staff
 - 来源：wiki/Diamond_Staff
@@ -36982,9 +33450,7 @@ Get Platinum Ore through Shimmer conversion.
 History
 
 ---
-
 # 文档：Dirt Bomb
-
 - 类别：weapons
 - 标识：dirt bomb
 - 来源：wiki/Dirt_Bomb
@@ -37010,9 +33476,7 @@ This is particularly useful when bombing out a Hellevator as the Dirt Bombs can 
 History
 
 ---
-
 # 文档：Drax
-
 - 类别：weapons
 - 标识：drax
 - 来源：wiki/Drax
@@ -37042,9 +33506,7 @@ Unlike most drills, the Drax has a minimal amount of knockback.
 History
 
 ---
-
 # 文档：Drippler Crippler
-
 - 类别：weapons
 - 标识：drippler crippler
 - 来源：wiki/Drippler_Crippler
@@ -37064,9 +33526,7 @@ The Drippler Crippler is one of three flails that fire additional projectiles, t
 History
 
 ---
-
 # 文档：Durendal
-
 - 类别：weapons
 - 标识：durendal
 - 来源：wiki/Durendal
@@ -37090,9 +33550,7 @@ Although the icon looks like a sword, this weapon is a whip of substantial lengt
 History
 
 ---
-
 # 文档：Dynamite
-
 - 类别：weapons
 - 标识：dynamite
 - 来源：wiki/Dynamite
@@ -37113,9 +33571,7 @@ Due to dynamite's large blast radius, it should be used with extreme caution.
 History
 
 ---
-
 # 文档：Ebonwood Bow
-
 - 类别：weapons
 - 标识：ebonwood bow
 - 来源：wiki/Ebonwood_Bow
@@ -37127,9 +33583,7 @@ Recipes
 History
 
 ---
-
 # 文档：Ebonwood Hammer
-
 - 类别：weapons
 - 标识：ebonwood hammer
 - 来源：wiki/Ebonwood_Hammer
@@ -37144,9 +33598,7 @@ Achievements
 History
 
 ---
-
 # 文档：Ebonwood Sword
-
 - 类别：weapons
 - 标识：ebonwood sword
 - 来源：wiki/Ebonwood_Sword
@@ -37166,9 +33618,7 @@ The Ebonwood Sword's sprite is very similar to that of the Wooden Sword, however
 History
 
 ---
-
 # 文档：Egg Cannon
-
 - 类别：weapons
 - 标识：egg cannon
 - 来源：wiki/Egg_Cannon
@@ -37184,9 +33634,7 @@ The Egg Cannon is very similar in name and design to the Star Cannon.
 History
 
 ---
-
 # 文档：Elf Melter
-
 - 类别：weapons
 - 标识：elf melter
 - 来源：wiki/Elf_Melter
@@ -37213,9 +33661,7 @@ The Elf Melter is misspelled in the internal game code as "EldMelter".
 History
 
 ---
-
 # 文档：Emerald Staff
-
 - 类别：weapons
 - 标识：emerald staff
 - 来源：wiki/Emerald_Staff
@@ -37236,9 +33682,7 @@ The bolt will travel at 41 mph until it hits an obstruction or enemy or goes off
 History
 
 ---
-
 # 文档：Enchanted Boomerang
-
 - 类别：weapons
 - 标识：enchanted boomerang
 - 来源：wiki/Enchanted_Boomerang
@@ -37278,7 +33722,6 @@ History
 ---
 ## BOSS_SUMMON_ITEMS
 共 15 篇文档
-
 # 文档：Celestial Sigil
 - 类别：boss_summon_items
 - 标识：celestial-sigil
@@ -37309,8 +33752,6 @@ The Celestial Sigil can only be used under the following circumstances:
 == History ==
 
 == Footnotes ==
-
-
 # 文档：Cursed stuffing
 - 类别：boss_summon_items
 - 标识：cursed-stuffing
@@ -37332,8 +33773,6 @@ To summon Turkor the Ungrateful, the player must first summon the Pet Turkey wit
 * One can prevent the Turkey feather from being consumed by putting it in a chest before using the stuffing. The Turkey Pet will still disappear, but the feather will not.
 
 == History ==
-
-
 # 文档：Deer Thing
 - 类别：boss_summon_items
 - 标识：deer-thing
@@ -37345,8 +33784,6 @@ The Deer Thing is a consumable summoning item that summons the Deerclops. It can
 === Recipes ===
 
 == History ==
-
-
 # 文档：Gelatin Crystal
 - 类别：boss_summon_items
 - 标识：gelatin-crystal
@@ -37372,8 +33809,6 @@ The Gelatin Crystal is a Hardmode consumable item used to summon the Queen Slime
 * Despite the difference, the Gelatin Crystal will be identified as a Crystal Shard by the minimap.
 
 == History ==
-
-
 # 文档：Lihzahrd Power Cell
 - 类别：boss_summon_items
 - 标识：lihzahrd-power-cell
@@ -37397,8 +33832,6 @@ On all versions, Golem may only be summoned in worlds where Plantera has been de
 *The Power Cell is the only item in the game whose midpoint is lower than that of the copper coin. Since they only have White rarity, they will be destroyed by any lava deep enough to destroy copper coins.
 
 == History ==
-
-
 # 文档：Mechanical Eye
 - 类别：boss_summon_items
 - 标识：mechanical-eye
@@ -37426,8 +33859,6 @@ The Mechanical Eye is a Hardmode item used to summon The Twins, the advanced and
 * Ocram's Razor, Mechdusa's summon item.
 
 == History ==
-
-
 # 文档：Mechanical Skull
 - 类别：boss_summon_items
 - 标识：mechanical-skull
@@ -37455,8 +33886,6 @@ The Mechanical Skull is a boss-summoning item used to summon Skeletron Prime, a 
 * Ocram's Razor, Mechdusa's summon item.
 
 == History ==
-
-
 # 文档：Mechanical Worm
 - 类别：boss_summon_items
 - 标识：mechanical-worm
@@ -37487,18 +33916,16 @@ The Mechanical Worm is a Hardmode item used to summon The Destroyer, the Hardmod
 * Ocram's Razor, Mechdusa's summon item.
 
 == History ==
-
-
 # 文档：Ocram's Razor
 - 类别：boss_summon_items
 - 标识：ocrams-razor
 - 来源：wiki/Ocram's_Razor
 
-Ocram's Razor is a secret boss summon item that can only be obtained and used in the secret seed. 
+Ocram's Razor is a secret boss summon item that can only be obtained and used in the secret seed.
 
-When used, it summons Mechdusa, an amalgamation of the 3 mechanical bosses who must be defeated to obtain the Waffle's Iron and progress the game. It cannot be crafted outside of the seed and using it outside of the seed will do nothing. 
+When used, it summons Mechdusa, an amalgamation of the 3 mechanical bosses who must be defeated to obtain the Waffle's Iron and progress the game. It cannot be crafted outside of the seed and using it outside of the seed will do nothing.
 
-On any world that wasn't generated with the Everything seed, its description says "It has no effect in this world". 
+On any world that wasn't generated with the Everything seed, its description says "It has no effect in this world".
 
 == Crafting ==
 === Recipes ===
@@ -37511,8 +33938,6 @@ On any world that wasn't generated with the Everything seed, its description say
 * On the "Everything" seed, it is actually required to fight Mechdusa before progressing through the game. Attempting to summon each mech boss individually will not work.
 
 == History ==
-
-
 # 文档：Prismatic Lacewing
 - 类别：boss_summon_items
 - 标识：prismatic-lacewing
@@ -37527,7 +33952,7 @@ The Prismatic Lacewing can be caught with a Bug Net. Releasing it from the inven
 
 == Notes ==
 * The Lacewing is classified in-game as an enemy so others won't kill it and spawn the boss by accident. However, player summons will not actively target it, though they might kill it via contact damage and unintended attacks.
-* The Lacewing will despawn almost immediately if released outside the Hallow, but can still be killed to summon the Empress of Light if done fast enough or if placed directly onto a damaging projectile, like that of the Rainbow Gun. 
+* The Lacewing will despawn almost immediately if released outside the Hallow, but can still be killed to summon the Empress of Light if done fast enough or if placed directly onto a damaging projectile, like that of the Rainbow Gun.
 * The Lacewing will also despawn almost immediately if released after midnight.
 * Lacewings will only spawn on Hallowed grass (not including its mowed variant), Pearlstone Blocks, Pearlsand Blocks, and Pink Ice Blocks.
 * A Lacewing can only be damaged by a player if they are close enough and will appear translucent if the player is far away. This is likely done to prevent accidentally summoning the Empress of Light via a stray ranged attack while the Lacewing is off-screen.
@@ -37550,8 +33975,6 @@ The Prismatic Lacewing can be caught with a Bug Net. Releasing it from the inven
 * Truffle Worms, another critter that is used for boss summoning.
 
 == History ==
-
-
 # 文档：Slime Crown
 - 类别：boss_summon_items
 - 标识：slime-crown
@@ -37572,8 +33995,6 @@ The Slime Crown is a boss-summoning item that appears as a small Blue Slime wear
 ** Even if created with a Platinum Crown, the Slime Crown will always appear to be made out of gold.
 
 == History ==
-
-
 # 文档：Suspicious Looking Egg
 - 类别：boss_summon_items
 - 标识：suspicious-looking-egg
@@ -37599,8 +34020,6 @@ Diseaster Bunnies will spawn at the surface during Easter like normal bunnies, t
 * Like the rest of the Suspicious Looking items, the name is grammatically incorrect; it should instead be Suspicious-Looking Egg.
 
 == History ==
-
-
 # 文档：Suspicious Looking Eye
 - 类别：boss_summon_items
 - 标识：suspicious-looking-eye
@@ -37624,8 +34043,6 @@ The Suspicious Looking Eye will only work at night. If the player tries to use i
 *The tooltip was changed from "May cause terrible things to occur" to "Summons the Eye of Cthulhu".
 
 == History ==
-
-
 # 文档：Truffle Worm
 - 类别：boss_summon_items
 - 标识：truffle-worm
@@ -37652,7 +34069,7 @@ On the , Truffle Worms can be killed by enemies.
 ** Furthermore, the will prevent the player from killing the worm accidentally.
 * Truffle Worms follow the Worm AI even in their passive state on .
 * 100 tiles of Mushroom blocks are not necessary for Truffle Worms to spawn. Mushroom enemies and Truffle Worms will spawn wherever there is Mushroom grass, without requiring that the area is actually considered a Glowing Mushroom biome.
-** On Mushroom grass, each enemy spawn has a 2/3 chance of being a mushroom-themed enemy or critter. Each time this happens, there is a 1/7 chance (1/5 as of ) that the mushroom-themed character is a Truffle Worm. Considering the maximum spawn rate (1/60 per tick), the maximum expected Truffle Worm spawns is 343 per hour (<code>2/3*1/7*3600</code>) (480 as of , although Truffle Worms can be killed by enemies on the versions, drastically increasing the difficulty to reach the expectancy).
+** On Mushroom grass, each enemy spawn has a 2/3 chance of being a mushroom-themed enemy or critter. Each time this happens, there is a 1/7 chance (1/5 as of ) that the mushroom-themed character is a Truffle Worm. Considering the maximum spawn rate (1/60 per tick), the maximum expected Truffle Worm spawns is 343 per hour (2/3*1/7*3600) (480 as of , although Truffle Worms can be killed by enemies on the versions, drastically increasing the difficulty to reach the expectancy).
 
 == Tips ==
 thumb|Using the Underground Jungle to farm Truffle Worms (having four at the same time was just lucky).
@@ -37691,8 +34108,6 @@ thumb|This is another multi-level farm, also useful for Truffle Worms and Glowin
 == History ==
 
 == Footnotes ==
-
-
 # 文档：Worm Food
 - 类别：boss_summon_items
 - 标识：worm-food
@@ -37713,7 +34128,6 @@ Worm Food is a boss-summoning item used to summon the Eater of Worlds. It can be
 == History ==
 ## DYE_ITEMS
 共 45 篇文档
-
 # 文档：Acid Dye
 - 类别：dye_items
 - 标识：acid-dye
@@ -37729,8 +34143,6 @@ Equipping Acid Dye, Red Acid Dye or Blue Acid Dye on the Shadow Orb can make par
 * Blue Acid Dye
 
 == History ==
-
-
 # 文档：Bloodbath Dye
 - 类别：dye_items
 - 标识：bloodbath-dye
@@ -37739,8 +34151,6 @@ Equipping Acid Dye, Red Acid Dye or Blue Acid Dye on the Shadow Orb can make par
 Bloodbath Dye is a dye purchased from the Dye Trader during a Blood Moon for . When applied, it gives the item an appearance similar to dripping blood.
 
 == History ==
-
-
 # 文档：Blue Acid Dye
 - 类别：dye_items
 - 标识：blue-acid-dye
@@ -37751,8 +34161,6 @@ Blue Acid Dye is a dye that can be obtained in a set of 3 by giving a Strange Pl
 Equipping Acid Dye, Red Acid Dye or Blue Acid Dye on the Shadow Orb can make parts of it or the whole orb invisible. 
 
 == History ==
-
-
 # 文档：Burning Hades Dye
 - 类别：dye_items
 - 标识：burning-hades-dye
@@ -37761,8 +34169,6 @@ Equipping Acid Dye, Red Acid Dye or Blue Acid Dye on the Shadow Orb can make par
 Burning Hades Dye is a Hardmode dye sometimes obtained from giving Strange Plants to Dye Trader. When applied, it turns the item orange and adds fire effects.
 
 == History ==
-
-
 # 文档：Chlorophyte Dye
 - 类别：dye_items
 - 标识：chlorophyte-dye
@@ -37771,8 +34177,6 @@ Burning Hades Dye is a Hardmode dye sometimes obtained from giving Strange Plant
 Chlorophyte Dye is a Hardmode dye that is obtained by trading Strange Plants found in the world to the Dye Trader. It can only be obtained after defeating any Mechanical Boss. It makes items show three colors: black, green, or neon green. The location the colors are placed appears to be based on saturation.
 
 == History ==
-
-
 # 文档：Dyes
 - 类别：dye_items
 - 标识：dyes
@@ -37788,8 +34192,6 @@ Dyes are not available on the , due to the unavailability of pixel shaders.
 == Basic Dyes ==
 
 == References ==
-
-
 # 文档：Fogbound Dye
 - 类别：dye_items
 - 标识：fogbound-dye
@@ -37797,14 +34199,10 @@ Dyes are not available on the , due to the unavailability of pixel shaders.
 
 Fogbound Dye is a dye purchased from the Dye Trader while in a for . When equipped, it reduces the color saturation of the item and gives it a grayer tone, with a fog-like effect overlaying on top of the item. This dye is also slightly visible in complete darkness, also being the only pre-Hardmode dye with this feature.
 
-<br />
-
 == Trivia ==
 This dye's name may be a reference to Fogbound, a joke boss from the Calamity's Vanities mod.
-<br />
+
 == History ==
-
-
 # 文档：Gel Dye
 - 类别：dye_items
 - 标识：gel-dye
@@ -37819,8 +34217,6 @@ Gel Dye is a Hardmode dye that can be acquired by trading the Strange Plant with
 * Using this dye in combination with the King Slime Mask and a blank vanity (like the Martian Costume set), allows the player to resemble a slime.
 
 == History ==
-
-
 # 文档：Glowing Mushroom Dye
 - 类别：dye_items
 - 标识：glowing-mushroom-dye
@@ -37832,8 +34228,6 @@ Glowing Mushroom Dye is a Hardmode dye obtained by trading Strange Plants found 
 * During a Blood Moon, the Glowing Mushroom Dye gives a magenta glow instead of blue. Since this is due to blending with the Blood Moon shader, it will only work in the surface layer.
 
 == History ==
-
-
 # 文档：Grim Dye
 - 类别：dye_items
 - 标识：grim-dye
@@ -37842,8 +34236,6 @@ Glowing Mushroom Dye is a Hardmode dye obtained by trading Strange Plants found 
 Grim Dye is a dye obtained by trading Strange Plants to the Dye Trader in a Hardmode world. When equipped, it turns the color of the armor or vanity currently selected into a blood red type color, while emitting a dark effect around the player, similar to Loki's Dye.
 
 == History ==
-
-
 # 文档：Hades Dye
 - 类别：dye_items
 - 标识：hades-dye
@@ -37855,8 +34247,6 @@ Hades Dye is a Dye obtained by trading Strange Plants with the Dye Trader in a H
 * The name and effect could be a reference to the representation of Hades in the Disney film Hercules, where Hades has hair made of blue fire.
 
 == History ==
-
-
 # 文档：Infernal Wisp Dye
 - 类别：dye_items
 - 标识：infernal-wisp-dye
@@ -37869,8 +34259,6 @@ Infernal Wisp Dye is a Hardmode, post-Plantera dye obtained by turning in Strang
 * Unicorn Wisp Dye
 
 == History ==
-
-
 # 文档：Living Flame Dye
 - 类别：dye_items
 - 标识：living-flame-dye
@@ -37879,8 +34267,6 @@ Infernal Wisp Dye is a Hardmode, post-Plantera dye obtained by turning in Strang
 Living Flame Dye is a Hardmode dye given to the player by the Dye Trader in exchange for Strange Plants. It can only be obtained after defeating a Mechanical Boss. Upon application, the dye will cause all items in the slot equipped to change colors to a fiery red, with a yellow-to-red rippling effect. Additionally, any items affected by this dye will flash upon taking damage.
 
 == History ==
-
-
 # 文档：Living Ocean Dye
 - 类别：dye_items
 - 标识：living-ocean-dye
@@ -37889,8 +34275,6 @@ Living Flame Dye is a Hardmode dye given to the player by the Dye Trader in exch
 Living Ocean Dye is a Hardmode dye acquired by giving a Strange Plant to the Dye Trader. It is only obtainable after defeating any Mechanical Boss.
 
 == History ==
-
-
 # 文档：Living Rainbow Dye
 - 类别：dye_items
 - 标识：living-rainbow-dye
@@ -37899,8 +34283,6 @@ Living Ocean Dye is a Hardmode dye acquired by giving a Strange Plant to the Dye
 Living Rainbow Dye is a Hardmode dye acquired from trading a Strange Plant with the Dye Trader. It is only obtainable after defeating a Mechanical Boss.
 
 == History ==
-
-
 # 文档：Loki's Dye
 - 类别：dye_items
 - 标识：lokis-dye
@@ -37909,8 +34291,6 @@ Living Rainbow Dye is a Hardmode dye acquired from trading a Strange Plant with 
 Loki's Dye is a Hardmode dye that can be obtained from Treasure Bags from killing Hardmode bosses in Expert Mode, as part of Loki's developer set. It does not change the color of the armor, but rather adds a dark gray flames effect, similar to four other dyes which are obtained by trading Strange Plants with the Dye Trader in Hardmode. Equipping Loki's Dye in all 3 dye slots intensifies the effect. It also makes the item in whatever slot it’s in glow in the dark.
 
 == History ==
-
-
 # 文档：Martian Dye
 - 类别：dye_items
 - 标识：martian-dye
@@ -37919,8 +34299,6 @@ Loki's Dye is a Hardmode dye that can be obtained from Treasure Bags from killin
 Martian Dye is a Hardmode, post-Golem dye that is sometimes acquired from the Dye Trader after completing a Strange Plant quest. It is only obtainable after completing a Martian Madness event. When equipped, it gives the player an aquamarine tone.
 
 == History ==
-
-
 # 文档：Midnight Rainbow Dye
 - 类别：dye_items
 - 标识：midnight-rainbow-dye
@@ -37929,8 +34307,6 @@ Martian Dye is a Hardmode, post-Golem dye that is sometimes acquired from the Dy
 Midnight Rainbow Dye is a dye that creates a "reverse" rainbow effect that waves throughout the colors of the spectrum. This dye can be earned by trading a Strange Plant with the Dye Trader after defeating the Martian Madness event.
 
 == History ==
-
-
 # 文档：Mirage Dye
 - 类别：dye_items
 - 标识：mirage-dye
@@ -37942,8 +34318,6 @@ Mirage Dye is a dye sometimes acquired from the Dye Trader after completing a St
 * The effect seems to be that the sprite's red channel is modeled after s, creating the shimmer effect.
 
 == History ==
-
-
 # 文档：Nebula Dye
 - 类别：dye_items
 - 标识：nebula-dye
@@ -37959,8 +34333,6 @@ Nebula Dye is a Hardmode, endgame dye crafted using Nebula Fragments dropped by 
 * The animation bears a slight resemblance to the visual effect which the Rod of Discord causes for a short time after using it.
 
 == History ==
-
-
 # 文档：Negative Dye
 - 类别：dye_items
 - 标识：negative-dye
@@ -37969,8 +34341,6 @@ Nebula Dye is a Hardmode, endgame dye crafted using Nebula Fragments dropped by 
 Negative Dye is a type of dye bought from the Dye Trader during a full moon, or given as a possible reward for turning in a Strange Plant. When applied, it will completely invert the color of the armor or accessory you dye. It is not combinable with other dyes.
 
 == History ==
-
-
 # 文档：Phase Dye
 - 类别：dye_items
 - 标识：phase-dye
@@ -37985,8 +34355,6 @@ When the user is damaged, the dye flashes very quickly.
 *If the Drill Containment Unit is dyed with Phase Dye, the dye's animation rotates with the movement of the unit.
 
 == History ==
-
-
 # 文档：Pink Gel Dye
 - 类别：dye_items
 - 标识：pink-gel-dye
@@ -37998,8 +34366,6 @@ Pink Gel Dye is a dye that is crafted from Gel Dye. The Gel Dye can be acquired 
 === Recipes ===
 
 == History ==
-
-
 # 文档：Pixie Dye
 - 类别：dye_items
 - 标识：pixie-dye
@@ -38008,8 +34374,6 @@ Pink Gel Dye is a dye that is crafted from Gel Dye. The Gel Dye can be acquired 
 Pixie Dye is a Hardmode dye sometimes acquired from the Dye Trader after completing a Strange Plant quest. It can only be obtained after defeating Plantera. When equipped, it turns the player yellow-orange, giving the slight glow that Pixies give off.
 
 == History ==
-
-
 # 文档：Prismatic Dye
 - 类别：dye_items
 - 标识：prismatic-dye
@@ -38018,8 +34382,6 @@ Pixie Dye is a Hardmode dye sometimes acquired from the Dye Trader after complet
 Prismatic Dye is a Hardmode, post-Plantera dye dropped by the Empress of Light with a chance. The dye creates a prism-esque effect, making the equipped item seem transparent and glow in a cycling rainbow.
 
 == History ==
-
-
 # 文档：Purple Ooze Dye
 - 类别：dye_items
 - 标识：purple-ooze-dye
@@ -38028,8 +34390,6 @@ Prismatic Dye is a Hardmode, post-Plantera dye dropped by the Empress of Light w
 Purple Ooze Dye is a dye that can be obtained from the Dye Trader after completing a Strange Plant Quest. When equipped, it gives the player a purple tone, with some parts of the dye distort and vary in different shades of purple at times.
 
 == History ==
-
-
 # 文档：Reflective Copper Dye
 - 类别：dye_items
 - 标识：reflective-copper-dye
@@ -38040,8 +34400,6 @@ Reflective Copper Dye is a type of dye that is randomly given to you when you gi
 As with other reflective dyes, this dye is not animated when standing still, but the shading on a dyed piece of equipment will change according to the surrounding light, giving it the appearance of light reflecting off of a shining metallic object.
 
 == History ==
-
-
 # 文档：Reflective Dye
 - 类别：dye_items
 - 标识：reflective-dye
@@ -38055,8 +34413,6 @@ As with other reflective dyes, this dye is not animated when standing still, but
 * Strangely, the Reflective Dye looks less reflective on the Console version.
 
 == History ==
-
-
 # 文档：Reflective Gold Dye
 - 类别：dye_items
 - 标识：reflective-gold-dye
@@ -38067,8 +34423,6 @@ Reflective Gold Dye is a type of dye that is randomly given to you when you give
 As with other reflective dyes, this dye is not animated when standing still, but the shading on a dyed piece of equipment will change according to the surrounding light, giving it the appearance of light reflecting off of a shining metallic object.
 
 == History ==
-
-
 # 文档：Reflective Metal Dye
 - 类别：dye_items
 - 标识：reflective-metal-dye
@@ -38079,14 +34433,13 @@ Reflective Metal Dye is a type of dye that is randomly given to you when you giv
 As with other reflective dyes, this dye is not animated when standing still, but the shading on a dyed piece of equipment will change according to the surrounding light, giving it the appearance of light reflecting off of a shining metallic object.
 
 == Gallery ==
-The following pictures show a player wearing Tungsten armor with the dye applied:<br/>
+The following pictures show a player wearing Tungsten armor with the dye applied:
+
 File:Reflective Metal Dye demo back2.png
 File:Reflective Metal Dye demo center.png
 File:Reflective Metal Dye demo front.png
 
 == History ==
-
-
 # 文档：Reflective Obsidian Dye
 - 类别：dye_items
 - 标识：reflective-obsidian-dye
@@ -38101,8 +34454,6 @@ Unlike the other reflective dyes, this dye is rather dark which results in dark 
 Reflective Obsidian Dye is the only known dye not affected by the dye bug in the Switch version
 
 == History ==
-
-
 # 文档：Reflective Silver Dye
 - 类别：dye_items
 - 标识：reflective-silver-dye
@@ -38113,8 +34464,6 @@ Reflective Silver Dye is a type of dye that is randomly given to you when you gi
 As with other reflective dyes, this dye is not animated when standing still, but the shading on a dyed piece of equipment will change according to the surrounding light, giving it the appearance of light reflecting off of a shining metallic object.
 
 == History ==
-
-
 # 文档：Shadow Dye
 - 类别：dye_items
 - 标识：shadow-dye
@@ -38128,8 +34477,6 @@ Shadow Dye is a type of dye bought from the Dye Trader during a full moon, or gi
 * Shadow Dye can also be used on transparent objects (such as Wisp in a Bottle) to make them near-invisible.
 
 == History ==
-
-
 # 文档：Shadowflame Hades Dye
 - 类别：dye_items
 - 标识：shadowflame-hades-dye
@@ -38138,8 +34485,6 @@ Shadow Dye is a type of dye bought from the Dye Trader during a full moon, or gi
 Shadowflame Hades Dye is a Hardmode Dye sometimes obtained from giving Strange Plants to the Dye Trader. When applied, it turns the item violet and adds fire effects that trail behind the player.
 
 == History ==
-
-
 # 文档：Shifting Pearlsands Dye
 - 类别：dye_items
 - 标识：shifting-pearlsands-dye
@@ -38154,8 +34499,6 @@ Shifting Pearlsands Dye is a Hardmode dye that is very similar to the Shifting S
 * Pearlsand is actually more white than pink, though it is possible that the Shifting Pearlsands Dye is pink to represent the theme of The Hallow in general.
 
 == History ==
-
-
 # 文档：Shifting Sands Dye
 - 类别：dye_items
 - 标识：shifting-sands-dye
@@ -38167,8 +34510,6 @@ Shifting Sands Dye is a Hardmode dye obtained by turning in Strange Plants to th
 === Used in ===
 
 == History ==
-
-
 # 文档：Skiphs' Blood
 - 类别：dye_items
 - 标识：skiphs-blood
@@ -38182,8 +34523,6 @@ Skiphs' Blood is a Hardmode dye rewarded from a Hardmode boss's Treasure Bag alo
 * This is the only dye that does not have the word "dye" in its name.
 
 == History ==
-
-
 # 文档：Solar Dye
 - 类别：dye_items
 - 标识：solar-dye
@@ -38195,8 +34534,6 @@ Solar Dye is a Hardmode, endgame dye crafted from Solar Fragments dropped by the
 === Recipes ===
 
 == History ==
-
-
 # 文档：Stardust Dye
 - 类别：dye_items
 - 标识：stardust-dye
@@ -38208,8 +34545,6 @@ Stardust Dye is a Hardmode, endgame dye crafted using Stardust Fragments obtaine
 === Recipes ===
 
 == History ==
-
-
 # 文档：Team Dye
 - 类别：dye_items
 - 标识：team-dye
@@ -38218,8 +34553,6 @@ Stardust Dye is a Hardmode, endgame dye crafted using Stardust Fragments obtaine
 Team Dye is a dye that can be purchased from the Dye Trader while playing Multiplayer. The color of this dye will correspond to the team the player is on; if the player is not on a team, it acts as though no dye was equipped.
 
 == History ==
-
-
 # 文档：Twilight Dye
 - 类别：dye_items
 - 标识：twilight-dye
@@ -38232,8 +34565,6 @@ Twilight Dye is a Hardmode dye item that can be obtained as a reward from the Dy
 * If placed on Yoraiz0r's Spell, its rocket particles will become invisible.
 
 == History ==
-
-
 # 文档：Unicorn Wisp Dye
 - 类别：dye_items
 - 标识：unicorn-wisp-dye
@@ -38249,8 +34580,6 @@ Unicorn Wisp Dye is a Hardmode, post-Plantera dye that can be acquired by bringi
 * Infernal Wisp Dye
 
 == History ==
-
-
 # 文档：Void Dye
 - 类别：dye_items
 - 标识：void-dye
@@ -38269,8 +34598,6 @@ Void Dye is a Hardmode, post-Moon Lord dye crafted using Luminite Bars. The dye 
 ** For 15 slots (e.g. if a Demon Heart is used in Master Mode), 75 Luminite Bars (300 Luminite) are necessary. This requires defeating the Moon Lord 4–5 / times.
 
 == History ==
-
-
 # 文档：Vortex Dye
 - 类别：dye_items
 - 标识：vortex-dye
@@ -38282,8 +34609,6 @@ Vortex Dye is a Hardmode dye crafted from Vortex Fragments dropped by the Vortex
 === Recipes ===
 
 == History ==
-
-
 # 文档：Wisp Dye
 - 类别：dye_items
 - 标识：wisp-dye
@@ -38298,7 +34623,6 @@ Wisp Dye is a Hardmode, post-Plantera dye obtained from the Dye Trader when turn
 == History ==
 ## CRAFTING_STATION_ITEMS
 共 43 篇文档
-
 # 文档：Altars
 - 类别：crafting_station_items
 - 标识：altars
@@ -38314,23 +34638,21 @@ After a world enters Hardmode, they can be destroyed with Hardmode-tier hammers,
 
 == Hardmode ==
 After the Wall of Flesh has been defeated in a world, altars can be destroyed with any tool that has a hammer power of at least 80% (typically the Pwnhammer). Each destroyed altar will spawn a Wraith and causes one type of Hardmode ore to appear in the world, with the appropriate status message displaying in the chat: ""
-<section begin="hardmode ores" />
 # First altar: or , chosen randomly.
 # Second altar: or , chosen randomly.
 # Third altar: or , chosen randomly.
-
 Players will be able to find these new ores scattered across the Underground layer to near-Underworld levels, with them replacing most blocks created during world generation. They will spawn at random locations in varying quantity, in places explored and unexplored alike.
 
 * Destroying more altars will never spawn Hardmode ore types beyond the three that were randomly assigned to the world during the initial round of destroyed altars. A world with Palladium Ore deposits will never spawn Cobalt Ore deposits, or vice versa (with the exception of ).
 * Which ores are generated is not determined until the first, second, or third altar is smashed. For example, it is not determined if the world has Cobalt or Palladium until the first altar has been smashed. The same goes for Mythril/Orichalcum with the second altar, and Adamantite/Titanium for the third.
 * Each time an altar is destroyed, there is a chance that a single random Stone Block in the Cavern layer will be converted to Ebonstone/Crimstone or Pearlstone, facilitating the spread of Underground Hallow or Corruption/Crimson. No block other than the selected one will be converted initially.
-* Subsequent altars destroyed will begin the cycle again, though the fourth to sixth altars will spawn half as much ore as the first ones, the seventh to ninth will spawn only one third of the ore of the first ones, and so forth. So, the n<sup>th</sup> cycle will only generate one-n<sup>th</sup> as much ore as the first one. For example, destroying the 19th altar would yield one-seventh of Cobalt/Palladium Ore compared to the first altar. Destroying 12 altars will roughly double the ore provided by the first three; tripling that original allotment would require destroying 33 altars. Notice that although each subsequent destroyed altar will yield less ore, the total amount is (except by the number of altars in a world).
-* No matter how many altars are destroyed, ore rarity remains set with Cobalt/Palladium being the most common, followed by Mythril/Orichalcum, then Adamantite/Titanium as the rarest.<section end="hardmode ores"/>
+* Subsequent altars destroyed will begin the cycle again, though the fourth to sixth altars will spawn half as much ore as the first ones, the seventh to ninth will spawn only one third of the ore of the first ones, and so forth. So, the nth cycle will only generate one-nth as much ore as the first one. For example, destroying the 19th altar would yield one-seventh of Cobalt/Palladium Ore compared to the first altar. Destroying 12 altars will roughly double the ore provided by the first three; tripling that original allotment would require destroying 33 altars. Notice that although each subsequent destroyed altar will yield less ore, the total amount is (except by the number of altars in a world).
+* No matter how many altars are destroyed, ore rarity remains set with Cobalt/Palladium being the most common, followed by Mythril/Orichalcum, then Adamantite/Titanium as the rarest.
 * Each time an altar is destroyed, one or two Wraiths spawn, regardless of the time of day.
 * Additionally, smashing an altar will allow mechanical bosses to spawn naturally (if said boss has not been defeated before it will spawn with a chance each night), and random Pirate Invasions (if all the criteria are met).
 
 == Notes ==
-thumb|288x288px|A Demon Altar that spawned in a Crimson world. 
+thumb|288x288px|A Demon Altar that spawned in a Crimson world.
 
 * Altars can be destroyed through other phenomena, such as being struck by a meteorite landing. Altars being destroyed this way prior to Hardmode will have no effect.
 ** Altars being spawned on top of sand or slush and mining the blocks below them does not break them and instead causes the blocks normally affected by gravity to stay under the altar.
@@ -38357,8 +34679,6 @@ thumb|288x288px|A Demon Altar that spawned in a Crimson world.
 == History ==
 
 == References ==
-
-
 # 文档：Bottle (crafting station)
 - 类别：crafting_station_items
 - 标识：bottle-crafting-station
@@ -38377,8 +34697,6 @@ The from the Dungeon also crafts potions, but has improved functionality as it a
 *
 
 == History ==
-
-
 # 文档：By Hand
 - 类别：crafting_station_items
 - 标识：by-hand
@@ -38393,8 +34711,6 @@ Some items can be crafted By Hand, meaning they are crafted without the use of a
 * Terraria displays "" instead of "By Hand" for crafting recipes that are crafted by hand. This can be seen when consulting the Guide about a crafting material.
 
 == History ==
-
-
 # 文档：Crafting stations
 - 类别：crafting_station_items
 - 标识：crafting-stations
@@ -38412,148 +34728,146 @@ Nearly all crafting stations are furniture. There are currently 44 crafting stat
 | By Hand
 | Items that appear in the crafting menu even when no crafting station is nearby are considered crafted "by hand".
 |-
-| 
+|
 | Crafts basic Furniture and building materials. Also crafts some early Wooden weapons and Armor.
 |-
-| <br/>
+|
+
 | Crafts Bars from raw mined Ore, as well as some building materials, like Bricks. Also crafts Glass and some Glass items. The Hellforge is an upgraded version that adds the ability to craft Hellstone Bars.
 |-
-| <br/>
+|
+
 | Crafts Tools, Weapons, and Armor. Also some furniture and other items. Iron and Lead Anvils are functionally identical.
 |-
-| <br/>
+|
+
 | Crafts Potions, Vile/Vicious Powder, and and Threads. A Bottle, Pink Vase, Mug, or any Cup variant will function as this crafting station, as long as they are placed, which requires a flat Furniture item: a Platform/shelf, Table, Workbench, Dresser, Piano, Bookcase, or Tinkerer's Workshop. The Alchemy Table is an upgraded version that offers a chance of not consuming a particular crafting ingredient.
 |-
-| 
+|
 | Same function as Water.
 |-
-| 
+|
 | Crafts additional Furniture. Also crafts the Loom crafting station.
 |-
-| 
+|
 | Crafts Silk from Cobwebs, and some Silk vanity items.
 |-
-| 
+|
 | Any Table and Chair placed next to each other functions as a station solely for crafting Watches. Both chair and table need to be within crafting range but do not need to be beside each other.
 |-
-| 
+|
 | Any Work Bench and Chair placed near to each other functions as a station for crafting Goggles and Sunglasses. Both chair and work bench need to be within crafting range but do not need to be beside each other.
 |-
-| <br/>
+|
+
 | Crafts Food items. The Cauldron is functionally identical, though visually Halloween-themed.
 |-
-| 
+|
 | Combines Accessory items together into new compact Accessories with combined functionality.
 |-
-| 
+|
 | Crafts Flasks.
 |-
-| 
+|
 | Crafts Dyes and Paints.
 |-
-| 
+|
 | Crafts Statues and several multiplayer, decorative, and alternative items like Trapped Chests, Cracked Dungeon Bricks, the Tall Gate, Gem Locks, and Gemstone Blocks.
 |-
-| <br/>
+|
+
 | Crafts some Boss-summoning items, as well as the Night's Edge Pre-Hardmode sword. The Demon and Crimson Altars are functionally identical. These stations are unique in that they are not placed by the player, but instead generate on world creation in Corruption/Crimson areas respectively, as well as sporadically around the border between Surface and Underground.
 |}
 
 === Hardmode ===
-{| class="terraria lined"
-! Station !! Description
 |-
-| <br/>
+|
+
 | Upgraded Iron Anvil/Lead Anvil, adding the ability to craft many Hardmode weapons, armor, and other items.
 |-
-| <br/>
+|
+
 | Upgraded Hellforge, adding the ability to craft Bars out of late-Hardmode Ores: Adamantite Ore, Titanium Ore, and Chlorophyte Ore. Can also craft crystal blocks.
 |-
-| 
+|
 | The Bookcase can be crafted or found in Pre-Hardmode, but as a crafting station it is only for Hardmode Magic Weapons.
 |-
-| 
+|
 | Crafts Endless Quiver and Endless Musket Pouch, in addition to visual effect items like animated blocks, droppers, Living Fire Blocks. Waterfall Blocks, Lavafall Blocks, and Honeyfall Blocks require their respective liquids to also be nearby.
 |-
-| 
+|
 | Crafts Shroomite Bars.
 |-
-| 
+|
 | Crafts a variety of end-game items from Lunar Fragments and Luminite.
 |}
 
 == Specialized ==
 These have limited crafting use and only craft a couple of arguably non-essential items.
 
-{| class="terraria lined"
 |+Pre-Hardmode
 |-
-! Station !! Description
 |-
-| 
+|
 | Solely crafts Ale.
 |-
-| 
+|
 | Solely crafts Teacups.
 |-
-| 
+|
 | Solely crafts Living Wood Walls.
 |}
-{| class="terraria lined"
 |+Hardmode
 |-
-! Station !! Description
 |-
-| 
+|
 | Solely crafts Asphalt Blocks.
 |-
-| 
+|
 | Solely crafts Flesh Blocks and Lesion Blocks.
 |}
 
 == Themed furniture ==
 The following crafting stations are used to craft themed versions of various furniture items.
 
-{| class="terraria lined"
 |+Pre-Hardmode
 |-
 ! Station !! Furniture Theme
 |-
-| 
+|
 | Bone
 |-
-| 
-| Glass 
+|
+| Glass
 |-
-| 
+|
 | Honey
 |-
-| 
+|
 | Ice
 |-
-| 
+|
 | Living Tree
 |-
-| 
-| Sky 
+|
+| Sky
 |-
-| 
-| Slime 
+|
+| Slime
 |}
-{| class="terraria lined"
 |+Hardmode
 |-
-! Station !! Furniture Theme
 |-
-| 
+|
 | Corruption (Lesion)
 |-
-| 
+|
 | Crimson (Flesh)
 |-
-| 
+|
 | Steampunk
 |-
-| 
+|
 | Jungle Temple
 |}
 
@@ -38565,16 +34879,16 @@ Liquids also produce unique blocks when colliding with each other ( + = , + = , 
 {| class="terraria"
 ! Liquid !! Description
 |-
-| 
+|
 | Crafts Bottled Water and Mud Blocks. Also crafts Waterfall Blocks and Rain Clouds when a Crystal Ball and a Sky Mill are nearby, respectively.
 |-
-| 
+|
 | Crafts Lavafall Blocks when a Crystal Ball is nearby.
 |-
-| 
+|
 | Crafts Bottled Honey. Also crafts Honeyfall Blocks when a Crystal Ball is nearby.
 |-
-| 
+|
 | Crafts transmutations. Also transmutes a number of items thrown into it.
 |}
 
@@ -38586,12 +34900,11 @@ Liquids also produce unique blocks when colliding with each other ( + = , + = , 
 These do not use the crafting menu but produce items in unique ways.
 
 {| class="terraria"
-! Station !! Description
 |-
-| 
+|
 | The player holds a Marshmallow on a Stick near the fire to turn it into a Cooked Marshmallow.
 |-
-| 
+|
 | Silt, Slush and Desert Fossil blocks are placed on the Extractinator, which causes it to drop coins, random ores, and gems.
 |-
 |
@@ -38617,17 +34930,15 @@ This list shows the general order a new player will likely need to follow in obt
 * Hellforge: found in The Underworld, generated with the world inside Ruined Houses.
 
 === Hardmode ===
-* Mythril Anvil/Orichalcum Anvil: crafted at the Iron/Lead Anvil 
+* Mythril Anvil/Orichalcum Anvil: crafted at the Iron/Lead Anvil
 
 ...(内容截断)
-
-
 # 文档：Crafting stations/vi
 - 类别：crafting_station_items
 - 标识：crafting-stationsvi
 - 来源：wiki/Crafting_stations/vi
 
-Bàn Chế tạo cho phép người chơi chế tạo rất nhiều vật phẩm. Mở màn hình túi đồ sẽ hiển thị "Cửa sổ chế tạo" ở bên trái, và khi người chơi đứng bên cạnh một hoặc nhiều hơn Bàn Chế tạo và có đủ nguyên liệu, thanh đó sẽ mở rộng thêm nhiều loại vật phẩm. 
+Bàn Chế tạo cho phép người chơi chế tạo rất nhiều vật phẩm. Mở màn hình túi đồ sẽ hiển thị "Cửa sổ chế tạo" ở bên trái, và khi người chơi đứng bên cạnh một hoặc nhiều hơn Bàn Chế tạo và có đủ nguyên liệu, thanh đó sẽ mở rộng thêm nhiều loại vật phẩm.
 
 Gần như tất cả bàn chế tạo là nội thất. Có tất cả 44 bàn chế tạo tổng cộng.
 
@@ -38639,148 +34950,147 @@ Gần như tất cả bàn chế tạo là nội thất. Có tất cả 44 bàn 
 | Tay không
 | Vật phẩm xuất hiện trong menu chế tạo kể cả khi người chơi không đứng gần bàn chế tạo nào được coi là chế tạo bằng "tay không".
 |-
-| 
+|
 | Chế tạo Nội thất cơ bản và nguyên liệu xây dựng. Cũng có thể chế tạo ra vũ khí và giáp Gỗ.
 |-
-| <br/>
+|
+
 | Chế tạo Thỏi từ Quặng thô, cũng như là một số nguyên liệu xây dựng, như là Gạch. Cũng có thể chế tạo Thủy tinh và một số vật phẩm Thủy tinh. Lò luyện Địa ngục là bản nâng cấp có thể chế tọ Thỏi Hellstone.
 |-
-| <br/>
+|
+
 | Chế tạo Công cụ, Vũ khí, và Giáp. Và một số nội thất và vật phẩm khác. Đe Sắt và Chì có chức năng y hệt nhau.
 |-
-| <br/>
+|
+
 | Chế tạo Thuốc. Chai, Bình Hồng, Cốc vại, hoặc bất kỳ Cốc nào cũng có chức năng tương tự, khi chúng được đặt, có nghĩa chúng cần có vật phẩm Nội thất phẳng: Bục, Bàn, Bàn làm việc, Tủ quần áo, Piano, Giá sách, hoặc Xưởng Thợ hàn. Bàn Hóa chất là bản nâng cấp cho thêm tỉ lệ 33% (1/3) không tốn nguyên liệu.
 |-
-| 
-| Chế tạo vật phẩm mà cần có Nước gần đó. 
+|
+| Chế tạo vật phẩm mà cần có Nước gần đó.
 |-
-| 
+|
 | Chế tạo thêm các loại Nội thất. Cũng chế tạo ra Khung cửi.
 |-
-| 
+|
 | Chế tạo ra Lụa từ Mạng nhện, và một số trang phục từ Lụa.
 |-
-| 
+|
 | Bàn và Ghế bất kỳ đặt gần nhau sẽ có chức năng chế tạo Đồng hồ. Chỉ có ghế là cần trong tầm chế tạo.
 |-
-| 
+|
 | Bàn làm việc và Ghế bất kỳ đặt gần nhau sẽ có chức năng tạo ra Kính mắt và Kính râm. Cả ghế và bàn làm việc cần phải trong tầm chế tạo nhưng không nhất thiết phải đặt sát nhau.
 |-
-| <br/>
+|
+
 | Chế tạo Đồ ăn. Vại có chức năng y hệt, nhưng có hình ảnh theo chủ đề Halloween.
 |-
-| 
+|
 | Kết hợp vật phẩm Phụ kiện lại với nhau để thành Phụ kiện gọn nhưng được kết hợp chức năng.
 |-
-| 
+|
 | Chế tạo Bình.
 |-
-| 
+|
 | Chế tạo Màu nhuộm và Sơn.
 |-
-| 
+|
 | Chế tạo Tượng và vô số đồ trang trí chế độ nhiều người chơi, và các vật phẩm khác như Rương Bẫy, Gạch Hầm ngục Nứt, Cổng, Khóa Ngọc, và Khối Đá quý.
 |-
-| <br/>
+|
+
 | Chế tạo một số vật phẩm triệu hồi Boss, cung như là kiếm pre-Hardmode Rìa Bóng đêm. Demon và Crimson Altar có chức năng y hệt nhau. Những bàn chế tạo này là loại đặc biệt do không thể đặt xuống bởi người chơi, nhưng thay vào đó là tự sinh ra khi tạo thế giới có khu vực Corruption/Crimson tương ứng, và nằm rải rác quanh ranh giới giữa Mặt đất và Underground.
 |}
 
 === Hardmode ===
-{| class="terraria lined"
 ! Bàn chế tạo !! Mô tả
 |-
-| <br/>
+|
+
 | Bản nâng cấp của Đe Sắt/Đe Chì, cho thêm khả năng tạo nhiều loại vũ khí Hardmode, giáp và nhiều vật phẩm khác.
 |-
-| <br/>
+|
+
 | Bản nâng cấp của Lò luyện Địa ngục, cho thêm khả năng chế tạo Thỏi từ Quặng Hardmode: Quặng Adamantite, Quặng Tianium, và Quặng Chlorophyte. Cũng có thể chế tạo khối pha lê.
 |-
-| 
+|
 | Giá sách có thể chế tạo hoặc tìm thấy trong Pre-Hardmode, nhưng là bàn chế tạo cho Vũ khí phép thuật ở Hardmode.
 |-
-| 
+|
 | Chế tạo Bao Tên Vô tận và Túi Musket Vô tận, thêm vào đó là những vật phẩm gây hiệu ứng hình ảnh như khối động, dropper, Khối Lửa Động. Khối Thác nước, Khối Thác lava, và Khối Thác mật cần có chất lỏng tương ứng gần đó.
 |-
-| 
+|
 | Chế tạo Thỏi Shroomite.
 |-
-| 
+|
 | Chế tạo nhiều vật phẩm endgame từ Nguyệt Tinh thể và Luminite.
 |}
 
 == Đặc biệt ==
 Chúng dùng để chế tạo một số ít vật phẩm và chỉ dùng để chế tạo vật phẩm có vẻ là không cần thiết cho lắm.
 
-{| class="terraria lined"
 |+Pre-Hardmode
 |-
-! Bàn chế tạo !! Mô tả
 |-
-| 
+|
 | Chủ yếu chế tạo Bia.
 |-
-| 
+|
 | Chủ yếu chế tạo Tách trà.
 |-
-| 
+|
 | Chủ yếu chế tạo Tường Gỗ Sống.
 |}
-{| class="terraria lined"
 |+Hardmode
 |-
-! Bàn chế tạo !! Mô tả
 |-
-| 
+|
 | Chủ yếu chế tạo Khối Nhựa đường.
 |-
-| 
+|
 | Chủ yếu chế tạo Khối Thịt và Khối Mục rữa.
 |}
 
 == Themed furniture ==
 The following crafting stations are used to craft themed versions of various furniture items.
 
-{| class="terraria lined"
 |+Pre-Hardmode
 |-
 ! Station !! Furniture Theme
 |-
-| 
+|
 | Bone
 |-
-| 
-| Glass 
+|
+| Glass
 |-
-| 
+|
 | Honey
 |-
-| 
+|
 | Ice
 |-
-| 
+|
 | Living Tree
 |-
-| 
-| Sky 
+|
+| Sky
 |-
-| 
-| Slime 
+|
+| Slime
 |}
-{| class="terraria lined"
 |+Hardmode
 |-
-! Station !! Furniture Theme
 |-
-| 
+|
 | Corruption (Lesion)
 |-
-| 
+|
 | Crimson (Flesh)
 |-
-| 
+|
 | Steampunk
 |-
-| 
+|
 | Jungle Temple
 |}
 
@@ -38792,13 +35102,13 @@ Chất lỏng cũng cung cấp những khối đặc biệt khi hòa vào nhau (
 {| class="terraria"
 ! Chất lỏng !! Mô tả
 |-
-| 
+|
 | Chế tạo Chai nước và Khối Bùn. Cũng chế ra Khối Thác nước và Khối Mưa khi có Quẳ cầu Pha lê và Máy xay Trời gần đó, tương ứng.
 |-
-| 
+|
 | Chế tạo Khối Thác lava khi có Quả cầu Pha lê gần đó.
 |-
-| 
+|
 | Chế tạo Chai Mật ong. Cũng chế ra Khối Thác mật khi có Quả cầu Pha lê gần đó.
 |}
 
@@ -38812,16 +35122,16 @@ These do not use the crafting menu but produce items in unique ways.
 {| class="terraria"
 ! Station !! Description
 |-
-| 
+|
 | The player holds a Marshmallow on a Stick near the fire to turn it into a Cooked Marshmallow.
 |-
-| 
+|
 | Silt, Slush and Desert Fossil blocks are placed on the Extractinator, which causes it to drop coins, random ores, and gems.
 |}
 
 == Crafting station reach ==
-* The player can reach any crafting station within ~3 blocks to their left or right, 3 blocks below them, or the 3 blocks of their character's height. This gives a total reach of ~8 by 6 blocks centered below the player. This is shorter than the player's reach for tools or chests of ~10 by 9 centered on the player. 
-* Unlike the player's item reach, crafting reach cannot be extended by items such as the Architect Gizmo Pack or Extendo Grip. 
+* The player can reach any crafting station within ~3 blocks to their left or right, 3 blocks below them, or the 3 blocks of their character's height. This gives a total reach of ~8 by 6 blocks centered below the player. This is shorter than the player's reach for tools or chests of ~10 by 9 centered on the player.
+* Unlike the player's item reach, crafting reach cannot be extended by items such as the Architect Gizmo Pack or Extendo Grip.
 * The crafting reach of the player isn't a whole number. If they press against a wall, they can reach a crafting station 4 blocks away, but they will never be able to reach 2 crafting stations 4 blocks away on either side. This can be easily tested by locking the player in a 2 wide space with crafting stations 4 blocks away on either side of them; they will only be able to reach 1 crafting station at any given time. Similarly, the player's item reach will extend to 5 blocks if pressed against a wall. Interestingly, the player has to be closer to the wall to extend item reach compared to crafting reach.
 
 == Achievement ==
@@ -38843,8 +35153,6 @@ This list shows the general order a new player will likely need to follow in obt
 *Ancient Manipulator: dropped by Lunatic Cultist
 
 == History ==
-
-
 # 文档：Dye Vat
 - 类别：crafting_station_items
 - 标识：dye-vat
@@ -38856,20 +35164,18 @@ The Dye Vat is a crafting station used to craft Dyes and some Paints. It is purc
 === Used to craft ===
 
 == History ==
-
-
 # 文档：Ebonwood Work Bench
 - 类别：crafting_station_items
 - 标识：ebonwood-work-bench
 - 来源：wiki/Ebonwood_Work_Bench
 
-| tooltip = 
-| rare = 
-| stack = 
-| sell = 
+| tooltip =
+| rare =
+| stack =
+| sell =
 | idtile = 18
 | consumable = true
-| listcat = plunder items 
+| listcat = plunder items
 | cargo = no
 }}
 
@@ -38896,8 +35202,6 @@ There are 34 / 26 types of Work Benches which can be crafted, and 7 types which 
 
 == History ==
 thumb|The original sprite of wooden work bench can be seen in the left
-
-
 # 文档：Flesh Cloning Vat
 - 类别：crafting_station_items
 - 标识：flesh-cloning-vat
@@ -38915,8 +35219,6 @@ Flesh Blocks are crafted using a Meat Grinder, so the Flesh Cloning Vat is of li
 === Used in ===
 
 == History ==
-
-
 # 文档：Furnace
 - 类别：crafting_station_items
 - 标识：furnace
@@ -38934,8 +35236,6 @@ The Furnace is a crafting station used mainly to smelt ores into bars, to create
 == Achievement ==
 
 == History ==
-
-
 # 文档：Glass Kiln
 - 类别：crafting_station_items
 - 标识：glass-kiln
@@ -38953,8 +35253,6 @@ The Glass Kiln is a crafting station, used to craft Glass-themed furniture. On t
 The Glass Kiln also functions as a Furnace.
 
 == History ==
-
-
 # 文档：Green Dungeon Bookcase
 - 类别：crafting_station_items
 - 标识：green-dungeon-bookcase
@@ -38966,7 +35264,8 @@ The Glass Kiln also functions as a Furnace.
 | stack = 9999
 | consumable = True
 | use = 15
-| sell = <br/> (Golden Bookcase)
+| sell =
+ (Golden Bookcase)
 | idtile = 101
 | listcat = plunder items
 | cargo = no
@@ -39000,20 +35299,18 @@ There are currently 35 craftable Bookcases, and 6 versions looted from the envir
 * On the , the Bookcase Crafting Station icon appears to be just a white square, while everything else appears normal. This is most likely a bug, or was forgotten during development.
 
 == History ==
-
-
 # 文档：Green Dungeon Work Bench
 - 类别：crafting_station_items
 - 标识：green-dungeon-work-bench
 - 来源：wiki/Green_Dungeon_Work_Bench
 
-| tooltip = 
-| rare = 
-| stack = 
-| sell = 
+| tooltip =
+| rare =
+| stack =
+| sell =
 | idtile = 18
 | consumable = true
-| listcat = plunder items 
+| listcat = plunder items
 | cargo = no
 }}
 
@@ -39040,8 +35337,6 @@ There are 34 / 26 types of Work Benches which can be crafted, and 7 types which 
 
 == History ==
 thumb|The original sprite of wooden work bench can be seen in the left
-
-
 # 文档：Hardmode Anvils
 - 类别：crafting_station_items
 - 标识：hardmode-anvils
@@ -39056,8 +35351,6 @@ Mythril and Orichalcum Anvils also function as Iron and Lead Anvils, both of whi
 === Used to craft ===
 
 == History ==
-
-
 # 文档：Hardmode Forges
 - 类别：crafting_station_items
 - 标识：hardmode-forges
@@ -39080,8 +35373,6 @@ The Adamantite Forge and Titanium Forge also function as a Furnace and a Hellfor
 * Although the forges appear to have glass over the front of the fire, they do not require Glass to craft.
 
 == History ==
-
-
 # 文档：Heavy Assembler
 - 类别：crafting_station_items
 - 标识：heavy-assembler
@@ -39102,8 +35393,6 @@ The Heavy Assembler / Heavy Work Bench is a crafting station used to make variou
 * Despite having "Work Bench" in its name, the Heavy Work Bench cannot be used as a crafting station for the regular Work Bench recipes.
 
 == History ==
-
-
 # 文档：Hellforge
 - 类别：crafting_station_items
 - 标识：hellforge
@@ -39135,8 +35424,6 @@ thumb|The original sprite of Hellforge can be seen on the right.
 * Prior to 1.2, the Hellforge and Furnace looked like rounded forges.
 
 == History ==
-
-
 # 文档：Honey
 - 类别：crafting_station_items
 - 标识：honey
@@ -39162,19 +35449,19 @@ Bottled Honey restores 80 health on use. Honey can also be used to make the foll
 ! width="150px" | Item
 ! width="150px" | When combined with
 |-
-| || 
+| ||
 |-
-| || 
+| ||
 |}
 
 == Fishing ==
 {| class="terraria"
 ! colspan="3" style="font-size:1.2em" | Catches from Honey
 |-
-| 
+|
 | Restores 120 Health when used.
 |-
-| 
+|
 | Quest item for the Angler NPC, hence can only be fished when its particular quest is active.
 |}
 
@@ -39193,8 +35480,6 @@ thumb|right|By default, players are slowed down drastically when walking through
 * By using Flipper Potion, the player can reduce the effect of moving through honey even further.
 
 == History ==
-
-
 # 文档：Ice Machine
 - 类别：crafting_station_items
 - 标识：ice-machine
@@ -39206,8 +35491,6 @@ The Ice Machine is a crafting station that has a chance of spawning in Frozen Ch
 === Used to craft ===
 
 == History ==
-
-
 # 文档：Imbuing Station
 - 类别：crafting_station_items
 - 标识：imbuing-station
@@ -39223,8 +35506,6 @@ The Imbuing Station is a Pre-Hardmode crafting station used to craft flasks. It 
 * The Imbuing Station is useful to both melee and summon users (although less so to summon users), as its Flasks affect all melee weapons, as well as whips.
 
 == History ==
-
-
 # 文档：Keg
 - 类别：crafting_station_items
 - 标识：keg
@@ -39241,8 +35522,6 @@ The Keg is a minor crafting station used to brew Ale. It may be placed on top of
 * The keg cannot be turned around like chairs, instead the tap will always be on the right side no matter from which direction it is placed.
 
 == History ==
-
-
 # 文档：Lava
 - 类别：crafting_station_items
 - 标识：lava
@@ -39273,11 +35552,11 @@ Lava can also be used to make the following items, though not as a crafting stat
 ! Item
 ! When combined with
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |}
 
 == Fishing ==
@@ -39341,7 +35620,7 @@ thumb|right|By default, players are dealt 80 damage and set on fire by lava.
 ** Fireblossom
 ** Fireblossom Seeds
 ** (only the original type)
-** 
+**
 * Worms and Bosses (except the King Slime) will not take any damage from contact with lava.
 * The Beach Ball bounces off of lava.
 
@@ -39357,8 +35636,6 @@ Lava will destroy any item of White rarity (Other than the aforementioned except
 * Copper coins are among the least valuable objects in the game, but each stack of them still counts as an item. An event or enemy farm can produce huge numbers of copper coins, so it's worth discarding them, against the risk of despawning more valuable items. Fortunately they
 
 ...(内容截断)
-
-
 # 文档：Lead Anvil
 - 类别：crafting_station_items
 - 标识：lead-anvil
@@ -39380,8 +35657,6 @@ Both anvils are craftable, but can sometimes also be found in Underground Cabins
 * The anvil is used to craft many items that an actual would not be used for, such as the Amazon yoyo.
 
 == History ==
-
-
 # 文档：Lihzahrd Furnace
 - 类别：crafting_station_items
 - 标识：lihzahrd-furnace
@@ -39401,20 +35676,18 @@ The Lihzahrd Furnace is a Hardmode, post-Plantera crafting station used to craft
 * The Lihzahrd Furnace appears to resemble a Lihzahrd's head.
 
 == History ==
-
-
 # 文档：Lihzahrd Work Bench
 - 类别：crafting_station_items
 - 标识：lihzahrd-work-bench
 - 来源：wiki/Lihzahrd_Work_Bench
 
-| tooltip = 
-| rare = 
-| stack = 
-| sell = 
+| tooltip =
+| rare =
+| stack =
+| sell =
 | idtile = 18
 | consumable = true
-| listcat = plunder items 
+| listcat = plunder items
 | cargo = no
 }}
 
@@ -39441,8 +35714,6 @@ There are 34 / 26 types of Work Benches which can be crafted, and 7 types which 
 
 == History ==
 thumb|The original sprite of wooden work bench can be seen in the left
-
-
 # 文档：Living Loom
 - 类别：crafting_station_items
 - 标识：living-loom
@@ -39463,8 +35734,6 @@ On the , a Living Loom may spawn placed on the ground nearby a Living Wood Chest
 * The Living Wood Chest can only be crafted on the , and in other platforms, it must be found inside Living Trees.
 
 == History ==
-
-
 # 文档：Loom
 - 类别：crafting_station_items
 - 标识：loom
@@ -39484,8 +35753,6 @@ The Loom is a crafting station used to craft Silk, as well as some items that re
 * Despite being referred to as a loom, which is used to weave thread into fabric, its sprite more closely resembles a spinning wheel, which is used to spin fiber into thread.
 
 == History ==
-
-
 # 文档：Meat Grinder
 - 类别：crafting_station_items
 - 标识：meat-grinder
@@ -39499,20 +35766,18 @@ Flesh and Lesion Blocks can be used as building materials, and crafted into fles
 === Used to craft ===
 
 == History ==
-
-
 # 文档：Mushroom Work Bench
 - 类别：crafting_station_items
 - 标识：mushroom-work-bench
 - 来源：wiki/Mushroom_Work_Bench
 
-| tooltip = 
-| rare = 
-| stack = 
-| sell = 
+| tooltip =
+| rare =
+| stack =
+| sell =
 | idtile = 18
 | consumable = true
-| listcat = plunder items 
+| listcat = plunder items
 | cargo = no
 }}
 
@@ -39539,8 +35804,6 @@ There are 34 / 26 types of Work Benches which can be crafted, and 7 types which 
 
 == History ==
 thumb|The original sprite of wooden work bench can be seen in the left
-
-
 # 文档：Obsidian Bookcase
 - 类别：crafting_station_items
 - 标识：obsidian-bookcase
@@ -39552,7 +35815,8 @@ thumb|The original sprite of wooden work bench can be seen in the left
 | stack = 9999
 | consumable = True
 | use = 15
-| sell = <br/> (Golden Bookcase)
+| sell =
+ (Golden Bookcase)
 | idtile = 101
 | listcat = plunder items
 | cargo = no
@@ -39586,20 +35850,18 @@ There are currently 35 craftable Bookcases, and 6 versions looted from the envir
 * On the , the Bookcase Crafting Station icon appears to be just a white square, while everything else appears normal. This is most likely a bug, or was forgotten during development.
 
 == History ==
-
-
 # 文档：Obsidian Work Bench
 - 类别：crafting_station_items
 - 标识：obsidian-work-bench
 - 来源：wiki/Obsidian_Work_Bench
 
-| tooltip = 
-| rare = 
-| stack = 
-| sell = 
+| tooltip =
+| rare =
+| stack =
+| sell =
 | idtile = 18
 | consumable = true
-| listcat = plunder items 
+| listcat = plunder items
 | cargo = no
 }}
 
@@ -39626,8 +35888,6 @@ There are 34 / 26 types of Work Benches which can be crafted, and 7 types which 
 
 == History ==
 thumb|The original sprite of wooden work bench can be seen in the left
-
-
 # 文档：Pink Dungeon Bookcase
 - 类别：crafting_station_items
 - 标识：pink-dungeon-bookcase
@@ -39639,7 +35899,8 @@ thumb|The original sprite of wooden work bench can be seen in the left
 | stack = 9999
 | consumable = True
 | use = 15
-| sell = <br/> (Golden Bookcase)
+| sell =
+ (Golden Bookcase)
 | idtile = 101
 | listcat = plunder items
 | cargo = no
@@ -39673,20 +35934,18 @@ There are currently 35 craftable Bookcases, and 6 versions looted from the envir
 * On the , the Bookcase Crafting Station icon appears to be just a white square, while everything else appears normal. This is most likely a bug, or was forgotten during development.
 
 == History ==
-
-
 # 文档：Pink Dungeon Work Bench
 - 类别：crafting_station_items
 - 标识：pink-dungeon-work-bench
 - 来源：wiki/Pink_Dungeon_Work_Bench
 
-| tooltip = 
-| rare = 
-| stack = 
-| sell = 
+| tooltip =
+| rare =
+| stack =
+| sell =
 | idtile = 18
 | consumable = true
-| listcat = plunder items 
+| listcat = plunder items
 | cargo = no
 }}
 
@@ -39713,8 +35972,6 @@ There are 34 / 26 types of Work Benches which can be crafted, and 7 types which 
 
 == History ==
 thumb|The original sprite of wooden work bench can be seen in the left
-
-
 # 文档：Pre-Hardmode Anvils
 - 类别：crafting_station_items
 - 标识：pre-hardmode-anvils
@@ -39736,8 +35993,6 @@ Both anvils are craftable, but can sometimes also be found in Underground Cabins
 * The anvil is used to craft many items that an actual would not be used for, such as the Amazon yoyo.
 
 == History ==
-
-
 # 文档：Sawmill
 - 类别：crafting_station_items
 - 标识：sawmill
@@ -39751,8 +36006,6 @@ The Sawmill is a crafting station for advanced Wood and Furniture crafting. It i
 === Used to craft ===
 
 == History ==
-
-
 # 文档：Shimmer
 - 类别：crafting_station_items
 - 标识：shimmer
@@ -39772,62 +36025,58 @@ Upon placing 300 or more tiles of Shimmer in the Underground or Cavern layers, a
 == Permanent Upgrades ==
 
 Some permanent character upgrades can be made by throwing certain items into Shimmer. Each can only be used once per character, except the Peddler's Satchel and Advanced Combat Techniques: Volume Two, which can only be used once per world instead.
-<table-progress-tracking table-id="1" unique-column-index="1" header-label="Collected?">
+
 {| class="terraria sortable lined mw-collapsible"
 ! Input !! Output !! Notes
 |-
-| 
-| 
+|
+|
 | Increases health regeneration ramping speed by 20%.
 |-
-| 
-| 
+|
+|
 | Increases mana regeneration.
 |-
-| 
-| 
+|
+|
 | Increases defense by 4.
 |-
-| 
-| 
+|
+|
 | Increases mining and tile / wall placement speed by 5%.
 |-
-| 
-| 
+|
+|
 | Increases fishing power by 3.
 |-
-| 
-| 
+|
+|
 | Increases luck by 0.03.
 |-
-| 
-| 
+|
+|
 | Increases the number of items sold at a time by the Travelling Merchant.
 |-
-| 
-| 
+|
+|
 | Increases defense and attack damage for town NPCs.
 |}
-</table-progress-tracking>
 
 Some items can be upgraded by throwing them into Shimmer:
-<table-progress-tracking table-id="2" unique-column-index="1" header-label="Collected?">
-{| class="terraria sortable lined mw-collapsible"
-! Input !! Output !! Notes
+
 |-
-| 
-| 
+|
+|
 | No longer inflicts the Chaos State debuff when teleporting too frequently. Requires Moon Lord to be defeated.
 |-
-| 
-| 
+|
+|
 | Farther reach, wider spread, and 33% chance to not consume solutions. Requires Moon Lord to be defeated.
 |-
-| 
-| 
+|
+|
 | Transforms Zenith into True Copper Shortsword (not Copper Shortsword).
 |}
-</table-progress-tracking>
 
 == Transmutation ==
 Shimmer is used to transform or "transmute" one item into another item or decraft it.
@@ -39901,7 +36150,6 @@ These items will cycle between each other when placed into Shimmer.
 
 These items cycle from left to right.
 
-{| class="fandom-table"
 |
 |
 |
@@ -39918,7 +36166,6 @@ These items cycle from left to right.
 |
 |
 |}
-{| class="fandom-table"
 |
 |
 |
@@ -39947,185 +36194,185 @@ Items with multiple recipes have only one way to be decrafted via Shimmer:
 |+Items with multiple recipes
 ! Item !! Decraft
 |-
-| 
 |
-* 
-* 
-|-
-| 
-| 
-* 
-* 
-* 
-|-
-| 
 |
-* 
+*
+*
 |-
-| 
 |
-* 
-* 
-* 
+|
+*
+*
+*
 |-
-| 
 |
-* 
-* 
-* 
-* 
+|
+*
 |-
-| 
 |
-* 
-* 
+|
+*
+*
+*
 |-
-| 
 |
-* 
-* 
-* 
+|
+*
+*
+*
+*
 |-
-| 
 |
-* 
-* 
+|
+*
+*
 |-
-| 
 |
-* 
-* 
+|
+*
+*
+*
 |-
-| 
 |
-* 
-* 
+|
+*
+*
 |-
-| 
 |
-* 
-* 
+|
+*
+*
 |-
-| 
 |
-* 
-* 
+|
+*
+*
 |-
-| 
 |
-* 
-* 
-* 
+|
+*
+*
 |-
-| 
 |
-* 
-* 
-* 
-* 
+|
+*
+*
 |-
-| 
 |
-* 
-* 
+|
+*
+*
+*
 |-
-| 
 |
-* 
-* 
+|
+*
+*
+*
+*
 |-
-| 
 |
-* 
-* 
+|
+*
+*
 |-
-| 
 |
-* 
-* 
+|
+*
+*
 |-
-| 
 |
-* 
-* 
+|
+*
+*
 |-
-| 
 |
-* 
-* 
+|
+*
+*
 |-
-| 
 |
-* 
-* 
+|
+*
+*
 |-
-| 
 |
-* 
+|
+*
+*
 |-
-| 
 |
-* 
-* 
+|
+*
+*
 |-
-| 
 |
-* 
-* 
-* 
+|
+*
 |-
-| 
 |
-* 
-* 
+|
+*
+*
 |-
-| 
 |
-* 
-* 
+|
+*
+*
+*
 |-
-| 
 |
-* 
-* 
-* 
-* 
+|
+*
+*
 |-
-| 
 |
-* 
-* 
-* 
-* 
+|
+*
+*
+|-
+|
+|
+*
+*
+*
+*
+|-
+|
+|
+*
+*
+*
+*
 |}
 
 {| class="terraria lined sortable"
 |+ Items with custom Shimmer decrafting
 ! Item !! Custom Shimmer result
 |-
-| 
 |
-* 
-* 
+|
+*
+*
 |-
-| 
 |
-* 
-* 
+|
+*
+*
 |-
-| 
 |
-* 
-* 
+|
+*
+*
 |-
-| 
 |
-* 
-* 
+|
+*
+*
 |-
-| 
 |
-* 
+|
+*
 |}
 
 These items decraft into random ingredients.
@@ -40135,19 +36382,16 @@ These items decraft into random ingredients.
 
 |}
 
-{| class="terraria mw-collapsible"
 |+ Items that cannot be decrafted until Skeletron is defeated
 |
 
 |}
 
-{| class="terraria mw-collapsible"
 |+ Items that cannot be decrafted until Golem is defeated
 |
 
 |}
 
-{| class="terraria mw-collapsible"
 |+ Items that cannot be decrafted
 |
 
@@ -40157,388 +36401,385 @@ Recipes that contain the following recipe groups will always be decrafted into t
 {| class="terraria lined mw-collapsible"
 ! Recipe group !! Decrafted item
 |-
-| || 
+| ||
 |-
-| || 
+| ||
 |-
-| || 
+| ||
 |-
-| || 
+| ||
 |-
-| || 
+| ||
 |-
-| || 
+| ||
 |-
-| || 
+| ||
 |-
-| || 
+| ||
 |-
-| || 
+| ||
 |-
-| || 
+| ||
 |-
-| || 
+| ||
 |-
-| || 
+| ||
 |-
-| || 
+| ||
 |-
-| || 
+| ||
 |-
-| || 
+| ||
 |-
-| || 
+| ||
 |-
-| || 
+| ||
 |-
-| || 
+| ||
 |-
-| || 
+| ||
 |-
-| || 
+| ||
 |}
 
 == Enemy and Critter transmutations ==
-{| class="terraria sortable lined mw-collapsible"
 ! Input !! Output
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |-
-| 
-| 
+|
+|
 |}
 
 == Downgrading ==
-Shimmer can downgrade various tiered items thrown into it, like ores and gems. When the 
+Shimmer can downgrade various tiered items thrown into it, like ores and gems. When the
 
 ...(内容截断)
-
-
 # 文档：Sky Mill
 - 类别：crafting_station_items
 - 标识：sky-mill
@@ -40553,8 +36794,6 @@ The Sky Mill is a crafting station found in Skyware Chests on Floating Islands. 
 === Used to craft ===
 
 == History ==
-
-
 # 文档：Solidifier
 - 类别：crafting_station_items
 - 标识：solidifier
@@ -40565,8 +36804,6 @@ The Solidifier is a themed crafting station which crafts blocks and furniture re
 === Used to craft ===
 
 == History ==
-
-
 # 文档：Table and Chair
 - 类别：crafting_station_items
 - 标识：table-and-chair
@@ -40575,12 +36812,12 @@ The Solidifier is a themed crafting station which crafts blocks and furniture re
 | placeable = yes
 | width = 1| height = 2
 | consumable = true
-| use = 
+| use =
 | idtile = 15
 | cargo = no
-| listcat = plunder items 
+| listcat = plunder items
 }}
-framed|Placed Chairs. Click the image to view a summary of each row. 
+framed|Placed Chairs. Click the image to view a summary of each row.
 
 Chairs are furniture items which can be placed on the ground. They count as a comfort item, which is one of the required elements in order to make a house suitable for an NPC. In combination with a Work Bench or a Table, they also form minor crafting stations.
 
@@ -40599,22 +36836,19 @@ Also see , which also fulfills a house's comfort item requirement. Including the
 |-
 ! colspan=2 | Chair !! Notes
 |-
-| 
+|
 | Furniture found in the Dungeon.
 |-
-| 
-| Furniture found in the Dungeon.
+|
 |-
-| 
-| Furniture found in the Dungeon.
+|
 |-
-| 
-| Furniture found in the Dungeon.
+|
 |-
-| 
+|
 | Found in Ruined Houses, does not break from lava.
 |-
-| 
+|
 | Dropped by Pirates. Sell for .
 |}
 
@@ -40636,8 +36870,6 @@ Also see , which also fulfills a house's comfort item requirement. Including the
 * The Dynasty Chair is the only chair that NPCs can not sit on, despite it counting for the requirement of a home.
 
 == History ==
-
-
 # 文档：Teapot
 - 类别：crafting_station_items
 - 标识：teapot
@@ -40657,8 +36889,6 @@ The Teapot is a crafting station used to make Teacups. It can be placed anywhere
 * The use of bone in its crafting recipe is a reference to .
 
 == History ==
-
-
 # 文档：Tinkerer's Workshop
 - 类别：crafting_station_items
 - 标识：tinkerers-workshop
@@ -40696,8 +36926,6 @@ The Tinkerer's Workshop is also used to craft a Boulder and the unique unrecorda
 ** : Stat boosts and Werewolf and Merfolk transformations.
 
 == History ==
-
-
 # 文档：Water
 - 类别：crafting_station_items
 - 标识：water
@@ -40729,9 +36957,9 @@ Water can also be used to make the following items, though not as a crafting sta
 ! width="150px" | Item
 ! width="150px" | When combined with
 |-
-| || 
+| ||
 |-
-| || 
+| ||
 |-
 |Aetherium Block
 |Shimmer
@@ -40742,7 +36970,7 @@ Water changes color depending on which biome or event the player is. The color c
 
 * File:Water.png Blue in the Forest and Ocean
 * File:Underground and Glowing Mushroom Water.png Dark Blue in the Underground layer and Glowing Mushroom biome
-* File:Desert Water.png Yellow in the surface Desert / Underground Desert 
+* File:Desert Water.png Yellow in the surface Desert / Underground Desert
 * File:Jungle Water.png Teal in the Jungle
 * File:Icy Water.png Light blue in the Snow biome
 * File:Corrupt Water.png Purple in the Corruption
@@ -40750,7 +36978,7 @@ Water changes color depending on which biome or event the player is. The color c
 * File:Hallowed Water.png Magenta in the Hallow
 * File:Blood Moon Water.png Red during a Blood Moon
 * File:Cavern Water.png Murky purple in the Cavern layer
-* File:Oasis Water.png Turquoise in the surface Desert, such as in an 
+* File:Oasis Water.png Turquoise in the surface Desert, such as in an
 
 == Items interacting with water ==
 * Flippers allow the player to swim upward by jumping repeatedly from any point within the water.
@@ -40775,8 +37003,6 @@ thumb|right|By default, players are slowed down significantly when walking throu
 *Water slowly disappears when placed within the underworld.
 
 == History ==
-
-
 # 文档：Work Bench and Chair
 - 类别：crafting_station_items
 - 标识：work-bench-and-chair
@@ -40785,12 +37011,12 @@ thumb|right|By default, players are slowed down significantly when walking throu
 | placeable = yes
 | width = 1| height = 2
 | consumable = true
-| use = 
+| use =
 | idtile = 15
 | cargo = no
-| listcat = plunder items 
+| listcat = plunder items
 }}
-framed|Placed Chairs. Click the image to view a summary of each row. 
+framed|Placed Chairs. Click the image to view a summary of each row.
 
 Chairs are furniture items which can be placed on the ground. They count as a comfort item, which is one of the required elements in order to make a house suitable for an NPC. In combination with a Work Bench or a Table, they also form minor crafting stations.
 
@@ -40809,22 +37035,19 @@ Also see , which also fulfills a house's comfort item requirement. Including the
 |-
 ! colspan=2 | Chair !! Notes
 |-
-| 
+|
 | Furniture found in the Dungeon.
 |-
-| 
-| Furniture found in the Dungeon.
+|
 |-
-| 
-| Furniture found in the Dungeon.
+|
 |-
-| 
-| Furniture found in the Dungeon.
+|
 |-
-| 
+|
 | Found in Ruined Houses, does not break from lava.
 |-
-| 
+|
 | Dropped by Pirates. Sell for .
 |}
 
@@ -40846,20 +37069,18 @@ Also see , which also fulfills a house's comfort item requirement. Including the
 * The Dynasty Chair is the only chair that NPCs can not sit on, despite it counting for the requirement of a home.
 
 == History ==
-
-
 # 文档：Work Benches
 - 类别：crafting_station_items
 - 标识：work-benches
 - 来源：wiki/Work_Benches
 
-| tooltip = 
-| rare = 
-| stack = 
-| sell = 
+| tooltip =
+| rare =
+| stack =
+| sell =
 | idtile = 18
 | consumable = true
-| listcat = plunder items 
+| listcat = plunder items
 | cargo = no
 }}
 
@@ -40888,7 +37109,6 @@ There are 34 / 26 types of Work Benches which can be crafted, and 7 types which 
 thumb|The original sprite of wooden work bench can be seen in the left
 ## BUFFS
 共 121 篇文档
-
 # 文档：Amber Mosquito
 - 类别：buffs
 - 标识：amber-mosquito
@@ -40904,8 +37124,6 @@ The Amber Mosquito is a pet-summoning item that spawns a Baby Dinosaur to follow
 == History ==
 
 == References ==
-
-
 # 文档：Ancient Horn
 - 类别：buffs
 - 标识：ancient-horn
@@ -40935,8 +37153,6 @@ The Mount emits a faint red glow from 27' underground downwards. This light does
 * Both the Basilisk and Unicorn Mount's charge abilities operate the same way Sprinting accessories do in terms of momentum. This means that mounting while sprinting, dashing with the or Tabi, or moving quickly through the use of a canceled grapple will immediately cause the Basilisk to begin charging, even if the distance covered would normally not be enough to trigger it.
 
 == History ==
-
-
 # 文档：Baby Grinch's Mischief Whistle
 - 类别：buffs
 - 标识：baby-grinchs-mischief-whistle
@@ -40948,8 +37164,6 @@ The Baby Grinch's Mischief Whistle is a pet summoning item which summons a pet B
 * This item is a reference to the story by Doctor Seuss and the live-action remake, where they included a scene of people having a flashback about the grinch as a baby.
 
 == History ==
-
-
 # 文档：Ball O' Fuse Wire
 - 类别：buffs
 - 标识：ball-o-fuse-wire
@@ -40967,8 +37181,6 @@ The Ball O' Fuse Wire is a Hardmode pet-summoning item. It is purchased from the
 == History ==
 
 == References ==
-
-
 # 文档：Bamboo Leaf
 - 类别：buffs
 - 标识：bamboo-leaf
@@ -40980,8 +37192,6 @@ The Bamboo Leaf is a pet-summoning item that summons a Baby Red Panda. It is pur
 * The is a small mammal native to the Himalayas and China. Despite the similarities in name and diet, it is not closely related to the giant panda. The Red Panda was actually discovered before the giant panda.
 
 == History ==
-
-
 # 文档：Banners (enemy)
 - 类别：buffs
 - 标识：banners-enemy
@@ -41048,9 +37258,6 @@ The Bamboo Leaf is a pet-summoning item that summons a Baby Red Panda. It is pur
 === ===
 
 === ===
-<div class="terraria" style="padding-left:7px">
-
-</div>
 
 === ===
 
@@ -41070,7 +37277,7 @@ The Bamboo Leaf is a pet-summoning item that summons a Baby Red Panda. It is pur
 === Recipes ===
 
 == Effect on damage and defense calculation ==
-Since banners affect base damage rather than the calculation after defense is taken into account, 10 final damage does not just become 15 or 20 damage but can vary greatly. 
+Since banners affect base damage rather than the calculation after defense is taken into account, 10 final damage does not just become 15 or 20 damage but can vary greatly.
 
 This also applies to other player and weapon damage modifiers but not player damage reduction ones.
 
@@ -41078,29 +37285,29 @@ The real effect of banners grows the bigger the values are as well as how close 
 
 As an example for Expert Mode, Weapon Damage 50 and Enemy Defense 80 (40 Damage Reduction):
 
-:<code>50×2−40 = 60</code> damage dealt instead of <code>(50−40)×2 = 20</code> damage.
+:50×2−40 = 60 damage dealt instead of (50−40)×2 = 20 damage.
 
 For Normal Mode, same values:
 
-:<code>50×1.5−40 = 35</code> damage dealt instead of <code>15</code> damage.
+:50×1.5−40 = 35 damage dealt instead of 15 damage.
 
 Example for damage dealt to the player, Expert Mode, 100 Damage, Player Defense 80 (60 Damage Reduction):
 
-:<code>100×0.5−60 = −10</code> damage (<code>1</code> damage) instead of <code>(100−60)×0.5 = 20</code> damage.
+:100×0.5−60 = −10 damage (1 damage) instead of (100−60)×0.5 = 20 damage.
 
 In normal Mode, Enemy Base Damage is usually halved, Player Defense 80 (40 Damage Reduction):
 
-:<code>50×0.75−40 = −2.5</code> damage (<code>1</code> damage) instead of <code>(50−40)×0.75 = 7.5</code> Damage.
+:50×0.75−40 = −2.5 damage (1 damage) instead of (50−40)×0.75 = 7.5 Damage.
 
 High Damage Example, fictional since no melee attack hits as hard as a Pirate Captain's Cannon Ball:
 
 400 Damage, Titanium Armor 49 Defense (36.75 Damage Reduction). Original Damage 363.25.
 
-:<code>400×0.5−36.75 = 164</code> (<code>45%</code> of the original damage) instead of simply <code>50%</code> of the damage.
+:400×0.5−36.75 = 164 (45% of the original damage) instead of simply 50% of the damage.
 
 Upping the Player Defense by 24 to 73 (54.75 Damage Reduction). 345.25 Original Damage.
 
-:<code>400×0.5−54.75 = 145.25</code> (<code>42%</code> of the original damage).
+:400×0.5−54.75 = 145.25 (42% of the original damage).
 
 The effect in Expert can easily grow to the point where one can kill a Wyvern in one or two multi-hits with a banner when one had to previously dance with it (10+ hits) and the very same weapon.
 
@@ -41125,8 +37332,6 @@ The effect in Expert can easily grow to the point where one can kill a Wyvern in
 == History ==
 
 == References ==
-
-
 # 文档：Bedazzled Nectar
 - 类别：buffs
 - 标识：bedazzled-nectar
@@ -41139,8 +37344,6 @@ The Bedazzled Nectar is a pet summoning item. When used, it summons the Glittery
 * The Glittery Butterfly's wings bear a striking resemblance to the -exclusive Sparkly Wings.
 
 == History ==
-
-
 # 文档：Bernie's Button
 - 类别：buffs
 - 标识：bernies-button
@@ -41153,11 +37356,9 @@ The Bernie's Button is a pet-summoning item which summons a Bernie pet that foll
 * The tooltip of the buff is a reference to 's examination quote for Bernie in event of Don't Starve Together.
 
 == See also ==
-* 
+*
 
 == History ==
-
-
 # 文档：Betsy's Egg
 - 类别：buffs
 - 标识：betsys-egg
@@ -41171,8 +37372,6 @@ Betsy's Egg is a pet-summoning item that drops from Betsy in Master Mode with a 
 * Itsy Betsy is also a pet found in , the game that the Old One's Army is based on.
 
 == History ==
-
-
 # 文档：Birdie Rattle
 - 类别：buffs
 - 标识：birdie-rattle
@@ -41186,8 +37385,6 @@ The Lil' Harpy, when summoned, will fly above and behind the player, and will be
 * The tooltip mentions a cockatiel, which is a member of the cockatoo family.
 
 == History ==
-
-
 # 文档：Blessed Apple
 - 类别：buffs
 - 标识：blessed-apple
@@ -41230,8 +37427,6 @@ Once a high speed is reached, the Unicorn emits a sparkle effect, and from that 
 == History ==
 
 == References ==
-
-
 # 文档：Bone Key
 - 类别：buffs
 - 标识：bone-key
@@ -41241,7 +37436,7 @@ The Bone Key is a pet-summoning item that is always dropped from the Dungeon Gua
 
 == Notes ==
 * This item cannot be obtained in a world where Skeletron has already been defeated, as Dungeon Guardians will no longer spawn.
-* Similar to the Zephyr Fish, the head that follows the player will not teleport to them when they end up a long distance away from it, but rather will just keep moving towards the player. One can instantly teleport it back to themselves by toggling the visibility of it off, then back on again in their pet slot. 
+* Similar to the Zephyr Fish, the head that follows the player will not teleport to them when they end up a long distance away from it, but rather will just keep moving towards the player. One can instantly teleport it back to themselves by toggling the visibility of it off, then back on again in their pet slot.
 **Alternatively, if being used as a summon from the players inventory, they can simply re-summon it.
 
 == Tips ==
@@ -41254,8 +37449,6 @@ The Bone Key is a pet-summoning item that is always dropped from the Dungeon Gua
 * , a similar pet dropped from Skeletron in Master Mode
 
 == History ==
-
-
 # 文档：Bone Rattle
 - 类别：buffs
 - 标识：bone-rattle
@@ -41267,8 +37460,6 @@ The Bone Rattle is a pet item which summons a Baby Face Monster. The Bone Rattle
 * Eater's Bone, the Corruption counterpart dropped by the Eater of Worlds.
 
 == History ==
-
-
 # 文档：Brain in a Jar
 - 类别：buffs
 - 标识：brain-in-a-jar
@@ -41277,8 +37468,6 @@ The Bone Rattle is a pet item which summons a Baby Face Monster. The Bone Rattle
 The Brain in a Jar is a pet item that which has a to be dropped by Brain of Cthulhu in Master Mode only. It summons the Spider Brain, which is a miniature version of the Brain of Cthulhu.
 
 == History ==
-
-
 # 文档：Broken Heart
 - 类别：buffs
 - 标识：broken-heart
@@ -41301,8 +37490,6 @@ Despite having a bow and arrow, it cannot inflict damage.
 * Placing and breaking gems can easily give the player this item.
 
 == History ==
-
-
 # 文档：Buffs
 - 类别：buffs
 - 标识：buffs
@@ -41328,43 +37515,36 @@ These buffs are provided from sources and consumed upon use, such as potions, fl
 
 == Equipment ==
 These buffs are provided naturally by equipment, either permanently or under certain circumstances.
-{| class="terraria sortable lined"
 ! width="34" | Icon
 ! Name
 ! Source
 ! Effect
 ! Tooltip
-! data-sort-type="number" | Duration
 
 |}
 
 == Activated Furniture ==
 These buffs are provided upon right-clicking particular placed furniture.
-{| class="terraria sortable lined"
 ! width="34" | Icon
 ! Name
 ! Source
 ! Effect
 ! Tooltip
-! data-sort-type="number" | Duration
 
 |}
 
 == Environmental ==
 These buffs are provided by being in range of particular placed furniture, blocks, or NPCs. Banners, as well as static effects from objects like Peace Candle and Happy!, have a 170×125 / 100×84 tile area of effect centered on the object. Since they cannot be canceled by right clicking them, the only way to remove the buff is to leave the area (with the exception of honey).
-{| class="terraria sortable lined"
 ! width="34" | Icon
 ! Name
 ! Source
 ! Effect
 ! Tooltip
-! data-sort-type="number" | Duration
 
 |}
 
 == Summons ==
 Aside from the normal buffs, some buffs provide you with a minion. Unlike other buffs, they last until the player dies, cancels the buff, or leaves the current world.
-{| class="terraria sortable lined"
 ! width="34" | Icon
 ! Name
 ! Source
@@ -41375,7 +37555,6 @@ Aside from the normal buffs, some buffs provide you with a minion. Unlike other 
 |}
 
 == Mounts ==
-{| class="terraria sortable lined"
 ! width="34" | Icon
 ! Name
 ! Source
@@ -41398,8 +37577,6 @@ Aside from the normal buffs, some buffs provide you with a minion. Unlike other 
 == History ==
 
 == Footnotes ==
-
-
 # 文档：Buffs/yue
 - 类别：buffs
 - 标识：buffsyue
@@ -41410,7 +37587,6 @@ Aside from the normal buffs, some buffs provide you with a minion. Unlike other 
 可以好輕鬆咁用（預設係喺電腦上面嘅）啟用，當依個快捷鍵暗咗落去嘅時候，玩家身上所有未被啟用嘅取得加益消耗品都會被啟用（由最左上角嘅開始）。每一個玩家身上限制阻只可以有22種（10種）唔同嘅或者同時存在，當超過咗嘅時候，最左邊嘅狀態就會被解除嚟讓個位畀嗰個新加入去嘅狀態。大部分嘅都可以用右鍵點擊對應嘅標誌嚟提早解除，雖然嗰啲因為接近咗某啲物品而得到嘅狀態要係遠離嗰件物品嘅範圍先可以解除（可以睇下下面嘅Environmental）。
 
 啟用咗嘅係綁定係角色身上面，當角色轉移伺服器或者轉移世界嘅時候都會保留。除咗嗰啲由攞到嘅之外，其他嘅都會喺玩家嘅時候解除。不過喺入面，由攞到嘅都會隨著玩家嘅解除。
- 
 
 == ==
 呢一啲係食完一啲例如、或者嘢食等攞到。
@@ -41420,43 +37596,23 @@ Aside from the normal buffs, some buffs provide you with a minion. Unlike other 
 ! 名稱
 ! 來源
 ! 效果
-! 
+!
 ! data-sort-type="number" | 持續時間
-
-{{/row| Plenty Satisfied
-| 中提升某啲基礎數值，例如，之類。
-|source = 一啲嘢食類
-|duration = 5-20分鐘 }
-}}
-
-{{/row| Well Fed
-| 提升某啲基礎數值，例如，之類。
-|source = 一啲嘢食類
-|duration = 10-45分鐘 }
-}}
-
-{{/row| Weapon Imbue: Ichor
-| 近戰攻擊會對造成}嘅。
-| Flask of Ichor
-}}
 
 |}
 
 == 裝備 ==
 呢一啲會由裝備永久或者喺特定情況之下提供。
-{| class="terraria sortable lined"
 ! width="34" | Icon
 ! 名稱
 ! 來源
 ! 效果
-! 
-! data-sort-type="number" | 持續時間
+!
 
 |}
 
 == 使用咗嘅家私 ==
 呢一啲係由右鍵點擊特定嘅家私所提供。
-{| class="terraria sortable lined"
 ! width="34" | Icon
 ! Name
 ! Source
@@ -41468,19 +37624,16 @@ Aside from the normal buffs, some buffs provide you with a minion. Unlike other 
 
 == 環境性 ==
 呢一類係當玩家喺一啲放咗喺度嘅傢俬，方塊或者NPCs嘅範圍嘅時候提供嘅，同埋例如，呢一類嘅背景效果，都有由物件中心出發170×125 / 100×84 圖格面積嘅效果範圍。由於唔可以通過右鍵取消效果，要整走呢一啲唯一嘅方法就係離開嗰個區域(除咗)。
-{| class="terraria sortable lined"
 ! width="34" | Icon
 ! Name
 ! Source
 ! Effect
 ! Tooltip
-! data-sort-type="number" | Duration
 
 |}
 
 == Summons ==
 Aside from the normal buffs, some buffs provide you with a minion. Unlike other buffs, they last until the player dies, cancels the buff, or leaves the current world.
-{| class="terraria sortable lined"
 ! width="34" | Icon
 ! Name
 ! Source
@@ -41491,7 +37644,6 @@ Aside from the normal buffs, some buffs provide you with a minion. Unlike other 
 |}
 
 == Mounts ==
-{| class="terraria sortable lined"
 ! width="34" | Icon
 ! Name
 ! Source
@@ -41508,16 +37660,14 @@ Aside from the normal buffs, some buffs provide you with a minion. Unlike other 
 == ==
 
 == 另見 ==
-* 
-* 
+*
+*
 
 == History ==
 
 ** Happy!, Star in a Bottle, Peace Candle buffs introduced.
 
 == Footnotes ==
-
-
 # 文档：Carrot
 - 类别：buffs
 - 标识：carrot
@@ -41536,8 +37686,6 @@ The Carrot is a pet-summoning item which summons a Bunny pet. It is only availab
 * The publisher of the Collector's Edition requested an exclusive in-game feature, so as to motivate people to purchase the more expensive physical copy instead of the digital download version of the game. To avoid unbalancing the game, Redigit chose to comply with a relatively inconsequential feature.
 
 == History ==
-
-
 # 文档：Celestial Wand
 - 类别：buffs
 - 标识：celestial-wand
@@ -41555,8 +37703,6 @@ Estee will emit a beam trail when the player is moving at high speeds or falling
 * Equipping Burning Hades Dye in the pet dye slot causes the Estee pet to close its eyes and with the beam trail there will also be a fire trail.
 
 == History ==
-
-
 # 文档：Companion Cube
 - 类别：buffs
 - 标识：companion-cube
@@ -41585,8 +37731,6 @@ When the Companion Cube falls into lava, it emits the Lunatic Cultist's . When s
 ** The Companion Cube stabbing the player is a reference to a line spoken by [http://combineoverwiki.net/wiki/GLaDOS GLaDOS] in Portal, in which she states "The Enrichment Center reminds you that the Weighted Companion Cube will never threaten to stab you and, in fact, cannot speak." This line is also directly quoted in the buff's tooltip.
 
 == History ==
-
-
 # 文档：Cosmic Skateboard
 - 类别：buffs
 - 标识：cosmic-skateboard
@@ -41598,8 +37742,6 @@ The Cosmic Skateboard is a pet-summoning item that has a chance of dropping from
 * The phrase "How do you do, fellow humans?" is a reference to a cutaway gag in the television show [https://30rock.fandom.com/wiki/30_Rock 30 Rock], in which Lenny Wosniak walks up to a group of teens and asks "How do you do, fellow kids?" while holding two skateboards.
 
 == History ==
-
-
 # 文档：Creeper Egg
 - 类别：buffs
 - 标识：creeper-egg
@@ -41608,8 +37750,6 @@ The Cosmic Skateboard is a pet-summoning item that has a chance of dropping from
 The Creeper Egg is a Hardmode summoning item that gives the player a Flickerwick light pet. It is dropped by the Ogre during the Old One's Army event. When active, it is similar to the Wisp in a Bottle, where it provides light where ever you go. The summoned Flickerwick has the same movement speed as the player, and cannot be left behind easily.
 
 == History ==
-
-
 # 文档：Cursed Sapling
 - 类别：buffs
 - 标识：cursed-sapling
@@ -41627,13 +37767,10 @@ The pet appears as a small dark blue tree stump with a jagged head, a jack-o-lan
 thumb|Cursed Sapling circling around the player.
 
 == Gallery ==
-<gallery>
+
 File:Cursed_Sapling_Light.png|The trails of a flying Cursed Sapling improving terrain visibility.
-</gallery>
 
 == History ==
-
-
 # 文档：Dark Mage's Tome
 - 类别：buffs
 - 标识：dark-mages-tome
@@ -41653,8 +37790,6 @@ The Book Mount cancels fall damage.
 * The hover time will not be consumed when gliding on the ground, meaning that the player can glide infinitely as long as they are on the ground. This can be used for quicker traveling, as the top speed of the mount is higher than that of the Lightning Boots or its upgrades ( vs. ).
 
 == History ==
-
-
 # 文档：Deactivated Probe
 - 类别：buffs
 - 标识：deactivated-probe
@@ -41663,8 +37798,6 @@ The Book Mount cancels fall damage.
 The Deactivated Probe is a pet-summoning item dropped from The Destroyer in Master Mode with a chance. It summons a small version of The Destroyer named Destroyer-Lite as a pet that follows the player around.
 
 == History ==
-
-
 # 文档：Deerclops Eyeball
 - 类别：buffs
 - 标识：deerclops-eyeball
@@ -41678,11 +37811,9 @@ The Deerclops Eyeball is a pet-summoning item that has a chance of dropping from
 * The bird carrying Tiny Deerclops appears to be a [https://dontstarve.fandom.com/wiki/Birds?so=search snowbird] from Don't Starve.
 
 == See also ==
-* 
+*
 
 == History ==
-
-
 # 文档：Digging Molecart
 - 类别：buffs
 - 标识：digging-molecart
@@ -41701,7 +37832,7 @@ Once mounted on existing tracks, the Digging Molecart moves forward with a maxim
 ** Mining the blocks manually while riding will allow the Digging Molecart to get under the falling blocks. The falling blocks will inflict damage and be collected. This effect has not been fully tested yet.
 * The Digging Molecart cannot dig storage items with items in them, or the blocks directly underneath a storage item.
 ** It can remove storage items that have no items, but can never dig the blocks underneath them
-** While digging through the Dungeon, the Molecart can duplicate and destroy Biome Chests if they cut through the top half of the chest. While this method creates multiple chests, the Molecart destroys all the items within the chest. 
+** While digging through the Dungeon, the Molecart can duplicate and destroy Biome Chests if they cut through the top half of the chest. While this method creates multiple chests, the Molecart destroys all the items within the chest.
 * The Digging Molecart cannot dig the blocks under a tree, but it can dig the tree itself.
 
 == Tips ==
@@ -41717,8 +37848,6 @@ Once mounted on existing tracks, the Digging Molecart moves forward with a maxim
 * The Digging Molecart strongly resembles the [https://www.mariowiki.com/Mole_Tank Mole Tank] transformation from the Yoshi's Island series.
 
 == History ==
-
-
 # 文档：Dog Whistle
 - 类别：buffs
 - 标识：dog-whistle
@@ -41730,8 +37859,6 @@ The Dog Whistle is a pet-summoning item that summons a Puppy pet. It can be drop
 * This item may be a possible reference to , a Christmas movie which prominently features a magic dog whistle.
 
 == History ==
-
-
 # 文档：Dragon Egg
 - 类别：buffs
 - 标识：dragon-egg
@@ -41740,8 +37867,6 @@ The Dog Whistle is a pet-summoning item that summons a Puppy pet. It can be drop
 The Dragon Egg is a Pet summoning item that gives the player a Hoardagron pet. It has a 16.67% / chance to be dropped by the Dark Mage(T1) and a 8.33% chance to be dropped from Dark Mage(T3) during the Old One's Army event.
 
 == History ==
-
-
 # 文档：Eater's Bone
 - 类别：buffs
 - 标识：eaters-bone
@@ -41758,8 +37883,6 @@ The Baby Eater pet will not teleport to the player when it is far away, unlike m
 * , the Crimson counterpart dropped by the Brain of Cthulhu.
 
 == History ==
-
-
 # 文档：Eucalyptus Sap
 - 类别：buffs
 - 标识：eucalyptus-sap
@@ -41774,8 +37897,6 @@ The Eucalyptus Sap is a pet-summoning item that summons a pet Sugar Glider to fo
 * The item's name within code is mistyped as: "EucaluptusSap" as of 1.4.4.9 version of the game.
 
 == History ==
-
-
 # 文档：Exotic Chew Toy
 - 类别：buffs
 - 标识：exotic-chew-toy
@@ -41788,8 +37909,6 @@ The Exotic Chew Toy is an item that summons a Fennec Fox pet when used. It is av
 * The item tooltip refers to the fact that fennec foxes are known for being able to produce very high-pitched barks.
 
 == History ==
-
-
 # 文档：Eye Bone
 - 类别：buffs
 - 标识：eye-bone
@@ -41802,12 +37921,10 @@ The Eye Bone is a pet-summoning item which has a chance to drop from Deerclops. 
 * The tooltip of the buff is a reference to 's examination quote for Chester in Don't Starve.
 
 == See also ==
-* 
-* 
+*
+*
 
 == History ==
-
-
 # 文档：Eye Spring
 - 类别：buffs
 - 标识：eye-spring
@@ -41820,8 +37937,6 @@ The Eye Spring is a pet-summoning item that has a / chance of being dropped by E
 * The Eyeball Spring appears to be the Eyezor's detached eye.
 
 == History ==
-
-
 # 文档：Fairy Bell
 - 类别：buffs
 - 标识：fairy-bell
@@ -41846,8 +37961,6 @@ The Fairy is faster and brighter than the Shadow Orb and Crimson Heart, but not 
 * Despite its name, Pixie Dye will actually not make the fairy colored like the Pixie enemy. Instead, using Orange Dye on the Fairy Bell will make it resemble a Pixie.
 
 == History ==
-
-
 # 文档：Finch Staff
 - 类别：buffs
 - 标识：finch-staff
@@ -41879,14 +37992,11 @@ Unlike most other summon weapons, its best possible modifier is Mythical because
 * The Baby Finch's sprite is most likely based on a .
 
 == Gallery ==
-<gallery>
+
 File:Finch Staff (one).png|A player with one finch summoned.
 File:Finch Staff (eleven).png|A player with eleven finches summoned.
-</gallery>
 
 == History ==
-
-
 # 文档：Fish (item)
 - 类别：buffs
 - 标识：fish-item
@@ -41899,8 +38009,6 @@ The Fish is a pet-summoning item that spawns a Penguin to follow the player arou
 * The Baby Penguin's use of a jetpack in its flying animation is a reference to Sgt. Byrd from the Spyro the Dragon franchise.
 
 == History ==
-
-
 # 文档：Flinx Staff
 - 类别：buffs
 - 标识：flinx-staff
@@ -41908,7 +38016,7 @@ The Fish is a pet-summoning item that spawns a Penguin to follow the player arou
 
 frame|The Flinx Staff in use, attacking a Skeleton.
 
-The Flinx Staff is a pre-Hardmode summon weapon that summons a Flinx minion. Upon hitting an enemy, it bounces off creating a small puff of blue smoke where it immediately tries to hit the enemy again. Sometimes it will not bounce far enough away from the enemy, and will deal damage two times within just a few frames. If the player gets too far away, goes behind a wall, or flies up in the air, the Flinx will twirl end over end towards the player. 
+The Flinx Staff is a pre-Hardmode summon weapon that summons a Flinx minion. Upon hitting an enemy, it bounces off creating a small puff of blue smoke where it immediately tries to hit the enemy again. Sometimes it will not bounce far enough away from the enemy, and will deal damage two times within just a few frames. If the player gets too far away, goes behind a wall, or flies up in the air, the Flinx will twirl end over end towards the player.
 
 Visually, the minion looks like a purple-colored Snow Flinx with a bun of fur behind its head.
 
@@ -41932,8 +38040,6 @@ Unlike other summon weapons, its best possible modifier is Mythical because both
 * Flinx Fur Coat
 
 == History ==
-
-
 # 文档：Frozen Crown
 - 类别：buffs
 - 标识：frozen-crown
@@ -41942,12 +38048,10 @@ Unlike other summon weapons, its best possible modifier is Mythical because both
 The Frozen Crown is a pet-summoning item that has a to chance of dropping from the Ice Queen in Master Mode. It summons a miniature Ice Queen pet that will follow the player around.
 
 == Trivia ==
-* The item tooltip is nearly identical to that of the Regal Delicacy, the Queen Slime's pet-summoning item, which reads <i></i>.
+* The item tooltip is nearly identical to that of the Regal Delicacy, the Queen Slime's pet-summoning item, which reads .
 *The pet that is summoned is very similar to that summoned by Jewel of Light, and has the same flight patterns.
 
 == History ==
-
-
 # 文档：Full Moon Squeaky Toy
 - 类别：buffs
 - 标识：full-moon-squeaky-toy
@@ -41960,8 +38064,6 @@ The Full Moon Squeaky Toy is a pet-summoning item which summons a Baby Werewolf 
 * The Baby Werewolf appears to have a tail, unlike the Werewolf monster it's based on.
 
 == History ==
-
-
 # 文档：Gato Egg
 - 类别：buffs
 - 标识：gato-egg
@@ -41974,11 +38076,9 @@ The Gato Egg is a pet-summoning item which summons a Propeller Gato to follow th
 * This item is a direct reference to the "Propeller Cat" pet/NPC in Dungeon Defenders 2.
 
 == See also ==
-* 
+*
 
 == History ==
-
-
 # 文档：Gelatinous Pillion
 - 类别：buffs
 - 标识：gelatinous-pillion
@@ -42013,8 +38113,6 @@ The Gelatinous Pillion has a chance of being dropped by Queen Slime in Classic M
 **For example, the Slimy Saddle is referred to in the files as Mount_Slime
 
 == History ==
-
-
 # 文档：Glommer's Flower
 - 类别：buffs
 - 标识：glommers-flower
@@ -42028,12 +38126,10 @@ The Glommer's Flower is a pet-summoning item which summons a Glommer pet that fo
 * The tooltip of the buff is a reference to 's examination quote for Glommer in Don't Starve.
 
 == See also ==
-* 
-* 
+*
+*
 
 == History ==
-
-
 # 文档：Glow Tulip
 - 类别：buffs
 - 标识：glow-tulip
@@ -42054,14 +38150,11 @@ It can also be detected by the Metal Detector.
 * The is a reference to the survival sandbox game , where the is a plant that can be found scattered around the map.
 
 == Gallery ==
-<gallery>
+
 File:CavelingGardenerFlying.png|Caveling Gardener pet flying.
 File:CavelingGardener NoBackground.png|Caveling Gardener pet summoned by using Glow Tulip.
-</gallery>
 
 == History ==
-
-
 # 文档：Goat Skull
 - 类别：buffs
 - 标识：goat-skull
@@ -42102,8 +38195,6 @@ Once a high speed is reached, the Goat Mount leaves a fire trail behind, and fro
 == History ==
 
 == References ==
-
-
 # 文档：Golden Seaweed
 - 类别：buffs
 - 标识：golden-seaweed
@@ -42113,7 +38204,7 @@ Once a high speed is reached, the Goat Mount leaves a fire trail behind, and fro
 | projectilename = Pet Golden Turtle
 }}
 
-The Golden Seaweed was used to summon a pet Golden Turtle. It lasted until the player manually canceled the buff by using the Golden Seaweed again. It was obtained from Chests, but only on the Amazon Fire TV. It was obtainable on other mobile devices via trading. 
+The Golden Seaweed was used to summon a pet Golden Turtle. It lasted until the player manually canceled the buff by using the Golden Seaweed again. It was obtained from Chests, but only on the Amazon Fire TV. It was obtainable on other mobile devices via trading.
 
 This item was removed alongside all other mobile exclusive content in the Mobile 1.3.0.7 update.
 
@@ -42124,8 +38215,6 @@ Players on Windows Phone who acquired the Golden Seaweed via trading continue to
 *The turtle's flying animation may have been a reference to Gamera, a Japanese turtle monster similar to Godzilla that could fly, breathe fire, and was a friend to a child who loved turtles.
 
 == History ==
-
-
 # 文档：Guardian Golem
 - 类别：buffs
 - 标识：guardian-golem
@@ -42139,8 +38228,6 @@ The Guardian Golem is a Master Mode-exclusive light pet-summoning item dropped b
 * When summoned, the pet will always position itself in front of the player. This is likely because it is meant to act as a guardian, hence the name of the item.
 
 == History ==
-
-
 # 文档：Ham Bat
 - 类别：buffs
 - 标识：ham-bat
@@ -42153,13 +38240,13 @@ The Guardian Golem is a Master Mode-exclusive light pet-summoning item dropped b
 {| class="terraria" style="float:right; margin-left:1em"
 ! Buff !! Base damage
 |-
-| || 
+| ||
 |-
-| || 
+| ||
 |-
-| || 
+| ||
 |-
-| || 
+| ||
 |}
 
 thumb|245px|A player using the Ham Bat against a Target Dummy, consuming an [[Apple Pie to demonstrate its ability.]]
@@ -42177,13 +38264,11 @@ The Ham Bat's damage is slightly increased if a food buff is active; see the tab
 * Destroying a Chaos Ball, Burning Sphere, Water Sphere, and Vile Spit can give the Hearty Meal buff, making it useful during a Goblin Army, fighting the Eater of Worlds in Expert Mode, fighting Corruptors, fighting Dark Casters in the Dungeon, or fighting Fire Imps in The Underworld.
 
 == See also ==
-* 
+*
 
 == History ==
 
 == References ==
-
-
 # 文档：Heart Lantern
 - 类别：buffs
 - 标识：heart-lantern
@@ -42210,8 +38295,6 @@ The Heart Lamp buff provides nearby players with a constant 1 health-per-second.
 == History ==
 
 == References ==
-
-
 # 文档：Hexxed Branch
 - 类别：buffs
 - 标识：hexxed-branch
@@ -42235,8 +38318,6 @@ The Hexxed Branch is a mount-summoning item which summons a rideable Tree Mount.
 == History ==
 
 == References ==
-
-
 # 文档：Holiday Bauble
 - 类别：buffs
 - 标识：holiday-bauble
@@ -42257,8 +38338,6 @@ It can be obtained from cutting down Trees during the Christmas season.
 * Like the Pet Bat, it is one of the only pets which deal damage to enemies.
 
 == History ==
-
-
 # 文档：Jewel of Light
 - 类别：buffs
 - 标识：jewel-of-light
@@ -42275,14 +38354,10 @@ The Jewel of Light is a Master Mode-exclusive light pet-summoning item that has 
 * The pet that is summoned is very similar to that summoned by Frozen Crown, and has the same flight patterns.
 
 == History ==
-
-
 # 文档：Lightning Carrot
 - 类别：buffs
 - 标识：lightning-carrot
 - 来源：wiki/Lightning_Carrot
-
-<br />
 
 The Lightning Carrot is a pet-summoning item purchased from the Zoologist for after completing 50% of the Bestiary. It summons a Volt Bunny pet that follows the player around.
 
@@ -42293,8 +38368,6 @@ When flying to keep pace with the player, the Volt Bunny emits a decent amount o
 * The tooltip is a play on the words "ecstatic" and "static", "ecstatic" being a synonym of "delighted" and "static" being an electrical charge.
 
 == History ==
-
-
 # 文档：Lilith's Necklace
 - 类别：buffs
 - 标识：liliths-necklace
@@ -42305,7 +38378,7 @@ Lilith's Necklace is a Hardmode mount-summoning item which summons a Wolf mount.
 Unlike other mount-summoning items, Lilith's Necklace transforms the player into the mount. It can be dyed and some vanity items are visible when transformed, but certain accessories cannot be used, such as wings.
 
 == Notes ==
-* The Wolf has a running speed of 48 , with a short acceleration time. This mount is also smaller than some land mounts, only requiring 3 tile tall gaps, compared to the Unicorn Mount's 5 tile tall requirement. 
+* The Wolf has a running speed of 48 , with a short acceleration time. This mount is also smaller than some land mounts, only requiring 3 tile tall gaps, compared to the Unicorn Mount's 5 tile tall requirement.
 
 == Achievements ==
 
@@ -42315,8 +38388,6 @@ Unlike other mount-summoning items, Lilith's Necklace transforms the player into
 == History ==
 
 == References ==
-
-
 # 文档：Lizard Egg
 - 类别：buffs
 - 标识：lizard-egg
@@ -42334,8 +38405,6 @@ The Lizard Egg is a pet-summoning item that spawns a Pet Lizard to follow the pl
 * The Lizard appears to resemble a , which is a large, real-world lizard that is actually kept as a pet (see ).
 
 == History ==
-
-
 # 文档：Magical Pumpkin Seed
 - 类别：buffs
 - 标识：magical-pumpkin-seed
@@ -42351,8 +38420,6 @@ The Magical Pumpkin Seed summons a pet Squashling. It is obtained from harvestin
 * The Squashling may be a reference to the [https://wow.gamepedia.com/Sinister_Squashling Sinister Squashling], a visually-identical character from World of Warcraft and Hearthstone.
 
 == History ==
-
-
 # 文档：Mollusk Whistle
 - 类别：buffs
 - 标识：mollusk-whistle
@@ -42375,8 +38442,6 @@ The mount allows players to float in water, similar to using an Inner Tube, and 
 == History ==
 
 == References ==
-
-
 # 文档：Monster Meat
 - 类别：buffs
 - 标识：monster-meat
@@ -42390,12 +38455,10 @@ The Monster Meat is a pet-summoning item which summons a Pig Man pet that follow
 * The Pig Man follows an airborne character by holding an from Don't Starve, ironically made of .
 
 == See also ==
-* 
-* 
+*
+*
 
 == History ==
-
-
 # 文档：Moon Charm
 - 类别：buffs
 - 标识：moon-charm
@@ -42404,7 +38467,7 @@ The Monster Meat is a pet-summoning item which summons a Pig Man pet that follow
 The Moon Charm is a Hardmode accessory that, when equipped during nighttime, turns the player into a werewolf, and applies the Werewolf buff. The item is dropped from the Werewolf enemy with a chance of . Although the enemy is colored blue, the player Werewolf will be colored brown. Players with this item equipped during a full moon can still be attacked by other Werewolves.
 
 The buff provides these bonuses:
-* 
+*
 
 == Crafting ==
 === Used in ===
@@ -42423,8 +38486,6 @@ The buff provides these bonuses:
 ** One can force this by using a Bloody Tear on a Full Moon.
 
 == History ==
-
-
 # 文档：Mud Bud
 - 类别：buffs
 - 标识：mud-bud
@@ -42443,8 +38504,6 @@ The Plantera Seedling is a similar item; however, it is exclusive to Master Mode
 == History ==
 
 == References ==
-
-
 # 文档：Nectar
 - 类别：buffs
 - 标识：nectar
@@ -42468,14 +38527,12 @@ This pet will not teleport to the player when it is far away.
 * - a tiphia pet (which will do 1 damage to enemies every ~0.3 seconds, but not chase them)
 
 == History ==
-
-
 # 文档：Neptune's Shell
 - 类别：buffs
 - 标识：neptunes-shell
 - 来源：wiki/Neptune's_Shell
 
-Neptune's Shell is a Hardmode accessory that aids performance underwater (and in other liquids) by granting indefinite breathing time underwater, swimming via the key, and eliminating the slow movement speed usually caused by water. 
+Neptune's Shell is a Hardmode accessory that aids performance underwater (and in other liquids) by granting indefinite breathing time underwater, swimming via the key, and eliminating the slow movement speed usually caused by water.
 
 * On the , Neptune's Shell can only be obtained as a drop. It has a / chance to be dropped by a Creature from the Deep during a Solar Eclipse event.
 * On the , Neptune's Shell can only be obtained through crafting in versions earlier than version 1.4.4. Neptune's Shell can now be obtained as a drop from a Creature from the Deep.
@@ -42506,8 +38563,6 @@ Neptune's Shell can be considered an upgrade from the Diving Gear in most respec
 * The player in merfolk form resembles the Zombie Merman and Icy Merman enemies.
 
 == History ==
-
-
 # 文档：Ogre's Club
 - 类别：buffs
 - 标识：ogres-club
@@ -42520,8 +38575,6 @@ The Ogre's Club is a pet-summoning item dropped by the Ogre with a chance in Mas
 * The buff tooltip jokingly references the Baby Ogre's status as a pet, as opposed to a combat summon; he can't fight because he doesn't know how to use his club.
 
 == History ==
-
-
 # 文档：Ornate Shadow Key
 - 类别：buffs
 - 标识：ornate-shadow-key
@@ -42544,8 +38597,6 @@ Despite inflicting the Shadow Mimic buff, it does not provide any status effects
 * Mimic, a hardmode enemy in which the pet Shadow Mimic resembles.
 
 == History ==
-
-
 # 文档：Pair of Eyeballs
 - 类别：buffs
 - 标识：pair-of-eyeballs
@@ -42562,8 +38613,6 @@ The Pair of Eyeballs is a pet-summoning item dropped by The Twins in Master Mode
 * The names Rez and Spaz are abbreviated forms of The Twins' individual names, Retinazer and Spazmatism.
 
 == History ==
-
-
 # 文档：Paladin's Shield
 - 类别：buffs
 - 标识：paladins-shield
@@ -42595,9 +38644,9 @@ Paladin's Shield is dropped by Paladins with a chance of / .
 ** Accessories that trigger when damaged, such as the Star Cloak and Honey Comb, will activate. The Black Belt's/Master Ninja Gear's dodging chance is also put into effect.
 ** Despite not activating the Turtle armor's set bonus, shared damage will use Hallowed armor's Holy Protection buff / Titanium armor's Shadow Dodge buff, and will affect the damage reduction of the Beetle Shell's Beetle Endurance buff.
 * Despite the fact that the Paladin's Shield only absorbs damage when the wearer is above 25% health, any split damage exceeding 25% of the wearer's health will kill them if the wearer is at 27% health, for example. Some ways to accomplish this are to receive the split damage from an explosive or, more effectively, a Dungeon Guardian. A large enough amount of fall damage dealt to a teammate will kill the wearer even at full health. This results in a blank death message and a blank tombstone.
-* The chance of obtaining a Paladin's Shield after killing <code><i>n</i></code> Paladins can be calculated with the following formula:
-: Normal mode: 
-: 
+* The chance of obtaining a Paladin's Shield after killing n Paladins can be calculated with the following formula:
+: Normal mode:
+:
 
 : See [https://www.wolframalpha.com/input/?i=LogLinearPlot%5B+(100*+(1-(1-0.0933)%5En)),+%7Bn,1,100%7D%5D this plot] for normal mode and [https://www.wolframalpha.com/input/?i=LogLinearPlot%5B+(100*+(1-(1-0.1356)%5En)),+%7Bn,1,100%7D%5D this plot] for Expert mode.
 
@@ -42614,8 +38663,6 @@ Paladin's Shield is dropped by Paladins with a chance of / .
 == History ==
 
 == References ==
-
-
 # 文档：Parrot Cracker
 - 类别：buffs
 - 标识：parrot-cracker
@@ -42633,8 +38680,6 @@ The Parrot Cracker is a pet-summoning item. It summons a pet Parrot which follow
 == History ==
 
 == References ==
-
-
 # 文档：Peace Candle
 - 类别：buffs
 - 标识：peace-candle
@@ -42664,8 +38709,6 @@ The opposite of the Peace Candle is the Water Candle, which increases enemy spaw
 == History ==
 
 == References ==
-
-
 # 文档：Piece of Moon Squid
 - 类别：buffs
 - 标识：piece-of-moon-squid
@@ -42674,14 +38717,12 @@ The opposite of the Peace Candle is the Water Candle, which increases enemy spaw
 The Piece of Moon Squid is a pet item that has a chance to drop from the Moon Lord in Master Mode. It summons a pet Moonling that resembles the Moon Lord's head.
 
 == Trivia ==
-* The item's tooltip, "The forbidden calamari", is likely a reference to a common internet meme, where some form of object similar to a food, which in reality isn't edible, is nicknamed "Forbidden <food>", for example sea glass being referred to as "forbidden fruit snacks". Calamari is fried squid, referring to the Moon Lord's cephalopod appearance.
+* The item's tooltip, "The forbidden calamari", is likely a reference to a common internet meme, where some form of object similar to a food, which in reality isn't edible, is nicknamed "Forbidden ", for example sea glass being referred to as "forbidden fruit snacks". Calamari is fried squid, referring to the Moon Lord's cephalopod appearance.
 * This pet bears a resemblance to [https://insaniquarium.fandom.com/wiki/Cyrax Cyrax], an alien boss from the 2001 video game .
 * This pet itself marginally resembles the Ancient Vision, an enemy summoned by the Lunatic Cultist if the player attacks a duplicate of the Lunatic Cultist while the Phantasm Dragon is still alive.
 * The buff tooltip, "A friend from beyond", is a reference to H.P. Lovecraft's short story "From Beyond", which is a story of a man who witnesses alien creatures in alternate dimensions. The Moon Lord, which the Piece of Moon Squid drops from, also happens to be a reference to H.P. Lovecraft – this time, the cosmic entity Cthulhu, a fictional character Lovecraft created.
 
 == History ==
-
-
 # 文档：Plantera Seedling
 - 类别：buffs
 - 标识：plantera-seedling
@@ -42693,8 +38734,6 @@ The Plantera Seedling is a Master Mode-exclusive pet dropped by Plantera with a 
 * The Plantera Seedling's buff tooltip, "", is a reference to the 1986 horror comedy musical film , which features a sentient carnivorous plant named Audrey II who feeds on human blood.
 
 == History ==
-
-
 # 文档：Pogo Stick
 - 类别：buffs
 - 标识：pogo-stick
@@ -42712,8 +38751,6 @@ The Pogo Stick is a mount sold by the Party Girl for . Jumping again while in th
 * Much like the Slime Mount, the doubled falling speed can be useful for traveling down hellevators faster than the players base falling speed.
 
 == History ==
-
-
 # 文档：Pork of the Sea
 - 类别：buffs
 - 标识：pork-of-the-sea
@@ -42726,8 +38763,6 @@ The Pork of the Sea is a pet-summoning item dropped by Duke Fishron in Master Mo
 * Pork of the Sea also references how Duke Fishron is part pig.
 
 == History ==
-
-
 # 文档：Possessed Skull
 - 类别：buffs
 - 标识：possessed-skull
@@ -42742,8 +38777,6 @@ If the player is too far away, Skeletron Jr. will start spinning like Skeletron 
 * Robotic Skull, a similar pet dropped from Skeletron Prime.
 
 == History ==
-
-
 # 文档：Pot o' Gold
 - 类别：buffs
 - 标识：pot-o-gold
@@ -42765,8 +38798,6 @@ The Pot o' Gold was a pet-summoning item used to summon Leprechaun o'Fyffe. The 
 * Fyffe means money in Finnish slang.
 
 == History ==
-
-
 # 文档：Pumpkin Scented Candle
 - 类别：buffs
 - 标识：pumpkin-scented-candle
@@ -42775,14 +38806,12 @@ The Pot o' Gold was a pet-summoning item used to summon Leprechaun o'Fyffe. The 
 The Pumpkin Scented Candle is a Master Mode-exclusive light pet-summoning item dropped by Pumpking with a to chance. When used or equipped, it summons a miniature Pumpking named Jack 'O Lantern.
 
 == History ==
-
-
 # 文档：Pygmy Staff
 - 类别：buffs
 - 标识：pygmy-staff
 - 来源：wiki/Pygmy_Staff
 
-/ 34 / 27 
+/ 34 / 27
 | tags = Minion/drop/ hardmode
 | idprojectile = 191, 192, 193, 194, 195
 }}
@@ -42807,14 +38836,12 @@ The Pygmy Staff is a Hardmode, post-Plantera summon weapon. It spawns a pygmy mi
 * In real life, the term is used for ethnic groups whose average height is relatively short. It is primarily associated with the .
 
 == History ==
-
-
 # 文档：Raven Staff
 - 类别：buffs
 - 标识：raven-staff
 - 来源：wiki/Raven_Staff
 
-/ 37 
+/ 37
 | tags = Minion / drop / hardmode
 }}
 
@@ -42831,8 +38858,6 @@ The Raven Staff is a Hardmode, post-Plantera summon weapon. It spawns a Raven mi
 * The Raven Staff can be considered a direct upgrade to the , as both summon a bird and both minions attack in a similar pattern.
 
 == History ==
-
-
 # 文档：Regal Delicacy
 - 类别：buffs
 - 标识：regal-delicacy
@@ -42852,8 +38877,6 @@ The Regal Delicacy is a pet-summoning item which is dropped by Queen Slime in Ma
 == History ==
 
 == References ==
-
-
 # 文档：Reindeer Bells
 - 类别：buffs
 - 标识：reindeer-bells
@@ -42884,16 +38907,13 @@ thumb|300px|The Reindeer Bells being used.
 ** The Bee Mount comes the closest to being so, only missing from the . All other mounts are limited to certain versions.
 
 == Gallery ==
-<gallery>
+
 File:Rudolph idle.gif|Idle animation of Rudolph.
 File:Reindeer Bells (demo).png|A player using the mount.
-</gallery>
 
 == History ==
 
 == References ==
-
-
 # 文档：Resplendent Dessert
 - 类别：buffs
 - 标识：resplendent-dessert
@@ -42909,8 +38929,6 @@ The Resplendent Dessert is a pet-summoning item. It is the combination of the Ro
 * This item is one of the two pet summoning item that summons two independent pets, the other is the Pair of Eyeballs. Both are Master Mode exclusive.
 
 == History ==
-
-
 # 文档：Robotic Skull
 - 类别：buffs
 - 标识：robotic-skull
@@ -42929,8 +38947,6 @@ The Robotic Skull is a pet-summoning item dropped by Skeletron Prime in Master M
 * Possessed Skull, a similar pet dropped by regular Skeletron.
 
 == History ==
-
-
 # 文档：Royal Delight
 - 类别：buffs
 - 标识：royal-delight
@@ -42951,17 +38967,15 @@ The Royal Delight is a pet-summoning item which is dropped by King Slime in Mast
 == History ==
 
 == References ==
-
-
 # 文档：Saddles
 - 类别：buffs
 - 标识：saddles
 - 来源：wiki/Saddles
 
-| rare = 
-| value = 
+| rare =
+| value =
 | buy = y
-| research = 
+| research =
 | id = 4785–4787
 | cargo = no
 }}
@@ -42981,7 +38995,7 @@ The Dusty Rawhide Saddle, Royal Gilded Saddle, and Black Studded Saddle are moun
 == Notes ==
 * The horses' top running speed is , reachable in .
 * When surpassing , they will start dealing damage to enemies and critters they run into, similarly to the Unicorn and Goat Mounts. They will deal 30 base summon damage and inflict a knockback of 7 ().
-* There is no jump fatigue while riding a horse mount. 
+* There is no jump fatigue while riding a horse mount.
 * When using a saddle, the respective horse mount will appear in a puff of gray smoke.
 
 == Achievements ==
@@ -42992,8 +39006,6 @@ The Dusty Rawhide Saddle, Royal Gilded Saddle, and Black Studded Saddle are moun
 == History ==
 
 == References ==
-
-
 # 文档：Sanguine Staff
 - 类别：buffs
 - 标识：sanguine-staff
@@ -43001,7 +39013,7 @@ The Dusty Rawhide Saddle, Royal Gilded Saddle, and Black Studded Saddle are moun
 
 frame|right|Summoning three Sanguine Bats to attack a Mimic.
 
-The Sanguine Staff is a Hardmode summon weapon that has a / <nowiki/>chance of being dropped by the Dreadnautilus during a Blood Moon. It summons a Sanguine Bat minion that remains by the player's side until an enemy is in sight, and attacks by flying in an elliptical loop between the player and enemy. They immediately return to the player's side once their target dies.
+The Sanguine Staff is a Hardmode summon weapon that has a / chance of being dropped by the Dreadnautilus during a Blood Moon. It summons a Sanguine Bat minion that remains by the player's side until an enemy is in sight, and attacks by flying in an elliptical loop between the player and enemy. They immediately return to the player's side once their target dies.
 
 == Notes ==
 * The Sanguine Bats arrange themselves along a semicircle with the player's head as the center.
@@ -43021,8 +39033,6 @@ The Sanguine Staff is a Hardmode summon weapon that has a / <nowiki/>chance of b
 * ' is an adjective meaning blood red. It is derived from Latin ', which means blood
 
 == History ==
-
-
 # 文档：Seaweed
 - 类别：buffs
 - 标识：seaweed
@@ -43038,8 +39048,6 @@ Seaweed is a pet-summoning item which summons a Turtle pet that follows the play
 *The pet turtle is a reference to Tank, a pet tortoise from My Little Pony: Friendship is Magic. This has long been suspected by members of the community, and on May 17th, 2021, Redigit confirmed this to be the case.
 
 == History ==
-
-
 # 文档：Seedling
 - 类别：buffs
 - 标识：seedling
@@ -43050,8 +39058,6 @@ The Seedling is a pet-summoning item that summons a Pet Sapling that follows the
 The Seedling has a chance of being dropped by Plantera.
 
 == History ==
-
-
 # 文档：Shadow Candle
 - 类别：buffs
 - 标识：shadow-candle
@@ -43072,8 +39078,6 @@ The Shadow Candle is a furniture item that can be placed or held to nullify the 
 == History ==
 
 == References ==
-
-
 # 文档：Shark Bait
 - 类别：buffs
 - 标识：shark-bait
@@ -43084,21 +39088,19 @@ The Shark Bait is a Pet summon item that summons a pet Shark Pup. It has a chanc
 When underwater, the shark pet swims around freely. When out of water, it is encased in a bubble. If you walk too far from the shark, it will not teleport. Instead, it will move swiftly toward the player.
 
 == Trivia ==
-*The pet and the tooltip are a reference to the viral YouTube video and popular children's song "[https://www.youtube.com/watch?v=XqZsoesa55w Baby Shark]". 
+*The pet and the tooltip are a reference to the viral YouTube video and popular children's song "[https://www.youtube.com/watch?v=XqZsoesa55w Baby Shark]".
 **The pet sprite shares a similar visual to the [https://www.youtube.com/watch?v=RlG-QEwnLD8 Super Simple Songs] version of "Baby Shark".
 *The sprite and name may be a reference to the film Finding Nemo, due to the sprite resembling a clownfish, with 'Shark Bait' being a nickname given to Nemo.
 *The pet will move to the other side of the player if it is "attacked" (i.e: hit with a weapon).
 *The pet will also change to its underwater sprite while in lava or honey.
 
 == History ==
-
-
 # 文档：Sharpening Station
 - 类别：buffs
 - 标识：sharpening-station
 - 来源：wiki/Sharpening_Station
 
-The Sharpening Station is a furniture item that, when placed and pressed on, applies the Sharpened buff, which increases armor penetration of all melee weapons by 12 / 4. 
+The Sharpening Station is a furniture item that, when placed and pressed on, applies the Sharpened buff, which increases armor penetration of all melee weapons by 12 / 4.
 
 It can be found in Underground Cabins in the Underground Jungle. On the , it can also be purchased from the Merchant for during Hardmode.
 
@@ -43110,8 +39112,6 @@ It can be found in Underground Cabins in the Underground Jungle. On the , it can
 * In real life, sharpening stations, also known as s, are used to sharpen blades.
 
 == History ==
-
-
 # 文档：Shiny Black Slab
 - 类别：buffs
 - 标识：shiny-black-slab
@@ -43134,8 +39134,6 @@ Players on Windows Phone who acquired the Shiny Black Slab via trading continue 
 * The Android pet was modeled after the mascot for the .
 
 == History ==
-
-
 # 文档：Shrimpy Truffle
 - 类别：buffs
 - 标识：shrimpy-truffle
@@ -43145,7 +39143,7 @@ The Shrimpy Truffle is a mount-summon item that spawns Cute Fishron, a miniature
 
 Cute Fishron has a base flight speed of 40 / 33 mph.
 
-Moving through liquids causes Cute Fishron to gain a drastic movement speed bonus of about +105% (to 82 mph, the fastest of any mount), as well as providing the rider with a +15% damage bonus. These boosts continue for 6 seconds after it leaves liquid, though during this time its speed boost drops to +100% (to 80 / 66 mph). 
+Moving through liquids causes Cute Fishron to gain a drastic movement speed bonus of about +105% (to 82 mph, the fastest of any mount), as well as providing the rider with a +15% damage bonus. These boosts continue for 6 seconds after it leaves liquid, though during this time its speed boost drops to +100% (to 80 / 66 mph).
 
 Liquid boosts also take effect when Cute Fishron gets "wet" by flying in the rain (), flying through Bubbles filled by liquids, splashes from a Water Bucket, or being hit by a Water Gun.
 
@@ -43182,8 +39180,6 @@ During contact with any blocks, Cute Fishron's movement speed is drastically low
 * If it is raining during a Blood Moon, the mount's eyes will be red.
 
 == History ==
-
-
 # 文档：Shrub Star
 - 类别：buffs
 - 标识：shrub-star
@@ -43195,8 +39191,6 @@ The Shrub Star is a pet item that drops from the Everscream in Master Mode with 
 * The tooltip is a reference to the lullaby.
 
 == History ==
-
-
 # 文档：Slice of Cake
 - 类别：buffs
 - 标识：slice-of-cake
@@ -43212,12 +39206,10 @@ The Slice of Cake is acquired by being the first player to talk to the Party Gir
 
 == Trivia ==
 * The Slice of Cake appears in an NPC emote which can be seen during Parties: File:Emote Party Cake.png
-* The Slice of Cake and its Sugar Rush buff were introduced in 1.3.2, but remained unobtainable until 1.4.0.1. 
+* The Slice of Cake and its Sugar Rush buff were introduced in 1.3.2, but remained unobtainable until 1.4.0.1.
 * The tooltip is a reference to 's old terms of service "Go nuts. Show nuts. Whatever."
 
 == History ==
-
-
 # 文档：Slice of Hell Cake
 - 类别：buffs
 - 标识：slice-of-hell-cake
@@ -43226,14 +39218,12 @@ The Slice of Cake is acquired by being the first player to talk to the Party Gir
 The Slice of Hell Cake is a pet-summoning item that can be found in Shadow Chests, Hellstone Crates, and Obsidian Crates. It summons a Baby Imp pet that follows the player around. When the player is far enough away, the Baby Imp will spread its arms and fly to catch up to the player.
 
 == Trivia ==
-* The Baby Imp is based on the Fire Imp enemy. The item's tooltip, <i>""</i>, is a reference to the enemy's teleporting abilities.
+* The Baby Imp is based on the Fire Imp enemy. The item's tooltip, "", is a reference to the enemy's teleporting abilities.
 ** However, while the Fire Imp is red, the Baby Imp is a shade of similar to Shadow Chests.
 * When idle, the imp appears to yawn.
 * The item sprite seems to be a recolored version of the Slice of Cake.
 
 == History ==
-
-
 # 文档：Slime Staff
 - 类别：buffs
 - 标识：slime-staff
@@ -43241,7 +39231,7 @@ The Slice of Hell Cake is a pet-summoning item that can be found in Shadow Chest
 
 thumb|370x370px|The Slime Staff summoning a Baby Slime which attacks a [[Skeleton.]]
 
-The Slime Staff is a pre-Hardmode summon weapon that summons a Baby Slime minion. Baby Slimes attack by bouncing on the ground and chasing enemies, rapidly dealing contact damage. 
+The Slime Staff is a pre-Hardmode summon weapon that summons a Baby Slime minion. Baby Slimes attack by bouncing on the ground and chasing enemies, rapidly dealing contact damage.
 
 The Slime Staff generally has the rarest drop chance of any weapon, with minor exceptions. The typical drop rate from most slimes and Slimed Zombies is / . Pinky has a greatly increased drop rate of / . Additionally, Sand Slimes have a drop rate of / . The slimes which cannot drop the Slime Staff are: Lava, Dungeon, Umbrella, Hoppin' Jack, Corrupt (), King Slime, Queen Slime, Crimslime, Gastropod (), Rainbow.
 
@@ -43270,8 +39260,6 @@ Unlike other summon weapons, its best possible modifier is Mythical because both
 * If the player is moving too fast, the Baby Slime will fly to the player with wings.
 
 == History ==
-
-
 # 文档：Snapthorn
 - 类别：buffs
 - 标识：snapthorn
@@ -43293,8 +39281,6 @@ Like most other whips, it causes minions to focus on the last-struck enemy and b
 * It is possible, if the player can scroll fast enough, to get the speed effects of the Snapthorn, the Durendal, and the Dark Harvest at the same time. Strike an enemy with one, then select the next, and finally select the last whip and receive its bonus. However, this strategy is very impractical, as by the time the player selects the last whip, the first speed bonus might have already run out. The strategy could be complemented by equipping Obsidian armor, or by only using two of the whips at a time.
 
 == History ==
-
-
 # 文档：Sparkling Honey
 - 类别：buffs
 - 标识：sparkling-honey
@@ -43307,8 +39293,6 @@ The Sparkling Honey is a pet summoning item dropped by Queen Bee in Master Mode 
 * The name Sparkling Honey is a reference to the popular type of drinks referred to as Sparkling Water.
 
 == History ==
-
-
 # 文档：Spider Egg
 - 类别：buffs
 - 标识：spider-egg
@@ -43321,8 +39305,6 @@ The Spider Egg summons the spider Pet. It behaves exactly like the Spider AI, as
 * If a red Dye is used on the Spider Egg, the spider resembles a Blood Crawler.
 
 == History ==
-
-
 # 文档：Spiffo Plush
 - 类别：buffs
 - 标识：spiffo-plush
@@ -43337,14 +39319,11 @@ If the player goes too far away, the Spiffo flies after the player by spinning i
 * The way Spiffo spins its tail to fly when too far away from you could be a reference to from the Sonic The Hedgehog series.
 
 == Gallery ==
-<gallery>
-File:Spiffoitem.png|<center>Spiffo Plush Item</center>
-File:Spiffoactive.png|<center>Spiffo pet as seen in game.</center>
-</gallery>
+
+File:Spiffoitem.png|Spiffo Plush Item
+File:Spiffoactive.png|Spiffo pet as seen in game.
 
 == History ==
-
-
 # 文档：Star in a Bottle
 - 类别：buffs
 - 标识：star-in-a-bottle
@@ -43357,14 +39336,12 @@ On the , it does not provide any buff, and is only for decorative lighting.
 == Crafting ==
 === Recipes ===
 
-== Notes == 
+== Notes ==
 * The Star in a Bottle adds more Mana Regeneration than the Heart Lantern adds health regeneration.
 
 == History ==
 
 == References ==
-
-
 # 文档：Stardrop
 - 类别：buffs
 - 标识：stardrop
@@ -43378,14 +39355,12 @@ It will follow the player at any speed and fly by spinning the leaf on it's head
 * The Stardrop is also from Stardew Valley where it is a rare item that increases the players maximum energy when eaten. It would also "remind" the player of their favorite thing, which is probably why the tooltip says that the flavor is like a dream.
 
 == History ==
-
-
 # 文档：Stardust Cell Staff
 - 类别：buffs
 - 标识：stardust-cell-staff
 - 来源：wiki/Stardust_Cell_Staff
 
-The Stardust Cell Staff is a Hardmode, post-Lunatic Cultist summon weapon that summons a Stardust Cell (a minion version of the Star Cell enemy) that can perform a ranged attack and will teleport to enemies out of range. 
+The Stardust Cell Staff is a Hardmode, post-Lunatic Cultist summon weapon that summons a Stardust Cell (a minion version of the Star Cell enemy) that can perform a ranged attack and will teleport to enemies out of range.
 
 The Stardust Cell's ranged attack consists of firing a miniature version of itself at an enemy target that it latches onto and deals damage over time to. This damage ticks 30 times before the mini-cell vanishes, and can be stacked as the Stardust Cell continues to fire additional mini-cells onto the target, able to stack for up to 100 damage per "tick". Additionally, the Stardust Cell will occasionally fire an extra shot at any target the player is attacking, without interrupting their standard rate of fire, even if the Stardust Cell is already currently attacking that target. This makes the Stardust Cell Staff very effective at attacking targets with high health.
 
@@ -43409,13 +39384,10 @@ After teleporting to an enemy, a Stardust Cell will instantly fire a mini-cell.
 
 == Gallery ==
 none|frame|The Stardust Cell Staff in use.
-<br />
 
 == Immune NPCs ==
 
 == History ==
-
-
 # 文档：Stardust Dragon Staff
 - 类别：buffs
 - 标识：stardust-dragon-staff
@@ -43425,9 +39397,9 @@ framed|The Stardust Dragon Staff in use.
 
 The Stardust Dragon Staff is a Hardmode, post-Lunatic Cultist summon weapon that summons a Stardust Dragon that attacks enemies. The Stardust Dragon constantly flies around the screen surrounding the player, and flies through blocks, attacking enemies by flying through them. It leaves a trail of sparkles that provide periodic bursts of light as it moves.
 
-The Stardust Dragon Staff is special in that if summoned more than once, multiple Dragons do not spawn &mdash; instead, the first spawned Dragon becomes longer by one segment for each additional summoning, broadening its area of attack and increasing its damage output. Each summon creates additional segments between the tail and the pre-tail segment, and re-summons the tail.
+The Stardust Dragon Staff is special in that if summoned more than once, multiple Dragons do not spawn — instead, the first spawned Dragon becomes longer by one segment for each additional summoning, broadening its area of attack and increasing its damage output. Each summon creates additional segments between the tail and the pre-tail segment, and re-summons the tail.
 
-The Stardust Dragon hits ten times per second. It inflicts damage according to the formula: <code>summon dmg*(1.69 + .46[summon length - 1])</code>, which is then all multiplied by a random multiplier between 0.85 and 1.15. Each segment of the dragon deals damage based on the damage modifier on the staff used to summon them, which means that different segments of the dragon can deal different damage.
+The Stardust Dragon hits ten times per second. It inflicts damage according to the formula: summon dmg*(1.69 + .46[summon length - 1]), which is then all multiplied by a random multiplier between 0.85 and 1.15. Each segment of the dragon deals damage based on the damage modifier on the staff used to summon them, which means that different segments of the dragon can deal different damage.
 
 == Crafting ==
 === Recipes ===
@@ -43451,8 +39423,6 @@ The Stardust Dragon hits ten times per second. It inflicts damage according to t
 * The Stardust Dragon Summon may also be a reference to the popular card game Yu-Gi-Oh's [https://yugioh.fandom.com/wiki/Stardust_Dragon Stardust Dragon] monster card where it was the main character [https://yugioh.fandom.com/wiki/Yusei_Fudo Yusei Fudo]'s signature card in the 5D's series.
 
 == History ==
-
-
 # 文档：Strange Glowing Mushroom
 - 类别：buffs
 - 标识：strange-glowing-mushroom
@@ -43465,8 +39435,6 @@ The Strange Glowing Mushroom is an item that spawns a miniature Truffle as a pet
 * Despite being a normal Pet, the Baby Truffle gives off blue light.
 
 == History ==
-
-
 # 文档：Sunflower
 - 类别：buffs
 - 标识：sunflower
@@ -43500,8 +39468,6 @@ thumb|right|The loading icon.
 == History ==
 
 == References ==
-
-
 # 文档：Superheated Blood
 - 类别：buffs
 - 标识：superheated-blood
@@ -43529,13 +39495,11 @@ The mount maintains its velocity in the air, allowing for jumps similar to while
 
 == Trivia ==
 * When not in liquid, the Lava Shark has saddened eyes.
-* The item's tooltip, ', is an informal interjection commonly used in as an expression of dismay, disgust, anger, or surprise, as well as a pun on how the item itself is a jar of blood associated with the underworld, or hell''<nowiki/>'.
+* The item's tooltip, ', is an informal interjection commonly used in as an expression of dismay, disgust, anger, or surprise, as well as a pun on how the item itself is a jar of blood associated with the underworld, or hell'''.
 * The mount moves at the same speed in all liquids.
 * It can be seen as an upgrade to the Turtle Mount, as they are both mounts with increased speed in liquids that are obtained by fishing.
 
 == History ==
-
-
 # 文档：Suspicious Grinning Eye
 - 类别：buffs
 - 标识：suspicious-grinning-eye
@@ -43549,8 +39513,6 @@ The Suspicious Grinning Eye is a Master Mode-exclusive drop from the Eye of Cthu
 * Due to the pet's similarity to the Suspicious Looking Eye light pet, dyeing it with Teal Dye will make it look almost identical.
 
 == History ==
-
-
 # 文档：Suspicious Looking Apple
 - 类别：buffs
 - 标识：suspicious-looking-apple
@@ -43585,8 +39547,6 @@ The Worm pet is the only pet that can speak, randomly uttering phrases depending
 * Similar to the , the Suspicious Looking Apple is named as if it were a boss-summoning item instead of a pet-summoning item. However, unlike the Suspicious Looking Tentacle, it explicitly states it is a pet summon in its tooltip.
 
 == History ==
-
-
 # 文档：Tablet Fragment
 - 类别：buffs
 - 标识：tablet-fragment
@@ -43600,8 +39560,6 @@ The Tablet Fragment is a pet summon item with a chance to drop from the Lunatic 
 * The buff tooltip likely references the Mysterious Tablet's role in summoning the Moon Lord.
 
 == History ==
-
-
 # 文档：Terraprisma
 - 类别：buffs
 - 标识：terraprisma
@@ -43638,16 +39596,13 @@ thumb|140px|The Terraprisma's color change when using a dev username (specifical
 * The Terraprisma has the highest base damage of all minion-summoning weapons despite being obtainable pre-Golem and only having a rarity of . This is most likely due to the high difficulty of fighting the Empress of Light during the day.
 * The Terraprisma and are the only minion-summoning weapons that do not have the word staff in their name.
 * When multiple minions are summoned, their pattern forms a helix. This is only visible with very large numbers of minions.
-* 
+*
 
 == Gallery ==
-<gallery widths="240px">
+
 File:Terraprisma summoned 30 times.png|Terraprisma summoned 30 times, using third-party tools to exceed the minion limit.
-</gallery>
 
 == History ==
-
-
 # 文档：The Black Spot
 - 类别：buffs
 - 标识：the-black-spot
@@ -43673,8 +39628,6 @@ The Pirate Ship Mount has a max horizontal flight speed of , a diagonal speed of
 * The buff tooltip may be a nod to the 2013 American biographical drama-thriller movie , where the pirate says "I'm the captain now", a phrase commonly used within meme communities on the internet.
 
 == History ==
-
-
 # 文档：The Dirtiest Block
 - 类别：buffs
 - 标识：the-dirtiest-block
@@ -43699,8 +39652,6 @@ The chance of the The Dirtiest Block to drop from a Dirt Block that has been min
 * The Dirt Rod cannot be used to pick up The Dirtiest Block while in tile form.
 
 == History ==
-
-
 # 文档：Tiki Totem
 - 类别：buffs
 - 标识：tiki-totem
@@ -43712,8 +39663,6 @@ The Tiki Totem is a Hardmode item that summons a Tiki Spirit pet that floats and
 *It is likely a reference to the character Aku Aku from the Crash Bandicoot games.
 
 == History ==
-
-
 # 文档：Toy Sled
 - 类别：buffs
 - 标识：toy-sled
@@ -43725,8 +39674,6 @@ The Toy Sled is a pet summoning item that summons a baby snowman pet when used. 
 * Even though the Toy Sled is Christmas-themed, it can be obtained at any time of the year.
 
 == History ==
-
-
 # 文档：Toy Tank
 - 类别：buffs
 - 标识：toy-tank
@@ -43752,14 +39699,12 @@ The two attached weapons target Enemies in a cone shaped area in front of the pl
 == Achievements ==
 
 == History ==
-
-
 # 文档：Unlucky Yarn
 - 类别：buffs
 - 标识：unlucky-yarn
 - 来源：wiki/Unlucky_Yarn
 
-The Unlucky Yarn is a pet-summoning item which summons a Black Cat pet that follows the player around. It is obtained from a Goodie Bag with a chance. It will fly on a broom to catch up with a player that moves too far away from it. 
+The Unlucky Yarn is a pet-summoning item which summons a Black Cat pet that follows the player around. It is obtained from a Goodie Bag with a chance. It will fly on a broom to catch up with a player that moves too far away from it.
 
 == Trivia ==
 * The "Unlucky" in the item's name references a common superstition that black cats will bring bad luck.
@@ -43767,8 +39712,6 @@ The Unlucky Yarn is a pet-summoning item which summons a Black Cat pet that foll
 * The hat appears to be the Wizard Hat dropped by Tim.
 
 == History ==
-
-
 # 文档：Vampire Frog Staff
 - 类别：buffs
 - 标识：vampire-frog-staff
@@ -43790,8 +39733,6 @@ The best modifier is Mythical but Godly, Demonic, Ruthless, Furious, and Masterf
 * Because the frog deals damage on contact rather than with a bespoke attack pattern, the vampire frog is one of the few minions that can be tested on Target Dummies without an enemy onscreen.
 
 == History ==
-
-
 # 文档：War Table
 - 类别：buffs
 - 标识：war-table
@@ -43807,12 +39748,10 @@ Unlike equipment buff items, the War Table must be placed in order to activate t
 * The War Table is an item originally from Dungeon Defenders 2, where it is used to select which map to play next.
 
 == See also ==
-* 
+*
 * War Table Banner
 
 == History ==
-
-
 # 文档：Wisp in a Bottle
 - 类别：buffs
 - 标识：wisp-in-a-bottle
@@ -43845,8 +39784,6 @@ The Wisp in a Bottle has a / chance to drop from Blue Armored Bones, Hell Armore
 * Wisp refers to s, mythological ghost lights reported to lead travelers to their death in swamps.
 
 == History ==
-
-
 # 文档：Witch's Broom
 - 类别：buffs
 - 标识：witchs-broom
@@ -43879,8 +39816,6 @@ The Witch's Broom is a mount summon which is dropped from the Mourning Wood boss
 * The Broom's Tooltip and lightsource might indicate that it's a reference to Marisa Kirisame from the Touhou Project as the lightsource looks familiar to her mini-Hakkero, as well as the Tooltip saying "Grants a witching spark of inspiration".
 
 == History ==
-
-
 # 文档：Writhing Remains
 - 类别：buffs
 - 标识：writhing-remains
@@ -43897,7 +39832,6 @@ The Writhing Remains is a pet item that can be dropped by Eater of Worlds in Mas
 == History ==
 ## DEBUFFS
 共 8 篇文档
-
 # 文档：Chaos State
 - 类别：debuffs
 - 标识：chaos-state
@@ -43905,7 +39839,8 @@ The Writhing Remains is a pet item that can be dropped by Eater of Worlds in Mas
 
 Teleports you to the position of the cursor
 | debuff = Chaos State
-| debuffduration = 6 seconds <br/> 9 seconds
+| debuffduration = 6 seconds
+ 9 seconds
 | debuffchance = 100%
 | tags = hardmode / drop
 }}
@@ -43947,19 +39882,17 @@ Using the Rod of Discord costs no mana or ammunition; however, each use inflicts
 == Trivia ==
 * Dying from teleporting during the Chaos State will display unique death messages:
 ** ""
-** "" 
-** "&lt;Player name&gt;'s legs appeared where his head should be." 
-** "&lt;Player name&gt;'s legs appeared where her head should be." 
+** ""
+** "<Player name>'s legs appeared where his head should be."
+** "<Player name>'s legs appeared where her head should be."
 *** This is the only death message that changes based on the character's gender.
 * The Chaos State debuff was introduced to combat the problem of being able to use the Rod of Discord repeatedly, granting the user an arguably overpowered method of transportation or evasion.
 * The abbreviation of the Rod of Discord, RoD, is the same as the first word, rod.
-* This is one of the only ways in the game the player can have negative health. 
+* This is one of the only ways in the game the player can have negative health.
 * In earlier mobile versions, using the Rod of Discord would instantly kill its user, and the death message would read "Structures".
 *The Nurse can heal the Chaos State Debuff.
 
 == History ==
-
-
 # 文档：Debuffs
 - 类别：debuffs
 - 标识：debuffs
@@ -43982,33 +39915,25 @@ Unlike buffs, debuffs cannot be canceled by right-clicking their icons. The Nurs
 |}
 
 == From items and environment ==
-{| class="terraria lined sortable"
-! Icon !! Name !! Effect !! Tooltip !! Duration
 
 |}
 
 == Other debuffs ==
-{| class="terraria lined sortable"
-! Icon !! Name !! Effect !! Tooltip !! Duration
 
 |}
 
 == Unobtainable debuffs ==
-{| class="terraria lined sortable"
 ! Icon !! Name !! Effect !! Tooltip !! Notes
 
 |}
 
 == Notes ==
 * Players with the Darkness debuff will keep their eyes shut as a cosmetic indicator.
-* The duration of the following debuffs, if inflicted on players, is increased by 100% in (i.e. doubled) and by 150% in :<section begin=expert_doubled />
-
-<section end=expert_doubled />
+* The duration of the following debuffs, if inflicted on players, is increased by 100% in (i.e. doubled) and by 150% in :
 
 :* Furthermore, players in Expert worlds are inflicted with the Chilled debuff when they enter water in a Snow biome. The Chilled debuff lasts for as long as the player is in the water and lasts for 5 seconds after getting out.
 * The maximum possible damage per second that can be inflicted on an enemy with damaging debuffs is 1331. This can be achieved by consuming a Flask of Cursed Flames, switching between wearing Frost armor and Huntress armor/Red Riding armor and a Magma Stone, and using the Daybreak, Bone Javelin, Shadowflame Knife, Venom Staff, while having a Imp Staff, a Hornet Staff, a Stardust Cell Staff minion , and a Explosive Trap sentry summons active, against a target that has been Oiled (due to the explosive trap) and within the range of Dryad's aura in a world with all bosses defeated.
 * The following weapons inflict debuffs on enemies:
-{| class="terraria lined sortable"
 ! Weapon !! Debuff
 
 |}
@@ -44019,8 +39944,6 @@ Unlike buffs, debuffs cannot be canceled by right-clicking their icons. The Nurs
 == History ==
 
 == References ==
-
-
 # 文档：Dryad's Bane
 - 类别：debuffs
 - 标识：dryads-bane
@@ -44054,8 +39977,6 @@ Enemies are afflicted with the Dryad's Bane debuff, which applies 4 damage per-s
 == History ==
 
 == References ==
-
-
 # 文档：Magma Stone
 - 类别：debuffs
 - 标识：magma-stone
@@ -44067,11 +39988,11 @@ Enemies are afflicted with the Dryad's Bane debuff, which applies 4 damage per-s
 |+ duration
 ! Duration !! Chance
 |-
-| || 
+| ||
 |-
-| || 
+| ||
 |-
-| || 
+| ||
 |}
 
 The Magma Stone is an accessory that drops from Lava Bats (2% chance) and Hellbats (0.67% chance) in The Underworld. It causes the wearer's melee attacks to inflict the Hellfire / On Fire! debuff on enemies, and also add orange flame particles effect on both the weapon sprite and their projectile that gives off light. The duration of the debuff is random, and varies according to the table on the right.
@@ -44100,8 +40021,6 @@ The Hellfire debuff is a stronger version of On Fire! and causes the afflicted e
 == Immune NPCs ==
 
 == History ==
-
-
 # 文档：Rod of Discord
 - 类别：debuffs
 - 标识：rod-of-discord
@@ -44109,7 +40028,8 @@ The Hellfire debuff is a stronger version of On Fire! and causes the afflicted e
 
 Teleports you to the position of the cursor
 | debuff = Chaos State
-| debuffduration = 6 seconds <br/> 9 seconds
+| debuffduration = 6 seconds
+ 9 seconds
 | debuffchance = 100%
 | tags = hardmode / drop
 }}
@@ -44151,19 +40071,17 @@ Using the Rod of Discord costs no mana or ammunition; however, each use inflicts
 == Trivia ==
 * Dying from teleporting during the Chaos State will display unique death messages:
 ** ""
-** "" 
-** "&lt;Player name&gt;'s legs appeared where his head should be." 
-** "&lt;Player name&gt;'s legs appeared where her head should be." 
+** ""
+** "<Player name>'s legs appeared where his head should be."
+** "<Player name>'s legs appeared where her head should be."
 *** This is the only death message that changes based on the character's gender.
 * The Chaos State debuff was introduced to combat the problem of being able to use the Rod of Discord repeatedly, granting the user an arguably overpowered method of transportation or evasion.
 * The abbreviation of the Rod of Discord, RoD, is the same as the first word, rod.
-* This is one of the only ways in the game the player can have negative health. 
+* This is one of the only ways in the game the player can have negative health.
 * In earlier mobile versions, using the Rod of Discord would instantly kill its user, and the death message would read "Structures".
 *The Nurse can heal the Chaos State Debuff.
 
 == History ==
-
-
 # 文档：Slime Gun
 - 类别：debuffs
 - 标识：slime-gun
@@ -44185,8 +40103,6 @@ It can be considered a counterpart to the Sparkle Slime Balloon.
 * It can also be used to locate invisible players using the Invisibility Potion or Psycho Knife, or invisible players wearing Shroomite armor or Vortex armor.
 
 == History ==
-
-
 # 文档：Sparkle Slime Balloon
 - 类别：debuffs
 - 标识：sparkle-slime-balloon
@@ -44203,8 +40119,6 @@ When thrown into Shimmer, it spawns the Diva slime pet.
 * The tooltip is a reference to the "Gamer Girl Bathwater" product sold by Belle Delphine during 2019.
 
 == History ==
-
-
 # 文档：Water Candle
 - 类别：debuffs
 - 标识：water-candle
@@ -44240,7 +40154,6 @@ The Water Candle's effect is the opposite of the , which decreases enemy spawn r
 == References ==
 ## VANITY_ITEMS
 共 204 篇文档
-
 # 文档：0x33's Aviators
 - 类别：vanity_items
 - 标识：0x33s-aviators
@@ -44259,8 +40172,6 @@ The Water Candle's effect is the opposite of the , which decreases enemy spawn r
 * 0x33's Aviators, Badger's Hat, Chippy's Couch, and Pedguin's set are the only pre-Hardmode items to have the base rarity. These items are also all references to Terraria streamers.
 
 == History ==
-
-
 # 文档：Aaron's Breastplate
 - 类别：vanity_items
 - 标识：aarons-breastplate
@@ -44271,8 +40182,6 @@ The Water Candle's effect is the opposite of the , which decreases enemy spawn r
 * This is the only developer set to have only three items.
 
 == History ==
-
-
 # 文档：Aaron's Helmet
 - 类别：vanity_items
 - 标识：aarons-helmet
@@ -44283,8 +40192,6 @@ The Water Candle's effect is the opposite of the , which decreases enemy spawn r
 * This is the only developer set to have only three items.
 
 == History ==
-
-
 # 文档：Aaron's Leggings
 - 类别：vanity_items
 - 标识：aarons-leggings
@@ -44295,8 +40202,6 @@ The Water Candle's effect is the opposite of the , which decreases enemy spawn r
 * This is the only developer set to have only three items.
 
 == History ==
-
-
 # 文档：Aaron's set
 - 类别：vanity_items
 - 标识：aarons-set
@@ -44307,8 +40212,6 @@ The Water Candle's effect is the opposite of the , which decreases enemy spawn r
 * This is the only developer set to have only three items.
 
 == History ==
-
-
 # 文档：Ancient set
 - 类别：vanity_items
 - 标识：ancient-set
@@ -44330,14 +40233,12 @@ The Ancient set is a Hardmode vanity set which consists of the Ancient Headdress
 * Instances of Horned God set pieces were replaced with the Ancient Headdress/Garments/Slacks upon upgrading to 1.4.0.5.4.1.
 
 == History ==
-
-
 # 文档：Archaeologist's set
 - 类别：vanity_items
 - 标识：archaeologists-set
 - 来源：wiki/Archaeologist's_set
 
-The Archaeologist's set is a Vanity set composed of the Archaeologist's Hat, the Archaeologist's Jacket and the Archaeologist's Pants. 
+The Archaeologist's set is a Vanity set composed of the Archaeologist's Hat, the Archaeologist's Jacket and the Archaeologist's Pants.
 
 While two of the pieces are crafted, the Archaeologist's Hat is not, but rather dropped by Doctor Bones.
 
@@ -44349,17 +40250,14 @@ It is possible to craft these items in a world that has The Crimson instead of T
 === Recipes ===
 
 == Notes ==
-<br />
 
-* To create both the jacket and pants, 150 Rotten Chunks are required to make the 30 pieces of leather (75 rotten chunks each). 
+* To create both the jacket and pants, 150 Rotten Chunks are required to make the 30 pieces of leather (75 rotten chunks each).
 * Filling out this set implies forgoing a great deal of lucrative boss-summoning, as this number of rotten chunks would help make 10 Worm Food.
 
 == Trivia ==
 * This outfit is a reference to the character , protagonist of the film franchise of the same name.
 
 == History ==
-
-
 # 文档：Arkhalis' Bodice
 - 类别：vanity_items
 - 标识：arkhalis-bodice
@@ -44374,8 +40272,6 @@ It is possible to craft these items in a world that has The Crimson instead of T
 * The tooltip 'I didn't get this from the Grid' could be a possible reference to the 2010 film , in which the digital world it takes place in is referred to as the Grid. It shares the same format as the tooltip for the Arkhalis sword, which states "I didn't get this off of a Schmoo."
 
 == History ==
-
-
 # 文档：Arkhalis' Hood
 - 类别：vanity_items
 - 标识：arkhalis-hood
@@ -44390,8 +40286,6 @@ It is possible to craft these items in a world that has The Crimson instead of T
 * The tooltip 'I didn't get this from the Grid' could be a possible reference to the 2010 film , in which the digital world it takes place in is referred to as the Grid. It shares the same format as the tooltip for the Arkhalis sword, which states "I didn't get this off of a Schmoo."
 
 == History ==
-
-
 # 文档：Arkhalis' Tights
 - 类别：vanity_items
 - 标识：arkhalis-tights
@@ -44406,8 +40300,6 @@ It is possible to craft these items in a world that has The Crimson instead of T
 * The tooltip 'I didn't get this from the Grid' could be a possible reference to the 2010 film , in which the digital world it takes place in is referred to as the Grid. It shares the same format as the tooltip for the Arkhalis sword, which states "I didn't get this off of a Schmoo."
 
 == History ==
-
-
 # 文档：Arkhalis' set
 - 类别：vanity_items
 - 标识：arkhalis-set
@@ -44422,8 +40314,6 @@ It is possible to craft these items in a world that has The Crimson instead of T
 * The tooltip 'I didn't get this from the Grid' could be a possible reference to the 2010 film , in which the digital world it takes place in is referred to as the Grid. It shares the same format as the tooltip for the Arkhalis sword, which states "I didn't get this off of a Schmoo."
 
 == History ==
-
-
 # 文档：Badger's Hat
 - 类别：vanity_items
 - 标识：badgers-hat
@@ -44443,8 +40333,6 @@ Badger's Hat is a Hardmode vanity item dropped by the Eye of Cthulhu or the Wall
 == History ==
 
 == References ==
-
-
 # 文档：Balla Hat
 - 类别：vanity_items
 - 标识：balla-hat
@@ -44456,8 +40344,6 @@ The Balla Hat is a vanity item purchased from the Clothier for , after the Frost
 * Neither the Balla Hat nor Gangsta Hat are sold in multiplayer even if the conditions are met.
 
 == History ==
-
-
 # 文档：Balloony Beads
 - 类别：vanity_items
 - 标识：balloony-beads
@@ -44466,8 +40352,6 @@ The Balla Hat is a vanity item purchased from the Clothier for , after the Frost
 Balloony Beads are a vanity accessory.
 
 == History ==
-
-
 # 文档：Beanie
 - 类别：vanity_items
 - 标识：beanie
@@ -44479,8 +40363,6 @@ The Beanie is a vanity item purchased from the Clothier for , while living in th
 * Because of its lack of color, it may be hard to dye a beanie with regular dye. Try combining the dye with Black Dye, or swap in a Strange Dye.
 
 == History ==
-
-
 # 文档：Bee set
 - 类别：vanity_items
 - 标识：bee-set
@@ -44491,8 +40373,6 @@ The Bee set is a vanity set consisting of the Bee Hat, the Bee Shirt, and the Be
 == Set ==
 
 == History ==
-
-
 # 文档：Black Graduation set
 - 类别：vanity_items
 - 标识：black-graduation-set
@@ -44507,8 +40387,6 @@ The Black Graduation set is a Hardmode vanity set consisting of the Black Gradua
 * Maroon Graduation set
 
 == History ==
-
-
 # 文档：Blue Graduation set
 - 类别：vanity_items
 - 标识：blue-graduation-set
@@ -44523,8 +40401,6 @@ The Blue Graduation set is a Hardmode vanity set consisting of the Blue Graduati
 * Black Graduation set
 
 == History ==
-
-
 # 文档：Bride of Frankenstein set
 - 类别：vanity_items
 - 标识：bride-of-frankenstein-set
@@ -44538,14 +40414,12 @@ The Bride of Frankenstein set is a 2-piece Vanity set that has a chance to be dr
 * This set is a reference to the 1935 American science-fiction darkly comic horror movie .
 
 == History ==
-
-
 # 文档：Buccaneer set
 - 类别：vanity_items
 - 标识：buccaneer-set
 - 来源：wiki/Buccaneer_set
 
-The Buccaneer set is a Vanity Items set made up of the Buccaneer Bandana, the Buccaneer Tunic and the Buccaneer Pantaloons. 
+The Buccaneer set is a Vanity Items set made up of the Buccaneer Bandana, the Buccaneer Tunic and the Buccaneer Pantaloons.
 
 They can be obtained as a rare drop from any Pirate Invasion enemy, except the Pirate Captain and Parrots.
 
@@ -44555,8 +40429,6 @@ They can be obtained as a rare drop from any Pirate Invasion enemy, except the P
 * It was originally suggested by Leinfors, a Terraria Forum moderator, beta tester, and programmer.
 
 == History ==
-
-
 # 文档：Bunny Hood
 - 类别：vanity_items
 - 标识：bunny-hood
@@ -44574,8 +40446,6 @@ The Bunny Hood is a vanity headgear item. It has a chance of being dropped by Co
 * Bunny set
 
 == History ==
-
-
 # 文档：Capricorn set
 - 类别：vanity_items
 - 标识：capricorn-set
@@ -44583,7 +40453,7 @@ The Bunny Hood is a vanity headgear item. It has a chance of being dropped by Co
 
 thumb|right|Original concept art of the Capricorn set by R-MK.
 
-The Capricorn set is a vanity set consisting of the Capricorn Helmet, the Capricorn Chestplate, the Capricorn Hooves, and the Capricorn Tail. 
+The Capricorn set is a vanity set consisting of the Capricorn Helmet, the Capricorn Chestplate, the Capricorn Hooves, and the Capricorn Tail.
 
 The leggings of this vanity have the unique feature of being able to switch from tail to legs and vice-versa via the key when they are not equipped.
 
@@ -44596,14 +40466,12 @@ The leggings of this vanity have the unique feature of being able to switch from
 
 == Notes==
 
-The horns, shoulderplates, gauntlets and all other gold parts will always appear in the dark, though do not give any light off. 
+The horns, shoulderplates, gauntlets and all other gold parts will always appear in the dark, though do not give any light off.
 
 ==Trivia==
 *The Capricorn Tail and Hooves are internally considered grab-bag type items, like Goodie Bags or Treasure Bags, since they also drop an item when the button is pressed on them.
 
 ==History==
-
-
 # 文档：Cat Ears
 - 类别：vanity_items
 - 标识：cat-ears
@@ -44616,8 +40484,6 @@ Cat Ears are a headpiece vanity item that has a chance to be dropped by Goodie B
 * Reindeer Antlers
 
 == History ==
-
-
 # 文档：Cat set
 - 类别：vanity_items
 - 标识：cat-set
@@ -44633,8 +40499,6 @@ The Cat set is a set of vanity items consisting of the Cat Mask, Cat Shirt, and 
 * Cat Ears
 
 == History ==
-
-
 # 文档：Chef set
 - 类别：vanity_items
 - 标识：chef-set
@@ -44648,14 +40512,12 @@ The Chef set is a set of Vanity items made up of the Chef Hat, the Chef Uniform,
 * The Chef Hat's tooltip is a reference to the Scottish born, English chef and his frequent, impassioned outbursts.
 
 == History ==
-
-
 # 文档：Clothier's set
 - 类别：vanity_items
 - 标识：clothiers-set
 - 来源：wiki/Clothier's_set
 
-The Clothier's set is a set of vanity items made up of the Red Hat, Clothier's Jacket and Clothier's Pants . 
+The Clothier's set is a set of vanity items made up of the Red Hat, Clothier's Jacket and Clothier's Pants .
 
 The Red Hat has a 100% drop chance from the Clothier NPC. The other parts of the set are sold by the Clothier for each, during Halloween.
 
@@ -44669,8 +40531,6 @@ The Red Hat has a 100% drop chance from the Clothier NPC. The other parts of the
 * Despite its name, the Red Hat can be dyed. However, the Clothier still says that it is red, as if it was not dyed.
 
 == History ==
-
-
 # 文档：Clown set
 - 类别：vanity_items
 - 标识：clown-set
@@ -44681,8 +40541,6 @@ The Clown set is a set of vanity items made up of the Clown Hat, the Clown Shirt
 == Set ==
 
 == History ==
-
-
 # 文档：Country Club set
 - 类别：vanity_items
 - 标识：country-club-set
@@ -44693,8 +40551,6 @@ The Country Club set is a vanity set. It is purchased from the Golfer for .
 == Set ==
 
 == History ==
-
-
 # 文档：Cowboy set
 - 类别：vanity_items
 - 标识：cowboy-set
@@ -44705,8 +40561,6 @@ The Cowboy set is a Hardmode vanity set that includes the Cowboy Hat, Cowboy Jac
 == Set ==
 
 == History ==
-
-
 # 文档：Creeper set
 - 类别：vanity_items
 - 标识：creeper-set
@@ -44716,7 +40570,6 @@ The Creeper set is a set of vanity items consisting of the Creeper Mask, Creeper
 
 == Set ==
 
- 
 == Trivia ==
 * The is an enemy from the 3D sandbox game and is considered one of the game's most iconic elements, as its face appears in the , the , and in most merchandise.
 * Re-Logic was given permission by , the creator of Minecraft, to add the Creeper set to Terraria.
@@ -44729,8 +40582,6 @@ The Creeper set is a set of vanity items consisting of the Creeper Mask, Creeper
 ==History==
 
 ==References==
-
-
 # 文档：Crowno's Breastplate
 - 类别：vanity_items
 - 标识：crownos-breastplate
@@ -44740,8 +40591,6 @@ The Creeper set is a set of vanity items consisting of the Creeper Mask, Creeper
 * The headgear of the armor resembles the Ancient Cultist Mask.
 
 == History ==
-
-
 # 文档：Crowno's Leggings
 - 类别：vanity_items
 - 标识：crownos-leggings
@@ -44751,8 +40600,6 @@ The Creeper set is a set of vanity items consisting of the Creeper Mask, Creeper
 * The headgear of the armor resembles the Ancient Cultist Mask.
 
 == History ==
-
-
 # 文档：Crowno's Mask
 - 类别：vanity_items
 - 标识：crownos-mask
@@ -44762,8 +40609,6 @@ The Creeper set is a set of vanity items consisting of the Creeper Mask, Creeper
 * The headgear of the armor resembles the Ancient Cultist Mask.
 
 == History ==
-
-
 # 文档：Crowno's set
 - 类别：vanity_items
 - 标识：crownos-set
@@ -44773,8 +40618,6 @@ The Creeper set is a set of vanity items consisting of the Creeper Mask, Creeper
 * The headgear of the armor resembles the Ancient Cultist Mask.
 
 == History ==
-
-
 # 文档：Cultist set
 - 类别：vanity_items
 - 标识：cultist-set
@@ -44794,22 +40637,18 @@ The Cultist set is a vanity set purchased from the Clothier for after the Lunati
 * While wearing the full Solar Cultist set, the Solar Cultist Hood can be replaced with the Lunatic Cultist Mask with Bright Orange Dye to make the player look like a Solar Cultist.
 
 == History ==
-
-
 # 文档：Cyborg set
 - 类别：vanity_items
 - 标识：cyborg-set
 - 来源：wiki/Cyborg_set
 
-The Cyborg set is a vanity item set which consists of the Cyborg Helmet, Cyborg Shirt, and Cyborg Pants, resembling the Cyborg NPC. 
+The Cyborg set is a vanity item set which consists of the Cyborg Helmet, Cyborg Shirt, and Cyborg Pants, resembling the Cyborg NPC.
 
 It is purchased from the Cyborg for total, during Halloween.
 
 == Set ==
 
 == History ==
-
-
 # 文档：Dead Man's Sweater
 - 类别：vanity_items
 - 标识：dead-mans-sweater
@@ -44818,14 +40657,12 @@ It is purchased from the Cyborg for total, during Halloween.
 The Dead Man's Sweater is a vanity item that can be found in Dead Man's Chests. It appears to have holes in it.
 
 == Trivia ==
-* The Dead Man's Sweater is a reference to Redigit’s band of the same name. 
+* The Dead Man's Sweater is a reference to Redigit’s band of the same name.
 * The tooltip of the Ivy says 'Property of Dead Man's Sweater'. This is likely a reference to the fact that it drops from the Steampunker named Whitney, Redigit's wife.
 
 == History ==
 
 == References ==
-
-
 # 文档：Demon Horns
 - 类别：vanity_items
 - 标识：demon-horns
@@ -44834,8 +40671,6 @@ The Dead Man's Sweater is a vanity item that can be found in Dead Man's Chests. 
 Demon Horns are a vanity item purchased from the Traveling Merchant for .
 
 == History ==
-
-
 # 文档：Devil Horns
 - 类别：vanity_items
 - 标识：devil-horns
@@ -44846,8 +40681,6 @@ The Devil Horns are a head vanity item that can be purchased from the Traveling 
 Unlike Demon Horns, they do not hide the player's hair.
 
 == History ==
-
-
 # 文档：Dizzy's Rare Gecko Chester
 - 类别：vanity_items
 - 标识：dizzys-rare-gecko-chester
@@ -44861,11 +40694,9 @@ Dizzy's Rare Gecko Chester is a vanity item that has a chance of being dropped b
 
 == See also ==
 * Eye Bone
-* 
+*
 
 == History ==
-
-
 # 文档：Djinn's Curse
 - 类别：vanity_items
 - 标识：djinns-curse
@@ -44887,8 +40718,6 @@ When equipped in the functional "pants" armor slot, it provides a slow fall effe
 == History ==
 
 == References ==
-
-
 # 文档：Dr. Man Fly set
 - 类别：vanity_items
 - 标识：dr-man-fly-set
@@ -44899,8 +40728,6 @@ The Dr. Man Fly set is a Hardmode vanity set consisting of the Dr. Man Fly Mask 
 == Set ==
 
 == History ==
-
-
 # 文档：Dryad set
 - 类别：vanity_items
 - 标识：dryad-set
@@ -44917,22 +40744,18 @@ The Dryad set is a vanity set which is purchased from the Dryad for each, during
 *When using certain top pieces with the female Dryads Loincloth, a black band will sometimes appear around the waist.
 
 == History ==
-
-
 # 文档：Dye Trader's set
 - 类别：vanity_items
 - 标识：dye-traders-set
 - 来源：wiki/Dye_Trader's_set
 
-The Dye Trader clothes is a set of vanity items made up of the Dye Trader's Turban () and the Dye Trader Robe. 
+The Dye Trader clothes is a set of vanity items made up of the Dye Trader's Turban () and the Dye Trader Robe.
 
 They are purchased from the Dye Trader NPC for each during Halloween.
 
 == Set ==
 
 == History ==
-
-
 # 文档：Elf set
 - 类别：vanity_items
 - 标识：elf-set
@@ -44946,8 +40769,6 @@ The Elf set is a Hardmode vanity set consisting of the Elf Hat, the Elf Shirt, a
 * The Elf Hat, Goblorc Ears, Huntress's Wig, and Vulkelf Ears are the only items that change the shape of the player's ears.
 
 == History ==
-
-
 # 文档：Engineering Helmet
 - 类别：vanity_items
 - 标识：engineering-helmet
@@ -44963,8 +40784,6 @@ The Engineering Helmet is a vanity item equipped on the Social Helmet Slot. It i
 * The Engineering Helmet seamlessly connects with the Architect Gizmo Pack
 
 == History ==
-
-
 # 文档：Eye Patch
 - 类别：vanity_items
 - 标识：eye-patch
@@ -44979,11 +40798,9 @@ The Eye Patch is a vanity item placed in the helmet social slot. It can be dropp
 * Regardless of direction, the character always wears an eye-patch. This suggests they are wearing two eye-patches, over both eyes.
 
 == See also ==
-* 
+*
 
 == History ==
-
-
 # 文档：Eyebrella
 - 类别：vanity_items
 - 标识：eyebrella
@@ -45000,11 +40817,9 @@ The Eyebrella is a vanity item that has a chance of being dropped by the Deerclo
 *The cloud will not be in the right place while being in reversed gravity.
 
 == See also ==
-* 
+*
 
 == History ==
-
-
 # 文档：Fabulous set
 - 类别：vanity_items
 - 标识：fabulous-set
@@ -45015,14 +40830,12 @@ The Fabulous set is a Vanity items set which consists of the Fabulous Ribbon, Fa
 When wearing the full set, the Fabulous Ribbon will bob up and down in response to movement.
 
 == Set ==
-
-
 # 文档：Fallen Tuxedo set
 - 类别：vanity_items
 - 标识：fallen-tuxedo-set
 - 来源：wiki/Fallen_Tuxedo_set
 
-The Fallen Tuxedo set is a set of Vanity items made up of the Fallen Tuxedo Shirt and the Fallen Tuxedo Pants. 
+The Fallen Tuxedo set is a set of Vanity items made up of the Fallen Tuxedo Shirt and the Fallen Tuxedo Pants.
 
 They are purchased from the Clothier for , during a Blood Moon.
 
@@ -45032,8 +40845,6 @@ They are purchased from the Clothier for , during a Blood Moon.
 * The Top Hat, which is dropped by The Groom, suits well with this set.
 
 == History ==
-
-
 # 文档：Familiar set
 - 类别：vanity_items
 - 标识：familiar-set
@@ -45062,8 +40873,6 @@ Like all vanity items, the Familiar set does not provide anything but a change i
 ** This could prove useful for ambushing another team.
 
 == History ==
-
-
 # 文档：Fedora
 - 类别：vanity_items
 - 标识：fedora
@@ -45075,8 +40884,6 @@ The Fedora is a vanity item purchased from the Traveling Merchant for .
 * Its tooltip, '', is a reference to the [https://knowyourmeme.com/memes/tips-fedora fedora tipping] meme, typically associated with young men who wear fedoras as a "sign of class" and attempt to impress women with said hats and cordial behavior.
 
 == History ==
-
-
 # 文档：Fez
 - 类别：vanity_items
 - 标识：fez
@@ -45090,8 +40897,6 @@ The Fez is a head vanity item purchased from the Traveling Merchant for .
 * was a traditional headwear that was worn by Ottoman men in late 19th century.
 
 == History ==
-
-
 # 文档：Firestarter's set
 - 类别：vanity_items
 - 标识：firestarters-set
@@ -45109,11 +40914,9 @@ The Firestarter's set is a vanity set consisting of the Firestarter's Sweater an
 
 == See also ==
 * Gentleman's set
-* 
+*
 
 == History ==
-
-
 # 文档：Fish Bowl
 - 类别：vanity_items
 - 标识：fish-bowl
@@ -45144,8 +40947,6 @@ The Fish, Gold Fish and Pupfish Bowls are crafted, while the Lava Serpent Bowl h
 *The Lava Serpent Bowl's tooltip ("No, you can't wear it on your head") is referencing the fact that the Fish Bowl and the Gold Fish Bowl are wearable as a helmet. It's unclear as to why this was specifically singled out, as the water-filled bowls are still dangerous to wear (considering you drown while they're equipped in an armor slot), though it's also likely it was simply a joke due to the fact that lava is clearly the more dangerous of the two.
 
 == History ==
-
-
 # 文档：Fish Bowls
 - 类别：vanity_items
 - 标识：fish-bowls
@@ -45176,8 +40977,6 @@ The Fish, Gold Fish and Pupfish Bowls are crafted, while the Lava Serpent Bowl h
 *The Lava Serpent Bowl's tooltip ("No, you can't wear it on your head") is referencing the fact that the Fish Bowl and the Gold Fish Bowl are wearable as a helmet. It's unclear as to why this was specifically singled out, as the water-filled bowls are still dangerous to wear (considering you drown while they're equipped in an armor slot), though it's also likely it was simply a joke due to the fact that lava is clearly the more dangerous of the two.
 
 == History ==
-
-
 # 文档：Fish set
 - 类别：vanity_items
 - 标识：fish-set
@@ -45190,8 +40989,6 @@ The Fish set is a vanity set composed of the Fish Costume Mask, Fish Costume Shi
 == Set ==
 
 == History ==
-
-
 # 文档：Floret Protector set
 - 类别：vanity_items
 - 标识：floret-protector-set
@@ -45199,7 +40996,7 @@ The Fish set is a vanity set composed of the Fish Costume Mask, Fish Costume Shi
 
 thumb|right|Original concept art of the Floret Protector set by yikescloud.
 
-The Floret Protector set is a vanity set consisting of the Floret Protector Helmet, the Floret Protector Shirt, and the Floret Protector Pants. 
+The Floret Protector set is a vanity set consisting of the Floret Protector Helmet, the Floret Protector Shirt, and the Floret Protector Pants.
 
 == Set ==
 
@@ -45213,8 +41010,6 @@ The Floret Protector set is a vanity set consisting of the Floret Protector Helm
 * Although a Daybloom is needed, the flower inside the helmet appears red.
 
 == History ==
-
-
 # 文档：Funeral set
 - 类别：vanity_items
 - 标识：funeral-set
@@ -45227,8 +41022,6 @@ These items are all equipped in the social vanity slots as they only provide a v
 == Set ==
 
 == History ==
-
-
 # 文档：Gangsta Hat
 - 类别：vanity_items
 - 标识：gangsta-hat
@@ -45244,8 +41037,6 @@ The Gangsta Hat is a vanity item purchased from the Clothier for , at night afte
 * The Snowman Gangstas that spawn during the Frost Legion event wear an identical hat.
 
 == History ==
-
-
 # 文档：Garland
 - 类别：vanity_items
 - 标识：garland
@@ -45260,11 +41051,9 @@ The Garland is a vanity item for the Social Helmet slot.
 * The tooltip is a reference to 's examination quote for the Garland in .
 
 == See also ==
-* 
+*
 
 == History ==
-
-
 # 文档：George's set
 - 类别：vanity_items
 - 标识：georges-set
@@ -45273,8 +41062,6 @@ The Garland is a vanity item for the Social Helmet slot.
 George's set is a vanity items set that is purchased from the Clothier for , during a Blood Moon, but is only available to male characters. It consists of George's Hat, George's Shirt, and George's Pants. It is the male counterpart to the Fabulous set.
 
 == Set ==
-
-
 # 文档：Ghost set
 - 类别：vanity_items
 - 标识：ghost-set
@@ -45292,21 +41079,17 @@ The Ghost set is a vanity set. It has a chance to be dropped by Goodie Bags, whi
 * , the Graveyard and Halloween-exclusive enemy.
 
 == History ==
-
-
 # 文档：Ghostar's set
 - 类别：vanity_items
 - 标识：ghostars-set
 - 来源：wiki/Ghostar's_set
 
 == Trivia ==
-* The items in this set use a type of apostrophe that is different from all other uses of apostrophes in the game: <code>’</code> instead of <code>'</code>.
+* The items in this set use a type of apostrophe that is different from all other uses of apostrophes in the game: ’ instead of '.
 
 == History ==
 
 == References ==
-
-
 # 文档：Giant Bow
 - 类别：vanity_items
 - 标识：giant-bow
@@ -45320,8 +41103,6 @@ When worn in the helmet slot, a bow appears on top of the player's head.
 * When equipped with the Mirage Dye, the Bow appears to wave back and forth.
 
 == History ==
-
-
 # 文档：Goblorc Ears
 - 类别：vanity_items
 - 标识：goblorc-ears
@@ -45334,8 +41115,6 @@ Goblorc Ears are a vanity item purchased from the Traveling Merchant for .
 * The name "Goblorc" is a portemanteau of "Goblin" and "Orc", both races with similar ears as the item.
 
 == History ==
-
-
 # 文档：Gold Crown
 - 类别：vanity_items
 - 标识：gold-crown
@@ -45349,8 +41128,6 @@ The Gold Crown is a craftable vanity item that can be worn in the Social Helmet 
 === Used in ===
 
 == History ==
-
-
 # 文档：Gold Fish Bowl
 - 类别：vanity_items
 - 标识：gold-fish-bowl
@@ -45381,8 +41158,6 @@ The Fish, Gold Fish and Pupfish Bowls are crafted, while the Lava Serpent Bowl h
 *The Lava Serpent Bowl's tooltip ("No, you can't wear it on your head") is referencing the fact that the Fish Bowl and the Gold Fish Bowl are wearable as a helmet. It's unclear as to why this was specifically singled out, as the water-filled bowls are still dangerous to wear (considering you drown while they're equipped in an armor slot), though it's also likely it was simply a joke due to the fact that lava is clearly the more dangerous of the two.
 
 == History ==
-
-
 # 文档：Gravedigger set
 - 类别：vanity_items
 - 标识：gravedigger-set
@@ -45395,11 +41170,9 @@ The Gravedigger set is a vanity set consisting of the Gravedigger Hat and Graved
 == Set ==
 
 == See also ==
-* 
+*
 
 == History ==
-
-
 # 文档：Green Cap
 - 类别：vanity_items
 - 标识：green-cap
@@ -45408,7 +41181,7 @@ The Gravedigger set is a vanity set consisting of the Gravedigger Hat and Graved
 , the Guide will always drop the Green Cap, regardless of his name.
 
 == Notes ==
-* 
+*
 * In addition, equipping the Guide Voodoo Doll allows the player to damage the Guide with any weapon.
 
 == Tips ==
@@ -45423,8 +41196,6 @@ The Gravedigger set is a vanity set consisting of the Gravedigger Hat and Graved
 == History ==
 
 == References ==
-
-
 # 文档：Grox The Great's set
 - 类别：vanity_items
 - 标识：grox-the-greats-set
@@ -45435,8 +41206,6 @@ The Gravedigger set is a vanity set consisting of the Gravedigger Hat and Graved
 ** The mod [https://terrariamods.gamepedia.com/Ancients_Awakened Ancients Awakened] also has a vanity set dedicated to Grox The Great, the [https://terrariamods.gamepedia.com/Ancients_Awakened/Angry_Pirate%27s_set Angry Pirate's set].
 
 == History ==
-
-
 # 文档：Guy Fawkes Mask
 - 类别：vanity_items
 - 标识：guy-fawkes-mask
@@ -45446,13 +41215,11 @@ The Guy Fawkes Mask is a head-slot vanity item. It is purchased from the Clothie
 
 == Trivia ==
 * In real life, s are based on a stylized depiction of , a member of a group of provincial English Catholics who planned the failed of 1605.
-* Two of the Scarecrow variants in the Pumpkin Moon event appear to be wearing Guy Fawkes Masks. 
+* Two of the Scarecrow variants in the Pumpkin Moon event appear to be wearing Guy Fawkes Masks.
 == See also ==
 * Mime Mask, a vanity item with a very similar appearance.
 
 == History ==
-
-
 # 文档：Heart Hairpin
 - 类别：vanity_items
 - 标识：heart-hairpin
@@ -45464,8 +41231,6 @@ The Heart Hairpin is a vanity item that is sold by the Traveling Merchant for . 
 * Star Hairpin, a similar item sold by the Traveling Merchant
 
 == History ==
-
-
 # 文档：Hero's set
 - 类别：vanity_items
 - 标识：heros-set
@@ -45489,8 +41254,6 @@ In order to craft an entire set, a total of 420 Cobwebs and 27 Jungle Seeds / Mu
 * Despite being a Nintendo console, the Wii U edition of the game does not change the set to green.
 
 == History ==
-
-
 # 文档：HiTek Sunglasses
 - 类别：vanity_items
 - 标识：hitek-sunglasses
@@ -45499,8 +41262,6 @@ In order to craft an entire set, a total of 420 Cobwebs and 27 Jungle Seeds / Mu
 The HiTek Sunglasses are a Hardmode, post-Golem vanity item for the social helmet slot. They are similar to the Sunglasses and Goggles, in that they provide eye graphics without concealing the player's hair. HiTek Sunglasses are purchased from the Cyborg for , after at least one Martian Madness event has been defeated.
 
 == History ==
-
-
 # 文档：Horned God set
 - 类别：vanity_items
 - 标识：horned-god-set
@@ -45511,8 +41272,6 @@ The HiTek Sunglasses are a Hardmode, post-Golem vanity item for the social helme
 * Wearing the robe makes a visual effect of the player with their hands on their hips.
 
 == History ==
-
-
 # 文档：Jack 'O Lantern Mask
 - 类别：vanity_items
 - 标识：jack-o-lantern-mask
@@ -45521,7 +41280,7 @@ The HiTek Sunglasses are a Hardmode, post-Golem vanity item for the social helme
 The Jack 'O Lantern Mask is a vanity item. It has a 0.83-5% / / chance to be dropped from the Headless Horseman.
 
 == Notes ==
-* The inventory icon shows it as unlit, but upon placing it in the armor slot, it is rendered with a glowing pattern over the face. 
+* The inventory icon shows it as unlit, but upon placing it in the armor slot, it is rendered with a glowing pattern over the face.
 * This is visible even if in darkness or stealth from Shroomite/Vortex armor/Psycho Knife.
 * When displayed on a Mannequin, it is shown without the glow.
 * Using dyes on the mask will change the color of the pumpkin, while leaving the glow unaffected, which may be unintentional.
@@ -45530,8 +41289,6 @@ The Jack 'O Lantern Mask is a vanity item. It has a 0.83-5% / / chance to be dro
 * The glowing pattern is rendered separately from the sprite, and does not appear pixellated at any zoom level.
 
 == History ==
-
-
 # 文档：Jim's Breastplate
 - 类别：vanity_items
 - 标识：jims-breastplate
@@ -45542,8 +41299,6 @@ The Jack 'O Lantern Mask is a vanity item. It has a 0.83-5% / / chance to be dro
 * Jim's Leggings are the only leggings in the game that have a "cape" on it, typically most "capes" or "cloaks" are either an accessory or a chestpiece item.
 
 == History ==
-
-
 # 文档：Jim's Cap
 - 类别：vanity_items
 - 标识：jims-cap
@@ -45552,11 +41307,9 @@ The Jack 'O Lantern Mask is a vanity item. It has a 0.83-5% / / chance to be dro
 Jim's Cap is an vanity item. It is dropped from the Painter when his name is Jim.
 
 == Notes ==
-* 
+*
 
 == History ==
-
-
 # 文档：Jim's Helmet
 - 类别：vanity_items
 - 标识：jims-helmet
@@ -45567,8 +41320,6 @@ Jim's Cap is an vanity item. It is dropped from the Painter when his name is Jim
 * Jim's Leggings are the only leggings in the game that have a "cape" on it, typically most "capes" or "cloaks" are either an accessory or a chestpiece item.
 
 == History ==
-
-
 # 文档：Jim's Leggings
 - 类别：vanity_items
 - 标识：jims-leggings
@@ -45579,8 +41330,6 @@ Jim's Cap is an vanity item. It is dropped from the Painter when his name is Jim
 * Jim's Leggings are the only leggings in the game that have a "cape" on it, typically most "capes" or "cloaks" are either an accessory or a chestpiece item.
 
 == History ==
-
-
 # 文档：Jim's set
 - 类别：vanity_items
 - 标识：jims-set
@@ -45591,8 +41340,6 @@ Jim's Cap is an vanity item. It is dropped from the Painter when his name is Jim
 * Jim's Leggings are the only leggings in the game that have a "cape" on it, typically most "capes" or "cloaks" are either an accessory or a chestpiece item.
 
 == History ==
-
-
 # 文档：Karate Tortoise set
 - 类别：vanity_items
 - 标识：karate-tortoise-set
@@ -45607,8 +41354,6 @@ The Karate Tortoise set is a vanity set that has a chance to be dropped by Goodi
 ** Although the real show has 4 different turtle characters, there is only a vanity set for Leonardo.
 
 == History ==
-
-
 # 文档：Kimono
 - 类别：vanity_items
 - 标识：kimono
@@ -45624,8 +41369,6 @@ The Kimono is a Vanity item purchased from the Traveling Merchant for .
 * The inventory sprite for the Kimono is folded right over left, which people fold that way for corpses. The correct way to wear a kimono is to fold left over right.
 
 == History ==
-
-
 # 文档：Lamia set
 - 类别：vanity_items
 - 标识：lamia-set
@@ -45643,8 +41386,6 @@ The Lamia set is a vanity set which consists of the Lamia Mask, Lamia Wraps and 
 * The Lamia Mask, the Hero's Hat and the Robot Hat are the only vanity items that appear to change the character's hairstyle.
 
 == History ==
-
-
 # 文档：Leinfors' Excessive Style
 - 类别：vanity_items
 - 标识：leinfors-excessive-style
@@ -45659,8 +41400,6 @@ The Lamia set is a vanity set which consists of the Lamia Mask, Lamia Wraps and 
 == History ==
 
 == References ==
-
-
 # 文档：Leinfors' Fancypants
 - 类别：vanity_items
 - 标识：leinfors-fancypants
@@ -45675,8 +41414,6 @@ The Lamia set is a vanity set which consists of the Lamia Mask, Lamia Wraps and 
 == History ==
 
 == References ==
-
-
 # 文档：Leinfors' Hair Protector
 - 类别：vanity_items
 - 标识：leinfors-hair-protector
@@ -45691,8 +41428,6 @@ The Lamia set is a vanity set which consists of the Lamia Mask, Lamia Wraps and 
 == History ==
 
 == References ==
-
-
 # 文档：Leinfors' Luxury Shampoo
 - 类别：vanity_items
 - 标识：leinfors-luxury-shampoo
@@ -45707,8 +41442,6 @@ The Lamia set is a vanity set which consists of the Lamia Mask, Lamia Wraps and 
 == History ==
 
 == References ==
-
-
 # 文档：Leinfors' set
 - 类别：vanity_items
 - 标识：leinfors-set
@@ -45723,8 +41456,6 @@ The Lamia set is a vanity set which consists of the Lamia Mask, Lamia Wraps and 
 == History ==
 
 == References ==
-
-
 # 文档：Leprechaun set
 - 类别：vanity_items
 - 标识：leprechaun-set
@@ -45740,8 +41471,6 @@ The Leprechaun set is a vanity set. It has a chance to be dropped by Goodie Bags
 * The tooltips of the Leprechaun set items are a reference to the 2006 , a supposed sighting of a leprechaun in a tree in Crichton (Mobile, Alabama).
 
 == History ==
-
-
 # 文档：Loki's Breastplate
 - 类别：vanity_items
 - 标识：lokis-breastplate
@@ -45754,8 +41483,6 @@ The Leprechaun set is a vanity set. It has a chance to be dropped by Goodie Bags
 == References ==
 
 == History ==
-
-
 # 文档：Loki's Greaves
 - 类别：vanity_items
 - 标识：lokis-greaves
@@ -45768,8 +41495,6 @@ The Leprechaun set is a vanity set. It has a chance to be dropped by Goodie Bags
 == References ==
 
 == History ==
-
-
 # 文档：Loki's Helmet
 - 类别：vanity_items
 - 标识：lokis-helmet
@@ -45782,8 +41507,6 @@ The Leprechaun set is a vanity set. It has a chance to be dropped by Goodie Bags
 == References ==
 
 == History ==
-
-
 # 文档：Loki's set
 - 类别：vanity_items
 - 标识：lokis-set
@@ -45796,8 +41519,6 @@ The Leprechaun set is a vanity set. It has a chance to be dropped by Goodie Bags
 == References ==
 
 == History ==
-
-
 # 文档：Maid set
 - 类别：vanity_items
 - 标识：maid-set
@@ -45811,8 +41532,6 @@ The Maid set is a vanity set consisting of the Maid Bonnet, Maid Dress and Maid 
 === Recipes ===
 
 == History ==
-
-
 # 文档：Maroon Graduation set
 - 类别：vanity_items
 - 标识：maroon-graduation-set
@@ -45827,8 +41546,6 @@ The Maroon Graduation set is a Hardmode vanity set consisting of the Maroon Grad
 * Black Graduation set
 
 == History ==
-
-
 # 文档：Martian Costume set
 - 类别：vanity_items
 - 标识：martian-costume-set
@@ -45839,8 +41556,6 @@ The Martian Costume set is a set of vanity items consisting of the Martian Costu
 == Set ==
 
 == History ==
-
-
 # 文档：Martian Uniform set
 - 类别：vanity_items
 - 标识：martian-uniform-set
@@ -45851,8 +41566,6 @@ The Martian Uniform set is a set of Vanity items consisting of the Martian Unifo
 == Set ==
 
 == History ==
-
-
 # 文档：Master Gamer's set
 - 类别：vanity_items
 - 标识：master-gamers-set
@@ -45866,8 +41579,6 @@ The Master Gamer's set is a vanity set consisting of the Master Gamer's Jacket a
 * The Master Gamer set is a reference to the classic cartoon from 1989, "". It is the outfit worn by the show's main protagonist, Kevin Keene. The tooltip is a line said in the show's opening by Kevin's mother.
 
 == History ==
-
-
 # 文档：Mermaid set
 - 类别：vanity_items
 - 标识：mermaid-set
@@ -45883,8 +41594,6 @@ The Mermaid set is a vanity set composed of the Seashell Hairpin, Mermaid Adornm
 * Equipment like the Hermes Boots or Shoe Spikes that visibly appears on feet will still show and move properly, even without visible legs. See [https://imgur.com/a/6wm4vIt here] for two examples.
 
 == History ==
-
-
 # 文档：Mime Mask
 - 类别：vanity_items
 - 标识：mime-mask
@@ -45898,8 +41607,6 @@ The Mime Mask is a vanity item equipped in the Social Helmet slot. It is purchas
 * Guy Fawkes Mask, a vanity item with a very similar appearance.
 
 == History ==
-
-
 # 文档：Monokuma set
 - 类别：vanity_items
 - 标识：monokuma-set
@@ -45920,8 +41627,6 @@ The Mime Mask is a vanity item equipped in the Social Helmet slot. It is purchas
 == History ==
 
 == References ==
-
-
 # 文档：Monoliths
 - 类别：vanity_items
 - 标识：monoliths
@@ -45939,7 +41644,6 @@ There are seven / four different monoliths: the Solar, Vortex, Nebula, Stardust,
 == Types ==
 
 {| class="terraria sortable lined"
-! colspan=2 rowspan=2 | Monolith !! colspan=2 class=unsortable | Placed !! rowspan=2 | Tooltip !! rowspan=2 | Rarity !! rowspan=2 | Sell
 |-
 ! class=unsortable | Inactive !! class=unsortable | Active
 
@@ -45975,8 +41679,6 @@ There are seven / four different monoliths: the Solar, Vortex, Nebula, Stardust,
 * The ideas for the void and lunar monoliths came from the Re-Logic staff member Leinfors.
 
 == History ==
-
-
 # 文档：Monomi set
 - 类别：vanity_items
 - 标识：monomi-set
@@ -45991,8 +41693,6 @@ There are seven / four different monoliths: the Solar, Vortex, Nebula, Stardust,
 == References ==
 
 == History ==
-
-
 # 文档：Moon Mask
 - 类别：vanity_items
 - 标识：moon-mask
@@ -46007,8 +41707,6 @@ The Moon Mask is a vanity headpiece dropped by Lamias in Underground Deserts tai
 * Sun Mask, the daytime-themed counterpart.
 
 == History ==
-
-
 # 文档：Mrs. Claus set
 - 类别：vanity_items
 - 标识：mrs-claus-set
@@ -46023,8 +41721,6 @@ The Mrs. Claus set is a vanity set. It is dropped from Presents obtained during 
 * The source code spells the name as "Mrs. Clause."
 
 == History ==
-
-
 # 文档：Mummy set
 - 类别：vanity_items
 - 标识：mummy-set
@@ -46035,8 +41731,6 @@ The Mummy set is a set of Vanity items made up of the Mummy Mask, the Mummy Shir
 == Set ==
 
 == History ==
-
-
 # 文档：Mushroom Cap
 - 类别：vanity_items
 - 标识：mushroom-cap
@@ -46050,8 +41744,6 @@ The Mushroom Cap is a Vanity hat purchased from the Truffle for . It greatly res
 ** Toads are also referenced in a full set of vanity equipment (See Mushroom set).
 
 == History ==
-
-
 # 文档：Mushroom set
 - 类别：vanity_items
 - 标识：mushroom-set
@@ -46065,8 +41757,6 @@ The Mushroom set is a set of vanity items consisting of the Mushroom Hat, the Mu
 * This set is a reference to the character [https://www.mariowiki.com/Toad Toad] from the .
 
 == History ==
-
-
 # 文档：Mysterious Cape
 - 类别：vanity_items
 - 标识：mysterious-cape
@@ -46086,15 +41776,13 @@ Capes are accessories purchased from the Traveling Merchant, usually for each. T
 * When using items such as wings (including the Hoverboard), the cape will not be visible in the social slot unless visibility has been turned off in the options menu. The cape will only be visible when running or stationary, while wings will be visible when flying.
 
 == Tips ==
-* 
+*
 
 == Trivia ==
 * The Crimson Cloak can be purchased even in worlds generated with Corruption. Its name refers to the cape's , for which the infectious biome is also named.
 * Though any equipped shields will correctly be displayed under any of the capes, the walking animation will cause the shield to clip through the capes.
 
 == History ==
-
-
 # 文档：Nurse set
 - 类别：vanity_items
 - 标识：nurse-set
@@ -46110,8 +41798,6 @@ The Nurse set is a vanity set that resembles the Nurse's clothes. It is sold by 
 * The Nurse Pants seem to have the actual legs associated with the skirt and shoes.
 
 == History ==
-
-
 # 文档：Oktoberfest sets
 - 类别：vanity_items
 - 标识：oktoberfest-sets
@@ -46125,8 +41811,6 @@ The Oktoberfest sets are two sets of vanity clothing previously available from t
 * These costumes reference traditional German clothing worn during the .
 
 == History ==
-
-
 # 文档：Panda Ears
 - 类别：vanity_items
 - 标识：panda-ears
@@ -46135,8 +41819,6 @@ The Oktoberfest sets are two sets of vanity clothing previously available from t
 Panda Ears are a vanity item purchased from the Traveling Merchant for .
 
 == History ==
-
-
 # 文档：Parka set
 - 类别：vanity_items
 - 标识：parka-set
@@ -46150,8 +41832,6 @@ The Parka set is a set of vanity items: Parka Hood, Parka Coat, and Parka Pants.
 * This vanity set is likely a reference to [https://southpark.fandom.com/wiki/Kenny_McCormick Kenny McCormick]'s parka from the American animated sitcom [https://southpark.fandom.com/wiki/South_Park South Park]. This coincides with the lore tidbit that Kenny is immortal due to some sort of meddling due to a cult that worshipped Cthulhu.
 
 == History ==
-
-
 # 文档：Party Hat
 - 类别：vanity_items
 - 标识：party-hat
@@ -46164,8 +41844,6 @@ The Party Hat is a Vanity item sold by the Party Girl NPC for .
 ** Along with the hats being on the NPCs, Confetti can also be thrown.
 
 == History ==
-
-
 # 文档：Peddler's Hat
 - 类别：vanity_items
 - 标识：peddlers-hat
@@ -46183,8 +41861,6 @@ The Peddler's Hat is a Vanity item that drops from the Traveling Merchant if he 
 * The Clothier also drops his hat, the Red Hat when he dies. Unlike the Clothier, wearing the Peddler's Hat will not cause the Traveling Merchant to display different dialog.
 
 == History ==
-
-
 # 文档：Pedguin's set
 - 类别：vanity_items
 - 标识：pedguins-set
@@ -46199,8 +41875,6 @@ The Peddler's Hat is a Vanity item that drops from the Traveling Merchant if he 
 * Pedguin's set, 0x33's Aviators, Badger's Hat, and Chippy's Couch are the only pre-Hardmode items to have the base rarity. These items are also all references to Terraria streamers.
 
 == History ==
-
-
 # 文档：Pharaoh's set
 - 类别：vanity_items
 - 标识：pharaohs-set
@@ -46218,8 +41892,6 @@ The Pharaoh's set is a vanity set consisting of the Pharaoh's Mask and the Phara
 * The Pharaoh's set is directly linked to the clothing a mummified Pharaoh would wear. It being found in a Desert makes sense due to the fact that Egyptians (can be crowned as Pharaohs) lived in the Sahara and Libyan desert.
 
 == History ==
-
-
 # 文档：Pink Maid set
 - 类别：vanity_items
 - 标识：pink-maid-set
@@ -46233,8 +41905,6 @@ The Pink Maid set is a vanity set consisting of the Pink Maid Bonnet, Pink Maid 
 === Recipes ===
 
 == History ==
-
-
 # 文档：Pirate set
 - 类别：vanity_items
 - 标识：pirate-set
@@ -46247,8 +41917,6 @@ The Pirate set is a Vanity items set made up of the Pirate Hat, Pirate Shirt and
 == Set ==
 
 == History ==
-
-
 # 文档：Pixie set
 - 类别：vanity_items
 - 标识：pixie-set
@@ -46259,8 +41927,6 @@ The Pixie set is a Vanity items set that can be obtained from Goodie Bags with a
 == Set ==
 
 == History ==
-
-
 # 文档：Plaguebringer's set
 - 类别：vanity_items
 - 标识：plaguebringers-set
@@ -46268,11 +41934,11 @@ The Pixie set is a Vanity items set that can be obtained from Goodie Bags with a
 
 thumb|right|Original concept art of the Plaguebringer's set by SodaHunter.
 
-The Plaguebringer set is a vanity set consisting of the Plaguebringer's Skull, the Plaguebringer's Cloak, and the Plaguebringer's Treads. 
+The Plaguebringer set is a vanity set consisting of the Plaguebringer's Skull, the Plaguebringer's Cloak, and the Plaguebringer's Treads.
 
 Crafting the set requires materials that can only be found in the Crimson. Its Corruption counterpart is the Timeless Traveler's set.
 
-It is possible for the player to create an artificial Crimson biome in a Corrupt world by purchasing Crimson Seeds from the Dryad in a Graveyard during Hardmode to get the materials necessary to make this set. 
+It is possible for the player to create an artificial Crimson biome in a Corrupt world by purchasing Crimson Seeds from the Dryad in a Graveyard during Hardmode to get the materials necessary to make this set.
 
 When the full set is worn, it displays a special set animation of Cursed Flames emitting from it. The color of the flames will change according to the dye applied to the cloak.
 
@@ -46286,8 +41952,6 @@ When the full set is worn, it displays a special set animation of Cursed Flames 
 * Strangely, this set is crafted from Crimson materials, yet it visually emits Cursed Flames, which (in item form) are only found in the Corruption.
 
 == History ==
-
-
 # 文档：Platinum Crown
 - 类别：vanity_items
 - 标识：platinum-crown
@@ -46303,8 +41967,6 @@ The Gold Crown is its alternate ore counterpart.
 === Used in ===
 
 == History ==
-
-
 # 文档：Plumber's set
 - 类别：vanity_items
 - 标识：plumbers-set
@@ -46321,8 +41983,6 @@ These items are purely vanity items and provide no increase in defense or other 
 ** Due to copyright concerns, it is replaced with the Shiren set on and Wii U versions of the game despite the Wii U being a Nintendo console.
 
 == History ==
-
-
 # 文档：Pretty Pink set
 - 类别：vanity_items
 - 标识：pretty-pink-set
@@ -46338,8 +41998,6 @@ The Pretty Pink set is a vanity set consisting of the Pretty Pink Ribbon, Pretty
 *The Pretty Pink Ribbon may be a reference to the song of the same name by the band CAKE.
 
 == History ==
-
-
 # 文档：Prince set
 - 类别：vanity_items
 - 标识：prince-set
@@ -46350,8 +42008,6 @@ The Prince set is a Hardmode vanity set consisting of the Prince Uniform, Prince
 == Set ==
 
 == History ==
-
-
 # 文档：Princess set
 - 类别：vanity_items
 - 标识：princess-set
@@ -46365,8 +42021,6 @@ The Princess set is a vanity set that can be obtained from Goodie Bags with a ch
 * "Princess Dress" is one of only two names that are shared by two items in-game. See Princess set (Clothier) for the other Princess Dress, and Seaweed and Seaweed (junk) for both others.
 
 == History ==
-
-
 # 文档：Princess set (Clothier)
 - 类别：vanity_items
 - 标识：princess-set-clothier
@@ -46381,8 +42035,6 @@ The Princess set is a Hardmode vanity set consisting of the Tiara and the Prince
 * The Princess Dress is one of only two item pairs that have duplicate names (see Princess set for the other Princess Dress). The other pair of duplicate names are Seaweed and Seaweed (junk).
 
 == History ==
-
-
 # 文档：Pumpkin set
 - 类别：vanity_items
 - 标识：pumpkin-set
@@ -46393,8 +42045,6 @@ The Pumpkin set is a set of vanity items made up of the Pumpkin Mask, Pumpkin Sh
 == Set ==
 
 == History ==
-
-
 # 文档：Pupfish Bowl
 - 类别：vanity_items
 - 标识：pupfish-bowl
@@ -46425,8 +42075,6 @@ The Fish, Gold Fish and Pupfish Bowls are crafted, while the Lava Serpent Bowl h
 *The Lava Serpent Bowl's tooltip ("No, you can't wear it on your head") is referencing the fact that the Fish Bowl and the Gold Fish Bowl are wearable as a helmet. It's unclear as to why this was specifically singled out, as the water-filled bowls are still dangerous to wear (considering you drown while they're equipped in an armor slot), though it's also likely it was simply a joke due to the fact that lava is clearly the more dangerous of the two.
 
 == History ==
-
-
 # 文档：Rabbit Perch
 - 类别：vanity_items
 - 标识：rabbit-perch
@@ -46447,8 +42095,6 @@ Although the item appears to be a hat with rabbit ears, equipping it will show a
 ** The Bestiary entry for the Town Bunny, "", references this item.
 
 == History ==
-
-
 # 文档：Radio Thing
 - 类别：vanity_items
 - 标识：radio-thing
@@ -46467,8 +42113,6 @@ The Radio Thing is an accessory that activates a screen effect identical to that
 ** It appears to be the PR-76 radio created by from Don't Starve.
 
 == History ==
-
-
 # 文档：Rainbow Cursor
 - 类别：vanity_items
 - 标识：rainbow-cursor
@@ -46480,7 +42124,7 @@ The Rainbow Cursor is a Hardmode vanity accessory that drops from the Empress of
 * The accessory will only be active while in a world, not in the main menu.
 
 == Tips ==
-* 
+*
 
 == Trivia ==
 
@@ -46489,8 +42133,6 @@ The Rainbow Cursor is a Hardmode vanity accessory that drops from the Empress of
 == History ==
 
 == References ==
-
-
 # 文档：Raynebro's set
 - 类别：vanity_items
 - 标识：raynebros-set
@@ -46501,13 +42143,11 @@ Raynebro's set is a vanity set consisting of Raynebro's Hood, Raynebro's Hoodie,
 == Set ==
 
 == Trivia ==
-* Raynebro's set is dedicated to Redigit and Cenx's son, Lincoln. 
+* Raynebro's set is dedicated to Redigit and Cenx's son, Lincoln.
 
 == History ==
 
 == References ==
-
-
 # 文档：Reaper set
 - 类别：vanity_items
 - 标识：reaper-set
@@ -46527,8 +42167,6 @@ The Reaper set is a set of vanity items made up of the Reaper Hood and Reaper Ro
 * Reaper
 
 == History ==
-
-
 # 文档：Red Cape
 - 类别：vanity_items
 - 标识：red-cape
@@ -46548,15 +42186,13 @@ Capes are accessories purchased from the Traveling Merchant, usually for each. T
 * When using items such as wings (including the Hoverboard), the cape will not be visible in the social slot unless visibility has been turned off in the options menu. The cape will only be visible when running or stationary, while wings will be visible when flying.
 
 == Tips ==
-* 
+*
 
 == Trivia ==
 * The Crimson Cloak can be purchased even in worlds generated with Corruption. Its name refers to the cape's , for which the infectious biome is also named.
 * Though any equipped shields will correctly be displayed under any of the capes, the walking animation will cause the shield to clip through the capes.
 
 == History ==
-
-
 # 文档：Red's Breastplate
 - 类别：vanity_items
 - 标识：reds-breastplate
@@ -46570,8 +42206,6 @@ Capes are accessories purchased from the Traveling Merchant, usually for each. T
 * Prior to 1.3, if the Frost Breastplate and Leggings were paired with a Gold Helmet, and all pieces were dyed with Blue Flame and Black Dye, it would cause an afterimage and pulsing aura, akin to Hallowed armor. That was the armor Red used to wear before this set was added.
 
 == History ==
-
-
 # 文档：Red's Helmet
 - 类别：vanity_items
 - 标识：reds-helmet
@@ -46585,8 +42219,6 @@ Capes are accessories purchased from the Traveling Merchant, usually for each. T
 * Prior to 1.3, if the Frost Breastplate and Leggings were paired with a Gold Helmet, and all pieces were dyed with Blue Flame and Black Dye, it would cause an afterimage and pulsing aura, akin to Hallowed armor. That was the armor Red used to wear before this set was added.
 
 == History ==
-
-
 # 文档：Red's Leggings
 - 类别：vanity_items
 - 标识：reds-leggings
@@ -46600,8 +42232,6 @@ Capes are accessories purchased from the Traveling Merchant, usually for each. T
 * Prior to 1.3, if the Frost Breastplate and Leggings were paired with a Gold Helmet, and all pieces were dyed with Blue Flame and Black Dye, it would cause an afterimage and pulsing aura, akin to Hallowed armor. That was the armor Red used to wear before this set was added.
 
 == History ==
-
-
 # 文档：Red's set
 - 类别：vanity_items
 - 标识：reds-set
@@ -46615,8 +42245,6 @@ Capes are accessories purchased from the Traveling Merchant, usually for each. T
 * Prior to 1.3, if the Frost Breastplate and Leggings were paired with a Gold Helmet, and all pieces were dyed with Blue Flame and Black Dye, it would cause an afterimage and pulsing aura, akin to Hallowed armor. That was the armor Red used to wear before this set was added.
 
 == History ==
-
-
 # 文档：Reindeer Antlers
 - 类别：vanity_items
 - 标识：reindeer-antlers
@@ -46628,14 +42256,12 @@ The Reindeer Antlers are a vanity item that is dropped from Presents obtained du
 * Cat Ears
 
 == History ==
-
-
 # 文档：Robe
 - 类别：vanity_items
 - 标识：robe
 - 来源：wiki/Robe
 
-The Robe is a vanity item equipped in the shirt slot. It resembles the robes worn by Dark Casters and Tim. 
+The Robe is a vanity item equipped in the shirt slot. It resembles the robes worn by Dark Casters and Tim.
 == Crafting ==
 === Recipes ===
 
@@ -46645,11 +42271,9 @@ The Robe is a vanity item equipped in the shirt slot. It resembles the robes wor
 * Wizard set
 
 == Notes ==
-* 
+*
 
 == History ==
-
-
 # 文档：Robot Hat
 - 类别：vanity_items
 - 标识：robot-hat
@@ -46665,8 +42289,6 @@ The Robot Hat is a vanity item equipped on the Social Helmet Slot. It has a chan
 * The Robot Hat, the Lamia Mask and the Hero's Hat are the only vanity items that appear to change the character's hairstyle.
 
 == History ==
-
-
 # 文档：Robot set
 - 类别：vanity_items
 - 标识：robot-set
@@ -46677,8 +42299,6 @@ The Robot set is a set of vanity items consisting of the Robot Mask, Robot Shirt
 == Set ==
 
 == History ==
-
-
 # 文档：Rock Golem Head
 - 类别：vanity_items
 - 标识：rock-golem-head
@@ -46692,8 +42312,6 @@ The Rock Golem Head is a dual-purpose vanity and furniture item dropped by Rock 
 * Flowers will grow from the Rock Golem Head when it is placed, similarly to Clay Pots. However, seeds cannot be planted within it. This may or may not be a reference to the "On TV" product Chia Pets.
 
 == History ==
-
-
 # 文档：Royal Scepter
 - 类别：vanity_items
 - 标识：royal-scepter
@@ -46702,15 +42320,13 @@ The Rock Golem Head is a dual-purpose vanity and furniture item dropped by Rock 
 The Royal Scepter is a vanity accessory sold by the Princess for .
 
 == Tips ==
-* 
+*
 
 == Trivia ==
 * It is one of the only vanity items where it is held by the player.
 * It appears to float if you use a weapon when it's equipped.
 
 == History ==
-
-
 # 文档：Royal set
 - 类别：vanity_items
 - 标识：royal-set
@@ -46724,8 +42340,6 @@ The Royal set is a Hardmode vanity set consisting of the Royal Tiara, Royal Blou
 * The Royal set is nearly identical to the Princess' clothes.
 
 == History ==
-
-
 # 文档：Rune set
 - 类别：vanity_items
 - 标识：rune-set
@@ -46733,7 +42347,7 @@ The Royal set is a Hardmode vanity set consisting of the Royal Tiara, Royal Blou
 
 frame|Animation of the Rune set.
 
-The Rune set is a Hardmode vanity set consisting of the Rune Hat and Rune Robe. Both pieces are always dropped by the Rune Wizard, a rare Underground Hardmode enemy. Wearing the full set causes the player to emit a pulse effect, as well as a bright orange and green particle effect from their feet when walking. The particles are visible in darkness but do not emit light onto other objects. 
+The Rune set is a Hardmode vanity set consisting of the Rune Hat and Rune Robe. Both pieces are always dropped by the Rune Wizard, a rare Underground Hardmode enemy. Wearing the full set causes the player to emit a pulse effect, as well as a bright orange and green particle effect from their feet when walking. The particles are visible in darkness but do not emit light onto other objects.
 
 == Set ==
 
@@ -46747,8 +42361,6 @@ The Rune set is a Hardmode vanity set consisting of the Rune Hat and Rune Robe. 
 * The Rune Hat is a recolor of the Wizard's Hat.
 
 == History ==
-
-
 # 文档：SWAT Helmet
 - 类别：vanity_items
 - 标识：swat-helmet
@@ -46763,8 +42375,6 @@ The SWAT Helmet is a vanity item that has a / chance to drop from Tactical Skele
 * Even though SWAT Helmets are designed to be very resilient in the real world, they do not grant any defense in Terraria.
 
 == History ==
-
-
 # 文档：Safeman's set
 - 类别：vanity_items
 - 标识：safemans-set
@@ -46774,8 +42384,6 @@ The SWAT Helmet is a vanity item that has a / chance to drop from Tactical Skele
 * Safeman's Sunny Day causes the Forbidden armor set bonus to move along with the sun causing it to sit within the ring.
 
 == History ==
-
-
 # 文档：Sailor set
 - 类别：vanity_items
 - 标识：sailor-set
@@ -46789,13 +42397,11 @@ The Sailor set is a vanity set that includes the Sailor Hat, Sailor Shirt and th
 * The Sailor Hat is worn by the and the Sailor Shirt is worn by the .
 
 == See also ==
-* 
-* 
-* 
+*
+*
+*
 
 == History ==
-
-
 # 文档：Santa set
 - 类别：vanity_items
 - 标识：santa-set
@@ -46806,22 +42412,18 @@ The Santa set is a set of Vanity items made up of the Santa Hat, the Santa Shirt
 == Set ==
 
 == History ==
-
-
 # 文档：Scarecrow set
 - 类别：vanity_items
 - 标识：scarecrow-set
 - 来源：wiki/Scarecrow_set
 
-The Scarecrow set is a vanity set made up of the Scarecrow Hat, the Scarecrow Shirt and the Scarecrow Pants. 
+The Scarecrow set is a vanity set made up of the Scarecrow Hat, the Scarecrow Shirt and the Scarecrow Pants.
 
 All the parts of the set are dropped by the Scarecrows during the Pumpkin Moon Event.
 
 == Set ==
 
 == History ==
-
-
 # 文档：Shiren set
 - 类别：vanity_items
 - 标识：shiren-set
@@ -46832,8 +42434,6 @@ The Shiren set is a vanity set exclusive to the and Wii U versions of the game t
 == History ==
 
 == References ==
-
-
 # 文档：Silly Sunflower set
 - 类别：vanity_items
 - 标识：silly-sunflower-set
@@ -46846,8 +42446,6 @@ The Silly Sunflower set is a vanity set made up of the Silly Sunflower Petals, S
 == Set ==
 
 == History ==
-
-
 # 文档：Skiphs' Bear Butt
 - 类别：vanity_items
 - 标识：skiphs-bear-butt
@@ -46861,8 +42459,6 @@ The Silly Sunflower set is a vanity set made up of the Silly Sunflower Petals, S
 * It is a common misconception that Skiphs' Paws are supposed to resemble the wings of , a species, but Lugia does not have any claws and has more fingers.
 
 == History ==
-
-
 # 文档：Skiphs' Mask
 - 类别：vanity_items
 - 标识：skiphs-mask
@@ -46876,8 +42472,6 @@ The Silly Sunflower set is a vanity set made up of the Silly Sunflower Petals, S
 * It is a common misconception that Skiphs' Paws are supposed to resemble the wings of , a species, but Lugia does not have any claws and has more fingers.
 
 == History ==
-
-
 # 文档：Skiphs' Skin
 - 类别：vanity_items
 - 标识：skiphs-skin
@@ -46891,8 +42485,6 @@ The Silly Sunflower set is a vanity set made up of the Silly Sunflower Petals, S
 * It is a common misconception that Skiphs' Paws are supposed to resemble the wings of , a species, but Lugia does not have any claws and has more fingers.
 
 == History ==
-
-
 # 文档：Skiphs' set
 - 类别：vanity_items
 - 标识：skiphs-set
@@ -46906,8 +42498,6 @@ The Silly Sunflower set is a vanity set made up of the Silly Sunflower Petals, S
 * It is a common misconception that Skiphs' Paws are supposed to resemble the wings of , a species, but Lugia does not have any claws and has more fingers.
 
 == History ==
-
-
 # 文档：Skull
 - 类别：vanity_items
 - 标识：skull
@@ -46920,8 +42510,6 @@ The Skull is a rare vanity item that has a chance of being dropped by Skeletons,
 * The Skull was added as a reference to the Terraria webcomic [https://legendofmaxx.com/archives/501 The Legend of Maxx].
 
 == History ==
-
-
 # 文档：Snow Hat
 - 类别：vanity_items
 - 标识：snow-hat
@@ -46933,8 +42521,6 @@ The Snow Hat is a vanity item dropped from Presents obtained during the Christma
 * This item is a reference to [https://southpark.fandom.com/wiki/Stan_Marsh Stan Marsh]'s hat from the American animated sitcom [https://southpark.fandom.com/wiki/South_Park South Park].
 
 == History ==
-
-
 # 文档：Space Creature set
 - 类别：vanity_items
 - 标识：space-creature-set
@@ -46948,8 +42534,6 @@ The Space Creature set is a set of vanity items consisting of the Space Creature
 * The set is a reference to the Xenomorphs from the film series.
 
 == History ==
-
-
 # 文档：Star Hairpin
 - 类别：vanity_items
 - 标识：star-hairpin
@@ -46961,8 +42545,6 @@ The Star Hairpin is a vanity item that can be purchased from the Traveling Merch
 * Heart Hairpin, a similar item sold by the Traveling Merchant
 
 == History ==
-
-
 # 文档：Star Princess set
 - 类别：vanity_items
 - 标识：star-princess-set
@@ -46978,8 +42560,6 @@ The Star Princess set is a vanity set consisting of the Star Princess Crown and 
 * The Star Princess Set and its companion item, the Celestial Wand, are a reference to Rosalina and the Lumas from the game .
 
 == History ==
-
-
 # 文档：Steampunk Goggles
 - 类别：vanity_items
 - 标识：steampunk-goggles
@@ -46988,12 +42568,10 @@ The Star Princess set is a vanity set consisting of the Star Princess Crown and 
 The Steampunk Goggles are a vanity item purchased from the Steampunker for during the Halloween Event.
 
 == See also ==
-* 
-* 
+*
+*
 
 == History ==
-
-
 # 文档：Steampunk set
 - 类别：vanity_items
 - 标识：steampunk-set
@@ -47007,12 +42585,10 @@ The Steampunk set is a vanity set made up of the Steampunk Hat, Steampunk Shirt,
 * When the shirt and pants are dyed using Silver Dye, the outfit closely resembles that of Alex DeLarge, the protagonist of the 1971 dystopian crime film .
 
 == See also ==
-* 
-* 
+*
+*
 
 == History ==
-
-
 # 文档：Summer Hat
 - 类别：vanity_items
 - 标识：summer-hat
@@ -47024,8 +42600,6 @@ The Summer Hat is a vanity item equipped in the Social Helmet Slot. It is purcha
 * It resembles the hat worn by , the protagonist of the Japanese manga series . Its internal item ID is close to a few vanity sets that are references (e.g. the Hero's, Plumber's, and Archaeologist's sets), which might indicate this to be intentional.
 
 == History ==
-
-
 # 文档：Sun Mask
 - 类别：vanity_items
 - 标识：sun-mask
@@ -47037,8 +42611,6 @@ The Sun Mask is a vanity helmet dropped by Lamias in normal Underground Deserts 
 * Moon Mask, the night-themed counterpart.
 
 == History ==
-
-
 # 文档：Sunglasses
 - 类别：vanity_items
 - 标识：sunglasses
@@ -47061,8 +42633,6 @@ Like Goggles, these do not cover the player's hair, allowing for the player to h
 * Goggles
 
 == History ==
-
-
 # 文档：Superhero set
 - 类别：vanity_items
 - 标识：superhero-set
@@ -47076,8 +42646,6 @@ The Superhero set is a set of Vanity items made up of the Superhero Mask, the Su
 === Recipes ===
 
 == History ==
-
-
 # 文档：TV Head set
 - 类别：vanity_items
 - 标识：tv-head-set
@@ -47085,7 +42653,7 @@ The Superhero set is a set of Vanity items made up of the Superhero Mask, the Su
 
 thumb|right|Original concept art of the TV Head set by Dr.Zootsuit.
 
-The TV Head set is a vanity set consisting of the Video Visage, the Lazer Blazer, and the Pinstripe Pants. 
+The TV Head set is a vanity set consisting of the Video Visage, the Lazer Blazer, and the Pinstripe Pants.
 
 The Video Visage has the unique ability to change colors depending on where the player is and what they are doing.
 
@@ -47115,8 +42683,6 @@ framed|right|The six possible states of the Video Visage.
 * Unlike the other five sets, the TV Head set was not announced as a winner of the Journey's End Vanity Contest, and was only teased one day before the update that introduced it to the game.
 
 == History ==
-
-
 # 文档：Tam O' Shanter
 - 类别：vanity_items
 - 标识：tam-o-shanter
@@ -47129,8 +42695,6 @@ The Tam O' Shanter is a Hardmode vanity item purchased from the Clothier for , d
 * While jumping, the hat goes slightly downwards.
 
 == History ==
-
-
 # 文档：Tax Collector's set
 - 类别：vanity_items
 - 标识：tax-collectors-set
@@ -47141,8 +42705,6 @@ The Tax Collector's set is a Hardmode vanity set consisting of the Tax Collector
 == Set ==
 
 == History ==
-
-
 # 文档：The Doctor's set
 - 类别：vanity_items
 - 标识：the-doctors-set
@@ -47157,8 +42719,6 @@ The Doctor's set is a vanity set made up of the The Doctor's Shirt and The Docto
 * The Fez may also be considered to be a part of the set, since the Eleventh Doctor has been known to wear fezzes with the excuse that "Fezzes are cool", which is also the tooltip for the Fez. However, it is sold by the .
 
 == History ==
-
-
 # 文档：Timeless Traveler's set
 - 类别：vanity_items
 - 标识：timeless-travelers-set
@@ -47166,7 +42726,7 @@ The Doctor's set is a vanity set made up of the The Doctor's Shirt and The Docto
 
 thumb|right|Original concept art of the Timeless Traveler's set by DisRicardo.
 
-The Timeless Traveler's set is a vanity set consisting of the Timeless Traveler's Hood, the Timeless Traveler's Cloak, and the Timeless Traveler's Footwear. 
+The Timeless Traveler's set is a vanity set consisting of the Timeless Traveler's Hood, the Timeless Traveler's Cloak, and the Timeless Traveler's Footwear.
 
 It can only be crafted in a Corruption world, unless the player creates an artificial Corruption biome or farms the chunks from a Corrupt Statue. Its Crimson counterpart is the Plaguebringer's set.
 
@@ -47181,8 +42741,6 @@ When wearing the full set, the set displays an animation of soul-like apparition
 * Its male and female variants are identical.
 
 == History ==
-
-
 # 文档：Treasure Hunter set
 - 类别：vanity_items
 - 标识：treasure-hunter-set
@@ -47197,8 +42755,6 @@ The Treasure Hunter set is a 2-piece Vanity items set. It consists of a turquois
 * The male Treasure Hunter set is a reference to the from the action-adventure third-person shooter platform video game series .
 
 == History ==
-
-
 # 文档：Tree set
 - 类别：vanity_items
 - 标识：tree-set
@@ -47209,8 +42765,6 @@ The Tree set is a vanity set consisting of the Tree Mask, Tree Shirt, and Tree T
 == Set ==
 
 == History ==
-
-
 # 文档：Tuxedo set
 - 类别：vanity_items
 - 标识：tuxedo-set
@@ -47226,8 +42780,6 @@ While the other two pieces are crafted, the Top Hat is not, and is instead dropp
 === Recipes ===
 
 == History ==
-
-
 # 文档：Ugly Sweater
 - 类别：vanity_items
 - 标识：ugly-sweater
@@ -47239,7 +42791,6 @@ The Ugly Sweater is a vanity item dropped from Presents obtained during the Chri
 * The Ugly Sweater is most likely a reference to the tradition of receiving a as a Christmas present that the recipient may not like that much.
 
 == History ==
-
 # 文档：Vanity items
 - 类别：vanity_items
 - 标识：vanity-items
@@ -47250,19 +42801,6 @@ Vanity items are wearable items that can be equipped in social slots next to the
 == All vanity items ==
 
 === Vanity Pieces ===
-{{#dpl:
-| category = Vanity items
-| notcategory = Vanity sets
-| notcategory = Accessory items
-| notcategory = Developer items
-| nottitleregexp = itemsMasksFish BowlsPupfish BowlUnicorn on a Stick$
-| redirects = include
-| namespace = 
-| includesubpages = false
-| ordermethod = titlewithoutnamespace
-| order = ascending
-| format= ²{itemlist,¦²{#vardefine:pn¦²{pagename2en¦%PAGE%}²}²²{item¦²{#var:pn}²¦image=²{image¦²{#var:pn}² (equipped).png}² ²{image¦²{#var:pn}² (equipped) female.png}²}²,,}²
-}}
 
 === Halloween Sets ===
 These sets can only be found in Goodie Bags or from NPCs during the Halloween season.
@@ -47275,36 +42813,11 @@ These sets do not follow any season. They can be purchased from NPCs, looted fro
 
 ===Boss Masks===
 All bosses, including ones, but not and , have a 14.29% chance to drop their respective mask.
-{{#dpl:
-| category = Drop items
-| redirects = only | linksto = Masks
-| namespace =
-| includesubpages = false
-| ordermethod = titlewithoutnamespace
-| order = ascending
-| format= ²{itemlist,¦²{item¦²{pagename2en¦%PAGE%}²}²,,}²
-}}
+
 ===Vanity Accessories===
-{{#dpl:
-| category = Vanity items&Accessory items
-| notcategory = Vanity sets
-| nottitleregexp = itemsCapes$Critter ShampooRadio Thing
-| redirects = include
-| namespace = 
-| includesubpages = false
-| ordermethod = titlewithoutnamespace
-| order = ascending
-| format= ²{itemlist,¦²{item¦²{pagename2en¦%PAGE%}²}²,,}²
-}}
+
 === Developer Sets===
-{{#dpl:
-| category = Developer items&Vanity sets
-| namespace = 
-| includesubpages = false
-| ordermethod = titlewithoutnamespace
-| order = ascending
-| format= ²{itemlist,¦²{item¦²{pagename2en¦%PAGE%}²}²,,}²
-}}
+
 === Oktoberfest Vanity Sets===
 
 ===-only Set===
@@ -47323,7 +42836,6 @@ Some head pieces in Terraria show the player's original hair under them, while o
 == Achievement ==
 
 == History ==
-
 # 文档：Umbrella Hat
 - 类别：vanity_items
 - 标识：umbrella-hat
@@ -47332,7 +42844,6 @@ Some head pieces in Terraria show the player's original hair under them, while o
 The Umbrella Hat is a vanity item that has a chance to drop from Umbrella Slimes during Rain.
 
 == History ==
-
 # 文档：Unicorn on a Stick
 - 类别：vanity_items
 - 标识：unicorn-on-a-stick
@@ -47350,7 +42861,6 @@ It can be dropped by Unicorns with a 1% drop chance.
 * The item's tooltip is possibly a reference to the song "" written by and .
 
 == History ==
-
 # 文档：Unicorn set
 - 类别：vanity_items
 - 标识：unicorn-set
@@ -47361,7 +42871,6 @@ The Unicorn set is a vanity set consisting of the Unicorn Mask, Unicorn Shirt, a
 == Set ==
 
 == History ==
-
 # 文档：Vampire set
 - 类别：vanity_items
 - 标识：vampire-set
@@ -47376,7 +42885,6 @@ The Vampire set is a vanity set consisting of the Vampire Mask, Vampire Shirt, a
 * This can also be used as a secondary cape in the s.
 
 == History ==
-
 # 文档：Victorian Goth set
 - 类别：vanity_items
 - 标识：victorian-goth-set
@@ -47389,7 +42897,6 @@ The Victorian Goth set is a vanity set consisting of the Victorian Goth Hat and 
 == Set ==
 
 == History ==
-
 # 文档：Vulkelf Ears
 - 类别：vanity_items
 - 标识：vulkelf-ears
@@ -47402,7 +42909,6 @@ Vulkelf Ears are a vanity item purchased from the Traveling Merchant for .
 * The name "Vulkelf" is a portemanteau of "Vulcan" (Star Trek) and "Elf", both races with pointy ears.
 
 == History ==
-
 # 文档：Wandering set
 - 类别：vanity_items
 - 标识：wandering-set
@@ -47410,7 +42916,7 @@ Vulkelf Ears are a vanity item purchased from the Traveling Merchant for .
 
 thumb|right|Original concept art of the Wandering set by crowflux.
 
-The Wandering set or Wandering Ronin set is a vanity set consisting of the Wandering Jingasa, the Wandering Yukata, and the Wandering Geta. 
+The Wandering set or Wandering Ronin set is a vanity set consisting of the Wandering Jingasa, the Wandering Yukata, and the Wandering Geta.
 
 When the full set is worn, fireflies can be seen flying around the player.
 
@@ -47427,13 +42933,12 @@ When the full set is worn, fireflies can be seen flying around the player.
 * The fireflies used in the recipe are a reference to the 1988 Japanese animated war tragedy movie [https://ghibli.fandom.com/wiki/Grave_of_the_Fireflies Grave of the Fireflies].
 
 == History ==
-
 # 文档：Wedding set
 - 类别：vanity_items
 - 标识：wedding-set
 - 来源：wiki/Wedding_set
 
-The Wedding set is a set of Vanity items made up of the Wedding Veil and the Wedding Dress. 
+The Wedding set is a set of Vanity items made up of the Wedding Veil and the Wedding Dress.
 
 They are guaranteed to be dropped by The Bride, a rare Enemy that spawns during a Blood Moon and in the Graveyard mini-biome.
 
@@ -47443,7 +42948,6 @@ They are guaranteed to be dropped by The Bride, a rare Enemy that spawns during 
 * The tooltips are a reference to the priest from the 1987 film, .
 
 == History ==
-
 # 文档：White Tuxedo set
 - 类别：vanity_items
 - 标识：white-tuxedo-set
@@ -47459,7 +42963,6 @@ The set exists on , but is unobtainable on these versions.
 * Tuxedo set
 
 == History ==
-
 # 文档：Whoopie Cushion
 - 类别：vanity_items
 - 标识：whoopie-cushion
@@ -47476,7 +42979,6 @@ The Whoopie Cushion is a novelty item that makes a farting sound when used. It h
 * The , an expensive pet sometimes sold by the Traveling Merchant, occasionally emits the same noise as the Whoopie Cushion.
 
 == History ==
-
 # 文档：Will's Breastplate
 - 类别：vanity_items
 - 标识：wills-breastplate
@@ -47486,7 +42988,6 @@ The Whoopie Cushion is a novelty item that makes a farting sound when used. It h
 * Its male and female variants look identical.
 
 == History ==
-
 # 文档：Will's Helmet
 - 类别：vanity_items
 - 标识：wills-helmet
@@ -47496,7 +42997,6 @@ The Whoopie Cushion is a novelty item that makes a farting sound when used. It h
 * Its male and female variants look identical.
 
 == History ==
-
 # 文档：Will's Leggings
 - 类别：vanity_items
 - 标识：wills-leggings
@@ -47506,7 +43006,6 @@ The Whoopie Cushion is a novelty item that makes a farting sound when used. It h
 * Its male and female variants look identical.
 
 == History ==
-
 # 文档：Will's set
 - 类别：vanity_items
 - 标识：wills-set
@@ -47516,7 +43015,6 @@ The Whoopie Cushion is a novelty item that makes a farting sound when used. It h
 * Its male and female variants look identical.
 
 == History ==
-
 # 文档：Winter Cape
 - 类别：vanity_items
 - 标识：winter-cape
@@ -47536,14 +43034,13 @@ Capes are accessories purchased from the Traveling Merchant, usually for each. T
 * When using items such as wings (including the Hoverboard), the cape will not be visible in the social slot unless visibility has been turned off in the options menu. The cape will only be visible when running or stationary, while wings will be visible when flying.
 
 == Tips ==
-* 
+*
 
 == Trivia ==
 * The Crimson Cloak can be purchased even in worlds generated with Corruption. Its name refers to the cape's , for which the infectious biome is also named.
 * Though any equipped shields will correctly be displayed under any of the capes, the walking animation will cause the shield to clip through the capes.
 
 == History ==
-
 # 文档：Witch set
 - 类别：vanity_items
 - 标识：witch-set
@@ -47554,7 +43051,6 @@ The Witch set is a vanity set consisting of the Witch Hat, Witch Dress, and Witc
 == Set ==
 
 == History ==
-
 # 文档：Wizard's Hat
 - 类别：vanity_items
 - 标识：wizards-hat
@@ -47566,7 +43062,6 @@ The Wizard's Hat is a vanity item purchased from the Wizard during Halloween for
 * Its color and pattern schemes are strikingly similar to those of the Star Cloak.
 
 == History ==
-
 # 文档：Wolf set
 - 类别：vanity_items
 - 标识：wolf-set
@@ -47581,7 +43076,6 @@ The Wolf set is a vanity set that has a chance to be dropped by Goodie Bags, whi
 * Since the mask doesn't cover the full head, you can replace it with a dyed , since it covers the whole head.
 
 == History ==
-
 # 文档：Yoraiz0r's Recolored Goggles
 - 类别：vanity_items
 - 标识：yoraiz0rs-recolored-goggles
@@ -47598,7 +43092,6 @@ The Wolf set is a vanity set that has a chance to be dropped by Goodie Bags, whi
 *Despite Yoraizor's Scowl having a completely black texture, modifying it with a texture pack reveals that its color changes along with the player's skin color.
 
 == History ==
-
 # 文档：Yoraiz0r's Scowl
 - 类别：vanity_items
 - 标识：yoraiz0rs-scowl
@@ -47615,7 +43108,6 @@ The Wolf set is a vanity set that has a chance to be dropped by Goodie Bags, whi
 *Despite Yoraizor's Scowl having a completely black texture, modifying it with a texture pack reveals that its color changes along with the player's skin color.
 
 == History ==
-
 # 文档：Yoraiz0r's set
 - 类别：vanity_items
 - 标识：yoraiz0rs-set
@@ -47632,7 +43124,6 @@ The Wolf set is a vanity set that has a chance to be dropped by Goodie Bags, whi
 *Despite Yoraizor's Scowl having a completely black texture, modifying it with a texture pack reveals that its color changes along with the player's skin color.
 
 == History ==
-
 # 文档：Yoraiz0r's Skirt
 - 类别：vanity_items
 - 标识：yoraiz0rs-skirt
@@ -47649,7 +43140,6 @@ The Wolf set is a vanity set that has a chance to be dropped by Goodie Bags, whi
 *Despite Yoraizor's Scowl having a completely black texture, modifying it with a texture pack reveals that its color changes along with the player's skin color.
 
 == History ==
-
 # 文档：Yoraiz0r's Uniform
 - 类别：vanity_items
 - 标识：yoraiz0rs-uniform
@@ -47666,4 +43156,3 @@ The Wolf set is a vanity set that has a chance to be dropped by Goodie Bags, whi
 *Despite Yoraizor's Scowl having a completely black texture, modifying it with a texture pack reveals that its color changes along with the player's skin color.
 
 == History ==
-

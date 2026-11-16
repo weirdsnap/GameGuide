@@ -59,6 +59,8 @@
 - `games/terraria/data/wiki_data_zh.md`：90 页，其中 **78 页是版本号**
   （`1.0`、`1.4.4`…），只剩 1 个物品页；中文问「克苏鲁之眼怎么召唤」top-1 是
   `Platforms`，期望实体不在 top-8。
+- 2026-11-16 已跑 `clean_wiki.py`（-8.0%：删 18 个模板、70 行重复），但**标题层面的
+  垃圾改不掉**，仍需重采；重采前不要指望中文检索。
 - 根因：zh 分类配置缺失/用英文分类查中文 wiki；Fandom 不可达，暂时无法重采。
 - 影响：泰拉瑞亚中文检索基本不可用；英文库正常。
 - 归属：数据采集（网络/分类配置）→ Mac 重建。
@@ -123,6 +125,35 @@ hollow_knight 3%  | cyberpunk2077 5% | mhw 1% | silksong 0%
   缺失列每轮刷几十行 `DB query error: no such column`。
 - 已改：先 `PRAGMA table_info` 只查真实列 + 候选列去重。
 - commit `65f0df9`（本地领先 origin 1 个，随本次文档一起推送）。
+
+## 数据清洗（2026-11-16 服务器侧，已完成，待重建生效）
+
+脚本：`scripts/build/clean_wiki.py`（就地清洗 `games/*/data/wiki_data*.md`）
+
+规则：Infobox/DBEntry/Block Quote 压平成字段文本（空值与 image/baseid 类丢弃）；
+`#dpl:`/Cleanup 等纯导航模板删除；`<ref>`/HTML 注释/标签清理 + 实体反转义；
+短导航行删除，**超长行（>600B，导航与正文挤在一行）只断句不删行**；节内长重复行去重。
+
+| 文件 | 前 | 后 | 变化 |
+|---|---|---|---|
+| baldurs_gate3 | 27.5MB | 26.9MB | -2.4%（1579 行断句、7035 行去重） |
+| cyberpunk2077 | 4.95MB | 4.11MB | -16.9%（压平 2342 个模板、删 2237 个 ref、2504 个标签） |
+| mhw | 1.13MB | 1.08MB | -4.8%（16 个超长导航行断句、250 行去重） |
+| hollow_knight | 1.05MB | 1.03MB | -2.2%（3162 个 HTML 标签） |
+| oni | 998KB | 957KB | -4.1%（947 个标签，含 `<math>`） |
+| terraria | 2.33MB | 2.28MB | -2.0% |
+| terraria_zh | 857KB | 788KB | -8.0%（垃圾标题仍在，救不回来） |
+| va11halla | 133KB | 131KB | -1.3% |
+
+校验：`load_wiki_documents()` 抽出的文档数清洗前后一致（BG3 9341 / cp2077 2562 /
+HK 416 / oni 400 / terraria 1622 / va11 79·27），标题无 Unknown；二次运行全 0 命中
+（幂等）。原文件备份在磁盘 `*.bak-20261116`（已 gitignore，不入库）。
+
+顺手删掉两个 0 字节垃圾库：`games/hollow_knight/hollow_knight_data.db`、
+`games/terraria/data/terraria_data.db`（无代码引用）。
+
+**未做（需要重抓，卡在 Fandom 不可达）**：silksong 整站碎片、terraria 中文标题垃圾。
+**生效条件**：改动的是源文本，向量库还是旧的 —— 需要 Mac 按现有流程重建（分块与嵌入都变了）。
 
 ## 本轮已解决（别再重复排查）
 

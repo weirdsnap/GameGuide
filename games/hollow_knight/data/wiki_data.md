@@ -2,17 +2,14 @@
 自动采集自 Hollow Knight Fandom Wiki
 文档总数：416
 ---
-
 ## ABILITIES
 共 10 篇文档
-
 # 文档：Howling Wraiths
-
 - 类别：abilities
 - 标识：howling_wraiths
 - 来源：wiki/Howling_Wraiths
 
-<b>Howling Wraiths</b> is a Spell in <i>Hollow Knight</i>. Using it releases a blast of SOUL above and around the Knight.
+Howling Wraiths is a Spell in Hollow Knight. Using it releases a blast of SOUL above and around the Knight.
 
 Function
 Press FOCUS/CAST or QUICK CAST while holding UP to release a wave of energy in an arc around and above the Knight, dealing 3 hits.
@@ -46,7 +43,7 @@ Found in the Overgrown Mound within Fog Canyon, next to the entrance to the Quee
 Trivia
 
 This Spell is found near the corpse of a snail shaman. Using the Dream Nail on this corpse yields the line:
-<i>"...Hear...me..."</i>
+"...Hear...me..."
 After obtaining Howling Wraiths, the Knight's SOUL is completely refilled.
 A Squit also spawns, just west of the Knight.
 
@@ -55,14 +52,12 @@ ZH:嚎叫幽灵
 ---
 
 ---
-
 # 文档：Desolate Dive
-
 - 类别：abilities
 - 标识：desolate_dive
 - 来源：wiki/Desolate_Dive
 
-<b>Desolate Dive</b> is a Spell in <i>Hollow Knight</i>. Using it strikes the ground with concentrated SOUL, breaking floors and damaging enemies.
+Desolate Dive is a Spell in Hollow Knight. Using it strikes the ground with concentrated SOUL, breaking floors and damaging enemies.
 
 Function
 Press FOCUS/CAST or QUICK CAST while holding DOWN to cause the Knight to slam into the ground, creating a shockwave that spreads out and up. The dive deals 15 damage, while the shockwave deals 20.
@@ -94,8 +89,8 @@ How to Acquire
 Reward for defeating Soul Master in the City of Tears.
 
 Trivia
-Desolate Dive was revealed in a Kickstarter update where it was referred to as the <b>Tyrant's Fist</b>:
-<i>"This ancient, royal magic allows you to focus energy into your fist and slam it down into the ground, releasing a shockwave that blows away foes and can even rupture the earth you stand on!"</i>
+Desolate Dive was revealed in a Kickstarter update where it was referred to as the Tyrant's Fist:
+"This ancient, royal magic allows you to focus energy into your fist and slam it down into the ground, releasing a shockwave that blows away foes and can even rupture the earth you stand on!"
 Descending Dark and Desolate Dive can be used while Dung Defender is underground to force him out and stagger him.
 After obtaining Desolate Dive, the Knight's SOUL is completely refilled.
 
@@ -106,14 +101,12 @@ ZH:荒芜俯冲
 ---
 
 ---
-
 # 文档：Vengeful Spirit
-
 - 类别：abilities
 - 标识：vengeful_spirit
 - 来源：wiki/Vengeful_Spirit
 
-<b>Vengeful Spirit</b> is a Spell in <i>Hollow Knight</i>. Using it conjures a spirit that flies forward and damages enemies.
+Vengeful Spirit is a Spell in Hollow Knight. Using it conjures a spirit that flies forward and damages enemies.
 
 Function
 Press FOCUS/CAST or QUICK CAST without holding UP or DOWN to launch a projectile that passes through enemies and deals damage. The projectile passes through invulnerable parts of an enemy, such as a shield or shell, but will not damage a fully protected enemy.
@@ -161,7 +154,7 @@ It is given by the Snail Shaman located in the Ancestral Mound in the Forgotten 
 
 Trivia
 A cut inventory description for Vengeful Spirit can be found in the game's files:
-<i>"A desire for revenge is seared into the SOUL of those who fell in battle or were wronged in life. A Shaman can concentrate this desire and cast it out into the world to burn away whatever stands before them."</i>
+"A desire for revenge is seared into the SOUL of those who fell in battle or were wronged in life. A Shaman can concentrate this desire and cast it out into the world to burn away whatever stands before them."
 With the Vengeful Spirit Spell, the Elder Baldur blocking the way to Greenpath can be killed. This is the intended way to access the rest of the areas in the game.
 It is possible to reach the Resting Grounds and obtain the Dream Nail before Vengeful Spirit by buying the Lumafly Lantern from Sly and entering Crystal Peak with it.
 It is also possible to defeat the Elder Baldur in other ways, though they are extremely difficult. For example, by using the  Dreamshield or Longnail Charm.
@@ -175,14 +168,12 @@ ZH:复仇之魂
 ---
 
 ---
-
 # 文档：King's Brand
-
 - 类别：abilities, items
 - 标识：kings_brand
 - 来源：wiki/King's_Brand
 
-The <b>King's Brand</b> is an Item in <i>Hollow Knight</i>. It marks anyone who bears it as the King of Hallownest.
+The King's Brand is an Item in Hollow Knight. It marks anyone who bears it as the King of Hallownest.
 
 Use
 Allows access to the door at the bottom of the Ancient Basin leading to the Abyss, which is required to unlock four endings. Also adds new dialogue for Bardoon, Eternal Emilitia, Mask Maker, Steel Soul Jinn, Midwife, and the White Lady.
@@ -198,14 +189,12 @@ After the Knight is marked with the King's Brand, the Cast-Off Shell starts fall
 ---
 
 ---
-
 # 文档：Isma's Tear
-
 - 类别：abilities
 - 标识：ismas_tear
 - 来源：wiki/Isma's_Tear
 
-<b>Isma's Tear</b> is an Ability in <i>Hollow Knight</i>. It allows the Knight to swim in acid without taking damage.
+Isma's Tear is an Ability in Hollow Knight. It allows the Knight to swim in acid without taking damage.
 
 Function
 Although very useful, Isma's Tear is not necessary to complete the game. Obtaining it allows access to the following:
@@ -227,14 +216,12 @@ References
 ---
 
 ---
-
 # 文档：Dream Nail
-
 - 类别：abilities
 - 标识：dream_nail
 - 来源：wiki/Dream_Nail
 
-The <b>Dream Nail</b> is an Ability in <i>Hollow Knight</i>. It can collect Essence and enter dreams.
+The Dream Nail is an Ability in Hollow Knight. It can collect Essence and enter dreams.
 
 Lore
 
@@ -302,7 +289,7 @@ If more Essence was spent on warping to a Dreamgate than getting randomly from E
 If Dream Wielder is equipped and less Essence was spent on warping to a Dreamgate than getting randomly from Enemies: 0.5% (1/200)
 If Dream Wielder is equipped and more Essence was spent on warping to a Dreamgate than getting randomly from Enemies: 2.5% (1/40)
 
-Essence rewards from the Seer 
+Essence rewards from the Seer
 100 Essence - Hallownest Seal
 200 Essence - Spirits' Glade opens
 300 Essence - Pale Ore
@@ -311,12 +298,12 @@ Essence rewards from the Seer
 900 Essence -  Dreamgate
 1200 Essence - Arcane Egg
 1500 Essence - Mask Shard
-1800 Essence - Awaken the Dream Nail and unlock the <i>Awakening</i> Achievement
-2400 Essence - The <i>Ascension</i> Achievement
+1800 Essence - Awaken the Dream Nail and unlock the Awakening Achievement
+2400 Essence - The Ascension Achievement
 
 Achievements
 
-Trivia 
+Trivia
 The Dream Nail can be used to push back most enemies.
 The amount of Essence that can be stored is capped by the 32-bit signed integer limit, which is 2,147,483,647 (over 2 billion).
 Even though the Fluke Larvae near Flukemarm and in the  Junk Pit are not considered actual enemies in-game, they still have a chance to give 1 Essence after being defeated.
@@ -326,14 +313,12 @@ The backboard for Dream Nail dialogue is different for the Pale King's dialogue 
 ---
 
 ---
-
 # 文档：Mantis Claw
-
 - 类别：abilities
 - 标识：mantis_claw
 - 来源：wiki/Mantis_Claw
 
-The <b>Mantis Claw</b> is an Ability in <i>Hollow Knight</i>. It allows for clinging to walls and jumping off them.
+The Mantis Claw is an Ability in Hollow Knight. It allows for clinging to walls and jumping off them.
 
 Function
 While close to a wall while in midair, press in the direction of the wall to cling to it and slide down. Press JUMP to launch diagonally away from the wall. This can be repeated an infinite number of times, allowing the Knight to climb up walls. Can only be used on completely vertical surfaces.
@@ -346,14 +331,12 @@ Located in Mantis Village. Mothwing Cloak recommended.
 ---
 
 ---
-
 # 文档：Crystal Heart
-
 - 类别：abilities
 - 标识：crystal_heart
 - 来源：wiki/Crystal_Heart
 
-<b>Crystal Heart</b> is an Ability in <i>Hollow Knight</i>. It allows the Knight to fly forward horizontally until colliding with a wall or enemy that is not killed by the dash.
+Crystal Heart is an Ability in Hollow Knight. It allows the Knight to fly forward horizontally until colliding with a wall or enemy that is not killed by the dash.
 
 Function
 Hold SUPER DASH while on the ground or clinging to a wall to concentrate force. Release the button at full charge to blast forwards and fly through the air. The Knight continues moving forward until interrupted by damage or the environment, by pressing JUMP or by tapping SUPER DASH again.
@@ -366,24 +349,22 @@ Found in an old mining golem at the end of a platforming segment in Crystal Peak
 Trivia
 It takes 0.8 seconds to charge the Crystal Heart.
 It is possible to use the Dream Nail on the old mining golem, which gives the following dialogue:
-<i>"DIG...DIG...CRUSH...DIG...LIFT...DIG...LIFT...DIG...
+"DIG...DIG...CRUSH...DIG...LIFT...DIG...LIFT...DIG...
 CRUSH...OBEY...DIG...LIFT...CRUSH...DROP...
 DROP...DIG...LIFT...DIG...CRUSH...OBEY...DIG...
 DIG...DIG...LIFT...FOLLOW...OBEY...FOLLOW...OBEY...
 CRUSH...CRUSH...OBEY...CRUSH...OBEY...CRUSH...
-CRUSH...CRUSH...CRUSH...CRUSH...CRUSH...CRUSH..."</i>
+CRUSH...CRUSH...CRUSH...CRUSH...CRUSH...CRUSH..."
 
 ---
 
 ---
-
 # 文档：Monarch Wings
-
 - 类别：abilities
 - 标识：monarch_wings
 - 来源：wiki/Monarch_Wings
 
-The <b>Monarch Wings</b> are an Ability in <i>Hollow Knight</i>. It allows jumping again while in mid-air.
+The Monarch Wings are an Ability in Hollow Knight. It allows jumping again while in mid-air.
 
 Function
 Press JUMP while in the air to perform a double-jump. Refreshes when the Knight lands on the ground, bounces off an enemy/object with their Nail, or clings to/jumps off a wall using the Mantis Claw.
@@ -406,7 +387,7 @@ Located in the Ancient Basin, just after the Broken Vessel boss fight. The Cryst
 Trivia
 Collecting the Monarch Wings is one of the two triggers that causes the Forgotten Crossroads to become the Infected Crossroads (the other trigger being killing any of the Dreamers).
 The official game manual describes the Monarch Wings as:
-<i>"Wings of a monarchfly that grant momentary flight."</i>
+"Wings of a monarchfly that grant momentary flight."
 The Monarch Wings are likely what cause the torrents of wind in portions of the Ancient Basin, as picking the Ability up stops the wind.
 The Monarch Wings were originally called "Mantis Wings" on the Kickstarter page.
 
@@ -415,14 +396,12 @@ References
 ---
 
 ---
-
 # 文档：Nail
-
 - 类别：abilities
 - 标识：nail
 - 来源：wiki/Nail
 
-<b>Nail</b> is the term used to describe the bladed weapons wielded by several enemies, NPCs, and bosses in <i>Hollow Knight</i>, including the Knight.
+Nail is the term used to describe the bladed weapons wielded by several enemies, NPCs, and bosses in Hollow Knight, including the Knight.
 
 The Nailsmith in the City of Tears can upgrade the Knight's Nail up to 4 times if using Geo and Pale Ore, which increase the damage of Nail strikes.
 
@@ -435,40 +414,36 @@ Description
 Upgrade Cost
 style="min-width: 2rem;" | Damage
 
-<i>A traditional weapon of Hallownest. Its blade is blunt with age and wear.</i>
+A traditional weapon of Hallownest. Its blade is blunt with age and wear.
 Default weapon
 5
 
-<i>A traditional weapon of Hallownest, restored to lethal form.</i>
+A traditional weapon of Hallownest, restored to lethal form.
 
 9
 
-<i>A cleft weapon of Hallownest. The blade is exquisitly balanced.</i>
+A cleft weapon of Hallownest. The blade is exquisitly balanced.
 + 1 Pale Ore
 13
 
-<i>A powerful weapon of Hallownest, refined beyond all others.</i>
+A powerful weapon of Hallownest, refined beyond all others.
 + 2 Pale Ore
 17
 
-<i>The ultimate weapon of Hallownest. Crafted to perfection, this ancient nail reveals its true form.</i>
+The ultimate weapon of Hallownest. Crafted to perfection, this ancient nail reveals its true form.
 + 3 Pale Ore
 21
 }
 
 ---
-
-
 ## CHARMS
 共 10 篇文档
-
 # 文档：Grubsong
-
 - 类别：charms
 - 标识：grubsong
 - 来源：wiki/Grubsong
 
-<b>Grubsong</b> is a Charm in <i>Hollow Knight</i>. It causes the Knight to gain 15 SOUL when taking damage.
+Grubsong is a Charm in Hollow Knight. It causes the Knight to gain 15 SOUL when taking damage.
 
 Usefulness
 A useful Charm at the cost of only one Notch as it provides a good amount of SOUL (gives 15 soul out of the 33 needed to heal) to use as healing in compensation for taking damage. The SOUL provided per hit is not enough for a heal on its own but combined with the SOUL gathered by striking enemies, or with other Charms that help gather SOUL faster, this Charm becomes incredibly useful for a Spell-focused build.
@@ -488,15 +463,13 @@ The amount of Mask damage taken in one hit does not impact the amount of SOUL ga
 ---
 
 ---
-
 # 文档：Wayward Compass
-
 - 类别：charms
 - 标识：wayward_compass
 - 来源：wiki/Wayward_Compass
 **位置**: Sly's shop in Dirtmouth.
 
-<b>Wayward Compass</b> is a Charm in <i>Hollow Knight</i>. It shows the location of the Knight on the Map.
+Wayward Compass is a Charm in Hollow Knight. It shows the location of the Knight on the Map.
 
 Usefulness
 
@@ -508,8 +481,8 @@ How to Acquire
 Bought from Iselda in Dirtmouth for  after the first encounter with Cornifer.
 
 Shop description:
-<i>Highly recommended! If you're having trouble finding your way in the maze of ruins below us, try this charm.
-It will pinpoint your location on the map. Incredibly helpful for finding your bearings in unfamiliar locations!</i>
+Highly recommended! If you're having trouble finding your way in the maze of ruins below us, try this charm.
+It will pinpoint your location on the map. Incredibly helpful for finding your bearings in unfamiliar locations!
 
 Trivia
 The location of the Knight is shown even when no map of the area has been bought.
@@ -519,14 +492,12 @@ Within the code of Hollow Knight Wayward, Compass increases an unknown and usele
 ---
 
 ---
-
 # 文档：Quick Slash
-
 - 类别：charms
 - 标识：quick_slash
 - 来源：wiki/Quick_Slash
 
-<b>Quick Slash</b> is a Charm in <i>Hollow Knight</i>. It allows for more rapid Nail strikes.
+Quick Slash is a Charm in Hollow Knight. It allows for more rapid Nail strikes.
 
 Usefulness
 Quick Slash can increase total damage output while slashing with the Nail. This Charm is more effective than Fragile Strength/ Unbreakable Strength in most situations, as it not only increases the rate at which the Nail deals damage but also how quickly it accumulates SOUL.
@@ -542,7 +513,7 @@ Take out any primal aspids before entering this room or else they will make thin
 Charm Combo Tips
 
 Trivia
-When using the Dream Nail on the Ancient Nailsmith it yields the line <i>" ...Pure... "</i>.
+When using the Dream Nail on the Ancient Nailsmith it yields the line " ...Pure... ".
 This is the same Dream Nail dialogue of the corpse of the Nailsmith found in the Junk Pit.
 
 Notes
@@ -552,9 +523,7 @@ References
 ---
 
 ---
-
 # 文档：Unbreakable Strength
-
 - 类别：charms
 - 标识：unbreakable_strength
 - 来源：wiki/Unbreakable_Strength
@@ -587,19 +556,19 @@ Must be repaired by Leg Eater in order to be used again
 
 The downside is that once broken, Leg Eater only repairs it for a price. In the late-game, the cost may not be much of an issue, but the trip to Leg Eater might be. Dreamgate can be used to reach Leg Eater more easily.
 
-This Charm is quite potent, although it breaks upon death. One way to make use of the Charm is to only use it in situations where death is unlikely, such as exploration, or in tandem with survivability-increasing Charms, while also avoiding its use in boss battles, except for Dream Boss battles and  Godhome battles (as the Charm does <b>not</b> break when dying to these bosses).
+This Charm is quite potent, although it breaks upon death. One way to make use of the Charm is to only use it in situations where death is unlikely, such as exploration, or in tandem with survivability-increasing Charms, while also avoiding its use in boss battles, except for Dream Boss battles and  Godhome battles (as the Charm does not break when dying to these bosses).
 
 Lastly, its drawback is negated in Steel Soul runs since the run is over upon death anyway, making Fragile Strength one of the most powerful and useful Charms in a Steel Soul run.
 
 How to Acquire
 Purchased from Leg Eater in the Fungal Wastes for . Wearing the Defender's Crest Charm causes Leg Eater to lower the cost to .
 Shop description:
-<i>You're weak, aren't you? You should give me Geo. If you do, I'll give you this charm I made.
-It will make you stronger. Your enemies, and everyone else, will fear you at last...</i>
+You're weak, aren't you? You should give me Geo. If you do, I'll give you this charm I made.
+It will make you stronger. Your enemies, and everyone else, will fear you at last...
 
 When broken, Leg Eater can repair it for , or, while wearing the Defender's Crest, for .
 Shop description when broken:
-<i>It's broken now, and its power is sleeping. Very sad! Give me Geo, and I'll fix it.</i>
+It's broken now, and its power is sleeping. Very sad! Give me Geo, and I'll fix it.
 
 Once the Grimm Troupe has been summoned, Divine becomes accessible in Dirtmouth. To get the unbreakable version of Fragile Strength, it must be equipped before listening to her, then it must be given to her when prompted. She eats the Charm, then asks for . Once the Geo is paid, she gives the unbreakable version of Fragile Strength, Unbreakable Strength.
 
@@ -610,14 +579,12 @@ Notes
 ---
 
 ---
-
 # 文档：Spell Twister
-
 - 类别：charms
 - 标识：spell_twister
 - 来源：wiki/Spell_Twister
 
-<b>Spell Twister</b> is a Charm in <i>Hollow Knight</i>. It reduces the amount of SOUL required to cast Spells. Focus is exempt from this.
+Spell Twister is a Charm in Hollow Knight. It reduces the amount of SOUL required to cast Spells. Focus is exempt from this.
 
 Usefulness
 This Charm stacks well with Charms that generate SOUL, like Soul Catcher or Grubsong, as it uses SOUL more efficiently instead of generating it. It is also much more efficient than Soul Catcher in terms of Nail hits per Spell; of course, this comes at the drawback of not being able to use this added efficiency on Focus.
@@ -634,14 +601,12 @@ Charm Combo Tips
 ---
 
 ---
-
 # 文档：Mark of Pride
-
 - 类别：charms
 - 标识：mark_of_pride
 - 来源：wiki/Mark_of_Pride
 
-<b>Mark of Pride</b> is a Charm in <i>Hollow Knight</i>. It increases the range of the Nail by 25%.
+Mark of Pride is a Charm in Hollow Knight. It increases the range of the Nail by 25%.
 
 Usefulness
 It is useful for keeping distance from more dangerous enemies and for performing safer Nail-bounces.
@@ -662,15 +627,13 @@ Notes
 ---
 
 ---
-
 # 文档：Sharp Shadow
-
 - 类别：charms
 - 标识：sharp_shadow
 - 来源：wiki/Sharp_Shadow
 **位置**: Deepnest — behind a fragile wall in the Failed Tramway, reached via Shade Cloak.
 
-<b>Sharp Shadow</b> is a Charm in <i>Hollow Knight</i>. It damages enemies when dashing through them and increases dash length when using the Shade Cloak.
+Sharp Shadow is a Charm in Hollow Knight. It damages enemies when dashing through them and increases dash length when using the Shade Cloak.
 }}
 
 Trivia
@@ -685,14 +648,12 @@ Notes
 ---
 
 ---
-
 # 文档：Void Heart
-
 - 类别：charms
 - 标识：void_heart
 - 来源：wiki/Void_Heart
 
-Void Heart is a Charm in <i>Hollow Knight</i>. It causes Siblings, Void Tendrils, and the Shade to become passive. It also unlocks 4 Endings and allows entry into the  Pantheon of Hallownest.
+Void Heart is a Charm in Hollow Knight. It causes Siblings, Void Tendrils, and the Shade to become passive. It also unlocks 4 Endings and allows entry into the  Pantheon of Hallownest.
 
 Usefulness
 This charm replaces the Kingsoul Charm and cannot be unequipped. However, it no longer has Kingsoul's effects, nor does it use any Notches.
@@ -709,7 +670,7 @@ It is not possible to die during the climb up the Abyss after which Void Heart i
 The Knight also has infinite SOUL during the climb.
 Void Heart is the only Charm that does not use up a charm notch and is also the only charm that cannot be regularly unequipped by the Knight.
 The only time Void Heart can ever be unequipped is when using the Charm Binding in the Pantheons.
-Void Heart is <b>automatically equipped</b> once obtained without the need to sit on a Bench.
+Void Heart is automatically equipped once obtained without the need to sit on a Bench.
 When Void Heart is obtained, a distorted version of the normal sound for getting items and abilities is played, similar to obtaining Salubra's Blessing.
 While the egg in the Birthplace can be hit with the Dream Nail from either the left or right side, the Dream Nail hitbox is only on the reflective part of the egg.
 The egg stops showing a reflection of the Knight after obtaining Void Heart.
@@ -717,15 +678,13 @@ The egg stops showing a reflection of the Knight after obtaining Void Heart.
 ---
 
 ---
-
 # 文档：Shaman Stone
-
 - 类别：charms
 - 标识：shaman_stone
 - 来源：wiki/Shaman_Stone
 **位置**: Salubra's hut in the Forgotten Crossroads.
 
-<b>Shaman Stone</b> is a Charm in <i>Hollow Knight</i>. It increases the damage of Spells and the size of Vengeful Spirit/Shade Soul. Shaman Stone only affects the Defender's Crest + Flukenest combo by increasing the damage frequency, allowing for ~29 damage.
+Shaman Stone is a Charm in Hollow Knight. It increases the damage of Spells and the size of Vengeful Spirit/Shade Soul. Shaman Stone only affects the Defender's Crest + Flukenest combo by increasing the damage frequency, allowing for ~29 damage.
 }}
 
 Notes
@@ -733,22 +692,20 @@ Notes
 ---
 
 ---
-
 # 文档：Dashmaster
-
 - 类别：charms
 - 标识：dashmaster
 - 来源：wiki/Dashmaster
 **位置**: Royal Waterways — behind a hidden wall near the dung pool, requires Mantis Claw to reach.
 
-<b>Dashmaster</b> is a Charm in <i>Hollow Knight</i>. It decreases the cooldown of the Mothwing Cloak and allows the Knight to dash downwards.
+Dashmaster is a Charm in Hollow Knight. It decreases the cooldown of the Mothwing Cloak and allows the Knight to dash downwards.
 |Charm2 = Sprintmaster
 |Charm2Desc = Further increases the movement speed bonus to 39%.
 }}
 
 Trivia
 When the Dashmaster's statue is struck with the Dream Nail, it gives the lines:
-<i>"...Dash faster... Dash further... Dash forever..."</i>
+"...Dash faster... Dash further... Dash forever..."
 When wearing this Charm, it is possible to use the Shade Cloak to dash downwards.
 Dashing downwards prevents the Knight from staggering when falling from great heights.
 With the downwards dash, it is possible to use a Dash Slash, however the Dash Slash will still be oriented horizontally.
@@ -756,18 +713,14 @@ With the downwards dash, it is possible to use a Dash Slash, however the Dash Sl
 Notes
 
 ---
-
-
 ## BOSSES
 共 14 篇文档
-
 # 文档：Mantis Lords
-
 - 类别：bosses
 - 标识：mantis_lords
 - 来源：wiki/Mantis_Lords
 
-The <b>Mantis Lords</b> are an optional boss in <i>Hollow Knight</i>. Defeating them grants safe passage through the Mantis Village. The  Sisters of Battle is their stronger form.
+The Mantis Lords are an optional boss in Hollow Knight. Defeating them grants safe passage through the Mantis Village. The  Sisters of Battle is their stronger form.
 
 Lore
 The Mantis Lords are three sisters who lead the Mantis Tribe deep within the Fungal Wastes. They managed to resist the Infection throughout Hallownest despite the exile of their brother and his followers, who chose to accept the Infection willingly. This duty was part of a truce with the Kingdom, maintained even as it fell to ruins. Yet the Mantis Lords, like the rest of their Tribe, remain proud warriors. They grant passage into Deepnest to any who would defeat them in a fair challenge, in an improvised arena in their throne room.
@@ -781,16 +734,16 @@ The Mantis Lords, like all other strong creatures of Hallownest, are summoned to
 
 Behaviour and Tactics
 One of the three Mantis Lords drops into combat and uses the following attacks in Phase 1:
-<b>Lance Dash</b>: The Mantis Lord drops onto either side of the arena and charges across it, leading with her lance. This attack covers the entirety of the ground of the arena.
-<b>Lance Drop</b>: The Mantis Lord appears above the Knight's position for a brief moment before dropping straight down with her lance.
-<b>Blade Boomerang</b>: The Mantis Lord appears holding onto a wall, and throws a spinning blade like a boomerang. The spinning blade travels in one of two possible patterns:
+Lance Dash: The Mantis Lord drops onto either side of the arena and charges across it, leading with her lance. This attack covers the entirety of the ground of the arena.
+Lance Drop: The Mantis Lord appears above the Knight's position for a brief moment before dropping straight down with her lance.
+Blade Boomerang: The Mantis Lord appears holding onto a wall, and throws a spinning blade like a boomerang. The spinning blade travels in one of two possible patterns:
 If she is positioned lower down the wall, the arc starts low and rises up throughout its path, reaching the opposite side of the arena before then curving back.
 If she is positioned higher up the wall, the arc starts high and glides down throughout its path, reaching the opposite side of the arena before curving back.
 
 In Phase 2, the two remaining Mantis Lords drop into combat:
-<b>Dash</b>: Same attack although the two Mantis Lords may sometimes use this attack simultaneously from both ends of the arena instead of alternating.
-<b>Drop</b>: No changes; the Mantis Lords use this attack in methodical timing with the Dash attack.
-<b>Boomerang</b>: Both Mantis Lords appear holding onto the walls directly across from each other and throw a spinning blade like a boomerang. The spinning blades travel in one of two possible patterns:
+Dash: Same attack although the two Mantis Lords may sometimes use this attack simultaneously from both ends of the arena instead of alternating.
+Drop: No changes; the Mantis Lords use this attack in methodical timing with the Dash attack.
+Boomerang: Both Mantis Lords appear holding onto the walls directly across from each other and throw a spinning blade like a boomerang. The spinning blades travel in one of two possible patterns:
 A wide arc that reaches the opposite end of the arena before coming back together to meet at the centre just above ground level.
 A shorter arc that meets in the middle of the arena where they stay locked together while gliding down for a few moments before separating just above ground level.
 
@@ -839,14 +792,12 @@ Without any charms, the only attack in which the hitbox lingers after the attack
 ---
 
 ---
-
 # 文档：Soul Master
-
 - 类别：bosses
 - 标识：soul_master
 - 来源：wiki/Soul_Master
 
-<b>Soul Master</b> is a main boss in <i>Hollow Knight</i>. Defeating him grants the Desolate Dive Spell. The Soul Tyrant is his dream variant.
+Soul Master is a main boss in Hollow Knight. Defeating him grants the Desolate Dive Spell. The Soul Tyrant is his dream variant.
 
 Lore
 Soul Master is the leader of the Soul Sanctum of Hallownest, which searched for ways to expand the minds of bugs and attain pure focus. When the Infection started, he came to the conclusion that Soul, the energy animating bugs and beasts alike, was the solution to cure their mind of this plague. He refused to listen to the Pale King opposing his work, and failed to realise that his own Infected mind was influencing him.
@@ -864,12 +815,12 @@ Behaviour and Tactics
 Phase 1
 Soul Master teleports at least once in between each of his attacks:
 
-<b>Dash</b>: Soul Master dashes across the arena from left to right or right to left, dealing contact damage.
-<b>Orb</b>: Soul Master fires an orb of concentrated Soul at the Knight. This orb attempts to home in until it strikes the wall, the floor, or the Knight. Because Soul Master can conjure an orb from anywhere in the arena (including the far left or right), this attack and the Dash Attack can look similar.
-<b>Clock</b>: Soul Master floats from right to left or left to right as four orbs rotate around him. These four orbs are evenly spaced around Soul Master. The four orbs rotate clockwise if Soul Master is going from right to left. The orbs rotate anti-clockwise if Soul Master is going from left to right. After Soul Master crosses the arena, he disappears, and the orbs boomerang back across the arena, continuing to rotate as if Soul Master were present.
-<b>Slam</b>: Soul Master slams into the ground, creating damaging shockwaves on either side of the impact point that travel across the entire arena. Soul Master targets the Knight when he appears in the air but only slams straight down. This is Soul Master's version of Desolate Dive.
-<b>Fake Out Slam</b>: Soul Master begins a Slam Attack, but when he reaches the midpoint of the drop, he resets and performs a new Slam Attack above the Knight's new position. The only way to know this Slam Attack is coming is when Soul Master resets during the first Slam Attack.
-<b>Teleport</b>: Soul Master teleports either to prepare an attack, or to simply move within the arena.
+Dash: Soul Master dashes across the arena from left to right or right to left, dealing contact damage.
+Orb: Soul Master fires an orb of concentrated Soul at the Knight. This orb attempts to home in until it strikes the wall, the floor, or the Knight. Because Soul Master can conjure an orb from anywhere in the arena (including the far left or right), this attack and the Dash Attack can look similar.
+Clock: Soul Master floats from right to left or left to right as four orbs rotate around him. These four orbs are evenly spaced around Soul Master. The four orbs rotate clockwise if Soul Master is going from right to left. The orbs rotate anti-clockwise if Soul Master is going from left to right. After Soul Master crosses the arena, he disappears, and the orbs boomerang back across the arena, continuing to rotate as if Soul Master were present.
+Slam: Soul Master slams into the ground, creating damaging shockwaves on either side of the impact point that travel across the entire arena. Soul Master targets the Knight when he appears in the air but only slams straight down. This is Soul Master's version of Desolate Dive.
+Fake Out Slam: Soul Master begins a Slam Attack, but when he reaches the midpoint of the drop, he resets and performs a new Slam Attack above the Knight's new position. The only way to know this Slam Attack is coming is when Soul Master resets during the first Slam Attack.
+Teleport: Soul Master teleports either to prepare an attack, or to simply move within the arena.
 
 ---
 
@@ -894,9 +845,9 @@ After receiving enough damage, Soul Master undergoes a long, drawn-out death seq
 
 In this Phase, Soul Master only has three attacks, which he alternates between:
 
-<b>Altered Slams</b>: Soul Master homes in on the Knight ever so slightly. Instead of sending out shockwaves in either direction, there is a large explosion at the site of impact with a large area of effect. Soul Master chains together 4-7 of these attacks.
-<b>Fake Out Altered Slams</b>: Soul Master begins an Altered Slam Attack, but when he reaches the midpoint of the drop, he resets and performs a new Altered Slam Attack above the Knight's new position. The only way to know this Altered Slam Attack is coming is when Soul Master resets during the first Altered Slam Attack.
-<b>Altered Orb</b>: Instead of firing an Orb from his head, Soul Master hovers in one place for about 8.5-10.5 seconds and conjures 3-4 orbs from random locations throughout the arena. These orbs still home in on the Knight, and Soul Master conjures a new orb every second.
+Altered Slams: Soul Master homes in on the Knight ever so slightly. Instead of sending out shockwaves in either direction, there is a large explosion at the site of impact with a large area of effect. Soul Master chains together 4-7 of these attacks.
+Fake Out Altered Slams: Soul Master begins an Altered Slam Attack, but when he reaches the midpoint of the drop, he resets and performs a new Altered Slam Attack above the Knight's new position. The only way to know this Altered Slam Attack is coming is when Soul Master resets during the first Altered Slam Attack.
+Altered Orb: Instead of firing an Orb from his head, Soul Master hovers in one place for about 8.5-10.5 seconds and conjures 3-4 orbs from random locations throughout the arena. These orbs still home in on the Knight, and Soul Master conjures a new orb every second.
 
 ---
 
@@ -919,14 +870,12 @@ After defeating Soul Master's first phase for the first time, a UI message says 
 ---
 
 ---
-
 # 文档：Broken Vessel
-
 - 类别：bosses
 - 标识：broken_vessel
 - 来源：wiki/Broken_Vessel
 
-<b>Broken Vessel</b> is one of the main bosses in <i>Hollow Knight</i>. It blocks the way to the Monarch Wings. Lost Kin is its dream variant.
+Broken Vessel is one of the main bosses in Hollow Knight. It blocks the way to the Monarch Wings. Lost Kin is its dream variant.
 
 Lore
 Broken Vessel is one of the many Vessels who escaped the Abyss like the Knight, but unlike the Knight, was met with a tragic death while still in Hallownest. Its corpse was forgotten in a windy cave deep within the Ancient Basin before the Monarch Wings where the Infection has spread.
@@ -939,14 +888,14 @@ Using the Dream Nail on the husk afterwards brings the Knight to a dream. There,
 Behaviour and Tactics
 In addition to having a similar appearance to the Knight, Broken Vessel also shares similar moves:
 
-<b>Slash</b>: Broken Vessel dashes forward, slashing with its nail. It travels about 75% of the arena during the dash. Broken Vessel slashes with its nail in the middle of the dash.
-<b>Aerial Slash</b>: Broken Vessel levitates a short distance above the ground and then dashes forward, slashing with its nail. It travels about 75% of the entire arena during the dash. Broken Vessel slashes with its nail in the middle of the dash.
-<b>Backstep</b>: Broken Vessel does a quick backwards dash to reposition for another attack.
-<b>Leap</b>: Broken Vessel leaps either to land on the Knight's location or to move around the arena.
-<b>Flail</b>: Broken Vessel swings its nail rapidly in an overhead arc left and right four times.
-<b>Slam</b>: Broken Vessel leaps into the air and positions at the peak of the jump to slam directly down on the Knight. The impact of the slam creates four blobs of Infection that rise up and away in parabolic arcs at set distances from Broken Vessel.
-<b>Cascade</b>: Broken Vessel leaps to position itself around the centre of the arena. It then shakes its head back and forth and spawns a multitude of blobs of Infection. This attack covers most of the arena. The blobs emanate downwards from Broken Vessel but rise up from beneath the ground in waves of 3 blobs. Every wave has a chance to be: all 3 blobs at once, 2 blobs with 1 quickly following behind, or 1 blob with 2 quickly following. The whole attack lasts about four seconds with waves of blobs appearing every 0.4 seconds. Infected Balloons stop spawning and those already in the room disappear. Broken Vessel only uses this attack 3 times - at 370HP, 220HP, and 110HP.
-<b>Balloon</b>: Broken Vessel spawns an Infected Balloon enemy with 1 health instead of its usual 15. This attack happens every 4-5 seconds. Furthermore, this attack happens independently of Broken Vessel's other actions. The Infected Balloon typically spawns somewhere in the air and floats straight towards the Knight to deal contact damage. If Broken Vessel jumps into a Balloon as it is spawning, it cancels it. There is a maximum of 3 balloons that can be alive at once and this attack only starts after Broken Vessel has reached 420HP.
+Slash: Broken Vessel dashes forward, slashing with its nail. It travels about 75% of the arena during the dash. Broken Vessel slashes with its nail in the middle of the dash.
+Aerial Slash: Broken Vessel levitates a short distance above the ground and then dashes forward, slashing with its nail. It travels about 75% of the entire arena during the dash. Broken Vessel slashes with its nail in the middle of the dash.
+Backstep: Broken Vessel does a quick backwards dash to reposition for another attack.
+Leap: Broken Vessel leaps either to land on the Knight's location or to move around the arena.
+Flail: Broken Vessel swings its nail rapidly in an overhead arc left and right four times.
+Slam: Broken Vessel leaps into the air and positions at the peak of the jump to slam directly down on the Knight. The impact of the slam creates four blobs of Infection that rise up and away in parabolic arcs at set distances from Broken Vessel.
+Cascade: Broken Vessel leaps to position itself around the centre of the arena. It then shakes its head back and forth and spawns a multitude of blobs of Infection. This attack covers most of the arena. The blobs emanate downwards from Broken Vessel but rise up from beneath the ground in waves of 3 blobs. Every wave has a chance to be: all 3 blobs at once, 2 blobs with 1 quickly following behind, or 1 blob with 2 quickly following. The whole attack lasts about four seconds with waves of blobs appearing every 0.4 seconds. Infected Balloons stop spawning and those already in the room disappear. Broken Vessel only uses this attack 3 times - at 370HP, 220HP, and 110HP.
+Balloon: Broken Vessel spawns an Infected Balloon enemy with 1 health instead of its usual 15. This attack happens every 4-5 seconds. Furthermore, this attack happens independently of Broken Vessel's other actions. The Infected Balloon typically spawns somewhere in the air and floats straight towards the Knight to deal contact damage. If Broken Vessel jumps into a Balloon as it is spawning, it cancels it. There is a maximum of 3 balloons that can be alive at once and this attack only starts after Broken Vessel has reached 420HP.
 
 ---
 
@@ -966,9 +915,9 @@ Broken Vessel can be found near the far west corner of the Ancient Basin, guardi
 Achievements
 
 Trivia
-Team Cherry first revealed Broken Vessel in a Twitter post as the "<b>Infected Wanderer</b>". This was accompanied by a gif showcasing the boss fight.
-Broken Vessel was the seventh and the last boss to be revealed through the Kickstarter campaign under the name <b>"Infected Knight"</b>.
-In the Hollow Knight Press Kit, Broken Vessel is called <b>"Broken Wanderer"</b>.
+Team Cherry first revealed Broken Vessel in a Twitter post as the "Infected Wanderer". This was accompanied by a gif showcasing the boss fight.
+Broken Vessel was the seventh and the last boss to be revealed through the Kickstarter campaign under the name "Infected Knight".
+In the Hollow Knight Press Kit, Broken Vessel is called "Broken Wanderer".
 Broken Vessel and its boss fight used to be located in the room in Greenpath where the Mothwing Cloak can be acquired. This can be seen in early maps and in an early trailer. Broken Vessel was later moved to Ancient Basin, with Hornet replacing Broken Vessel as the boss that needs to be defeated before obtaining the Dash ability.
 Broken Vessel appears to be taller than the Knight and other regular Vessels, but not as grown as the Hollow Knight.
 Upon defeat, Broken Vessel reaches out to the Knight before completely dying.
@@ -982,27 +931,25 @@ References
 ---
 
 ---
-
 # 文档：Nightmare King Grimm
-
 - 类别：bosses
 - 标识：nightmare_king_grimm
 - 来源：wiki/Nightmare_King_Grimm
 
-<b>Nightmare King Grimm</b> is the optional final boss of <i>The Grimm Troupe</i> in <i>Hollow Knight</i>. He is the Dream form of Troupe Master Grimm. Unlocking his Journal entry requires defeating him in Dirtmouth. While he can be fought in the  Pantheon of Hallownest and the  Hall of Gods, defeating him there does not unlock his Journal entry. This means that his entry can never be obtained after banishment.
+Nightmare King Grimm is the optional final boss of The Grimm Troupe in Hollow Knight. He is the Dream form of Troupe Master Grimm. Unlocking his Journal entry requires defeating him in Dirtmouth. While he can be fought in the  Pantheon of Hallownest and the  Hall of Gods, defeating him there does not unlock his Journal entry. This means that his entry can never be obtained after banishment.
 
 Behaviour and Tactics
 To start the fight with Nightmare King Grimm, it is required to have the Grimmchild Charm equipped, though the Grimmchild does not appear in the fight.
 
 Much like most other Dream Boss battles, the base fight with Nightmare King Grimm remains similar, although it is much faster paced, and most attacks gain new properties:
-<b>Fire Bats</b>: Nightmare King Grimm sends out 4 Fire Bats instead of 3. They travel in a pattern: the first and third bats go high, the second and fourth go low, with a wide gap in the middle. If the Knight gets within his arm's length before he ends the attack, Nightmare King Grimm teleports and sends 2 more Fire Bats, one high and one low, simultaneously.
-<b>Dive Dash</b>: During both the dive and dash, Nightmare King Grimm is followed by a flame trail that deals damage. The flame trail generated by the dive disappears after he lands on the ground. Then he stands up after the dash before disappearing again.
-<b>Dash Uppercut</b>: The pause before Nightmare King Grimm launches himself into the air is shorter. Nightmare King Grimm bursts into six fireballs instead of five.
-<b>Cloak Spikes</b>: The spikes become dangerous in a shorter amount of time. Nightmare King Grimm is not present during the attack.
-<b>Flame Pillars</b>: Nightmare King Grimm summons 4 large pillars of flame. He remains stationary in the air throughout the attack. The pillars are summoned one after another. Each pillar starts forming where the Knight was and reaches the top of the arena. As a pillar begins to fade away, a wide, shorter flame appears and remains on the ground for 1 second. This attack ends early if Nightmare King Grimm is staggered.
-<b>Pufferfish</b>: The Fireballs travel at a considerably faster speed.
-<b>Teleport</b>: Nightmare King Grimm teleports to a random place in the arena to perform an attack.
-<b>Skitter</b>: Nightmare King Grimm skitters away from the Knight before starting an attack if they are too close to him. Nightmare King Grimm may begin to telegraph for one type of ground attack, skitter away, and change to another ground attack.
+Fire Bats: Nightmare King Grimm sends out 4 Fire Bats instead of 3. They travel in a pattern: the first and third bats go high, the second and fourth go low, with a wide gap in the middle. If the Knight gets within his arm's length before he ends the attack, Nightmare King Grimm teleports and sends 2 more Fire Bats, one high and one low, simultaneously.
+Dive Dash: During both the dive and dash, Nightmare King Grimm is followed by a flame trail that deals damage. The flame trail generated by the dive disappears after he lands on the ground. Then he stands up after the dash before disappearing again.
+Dash Uppercut: The pause before Nightmare King Grimm launches himself into the air is shorter. Nightmare King Grimm bursts into six fireballs instead of five.
+Cloak Spikes: The spikes become dangerous in a shorter amount of time. Nightmare King Grimm is not present during the attack.
+Flame Pillars: Nightmare King Grimm summons 4 large pillars of flame. He remains stationary in the air throughout the attack. The pillars are summoned one after another. Each pillar starts forming where the Knight was and reaches the top of the arena. As a pillar begins to fade away, a wide, shorter flame appears and remains on the ground for 1 second. This attack ends early if Nightmare King Grimm is staggered.
+Pufferfish: The Fireballs travel at a considerably faster speed.
+Teleport: Nightmare King Grimm teleports to a random place in the arena to perform an attack.
+Skitter: Nightmare King Grimm skitters away from the Knight before starting an attack if they are too close to him. Nightmare King Grimm may begin to telegraph for one type of ground attack, skitter away, and change to another ground attack.
 
 ---
 
@@ -1015,7 +962,7 @@ Dash Uppercut: If possible, dash away from Nightmare King Grimm, then attack or 
 Flame Pillars: There are many options here. Slowly move in one direction so pillars erupt behind the Knight, try avoiding being stuck in a corner of the arena (if necessary Shadow Dash through a Pillar). With this method, try to strike Nightmare King Grimm a couple of times with the Nail, and/or use Great Slash. It is possible to double jump and Nail-bounce on Nightmare King Grimm, moving left or right as necessary to avoid the next Pillar(s). While hovering still, Nightmare King Grimm leaves himself open for a full-damage Abyss Shriek. Be careful that hitting Nightmare King Grimm from the sides causes knockback and may accidentally push the Knight back into the burning pillar, and that hitting from below may cause too high of a jump and deal contact damage.
 Pufferfish: It is best to stay close to the wall but not to stick to it as the Knight needs to move back a little to dodge a fireball. The best way to dodge this without taking damage is to make small jumps so the Knight does not accidentally hit the fireballs flying over their head. Another way is to climb the wall and jump onto Nightmare King Grimm and Nail-bounce on him. Though to do this, the Knight must take damage to take advantage of the invincibility frames or be really quick as soon as he starts the attack. With proper timing and a bit of luck, Shade Soul and Abyss Shriek can be useful in this phase.
 
-<b>Healing</b>: Without any healing Charms, the Knight can heal at some rare moments:
+Healing: Without any healing Charms, the Knight can heal at some rare moments:
 Once, right after the last flame pillar begins to form.
 Once, by jumping over one firebat and then immediately healing (the flight pattern for the next low firebat is altered by its homing ability, causing it to fly over the Knight's head, allowing time to heal possibly even twice)
 Once, as soon as the Cloak Spikes attack starts though the timing on this combined with the positioning aspect makes it more tricky.
@@ -1024,7 +971,7 @@ Three heals are also possible during the stagger as long as the Knight starts he
 
 The Shape of Unn Charm can be used to heal under the Firebats attack as long as the Knight immediately starts healing once the attack starts (as the animation to transition into a slug takes enough time that healing too late causes the Knight to be hit instead). In addition, healing during the Cape Spikes attack is made easier with Shape of Unn, and healing is possible during the Flame Pillars attack with the same conditions as healing during the Firebats attack. The combination of Quick Focus and Deep Focus allows the Knight to heal 2 Masks at a time during all of these no-charm healing opportunities.
 
-<b>Charms</b>:
+Charms:
 Dreamshield blocks the Firebats attack.
 Sharp Shadow helps with attacking during the Firebats attack since the Knight's dash is slightly longer and it is easier to hit Nightmare King Grimm from farther distances. Sharp Shadow is a double-edged sword if used with improper spacing because the Knight may end their dash in Nightmare King Grimm, resulting in taking damage.
 Fragile Strength/ Unbreakable Strength, Longnail, and Mark of Pride can be very helpful for reaching and damaging him. As Nightmare King Grimm is a very elusive boss and leaves a very small window to be hit, it is recommended to use Nail Arts to maximize damage output, so Nailmaster's Glory is a cheap and useful choice.
@@ -1050,14 +997,12 @@ While staggered, Nightmare King Grimm cannot be damaged by the Defender's Crest 
 ---
 
 ---
-
 # 文档：Radiance
-
 - 类别：bosses
 - 标识：radiance
 - 来源：wiki/Radiance
 
-<b>The Radiance</b> is the true and secret final boss of <i>Hollow Knight</i>.  Absolute Radiance is her perfect form. Despite only appearing in three of the five possible endings, she is the main antagonist of Hollow Knight.
+The Radiance is the true and secret final boss of Hollow Knight.  Absolute Radiance is her perfect form. Despite only appearing in three of the five possible endings, she is the main antagonist of Hollow Knight.
 
 Lore
 The Radiance is a higher being of light similar to Essence, and as such, opposed to the Void, her ancient enemy. The Moth Tribe is born from her light and in return revered her. the Moth Tribe turned their backs on the Radiance and worshipped him instead. In doing so, the Radiance was almost entirely forgotten, yet traces of her memory remained, such as a statue on Hallownest's Crown. Her memory started spreading throughout the Kingdom, by then in its golden age. Soon, all of Hallownest began to dream of her appearing to them as a blazing light. These dreams could break the minds of bugs and eventually enslave their wills to her. However, the King and his subjects resisted her memory, which then started to manifest as the Infection. With the Infection, the Radiance offered unity to bugs at the cost of a mind incapable of thought.
@@ -1111,7 +1056,7 @@ Achievements
 Trivia
 
 There is a statue of the Radiance at the top of the map in Hallownest's Crown where a Pale Ore can be found. Dream Nailing this statue yields the lines:
-<i>"...Remember... Light..."</i>
+"...Remember... Light..."
 Through HUD manipulation, the Radiance is shown to actually have 3000 health, though the "fight" portion of the battle ends when she reaches 1300 health, effectively requiring the Knight to only have to deal 1700 damage to win the fight.
 The Radiance is one of the three challenges that has a full-screen title card, the other two being  Nightmare King Grimm and The Eternal Ordeal.
 The Radiance must be challenged to a battle the first time she is fought after loading a save file. Her introduction is abridged after dying to her once, causing her to attack directly upon entering her arena. The introduction returns after reloading the save file.
@@ -1122,22 +1067,20 @@ Also by coincidence, the Hollow Knight: Voidheart Edition has the Knight in a po
 ---
 
 ---
-
 # 文档：Grey Prince Zote
-
 - 类别：bosses
 - 标识：grey_prince_zote
 - 来源：wiki/Grey_Prince_Zote
 
-<b>Grey Prince Zote</b> is a hidden boss in <i>Hollow Knight</i> introduced in the <i>Hidden Dreams</i> update. He is the stronger Dream variant of Zote the Mighty, fueled by Bretta's fantasies of him.
+Grey Prince Zote is a hidden boss in Hollow Knight introduced in the Hidden Dreams update. He is the stronger Dream variant of Zote the Mighty, fueled by Bretta's fantasies of him.
 
 Behaviour and Tactics
-<b>Flail</b>: Grey Prince Zote charges at the Knight, flailing his nail before him. Grey Prince Zote flails his nail for 2-4 seconds. Once he is exhausted, he falls to the ground, sending out a shockwave in each direction. While he is flailing, he moves with momentum, as if he were on ice. There is a variation to this attack where Grey Prince Zote prepares to flail, only to fall over, sending out the shockwaves immediately.
-<b>Zotelings Spit</b>: Grey Prince Zote spits out Zotelings that attack the Knight independently of Grey Prince Zote. The first Zoteling Grey Prince Zote can spit is the Winged Zoteling. These Zotelings can show up with any version of Grey Prince Zote. The other Zoteling Grey Prince Zote can spit is the Hopping Zoteling. These Zotelings do not show up until Zote 2 and later. Grey Prince Zote spits out one to three Zotelings in rapid succession per attack. The Zotelings deal half of the damage scaled with each version of Grey Prince Zote on rounding down to a minimum of 1. These Zotelings remain in the arena until they are killed.
-<b>Shadow Slam</b>: Grey Prince Zote leaps into the air, and as he lands, he transmutes into a pillar of shadows, launching himself high above the arena. Moments later, he slams down, sending two large shockwaves across the arena in opposite directions. Grey Prince Zote lands where he believes the Knight is going to be rather than where the Knight was. Grey Prince Zote can link into this attack after a Leap attack.
-<b>Nail Slam</b>: Grey Prince Zote leaps into the air and slams his nail down. This attack targets the Knight. Grey Prince Zote slams his nail down where the Knight is when he reaches the apex of his leap, just before he flips. When he slams his nail, two shockwaves erupt from the impact point and travel across the arena. The one in front of Grey Prince Zote is larger than the one travelling behind him. There is a variation to this attack which involves Grey Prince Zote reaching the apex of his leap, and instead of slamming down then, pirouetting in the air to readjust his targeting, and then slamming down.
-<b>Leap</b>: Grey Prince Zote leaps around the arena. Grey Prince Zote can string together up to three Leaps in a row. He can also chain this attack into a Shadow Slam attack. Every time Grey Prince Zote lands, he sends out two small shockwaves in either direction that cross the arena.
-<b>Summon Bombs</b>: Grey Prince Zote cries out and summons 3–4 Volatile Zotelings around the arena, which explode after a short time or when killed (note that unlike other explosive enemies in the game, the explosions cannot deal damage to Grey Prince Zote). This attack happens in his 3rd fight and later. The Volatile Zotelings spawn anywhere in the air with room for them. Like the other summon attack, the Volatile Zotelings can persist while Grey Prince Zote uses other attacks, though only briefly as they self-destruct. Unlike the other summoned types of Zotelings in the fight, the damage from the Volatile Zotelings and their explosions (base 1 Mask) <b>do</b> scale with each victory.
+Flail: Grey Prince Zote charges at the Knight, flailing his nail before him. Grey Prince Zote flails his nail for 2-4 seconds. Once he is exhausted, he falls to the ground, sending out a shockwave in each direction. While he is flailing, he moves with momentum, as if he were on ice. There is a variation to this attack where Grey Prince Zote prepares to flail, only to fall over, sending out the shockwaves immediately.
+Zotelings Spit: Grey Prince Zote spits out Zotelings that attack the Knight independently of Grey Prince Zote. The first Zoteling Grey Prince Zote can spit is the Winged Zoteling. These Zotelings can show up with any version of Grey Prince Zote. The other Zoteling Grey Prince Zote can spit is the Hopping Zoteling. These Zotelings do not show up until Zote 2 and later. Grey Prince Zote spits out one to three Zotelings in rapid succession per attack. The Zotelings deal half of the damage scaled with each version of Grey Prince Zote on rounding down to a minimum of 1. These Zotelings remain in the arena until they are killed.
+Shadow Slam: Grey Prince Zote leaps into the air, and as he lands, he transmutes into a pillar of shadows, launching himself high above the arena. Moments later, he slams down, sending two large shockwaves across the arena in opposite directions. Grey Prince Zote lands where he believes the Knight is going to be rather than where the Knight was. Grey Prince Zote can link into this attack after a Leap attack.
+Nail Slam: Grey Prince Zote leaps into the air and slams his nail down. This attack targets the Knight. Grey Prince Zote slams his nail down where the Knight is when he reaches the apex of his leap, just before he flips. When he slams his nail, two shockwaves erupt from the impact point and travel across the arena. The one in front of Grey Prince Zote is larger than the one travelling behind him. There is a variation to this attack which involves Grey Prince Zote reaching the apex of his leap, and instead of slamming down then, pirouetting in the air to readjust his targeting, and then slamming down.
+Leap: Grey Prince Zote leaps around the arena. Grey Prince Zote can string together up to three Leaps in a row. He can also chain this attack into a Shadow Slam attack. Every time Grey Prince Zote lands, he sends out two small shockwaves in either direction that cross the arena.
+Summon Bombs: Grey Prince Zote cries out and summons 3–4 Volatile Zotelings around the arena, which explode after a short time or when killed (note that unlike other explosive enemies in the game, the explosions cannot deal damage to Grey Prince Zote). This attack happens in his 3rd fight and later. The Volatile Zotelings spawn anywhere in the air with room for them. Like the other summon attack, the Volatile Zotelings can persist while Grey Prince Zote uses other attacks, though only briefly as they self-destruct. Unlike the other summoned types of Zotelings in the fight, the damage from the Volatile Zotelings and their explosions (base 1 Mask) do scale with each victory.
 
 ---
 
@@ -1171,10 +1114,10 @@ Achievements
 Trivia
 
 Each time Grey Prince Zote is defeated, one additional candle around his statue lights up, to a maximum of 4. After the 10th victory, the statue also turns gold.
-Prior to the  <i>Lifeblood</i> update, the Zote statue had 10 candles instead of the current 4.
+Prior to the  Lifeblood update, the Zote statue had 10 candles instead of the current 4.
 Bretta's Dream Nail dialogue changes the 1st and 3rd times Grey Prince Zote is defeated.
 After the 4th victory, Bretta leaves Dirtmouth entirely and cannot be found anywhere.
-Prior to the  <i>Lifeblood</i> update, Bretta only left after 10 victories.
+Prior to the  Lifeblood update, Bretta only left after 10 victories.
 Bretta claps in the background every time the Knight takes damage, and all the Zotes look scared whenever Grey Prince Zote is Staggered.
 Each time he is defeated, a new adjective is listed, stacking on top of the other titles:
 (level 9) Invincible,
@@ -1194,14 +1137,12 @@ You are able to use the Dream Nail on Grey Prince Zote before he unleashes his b
 ---
 
 ---
-
 # 文档：Dung Defender
-
 - 类别：bosses
 - 标识：dung_defender
 - 来源：wiki/Dung_Defender
 
-The <b>Dung Defender</b> is one of the main bosses in <i>Hollow Knight</i>. This champion of the past defends the access to Isma's Grove. The  White Defender is his dream variant.
+The Dung Defender is one of the main bosses in Hollow Knight. This champion of the past defends the access to Isma's Grove. The  White Defender is his dream variant.
 
 Lore
 The Dung Defender used to be known as Ogrim, the most loyal of the Five Great Knights of Hallownest. As such, he participated in many battles and adventures. He was also equally renowned for his bad scent, although that did not keep him from enjoying the company of the White Lady and his fellow knights. He was particularly fond of the knight Isma.
@@ -1223,14 +1164,14 @@ After defeating the  White Defender five times, the Dung Defender notices the Kn
 
 Behaviour and Tactics
 Dung Defender accompanies each attack with jovial laughter:
-<b>Dung Toss</b>: Dung Defender gathers up and throws exactly one dung ball, then, he uses the Dive attack. The ball bounces around the arena randomly in large arcs, reaching to the top of the arena. The ball persists until it hits the floor three times. These dung balls continue to bounce even if they hit the Knight.
-<b>Burst</b>: Dung Defender dives underground, disrupting the ground as he travels back and forth across the arena. After being underground for 3 seconds, Dung Defender bursts from the ground, sending 4 dung balls into the air, 2 on each side, at set distances away from Dung Defender. These dung balls do not bounce, instead, they break once they hit a wall, the floor, the ceiling, or the Knight. Dung Defender can burst up anywhere in the arena.
-<b>Toss Combo</b>: Dung Defender gathers up and throws two dung balls, one after the other. These dung balls bounce around the arena until they hit the floor three times. These balls do not disappear when they hit the Knight. After Dung Defender throws the two balls, there are two possible outcomes:
-<b>Curl</b>: Dung Defenders curls up into a ball and bounces around the arena with the dung balls until hitting the floor 5 times.
-<b>Burst</b>: Dung Defender dives underground, disrupting the ground as he travels back and forth across the arena. Exactly like the normal Burst attack, but lasting 5 seconds instead of 3.
-<b>Dive</b>: Dung Defender dives in and out of the ground 2-3 times as if he were swimming in water, moving across the arena. He always moves towards the center of the arena.
-<b>Zeal</b>: Once at 50% HP, Dung Defender lets out a shout like he does at the beginning of the fight and goes into a temporary hyper mode lasting about twelve seconds. During this time, Dung Defender chains together multiple, faster Burst Attacks, bursting from the ground about once every half second. Dung Defender only uses this attack once.
-<b>Evade</b>: When the Knight is too close, Dung Defender sometimes quickly curls into a ball and rolls back a short distance.
+Dung Toss: Dung Defender gathers up and throws exactly one dung ball, then, he uses the Dive attack. The ball bounces around the arena randomly in large arcs, reaching to the top of the arena. The ball persists until it hits the floor three times. These dung balls continue to bounce even if they hit the Knight.
+Burst: Dung Defender dives underground, disrupting the ground as he travels back and forth across the arena. After being underground for 3 seconds, Dung Defender bursts from the ground, sending 4 dung balls into the air, 2 on each side, at set distances away from Dung Defender. These dung balls do not bounce, instead, they break once they hit a wall, the floor, the ceiling, or the Knight. Dung Defender can burst up anywhere in the arena.
+Toss Combo: Dung Defender gathers up and throws two dung balls, one after the other. These dung balls bounce around the arena until they hit the floor three times. These balls do not disappear when they hit the Knight. After Dung Defender throws the two balls, there are two possible outcomes:
+Curl: Dung Defenders curls up into a ball and bounces around the arena with the dung balls until hitting the floor 5 times.
+Burst: Dung Defender dives underground, disrupting the ground as he travels back and forth across the arena. Exactly like the normal Burst attack, but lasting 5 seconds instead of 3.
+Dive: Dung Defender dives in and out of the ground 2-3 times as if he were swimming in water, moving across the arena. He always moves towards the center of the arena.
+Zeal: Once at 50% HP, Dung Defender lets out a shout like he does at the beginning of the fight and goes into a temporary hyper mode lasting about twelve seconds. During this time, Dung Defender chains together multiple, faster Burst Attacks, bursting from the ground about once every half second. Dung Defender only uses this attack once.
+Evade: When the Knight is too close, Dung Defender sometimes quickly curls into a ball and rolls back a short distance.
 
 ---
 
@@ -1255,12 +1196,12 @@ Achievements
 
 Trivia
 The Kickstarter reveal page first described Dung Defender with a different backstory:
-<i>"Deep in the Waterways beneath the City of Tears lurks a shunned being. Once a knight, now lost to puerile obsession: The Dung Defender."</i>
-<i>"Despite his exile, the Dung Defender has for centuries maintained a self-conferred charge: the protection of his mysterious gleaming 'beloved'."</i>
-<i>"Stalwart and full of bravado, The Dung Defender eagerly challenges all who would enter his noxious realm."</i>
+"Deep in the Waterways beneath the City of Tears lurks a shunned being. Once a knight, now lost to puerile obsession: The Dung Defender."
+"Despite his exile, the Dung Defender has for centuries maintained a self-conferred charge: the protection of his mysterious gleaming 'beloved'."
+"Stalwart and full of bravado, The Dung Defender eagerly challenges all who would enter his noxious realm."
 According to Team Cherry, Dung Defender is quite furry underneath his exo-shell.
-Dung Defender used to have the following Dream Nail dialogue when sleeping in his cave, which has since become inaccessible following the  <i>Hidden Dreams</i> update:
-<i>"...Isma... So strong... Teach me..."</i>
+Dung Defender used to have the following Dream Nail dialogue when sleeping in his cave, which has since become inaccessible following the  Hidden Dreams update:
+"...Isma... So strong... Teach me..."
 This is due to the introduction of White Defender, whose fight is entered through using the Dream Nail on Dung Defender in this state.
 While sleeping, he can be heard occasionally muttering the name of Isma, among other indecipherable phrases.
 Dung Defender releases brown dung particles upon defeat.
@@ -1268,14 +1209,12 @@ Dung Defender releases brown dung particles upon defeat.
 ---
 
 ---
-
 # 文档：Traitor Lord
-
 - 类别：bosses
 - 标识：traitor_lord
 - 来源：wiki/Traitor_Lord
 
-The <b>Traitor Lord</b> is a main boss in <i>Hollow Knight</i>. He blocks the path to the White Lady in the Queen's Gardens.
+The Traitor Lord is a main boss in Hollow Knight. He blocks the path to the White Lady in the Queen's Gardens.
 
 Lore
 The Traitor Lord was one of the leaders of the Mantis Tribe along with his sisters, and particularly resented the kingdom of Hallownest. Similarly, he disapproved of the relationship of his daughter with the Grey Mourner due to the Grey Mourner being an outsider.
@@ -1291,10 +1230,10 @@ If the Traitor Lord dies from the Knight alone, the Infection bursts out of him 
 
 Behaviour and Tactics
 The Traitor Lord has four attacks:
-<b>Dive</b>: Traitor Lord leaps into the air and then dives towards the Knight, similar to Mantis Traitors. This attack occurs in 2 parts: 1st, the leap straight up and 2nd, the dive. Both parts are dangerous. The dive is always at the same angle (about 45 degrees) and covers about 25% of the arena.
-<b>Dash</b>: Traitor Lord dashes towards The Knight and swipes with his claws. He rushes forward and covers about a third of the arena with this attack.
-<b>Dancing Glaive</b>: Traitor Lord throws two spinning orange wind-scythes in tandem. The wind-scythes travel across the arena in two slightly different cosine wave patterns. As the wind-scythes cross the arena, one wind-scythe pulls away from the other, creating an ever-growing gap between them. The wind-scythes persist for about three seconds, and getting hit by one only deals one Mask of damage. However, if the Knight gets caught on the claws of Traitor Lord when he throws the wind-scythes, the Knight will take two Masks of damage. Traitor Lord only uses this attack if the Knight is a good distance away but can sometimes dash away himself to perform this attack. This attack cannot be done twice in a row and is always followed by at least one normal attack.
-<b>Ground Pound</b>: Occasionally during a cooldown after a previous attack, Traitor Lord smashes his claws feverishly into the ground, generating a massive shockwave in each direction. The shockwaves span from floor to ceiling of the arena. They travel faster than the Knight's base speed and traverse the entire arena. Traitor Lord will sometimes dash away if the Knight is too close and re-position to perform this attack. This attack is only used after Traitor Lord has reached 500 HP.
+Dive: Traitor Lord leaps into the air and then dives towards the Knight, similar to Mantis Traitors. This attack occurs in 2 parts: 1st, the leap straight up and 2nd, the dive. Both parts are dangerous. The dive is always at the same angle (about 45 degrees) and covers about 25% of the arena.
+Dash: Traitor Lord dashes towards The Knight and swipes with his claws. He rushes forward and covers about a third of the arena with this attack.
+Dancing Glaive: Traitor Lord throws two spinning orange wind-scythes in tandem. The wind-scythes travel across the arena in two slightly different cosine wave patterns. As the wind-scythes cross the arena, one wind-scythe pulls away from the other, creating an ever-growing gap between them. The wind-scythes persist for about three seconds, and getting hit by one only deals one Mask of damage. However, if the Knight gets caught on the claws of Traitor Lord when he throws the wind-scythes, the Knight will take two Masks of damage. Traitor Lord only uses this attack if the Knight is a good distance away but can sometimes dash away himself to perform this attack. This attack cannot be done twice in a row and is always followed by at least one normal attack.
+Ground Pound: Occasionally during a cooldown after a previous attack, Traitor Lord smashes his claws feverishly into the ground, generating a massive shockwave in each direction. The shockwaves span from floor to ceiling of the arena. They travel faster than the Knight's base speed and traverse the entire arena. Traitor Lord will sometimes dash away if the Knight is too close and re-position to perform this attack. This attack is only used after Traitor Lord has reached 500 HP.
 
 All attacks except the Dancing Glaive attack's projectiles deal two Masks of damage. Contact damage with Traitor Lord only deals one Mask of damage.
 
@@ -1335,14 +1274,12 @@ The Traitor Lord is one of the few enemies that does not make dreamcatchers appe
 ---
 
 ---
-
 # 文档：Nosk
-
 - 类别：bosses
 - 标识：nosk
 - 来源：wiki/Nosk
 
-<b>Nosk</b> is a hidden boss in <i>Hollow Knight,</i>  Winged Nosk is its flying form. After defeating Nosk, a Pale Ore can be acquired.
+Nosk is a hidden boss in Hollow Knight,  Winged Nosk is its flying form. After defeating Nosk, a Pale Ore can be acquired.
 
 Lore
 Nosk is a mysterious, shape-shifting, Infected beast hunting throughout Deepnest. It can mimic the shape of faces it finds in the memories of bugs, usually loved or departed ones, and can contort its body to assume a smaller frame. It hangs its prey, including Dirtcarvers, a Stalking Devout, and various Vessels, from the ceiling of its lair at the bottom of Deepnest.
@@ -1358,10 +1295,10 @@ Nosk, like all other strong creatures of Hallownest, is summoned to Godhome by t
 
 Behaviour and Tactics
 Nosk has four attacks:
-<b>Charge</b>: Nosk makes a short screech, then rapidly scurries towards the Knight. It traverses the entire arena with this attack, and it does not stop if it hits the Knight. Nosk uniquely will skip the initial cutscene and immediately use this if the Knight reenters the arena after being defeated.
-<b>Leap</b>: Nosk leaps around the arena. It uses this manoeuvre to traverse the arena, but, at times, it also uses this to target the Knight.
-<b>Eruption</b>: Nosk spews two blobs of Infection at its feet and sixteen more blobs, eight to its left, and eight to its right. They fly in parabolic arcs, leaving small gaps in between each blob after landing. Each blob lingers on the ground for about 2 seconds. Nosk always runs up to the centre of the arena to use this attack. This attack is always followed up by a Charge attack.
-<b>Rain</b>: Nosk leaps into the ceiling of the arena, disappearing from sight, and rains blobs of Infection down on the Knight. Nosk stays out of sight for about six and a half seconds, dropping a blob or two every half second after the first blob. These blobs linger on the ground for about two seconds. Nosk can take about one and a half seconds off-screen before dropping the first blob. After this attack is over, Nosk drops down where the last blob landed. Nosk only uses this attack at 560 HP.
+Charge: Nosk makes a short screech, then rapidly scurries towards the Knight. It traverses the entire arena with this attack, and it does not stop if it hits the Knight. Nosk uniquely will skip the initial cutscene and immediately use this if the Knight reenters the arena after being defeated.
+Leap: Nosk leaps around the arena. It uses this manoeuvre to traverse the arena, but, at times, it also uses this to target the Knight.
+Eruption: Nosk spews two blobs of Infection at its feet and sixteen more blobs, eight to its left, and eight to its right. They fly in parabolic arcs, leaving small gaps in between each blob after landing. Each blob lingers on the ground for about 2 seconds. Nosk always runs up to the centre of the arena to use this attack. This attack is always followed up by a Charge attack.
+Rain: Nosk leaps into the ceiling of the arena, disappearing from sight, and rains blobs of Infection down on the Knight. Nosk stays out of sight for about six and a half seconds, dropping a blob or two every half second after the first blob. These blobs linger on the ground for about two seconds. Nosk can take about one and a half seconds off-screen before dropping the first blob. After this attack is over, Nosk drops down where the last blob landed. Nosk only uses this attack at 560 HP.
 
 Nosk uniquely will skip the initial cutscene and immediately rush towards the Knight if they reenter the arena after being defeated.
 
@@ -1397,14 +1334,12 @@ There is a glitch where Nosk can get stuck on the raised part of the arena, perm
 ---
 
 ---
-
 # 文档：Hive Knight
-
 - 类别：bosses
 - 标识：hive_knight
 - 来源：wiki/Hive_Knight
 
-<b>Hive Knight</b> is an optional boss in <i>Hollow Knight</i>, introduced in <i>Lifeblood</i>. Defeating him grants a new Charm, Hiveblood.
+Hive Knight is an optional boss in Hollow Knight, introduced in Lifeblood. Defeating him grants a new Charm, Hiveblood.
 
 Lore
 Hive Knight is the most valiant and skilled knight of the Hive; Although the Infection spread to the Hive after the queen died, Hive Knight still protects her, hoping she will one day wake up and revive the Hive.
@@ -1416,16 +1351,15 @@ Defeating Hive Knight allows the Knight to acquire the Hiveblood Charm. After ta
 
 Behaviour and Tactics
 Hive Knight has a variety of attacks and manoeuvres:
-<b>Lunge</b>: Hive Knight lunges along the ground with his weapon. This lunge covers about 65% of the arena.
-<b>Leap</b>: Hive Knight somersaults as his main way of moving in the arena. This jump spans to the top of the arena and does not track the Knight.
-<b>Swarm Release</b>: Hive Knight spews 12 Hivelings into the air from his mouth. These Hivelings disappear beyond the top of the arena, then 7 fly down one after another in shallow arcs from random positions in the ceiling, slowly tracking the Knight's movement. The Knight can hit the Hivelings with their Nail, (granting SOUL) or destroy them with Spells. While the Hivelings are assaulting the Knight, Hive Knight Lunges, then Leaps along with an additional varying third attack. It is important to note that if Hive Knight dies after the first Hiveling starts their assault, the Hivelings continue their assault while Hive Knight is dying. The battle always starts with 7 Hivelings descending with Hive Knight not actually on-screen. This attack only occurs after Hive Knight has reached 549 HP.
-<b>Surprise Slash</b>: Hive Knight teleports near the Knight and slashes his weapon. Hive Knight can appear on either side of the Knight. The slash covers a wide range and shifts Hive Knight forward slightly. In addition, Hive Knight can do this attack while the Knight is in the air. The slash covers about 35% of the arena (and slightly more if he uses this attack in the air).
-<b>Honey Spikes</b>: Hive Knight jabs his weapon into the ground and creates three orbs of spike-filled honey. These orbs can appear anywhere within the top two-thirds of the arena. Each orb contains 8 spikes, and when it bursts, the spikes travel in the direction in which they were pointing. The orbs form rapidly one after another. No two orbs occupy the same row or column as they vibrate in their positions. The Knight can move the orbs when they strike them with their Nail but the orbs cannot be destroyed. The orbs explode in the order in which they formed, every half second after the third and final orb's spikes appear. The orbs are dangerous as soon as the spikes show up. Hive Knight Leaps as soon as the first orb bursts. This attack only occurs after Hive Knight has reached 779 HP.
+Lunge: Hive Knight lunges along the ground with his weapon. This lunge covers about 65% of the arena.
+Leap: Hive Knight somersaults as his main way of moving in the arena. This jump spans to the top of the arena and does not track the Knight.
+Swarm Release: Hive Knight spews 12 Hivelings into the air from his mouth. These Hivelings disappear beyond the top of the arena, then 7 fly down one after another in shallow arcs from random positions in the ceiling, slowly tracking the Knight's movement. The Knight can hit the Hivelings with their Nail, (granting SOUL) or destroy them with Spells. While the Hivelings are assaulting the Knight, Hive Knight Lunges, then Leaps along with an additional varying third attack. It is important to note that if Hive Knight dies after the first Hiveling starts their assault, the Hivelings continue their assault while Hive Knight is dying. The battle always starts with 7 Hivelings descending with Hive Knight not actually on-screen. This attack only occurs after Hive Knight has reached 549 HP.
+Surprise Slash: Hive Knight teleports near the Knight and slashes his weapon. Hive Knight can appear on either side of the Knight. The slash covers a wide range and shifts Hive Knight forward slightly. In addition, Hive Knight can do this attack while the Knight is in the air. The slash covers about 35% of the arena (and slightly more if he uses this attack in the air).
+Honey Spikes: Hive Knight jabs his weapon into the ground and creates three orbs of spike-filled honey. These orbs can appear anywhere within the top two-thirds of the arena. Each orb contains 8 spikes, and when it bursts, the spikes travel in the direction in which they were pointing. The orbs form rapidly one after another. No two orbs occupy the same row or column as they vibrate in their positions. The Knight can move the orbs when they strike them with their Nail but the orbs cannot be destroyed. The orbs explode in the order in which they formed, every half second after the third and final orb's spikes appear. The orbs are dangerous as soon as the spikes show up. Hive Knight Leaps as soon as the first orb bursts. This attack only occurs after Hive Knight has reached 779 HP.
 
 ---
 
 ---
-
 
 It is highly recommended to obtain Shade Cloak before the fight, as this makes it possible to dash through Hive Knight's Surprise Slash and Lunge attacks and makes handling the Swarm Release attack safer. And with that, Sharp Shadow can be a useful Charm against Hive Knight.
 
@@ -1445,14 +1379,12 @@ References
 ---
 
 ---
-
 # 文档：False Knight
-
 - 类别：bosses
 - 标识：false_knight
 - 来源：wiki/False_Knight
 
-<b>False Knight</b> is one of the main bosses in <i>Hollow Knight</i>. He keeps the City Crest required to open the gates to the City of Tears. Failed Champion is his faster and stronger dream form.
+False Knight is one of the main bosses in Hollow Knight. He keeps the City Crest required to open the gates to the City of Tears. Failed Champion is his faster and stronger dream form.
 
 Lore
 False Knight is a Maggot wearing the armour of Hegemol, one of the Five Great Knights of Hallownest. This weak creature wanted to find means to protect his siblings who live in an abandoned storeroom in the middle of the Forgotten Crossroads. When he discovered Hegemol sleeping in his armoured shell, he took it for himself, hoping for the great strength that wearing the armour seemed to promise. Even though madness did not drive him to do this, False Knight eventually fell to the Infection's control.
@@ -1466,10 +1398,10 @@ After this second defeat, False Knight's spirit appears, floating above his corp
 Behaviour and Tactics
 False Knight possesses a variety of attacks:
 
-<b>Leap</b>: False Knight jumps a distance in the air to either reposition or prepare for a Slam attack. False Knight does not leap twice in a row. False Knight stops using this move in Phase 3.
-<b>Slam</b>: False Knight rears back, priming his mace for a moment, before swinging it forward, slamming it into the ground. The impact of the mace creates a shockwave that travels forward across the whole arena. In Phase 2, this attack also causes barrels to fall, and in Phase 3, even more barrels fall per slam.
-<b>Leaping Bludgeon</b>: False Knight leaps into the air and slams his mace down in front of him when he lands. False Knight targets the Knight when he leaps so he strikes where the Knight was when he started his leap. While False Knight is in the air, he lifts his mace above his head and then swings it in an overhead arc before he lands, bringing his large body and mace down simultaneously. In Phase 3, this attack also causes barrels to fall.
-<b>Rage</b>: After enough damage is dealt to his armour, False Knight staggers, falling down and revealing the Maggot inside the armour. When the Maggot takes enough damage, it re-enters the armour and initiates this attack. Jumping to the centre of the arena, False Knight slams his mace multiple times on his left and right. Each time the mace strikes the ground, barrels fall from the ceiling. False Knight continues to slam the ground with his mace for about three seconds. If the Maggot is left to stagger for too long without being attacked, False Knight gets back up and continues his regular attacks without going into Rage.
+Leap: False Knight jumps a distance in the air to either reposition or prepare for a Slam attack. False Knight does not leap twice in a row. False Knight stops using this move in Phase 3.
+Slam: False Knight rears back, priming his mace for a moment, before swinging it forward, slamming it into the ground. The impact of the mace creates a shockwave that travels forward across the whole arena. In Phase 2, this attack also causes barrels to fall, and in Phase 3, even more barrels fall per slam.
+Leaping Bludgeon: False Knight leaps into the air and slams his mace down in front of him when he lands. False Knight targets the Knight when he leaps so he strikes where the Knight was when he started his leap. While False Knight is in the air, he lifts his mace above his head and then swings it in an overhead arc before he lands, bringing his large body and mace down simultaneously. In Phase 3, this attack also causes barrels to fall.
+Rage: After enough damage is dealt to his armour, False Knight staggers, falling down and revealing the Maggot inside the armour. When the Maggot takes enough damage, it re-enters the armour and initiates this attack. Jumping to the centre of the arena, False Knight slams his mace multiple times on his left and right. Each time the mace strikes the ground, barrels fall from the ceiling. False Knight continues to slam the ground with his mace for about three seconds. If the Maggot is left to stagger for too long without being attacked, False Knight gets back up and continues his regular attacks without going into Rage.
 
 ---
 
@@ -1498,7 +1430,7 @@ Achievements
 
 Trivia
 
-After False Knight is defeated, the head of his mace is revealed to be another bug with an armoured shell. It can be hit to send it rolling in a direction while also stunning it, but it does not take damage and simply scurries off-screen when it gets the chance. Hitting it with the Dream Nail gives the dialogue <i>"Free at last!"</i> and also gives SOUL.
+After False Knight is defeated, the head of his mace is revealed to be another bug with an armoured shell. It can be hit to send it rolling in a direction while also stunning it, but it does not take damage and simply scurries off-screen when it gets the chance. Hitting it with the Dream Nail gives the dialogue "Free at last!" and also gives SOUL.
 When struck with the Nail, the bug makes the same sounds as an idle Belfly.
 False Knight's Dream Nail dialogue and the SOUL gained from using the Dream Nail on him actually originate from the body's hitbox as it is separate from the head's. This means that even if False Knight has been defeated and the Maggot has been removed from the armour, the empty armour casing can still be Dream Nailed.
 False Knight has an infinite amount of health. Both his armour and the Maggot within reset their respective health as they interchange stages. However, he is scripted to die after 3 armour stages and 4 Maggot stages.
@@ -1507,14 +1439,12 @@ This also means that if enough damage can be done each during each armour stage,
 ---
 
 ---
-
 # 文档：Watcher Knight
-
 - 类别：bosses
 - 标识：watcher_knight
 - 来源：wiki/Watcher_Knight
 
-The <b>Watcher Knights</b> are a single main boss in <i>Hollow Knight</i>. They guard Lurien the Watcher, one of the three Dreamers. Their Journal entry is unlocked at the end of the fight, regardless of how many there were.
+The Watcher Knights are a single main boss in Hollow Knight. They guard Lurien the Watcher, one of the three Dreamers. Their Journal entry is unlocked at the end of the fight, regardless of how many there were.
 
 Lore
 The Watcher Knights used to defend the entrance to the Watcher's Spire and Lurien's dormant body. They eventually died while standing guard, leaving their shells behind.
@@ -1531,9 +1461,7 @@ References
 ---
 
 ---
-
 # 文档：Hollow Knight
-
 - 类别：bosses, characters
 - 标识：hollow_knight
 - 来源：wiki/Hollow_Knight
@@ -1574,29 +1502,29 @@ The Hollow Knight emits a roar at the beginning of the fight, and at the start o
 Phase 1
 These are the base attacks that the Hollow Knight starts with. they are expanded on in the next 2 Phases.
 
-<b>Triple Slash</b>: The Hollow Knight swings its nail 3 times. Each swing of its nail moves the Hollow Knight forward, covering about 25% of the arena in total. The swings are so wide that they can damage the Knight even if it is behind the Hollow Knight.
-<b>Lunge</b>: The Hollow Knight lunges along the ground with its nail pointed towards the Knight. This lunge covers about 50% of the arena.
-<b>Parry</b>: The Hollow Knight takes up a defensive stance with its nail. If the Knight damages it after its nail shines, it takes no damage from the hit and instead responds with a riposte. The riposte has a huge arc and sizeable range because the Hollow Knight slides forward rapidly when it swing. The parry lasts 0.75 seconds.
+Triple Slash: The Hollow Knight swings its nail 3 times. Each swing of its nail moves the Hollow Knight forward, covering about 25% of the arena in total. The swings are so wide that they can damage the Knight even if it is behind the Hollow Knight.
+Lunge: The Hollow Knight lunges along the ground with its nail pointed towards the Knight. This lunge covers about 50% of the arena.
+Parry: The Hollow Knight takes up a defensive stance with its nail. If the Knight damages it after its nail shines, it takes no damage from the hit and instead responds with a riposte. The riposte has a huge arc and sizeable range because the Hollow Knight slides forward rapidly when it swing. The parry lasts 0.75 seconds.
 
 Phase 2
 After reaching 750 HP, the Hollow Knight gains these attacks in addition to the attacks of Phase 1. The Hollow Knight attacks and moves more frequently.
 
-<b>Diving Flame Pillar</b>: The Hollow Knight either jumps or teleports into the air and then slams straight down with its nail, causing columns of Infected fire to shoot up from the ground. No matter which method it chooses, the Hollow Knight attempts to slam down where the Knight was at the beginning of the attack.  This attack deals two Masks of damage.
-<b>Barrage</b>: The Hollow Knight launches multiple blobs of Infection towards the Knight from beneath its cloak. The blobs are fired in arcs at multiple angles, starting low and working up. This attack covers about 75% of the arena. The Hollow Knight launches 9 or 10 blobs in total. This attack does not track the Knight; the blobs always follow the same arcs.
+Diving Flame Pillar: The Hollow Knight either jumps or teleports into the air and then slams straight down with its nail, causing columns of Infected fire to shoot up from the ground. No matter which method it chooses, the Hollow Knight attempts to slam down where the Knight was at the beginning of the attack.  This attack deals two Masks of damage.
+Barrage: The Hollow Knight launches multiple blobs of Infection towards the Knight from beneath its cloak. The blobs are fired in arcs at multiple angles, starting low and working up. This attack covers about 75% of the arena. The Hollow Knight launches 9 or 10 blobs in total. This attack does not track the Knight; the blobs always follow the same arcs.
 
 Phase 3
 After reaching 400 HP, the Hollow Knight gains these attacks in addition to the attacks from the previous Phases. However, it loses the Lunge and Triple Slash attacks (except for immediately after teleporting). The Hollow Knight attacks and moves less frequently and cannot be staggered after this Phase starts.
 
-<b>Outbreak</b>: The Hollow Knight hovers in the air and shoots blobs of Infection everywhere. The Hollow Knight is always in the centre of the arena for this attack. it remains in the air for about 6.5 seconds. The blobs travel along three primary paths: an arc going left, an arc going right, and a third going down. Blobs burst from the Hollow Knight for 5-6 seconds.
-<b>Bouncing Balloon</b>: The Hollow Knight floats around the arena and bounces up and down 2-5 times. This attack tracks the Knight's position and always aims for the Knight, specifically during the slam.
-<b>Self Stab</b>: The Hollow Knight stands in place and stabs its nail through its chest multiple times. During this move, all damage dealt to the Hollow Knight is reduced to 1, regardless of Nail level.
+Outbreak: The Hollow Knight hovers in the air and shoots blobs of Infection everywhere. The Hollow Knight is always in the centre of the arena for this attack. it remains in the air for about 6.5 seconds. The blobs travel along three primary paths: an arc going left, an arc going right, and a third going down. Blobs burst from the Hollow Knight for 5-6 seconds.
+Bouncing Balloon: The Hollow Knight floats around the arena and bounces up and down 2-5 times. This attack tracks the Knight's position and always aims for the Knight, specifically during the slam.
+Self Stab: The Hollow Knight stands in place and stabs its nail through its chest multiple times. During this move, all damage dealt to the Hollow Knight is reduced to 1, regardless of Nail level.
 
 Phase 4
 After reaching 0 HP, the Hollow Knight heals for 250 HP only if the fight is continued. Depending on the Knight's progress, the fight is interrupted by Hornet, allowing the Knight to access its mind with the Dream Nail and fight the Radiance, otherwise, the fight continues as normal.
 
 During the fourth Phase of the battle, the Hollow Knight loses all other attacks except the Bouncing Balloon and Self Stab attacks and gains one new attack.
 
-<b>Deterioration</b>: The Hollow Knight attempts to swing its nail once and then falls to its knees. This attack is only used in Phase 4. Essentially, the Hollow Knight is attempting a Triple Slash attack but as soon as the first slash happens, it falls over without moving forward at all.
+Deterioration: The Hollow Knight attempts to swing its nail once and then falls to its knees. This attack is only used in Phase 4. Essentially, the Hollow Knight is attempting a Triple Slash attack but as soon as the first slash happens, it falls over without moving forward at all.
 
 ---
 
@@ -1641,13 +1569,13 @@ The Hollow Knight, along with  Pure Vessel, is the only boss whose title appears
 After the Knight absorbs the Infection from the Hollow Knight, a bright silhouette of the Radiance can be seen for a split second as the Hollow Knight lets out its final roar before dying.
 
 The Hollow Knight has cut Dream Nail dialogue which is the following:
-<i>...Kill...
+...Kill...
 ...Shall blaze free...
 ...This Vessel, broken...fails...
 ...Dawn...Shall break...
 ...No mind, the usurper...Only strength...
 ...Kill the usurper...Our light it would suffocate...
-...Father?...</i>
+...Father?...
 In the Embrace the Void endings, the Hollow Knight has several markings on its nail, suggesting that it may wield a Pure Nail.
 At the end of the Act 3 in Silksong, the Shade that saves Hornet from the Void is not the Hollow Knight, despite the horns, because in the Dream No More ending of Hollow Knight, when the Knight turns into the Shade Lord, its horns resemble the young Hollow Knight's.
 
@@ -1656,14 +1584,12 @@ At the end of the Act 3 in Silksong, the Shade that saves Hornet from the Void i
 ---
 
 ---
-
 # 文档：The Collector
-
 - 类别：bosses
 - 标识：the_collector
 - 来源：wiki/The_Collector
 
-<b>The Collector</b> is a hidden boss in <i>Hollow Knight</i>. Defeating it grants the Collector's Map.
+The Collector is a hidden boss in Hollow Knight. Defeating it grants the Collector's Map.
 
 Lore
 The Collector is a Void creature. It lives hidden away in the locked Tower of Love along with a large collection of bugs from throughout Hallownest that are preserved, both dead and alive, in glass jars.
@@ -1676,9 +1602,9 @@ The Collector can be heard laughing outside the padded door of the Tower of Love
 Behaviour and Tactics
 The Collector uses a series of attacks and manoeuvres mainly focused on spawning enemies:
 
-<b>Jar</b>: The Collector leaps into the ceiling, causing glass jars to rain down. The glass jars fall from random positions in the ceiling. While falling, the jars do not break when they hit the Knight, but they do deal contact damage. The jars shatter when they hit the ground, and each glass jar randomly lets out 1 of 3 enemies: Vengeflies, Baldurs and Aspid Hunters. A noise of rattling glass sounds for each jar that comes down and can be used to determine the number of jars that fall, along with a puff of dust signifying where they fall. Hitting a jar with any attack immediately shatters it, preventing the enemy from spawning. When all of the glass jars have fallen, the Collector drops back down.
-<b>Grab</b>: The Collector leaps towards the Knight's position and makes grabbing motions, dealing contact damage.
-<b>Hop</b>: The Collector's method of traversing the arena: it quickly jumps a set distance with its hands raised. There is a set number of hops the Collector can make before performing another attack.
+Jar: The Collector leaps into the ceiling, causing glass jars to rain down. The glass jars fall from random positions in the ceiling. While falling, the jars do not break when they hit the Knight, but they do deal contact damage. The jars shatter when they hit the ground, and each glass jar randomly lets out 1 of 3 enemies: Vengeflies, Baldurs and Aspid Hunters. A noise of rattling glass sounds for each jar that comes down and can be used to determine the number of jars that fall, along with a puff of dust signifying where they fall. Hitting a jar with any attack immediately shatters it, preventing the enemy from spawning. When all of the glass jars have fallen, the Collector drops back down.
+Grab: The Collector leaps towards the Knight's position and makes grabbing motions, dealing contact damage.
+Hop: The Collector's method of traversing the arena: it quickly jumps a set distance with its hands raised. There is a set number of hops the Collector can make before performing another attack.
 
 Jars
 The number of jars that the Collector drops depends on the number of summons still alive and the current Phase. When 4 or more summons are alive, the Collector stops dropping jars. After taking 350 damage, the Collector transitions into Phase 2, increasing the speed of the Jar attack.
@@ -1715,18 +1641,14 @@ The Collector's overall design resembles the armourless body of a Kingsmould, bu
 If the Knight dies to the Collector, the Shade that appears will be trapped in a jar.
 
 ---
-
-
 ## CHARACTERS
 共 20 篇文档
-
 # 文档：Bardoon
-
 - 类别：characters
 - 标识：bardoon
 - 来源：wiki/Bardoon
 
-<b>Bardoon</b> is an NPC in <i>Hollow Knight</i>. He provides lore on the Cast-Off Shell and the Infection.
+Bardoon is an NPC in Hollow Knight. He provides lore on the Cast-Off Shell and the Infection.
 
 Lore
 Bardoon is an old caterpillar He resists the light’s allure, which he explains offers unity but also reduces a bug to instinct alone.
@@ -1744,20 +1666,18 @@ Bardoon's head can be found in the north part of Kingdom's Edge. His tail is fou
 Trivia
 Bardoon is one of the few NPCs who can be "hit" with the Nail without taking damage.
 Bardoon is one of the few NPCs who is able to detect when they are being Dream Nailed, along with Moths, Snail Shamans and the White Lady.
-Concept art of Bardoon labels him as <b>"Deepnest Caterpillar"</b>, indicating that he was originally intended to be located in Deepnest.
+Concept art of Bardoon labels him as "Deepnest Caterpillar", indicating that he was originally intended to be located in Deepnest.
 Kingdom's Edge used to be part of Deepnest. Deepnest was split in two after the removal of the Forest of Bones area. The east part was moved to the bottom right of the map and eventually became Kingdom's Edge. This can still be seen in Kingdom's Edge's file names, which start with "Deepnest_East".
 
 ---
 
 ---
-
 # 文档：Elder Hu
-
 - 类别：characters
 - 标识：elder_hu
 - 来源：wiki/Elder_Hu
 
-<b>Elder Hu</b> is a Warrior Dream boss in <i>Hollow Knight</i>.
+Elder Hu is a Warrior Dream boss in Hollow Knight.
 
 Lore
 Elder Hu was a travelling sage who sought to purify the borderlands of Hallownest from the Infection. He reached the Mantis Village, but his own Infected mind made him see the Mantis Lords and the Tribe as afflicted by the plague. The Mantises killed him after he attacked them. A memorial was erected in his name above the gates to the City of Tears, his tunic and bead necklace resting on top of it.
@@ -1767,9 +1687,9 @@ The spirit of Elder Hu can be fought at his memorial after acquiring the Dream N
 
 Behaviour and Tactics
 Elder Hu has two attacks in addition to being able to teleport:
-<b>Ring Slam</b>: Elder Hu summons a row of rings in midair, interspersed with several safe gaps, before quickly slamming them all down onto the ground simultaneously.
-<b>Ring Curtain</b>: Elder Hu summons pairs of rings that slam down on the ground, beginning from the edges of the arena and moving towards the centre.
-<b>Teleport</b>: Elder Hu warps from one area to another to avoid attacks or set up his own.
+Ring Slam: Elder Hu summons a row of rings in midair, interspersed with several safe gaps, before quickly slamming them all down onto the ground simultaneously.
+Ring Curtain: Elder Hu summons pairs of rings that slam down on the ground, beginning from the edges of the arena and moving towards the centre.
+Teleport: Elder Hu warps from one area to another to avoid attacks or set up his own.
 
 ---
 
@@ -1786,17 +1706,15 @@ It is possible to Nail-bounce on top of the rings summoned by Elder Hu.
 ---
 
 ---
-
 # 文档：Mister Mushroom
-
 - 类别：characters
 - 标识：mister_mushroom
 - 来源：wiki/Mister_Mushroom
 
-<b>Mister Mushroom</b> is a talking mushroom NPC found throughout Hallownest after all three Dreamers have been killed. His babbles can be heard from a distance, guiding the Knight to his location. He is also referred to as the Herald or Master Herald.
+Mister Mushroom is a talking mushroom NPC found throughout Hallownest after all three Dreamers have been killed. His babbles can be heard from a distance, guiding the Knight to his location. He is also referred to as the Herald or Master Herald.
 
 In-game events
-Finding him in all seven locations and ending the game rewards the <i>Passing of the Age</i> achievement and a secret cutscene after beating the game.
+Finding him in all seven locations and ending the game rewards the Passing of the Age achievement and a secret cutscene after beating the game.
 
 To talk to him, he must first be hit with the Nail so that he turns around (other damage does not affect him). To understand what he says, the Spore Shroom Charm must be equipped, otherwise, he speaks gibberish and does not move to the next location. However, his Dream Nail dialogue is not gibberish, even without Spore Shroom.
 
@@ -1806,15 +1724,15 @@ Riddle Tablet
 
 The Riddle Tablet is a glowing glyph in a secret room at the bottom right corner of Kingdom's Edge. The hidden opening leading to it is on the right side of one of the vertical shafts above the giant geo deposit in the special room with said deposit. When it is read with the Spore Shroom Charm equipped, the tablet reveals a poem, which gives hints to the locations where Mister Mushroom can be found:
 
-<i>We speak the path of the Master Herald, he who would signal an Age's end.</i>
-<i>Spawn of self, their minds unite,</i> (Fungal Wastes)
-<i>Aside the source of acid blight,</i> (Kingdom's Edge, near the tram and Isma's Grove)
-<i>Aglow in darkest, winding depths,</i> (Deepnest, near Galien)
-<i>Winds all howl above fossilstone steps,</i> (Howling Cliffs, in Mato's hut)
-<i>Monarchflys in air set still,</i> (Ancient Basin, near the Monarch Wings location)
-<i>To Root's domain and snail once shrill,</i> (Fog Canyon, near Overgrown Mound)
-<i>Path of Wyrm, at new lands entered,</i> (King's Pass)
-<i>There journeys end. The kingdom ventured.</i>
+We speak the path of the Master Herald, he who would signal an Age's end.
+Spawn of self, their minds unite, (Fungal Wastes)
+Aside the source of acid blight, (Kingdom's Edge, near the tram and Isma's Grove)
+Aglow in darkest, winding depths, (Deepnest, near Galien)
+Winds all howl above fossilstone steps, (Howling Cliffs, in Mato's hut)
+Monarchflys in air set still, (Ancient Basin, near the Monarch Wings location)
+To Root's domain and snail once shrill, (Fog Canyon, near Overgrown Mound)
+Path of Wyrm, at new lands entered, (King's Pass)
+There journeys end. The kingdom ventured.
 
 Locations
 He can be found in 7 different locations. Each one must be visited in the order described on the Riddle Tablet in order for him to progress to the next location.
@@ -1827,20 +1745,18 @@ Mister Mushroom was originally created to fill up the empty room where Cornifer 
 Mister Mushroom's first dialogue is a likely reference to Team Cherry's entry 'Hungry Knight' for the Ludum Dare Game Jam 27, in which they first used the character that became the Knight. In the game, the player has to keep feeding on cherries dropped by enemies and kill three bosses (whose icons looks similar to Monomon's) to resurrect a friend.
 
 Once Mister Mushroom leaves after listening to him, the spot he used to be at can still be nail-bounced on and the Dream Nail can still be used which activates his Dream Nail dialogue. This works in every area he appears except for King's Pass until leaving the room and re-entering.
-The <i>Passing of the Age</i> achievement is the only one in the game without a monochrome colour palette, instead featuring Mister Mushroom in full-colour.
+The Passing of the Age achievement is the only one in the game without a monochrome colour palette, instead featuring Mister Mushroom in full-colour.
 Mister Mushroom is the only character to appear as an NPC in both Hollow Knight and Hollow Knight: Silksong.
 
 ---
 
 ---
-
 # 文档：Herrah the Beast
-
 - 类别：characters
 - 标识：herrah_the_beast
 - 来源：wiki/Herrah_the_Beast
 
-<b>Herrah the Beast</b> is an NPC in <i>Hollow Knight</i>. She is one of the Dreamers and is involved in the Knight's quest to destroy the Infection.
+Herrah the Beast is an NPC in Hollow Knight. She is one of the Dreamers and is involved in the Knight's quest to destroy the Infection.
 
 Lore
 Herrah was the Weaver queen of the Spider Tribe of Deepnest and is the mother of Hornet. Her partner was part of the honoured caste, while Herrah herself is only a common beast. At a certain point, her partner died, leaving Herrah without an heir.  When the Infection first appeared, the Pale King asked Herrah to become a Dreamer to seal the entrance to the Black Egg in the Temple of the Black Egg. She only agreed if the Pale King would have a child with her, which ended up being Hornet. After Hornet was born, Herrah and Hornet were permitted little time together as Herrah went into an eternal sleep. She and the other Dreamers attempt to lock the Knight in the Dream Realm after the Resting Grounds encounter.
@@ -1861,14 +1777,12 @@ When trying to attack Herrah's physical body in Beast's Den, a Seal appears over
 ---
 
 ---
-
 # 文档：Last Stag
-
 - 类别：characters
 - 标识：last_stag
 - 来源：wiki/Last_Stag
 
-<b>The Last Stag</b> is an NPC in <i>Hollow Knight</i> serving as transport across Hallownest.
+The Last Stag is an NPC in Hollow Knight serving as transport across Hallownest.
 
 Lore
 The Last Stag is a large stag beetle and the last of his kind in Hallownest.
@@ -1882,7 +1796,7 @@ The Last Stag can transport the Knight for free to and from any unlocked Station
 
 At every station, he can tell the Knight more about its surrounding areas, providing a lot of information about the past of the kingdom and its inhabitants. However, he mentions that he was not aware of the existence of the station in the Distant Village and the  Hidden Station in the Palace Grounds.
 
-After finding all available Stations, the Last Stag remembers the location of the Stag Nest and can provide a ride to it. Inside, many Stag corpses are found along with a broken egg and a Vessel Fragment and the Last Stag senses that more of his kind might be alive, which rejoices him. His name is then changed to <b>Old Stag</b>.
+After finding all available Stations, the Last Stag remembers the location of the Stag Nest and can provide a ride to it. Inside, many Stag corpses are found along with a broken egg and a Vessel Fragment and the Last Stag senses that more of his kind might be alive, which rejoices him. His name is then changed to Old Stag.
 
 Locations
 The Last Stag can be found in anywhere there is a Stag Station.
@@ -1890,20 +1804,18 @@ The Last Stag can be found in anywhere there is a Stag Station.
 Achievements
 
 Trivia
-The <i>Hollow Knight Beta</i> contains cut sleeping sprites for the Last Stag. This animation was never implemented in the beta or the final game. The sprites were still present in the release version but were removed in later versions.
+The Hollow Knight Beta contains cut sleeping sprites for the Last Stag. This animation was never implemented in the beta or the final game. The sprites were still present in the release version but were removed in later versions.
 One of the sprites was re-used for a Stag corpse in the Stag Nest.
 
 ---
 
 ---
-
 # 文档：Lurien the Watcher
-
 - 类别：characters
 - 标识：lurien_the_watcher
 - 来源：wiki/Lurien_the_Watcher
 
-<b>Lurien the Watcher</b> is an NPC in <i>Hollow Knight</i>. He is one of the Dreamers and is involved in the Knight's quest to destroy the Infection.
+Lurien the Watcher is an NPC in Hollow Knight. He is one of the Dreamers and is involved in the Knight's quest to destroy the Infection.
 
 Lore
 Lurien used to watch over the City of Tears from the Watcher's Spire. The Watcher Knights were his guards, and he had various servants such as his butler. At the top of his Spire, Lurien had a large telescope that looks down over the City of Tears, contributing to his title of "The Watcher".
@@ -1929,14 +1841,12 @@ Internally, Lurien has a suggestion of a relationship with another character in 
 ---
 
 ---
-
 # 文档：Bretta
-
 - 类别：characters
 - 标识：bretta
 - 来源：wiki/Bretta
 
-<b>Bretta</b> is a Quest NPC in <i>Hollow Knight</i>. She is initially found in the Fungal Wastes where she can be rescued.
+Bretta is a Quest NPC in Hollow Knight. She is initially found in the Fungal Wastes where she can be rescued.
 
 Lore
 Bretta is a beetle who is looking for a saviour. She has a massive crush on the Knight after she is rescued. Bretta blushes if the Knight sits next to her for a while. She has several drawings and dolls of the Knight in her house, along with a diary where she writes about her "saviour".
@@ -1949,20 +1859,18 @@ Location
 Bretta can initially be found in the Fungal Wastes near the southeast part of Mantis Village, past the statue of the Dash Master. She can be reached by continuing through a hidden opening west of the statue and subsequently completing a minor platforming challenge.
 
 Trivia
-Bretta is referred to earlier in the game's development as <b>"Bertha"</b>.
+Bretta is referred to earlier in the game's development as "Bertha".
 Before the Lifeblood update, Bretta's eyes were orange when she was first met in the Fungal Wastes. This was removed or stopped working for unknown reasons.
 
 ---
 
 ---
-
 # 文档：Quirrel
-
 - 类别：characters
 - 标识：quirrel
 - 来源：wiki/Quirrel
 
-<b>Quirrel</b> is an inquisitive, up-beat explorer, fascinated by the myths of Hallownest for reasons he cannot explain. While he remains a simple observer, he is wise of the land's dangers and has some skill with a nail. When Monomon became a Dreamer, she entrusted Quirrel with her mask, which was part of an additional protection enacted upon herself. Quirrel can be seen wearing this mask on top of his head. In the official comic, it is shown that Quirrel ended up outside of Hallownest.
+Quirrel is an inquisitive, up-beat explorer, fascinated by the myths of Hallownest for reasons he cannot explain. While he remains a simple observer, he is wise of the land's dangers and has some skill with a nail. When Monomon became a Dreamer, she entrusted Quirrel with her mask, which was part of an additional protection enacted upon herself. Quirrel can be seen wearing this mask on top of his head. In the official comic, it is shown that Quirrel ended up outside of Hallownest.
 
 Quirrel lost much of his memory eventually. He was called back to Hallownest by Monomon in order to reverse the protection placed on her.
 
@@ -1988,7 +1896,7 @@ Crystal Peak
 Quirrel is found standing next to a huge window at the peak, looking down onto Dirtmouth, pondering. He also comments on the sad fate of the Infected miners relentlessly at their endless task. He leaves if the Knight acquires the Crystal Heart or later encounters him in the City of Tears.
 
 Outside the Teacher's Archives
-Quirrel is found just outside the entrance to the Teacher's Archives, somewhat confused, feeling drawn inside. <i>After entering this room, he can no longer be found at any of the prior locations in Hallownest.</i> He later appears during the Uumuu boss fight to help the Knight by puncturing the outer membrane of the boss, allowing the Knight to damage them.
+Quirrel is found just outside the entrance to the Teacher's Archives, somewhat confused, feeling drawn inside. After entering this room, he can no longer be found at any of the prior locations in Hallownest. He later appears during the Uumuu boss fight to help the Knight by puncturing the outer membrane of the boss, allowing the Knight to damage them.
 
 Before Monomon
 After inspecting the tank that Monomon the Teacher is inside, Quirrel jumps up from below. He explains the history of the Teacher and that he played a part in her protection. He holds up his hat, which is revealed to be Monomon's mask, and undoes that protection to help the Knight. After Monomon is killed, he sits there until the Knight leaves. He does not wear Monomon's mask again after this encounter.
@@ -1997,7 +1905,7 @@ Blue Lake
 
 In the final encounter with Quirrel, he is found sitting next to the Blue Lake, as he said he would want to see where the rainwater is coming from in the City of Tears. He tells the Knight that now, after seeing the world twice over, he finally feels at peace, and he is thankful he could see its beauty again.
 
-After the conversation, the <i>Witness</i> achievement is received and the Knight can choose to sit next to him in silence.
+After the conversation, the Witness achievement is received and the Knight can choose to sit next to him in silence.
 
 After leaving the room, Quirrel disappears. His nail can be seen planted into the ground beside the Lake.
 
@@ -2009,21 +1917,19 @@ Achievements
 ---
 
 ---
-
 # 文档：Hornet
-
 - 类别：characters
 - 标识：hornet
 - 来源：wiki/Hornet
 
-<b>Hornet</b> is the mysterious princess-protector of Hallownest’s ruins, the deuteragonist of <i>Hollow Knight</i> and the main protagonist of <i>Hollow Knight: Silksong</i>. She wields a needle and thread with deadly prowess. As a boss, Hornet appears in two forms, Hornet Protector in Greenpath and Hornet Sentinel in Kingdom's Edge. She must be defeated twice to unlock her Journal entry, but this can be either by defeating both forms or by defeating her Protector form once in Greenpath and once in  Godhome.
+Hornet is the mysterious princess-protector of Hallownest’s ruins, the deuteragonist of Hollow Knight and the main protagonist of Hollow Knight: Silksong. She wields a needle and thread with deadly prowess. As a boss, Hornet appears in two forms, Hornet Protector in Greenpath and Hornet Sentinel in Kingdom's Edge. She must be defeated twice to unlock her Journal entry, but this can be either by defeating both forms or by defeating her Protector form once in Greenpath and once in  Godhome.
 
 Lore
 Hornet is the daughter of the Pale King and Herrah the Beast, the queen of Deepnest. Her birth was the result of a bargain for her mother to become a Dreamer, and as such, she spent only a short time with Herrah. Her shared father with the Knight and the rest of the Vessels makes them half-siblings.
 
 Raised in Deepnest, Hornet survived the Infection and the fall of the kingdom. She wanders its ruins, chasing off travelers who would seek to desecrate them, but also protecting the sealing of the Black Egg. She also guards the Cast-Off Shell in the Kingdom's Edge which can grant the King's Brand, the key to the Abyss. In her duties, she encountered Quirrel in the Howling Cliffs at his arrival in Hallownest. She attempted to fight him but was repelled by the mask of Monomon he wears on his head. Hornet leaves him be after recognizing the mask, knowing that he was called upon, despite him not knowing it.
 
-Like Quirrel and the Knight, she sensed the awakening of the Infection and started wandering Hallownest in search of answers. In <i>Hollow Knight</i>, she works to stop the impending doom looming on Hallownest. In <i>Hollow Knight: Silksong</i>, she ends up captured and brought to the haunted kingdom of Pharloom.
+Like Quirrel and the Knight, she sensed the awakening of the Infection and started wandering Hallownest in search of answers. In Hollow Knight, she works to stop the impending doom looming on Hallownest. In Hollow Knight: Silksong, she ends up captured and brought to the haunted kingdom of Pharloom.
 
 In-game events
 Hornet appears at first as a wandering and recurring antagonist to the Knight. As their journey progresses, her involvement influences their quest in Hallownest.
@@ -2065,27 +1971,25 @@ Achievements
 
 Trivia
 Hornet was revealed in one of the Kickstarter updates:
-<i>"Quick with her deadly needle, relentless in battle, Hornet is exploring Hallownest to find the answer to a riddle that has plagued her. She has so far resisted the infection, but will still cut you down if you stand in her path."</i>
+"Quick with her deadly needle, relentless in battle, Hornet is exploring Hallownest to find the answer to a riddle that has plagued her. She has so far resisted the infection, but will still cut you down if you stand in her path."
 
-<i>"You may catch glimpses of Hornet during your exploration of Hallownest, although she always seems to be one or two steps ahead of you. If you do manage to catch up with her, be wary! Her needle can cut a bug down from thirty yards."</i>
+"You may catch glimpses of Hornet during your exploration of Hallownest, although she always seems to be one or two steps ahead of you. If you do manage to catch up with her, be wary! Her needle can cut a bug down from thirty yards."
 Team Cherry explained in a Reddit comment that an unused concept for Hornet had her be the "Child of Three Queens": born to Herrah, raised by the White Lady and trained under and named by Hive Queen Vespa. They cannot confirm so far if that aspect of her story is still canon.
 This concept is realized in Silksong when Hornet revisits her own memories through the Snail Shamans' spell. Her Needle is also revealed to be a gift from the Hive and is forged from Hivesteel.
 When questioned about which species Hornet is, Team Cherry explained that she is either a spider, related to spiders, or spiderlike.
 Hornet's needle was made especially for her, and not many other bugs are skillful enough to wield it.
-On <i>Hollow Knight: Silksong's</i> steam page, Hornet is called a "Princess Knight".
+On Hollow Knight: Silksong's steam page, Hornet is called a "Princess Knight".
 It can be speculated that the thread she uses is made by her, because her mother is Herrah.
 
 ---
 
 ---
-
 # 文档：Pale King
-
 - 类别：characters, lore
 - 标识：pale_king
 - 来源：wiki/Pale_King
 
-The <b>Pale King</b> is an NPC in <i>Hollow Knight</i>. He plays a major role in the history of Hallownest.
+The Pale King is an NPC in Hollow Knight. He plays a major role in the history of Hallownest.
 
 Lore
 The Pale King is a higher being who used to be the monarch of Hallownest, mate to the White Lady, and ruler of the White Palace.
@@ -2126,14 +2030,12 @@ A silhouette of the Pale King can be seen in the background of  White Defender's
 ---
 
 ---
-
 # 文档：Grimm Troupe
-
 - 类别：characters, quests, lore
 - 标识：grimm_troupe_quest
 - 来源：wiki/Grimm_Troupe_(Quest)
 
-The <b>Grimm Troupe's Quest</b> is Troupe Master Grimm's request to help the Troupe's Ritual in Hallownest. It has two possible endings, with different rewards, achievements, and characters involved. The two endings are mutually exclusive.
+The Grimm Troupe's Quest is Troupe Master Grimm's request to help the Troupe's Ritual in Hallownest. It has two possible endings, with different rewards, achievements, and characters involved. The two endings are mutually exclusive.
 
 Quest Outline
 Summoning The Grimm Troupe
@@ -2143,14 +2045,14 @@ In order to start the quest, the Knight must first travel to the Howling Cliffs 
 Grimm and the Grimmchild
 When returning to Dirtmouth, two tents of the Grimm Troupe have appeared, with the larger one containing Grimm. Speaking with Grimm grants the Grimmchild Charm, and, as long as it is equipped, it is possible to fight the Grimmkin, scattered across Hallownest and take their flames (marked on the Knight's Map).
 
-The first Grimmkin fought are the Novices, and once all three are defeated, returning to Grimm upgrades the Grimmchild and allows for fighting the next Grimmkin, the Masters. Defeating these and returning to Grimm initiates the Troupe Master Grimm boss fight. Defeating Grimm upgrades the Grimmchild once again, grant the <i>Grand Performance</i> achievement, and a Charm Notch, and allows the Knight to find and fight the final Grimmkin, the Nightmares.
+The first Grimmkin fought are the Novices, and once all three are defeated, returning to Grimm upgrades the Grimmchild and allows for fighting the next Grimmkin, the Masters. Defeating these and returning to Grimm initiates the Troupe Master Grimm boss fight. Defeating Grimm upgrades the Grimmchild once again, grant the Grand Performance achievement, and a Charm Notch, and allows the Knight to find and fight the final Grimmkin, the Nightmares.
 
 Brumm and the Nightmare King
 The final phase of the Ritual has not three but four flames scattered around Hallownest. One of those four flames is carried by Brumm in Deepnest. When listened to, Brumm will suggest breaking the cycle of the Ritual and banishing the Troupe from Hallownest. He then tells the Knight that if they so wish, they should meet him where it all began.
 
-Returning to Grimm's tent with three flames collected and Dream Nailing the sleeping Grimm initiates the Nightmare King Grimm boss fight. Defeating the Nightmare King completes the Ritual in Hallownest, granting the <i>Ritual</i> achievement. The Grimmchild is upgraded one final time, and the Troupe leaves Hallownest, with the exception of Divine, who stays behind until all Fragile Charms (Heart, Greed, and Strength) are made Unbreakable.
+Returning to Grimm's tent with three flames collected and Dream Nailing the sleeping Grimm initiates the Nightmare King Grimm boss fight. Defeating the Nightmare King completes the Ritual in Hallownest, granting the Ritual achievement. The Grimmchild is upgraded one final time, and the Troupe leaves Hallownest, with the exception of Divine, who stays behind until all Fragile Charms (Heart, Greed, and Strength) are made Unbreakable.
 
-If instead Brumm is approached at the Howling Cliffs, the Knight can help him destroy the Nightmare Lantern and banish the Troupe. Doing so removes the Grimmchild Charm from the inventory and grants the <i>Banishment</i> achievement. Returning to Dirtmouth reveals the presence of a new NPC, Nymm, while the entire Troupe is nowhere to be found. Speaking to Nymm grants the Carefree Melody Charm, which takes up the same slot in the inventory as Grimmchild.
+If instead Brumm is approached at the Howling Cliffs, the Knight can help him destroy the Nightmare Lantern and banish the Troupe. Doing so removes the Grimmchild Charm from the inventory and grants the Banishment achievement. Returning to Dirtmouth reveals the presence of a new NPC, Nymm, while the entire Troupe is nowhere to be found. Speaking to Nymm grants the Carefree Melody Charm, which takes up the same slot in the inventory as Grimmchild.
 
 Rewards
 width="74px" |
@@ -2163,14 +2065,12 @@ Achievements
 ---
 
 ---
-
 # 文档：White Lady
-
 - 类别：characters
 - 标识：white_lady
 - 来源：wiki/White_Lady
 
-The <b>White Lady</b> is an NPC in <i>Hollow Knight</i>. She gifts one half of the Kingsoul to the Knight in the Queen's Gardens.
+The White Lady is an NPC in Hollow Knight. She gifts one half of the Kingsoul to the Knight in the Queen's Gardens.
 
 Lore
 The White Lady is a root higher being who used to be the Queen of Hallownest and the wife of the Pale King. During Hallownest’s prime, the Queen's Gardens were her well-guarded retreat. This area used to belong to the Mosskin, but the White Lady claimed it to create her gardens.
@@ -2201,14 +2101,12 @@ A sketch of the White Lady's cocoon depicts it with her head on the front. The i
 ---
 
 ---
-
 # 文档：Monomon the Teacher
-
 - 类别：characters
 - 标识：monomon_the_teacher
 - 来源：wiki/Monomon_the_Teacher
 
-<b>Monomon the Teacher</b> is an NPC in <i>Hollow Knight</i>. She is one of the Dreamers and is involved in the Knight's quest to destroy the Infection.
+Monomon the Teacher is an NPC in Hollow Knight. She is one of the Dreamers and is involved in the Knight's quest to destroy the Infection.
 
 Lore
 Monomon used to be a chief researcher and teacher of Hallownest. Her archives in Fog Canyon contain strange, jumbled Lore Tablets that contain certain phrases such as:
@@ -2232,20 +2130,18 @@ Trivia
 
 A cut version of the Elegy for Hallownest which has additional lines can still be found in the game files. Monomon herself also has numerous unused lines of dialogue.
 When trying to attack Monomon's physical body in the Teacher's Archives, a Seal appears over her body.
-In Team Cherry's previous game, <i>Hungry Knight</i>, there are three masks found on the bosses that look similar to Monomon's.
+In Team Cherry's previous game, Hungry Knight, there are three masks found on the bosses that look similar to Monomon's.
 In the original concepts for the Dreamers, all three Dreamers looked identical; sharing Monomon's mask and having the body shape of Lurien. The identical masks can still be seen on the archways outside the Temple of the Black Egg, and on one of the Hollow Knight promotional posters. The identical bodies can still be found on the Hollow Knight fountain in the City of Tears.
 
 ---
 
 ---
-
 # 文档：Zote
-
 - 类别：characters
 - 标识：zote
 - 来源：wiki/Zote
 
-<b>Zote the Mighty</b> is an NPC in <i>Hollow Knight</i>.
+Zote the Mighty is an NPC in Hollow Knight.
 
 Lore
 Zote is a traveller from outside Hallownest who came to the Kingdom to fulfill a promise. This is ultimately revealed to be a promise of glory for himself.
@@ -2258,7 +2154,7 @@ In-game events
 
 Found along the path leading to Greenpath. He is held in the mandibles of a Vengefly King, and the Knight has the choice to either save him or leave him. If saved, he complains that the Knight got in the way between him and his "prey", he introduces himself and boasts about his supposed mighty deeds.
 
-If he is not saved before acquiring the Mantis Claw, he dies in this location, with his nail and shell remaining. Hitting his shell here grants the <i>Neglect</i> achievement.
+If he is not saved before acquiring the Mantis Claw, he dies in this location, with his nail and shell remaining. Hitting his shell here grants the Neglect achievement.
 
 If he is saved in Greenpath, Zote shows up in Dirtmouth, where he once again talks to the Knight in an arrogant fashion.
 
@@ -2278,11 +2174,11 @@ Achievements
 
 Trivia
 Zote was the first character revealed in a Kickstarter update:
-<i>"Times are hard for Dirtmouth, the small town built above the ruined underground kingdom of Hallownest. The townsfolk are slowly disappearing; savage creatures prowl beneath the surface and a strange poison in the earth refuses to let any vegetation grow. But lo! From the mists a proud figure emerges, ready to defeat the formless evil that plagues the populace. With his sword held aloft and a fiery determination to protect the helpless, this giant of bugkind strides confidently into the light and..."</i>
-<i>"Oh, it's Zote. False alarm everybody."</i>
-<i>"Zote, self-proclaimed 'Knight of the People', recently turned up in Dirtmouth and started demanding free lodgings, food and attention from the townsfolk. Claiming to be a rival of the Hollow Knight and his superior in every way, Zote has supposedly come to Dirtmouth to defeat the evil creatures lurking in the depths and find the source of the poison."</i>
-<i>"When he isn't having one of his frequent rest stops in town, Zote will be exploring the depths of Hallownest with his unique, home-made nail in hand. He favours caution and patience above all else, so he doesn't always make the same kind of progress as the Hollow Knight. Nor does he have the same successes due to what he calls his "atrocious, appallingly unfair bad luck"."</i>
-<i>"If you see him during your travels, Zote will be more than happy to stop and chat, pointing out everything you've been doing wrong during your adventure so you can learn from his example."</i>
+"Times are hard for Dirtmouth, the small town built above the ruined underground kingdom of Hallownest. The townsfolk are slowly disappearing; savage creatures prowl beneath the surface and a strange poison in the earth refuses to let any vegetation grow. But lo! From the mists a proud figure emerges, ready to defeat the formless evil that plagues the populace. With his sword held aloft and a fiery determination to protect the helpless, this giant of bugkind strides confidently into the light and..."
+"Oh, it's Zote. False alarm everybody."
+"Zote, self-proclaimed 'Knight of the People', recently turned up in Dirtmouth and started demanding free lodgings, food and attention from the townsfolk. Claiming to be a rival of the Hollow Knight and his superior in every way, Zote has supposedly come to Dirtmouth to defeat the evil creatures lurking in the depths and find the source of the poison."
+"When he isn't having one of his frequent rest stops in town, Zote will be exploring the depths of Hallownest with his unique, home-made nail in hand. He favours caution and patience above all else, so he doesn't always make the same kind of progress as the Hollow Knight. Nor does he have the same successes due to what he calls his "atrocious, appallingly unfair bad luck"."
+"If you see him during your travels, Zote will be more than happy to stop and chat, pointing out everything you've been doing wrong during your adventure so you can learn from his example."
 One of the Kickstarter goals was for Zote to become a playable character, but that goal was not reached.
 In the Colosseum of Fools, when Zote begins his battle, the audience laughs at him.
 A charm called "Zote Charm" was an idea that never made it into the game. It would have made the Knight die in one hit.
@@ -2293,9 +2189,7 @@ Zote has an unconfirmed game titled "Hollow Knight: ZoteBoat".
 ---
 
 ---
-
 # 文档：Cornifer
-
 - 类别：characters
 - 标识：cornifer
 - 来源：wiki/Cornifer
@@ -2333,7 +2227,7 @@ Map for Royal Waterways:
 
 He leaves after the Knight has progressed enough in the area (usually by defeating a boss) or has defeated all three Dreamers. He leaves a letter for the Knight stating that his map can be purchased from Iselda in Dirtmouth:
 
-<i>"Sorry I missed you! If you're feeling lost, why not pop up to our store in Dirtmouth and purchase a map of this area? Available now for an excellent price! - Cornifer"</i>
+"Sorry I missed you! If you're feeling lost, why not pop up to our store in Dirtmouth and purchase a map of this area? Available now for an excellent price! - Cornifer"
 
 He cannot be met in the Resting Grounds and always leaves this letter in the Stag Station of the Resting Grounds instead. Cornifer also never leaves a letter in Deepnest.
 
@@ -2353,14 +2247,12 @@ Iselda refers to Cornifer with the personal nickname of "Corny".
 ---
 
 ---
-
 # 文档：Seer
-
 - 类别：characters
 - 标识：seer
 - 来源：wiki/Seer
 
-The <b>Seer</b> is a Quest NPC in <i>Hollow Knight</i>. She gives the Knight the Dream Nail and grants rewards depending on how much Essence has been acquired.
+The Seer is a Quest NPC in Hollow Knight. She gives the Knight the Dream Nail and grants rewards depending on how much Essence has been acquired.
 
 Lore
 The Seer is the last surviving member of the Moth Tribe.
@@ -2382,8 +2274,8 @@ Rewards
 900: Dreamgate
 1200: Arcane Egg
 1500: Mask Shard
-1800: Awoken Dream Nail and <i>Awakening</i> Achievement
-2400: <i>Ascension</i> Achievement
+1800: Awoken Dream Nail and Awakening Achievement
+2400: Ascension Achievement
 
 Location
 The Seer is located in the north part of the Resting Grounds.
@@ -2393,7 +2285,7 @@ Achievements
 Trivia
 It is implied that the moth spirit who guides the Knight out of the Dream Realm is the Seer, projected into the dream realm through unknown means.
 She can also fly in this form, though she seems unable to when she is met physically.
-When Seer bursts into Essence during the <i>Ascension</i> achievement, a small glowing fly can be seen flying up out of the cloud.
+When Seer bursts into Essence during the Ascension achievement, a small glowing fly can be seen flying up out of the cloud.
 Seer is one of the few NPCs who is able to detect when they are being Dream Nailed,  although rather than acting negatively, she tells The Knight that if they use the Dream Nail on other creatures, hidden things will reveal themselves.
 The journal entry for  Nightmare King Grimm is a poem by the Seer.
 In older versions of Hollow Knight's map, the Seer's home is referred to as the "Dream Witch's Hut". In the files, she is also referred to as the "Witch".
@@ -2402,14 +2294,12 @@ In the original launch version, the Awakening and Ascension achievements appeare
 ---
 
 ---
-
 # 文档：Nailsmith
-
 - 类别：characters
 - 标识：nailsmith
 - 来源：wiki/Nailsmith
 
-The <b>Nailsmith</b> is a Merchant in <i>Hollow Knight</i>. He provides a service to strengthen the Knight's Nail for Geo and Pale Ore. He provides the first Nail refinement for Geo only, after which he requires Pale Ore and Geo to upgrade further (see Nail for prices).
+The Nailsmith is a Merchant in Hollow Knight. He provides a service to strengthen the Knight's Nail for Geo and Pale Ore. He provides the first Nail refinement for Geo only, after which he requires Pale Ore and Geo to upgrade further (see Nail for prices).
 
 Lore
 The Nailsmith is one of the few bugs that lived through the fall of Hallownest. Driven by his craft and working in seclusion, he barely noticed the world changing around him. Even before that, he hardly paid attention to the Kingdom's Five Great Knights. He spends his time honing his craft, hoping to one day forge a Pure Nail, the apex of his work. There are many nails surrounding his hut.
@@ -2418,9 +2308,9 @@ In-game events
 
 The Nailsmith can be found at his smithy in the outskirts of the City of Tears, in an isolated hut. At first, he can refine the Old Nail into the Sharpened Nail for a small amount of Geo. After that, he requires both Pale Ore and Geo to upgrade it further, with the price and the number of Pale Ore increasing with each successive upgrade.
 
-After having him forge the Pure Nail, the Nailsmith steps outside and asks the Knight to cut him down. Obliging him sends him plummeting down to the waters below and awards the <i>Purity</i> achievement. His corpse can be found in the  Junk Pit after completing two  Pantheons and speaking to  the Godseeker.
+After having him forge the Pure Nail, the Nailsmith steps outside and asks the Knight to cut him down. Obliging him sends him plummeting down to the waters below and awards the Purity achievement. His corpse can be found in the  Junk Pit after completing two  Pantheons and speaking to  the Godseeker.
 
-When not granting his request to "cut him down" and leaving the area, he can be found with Sheo in his hut in Greenpath. Listening to the Nailsmith awards the <i>Happy Couple</i> achievement. These achievements are mutually exclusive on a single save as the game autosaves immediately after killing the Nailsmith.
+When not granting his request to "cut him down" and leaving the area, he can be found with Sheo in his hut in Greenpath. Listening to the Nailsmith awards the Happy Couple achievement. These achievements are mutually exclusive on a single save as the game autosaves immediately after killing the Nailsmith.
 
 He then remains in Sheo's hut for the rest of the game, engaging in modelling for Sheo and making wooden figurines together. The achievement name, Happy Couple, implies Sheo and the Nailsmith are in a romantic relationship.
 
@@ -2433,14 +2323,14 @@ Trivia
 The Nailsmith's quest to forge the perfect nail was part of a Kickstarter stretch goal at $44,000 which was the addition of four new quests to the game:
 A Nailsmith's Obsession
 The Nailsmith was first revealed in a Kickstarter update, although that information is no longer canonical:
-<i>"Follow a twisting path from the outskirts of the drowning city. Cross a broken bridge and you'll hear it close, the ring of metal and the roar of flame. A craftsman obsessed.</i>
-<i>Within his forge the Nailsmith is searching, on an endless quest to create a flawless nail.</i>
-<i>Past failures pile outside his door, exposed to the rains and left to rust. He spares no thought for imperfect things. Nor does he pause to take notice of the countless beings that take their pick of his refuse.</i>
-<i>But his neglect has impact. His discarded nails have spread wide through Hallownest, clutched tight in the hands of creatures possessed.</i>
-<i>Only in the Hollow Knight's broken nail does he at last see true potential. Distant and difficult to achieve, but it is in there, waiting - a blade to be honed beyond all others, to be forged into a form so brilliant it transcends its metal and becomes myth."</i>
+"Follow a twisting path from the outskirts of the drowning city. Cross a broken bridge and you'll hear it close, the ring of metal and the roar of flame. A craftsman obsessed.
+Within his forge the Nailsmith is searching, on an endless quest to create a flawless nail.
+Past failures pile outside his door, exposed to the rains and left to rust. He spares no thought for imperfect things. Nor does he pause to take notice of the countless beings that take their pick of his refuse.
+But his neglect has impact. His discarded nails have spread wide through Hallownest, clutched tight in the hands of creatures possessed.
+Only in the Hollow Knight's broken nail does he at last see true potential. Distant and difficult to achieve, but it is in there, waiting - a blade to be honed beyond all others, to be forged into a form so brilliant it transcends its metal and becomes myth."
 The Nailsmith's voicelines were originally recorded for Relic Seeker Lemm. Matthew 'Leth' Griffin, the voice actor for both of them, had to re-record the lines for Lemm because Team Cherry told him that Lemm is supposed to be annoyed with the Knight. Lemm's old lines were subsequently reused for the Nailsmith.
 It is also possible to kill the Nailsmith with Spells when he asks.
-The Dream Nail dialogue of the corpse of the Ancient Nailsmith found in Kingdom's Edge is also <i>"...Pure..."</i>, the same as the Nailsmith's corpse's Dream Nail dialogue.
+The Dream Nail dialogue of the corpse of the Ancient Nailsmith found in Kingdom's Edge is also "...Pure...", the same as the Nailsmith's corpse's Dream Nail dialogue.
 Upgrading the Nail respawns enemies that normally only respawn after sitting on a Bench.
 Hitting the exit from the Nailsmith's shop with a long enough nail range causes the knight to hit something as though it were a wall.
 In the promotional art, the Nailsmith has four legs, but in-game, he only has two.
@@ -2448,9 +2338,7 @@ In the promotional art, the Nailsmith has four legs, but in-game, he only has tw
 ---
 
 ---
-
 # 文档：Knight
-
 - 类别：characters
 - 标识：knight
 - 来源：wiki/Knight
@@ -2490,9 +2378,9 @@ In Godhome, the Knight can ascend by attuning all the Gods of Hallownest and def
 Health and SOUL
 Health
 
-Health is represented as <b>Masks</b>, shown in the upper-left corner of the screen. The Knight starts the game with 5 Masks, and can obtain more by collecting Mask Shards. 4 Mask Shards make one new Mask of health, up to a max of 9 total Masks of health. Health is lost by taking damage, either from enemies or from environmental hazards. Health can be regained by resting at a Bench or Hot Spring, by Focusing or by obtaining a Mask.
+Health is represented as Masks, shown in the upper-left corner of the screen. The Knight starts the game with 5 Masks, and can obtain more by collecting Mask Shards. 4 Mask Shards make one new Mask of health, up to a max of 9 total Masks of health. Health is lost by taking damage, either from enemies or from environmental hazards. Health can be regained by resting at a Bench or Hot Spring, by Focusing or by obtaining a Mask.
 
-<b>Lifeblood masks</b>, granted by Lifeseeds and certain Charms, are temporary Masks that cannot be healed using Focus. Lifeblood Masks disappear upon resting at a bench, whereas those granted by Charms regenerate.
+Lifeblood masks, granted by Lifeseeds and certain Charms, are temporary Masks that cannot be healed using Focus. Lifeblood Masks disappear upon resting at a bench, whereas those granted by Charms regenerate.
 
 Shade
 
@@ -2522,10 +2410,10 @@ Skills and tools found throughout Hallownest that allow the Knight to more effec
 Gallery
 
 Trivia
-The Knight's design is taken from Team Cherry's first game, <i>Hungry Knight</i>, which was made during a Game Jam that started the company.
+The Knight's design is taken from Team Cherry's first game, Hungry Knight, which was made during a Game Jam that started the company.
 While the two games are very different, Team Cherry has stated that they "liked the main character and the general aesthetic so much that [they] fleshed it out and expanded on it."
-This plan was put forward through the conceptual "Hungry Bug" artworks done by Ari Gibson, which helped visualise and shape the world of <i>Hollow Knight</i>.
-Mister Mushroom makes a reference to Hungry Knight in his first dialogue with It, saying <i>"...It's nice that you were able to help your friend. So you're not hungry any more?"</i>
+This plan was put forward through the conceptual "Hungry Bug" artworks done by Ari Gibson, which helped visualise and shape the world of Hollow Knight.
+Mister Mushroom makes a reference to Hungry Knight in his first dialogue with It, saying "...It's nice that you were able to help your friend. So you're not hungry any more?"
 When the Knight has one Mask left, the screen becomes bordered by black lines and Void particles can be seen floating off the Knight. Its posture also changes from upright to a bent over, gasping stance.
 This posture is removed if the Fury of the Fallen Charm is equipped.
 The Steam Trading Card refers to the Knight as "Hollow Knight".
@@ -2539,14 +2427,12 @@ Team Cherry has stated that they are not sure how the Knight escaped the Abyss.
 ---
 
 ---
-
 # 文档：Tiso
-
 - 类别：characters
 - 标识：tiso
 - 来源：wiki/Tiso
 
-<b>Tiso</b> is an adventurer who seeks the Colosseum of Fools for the sake of a challenge. He fights using his shield, which he claims conceals a "deadly surprise."
+Tiso is an adventurer who seeks the Colosseum of Fools for the sake of a challenge. He fights using his shield, which he claims conceals a "deadly surprise."
 
 Lore
 He is arrogant, thinking of himself as the ultimate warrior and showing nothing but contempt for the weak. He almost pays no notice to the Knight until later on, and even then he finds them beneath him.
@@ -2561,7 +2447,7 @@ Tiso is seen standing at the western shore of the Blue Lake, gazing over the wat
 Tiso is found sitting on the Bench in the warrior's pit of the Colosseum of Fools, looking at the ground as if waiting. He needs to be interacted with in the Colosseum and then a Trial must be either completed or failed for him to move from his spot on the Bench. After this, Tiso's corpse is found lying on a ledge in Kingdom's Edge.
 
 Tiso makes a joke appearance with a fake out boss sequence in the Pantheon of Hallownest before being subsequently crushed by Brooding Mawlek. This only occurs if he has been listened to in the Colosseum.
-If Tiso's body is Dream-Nailed, it says: <i>"...Why?..."</i>, the same as his real-world body.
+If Tiso's body is Dream-Nailed, it says: "...Why?...", the same as his real-world body.
 Coincidentally, the Trial of the Fool has a Brooding Mawlek among its creatures, possibly implying that his cause of death was a Brooding Mawlek.
 
 Locations
@@ -2579,14 +2465,12 @@ If you die during the Trial of the Warrior before getting to the Zote fight and 
 ---
 
 ---
-
 # 文档：Snail Shaman
-
 - 类别：characters
 - 标识：snail_shaman
 - 来源：wiki/Snail_Shaman
 
-<b>Snail Shaman</b> is an NPC in <i>Hollow Knight</i>. He gives the Vengeful Spirit Spell to the Knight in the Ancestral Mound.
+Snail Shaman is an NPC in Hollow Knight. He gives the Vengeful Spirit Spell to the Knight in the Ancestral Mound.
 
 Lore
 Snail Shaman is a member of the snail shaman tribe. His relatives can be found around Hallownest, but since he is bound to the Ancestral Mound he is unable to visit them. He is therefore unaware of their fate.
@@ -2609,18 +2493,14 @@ Snail Shaman is one of the few NPCs who is able to detect when they are being Dr
 References
 
 ---
-
-
 ## AREAS
 共 13 篇文档
-
 # 文档：Queen's Gardens
-
 - 类别：areas
 - 标识：queens_gardens
 - 来源：wiki/Queen's_Gardens
 
-The <b>Queen's Gardens</b> is a lush area featuring ornate gates, thorns, and perilous platforms located in the west part of Hallownest.
+The Queen's Gardens is a lush area featuring ornate gates, thorns, and perilous platforms located in the west part of Hallownest.
 
 Description
 The Gardens are filled with overgrown vegetation, thorny vines, and neglected greenhouses. Lanterns with Lumaflies light up the area. Besides the Hallownest structures and flowering plants, tents have cropped up in the Gardens, housing the Mantis Traitors.
@@ -2645,14 +2525,12 @@ An early name for the Queen's Gardens was the "Royal Garden".
 ---
 
 ---
-
 # 文档：The Hive
-
 - 类别：areas
 - 标识：the_hive
 - 来源：wiki/The_Hive
 
-<b>The Hive</b> is a large community of bees hidden away below Kingdom's Edge. It can only be reached after acquiring the Tram Pass from Deepnest and taking the Tram to Kingdom's Edge.
+The Hive is a large community of bees hidden away below Kingdom's Edge. It can only be reached after acquiring the Tram Pass from Deepnest and taking the Tram to Kingdom's Edge.
 
 Description
 Particular to the Hive are structures built out of brown and translucent honey-like materials. The architecture also follows a hexagonal shape reminiscent of honeycombs.
@@ -2669,7 +2547,7 @@ The Hive can be accessed once the Knight obtains the Tram Pass and takes it to K
 
 Trivia
 Despite being a separate area from Kingdom's Edge, the Hive does not have its own map and is only mapped once the Knight obtains the Kingdom's Edge map from Cornifer.
-The Hive's visual appearance was overhauled in the  <i>Lifeblood</i> update. Bookshelves, tables, and chairs were added to the Hive alongside other minor details. This update also added  Hive Knight as a boss.
+The Hive's visual appearance was overhauled in the  Lifeblood update. Bookshelves, tables, and chairs were added to the Hive alongside other minor details. This update also added  Hive Knight as a boss.
 Early in development, the Hive was located below Deepnest.
 
 References
@@ -2677,14 +2555,12 @@ References
 ---
 
 ---
-
 # 文档：Kingdom's Edge
-
 - 类别：areas
 - 标识：kingdoms_edge
 - 来源：wiki/Kingdom's_Edge
 
-<b>Kingdom's Edge</b> is the most eastern area of Hallownest, located next to the City of Tears. Its desolate cliffs are pummelled by a constant white ash-fall.
+Kingdom's Edge is the most eastern area of Hallownest, located next to the City of Tears. Its desolate cliffs are pummelled by a constant white ash-fall.
 
 Description
 
@@ -2711,14 +2587,12 @@ The decaying shell of the Pale King's Wyrm form which is causing the perpetual a
 ---
 
 ---
-
 # 文档：Fungal Wastes
-
 - 类别：areas
 - 标识：fungal_wastes
 - 来源：wiki/Fungal_Wastes
 
-The <b>Fungal Wastes</b> are a humid area located near the middle of Hallownest with connections to several other areas.
+The Fungal Wastes are a humid area located near the middle of Hallownest with connections to several other areas.
 
 Description
 The noxious caverns of the Fungal Wastes are covered in mushrooms of all kinds. Besides this, caustic pools of acid are abundant throughout the area.
@@ -2773,14 +2647,12 @@ While wearing the Spore Shroom Charm near a Lore Tablet, the background music be
 ---
 
 ---
-
 # 文档：Ancient Basin
-
 - 类别：areas
 - 标识：ancient_basin
 - 来源：wiki/Ancient_Basin
 
-<b>Ancient Basin</b> is a desolate area which is positioned below the Royal Waterways. It is mostly devoid of life except for some severely Infected lifeforms.
+Ancient Basin is a desolate area which is positioned below the Royal Waterways. It is mostly devoid of life except for some severely Infected lifeforms.
 
 Description
 Ancient Basin mainly consists of rocks and fossils with occasional roots scattered throughout the area. A Tram is located in the north part which leads to Deepnest and Kingdom's Edge. The western part of the Tram tunnel can be accessed and contains a rare Pale Ore.
@@ -2808,14 +2680,12 @@ References
 ---
 
 ---
-
 # 文档：Deepnest
-
 - 类别：areas
 - 标识：deepnest
 - 来源：wiki/Deepnest
 
-<b>Deepnest</b> is an area hidden deep in the southwest corner of Hallownest, crawling with creatures of all shapes and sizes.
+Deepnest is an area hidden deep in the southwest corner of Hallownest, crawling with creatures of all shapes and sizes.
 
 Description
 What most identifies Deepnest is its gloomy surroundings. Thick layers of web covering sometimes large portions of the background and twisted maze-like tunnels and passages, several having the dim glow of a bioluminescent fungus as the only source of light. Most parts of Deepnest are dark or pitch black and can be illuminated with the Lumafly Lantern.
@@ -2847,14 +2717,12 @@ Early in development, Kingdom's Edge was part of Deepnest. Deepnest was split in
 ---
 
 ---
-
 # 文档：Greenpath
-
 - 类别：areas
 - 标识：greenpath
 - 来源：wiki/Greenpath
 
-<b>Greenpath</b> is an area west of the Forgotten Crossroads with lush vegetation, guarded by a species of leafy bug. Pools of burning acid and thick overgrowth make navigation difficult.
+Greenpath is an area west of the Forgotten Crossroads with lush vegetation, guarded by a species of leafy bug. Pools of burning acid and thick overgrowth make navigation difficult.
 
 Throughout all of Greenpath, pillars and egg-shaped stones with swirling carvings, sometimes reaching enormous sizes, can frequently be spotted.
 
@@ -2890,14 +2758,12 @@ A dark sanctuary filled with spike pits in the southeast part of Greenpath. The 
 ---
 
 ---
-
 # 文档：Forgotten Crossroads
-
 - 类别：areas
 - 标识：forgotten_crossroads
 - 来源：wiki/Forgotten_Crossroads
 
-The <b>Forgotten Crossroads</b> is an area below Dirtmouth. Its highways and caverns connect to many others areas in Hallownest.
+The Forgotten Crossroads is an area below Dirtmouth. Its highways and caverns connect to many others areas in Hallownest.
 
 Description
 Located right below the surface, the Forgotten Crossroads consists of many caverns and roads. Fossilised remains of bugs cover the surfaces of the caverns, with pale ferns growing through cracks in the ground.
@@ -2924,7 +2790,7 @@ Initially, access to the Black Egg is blocked by a seal on the entrance. After k
 
 Infected Crossroads
 
-After either acquiring Monarch Wings or killing one of the Dreamers, the Infection spreads through the Crossroads and remains there for the rest of the game, with orange pustules of goo appearing in the environment. Navigation becomes more difficult due to the Infection closing off certain paths (<i>Two passages have been completely sealed off by the Infection making them inaccessible as labelled on the map</i>). In addition, most of the standard enemies are replaced by new, stronger variants.
+After either acquiring Monarch Wings or killing one of the Dreamers, the Infection spreads through the Crossroads and remains there for the rest of the game, with orange pustules of goo appearing in the environment. Navigation becomes more difficult due to the Infection closing off certain paths (Two passages have been completely sealed off by the Infection making them inaccessible as labelled on the map). In addition, most of the standard enemies are replaced by new, stronger variants.
 
 When the Crossroads become Infected, the door to the west of Ancestral Mound is automatically opened, even if the lever to open it has not been hit.
 
@@ -2954,22 +2820,20 @@ Grubhome is one of the few places in the Forgotten Crossroads that does not appe
 After the Knight rescues all 46 Grubs, collects their rewards, and sits on a Bench, they can find Grubfather laying engorged on the floor, seemingly having swallowed all the Grubs whole, as it is possible to hear the Grubs chatter inside Grubfather.
 
 Trivia
-In the beta for Hollow Knight, the Ancestral Mound was originally called the <b>Shrine of Souls</b>.
+In the beta for Hollow Knight, the Ancestral Mound was originally called the Shrine of Souls.
 In the beta for Hollow Knight, the Black Egg was leaking Infection, which only happens in the Infected Crossroads in the release version.
 The beta also shows an early map of the Forgotten Crossroads. This map is shown in the Ferocious Foes trailer as well.
-The Infected Crossroad's visual appearance was altered near the release of the  <i>Lifeblood</i> update, becoming much more grey and black, similar to the Ancient Basin. These visual changes were removed in a later update.
+The Infected Crossroad's visual appearance was altered near the release of the  Lifeblood update, becoming much more grey and black, similar to the Ancient Basin. These visual changes were removed in a later update.
 
 ---
 
 ---
-
 # 文档：Resting Grounds
-
 - 类别：areas
 - 标识：resting_grounds
 - 来源：wiki/Resting_Grounds
 
-The <b>Resting Grounds</b> are a network of caverns filled with graves located above the City of Tears.
+The Resting Grounds are a network of caverns filled with graves located above the City of Tears.
 
 Description
 Tombstones and monuments cover the caverns of the Resting Grounds. Before the Dream Nail has been acquired, the area is grey and relatively colourless. After obtaining the Dream Nail, the Resting Grounds becomes an area with a blue colour-tone and ghostly spirits floating throughout the foreground and backdrop.
@@ -3000,11 +2864,11 @@ Sub-area: Shrine Of Believers
 
 A hidden area found by travelling behind the waterfall and into the room with the moth statues. Once here, jump to the top left of the room where there is a small hidden ledge to Dream Nail the largest moth's head to access the shrine. The Monarch Wings are required to jump up this ledge, but it can also be accessed by climbing up the right wall and using the Crystal Heart. The Shrine of Believers contains a building full of breakable tablets displaying backer messages, guarded outside by the Unnamed Moth.
 
-<i>The inscriptions on the tablets of the Shrine can also be found here.</i>
+The inscriptions on the tablets of the Shrine can also be found here.
 
 Sub-area: Blue Lake
 
-A calm, large lake which reflects the blue minerals around it, giving the lake its incandescent blue colour. Its water seeps through the ground to create the rain in the City of Tears, and ultimately fills the pipes and drains in the Royal Waterways. Quirrel can be found in this area after Monomon has been killed, and Tiso can be encountered here after meeting him in the Forgotten Crossroads. This is also the last time the Knight encounters Quirrel, who disappears after a final moment is spent with him, granting the <i>Witness</i> achievement.
+A calm, large lake which reflects the blue minerals around it, giving the lake its incandescent blue colour. Its water seeps through the ground to create the rain in the City of Tears, and ultimately fills the pipes and drains in the Royal Waterways. Quirrel can be found in this area after Monomon has been killed, and Tiso can be encountered here after meeting him in the Forgotten Crossroads. This is also the last time the Knight encounters Quirrel, who disappears after a final moment is spent with him, granting the Witness achievement.
 
 Special Rooms
 Dreamer Shrine
@@ -3027,14 +2891,12 @@ An early name for Spirits' Glade was the "Glade of Hope". The Map sent to Kickst
 ---
 
 ---
-
 # 文档：Crystal Peak
-
 - 类别：areas
 - 标识：crystal_peak
 - 来源：wiki/Crystal_Peak
 
-<b>Crystal Peak</b> is a huge glittering mountain located east of Dirtmouth. Mines were carved into the peak to obtain the area's precious crystals.
+Crystal Peak is a huge glittering mountain located east of Dirtmouth. Mines were carved into the peak to obtain the area's precious crystals.
 
 Description
 Crystal Peak contains extensive tunnels throughout the mountain which were used to mine its crystals. The crystals are present across the entire area, with some tunnels having crystals lining the top and bottom of the cavern. Conveyor belts can be found in many rooms which transport the crystal shards.
@@ -3063,14 +2925,12 @@ The very summit of the mountain, Hallownest's Crown is covered with mysterious g
 ---
 
 ---
-
 # 文档：City of Tears
-
 - 类别：areas
 - 标识：city_of_tears
 - 来源：wiki/City_of_Tears
 
-The <b>City of Tears</b> is the capital city of Hallownest which is located in the centre of the kingdom. It is covered in perpetual rainfall that originates from the ceiling above. Its original name was lost to history.
+The City of Tears is the capital city of Hallownest which is located in the centre of the kingdom. It is covered in perpetual rainfall that originates from the ceiling above. Its original name was lost to history.
 
 Description
 The City of Tears is built in an enormous cavern below the Blue Lake. It has numerous large towers with expansive windows which offer views of the city. Going up and down these towers is possible via small lifts.
@@ -3135,19 +2995,17 @@ A sealed door above the entrance through the Pilgrim's Way appears to connect th
 A pre-release screenshot depicts Fountain Square without the memorial to the Hollow Knight. Instead, a multi-level fountain can be found in its place.
 Very early in development, the City of Tears was known as "Ruins" and "Ruined City". This can still be seen in the game files for the City of Tears, which usually contain "ruins" in their name.
 The "Mysterious Key", seen in one of the early trailers, has a sprite named "Bath house key". It was likely originally a unique key to open the Pleasure House. Part of its shop description was likely reused for the Elegant Key:
-<i>A scavenger found it floating with the refuse of the Waterways. It's a grimy old thing and I'm not really interested in other people's secrets. Sure, you can buy it if you like, but I won't guarantee it will lead you anywhere pleasant...</i>
+A scavenger found it floating with the refuse of the Waterways. It's a grimy old thing and I'm not really interested in other people's secrets. Sure, you can buy it if you like, but I won't guarantee it will lead you anywhere pleasant...
 
 ---
 
 ---
-
 # 文档：Royal Waterways
-
 - 类别：areas
 - 标识：royal_waterways
 - 来源：wiki/Royal_Waterways
 
-The <b>Royal Waterways</b> are a series of sewage pipes and support structures underneath the City of Tears.
+The Royal Waterways are a series of sewage pipes and support structures underneath the City of Tears.
 
 Description
 Many areas in the Waterways are flooded by the water constantly dripping from above, originating from the rain in the City of Tears (and ultimately from the Blue Lake). Several rooms in the waterways are littered with piles of trash.
@@ -3186,14 +3044,12 @@ References
 ---
 
 ---
-
 # 文档：White Palace
-
 - 类别：areas
 - 标识：white_palace
 - 来源：wiki/White_Palace
 
-The <b>White Palace</b> is an area in the Dream Realm. It used to be the palace of the Pale King but now primarily contains platforming challenges.
+The White Palace is an area in the Dream Realm. It used to be the palace of the Pale King but now primarily contains platforming challenges.
 
 Description
 The White Palace mainly consists of white and light grey architecture. The rooms contain large, tall windows which let in light from the outside. The palace is covered in white-grey leaves, roots, and ferns. Flying creatures can be seen flying away in certain areas. Besides these features, the palace is covered in buzz-saws, thorns, and spikes.
@@ -3248,7 +3104,7 @@ Secret rooms
 The White Palace contains three secret rooms in the upper part of the area which explain more of the game's lore.
 
 The Pale King's workshop
-The Pale King had a workshop where he made the Wingmoulds and Kingsmoulds with Void. This workshop can be accessed near the end of the White Palace by falling down at a certain point after using the Crystal Heart. The workshop contains a Lore Tablet and a mould that can be Dream Nailed, giving the text: <i>"...SERVE..."</i>. Exiting this area drops the Knight back to the place where Crystal Heart was first used. It is possible to double jump back into the exit in order to enter the workshop.
+The Pale King had a workshop where he made the Wingmoulds and Kingsmoulds with Void. This workshop can be accessed near the end of the White Palace by falling down at a certain point after using the Crystal Heart. The workshop contains a Lore Tablet and a mould that can be Dream Nailed, giving the text: "...SERVE...". Exiting this area drops the Knight back to the place where Crystal Heart was first used. It is possible to double jump back into the exit in order to enter the workshop.
 
 White Lady's room
 Right before taking the lift up to the throne room, there is a room on the east side of the lift with a breakable floor and a Soul Totem. Using Desolate Dive/Descending Dark on this floor opens up a room with a chair and a structure in front of the chair. The chair has a dark imprint that looks like a smaller version of the White Lady's head. A music box version of the Shade's theme also plays here.
@@ -3259,24 +3115,20 @@ East of the throne room in the very north part of the palace is a breakable wall
 Trivia
 It is possible to sit on the throne after knocking the Pale King's corpse off. A version of the main theme, the Royal Hollow Knight theme, plays while sitting on it. Charms can be switched while on the throne, but masks do not heal until a Charm is changed.
 After returning to the throne room, it is no longer possible to sit on the throne.
-It was originally impossible to return to the White Palace after picking up the White Fragment. This was changed in  <i>The Grimm Troupe</i> update which added the  Path of Pain.
+It was originally impossible to return to the White Palace after picking up the White Fragment. This was changed in  The Grimm Troupe update which added the  Path of Pain.
 The Hunter's Journal entries for the Royal Retainers, Wingmoulds, and Kingsmoulds are still automatically completed upon leaving the palace.
 When returning to the throne room, the Pale King's corpse has disappeared from the ground. This is due to his corpse being an entity corpse, meaning that it despawns after leaving the room like any other enemy's corpse.
 You cannot use the Dreamgate to exit the White Palace.
 
 ---
-
-
 ## QUESTS
 共 4 篇文档
-
 # 文档：Colosseum of Fools
-
 - 类别：quests
 - 标识：colosseum_of_fools
 - 来源：wiki/Colosseum_of_Fools
 
-The <b>Colosseum of Fools</b> is an area located at the top of Kingdom's Edge. It contains an arena where the Knight may participate in three Trials in which they battle waves of enemies.
+The Colosseum of Fools is an area located at the top of Kingdom's Edge. It contains an arena where the Knight may participate in three Trials in which they battle waves of enemies.
 
 Description
 
@@ -3293,23 +3145,21 @@ When the Crystal Heart is Charged on a temporary wall in the Trials, the knight 
 In the entrance to the pale lurker's area, you can watch a tiny bit of the fight happening in the colosseum. No characters appear, but infection particles and sturdy fool projectiles can be seen.
 The sturdy fool projectiles can be deflected to interfere with the fight.
 
-<i>"Colosseum squeaked in there late in development. We were talking about potentially releasing it as a free DLC (this is before we had the idea of content packs) but after discussion we decided that having a place to really test your combat skills was important to have. Also, removing it would have left a weird empty gap at the top of Kingdom's Edge!"</i> - William Pellen
+"Colosseum squeaked in there late in development. We were talking about potentially releasing it as a free DLC (this is before we had the idea of content packs) but after discussion we decided that having a place to really test your combat skills was important to have. Also, removing it would have left a weird empty gap at the top of Kingdom's Edge!" - William Pellen
 
-<i>"The Colosseum does hide a secret, and there's a chance we'll explore it in the future. I'm trying to remember how many extra bosses we did put in the colosseum. Zote was one. Those Fat bees were another... Two of the Colosseum warriors were originally bosses, but we liked them so much we transformed them into regular foes. It's all a bit of a blur!"</i> -Ari Gibson
+"The Colosseum does hide a secret, and there's a chance we'll explore it in the future. I'm trying to remember how many extra bosses we did put in the colosseum. Zote was one. Those Fat bees were another... Two of the Colosseum warriors were originally bosses, but we liked them so much we transformed them into regular foes. It's all a bit of a blur!" -Ari Gibson
 
 The Colosseum of Fools was originally meant to be in Fungal Wastes.
 
 ---
 
 ---
-
 # 文档：Grubfather
-
 - 类别：quests
 - 标识：grubfather
 - 来源：wiki/Grubfather
 
-<b>Grubfather</b> is an NPC in <i>Hollow Knight</i>. He is an elderly Grub who bemoans the loss of his children.
+Grubfather is an NPC in Hollow Knight. He is an elderly Grub who bemoans the loss of his children.
 
 Lore
 Grubfather is the aging patriarch of a colony of Grubs who make their home in a room in the Forgotten Crossroads. Grubs are harmless creatures who have a good sense of direction and are highly skilled tunnelers. They are known to collect shiny things in their burrows, such as Geo and Relics.
@@ -3335,14 +3185,12 @@ Grubfather is one of the few NPCs who can be "hit" with the Nail without taking 
 ---
 
 ---
-
 # 文档：Delicate Flower
-
 - 类别：quests, items
 - 标识：delicate_flower
 - 来源：wiki/Delicate_Flower
 
-The <b>Delicate Flower</b> is an Item in <i>Hollow Knight</i>. It can be given to various NPCs.
+The Delicate Flower is an Item in Hollow Knight. It can be given to various NPCs.
 
 Lore
 The flowers originate from outside of Hallownest from a place known as "lands serene". They were brought to the kingdom by the great knight Ze'mer, who is now the Grey Mourner. They glow faintly with pale light.
@@ -3354,8 +3202,8 @@ Given by the Grey Mourner, to be delivered onto the grave of the Traitors' Child
 
 Additional flowers can be acquired after the quest is completed, allowing flowers to be given to other recipients once the Grey Mourner has departed. These can be found growing near the grave where the original flower was delivered. The Delicate Flower taken from the grave comes with a different description:
 
-<i>Taken from the Queen's Gardens. It glows faintly with pale light.</i>
-<i>The flower is very fragile and will be destroyed if you take damage or ride the Stagways.</i>
+Taken from the Queen's Gardens. It glows faintly with pale light.
+The flower is very fragile and will be destroyed if you take damage or ride the Stagways.
 
 Use
 Successfully completing this quest by taking the undamaged flower to the Traitors' Child's grave and then returning to Grey Mourner rewards a Mask Shard.
@@ -3392,14 +3240,12 @@ Flowers picked up from the Queen's Gardens do not appear in the inventory when d
 ---
 
 ---
-
 # 文档：Hunter's Journal
-
 - 类别：quests
 - 标识：hunters_journal
 - 来源：wiki/Hunter's_Journal
 
-The <b>Hunter's Journal</b> is a compendium of every enemy found in <i>Hollow Knight</i>. Most new entries are added to the Journal after defeating new enemies.
+The Hunter's Journal is a compendium of every enemy found in Hollow Knight. Most new entries are added to the Journal after defeating new enemies.
 
 Use
 Defeating a specified number of each enemy unlocks additional notes from the Hunter about that enemy, as well as bits of lore, techniques for fighting said enemy, or even information about the Hunter himself. A few entries can only be obtained by inspecting a specific object or as a reward for completing a challenge.
@@ -3412,7 +3258,7 @@ Dropped on the ground by the Hunter in Greenpath after listening to him for the 
 Hunter's Journal entries
 A total of 168 entries can be acquired for the Hunter's Journal. However, four of these entries, the Hunter's Mark,  Seal of Binding,  Void Idol, and  Weathered Mask, do not increase the total entry count. This means that the Journal only counts 164 entries.
 
-There are 146 entries which are required for the <i>Keen Hunter</i> Achievement. See the entry list below for details on which entries are not required.
+There are 146 entries which are required for the Keen Hunter Achievement. See the entry list below for details on which entries are not required.
 
 In order to see the number of creatures encountered and the total number required to complete the journal, the World Sense ability must be acquired.
 colspan="3"|
@@ -3461,7 +3307,7 @@ Maggot
 2
 Menderbug
 1
-Increases total entry count by one. Not required for <i>Keen Hunter</i> Achievement. Not required for Hunter's Mark.
+Increases total entry count by one. Not required for Keen Hunter Achievement. Not required for Hunter's Mark.
 Lifeseed
 10
 Baldur
@@ -3578,7 +3424,7 @@ Dung Defender
 1
 White Defender
 1
-Increases total entry count by one. Not required for <i>Keen Hunter</i> achievement. Not required for Hunter's Mark.
+Increases total entry count by one. Not required for Keen Hunter achievement. Not required for Hunter's Mark.
 Flukefey
 15
 Flukemon
@@ -3704,7 +3550,7 @@ Pale Lurker
 1
 Zote
 1
-rowspan="5" style="border-left: 1px solid #ccc;" | Increases total entry count by one. Not required for <i>Keen Hunter</i> achievement. Not required for Hunter's Mark.
+rowspan="5" style="border-left: 1px solid #ccc;" | Increases total entry count by one. Not required for Keen Hunter achievement. Not required for Hunter's Mark.
 Grey Prince Zote
 1
 Winged Zoteling
@@ -3729,7 +3575,7 @@ Markoth
 1
 Grimmkin Novice
 1
-rowspan="4" style="border-left: 1px solid #ccc;" | Increases total entry count by one. Not required for <i>Keen Hunter</i> achievement. Not required for Hunter's Mark.
+rowspan="4" style="border-left: 1px solid #ccc;" | Increases total entry count by one. Not required for Keen Hunter achievement. Not required for Hunter's Mark.
 Grimmkin Master
 1
 Grimmkin Nightmare
@@ -3738,10 +3584,10 @@ Grimm
 1
 Nightmare King
 1
-Entry cannot be obtained after banishment. Increases total entry count by one. Not required for <i>Keen Hunter</i> achievement. Not required for Hunter's Mark.
+Entry cannot be obtained after banishment. Increases total entry count by one. Not required for Keen Hunter achievement. Not required for Hunter's Mark.
 Nailmasters Oro & Mato
 1
-rowspan="3" style="border-left: 1px solid #ccc;" | Increases total entry count by one. Not required for <i>Keen Hunter</i> achievement. Not required for Hunter's Mark.
+rowspan="3" style="border-left: 1px solid #ccc;" | Increases total entry count by one. Not required for Keen Hunter achievement. Not required for Hunter's Mark.
 Paintmaster Sheo
 1
 Great Nailsage Sly
@@ -3763,53 +3609,48 @@ Hornet
 Full entry can be obtained by defeating Hornet Sentinel or by defeating Hornet Protector in  Godhome again.
 Hollow Knight
 1
-rowspan="2" style="border-left: 1px solid #ccc;" | Increases total entry count by one. Not required for <i>Keen Hunter</i> achievement. Not required for Hunter's Mark.
+rowspan="2" style="border-left: 1px solid #ccc;" | Increases total entry count by one. Not required for Keen Hunter achievement. Not required for Hunter's Mark.
 Pure Vessel
 1
 Radiance
 1
-Entry can be obtained by defeating either the Radiance or  Absolute Radiance. Increases total entry count by one. Not required for <i>Keen Hunter</i> achievement. Not required for Hunter's Mark.
+Entry can be obtained by defeating either the Radiance or  Absolute Radiance. Increases total entry count by one. Not required for Keen Hunter achievement. Not required for Hunter's Mark.
 Shade
 0
-Full entry is already unlocked after obtaining the Hunter's Journal.
 Hunter's Mark
 Entry
-Entry can be obtained after completing most of the entries in the Hunter's Journal. Not included in total entry count. Not required for <i>Keen Hunter</i> achievement.
+Entry can be obtained after completing most of the entries in the Hunter's Journal. Not included in total entry count. Not required for Keen Hunter achievement.
 Seal of Binding
 Entry
-Entry can be obtained after completing the  Path of Pain. Not included in total entry count. Not required for <i>Keen Hunter</i> achievement. Not required for Hunter's Mark.
+Entry can be obtained after completing the  Path of Pain. Not included in total entry count. Not required for Keen Hunter achievement. Not required for Hunter's Mark.
 Void Idol
 Entry
-Entry can be obtained after defeating all bosses in the  Hall of Gods on at least one difficulty. Not included in total entry count. Not required for <i>Keen Hunter</i> achievement. Not required for Hunter's Mark.
+Entry can be obtained after defeating all bosses in the  Hall of Gods on at least one difficulty. Not included in total entry count. Not required for Keen Hunter achievement. Not required for Hunter's Mark.
 Weathered Mask
 Entry
-Entry can be obtained by completing all  Pantheons with every binding. Not included in total entry count. Not required for <i>Keen Hunter</i> achievement. Not required for Hunter's Mark.
+Entry can be obtained by completing all  Pantheons with every binding. Not included in total entry count. Not required for Keen Hunter achievement. Not required for Hunter's Mark.
 
 Achievements
 
 Trivia
 The Hunter's Journal was first revealed in a Kickstarter update:
-<i>"What's everyone's favourite part of any game? That's right - filling out a bestiary by killing bad guys! Then reading about them! At least, it's one of our favourite bits, so we couldn't resist adding the feature to Hollow Knight.
+"What's everyone's favourite part of any game? That's right - filling out a bestiary by killing bad guys! Then reading about them! At least, it's one of our favourite bits, so we couldn't resist adding the feature to Hollow Knight.
 If you explore the Greenpath carefully, you'll come across the mysterious Hunter in his lair.
 He'll give you his Hunter's Journal, and charge you with the task of defeating enemies, adding their details to the journal. And so your hunt begins!
 Defeating enemies will now add entries to the journal which you can check out whenever you have a quiet moment.
 As you defeat more of a certain enemy, you'll start to decipher the Hunter's notes and gain some insight into the creatures of Hallownest as well as the Hunter himself.
-We've had a lot of fun building the Hunter's Journal, and we hope you'll enjoy seeking out rare beasts and filling out entries. If you manage to complete the journal entirely, head back to see the Hunter so you can receive your well-deserved reward..."</i>
+We've had a lot of fun building the Hunter's Journal, and we hope you'll enjoy seeking out rare beasts and filling out entries. If you manage to complete the journal entirely, head back to see the Hunter so you can receive your well-deserved reward..."
 Completed entries in the Hunter's Journal have a different border around their icons.
 
 ---
-
-
 ## ITEMS
 共 20 篇文档
-
 # 文档：Map and Quill
-
 - 类别：items
 - 标识：map_and_quill
 - 来源：wiki/Map_and_Quill
 
-The <b>Map and Quill</b> are Items in <i>Hollow Knight</i>. The map charts the various rooms, passages, and chambers within Hallownest.
+The Map and Quill are Items in Hollow Knight. The map charts the various rooms, passages, and chambers within Hallownest.
 
 To start mapping an area, an incomplete area map must first be purchased from Cornifer. If Cornifer is missed in an area (usually by defeating the area boss), Iselda sells the map of that area for a slightly higher price in Dirtmouth.
 
@@ -3825,106 +3666,90 @@ style="min-width: 96px;" | Item
 Description
 style="min-width: 5rem;" | Cost
 
-<i>Used to record one's travels. Requires a map to be of any use.</i>
+Used to record one's travels. Requires a map to be of any use.
 
-<i>Map of Hallownest, partially filled out by Cornifer. Without a Quill it can not be updated.</i>
+Map of Hallownest, partially filled out by Cornifer. Without a Quill it can not be updated.
 Varies
 
-<i>Map of Hallownest. When resting at a Bench or elsewhere, the quill can be used to update the map with newly discovered areas.</i>
+Map of Hallownest. When resting at a Bench or elsewhere, the quill can be used to update the map with newly discovered areas.
 When both Map and Quill are purchased
 
-<i>Highly recommended! If you're having trouble finding your way in the maze of ruins below us, try this charm.
+Highly recommended! If you're having trouble finding your way in the maze of ruins below us, try this charm.
 
 colspan="3" |
 colspan="3" |The 4 markers sold by Iselda can be placed on the map on the inventory screen. Each set contains 6 markers.
 
-<i>These markers are new additions to the shop. You can use them to mark interesting spots on your map!
-
-<i>These markers are new additions to the shop. You can use them to mark interesting spots on your map!
-
-<i>These markers are new additions to the shop. You can use them to mark interesting spots on your map!
-
-<i>These markers are new additions to the shop. You can use them to mark interesting spots on your map!
+These markers are new additions to the shop. You can use them to mark interesting spots on your map!
 
 Maps can be bought from Cornifer in each area, or, if the Knight misses him (usually by beating the area's boss before speaking to him), Iselda sells them in their shop in Dirtmouth for a slightly higher price.
 
 Name & Description
 style="min-width: 5rem;" | Cost (Cornifer)
 style="min-width: 5rem;" | Cost (Iselda)
-<b>Ancient Basin</b>
+Ancient Basin
 
-<b>City of Tears</b>
+City of Tears
 
-<b>Crystal Peak</b>
+Crystal Peak
 
-<b>Deepnest</b>
+Deepnest
 
-<b>Fog Canyon</b>
+Fog Canyon
 
-<b>Forgotten Crossroads</b>
+Forgotten Crossroads
 
-<b>Fungal Wastes</b>
+Fungal Wastes
 
-<b>Greenpath</b>
+Greenpath
 
-<b>Howling Cliffs</b>
+Howling Cliffs
 
-<b>Kingdom's Edge</b>
+Kingdom's Edge
 
-<b>Resting Grounds</b>
+Resting Grounds
 
 N/A
 
-<b>Royal Waterways</b>
+Royal Waterways
 
-<b>Queen's Gardens</b>
+Queen's Gardens
 
 Map Pins
 
 Most map pins are used to mark locations on the map. Many are sold by Iselda in Dirtmouth, while others will have their unlock condition noted.
 
-style="min-width: 96px;" | Item
 Description
-style="min-width: 5rem;" | Cost
 style="min-width: 5rem;" | Condition
 
-<i>Cornifer has been telling me about these strange whispering roots he's been seeing. I made him some pins so you can record their locations yourself.</i>
+Cornifer has been telling me about these strange whispering roots he's been seeing. I made him some pins so you can record their locations yourself.
 
 Acquire Dream Nail
 
-<i>Cornifer told me he's found some interesting looking graves and shrines in the depths. You can use these pins to mark down any interesting graves on your map. Go and pay your respects.</i>
+Cornifer told me he's found some interesting looking graves and shrines in the depths. You can use these pins to mark down any interesting graves on your map. Go and pay your respects.
 
 Acquire Dream Nail
 
-<i>These pins will mark any Stagway Stations you've visited. They must have been very lively places when the stags still travelled through them.</i>
+These pins will mark any Stagway Stations you've visited. They must have been very lively places when the stags still travelled through them.
 
 Open first Stag Station
 
-<i>Those trams sound like awfully advanced machines. Those ancient bugs must've been a clever lot.
+Those trams sound like awfully advanced machines. Those ancient bugs must've been a clever lot.
 
 Acquiring Tram Pass
 
-<i>Use these pins to mark shopkeepers or any other interesting bugs you find on your travels.
+Use these pins to mark shopkeepers or any other interesting bugs you find on your travels.
 
 Encountering Cornifer
 
-<i>I designed these pins to keep track of the kingdom's hot springs.
+I designed these pins to keep track of the kingdom's hot springs.
 
-Encountering Cornifer
+Have you seen those beautiful blue cocoons? I made these pins so you can keep track of them.
 
-<i>Have you seen those beautiful blue cocoons? I made these pins so you can keep track of them.
-
-Encountering Cornifer
-
-<i>These pins will mark benches and other rest spots on your map. Useful if you're exhausted and just need to find somewhere to sit!</i>
-
-Encountering Cornifer
+These pins will mark benches and other rest spots on your map. Useful if you're exhausted and just need to find somewhere to sit!
 
 These pins are placed on the map after achieving specific conditions.
 
-style="min-width: 96px;" | Item
 Description
-style="min-width: 5rem;" | Condition
 
 Marks the locations of all Grubs not yet rescued.
 Defeating the Collector and obtaining The Collector's Map
@@ -3953,26 +3778,15 @@ style="text-align:center;" |Jiji/Jinn
 style="text-align:center;" |Grubfather
 style="text-align:center;" |The Hunter
 width="20%" style="text-align:center;" |
-width="20%" style="text-align:center;" |
-width="20%" style="text-align:center;" |
-width="20%" style="text-align:center;" |
-width="20%" style="text-align:center;" |
 style="text-align:center;" |Leg Eater
 style="text-align:center;" |Millibelle
 style="text-align:center;" |Nailsmith
 style="text-align:center;" |Lemm
 style="text-align:center;" |Salubra
 style="text-align:center;" |
-style="text-align:center;" |
-style="text-align:center;" |
-style="text-align:center;" |
-style="text-align:center;" |
 style="text-align:center;" |Colosseum
 style="text-align:center;" | Godseeker
 style="text-align:center;" |Seer
-style="text-align:center;" |
-style="text-align:center;" |
-style="text-align:center;" |
 
 style="text-align:center;" |Monomon
 style="text-align:center;" |Lurien
@@ -3987,14 +3801,12 @@ The White Palace and  Godhome are not displayed on the map. Despite this, the ga
 ---
 
 ---
-
 # 文档：Love Key
-
 - 类别：items
 - 标识：love_key
 - 来源：wiki/Love_Key
 
-The <b>Love Key</b> is an Item in <i>Hollow Knight</i>.
+The Love Key is an Item in Hollow Knight.
 
 Use
 Opens the door inside the Tower of Love where the Collector can be fought.
@@ -4004,26 +3816,24 @@ Found on a corpse in the southeast of the Queen's Gardens above the path to the 
 
 Trivia
 The large dead Husk Dandy holding the Love Key can be Dream Nailed, providing the dialogue:
-<i>"Too long... spent together. We become as one..."</i>
+"Too long... spent together. We become as one..."
 
 ---
 
 ---
-
 # 文档：Arcane Egg
-
 - 类别：items
 - 标识：arcane_egg
 - 来源：wiki/Arcane_Egg
 
-<b>Arcane Eggs</b> are jet black stone eggs originating from a civilisation that existed before the Kingdom of Hallownest was founded. According to Relic Seeker Lemm, each of these eggs contains knowledge and records within its various layers, although only the outer layer is accessible to Lemm. Other Relic Seekers claim that there is a will within these eggs, with each seeking its own bearer, but Lemm remains sceptical of those claims.
+Arcane Eggs are jet black stone eggs originating from a civilisation that existed before the Kingdom of Hallownest was founded. According to Relic Seeker Lemm, each of these eggs contains knowledge and records within its various layers, although only the outer layer is accessible to Lemm. Other Relic Seekers claim that there is a will within these eggs, with each seeking its own bearer, but Lemm remains sceptical of those claims.
 
 Use
 Can be sold to Relic Seeker Lemm for .
 
 Shop description:
-<i>Ah! This seems like a simple egg, but it's actually a precious relic from before the birth of Hallownest!
-I'll pay you a small fortune for it. Please sell it to me!</i>
+Ah! This seems like a simple egg, but it's actually a precious relic from before the birth of Hallownest!
+I'll pay you a small fortune for it. Please sell it to me!
 
 How to Acquire
 There are a total of 4 Arcane Eggs that can be obtained:
@@ -4038,14 +3848,12 @@ References
 ---
 
 ---
-
 # 文档：Pale Ore
-
 - 类别：items
 - 标识：pale_ore
 - 来源：wiki/Pale_Ore
 
-<b>Pale Ore</b> is an Item in <i>Hollow Knight</i>.
+Pale Ore is an Item in Hollow Knight.
 
 Use
 Pale Ore can be found in several places throughout Hallownest. Giving the Nailsmith Pale Ore along with a payment of Geo allows him to upgrade the Knight's Nail.
@@ -4083,14 +3891,12 @@ Pale Ore has some connection to Pale Beings; the two seen in the game being the 
 ---
 
 ---
-
 # 文档：City Crest
-
 - 类别：items
 - 标识：city_crest
 - 来源：wiki/City_Crest
 
-The <b>City Crest</b> is an Item in <i>Hollow Knight</i>.
+The City Crest is an Item in Hollow Knight.
 
 Use
 Opens the gate between the Fungal Wastes and the City of Tears. The Mantis Claw is required to gain access to this area of the Fungal Wastes.
@@ -4107,14 +3913,12 @@ Drops from False Knight in the Forgotten Crossroads after defeating him.
 ---
 
 ---
-
 # 文档：Godtuner
-
 - 类别：items
 - 标识：godtuner
 - 来源：wiki/Godtuner
 
-The <b>Godtuner</b> is an Item in <i>Hollow Knight</i>.
+The Godtuner is an Item in Hollow Knight.
 
 Use
 When defeating a boss that is required to unlock a Pantheon, the Godtuner appears on screen beneath the health bar and blinks.
@@ -4134,14 +3938,12 @@ References
 ---
 
 ---
-
 # 文档：Elegant Key
-
 - 类别：items
 - 标识：elegant_key
 - 来源：wiki/Elegant_Key
 
-The <b>Elegant Key</b> is an Item in <i>Hollow Knight</i>.
+The Elegant Key is an Item in Hollow Knight.
 
 Use
 Opens the locked door that holds the Shade Soul Spell in Soul Sanctum, in the City of Tears. Inside is a Soul Warrior that continuously spawns Follies.
@@ -4149,19 +3951,17 @@ Opens the locked door that holds the Shade Soul Spell in Soul Sanctum, in the Ci
 How to Acquire
 Purchased from Sly in Dirtmouth for  after giving him the Shopkeeper's Key.
 Shop description:
-<i>An explorer found this fancy key floating in the waterways of the city far below us. I've not cleaned it.</i>
+An explorer found this fancy key floating in the waterways of the city far below us. I've not cleaned it.
 
 ---
 
 ---
-
 # 文档：Vessel Fragment
-
 - 类别：items
 - 标识：vessel_fragment
 - 来源：wiki/Vessel_Fragment
 
-<b>Vessel Fragments</b> are Items in <i>Hollow Knight</i> that increase the Knight's maximum SOUL.
+Vessel Fragments are Items in Hollow Knight that increase the Knight's maximum SOUL.
 
 Use
 
@@ -4214,14 +4014,12 @@ This also explains why the statue of the Pale King by the fountain in the Ancien
 ---
 
 ---
-
 # 文档：Shopkeeper's Key
-
 - 类别：items
 - 标识：shopkeepers_key
 - 来源：wiki/Shopkeeper's_Key
 
-The <b>Shopkeeper's Key</b> is an Item in <i>Hollow Knight</i>.
+The Shopkeeper's Key is an Item in Hollow Knight.
 
 Use
 Presenting the key to Sly unlocks more of his wares.
@@ -4232,14 +4030,12 @@ This key is found in the Crystal Peak, in the room to the left of the Bench room
 ---
 
 ---
-
 # 文档：Rancid Egg
-
 - 类别：items
 - 标识：rancid_egg
 - 来源：wiki/Rancid_Egg
 
-<b>Rancid Eggs</b> are Items in <i>Hollow Knight</i>.
+Rancid Eggs are Items in Hollow Knight.
 
 Use
 A collectable item recovered from the corpses of Bluggsacs. Either an already-dead Bluggsac has to be found or a living one has to be killed to make it drop a Rancid Egg. Once a Bluggsac has been killed, it remains dead, even when resting at a Bench.
@@ -4254,8 +4050,8 @@ An infinite amount can be bought from Tuk for  in the Royal Waterways but she do
 1 given by Tuk if wearing the Defender's Crest Charm (Only in normal mode)
 1 bought from Sly for  in Dirtmouth
 Shop description:
-<i>I found this under the counter. Some creature must have laid it here while I was stuck down in the ruins.
-I suppose you could buy it? I won't miss its sour odour.</i>
+I found this under the counter. Some creature must have laid it here while I was stuck down in the ruins.
+I suppose you could buy it? I won't miss its sour odour.
 2 found in City of Tears
 3 found in Crystal Peak
 3 found in Deepnest
@@ -4274,14 +4070,12 @@ Despite the Eggs being considered inedible, it is implied that both Tuk and Conf
 ---
 
 ---
-
 # 文档：Lumafly Lantern
-
 - 类别：items
 - 标识：lumafly_lantern
 - 来源：wiki/Lumafly_Lantern
 
-The <b>Lumafly Lantern</b> is an Item in <i>Hollow Knight</i>.
+The Lumafly Lantern is an Item in Hollow Knight.
 
 Use
 In dark areas, the Lumafly Lantern brightens up the area around the Knight, giving more visibility and allowing them to pay tolls to open Benches or doors.
@@ -4293,8 +4087,8 @@ The following maps show all areas and which parts of the areas the Lumafly Lan
 How to acquire
 Can be purchased from Sly in Dirtmouth for .
 Shop description:
-<i>What's more important? A light to guide your way, or a friend who'll stay by your side?
-Why not both? Take this bright little fellow as your companion and he'll light your way through the thickest darkness.</i>
+What's more important? A light to guide your way, or a friend who'll stay by your side?
+Why not both? Take this bright little fellow as your companion and he'll light your way through the thickest darkness.
 
 Trivia
 The A Weird and Wonderful World trailer shows that an early name for the Lumafly Lantern was "Glow Bug Lamp".
@@ -4304,14 +4098,12 @@ References
 ---
 
 ---
-
 # 文档：Collector's Map
-
 - 类别：items
 - 标识：collectors_map
 - 来源：wiki/Collector's_Map
 
-The <b>Collector's Map</b> is an Item in <i>Hollow Knight</i>.
+The Collector's Map is an Item in Hollow Knight.
 
 Use
 
@@ -4323,21 +4115,19 @@ Found at the top of the Tower of Love after defeating the Collector.
 ---
 
 ---
-
 # 文档：King's Idol
-
 - 类别：items
 - 标识：kings_idol
 - 来源：wiki/King's_Idol
 
-<b>King's Idols</b> are idols made of a mysterious white material that depict the Pale King. They are found in various locations throughout Hallownest. Since the Pale King was rarely seen, worship was offered through these idols. Every idol is subtly different, and Relic Seeker Lemm suspects that each of them was tailored to the owner.
+King's Idols are idols made of a mysterious white material that depict the Pale King. They are found in various locations throughout Hallownest. Since the Pale King was rarely seen, worship was offered through these idols. Every idol is subtly different, and Relic Seeker Lemm suspects that each of them was tailored to the owner.
 
 Use
 Can be sold to Relic Seeker Lemm for .
 
 Shop description:
-<i>An icon of Hallownest's King, who was revered as both a god and a ruler. Made out of a mysterious white material, these are rare and very valuable.
-If you'll sell it to me, I'll pay a good price.</i>
+An icon of Hallownest's King, who was revered as both a god and a ruler. Made out of a mysterious white material, these are rare and very valuable.
+If you'll sell it to me, I'll pay a good price.
 
 How to Acquire
 There are a total of 8 King's Idols that can be obtained:
@@ -4356,14 +4146,12 @@ References
 ---
 
 ---
-
 # 文档：Mask Shard
-
 - 类别：items
 - 标识：mask_shard
 - 来源：wiki/Mask_Shard
 
-<b>Mask Shards</b> are Items in <i>Hollow Knight</i> that are used to increase the Knight's health.
+Mask Shards are Items in Hollow Knight that are used to increase the Knight's health.
 
 Use
 Mask Shards are parts of Ancient Masks. 4 Mask Shards are needed to complete an Ancient Mask, which increases the Knight's health by one.
@@ -4382,13 +4170,11 @@ Requires finding Sly in Forgotten Crossroads
 rowspan="4" |
 data-row-id="2" |
 2. Bought from Sly in Dirtmouth for
-Requires finding Sly in Forgotten Crossroads
 data-row-id="3" |
 3. Bought from Sly in Dirtmouth for
 Requires both finding Sly and having the Shopkeeper's Key
 data-row-id="4" |
 4. Bought from Sly in Dirtmouth for
-Requires both finding Sly and having the Shopkeeper's Key
 data-row-id="5" |
 5. Far west end of the Forgotten Crossroads
 Reward for defeating Brooding Mawlek
@@ -4415,7 +4201,6 @@ data-row-id="12" |
 Requires Monarch Wings
 data-row-id="13" |
 13. Reward from Enraged Guardian
-Requires Monarch Wings
 data-row-id="14" |
 14. Behind a wall in the Hive
 Requires baiting a Hive Guardian into breaking a wall
@@ -4439,21 +4224,19 @@ References
 ---
 
 ---
-
 # 文档：Hallownest Seal
-
 - 类别：items
 - 标识：hallownest_seal
 - 来源：wiki/Hallownest_Seal
 
-<b>Hallownest Seals</b> are the official symbols of the Pale King and the Five Great Knights. The seals can be found in various locations throughout the world. It also appears frequently as an aesthetic all over the kingdom of Hallownest. It is loosely formed around the design of a Monarchfly's wings and is notably the design that the Pale King used to signify his architecture.
+Hallownest Seals are the official symbols of the Pale King and the Five Great Knights. The seals can be found in various locations throughout the world. It also appears frequently as an aesthetic all over the kingdom of Hallownest. It is loosely formed around the design of a Monarchfly's wings and is notably the design that the Pale King used to signify his architecture.
 
 Use
 Can be sold to Relic Seeker Lemm for .
 
 Shop description:
-<i>These ornate seals were the official symbols of the King and his Knights, and were treasured by those who carried them.
-The King and his Knights are long gone, but the seals still hold value as curiosities. I'll pay a modest price for them.</i>
+These ornate seals were the official symbols of the King and his Knights, and were treasured by those who carried them.
+The King and his Knights are long gone, but the seals still hold value as curiosities. I'll pay a modest price for them.
 
 How to Acquire
 There are a total of 17 Hallownest Seals that can be obtained:
@@ -4485,14 +4268,12 @@ A Hallownest Seal appears as the game's autosave icon.
 ---
 
 ---
-
 # 文档：Simple Key
-
 - 类别：items
 - 标识：simple_key
 - 来源：wiki/Simple_Key
 
-<b>Simple Keys</b> are Items in <i>Hollow Knight</i>. They can be used to open simple locks. Each key can only be used once.
+Simple Keys are Items in Hollow Knight. They can be used to open simple locks. Each key can only be used once.
 
 Use
 There are 4  locations that can be opened using Simple Keys:
@@ -4504,7 +4285,7 @@ The cocoon of the Godseeker in the Junk Pit. Using the Dream Nail on her grants 
 How to Acquire
 One can be bought from Sly in Dirtmouth for .
 Shop description:
-<i>Simply, a Simple key. It will fit a variety of locks, which is useful if you like to poke around in places you don't belong.</i>
+Simply, a Simple key. It will fit a variety of locks, which is useful if you like to poke around in places you don't belong.
 One can be found in the City of Tears, in the big room with Winged Sentries and a Whispering Root just below the City Storerooms. The key is located in the topmost alcove on the right of the room.
 One can be found in the Ancient Basin, on the dead body of a Royal Retainer inside a Mawlurk corpse.
 One can be obtained by killing the Pale Lurker in a hidden area behind the Colosseum of Fools.
@@ -4515,14 +4296,12 @@ The sprite for the Simple Key is called the "graveyard key" and both a "Bath hou
 ---
 
 ---
-
 # 文档：Wanderer's Journal
-
 - 类别：items
 - 标识：wanderers_journal
 - 来源：wiki/Wanderer's_Journal
 
-<b>Wanderer's Journals</b> are tablets found commonly throughout Hallownest. They are always found next to corpses that are assumed to be the authors of the journal.
+Wanderer's Journals are tablets found commonly throughout Hallownest. They are always found next to corpses that are assumed to be the authors of the journal.
 
 What is written on them is unknown as they can not be read and are said to be written in different languages, but Relic Seeker Lemm proclaims his ability to decipher the text.
 
@@ -4532,8 +4311,8 @@ Uses
 Can be sold to Relic Seeker Lemm for .
 
 Shop description:
-<i>These journals give us an interesting glimpse into the minds and hearts of those who lived before us.
-They're a common find, so I can't offer you too much for them.</i>
+These journals give us an interesting glimpse into the minds and hearts of those who lived before us.
+They're a common find, so I can't offer you too much for them.
 
 How to Acquire
 There are a total of 14 Wanderer's Journals that can be obtained:
@@ -4562,14 +4341,12 @@ References
 ---
 
 ---
-
 # 文档：Tram Pass
-
 - 类别：items
 - 标识：tram_pass
 - 来源：wiki/Tram_Pass
 
-The <b>Tram Pass</b> is an Item in <i>Hollow Knight</i>.
+The Tram Pass is an Item in Hollow Knight.
 
 Use
 Allows the Knight to ride the Tram. If the Tram is inspected before acquiring the pass, the description reads "A door with an open slot."
@@ -4579,20 +4356,18 @@ Found in the Failed Tramway in Deepnest in the wreck of a tram.
 
 Trivia
 After acquiring the pass, the Last Stag comments on it, saying:
-<i>"That pass you hold! Is it not for that ghastly machine, the tram? I hope you're not thinking of riding on that grotesque contraption.</i>
-<i>The thought a mere machine could attempt what we stags do! Foolish...Very foolish."</i>
+"That pass you hold! Is it not for that ghastly machine, the tram? I hope you're not thinking of riding on that grotesque contraption.
+The thought a mere machine could attempt what we stags do! Foolish...Very foolish."
 
 ---
 
 ---
-
 # 文档：Hunter's Mark
-
 - 类别：items
 - 标识：hunters_mark
 - 来源：wiki/Hunter's_Mark
 
-The <b>Hunter's Mark</b> is a Journal entry in <i>Hollow Knight</i>. It shows who is marked as a true Hunter.
+The Hunter's Mark is a Journal entry in Hollow Knight. It shows who is marked as a true Hunter.
 
 How to Acquire
 Granted by listening to the Hunter after completing most of the entries in the Hunter's Journal. This requires defeating enough of each enemy to unlock the additional notes. For a full list of entries, see Hunter's Journal.
@@ -4628,27 +4403,25 @@ References
 ---
 
 ---
-
 # 文档：Salubra's Blessing
-
 - 类别：items
 - 标识：salubras_blessing
 - 来源：wiki/Salubra's_Blessing
 
-<b>Salubra's Blessing</b> is an Item in <i>Hollow Knight.</i>
+Salubra's Blessing is an Item in Hollow Knight.
 
 Use
 When resting at a Bench, an apparition of Salubra appears after two seconds, dancing over the Knight and regenerating 50 SOUL per second.
 
 This does not occur when the Knight is resting after resuming a save file. To start restoring SOUL, simply get up from the Bench and rest again.
 
-Buying her blessing also gives the <i>Blessed</i> achievement.
+Buying her blessing also gives the Blessed achievement.
 
 How to acquire
 
 Bought from Salubra in the Forgotten Crossroads for  after acquiring 40 Charms.
 Shop description:
-<i>A special blessing from me to you. You've earned it!</i>
+A special blessing from me to you. You've earned it!
 
 Having half of the Kingsoul Charm does not count as a Charm and does not count towards the 40 Charms needed.
 
@@ -4663,24 +4436,20 @@ When obtaining Salubra's Blessing, a distorted version of the normal sound for g
 In the release version of the game, Salubra's Blessing only required 36 Charms.  The Grimm Troupe increased the requirement as new Charms were added.
 
 ---
-
-
 ## LORE
 共 325 篇文档
-
 # 文档：Snail Shamans
-
 - 类别：lore
 - 标识：snail_shamans
 - 来源：wiki/Snail_Shamans
 
 The lands of Hallownest are filled by several groups of strange sentient creatures. They occupy various territories around the vast kingdom and developed their own societies and cultures aside from the Pale King's rule.
 
-<b>Table of Contents</b>
+Table of Contents
 
 Bees • Flukes • Fools • Mantis Tribe • Mosskin Tribe • Moth Tribe • Mushroom Clan  • Snail Shamans • Soul Sanctum's Scholars • Spider Tribe • The Grimm Troupe • Godseekers
 
-The <b>Snail Shamans</b> are a mysterious tribe of snail creatures with a natural affinity to cast Soul Spells. Their knowledge of Soul allows them to craft Charms such as Soul Catcher, Soul Eater, and Shaman Stone to draw Soul from still-living creatures and increase the power of Spells. Because of these abilities, one of them was captured by the Scholars of the Soul Sanctum and experimented on. They can also sense when their dreams are read with a Dream Nail, and absorbing their remains allows the Knight to upgrade their Spells. Their abilities with Soul also include a "Spiral Focus", though what this truly is, is unknown.
+The Snail Shamans are a mysterious tribe of snail creatures with a natural affinity to cast Soul Spells. Their knowledge of Soul allows them to craft Charms such as Soul Catcher, Soul Eater, and Shaman Stone to draw Soul from still-living creatures and increase the power of Spells. Because of these abilities, one of them was captured by the Scholars of the Soul Sanctum and experimented on. They can also sense when their dreams are read with a Dream Nail, and absorbing their remains allows the Knight to upgrade their Spells. Their abilities with Soul also include a "Spiral Focus", though what this truly is, is unknown.
 
 The shamans are reclusive, and meditate in mounds hidden away in the Forgotten Crossroads, the Fog Canyon and the Crystal Peak. They also have a crypt in the catacombs below the Resting Grounds. They however never ventured down the Abyss, despite its connection to the civilisation that left Soul Totems scattered throughout Hallownest.
 
@@ -4689,23 +4458,20 @@ Only one of them can be found alive by the time of the Knight's journey. While h
 ---
 
 ---
-
 # 文档：Void
-
 - 类别：lore
 - 标识：void
 - 来源：wiki/Void
 
-<b>Void</b> is a substance that is generally found in the Abyss. It plays a major role in Hallownest's history and in current events.
+Void is a substance that is generally found in the Abyss. It plays a major role in Hallownest's history and in current events.
 
-<b>Table of Contents</b>
+Table of Contents
 
 Characteristics • History • In-game events • Void beings
 
 Characteristics
 Nature
 Void inherently opposes light and is often referred to as darkness and shadow. It also opposes Higher Beings like the Radiance and the Pale King who are both described as a light.
-
 
 Void has a certain potential when it is unified. When not unified, the Void attacks anything indiscriminately. Yet in this state, the Void can still be suppressed by light sources such as a lighthouse filled with lumaflies.
 
@@ -4765,14 +4531,12 @@ Void Tendrils are fragments of Void that are found in pools in the Abyss and in 
 ---
 
 ---
-
 # 文档：Seals
-
 - 类别：lore
 - 标识：seals
 - 来源：wiki/Seals
 
-<b>Seals</b> are magical formations which appear in both Hallownest and Pharloom. They have various functions and features.
+Seals are magical formations which appear in both Hallownest and Pharloom. They have various functions and features.
 
 Characteristics
 Appearance
@@ -4850,22 +4614,20 @@ colspan="2" class="typography--headline6"|Shade Beast seal
 ---
 
 ---
-
 # 文档：Mantis Tribe
-
 - 类别：lore
 - 标识：mantis_tribe
 - 来源：wiki/Mantis_Tribe
 
 The lands of Hallownest are filled by several groups of strange sentient creatures. They occupy various territories around the vast kingdom and developed their own societies and cultures aside from the Pale King's rule.
 
-<b>Table of Contents</b>
+Table of Contents
 
 Bees • Flukes • Fools • Mantis Tribe • Mosskin Tribe • Moth Tribe • Mushroom Clan  • Snail Shamans • Soul Sanctum's Scholars • Spider Tribe • The Grimm Troupe • Godseekers
 
 The Mantis Village
 
-The <b>Mantis Tribe</b> is a tribe of proud and ferocious bugs whose traditions date back to ancient times before the kingdom of Hallownest was founded. These naturally-born fighters built the Mantis Village deep within the Fungal Wastes. Led by the Mantis Lords, they defend their territories from intruders with their lives. Their flying youths are compelled to prove their strength before becoming warriors. However, they all come to respect any who would defeat their leaders in honourable combat, and give them the freedom to enter their territory.
+The Mantis Tribe is a tribe of proud and ferocious bugs whose traditions date back to ancient times before the kingdom of Hallownest was founded. These naturally-born fighters built the Mantis Village deep within the Fungal Wastes. Led by the Mantis Lords, they defend their territories from intruders with their lives. Their flying youths are compelled to prove their strength before becoming warriors. However, they all come to respect any who would defeat their leaders in honourable combat, and give them the freedom to enter their territory.
 
 Being opposed to the Kingdom of Hallownest, the Mantises negotiated a truce with them to retain sovereignty in their domain. In exchange, they agreed to keep the beasts of Deepnest, which borders Mantis Village, at bay. He was killed by the Mantises after attacking them, not realizing his own madness driven by the Infection. Their defiance towards it, however, forces them to outcast any who would be affected by it. The Traitor Lord chose to embrace the Infection and opposed his three sisters. He was forced to exile along with other youth and warrior followers.
 
@@ -4874,14 +4636,12 @@ The traitors set tents in the lower part of the Queen's Gardens, but the Infecti
 ---
 
 ---
-
 # 文档：Dream Realm
-
 - 类别：lore
 - 标识：dream_realm
 - 来源：wiki/Dream_Realm
 
-The <b>Dream Realm</b> is a plane beyond the physical world. It is eternal, and contains the memories of living and deceased beings.
+The Dream Realm is a plane beyond the physical world. It is eternal, and contains the memories of living and deceased beings.
 
 Characteristics
 The Dream Realm consists of numerous dreams which vary depending on the being or landscape they are rooted to. Dreams can take the shape of those who have passed away, such as Spirits, or dreams can form based on memories. Furthermore, dreams also appear in plants known as Whispering Roots, which can be found all over the kingdom.
@@ -4909,55 +4669,55 @@ These dreams are related in some way to higher beings. The dream might be create
 
 Dreamers Stage 1
 in it|alt=A dark, cloudy landscape with essence particles floating around, with Herrah floating in the center of the platform]]
-<i>A dream which shares designs with the other Dreamer Dream stages and the Radiance Dream. This first stage has an inky black sky.</i>
+A dream which shares designs with the other Dreamer Dream stages and the Radiance Dream. This first stage has an inky black sky.
 
 The dream of the first encounter with the first Dreamer. This dream is where the consciousness of the Dreamers resides in order to uphold the Dreamer seals on the entrance of the Temple of the Black Egg. Killing the Dreamer here breaks the corresponding seal on the entrance of Black Egg.
 
 Dreamers Stage 2
 in it|alt=Same landscape as the previous stage, but with a black-to-amber gradient sky with Lurien floating in the center]]
-<i>A dream which shares designs with the other Dreamer Dream stages and the Radiance Dream. The second stage has hints of bright amber peeking out from just behind the clouds in an otherwise dark sky.</i>
+A dream which shares designs with the other Dreamer Dream stages and the Radiance Dream. The second stage has hints of bright amber peeking out from just behind the clouds in an otherwise dark sky.
 
 The dream of the second encounter with a Dreamer.
 
 Dreamers Stage 3
 in it|alt=Same landscape as the previous stage, but with a mostly amber sky with Monomon floating in the center]]
-<i>A dream which shares designs with the other Dreamer Dream stages and the Radiance Dream. The third stage has yellow and ambers flooding out into the sky resembling dawn.</i>
+A dream which shares designs with the other Dreamer Dream stages and the Radiance Dream. The third stage has yellow and ambers flooding out into the sky resembling dawn.
 
 The dream of the last encounter with a Dreamer.
 
  Nightmare
 
-<i>Deep scarlet, it starts off resembling Grimm's tent, but slowly turns into an arena made of patchwork pieces with lanterns and pulsing patchwork veins. Grimmkin Nightmares can be found in the background, and the Nightmare's Heart watches over it all.</i>
+Deep scarlet, it starts off resembling Grimm's tent, but slowly turns into an arena made of patchwork pieces with lanterns and pulsing patchwork veins. Grimmkin Nightmares can be found in the background, and the Nightmare's Heart watches over it all.
 
 This dream is the location where Nightmare King Grimm is fought. It takes place in the Nightmare Realm, separate from the rest of the dream realm.
 
 Radiance
 
-<i>A dream which shares designs with the other Dreamer Dream stages. In succession from the Dreamer Dreams which simulate a sunrise, this dream is bright yellow and amber-hued accompanied by a Sun in the background representing day.</i>
+A dream which shares designs with the other Dreamer Dream stages. In succession from the Dreamer Dreams which simulate a sunrise, this dream is bright yellow and amber-hued accompanied by a Sun in the background representing day.
 
 This dream is connected to the Hollow Knight and is used to seal the Radiance and prevent her from influencing bugs. Even though she is trapped here, she can still affect the dreams of bugs due to the Hollow Knight being impure. This dream is connected to the Dreamer dreams as with each Dreamer killed the sky glows brighter and brighter until the "Sun" or the Radiance appears in the background. A death in this dream is also considered a real death.
 
 Unn
 
-<i>A deep green coloured dream with acid pools and Greenpath Lore Tablets lining a wall. The aesthetics resemble the Lake of Unn, and Unn herself can be seen as a sleeping mass in the background.</i>
+A deep green coloured dream with acid pools and Greenpath Lore Tablets lining a wall. The aesthetics resemble the Lake of Unn, and Unn herself can be seen as a sleeping mass in the background.
 
 This dream, although never truly entered at any point in the Knight's journey, is mentioned many times. It was from this dream that Unn created the Mosskin and Greenpath's vegetation. It is connected to a statue of Zote in Bretta's basement. This is where Grey Prince Zote is fought, and defeating him here four times causes Bretta to realise that her view of Zote was misguided.
 
 Lost Kin
 
-<i>A pale yellow dream mixed with greys. It has similar themes to the Forgotten Dream but some aspects are desaturated.</i>
+A pale yellow dream mixed with greys. It has similar themes to the Forgotten Dream but some aspects are desaturated.
 
 This dream formed after the Broken Vessel is defeated. It takes place in a constructed area of regular Hallownest architecture, unlike where the Broken Vessel is defeated in the Ancient Basin. The dream version of Broken Vessel, Lost Kin is fought in this dream.
 
 Soul Tyrant
 
-<i>A deep purple-hued dream with similar themes to the Forgotten Dream.</i>
+A deep purple-hued dream with similar themes to the Forgotten Dream.
 
 This dream is formed after the Soul Master died. It contains the area of Soul Sanctum where Soul Master is fought. Soul Tyrant, a more difficult version of Soul Master, can be fought here.
 
  White Defender
 
-<i>A bright grey dream featuring a style very reminiscent of the White Palace. The silhouettes of the Five Great Knights accompanying the Pale King on his throne can be seen in the background.</i>
+A bright grey dream featuring a style very reminiscent of the White Palace. The silhouettes of the Five Great Knights accompanying the Pale King on his throne can be seen in the background.
 
 A dream which can be accessed by using the Dream Nail on Dung Defender while he is sleeping. This is a dream or memory of Ogrim's past when he was still in the Pale Court with the other Great Knights. It takes place in his memory of the White Palace. White Defender, a past version of Ogrim, is fought here.
 
@@ -4966,19 +4726,19 @@ These dreams consist of multiple interconnected rooms. They generally feature un
 
  Godhome
 
-<i>A pale golden yellow dream with floral patterned architecture and strange antenna positioned at the peak. Corinthian style Greek pillars can also be found in the background and as platforms.</i>
+A pale golden yellow dream with floral patterned architecture and strange antenna positioned at the peak. Corinthian style Greek pillars can also be found in the background and as platforms.
 
 Godhome is the dream in which the Godseekers attune themselves to all the gods of Hallownest in order to find the God of Gods. It contains numerous Godseekers, although in the Junk Pit there is only one. The physical Godseeker is the host of Godhome.
 
 Shrine of Believers
 
-<i>A vibrant cobalt-hued dream with similar thematic pieces as the Forgotten Dream, the most notable part of this dream is the massive building it houses.</i>
+A vibrant cobalt-hued dream with similar thematic pieces as the Forgotten Dream, the most notable part of this dream is the massive building it houses.
 
 The Shrine of Believers contains utterings from another world. It is connected to a Moth statue in Spirits' Glade. The Unnamed Moth is also found in this dream.
 
 White Palace
 
-<i>A bright pale white dream, it consists of a series of difficult platforming sections and has motifs very unique to that of the Pale King - being his palace.</i>
+A bright pale white dream, it consists of a series of difficult platforming sections and has motifs very unique to that of the Pale King - being his palace.
 
 While the White Palace has completely disappeared in the waking world, it can be visited in this dream after obtaining the Awoken Dream Nail. The corpse of the Pale King can be found here on his throne along with a separate incarnation of him within a memory at the end of the  Path of Pain. A death in the White Palace is considered a real death.
 
@@ -4987,7 +4747,7 @@ These dreams have no single distinguishing feature which they have in common wit
 
 Birthplace memory
 
-<i>A dark, foggy dream with black particles floating around which takes place in the Abyss.</i>
+A dark, foggy dream with black particles floating around which takes place in the Abyss.
 
 The Birthplace memory can be accessed by using the Dream Nail on the Knight's reflection on the egg which can be found at the bottom of the Birthplace area in the Abyss. Unlike other dreams, the Knight is seen passing out upon using the Dream Nail. This dream also does not contain any Essence floating in the background.
 
@@ -4995,13 +4755,13 @@ The dream itself is a memory of the Knight where they need to climb to the top o
 
 Forgotten Dream
 
-<i>A light pink hued dream filled with floating platforms, lamps and metal dream catchers. At the end of this dream is a Moth statue along with the Dream Nail.</i>
+A light pink hued dream filled with floating platforms, lamps and metal dream catchers. At the end of this dream is a Moth statue along with the Dream Nail.
 
 A dream described by the Seer as a sad, forgotten dream. It is used by the Dreamers to trap the Knight in to halt their journey to break the seals. The Knight escapes this dream after receiving the Dream Nail from the Seer.
 
 Lifeblood
 
-<i>Bright blue-hued and full of Lifeblood plants, this dream comes from an offshoot in the Abyss. Being so it has the general physical compositions of the Abyss, but with blue Lifeblood elements overlayed.</i>
+Bright blue-hued and full of Lifeblood plants, this dream comes from an offshoot in the Abyss. Being so it has the general physical compositions of the Abyss, but with blue Lifeblood elements overlayed.
 
 The Dream Nail is not needed to enter this dream, however, it does take place in the dream realm as it has dream particles and clouds at the bottom. The Abyss Creature may be somewhat responsible for this dream, as its appearance in Godhome further ties its connections with dreams. Dying in this dream counts as a real death.
 
@@ -5013,16 +4773,14 @@ Cut black Essence sprites can be found in the game's files. The file name "Abyss
 ---
 
 ---
-
 # 文档：Wyrms
-
 - 类别：lore
 - 标识：wyrms
 - 来源：wiki/Wyrms
 
-<b>Wyrms</b> were ancient, powerful beings who "pulled bugs into their thrall". They were larger than even Bardoon, though they had fewer limbs. They also had the ability of foresight, meaning that they could predict the future to some extent. One of these Wyrms died in Kingdom's Edge, transforming into the Pale King.
+Wyrms were ancient, powerful beings who "pulled bugs into their thrall". They were larger than even Bardoon, though they had fewer limbs. They also had the ability of foresight, meaning that they could predict the future to some extent. One of these Wyrms died in Kingdom's Edge, transforming into the Pale King.
 
-There is a reference to another being called the <i>Blackwyrm</i> in White Defender's journal entry. This creature shares the word "wyrm" in its name; however, it is unclear whether it was a living Wyrm, a place or a moniker for something else.
+There is a reference to another being called the Blackwyrm in White Defender's journal entry. This creature shares the word "wyrm" in its name; however, it is unclear whether it was a living Wyrm, a place or a moniker for something else.
 
 At a certain point, all Wyrms died out or were wiped out from the world of Hallownest.
 
@@ -5033,9 +4791,7 @@ The former body of the Pale King, the Cast-Off Shell similarly has a horned crow
 ---
 
 ---
-
 # 文档：Abyss Creature
-
 - 类别：lore
 - 标识：abyss_creature
 - 来源：wiki/Abyss_Creature
@@ -5047,14 +4803,12 @@ The Abyss Creature can be seen again in a room behind the blue door in Godhome. 
 ---
 
 ---
-
 # 文档：Higher Beings
-
 - 类别：lore
 - 标识：higher_beings
 - 来源：wiki/Higher_Beings
 
-<b>Higher beings</b> are god-like creatures in the world of Hallownest and Pharloom that exist above all others. They have certain abilities and powers that regular bugs do not; although, these abilities are generally different for each higher being. In addition to this, some higher beings were deified; worshipped as gods by other bugs.
+Higher beings are god-like creatures in the world of Hallownest and Pharloom that exist above all others. They have certain abilities and powers that regular bugs do not; although, these abilities are generally different for each higher being. In addition to this, some higher beings were deified; worshipped as gods by other bugs.
 
 "Pale Being" is a term which refers to two higher beings, the Pale King and the White Lady. The Kingsoul, a holy Charm containing limitless Soul within, is a symbol of their union. The rare metal, Pale Ore, shares some unknown connection with these pale beings as well.
 
@@ -5083,7 +4837,7 @@ Other Powerful Beings
 It is not certain whether these beings are higher beings, although they do appear to have powers beyond that of most ordinary bugs.
 
 Gods of Thunder, Gods of Rain
-Little is known about these beings that come from the homeland of the Godseeker, the Land of Storms. It is presumed that they were dead when the Godseeker came to be, as their silence was the catalyst to the Godseeker arriving in Hallownest to find other gods as well as the Land of Storms itself being referred to as a "godless land". Huge corpses can be found in the background of the Land of Storms - particularly two major ones found in the room with the Weathered Mask. These are known as <b>"Old Gods"</b> in the game's files and are possibly the Gods of Thunder and Rain. It can be noted that the Godseeker indirectly calls the Old Gods "pretender Gods", though it is unknown if she is actually referring to the Gods of Thunder and the Gods of Rain with this statement.
+Little is known about these beings that come from the homeland of the Godseeker, the Land of Storms. It is presumed that they were dead when the Godseeker came to be, as their silence was the catalyst to the Godseeker arriving in Hallownest to find other gods as well as the Land of Storms itself being referred to as a "godless land". Huge corpses can be found in the background of the Land of Storms - particularly two major ones found in the room with the Weathered Mask. These are known as "Old Gods" in the game's files and are possibly the Gods of Thunder and Rain. It can be noted that the Godseeker indirectly calls the Old Gods "pretender Gods", though it is unknown if she is actually referring to the Gods of Thunder and the Gods of Rain with this statement.
 
 Vessels
 The Vessels are the genderless children of the Pale King and White Lady, born of their attempts to seal the Radiance away. They have been hollowed out by the void in the Abyss, and are now found prominentely around Hallownest, though most reside as corpses in the birthplace. Notable vessels include the Knight, Broken Vessel, the vessel in Greenpath, and the Hollow Knight. Though both parents are confirmed higher beings, it is debated whether they themselves are higher beings, as they are not shown to have powers or abilities commonly attributed to higher beings. Regardless, they do seem to have abilities above those of common bugs.
@@ -5102,35 +4856,31 @@ Lace is the Silk child of Grand Mother Silk.
 ---
 
 ---
-
 # 文档：Weavers
-
 - 类别：lore
 - 标识：weavers
 - 来源：wiki/Weavers
 
-The <b>Weavers</b> are a tribe of spiders that originate from Pharloom. They used to reside deep in the recesses of Deepnest in their own den. Despite bearing resemblance to the other creatures in Deepnest, such as the Deepling, they came from outside of Hallownest and established their own history and culture in Deepnest.
+The Weavers are a tribe of spiders that originate from Pharloom. They used to reside deep in the recesses of Deepnest in their own den. Despite bearing resemblance to the other creatures in Deepnest, such as the Deepling, they came from outside of Hallownest and established their own history and culture in Deepnest.
 
 The weavers once crafted stories, shields, and spells on their looms. The  Weaversong Charm is a remnant of what the Weavers could create with their talents. In the Weavers' Den, a seal can be found which is almost identical to the  Seal of Binding seen in the  Path of Pain.
 
 The tribe left Hallownest and returned to their old home
 
 Trivia
-The Weavers were originally supposed to appear in the game as a regular enemy early in development, but did not make the cut in the long run for unknown reasons. They were referred to as a <b>Spider Mage</b> and would lurk in the darkest corners of Hallownest.
-There is a Weaver wrapped up in webs seen in the <i>Hollow Knight: Silksong</i> trailer.
+The Weavers were originally supposed to appear in the game as a regular enemy early in development, but did not make the cut in the long run for unknown reasons. They were referred to as a Spider Mage and would lurk in the darkest corners of Hallownest.
+There is a Weaver wrapped up in webs seen in the Hollow Knight: Silksong trailer.
 The only known living Weavers are the Weaver found in Weaver's Den, the Widow, Hornet and the First Sinner.
 
 ---
 
 ---
-
 # 文档：Five Great Knights
-
 - 类别：lore
 - 标识：five_great_knights
 - 来源：wiki/Five_Great_Knights
 
-<b>The Five Great Knights</b> of Hallownest once stood beneath the throne as the kingdom's protectors. They are revered figures who are often mentioned in historical records but only as a group. Information on the individual Great Knights is sparse, with Relic Seeker Lemm noting that their names and appearance seem to have been erased from history.
+The Five Great Knights of Hallownest once stood beneath the throne as the kingdom's protectors. They are revered figures who are often mentioned in historical records but only as a group. Information on the individual Great Knights is sparse, with Relic Seeker Lemm noting that their names and appearance seem to have been erased from history.
 
 The Five Great Knights are:
 Ze'mer (Grey Mourner)
@@ -5180,24 +4930,22 @@ When he is defeated five times in his dreams as  White Defender, Ogrim wonders i
 Trivia
 
 A fight with Dryya was planned early in development but was later cut. A Kickstarter update described her as:
-<i>"One of Hallownest's five greatest Knights and defender of the Queen’s Glade. She was driven mad by her Queen lost and the garden overrun. Still she retains her honour, offering fair challenge to the Hollow Knight: Nail against nail. A duel to the death."</i>
+"One of Hallownest's five greatest Knights and defender of the Queen’s Glade. She was driven mad by her Queen lost and the garden overrun. Still she retains her honour, offering fair challenge to the Hollow Knight: Nail against nail. A duel to the death."
 Ogrim was revealed as a boss in a Kickstarter update with a different backstory:
-<i>"Deep in the Waterways beneath the City of Tears lurks a shunned being. Once a knight, now lost to puerile obsession: The Dung Defender. Despite his exile, the Dung Defender has for centuries maintained a self-conferred charge: the protection of his mysterious gleaming 'beloved.' Stalwart and full of bravado, the Dung defender eagerly challenges all who would enter his noxious realm."</i>
+"Deep in the Waterways beneath the City of Tears lurks a shunned being. Once a knight, now lost to puerile obsession: The Dung Defender. Despite his exile, the Dung Defender has for centuries maintained a self-conferred charge: the protection of his mysterious gleaming 'beloved.' Stalwart and full of bravado, the Dung defender eagerly challenges all who would enter his noxious realm."
 In early development, Herrah the Beast was named Hegemol. This was later changed to her current name.
 
 ---
 
 ---
-
 # 文档：Godseekers
-
 - 类别：lore
 - 标识：godseekers
 - 来源：wiki/Godseekers
 
 The lands of Hallownest are filled by several groups of strange sentient creatures. They occupy various territories around the vast kingdom and developed their own societies and cultures aside from the Pale King's rule.
 
-<b>Table of Contents</b>
+Table of Contents
 
 Bees • Flukes • Fools • Mantis Tribe • Mosskin Tribe • Moth Tribe • Mushroom Clan  • Snail Shamans • Soul Sanctum's Scholars • Spider Tribe • The Grimm Troupe • Godseekers
 
@@ -5212,20 +4960,16 @@ Besides the main Godseeker, there are Godseekers found all over the area of Godh
 They also have their own dialogue when Dream Nailed in the "Atrium".
 
 align="center" width="33%" |
-align="center" width="33%" |
-align="center" width="33%" |
 
 ---
 
 ---
-
 # 文档：Vessels
-
 - 类别：lore
 - 标识：vessels
 - 来源：wiki/Vessels
 
-<b>Vessels</b> are genderless beings of the Void who were created by the Pale King as a means of stopping the Infection. They are described as the progeny of the Pale King and the spawn of the White Lady, containing the "soul" of the two beings. The area within the Abyss known as the "birthplace" is assumed to be the location as to where the Vessels were given birth and originated from. This area is where most of them were discarded following the Pale King’s search for a Pure Vessel.
+Vessels are genderless beings of the Void who were created by the Pale King as a means of stopping the Infection. They are described as the progeny of the Pale King and the spawn of the White Lady, containing the "soul" of the two beings. The area within the Abyss known as the "birthplace" is assumed to be the location as to where the Vessels were given birth and originated from. This area is where most of them were discarded following the Pale King’s search for a Pure Vessel.
 
 Eventually, one Vessel was judged to be pure and was chosen to seal the Radiance within themself. This Vessel was named the Hollow Knight.
 
@@ -5267,16 +5011,14 @@ While all Vessels wear cloaks, those infected by the Radiance's cloaks are sever
 ---
 
 ---
-
 # 文档：Hallownest
-
 - 类别：lore
 - 标识：hallownest
 - 来源：wiki/Hallownest
 
-<b>Hallownest</b> is the location where <i>Hollow Knight</i> takes place. Once a thriving kingdom in the middle of a wasteland, it has fallen into ruin in the wake of the Infection.
+Hallownest is the location where Hollow Knight takes place. Once a thriving kingdom in the middle of a wasteland, it has fallen into ruin in the wake of the Infection.
 
-<b>Table of Contents</b>
+Table of Contents
 
 Geography • Beliefs • History • Gallery
 
@@ -5348,18 +5090,16 @@ style="border: 0;"|
 ---
 
 ---
-
 # 文档：Dreamers
-
 - 类别：lore
 - 标识：dreamers
 - 来源：wiki/Dreamers
 
-<i>To protect the Vessel, the Dreamers lay sleeping.</i>
+To protect the Vessel, the Dreamers lay sleeping.
 
-<i>Through their devotion, Hallownest lasts eternal.</i>
+Through their devotion, Hallownest lasts eternal.
 
-The <b>Dreamers</b> are three beings who entered into an eternal sleep in order to use their power to seal away the Hollow Knight. The ones who became the Dreamers are Monomon the Teacher, Lurien the Watcher, and Herrah the Beast. Their seals are present on the exterior of the Black Egg located in the Temple of the Black Egg.
+The Dreamers are three beings who entered into an eternal sleep in order to use their power to seal away the Hollow Knight. The ones who became the Dreamers are Monomon the Teacher, Lurien the Watcher, and Herrah the Beast. Their seals are present on the exterior of the Black Egg located in the Temple of the Black Egg.
 
 The Knight encounters two projections of the Dreamers. The first time is in Greenpath after picking up the Mothwing Cloak. The second time is in the Resting Grounds after inspecting the Dreamers memorial. Both times the Dreamers tell the Knight to stop trying to break their Seals. In the Resting Grounds, the Dreamers attempt to prevent the Knight from finding their resting bodies by trapping the Knight in the Dream Realm.
 
@@ -5373,7 +5113,7 @@ Their physical bodies can be found in different locations, with Monomon's physic
 Achievements
 
 Trivia
-In Team Cherry's previous game, <i>Hungry Knight</i>, there are three masks found on the bosses that look similar to the Dreamers', specifically Monomon's.
+In Team Cherry's previous game, Hungry Knight, there are three masks found on the bosses that look similar to the Dreamers', specifically Monomon's.
 In the original concepts for the Dreamers, all three Dreamers looked identical; sharing Monomon's mask and having the body shape of Lurien. The identical masks can still be seen on the archways outside the Temple of the Black Egg, and on one of the Hollow Knight promotional posters. The identical bodies can still be found on the Hollow Knight fountain in the City of Tears.
 Cut dialogue exists for all the Dreamers which can still be found in the game files.
 In early development, Herrah the Beast was named Hegemol. This was later changed to her current name.
@@ -5383,16 +5123,14 @@ A concept sketch of a spider-like being with an early Dreamer mask was shown in 
 ---
 
 ---
-
 # 文档：Soul Sanctum's Scholars
-
 - 类别：lore
 - 标识：soul_sanctums_scholars
 - 来源：wiki/Soul_Sanctum's_Scholars
 
 The lands of Hallownest are filled by several groups of strange sentient creatures. They occupy various territories around the vast kingdom and developed their own societies and cultures aside from the Pale King's rule.
 
-<b>Table of Contents</b>
+Table of Contents
 
 Bees • Flukes • Fools • Mantis Tribe • Mosskin Tribe • Moth Tribe • Mushroom Clan  • Snail Shamans • Soul Sanctum's Scholars • Spider Tribe • The Grimm Troupe • Godseekers
 
@@ -5410,14 +5148,12 @@ An early concept sketch shows a scholar with growths of Infection on their body.
 ---
 
 ---
-
 # 文档：Ancient Civilisation
-
 - 类别：lore
 - 标识：ancient_civilisation
 - 来源：wiki/Ancient_Civilisation
 
-The <b>ancient civilisation</b> was a civilisation of bugs that existed in the distant past before the Kingdom of Hallownest was founded. This civilisation did not devote its worship to any lord or power but instead worshipped the Void itself.
+The ancient civilisation was a civilisation of bugs that existed in the distant past before the Kingdom of Hallownest was founded. This civilisation did not devote its worship to any lord or power but instead worshipped the Void itself.
 
 Soul Totems
 
@@ -5433,7 +5169,7 @@ Extracting this knowledge is difficult and painstaking work for relic seekers su
 
  Void Idol
 
-The Void Idol is a rare artifact belonging to the ancient civilisation. Its Journal entry is obtained after defeating all bosses in the Hall of Gods on Attuned difficulty. Defeating all bosses on Ascended and Radiant changes the state of the idol. The first state of the Void Idol contains only a drop of Void. The imperfect nails which were discarded in this attempt eventually fused together to form the Quick Slash Charm. It is not known if the ancient Nailsmith was successful in creating a Pure Nail. Its Dream Nail dialogue, <i>"Pure"</i>, is the same as that of the Nailsmith's corpse after he has forged the Knight's Pure Nail. The hallway leading up to this room also has architecture similar to the Temple of the Black Egg and those found near many Soul Totems.
+The Void Idol is a rare artifact belonging to the ancient civilisation. Its Journal entry is obtained after defeating all bosses in the Hall of Gods on Attuned difficulty. Defeating all bosses on Ascended and Radiant changes the state of the idol. The first state of the Void Idol contains only a drop of Void. The imperfect nails which were discarded in this attempt eventually fused together to form the Quick Slash Charm. It is not known if the ancient Nailsmith was successful in creating a Pure Nail. Its Dream Nail dialogue, "Pure", is the same as that of the Nailsmith's corpse after he has forged the Knight's Pure Nail. The hallway leading up to this room also has architecture similar to the Temple of the Black Egg and those found near many Soul Totems.
 
 Shade Beast
 
@@ -5461,14 +5197,12 @@ The Shade Beast, Green Beast, and the Beast's Den shrine are shown in various co
 ---
 
 ---
-
 # 文档：Infection
-
 - 类别：lore
 - 标识：infection
 - 来源：wiki/Infection
 
-<b>The Infection</b>, sometimes referred to as the <b>ancient sickness</b>, <b>bright light</b>, or <b>the plague</b>, is the main antagonistic force in <i>Hollow Knight</i>, leading to the deaths of thousands of bugs and ultimately the downfall of the kingdom of Hallownest.
+The Infection, sometimes referred to as the ancient sickness, bright light, or the plague, is the main antagonistic force in Hollow Knight, leading to the deaths of thousands of bugs and ultimately the downfall of the kingdom of Hallownest.
 
 History
 Arrival of the Pale King
@@ -5487,9 +5221,9 @@ In-game events
 
 The Knight returned to Hallownest after a call went out from either the Radiance or the Hollow Knight. After the Knight kills one of the Dreamers or acquires the Monarch Wings, the Infection from the Black Egg spreads and intensifies. Many creatures in the Forgotten Crossroads become mutated, bloated, and dripping with Infection.
 
-During <i>the Hollow Knight</i> and <i>Sealed Siblings</i> endings, the Radiance and the Infection are sealed inside the Knight. In the <i>Dream No More</i> ending, the Radiance is consumed by the Void, stopping her influence on the dreams of Hallownest's inhabitants and putting an end to the Infection.
+During the Hollow Knight and Sealed Siblings endings, the Radiance and the Infection are sealed inside the Knight. In the Dream No More ending, the Radiance is consumed by the Void, stopping her influence on the dreams of Hallownest's inhabitants and putting an end to the Infection.
 
-If the Knight defeats the Absolute Radiance in the Pantheon of Hallownest, the Absolute Radiance is completely destroyed by Void given Focus. As a result of this, during the <i>Embrace the Void</i> ending, Hornet watches vines of Infection shrivel up and lose their colour, thus marking the end of the Infection.
+If the Knight defeats the Absolute Radiance in the Pantheon of Hallownest, the Absolute Radiance is completely destroyed by Void given Focus. As a result of this, during the Embrace the Void ending, Hornet watches vines of Infection shrivel up and lose their colour, thus marking the end of the Infection.
 
 Manifestation
 Mental
@@ -5510,16 +5244,14 @@ Despite being plants, the Fool Eaters and Gulkas are also Infected.
 ---
 
 ---
-
 # 文档：Bees
-
 - 类别：lore
 - 标识：bees
 - 来源：wiki/Bees
 
 The lands of Hallownest are filled by several groups of strange sentient creatures. They occupy various territories around the vast kingdom and developed their own societies and cultures aside from the Pale King's rule.
 
-<b>Table of Contents</b>
+Table of Contents
 
 Bees • Flukes • Fools • Mantis Tribe • Mosskin Tribe • Moth Tribe • Mushroom Clan  • Snail Shamans • Soul Sanctum's Scholars • Spider Tribe • The Grimm Troupe • Godseekers
 
@@ -5530,16 +5262,14 @@ The Hive attacks any intruder who does not wield their blood. They also rejected
 ---
 
 ---
-
 # 文档：Moth Tribe
-
 - 类别：lore
 - 标识：moth_tribe
 - 来源：wiki/Moth_Tribe
 
 The lands of Hallownest are filled by several groups of strange sentient creatures. They occupy various territories around the vast kingdom and developed their own societies and cultures aside from the Pale King's rule.
 
-<b>Table of Contents</b>
+Table of Contents
 
 Bees • Flukes • Fools • Mantis Tribe • Mosskin Tribe • Moth Tribe • Mushroom Clan  • Snail Shamans • Soul Sanctum's Scholars • Spider Tribe • The Grimm Troupe • Godseekers
 
@@ -5552,16 +5282,14 @@ The Moths are usually a passive species, with some exceptions. Thistlewind wield
 ---
 
 ---
-
 # 文档：Spider Tribe
-
 - 类别：lore
 - 标识：spider_tribe
 - 来源：wiki/Spider_Tribe
 
 The lands of Hallownest are filled by several groups of strange sentient creatures. They occupy various territories around the vast kingdom and developed their own societies and cultures aside from the Pale King's rule.
 
-<b>Table of Contents</b>
+Table of Contents
 
 Bees • Flukes • Fools • Mantis Tribe • Mosskin Tribe • Moth Tribe • Mushroom Clan  • Snail Shamans • Soul Sanctum's Scholars • Spider Tribe • The Grimm Troupe • Godseekers
 
@@ -5576,14 +5304,12 @@ Eventually, the Pale King was able to bargain with Herrah the Beast for her help
 ---
 
 ---
-
 # 文档：Dirtcarver
-
 - 类别：enemies
 - 标识：dirtcarver
 - 来源：wiki/Dirtcarver
 
-<b>Dirtcarvers</b> are enemies in <i>Hollow Knight</i>. They are crawling predators who dig small tunnels and burst out of them to surprise prey.
+Dirtcarvers are enemies in Hollow Knight. They are crawling predators who dig small tunnels and burst out of them to surprise prey.
 
 Behaviour and Tactics
 Burrows out of the ground with little warning then charges at the Knight. Occasionally it burrows back into the ground only to re-emerge later. It can climb walls and jump down ledges to pursue the Knight.
@@ -5607,14 +5333,12 @@ References
 ---
 
 ---
-
 # 文档：Crystal Hunter
-
 - 类别：enemies
 - 标识：crystal_hunter
 - 来源：wiki/Crystal_Hunter
 
-<b>Crystal Hunters</b> are enemies in <i>Hollow Knight</i>. They use their crystalline growths to fire crystals at intruders.
+Crystal Hunters are enemies in Hollow Knight. They use their crystalline growths to fire crystals at intruders.
 
 Behaviour and Tactics
 Hovers in the air, usually out of melee range, shooting a crystalline projectile at the Knight that turns into a cluster of crystals when it makes contact with a surface. These clusters dissipate after a short period of time but can otherwise easily be broken with a Nail strike, and can be Nail-bounced on.
@@ -5632,14 +5356,12 @@ References
 ---
 
 ---
-
 # 文档：Great Hopper
-
 - 类别：enemies
 - 标识：great_hopper
 - 来源：wiki/Great_Hopper
 
-<b>Great Hoppers</b> are enemies in <i>Hollow Knight</i>. The adult form of the Hopper, these large creatures attempt to crush prey beneath their bodies.
+Great Hoppers are enemies in Hollow Knight. The adult form of the Hopper, these large creatures attempt to crush prey beneath their bodies.
 
 Behaviour and Tactics
 Hops continuously up and down, dealing contact damage and shaking the ground when it lands. Unlike normal Hoppers, it changes direction to chase the Knight.
@@ -5650,8 +5372,8 @@ Location
 They are found in the southeast part of Kingdom's Edge. Two of them are spawned by hitting the dummy in Oro's backyard. They are also found within the Colosseum of Fools, in the Trial of the Conqueror.
 
 Trivia
-In a Kickstarter update they are referred to as <b>"Greater Susking Hoppod"</b>:
-<i>"An overgrown bloodsucker that will patiently stalk its prey until it finds the right time to strike."</i>
+In a Kickstarter update they are referred to as "Greater Susking Hoppod":
+"An overgrown bloodsucker that will patiently stalk its prey until it finds the right time to strike."
 In the A Weird and Wonderful World Trailer it is shown to had been possibly considered a boss or a mini-boss in early development.
 The dummy located near Nailmaster Oro is the corpse of a Great Hopper.
 
@@ -5660,28 +5382,24 @@ References
 ---
 
 ---
-
 # 文档：Husk Guard
-
 - 类别：enemies
 - 标识：husk_guard
 - 来源：wiki/Husk_Guard
 
-<b>Husk Guards</b> are enemies in <i>Hollow Knight</i>. In life, these bugs used to be guards of the Forgotten Crossroads. Reanimated after death, they still instinctually guard their former posts.
+Husk Guards are enemies in Hollow Knight. In life, these bugs used to be guards of the Forgotten Crossroads. Reanimated after death, they still instinctually guard their former posts.
 
 References
 
 ---
 
 ---
-
 # 文档：Belfly
-
 - 类别：enemies
 - 标识：belfly
 - 来源：wiki/Belfly
 
-<b>Belflies</b> are enemies in <i>Hollow Knight</i>. They are quick, highly volatile flying creatures who dive at prey with no sense of self-preservation.
+Belflies are enemies in Hollow Knight. They are quick, highly volatile flying creatures who dive at prey with no sense of self-preservation.
 
 Behaviour and Tactics
 Hangs from a ceiling, emitting a high-pitched squeak. Listen carefully for this sound as it is usually found in dark or secluded places, where spotting it usually means that it is too late to avoid contact with it.
@@ -5706,14 +5424,12 @@ References
 ---
 
 ---
-
 # 文档：Brooding Mawlek
-
 - 类别：enemies
 - 标识：brooding_mawlek
 - 来源：wiki/Brooding_Mawlek
 
-The <b>Brooding Mawlek</b> is a hidden boss in <i>Hollow Knight</i> as well as a Colosseum of Fools mini-boss.
+The Brooding Mawlek is a hidden boss in Hollow Knight as well as a Colosseum of Fools mini-boss.
 
 In-game events
 One lone Brooding Mawlek can be found off-road in the Forgotten Crossroads (or Infected Crossroads), far from its living brethren in the Ancient Basin. It sits amidst fossilised remains of its kind and calls for them to breed. This wild beast was driven mad both by its loneliness and the Infection which started covering its body with bulbs. It attacks the Knight as soon as they enter its room by jumping from the background. Upon defeat, the Infection bursts out of the Mawlek, making it explode.
@@ -5725,10 +5441,10 @@ At the beginning of its fight in the Pantheon of Hallownest, Tiso appears instea
 Behaviour and Tactics
 The Brooding Mawlek uses the following attacks:
 
-<b>Slash</b>: Brooding Mawlek uses either of its claws to perform a downward slash towards the Knight. It only uses this attack if the Knight gets too close and can use it in conjunction with the Spit attack.
-<b>Spit</b>: Brooding Mawlek spits blobs of Infection in parabolic arcs at regular intervals while skittering slowly across the ground. These blobs fly towards whichever side of the arena the Knight happens to be standing on. This attack can happen in conjunction with the Slash Attack. Brooding Mawlek spits 3-4 times before either performing a Leap or a Vomit.
-<b>Leap</b>: Brooding Mawlek leaps to the Knight's location, landing where the Knight was at the beginning of its leap. Then, it immediately follows that leap with a jump back to the original position of where it landed at the start of the fight.
-<b>Vomit</b>: Brooding Mawlek shoots a multitude of blobs of Infection in a parabolic arc simultaneously. These blobs fly towards whichever side of the arena the Knight happens to be standing on at the time. Brooding Mawlek stands idle until all the blobs have made contact with the ground.
+Slash: Brooding Mawlek uses either of its claws to perform a downward slash towards the Knight. It only uses this attack if the Knight gets too close and can use it in conjunction with the Spit attack.
+Spit: Brooding Mawlek spits blobs of Infection in parabolic arcs at regular intervals while skittering slowly across the ground. These blobs fly towards whichever side of the arena the Knight happens to be standing on. This attack can happen in conjunction with the Slash Attack. Brooding Mawlek spits 3-4 times before either performing a Leap or a Vomit.
+Leap: Brooding Mawlek leaps to the Knight's location, landing where the Knight was at the beginning of its leap. Then, it immediately follows that leap with a jump back to the original position of where it landed at the start of the fight.
+Vomit: Brooding Mawlek shoots a multitude of blobs of Infection in a parabolic arc simultaneously. These blobs fly towards whichever side of the arena the Knight happens to be standing on at the time. Brooding Mawlek stands idle until all the blobs have made contact with the ground.
 
 ---
 
@@ -5757,19 +5473,17 @@ Trivia
 The Brooding Mawlek was the second mini-boss revealed in a Kickstarter update as an optional boss.
 The Brooding Mawlek found in the Trial of the Fool is somewhat smaller and thinner than the one in Forgotten Crossroads. It has no behavioural differences.
 This may be due to the size constraints of having a roof in the Colosseum.
-Concept art of Brooding Mawlek under the name <b>"Vicious Mawlek"</b>, featured in a Team Cherry interview, shows it with extra sets of claws and teeth along its body.
+Concept art of Brooding Mawlek under the name "Vicious Mawlek", featured in a Team Cherry interview, shows it with extra sets of claws and teeth along its body.
 
 ---
 
 ---
-
 # 文档：Aspid Mother
-
 - 类别：enemies
 - 标识：aspid_mother
 - 来源：wiki/Aspid_Mother
 
-<b>Aspid Mothers</b> are enemies in <i>Hollow Knight</i>. They are the females of the Aspid species. Carrying their eggs inside their bodies, they can hatch and birth their young to attack threats.
+Aspid Mothers are enemies in Hollow Knight. They are the females of the Aspid species. Carrying their eggs inside their bodies, they can hatch and birth their young to attack threats.
 
 Behaviour and Tactics
 Births Aspid Hatchlings one at a time, up to a maximum of fifteen. Two more Hatchlings are spawned upon defeat.
@@ -5780,10 +5494,10 @@ Location
 Aspid Mothers can be found in the Forgotten Crossroads, mainly next to the Tram station.
 
 Trivia
-In a Kickstarter update, she was referred to as <b>"Bulbous Hummingnit (Female)"</b>:
-<i>"The female of this species is just as aggressive as the male. Appallingly, it uses its own young as a defensive measure against intruders."</i>
+In a Kickstarter update, she was referred to as "Bulbous Hummingnit (Female)":
+"The female of this species is just as aggressive as the male. Appallingly, it uses its own young as a defensive measure against intruders."
 A particularly large, dead Aspid Mother can be seen where the Glowing Womb Charm is collected, although she is not fought.
-When Dream Nailed, she gives the line: <i>"Breed..."</i>
+When Dream Nailed, she gives the line: "Breed..."
 She is referred to as "giant_hatcher_corpse" and "HATCHLING_QUEEN_CORPSE" in the game files
 Pre-release Aspid Mothers featured a reddish body colour rather than bright orange.
 If an Aspid Mother has 14 or 15 Aspid Hatchlings spawned when killed, a large amount of Infection pours out instead of the usual two Hatchlings.
@@ -5793,14 +5507,12 @@ References
 ---
 
 ---
-
 # 文档：Crystal Guardian
-
 - 类别：enemies
 - 标识：crystal_guardian
 - 来源：wiki/Crystal_Guardian
 
-The <b>Crystal Guardian</b> is an optional boss in <i>Hollow Knight</i>. The Enraged Guardian is its second, stronger and faster form. Both forms have to be beaten to unlock its Journal entry.
+The Crystal Guardian is an optional boss in Hollow Knight. The Enraged Guardian is its second, stronger and faster form. Both forms have to be beaten to unlock its Journal entry.
 
 Lore
 The Crystal Guardian is part of the miners of Crystal Peak who died from the Infection and were reanimated by it. It appears larger than the other husks, has crystal growing on its back and encasing both its arms and its head. It also has more mastery over the crystal's light than the Crystallised Husks.
@@ -5814,9 +5526,9 @@ The Guardian can be followed to the room above its abandoned resting place using
 
 Behaviour and Tactics
 The Crystal Guardian has three manoeuvres:
-<b>Laser Beam</b>: The Crystal Guardian shoots a beam of crystal energy from its hand. It targets the Knight with its arm, firing a beam where they were when it started its attack. The beam is dangerous for about half a second.
-<b>Sky Beams</b>: The Crystal Guardian screams, and, throughout the arena, up to four beams of crystal energy simultaneously shoot down from the ceiling. These beams each trigger at different times and stay dangerous for about half a second. This attack can happen in conjunction with the Guardian's Laser Beam attack. Each beam can be at a different angle between plus and minus 15 degrees from the vertical. The Crystal Guardian always starts the fight with this attack.
-<b>Hop</b>: The Crystal Guardian randomly hops either a short or long distance to move within the arena.
+Laser Beam: The Crystal Guardian shoots a beam of crystal energy from its hand. It targets the Knight with its arm, firing a beam where they were when it started its attack. The beam is dangerous for about half a second.
+Sky Beams: The Crystal Guardian screams, and, throughout the arena, up to four beams of crystal energy simultaneously shoot down from the ceiling. These beams each trigger at different times and stay dangerous for about half a second. This attack can happen in conjunction with the Guardian's Laser Beam attack. Each beam can be at a different angle between plus and minus 15 degrees from the vertical. The Crystal Guardian always starts the fight with this attack.
+Hop: The Crystal Guardian randomly hops either a short or long distance to move within the arena.
 
 ---
 
@@ -5834,7 +5546,7 @@ The Crystal Guardian can be encountered for the first time in the Bench room in 
 Trivia
 When standing close to the Crystal Guardian, it sometimes shoots a laser straight into the ground. This is most likely a targeting glitch.
 Beating the Crystal Guardian in  Godhome does not contribute to unlocking its Hunter's Journal entry.
-Since the  <i>Lifeblood</i> update, the Crystal Guardian has a voice when its crystal growth is shattered.
+Since the  Lifeblood update, the Crystal Guardian has a voice when its crystal growth is shattered.
 Its voice is reused from the Sturdy Fool.
 
 References
@@ -5842,14 +5554,12 @@ References
 ---
 
 ---
-
 # 文档：Deephunter
-
 - 类别：enemies
 - 标识：deephunter
 - 来源：wiki/Deephunter
 
-<b>Deephunters</b> are enemies in <i>Hollow Knight</i>. They are many-legged creatures who spit burning venom at intruders.
+Deephunters are enemies in Hollow Knight. They are many-legged creatures who spit burning venom at intruders.
 
 Behaviour and Tactics
 Crawls along walls and roofs, spitting burning blobs of venom at the Knight once in range. They are often found in places where the terrain and the hazards make them difficult to reach and kill.
@@ -5868,14 +5578,12 @@ References
 ---
 
 ---
-
 # 文档：Baldur
-
 - 类别：enemies
 - 标识：baldur
 - 来源：wiki/Baldur
 
-<b>Baldurs</b> are enemies in <i>Hollow Knight</i>. They are small, crawling creatures who defend themselves by rolling into a ball. A stronger variant called the Sharp Baldur is bred to fight in the Colosseum of Fools.
+Baldurs are enemies in Hollow Knight. They are small, crawling creatures who defend themselves by rolling into a ball. A stronger variant called the Sharp Baldur is bred to fight in the Colosseum of Fools.
 
 Behaviour and Tactics
 Rolls into a ball and propels itself towards the Knight, bouncing off walls and other Baldurs. After a short time, it uncurls and reorients itself to face the Knight again.
@@ -5887,8 +5595,8 @@ They are found in the Ancestral Mound, Crystallised Mound, and the Howling Cliff
 
 Trivia
 
-In a Kickstarter update, it was referred to as <b>"Scrundling Propede (infant)</b>":
-<i>"Although the shells of these youngsters are not thick enough to protect them from predators, they are still able to defend themselves if pressed."</i>
+In a Kickstarter update, it was referred to as "Scrundling Propede (infant)":
+"Although the shells of these youngsters are not thick enough to protect them from predators, they are still able to defend themselves if pressed."
 Prior to the Voidheart Edition, the Hunter's Journal image for the Baldur showed them with white eyes, even though their eyes during gameplay are orange.
 
 References
@@ -5896,14 +5604,12 @@ References
 ---
 
 ---
-
 # 文档：Husk Warrior
-
 - 类别：enemies
 - 标识：husk_warrior
 - 来源：wiki/Husk_Warrior
 
-<b>Husk Warriors</b> are enemies in <i>Hollow Knight</i>. Unlike most other husks of their size, these reanimated corpses use a nail and shell when fighting.
+Husk Warriors are enemies in Hollow Knight. Unlike most other husks of their size, these reanimated corpses use a nail and shell when fighting.
 
 Behaviour and Tactics
 Patrols back and forth. Once disturbed, it defends with its shield, even if the Knight attempts to perform a down-strike. When it attacks, it performs three consecutive strikes before defending with its shield again.
@@ -5914,22 +5620,20 @@ Location
 Only two can be found in the Forgotten Crossroads, to the east of the Stag Station.
 
 Trivia
-In a Kickstarter update, it was referred to as "<b>Endemons Sapien (Infected)</b>":
-<i>"These vicious, mindless ghouls were once ordinary bugs like you and me. Something below the surface has burnt away their souls and filled them with an aimless rage."</i>
+In a Kickstarter update, it was referred to as "Endemons Sapien (Infected)":
+"These vicious, mindless ghouls were once ordinary bugs like you and me. Something below the surface has burnt away their souls and filled them with an aimless rage."
 
 References
 
 ---
 
 ---
-
 # 文档：Leaping Husk
-
 - 类别：enemies
 - 标识：leaping_husk
 - 来源：wiki/Leaping_Husk
 
-<b>Leaping Husks</b> are enemies in <i>Hollow Knight</i>. These reanimated corpses used to be citizens of the kingdom of Hallownest. They attack creatures who are not Infected by leaping at them.
+Leaping Husks are enemies in Hollow Knight. These reanimated corpses used to be citizens of the kingdom of Hallownest. They attack creatures who are not Infected by leaping at them.
 
 Behaviour and Tactics
 Meanders back and forth until disturbed. Leaps at the Knight when in range. Only dangerous when not on level ground or near hazards, however, this can be taken advantage of by getting them to throw themselves into hazards.
@@ -5938,22 +5642,20 @@ Location
 Mostly in small groups, they are found in the Forgotten Crossroads, Greenpath, the City of Tears, and the Howling Cliffs.
 
 Trivia
-In a Kickstarter update, it was referred to as <b>"Endemons Sapien (Infected)"</b>:
-<i>"These vicious, mindless ghouls were once ordinary bugs like you and me. Something below the surface has burnt away their souls and filled them with an aimless rage."</i>
+In a Kickstarter update, it was referred to as "Endemons Sapien (Infected)":
+"These vicious, mindless ghouls were once ordinary bugs like you and me. Something below the surface has burnt away their souls and filled them with an aimless rage."
 
 References
 
 ---
 
 ---
-
 # 文档：Gruzzer
-
 - 类别：enemies
 - 标识：gruzzer
 - 来源：wiki/Gruzzer
 
-<b>Gruzzers</b> are enemies in <i>Hollow Knight</i>. They are round bugs with small wings and a shrivelled proboscis that pay little attention to their surroundings.
+Gruzzers are enemies in Hollow Knight. They are round bugs with small wings and a shrivelled proboscis that pay little attention to their surroundings.
 
 Behaviour and Tactics
 Flies around, bumping into walls and objects, changing direction on contact.
@@ -5967,8 +5669,8 @@ Eight are also spawned by the death of the Gruz Mother in the Forgotten Crossroa
 
 Trivia
 The Gruzzer is one of the few enemies that respawns upon leaving and re-entering the room.
-In a Kickstarter update, it was referred to as <b>Droobling Muzznik</b>:
-<i>"These morose-looking flies buzz around haphazardly through the caverns, bouncing off of walls and irritating travellers."</i>
+In a Kickstarter update, it was referred to as Droobling Muzznik:
+"These morose-looking flies buzz around haphazardly through the caverns, bouncing off of walls and irritating travellers."
 Gruzzers are quite rare once the Forgotten Crossroads become Infected, making it harder to complete the Hunter's Journal if not enough of them have been killed before. However, two Gruzzers can still be found at the entrance of the cave that leads to the Brooding Mawlek, even after the Infection spreads.
 
 References
@@ -5976,14 +5678,12 @@ References
 ---
 
 ---
-
 # 文档：Duranda
-
 - 类别：enemies
 - 标识：duranda
 - 来源：wiki/Duranda
 
-<b>Durandas</b> are enemies in <i>Hollow Knight</i>. They are large flying creatures who are protected by their spikey shell, largely ignoring outsiders.
+Durandas are enemies in Hollow Knight. They are large flying creatures who are protected by their spikey shell, largely ignoring outsiders.
 
 Behaviour and Tactics
 Floats around passively, always facing the Knight. It only takes damage from its unarmoured front and can be used to traverse areas that are above thorns before acquiring Crystal Heart by Nail-bouncing on its hard shell.
@@ -5999,14 +5699,12 @@ References
 ---
 
 ---
-
 # 文档：Moss Knight
-
 - 类别：enemies
 - 标识：moss_knight
 - 来源：wiki/Moss_Knight
 
-<b>Moss Knights</b> are enemies in <i>Hollow Knight</i>. They are part of the Mosskin Tribe. Moss Knights protect Greenpath with their Nail and Shell, hiding as bush-like mounds to ambush invaders.
+Moss Knights are enemies in Hollow Knight. They are part of the Mosskin Tribe. Moss Knights protect Greenpath with their Nail and Shell, hiding as bush-like mounds to ambush invaders.
 
 Behaviour and Tactics
 Moss Knights have four attacks:
@@ -6034,14 +5732,12 @@ References
 ---
 
 ---
-
 # 文档：Crystal Crawler
-
 - 类别：enemies
 - 标识：crystal_crawler
 - 来源：wiki/Crystal_Crawler
 
-<b>Crystal Crawlers</b> are enemies in <i>Hollow Knight</i>. They are creatures who use crystal lenses to focus beams of searing light from their backs.
+Crystal Crawlers are enemies in Hollow Knight. They are creatures who use crystal lenses to focus beams of searing light from their backs.
 
 Behaviour and Tactics
 
@@ -6063,14 +5759,12 @@ References
 ---
 
 ---
-
 # 文档：Aspid Hunter
-
 - 类别：enemies
 - 标识：aspid_hunter
 - 来源：wiki/Aspid_Hunter
 
-<b>Aspid Hunters</b> are enemies in <i>Hollow Knight</i>. They are the males of the Aspid species. Aspid Hunters usually hunt in packs and spit corrosive liquid at prey from a distance. A more powerful variant called Primal Aspids can be found in Kingdom's Edge.
+Aspid Hunters are enemies in Hollow Knight. They are the males of the Aspid species. Aspid Hunters usually hunt in packs and spit corrosive liquid at prey from a distance. A more powerful variant called Primal Aspids can be found in Kingdom's Edge.
 
 Behaviour and Tactics
 Aimlessly hovers around until approached by the Knight. It attacks from a distance by spitting blobs of corrosive liquid.
@@ -6083,22 +5777,20 @@ Aspid Hunters can be found in the Forgotten Crossroads (mainly the area where th
 Trivia
 
 The Aspid Hunter is one of the few enemies that respawns upon leaving and re-entering the room.
-In a Kickstarter update, it was referred to as <b>"Bulbous Hummingnit (Male)"</b>:
-<i>"The male of this species is extremely aggressive, and will spit corrosive balls of venom at prey and intruders alike. Especially dangerous when encountered in packs."</i>
+In a Kickstarter update, it was referred to as "Bulbous Hummingnit (Male)":
+"The male of this species is extremely aggressive, and will spit corrosive balls of venom at prey and intruders alike. Especially dangerous when encountered in packs."
 
 References
 
 ---
 
 ---
-
 # 文档：Crawlid
-
 - 类别：enemies
 - 标识：crawlid
 - 来源：wiki/Crawlid
 
-<b>Crawlids</b> are enemies in <i>Hollow Knight</i>. They scurry around on the ground in search of food. It is the first enemy encountered in the game and is very easy to deal with.
+Crawlids are enemies in Hollow Knight. They scurry around on the ground in search of food. It is the first enemy encountered in the game and is very easy to deal with.
 
 Behaviour and Tactics
 Meanders back and forth peacefully and doesn't attempt to target the Knight. Cannot climb up walls or ceilings.
@@ -6109,8 +5801,8 @@ Crawlids can be found mainly in the Forgotten Crossroads, as well as in the Howl
 Trivia
 The Hunter's Journal entry for the Crawlid is automatically filled in upon acquiring the Journal.
 The Crawlid is one of the few enemies that respawns upon leaving and re-entering the room.
-In a Kickstarter update they were referred to as <b>"Snittering Crawlid"</b>:
-<i>"Nothing more than a nuisance, these oblivious little scavengers wander about aimlessly looking for scraps of food."</i>
+In a Kickstarter update they were referred to as "Snittering Crawlid":
+"Nothing more than a nuisance, these oblivious little scavengers wander about aimlessly looking for scraps of food."
 The design of the Crawlid prior to release featured a smooth shell with no spikes.
 Its design was changed after feedback from internal and public playtests. These tests revealed that the old design did not make it clear that jumping on a Crawlid's back could deal contact damage.
 In the beta, Crawlids already had spikes, but they were smaller than they are in the final release, with the frontmost spike missing.
@@ -6121,14 +5813,12 @@ References
 ---
 
 ---
-
 # 文档：Vengefly King
-
 - 类别：enemies
 - 标识：vengefly_king
 - 来源：wiki/Vengefly_King
 
-The <b>Vengefly King</b> is an optional mini-boss in <i>Hollow Knight</i> as well as a Colosseum of Fools mini-boss. Unlocking its Journal entry requires defeating 2 Vengefly Kings.
+The Vengefly King is an optional mini-boss in Hollow Knight as well as a Colosseum of Fools mini-boss. Unlocking its Journal entry requires defeating 2 Vengefly Kings.
 
 In-game events
 Vengefly Kings are the territorial patriarchs of Vengeflies and are native to Greenpath. One can be encountered above the roads of Greenpath, hanging on the ceiling and chewing on Zote. Harming it prompts it to release Zote and fight the Knight. Upon defeat, the Infection bursts out of it and makes it explode. Neglecting to help Zote results instead in the Vengefly King eating him before disappearing.
@@ -6138,8 +5828,8 @@ One more Vengefly King can be fought during the Trial of the Warrior.
 Behaviour & Tactics
 The Vengefly King has two attacks:
 
-<b>Swipe</b>: The Vengefly King opens its jaw and swoops at the Knight in a wide 'U' shape.
-<b>Summoning Scream</b>: The Vengefly King emits a screech, summoning between 0 and 2 Vengeflies. A maximum of 4 Vengeflies can be alive at once.
+Swipe: The Vengefly King opens its jaw and swoops at the Knight in a wide 'U' shape.
+Summoning Scream: The Vengefly King emits a screech, summoning between 0 and 2 Vengeflies. A maximum of 4 Vengeflies can be alive at once.
 
 ---
 
@@ -6163,14 +5853,12 @@ References
 ---
 
 ---
-
 # 文档：Volt Twister
-
 - 类别：enemies
 - 标识：volt_twister
 - 来源：wiki/Volt_Twister
 
-<b>Volt Twisters</b> are enemies in <i>Hollow Knight</i>. They were scholars of Soul Sanctum who attack using bursts of electricity. They spend their entire lives fighting in the Colosseum of Fools or meditating alone.
+Volt Twisters are enemies in Hollow Knight. They were scholars of Soul Sanctum who attack using bursts of electricity. They spend their entire lives fighting in the Colosseum of Fools or meditating alone.
 
 Behaviour and Tactics
 Volt Twisters teleport around the area, attempting to avoid the Knight. They have only one attack, which consists of them charging up and releasing a series of 8 electric bursts of lightning that spawn at the Knight's location, very similar to one of Uumuu's attacks.
@@ -6185,14 +5873,12 @@ References
 ---
 
 ---
-
 # 文档：Charged Lumafly
-
 - 类别：enemies
 - 标识：charged_lumafly
 - 来源：wiki/Charged_Lumafly
 
-<b>Charged Lumaflies</b> are enemies in <i>Hollow Knight</i>. They cluster together in small swarms, building up static charges.
+Charged Lumaflies are enemies in Hollow Knight. They cluster together in small swarms, building up static charges.
 
 Behaviour and Tactics
 Generates damaging electricity at regular 2-second intervals and cannot be killed.
@@ -6210,14 +5896,12 @@ References
 ---
 
 ---
-
 # 文档：Death Loodle
-
 - 类别：enemies
 - 标识：death_loodle
 - 来源：wiki/Death_Loodle
 
-<b>Death Loodles</b> are enemies in <i>Hollow Knight</i>. They are Loodles who wear a helmet and were taught to fight in the Colosseum of Fools.
+Death Loodles are enemies in Hollow Knight. They are Loodles who wear a helmet and were taught to fight in the Colosseum of Fools.
 
 Behaviour and Tactics
 Acts the same as regular Loodles, hopping around and sticking to surfaces.
@@ -6237,14 +5921,12 @@ References
 ---
 
 ---
-
 # 文档：Bluggsac
-
 - 类别：enemies
 - 标识：bluggsac
 - 来源：wiki/Bluggsac
 
-<b>Bluggsacs</b> are enemies in <i>Hollow Knight</i>. They are placid clusters of fluid sacs which occasionally produce a foul-smelling egg.
+Bluggsacs are enemies in Hollow Knight. They are placid clusters of fluid sacs which occasionally produce a foul-smelling egg.
 
 Behaviour and Tactics
 Passive and stationary, it does not retaliate when attacked, nor does it deal contact damage. Drops a Rancid Egg upon death.
@@ -6266,14 +5948,12 @@ The Bluggsac is one of the few enemies that never respawns.
 ---
 
 ---
-
 # 文档：Boofly
-
 - 类别：enemies
 - 标识：boofly
 - 来源：wiki/Boofly
 
-<b>Booflies</b> are enemies in <i>Hollow Knight</i>. They are hovering, docile bugs who peacefully float around in Kingdom's Edge.
+Booflies are enemies in Hollow Knight. They are hovering, docile bugs who peacefully float around in Kingdom's Edge.
 
 Behaviour and Tactics
 Floats passively and does not retaliate when attacked. Often found in platforming sections, where its massive bulk blocks the way and makes platforming more difficult. However, Nail-bouncing on it can sometimes help with traversing through these difficult platforming sections more easily.
@@ -6289,14 +5969,12 @@ References
 ---
 
 ---
-
 # 文档：Primal Aspid
-
 - 类别：enemies
 - 标识：primal_aspid
 - 来源：wiki/Primal_Aspid
 
-<b>Primal Aspids</b> are enemies in <i>Hollow Knight</i>. They are the ancestral form of the Aspids, once thought to be extinct. The most dangerous in packs, these flying hunters attack by spraying venom at prey.
+Primal Aspids are enemies in Hollow Knight. They are the ancestral form of the Aspids, once thought to be extinct. The most dangerous in packs, these flying hunters attack by spraying venom at prey.
 
 Behaviour and Tactics
 Generally hovers outside of melee reach and spits three blobs of venom in a spread 35 degrees apart, the middle one aimed at the Knight, making the attack difficult to dodge, especially at close range.
@@ -6315,14 +5993,12 @@ References
 ---
 
 ---
-
 # 文档：Shielded Fool
-
 - 类别：enemies
 - 标识：shielded_fool
 - 来源：wiki/Shielded_Fool
 
-<b>Shielded Fools</b> are enemies in <i>Hollow Knight</i>. They are shielded combatants who fight for glory in the Colosseum of Fools.
+Shielded Fools are enemies in Hollow Knight. They are shielded combatants who fight for glory in the Colosseum of Fools.
 
 Behaviour and Tactics
 Cautiously walks towards the Knight, raising its shield when they come close, which blocks any damage from the front (except for Spells). If the Knight moves too close, they may back off a few steps.
@@ -6341,14 +6017,12 @@ References
 ---
 
 ---
-
 # 文档：Obble
-
 - 类别：enemies
 - 标识：obble
 - 来源：wiki/Obble
 
-<b>Obbles</b> are enemies in <i>Hollow Knight</i>. They are slow, flying bugs who attack by spewing acidic venom. A stronger variant called the Battle Obble is bred to fight in the Colosseum of Fools. Oblobbles are the larger cousins of the Obble.
+Obbles are enemies in Hollow Knight. They are slow, flying bugs who attack by spewing acidic venom. A stronger variant called the Battle Obble is bred to fight in the Colosseum of Fools. Oblobbles are the larger cousins of the Obble.
 
 Behaviour and Tactics
 Flies around its territory, bouncing off of any surfaces it comes into contact with. Whenever the Knight is within its range, it periodically spews four blobs of acidic liquid in an X-shaped pattern. Also attacks after taking any damage.
@@ -6367,14 +6041,12 @@ References
 ---
 
 ---
-
 # 文档：Vengefly
-
 - 类别：enemies
 - 标识：vengefly
 - 来源：wiki/Vengefly
 
-<b>Vengeflies</b> are enemies in <i>Hollow Knight</i>. They are flying predators who inhabit many areas in Hallownest, although the Vengefly King is native to Greenpath.
+Vengeflies are enemies in Hollow Knight. They are flying predators who inhabit many areas in Hallownest, although the Vengefly King is native to Greenpath.
 
 Behaviour and Tactics
 Hovers in the air, moving around a small area. Emits a squawk before homing in on the Knight when they come in range.
@@ -6389,24 +6061,22 @@ All but one of the Vengeflies in the Forgotten Crossroads are replaced by Furiou
 Trivia
 The Vengefly is one of the few enemies that respawns upon leaving and re-entering the room.
 Vengeflies spawned by the Vengefly King in Greenpath still drop Geo.
-In a Kickstarter update, it was referred to as <b>Vengeward Buzzerfly</b>:
-<i>"Once this flying predator has caught sight of its prey, it will hunt it relentlessly through the darkness."</i>
+In a Kickstarter update, it was referred to as Vengeward Buzzerfly:
+"Once this flying predator has caught sight of its prey, it will hunt it relentlessly through the darkness."
 
 References
 
 ---
 
 ---
-
 # 文档：Soul Twister
-
 - 类别：enemies
 - 标识：soul_twister
 - 来源：wiki/Soul_Twister
 
 Not to be confused with Spell Twister.
 
-<b>Soul Twisters</b> are enemies in <i>Hollow Knight</i>. They are scholars of the Soul Sanctum who have learnt how to harness the power of SOUL, which they twist into spells and use to teleport.
+Soul Twisters are enemies in Hollow Knight. They are scholars of the Soul Sanctum who have learnt how to harness the power of SOUL, which they twist into spells and use to teleport.
 
 Behaviour and Tactics
 Appearing out of thin air upon entering their territory, a Soul Twister either conjures an orb to protect itself, or already has an orb upon teleporting into battle. Afterwards, it pursues the Knight by teleporting and conjuring homing offensive orbs to attack with. It teleports frequently around its territory, making it difficult to hit and impossible to corner. It hovers a certain distance away from the Knight at all times, though it must remain stationary to conjure an orb. If the Knight enters an area it cannot teleport to, it teleports out of the vicinity but returns once the Knight re-enters its territory and resumes the battle.
@@ -6425,14 +6095,12 @@ References
 ---
 
 ---
-
 # 文档：Winged Fool
-
 - 类别：enemies
 - 标识：winged_fool
 - 来源：wiki/Winged_Fool
 
-<b>Winged Fools</b> are enemies in <i>Hollow Knight</i>. These winged warriors fight other bugs to the death in the Colosseum of Fools.
+Winged Fools are enemies in Hollow Knight. These winged warriors fight other bugs to the death in the Colosseum of Fools.
 
 Behaviour and Tactics
 They hover outside of the Knight's reach, then lunge toward them in an arc, slashing their weapon.
@@ -6449,14 +6117,12 @@ References
 ---
 
 ---
-
 # 文档：Wandering Husk
-
 - 类别：enemies
 - 标识：wandering_husk
 - 来源：wiki/Wandering_Husk
 
-<b>Wandering Husks</b> are enemies in <i>Hollow Knight</i>. Once citizens of Hallownest, these reanimated corpses now wander the roads of the kingdom.
+Wandering Husks are enemies in Hollow Knight. Once citizens of Hallownest, these reanimated corpses now wander the roads of the kingdom.
 
 Behaviour and Tactics
 Meanders back and forth until disturbed. It then flails its arms about wildly and runs at the Knight, dealing contact damage.
@@ -6465,22 +6131,20 @@ Location
 They can be found in large quantities in the Forgotten Crossroads, though only one can be found there after they become Infected. They can also be found in Greenpath, the City of Tears, and Deepnest.
 
 Trivia
-In a Kickstarter update, it was referred to as <b>"Endemons Sapien (Infected)"</b>:
-<i>"These vicious, mindless ghouls were once ordinary bugs like you and me. Something below the surface has burnt away their souls and filled them with an aimless rage."</i>
+In a Kickstarter update, it was referred to as "Endemons Sapien (Infected)":
+"These vicious, mindless ghouls were once ordinary bugs like you and me. Something below the surface has burnt away their souls and filled them with an aimless rage."
 
 References
 
 ---
 
 ---
-
 # 文档：Stalking Devout
-
 - 类别：enemies
 - 标识：stalking_devout
 - 来源：wiki/Stalking_Devout
 
-<b>Stalking Devouts</b> are enemies in <i>Hollow Knight</i>. They are cloaked worshippers of Herrah the Beast who use their foreclaws to shield their head.
+Stalking Devouts are enemies in Hollow Knight. They are cloaked worshippers of Herrah the Beast who use their foreclaws to shield their head.
 
 Behaviour and Tactics
 Found in narrow tunnels, sleeping. Upon engaging, it skitters back and forth, often waiting in one spot before moving again or attacking. It is invulnerable from the front unless it is attacking.
@@ -6504,14 +6168,12 @@ References
 ---
 
 ---
-
 # 文档：Carver Hatcher
-
 - 类别：enemies
 - 标识：carver_hatcher
 - 来源：wiki/Carver_Hatcher
 
-<b>Carver Hatchers</b> are enemies in <i>Hollow Knight</i>. They are flying creatures who spawn Dirtcarvers when prey is nearby.
+Carver Hatchers are enemies in Hollow Knight. They are flying creatures who spawn Dirtcarvers when prey is nearby.
 
 Behaviour and Tactics
 Spawns Dirtcarvers while hovering above the Knight, tries to back away and evade when the Knight gets close.
@@ -6526,14 +6188,12 @@ Carver Hatchers can only be spotted in the north part of Deepnest, where the Fai
 ---
 
 ---
-
 # 文档：Uoma
-
 - 类别：enemies
 - 标识：uoma
 - 来源：wiki/Uoma
 
-<b>Uomas</b> are enemies in <i>Hollow Knight</i>. They are small gelatinous creatures whose static-charged outer shells give an electric shock on contact. The Uomas are connected in some way to Monomon the Teacher.
+Uomas are enemies in Hollow Knight. They are small gelatinous creatures whose static-charged outer shells give an electric shock on contact. The Uomas are connected in some way to Monomon the Teacher.
 
 Behaviour and Tactics
 Floats passively in place, dealing damage if the Knight comes in contact with it.
@@ -6550,14 +6210,12 @@ References
 ---
 
 ---
-
 # 文档：Cowardly Husk
-
 - 类别：enemies
 - 标识：cowardly_husk
 - 来源：wiki/Cowardly_Husk
 
-<b>Cowardly Husks</b> are enemies in <i>Hollow Knight</i>. These reanimated bugs used to belong to Hallownest's high society, and their cowardly nature still persists after death.
+Cowardly Husks are enemies in Hollow Knight. These reanimated bugs used to belong to Hallownest's high society, and their cowardly nature still persists after death.
 
 Behaviour and Tactics
 Meanders back and forth. When disturbed, it either runs towards the Knight and deals contact damage or flees. If backed into a corner, either the edge of an area or against a solid wall, it may occasionally fall into pits and drown rather than run towards the Knight.
@@ -6573,14 +6231,12 @@ References
 ---
 
 ---
-
 # 文档：Crystallised Husk
-
 - 类别：enemies
 - 标识：crystallised_husk
 - 来源：wiki/Crystallised_Husk
 
-<b>Crystallised Husks</b> are enemies in <i>Hollow Knight</i>. They were miners in Crystal Peak who died amongst the crystals and were reanimated by the Infection. The crystals which they grew within their husks are used to fire beams of light from their arms.
+Crystallised Husks are enemies in Hollow Knight. They were miners in Crystal Peak who died amongst the crystals and were reanimated by the Infection. The crystals which they grew within their husks are used to fire beams of light from their arms.
 
 Behaviour and Tactics
 Runs back and forth until disturbed. Upon seeing the Knight, it attempts to aim its beam at their location. Similar to Crystal Crawlers and the Crystal Guardian, its beams start off thin and harmless, giving a small time frame to avoid it as it expands a second later, becoming dangerous and dealing damage.
@@ -6597,14 +6253,12 @@ References
 ---
 
 ---
-
 # 文档：Tiktik
-
 - 类别：enemies
 - 标识：tiktik
 - 来源：wiki/Tiktik
 
-<b>Tiktiks</b> are enemies in <i>Hollow Knight</i>. They use their sharp claws to crawl on floors and ceilings near the surface of the kingdom.
+Tiktiks are enemies in Hollow Knight. They use their sharp claws to crawl on floors and ceilings near the surface of the kingdom.
 
 Behaviour and Tactics
 Crawls along every surface of the platform it is on, clinging to walls and ceilings, dealing contact damage. If knocked off a ledge, they will drop down and continue to crawl along whatever new platform they land on. They do not pursue the Knight.
@@ -6616,22 +6270,20 @@ The Tiktik, much like the Crawlid, can be found mainly in the northwest of the F
 
 Trivia
 The Tiktik is one of the few enemies that respawns upon leaving and re-entering the room.
-In a Kickstarter update, it was referred to as <b>Segmented Clamberbab</b>:
-<i>"A spiky, tenacious little bug that climbs all over the place using its pointed feet. Always seems to be in a bit of a hurry."</i>
+In a Kickstarter update, it was referred to as Segmented Clamberbab:
+"A spiky, tenacious little bug that climbs all over the place using its pointed feet. Always seems to be in a bit of a hurry."
 
 References
 
 ---
 
 ---
-
 # 文档：Armoured Squit
-
 - 类别：enemies
 - 标识：armoured_squit
 - 来源：wiki/Armoured_Squit
 
-<b>Armoured Squits</b> are enemies in <i>Hollow Knight</i>. They are descendants of the Squit, bred exclusively for battle in the Colosseum of Fools.
+Armoured Squits are enemies in Hollow Knight. They are descendants of the Squit, bred exclusively for battle in the Colosseum of Fools.
 
 Behaviour and Tactics
 Behaves exactly like regular Squits, but with a health boost. It remains stationary until the Knight comes within range. Once engaged, it hovers a short distance away before flying directly at the Knight with its sharp proboscis raised. As it does not change direction during this charge, jumping or dashing over/through it is enough to avoid this attack.
@@ -6646,14 +6298,12 @@ References
 ---
 
 ---
-
 # 文档：Battle Obble
-
 - 类别：enemies
 - 标识：battle_obble
 - 来源：wiki/Battle_Obble
 
-<b>Battle Obbles</b> are enemies in <i>Hollow Knight</i>. These bulbous creatures were raised in the Colosseum of Fools for combat. The Obble is their wild relative.
+Battle Obbles are enemies in Hollow Knight. These bulbous creatures were raised in the Colosseum of Fools for combat. The Obble is their wild relative.
 
 Behaviour and Tactics
 Flies around in random patterns and intermittently fires four blobs of Infection in an X-shaped pattern. Also fires after taking any damage.
@@ -6668,14 +6318,12 @@ Battle Obbles are only found in the Colosseum of Fools, in the second and last T
 ---
 
 ---
-
 # 文档：Durandoo
-
 - 类别：enemies
 - 标识：durandoo
 - 来源：wiki/Durandoo
 
-<b>Durandoos</b> are enemies in <i>Hollow Knight</i>. They are large, armour-shelled bugs who frequent shallow pools of acidic water.
+Durandoos are enemies in Hollow Knight. They are large, armour-shelled bugs who frequent shallow pools of acidic water.
 
 Behaviour and Tactics
 Slowly swims back and forth passively in acid pools. It can be used to traverse above acid before acquiring Isma's Tear or Crystal Heart by Nail-bouncing on it as it cannot be harmed this way due to its spiky shell. It only takes damage from the front; however, it is rather difficult to hit it with the Nail without Isma's Tear, so the use of Spells is recommended.
@@ -6692,26 +6340,24 @@ References
 ---
 
 ---
-
 # 文档：Absolute Radiance
-
 - 类别：enemies, bosses
 - 标识：absolute-radiance
 - 来源：wiki/Absolute_Radiance
 
-<b>Absolute Radiance</b> is the final boss of <i>:Category:Godmaster</i> in <i>Hollow Knight (game)</i>. She is the perfect form of the Radiance and sits at the peak of the Pantheon of Hallownest.
+Absolute Radiance is the final boss of :Category:Godmaster in Hollow Knight (game). She is the perfect form of the Radiance and sits at the peak of the Pantheon of Hallownest.
 
 Behaviour and Tactics
 Absolute Radiance's attacks are also almost identical to the Radiance's but come at a much faster pace. She also has an altered final Phase. Her fight contains the following attacks with any modifications stated:
-<b>Beam Burst</b>: Absolute Radiance fires near instantaneous sets of beams fired back to back.
-<b>Sword Burst</b>: Absolute Radiance now summons two sets of swords instead of one, the second is rotated from the first.
-<b>Sword Rain</b>: Absolute Radiance's swords fall faster and at a shorter interval in Phases 1 and 2. Sword fall speed is the same in Phase 3 but the interval is slightly shorter.
-<b>Sword Wall</b>: Absolute Radiance's swords travel faster but only in 3 sets in Phases 1 and 2. Sword speed and total sets are the same as the Radiance's during Phase 4.
-<b>Wall of Light</b>: Absolute Radiance's wall travels faster.
-<b>Orb</b>: The colour and visuals of the orbs are more vibrant, they travel twice as fast, and take much tighter turns to home in onto the Knight. Absolute Radiance summons these about 1 second apart. She summons 3 to 4 of these orbs.
-<b>Spike Floor</b>: Absolute Radiance's spikes spawn every 6 to 8 seconds in Phase 2. They are constant in Phase 3.
-<b>Big Beam</b>: The beam is slightly thinner and becomes dangerous within half a second. The beams also come every 1 second with each beam starting just as the last one ends.
-<b>Orb Barrage</b>: The only new attack features slower orbs but are constantly fired every 2 seconds. These orbs behave much more like the Radiance's orbs and disappear if lead off-screen. This attack is only used in Phase 6.
+Beam Burst: Absolute Radiance fires near instantaneous sets of beams fired back to back.
+Sword Burst: Absolute Radiance now summons two sets of swords instead of one, the second is rotated from the first.
+Sword Rain: Absolute Radiance's swords fall faster and at a shorter interval in Phases 1 and 2. Sword fall speed is the same in Phase 3 but the interval is slightly shorter.
+Sword Wall: Absolute Radiance's swords travel faster but only in 3 sets in Phases 1 and 2. Sword speed and total sets are the same as the Radiance's during Phase 4.
+Wall of Light: Absolute Radiance's wall travels faster.
+Orb: The colour and visuals of the orbs are more vibrant, they travel twice as fast, and take much tighter turns to home in onto the Knight. Absolute Radiance summons these about 1 second apart. She summons 3 to 4 of these orbs.
+Spike Floor: Absolute Radiance's spikes spawn every 6 to 8 seconds in Phase 2. They are constant in Phase 3.
+Big Beam: The beam is slightly thinner and becomes dangerous within half a second. The beams also come every 1 second with each beam starting just as the last one ends.
+Orb Barrage: The only new attack features slower orbs but are constantly fired every 2 seconds. These orbs behave much more like the Radiance's orbs and disappear if lead off-screen. This attack is only used in Phase 6.
 
 ---
 
@@ -6735,14 +6381,12 @@ References
 ---
 
 ---
-
 # 文档：Aluba
-
 - 类别：enemies
 - 标识：aluba
 - 来源：wiki/Aluba
 
-<b>Alubas</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are gentle, passive gliders who prefer to be near acid waters. It is said they are attracted to the resting places of beings of Higher Beings.
+Alubas are Enemies (Hollow Knight) in Hollow Knight (game). They are gentle, passive gliders who prefer to be near acid waters. It is said they are attracted to the resting places of beings of Higher Beings.
 
 Behaviour and Tactics
 Floats back and forth passively, dealing contact damage but is otherwise harmless.
@@ -6763,14 +6407,12 @@ References
 ---
 
 ---
-
 # 文档：Ambloom
-
 - 类别：enemies
 - 标识：ambloom
 - 来源：wiki/Ambloom
 
-<b>Amblooms</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are simple-minded crawling mushrooms who do not attack directly.
+Amblooms are Enemies (Hollow Knight) in Hollow Knight (game). They are simple-minded crawling mushrooms who do not attack directly.
 
 Behaviour and Tactics
 Meanders back and forth passively, but deals contact damage. It crawls about rather quickly, and can often be partially obscured by foreground environments.
@@ -6786,14 +6428,12 @@ References
 ---
 
 ---
-
 # 文档：Aspid Hatchling
-
 - 类别：enemies
 - 标识：aspid-hatchling
 - 来源：wiki/Aspid_Hatchling
 
-<b>Aspid Hatchlings</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are recently born Aspids who instinctively swarm around threats.
+Aspid Hatchlings are Enemies (Hollow Knight) in Hollow Knight (game). They are recently born Aspids who instinctively swarm around threats.
 
 Behaviour and Tactics
 Spawned by Aspid Mothers, flies towards the Knight if within range. Two additional ones spawn when the Mother dies.
@@ -6808,34 +6448,32 @@ References
 ---
 
 ---
-
 # 文档：Brothers Oro & Mato
-
 - 类别：enemies, bosses
 - 标识：brothers-oro-&-mato
 - 来源：wiki/Brothers_Oro_&_Mato
 
-The <b>Nailmaster Brothers Oro & Mato</b> are a dual quest Bosses (Hollow Knight) in <i>Hollow Knight (game)</i> introduced in Godmaster. They sit at the top of the Pantheon of the Master in Godhome.
+The Nailmaster Brothers Oro & Mato are a dual quest Bosses (Hollow Knight) in Hollow Knight (game) introduced in Godmaster. They sit at the top of the Pantheon of the Master in Godhome.
 
 Behaviour and Tactics
 Phase 1
 Nailmaster Oro uses the following attacks:
-<b>Double Slash</b>: Oro swings his nail twice. The first slash is a backhand swipe, and the second slash is an overhead swipe (much like the Watcher Knight but with more range). He moves about a full body's width forward with the first slash and only about half that with the second.
-<b>Jump Slash</b>: Oro leaps towards the Knight location, stopping in midair briefly before dropping straight down with his nail swiping down. He targets the Knight with this attack before leaving the ground which can result in him jumping backwards. His leading foot and his nail always extends beyond the Knight's previous position when slashing downwards.
-<b>Dash Slash</b>: Oro performs his signature Nail Art: the Dash Slash. His Dash Slash covers the entire breadth of the arena with Oro himself covering about 75% of the arena, and the slash covering the rest. Oro telegraphs his Dash Slash when he quickly leaps up and out of view for a moment before landing at either end of the arena. If Oro is already on one end of the arena, he does not perform this jump. Oro takes nearly 1.5 seconds to charge up this attack.
-<b>Roll back</b>: Oro rolls backwards to reposition or dodge.
-<b>Jump back</b>: Oro jumps back, to reposition or to dodge.
+Double Slash: Oro swings his nail twice. The first slash is a backhand swipe, and the second slash is an overhead swipe (much like the Watcher Knight but with more range). He moves about a full body's width forward with the first slash and only about half that with the second.
+Jump Slash: Oro leaps towards the Knight location, stopping in midair briefly before dropping straight down with his nail swiping down. He targets the Knight with this attack before leaving the ground which can result in him jumping backwards. His leading foot and his nail always extends beyond the Knight's previous position when slashing downwards.
+Dash Slash: Oro performs his signature Nail Art: the Dash Slash. His Dash Slash covers the entire breadth of the arena with Oro himself covering about 75% of the arena, and the slash covering the rest. Oro telegraphs his Dash Slash when he quickly leaps up and out of view for a moment before landing at either end of the arena. If Oro is already on one end of the arena, he does not perform this jump. Oro takes nearly 1.5 seconds to charge up this attack.
+Roll back: Oro rolls backwards to reposition or dodge.
+Jump back: Oro jumps back, to reposition or to dodge.
 
 Phase 2
 Nailmaster Mato joins Oro in the fight, and they use the following attacks:
 
-<b>Alternating Strikes</b>: When the Knight is on either side of the arena, the Brothers alternate between the Double Slash and Jump Slash attacks; with a Brother performing one attack then backing off allowing the other brother to perform an attack in quick succession. This series of moves is interrupted if the Knight moves in between the two Brothers. If 4-6 consecutive combo strikes occur without interruption one of the Brothers performs his signature Nail Art.
-<b>Twin Combo Attack</b>: When the Knight is between the Brothers, they use either a Double Slash or a Jump Slash attack together (can be both or either), facing each other.
-<b>Barricade</b>: One of the Brothers holds up his nail in a defensive position while the other is using his Nail Art. Striking a Brother who is using this defensive position does not hurt him, and also causes him to retaliate with a Double Slash or a Jump Slash.
+Alternating Strikes: When the Knight is on either side of the arena, the Brothers alternate between the Double Slash and Jump Slash attacks; with a Brother performing one attack then backing off allowing the other brother to perform an attack in quick succession. This series of moves is interrupted if the Knight moves in between the two Brothers. If 4-6 consecutive combo strikes occur without interruption one of the Brothers performs his signature Nail Art.
+Twin Combo Attack: When the Knight is between the Brothers, they use either a Double Slash or a Jump Slash attack together (can be both or either), facing each other.
+Barricade: One of the Brothers holds up his nail in a defensive position while the other is using his Nail Art. Striking a Brother who is using this defensive position does not hurt him, and also causes him to retaliate with a Double Slash or a Jump Slash.
 
 Nailmaster Mato uses the same attacks as Oro but replaces the Dash Slash with his own Nail Art:
 
-<b>Cyclone Slash</b>: Mato performs his signature Nail Art: the Cyclone Slash. This Cyclone Slash carries Mato high into the air, where, after he is done spinning, Mato comes down just like during a Jump Slash. Mato moves towards the Knight as he spins. He determines which direction he is going to move before he starts spinning. Mato spins for a little more than 1.5 seconds. Mato telegraphs his Cyclone Slash when he quickly leaps up and out of view for a moment before landing at the centre of the arena. If Mato is already near the centre of the arena (or if he's fighting alone), he simply begins charging. Mato also takes nearly 1.5 seconds to charge up his attack.
+Cyclone Slash: Mato performs his signature Nail Art: the Cyclone Slash. This Cyclone Slash carries Mato high into the air, where, after he is done spinning, Mato comes down just like during a Jump Slash. Mato moves towards the Knight as he spins. He determines which direction he is going to move before he starts spinning. Mato spins for a little more than 1.5 seconds. Mato telegraphs his Cyclone Slash when he quickly leaps up and out of view for a moment before landing at the centre of the arena. If Mato is already near the centre of the arena (or if he's fighting alone), he simply begins charging. Mato also takes nearly 1.5 seconds to charge up his attack.
 
 ---
 
@@ -6873,14 +6511,12 @@ References
 ---
 
 ---
-
 # 文档：Collector
-
 - 类别：enemies, bosses
 - 标识：collector
 - 来源：wiki/Collector
 
-<b>The Collector</b> is a hidden Bosses (Hollow Knight) in <i>Hollow Knight (game)</i>. Defeating it grants the Collector's Map.
+The Collector is a hidden Bosses (Hollow Knight) in Hollow Knight (game). Defeating it grants the Collector's Map.
 
 Lore
 The Collector is a Void creature. It lives hidden away in the locked Tower of Love along with a large collection of bugs from throughout Hallownest that are preserved, both dead and alive, in glass jars.
@@ -6893,9 +6529,9 @@ The Collector can be heard laughing outside the padded door of the Tower of Love
 Behaviour and Tactics
 The Collector uses a series of attacks and manoeuvres mainly focused on spawning enemies:
 
-<b>Jar</b>: The Collector leaps into the ceiling, causing glass jars to rain down. The glass jars fall from random positions in the ceiling. While falling, the jars do not break when they hit the Knight, but they do deal contact damage. The jars shatter when they hit the ground, and each glass jar randomly lets out 1 of 3 enemies: Vengefly, Baldurs and Aspid Hunters. A noise of rattling glass sounds for each jar that comes down and can be used to determine the number of jars that fall, along with a puff of dust signifying where they fall. Hitting a jar with any attack immediately shatters it, preventing the enemy from spawning. When all of the glass jars have fallen, the Collector drops back down.
-<b>Grab</b>: The Collector leaps towards the Knight's position and makes grabbing motions, dealing contact damage.
-<b>Hop</b>: The Collector's method of traversing the arena: it quickly jumps a set distance with its hands raised. There is a set number of hops the Collector can make before performing another attack.
+Jar: The Collector leaps into the ceiling, causing glass jars to rain down. The glass jars fall from random positions in the ceiling. While falling, the jars do not break when they hit the Knight, but they do deal contact damage. The jars shatter when they hit the ground, and each glass jar randomly lets out 1 of 3 enemies: Vengefly, Baldurs and Aspid Hunters. A noise of rattling glass sounds for each jar that comes down and can be used to determine the number of jars that fall, along with a puff of dust signifying where they fall. Hitting a jar with any attack immediately shatters it, preventing the enemy from spawning. When all of the glass jars have fallen, the Collector drops back down.
+Grab: The Collector leaps towards the Knight's position and makes grabbing motions, dealing contact damage.
+Hop: The Collector's method of traversing the arena: it quickly jumps a set distance with its hands raised. There is a set number of hops the Collector can make before performing another attack.
 
 Jars
 The number of jars that the Collector drops depends on the number of summons still alive and the current Phase. When 4 or more summons are alive, the Collector stops dropping jars. After taking 350 damage, the Collector transitions into Phase 2, increasing the speed of the Jar attack.
@@ -6934,14 +6570,12 @@ If the Knight dies to the Collector, the Shade that appears will be trapped in a
 ---
 
 ---
-
 # 文档：Corpse Creeper
-
 - 类别：enemies
 - 标识：corpse-creeper
 - 来源：wiki/Corpse_Creeper
 
-<b>Corpse Creepers</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are parasites which hide inside husks, controlling their host's body when the husk is defeated.
+Corpse Creepers are Enemies (Hollow Knight) in Hollow Knight (game). They are parasites which hide inside husks, controlling their host's body when the husk is defeated.
 
 Behaviour and Tactics
 When certain Husk Hornheads and Wandering Husks in Deepnest are killed, they have a 50% chance to reanimate as Corpse Creepers. This is signalled by the body of the corpse twitching a few seconds after death before sprouting legs and attacking. They also emit a loud screeching sound cue after transformation which is useful to inform of an off-screen reanimation.
@@ -6964,14 +6598,12 @@ References
 ---
 
 ---
-
 # 文档：Deepling
-
 - 类别：enemies
 - 标识：deepling
 - 来源：wiki/Deepling
 
-<b>Deeplings</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are infants who creep around in the shadows, learning the layout of their home.
+Deeplings are Enemies (Hollow Knight) in Hollow Knight (game). They are infants who creep around in the shadows, learning the layout of their home.
 
 Behaviour and Tactics
 Skitters about, dealing contact damage. They are very weak but very quick. Be careful not to jump onto them while platforming.
@@ -6980,27 +6612,25 @@ Location
 They are very commonly spotted in the west portion of Deepnest.
 
 Trivia
-They used to sometimes spawn if one of the brown eggs found around Deepnest was broken. This was removed in the  <i>:Category: Lifeblood</i> update.
+They used to sometimes spawn if one of the brown eggs found around Deepnest was broken. This was removed in the  :Category: Lifeblood update.
 
 References
 
 ---
 
 ---
-
 # 文档：Elder Baldur
-
 - 类别：enemies
 - 标识：elder-baldur
 - 来源：wiki/Elder_Baldur
 
-<b>Elder Baldurs</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are adult Baldurs with thick armour plating who block pathways. The ones guarding Ancestral Mound and the entrance to Greenpath are not optional and must be defeated in order to progress through the game.
+Elder Baldurs are Enemies (Hollow Knight) in Hollow Knight (game). They are adult Baldurs with thick armour plating who block pathways. The ones guarding Ancestral Mound and the entrance to Greenpath are not optional and must be defeated in order to progress through the game.
 
 Behaviour and Tactics
 Remains stationary, taking no knockback. It can use one of three attacks:
-<b>Summon Baldur</b>: It occasionally spawns a Baldur. It can't spawn a Baldur if one is already present.
-<b>Spit Venom</b>: It occasionally spits a blob of venom that lingers on the ground for a small amount of time.
-<b>Shell Curl</b>: When approached, it curls into a ball that cannot be damaged.
+Summon Baldur: It occasionally spawns a Baldur. It can't spawn a Baldur if one is already present.
+Spit Venom: It occasionally spits a blob of venom that lingers on the ground for a small amount of time.
+Shell Curl: When approached, it curls into a ball that cannot be damaged.
 
 Elder Baldurs can be killed with Spells, such as Vengeful Spirit/Shade Soul and Desolate Dive/Descending Dark. The spawned Baldurs can be killed to gather SOUL, which can then be used to cast Spells at the Elder Baldur when it is not curled.
 
@@ -7026,20 +6656,18 @@ References
 ---
 
 ---
-
 # 文档：Enraged Guardian
-
 - 类别：enemies, bosses
 - 标识：enraged-guardian
 - 来源：wiki/Enraged_Guardian
 
-The <b>Enraged Guardian</b> is the second form of the Crystal Guardian and an optional Bosses (Hollow Knight) in <i>Hollow Knight (game)</i>. It is faster and tougher than its original form and deals twice the amount of damage with its attacks. Both forms have to be beaten to unlock its Hunter's Journal entry.
+The Enraged Guardian is the second form of the Crystal Guardian and an optional Bosses (Hollow Knight) in Hollow Knight (game). It is faster and tougher than its original form and deals twice the amount of damage with its attacks. Both forms have to be beaten to unlock its Hunter's Journal entry.
 
 Behaviour and Tactics
 The Enraged Guardian has the same three manoeuvres as its first form:
-<b>Laser Beam</b>: The Enraged Guardian shoots a beam of crystal energy from its hand. It targets the Knight with its arm, firing a beam where they were when it started its attack. The beam is dangerous for about half a second.
-<b>Sky Beams</b>: The Enraged Guardian screams, and throughout the arena, up to four beams of crystal energy shoot down from the ceiling, in succession. These beams each trigger at different times and stay dangerous for about half a second. Each beam can be at a different angle between plus and minus 15 degrees from the vertical. The Enraged Guardian always starts the fight with this attack followed by the Hop attack.
-<b>Hop</b>: The Enraged Guardian randomly hops either a short or long distance to move within the arena.
+Laser Beam: The Enraged Guardian shoots a beam of crystal energy from its hand. It targets the Knight with its arm, firing a beam where they were when it started its attack. The beam is dangerous for about half a second.
+Sky Beams: The Enraged Guardian screams, and throughout the arena, up to four beams of crystal energy shoot down from the ceiling, in succession. These beams each trigger at different times and stay dangerous for about half a second. Each beam can be at a different angle between plus and minus 15 degrees from the vertical. The Enraged Guardian always starts the fight with this attack followed by the Hop attack.
+Hop: The Enraged Guardian randomly hops either a short or long distance to move within the arena.
 
 ---
 
@@ -7053,20 +6681,18 @@ Location
 The Enraged Guardian is directly above the room where the Crystal Guardian is fought. It can only be encountered if the first form has been defeated. Reaching it also requires the Monarch Wings.
 
 Trivia
-The name Enraged Guardian was coined in the  <i>Godmaster</i> content pack, prior to which it was commonly referred to as simply "Crystal Guardian 2".
+The name Enraged Guardian was coined in the  Godmaster content pack, prior to which it was commonly referred to as simply "Crystal Guardian 2".
 Beating the Crystal Guardian in  Godhome does not contribute to unlocking its Hunter's Journal entry.
 
 ---
 
 ---
-
 # 文档：Entombed Husk
-
 - 类别：enemies
 - 标识：entombed-husk
 - 来源：wiki/Entombed_Husk
 
-<b>Entombed Husks</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are decaying mummified corpses which became enraged by the Infection. Hiding in the darkness, they wait for creatures to come close to them.
+Entombed Husks are Enemies (Hollow Knight) in Hollow Knight (game). They are decaying mummified corpses which became enraged by the Infection. Hiding in the darkness, they wait for creatures to come close to them.
 
 Behaviour and Tactics
 Slowly drags itself about and charges quickly towards the Knight once in range, swiping three times while pulling itself forward. It deals two Masks of damage on contact.
@@ -7084,20 +6710,18 @@ References
 ---
 
 ---
-
 # 文档：Failed Champion
-
 - 类别：enemies, bosses
 - 标识：failed-champion
 - 来源：wiki/Failed_Champion
 
-<b>Failed Champion</b> is a hidden Bosses (Hollow Knight) in <i>Hollow Knight (game)</i>. It is the Dream variant of the False Knight, faster and tougher than its physical counterpart.
+Failed Champion is a hidden Bosses (Hollow Knight) in Hollow Knight (game). It is the Dream variant of the False Knight, faster and tougher than its physical counterpart.
 
 Behaviour and Tactics
 Failed Champion's behaviour is very similar to False Knight's, but his attack rate and speed have been increased immensely. Contact damage and physical attacks now deal two Masks of damage, while shockwaves and falling barrels still deal one Mask. In addition, the following attacks have had tweaks:
-<b>Leap</b>: Failed Champion only uses this attack after the first Phase. This makes Leaping Bludgeon much more common.
-<b>Slam</b>: The slam is much faster, and the shockwave created from the slam is much larger and taller. Barrels fall from this attack in all Phases.
-<b>Leaping Bludgeon</b>: The height of the jump is lower. Barrels fall from this attack in all Phases.
+Leap: Failed Champion only uses this attack after the first Phase. This makes Leaping Bludgeon much more common.
+Slam: The slam is much faster, and the shockwave created from the slam is much larger and taller. Barrels fall from this attack in all Phases.
+Leaping Bludgeon: The height of the jump is lower. Barrels fall from this attack in all Phases.
 
 ---
 
@@ -7129,14 +6753,12 @@ References
 ---
 
 ---
-
 # 文档：Fluke Larva
-
 - 类别：enemies
 - 标识：fluke-larva
 - 来源：wiki/Fluke_Larva
 
-<b>Fluke Larvae</b> are tiny, immobile Flukes that line the floor and ceiling of certain rooms in the Royal Waterways. Although not having their own Hunter's Journal entry and thus not being official enemies, they nearly exactly resemble the nature of Maskfly - save for the ability to move.
+Fluke Larvae are tiny, immobile Flukes that line the floor and ceiling of certain rooms in the Royal Waterways. Although not having their own Hunter's Journal entry and thus not being official enemies, they nearly exactly resemble the nature of Maskfly - save for the ability to move.
 
 Besides the tunnel leading to Flukemarm, they can be found in the tunnels with  Flukemungas. More are scattered in  Fluke Hermit room, though they cannot be harmed. Fluke Hermit also refers to the larvae as "Little Sisters".
 
@@ -7154,14 +6776,12 @@ References
 ---
 
 ---
-
 # 文档：Flukefey
-
 - 类别：enemies
 - 标识：flukefey
 - 来源：wiki/Flukefey
 
-<b>Flukefeys</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. The youngest of the Flukes, these flying creatures use their sharp teeth to latch onto any living thing.
+Flukefeys are Enemies (Hollow Knight) in Hollow Knight (game). The youngest of the Flukes, these flying creatures use their sharp teeth to latch onto any living thing.
 
 Behaviour and Tactics
 Floats passively until disturbed. When engaged, it reveals its fangs and dives at the Knight in a parabolic arcing motion, dealing damage on contact. They are extremely fast and frantic, making them hard to fend off despite their low health. Because of this, it is advised to stand still and let them come closer themselves, as their seemingly unpredictable movement makes it hard to pursue them.
@@ -7176,14 +6796,12 @@ References
 ---
 
 ---
-
 # 文档：Flukemarm
-
 - 类别：enemies, bosses
 - 标识：flukemarm
 - 来源：wiki/Flukemarm
 
-<b>Flukemarm</b> is a hidden Bosses (Hollow Knight) in <i>Hollow Knight (game)</i>. Defeating her grants a new Charms, Flukenest.
+Flukemarm is a hidden Bosses (Hollow Knight) in Hollow Knight (game). Defeating her grants a new Charms, Flukenest.
 
 Lore
 Flukemarm is the mother of all Flukes infesting the Royal Waterways. Her body is used as a nest for young Flukefeys. Like her children, she was Infection and made hostile, although her condition as a breeder prevents her from leaving her cave.
@@ -7195,7 +6813,7 @@ When Flukemarm is defeated, the Infection within bursts out, making her explode.
 
 Behaviour and Tactics
 Flukemarm has one attack:
-<b>Spawn</b>: Flukemarm spits out two Flukefeys, each from any one of her orifices, telegraphed by Infection spewing out of the selected orifices. There can only be a maximum of 6 Flukefeys spawned at once.
+Spawn: Flukemarm spits out two Flukefeys, each from any one of her orifices, telegraphed by Infection spewing out of the selected orifices. There can only be a maximum of 6 Flukefeys spawned at once.
 
 ---
 
@@ -7225,14 +6843,12 @@ References
 ---
 
 ---
-
 # 文档：Flukemon
-
 - 类别：enemies
 - 标识：flukemon
 - 来源：wiki/Flukemon
 
-<b>Flukemons</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are earthbound Flukes who split into two living halves after being defeated.
+Flukemons are Enemies (Hollow Knight) in Hollow Knight (game). They are earthbound Flukes who split into two living halves after being defeated.
 
 Behaviour and Tactics
 Meanders back and forth, emitting a suckling sound to signal its presence. Once it spots the Knight, it rushes forward at them, dealing damage on contact. Even if it is blocked by a wall, it is hardly discouraged and keeps rushing towards the Knight. Can also detect when the Knight is above or below, even when not provoked and in this case, it stops wandering.
@@ -7253,14 +6869,12 @@ References
 ---
 
 ---
-
 # 文档：Flukemunga
-
 - 类别：enemies
 - 标识：flukemunga
 - 来源：wiki/Flukemunga
 
-<b>Flukemungas</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are bloated Flukes who excrete a grease that helps them slide around the tunnels where they live.
+Flukemungas are Enemies (Hollow Knight) in Hollow Knight (game). They are bloated Flukes who excrete a grease that helps them slide around the tunnels where they live.
 
 Behaviour and Tactics
 Wanders back and forth in a straight corridor. When it senses the Knight it hurls itself towards them, dealing two Masks of damage on contact and only stopping when hitting a wall with a jarring thud.
@@ -7280,14 +6894,12 @@ Flukemunga was created when Team Cherry had to put a pitch together for Nintendo
 ---
 
 ---
-
 # 文档：Folly
-
 - 类别：enemies
 - 标识：folly
 - 来源：wiki/Folly
 
-<b>Follies</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They used to be Soul Sanctum's Scholars of the Soul Sanctum, but their bodies became inflated after the Sanctum's failed Soul experiments.
+Follies are Enemies (Hollow Knight) in Hollow Knight (game). They used to be Soul Sanctum's Scholars of the Soul Sanctum, but their bodies became inflated after the Sanctum's failed Soul experiments.
 
 Behaviour and Tactics
 Appears out of thin air, homing in on the Knight and dealing contact damage.
@@ -7302,14 +6914,12 @@ References
 ---
 
 ---
-
 # 文档：Fool Eater
-
 - 类别：enemies
 - 标识：fool-eater
 - 来源：wiki/Fool_Eater
 
-<b>Fool Eaters</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are large carnivorous plants that clap shut when detecting prey nearby.
+Fool Eaters are Enemies (Hollow Knight) in Hollow Knight (game). They are large carnivorous plants that clap shut when detecting prey nearby.
 
 Behaviour and Tactics
 Usually well-hidden, often found guarding Geo deposits and other Points of Interest (Hollow Knight). The jagged ridges of its mouth can be seen barely protruding from the ground, wall, or ceiling. When the Knight moves within range, its mouth shakes, causing leaves to come unsettled, and then snaps shut.
@@ -7329,14 +6939,12 @@ References
 ---
 
 ---
-
 # 文档：Fungified Husk
-
 - 类别：enemies
 - 标识：fungified-husk
 - 来源：wiki/Fungified_Husk
 
-<b>Fungified Husks</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are deceased citizens of Hallownest whose corpses were filled with and reanimated by Infected spores.
+Fungified Husks are Enemies (Hollow Knight) in Hollow Knight (game). They are deceased citizens of Hallownest whose corpses were filled with and reanimated by Infected spores.
 
 Behaviour and Tactics
 Much like the Volatile Mosskin, it meanders peacefully back and forth until disturbed. Once engaged, it emits an explosive gas cloud from its body, with a faster trigger delay and a wider area of effect than that of a Volatile Mosskin.
@@ -7355,14 +6963,12 @@ References
 ---
 
 ---
-
 # 文档：Fungling
-
 - 类别：enemies
 - 标识：fungling
 - 来源：wiki/Fungling
 
-<b>Funglings</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are gas-filled balloon creatures who ignore the world around them. Funglings are juveniles, becoming Fungoons upon reaching adulthood.
+Funglings are Enemies (Hollow Knight) in Hollow Knight (game). They are gas-filled balloon creatures who ignore the world around them. Funglings are juveniles, becoming Fungoons upon reaching adulthood.
 
 Behaviour and Tactics
 Floats and often drifts about peacefully, but deals contact damage to the Knight.
@@ -7380,14 +6986,12 @@ References
 ---
 
 ---
-
 # 文档：Fungoon
-
 - 类别：enemies
 - 标识：fungoon
 - 来源：wiki/Fungoon
 
-<b>Fungoons</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. The adult form of the Funglings, these fungal balloon creatures attack by spitting streams of noxious gas.
+Fungoons are Enemies (Hollow Knight) in Hollow Knight (game). The adult form of the Funglings, these fungal balloon creatures attack by spitting streams of noxious gas.
 
 Behaviour and Tactics
 Floats around in the air until disturbed. It blows a blast of Infected gas at its foe from above. This blast is fairly slow and easy to dodge. The Fungoon can only release this gas straight down, making attacking from above the best option.
@@ -7400,14 +7004,12 @@ References
 ---
 
 ---
-
 # 文档：Furious Vengefly
-
 - 类别：enemies
 - 标识：furious-vengefly
 - 来源：wiki/Furious_Vengefly
 
-<b>Furious Vengeflies</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are enormous Vengefly whose bodies were distorted by continued Infection. The blisters around their wings appear to give them improved flight.
+Furious Vengeflies are Enemies (Hollow Knight) in Hollow Knight (game). They are enormous Vengefly whose bodies were distorted by continued Infection. The blisters around their wings appear to give them improved flight.
 
 Behaviour and Tactics
 Hovers in place. Flies towards the Knight in a zig-zag, up and down pattern when they get in range, emitting a screeching sound. A few seconds after being killed, its corpse explodes. While its regular attack deals one Mask of damage, the explosion deals two.
@@ -7422,22 +7024,20 @@ References
 ---
 
 ---
-
 # 文档：Galien
-
 - 类别：enemies, bosses
 - 标识：galien
 - 来源：wiki/Galien
 
-<b>Galien</b> is a Warrior Dreams in <i>Hollow Knight (game)</i>.
+Galien is a Warrior Dreams in Hollow Knight (game).
 
 Lore
 Galien was a brave and undefeated warrior who claimed to be the strongest in Hallownest and desired to prove his valour to the Pale King as a Knight. He travelled to Deepnest in order to test his strength, but eventually found death instead.
 
 Behaviour and Tactics
 Galien has two attacks:
-<b>Spinning Scythe</b>: Galien commands a scythe that spins rapidly and bounces off the floor, slowly tracking the Knight. The scythe carries a lot of momentum when moving. After nine bounces, he commands it to pause for half a second before sending it off again.
-<b>Dream Scythes</b>: Galien spawns a small glowing scythe that moves slowly across the screen, reflecting off the floor and the walls when it collides with them. These scythes appear and move entirely independently of the main scythe. Only 2 scythes spawn throughout the entire fight: the first spawns when Galien has reached 70% HP (161/258/335/399/448), the second at 40% HP (92/147/192/228/256).
+Spinning Scythe: Galien commands a scythe that spins rapidly and bounces off the floor, slowly tracking the Knight. The scythe carries a lot of momentum when moving. After nine bounces, he commands it to pause for half a second before sending it off again.
+Dream Scythes: Galien spawns a small glowing scythe that moves slowly across the screen, reflecting off the floor and the walls when it collides with them. These scythes appear and move entirely independently of the main scythe. Only 2 scythes spawn throughout the entire fight: the first spawns when Galien has reached 70% HP (161/258/335/399/448), the second at 40% HP (92/147/192/228/256).
 
 ---
 
@@ -7462,14 +7062,12 @@ References
 ---
 
 ---
-
 # 文档：Garpede
-
 - 类别：enemies
 - 标识：garpede
 - 来源：wiki/Garpede
 
-<b>Garpedes</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are thickly armoured creatures who burrow through the rocky tunnels of Deepnest.
+Garpedes are Enemies (Hollow Knight) in Hollow Knight (game). They are thickly armoured creatures who burrow through the rocky tunnels of Deepnest.
 
 Behaviour and Tactics
 These enormous centipedes travel Deepnest, crawling through narrow corridors in predictable patterns. Because they are invulnerable, they effectively act as hazards rather than enemies.
@@ -7486,14 +7084,12 @@ References
 ---
 
 ---
-
 # 文档：Glimback
-
 - 类别：enemies
 - 标识：glimback
 - 来源：wiki/Glimback
 
-<b>Glimbacks</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They used to be beasts of burden who were forced to carry around carts and machines.
+Glimbacks are Enemies (Hollow Knight) in Hollow Knight (game). They used to be beasts of burden who were forced to carry around carts and machines.
 
 Behaviour and Tactics
 Slowly meanders back and forth, ignoring the Knight.
@@ -7515,14 +7111,12 @@ References
 ---
 
 ---
-
 # 文档：Gluttonous Husk
-
 - 类别：enemies
 - 标识：gluttonous-husk
 - 来源：wiki/Gluttonous_Husk
 
-<b>Gluttonous Husks</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. In life, these upper-class bugs consumed so much food that they took on a grotesque shape. Reanimated after death, they now use their body to attack.
+Gluttonous Husks are Enemies (Hollow Knight) in Hollow Knight (game). In life, these upper-class bugs consumed so much food that they took on a grotesque shape. Reanimated after death, they now use their body to attack.
 
 Behaviour and Tactics
 Meanders back and forth until disturbed. When engaged, it hops a short distance in The Knight direction, dealing contact damage.
@@ -7535,14 +7129,12 @@ References
 ---
 
 ---
-
 # 文档：Goam
-
 - 类别：enemies
 - 标识：goam
 - 来源：wiki/Goam
 
-<b>Goams</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are worm-like, thickly armoured creatures who burrowed tunnels through the walls of the caverns.
+Goams are Enemies (Hollow Knight) in Hollow Knight (game). They are worm-like, thickly armoured creatures who burrowed tunnels through the walls of the caverns.
 
 Behaviour and Tactics
 Emerges from its hole quickly and then immediately rushes back in. It cannot be damaged or killed.
@@ -7560,9 +7152,7 @@ References
 ---
 
 ---
-
 # 文档：God Tamer
-
 - 类别：enemies, bosses
 - 标识：god-tamer
 - 来源：wiki/God_Tamer
@@ -7583,11 +7173,11 @@ Total: 1050
 
 Behaviour and Tactics
 God Tamer has the following attack:
-<b>Leap</b>: God Tamer leaps into the air and swings her lance down. She brings her lance down just as she lands. God Tamer tracks the Knight with this attack, bringing her lance down where the Knight was when she started the leap. Despite this, there is a maximum range to this attack of about 75% of the arena. This attack happens independent of the Beast's attacks.
+Leap: God Tamer leaps into the air and swings her lance down. She brings her lance down just as she lands. God Tamer tracks the Knight with this attack, bringing her lance down where the Knight was when she started the leap. Despite this, there is a maximum range to this attack of about 75% of the arena. This attack happens independent of the Beast's attacks.
 
 The Beast has the following attacks:
-<b>Roll</b>: The Beast curls up into a ball and rolls across the arena towards the Knight. It traverses the entire arena and when it hits the wall, it bounces high into the air and attempts to land on the Knight. The bounce tracks the Knight, landing where the Knight was when the Beast struck the wall, not when it started the roll. While it is rolling, the Beast is invulnerable to Nail attacks, but not Spells.
-<b>Spew</b>: The Beast spews blobs of Infection towards the Knight. The projectiles travel in three groups: one group drops just in front of the Beast, another flies across most of the arena, and the third group splits the difference. This formation creates large, safe gaps on the arena floor between the groupings. The blobs persist on the ground for 1.25-1.75 seconds.
+Roll: The Beast curls up into a ball and rolls across the arena towards the Knight. It traverses the entire arena and when it hits the wall, it bounces high into the air and attempts to land on the Knight. The bounce tracks the Knight, landing where the Knight was when the Beast struck the wall, not when it started the roll. While it is rolling, the Beast is invulnerable to Nail attacks, but not Spells.
+Spew: The Beast spews blobs of Infection towards the Knight. The projectiles travel in three groups: one group drops just in front of the Beast, another flies across most of the arena, and the third group splits the difference. This formation creates large, safe gaps on the arena floor between the groupings. The blobs persist on the ground for 1.25-1.75 seconds.
 
 ---
 
@@ -7615,9 +7205,9 @@ Achievements
 Trivia
 
 God Tamer is the only Hollow Knight Kickstarter-designed Boss that is not a Warrior Dreams.
-God tamer's initial name was "<b>Lobster Lancer</b>" and as the name suggests, the original concept for the Beast was a giant lobster. God Tamer's design was based on a cockroach.
+God tamer's initial name was "Lobster Lancer" and as the name suggests, the original concept for the Beast was a giant lobster. God Tamer's design was based on a cockroach.
 The name "Lobster Lancer" is still used within the game's files.
-<i>"The Lancer is a mysterious, melancholy figure, ruminating in a field of countless discarded nails and bones. Hollow Knight may find the challenge is more than he'd bargained for if he should attempt to speak with the Lancer. For the Lancer is not alone, he is accompanied by his stalwart steed: a massive, battle-scarred crustacean. But the old warrior has led a long, arduous existence filled with regret... Perhaps he may finally find peace on the edge of Hollow Knight's trusty nail. Regardless of any embellishment from future bards, what follows is not a glorious battle between heroes; what follows is a miserable execution of a crestfallen veteran well past his prime."</i>
+"The Lancer is a mysterious, melancholy figure, ruminating in a field of countless discarded nails and bones. Hollow Knight may find the challenge is more than he'd bargained for if he should attempt to speak with the Lancer. For the Lancer is not alone, he is accompanied by his stalwart steed: a massive, battle-scarred crustacean. But the old warrior has led a long, arduous existence filled with regret... Perhaps he may finally find peace on the edge of Hollow Knight's trusty nail. Regardless of any embellishment from future bards, what follows is not a glorious battle between heroes; what follows is a miserable execution of a crestfallen veteran well past his prime."
 God Tamer has the Dream Nail dialogue of generic husk enemies instead of the lines of the Colosseum's Fools.
 
 References
@@ -7625,14 +7215,12 @@ References
 ---
 
 ---
-
 # 文档：Gorb
-
 - 类别：enemies, bosses
 - 标识：gorb
 - 来源：wiki/Gorb
 
-<b>Gorb</b> is a Warrior Dreams in <i>Hollow Knight (game)</i> found in the Howling Cliffs.
+Gorb is a Warrior Dreams in Hollow Knight (game) found in the Howling Cliffs.
 
 Lore
 Gorb the Great Mind was a mystic creature with a distended brain who claimed to be all-knowing. They goaded others to revere their mind and ascend with them to a different plane of existence. Their remains were buried on a hill atop the Howling Cliffs, with a tombstone carved in their image.
@@ -7642,9 +7230,9 @@ Gorb's Spirits appears at their tomb after acquiring the Dream Nail. They try to
 
 Behaviour and Tactics
 Gorb has two attacks in addition to teleportation:
-<b>Spear Cast</b>: Gorb fires a ring of 8 spears outwards in a circle from their location. The spears travel through the environment and deal contact damage. Gorb almost always automatically uses this attack if hit, otherwise Gorb normally waits 1-2 seconds before launching another wave. At 70% HP, Gorb fires 2 waves in alternating patterns, and at 40% HP, Gorb fires 3 waves.
-<b>Directed Spear</b>: Gorb fires a single spear angled directly towards the Knight every 1-2 seconds. This attack does not occur while close to or extremely far away from Gorb.
-<b>Teleport</b>: Gorb teleports to a random location in the arena and continues attacking from there.
+Spear Cast: Gorb fires a ring of 8 spears outwards in a circle from their location. The spears travel through the environment and deal contact damage. Gorb almost always automatically uses this attack if hit, otherwise Gorb normally waits 1-2 seconds before launching another wave. At 70% HP, Gorb fires 2 waves in alternating patterns, and at 40% HP, Gorb fires 3 waves.
+Directed Spear: Gorb fires a single spear angled directly towards the Knight every 1-2 seconds. This attack does not occur while close to or extremely far away from Gorb.
+Teleport: Gorb teleports to a random location in the arena and continues attacking from there.
 
 ---
 
@@ -7657,10 +7245,10 @@ Trivia
 
 Gorb was originally a slug with a blade held in their mouth.
 Despite Gorb being known as the "Great Mind", Gorb's in-game dialogue appears simplistic, marked by a childlike speech pattern and a limited vocabulary.
-Gorb used to be named after their backer, <b>Aladar</b>. They have several Cut Content (Hollow Knight) under this name:
-<i>Greetings pale thing. Do you seek my knowledge? That I cannot give. Only an end.</i>
-<i>Would you accept the end I offer?</i>
-<i>Alas. It destroys...</i>
+Gorb used to be named after their backer, Aladar. They have several Cut Content (Hollow Knight) under this name:
+Greetings pale thing. Do you seek my knowledge? That I cannot give. Only an end.
+Would you accept the end I offer?
+Alas. It destroys...
 In the French translation of the game, these cut dialogues are used instead of the final one. This is because the French translation was made while the text was still being finalised before launch, while the rest were made only afterwards.
 
 References
@@ -7668,14 +7256,12 @@ References
 ---
 
 ---
-
 # 文档：Gorgeous Husk
-
 - 类别：enemies
 - 标识：gorgeous-husk
 - 来源：wiki/Gorgeous_Husk
 
-The <b>Gorgeous Husk</b> is an Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. Its body is covered in a shining metal, and it still retains the instinct to collect Geo even after death.
+The Gorgeous Husk is an Enemies (Hollow Knight) in Hollow Knight (game). Its body is covered in a shining metal, and it still retains the instinct to collect Geo even after death.
 
 Behaviour and Tactics
 Meanders back and forth and is passive until attacked, though it is still harmful on contact. Once disturbed, it attacks just like the Gluttonous Husk, hopping at the Knight once in range. However, it is bigger and has much more health, making it slightly more challenging to beat.
@@ -7692,20 +7278,18 @@ References
 ---
 
 ---
-
 # 文档：Great Husk Sentry
-
 - 类别：enemies
 - 标识：great-husk-sentry
 - 来源：wiki/Great_Husk_Sentry
 
-<b>Great Husk Sentries</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They were elite city guards before dying, patrolling sensitive areas in the City of Tears. Wielding a greatnail and shell, they are still a threat after being reanimated.
+Great Husk Sentries are Enemies (Hollow Knight) in Hollow Knight (game). They were elite city guards before dying, patrolling sensitive areas in the City of Tears. Wielding a greatnail and shell, they are still a threat after being reanimated.
 
 Behaviour and Tactics
 These mighty sentries deal two Masks of damage with their attacks, making them very dangerous foes:
-<b>Guard</b>: When approached, holds up its shield in the Knight direction. This can be done upwards when the Knight is above them.
-<b>Strike</b>: After blocking a hit with Guard or waiting long enough, it launches a single strike, followed by Guard, making it difficult to damage them without getting hit. Sometimes it executes 2 strikes. It always launches 2 strikes if it waits long enough. If the Knight gets a hit on their raised shield or on them from above they follow up with a single slash upwards. This attack deals two Masks of damage.
-<b>Retaliate</b>: When attacked, it lowers its shield and executes a Strike attack that leaves it open for a brief time. This can be done upwards when the Knight is above them.
+Guard: When approached, holds up its shield in the Knight direction. This can be done upwards when the Knight is above them.
+Strike: After blocking a hit with Guard or waiting long enough, it launches a single strike, followed by Guard, making it difficult to damage them without getting hit. Sometimes it executes 2 strikes. It always launches 2 strikes if it waits long enough. If the Knight gets a hit on their raised shield or on them from above they follow up with a single slash upwards. This attack deals two Masks of damage.
+Retaliate: When attacked, it lowers its shield and executes a Strike attack that leaves it open for a brief time. This can be done upwards when the Knight is above them.
 
 They can be attacked by standing just inside their range, waiting for them to raise their nail, running out of range then running up and striking them when their attack is over. This requires very good timing and many hits, as these enemies have a lot of health. The Mark of Pride and Longnail Charms make it easier to reach them with a strike before they can shield themselves. It is also possible to hit them as they prepare a strike, then Mothwing Cloak away.
 
@@ -7723,26 +7307,24 @@ References
 ---
 
 ---
-
 # 文档：Great Nailsage Sly
-
 - 类别：enemies, bosses
 - 标识：great-nailsage-sly
 - 来源：wiki/Great_Nailsage_Sly
 
-<b>Great Nailsage Sly</b> is a quest Bosses (Hollow Knight) in <i>Hollow Knight (game)</i> introduced in <i>Godmaster</i>. He sits at the top of the Pantheon of the Sage in Godhome.
+Great Nailsage Sly is a quest Bosses (Hollow Knight) in Hollow Knight (game) introduced in Godmaster. He sits at the top of the Pantheon of the Sage in Godhome.
 
 Behaviour and Tactics
 Phase 1
-<b>Slash Combo</b>: Great Nailsage Sly slashes twice in quick succession towards the Knight. The first slash is an overhead, downward slash and the second is an upward, overhead slash. Both slashes cover the entirety of Sly. He shifts forward a little with each slash. There is about 0.5 seconds between these slashes. Sly changes directions between slashes if the Knight ends up on his other side before the first slash is over. If the Knight is close to Sly after those two slashes, he follows up with a final, special attack (again about 0.5 seconds after the previous slash). Sly does a short leap into the air at a forty-five degree angle towards the Knight. During this ascension, Sly flips around with his nail out, becoming a flying circle of death. He flips like this for about 0.75 seconds. He stops flipping as he returns to the ground.
-<b>Nail Slam</b>: Sly leaps into the air, coming up short on the Knight's position, does a flip, then slams down with his nail. The nail strikes where the Knight was when Sly jumped. If the Knight is nearby after Sly lands, he follows up with an upward, overhead slash.
-<b>Great Slash</b>: Great Nailsage Sly performs the Great Slash Nail Art. He takes about 0.75 seconds to charge up this attack. He may approach the Knight before charging up. The range on the Great Slash is much longer than Sly's nail. This attack deals two Masks of damage.
-<b>Dash Slash</b>: Great Nailsage Sly performs the Dash Slash Nail Art. Sly leaps to a corner of the arena where he charges this attack for about 0.75 seconds. He dashes across about 75% of the arena and the slash covers the rest. This dash occurs in about 0.33 seconds. The range of the slash is much greater than Sly's nail.
-<b>Cyclone Slash</b>: Great Nailsage Sly performs the Cyclone Slash Nail Art. He starts by leaping into the air and charging up while he is mid-air. As he spins, he floats to the ground towards the Knight. This attack lasts for about 2 seconds. He takes about 0.75 seconds to charge up this attack.
-<b>Sprint</b>: Sly runs towards the Knight when they are too far away to perform an attack.
+Slash Combo: Great Nailsage Sly slashes twice in quick succession towards the Knight. The first slash is an overhead, downward slash and the second is an upward, overhead slash. Both slashes cover the entirety of Sly. He shifts forward a little with each slash. There is about 0.5 seconds between these slashes. Sly changes directions between slashes if the Knight ends up on his other side before the first slash is over. If the Knight is close to Sly after those two slashes, he follows up with a final, special attack (again about 0.5 seconds after the previous slash). Sly does a short leap into the air at a forty-five degree angle towards the Knight. During this ascension, Sly flips around with his nail out, becoming a flying circle of death. He flips like this for about 0.75 seconds. He stops flipping as he returns to the ground.
+Nail Slam: Sly leaps into the air, coming up short on the Knight's position, does a flip, then slams down with his nail. The nail strikes where the Knight was when Sly jumped. If the Knight is nearby after Sly lands, he follows up with an upward, overhead slash.
+Great Slash: Great Nailsage Sly performs the Great Slash Nail Art. He takes about 0.75 seconds to charge up this attack. He may approach the Knight before charging up. The range on the Great Slash is much longer than Sly's nail. This attack deals two Masks of damage.
+Dash Slash: Great Nailsage Sly performs the Dash Slash Nail Art. Sly leaps to a corner of the arena where he charges this attack for about 0.75 seconds. He dashes across about 75% of the arena and the slash covers the rest. This dash occurs in about 0.33 seconds. The range of the slash is much greater than Sly's nail.
+Cyclone Slash: Great Nailsage Sly performs the Cyclone Slash Nail Art. He starts by leaping into the air and charging up while he is mid-air. As he spins, he floats to the ground towards the Knight. This attack lasts for about 2 seconds. He takes about 0.75 seconds to charge up this attack.
+Sprint: Sly runs towards the Knight when they are too far away to perform an attack.
 
 Phase 2
-<b>Frenzy</b>: Great Nailsage Sly dashes around the arena 2 to 5 times before flipping around rapidly with his nail. The end of this attack is a modified version of what Sly does at the end of a full Slash Combo. In this version, Sly moves laterally towards the Knight a short distance; the flipping lasts for only 0.5 seconds; and he prefaces the flipping with a single flip and a pause. After he's done flipping with his nail, Sly flips one more time and then starts the whole process again. This is the only attack in the second Phase.
+Frenzy: Great Nailsage Sly dashes around the arena 2 to 5 times before flipping around rapidly with his nail. The end of this attack is a modified version of what Sly does at the end of a full Slash Combo. In this version, Sly moves laterally towards the Knight a short distance; the flipping lasts for only 0.5 seconds; and he prefaces the flipping with a single flip and a pause. After he's done flipping with his nail, Sly flips one more time and then starts the whole process again. This is the only attack in the second Phase.
 
 ---
 
@@ -7777,14 +7359,12 @@ References
 ---
 
 ---
-
 # 文档：Grimm
-
 - 类别：enemies, bosses, characters
 - 标识：grimm
 - 来源：wiki/Grimm
 
-<b>Troupe Master Grimm</b> is both a NPCs (Hollow Knight)#Quest NPCs and Bosses (Hollow Knight) introduced by <i>the Grimm Troupe</i> in <i>Hollow Knight (game)</i>. He is the main character behind his Grimm Troupe (Quest). Nightmare King Grimm is his Dream form.
+Troupe Master Grimm is both a NPCs (Hollow Knight)#Quest NPCs and Bosses (Hollow Knight) introduced by the Grimm Troupe in Hollow Knight (game). He is the main character behind his Grimm Troupe (Quest). Nightmare King Grimm is his Dream form.
 
 Lore
 Grimm is the master of The Grimm Troupe (Lore), a mysterious travelling circus. In truth, Grimm and his Troupe travel from the Dream Realm#Nightmare to wherever the Nightmare Lantern has been lit by acolytes.
@@ -7804,13 +7384,13 @@ Grimm can be summoned to  Godhome by  the Godseeker own ritual. There he is cons
 Behaviour and Tactics
 Grimm bows to the Knight before the battle. If the Knight hits him while bowing, Grimm screeches at the Knight and counterattacks with the Pufferfish Attack.
 
-<b>Fire Bats</b>: Grimm opens his cloak, sending three Fire Bats at the Knight. The Fire Bats start at the level of the Knight's head and poorly track the Knight's movement. Grimm remains stationary during this attack. Each Fire Bat's entrance is announced with a gout of flame coming from Grimm and reaching the top of the arena. If the Knight gets within arm's length of Grimm before he sends out all three Fire Bats, he teleports to another part of the arena and sends one last Fire Bat. This Fire Bat cannot be interrupted. This means that it is possible for Grimm to send out only one Fire Bat.
-<b>Dive Dash</b>: Grimm teleports into the air and wraps himself in his cloak until he resembles a drill and dives towards the Knight. Then he lands and follows up with a dash in the Knight's direction using his arm wrapped in his cloak like a lance. Grimm tracks where the Knight was near the start of the dive, and the dive can traverse the entire arena.
-<b>Dash Uppercut</b>: Grimm dashes across the arena with a large swipe directly before launching into the air with an uppercut. At the apex of the uppercut, he disappears and rains five fireballs on the arena. The five fireballs rain down on the arena in set parabolic arcs.
-<b>Cloak Spikes</b>: Grimm sends his cloak into the ground, causing large twisted cloak spikes to shoot up from the floor. The spikes reach to the top of the arena but there are large enough gaps between them to stay safe. The spikes are not dangerous until they are at their tallest. The spikes persist for about half a second.
-<b>Pufferfish</b>: Grimm surrounds himself with his cloak and puffs out and spews tiny fireballs all over the arena. This attack occurs when Grimm's health reaches 75%, 50%, and 25%. This attack always occurs from the centre of the arena. The fireballs travel in five general directions. Fireballs tend to come at the Knight in sets of two, resulting in essentially a jumping puzzle. Grimm sends out twelve sets of fireballs, with every fourth set guaranteed to have both fireballs in the bottom two locations. While he is in this mode, Grimm is immune to certain forms of damage and cannot be staggered. This is the first attack he performs if the Knight hits him during his bow.
-<b>Teleport</b>: Grimm teleports to a random place in the arena to perform an attack.
-<b>Skitter</b>: If Grimm teleports on the ground too close to the Knight, he Skitters away on all fours before resuming his attack. It is rare, but possible, that Grimm telegraphs one type of ground attack, Skitters away, and then performs a different ground attack.
+Fire Bats: Grimm opens his cloak, sending three Fire Bats at the Knight. The Fire Bats start at the level of the Knight's head and poorly track the Knight's movement. Grimm remains stationary during this attack. Each Fire Bat's entrance is announced with a gout of flame coming from Grimm and reaching the top of the arena. If the Knight gets within arm's length of Grimm before he sends out all three Fire Bats, he teleports to another part of the arena and sends one last Fire Bat. This Fire Bat cannot be interrupted. This means that it is possible for Grimm to send out only one Fire Bat.
+Dive Dash: Grimm teleports into the air and wraps himself in his cloak until he resembles a drill and dives towards the Knight. Then he lands and follows up with a dash in the Knight's direction using his arm wrapped in his cloak like a lance. Grimm tracks where the Knight was near the start of the dive, and the dive can traverse the entire arena.
+Dash Uppercut: Grimm dashes across the arena with a large swipe directly before launching into the air with an uppercut. At the apex of the uppercut, he disappears and rains five fireballs on the arena. The five fireballs rain down on the arena in set parabolic arcs.
+Cloak Spikes: Grimm sends his cloak into the ground, causing large twisted cloak spikes to shoot up from the floor. The spikes reach to the top of the arena but there are large enough gaps between them to stay safe. The spikes are not dangerous until they are at their tallest. The spikes persist for about half a second.
+Pufferfish: Grimm surrounds himself with his cloak and puffs out and spews tiny fireballs all over the arena. This attack occurs when Grimm's health reaches 75%, 50%, and 25%. This attack always occurs from the centre of the arena. The fireballs travel in five general directions. Fireballs tend to come at the Knight in sets of two, resulting in essentially a jumping puzzle. Grimm sends out twelve sets of fireballs, with every fourth set guaranteed to have both fireballs in the bottom two locations. While he is in this mode, Grimm is immune to certain forms of damage and cannot be staggered. This is the first attack he performs if the Knight hits him during his bow.
+Teleport: Grimm teleports to a random place in the arena to perform an attack.
+Skitter: If Grimm teleports on the ground too close to the Knight, he Skitters away on all fours before resuming his attack. It is rare, but possible, that Grimm telegraphs one type of ground attack, Skitters away, and then performs a different ground attack.
 
 ---
 
@@ -7854,12 +7434,12 @@ Varying cues are also triggered during his fight in  Godhome.
 
 There is a secret area in Grimm's tent, above the arena, where the empty masks of the audience, some chests, and a strange device can be found. It can be accessed by Mantis Claw through a false ceiling to the right of the arena's second arch.
 When using a Spell in this secret room some sort of barrier appears which may possibly be a Seals.
-In a response to a question on Grimm's character inspirations in one of their <i>Hollow Knight</i> streams Team Cherry has stated:
-<i>Can you confirm Grimm was inspired by Dracula from Castlevania?</i>
-<i>Ari: "I don’t think- I mean Grimm obviously has a lot of Dracula-like qualities. But he also has other elements."</i>
-<i>William: "He’s like a mix of a lot of things."</i>
-<i>Ari: "Yeah, he has this kind of circus master quality, and-"</i>
-<i>William: "Halloween-y.. He’s spooky."</i>
+In a response to a question on Grimm's character inspirations in one of their Hollow Knight streams Team Cherry has stated:
+Can you confirm Grimm was inspired by Dracula from Castlevania?
+Ari: "I don’t think- I mean Grimm obviously has a lot of Dracula-like qualities. But he also has other elements."
+William: "He’s like a mix of a lot of things."
+Ari: "Yeah, he has this kind of circus master quality, and-"
+William: "Halloween-y.. He’s spooky."
 While staggered, Grimm cannot be damaged by the Defender's Crest and Spore Shroom Charms.
 
 Notes
@@ -7867,21 +7447,19 @@ Notes
 ---
 
 ---
-
 # 文档：Grimmkin Master
-
 - 类别：enemies
 - 标识：grimmkin-master
 - 来源：wiki/Grimmkin_Master
 
-<b>Grimmkin Masters</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are powerful members of The Grimm Troupe (Lore) who relinquish the flame they gathered within their torches to somebody who is worthy.
+Grimmkin Masters are Enemies (Hollow Knight) in Hollow Knight (game). They are powerful members of The Grimm Troupe (Lore) who relinquish the flame they gathered within their torches to somebody who is worthy.
 
 Behaviour and Tactics
 Grimmkin Masters have four attacks:
-<b>Charge</b>: Charges directly at the Knight with extreme speed. Faster than the Grimmkin Novice.
-<b>Flame Spray</b>: Fires five fireballs at once, three in the same pattern as the Novice and two more in the gaps between which move slightly slower. The Master is then left vulnerable for a few seconds. The second set of fireballs move at the same speed as those of the Novice; the first set are faster than those of the Novice.
-<b>Flame Spiral</b>: Fires four fireballs that spiral outwards from the Master's body. This attack also leaves the Master vulnerable.
-<b>Teleport</b>: Teleports to a random place a constant distance away from the Knight to perform an attack.
+Charge: Charges directly at the Knight with extreme speed. Faster than the Grimmkin Novice.
+Flame Spray: Fires five fireballs at once, three in the same pattern as the Novice and two more in the gaps between which move slightly slower. The Master is then left vulnerable for a few seconds. The second set of fireballs move at the same speed as those of the Novice; the first set are faster than those of the Novice.
+Flame Spiral: Fires four fireballs that spiral outwards from the Master's body. This attack also leaves the Master vulnerable.
+Teleport: Teleports to a random place a constant distance away from the Knight to perform an attack.
 
 Like other Grimmkin spirits, Masters spawn when the Knight approaches a torch with the Grimmchild Charms equipped, at which point they become aggressive, following and attacking the Knight until they kill them or leave the current room.
 
@@ -7894,30 +7472,28 @@ Grimmkin Masters can be found in King's Pass, the Resting Grounds, and Kingdom's
 
 Trivia
 
-When in combat with any Grimmkin, the <b>Accordion Chase</b> theme plays.
-Cut Grimmkin Master sprites existed in the game's files prior to the release of  <i>:Category: Lifeblood</i>. It was a different version of the Charge attack animation where the Grimmkin can be seen as a flame with a mask without clothing.
+When in combat with any Grimmkin, the Accordion Chase theme plays.
+Cut Grimmkin Master sprites existed in the game's files prior to the release of  :Category: Lifeblood. It was a different version of the Charge attack animation where the Grimmkin can be seen as a flame with a mask without clothing.
 
 References
 
 ---
 
 ---
-
 # 文档：Grimmkin Nightmare
-
 - 类别：enemies
 - 标识：grimmkin-nightmare
 - 来源：wiki/Grimmkin_Nightmare
 
-<b>Grimmkin Nightmares</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are terrifying members of The Grimm Troupe (Lore) who relinquish the flame they gathered within their torches to somebody who is worthy.
+Grimmkin Nightmares are Enemies (Hollow Knight) in Hollow Knight (game). They are terrifying members of The Grimm Troupe (Lore) who relinquish the flame they gathered within their torches to somebody who is worthy.
 
 Behaviour and Tactics
 Grimmkin Nightmares have five attacks, all of which (excluding teleport) deal two Masks of damage:
-<b>Charge</b>: Charges directly at the Knight with extreme speed. Faster than the Grimmkin Master.
-<b>Flame Spray</b>: Fires five fireballs at once. The pattern is identical to the Grimmkin Master's attack but each set moves faster. The Nightmare is then left vulnerable for a few seconds.
-<b>Flame Spiral</b>: Summons five fireballs that spiral outwards from the Nightmare's body. This attack also leaves the Nightmare vulnerable.
-<b>Flame Pillars</b>: Summons three pillars of fire underneath the Knight in succession. This attack also leaves the Nightmare vulnerable.
-<b>Teleport</b>: Teleports to a random place a constant distance away from the Knight to perform an attack.
+Charge: Charges directly at the Knight with extreme speed. Faster than the Grimmkin Master.
+Flame Spray: Fires five fireballs at once. The pattern is identical to the Grimmkin Master's attack but each set moves faster. The Nightmare is then left vulnerable for a few seconds.
+Flame Spiral: Summons five fireballs that spiral outwards from the Nightmare's body. This attack also leaves the Nightmare vulnerable.
+Flame Pillars: Summons three pillars of fire underneath the Knight in succession. This attack also leaves the Nightmare vulnerable.
+Teleport: Teleports to a random place a constant distance away from the Knight to perform an attack.
 
 Like other Grimmkin spirits, Nightmares spawn when the Knight approaches a flame with the Grimmchild Charms equipped, at which point they become aggressive, following and attacking the Knight until they kill them or leave the current room. Nightmares deal two Masks of damage to the Knight with their attacks and thus require greater care.
 
@@ -7932,8 +7508,8 @@ Grimmkin Nightmares can be found in the Fungal Core, the Royal Waterways, and th
 
 Trivia
 
-When in combat with any Grimmkin, the <b>Accordion Chase</b> theme plays.
-Cut Grimmkin Nightmare sprites existed in the game's files prior to the release of  <i>:Category: Lifeblood</i>. It was a different version of the Charge attack animation where the Grimmkin can be seen as a flame with a mask without clothing.
+When in combat with any Grimmkin, the Accordion Chase theme plays.
+Cut Grimmkin Nightmare sprites existed in the game's files prior to the release of  :Category: Lifeblood. It was a different version of the Charge attack animation where the Grimmkin can be seen as a flame with a mask without clothing.
 During the fight with Troupe Master Grimm, Grimmkin Nightmares can be seen in the audience alongside Grimmkin Novices and Grimmkin Masters. They now share their colouration with the others instead of being the usual dark scarlet colour that is seen during their encounters with the Knight. However, during the battle with Nightmare King Grimm, regular-coloured Grimmkin Nightmares are the sole member of the audience.
 
 References
@@ -7941,20 +7517,18 @@ References
 ---
 
 ---
-
 # 文档：Grimmkin Novice
-
 - 类别：enemies
 - 标识：grimmkin-novice
 - 来源：wiki/Grimmkin_Novice
 
-<b>Grimmkin Novices</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are young members of The Grimm Troupe (Lore) who relinquish the flame they gathered within their torches to somebody who is worthy.
+Grimmkin Novices are Enemies (Hollow Knight) in Hollow Knight (game). They are young members of The Grimm Troupe (Lore) who relinquish the flame they gathered within their torches to somebody who is worthy.
 
 Behaviour and Tactics
 Grimmkin Novices have three attacks:
-<b>Charge</b>: Charges directly at the Knight with extreme speed.
-<b>Flame Spray</b>: Fires three fireballs at once, one directly forward and two diagonally. The Novice is then left vulnerable for a few seconds.
-<b>Teleport</b>: Teleports to a random place a constant distance away from the Knight to perform an attack.
+Charge: Charges directly at the Knight with extreme speed.
+Flame Spray: Fires three fireballs at once, one directly forward and two diagonally. The Novice is then left vulnerable for a few seconds.
+Teleport: Teleports to a random place a constant distance away from the Knight to perform an attack.
 
 Like other Grimmkin spirits, Novices spawn when the Knight approaches a torch with the Grimmchild Charms equipped, at which point they become aggressive, following and attacking the Knight until they kill them or leave the current room.
 
@@ -7967,27 +7541,25 @@ Grimmkin Novices can be found in Greenpath, Crystal Peak, and the City of Tea
 
 Trivia
 
-When in combat with any Grimmkin, the <b>Accordion Chase</b> theme plays.
-Cut Grimmkin Novice sprites existed in the game's files prior to the release of  <i>:Category: Lifeblood</i>. It was a different version of the Charge attack animation where the Grimmkin can be seen as a flame with a mask without clothing.
+When in combat with any Grimmkin, the Accordion Chase theme plays.
+Cut Grimmkin Novice sprites existed in the game's files prior to the release of  :Category: Lifeblood. It was a different version of the Charge attack animation where the Grimmkin can be seen as a flame with a mask without clothing.
 
 References
 
 ---
 
 ---
-
 # 文档：Grub Mimic
-
 - 类别：enemies
 - 标识：grub-mimic
 - 来源：wiki/Grub_Mimic
 
-<b>Grub Mimics</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are creatures who mimic the form of a harmless Grub to lure prey.
+Grub Mimics are Enemies (Hollow Knight) in Hollow Knight (game). They are creatures who mimic the form of a harmless Grub to lure prey.
 
 Behaviour and Tactics
 Pretends to be a Grub trapped in a glass jar. It emits the same sounds as a normal Grub, however, once freed, it reveals its true form and charges at the Knight.
 
-It is quite fast and has a lot of health, but its main weapon is the element of surprise. Simply attack from above to deal with it easily. These creatures can also be discovered by Dream Nailing since normal Grubs always read <i>"...Home..."</i> while Grub Mimics have their normal Dream Nail dialogue.
+It is quite fast and has a lot of health, but its main weapon is the element of surprise. Simply attack from above to deal with it easily. These creatures can also be discovered by Dream Nailing since normal Grubs always read "...Home..." while Grub Mimics have their normal Dream Nail dialogue.
 
 Location
 There are a total of 5 in the whole game.
@@ -8005,14 +7577,12 @@ When killed, Grub Mimics revert back to their disguised Grub form.
 ---
 
 ---
-
 # 文档：Gruz Mother
-
 - 类别：enemies, bosses
 - 标识：gruz-mother
 - 来源：wiki/Gruz_Mother
 
-<b>Gruz Mother</b> is an optional Bosses (Hollow Knight) in <i>Hollow Knight (game)</i>. She is also a dual Colosseum of Fools boss. Unlocking her Hunter's Journal entry requires beating 3 Gruz Mothers.
+Gruz Mother is an optional Bosses (Hollow Knight) in Hollow Knight (game). She is also a dual Colosseum of Fools boss. Unlocking her Hunter's Journal entry requires beating 3 Gruz Mothers.
 
 In-game events
 One Gruz Mother can be found blocking the direct path to an abandoned village at the bottom of the Forgotten Crossroads. She is sleeping, exhausted from carrying her children, and wakes up when struck. Upon defeat, her stomach bursts open to reveal a swarm of Gruzzers.
@@ -8021,9 +7591,9 @@ Two more Gruz Mothers can be fought simultaneously at the end of the Trial of th
 
 Behaviour and Tactics
 Gruz Mother is found sleeping in a small arena. The battle begins once she is attacked.
-<b>Charge</b>: Gruz Mother charges a short distance straight at the Knight location, and then either stops or lightly collides off the floor or a wall.
-<b>Wild Slam</b>: Gruz Mother repeatedly slams herself between the floor and the ceiling slowly moving a short distance forwards with every slam and turning without stopping when reaching a wall.
-<b>Fly</b>: While not performing any attack, Gruz Mother aimlessly flies within the arena.
+Charge: Gruz Mother charges a short distance straight at the Knight location, and then either stops or lightly collides off the floor or a wall.
+Wild Slam: Gruz Mother repeatedly slams herself between the floor and the ceiling slowly moving a short distance forwards with every slam and turning without stopping when reaching a wall.
+Fly: While not performing any attack, Gruz Mother aimlessly flies within the arena.
 
 ---
 
@@ -8041,7 +7611,7 @@ Two are fought at once in the Colosseum of Fools, however, they do not spawn Gru
 Achievements
 
 Trivia
-Gruz Mother was the first mini-boss revealed in a YouTube gameplay demonstration video. It was referred to as "<b>Empress Muzznik</b>".
+Gruz Mother was the first mini-boss revealed in a YouTube gameplay demonstration video. It was referred to as "Empress Muzznik".
 If the Knight defeats the Gruz Mother blocking access to the deserted village but dies to the swarm of Gruzzers, the boss is still counted as dead and the Knight can access the village.
 The Geo dropped by Gruz Mother is not affected by Fragile Greed/Unbreakable Greed.
 
@@ -8050,14 +7620,12 @@ References
 ---
 
 ---
-
 # 文档：Gulka
-
 - 类别：enemies
 - 标识：gulka
 - 来源：wiki/Gulka
 
-<b>Gulkas</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are plant-like beings who spit venom-filled spikey balls at intruders. The venom has certain enjoyable effects when it is consumed.
+Gulkas are Enemies (Hollow Knight) in Hollow Knight (game). They are plant-like beings who spit venom-filled spikey balls at intruders. The venom has certain enjoyable effects when it is consumed.
 
 Behaviour and Tactics
 Shoots spiked balls in the Knight direction. These balls arc very slightly with gravity.
@@ -8076,20 +7644,18 @@ References
 ---
 
 ---
-
 # 文档：Heavy Fool
-
 - 类别：enemies
 - 标识：heavy-fool
 - 来源：wiki/Heavy_Fool
 
-<b>Heavy Fools</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are bulky Fools who fight for their lives in the Colosseum of Fools.
+Heavy Fools are Enemies (Hollow Knight) in Hollow Knight (game). They are bulky Fools who fight for their lives in the Colosseum of Fools.
 
 Behaviour and Tactics
 Heavy Fools have three attacks:
-<b>Forward Slash</b>: They unleash a powerful swing in an arc in front of them.
-<b>Charge</b>: They charge at the Knight with their nail held in front of them.
-<b>Leap</b>: When the Knight attempts to jump over them, they react by hopping in the air, dealing contact damage. As they land on the ground, they perform a Forward Slash attack.
+Forward Slash: They unleash a powerful swing in an arc in front of them.
+Charge: They charge at the Knight with their nail held in front of them.
+Leap: When the Knight attempts to jump over them, they react by hopping in the air, dealing contact damage. As they land on the ground, they perform a Forward Slash attack.
 
 It is recommended to burst them down quickly, as they are among the most dangerous Fools with their wide variety of attacks available.
 
@@ -8101,20 +7667,18 @@ References
 ---
 
 ---
-
 # 文档：Heavy Sentry
-
 - 类别：enemies
 - 标识：heavy-sentry
 - 来源：wiki/Heavy_Sentry
 
-<b>Heavy Sentries</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. Reanimated by the Infection, these walking corpses wield a greatnail, guarding the City of Tears even in death.
+Heavy Sentries are Enemies (Hollow Knight) in Hollow Knight (game). Reanimated by the Infection, these walking corpses wield a greatnail, guarding the City of Tears even in death.
 
 Behaviour and Tactics
 Heavy Sentries have three attacks:
-<b>Overhead Swing</b>: They unleash a powerful swing in an arc in front of them.
-<b>Charge</b>: They charge at the Knight with their nail held in front of them.
-<b>Hop</b>: When the Knight attempts jumping over them, they react by hopping in the air, dealing contact damage. As they land on the ground, they perform an Overhead Swing attack.
+Overhead Swing: They unleash a powerful swing in an arc in front of them.
+Charge: They charge at the Knight with their nail held in front of them.
+Hop: When the Knight attempts jumping over them, they react by hopping in the air, dealing contact damage. As they land on the ground, they perform an Overhead Swing attack.
 
 The best moment to hit them is when they charge. Simply jump over them and execute a downward strike or use the Vengeful Spirit/Shade Soul Spells when they charge, as they have no way to avoid it. They can also be hit just after their normal Overhead Swing attack.
 
@@ -8126,14 +7690,12 @@ References
 ---
 
 ---
-
 # 文档：Hive Guardian
-
 - 类别：enemies
 - 标识：hive-guardian
 - 来源：wiki/Hive_Guardian
 
-<b>Hive Guardians</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are huge The Bees whose only instinct is to guard the Hive by charging at intruders.
+Hive Guardians are Enemies (Hollow Knight) in Hollow Knight (game). They are huge The Bees whose only instinct is to guard the Hive by charging at intruders.
 
 Behaviour and Tactics
 Simply charges at the Knight, dealing 2 Masks of damage and rebounding off any terrain in its way. They can destroy cracked platforms, which can make platforming sections more difficult. Their massive size combined with their erratic bouncing movements makes them tricky to predict and avoid. Focus on them and destroy them as quickly as possible.
@@ -8150,14 +7712,12 @@ References
 ---
 
 ---
-
 # 文档：Hive Soldier
-
 - 类别：enemies
 - 标识：hive-soldier
 - 来源：wiki/Hive_Soldier
 
-<b>Hive Soldiers</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. These The Bees warriors spin their compound stingers to attack intruders.
+Hive Soldiers are Enemies (Hollow Knight) in Hollow Knight (game). These The Bees warriors spin their compound stingers to attack intruders.
 
 Behaviour and Tactics
 Hovers about passively until engaged. To attack, they reveal a massive, drill-like stinger and charge at the Knight after a few seconds, somewhat tracking their movement. Once impacting the ground, they remain stuck for one second, becoming vulnerable to attacks. Simply dodge their charge and hit them while they are stuck before backing off and repeating the process.
@@ -8173,14 +7733,12 @@ References
 ---
 
 ---
-
 # 文档：Hiveling
-
 - 类别：enemies
 - 标识：hiveling
 - 来源：wiki/Hiveling
 
-<b>Hivelings</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are little The Bees warriors who carry out simple tasks in and around the Hive.
+Hivelings are Enemies (Hollow Knight) in Hollow Knight (game). They are little The Bees warriors who carry out simple tasks in and around the Hive.
 
 Behaviour and Tactics
 Flies around idly, but drifts toward the Knight at a moderate speed when in range.
@@ -8194,21 +7752,19 @@ Trivia
 
 The Hiveling is one of the few enemies that respawns upon leaving and re-entering the room.
 With the Hiveblood Charm equipped, they do not attack the Knight nor deal damage on contact, however, they still retaliate if attacked.
-Before the  <i>:Category: Lifeblood</i> update, Hivelings were smaller and only had 1 health.
+Before the  :Category: Lifeblood update, Hivelings were smaller and only had 1 health.
 
 References
 
 ---
 
 ---
-
 # 文档：Hopper
-
 - 类别：enemies
 - 标识：hopper
 - 来源：wiki/Hopper
 
-<b>Hoppers</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. These agile creatures are the juvenile form of the Great Hoppers. They use their proboscis to drain fluids from prey.
+Hoppers are Enemies (Hollow Knight) in Hollow Knight (game). These agile creatures are the juvenile form of the Great Hoppers. They use their proboscis to drain fluids from prey.
 
 Behaviour and Tactics
 Hops in one direction until it hits a wall, where it then turns around and continues hopping in the other direction. It only deals contact damage.
@@ -8220,7 +7776,7 @@ They can be found in most of Kingdom's Edge, except for the southwest part. They
 
 Trivia
 
-During the beta for <i>Hollow Knight</i>, Hoppers could be found in the Forgotten Crossroads, their positions have been mostly replaced by Crawlids.
+During the beta for Hollow Knight, Hoppers could be found in the Forgotten Crossroads, their positions have been mostly replaced by Crawlids.
 An early screenshot also showed the Hoppers in a "mushroom_grotto".
 
 References
@@ -8228,14 +7784,12 @@ References
 ---
 
 ---
-
 # 文档：Hopping Zoteling
-
 - 类别：enemies
 - 标识：hopping-zoteling
 - 来源：wiki/Hopping_Zoteling
 
-<b>Hopping Zotelings</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>, introduced in the <i>Hidden Dreams</i> update. They are the products of Bretta imagination.
+Hopping Zotelings are Enemies (Hollow Knight) in Hollow Knight (game), introduced in the Hidden Dreams update. They are the products of Bretta imagination.
 
 Behaviour and Tactics
 Falls from above and hops towards the Knight in a very tall arc. It has very low health, but since multiple can quickly become a distraction, it is recommended to kill it as fast as possible with a simple Nail strike or by using a Spells such as Vengeful Spirit/Shade Soul to strike both it and the boss simultaneously.
@@ -8250,23 +7804,21 @@ References
 ---
 
 ---
-
 # 文档：Hornet Protector
-
 - 类别：enemies, bosses
 - 标识：hornet-protector
 - 来源：wiki/Hornet_Protector
 
-<b>Hornet Protector</b> is the first form of Hornet as a Bosses (Hollow Knight) in <i>Hollow Knight (game)</i>. She confronts the Knight in Greenpath to impede their quest, but underestimates her opponent and does not deploy her full strength. She must be defeated twice to unlock her Hunter's Journal entry, but this can be either by defeating both forms or by defeating her Protector form once in Greenpath and once in  Godhome.
+Hornet Protector is the first form of Hornet as a Bosses (Hollow Knight) in Hollow Knight (game). She confronts the Knight in Greenpath to impede their quest, but underestimates her opponent and does not deploy her full strength. She must be defeated twice to unlock her Hunter's Journal entry, but this can be either by defeating both forms or by defeating her Protector form once in Greenpath and once in  Godhome.
 
 Behaviour and Tactics
 Hornet has 4 base attacks:
-<b>Lunge</b>: Hornet lunges forward with her needle in front of her.
-<b>Aerial Lunge</b>: Hornet jumps into the air before aiming at the Knight and rushing downwards.
-<b>Thread Storm</b>: Hornet unleashes an area-of-effect attack centred on herself, using her thread to slice into anything around her. This attack can be done in the air.
+Lunge: Hornet lunges forward with her needle in front of her.
+Aerial Lunge: Hornet jumps into the air before aiming at the Knight and rushing downwards.
+Thread Storm: Hornet unleashes an area-of-effect attack centred on herself, using her thread to slice into anything around her. This attack can be done in the air.
 Silk Spear: Hornet throws her needle forward, then pulls it back. The range of this attack is slightly smaller than the width of the battlefield. The needle can damage the Knight on the way back.
-<b>Leap</b>: Hornet jumps to move within the arena.
-<b>Run</b>: Hornet runs to move within the arena.
+Leap: Hornet jumps to move within the arena.
+Run: Hornet runs to move within the arena.
 
 ---
 
@@ -8290,7 +7842,7 @@ Hornet Protector can be fought in Greenpath.
 Achievements
 
 Trivia
-The names of her boss forms "Hornet Protector" and "Hornet Sentinel" were coined in  <i>Godmaster</i>, prior to which she was commonly referred to as simply "Hornet 1&2".
+The names of her boss forms "Hornet Protector" and "Hornet Sentinel" were coined in  Godmaster, prior to which she was commonly referred to as simply "Hornet 1&2".
 Despite having an unlock text in the  Hall of Gods, it is impossible to see it in-game. The Mothwing Cloak obtained from fighting Hornet in Greenpath is necessary to enter the Fungal Wastes and thus later on  Godhome.
 The boss fight starts immediately if Hornet is attacked before her dialogue starts.
 Hornet turns upside-down in the air if she is defeated in the middle of her Aerial Lunge attack.
@@ -8300,27 +7852,25 @@ References
 ---
 
 ---
-
 # 文档：Hornet Sentinel
-
 - 类别：enemies, bosses
 - 标识：hornet-sentinel
 - 来源：wiki/Hornet_Sentinel
 
-<b>Hornet Sentinel</b> is the second form of Hornet as a Bosses (Hollow Knight) in <i>Hollow Knight (game)</i>. She challenges the Knight at the entrance to the Cast-Off Shell in Kingdom's Edge to test their resolve and strength in saving Hallownest. She deploys this time her full strength and tools. She must be defeated twice to unlock her Hunter's Journal entry, but this can be either by defeating both forms or by defeating her Protector form once in Greenpath and once in  Godhome.
+Hornet Sentinel is the second form of Hornet as a Bosses (Hollow Knight) in Hollow Knight (game). She challenges the Knight at the entrance to the Cast-Off Shell in Kingdom's Edge to test their resolve and strength in saving Hallownest. She deploys this time her full strength and tools. She must be defeated twice to unlock her Hunter's Journal entry, but this can be either by defeating both forms or by defeating her Protector form once in Greenpath and once in  Godhome.
 
 Behaviour and Tactics
 Hornet Sentinel uses tactics similar to her Protector form, but her attacks come at a much more rapid pace. The range of the area of effect on her Gossamer Storm attack is also larger. Her base attacks remain:
-<b>Lunge</b>: Hornet lunges forward with her needle in front of her.
-<b>Aerial Lunge</b>: Hornet jumps in the air before aiming at the Knight and rushing downwards.
-<b>Thread Storm</b>: Hornet unleashes an area-of-effect attack centred on herself, using her thread to slice into anything around her. This attack can be done in the air.
-<b>Silk Spear</b>: Hornet throws her needle forward, then pulls it back. The range of this attack is slightly smaller than the width of the battlefield. The needle can damage the Knight on the way back.
-<b>Leap</b>: Hornet jumps to move within the arena.
-<b>Run</b>: Hornet runs to move within the arena.
+Lunge: Hornet lunges forward with her needle in front of her.
+Aerial Lunge: Hornet jumps in the air before aiming at the Knight and rushing downwards.
+Thread Storm: Hornet unleashes an area-of-effect attack centred on herself, using her thread to slice into anything around her. This attack can be done in the air.
+Silk Spear: Hornet throws her needle forward, then pulls it back. The range of this attack is slightly smaller than the width of the battlefield. The needle can damage the Knight on the way back.
+Leap: Hornet jumps to move within the arena.
+Run: Hornet runs to move within the arena.
 
 In addition, she gains two new attacks:
-<b>Parry</b>: Hornet holds her needle in a defensive stance, blocking any incoming attack. If struck while she is defending, she giggles before unleashing a wide-range counter slash.
-<b>Sting Shards</b>: Hornet uses her thread to suspend spiked balls in midair. The spikes deal contact damage and remain until they are destroyed by Nail attacks, Spells, or certain Charms. There can only be a maximum of 6 spikes set up at once. Hornet only uses this attack after reaching 480 HP.
+Parry: Hornet holds her needle in a defensive stance, blocking any incoming attack. If struck while she is defending, she giggles before unleashing a wide-range counter slash.
+Sting Shards: Hornet uses her thread to suspend spiked balls in midair. The spikes deal contact damage and remain until they are destroyed by Nail attacks, Spells, or certain Charms. There can only be a maximum of 6 spikes set up at once. Hornet only uses this attack after reaching 480 HP.
 
 ---
 
@@ -8349,21 +7899,19 @@ Achievements
 
 Trivia
 After defeating Hornet Sentinel, if the Knight uses the Dream Nail on her before talking to her, they gain SOUL as if she were still an enemy.
-The names of her boss forms "Hornet Protector" and "Hornet Sentinel" were coined in  <i>Godmaster</i>, prior to which she was commonly referred to as simply "Hornet 1&2".
+The names of her boss forms "Hornet Protector" and "Hornet Sentinel" were coined in  Godmaster, prior to which she was commonly referred to as simply "Hornet 1&2".
 
 References
 
 ---
 
 ---
-
 # 文档：Hunter
-
 - 类别：enemies, bosses, characters
 - 标识：hunter
 - 来源：wiki/Hunter
 
-<b>The Hunter</b> is a NPCs (Hollow Knight)#Quest NPCs in <i>Hollow Knight (game)</i>. He gifts the Hunter's Journal, a bestiary detailing all Enemies (Hollow Knight) in Hallownest.
+The Hunter is a NPCs (Hollow Knight)#Quest NPCs in Hollow Knight (game). He gifts the Hunter's Journal, a bestiary detailing all Enemies (Hollow Knight) in Hallownest.
 
 Lore
 When the Hunter was young, he and his siblings used to hunt each other in their nest. Ever since then, he hunts alone without any companion or partner.
@@ -8377,7 +7925,7 @@ Upon completion of his quest, the Hunter bides his time before his next hunt beg
 In-game events
 The Hunter is located in Greenpath. When he is first approached, he roars menacingly, and if the Knight still approaches him, he gives them the Hunter's Journal and tasks them with completing the Journal by killing or defeating a specified number of each enemy.
 
-When the Hunter's Journal is complete, returning to the Hunter awards the Hunter's Mark and the <i>True Hunter</i> Achievements (Hollow Knight).
+When the Hunter's Journal is complete, returning to the Hunter awards the Hunter's Mark and the True Hunter Achievements (Hollow Knight).
 
 Before getting the Hunter's Mark from him, the ground below collapses and it is revealed that the "cave" is actually a hood and the rest of his body is a large thin figure. He then roars and boss music briefly plays, making it seem like a boss battle. The music then stops abruptly and the Hunter puts his hand out with the Hunter's Mark in it.
 
@@ -8388,7 +7936,7 @@ Achievements
 
 Trivia
 The Hunter was first revealed in a Hollow Knight Kickstarter:
-<i>"If you explore the Greenpath carefully, you'll come across the mysterious Hunter in his lair. He'll give you his Hunter's Journal, and charge you with the task of defeating enemies, adding their details to the journal. And so your hunt begins!"</i>
+"If you explore the Greenpath carefully, you'll come across the mysterious Hunter in his lair. He'll give you his Hunter's Journal, and charge you with the task of defeating enemies, adding their details to the journal. And so your hunt begins!"
 If the  Grimmchild Charms is equipped, the Grimmchild attempts to attack the Hunter when he roars, but stops after a moment. This does no damage to the Hunter.
 Before being dropped into the pit to receive the Hunter's Mark, a choice is given of "Ready to receive reward?".
 The roar the Hunter uses is the same as Brooding Mawlek.
@@ -8396,14 +7944,12 @@ The roar the Hunter uses is the same as Brooding Mawlek.
 ---
 
 ---
-
 # 文档：Husk Bully
-
 - 类别：enemies
 - 标识：husk-bully
 - 来源：wiki/Husk_Bully
 
-<b>Husk Bullies</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are walking corpses who attack anyone they can find who has not been the Infection.
+Husk Bullies are Enemies (Hollow Knight) in Hollow Knight (game). They are walking corpses who attack anyone they can find who has not been the Infection.
 
 Behaviour and Tactics
 Meanders back and forth passively until the Knight comes within range. It then hurls its body a short distance at the Knight. Because of its slow attack sequence and predictable move set, it is very easily dealt with and only poses a threat to the Knight when found in conjunction with other enemies.
@@ -8411,23 +7957,21 @@ Meanders back and forth passively until the Knight comes within range. It then h
 Location
 Although found mostly in the Forgotten Crossroads, they can also be spotted in the City of Tears, Greenpath, the Howling Cliffs, and the Royal Waterways, much like their Husk Hornhead.
 
- Trivia 
-In a Hollow Knight Kickstarter, it was referred to as "<b>Endemons Sapien (Infected)</b>":
-<i>"These vicious, mindless ghouls were once ordinary bugs like you and me. Something below the surface has burnt away their souls and filled them with an aimless rage."</i>
+ Trivia
+In a Hollow Knight Kickstarter, it was referred to as "Endemons Sapien (Infected)":
+"These vicious, mindless ghouls were once ordinary bugs like you and me. Something below the surface has burnt away their souls and filled them with an aimless rage."
 
 References
 
 ---
 
 ---
-
 # 文档：Husk Dandy
-
 - 类别：enemies
 - 标识：husk-dandy
 - 来源：wiki/Husk_Dandy
 
-<b>Husk Dandies</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. Before dying and being reanimated by the Infection, these weak bugs used to be members of Hallownest upper class.
+Husk Dandies are Enemies (Hollow Knight) in Hollow Knight (game). Before dying and being reanimated by the Infection, these weak bugs used to be members of Hallownest upper class.
 
 Behaviour and Tactics
 Meanders back and forth until engaged. Upon drawing close, it lunges towards the Knight and attacks with a flurry of unarmed blows. This attack is very short-ranged and leaves it open for a counterattack, as it is completely stationary while using it.
@@ -8438,21 +7982,19 @@ Located mainly in the eastern portion of the City of Tears.
 Trivia
 
 A large dead Husk Dandy can be found within the Queen's Gardens holding the Love Key. It has its own unique Dream Nail dialogue:
-<i>"Too long... spent together. We become as one..."</i>
+"Too long... spent together. We become as one..."
 
 References
 
 ---
 
 ---
-
 # 文档：Husk Hive
-
 - 类别：enemies
 - 标识：husk-hive
 - 来源：wiki/Husk_Hive
 
-<b>Husk Hives</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. These husks have merged their bodies with small hives, carrying Hivelings around who protect them.
+Husk Hives are Enemies (Hollow Knight) in Hollow Knight (game). These husks have merged their bodies with small hives, carrying Hivelings around who protect them.
 
 Behaviour and Tactics
 When engaged, it flees from the Knight, even jumping up onto platforms if its way is blocked. If cornered, it leaps a short but high distance in the Knight's direction and deals contact damage, much like a Gluttonous Husk. It occasionally spawns a single Hiveling and spawns three of them upon death.
@@ -8471,14 +8013,12 @@ References
 ---
 
 ---
-
 # 文档：Husk Hornhead
-
 - 类别：enemies
 - 标识：husk-hornhead
 - 来源：wiki/Husk_Hornhead
 
-<b>Husk Hornheads</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They use their horn to attack any creatures not stricken by the Infection.
+Husk Hornheads are Enemies (Hollow Knight) in Hollow Knight (game). They use their horn to attack any creatures not stricken by the Infection.
 
 Behaviour and Tactics
 Lowers its head and charges at the Knight on sight but is otherwise rather weak.
@@ -8490,8 +8030,8 @@ They can mainly be found throughout the Forgotten Crossroads, the City of Tears,
 
 Trivia
 
-In a Hollow Knight Kickstarter, it was referred to as "<b>Endemons Sapien (Infected)</b>":
-<i>"These vicious, mindless ghouls were once ordinary bugs like you and me. Something below the surface has burnt away their souls and filled them with an aimless rage."</i>
+In a Hollow Knight Kickstarter, it was referred to as "Endemons Sapien (Infected)":
+"These vicious, mindless ghouls were once ordinary bugs like you and me. Something below the surface has burnt away their souls and filled them with an aimless rage."
 In the pre-release A Weird and Wonderful World trailer, a Husk Hornhead is shown without its horn.
 A modified version of this original design is used as one of the forms of the Fungified Husk.
 
@@ -8500,14 +8040,12 @@ References
 ---
 
 ---
-
 # 文档：Husk Miner
-
 - 类别：enemies
 - 标识：husk-miner
 - 来源：wiki/Husk_Miner
 
-<b>Husk Miners</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. Even after being overcome by the Infection, these reanimated corpses continue to mine the crystals in Crystal Peak.
+Husk Miners are Enemies (Hollow Knight) in Hollow Knight (game). Even after being overcome by the Infection, these reanimated corpses continue to mine the crystals in Crystal Peak.
 
 Behaviour and Tactics
 Mines listlessly until approached. Upon being disturbed, an orange dot, reminiscent of those seen in the eyes of other The Infection husks, can be seen within its eyes, which otherwise would have appeared uninfected.
@@ -8527,20 +8065,18 @@ References
 ---
 
 ---
-
 # 文档：Husk Sentry
-
 - 类别：enemies
 - 标识：husk-sentry
 - 来源：wiki/Husk_Sentry
 
-<b>Husk Sentries</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are the reanimated corpses of Hallownest sentries, still standing guard in and around the City of Tears.
+Husk Sentries are Enemies (Hollow Knight) in Hollow Knight (game). They are the reanimated corpses of Hallownest sentries, still standing guard in and around the City of Tears.
 
 Behaviour and Tactics
 Husk Sentries have three attacks:
-<b>Slash</b>: Takes a swipe at the Knight if they are in range.
-<b>Triple Slash</b>: Instead of performing a normal Slash, it may sometimes slash three times.
-<b>Backstep</b>: Usually done when the Knight is above them, the Sentry takes a small hop backwards.
+Slash: Takes a swipe at the Knight if they are in range.
+Triple Slash: Instead of performing a normal Slash, it may sometimes slash three times.
+Backstep: Usually done when the Knight is above them, the Sentry takes a small hop backwards.
 
 They patrol back and forth until they spot the Knight, after which they run up to engage them. They can attack with a single slash or sometimes a series of slashes and will occasionally jump backwards to avoid attacks. Hit them just after they finish their attack, then Mothwing Cloak out of their range when they attack. They grunt a distinctive marching rhythm when patrolling, signalling their presence in an area.
 
@@ -8556,14 +8092,12 @@ References
 ---
 
 ---
-
 # 文档：Hwurmp
-
 - 类别：enemies
 - 标识：hwurmp
 - 来源：wiki/Hwurmp
 
-<b>Hwurmps</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are tiny creatures who have powerful, expandable lungs which allow them to swell up to an enormous size.
+Hwurmps are Enemies (Hollow Knight) in Hollow Knight (game). They are tiny creatures who have powerful, expandable lungs which allow them to swell up to an enormous size.
 
 Behaviour and Tactics
 Floats around passively until the Knight approaches it, after which it slowly floats towards them. Upon taking damage or colliding with another enemy or the Knight, it inflates and bounces off objects, walls and water surfaces. After a relatively short period, it reverts to its original form. If it inflates inside a tight space where its inflated body cannot fit, it instantly dies.
@@ -8583,14 +8117,12 @@ References
 ---
 
 ---
-
 # 文档：Infected Balloon
-
 - 类别：enemies
 - 标识：infected-balloon
 - 来源：wiki/Infected_Balloon
 
-<b>Infected Balloons</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are single cells of Infection consisting of pus and light gasses.
+Infected Balloons are Enemies (Hollow Knight) in Hollow Knight (game). They are single cells of Infection consisting of pus and light gasses.
 
 Behaviour and Tactics
 Spawns out of thin air, often catching the Knight off-guard. They float towards the Knight, dealing contact damage.
@@ -8611,19 +8143,17 @@ References
 ---
 
 ---
-
 # 文档：Kingsmould
-
 - 类别：enemies
 - 标识：kingsmould
 - 来源：wiki/Kingsmould
 
-<b>Kingsmoulds</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are Void constructs who were made by the Pale King to serve as guards in and around the White Palace.
+Kingsmoulds are Enemies (Hollow Knight) in Hollow Knight (game). They are Void constructs who were made by the Pale King to serve as guards in and around the White Palace.
 
 Behaviour and Tactics
 Kingsmoulds have two attacks:
-<b>Boomerang</b>: They throw their claw-blade at the Knight that then returns to them in a similar fashion to a boomerang.
-<b>Swipe</b>: They slash at the Knight in a wide arch up to three times consecutively.
+Boomerang: They throw their claw-blade at the Knight that then returns to them in a similar fashion to a boomerang.
+Swipe: They slash at the Knight in a wide arch up to three times consecutively.
 
 Upon seeing the Knight they stomp twice and then attack. When triggered they deal two Masks of damage with every attack and attack at a very fast pace, making them a formidable foe. Contact damage only deals one Mask of damage. They do not respawn upon death except for the ones in the  Path of Pain.
 
@@ -8645,19 +8175,17 @@ Prior to the Voidheart Edition, the Hunter's Journal image for the Kingsmould sh
 ---
 
 ---
-
 # 文档：Lance Sentry
-
 - 类别：enemies
 - 标识：lance-sentry
 - 来源：wiki/Lance_Sentry
 
-<b>Lance Sentries</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. Guarding the City of Tears, these winged sentries of Hallownest are equipped with a nail-lance to pursue trespassers.
+Lance Sentries are Enemies (Hollow Knight) in Hollow Knight (game). Guarding the City of Tears, these winged sentries of Hallownest are equipped with a nail-lance to pursue trespassers.
 
 Behaviour and Tactics
 Floats in place or clings to a wall until engaged. They tend to stay well out of melee range, so the best way to kill them is to wait for them to charge, jump over them when they do and down-strike them as they pass underneath. As they have a fair amount of health, it might take some time to kill them.
-<b>Charge</b>: They lower their lance and swoop down toward the Knight.
-<b>Lance Throw</b>: They aim and throw their lance in a straight line at the Knight.
+Charge: They lower their lance and swoop down toward the Knight.
+Lance Throw: They aim and throw their lance in a straight line at the Knight.
 
 Location
 They can mainly be found in the centre and west parts of the City of Tears. They can also be found in the Royal Waterways near the Ancient Basin.
@@ -8667,14 +8195,12 @@ References
 ---
 
 ---
-
 # 文档：Lesser Mawlek
-
 - 类别：enemies
 - 标识：lesser-mawlek
 - 来源：wiki/Lesser_Mawlek
 
-<b>Lesser Mawleks</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are fast-moving creatures with many teeth and sharp foreclaws who spit acid at targets.
+Lesser Mawleks are Enemies (Hollow Knight) in Hollow Knight (game). They are fast-moving creatures with many teeth and sharp foreclaws who spit acid at targets.
 
 Behaviour and Tactics
 Spits orange blobs of acid at the Knight from a distance that linger on the floor for 1.25-1.75 seconds. Once close enough, it winds up its leg for a swipe to deal melee damage.
@@ -8689,14 +8215,12 @@ References
 ---
 
 ---
-
 # 文档：Lifeseed
-
 - 类别：enemies
 - 标识：lifeseed
 - 来源：wiki/Lifeseed
 
-<b>Lifeseeds</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are small seeds which are often found huddled together in Lifeblood Cocoons. Lifeseeds contain Lifeblood, a blue liquid which invigorates the body when it is consumed.
+Lifeseeds are Enemies (Hollow Knight) in Hollow Knight (game). They are small seeds which are often found huddled together in Lifeblood Cocoons. Lifeseeds contain Lifeblood, a blue liquid which invigorates the body when it is consumed.
 
 Behaviour and Tactics
 Lifeseeds are birthed from destroyed Lifeblood Cocoons and run away from the Knight. When killed, they grant 1 Lifeblood Mask.  Grimmchild and the Weaverlings spawned by  Weaversong cannot kill Lifeseeds, although they still try to attack them. Hatchlings spawned by Glowing Womb are able to kill Lifeseeds.
@@ -8720,14 +8244,12 @@ References
 ---
 
 ---
-
 # 文档：Lightseed
-
 - 类别：enemies
 - 标识：lightseed
 - 来源：wiki/Lightseed
 
-<b>Lightseeds</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are small creatures who have swollen greatly in size due to Infection.
+Lightseeds are Enemies (Hollow Knight) in Hollow Knight (game). They are small creatures who have swollen greatly in size due to Infection.
 
 Behaviour and Tactics
 Completely harmless, doesn't even deal contact damage. Hitting them with the Nail provides no SOUL, although they do give SOUL if they are hit with the Dream Nail.
@@ -8735,7 +8257,7 @@ Completely harmless, doesn't even deal contact damage. Hitting them with the Nai
 Multitudes of them spawn before the battle with Broken Vessel, attempting to fill it with Infection. Killing these Lightseeds does not decrease the number required for the Hunter's Journal entry.
 
 Location
-Lightseeds are found in the area in the Ancient Basin leading to Broken Vessel. After Broken Vessel is defeated, they no longer show up in this area. They are also located in the Infected Crossroads. The Lightseeds in the room east of the lift leading to the City of Tears also do not show up after Broken Vessel's defeat. The other six Lightseeds in the Infected Crossroads <b>do</b> show up even after defeating Broken Vessel.
+Lightseeds are found in the area in the Ancient Basin leading to Broken Vessel. After Broken Vessel is defeated, they no longer show up in this area. They are also located in the Infected Crossroads. The Lightseeds in the room east of the lift leading to the City of Tears also do not show up after Broken Vessel's defeat. The other six Lightseeds in the Infected Crossroads do show up even after defeating Broken Vessel.
 
 Trivia
 They cannot be harmed by any summoned familiars such as  Grimmchild or  Weaversong.
@@ -8747,14 +8269,12 @@ References
 ---
 
 ---
-
 # 文档：Little Weaver
-
 - 类别：enemies
 - 标识：little-weaver
 - 来源：wiki/Little_Weaver
 
-<b>Little Weavers</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are small Weavers who were part of the spider tribe of Deepnest.
+Little Weavers are Enemies (Hollow Knight) in Hollow Knight (game). They are small Weavers who were part of the spider tribe of Deepnest.
 
 Behaviour and Tactics
 Hides in the shadows before emitting a screech and suddenly appearing. It slowly crawls along silk in the background and foreground (that cannot be interacted with) towards the Knight, dealing contact damage.
@@ -8772,14 +8292,12 @@ References
 ---
 
 ---
-
 # 文档：Loodle
-
 - 类别：enemies
 - 标识：loodle
 - 来源：wiki/Loodle
 
-<b>Loodles</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. These leaping bugs roam the wilds beside the Queen's Gardens in packs, bouncing around unpredictably. A stronger variant called Death Loodle are taught to kill in the Colosseum of Fools.
+Loodles are Enemies (Hollow Knight) in Hollow Knight (game). These leaping bugs roam the wilds beside the Queen's Gardens in packs, bouncing around unpredictably. A stronger variant called Death Loodle are taught to kill in the Colosseum of Fools.
 
 Behaviour and Tactics
 Hops around and sticks to surfaces, sometimes aiming its jumps in the vague direction of the Knight.
@@ -8796,22 +8314,20 @@ References
 ---
 
 ---
-
 # 文档：Lost Kin
-
 - 类别：enemies, bosses
 - 标识：lost-kin
 - 来源：wiki/Lost_Kin
 
-<b>Lost Kin</b> is a hidden Bosses (Hollow Knight) in <i>Hollow Knight (game)</i>. It is the Dream variant of the Broken Vessel, faster and tougher than its physical counterpart.
+Lost Kin is a hidden Bosses (Hollow Knight) in Hollow Knight (game). It is the Dream variant of the Broken Vessel, faster and tougher than its physical counterpart.
 
 Behaviour and Tactics
 Lost Kin shares its basic attacks with Broken Vessel but attacks at a much faster pace. Notable changes are:
-<b>Aerial Slash</b>: Lost Kin falls much faster after finishing the slash.
-<b>Leap</b>: Lost Kin rises and falls much faster.
-<b>Cascade</b>: Lost Kin no longer uses this attack.
-<b>Slam</b>: When Lost Kin hits the ground, six blobs of Infection now fly out as opposed to four.
-<b>Balloon</b>: This attack now happens at much quicker intervals (2-3 seconds). There is a maximum of 6 balloons that can be alive at once and this attack only occurs after Lost Kin has reached 1150 HP.
+Aerial Slash: Lost Kin falls much faster after finishing the slash.
+Leap: Lost Kin rises and falls much faster.
+Cascade: Lost Kin no longer uses this attack.
+Slam: When Lost Kin hits the ground, six blobs of Infection now fly out as opposed to four.
+Balloon: This attack now happens at much quicker intervals (2-3 seconds). There is a maximum of 6 balloons that can be alive at once and this attack only occurs after Lost Kin has reached 1150 HP.
 
 ---
 
@@ -8849,14 +8365,12 @@ References
 ---
 
 ---
-
 # 文档：Maggot
-
 - 类别：enemies
 - 标识：maggot
 - 来源：wiki/Maggot
 
-<b>Maggots</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are helpless and weak creatures who were forced to do menial labour.
+Maggots are Enemies (Hollow Knight) in Hollow Knight (game). They are helpless and weak creatures who were forced to do menial labour.
 
 Behaviour and Tactics
 Flees from the Knight while blubbering, posing no threat. Runs until it hits a wall then ricochets and continues at the wall. They do not respawn.
@@ -8876,14 +8390,12 @@ References
 ---
 
 ---
-
 # 文档：Mantis Petra
-
 - 类别：enemies
 - 标识：mantis-petra
 - 来源：wiki/Mantis_Petra
 
-<b>Mantis Petras</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are flying The Infection Mantises of the Mantis Tribe who followed the Traitor Lord and were exiled from their Mantis Village.
+Mantis Petras are Enemies (Hollow Knight) in Hollow Knight (game). They are flying The Infection Mantises of the Mantis Tribe who followed the Traitor Lord and were exiled from their Mantis Village.
 
 Behaviour and Tactics
 Hovers just outside The Knight melee reach. It flings scythes that swoop down in a parabolic arc, slow at the apex, and then come back up.
@@ -8906,14 +8418,12 @@ References
 ---
 
 ---
-
 # 文档：Mantis Traitor
-
 - 类别：enemies
 - 标识：mantis-traitor
 - 来源：wiki/Mantis_Traitor
 
-<b>Mantis Traitors</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. Former members of the Mantis Tribe who follow the Traitor Lord, these Mantises were cast out of their Mantis Village and driven mad by the Infection.
+Mantis Traitors are Enemies (Hollow Knight) in Hollow Knight (game). Former members of the Mantis Tribe who follow the Traitor Lord, these Mantises were cast out of their Mantis Village and driven mad by the Infection.
 
 Behaviour and Tactics
 Mantis Traitors have three attacks:
@@ -8930,8 +8440,8 @@ They are very commonly found within the Queen's Gardens, usually defeating them 
 
 Trivia
 The sprite of the Mantis Traitor used in its Hunter's Journal entry does not have Infection looking eyes nor does it have as much shading as the in-game sprites.
-Prior to the  <i>:Category: Lifeblood</i> update, Mantis Traitors dropped  upon death. Due to a glitch, they no longer dropped Geo after this. This was fixed in version Updates (Hollow Knight). However, they now drop , one Geo more than before.
-Prior to the release of  <i>Godmaster</i>, the Dream Nail could not be used on Mantis Traitors.
+Prior to the  :Category: Lifeblood update, Mantis Traitors dropped  upon death. Due to a glitch, they no longer dropped Geo after this. This was fixed in version Updates (Hollow Knight). However, they now drop , one Geo more than before.
+Prior to the release of  Godmaster, the Dream Nail could not be used on Mantis Traitors.
 Before version 1.5.68.11808, Mantis Traitors used to have the same generic Dream Nail dialogue as unintelligent enemies such as Boofly and Garpedes.
 The Mantis Traitor is one of the few enemies that does not make dreamcatchers appear when Dream Nailed.
 
@@ -8940,14 +8450,12 @@ References
 ---
 
 ---
-
 # 文档：Mantis Warrior
-
 - 类别：enemies
 - 标识：mantis-warrior
 - 来源：wiki/Mantis_Warrior
 
-<b>Mantis Warriors</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are adult members of the Mantis Tribe who guard the tribe and their Mantis Lords. Like all other Mantises in the Mantis Village, they resist the Infection.
+Mantis Warriors are Enemies (Hollow Knight) in Hollow Knight (game). They are adult members of the Mantis Tribe who guard the tribe and their Mantis Lords. Like all other Mantises in the Mantis Village, they resist the Infection.
 
 Behaviour and Tactics
 Stands still until disturbed. Once engaged, it attacks with very quick, long-range slashes, often accompanied by a short dash. Its attacks are quite difficult to dodge, so sometimes it is easier to tank a few hits, slashing at it as fast as possible and healing once it is dead.
@@ -8962,22 +8470,20 @@ They are only found within and in the entrance of the Mantis Village.
 Trivia
 After the Mantis Lords are defeated, Mantis Warriors (as well as Mantis Youths) gain new Dream Nail dialogue and bow to the Knight as they pass by.
 The non-hostile Mantis Warriors do not retaliate if damaged by Defender's Crest and Spore Shroom but do turn hostile if damaged by the  Dreamshield or any summoned familiar such as  Grimmchild or Glowing Womb.
-In a Hollow Knight Kickstarter the Mantis Warrior was referred to as "<b>Lesser Mantian</b>":
-<i>"The Mantian tribe were always the outsiders of Hallownest society. After the cataclysm, these inscrutable hunters retreated into the fungal forests to escape the plague."</i>
+In a Hollow Knight Kickstarter the Mantis Warrior was referred to as "Lesser Mantian":
+"The Mantian tribe were always the outsiders of Hallownest society. After the cataclysm, these inscrutable hunters retreated into the fungal forests to escape the plague."
 
 References
 
 ---
 
 ---
-
 # 文档：Mantis Youth
-
 - 类别：enemies
 - 标识：mantis-youth
 - 来源：wiki/Mantis_Youth
 
-<b>Mantis Youths</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are young children of the Mantis Tribe, losing their ability to fly when becoming Mantis Warrior.
+Mantis Youths are Enemies (Hollow Knight) in Hollow Knight (game). They are young children of the Mantis Tribe, losing their ability to fly when becoming Mantis Warrior.
 
 Behaviour and Tactics
 Waits, clinging to a wall or ceiling to ambush the Knight. Once engaged, it hovers around just out of range of Nail attacks before winding up and lunging towards the Knight. Their range is short and easy to dodge, but they quickly hover out of range to charge up another attack.
@@ -8997,14 +8503,12 @@ References
 ---
 
 ---
-
 # 文档：Markoth
-
 - 类别：enemies, bosses
 - 标识：markoth
 - 来源：wiki/Markoth
 
-<b>Markoth</b> is a Warrior Dreams in <i>Hollow Knight (game)</i>.
+Markoth is a Warrior Dreams in Hollow Knight (game).
 
 Lore
 Markoth was the only Moth Tribe to carry a weapon besides Thistlewind. He went to Kingdom's Edge to seclude himself and meditate, hoping to uncover a truth long forgotten. Markoth fought any who would threaten him, regardless of their reasons. He eventually died, his remains never to be found, in a lone cave of Kingdom's Edge.
@@ -9014,9 +8518,9 @@ Markoth's Spirits appears above his corpse after acquiring the Dream Nail. He se
 
 Behaviour and Tactics
 Markoth has three attacks in addition to being able to teleport:
-<b>Dreamshield Summon</b>: Markoth spawns a glowing shield that constantly orbits around him, blocking attacks and dealing contact damage. At 50% HP, he summons another shield that orbits directly opposite the previous one.
-<b>Nail Barrage</b>: Markoth creates a Nail that aims in the Knight's direction for a moment before flying forward. He sends a Nail every 1-2 seconds. At 50% HP, his attack rate increases to sending a nail every 0.75-1.25 seconds.
-<b>Shield Cyclone</b>: Markoth Spins his shield in an increasingly wider radius before retracting it. The second shield summoned at 50% HP is not affected by this attack and continues orbiting around him normally.
+Dreamshield Summon: Markoth spawns a glowing shield that constantly orbits around him, blocking attacks and dealing contact damage. At 50% HP, he summons another shield that orbits directly opposite the previous one.
+Nail Barrage: Markoth creates a Nail that aims in the Knight's direction for a moment before flying forward. He sends a Nail every 1-2 seconds. At 50% HP, his attack rate increases to sending a nail every 0.75-1.25 seconds.
+Shield Cyclone: Markoth Spins his shield in an increasingly wider radius before retracting it. The second shield summoned at 50% HP is not affected by this attack and continues orbiting around him normally.
 
 ---
 
@@ -9037,14 +8541,12 @@ The shield that Markoth uses is strikingly similar to the shield the Knight gain
 ---
 
 ---
-
 # 文档：Marmu
-
 - 类别：enemies, bosses
 - 标识：marmu
 - 来源：wiki/Marmu
 
-<b>Marmu</b> is a Warrior Dreams in <i>Hollow Knight (game)</i>.
+Marmu is a Warrior Dreams in Hollow Knight (game).
 
 Lore
 Marmu was the innocent-minded yet strong protector of the Queen's Gardens. White Lady promised to teach her how to fly upon her return to the verdant retreat. Marmu passed away before that day and a totem in her memory was placed upon her grave in the gardens' wilds.
@@ -9054,8 +8556,8 @@ Marmu's Spirits appears at her totem after the Knight acquires the Dream Nail. S
 
 Behaviour and Tactics
 Marmu has only one attack and one ability:
-<b>Hurl</b>: Marmu curls into a ball and hurls herself at the Knight from various angles.
-<b>Teleport</b>: Used in conjunction with her attack, Marmu teleports to a random section of the arena.
+Hurl: Marmu curls into a ball and hurls herself at the Knight from various angles.
+Teleport: Used in conjunction with her attack, Marmu teleports to a random section of the arena.
 
 ---
 
@@ -9080,14 +8582,12 @@ Marmu is based on a Puss Moth Caterpillar; as seen here.
 ---
 
 ---
-
 # 文档：Maskfly
-
 - 类别：enemies
 - 标识：maskfly
 - 来源：wiki/Maskfly
 
-<b>Maskflies</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are docile flying creatures who travel in flocks, fleeing from anything they perceive as a threat.
+Maskflies are Enemies (Hollow Knight) in Hollow Knight (game). They are docile flying creatures who travel in flocks, fleeing from anything they perceive as a threat.
 
 Behaviour and Tactics
 Sit in a flock until disturbed, when they take off and quickly fly away, even before the Knight gets into Nail range. They also fly away if any other enemy gets too close.
@@ -9106,22 +8606,20 @@ References
 ---
 
 ---
-
 # 文档：Massive Moss Charger
-
 - 类别：enemies, bosses
 - 标识：massive-moss-charger
 - 来源：wiki/Massive_Moss_Charger
 
-The <b>Massive Moss Charger</b> is an optional Bosses (Hollow Knight) in <i>Hollow Knight (game)</i>. It lies off the Pilgrim's Way in Greenpath.
+The Massive Moss Charger is an optional Bosses (Hollow Knight) in Hollow Knight (game). It lies off the Pilgrim's Way in Greenpath.
 
 In-game events
 The Massive Moss Charger can be found below a ruined structure, just off the Pilgrim's Way before leaving Greenpath for the Fog Canyon. It first appears as a large bush but starts shaking as the Knight approaches and eventually roars before giving chase. Once defeated, it is revealed to be a group of Moss Chargers (without their moss) which scurry away and crawl underground.
 
 Behaviour and Tactics
 The Massive Moss Charger has two attacks:
-<b>Charge</b>: The Massive Moss Charger charges forward, much like a regular Moss Charger
-<b>Belly-flop</b>: The Massive Moss Charger hops in the air toward the Knight and slams into the ground
+Charge: The Massive Moss Charger charges forward, much like a regular Moss Charger
+Belly-flop: The Massive Moss Charger hops in the air toward the Knight and slams into the ground
 
 ---
 
@@ -9141,19 +8639,17 @@ The Massive Moss Charger is revealed to be four regular Moss Chargers all living
 The Moss Chargers spawned after defeating this enemy cannot be killed, and it does not respawn, unlike its smaller counterparts.
 The Massive Moss Charger does not attack and stays buried in the ground if the Knight is not touching the ground.
 During the Nintendo Treehouse Live during E3 2018, the Massive Moss Charger was named "Mega Moss Charger", which is also its file name.
-The Massive Moss Charger currently uses the same Hunter's Journal icon as the Moss Charger. Before the  <i>:Category: Lifeblood</i> update, the Massive Moss Charger used a unique Hunter's Journal icon. Another cut Hunter's Journal icon for the Massive Moss Charger also exists in the files which was never used in the game.
+The Massive Moss Charger currently uses the same Hunter's Journal icon as the Moss Charger. Before the  :Category: Lifeblood update, the Massive Moss Charger used a unique Hunter's Journal icon. Another cut Hunter's Journal icon for the Massive Moss Charger also exists in the files which was never used in the game.
 
 ---
 
 ---
-
 # 文档：Mawlurk
-
 - 类别：enemies
 - 标识：mawlurk
 - 来源：wiki/Mawlurk
 
-<b>Mawlurks</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are overgrown Brooding Mawlek who lost their ability to move and now use their acidic spit to dissolve prey.
+Mawlurks are Enemies (Hollow Knight) in Hollow Knight (game). They are overgrown Brooding Mawlek who lost their ability to move and now use their acidic spit to dissolve prey.
 
 Behaviour and Tactics
 Remains stationary, taking no knockback. It spits large amounts of venom in a wide spray.
@@ -9170,14 +8666,12 @@ References
 ---
 
 ---
-
 # 文档：Menderbug
-
 - 类别：enemies
 - 标识：menderbug
 - 来源：wiki/Menderbug
 
-<b>Menderbug</b> is an :Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. He can be found repairing the sign at the bottom of the well in the Forgotten Crossroads.
+Menderbug is an :Enemies (Hollow Knight) in Hollow Knight (game). He can be found repairing the sign at the bottom of the well in the Forgotten Crossroads.
 
 Behaviour and Tactics
 
@@ -9197,7 +8691,7 @@ Menderbug is located beneath the well in the Forgotten Crossroads.
 
 Trivia
 
-There is an unused key found in the game files named <b>Mender_Key</b>. It is implied in cut text that Menderbug would drop this unused key called an "Odd Key" that would probably then allow access into his house.
+There is an unused key found in the game files named Mender_Key. It is implied in cut text that Menderbug would drop this unused key called an "Odd Key" that would probably then allow access into his house.
 Killing Menderbug is not needed in order to acquire the Hunter's Mark.
 Menderbug cannot be read by the Dream Nail.
 Upon death, Menderbug emits an Infection cloud. It is unclear if this is intentional or an oversight.
@@ -9210,14 +8704,12 @@ References
 ---
 
 ---
-
 # 文档：Mistake
-
 - 类别：enemies
 - 标识：mistake
 - 来源：wiki/Mistake
 
-<b>Mistakes</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. Former Soul Sanctum's Scholars of the Soul Sanctum, these bugs' bodies were deformed by the Sanctum's experiments with Soul.
+Mistakes are Enemies (Hollow Knight) in Hollow Knight (game). Former Soul Sanctum's Scholars of the Soul Sanctum, these bugs' bodies were deformed by the Sanctum's experiments with Soul.
 
 Behaviour and Tactics
 Meanders back and forth, charging at the Knight when in range. May occasionally appear out of the ground.
@@ -9234,14 +8726,12 @@ References
 ---
 
 ---
-
 # 文档：Moss Charger
-
 - 类别：enemies
 - 标识：moss-charger
 - 来源：wiki/Moss_Charger
 
-<b>Moss Chargers</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are small, timid creatures who try to scare off predators by covering themselves in moss.
+Moss Chargers are Enemies (Hollow Knight) in Hollow Knight (game). They are small, timid creatures who try to scare off predators by covering themselves in moss.
 
 Behaviour and Tactics
 Hides until the Knight enters its territory when it emerges from the ground and charges at them. Upon being hit, the leaves fall away, revealing a small bug inside that flees to one end of the platform to burrow away, waiting a few moments before re-emerging again, covered in leaves, attempting another charge.
@@ -9260,14 +8750,12 @@ References
 ---
 
 ---
-
 # 文档：Mosscreep
-
 - 类别：enemies
 - 标识：mosscreep
 - 来源：wiki/Mosscreep
 
-<b>Mosscreeps</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They camouflage themselves with leaves and hide from danger amongst the undergrowth.
+Mosscreeps are Enemies (Hollow Knight) in Hollow Knight (game). They camouflage themselves with leaves and hide from danger amongst the undergrowth.
 
 Behaviour and Tactics
 Hides in greenery until the Knight approaches. Once approached they shuffle about in their bush before rising up and wandering back and forth.
@@ -9284,14 +8772,12 @@ References
 ---
 
 ---
-
 # 文档：Mossfly
-
 - 类别：enemies
 - 标识：mossfly
 - 来源：wiki/Mossfly
 
-<b>Mossflies</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are flying creatures who appear to be cousins of the Mosscreep, similarly covering themselves in leaves.
+Mossflies are Enemies (Hollow Knight) in Hollow Knight (game). They are flying creatures who appear to be cousins of the Mosscreep, similarly covering themselves in leaves.
 
 Behaviour and Tactics
 Flies around aimlessly until engaged, then drifts slowly towards the Knight. When jumping to attack, remember to watch out for thorns below when falling.
@@ -9307,14 +8793,12 @@ References
 ---
 
 ---
-
 # 文档：Mosskin
-
 - 类别：enemies
 - 标识：mosskin
 - 来源：wiki/Mosskin
 
-<b>Mosskin</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are ancient Mosskin Tribe of Greenpath who were created by Unn from her dream. Since Unn hid herself away, the Mosskin's leaves started wilting and they became the Infection.
+Mosskin are Enemies (Hollow Knight) in Hollow Knight (game). They are ancient Mosskin Tribe of Greenpath who were created by Unn from her dream. Since Unn hid herself away, the Mosskin's leaves started wilting and they became the Infection.
 
 Behaviour and Tactics
 Meanders back and forth until disturbed. Upon seeing the Knight, it runs forward and flails its arms about, dealing contact damage, similar to Wandering Husks.
@@ -9330,14 +8814,12 @@ Mosskin cannot be damaged by the Defender's Crest and Spore Shroom Charms.
 ---
 
 ---
-
 # 文档：Mossy Vagabond
-
 - 类别：enemies
 - 标识：mossy-vagabond
 - 来源：wiki/Mossy_Vagabond
 
-<b>Mossy Vagabonds</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are Mosskin Tribe who forgot about Unn call and instead started worshipping the Radiance, swayed by the Moss Prophet.
+Mossy Vagabonds are Enemies (Hollow Knight) in Hollow Knight (game). They are Mosskin Tribe who forgot about Unn call and instead started worshipping the Radiance, swayed by the Moss Prophet.
 
 Behaviour and Tactics
 Four are found in the room with the Moss Prophet, accessible from Fungal Wastes by using the Mantis Claw, sitting in the room listening to the Moss Prophet's singing. Once disturbed they hop 3 times in place before running or hopping at the Knight. When "attacking" they hop 3-4 times. They are very easy to kill.
@@ -9358,14 +8840,12 @@ References
 ---
 
 ---
-
 # 文档：Myla
-
 - 类别：enemies, characters
 - 标识：myla
 - 来源：wiki/Myla
 
-<b>Myla</b> is an NPCs (Hollow Knight) in <i>Hollow Knight (game)</i>. She is a happy little miner mining for treasure near the entrance to Crystal Peak.
+Myla is an NPCs (Hollow Knight) in Hollow Knight (game). She is a happy little miner mining for treasure near the entrance to Crystal Peak.
 
 Lore
 While searching for something valuable hidden deeper within the crystals, she enjoys singing and wants to come up with some songs of her own. Myla hears the crystals singing and whispering, hoping to find them and hear what they are saying.
@@ -9385,19 +8865,17 @@ Myla can be encountered in the northeast part of the Forgotten Crossroads, near 
 Trivia
 Killing Myla after she is fully Infected counts towards the Husk Miner's Hunter's Journal entry.
 When asked about whether it is possible to save Myla, Team Cherry said in a Reddit AMA that as long as Myla is not killed, there is "always the chance of a happy ending". However, their follow-up response to this was: "...right?".
-Early stages in development showed Myla with a slightly different design and in a different room. In the Hollow Knight Kickstarter, Myla was accompanied by a male voice as well as being referred to as <b>The Miner</b>. In a teaser video, Myla was shown with the dialogue: "Have you come down here to have a c-crack at that vault then?".
+Early stages in development showed Myla with a slightly different design and in a different room. In the Hollow Knight Kickstarter, Myla was accompanied by a male voice as well as being referred to as The Miner. In a teaser video, Myla was shown with the dialogue: "Have you come down here to have a c-crack at that vault then?".
 
 ---
 
 ---
-
 # 文档：No Eyes
-
 - 类别：enemies, bosses
 - 标识：no-eyes
 - 来源：wiki/No_Eyes
 
-<b>No Eyes</b> is a Bosses (Hollow Knight)#Warrior Dreams in <i>Hollow Knight (game)</i>.
+No Eyes is a Bosses (Hollow Knight)#Warrior Dreams in Hollow Knight (game).
 
 Lore
 No Eyes was a warrior of Hallownest who fell to the Infection. She could not sleep knowing the dreams would infect her mind with The Radiance. To protect herself and other bugs, she stripped out both their eyes and her own before succumbing. She was laid to rest in the Stone Sanctuary, a place in complete darkness, and a carved statue was placed upon her grave.
@@ -9406,20 +8884,18 @@ In-game events
 No Eyes' Spirits only appears at her statue after the Knight acquires the Dream Nail and has bought the Lumafly Lantern. While still blind, the spirit is disturbed by the light. She senses the Knight, but fears they are Infected and out to hurt her.
 
 After the fight, the spirits calm down while No Eyes realises the Knight never meant her harm. Relieved, the spirit asks them to lead the sanctuary's spirits to rest, a place where the Infection cannot reach them.
-<i>"She was away in battle when the infection hit. When she returned, everything was in disarray - but she wouldn't leave her children behind, so down she went to bring them to safety. They were already infected, swarmed and attacked her. She couldn't bring herself to fight them, so she ripped out her eyes so she didn't have to watch them come at her. She was singing their lullaby as they killed her."</i>
+"She was away in battle when the infection hit. When she returned, everything was in disarray - but she wouldn't leave her children behind, so down she went to bring them to safety. They were already infected, swarmed and attacked her. She couldn't bring herself to fight them, so she ripped out her eyes so she didn't have to watch them come at her. She was singing their lullaby as they killed her."
 No Eyes' original fight, envisioned by the backer, comprised of surviving three waves of swarming children while No Eyes sang a lullaby that had clues as to where the next wave of attacks would come from.
 
 ---
 
 ---
-
 # 文档：Oblobbles
-
 - 类别：enemies, bosses
 - 标识：oblobbles
 - 来源：wiki/Oblobbles
 
-The <b>Oblobbles</b> are a dual boss in <i>Hollow Knight (game)</i>. They sit at the top of the Trial of the Conqueror. Two separate fights against them are required to unlock their Hunter's Journal entry, either through replaying the trial or battling them in  Godhome.
+The Oblobbles are a dual boss in Hollow Knight (game). They sit at the top of the Trial of the Conqueror. Two separate fights against them are required to unlock their Hunter's Journal entry, either through replaying the trial or battling them in  Godhome.
 
 In-game events
 The Oblobbles are larger relatives of the Obble, and are able to move faster and fire more projectiles per attack. The Knight can encounter a pair of them in the Colosseum of Fools during the Trial of the Conqueror. These Oblobbles are raised and trained within the Colosseum to take part in the fight against gladiators Killing one enrages the other and makes it move and attack faster.
@@ -9428,9 +8904,9 @@ Like most other Enemies (Hollow Knight) in Hallownest, they are Infection, thoug
 
 Behaviour and Tactics
 Two are fought in the Trial of the Conqueror at once.
-<b>Acid Cannonade</b>: The Oblobbles spit large shots of liquid in six patterns of four around their bodies, similar to regular Obbles. Each set of four shots are evenly spaced 90 degrees apart and each following set of shots is rotated roughly 30 to 45 degrees from the previous.
-<b>Fly</b>: While not performing any attacks, the Oblobbles fly in a diagonal pattern, bouncing off the walls. If one is hit from behind, this will cause it to turn around.
-<b>Frenzy</b>: Once one Oblobble has been killed, the second one goes into a rage. When this happens, it flies around much faster and the speed of its Acid Cannonade is significantly increased, along with the speed of the projectiles themselves. The projectiles also occur in eight patterns of four with the same spacing, instead of six patterns. This state lasts for the rest of the battle.
+Acid Cannonade: The Oblobbles spit large shots of liquid in six patterns of four around their bodies, similar to regular Obbles. Each set of four shots are evenly spaced 90 degrees apart and each following set of shots is rotated roughly 30 to 45 degrees from the previous.
+Fly: While not performing any attacks, the Oblobbles fly in a diagonal pattern, bouncing off the walls. If one is hit from behind, this will cause it to turn around.
+Frenzy: Once one Oblobble has been killed, the second one goes into a rage. When this happens, it flies around much faster and the speed of its Acid Cannonade is significantly increased, along with the speed of the projectiles themselves. The projectiles also occur in eight patterns of four with the same spacing, instead of six patterns. This state lasts for the rest of the battle.
 
 ---
 
@@ -9455,14 +8931,12 @@ References
 ---
 
 ---
-
 # 文档：Ooma
-
 - 类别：enemies
 - 标识：ooma
 - 来源：wiki/Ooma
 
-<b>Oomas</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They have a pulsing orange core which can propel itself through the air if the outer shell is damaged. Monomon the Teacher has an unknown connection to them.
+Oomas are Enemies (Hollow Knight) in Hollow Knight (game). They have a pulsing orange core which can propel itself through the air if the outer shell is damaged. Monomon the Teacher has an unknown connection to them.
 
 Behaviour and Tactics
 Floats up and down in place in a set pattern.
@@ -9490,23 +8964,21 @@ References
 ---
 
 ---
-
 # 文档：Paintmaster Sheo
-
 - 类别：enemies, bosses
 - 标识：paintmaster-sheo
 - 来源：wiki/Paintmaster_Sheo
 
-<b>Paintmaster Sheo</b> is a quest Bosses (Hollow Knight) in <i>Hollow Knight (game)</i>, introduced in <i>Godmaster</i>. He sits at the top of the Pantheon of the Artist in Godhome.
+Paintmaster Sheo is a quest Bosses (Hollow Knight) in Hollow Knight (game), introduced in Godmaster. He sits at the top of the Pantheon of the Artist in Godhome.
 
 Behaviour and Tactics
 During his battle, Paintmaster Sheo uses the following attacks/manoeuvres:
-<b>Great Slash</b>: Paintmaster Sheo holds his brush over his head, charging this attack while a white aura flares around him. Sheo then slashes downward with his paintbrush, slamming the ground, which creates a damaging column of paint. Finally, blobs of paint start falling in random locations around the arena. This attack is indicated by his paintbrush turning magenta.  
-<b>Paint Spear</b>: Paintmaster Sheo raises his brush behind his head, and then lunges a small distance forwards while creating a long javelin-like paint slash that reaches 70-80% of the arena. This attack is indicated by his paintbrush turning yellow.   
-<b>Paint Stomp</b>: Paintmaster Sheo leaps into the air, freezing at the apex of his jump to swipe his paintbrush downwards creating six paint blobs that fall in parabolic arcs. He then stomps downward, following a linear path from his jump's apex to the floor below, creating a small paint-splash. This attack is indicated by his paintbrush turning red.
-<b>Paint Splash</b>: Paintmaster Sheo slashes the ground with his paintbrush, creating three paint blobs that travel in parabolic arcs, each landing a different distance from Sheo. This attack is indicated by his paintbrush turning blue.
-<b>Roll</b>: Paintmaster Sheo rolls backwards or forwards, covering around 40% of the arena. Sheo usually uses this between attacks to re-position himself away from the Knight.
-<b>Leap</b>: Paintmaster Sheo Leaps a short distance to navigate the arena.
+Great Slash: Paintmaster Sheo holds his brush over his head, charging this attack while a white aura flares around him. Sheo then slashes downward with his paintbrush, slamming the ground, which creates a damaging column of paint. Finally, blobs of paint start falling in random locations around the arena. This attack is indicated by his paintbrush turning magenta.  
+Paint Spear: Paintmaster Sheo raises his brush behind his head, and then lunges a small distance forwards while creating a long javelin-like paint slash that reaches 70-80% of the arena. This attack is indicated by his paintbrush turning yellow.   
+Paint Stomp: Paintmaster Sheo leaps into the air, freezing at the apex of his jump to swipe his paintbrush downwards creating six paint blobs that fall in parabolic arcs. He then stomps downward, following a linear path from his jump's apex to the floor below, creating a small paint-splash. This attack is indicated by his paintbrush turning red.
+Paint Splash: Paintmaster Sheo slashes the ground with his paintbrush, creating three paint blobs that travel in parabolic arcs, each landing a different distance from Sheo. This attack is indicated by his paintbrush turning blue.
+Roll: Paintmaster Sheo rolls backwards or forwards, covering around 40% of the arena. Sheo usually uses this between attacks to re-position himself away from the Knight.
+Leap: Paintmaster Sheo Leaps a short distance to navigate the arena.
 
 ---
 
@@ -9543,14 +9015,12 @@ Sheo is the only Nailmaster that is not be able to be Dream Nailed after defeat.
 ---
 
 ---
-
 # 文档：Pale Lurker
-
 - 类别：enemies
 - 标识：pale-lurker
 - 来源：wiki/Pale_Lurker
 
-<b>Pale Lurker</b> is an Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. She is an Infection former champion of the Colosseum of Fools who was drawn away by strange obsessions, eventually becoming insane.
+Pale Lurker is an Enemies (Hollow Knight) in Hollow Knight (game). She is an Infection former champion of the Colosseum of Fools who was drawn away by strange obsessions, eventually becoming insane.
 
 Behaviour and Tactics
 Pale Lurker is a mini-boss style enemy that is first encountered sitting idly and muttering over her Simple Key. Once approached, she screams and proceeds into her arena. Her arena consists of a massive rectangular chamber with two big blocks creating tunnels in an infinity shape. Once entering this arena, the Knight is locked in until she is defeated.
@@ -9572,7 +9042,7 @@ Pale Lurker is found in a secret area east of the Colosseum of Fools, Colosseum 
 Trivia
 Upon defeating her and after leaving the area and returning, Pale Lurker's corpse can be found in the room where she was initially encountered.
 Although technically not a boss, a small challenge room is closed off by gates and Pale Lurker has to be defeated in order for the gates to open.
-When in combat with Pale Lurker the <b>City of Tears (Action)</b> theme plays.
+When in combat with Pale Lurker the City of Tears (Action) theme plays.
 Only one Pale Lurker exists; it is one of the few enemies that never respawns.
 
 References
@@ -9580,14 +9050,12 @@ References
 ---
 
 ---
-
 # 文档：Pilflip
-
 - 类别：enemies
 - 标识：pilflip
 - 来源：wiki/Pilflip
 
-<b>Pilflips</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They have antenna-like appendages on their back which function as limbs when they are flipped over.
+Pilflips are Enemies (Hollow Knight) in Hollow Knight (game). They have antenna-like appendages on their back which function as limbs when they are flipped over.
 
 Behaviour and Tactics
 Patrols its territory without regard to the Knight. Upon being hit, it flips onto its back, changes direction, and begins to chase the Knight while hopping. Upon hitting it again, it changes direction and reverts back to patrolling.
@@ -9606,28 +9074,26 @@ References
 ---
 
 ---
-
 # 文档：Pure Vessel
-
 - 类别：enemies, bosses
 - 标识：pure-vessel
 - 来源：wiki/Pure_Vessel
 
-The <b>Pure Vessel</b> is a quest Bosses (Hollow Knight) in <i>Hollow Knight (game)</i> introduced in <i>Godmaster</i>. It is the alternative version of the Hollow Knight. It sits at the top of the Pantheon of the Knight.
+The Pure Vessel is a quest Bosses (Hollow Knight) in Hollow Knight (game) introduced in Godmaster. It is the alternative version of the Hollow Knight. It sits at the top of the Pantheon of the Knight.
 
 Behaviour and Tactics
 The Pure Vessel has a similar move set to the Hollow Knight boss fight, albeit with different speeds and some changes and additions. It has the following abilities:
 
-<b>Soul Daggers</b>: Pure Vessel goes to one side of the screen, faces towards the Knight, and raises its hand. White light appears from its hand as it summon seven daggers that fly towards the Knight. The daggers appear one after the other, each one at a different angle: the first one going towards the floor, and the last firing directly up.
-<b>Triple Slash</b>: Pure Vessel attacks with its nail thrice. With each slash of its nail it moves forward, going roughly a third of the arena in total. The slashes are large enough that it can damage the Knight even if are not directly in front of Pure Vessel.
-<b>Soul Pillars</b>: Pure Vessel either leaps or teleports above where the Knight was and then slams down, causing damaging pillars to appear up from the ground of the arena. These pillars are in equal distance from each other, so the Knight may stand safely between two of it. it appears throughout the whole arena.
-<b>Lunge</b>: Pure Vessel draws its nail up and lunges along the ground towards the Knight. This covers about half of the screen.
-<b>Parry</b>: Pure Vessel stands in a defensive stance. If the Knight attacks it after its nail shines, it takes no damage and instead attack back by shifting forward slightly and slashing with its nail. This lasts 0.5 seconds.
-<b>Focus</b>: Pure Vessel stands in place and focuses Soul similarly to the way the Knight does throughout the game. While focusing, Pure Vessel is surrounded by a circular aura which eventually explodes. Shortly after, six smaller circles spawn randomly throughout the arena, then explode in the order they appeared. The next attack starts as the final small explosion occurs. This attack can only happen after it reaches 66% of max HP.
-<b>Void Tendrils</b>: Pure Vessel opens its cloak, revealing several flailing void tendrils, including two larger ones. A few moments later, the two larger tendrils lash out across about 60% of the screen. This continue for about three quarters of a second. This attack can only happen after it reach 33% of max HP.
-<b>Jump</b>: Pure Vessel launches at the Knight's location, this deals damage.
-<b>Teleport</b>: Pure Vessel teleports within the arena to prepare for an attack or dodge the Knight.
-<b>Back step</b>: Pure Vessel quickly back steps away from the Knight if it gets too close; then perform another attack.
+Soul Daggers: Pure Vessel goes to one side of the screen, faces towards the Knight, and raises its hand. White light appears from its hand as it summon seven daggers that fly towards the Knight. The daggers appear one after the other, each one at a different angle: the first one going towards the floor, and the last firing directly up.
+Triple Slash: Pure Vessel attacks with its nail thrice. With each slash of its nail it moves forward, going roughly a third of the arena in total. The slashes are large enough that it can damage the Knight even if are not directly in front of Pure Vessel.
+Soul Pillars: Pure Vessel either leaps or teleports above where the Knight was and then slams down, causing damaging pillars to appear up from the ground of the arena. These pillars are in equal distance from each other, so the Knight may stand safely between two of it. it appears throughout the whole arena.
+Lunge: Pure Vessel draws its nail up and lunges along the ground towards the Knight. This covers about half of the screen.
+Parry: Pure Vessel stands in a defensive stance. If the Knight attacks it after its nail shines, it takes no damage and instead attack back by shifting forward slightly and slashing with its nail. This lasts 0.5 seconds.
+Focus: Pure Vessel stands in place and focuses Soul similarly to the way the Knight does throughout the game. While focusing, Pure Vessel is surrounded by a circular aura which eventually explodes. Shortly after, six smaller circles spawn randomly throughout the arena, then explode in the order they appeared. The next attack starts as the final small explosion occurs. This attack can only happen after it reaches 66% of max HP.
+Void Tendrils: Pure Vessel opens its cloak, revealing several flailing void tendrils, including two larger ones. A few moments later, the two larger tendrils lash out across about 60% of the screen. This continue for about three quarters of a second. This attack can only happen after it reach 33% of max HP.
+Jump: Pure Vessel launches at the Knight's location, this deals damage.
+Teleport: Pure Vessel teleports within the arena to prepare for an attack or dodge the Knight.
+Back step: Pure Vessel quickly back steps away from the Knight if it gets too close; then perform another attack.
 
 ---
 
@@ -9656,16 +9122,16 @@ Variations
 Achievements
 
 Trivia
-The Pure Vessel was shown through the trailer of <i>Godmaster</i> to be fully armoured, however, this armour is only displayed for a couple of seconds at the beginning of the Pure Vessel fight before being ripped off.
+The Pure Vessel was shown through the trailer of Godmaster to be fully armoured, however, this armour is only displayed for a couple of seconds at the beginning of the Pure Vessel fight before being ripped off.
 Pure Vessel, along with the Hollow Knight, is the only boss whose title appears at the top of the screen.
 Unlike the Hollow Knight, Pure Vessel's pre-battle cry is silent.
 In the release, Pure Vessel cannot be Dream Nailed, but has the following Cut Content (Hollow Knight):
-<i>Do not think...
+Do not think...
 Do not speak...
 Do not hope...
 Do not...
-...</i>
-When asked about why they removed this Dream Nail dialogue, Team Cherry said that it "never added it". However, it was in the game when playtesters tested <i>Godmaster</i> before it was released.
+...
+When asked about why they removed this Dream Nail dialogue, Team Cherry said that it "never added it". However, it was in the game when playtesters tested Godmaster before it was released.
 When Pure Vessel teleports, its Shade briefly appears, similarly to how the Knight's Shade appears when using upgraded Spells.
 
 References
@@ -9673,14 +9139,12 @@ References
 ---
 
 ---
-
 # 文档：Revek
-
 - 类别：enemies, characters
 - 标识：revek
 - 来源：wiki/Revek
 
-<b>Revek</b> is a Spirits in <i>Hollow Knight (game)</i>. He is the protector of the Spirits' Glade. He warns the Knight that they will face consequences if they harm any of the Glade's spirit inhabitants.
+Revek is a Spirits in Hollow Knight (game). He is the protector of the Spirits' Glade. He warns the Knight that they will face consequences if they harm any of the Glade's spirit inhabitants.
 
 Behaviour and Tactics
 Once the Dream Nail has been used on at least one spirit, Revek spawns and charges at the Knight, dealing 2 Masks of damage. Exiting the Glade resets Revek and makes him return to his tomb again like all other spirits until the Dream Nail is used on another spirit.
@@ -9704,7 +9168,7 @@ Upon entering the Spirits' Glade, Revek can be found near the entrance of the ar
 Trivia
 Revek is named after Revek, the Hollow Knight Kickstarter who designed him.
 Revek was first revealed in a Hollow Knight Kickstarter detailing various Backer Bugs:
-<i>Meet Revek the Guardian. In life he defended the glade and continues his vigil, even as a ghost.</i>
+Meet Revek the Guardian. In life he defended the glade and continues his vigil, even as a ghost.
 Revek uses the same voice lines as the Sturdy Fool when attacking.
 Due to a coding mistake, if Karina is the only spirit left in the Glade, Revek becomes dejected and Karina's own sprite and dialogue are replaced with Revek's dejected sprite and dialogue, though her name does not change.
 Revek's name may be a play-on-words of the word "Kever" meaning tomb or grave, just reversed. The word "Kever" is also the Dutch translation of beetle.
@@ -9714,14 +9178,12 @@ References
 ---
 
 ---
-
 # 文档：Royal Retainer
-
 - 类别：enemies
 - 标识：royal-retainer
 - 来源：wiki/Royal_Retainer
 
-<b>Royal Retainers</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. These bugs were the most loyal servants of the Pale King, but a number of them died after the King disappeared. They can still be found in the White Palace in the Dream Realm where they wait for the King.
+Royal Retainers are Enemies (Hollow Knight) in Hollow Knight (game). These bugs were the most loyal servants of the Pale King, but a number of them died after the King disappeared. They can still be found in the White Palace in the Dream Realm where they wait for the King.
 
 Behaviour and Tactics
 Stand in small groups and bow when the Knight approaches. They deal no damage on contact.
@@ -9743,9 +9205,7 @@ References
 ---
 
 ---
-
 # 文档：Shade
-
 - 类别：enemies
 - 标识：shade
 - 来源：wiki/Shade
@@ -9791,7 +9251,7 @@ If the Joni's Blessing Charm was equipped when the Knight died, the Shade will h
 Although dying in the White Palace counts as a real death for the purposes of the Fragile Charms and Steel Soul Mode, no Shade is released upon death.
 The Shade's Hunter's Journal entry is automatically filled upon acquiring the Journal.
 
-In the <i>Hollow Knight Beta</i>, the Shade has a blue tint instead of being entirely black.
+In the Hollow Knight Beta, the Shade has a blue tint instead of being entirely black.
 When defeated the Shade would explode into a cloud of ghostly-tinted Geo before being absorbed back into the Knight.
 While this version of the Shade was active there would be no damage to the SOUL meter.
 Team Cherry considered Wikipedia:Dark Souls corpse run mechanic when they were deciding on what happens after the Knight's death. The idea of the Shade developed when they finished working on the Knight's death animation, which ends with the Knight's head falling to the ground and cracking. They thought it would be interesting if players had to travel back to the place where they died and had to crack open the skull to retrieve their money. They kicked some ideas around about the skull being possessed by an enemy or suddenly fighting back, which evolved into the idea of leaving behind a ghost of the Knight's previous life that attacks players. This ghost eventually became the Shade.
@@ -9804,14 +9264,12 @@ References
 ---
 
 ---
-
 # 文档：Shadow Creeper
-
 - 类别：enemies
 - 标识：shadow-creeper
 - 来源：wiki/Shadow_Creeper
 
-<b>Shadow Creepers</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are possibly more primal relatives of the Crawlids, found only in deep, dark places.
+Shadow Creepers are Enemies (Hollow Knight) in Hollow Knight (game). They are possibly more primal relatives of the Crawlids, found only in deep, dark places.
 
 Behaviour and Tactics
 Meanders back and forth passively, sometimes vertically crawling on walls, with no regard to the Knight. It behaves exactly like the basic Crawlid, but can climb walls and has more health.
@@ -9830,14 +9288,12 @@ References
 ---
 
 ---
-
 # 文档：Shardmite
-
 - 类别：enemies
 - 标识：shardmite
 - 来源：wiki/Shardmite
 
-<b>Shardmites</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. Formerly used in Crystal Peak mining operations, these creatures now wander around on walls, feeding on crystal dust.
+Shardmites are Enemies (Hollow Knight) in Hollow Knight (game). Formerly used in Crystal Peak mining operations, these creatures now wander around on walls, feeding on crystal dust.
 
 Behaviour and Tactics
 Crawls up and down on vertical surfaces. Upon approaching it, it sprouts long crystal spikes from its shell. While those spikes are extended, it is invulnerable. By attacking quickly, it can be taken off guard and killed before it sprouts its spikes.
@@ -9852,14 +9308,12 @@ References
 ---
 
 ---
-
 # 文档：Sharp Baldur
-
 - 类别：enemies
 - 标识：sharp-baldur
 - 来源：wiki/Sharp_Baldur
 
-<b>Sharp Baldurs</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are juvenile Baldurs with a plated shell who were bred to fight in the Colosseum of Fools.
+Sharp Baldurs are Enemies (Hollow Knight) in Hollow Knight (game). They are juvenile Baldurs with a plated shell who were bred to fight in the Colosseum of Fools.
 
 Behaviour and Tactics
 Behaves like normal Baldurs; curling into a ball and rolling towards the Knight, then continuing to bounce off walls for a short time afterwards. The only difference is that Sharp Baldurs have more health.
@@ -9877,19 +9331,17 @@ References
 ---
 
 ---
-
 # 文档：Shrumal Ogre
-
 - 类别：enemies
 - 标识：shrumal-ogre
 - 来源：wiki/Shrumal_Ogre
 
-<b>Shrumal Ogres</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are huge, beastly Mushroom Clan who have a heavily armoured cap.
+Shrumal Ogres are Enemies (Hollow Knight) in Hollow Knight (game). They are huge, beastly Mushroom Clan who have a heavily armoured cap.
 
 Behaviour and Tactics
-<b>Thrash</b>: Briefly winds up then smashes its head 7 times against the ground in front of itself, moving slowly forward.
+Thrash: Briefly winds up then smashes its head 7 times against the ground in front of itself, moving slowly forward.
 
-<b>Goo Spit</b>: Spits balls of orange goo that stay on the ground for a short period of time
+Goo Spit: Spits balls of orange goo that stay on the ground for a short period of time
 
 Keep a small distance from it to bait its ranged attack, then Mothwing Cloak under the acid to attack. Retreat when it pauses to use its Thrash attack.
 
@@ -9910,14 +9362,12 @@ References
 ---
 
 ---
-
 # 文档：Shrumal Warrior
-
 - 类别：enemies
 - 标识：shrumal-warrior
 - 来源：wiki/Shrumal_Warrior
 
-<b>Shrumal Warriors</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are fierce Mushroom Clan who protect their Shrumeling from intruders, using their flexible caps to roll around.
+Shrumal Warriors are Enemies (Hollow Knight) in Hollow Knight (game). They are fierce Mushroom Clan who protect their Shrumeling from intruders, using their flexible caps to roll around.
 
 Behaviour and Tactics
 When the Knight gets in range or attacks it with a ranged attack, it rolls into a ball and either jumps into the air in a descending arc or rolls directly at the Knight, leaving a trail of toxic gas.
@@ -9933,14 +9383,12 @@ References
 ---
 
 ---
-
 # 文档：Shrumeling
-
 - 类别：enemies
 - 标识：shrumeling
 - 来源：wiki/Shrumeling
 
-<b>Shrumelings</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are defenceless young Mushroom Clan who spend most of their time in the ground, blindly running away when threatened.
+Shrumelings are Enemies (Hollow Knight) in Hollow Knight (game). They are defenceless young Mushroom Clan who spend most of their time in the ground, blindly running away when threatened.
 
 Behaviour and Tactics
 Stationary, but flees once approached. Does not have any attacks, deals no contact damage and dies in one hit. A useful source of free SOUL.
@@ -9953,14 +9401,12 @@ References
 ---
 
 ---
-
 # 文档：Sibling
-
 - 类别：enemies
 - 标识：sibling
 - 来源：wiki/Sibling
 
-<b>Siblings</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. they are the Shades inside Vessels which were let loose after their shells broke in the Abyss.
+Siblings are Enemies (Hollow Knight) in Hollow Knight (game). they are the Shades inside Vessels which were let loose after their shells broke in the Abyss.
 
 Behaviour and Tactics
 Siblings float towards the Knight when in range, dealing two Masks of damage on contact. they occasionally spawn from the ground within the Abyss.
@@ -9985,9 +9431,7 @@ References
 ---
 
 ---
-
 # 文档：Sister Splinter
-
 - 类别：enemies, bosses
 - 标识：sister-splinter
 - 来源：wiki/Sister_Splinter
@@ -10009,21 +9453,19 @@ The reward for beating her is Cling Grip whach allow wall grab and jump.
 ---
 
 ---
-
 # 文档：Sisters of Battle
-
 - 类别：enemies, bosses
 - 标识：sisters-of-battle
 - 来源：wiki/Sisters_of_Battle
 
-The <b>Sisters of Battle</b> are a quest Bosses (Hollow Knight) in <i>Hollow Knight (game)</i> introduced in Godmaster. First encountered in the Pantheon of Hallownest, they are a form of the Mantis Lords where all three sisters battle together instead of separately.
+The Sisters of Battle are a quest Bosses (Hollow Knight) in Hollow Knight (game) introduced in Godmaster. First encountered in the Pantheon of Hallownest, they are a form of the Mantis Lords where all three sisters battle together instead of separately.
 
 Behaviour and Tactics
 Phase 1 of Sisters of Battle is exactly like Phase 1 of Mantis Lords.
 
 In Phase 2, all three Sisters emit a battle cry and drop in to fight. The Sisters of Battle use all attacks of the 2nd Phase of the Mantis Lords, but with an additional attack from a 3rd Sister:
-<b>Dash & Drop</b>: All three Sisters combine their patterns into fluid combinations. The pattern these attacks follow loosely comes from the patterns of the original Mantis Lords fight. With all three Sisters attacking: two Sisters still follow the patterns of Mantis Lords Phase 2, and one Sister still follows their original pattern like in Mantis Lords Phase 1. The single Sister's attack is staggered to happen just after her two Sisters start their attacks whether it be Drop, Double Drop, Dash or Double Dash. Furthermore, the single Sister's attack will always be a Drop attack if her Sister or Sisters performed Dash attacks. In the case of Drop attacks, it is possible for all three Sisters to choose to chain this attack in quick continuous succession.
-<b>Boomerang</b>: When all three Sisters are alive, two perform the Boomerang attacks on the wall while the third performs a Drop attack a moment after the spears are thrown. The patterns for the Boomerangs have been modified as well:
+Dash & Drop: All three Sisters combine their patterns into fluid combinations. The pattern these attacks follow loosely comes from the patterns of the original Mantis Lords fight. With all three Sisters attacking: two Sisters still follow the patterns of Mantis Lords Phase 2, and one Sister still follows their original pattern like in Mantis Lords Phase 1. The single Sister's attack is staggered to happen just after her two Sisters start their attacks whether it be Drop, Double Drop, Dash or Double Dash. Furthermore, the single Sister's attack will always be a Drop attack if her Sister or Sisters performed Dash attacks. In the case of Drop attacks, it is possible for all three Sisters to choose to chain this attack in quick continuous succession.
+Boomerang: When all three Sisters are alive, two perform the Boomerang attacks on the wall while the third performs a Drop attack a moment after the spears are thrown. The patterns for the Boomerangs have been modified as well:
 Two Sisters simultaneously throw their spears creating a wide arc that reaches the opposite end of the arena before coming back together to meet at the centre just at ground level.
 Two Sisters simultaneously throw their spears creating a short arc that meets in the middle of the arena where they stay locked together while gliding down for a few moments before dispersing apart just above ground level.
 Two Sisters simultaneously throw their spears: one throwing a wide arc and the other throwing a short arc causing them to meet either of the far ends of the arena and not the centre before dispersing.
@@ -10064,14 +9506,12 @@ References
 ---
 
 ---
-
 # 文档：Slobbering Husk
-
 - 类别：enemies
 - 标识：slobbering-husk
 - 来源：wiki/Slobbering_Husk
 
-<b>Slobbering Husks</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are husks that were completely consumed by Infection, overfilling with noxious corrosive liquid.
+Slobbering Husks are Enemies (Hollow Knight) in Hollow Knight (game). They are husks that were completely consumed by Infection, overfilling with noxious corrosive liquid.
 
 Behaviour and Tactics
 Despite physically resembling the Leaping Husk, this enemy does not jump, instead, it spits a cluster of corrosive blobs in an arc that linger temporarily on the ground.
@@ -10090,27 +9530,25 @@ References
 ---
 
 ---
-
 # 文档：Soul Tyrant
-
 - 类别：enemies, bosses
 - 标识：soul-tyrant
 - 来源：wiki/Soul_Tyrant
 
-The <b>Soul Tyrant</b> is a hidden Bosses (Hollow Knight) in <i>Hollow Knight (game)</i>. It is the dream variant of the Soul Master, faster and tougher than its physical counterpart.
+The Soul Tyrant is a hidden Bosses (Hollow Knight) in Hollow Knight (game). It is the dream variant of the Soul Master, faster and tougher than its physical counterpart.
 
 Behaviour and Tactics
 Phase 1
 Soul Tyrant uses all the same attacks as Soul Master, but at a much faster pace, with minor adjustments to some attacks:
-<b>Clock</b>: Soul Tyrant now summons six (two rows of three) orbs that rotate around him.
-<b>Slam</b>: The shockwaves produced from the slam are taller, larger, and travel at a faster pace.
+Clock: Soul Tyrant now summons six (two rows of three) orbs that rotate around him.
+Slam: The shockwaves produced from the slam are taller, larger, and travel at a faster pace.
 
 ---
 
 ---
 
 Phase 2
-<b>Altered Slam</b>: The impact radius of each Slam attack is much larger.
+Altered Slam: The impact radius of each Slam attack is much larger.
 
 ---
 
@@ -10135,14 +9573,12 @@ References
 ---
 
 ---
-
 # 文档：Soul Warrior
-
 - 类别：enemies, bosses
 - 标识：soul-warrior
 - 来源：wiki/Soul_Warrior
 
-The <b>Soul Warrior</b> is a recurring Bosses (Hollow Knight) with varying difficulty in <i>Hollow Knight (game)</i>. It appears twice in the Colosseum of Fools as a mini-boss. Unlocking its Hunter's Journal entry requires defeating it twice.
+The Soul Warrior is a recurring Bosses (Hollow Knight) with varying difficulty in Hollow Knight (game). It appears twice in the Colosseum of Fools as a mini-boss. Unlocking its Hunter's Journal entry requires defeating it twice.
 
 Lore
 Soul Warriors are Soul Sanctum's Scholars who enhanced their combat abilities with stolen Soul. Unlike the other scholars in Soul Sanctum, they seem to have a very hazy grasp of their own memories and the origins of their powers.
@@ -10154,12 +9590,12 @@ Like most other Enemies (Hollow Knight) in Hallownest, they are Infection, thoug
 
 Behaviour and Tactics
 Soul Warriors teleport around the arena and use the following attacks:
-<b>Dive-Slash</b>: Soul Warrior teleports above the Knight and slashes downwards while falling. It always begins a fight with this attack.
-<b>Dash-Slash</b>: Soul Warrior raises its pinblade and rushes forward with a slash attack.
-<b>Conjure Orb</b>: Soul Warrior fires a homing Soul orb, identical to the one used by Soul Twisters and the Soul Master.
-<b>Teleport</b>: Soul Warrior teleports within the arena to prepare for an attack or avoid the Knight.
-<b>Skitter</b>: Soul Warrior walks slowly forwards or backwards within the arena before it uses another attack. If the Knight gets close, it may dash quickly backwards to evade. It can also chain this dash into a Teleport.
-<b>Summon</b>: During certain fights with a Soul Warrior, it constantly spawns Follies. This attack is only used by the Soul Warrior within the Elegant Key room and the first Soul Warrior in the Trial of the Fool. While the total amount of Follies that can spawn is capped, there is no limit to the number of Follies that can be alive at once on the screen.
+Dive-Slash: Soul Warrior teleports above the Knight and slashes downwards while falling. It always begins a fight with this attack.
+Dash-Slash: Soul Warrior raises its pinblade and rushes forward with a slash attack.
+Conjure Orb: Soul Warrior fires a homing Soul orb, identical to the one used by Soul Twisters and the Soul Master.
+Teleport: Soul Warrior teleports within the arena to prepare for an attack or avoid the Knight.
+Skitter: Soul Warrior walks slowly forwards or backwards within the arena before it uses another attack. If the Knight gets close, it may dash quickly backwards to evade. It can also chain this dash into a Teleport.
+Summon: During certain fights with a Soul Warrior, it constantly spawns Follies. This attack is only used by the Soul Warrior within the Elegant Key room and the first Soul Warrior in the Trial of the Fool. While the total amount of Follies that can spawn is capped, there is no limit to the number of Follies that can be alive at once on the screen.
 
 ---
 
@@ -10171,14 +9607,12 @@ Two Soul Warriors are fought in the Soul Sanctum, one of them guards the Shade S
 ---
 
 ---
-
 # 文档：Spiny Husk
-
 - 类别：enemies
 - 标识：spiny-husk
 - 来源：wiki/Spiny_Husk
 
-<b>Spiny Husks</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are husks whose bodies are overgrown with thorny vegetation who attack by firing sharp poisonous spines.
+Spiny Husks are Enemies (Hollow Knight) in Hollow Knight (game). They are husks whose bodies are overgrown with thorny vegetation who attack by firing sharp poisonous spines.
 
 Behaviour and Tactics
 It launches five spikes outwards in a dome formation when it is approached. Since there is a delay between launching spikes, it is advised to move in to trigger the launch, move away to avoid the spikes, and then go back in to deal damage.
@@ -10198,14 +9632,12 @@ References
 ---
 
 ---
-
 # 文档：Sporg
-
 - 类别：enemies
 - 标识：sporg
 - 来源：wiki/Sporg
 
-<b>Sporgs</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are modified fungal growths that spit explosive spores.
+Sporgs are Enemies (Hollow Knight) in Hollow Knight (game). They are modified fungal growths that spit explosive spores.
 
 Behaviour and Tactics
 When in range, these mushrooms sprout from walls, ceilings, and floors and spit out clusters of explosive spores (only one cluster at a time), that slowly home in on the Knight. The spores explode on contact or after a short duration. If the Knight gets too close, Sporgs retreat into the ground/wall and become invulnerable, but when a spore is still in the air, they stay open and vulnerable to attacks.
@@ -10222,14 +9654,12 @@ References
 ---
 
 ---
-
 # 文档：Squit
-
 - 类别：enemies
 - 标识：squit
 - 来源：wiki/Squit
 
-<b>Squits</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are flying creatures who charge at prey with their razor-sharp proboscis. A stronger variant called Armoured Squit is bred to fight in the Colosseum of Fools.
+Squits are Enemies (Hollow Knight) in Hollow Knight (game). They are flying creatures who charge at prey with their razor-sharp proboscis. A stronger variant called Armoured Squit is bred to fight in the Colosseum of Fools.
 
 Behaviour and Tactics
 Squits hover in the air until the Knight comes in range, at which point they hiss and lunge at them, not stopping until they hit the Knight or a part of the environment.
@@ -10247,19 +9677,17 @@ References
 ---
 
 ---
-
 # 文档：Sturdy Fool
-
 - 类别：enemies
 - 标识：sturdy-fool
 - 来源：wiki/Sturdy_Fool
 
-<b>Sturdy Fools</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. These Fools fight in the Colosseum of Fools using their crescent-shaped blades.
+Sturdy Fools are Enemies (Hollow Knight) in Hollow Knight (game). These Fools fight in the Colosseum of Fools using their crescent-shaped blades.
 
 Behaviour and Tactics
 Sturdy Fools have two attacks:
-<b>Slash</b>: Lunges and swipes at the Knight when in close range.
-<b>Weapon Toss</b>: Tosses its weapon in an arc at the Knight.
+Slash: Lunges and swipes at the Knight when in close range.
+Weapon Toss: Tosses its weapon in an arc at the Knight.
 
 When they attack in melee range, simply jump over them and down-strike them for an easy hit. Hitting the blade back at the Sturdy Fool or any other enemy does 10 damage.
 
@@ -10275,14 +9703,12 @@ References
 ---
 
 ---
-
 # 文档：Uumuu
-
 - 类别：enemies, bosses
 - 标识：uumuu
 - 来源：wiki/Uumuu
 
-<b>Uumuu</b> is a main Bosses (Hollow Knight) in <i>Hollow Knight (game)</i>. It guards Monomon the Teacher, one of the Dreamers.
+Uumuu is a main Bosses (Hollow Knight) in Hollow Knight (game). It guards Monomon the Teacher, one of the Dreamers.
 
 Lore
 Uumuu is an intelligent yet Infection being similar to the Uomas and Oomas infesting Fog Canyon. It defends Monomon's chamber at the heart of the Teacher's Archives.
@@ -10295,9 +9721,9 @@ When fought in Godhome, Quirrel is not present. Instead, Uumuu summons Oomas to 
 Behaviour and Tactics
 Uumuu floats around the room and uses one of two attacks:
 
-<b>Burst</b>: Uumuu fills the arena with small bursts of lightning. Each lightning burst lasts about one second. The lightning bursts appear in one of two patterns throughout the arena. The bottom platforms are always safe to stand on, with alternatively the top left or the top right platform being safe depending on the pattern. The lightning bursts become dangerous at different times. The entire attack lasts for about two and a half seconds.
-<b>Chase</b>: Uumuu creates a small burst of lightning where the Knight is, similar to Volt Twisters. Uumuu continues to create a new small burst of lightning every second for about six seconds. Each burst persists for about two seconds. Each new burst appears where the Knight is, so constant movement is necessary.
-<b>Hover</b>: While not attacking, Uumuu hovers around the arena, slowly chasing the Knight.
+Burst: Uumuu fills the arena with small bursts of lightning. Each lightning burst lasts about one second. The lightning bursts appear in one of two patterns throughout the arena. The bottom platforms are always safe to stand on, with alternatively the top left or the top right platform being safe depending on the pattern. The lightning bursts become dangerous at different times. The entire attack lasts for about two and a half seconds.
+Chase: Uumuu creates a small burst of lightning where the Knight is, similar to Volt Twisters. Uumuu continues to create a new small burst of lightning every second for about six seconds. Each burst persists for about two seconds. Each new burst appears where the Knight is, so constant movement is necessary.
+Hover: While not attacking, Uumuu hovers around the arena, slowly chasing the Knight.
 
 ---
 
@@ -10318,7 +9744,7 @@ Using the Dream Nail on Uumuu is a good way to gain large amounts of SOUL, but i
 While in Godhome, in the Pantheon of the Sage or the Hall of Gods, Quirrel is no longer at the Knight's side to break Uumuu's protective membrane. However, Uumuu does gain a new attack that can be turned against it. Uumuu is also slower in this incarnation.
 
 Uumuu has all the same attacks as its regular form with one new one, that can be used to make it vulnerable:
-<b>Summon</b>: Uumuu emits a screech and summons two Oomas that slowly float up until they disappear from the top of the screen. The Oomas themselves pass through all platforms, but their cores, once exposed, explode if they intercept a platform. Getting these Oomas' explosive cores to collide with Uumuu breaks its shield while also dealing 100 damage to Uumuu. Uumuu is invulnerable to the Oomas while screeching to summon more.
+Summon: Uumuu emits a screech and summons two Oomas that slowly float up until they disappear from the top of the screen. The Oomas themselves pass through all platforms, but their cores, once exposed, explode if they intercept a platform. Getting these Oomas' explosive cores to collide with Uumuu breaks its shield while also dealing 100 damage to Uumuu. Uumuu is invulnerable to the Oomas while screeching to summon more.
 
 ---
 
@@ -10341,14 +9767,12 @@ References
 ---
 
 ---
-
 # 文档：Violent Husk
-
 - 类别：enemies
 - 标识：violent-husk
 - 来源：wiki/Violent_Husk
 
-<b>Violent Husks</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. Gone mad due to massive, advanced the Infection, these husks contain a volatile infectious fluid which explodes when they charge into enemies or objects.
+Violent Husks are Enemies (Hollow Knight) in Hollow Knight (game). Gone mad due to massive, advanced the Infection, these husks contain a volatile infectious fluid which explodes when they charge into enemies or objects.
 
 Behaviour and Tactics
 Wanders back and forth like the Wandering Husk. When the Knight comes in range, it charges towards them, continuing without stopping or changing direction, until it hits the Knight or a wall, or dies from an attack or the environment, which cause it to explode. The explosion deals two the Knight#Health and SOUL of damage.
@@ -10363,14 +9787,12 @@ References
 ---
 
 ---
-
 # 文档：Void Tendrils
-
 - 类别：enemies
 - 标识：void-tendrils
 - 来源：wiki/Void_Tendrils
 
-<b>Void Tendrils</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are fragments of Void shaped like tendrils which lash out at intruders to push them away or pull them under.
+Void Tendrils are Enemies (Hollow Knight) in Hollow Knight (game). They are fragments of Void shaped like tendrils which lash out at intruders to push them away or pull them under.
 
 Behaviour and Tactics
 Void Tendrils emerge from pits of Void, reaching up and flailing if the Knight gets close. They deal contact damage and cannot be harmed, but are disabled when hit by the lighthouse's light or when Void Heart is active.
@@ -10389,14 +9811,12 @@ References
 ---
 
 ---
-
 # 文档：Volatile Gruzzer
-
 - 类别：enemies
 - 标识：volatile-gruzzer
 - 来源：wiki/Volatile_Gruzzer
 
-<b>Volatile Gruzzers</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are enlarged Gruzzers who still float around carelessly, their bodies swollen and dripping with the Infection.
+Volatile Gruzzers are Enemies (Hollow Knight) in Hollow Knight (game). They are enlarged Gruzzers who still float around carelessly, their bodies swollen and dripping with the Infection.
 
 Behaviour and Tactics
 Similarly to regular Gruzzers, they bounce around aimlessly in their territory, but they also drip globs of harmful Infection beneath them as they move. Avoid the drops by Mothwing Cloak and using platforms as cover.
@@ -10411,14 +9831,12 @@ References
 ---
 
 ---
-
 # 文档：Volatile Mosskin
-
 - 类别：enemies
 - 标识：volatile-mosskin
 - 来源：wiki/Volatile_Mosskin
 
-<b>Volatile Mosskin</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are Mosskin who became swollen with the Infection.
+Volatile Mosskin are Enemies (Hollow Knight) in Hollow Knight (game). They are Mosskin who became swollen with the Infection.
 
 Behaviour and Tactics
 It meanders back and forth peacefully until disturbed. Once engaged, it shakes rapidly before producing an orange cloud of Infection, similar to Fungified Husks.
@@ -10438,14 +9856,12 @@ References
 ---
 
 ---
-
 # 文档：Volatile Zoteling
-
 - 类别：enemies
 - 标识：volatile-zoteling
 - 来源：wiki/Volatile_Zoteling
 
-<b>Volatile Zotelings</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>, introduced in the <i>Hidden Dreams</i> update. They are figments of Bretta obsessed mind that quickly explode after coming into existence.
+Volatile Zotelings are Enemies (Hollow Knight) in Hollow Knight (game), introduced in the Hidden Dreams update. They are figments of Bretta obsessed mind that quickly explode after coming into existence.
 
 Behaviour and Tactics
 Floats in the air before exploding, dealing two Masks of damage. They appear in groups when fighting Grey Prince Zote and individually during the  Eternal Ordeal.
@@ -10463,25 +9879,23 @@ References
 ---
 
 ---
-
 # 文档：White Defender
-
 - 类别：enemies, bosses
 - 标识：white-defender
 - 来源：wiki/White_Defender
 
-The <b>White Defender</b> is a hidden Bosses (Hollow Knight) in <i>Hollow Knight (game)</i> introduced in the <i>Hidden Dreams</i> update. He is the Dream form of the Dung Defender, at the peak of his past glory.
+The White Defender is a hidden Bosses (Hollow Knight) in Hollow Knight (game) introduced in the Hidden Dreams update. He is the Dream form of the Dung Defender, at the peak of his past glory.
 
 Behaviour and Tactics
 The White Defender's attacks are stronger versions of the Dung Defender's moves, along with a few new ones:
 
-<b>Dung Toss</b>: White Defender gathers up and throws two dung balls one after the other. The balls bounce around the arena randomly in large arcs, reaching the top of the arena. Each ball persists until it hits the floor twice. These dung balls continue to bounce even if they hit the Knight, and White Defender performs other attacks while the dung balls are bouncing.
-<b>Dive</b>: White Defender dives in and out of the ground to move around the arena. He dives in once and re-emerges somewhere else in the arena shortly after, covering about 25% of the arena. He moves left or right independent of where the Knight is.
-<b>Burst</b>: White Defender dives underground and after a bit of time bursts into the air, releasing dung balls everywhere, 5 on each side, that fall away from him in tall arcs. These dung balls do not bounce around. Instead, they break once they hit a wall, the floor, the ceiling, or the Knight. White Defender can burst up anywhere in the arena, and he travels underground for 1.5 seconds before he finds his burst point.
-<b>Spike Slam</b>: White Defender slams his arm into the ground, causing large spikes of dung to jut up. Three spikes form in rapid succession on each side of White Defender. The spikes reach high into the air and are just barely able to be cleared with Monarch Wings.
-<b>Defender Jubilee</b>: White Defender gathers up and throws 3 dung balls one after the other, like a longer Dung Toss attack. After the third dung ball, White Defender leaps into the air and curls into a ball to join in the bouncing. After bouncing on the ground 3 times, he slams straight into the ground sending spikes across the arena in both directions. The spikes form in sets of two (one on each side) and disappear just after the next set of spikes springs up. White Defender remains underground until all of the spikes are gone. Once the spikes are gone, he re-emerges with a Ground Burst attack. The spikes are short enough that the Knight can double jump over them.
-<b>Zeal</b>: Once per fight, after enough damage is dealt to him, White Defender emits a loud shout like he does at the beginning of each fight signaling the beginning of this attack. For around 11 seconds, White Defender strings together 6 Ground Burst attacks, each occurring about 1.5 seconds after the previous. Once Zeal is over, White Defender returns to his regular attack patterns. White Defender only uses this attack once at 600 HP.
-<b>Evade</b>: When the Knight is too close, White Defender sometimes quickly curls into a ball and rolls back a short distance. Half the time, he immediately follows this manoeuvre up with a Spike Slam attack.
+Dung Toss: White Defender gathers up and throws two dung balls one after the other. The balls bounce around the arena randomly in large arcs, reaching the top of the arena. Each ball persists until it hits the floor twice. These dung balls continue to bounce even if they hit the Knight, and White Defender performs other attacks while the dung balls are bouncing.
+Dive: White Defender dives in and out of the ground to move around the arena. He dives in once and re-emerges somewhere else in the arena shortly after, covering about 25% of the arena. He moves left or right independent of where the Knight is.
+Burst: White Defender dives underground and after a bit of time bursts into the air, releasing dung balls everywhere, 5 on each side, that fall away from him in tall arcs. These dung balls do not bounce around. Instead, they break once they hit a wall, the floor, the ceiling, or the Knight. White Defender can burst up anywhere in the arena, and he travels underground for 1.5 seconds before he finds his burst point.
+Spike Slam: White Defender slams his arm into the ground, causing large spikes of dung to jut up. Three spikes form in rapid succession on each side of White Defender. The spikes reach high into the air and are just barely able to be cleared with Monarch Wings.
+Defender Jubilee: White Defender gathers up and throws 3 dung balls one after the other, like a longer Dung Toss attack. After the third dung ball, White Defender leaps into the air and curls into a ball to join in the bouncing. After bouncing on the ground 3 times, he slams straight into the ground sending spikes across the arena in both directions. The spikes form in sets of two (one on each side) and disappear just after the next set of spikes springs up. White Defender remains underground until all of the spikes are gone. Once the spikes are gone, he re-emerges with a Ground Burst attack. The spikes are short enough that the Knight can double jump over them.
+Zeal: Once per fight, after enough damage is dealt to him, White Defender emits a loud shout like he does at the beginning of each fight signaling the beginning of this attack. For around 11 seconds, White Defender strings together 6 Ground Burst attacks, each occurring about 1.5 seconds after the previous. Once Zeal is over, White Defender returns to his regular attack patterns. White Defender only uses this attack once at 600 HP.
+Evade: When the Knight is too close, White Defender sometimes quickly curls into a ball and rolls back a short distance. Half the time, he immediately follows this manoeuvre up with a Spike Slam attack.
 
 ---
 
@@ -10513,7 +9927,7 @@ In the background of the arena, the white silhouettes of the Five Great Knights 
 
 The White Defender can be beaten a total of 5 times on each save file, though he can be challenged indefinitely in  Godhome.
 After defeating the White Defender 5 times and hearing Dung Defender's extra dialogue, when leaving the room and returning, there is a sixth dung statue made in the Knight's image.
-White Defender's Hunter's Journal mentions <i>"The Champion's Call"</i>, <i>"the Knotted Grove,"</i> and <i>"the Battle of the Blackwyrm."</i> These events or locations are never mentioned anywhere else in the game.
+White Defender's Hunter's Journal mentions "The Champion's Call", "the Knotted Grove," and "the Battle of the Blackwyrm." These events or locations are never mentioned anywhere else in the game.
 There is a glitch where a dung ball can become stuck in one of the corners of the room, which can potentially be detrimental as the hit-box for the dung ball is still active. However, it can still be destroyed by Spells.
 
 References
@@ -10521,21 +9935,19 @@ References
 ---
 
 ---
-
 # 文档：Winged Nosk
-
 - 类别：enemies, bosses
 - 标识：winged-nosk
 - 来源：wiki/Winged_Nosk
 
-<b>Winged Nosk</b> is a quest Bosses (Hollow Knight) in <i>Hollow Knight (game)</i> introduced in Godmaster. It is the flying form of Nosk, assuming Hornet shape at first instead of the Knight. It can be encountered in the Pantheon of Hallownest.
+Winged Nosk is a quest Bosses (Hollow Knight) in Hollow Knight (game) introduced in Godmaster. It is the flying form of Nosk, assuming Hornet shape at first instead of the Knight. It can be encountered in the Pantheon of Hallownest.
 
 Behaviour and Tactics
 Winged Nosk has four attacks, they are similar to both Nosk's and Vengefly King attacks:
-<b>Swoop</b>: The Swoop attack is similar to Vengefly King's Swipe, with Winged Nosk starting high at one end of the arena, flying down to the middle with its face low, and then back up to the other side.
-<b>Summoning Screech</b>: Its Summoning Screech attack is also similar to Vengefly King's Summoning Scream, but instead of summoning Vengefly, Winged Nosk summons Infected Balloons. This attack summons 2 Infected Balloons. There can be a maximum of 6 Infected Balloons in the arena. Once there are, Winged Nosk can still use this attack, but no more Infected Balloons are summoned.
-<b>Outbreak</b>: Blobs of Infection spew from Winged Nosk: 2 at steep arcs down and 2 sets of 10 in wide arcs up. The blobs spread out across the arena floor with space between pairs of blobs. The blobs persist on the floor for about 2 seconds, so they are still there when Winged Nosk Swoops at the Knight, which is how it always attacks after an Outbreak.
-<b>Downpour</b>: Downpour is similar to Nosk's Rain attack in that it flies into the ceiling to drop blobs onto the arena. Winged Nosk only uses this attack when reduced to 50% health. After going into the ceiling, Winged Nosk drops several blobs down almost simultaneously. There are gaps between the blobs and the blobs persist on the floor for about 2 seconds. Winged Nosk does not begin another attack until about the time the blobs start disappearing. Winged Nosk exits the ceiling from the same side of the arena it entered the ceiling.
+Swoop: The Swoop attack is similar to Vengefly King's Swipe, with Winged Nosk starting high at one end of the arena, flying down to the middle with its face low, and then back up to the other side.
+Summoning Screech: Its Summoning Screech attack is also similar to Vengefly King's Summoning Scream, but instead of summoning Vengefly, Winged Nosk summons Infected Balloons. This attack summons 2 Infected Balloons. There can be a maximum of 6 Infected Balloons in the arena. Once there are, Winged Nosk can still use this attack, but no more Infected Balloons are summoned.
+Outbreak: Blobs of Infection spew from Winged Nosk: 2 at steep arcs down and 2 sets of 10 in wide arcs up. The blobs spread out across the arena floor with space between pairs of blobs. The blobs persist on the floor for about 2 seconds, so they are still there when Winged Nosk Swoops at the Knight, which is how it always attacks after an Outbreak.
+Downpour: Downpour is similar to Nosk's Rain attack in that it flies into the ceiling to drop blobs onto the arena. Winged Nosk only uses this attack when reduced to 50% health. After going into the ceiling, Winged Nosk drops several blobs down almost simultaneously. There are gaps between the blobs and the blobs persist on the floor for about 2 seconds. Winged Nosk does not begin another attack until about the time the blobs start disappearing. Winged Nosk exits the ceiling from the same side of the arena it entered the ceiling.
 
 ---
 
@@ -10564,14 +9976,12 @@ Another reason could be is that Nosk disguises itself as prominent figures in it
 ---
 
 ---
-
 # 文档：Winged Sentry
-
 - 类别：enemies
 - 标识：winged-sentry
 - 来源：wiki/Winged_Sentry
 
-<b>Winged Sentries</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are highly-trained flying sentries of Hallownest, patrolling the City of Tears and the areas around it.
+Winged Sentries are Enemies (Hollow Knight) in Hollow Knight (game). They are highly-trained flying sentries of Hallownest, patrolling the City of Tears and the areas around it.
 
 Behaviour and Tactics
 It only has one attack; a forward dash strike. It floats in the air near the Knight before swooping down at them.
@@ -10579,8 +9989,6 @@ It only has one attack; a forward dash strike. It floats in the air near the Kni
 It is advised to try and kill it with ranged Spells before it can attack.
 
 It can also be easily killed by Nail#Nail-bouncing on it, as it has no upward attack.
-
-
 
 Location
 Many of them are found throughout the west of the City of Tears. They can also be found in the Royal Waterways, near the Ancient Basin, and in the Resting Grounds.
@@ -10590,14 +9998,12 @@ References
 ---
 
 ---
-
 # 文档：Winged Zoteling
-
 - 类别：enemies
 - 标识：winged-zoteling
 - 来源：wiki/Winged_Zoteling
 
-<b>Winged Zotelings</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>, introduced in the <i>Hidden Dreams</i> update. They are flying figments of Bretta obsessed mind.
+Winged Zotelings are Enemies (Hollow Knight) in Hollow Knight (game), introduced in the Hidden Dreams update. They are flying figments of Bretta obsessed mind.
 
 Behaviour and Tactics
 Slowly flies towards the Knight after spawning.
@@ -10612,14 +10018,12 @@ References
 ---
 
 ---
-
 # 文档：Wingmould
-
 - 类别：enemies
 - 标识：wingmould
 - 来源：wiki/Wingmould
 
-<b>Wingmoulds</b> are Enemies (Hollow Knight) in <i>Hollow Knight (game)</i>. They are Void constructs made by the Pale King for an unknown purpose.
+Wingmoulds are Enemies (Hollow Knight) in Hollow Knight (game). They are Void constructs made by the Pale King for an unknown purpose.
 
 Behaviour and Tactics
 Floats in place, dealing damage upon contact. Splits apart when hit, before reforming and regaining all health. While in this state, it does not deal contact damage, nor can it be attacked.
@@ -10649,21 +10053,19 @@ References
 ---
 
 ---
-
 # 文档：Xero
-
 - 类别：enemies, bosses
 - 标识：xero
 - 来源：wiki/Xero
 
-<b>Xero</b> is a Bosses (Hollow Knight)#Warrior Dreams in <i>Hollow Knight (game)</i>.
+Xero is a Bosses (Hollow Knight)#Warrior Dreams in Hollow Knight (game).
 
 Lore
 Xero was a warrior of Hallownest who believed that strength would always allow him a bright future. When his mind was Infection, he hoped to fight against the plague with violence. Fueled by the same hope, he turned against the Pale King, for which he was executed. Xero was buried in the Resting Grounds, his tomb a reminder to any who would betray the King. When his Spirits awoke, he still could not see the wrongness of his actions and instead believed his demise was the result of a doomed fate. The spirit confides to the Knight its faith in their bravery, before shattering into 100 Dream Nail#Essence to be collected by the Dream Nail.
 
 Behaviour and Tactics
 Xero only uses one attack:
-<b>Nail Cast</b>: Xero spawns 2 glowing nails. While floating around, he constantly shoots out one of his nails in the Knight's direction and draws it back. He shoots a nail every 1-2 seconds. Coming into contact with the nail while it is being drawn back still deals damage. At 50% HP, Xero spawns 2 more nails, and his attack rate increases, with only 0.75 seconds between each Nail Cast attack.
+Nail Cast: Xero spawns 2 glowing nails. While floating around, he constantly shoots out one of his nails in the Knight's direction and draws it back. He shoots a nail every 1-2 seconds. Coming into contact with the nail while it is being drawn back still deals damage. At 50% HP, Xero spawns 2 more nails, and his attack rate increases, with only 0.75 seconds between each Nail Cast attack.
 
 ---
 
@@ -10671,13 +10073,13 @@ Mothwing Cloak, especially Shade Cloak, is a very helpful tactic for dodging Xer
 
 Healing without Charms is safest when the Knight dodges a nail and puts themself on the opposite side of Xero's path, often causing the returning nail to miss. In the second Phase, the Knight must begin healing before the nail reaches the end of its range to have enough time to heal. The Quick Focus and/or Shape of Unn Charms can help the Knight heal.
 
-The Knight can heal safely by running off the platform and going to the far left of the area, where Xero's attacks do not reach, or by running under the platform. <i>Note that this kind of healing is not possible when fought in  Godhome.</i>
+The Knight can heal safely by running off the platform and going to the far left of the area, where Xero's attacks do not reach, or by running under the platform. Note that this kind of healing is not possible when fought in  Godhome.
 
 Location
 Xero can be found in the west part of the Resting Grounds.
 
 Trivia
-His grave message used to read <i>"Here lies a Traitor"</i>, which was changed to the current message (<i>"Cursed are those who turn against the King."</i>) after the public release version Updates (Hollow Knight)#1.0.2.8.
+His grave message used to read "Here lies a Traitor", which was changed to the current message ("Cursed are those who turn against the King.") after the public release version Updates (Hollow Knight)#1.0.2.8.
 This has, however, not been changed in some translations of the game.
 
 References
@@ -10685,14 +10087,12 @@ References
 ---
 
 ---
-
 # 文档：Baldur Shell
-
 - 类别：charms
 - 标识：baldur-shell
 - 来源：wiki/Baldur_Shell
 
-<b>Baldur Shell</b> is a Charms in <i>Hollow Knight (game)</i>. It spawns a protective shell around the Knight when using Focus which blocks up to 4 hits.
+Baldur Shell is a Charms in Hollow Knight (game). It spawns a protective shell around the Knight when using Focus which blocks up to 4 hits.
 
 Usefulness
 Prevents the Knight from taking damage if hit with an attack while using Focus. The Knight also gains invincibility frames as if they were hit normally despite not taking damage, making it useful to tank hits and punish bosses' attacks.
@@ -10712,7 +10112,7 @@ Charm Combo Tips
 
 Trivia
 
-Baldur Shell was originally going to be called <b>"Propede Shell"</b>.
+Baldur Shell was originally going to be called "Propede Shell".
 Using Shape of Unn in combination with Baldur Shell and Spore Shroom changes how the snail body of the Knight looks in addition to granting the Charm combo.
 
 width="25%"|
@@ -10723,15 +10123,13 @@ width="25%"|
 ---
 
 ---
-
 # 文档：Carefree Melody
-
 - 类别：charms
 - 标识：carefree-melody
 - 来源：wiki/Carefree_Melody
 **位置**: Brumm in Dirtmouth, after Banishing the Grimm Troupe with his unbreathed accordion.
 
-<b>Carefree Melody</b> is a Charms in <i>Hollow Knight (game)</i>. It has a chance to block damage when the Knight is hit. Damage from environmental hazards cannot be blocked.
+Carefree Melody is a Charms in Hollow Knight (game). It has a chance to block damage when the Knight is hit. Damage from environmental hazards cannot be blocked.
 
 Usefulness
 The block chance resets to 0% every time the Charm prevents damage and increases with each hit taken up to a maximum of 90%. The average block chance is ~22.46%.
@@ -10755,13 +10153,13 @@ width="12.5%" | 5 Hits Taken
 width="12.5%" | 6 Hits Taken
 width="12.5%" | 7+ Hits Taken
 0%
-10.1% <math>\left(\frac{10}{99}\right)</math>
-20.2% <math>\left(\frac{20}{99}\right)</math>
-30.3% <math>\left(\frac{30}{99}\right)</math>
-50.5% <math>\left(\frac{50}{99}\right)</math>
-70.7% <math>\left(\frac{70}{99}\right)</math>
-80.8% <math>\left(\frac{80}{99}\right)</math>
-90.9% <math>\left(\frac{90}{99}\right)</math>
+10.1% \left(\frac{10}{99}\right)
+20.2% \left(\frac{20}{99}\right)
+30.3% \left(\frac{30}{99}\right)
+50.5% \left(\frac{50}{99}\right)
+70.7% \left(\frac{70}{99}\right)
+80.8% \left(\frac{80}{99}\right)
+90.9% \left(\frac{90}{99}\right)
 
 Charm Combo Tips
 
@@ -10775,9 +10173,7 @@ This also causes Weaversong and Glowing Womb to attack her.
 ---
 
 ---
-
 # 文档：Charm Synergies
-
 - 类别：charms
 - 标识：charm-synergies
 - 来源：wiki/Charm_Synergies
@@ -10810,14 +10206,12 @@ Notes
 ---
 
 ---
-
 # 文档：Deep Focus
-
 - 类别：charms
 - 标识：deep-focus
 - 来源：wiki/Deep_Focus
 
-<b>Deep Focus</b> is a Charms in <i>Hollow Knight (game)</i>. It doubles the Masks healed when using Focus but increases Focus time by 65%.
+Deep Focus is a Charms in Hollow Knight (game). It doubles the Masks healed when using Focus but increases Focus time by 65%.
 
 Usefulness
 With Deep Focus, it takes 65% longer to Focus, not including the startup time (0.25 seconds). Startup time is not affected by Deep Focus.
@@ -10839,15 +10233,13 @@ Notes
 ---
 
 ---
-
 # 文档：Defender's Crest
-
 - 类别：charms
 - 标识：defenders-crest
 - 来源：wiki/Defender's_Crest
 **位置**: Royal Waterways — Dung Defender's reward after defeating him in his pit.
 
-<b>Defender's Crest</b> is a Charms in <i>Hollow Knight (game)</i>. It spawns damaging clouds around the Knight.
+Defender's Crest is a Charms in Hollow Knight (game). It spawns damaging clouds around the Knight.
 
 Usefulness
 The clouds are not very powerful and have very little range, making it situational. Useful when fleeing enemies, as the clouds linger behind the Knight and damage pursuing enemies. It can be very useful during both the Broken Vessel and Lost Kin fights since the cloud can kill the Infected Balloons with one damage, so the Knight can focus on the boss and gain precious healing time. It also damages Oomas, triggering their explosion. As such, it is best to use caution when traversing Fog Canyon with this Charm equipped.
@@ -10870,14 +10262,12 @@ Notes
 ---
 
 ---
-
 # 文档：Dream Wielder
-
 - 类别：charms
 - 标识：dream-wielder
 - 来源：wiki/Dream_Wielder
 
-<b>Dream Wielder</b> is a Charms in <i>Hollow Knight (game)</i>. It reduces the time needed to attack with the Dream Nail, increases the amount of SOUL gained when hitting an Enemies (Hollow Knight) with the Dream Nail, and, after the  <i>Hidden Dreams</i> update, increases the likelihood of gaining Essence from killing an enemy.
+Dream Wielder is a Charms in Hollow Knight (game). It reduces the time needed to attack with the Dream Nail, increases the amount of SOUL gained when hitting an Enemies (Hollow Knight) with the Dream Nail, and, after the  Hidden Dreams update, increases the likelihood of gaining Essence from killing an enemy.
 
 Usefulness
 Dream Wielder is by far the most efficient SOUL-gathering Charm due to its low cost and high effectiveness. The only downside is that the Knight must be standing still to use it, and it deals no damage, only knockback. Due to the Dream Nail causing no damage, this Charm is useful in the Colosseum of Fools in order to acquire full SOUL.
@@ -10892,14 +10282,12 @@ Notes
 ---
 
 ---
-
 # 文档：Dreamshield
-
 - 类别：charms
 - 标识：dreamshield
 - 来源：wiki/Dreamshield
 
-<b>Dreamshield</b> is a Charms in <i>Hollow Knight (game)</i>. It conjures a shield around the Knight that can block projectiles and deals 1x Nail damage when it hits an Enemies (Hollow Knight).
+Dreamshield is a Charms in Hollow Knight (game). It conjures a shield around the Knight that can block projectiles and deals 1x Nail damage when it hits an Enemies (Hollow Knight).
 
 Usefulness
 Whenever the shield touches an enemy, the shield breaks and takes two seconds to reform. Attacking with the Nail causes the shield to bash outward. While Focusing, the Shield rotates 173% faster.
@@ -10926,9 +10314,9 @@ Spikey ball (Gulka)
 Spine (Spiny Husk)
 Thorn ball (Moss Knight)
 Wind blade (Mantis Petra, Traitor Lord, Mantis Lords,  Sisters of Battle)
-Balled Dirtcarver <b>*instantly spawns</b> (Carver Hatcher)
-Explosive core <b>*blows up</b> (Ooma)
-Explosive spore <b>*blows up</b> (Sporg)
+Balled Dirtcarver *instantly spawns (Carver Hatcher)
+Explosive core *blows up (Ooma)
+Explosive spore *blows up (Sporg)
 
 Piercing
 All Warrior Dreams attacks
@@ -10956,7 +10344,7 @@ Charm Synergies
 Trivia
 
 The pedestal where the Charm is found can be hit with the Dream Nail. The dialogue reads:
-<i>"Protect yourself... You are our last..."</i>
+"Protect yourself... You are our last..."
 This, combined with the Charm description, implies that the moth tribe intended to give this Charm to Seer as they were dying out.
 Markoth, who is a Moth Tribe, wields a similar weapon to the Dreamshield.
 The Dreamshield temporarily disappears when interacting with NPC dialogue.
@@ -10967,15 +10355,13 @@ When using the  Bindings in any Pantheons, Dreamshield's damage is not affected.
 ---
 
 ---
-
 # 文档：Flukenest
-
 - 类别：charms
 - 标识：flukenest
 - 来源：wiki/Flukenest
 **位置**: Royal Waterways — reward for defeating Flukemarm in her hidden chamber.
 
-<b>Flukenest</b> is a Charms in <i>Hollow Knight (game)</i>. It replaces the Vengeful Spirit/Shade Soul Spells with a horde of damaging flukes.
+Flukenest is a Charms in Hollow Knight (game). It replaces the Vengeful Spirit/Shade Soul Spells with a horde of damaging flukes.
 
 Usefulness
 Using Flukenest is primarily a preference-based decision, as range and consistency have to be sacrificed for approximately double damage. Flukenest's main advantage is the massively increased damage compared to not having it, which can be helpful for Bosses (Hollow Knight). Likely due to a coding mistake, after a fluke bursts, its hitbox continues to exist for 1 second. Because of this, enemies can be damaged more than once, potentially dealing significant amounts of damage.
@@ -11005,14 +10391,12 @@ Notes
 ---
 
 ---
-
 # 文档：Fragile Greed
-
 - 类别：charms
 - 标识：fragile-greed
 - 来源：wiki/Fragile_Greed
 
-<b>Fragile Greed</b> is a Charms in <i>Hollow Knight (game)</i>. It increases the amount of Geo that is dropped by Enemies (Hollow Knight).
+Fragile Greed is a Charms in Hollow Knight (game). It increases the amount of Geo that is dropped by Enemies (Hollow Knight).
 
 Usefulness
 It is recommended to use this Charm in situations where death is unlikely, such as exploration, or in tandem with survivability-increasing Charms, while avoiding its use in boss battles.
@@ -11026,12 +10410,12 @@ Lastly, it should be noted that its drawback is negated in Steel Soul Mode runs 
 How to Acquire
 Purchased from Leg Eater in the Fungal Wastes for . Wearing the Defender's Crest Charm causes Leg Eater to lower the cost to .
 Shop description:
-<i>Very, very, special and valuable charm! Do you want to find more Geo? Hold this charm and go hunting!
-Then bring any Geo you find back to me!</i>
+Very, very, special and valuable charm! Do you want to find more Geo? Hold this charm and go hunting!
+Then bring any Geo you find back to me!
 
 When broken, Leg Eater can repair it for , or, while wearing Defender's Crest, for .
 Shop description when broken:
-<i>It's broken now, and its power is sleeping. Very sad! Give me Geo, and I'll fix it.</i>
+It's broken now, and its power is sleeping. Very sad! Give me Geo, and I'll fix it.
 
 Once the Grimm Troupe has been summoned, Divine becomes accessible in Dirtmouth. To get the unbreakable version of Fragile Greed, it must be equipped before listening to her, then it must be given to her when prompted. She eats the Charm, and then asks for . Once the Geo is paid, she gives the unbreakable version of Fragile Greed, Unbreakable Greed.
 
@@ -11046,20 +10430,18 @@ Notes
 ---
 
 ---
-
 # 文档：Fragile Heart
-
 - 类别：charms
 - 标识：fragile-heart
 - 来源：wiki/Fragile_Heart
 **位置**: Leg Eater's hut in the Fungal Wastes, near the southern Mantis tunnels.
 
-<b>Fragile Heart</b> is a Charms in <i>Hollow Knight (game)</i>. It increases the Knight health by two Masks.
+Fragile Heart is a Charms in Hollow Knight (game). It increases the Knight health by two Masks.
 
 Usefulness
-This Charm is quite potent, despite the fact that it breaks upon death. One way to make use of the Charm is to only use it in situations where dying is unlikely, such as exploration, or in tandem with survivability-increasing Charms, while avoiding its use in boss battles, except for Dream Boss battles and  Godhome battles (as the Charm does <b>not</b> break when dying to these bosses).
+This Charm is quite potent, despite the fact that it breaks upon death. One way to make use of the Charm is to only use it in situations where dying is unlikely, such as exploration, or in tandem with survivability-increasing Charms, while avoiding its use in boss battles, except for Dream Boss battles and  Godhome battles (as the Charm does not break when dying to these bosses).
 
-It is strictly superior in effect to the Lifeblood Heart Charm (except when using Grubberfly's Elegy)&nbsp;– for the same Notch cost, it provides two regular Masks which can be healed by Focusing.
+It is strictly superior in effect to the Lifeblood Heart Charm (except when using Grubberfly's Elegy) – for the same Notch cost, it provides two regular Masks which can be healed by Focusing.
 
 The obvious downside is that once broken, Leg Eater only repairs it for a price. Late-game, the Geo may not be much of an issue, but the trip may be. Dreamgate can be used to reach Leg Eater more easily.
 
@@ -11068,13 +10450,13 @@ Lastly, it should be noted that its drawback is negated in Steel Soul Mode runs 
 How to Acquire
 Purchased from Leg Eater in Fungal Wastes for . Wearing the Defender's Crest Charm causes Leg Eater to lower the cost to .
 Shop description:
-<i>This is a precious thing. A beautiful charm. I made it for you! If you hold it you'll feel a lot healthier.
-If you're afraid of dying, you need this charm!</i>
+This is a precious thing. A beautiful charm. I made it for you! If you hold it you'll feel a lot healthier.
+If you're afraid of dying, you need this charm!
 
 When broken, Leg Eater can repair it for , or for  while wearing the Defender's Crest.
 
 Shop description when broken:
-<i>It's broken now, and its power is sleeping. Very sad! Give me Geo, and I'll fix it.</i>
+It's broken now, and its power is sleeping. Very sad! Give me Geo, and I'll fix it.
 
 Once the Grimm Troupe has been summoned, Divine becomes accessible in Dirtmouth. To get the unbreakable version of Fragile Heart, it must be equipped before listening to her, then it must be given to her when prompted. She eats the Charm, then asks for . Once the Geo is paid, she gives the unbreakable version of Fragile Heart, Unbreakable Heart.
 
@@ -11086,9 +10468,7 @@ When using the  Bindings in any  Pantheons, the Masks granted by Fragile Heart a
 ---
 
 ---
-
 # 文档：Fragile Strength
-
 - 类别：charms
 - 标识：fragile-strength
 - 来源：wiki/Fragile_Strength
@@ -11121,19 +10501,19 @@ Must be repaired by Leg Eater in order to be used again
 
 The downside is that once broken, Leg Eater only repairs it for a price. In the late-game, the cost may not be much of an issue, but the trip to Leg Eater might be. Dreamgate can be used to reach Leg Eater more easily.
 
-This Charm is quite potent, although it breaks upon death. One way to make use of the Charm is to only use it in situations where death is unlikely, such as exploration, or in tandem with survivability-increasing Charms, while also avoiding its use in boss battles, except for Dream Boss battles and  Godhome battles (as the Charm does <b>not</b> break when dying to these bosses).
+This Charm is quite potent, although it breaks upon death. One way to make use of the Charm is to only use it in situations where death is unlikely, such as exploration, or in tandem with survivability-increasing Charms, while also avoiding its use in boss battles, except for Dream Boss battles and  Godhome battles (as the Charm does not break when dying to these bosses).
 
 Lastly, its drawback is negated in Steel Soul Mode runs since the run is over upon death anyway, making Fragile Strength one of the most powerful and useful Charms in a Steel Soul run.
 
 How to Acquire
 Purchased from Leg Eater in the Fungal Wastes for . Wearing the Defender's Crest Charm causes Leg Eater to lower the cost to .
 Shop description:
-<i>You're weak, aren't you? You should give me Geo. If you do, I'll give you this charm I made.
-It will make you stronger. Your enemies, and everyone else, will fear you at last...</i>
+You're weak, aren't you? You should give me Geo. If you do, I'll give you this charm I made.
+It will make you stronger. Your enemies, and everyone else, will fear you at last...
 
 When broken, Leg Eater can repair it for , or, while wearing the Defender's Crest, for .
 Shop description when broken:
-<i>It's broken now, and its power is sleeping. Very sad! Give me Geo, and I'll fix it.</i>
+It's broken now, and its power is sleeping. Very sad! Give me Geo, and I'll fix it.
 
 Once the Grimm Troupe has been summoned, Divine becomes accessible in Dirtmouth. To get the unbreakable version of Fragile Strength, it must be equipped before listening to her, then it must be given to her when prompted. She eats the Charm, then asks for . Once the Geo is paid, she gives the unbreakable version of Fragile Strength, Unbreakable Strength.
 
@@ -11144,21 +10524,19 @@ Notes
 ---
 
 ---
-
 # 文档：Fury of the Fallen
-
 - 类别：charms
 - 标识：fury-of-the-fallen
 - 来源：wiki/Fury_of_the_Fallen
 **位置**: King's Pass — found in an alcove above the cliffs, near the very start of the game.
 
-<b>Fury of the Fallen</b> is a Charms in <i>Hollow Knight (game)</i>. It increases Nail damage by 75% when at 1 Mask. Note that this works only when the Knight has only 1 Mask left (No projectiles are sent at 1 Mask if Fury of the Fallen is not equipped). While at one Mask, gaining any Lifeblood Masks negates the effect of Grubberfly's Elegy but not the effect of Fury of the Fallen.
+Fury of the Fallen is a Charms in Hollow Knight (game). It increases Nail damage by 75% when at 1 Mask. Note that this works only when the Knight has only 1 Mask left (No projectiles are sent at 1 Mask if Fury of the Fallen is not equipped). While at one Mask, gaining any Lifeblood Masks negates the effect of Grubberfly's Elegy but not the effect of Fury of the Fallen.
 }}
 
 Charm Combo Tips
 
 Trivia
-Prior to the  <i>:Category: Lifeblood</i> update, when Fury of the Fallen was activated, the screen was bordered with wispy red lines and the Knight was circled in a red icon. Subsequently, the red circle was removed and the effect around the Knight was changed to be a red smoke.
+Prior to the  :Category: Lifeblood update, when Fury of the Fallen was activated, the screen was bordered with wispy red lines and the Knight was circled in a red icon. Subsequently, the red circle was removed and the effect around the Knight was changed to be a red smoke.
 
 It is useless during  Hall of Gods#Fighting Bosses boss fights, as it is not possible to reach one Mask of health.
 The Knight usually has a :File:Knight One Mask.gif that plays while at 1 Mask; however, it does not play while having this Charm equipped.
@@ -11169,14 +10547,12 @@ Notes
 ---
 
 ---
-
 # 文档：Gathering Swarm
-
 - 类别：charms
 - 标识：gathering-swarm
 - 来源：wiki/Gathering_Swarm
 
-<b>Gathering Swarm</b> is a Charms in <i>Hollow Knight (game)</i>. It spawns a swarm that collects dropped Geo.
+Gathering Swarm is a Charms in Hollow Knight (game). It spawns a swarm that collects dropped Geo.
 
 Usefulness
 This Charm is primarily used to grind Geo more easily. It is useful for collecting Geo that falls into spikes, thorns, and hard to reach places. If the area is exited before all Geo has been collected, it is lost (Geo carried by the swarm that has not yet reached the Knight is not lost).
@@ -11186,22 +10562,20 @@ Gathering Swarm does not collect Geo that falls into acid, Geo that is dropped b
 How to Acquire
 Bought from Sly in Dirtmouth for .
 Shop description:
-<i>Do you find yourself leaving a lot of Geo behind as you hurry through the caverns?
-This charm will make sure that any loose change finds its way back to you.</i>
+Do you find yourself leaving a lot of Geo behind as you hurry through the caverns?
+This charm will make sure that any loose change finds its way back to you.
 
 Charm Combo Tips
 
 ---
 
 ---
-
 # 文档：Glowing Womb
-
 - 类别：charms
 - 标识：glowing-womb
 - 来源：wiki/Glowing_Womb
 
-<b>Glowing Womb</b> is a Charms in <i>Hollow Knight (game)</i>. It uses SOUL to spawn Hatchlings which deal 9 damage to Enemies (Hollow Knight) on contact.
+Glowing Womb is a Charms in Hollow Knight (game). It uses SOUL to spawn Hatchlings which deal 9 damage to Enemies (Hollow Knight) on contact.
 
 Usefulness
 A build using this Charm should be Nail-focused and efficient at dodging, as there is less SOUL to use for healing or casting Spells and having a passive assistant in combat may be useful.
@@ -11237,14 +10611,12 @@ Notes
 ---
 
 ---
-
 # 文档：Grimmchild
-
 - 类别：charms
 - 标识：grimmchild
 - 来源：wiki/Grimmchild
 
-<b>Grimmchild</b> is a Charms in <i>Hollow Knight (game)</i>. It summons the Grimmchild which deals varying levels of damage depending on its Phase.
+Grimmchild is a Charms in Hollow Knight (game). It summons the Grimmchild which deals varying levels of damage depending on its Phase.
 
 Usefulness
 When equipped, the Grimmchild floats behind the Knight. In its first Phase, it does nothing else. However, collecting Flames allows for upgrading it to Phases 2, 3, and 4. In these Phases, the Grimmchild shoots a fireball at enemies that deal increasing damage at each Phase.
@@ -11288,15 +10660,13 @@ References
 ---
 
 ---
-
 # 文档：Grubberfly's Elegy
-
 - 类别：charms
 - 标识：grubberflys-elegy
 - 来源：wiki/Grubberfly's_Elegy
 **位置**: Grubfather's reward for rescuing all 46 grubs.
 
-<b>Grubberfly's Elegy</b> is a Charms in <i>Hollow Knight (game)</i>. When at full Masks, it causes Nail strikes to fire a projectile which deals 50% Nail damage per hit. Note that this works only when the Knight has only 1 Mask left (No projectiles are sent at 1 Mask if Fury of the Fallen is not equipped). While at one Mask, gaining any Lifeblood Masks negates the effect of Grubberfly's Elegy but not the effect of Fury of the Fallen.
+Grubberfly's Elegy is a Charms in Hollow Knight (game). When at full Masks, it causes Nail strikes to fire a projectile which deals 50% Nail damage per hit. Note that this works only when the Knight has only 1 Mask left (No projectiles are sent at 1 Mask if Fury of the Fallen is not equipped). While at one Mask, gaining any Lifeblood Masks negates the effect of Grubberfly's Elegy but not the effect of Fury of the Fallen.
 |Charm3 = Mark of Pride
 |Charm3Desc = Increases the height of the projectiles from Grubberfly's Elegy by 35%.
 }}
@@ -11304,21 +10674,19 @@ References
 Charm Combo Tips
 
 Trivia
-Grubberfly's Elegy may be based upon the w:c:zelda:Sword Beam ability from various games in <i>w:c:zeldaThe_Legend_of_Zelda_(Series)</i> where being at full health while using your weapon fires out a similar projectile.
+Grubberfly's Elegy may be based upon the w:c:zelda:Sword Beam ability from various games in w:c:zeldaThe_Legend_of_Zelda_(Series) where being at full health while using your weapon fires out a similar projectile.
 
 Notes
 
 ---
 
 ---
-
 # 文档：Heavy Blow
-
 - 类别：charms
 - 标识：heavy-blow
 - 来源：wiki/Heavy_Blow
 
-<b>Heavy Blow</b> is a Charms in <i>Hollow Knight (game)</i>. It increases an Enemies (Hollow Knight) knockback when hit by Nail strikes or Nail Arts. It also reduces the number of hits required to Combat (Hollow Knight)#Boss Staggers a Bosses (Hollow Knight) by 1.
+Heavy Blow is a Charms in Hollow Knight (game). It increases an Enemies (Hollow Knight) knockback when hit by Nail strikes or Nail Arts. It also reduces the number of hits required to Combat (Hollow Knight)#Boss Staggers a Bosses (Hollow Knight) by 1.
 
 Usefulness
 High knockback can be useful for enemies who have an uninterruptible attack, like the Massive Moss Charger and the Wandering Husk. Using Heavy Blow against this kind of enemy usually pushes them back far enough to prevent their attack from hitting the Knight, allowing for more consecutive attacks, a chance to escape and heal, and safer Nail attacks for enemies with high range (thus removing the need for a ranged Spells and saving SOUL). However, this Charm should not be used against ranged enemies and Warrior Dreams such as No Eyes and Gorb (especially considering that they cannot be staggered), as it is harder to deal  consistent damage to them from a distance.
@@ -11330,7 +10698,7 @@ Since Heavy Blow decreases the hits needed to stagger a boss by 1, it can be use
 How to Acquire
 Bought from Sly for  after bringing him the Shopkeeper's Key found in the Crystal Peak.
 Shop description:
-<i>You enjoy smacking about foes with that nail of yours, right? With this charm equipped, you'll be able to send them flying further with every hit!</i>
+You enjoy smacking about foes with that nail of yours, right? With this charm equipped, you'll be able to send them flying further with every hit!
 
 Charm Combo Tips
 
@@ -11339,20 +10707,18 @@ Notes
 ---
 
 ---
-
 # 文档：Hiveblood
-
 - 类别：charms
 - 标识：hiveblood
 - 来源：wiki/Hiveblood
 
-<b>Hiveblood</b> is a Charms in <i>Hollow Knight (game)</i>. It heals the last Mask that was lost without having to use Focus. It also makes Enemies (Hollow Knight) in the Hive passive.
+Hiveblood is a Charms in Hollow Knight (game). It heals the last Mask that was lost without having to use Focus. It also makes Enemies (Hollow Knight) in the Hive passive.
 
 Usefulness
 
 The regenerating Mask is marked by a small blob of dripping honey that slowly grows bigger. Taking damage again while regenerating starts the process over (at the Knight current health). In the case of an attack that deals two Masks of damage (such as an explosion), Hiveblood only regenerates one Mask. Finally, healing a Mask with Focus ends the regeneration in progress.
 
-Hiveblood <i>does</i> regenerate Lifeblood Masks gained from the Joni's Blessing Charm, though it takes twice as long (24s). Other sources of Lifeblood — like Lifeblood Cocoons, or the Lifeblood Heart and Lifeblood Core Charms — are not affected.
+Hiveblood does regenerate Lifeblood Masks gained from the Joni's Blessing Charm, though it takes twice as long (24s). Other sources of Lifeblood — like Lifeblood Cocoons, or the Lifeblood Heart and Lifeblood Core Charms — are not affected.
 
 Hiveblood is decent in combat if the Knight can dodge a boss effectively, but has trouble finding opportunities to heal. As the Knight is likely to not go on the offensive while waiting for Hiveblood to regenerate health, Hiveblood pairs well with Charms that can damage foes while dodging, such as Glowing Womb or Sharp Shadow.
 
@@ -11371,23 +10737,21 @@ Charm Combo Tips
 
 Trivia
 Despite the Hive enemies turning friendly while wearing Hiveblood, their Dream Nail dialogues still show hostility towards the Knight.
-Before the  <i>:Category: Lifeblood</i> update, this Charm could be collected simply by walking through the open room after Vespa room, without having to fight the  Hive Knight.
+Before the  :Category: Lifeblood update, this Charm could be collected simply by walking through the open room after Vespa room, without having to fight the  Hive Knight.
 
 ---
 
 ---
-
 # 文档：Joni's Blessing
-
 - 类别：charms
 - 标识：jonis-blessing
 - 来源：wiki/Joni's_Blessing
 
-<b>Joni's Blessing</b> is a Charms in <i>Hollow Knight (game)</i>. It changes all Masks to Lifeblood Masks and increases Masks by 40% (rounded up). When selecting the  Shell Bindings in the  Pantheons, it increases Masks from 4 to 7 (10 with Fragile Heart/ Unbreakable Heart).
+Joni's Blessing is a Charms in Hollow Knight (game). It changes all Masks to Lifeblood Masks and increases Masks by 40% (rounded up). When selecting the  Shell Bindings in the  Pantheons, it increases Masks from 4 to 7 (10 with Fragile Heart/ Unbreakable Heart).
 
 Number of Lifeblood Masks
-<b>Masks</b>
-<b>Lifeblood Masks</b>
+Masks
+Lifeblood Masks
 5
 7
 6
@@ -11429,14 +10793,12 @@ The actual formula of Lifeblood masks (as in code) is: . For max health 5 and 10
 ---
 
 ---
-
 # 文档：Kingsoul
-
 - 类别：charms
 - 标识：kingsoul
 - 来源：wiki/Kingsoul
 
-<b>Kingsoul</b> is a Charms in <i>Hollow Knight (game)</i>. It generates 4 Soul every 2 seconds. It also opens an area at the bottom of the Abyss where it can be turned into Void Heart.
+Kingsoul is a Charms in Hollow Knight (game). It generates 4 Soul every 2 seconds. It also opens an area at the bottom of the Abyss where it can be turned into Void Heart.
 
 Usefulness
 Kingsoul is a fairly useful Charm for exploration and platforming challenges, being superior to Hiveblood in that it can recharge Soul for healing even with full Masks. However, the high Notch cost prevents other useful Charm combinations from being equipped.
@@ -11463,14 +10825,12 @@ Kingsoul is inaccessible in  Godseeker Mode.
 ---
 
 ---
-
 # 文档：Lifeblood Core
-
 - 类别：charms
 - 标识：lifeblood-core
 - 来源：wiki/Lifeblood_Core
 
-<b>Lifeblood Core</b> is a Charms in <i>Hollow Knight (game)</i>. It adds 4 Lifeblood Masks when resting at a Bench (Hollow Knight).
+Lifeblood Core is a Charms in Hollow Knight (game). It adds 4 Lifeblood Masks when resting at a Bench (Hollow Knight).
 
 Usefulness
 As with Lifeblood Heart, this Charm is useful if the Knight focuses on Spells, as it allows them to use more of their SOUL on casting rather than healing. However, it is the most difficult Lifeblood Charm to obtain.
@@ -11489,15 +10849,13 @@ Charm Combo Tips
 ---
 
 ---
-
 # 文档：Lifeblood Heart
-
 - 类别：charms
 - 标识：lifeblood-heart
 - 来源：wiki/Lifeblood_Heart
 **位置**: Salubra's hut in the Forgotten Crossroads.
 
-<b>Lifeblood Heart</b> is a Charms in <i>Hollow Knight (game)</i>. It adds 2 Lifeblood Masks when resting at a Bench (Hollow Knight).
+Lifeblood Heart is a Charms in Hollow Knight (game). It adds 2 Lifeblood Masks when resting at a Bench (Hollow Knight).
 
 Usefulness
 As with Lifeblood Core, this Charm is useful if the Knight focuses on Spells, as it allows them to use more of their SOUL on casting rather than healing. The lower cost is useful for saving Notches, but 2 Lifeblood Masks are not very significant compared to Lifeblood Core's four Masks or even healing Charms like Quick Focus and Hiveblood.
@@ -11505,23 +10863,21 @@ As with Lifeblood Core, this Charm is useful if the Knight focuses on Spells, as
 How to Acquire
 Bought from Salubra in the Forgotten Crossroads for .
 Shop description:
-<i>Have you ever drunk that bright blue liquid, 'lifeblood'? It's a bit of a taboo, but it makes you feel much healthier doesn't it?
-This charm seeps lifeblood and will certainly improve your constitution!</i>
+Have you ever drunk that bright blue liquid, 'lifeblood'? It's a bit of a taboo, but it makes you feel much healthier doesn't it?
+This charm seeps lifeblood and will certainly improve your constitution!
 
 Charm Combo Tips
 
 ---
 
 ---
-
 # 文档：Longnail
-
 - 类别：charms
 - 标识：longnail
 - 来源：wiki/Longnail
 **位置**: Salubra's hut in the Forgotten Crossroads.
 
-<b>Longnail</b> is a Charms in <i>Hollow Knight (game)</i>. It increases the range of the Nail by 15%.
+Longnail is a Charms in Hollow Knight (game). It increases the range of the Nail by 15%.
 
 Usefulness
 It is useful for keeping distance from more dangerous Enemies (Hollow Knight) and for performing safer Nail#Nail-bouncing.
@@ -11533,8 +10889,8 @@ It does not affect the range of Nail Arts or Grubberfly's Elegy.
 How to Acquire
 Bought from Salubra in the Forgotten Crossroads for .
 Shop description:
-<i>That nail you wield is adorable! But do you sometimes feel it could be a little... longer?
-Ho! Ho ho ho! Go on, take this charm home with you. Suddenly, your enemies will be within reach...</i>
+That nail you wield is adorable! But do you sometimes feel it could be a little... longer?
+Ho! Ho ho ho! Go on, take this charm home with you. Suddenly, your enemies will be within reach...
 
 Charm Combo Tips
 
@@ -11548,14 +10904,12 @@ References
 ---
 
 ---
-
 # 文档：Nailmaster's Glory
-
 - 类别：charms
 - 标识：nailmasters-glory
 - 来源：wiki/Nailmaster's_Glory
 
-<b>Nailmaster's Glory</b> is a Charms in <i>Hollow Knight (game)</i>. It reduces the time needed to charge Nail Arts.
+Nailmaster's Glory is a Charms in Hollow Knight (game). It reduces the time needed to charge Nail Arts.
 
 Usefulness
 With the Pure Nail's power to kill most base Enemies (Hollow Knight) in one hit, combined with this Charm's charging speed, many areas can be cleared incredibly quickly, making challenge rooms and backtracking much easier. It especially shines in the Colosseum of Fools, where it makes it easier to take down some of the tougher enemies.
@@ -11576,15 +10930,13 @@ Notes
 ---
 
 ---
-
 # 文档：Quick Focus
-
 - 类别：charms
 - 标识：quick-focus
 - 来源：wiki/Quick_Focus
 **位置**: Salubra's hut in the Forgotten Crossroads.
 
-<b>Quick Focus</b> is a Charms in <i>Hollow Knight (game)</i>. It makes focusing SOUL ~33% faster.
+Quick Focus is a Charms in Hollow Knight (game). It makes focusing SOUL ~33% faster.
 
 Usefulness
 Allows the Knight to cast Focus ~33% faster, not including the startup time (0.25 seconds). Startup time is not affected by Quick Focus. Though the Charm is costly, it makes healing in the middle of combat much more forgiving. Extremely useful in situations with lots of combat such as Bosses (Hollow Knight) fights and arenas (notably the Colosseum of Fools).
@@ -11594,7 +10946,7 @@ Allows healing where it is possible to get interrupted while Focusing or healing
 How to Acquire
 Bought from Salubra in the Forgotten Crossroads for .
 Shop description:
-<i>The crystal set in the centre is lovely, isn't it? Exquisite, even! I've heard that crystals help you to "focus", so if that's something you're interested in you should take this beauty home!</i>
+The crystal set in the centre is lovely, isn't it? Exquisite, even! I've heard that crystals help you to "focus", so if that's something you're interested in you should take this beauty home!
 
 Charm Synergies
 
@@ -11605,15 +10957,13 @@ Notes
 ---
 
 ---
-
 # 文档：Shape of Unn
-
 - 类别：charms
 - 标识：shape-of-unn
 - 来源：wiki/Shape_of_Unn
 **位置**: Talk to the slug atop Lake of Unn in Greenpath after acquiring Isma's Tear.
 
-<b>Shape of Unn</b> is a Charms in <i>Hollow Knight (game)</i>. It allows for moving while using Focus.
+Shape of Unn is a Charms in Hollow Knight (game). It allows for moving while using Focus.
 
 Usefulness
 Movement is limited; it is not possible to jump or use any movement abilities during this time and there is still a startup and ending animation for the Focus.
@@ -11638,14 +10988,12 @@ width="25%"|
 ---
 
 ---
-
 # 文档：Soul Catcher
-
 - 类别：charms
 - 标识：soul-catcher
 - 来源：wiki/Soul_Catcher
 
-<b>Soul Catcher</b> is a Charms in <i>Hollow Knight (game)</i>. It increases the amount of SOUL gained when hitting Enemies (Hollow Knight) with the Nail.
+Soul Catcher is a Charms in Hollow Knight (game). It increases the amount of SOUL gained when hitting Enemies (Hollow Knight) with the Nail.
 
 Usefulness
 One of the earliest Charms available in the game. Its effect is not drastic but it remains useful for quite a long time for healing purposes, especially in areas where enemies have attacks that are difficult to avoid or SOUL is scarce.
@@ -11658,14 +11006,12 @@ Charm Combo Tips
 ---
 
 ---
-
 # 文档：Soul Eater
-
 - 类别：charms
 - 标识：soul-eater
 - 来源：wiki/Soul_Eater
 
-<b>Soul Eater</b> is a Charms in <i>Hollow Knight (game)</i>. It greatly increases the amount of SOUL gained when hitting Enemies (Hollow Knight) with the Nail.
+Soul Eater is a Charms in Hollow Knight (game). It greatly increases the amount of SOUL gained when hitting Enemies (Hollow Knight) with the Nail.
 
 Usefulness
 This Charm is very useful for accumulating a large amount of excess SOUL and should be considered for combat situations where it is dangerous or impossible to use the Dream Nail. It generates more SOUL per notch than Soul Catcher (the SOUL gain from Soul Eater is about triple that of Soul Catcher, at twice the notch cost), but is less flexible to slot without Charms#Overcharmed.
@@ -11682,14 +11028,12 @@ Charm Combo Tips
 ---
 
 ---
-
 # 文档：Spore Shroom
-
 - 类别：charms
 - 标识：spore-shroom
 - 来源：wiki/Spore_Shroom
 
-<b>Spore Shroom</b> is a Charms in <i>Hollow Knight (game)</i>. When using Focus, it releases a cloud of damaging spores around the Knight.
+Spore Shroom is a Charms in Hollow Knight (game). When using Focus, it releases a cloud of damaging spores around the Knight.
 
 Usefulness
 Spore Shroom is useful to damage slow or static enemies after healing for a decent amount of damage, ignoring shields. This makes the Charm very effective against Crystal Hunters, Stalking Devouts, Heavy Sentry, and other Enemies (Hollow Knight), as well as in the confined arena in the Colosseum of Fools.
@@ -11723,16 +11067,14 @@ Notes
 ---
 
 ---
-
 # 文档：Sprintmaster
-
 - 类别：charms
 - 标识：sprintmaster
 - 来源：wiki/Sprintmaster
 
 (For the NPC in Hollow Knight: Silksong, see Sprintmaster Swift)
 
-<b>Sprintmaster</b> is a Charms in <i>Hollow Knight (game)</i>. It increases run speed by ~20%.
+Sprintmaster is a Charms in Hollow Knight (game). It increases run speed by ~20%.
 
 Usefulness
 The additional speed is only applied while the Knight is grounded and not impeded by walk-zones or liquid such as acid or water.
@@ -11742,8 +11084,8 @@ The Sprintmaster Charm can be useful when fighting quick, agile bosses, such as 
 How to Acquire
 Bought from Sly in Dirtmouth after acquiring the Shopkeeper's Key for .
 Shop description:
-<i>You like it? It's a recent addition to my collection. Handsome thing, isn't it?
-Holding it lets you run around quickly and tirelessly, as though you were young again! Or, erm, so I'm told.</i>
+You like it? It's a recent addition to my collection. Handsome thing, isn't it?
+Holding it lets you run around quickly and tirelessly, as though you were young again! Or, erm, so I'm told.
 
 Charm Synergies
 
@@ -11752,15 +11094,13 @@ Notes
 ---
 
 ---
-
 # 文档：Stalwart Shell
-
 - 类别：charms
 - 标识：stalwart-shell
 - 来源：wiki/Stalwart_Shell
 **位置**: Sly's shop in Dirtmouth.
 
-<b>Stalwart Shell</b> is a Charms in <i>Hollow Knight (game)</i>. It increases invincibility frames and reduces hit recoil.
+Stalwart Shell is a Charms in Hollow Knight (game). It increases invincibility frames and reduces hit recoil.
 
 Usefulness
 This item primarily shines in some Bosses (Hollow Knight) battles, especially ones where it is difficult to avoid getting hit. The longer invulnerability time can provide a window to attack a boss with impunity, potentially overwhelming them with sheer damage.
@@ -11770,7 +11110,7 @@ It is also useful in the Trial of the Fool, which features many encounters with 
 How to Acquire
 Bought from Sly in Dirtmouth for .
 Shop description:
-<i>Life in Hallownest can be tough, always taking hits and getting knocked around. This charm grants you more time to recover after taking damage. Useful if you need to escape from a tight spot.</i>
+Life in Hallownest can be tough, always taking hits and getting knocked around. This charm grants you more time to recover after taking damage. Useful if you need to escape from a tight spot.
 
 Charm Combo Tips
 
@@ -11779,15 +11119,13 @@ Notes
 ---
 
 ---
-
 # 文档：Steady Body
-
 - 类别：charms
 - 标识：steady-body
 - 来源：wiki/Steady_Body
 **位置**: Salubra's hut in the Forgotten Crossroads.
 
-<b>Steady Body</b> is a Charms in <i>Hollow Knight (game)</i>. It removes horizontal knockback from Nail hits.
+Steady Body is a Charms in Hollow Knight (game). It removes horizontal knockback from Nail hits.
 
 Usefulness
 In addition to removing knockback from hitting Enemies (Hollow Knight), spikes, and walls, it also prevents the Knight from being knocked left or right when jumping on purple mushrooms without using the Nail. It does not remove the knockback from hitting purple mushrooms horizontally or any vertical knockback, such as from Nail#Nail-bouncing.
@@ -11795,22 +11133,20 @@ In addition to removing knockback from hitting Enemies (Hollow Knight), spikes, 
 How to Acquire
 Bought from Salubra for  in the Forgotten Crossroads.
 Shop description:
-<i>I love the simple design on this little fellow! Very classy! It's made out of a nice, solid, heavy material too.
-Wear it and you'll be able to stay firmly in place when swinging your little nail around. </i>
+I love the simple design on this little fellow! Very classy! It's made out of a nice, solid, heavy material too.
+Wear it and you'll be able to stay firmly in place when swinging your little nail around.
 
 Charm Combo Tips
 
 ---
 
 ---
-
 # 文档：Thorns of Agony
-
 - 类别：charms
 - 标识：thorns-of-agony
 - 来源：wiki/Thorns_of_Agony
 
-<b>Thorns of Agony</b> is a Charms in <i>Hollow Knight (game)</i>. It causes the Knight to sprout thorny vines when taking damage which damage nearby Enemies (Hollow Knight).
+Thorns of Agony is a Charms in Hollow Knight (game). It causes the Knight to sprout thorny vines when taking damage which damage nearby Enemies (Hollow Knight).
 
 Usefulness
 The Thorns of Agony deal damage equal to the base damage of the Nail, capable of hitting twice if within range. The main downside of this Charm is that it deals damage without collecting SOUL, and, in some situations, it may kill easier enemies that would have been useful for regaining SOUL.
@@ -11832,14 +11168,12 @@ When using the  Bindings in any  Pantheons, Thorns of Agony's damage is not affe
 ---
 
 ---
-
 # 文档：Unbreakable Greed
-
 - 类别：charms
 - 标识：unbreakable-greed
 - 来源：wiki/Unbreakable_Greed
 
-<b>Fragile Greed</b> is a Charms in <i>Hollow Knight (game)</i>. It increases the amount of Geo that is dropped by Enemies (Hollow Knight).
+Fragile Greed is a Charms in Hollow Knight (game). It increases the amount of Geo that is dropped by Enemies (Hollow Knight).
 
 Usefulness
 It is recommended to use this Charm in situations where death is unlikely, such as exploration, or in tandem with survivability-increasing Charms, while avoiding its use in boss battles.
@@ -11853,12 +11187,12 @@ Lastly, it should be noted that its drawback is negated in Steel Soul Mode runs 
 How to Acquire
 Purchased from Leg Eater in the Fungal Wastes for . Wearing the Defender's Crest Charm causes Leg Eater to lower the cost to .
 Shop description:
-<i>Very, very, special and valuable charm! Do you want to find more Geo? Hold this charm and go hunting!
-Then bring any Geo you find back to me!</i>
+Very, very, special and valuable charm! Do you want to find more Geo? Hold this charm and go hunting!
+Then bring any Geo you find back to me!
 
 When broken, Leg Eater can repair it for , or, while wearing Defender's Crest, for .
 Shop description when broken:
-<i>It's broken now, and its power is sleeping. Very sad! Give me Geo, and I'll fix it.</i>
+It's broken now, and its power is sleeping. Very sad! Give me Geo, and I'll fix it.
 
 Once the Grimm Troupe has been summoned, Divine becomes accessible in Dirtmouth. To get the unbreakable version of Fragile Greed, it must be equipped before listening to her, then it must be given to her when prompted. She eats the Charm, and then asks for . Once the Geo is paid, she gives the unbreakable version of Fragile Greed, Unbreakable Greed.
 
@@ -11873,20 +11207,18 @@ Notes
 ---
 
 ---
-
 # 文档：Unbreakable Heart
-
 - 类别：charms
 - 标识：unbreakable-heart
 - 来源：wiki/Unbreakable_Heart
 **位置**: Divine's tent in Dirtmouth, after the Grimm Troupe arrives.
 
-<b>Fragile Heart</b> is a Charms in <i>Hollow Knight (game)</i>. It increases the Knight health by two Masks.
+Fragile Heart is a Charms in Hollow Knight (game). It increases the Knight health by two Masks.
 
 Usefulness
-This Charm is quite potent, despite the fact that it breaks upon death. One way to make use of the Charm is to only use it in situations where dying is unlikely, such as exploration, or in tandem with survivability-increasing Charms, while avoiding its use in boss battles, except for Dream Boss battles and  Godhome battles (as the Charm does <b>not</b> break when dying to these bosses).
+This Charm is quite potent, despite the fact that it breaks upon death. One way to make use of the Charm is to only use it in situations where dying is unlikely, such as exploration, or in tandem with survivability-increasing Charms, while avoiding its use in boss battles, except for Dream Boss battles and  Godhome battles (as the Charm does not break when dying to these bosses).
 
-It is strictly superior in effect to the Lifeblood Heart Charm (except when using Grubberfly's Elegy)&nbsp;– for the same Notch cost, it provides two regular Masks which can be healed by Focusing.
+It is strictly superior in effect to the Lifeblood Heart Charm (except when using Grubberfly's Elegy) – for the same Notch cost, it provides two regular Masks which can be healed by Focusing.
 
 The obvious downside is that once broken, Leg Eater only repairs it for a price. Late-game, the Geo may not be much of an issue, but the trip may be. Dreamgate can be used to reach Leg Eater more easily.
 
@@ -11895,13 +11227,13 @@ Lastly, it should be noted that its drawback is negated in Steel Soul Mode runs 
 How to Acquire
 Purchased from Leg Eater in Fungal Wastes for . Wearing the Defender's Crest Charm causes Leg Eater to lower the cost to .
 Shop description:
-<i>This is a precious thing. A beautiful charm. I made it for you! If you hold it you'll feel a lot healthier.
-If you're afraid of dying, you need this charm!</i>
+This is a precious thing. A beautiful charm. I made it for you! If you hold it you'll feel a lot healthier.
+If you're afraid of dying, you need this charm!
 
 When broken, Leg Eater can repair it for , or for  while wearing the Defender's Crest.
 
 Shop description when broken:
-<i>It's broken now, and its power is sleeping. Very sad! Give me Geo, and I'll fix it.</i>
+It's broken now, and its power is sleeping. Very sad! Give me Geo, and I'll fix it.
 
 Once the Grimm Troupe has been summoned, Divine becomes accessible in Dirtmouth. To get the unbreakable version of Fragile Heart, it must be equipped before listening to her, then it must be given to her when prompted. She eats the Charm, then asks for . Once the Geo is paid, she gives the unbreakable version of Fragile Heart, Unbreakable Heart.
 
@@ -11913,14 +11245,12 @@ When using the  Bindings in any  Pantheons, the Masks granted by Fragile Heart a
 ---
 
 ---
-
 # 文档：Weaversong
-
 - 类别：charms
 - 标识：weaversong
 - 来源：wiki/Weaversong
 
-<b>Weaversong</b> is a Charms in <i>Hollow Knight (game)</i>. It summons 3 Weaverlings that attack Enemies (Hollow Knight), dealing 3 damage per hit.
+Weaversong is a Charms in Hollow Knight (game). It summons 3 Weaverlings that attack Enemies (Hollow Knight), dealing 3 damage per hit.
 
 Usefulness
 The Weaverlings attack automatically, making it a bit easier to deal damage to enemies that might be out of range.
@@ -11936,7 +11266,7 @@ Charm Synergies
 Trivia
 If the Knight sits on a bench, the summoned Weaverlings will sit down on the ground next to them.
 The animation for a Weaverling spawning shows it being woven out of thread.
-In the  <i>:Category: Lifeblood</i> update, Weaverling damage was increased from 2 to 3, and both the Grubsong and Sprintmaster interactions were added.
+In the  :Category: Lifeblood update, Weaverling damage was increased from 2 to 3, and both the Grubsong and Sprintmaster interactions were added.
 However, the number of Weaverlings summoned was decreased by 1, from 4 to 3.
 This charm is a creation of the Weavers.
 If the Knight has either the Grimmchild or Carefree Melody Charm equipped, the Weaverlings try to attack Millibelle at her bank in Fog Canyon. This deals no damage, but prevents the Knight from using her banking service, unless Grimmchild is in its first Phase.
@@ -11944,14 +11274,12 @@ If the Knight has either the Grimmchild or Carefree Melody Charm equipped, the W
 ---
 
 ---
-
 # 文档：Abyss Shriek
-
 - 类别：abilities
 - 标识：abyss-shriek
 - 来源：wiki/Abyss_Shriek
 
-<b>Abyss Shriek</b> is a Spells in <i>Hollow Knight (game)</i>. It is the upgrade to Howling Wraiths. Using it releases a blast of SOUL and Shadow above and around the Knight.
+Abyss Shriek is a Spells in Hollow Knight (game). It is the upgrade to Howling Wraiths. Using it releases a blast of SOUL and Shadow above and around the Knight.
 
 Function
 Press FOCUS/CAST or QUICK CAST while holding UP to release a wave of energy in an arc with increased range around and above the Knight, dealing 4 bursts in quick succession.
@@ -11980,21 +11308,19 @@ Stand on the pedestal in the room in the southwest part of the Abyss and use the
 Trivia
 
 Using the Dream Nail on the faces around the pedestal reveals a line of dialogue hinting at how to obtain the Abyss Shriek:
-<i>"...Our voices... will cry out... again..."</i>
+"...Our voices... will cry out... again..."
 
 ZH:深渊尖啸
 
 ---
 
 ---
-
 # 文档：Cyclone Slash
-
 - 类别：abilities
 - 标识：cyclone-slash
 - 来源：wiki/Cyclone_Slash
 
-<b>Cyclone Slash</b> is the Nail Art taught to the Knight by Nailmaster Mato. By holding ATTACK until fully charged, then releasing it while holding UP or DOWN, the Knight spins around like a cyclone while continuously attacking in their vicinity.
+Cyclone Slash is the Nail Art taught to the Knight by Nailmaster Mato. By holding ATTACK until fully charged, then releasing it while holding UP or DOWN, the Knight spins around like a cyclone while continuously attacking in their vicinity.
 
 The attack consists of two phases. The first phase lasts about 0.45 seconds, during which the Knight performs a total of 3 hits. During the second phase, ATTACK can be repeatedly pressed to lengthen Cyclone Slash’s duration by up to 1.2 extra seconds, adding three more hits for a total of six. Each hit deals 1.25x Nail damage, pushing foes back in the process. While mashing ATTACK, the Knight's horizontal movement speed is greatly reduced. Similarly, if used in the air, the Knight falls much slower. However, if used in the air without pressing ATTACK, the Knight's fall speed is uncapped for the duration of the Nail Art. While performing this attack, the Knight cannot perform any actions, aside from moving left and right, until the Nail Art is finished. Taking damage cancels the Nail Art immediately.
 
@@ -12050,14 +11376,12 @@ A six-hit Cyclone Slash with the Channelled, Coiled, or Pure Nail is the most da
 ---
 
 ---
-
 # 文档：Dash Slash
-
 - 类别：abilities
 - 标识：dash-slash
 - 来源：wiki/Dash_Slash
 
-<b>Dash Slash</b> is the Nail Art taught to the Knight by Nailmaster Oro. By holding ATTACK until fully charged, then releasing while dashing with Mothwing Cloak or the Shade Cloak, the Knight releases a long-ranged melee attack at the end of the dash, extending far in front of them as well as roughly two-thirds as far behind them.
+Dash Slash is the Nail Art taught to the Knight by Nailmaster Oro. By holding ATTACK until fully charged, then releasing while dashing with Mothwing Cloak or the Shade Cloak, the Knight releases a long-ranged melee attack at the end of the dash, extending far in front of them as well as roughly two-thirds as far behind them.
 
 While being hit by an enemy during the dash animation cancels the attack, it is possible to execute a Dash Slash when using the Shade Cloak to dash through an enemy, striking the enemy with the backward hitbox of the Nail Art. In conjunction with the Sharp Shadow, Dashmaster, and Nailmaster's Glory Charms (filling a total of 5 Notches), a Dash Slash executed through the enemy can deal a combined total of 4x (1.5x+2.5x) Nail damage in <2 seconds.
 
@@ -12091,14 +11415,12 @@ Nailmaster Oro resides in Kingdom's Edge. The Nail Art can be purchased for .
 ---
 
 ---
-
 # 文档：Descending Dark
-
 - 类别：abilities
 - 标识：descending-dark
 - 来源：wiki/Descending_Dark
 
-<b>Descending Dark</b> is a Spells in <i>Hollow Knight (game)</i>. It is the upgrade to Desolate Dive. Using it strikes the ground with concentrated SOUL and Shadow, breaking floors and damaging Enemies (Hollow Knight).
+Descending Dark is a Spells in Hollow Knight (game). It is the upgrade to Desolate Dive. Using it strikes the ground with concentrated SOUL and Shadow, breaking floors and damaging Enemies (Hollow Knight).
 
 Function
 Press FOCUS/CAST or QUICK CAST while holding DOWN to cause the Knight to slam into the ground, creating a shockwave that spreads further upwards than Desolate Dive, and bursts twice. The dive itself deals 15 damage, the left half of the first burst deals 35 damage, the right half deals 30, and the second burst deals 15 damage on either side, for a total of 60 or 65 damage.
@@ -12134,7 +11456,7 @@ It is found on a Snail Shamans corpse in Crystal Peak, within the Crystallised M
 Trivia
 
 Gained by absorbing the body of a snail shaman encased in crystal. Dream Nailing this snail gives the line:
-<i>"...Free...me..."</i>
+"...Free...me..."
 Descending Dark and Desolate Dive can be used while Dung Defender is underground to force him out and stagger him.
 
 ZH:黑暗降临
@@ -12142,14 +11464,12 @@ ZH:黑暗降临
 ---
 
 ---
-
 # 文档：Dreamgate
-
 - 类别：abilities
 - 标识：dreamgate
 - 来源：wiki/Dreamgate
 
-<b>Dreamgate</b> is an Spells and Abilities (Hollow Knight) in <i>Hollow Knight (game)</i>. It allows the Knight to place a warp point and then travel to it.
+Dreamgate is an Spells and Abilities (Hollow Knight) in Hollow Knight (game). It allows the Knight to place a warp point and then travel to it.
 
 Function
 
@@ -12167,7 +11487,7 @@ Additionally, the Dream Nail cannot be used to warp to a gate while inside the r
 
 How to Acquire
 The Dreamgate is acquired in the Resting Grounds by talking to Seer after having acquired 900 Essence.
-If a save file exists from before the <i>Hidden Dreams</i> update after Seer has already left, Dreamgate is automatically acquired upon loading the save.
+If a save file exists from before the Hidden Dreams update after Seer has already left, Dreamgate is automatically acquired upon loading the save.
 
 Trivia
 When warping out from a dream, the Knight wakes up at the point they entered the dream, instead of the Dreamgate. This does not consume any Essence.
@@ -12177,14 +11497,12 @@ Using the Dreamgate destroys the Delicate Flower.
 ---
 
 ---
-
 # 文档：Focus
-
 - 类别：abilities
 - 标识：focus
 - 来源：wiki/Focus
 
-<b>Focus</b> is a Spells in <i>Hollow Knight (game)</i>. It allows the Knight to heal using SOUL.
+Focus is a Spells in Hollow Knight (game). It allows the Knight to heal using SOUL.
 
 Function
 Hold down FOCUS/CAST to drain SOUL and regenerate health at a rate of 1 Mask per 33 SOUL. It takes 1.141 seconds to heal the first Mask including the initial startup time of 0.25 seconds.
@@ -12208,20 +11526,18 @@ The Knight starts the game with this ability. Additionally, there is a tutorial 
 
 Trivia
 A Lore Tablets (Hollow Knight)#King's Pass in King's Pass states the following:
-<i>"Higher beings, these words are for you alone.
-Your great strength marks you amongst us. Focus your soul and you shall achieve feats of which others can only dream."</i>
+"Higher beings, these words are for you alone.
+Your great strength marks you amongst us. Focus your soul and you shall achieve feats of which others can only dream."
 
 ---
 
 ---
-
 # 文档：Great Slash
-
 - 类别：abilities
 - 标识：great-slash
 - 来源：wiki/Great_Slash
 
-<b>Great Slash</b> is the Nail Art taught to the Knight by Nailmaster Sheo. By holding ATTACK until fully charged, then releasing ATTACK while neither Mothwing Cloak nor holding UP/DOWN, the Knight performs a powerful slash that inflicts 2.5x Nail damage. The slash reaches slightly farther than an attack enhanced by both the Longnail and Mark of Pride Charms, while also extending slightly below the Knight and reaching a full Knight's height above.
+Great Slash is the Nail Art taught to the Knight by Nailmaster Sheo. By holding ATTACK until fully charged, then releasing ATTACK while neither Mothwing Cloak nor holding UP/DOWN, the Knight performs a powerful slash that inflicts 2.5x Nail damage. The slash reaches slightly farther than an attack enhanced by both the Longnail and Mark of Pride Charms, while also extending slightly below the Knight and reaching a full Knight's height above.
 
 Because of its ability to inflict a large amount of damage in a short period of time, Great Slash can be capitalised upon when continuous attacks are hard to execute, such as against foes with small windows of vulnerability (e.g. Soul Twister). It can also be used in place of Spells against staggered bosses to deal a greater amount of damage than a regular slash. With its large range that extends above the Knight, Great Slash is especially effective against flying enemies.
 
@@ -12257,14 +11573,12 @@ Nailmaster Sheo resides in Greenpath, reaching him requires the Monarch Wings or
 ---
 
 ---
-
 # 文档：Mothwing Cloak
-
 - 类别：abilities
 - 标识：mothwing-cloak
 - 来源：wiki/Mothwing_Cloak
 
-The <b>Mothwing Cloak</b> is an Spells and Abilities (Hollow Knight) in <i>Hollow Knight (game)</i>. It allows dashing forward a short distance.
+The Mothwing Cloak is an Spells and Abilities (Hollow Knight) in Hollow Knight (game). It allows dashing forward a short distance.
 
 Function
 Press DASH to dash a short distance in the direction the Knight is facing. Can be used in mid-air. The cooldown between dashes is 0.6 seconds. Refreshes when the Knight lands on the ground, bounces off an Enemies (Hollow Knight)/object with their Nail, or clings to/jumps off a wall using the Mantis Claw.
@@ -12287,9 +11601,7 @@ References
 ---
 
 ---
-
 # 文档：Needolin
-
 - 类别：abilities
 - 标识：needolin
 - 来源：wiki/Needolin
@@ -12319,14 +11631,12 @@ Hornet can be seen playing the Needolin in the Reveal Trailer, next to the Chape
 ---
 
 ---
-
 # 文档：Shade Cloak
-
 - 类别：abilities
 - 标识：shade-cloak
 - 来源：wiki/Shade_Cloak
 
-The <b>Shade Cloak</b> is an Spells and Abilities (Hollow Knight) in <i>Hollow Knight (game)</i>. It allows for dashing through Enemies (Hollow Knight) and their attacks, as well as Shade Gates.
+The Shade Cloak is an Spells and Abilities (Hollow Knight) in Hollow Knight (game). It allows for dashing through Enemies (Hollow Knight) and their attacks, as well as Shade Gates.
 
 Function
 The Shade Cloak acts as an upgrade to the Mothwing Cloak.
@@ -12348,20 +11658,18 @@ Located in Abyss, to the very east, beyond the sea of Void. The Knight must firs
 Trivia
 The Knight may shadow dash downwards with the Dashmaster Charm equipped.
 Hitting the Ancient_Civilisation#Shade_Beast holding the bowl without having the Awoken Dream Nail makes a possible Seals#Possible_seals appear over its head.
-Hitting it with the Awoken Dream Nail gives the line <i>"...Void... Power... Without unity..."</i>
-After acquiring the Void Heart it gives <i>"...Lord of Shades..."</i>
+Hitting it with the Awoken Dream Nail gives the line "...Void... Power... Without unity..."
+After acquiring the Void Heart it gives "...Lord of Shades..."
 
 ---
 
 ---
-
 # 文档：Shade Soul
-
 - 类别：abilities
 - 标识：shade-soul
 - 来源：wiki/Shade_Soul
 
-<b>Shade Soul</b> is a Spells in <i>Hollow Knight (game)</i>. It is the upgrade to Vengeful Spirit. Using it conjures a shadow that flies forward and damages Enemies (Hollow Knight).
+Shade Soul is a Spells in Hollow Knight (game). It is the upgrade to Vengeful Spirit. Using it conjures a shadow that flies forward and damages Enemies (Hollow Knight).
 
 Function
 Press FOCUS/CAST or QUICK CAST without holding UP or DOWN to launch a projectile that passes through enemies and deals damage. The projectile now moves 12.5% faster and penetrates all objects in its path including walls and invulnerable parts of enemies, such as shields and shells, but does not damage a fully protected enemy.
@@ -12417,9 +11725,7 @@ ZH:暗影之魂
 ---
 
 ---
-
 # 文档：Silkspear
-
 - 类别：abilities
 - 标识：silkspear
 - 来源：wiki/Silkspear
@@ -12432,14 +11738,12 @@ A powerful forward stab that deals significant damage, and it is also a key abil
 ---
 
 ---
-
 # 文档：World Sense
-
 - 类别：abilities
 - 标识：world-sense
 - 来源：wiki/World_Sense
 
-<i>Vessel. Though bound, you shall know the state of the world.</i>
+Vessel. Though bound, you shall know the state of the world.
 
 Function
 Displays current Completion (Hollow Knight) percentage in the inventory and on the save file in the main menu. Also shows the number of enemies encountered and required in the Hunter's Journal.
@@ -12448,20 +11752,18 @@ How to Acquire
 Found in the Temple of the Black Egg once it has been opened by killing all three Dreamers. The ability itself is granted by inspecting the Lore Tablets (Hollow Knight)#Forgotten Crossroads beside the Bench (Hollow Knight).
 
 Trivia
-The World Sense icon appears on the <i>Completion</i> Achievements (Hollow Knight).
-The name of this ability is not mentioned in the game itself but only in the game files; <i>"world_sense_prompt"</i> is the name of the sprite seen when acquiring the ability.
+The World Sense icon appears on the Completion Achievements (Hollow Knight).
+The name of this ability is not mentioned in the game itself but only in the game files; "world_sense_prompt" is the name of the sprite seen when acquiring the ability.
 
 ---
 
 ---
-
 # 文档：Brumm
-
 - 类别：characters
 - 标识：brumm
 - 来源：wiki/Brumm
 
-<b>Brumm</b> is an NPCs (Hollow Knight) in <i>Hollow Knight (game)</i>. He is involved in the Grimm Troupe (Quest) of The Grimm Troupe (Lore).
+Brumm is an NPCs (Hollow Knight) in Hollow Knight (game). He is involved in the Grimm Troupe (Quest) of The Grimm Troupe (Lore).
 
 Lore
 Brumm is a member of the Grimm Troupe. Although he initially encourages the Knight to search for flames for the Grimmchild, he begins having second thoughts about the Ritual later on.
@@ -12485,19 +11787,17 @@ Achievements
 Trivia
 Brumm's accordion music in Dirtmouth can also be heard while standing outside the tent.
 The accordion that Brumm plays has limbs, implying that it is a dead or live bug.
-Brumm's name within the game's files is "IGOR" a possible reference to wikipedia:Igor (character) in the Universal Pictures adaptations of the novel <i>wikipedia:Frankenstein</i>.
+Brumm's name within the game's files is "IGOR" a possible reference to wikipedia:Igor (character) in the Universal Pictures adaptations of the novel wikipedia:Frankenstein.
 
 ---
 
 ---
-
 # 文档：Cloth
-
 - 类别：characters
 - 标识：cloth
 - 来源：wiki/Cloth
 
-<b>Cloth</b> is a NPCs (Hollow Knight)#Wanderers in <i>Hollow Knight (game)</i>. She is on a quest of her own throughout Hallownest to prove her bravery.
+Cloth is a NPCs (Hollow Knight)#Wanderers in Hollow Knight (game). She is on a quest of her own throughout Hallownest to prove her bravery.
 
 Lore
 Cloth is a large cicada warrior. She set out to Hallownest in order to prove her courage by defeating mighty creatures. However, her cowardly nature often takes over her bravado and leads to hiding underground to escape her foes or to simply sleep, snoring loudly while doing so. She is motivated by the prospect of dying in an epic battle and joining her departed Nola.
@@ -12511,7 +11811,7 @@ In the Ancient Basin, Cloth found herself unable to fend off the creatures infes
 From this point on, Cloth can be encountered at the entrance of the Queen's Gardens near the Fog Canyon. She returned to this area to face Mantis Tribe#The Mantis Traitors occupying the gardens. She hopes to finally be able to face down her fears this time or die doing so. She later appears to help the Knight during an ambush of Mantis Traitors near the White Lady refuge, and they fight together against the Traitor Lord. However, the Traitor Lord mortally wounds her at the end of the fight, she then chooses to deal the final blow herself before dying.
 
 Once the Knight leaves the area and returns, Spirits#Cloth can be found above her corpse. She is thrilled by her fight, having achieved what she came to Hallownest for, and states she will depart soon to join Nola. In her mind, she still hopes to be reunited with Nola in death.
-<i>"Fun Fact: Cloth was originally called Burlap until we realised burlap, the material, doesn't exist in Hallownest so he underwent a name change. We’re still working with Noah to finalise Cloth so look forward to his exciting (possibly tragic) tale when you play the final game."</i>
+"Fun Fact: Cloth was originally called Burlap until we realised burlap, the material, doesn't exist in Hallownest so he underwent a name change. We’re still working with Noah to finalise Cloth so look forward to his exciting (possibly tragic) tale when you play the final game."
 Although pitched as male during the Kickstarter campaign, the official manual denotes Cloth as female.
 There is always rumbling before Cloth pops out of the ground in any area; this is accompanied by the same sound effects as when the Knight walks on a breakable floor.
 Her club can be seen resting on the grave of the Traitors' Child in the background of the Traitor Lord fight in Godhome, if she is killed in battle.
@@ -12521,14 +11821,12 @@ Although Nola is mentioned several times by Cloth, Nola cannot be seen in the ga
 ---
 
 ---
-
 # 文档：Distant Villagers
-
 - 类别：characters
 - 标识：distant-villagers
 - 来源：wiki/Distant_Villagers
 
-The <b>Distant Villagers</b> are NPCs (Hollow Knight) in <i>Hollow Knight (game)</i>. They attempt to get the Knight to sit on the first Bench (Hollow Knight) in Beast's Den.
+The Distant Villagers are NPCs (Hollow Knight) in Hollow Knight (game). They attempt to get the Knight to sit on the first Bench (Hollow Knight) in Beast's Den.
 
 In-game events
 The Distant Villagers are found in the entrance room to the Beast's Den in the Distant Village of Deepnest.
@@ -12540,20 +11838,18 @@ After the Knight has been transported into Beast's Den or when Herrah has been d
 Trivia
 They cannot be Dream Nailed.
 In the other cocoon of Distant Village there is a wrapped-up mound of husks that, when Dream Nailed, gives a warning and foreshadow the Distant Villagers:
-<i>"...They lied..."</i>
-<i>"...Not friends..."</i>
+"...They lied..."
+"...Not friends..."
 
 ---
 
 ---
-
 # 文档：Divine
-
 - 类别：characters
 - 标识：divine
 - 来源：wiki/Divine
 
-<b>Divine</b> is an NPCs (Hollow Knight) in <i>Hollow Knight (game)</i>. Her primary role is allowing the Knight to upgrade Fragile Charms to their  Unbreakable counterparts.
+Divine is an NPCs (Hollow Knight) in Hollow Knight (game). Her primary role is allowing the Knight to upgrade Fragile Charms to their  Unbreakable counterparts.
 
 Lore
 Divine is a member of The Grimm Troupe (Lore). She is looking for the source of the smell deep below her, Leg Eater. She eats the Fragile Charms that he created when the Knight gives them to her, only giving them back as Unbreakable Charms after being given a large amount of Geo.
@@ -12587,14 +11883,12 @@ References
 ---
 
 ---
-
 # 文档：Elderbug
-
 - 类别：characters
 - 标识：elderbug
 - 来源：wiki/Elderbug
 
-<b>Elderbug</b> is an NPCs (Hollow Knight) in <i>Hollow Knight (game)</i>. He is the oldest resident of Dirtmouth and a friendly face for new travellers seeking the Hallownest.
+Elderbug is an NPCs (Hollow Knight) in Hollow Knight (game). He is the oldest resident of Dirtmouth and a friendly face for new travellers seeking the Hallownest.
 
 Lore
 While Elderbug is the oldest bug in Dirtmouth, he was not around before the fall of Hallownest, the Stag Station of Dirtmouth being closed even before his time.
@@ -12620,19 +11914,17 @@ Elderbug is located in Dirtmouth, next to the Bench.
 Trivia
 Although he is a valid recipient of the Delicate Flower, giving him the Flower does not have any effect and only counts as it being destroyed. Another Flower can still be acquired from the Grey Mourner to be delivered to the grave in the Queen's Gardens, or from the grave itself if the Grey Mourner's Delicate Flower (Quest) has already been completed.
 If Elderbug is ignored when first entering Dirtmouth, he calls after the Knight in surprise and, if listened to later, comments on this.
-Elderbug was used as an example of a Cut Content (Hollow Knight) of the Dream Nail known as "Dream Diving". With this ability it was possible to enter the "Dream Well" of characters, which contained their hopes, fears and secrets. was released showing the Knight use the Dream Nail on Elderbug, which popped the top of his head off and opened a portal that the Knight could enter. Inside Elderbug's Dream Well was a young version of him that could be listened to. This ability was later cut from the game, but Elderbug's separate head sprite could still be found in the game's files prior to the  <i>:Category: Lifeblood</i> update.
+Elderbug was used as an example of a Cut Content (Hollow Knight) of the Dream Nail known as "Dream Diving". With this ability it was possible to enter the "Dream Well" of characters, which contained their hopes, fears and secrets. was released showing the Knight use the Dream Nail on Elderbug, which popped the top of his head off and opened a portal that the Knight could enter. Inside Elderbug's Dream Well was a young version of him that could be listened to. This ability was later cut from the game, but Elderbug's separate head sprite could still be found in the game's files prior to the  :Category: Lifeblood update.
 
 ---
 
 ---
-
 # 文档：Emilitia
-
 - 类别：characters
 - 标识：emilitia
 - 来源：wiki/Emilitia
 
-<b>Eternal Emilitia</b> is an NPCs (Hollow Knight) in <i>Hollow Knight (game)</i>. Her room provides access to a shortcut between the City of Tears and the east side of the Royal Waterways.
+Eternal Emilitia is an NPCs (Hollow Knight) in Hollow Knight (game). Her room provides access to a shortcut between the City of Tears and the east side of the Royal Waterways.
 
 Lore
 Emilitia used to be renowned amongst the upper caste of Hallownest but was at some point cast out by her fellows. While the rest of Hallownest's higher class has died, their bodies walking around mindlessly in the City of Tears, Emilitia managed to survive. This fact brings her great happiness, causing her to laugh to herself constantly in her room.
@@ -12649,14 +11941,12 @@ References
 ---
 
 ---
-
 # 文档：Fluke Hermit
-
 - 类别：characters
 - 标识：fluke-hermit
 - 来源：wiki/Fluke_Hermit
 
-<b>Fluke Hermit</b> is an NPCs (Hollow Knight) in <i>Hollow Knight (game)</i>. She provides lore on the Flukes.
+Fluke Hermit is an NPCs (Hollow Knight) in Hollow Knight (game). She provides lore on the Flukes.
 
 Lore
 Fluke Hermit is an uninfected Fluke. She gathers some of the junk that collects in and around the Junk Pit, regarding it as treasure. She notes that her mother's "glow" appears angry, hinting at Flukemarm being Infection. After Flukemarm's death, she wonders if she is now the new mother.
@@ -12675,14 +11965,12 @@ References
 ---
 
 ---
-
 # 文档：Godseeker
-
 - 类别：characters
 - 标识：godseeker
 - 来源：wiki/Godseeker
 
-The <b>Godseeker</b> is a NPCs (Hollow Knight)#Quest NPCs in <i>Hollow Knight (game)</i> who travelled to Hallownest seeking "gods", powerful beings revered for their strength and power. In her mind, she exists in a different shape and carries her tribe of Godseekers, with whom she shares a collective mind. They inhabit a Dream Realm of their own making: Godhome. She starts the quest of <i>Godmaster</i>.
+The Godseeker is a NPCs (Hollow Knight)#Quest NPCs in Hollow Knight (game) who travelled to Hallownest seeking "gods", powerful beings revered for their strength and power. In her mind, she exists in a different shape and carries her tribe of Godseekers, with whom she shares a collective mind. They inhabit a Dream Realm of their own making: Godhome. She starts the quest of Godmaster.
 
 Lore
 
@@ -12723,14 +12011,12 @@ When found in the Tuner Memory, the Godseeker is stuck in the cave wall for unkn
 ---
 
 ---
-
 # 文档：Grey Mourner
-
 - 类别：characters
 - 标识：grey-mourner
 - 来源：wiki/Grey_Mourner
 
-<b>Grey Mourner</b> is a NPCs (Hollow Knight)#Quest NPCs in <i>Hollow Knight (game)</i>. She is involved in the Delicate Flower (Quest), where she asks the Knight to deliver a Delicate Flower to her lover's grave in the Queen's Gardens.
+Grey Mourner is a NPCs (Hollow Knight)#Quest NPCs in Hollow Knight (game). She is involved in the Delicate Flower (Quest), where she asks the Knight to deliver a Delicate Flower to her lover's grave in the Queen's Gardens.
 
 Lore
 
@@ -12751,21 +12037,19 @@ Grey Mourner is found residing in a house in a hidden area in the east of the Re
 Achievements
 
 Trivia
-The full name of the Hollow Knight Kickstarter who created Grey Mourner is <b>Xun Zhao</b>.
+The full name of the Hollow Knight Kickstarter who created Grey Mourner is Xun Zhao.
 Grey Mourner has one line of Cut Content (Hollow Knight) which would have been triggered by obtaining the King's Brand. However, this line is not used in the game nor in Grey Mourner's dialogue programming:
-<i>Le'mer, takes that heavy mantle...Che' wouldn't wish it upon one. Having served that brand at its great height, che' knows well what suffering it brings. Enough to turn nym'King to flee or fair Knights to mourning.</i>
+Le'mer, takes that heavy mantle...Che' wouldn't wish it upon one. Having served that brand at its great height, che' knows well what suffering it brings. Enough to turn nym'King to flee or fair Knights to mourning.
 
 ---
 
 ---
-
 # 文档：Grimmsteed
-
 - 类别：characters
 - 标识：grimmsteed
 - 来源：wiki/Grimmsteed
 
-The <b>Grimmsteeds</b> are two NPCs (Hollow Knight) in <i>Hollow Knight (game)</i>. They appear together with The Grimm Troupe (Lore) in Dirtmouth.
+The Grimmsteeds are two NPCs (Hollow Knight) in Hollow Knight (game). They appear together with The Grimm Troupe (Lore) in Dirtmouth.
 
 Lore
 The Grimmsteeds are two faithful bugs who are part of the Grimm Troupe. They are possibly the ones who pull the Troupe's caravan. these bugs are probably based on a giraffe weevil.
@@ -12775,14 +12059,12 @@ References
 ---
 
 ---
-
 # 文档：Herrah
-
 - 类别：characters
 - 标识：herrah
 - 来源：wiki/Herrah
 
-<b>Herrah the Beast</b> is an NPCs (Hollow Knight) in <i>Hollow Knight (game)</i>. She is one of the Dreamers and is involved in the Knight quest to destroy the Infection.
+Herrah the Beast is an NPCs (Hollow Knight) in Hollow Knight (game). She is one of the Dreamers and is involved in the Knight quest to destroy the Infection.
 
 Lore
 Herrah was the Weavers queen of the Spider Tribe of Deepnest and is the mother of Hornet. Her partner was part of the honoured caste, while Herrah herself is only a common beast. At a certain point, her partner died, leaving Herrah without an heir.  When the Infection first appeared, the Pale King asked Herrah to become a Dreamer to seal the entrance to the Black Egg in the Temple of the Black Egg. She only agreed if the Pale King would have a child with her, which ended up being Hornet. After Hornet was born, Herrah and Hornet were permitted little time together as Herrah went into an eternal sleep. She and the other Dreamers attempt to lock the Knight in the Dream Realm after the Resting Grounds encounter.
@@ -12803,14 +12085,12 @@ When trying to attack Herrah's physical body in Beast's Den, a Seals appears ove
 ---
 
 ---
-
 # 文档：Iselda
-
 - 类别：characters
 - 标识：iselda
 - 来源：wiki/Iselda
 
-<b>Iselda</b> is a NPCs (Hollow Knight)#Merchants in <i>Hollow Knight (game)</i>. She sells maps and mapping tools at her shop in Dirtmouth.
+Iselda is a NPCs (Hollow Knight)#Merchants in Hollow Knight (game). She sells maps and mapping tools at her shop in Dirtmouth.
 
 Lore
 Iselda used to be a fighter; however, when she followed her husband Cornifer, his thirst for exploration leading them to Hallownest, she put down her weapon to enjoy a quieter life in Dirtmouth. Despite her tall stature, the two took residence in a small house next to the town's Stag Station from which she operates their shop.
@@ -12872,9 +12152,7 @@ Highly recommended! If you're having trouble finding your way in the maze of rui
 
 You'll need this if you want to update your map with new areas as you explore.
 
-style="width: 96px;"| Item
 Description
-style="min-width: 5rem;"| Cost
 Requires
 
 Use these pins to mark shopkeepers or any other interesting bugs you find on your travels.
@@ -12887,23 +12165,15 @@ Unlocking the first Stag Station
 
 These pins will mark benches and other rest spots on your map. Useful if you're exhausted and just need to find somewhere to sit!
 
-Encountering Cornifer
-
 Have you seen those beautiful blue cocoons? I made these pins so you can keep track of them.
 
-Encountering Cornifer
-
 I designed these pins to keep track of the kingdom's hot springs.
-
-Encountering Cornifer
 
 Cornifer has been telling me about these strange whispering roots he's been seeing.
 
 Obtaining the Dream Nail
 
 Cornifer told me he's found some interesting looking graves and shrines in the depths.
-
-Obtaining the Dream Nail
 
 Those trams sound like awfully advanced machines. Those ancient bugs must've been a clever lot.
 
@@ -12912,17 +12182,7 @@ colspan="4" |
 
 These markers are new additions to the shop. You can use them to mark interesting spots on your map!
 
-Encountering Cornifer
-
 These markers are new additions to the shop. You can use them to record interesting spots on your map!
-
-Encountering Cornifer
-
-These markers are new additions to the shop. You can use them to mark interesting spots on your map!
-
-Acquiring the Mothwing Cloak
-
-These markers are new additions to the shop. You can use them to mark interesting spots on your map!
 
 Acquiring the Mothwing Cloak
 
@@ -12937,14 +12197,12 @@ Even without buying the Cocoon Pin from Iselda, a glitched Cocoon Pin is already
 ---
 
 ---
-
 # 文档：Jiji
-
 - 类别：characters
 - 标识：jiji
 - 来源：wiki/Jiji
 
-<b>Confessor Jiji</b> is a NPCs (Hollow Knight)#Merchants in <i>Hollow Knight (game)</i>. She is a hidden resident of Dirtmouth who can summon unrecovered Shades.
+Confessor Jiji is a NPCs (Hollow Knight)#Merchants in Hollow Knight (game). She is a hidden resident of Dirtmouth who can summon unrecovered Shades.
 
 Lore
 Residents of Dirtmouth have long pondered on a mysterious stone door at the base of the Crystal Peak beyond their graveyard. Suggestions were once made to forcibly open the door, but awful groaning from within kept the townsfolk at bay.
@@ -12970,14 +12228,12 @@ Having Jiji summon the Shade, killing it, and instantly leaving the room results
 ---
 
 ---
-
 # 文档：Jinn
-
 - 类别：characters
 - 标识：jinn
 - 来源：wiki/Jinn
 
-<b>Steel Soul Jinn</b> is a NPCs (Hollow Knight)#Merchants in <i>Hollow Knight (game)</i>. She only appears in Steel Soul Mode, replacing Confessor Jiji.
+Steel Soul Jinn is a NPCs (Hollow Knight)#Merchants in Hollow Knight (game). She only appears in Steel Soul Mode, replacing Confessor Jiji.
 
 Lore
 Jinn resides in the locked cavern by the base of Crystal Peak in Dirtmouth, where she has been sleeping. She has unseen masters who do not seek order. Jinn speaks in rhythm and claims to be too young to tell anything about herself beside her purpose of providing and trading. Her metallic body cannot take damage, although she still reacts to strikes at her.
@@ -12992,7 +12248,7 @@ Trivia
 
 The friend she mentions who likes Rancid Eggs is most likely Confessor Jiji, who is willing to offer her services for them.
 Jinn is one of the few NPCs who can be "hit" with the Nail without taking damage.
-An unused Enemies (Silksong) revealed in the <i>Hollow Knight: Silksong</i> trailer bears a striking similarity to Jinn. It was supposed to be also a companion to Steel Assassin Sharpe.
+An unused Enemies (Silksong) revealed in the Hollow Knight: Silksong trailer bears a striking similarity to Jinn. It was supposed to be also a companion to Steel Assassin Sharpe.
 Jinn is mistakenly referred to as male in some translations of the game.
 
 References
@@ -13000,14 +12256,12 @@ References
 ---
 
 ---
-
 # 文档：Joni
-
 - 类别：characters
 - 标识：joni
 - 来源：wiki/Joni
 
-<b>Blue Child Joni</b> is a Spirits in <i>Hollow Knight (game)</i>. The Joni's Blessing Charms can be found on her corpse.
+Blue Child Joni is a Spirits in Hollow Knight (game). The Joni's Blessing Charms can be found on her corpse.
 
 Lore
 Joni was known as "the kindly heretic". She gave a blessing which is able to transfigure vital fluids into blue lifeblood.
@@ -13021,21 +12275,19 @@ Trivia
 
 Joni is named after Joni Kunelius, the Hollow Knight Kickstarter who designed her.
 Joni was first revealed in a Hollow Knight Kickstarter detailing various Backer Bugs:
-<i>Joni is a blue ground beetle and one of the teams' favourite bugs! Joni might be dead, but she's still quite happy. She wishes the player a safe journey through Hallownest.</i>
+Joni is a blue ground beetle and one of the teams' favourite bugs! Joni might be dead, but she's still quite happy. She wishes the player a safe journey through Hallownest.
 
 References
 
 ---
 
 ---
-
 # 文档：Leg Eater
-
 - 类别：characters
 - 标识：leg-eater
 - 来源：wiki/Leg_Eater
 
-<b>Leg Eater</b> is a hermit NPCs (Hollow Knight)#Merchants in <i>Hollow Knight (game)</i>. He sells and repairs Charms for Geo.
+Leg Eater is a hermit NPCs (Hollow Knight)#Merchants in Hollow Knight (game). He sells and repairs Charms for Geo.
 
 Lore
 Leg Eater is blind but has a powerful sense of smell. He is fixated on earning Geo, believing that if he has enough of it, it will make him become a king. Despite his own greed, he is prone to accusing others of the same sin, even wrongfully.
@@ -13053,30 +12305,25 @@ style="width: 96px;"| Item
 Description
 style="min-width: 9rem;"| Geo cost
 
-<i>This is a precious thing. A beautiful charm. I made it for you! If you hold it you'll feel a lot healthier.
+This is a precious thing. A beautiful charm. I made it for you! If you hold it you'll feel a lot healthier.
 
 /
 
-<i>Very, very, special and valuable charm! Do you want to find more Geo? Hold this charm and go hunting!
+Very, very, special and valuable charm! Do you want to find more Geo? Hold this charm and go hunting!
 
 /
 
-
-<i>You're weak, aren't you? You should give me Geo. If you do, I'll give you this charm I made.
+You're weak, aren't you? You should give me Geo. If you do, I'll give you this charm I made.
 
 /
 
-style="width: 96px;"| Item
 Description
-style="min-width: 9rem;"| Geo cost
 
-<i>It's broken now, and its power is sleeping. Very sad! Give me Geo, and I'll fix it.</i>
+It's broken now, and its power is sleeping. Very sad! Give me Geo, and I'll fix it.
 /
 
-<i>It's broken now, and its power is sleeping. Very sad! Give me Geo, and I'll fix it.</i>
 /
 
-<i>It's broken now, and its power is sleeping. Very sad! Give me Geo, and I'll fix it.</i>
 /
 
 Location
@@ -13089,14 +12336,12 @@ It is possible that Leg Eater and Divine are the same species as the upper half 
 ---
 
 ---
-
 # 文档：Lemm
-
 - 类别：characters
 - 标识：lemm
 - 来源：wiki/Lemm
 
-<b>Relic Seeker Lemm</b> is a NPCs (Hollow Knight)#Merchants in <i>Hollow Knight (game)</i>. He collects Relics and buys them for fair amounts of Geo.
+Relic Seeker Lemm is a NPCs (Hollow Knight)#Merchants in Hollow Knight (game). He collects Relics and buys them for fair amounts of Geo.
 
 Lore
 Lemm moved into his shop in the City of Tears at some point after the place was already empty and everyone in the tower was dead. He explores his current location and covets antiques, gleaning any information on the land's history.
@@ -13116,29 +12361,29 @@ style="min-wdith: 5rem;" | Selling Price
 amount
 total worth
 
-<i>These journals give us an interesting glimpse into the minds and hearts of those who lived before us.</i>
-<i>They're a common find, so I can't offer you too much for them.</i>
+These journals give us an interesting glimpse into the minds and hearts of those who lived before us.
+They're a common find, so I can't offer you too much for them.
 ---
 
 14
 2800
 
-<i>These ornate seals were the official symbols of the King and his Knights, and were treasured by those who carried them.</i>
-<i>The King and his Knights are long gone, but the seals still hold value as curiosities. I'll pay a modest price for them.</i>
+These ornate seals were the official symbols of the King and his Knights, and were treasured by those who carried them.
+The King and his Knights are long gone, but the seals still hold value as curiosities. I'll pay a modest price for them.
 ---
 
 17
 7650
 
-<i>An icon of Hallownest's King, who was revered as both a god and a ruler. Made out of a mysterious white material, these are rare and very valuable.</i>
-<i>If you'll sell it to me, I'll pay a good price.</i>
+An icon of Hallownest's King, who was revered as both a god and a ruler. Made out of a mysterious white material, these are rare and very valuable.
+If you'll sell it to me, I'll pay a good price.
 ---
 
 8
 6400
 
-<i>Ah! This seems like a simple egg, but it's actually a precious relic from before the birth of Hallownest!</i>
-<i>I'll pay you a small fortune for it. Please sell it to me!</i>
+Ah! This seems like a simple egg, but it's actually a precious relic from before the birth of Hallownest!
+I'll pay you a small fortune for it. Please sell it to me!
 ---
 
 4
@@ -13151,7 +12396,7 @@ Trivia
 
 While Lemm mentions other Relic Seekers, no other such NPC is ever found in Hallownest.
 While wearing the Defender's Crest Charms Lemm refuses to purchase any Relics.
-According to screenshots from the Hollow Knight Press Kit, Lemm was originally going to be called <b>Relic Seeker Marm</b>.
+According to screenshots from the Hollow Knight Press Kit, Lemm was originally going to be called Relic Seeker Marm.
 The Nailsmith's voicelines were originally recorded for Lemm. Matthew 'Leth' Griffin, the voice actor for both of them, had to re-record the lines for Lemm because Team Cherry told him that Lemm is supposed to be annoyed with the Knight. Lemm's old lines were subsequently reused for the Nailsmith.
 Lemm is the author behind the description for the  Void Idol.
 The combined sell price of all Relics in the entire game is .
@@ -13160,14 +12405,12 @@ If you destroy any Dreamers before entering fountain square, the cutscene with H
 ---
 
 ---
-
 # 文档：Little Fool
-
 - 类别：characters
 - 标识：little-fool
 - 来源：wiki/Little_Fool
 
-<b>Little Fool</b> is a NPCs (Hollow Knight)#Merchants in <i>Hollow Knight (game)</i>. He collects the participation fees from contestants to the Colosseum of Fools.
+Little Fool is a NPCs (Hollow Knight)#Merchants in Hollow Knight (game). He collects the participation fees from contestants to the Colosseum of Fools.
 
 Lore
 Little Fool is a dedicated supporter of the Fools battling for glory in the Colosseum's Trials. He himself dreams of proving his strength in battle to Lord Fool.
@@ -13186,14 +12429,12 @@ References
 ---
 
 ---
-
 # 文档：Lurien
-
 - 类别：characters
 - 标识：lurien
 - 来源：wiki/Lurien
 
-<b>Lurien the Watcher</b> is an NPCs (Hollow Knight) in <i>Hollow Knight (game)</i>. He is one of the Dreamers and is involved in the Knight quest to destroy the Infection.
+Lurien the Watcher is an NPCs (Hollow Knight) in Hollow Knight (game). He is one of the Dreamers and is involved in the Knight quest to destroy the Infection.
 
 Lore
 Lurien used to watch over the City of Tears from the Watcher's Spire. The Watcher Knights were his guards, and he had various servants such as his Cowardly Husk. At the top of his Spire, Lurien had a large telescope that looks down over the City of Tears, contributing to his title of "The Watcher".
@@ -13219,14 +12460,12 @@ Internally, Lurien has a suggestion of a relationship with another character in 
 ---
 
 ---
-
 # 文档：Marissa
-
 - 类别：characters
 - 标识：marissa
 - 来源：wiki/Marissa
 
-<b>Marissa</b> is a Spirits in <i>Hollow Knight (game)</i>. She was a songstress in the Pleasure House in the City of Tears.
+Marissa is a Spirits in Hollow Knight (game). She was a songstress in the Pleasure House in the City of Tears.
 
 Lore
 Marissa was a songstress of some renown in Hallownest capital. She performed in the Pleasure House for enrapt crowds, with a voice that was described as being able to ease burdens and still troubled minds. When the Infection spread across Hallownest, Marissa's audiences eventually stopped coming to her performances.
@@ -13245,20 +12484,18 @@ Marissa is located in the Pleasure House in the City of Tears. A Simple Key is r
 Trivia
 
 Marissa was first revealed in a Hollow Knight Kickstarter, where she was described as:
-<i>Marissa the Butterfly is the ghost of a famous entertainer and musician in the Hallownest capital. The concept and dialogue for the character were submitted by Marissa Brice. Thanks Marissa!</i>
+Marissa the Butterfly is the ghost of a famous entertainer and musician in the Hallownest capital. The concept and dialogue for the character were submitted by Marissa Brice. Thanks Marissa!
 Marissa's singing is used in the beginning of the soundtrack version of the City of Tears music as well as in the music playing outside in the City of Tears.
 
 ---
 
 ---
-
 # 文档：Mask Maker
-
 - 类别：characters
 - 标识：mask-maker
 - 来源：wiki/Mask_Maker
 
-<b>Mask Maker</b> is an NPCs (Hollow Knight) in <i>Hollow Knight (game)</i>. They provide lore on masks and on Hallownest history.
+Mask Maker is an NPCs (Hollow Knight) in Hollow Knight (game). They provide lore on masks and on Hallownest history.
 
 Lore
 Mask Maker provides "faces" for the faceless of the Kingdom. They compare a mask to a face and believe that a face is needed to define, to focus, and to exist.
@@ -13278,14 +12515,12 @@ Mask Maker is found in the northwest part of Deepnest.
 ---
 
 ---
-
 # 文档：Mato
-
 - 类别：characters
 - 标识：mato
 - 来源：wiki/Mato
 
-<b>Nailmaster Mato</b> is one of three Nailmasters in <i>Hollow Knight (game)</i>. He teaches the Cyclone Slash to whoever is willing to become his disciple. Mato also appears as a Bosses (Hollow Knight) in the  Brothers Oro & Mato dual fight.
+Nailmaster Mato is one of three Nailmasters in Hollow Knight (game). He teaches the Cyclone Slash to whoever is willing to become his disciple. Mato also appears as a Bosses (Hollow Knight) in the  Brothers Oro & Mato dual fight.
 
 Lore
 Mato learnt the Nail Arts from the Sly along with his brothers Oro and Sheo. He was not the most skilled disciple of the three, his favourite move being the Cyclone Slash. Yet, he had a passion for teaching and hoped to perpetuate the Nailsage's knowledge to the next generation of Nailmasters. His devotion to the Nail Arts made him very close to his brother Sheo, the most talented.
@@ -13309,14 +12544,12 @@ After learning the Cyclone Slash Nail Art, the Knight can return to Mato's house
 ---
 
 ---
-
 # 文档：Midwife
-
 - 类别：characters
 - 标识：midwife
 - 来源：wiki/Midwife
 
-<b>Midwife</b> is an NPCs (Hollow Knight) in <i>Hollow Knight (game)</i>. She gives lore on Herrah and Deepnest.
+Midwife is an NPCs (Hollow Knight) in Hollow Knight (game). She gives lore on Herrah and Deepnest.
 
 Lore
 Midwife is a servant to Spider Tribe, although few need her services as a midwife since Deepnest's brood has fallen to the Infection. While she is willing to provide information on Herrah and the Weavers, her appetite often gets the better of her, making her try to eat others.
@@ -13341,14 +12574,12 @@ References
 ---
 
 ---
-
 # 文档：Millibelle
-
 - 类别：characters
 - 标识：millibelle
 - 来源：wiki/Millibelle
 
-<b>Millibelle the Banker</b> is a NPCs (Hollow Knight)#Merchants in <i>Hollow Knight (game)</i>. She provides banking services for a single fee.
+Millibelle the Banker is a NPCs (Hollow Knight)#Merchants in Hollow Knight (game). She provides banking services for a single fee.
 
 Lore
 Despite the lack of activity in Hallownest, Millibelle opened a bank in a recluse and safe area in Fog Canyon, next to the abandoned Queen's Station. Instead of a vault, she uses her shell to store Geo - a detail she tries to brush off.
@@ -13360,7 +12591,7 @@ Millibelle can be found in her bank at the base of Fog Canyon. For a small start
 
 If she holds  or more and the Knight rests at a Bench (Hollow Knight) or uses the Stagways, visiting the bank again reveals that Millibelle has abandoned her stand. Hitting the empty stand three times reveals that it was a 2D cutout. The bank sign also falls to the ground on the way out.
 
-After she disappears from Fog Canyon, <b>Millibelle the Thief</b> can be found at the Hot Spring in the Pleasure House in the City of Tears. Here she can be hit with the Nail and bounced around harmlessly, causing Geo to fall out of her. The amount of Geo that can be reclaimed is roughly the amount of Geo deposited times 1.5 for a total of up to . Geo stops falling out of her if there are at least 81 different pieces of Geo that have not been picked up.
+After she disappears from Fog Canyon, Millibelle the Thief can be found at the Hot Spring in the Pleasure House in the City of Tears. Here she can be hit with the Nail and bounced around harmlessly, causing Geo to fall out of her. The amount of Geo that can be reclaimed is roughly the amount of Geo deposited times 1.5 for a total of up to . Geo stops falling out of her if there are at least 81 different pieces of Geo that have not been picked up.
 
 Location
 Millibelle's bank is found just west of Queen's Station in Fog Canyon but she runs away to the Pleasure House if she is visited in Fog Canyon after depositing  or more and resting on a Bench or using the Stagways.
@@ -13368,7 +12599,7 @@ Millibelle's bank is found just west of Queen's Station in Fog Canyon but she ru
 Trivia
 Fragile Greed/ Unbreakable Greed has no effect on the amount of Geo the Knight gets back from her shell.
 The  the Knight deposits when opening the bank account is not returned.
-At the Hot Spring in the Pleasure House, she is called <b>Millibelle the Thief</b>.
+At the Hot Spring in the Pleasure House, she is called Millibelle the Thief.
 She can be bounced out of the screen through the room's exit but does not change rooms. Exiting and re-entering puts her back as usual. This decreases how much Geo she can drop.
 When  Grimmchild is not in its first Phase, it treats Millibelle in her bank as an Enemies (Hollow Knight) and attempts to attack her, making her cower and not interact.
 She also cowers if the Knight has the  Carefree Melody Charm equipped.
@@ -13383,14 +12614,12 @@ References
 ---
 
 ---
-
 # 文档：Monomon
-
 - 类别：characters
 - 标识：monomon
 - 来源：wiki/Monomon
 
-<b>Monomon the Teacher</b> is an NPCs (Hollow Knight) in <i>Hollow Knight (game)</i>. She is one of the Dreamers and is involved in the Knight quest to destroy the Infection.
+Monomon the Teacher is an NPCs (Hollow Knight) in Hollow Knight (game). She is one of the Dreamers and is involved in the Knight quest to destroy the Infection.
 
 Lore
 Monomon used to be a chief researcher and teacher of Hallownest. Her Teacher's Archives in Fog Canyon contain strange, jumbled Lore Tablets (Hollow Knight)#City of Tears that contain certain phrases such as:
@@ -13414,20 +12643,18 @@ Trivia
 
 A Cut Content (Hollow Knight) of the Elegy for Hallownest which has additional lines can still be found in the game files. Monomon herself also has numerous unused lines of dialogue.
 When trying to attack Monomon's physical body in the Teacher's Archives, a Seals appears over her body.
-In Team Cherry previous game, <i>Hungry Knight</i>, there are three masks found on the bosses that look similar to Monomon's.
+In Team Cherry previous game, Hungry Knight, there are three masks found on the bosses that look similar to Monomon's.
 In the original concepts for the Dreamers, all three Dreamers looked identical; sharing Monomon's mask and having the body shape of Lurien. The identical masks can still be seen on the archways outside the Temple of the Black Egg, and on one of the Hollow Knight promotional posters. The identical bodies can still be found on the Hollow Knight fountain in the City of Tears.
 
 ---
 
 ---
-
 # 文档：Moss Prophet
-
 - 类别：characters
 - 标识：moss-prophet
 - 来源：wiki/Moss_Prophet
 
-<b>Moss Prophet</b> is an NPCs (Hollow Knight) in <i>Hollow Knight (game)</i>. They provide lore on the Infection and the Radiance.
+Moss Prophet is an NPCs (Hollow Knight) in Hollow Knight (game). They provide lore on the Infection and the Radiance.
 
 Lore
 While most Mosskin Tribe follow Unn, Moss Prophet preaches about the Radiance's light. They believe that Hallownest will be reborn once it is united in her blazing image. Moss Prophet warns that suppressing the Radiance's light causes the Infection.
@@ -13448,14 +12675,12 @@ References
 ---
 
 ---
-
 # 文档：Nymm
-
 - 类别：characters
 - 标识：nymm
 - 来源：wiki/Nymm
 
-<b>Nymm</b> is an NPCs (Hollow Knight) in <i>Hollow Knight (game)</i>. He gives the Carefree Melody Charms to the Knight.
+Nymm is an NPCs (Hollow Knight) in Hollow Knight (game). He gives the Carefree Melody Charms to the Knight.
 
 Lore
 Nymm is a bug who arrives in Dirtmouth after The Grimm Troupe (Lore) is banished. He plays an accordion-like bug to bring cheer to the fading town, although he admits that even his song is a little on the sadder side. Nymm is content to be in Dirtmouth beside the company of the Knight.
@@ -13476,14 +12701,12 @@ The music Nymm plays, Accordion Nymm, has the same melody as the Dirtmouth theme
 ---
 
 ---
-
 # 文档：Oro
-
 - 类别：characters
 - 标识：oro
 - 来源：wiki/Oro
 
-<b>Nailmaster Oro</b> is one of three Nailmasters in <i>Hollow Knight (game)</i>. He teaches the Dash Slash Nail Art to those willing to pay him for his services. Oro also appears as a boss as part of the  Brothers Oro & Mato dual fight.
+Nailmaster Oro is one of three Nailmasters in Hollow Knight (game). He teaches the Dash Slash Nail Art to those willing to pay him for his services. Oro also appears as a boss as part of the  Brothers Oro & Mato dual fight.
 
 Lore
 Oro learnt the Nail Arts from the Sly along with his brothers Mato and Sheo. Of the three disciples, he was not the most skilled, with his signature move being the Dash Slash. While Oro is respectful of the Nailsage's teachings, he was reluctant to obey them to the letter.
@@ -13505,20 +12728,18 @@ Nailmaster Oro is found in Kingdom's Edge.
 Trivia
 
 Oro is the only Nailmaster who must be paid in order to learn his Nail Art.
-To the east of Oro's house is the impaled corpse of a Great Hopper dressed in a Nailmaster outfit, used as a training dummy. Hitting it with the Dream Nail reveals the dialogue: <i>"Stronger... Brothers..."</i>. When it is attacked enough times (25 attacks), two live Great Hoppers fall from the ceiling and attack the Knight.
+To the east of Oro's house is the impaled corpse of a Great Hopper dressed in a Nailmaster outfit, used as a training dummy. Hitting it with the Dream Nail reveals the dialogue: "Stronger... Brothers...". When it is attacked enough times (25 attacks), two live Great Hoppers fall from the ceiling and attack the Knight.
 Leaving the room resets the dummy, allowing it to be attacked again to summon two more Great Hoppers. This can make getting its Hunter's Journal entry easier.
 
 ---
 
 ---
-
 # 文档：Salubra
-
 - 类别：characters
 - 标识：salubra
 - 来源：wiki/Salubra
 
-<b>Salubra</b> is a slug NPCs (Hollow Knight)#Merchants in <i>Hollow Knight (game)</i>. She collects and sells Charms as well as Charm Notches.
+Salubra is a slug NPCs (Hollow Knight)#Merchants in Hollow Knight (game). She collects and sells Charms as well as Charm Notches.
 
 Lore
 Salubra's shop is located above the abandoned village at the bottom of the Forgotten Crossroads, near the Blue Lake. She is knowledgeable in the craft and use of Charms and eagerly shares them with others for Geo. She seems to be under the delusion that the village outside her house is still lively and is unaware of the Kingdom's demise. She is also very fond of the looks of the Knight.
@@ -13533,33 +12754,25 @@ scope="col" | Description
 scope="col" style="width: 5rem;"| Cost
 scope="col" style="min-width: 10rem;"| Requires
 
-<i>Have you ever drunk that bright blue liquid, 'lifeblood'? It's a bit of a taboo, but it makes you feel much healthier doesn't it?
+Have you ever drunk that bright blue liquid, 'lifeblood'? It's a bit of a taboo, but it makes you feel much healthier doesn't it?
 
-<i>That nail you wield is adorable! But do you sometimes feel it could be a little... longer?
+That nail you wield is adorable! But do you sometimes feel it could be a little... longer?
 
-<i>I love the simple design on this little fellow! Very classy! It's made out of a nice, solid, heavy material too.
+I love the simple design on this little fellow! Very classy! It's made out of a nice, solid, heavy material too.
 
-<i>Are you a spellcaster, you little scoundrel? Ho ho! I'm only teasing.
+Are you a spellcaster, you little scoundrel? Ho ho! I'm only teasing.
 
-<i>The crystal set in the centre is lovely, isn't it? Exquisite, even! I've heard that crystals help you to "focus", so if that's something you're interested in you should take this beauty home!</i>
+The crystal set in the centre is lovely, isn't it? Exquisite, even! I've heard that crystals help you to "focus", so if that's something you're interested in you should take this beauty home!
 
-<b>Before having enough Charms:</b>
+Before having enough Charms:
 
 Own 5 Charms
 
-<b>Before having enough Charms:</b>
-
 Own 10 Charms
-
-<b>Before having enough Charms:</b>
 
 Own 18 Charms
 
-<b>Before having enough Charms:</b>
-
 Own 25 Charms
-
-<b>Before having enough Charms:</b>
 
 Own 40 Charms
 
@@ -13582,14 +12795,12 @@ References
 ---
 
 ---
-
 # 文档：Sheo
-
 - 类别：characters
 - 标识：sheo
 - 来源：wiki/Sheo
 
-<b>Nailmaster Sheo</b> is one of three Nailmasters in <i>Hollow Knight (game)</i>. Although retired, he teaches the Great Slash Nail Art to those seeking him. Sheo also appears as a boss as  Paintmaster Sheo.
+Nailmaster Sheo is one of three Nailmasters in Hollow Knight (game). Although retired, he teaches the Great Slash Nail Art to those seeking him. Sheo also appears as a boss as  Paintmaster Sheo.
 
 Lore
 Sheo learnt the Nail Arts from the Sly, along with his brothers Oro and Mato. Despite his aloof and kind demeanour, he was the most skilled disciple, driven solely by his desire for strength and the mastering of his skills. Yet, this passion faded over time, as he desired to explore new forms of arts that could move him. He still had a good relationship with both of his quarrelling brothers and had respect for his master.
@@ -13602,7 +12813,7 @@ Sheo can be found in his hut in Greenpath. When the Knight comes by, the retired
 
 After his lesson, Sheo invites the Knight to stay and paint with him whenever they visit. He recognizes when the Knight has learnt a new Nail Art from his brothers, and hopes that it brought happiness to them both. He also takes notices of the Nailsage's acknowledgement of the Knight as Nailmaster. This moves him, but not enough to make him stray from his current path of artist.
 
-If the Nailsmith was spared after forging the Nail#Pure Nail, he eventually finds his way to Sheo's hut. Seeing the Nailsmith distraught about his own life, they talk and discover their common love of creation and honing a skill. From this point, Sheo starts teaching the Nailsmith whichever art he experimented in so far. They eventually move on to crafting models of the Five Great Knights of Hallownest. Sheo remembers them well, while mentioning Hegemol was his favourite. The Achievements (Hollow Knight) name, <i>Happy Couple</i>, implies Sheo and the Nailsmith are in a romantic relationship.
+If the Nailsmith was spared after forging the Nail#Pure Nail, he eventually finds his way to Sheo's hut. Seeing the Nailsmith distraught about his own life, they talk and discover their common love of creation and honing a skill. From this point, Sheo starts teaching the Nailsmith whichever art he experimented in so far. They eventually move on to crafting models of the Five Great Knights of Hallownest. Sheo remembers them well, while mentioning Hegemol was his favourite. The Achievements (Hollow Knight) name, Happy Couple, implies Sheo and the Nailsmith are in a romantic relationship.
 
 Sheo's mind is summoned to Godhome by The Godseeker ritual. However he appears there not as the Nailmaster he was, but as the Paintmaster he became. As such, he battles the Knight with his brush and paints, expressing formidable strength in doing so, and bows to them once defeated. While in Godhome, Sheo also takes inspiration from his host's motivation and quest for his own pursuit of arts. Paintmaster Sheo is mainly fought at the peak of the Pantheon of the Artist and later within the Pantheon of Hallownest.
 
@@ -13614,14 +12825,12 @@ Achievements
 ---
 
 ---
-
 # 文档：Sly
-
 - 类别：characters
 - 标识：sly
 - 来源：wiki/Sly
 
-<b>Sly</b> is a NPCs (Hollow Knight)#Merchants in <i>Hollow Knight (game)</i>. He sells many wares at his shop in Dirtmouth for Geo but drives a hard bargain. Sly also appears as a boss as the  Great Nailsage Sly.
+Sly is a NPCs (Hollow Knight)#Merchants in Hollow Knight (game). He sells many wares at his shop in Dirtmouth for Geo but drives a hard bargain. Sly also appears as a boss as the  Great Nailsage Sly.
 
 Lore
 Sly used to be the Great Nailsage. During his previous occupation, he trained some disciples in the Nail Arts: Oro, Mato, and Sheo.
@@ -13644,87 +12853,79 @@ Description
 style="min-width: 5rem;" | Cost
 style="min-width: 12rem;" | Requires
 
-<i>Simply, a simple key. It will fit a variety of locks, which is useful if you like to poke around in places you don't belong.</i>
+Simply, a simple key. It will fit a variety of locks, which is useful if you like to poke around in places you don't belong.
 
 No conditions.
 
-<i>I found this under the counter. Some creature must have laid it here while I was stuck down in the ruins.
+I found this under the counter. Some creature must have laid it here while I was stuck down in the ruins.
 
 No conditions.
 
-<i>What's more important? A light to guide your way, or a friend who'll stay by your side?
+What's more important? A light to guide your way, or a friend who'll stay by your side?
 
 No conditions.
 
-<i>Do you find yourself leaving a lot of Geo behind as you hurry through the caverns?
+Do you find yourself leaving a lot of Geo behind as you hurry through the caverns?
 
 No conditions.
 
-<i>Life in Hallownest can be tough, always taking hits and getting knocked around. This charm grants you more time to recover after taking damage. Useful if you need to escape from a tight spot.</i>
+Life in Hallownest can be tough, always taking hits and getting knocked around. This charm grants you more time to recover after taking damage. Useful if you need to escape from a tight spot.
 
 No conditions.
 
-<i>You enjoy smacking about foes with that nail of yours, right? With this charm equipped, you'll be able to send them flying further with every hit!</i>
+You enjoy smacking about foes with that nail of yours, right? With this charm equipped, you'll be able to send them flying further with every hit!
 
 Requires Shopkeeper's Key
 
-<i>An explorer found this fancy key floating in the waterways of the city far below us. I've not cleaned it.</i>
+An explorer found this fancy key floating in the waterways of the city far below us. I've not cleaned it.
 
-Requires Shopkeeper's Key
-
-<i>This old thing? Merely a fragment of something larger. Still, maybe you can make some use of it.</i>
+This old thing? Merely a fragment of something larger. Still, maybe you can make some use of it.
 
 No conditions.
 
-<i>I found another of these. If you look closely, there's some nice engraving work on them.
+I found another of these. If you look closely, there's some nice engraving work on them.
 
 Requires purchasing previous Mask Shard
 
-<i>You're collecting these, aren't you? Well you're in luck, I found another in my storeroom.
+You're collecting these, aren't you? Well you're in luck, I found another in my storeroom.
 
 Requires Shopkeeper's Key and purchasing previous Mask Shard
 
-<i>As it turns out, I do actually have one more of these shards left. Very last one!
+As it turns out, I do actually have one more of these shards left. Very last one!
 
-Requires Shopkeeper's Key and purchasing previous Mask Shard
-
-<i>A piece of a Soul Vessel. You know, those ghastly looking orb things?
+A piece of a Soul Vessel. You know, those ghastly looking orb things?
 
 No conditions.
 
-<i>I dug out another of these. Turns out I had a complete set. If they didn't give me the creeps, I'd put the pieces together myself.</i>
+I dug out another of these. Turns out I had a complete set. If they didn't give me the creeps, I'd put the pieces together myself.
 
 Requires Shopkeeper's Key and purchasing previous Vessel Fragment
 
-<i>You like it? It's a recent addition to my collection. Handsome thing, isn't it?
-
-Requires Shopkeeper's Key
+You like it? It's a recent addition to my collection. Handsome thing, isn't it?
 
 Location
 Sly first appears in an abandoned house in the southeast region of the Forgotten Crossroads. After listening to him, he can next be found in Dirtmouth.
 
 Trivia
 Sly being more than he seems is repeatedly foreshadowed. For instance, his very first line, "Oro, you oaf... you wield your nail... like a club..." refers to Nailmaster Oro, and he comments on the Knight’s Nail several times.
-According to a livestream Q&A, the development team originally planned for Sly to be a difficult boss who wielded a nail approximately the size of the other Nailmasters'. This idea was later reused for the  <i>Godmaster</i> content pack.
+According to a livestream Q&A, the development team originally planned for Sly to be a difficult boss who wielded a nail approximately the size of the other Nailmasters'. This idea was later reused for the  Godmaster content pack.
 Sly mentions a character named "Esmy" in one of his lines of dialogue. This character is never seen in the game nor mentioned again. In a Reddit AMA it is stated that Esmy is someone that still lingers in Sly's dreams.
 
 As the  Great Nailsage, Sly's cape is a pinkish colour as opposed to blue.
 Sly mentions owning a full set of Vessel Fragments, although he only sells two out of three; this is possibly attributed to Soul Vessels being comprised of only two Vessel Fragments at one point before being changed by release.
 The Ferocious Foes trailer also shows Sly selling half of a Soul Vessel.
 Although removed from the game, two Cut Content (Hollow Knight) can be seen on a shelf in Sly's shop.
-Sly had a different voice actor in the <i>Hollow Knight Beta</i>.
+Sly had a different voice actor in the Hollow Knight Beta.
 
 ---
 
 ---
-
 # 文档：Spirits
-
 - 类别：characters
 - 标识：spirits
 - 来源：wiki/Spirits
 
-<b>Spirits</b> are the remains of a deceased bug given visible form. They are only visible in-game after acquiring the Dream Nail. All Spirits, except for the Traitors' Child, can be consumed by hitting them with the Dream Nail to acquire 1 Essence; however, this does not count towards completion and the Essence is not necessary to fully awaken the Dream Nail.
+Spirits are the remains of a deceased bug given visible form. They are only visible in-game after acquiring the Dream Nail. All Spirits, except for the Traitors' Child, can be consumed by hitting them with the Dream Nail to acquire 1 Essence; however, this does not count towards completion and the Essence is not necessary to fully awaken the Dream Nail.
 
 These Spirits are dream-made entities who take the shape of a bug who has passed away. As such, most of them seem to be under the assumption that they are living as the bug in question. They are all encountered floating above or near the real bug's deceased body, thus many of them can be encountered in graveyards, such as the Resting Grounds. Almost all of them do not move from their spot, and offer dialogue when interacted with.
 
@@ -13802,26 +13003,24 @@ by Noah Sturtridge
 
 Trivia
 Spirits were a reward tier in Team Cherry Hollow Knight Kickstarter for AU$ 150:
-<i>"Ancient Wanderer: Appear in-game as a bug spirit in the Glade of Hope! Help create the appearance and dialogue for your spirit counterpart: Tell of a previous life, aid the Hollow Knight on his quest, or taunt him as he passes by."</i>
+"Ancient Wanderer: Appear in-game as a bug spirit in the Glade of Hope! Help create the appearance and dialogue for your spirit counterpart: Tell of a previous life, aid the Hollow Knight on his quest, or taunt him as he passes by."
 If the Defender's Crest Charms is worn while in Poggy Thorax's secret room, a large number of hungry flies swarm around the Knight.
 If Cloth's side quest has been followed, she shows up in the Queen's Gardens to help in the fight against Traitor Lord. The fight ends with Cloth and the Lord's demise, and Cloth's spirit can be seen and spoken to upon leaving and re-entering the room where the fight took place.
 Dr Chagax's name might be a reference to the Brazilian Bacteriologist Wikipedia:Carlos_Chagas, who discovered the self-titled Wikipedia:Chagas_disease. This disease is spread by the Wikipedia:Triatominae, also known as the Kissing Bug, which the spirit itself resembles.
 Caelif & Fera Orthop might be named after the Wikipedia:Caelifera suborder and the Wikipedia:Orthoptera order of insects, which includes grasshoppers.
-Waldie's design and dialogue may be a reference to the <i>wikipedia:Berserk (manga)</i> series. Their one open eye, single arm, and large sword are very similar to the main character's design, and 'you wouldn't have the guts to face me' mentions the main character's English name, Guts. Also, his claim to have a "dark soul" is probably a reference to the video game series Dark Souls, which is heavily inspired by Berserk.
+Waldie's design and dialogue may be a reference to the wikipedia:Berserk (manga) series. Their one open eye, single arm, and large sword are very similar to the main character's design, and 'you wouldn't have the guts to face me' mentions the main character's English name, Guts. Also, his claim to have a "dark soul" is probably a reference to the video game series Dark Souls, which is heavily inspired by Berserk.
 
 References
 
 ---
 
 ---
-
 # 文档：Thistlewind
-
 - 类别：characters
 - 标识：thistlewind
 - 来源：wiki/Thistlewind
 
-<b>Thistlewind</b> is a Moth Tribe Spirits in <i>Hollow Knight (game)</i>. They give information on the Moth Tribe and on Markoth.
+Thistlewind is a Moth Tribe Spirits in Hollow Knight (game). They give information on the Moth Tribe and on Markoth.
 
 Lore
 Thistlewind was an explorer who travelled across Hallownest. Despite the moths being a passive species, they were one of the few moths who wielded a weapon. Eventually, Thistlewind died and was buried in Spirits' Glade.
@@ -13839,14 +13038,12 @@ References
 ---
 
 ---
-
 # 文档：Traitors' Child
-
 - 类别：characters
 - 标识：traitors-child
 - 来源：wiki/Traitors'_Child
 
-The <b>Traitors' Child</b> is a Spirits in <i>Hollow Knight (game)</i>. She is involved in a Delicate Flower (Quest) to deliver a Delicate Flower to her grave.
+The Traitors' Child is a Spirits in Hollow Knight (game). She is involved in a Delicate Flower (Quest) to deliver a Delicate Flower to her grave.
 
 Lore
 The Traitors' Child was a mantis who was the daughter of the Traitor Lord. She and Ze'mer, a member of the Five Great Knights, were lovers. However, the other mantises did not approve of their union due to Ze'mer being an outsider.
@@ -13866,14 +13063,12 @@ The Traitors' Child's grave is located above the Stag Station in the Queen's Gar
 ---
 
 ---
-
 # 文档：Tuk
-
 - 类别：characters
 - 标识：tuk
 - 来源：wiki/Tuk
 
-<b>Tuk</b> is a NPCs (Hollow Knight)#Merchants in <i>Hollow Knight (game)</i>. She sells Rancid Eggs for Geo.
+Tuk is a NPCs (Hollow Knight)#Merchants in Hollow Knight (game). She sells Rancid Eggs for Geo.
 
 Lore
 Tuk is a scavenger who keeps to herself. She vehemently searches the Royal Waterways for someone, hoping they will offer their apologies to her. She sustains herself with Rancid Eggs, and believes the water down there will always provide her what she is looking for. Despite her introverted nature, she remembers those who help her, such as the Dung Defender.
@@ -13892,14 +13087,12 @@ In the official comic, Quirrel comes across a scavenger bug named Boon, similar 
 ---
 
 ---
-
 # 文档：Unnamed Moth
-
 - 类别：characters
 - 标识：unnamed-moth
 - 来源：wiki/Unnamed_Moth
 
-<b>Unnamed Moth</b> is an NPCs (Hollow Knight) in <i>Hollow Knight (game)</i>. They appear in the Dream Realm.
+Unnamed Moth is an NPCs (Hollow Knight) in Hollow Knight (game). They appear in the Dream Realm.
 
 Lore
 Unnamed Moth is a moths who only appears in the Dream Realm. They stand outside of the Shrine of Believers, commenting on the messages inside the Shrine.
@@ -13910,14 +13103,12 @@ Unnamed Moth can be reached by using the Dream Nail on a moth statue in Spirits'
 They note about the contents of the Shrine; which are quotes from Hollow Knight Kickstarter displayed on tablets. Once all the tablets are destroyed Unnamed Moth has different dialogue.
 
 Trivia
-Unnamed Moth makes many fourth-wall breaking references to the content of the tablets being of the real world backers who helped fund the creation of <i>Hollow Knight</i>.
+Unnamed Moth makes many fourth-wall breaking references to the content of the tablets being of the real world backers who helped fund the creation of Hollow Knight.
 
 ---
 
 ---
-
 # 文档：Unnamed NPCs
-
 - 类别：characters
 - 标识：unnamed-npcs-hollow-knight
 - 来源：wiki/Unnamed_NPCs_(Hollow_Knight)
@@ -13928,7 +13119,7 @@ Hot Spring bugs
 
 After the Mantis Claw has been acquired, two bugs, similar to the ones in the grandstand of the Colosseum of Fools, appear bathing in the Hot Spring in the Forgotten Crossroads and exchanging gossip. Upon approaching them, they fall silent. If they are splashed with water they react by grumbling and withdrawing further into the water. Using the Dream Nail on them reveals some information about the Colosseum of Fools:
 
-<i>"Another weak one. I'd suggest it try its nail within the Colosseum, though it'd no doubt be squashed in an instant."</i>
+"Another weak one. I'd suggest it try its nail within the Colosseum, though it'd no doubt be squashed in an instant."
 
 ]]
 
@@ -13942,11 +13133,11 @@ After the Knight has been transported into Beast's Den or when Herrah has been d
 
 Listening to them gives the following dialogue, from left to right:
 
-<i>"Greetings. You are very tired. Sit and rest."</i>
-<i>"We are friends. Welcome. Sit and rest."</i>
-<i>"Please sit and rest."</i>
-<i>"It is warm and safe. Sit and rest."</i>
-<i>"Welcome. You need rest. Sit and rest."</i>
+"Greetings. You are very tired. Sit and rest."
+"We are friends. Welcome. Sit and rest."
+"Please sit and rest."
+"It is warm and safe. Sit and rest."
+"Welcome. You need rest. Sit and rest."
 
 ]]
 
@@ -13958,8 +13149,8 @@ They arrive together with the Troupe, when the Nightmare Lantern is lit. They di
 
 They do not speak, but using the Dream Nail on them gives the following dialogue lines:
 
-<i>"A new land. Different from the last. How many more will we see?"</i>
-<i>"The roads between are dark and long, but the Master's light will always guide us."</i>
+"A new land. Different from the last. How many more will we see?"
+"The roads between are dark and long, but the Master's light will always guide us."
 
 ]]
 
@@ -13969,7 +13160,7 @@ After defeating False Knight in the Forgotten Crossroads, the head of his mace i
 
 Using the Dream Nail on it also gives the following dialogue:
 
-<i>"Free at last!"</i>
+"Free at last!"
 
 ]]
 
@@ -13978,14 +13169,12 @@ References
 ---
 
 ---
-
 # 文档：Vespa
-
 - 类别：characters, lore
 - 标识：vespa
 - 来源：wiki/Vespa
 
-<b>Hive Queen Vespa</b> is a Spirits in <i>Hollow Knight (game)</i>. She gives information on the history of the Hive.
+Hive Queen Vespa is a Spirits in Hollow Knight (game). She gives information on the history of the Hive.
 
 Lore
 Vespa was the queen of the Hive, a The Bees that is walled off from the lands of the Pale King. The Hive rejected Hallownest attempt at perpetuation, arguing that it is pointless to go against nature. Vespa eventually grew so large that she could no longer leave the Hive.
@@ -14007,14 +13196,12 @@ References
 ---
 
 ---
-
 # 文档：Willoh
-
 - 类别：characters
 - 标识：willoh
 - 来源：wiki/Willoh
 
-<b>Willoh</b> is an NPCs (Hollow Knight) in <i>Hollow Knight (game)</i>. She eats fungus in a broken-down Stag Station in Queen's Station.
+Willoh is an NPCs (Hollow Knight) in Hollow Knight (game). She eats fungus in a broken-down Stag Station in Queen's Station.
 
 Lore
 Willoh is a giraffe weevil who found a unique fungus growing in Queen's Station. Since she is wary of the dangers of the Fungal Wastes and Fog Canyon, she wants to stay in Queen's Station for as long as her food lasts.
@@ -14027,7 +13214,7 @@ In-game events
 Willoh can be found in Queen's Station in the room above the functioning Stag Station.
 
 It is possible to reach the area where Willoh is eating fungus by using the Monarch Wings. A corpse on the platform reveals, when struck with the Dream Nail, the following dialogue:
-<i>"...Please ...Not food..."</i>
+"...Please ...Not food..."
 
 This platform also contains a Hallownest Seal.
 
@@ -14041,14 +13228,12 @@ Willoh's appearance resembles that of the  Grimmsteeds, implying they could be t
 ---
 
 ---
-
 # 文档：Abyss
-
 - 类别：areas
 - 标识：abyss
 - 来源：wiki/Abyss
 
-<b>The Abyss</b> is the lowest area in Hallownest, located below Ancient Basin. It is the place of origin of the Void, a substance found at the bottom of the Abyss.
+The Abyss is the lowest area in Hallownest, located below Ancient Basin. It is the place of origin of the Void, a substance found at the bottom of the Abyss.
 
 Description
 The area itself contains a giant chasm which is littered with the shells of Vessels who were born in the Abyss and then discarded. An additional area in the chasm can be opened when the Kingsoul Charms is equipped, which leads to an egg that can be Dream Nailed to obtain Void Heart.
@@ -14077,7 +13262,7 @@ Despite its Dream Realm, dying in this area counts as a real death.
 Birthplace
 
 The birthplace of the Knight. however, this $85,000 stretch goal was not reached. According to Team Cherry, the expansion would have "taken players down into the lake of void, to explore the twisted space within."
-When later asked on <i>Creative Hustler's Show</i> in October 2017, it was stated that Team Cherry would not be working on the content planned for the Abyss expansion, citing that the world for the game was built without considering this expansion, and that Team Cherry would like to move on from Hollow Knight and work on a new game in the near future.
+When later asked on Creative Hustler's Show in October 2017, it was stated that Team Cherry would not be working on the content planned for the Abyss expansion, citing that the world for the game was built without considering this expansion, and that Team Cherry would like to move on from Hollow Knight and work on a new game in the near future.
 The lighthouse in the Abyss was originally going to feature a boss encounter. A sketch of this boss was shown by Team Cherry on Twitter, but the boss itself was never added.
 This area does not have a Map, instead being shared with that of Ancient Basin. It also does not appear on the zoomed-out version of the map, but does when zoomed-in.
 The Abyss ambience is the Main Menu theme distorted and slowed down.
@@ -14085,14 +13270,12 @@ The Abyss ambience is the Main Menu theme distorted and slowed down.
 ---
 
 ---
-
 # 文档：Dirtmouth
-
 - 类别：areas
 - 标识：dirtmouth
 - 来源：wiki/Dirtmouth
 
-<b>Dirtmouth, the Fading Town</b>, is the first town on the way to Hallownest, located in the valley between the Howling Cliffs and Crystal Peak. In <i>Hollow Knight (game)</i>, it initially has only one resident, but more bugs can return or move into town depending on certain events.
+Dirtmouth, the Fading Town, is the first town on the way to Hallownest, located in the valley between the Howling Cliffs and Crystal Peak. In Hollow Knight (game), it initially has only one resident, but more bugs can return or move into town depending on certain events.
 
 Description
 Dirtmouth is located right above the ruins of the kingdom of Hallownest, in a barren valley with rare tufts of grass, safe from the winds of the wasteland. Many lumafly lamposts are erected in and around town. Travellers used to come through the King's Pass, west of the valley, during the kingdom's heyday. However, a large door now bars access to the pass and the bridge leading down from it collapsed, forcing the occasional wanderers through hard detours around the cliffs. The Knight reaches Dirtmouth through that pass after breaking down its stone door, marking the start of their journey through Hallownest.
@@ -14133,14 +13316,12 @@ The eastern corridor of Grimm's Tent also contains a passage leading to a secret
 ---
 
 ---
-
 # 文档：Fog Canyon
-
 - 类别：areas
 - 标识：fog-canyon
 - 来源：wiki/Fog_Canyon
 
-<b>Fog Canyon</b> is a small, foggy area situated between Greenpath and the Fungal Wastes.
+Fog Canyon is a small, foggy area situated between Greenpath and the Fungal Wastes.
 
 Description
 The misty caverns of Fog Canyon are filled with bubbles and acid lakes, with some areas covered in thorns. The ground and walls usually consist of rocks or short, green flora. The bubbles in the region have trapped swirling gases inside them, and the ones with an orange glow can explode when they are popped.
@@ -14165,20 +13346,17 @@ The archives of Monomon the Teacher, built in the middle of an acid lake. It con
 ---
 
 ---
-
 # 文档：Godhome
-
 - 类别：areas
 - 标识：godhome
 - 来源：wiki/Godhome
 
-<b>Godhome</b> is an area that is located in the Dream Realm. It has several locations where Bosses (Hollow Knight) can be fought.
+Godhome is an area that is located in the Dream Realm. It has several locations where Bosses (Hollow Knight) can be fought.
 
 Description
 Godhome's architecture generally consists of gold-coloured pillars and archways. It has clouds in the background and yellow-gold dreamcatchers fading in and out throughout the area. Golden leaves cover some of the rooms.
 
 The west part of Godhome contains the entrance and exit of the area. There are pillars which lead to the main atrium. This atrium holds the five Pantheons where bosses can be fought in a certain order once they are unlocked. The lower atrium has four of the five Pantheons, with a Bench (Hollow Knight) in the upper part. The lowest part of the atrium contains the Hall of Gods, a Lifeblood door which unlocks after finishing Pantheons with Bindings equipped, and a Hot Spring in the very south-east.
-
 
 The upper part of Godhome's atrium is unlocked after completing the Pantheon of the Knight and then striking the structure above this Pantheon, which is followed by a short cutscene guiding the player. It contains another Hot Spring and the Pantheon of Hallownest at the very top. A Bench can be accessed by dropping down on the east side of this Pantheon. The entrance to the Land of Storms, a sub-area of Godhome, is located on the west part of the upper Hot Spring. It can be opened after completing all Pantheons with all Bindings and then dropping down on the west side of the Pantheon of Hallownest.
 
@@ -14220,19 +13398,17 @@ When using the Dream Nail on the Godseeker in the Junk Pit after completing the 
 Gallery
 
 Trivia
-An optional difficult platforming area similar to the  Path of Pain was originally planned for Godhome. It was ultimately cut, as it took away from the fact that the Path of Pain was the secret high level challenge and because it is thematically disconnected from what <i>Godmaster</i> is about.
+An optional difficult platforming area similar to the  Path of Pain was originally planned for Godhome. It was ultimately cut, as it took away from the fact that the Path of Pain was the secret high level challenge and because it is thematically disconnected from what Godmaster is about.
 
 ---
 
 ---
-
 # 文档：Hive
-
 - 类别：areas
 - 标识：hive
 - 来源：wiki/Hive
 
-<b>The Hive</b> is a large community of bees hidden away below Kingdom's Edge. It can only be reached after acquiring the Tram Pass from Deepnest and taking the Tram to Kingdom's Edge.
+The Hive is a large community of bees hidden away below Kingdom's Edge. It can only be reached after acquiring the Tram Pass from Deepnest and taking the Tram to Kingdom's Edge.
 
 Description
 Particular to the Hive are structures built out of brown and translucent honey-like materials. The architecture also follows a hexagonal shape reminiscent of honeycombs.
@@ -14249,7 +13425,7 @@ The Hive can be accessed once the Knight obtains the Tram Pass and takes it to K
 
 Trivia
 Despite being a separate area from Kingdom's Edge, the Hive does not have its own Map and Quill and is only mapped once the Knight obtains the Kingdom's Edge map from Cornifer.
-The Hive's visual appearance was overhauled in the  <i>:Category: Lifeblood</i> update. Bookshelves, tables, and chairs were added to the Hive alongside other minor details. This update also added  Hive Knight as a boss.
+The Hive's visual appearance was overhauled in the  :Category: Lifeblood update. Bookshelves, tables, and chairs were added to the Hive alongside other minor details. This update also added  Hive Knight as a boss.
 Early in development, the Hive was located below Deepnest.
 
 References
@@ -14257,14 +13433,12 @@ References
 ---
 
 ---
-
 # 文档：Howling Cliffs
-
 - 类别：areas
 - 标识：howling-cliffs
 - 来源：wiki/Howling_Cliffs
 
-The <b>Howling Cliffs</b> is a sparsely populated region in the northwest of Hallownest, separating the kingdom from a vast and unknown wasteland.
+The Howling Cliffs is a sparsely populated region in the northwest of Hallownest, separating the kingdom from a vast and unknown wasteland.
 
 Description
 A steep cliff bordering the wasteland outside the Pale King domain, inhabited by small crawling and flying enemies. The ground is littered with husks and corpses of bugs.
@@ -14318,20 +13492,18 @@ References
 ---
 
 ---
-
 # 文档：Grub
-
 - 类别：quests
 - 标识：grub
 - 来源：wiki/Grub
 
-<b>Grubs</b> are creatures found trapped in glass jars throughout Hallownest. They can be freed from their jar after which Grubfather grants a reward for each Grub that is saved.
+Grubs are creatures found trapped in glass jars throughout Hallownest. They can be freed from their jar after which Grubfather grants a reward for each Grub that is saved.
 
 When close enough to their location, a faint crying noise can be heard in their general direction. The Grubs talk in high-pitched babbles and cannot be listened to.
 
 They can be freed by breaking the jar with the Nail, after which the Grub burrows into the ground and returns to Grubfather. Obtaining the Collector's Map after beating the Collector shows the locations of unfreed Grubs on purchased Maps.
 
-There are 46 Grubs to be found in total. Rescuing 23 or more Grubs rewards the <i>Grubfriend</i> Achievements (Hollow Knight), while rescuing all 46 Grubs rewards the <i>Metamorphosis</i> achievement.
+There are 46 Grubs to be found in total. Rescuing 23 or more Grubs rewards the Grubfriend Achievements (Hollow Knight), while rescuing all 46 Grubs rewards the Metamorphosis achievement.
 
 Rewards and locations
 Trapped Grubs can be found all across Hallownest. Rewards are based on the total number of Grubs saved, not which Grubs have been saved.
@@ -14523,30 +13695,28 @@ Achievements
 
 Trivia
 
-It is possible to come across a Grub Mimic trapped in a glass jar that transforms and becomes hostile when freed. The easiest way to check if it is an actual Grub is to Dream Nail them. Grubs always say <i>"...Home..."</i> but Grub Mimics say <i>"...Kill..."</i>, <i>"...Empty..."</i> or <i>"...Other..."</i>.
+It is possible to come across a Grub Mimic trapped in a glass jar that transforms and becomes hostile when freed. The easiest way to check if it is an actual Grub is to Dream Nail them. Grubs always say "...Home..." but Grub Mimics say "...Kill...", "...Empty..." or "...Other...".
 Within the Tower of Love, there is a secret area that can be accessed by jumping into a hidden gap within the ceiling along the hallway of the Grubs. This reveals a mysterious piece of art known only as the "Vitruvian Grub" in the game's files. This is likely a reference to the Leonardo da Vinci's famous drawing “The Vitruvian Man”, which represents the ideal human body proportions.
 Grubs were designed by Makoto Koji, the voice actress of Hornet and various other female characters. The Grubs were voiced by Team Cherry.
-The 2017 Collector's Edition of <i>Hollow Knight (game)</i> included "Grub Care Instructions", a document written by Team Cherry that included more information about Grubs.
+The 2017 Collector's Edition of Hollow Knight (game) included "Grub Care Instructions", a document written by Team Cherry that included more information about Grubs.
 
 References
 
 ---
 
 ---
-
 # 文档：Pantheon of Hallownest
-
 - 类别：quests
 - 标识：pantheon-of-hallownest
 - 来源：wiki/Pantheon_of_Hallownest
 
-<i>Seek the Kingdom's Forgotten Light</i>
+Seek the Kingdom's Forgotten Light
 
-The <b>Pantheon of Hallownest</b> is the fifth and final Pantheons in Godhome. Access to this Pantheon is unlocked after completing the Pantheon of the Knight. Instead of tuning bosses, the Void Heart Charms must be acquired to enter it.
+The Pantheon of Hallownest is the fifth and final Pantheons in Godhome. Access to this Pantheon is unlocked after completing the Pantheon of the Knight. Instead of tuning bosses, the Void Heart Charms must be acquired to enter it.
 
 Enemies in this Pantheon are harder versions compared to the previous Pantheons. The number of enemies per fight and arena layouts are changed to their Ascended difficulty version in the Hall of Gods. However, they retain the same amount of health and do their usual amount of damage.
 
-Completing this Pantheon gives either of the two Endings (Hollow Knight)#Ending 4: Embrace the Void added with the <i>Godmaster</i> update, depending on whether a Delicate Flower has been given to the Godseeker.
+Completing this Pantheon gives either of the two Endings (Hollow Knight)#Ending 4: Embrace the Void added with the Godmaster update, depending on whether a Delicate Flower has been given to the Godseeker.
 
 Despite its name, the Pantheon of Hallownest does not contain every Bosses (Hollow Knight) in Hallownest. Nosk, Hollow Knight, Radiance, Mantis Lords, and Zote do not appear, though all are replaced by their stronger variants. There are 42 bosses in total that have to be fought in this Pantheon.
 
@@ -14640,7 +13810,6 @@ Fight
 style="text-align: left;" | Paintmaster Sheo
 24
 Resting Spot
-style="text-align: left;" | Hot Spring and Bench (Hollow Knight)
 25
 Fight
 style="text-align: left;" | Hive Knight (Starts in Phase 3)
@@ -14658,7 +13827,6 @@ Fight
 style="text-align: left;" | Grimm
 30
 Resting Spot
-style="text-align: left;" | Hot Spring and Bench (Hollow Knight)
 31
 Non-combat room
 style="text-align: left;" |The Godseeker (Unn)
@@ -14679,7 +13847,6 @@ Fight
 style="text-align: left;" | Hornet Sentinel (Sentinel)
 37
 Resting Spot
-style="text-align: left;" | Hot Spring and Bench (Hollow Knight)
 38
 Fight
 style="text-align: left;" | Enraged Guardian
@@ -14697,7 +13864,6 @@ Fight
 style="text-align: left;" | White Defender
 43
 Resting Spot
-style="text-align: left;" | Hot Spring and Bench (Hollow Knight)
 44
 Non-combat room
 style="text-align: left;" | The Godseeker (White Lady)
@@ -14718,7 +13884,6 @@ Fight
 style="text-align: left;" | Nightmare King Grimm
 50
 Resting Spot
-style="text-align: left;" | Hot Spring and Bench (Hollow Knight)
 51
 Non-combat room
 style="text-align: left;" | The Godseeker (Pale King)
@@ -14733,23 +13898,21 @@ Achievements
 
 Trivia
 Because access to this Pantheon is locked solely behind completion of all prior Pantheons and having Void Heart, it is possible to encounter Nightmare King Grimm for the first time within this Pantheon, without having fought him elsewhere.
-When this Pantheon is approached, the word <i>Ascend</i> appears, unlike the other four Pantheons or the enemies in Hall of Gods, where <i>Challenge</i> appears instead.
+When this Pantheon is approached, the word Ascend appears, unlike the other four Pantheons or the enemies in Hall of Gods, where Challenge appears instead.
 Upon completing this Pantheon, the time it took for completion is not seen like in the other Pantheons, unless on Godseeker Mode.
 If this Pantheon is completed without getting hit, the jewel outside the Pantheon glows, but less than when completed with all four bindings enabled simultaneously. This is not visible if it has been completed with all four bindings simultaneously before on that savefile, as the larger glow overwrites this one.
 
 ---
 
 ---
-
 # 文档：Pantheon of the Artist
-
 - 类别：quests
 - 标识：pantheon-of-the-artist
 - 来源：wiki/Pantheon_of_the_Artist
 
-<i>Seek the God Inspired</i>
+Seek the God Inspired
 
-The <b>Pantheon of the Artist</b> is the second Pantheons in Godhome. The previous Pantheon is the Pantheon of the Master, and the next is the Pantheon of the Sage.
+The Pantheon of the Artist is the second Pantheons in Godhome. The previous Pantheon is the Pantheon of the Master, and the next is the Pantheon of the Sage.
 
 style="width:15%" |Room #
 style="width:20%" |Room Type
@@ -14791,24 +13954,22 @@ style="text-align: left;" | The Godseeker
 Fight
 style="text-align: left;" | Paintmaster Sheo
 
- Achievements 
+ Achievements
 
- Trivia 
-On Steam, the <i>Inspiration</i> Achievements (Hollow Knight) has the description "Complete the Pantheon of the Painter" instead of "Complete the Pantheon of the Artist".
-
----
+ Trivia
+On Steam, the Inspiration Achievements (Hollow Knight) has the description "Complete the Pantheon of the Painter" instead of "Complete the Pantheon of the Artist".
 
 ---
 
+---
 # 文档：Pantheon of the Knight
-
 - 类别：quests
 - 标识：pantheon-of-the-knight
 - 来源：wiki/Pantheon_of_the_Knight
 
-<i>Seek the Pure God</i>
+Seek the Pure God
 
-The <b>Pantheon of the Knight</b> is the fourth Pantheons in Godhome. The previous Pantheon is the Pantheon of the Sage, and the next is the Pantheon of Hallownest. Access to this Pantheon is restricted until the previous three Pantheons have been completed and the necessary bosses have been defeated.
+The Pantheon of the Knight is the fourth Pantheons in Godhome. The previous Pantheon is the Pantheon of the Sage, and the next is the Pantheon of Hallownest. Access to this Pantheon is restricted until the previous three Pantheons have been completed and the necessary bosses have been defeated.
 
 style="width:15%" |Room #
 style="width:20%" |Room Type
@@ -14859,16 +14020,14 @@ When this Pantheon is completed for the first time, a cutscene is shown right af
 ---
 
 ---
-
 # 文档：Pantheon of the Master
-
 - 类别：quests
 - 标识：pantheon-of-the-master
 - 来源：wiki/Pantheon_of_the_Master
 
-<i>Seek the Gods of Nail and Shell</i>
+Seek the Gods of Nail and Shell
 
-The <b>Pantheon of the Master</b> is the first Pantheons in Godhome. The next Pantheon is the Pantheon of the Artist.
+The Pantheon of the Master is the first Pantheons in Godhome. The next Pantheon is the Pantheon of the Artist.
 
 style="width:15%"  style="text-align: center;"|Room #
 style="width:20%" style="text-align: center;"|Room Type
@@ -14919,16 +14078,14 @@ False Knight is unlocked if he was skipped by breaking the left wall during his 
 ---
 
 ---
-
 # 文档：Pantheon of the Sage
-
 - 类别：quests
 - 标识：pantheon-of-the-sage
 - 来源：wiki/Pantheon_of_the_Sage
 
-<i>Seek the God of Wealth and Power</i>
+Seek the God of Wealth and Power
 
-The <b>Pantheon of the Sage</b> is the third Pantheons in Godhome. The previous Pantheon is the Pantheon of the Artist, and the next is the Pantheon of the Knight.
+The Pantheon of the Sage is the third Pantheons in Godhome. The previous Pantheon is the Pantheon of the Artist, and the next is the Pantheon of the Knight.
 
 style="width:15%" |Room #
 style="width:20%" |Room Type
@@ -14980,14 +14137,12 @@ Defeating Zotelings during this Pantheon does not unlock their Hunter's Journal 
 ---
 
 ---
-
 # 文档：Pantheons
-
 - 类别：quests
 - 标识：pantheons
 - 来源：wiki/Pantheons
 
-<b>Pantheons</b> are a mechanic added to Godhome. They feature a select set of Bosses (Hollow Knight) to combat before reaching the "Peak" of each Pantheon and facing the unique final boss of each challenge. Most bosses, with the exception of the final bosses, need to be defeated outside Godhome first before the Pantheon can be accessed that contains those bosses.
+Pantheons are a mechanic added to Godhome. They feature a select set of Bosses (Hollow Knight) to combat before reaching the "Peak" of each Pantheon and facing the unique final boss of each challenge. Most bosses, with the exception of the final bosses, need to be defeated outside Godhome first before the Pantheon can be accessed that contains those bosses.
 
 Completing the first three Pantheons also unlocks Godseeker Mode.
 
@@ -15034,14 +14189,12 @@ Due to a bug, within the Pantheon of Hallownest, the music will sometimes fail t
 ---
 
 ---
-
 # 文档：Seal of Binding
-
 - 类别：quests, lore
 - 标识：seal-of-binding
 - 来源：wiki/Seal_of_Binding
 
-The <b>Seal of Binding</b> is a Hunter's Journal in <i>Hollow Knight (game)</i>. It is a Seals that is used to contain something powerful or preserve something important.
+The Seal of Binding is a Hunter's Journal in Hollow Knight (game). It is a Seals that is used to contain something powerful or preserve something important.
 
 How to Acquire
 The Seal of Binding Journal entry is acquired after conquering the Path of Pain.
@@ -15051,18 +14204,16 @@ References
 ---
 
 ---
-
 # 文档：Trial of the Conqueror
-
 - 类别：quests
 - 标识：trial-of-the-conqueror
 - 来源：wiki/Trial_of_the_Conqueror
 
-The <b>Trial of the Conqueror</b> is the second trial in the Colosseum of Fools available to The Knight.
+The Trial of the Conqueror is the second trial in the Colosseum of Fools available to The Knight.
 
 Requires  to open.
 
-Upon clearing it for the first time, the Knight receives a Pale Ore, , and the <i>Achievements (Hollow Knight)</i> achievement. Subsequent victories reward .
+Upon clearing it for the first time, the Knight receives a Pale Ore, , and the Achievements (Hollow Knight) achievement. Subsequent victories reward .
 
 Tips
 Remember to Focus at least once between waves.
@@ -15090,7 +14241,6 @@ Armoured Squit, top left
 
 colspan="2" style="font-size:150%" |Wave 3
 colspan="2" | Transition: Spikes cover the floor.
-Armoured Squit, top left
 
 colspan="2" style="font-size:150%" |Wave 4
 colspan="2" |Transition: Two platforms fall away, leaving only a single platform in the centre.
@@ -15106,7 +14256,6 @@ Armoured Squit, left
 Defeating two enemies spawns the next row.
 Volatile Gruzzer, top left
 
-Defeating two enemies spawns the next row.
 Volatile Gruzzer, top centre
 
 colspan="2" style="font-size:150%" |Wave 6
@@ -15121,13 +14270,11 @@ colspan="2" style="font-size:150%" |Wave 8
 colspan="2" |Transition: The platforms and spikes go away, returning the arena to its original state.
 Hopper x4
 
-Defeating two enemies spawns the next row.
 Hopper x4
 
 Great Hopper, top centre
 colspan="2" style="font-size:150%" |Wave 9
 colspan="2" |Transition: The walls close in to about 25% of the arena's original floor space.
-Great Hopper, top centre
 colspan="2" style="font-size:150%" |Wave 10
 colspan="2" |Transition: The walls return to their original width and the ceiling drops to about 50% of the arena's original height.
 Grub Mimic, centre
@@ -15136,26 +14283,20 @@ colspan="2" |Transition: The ceiling returns to its original height and a single
 Shielded Fool, left
 
 Defeating two of these enemies spawns the next row (and the platform goes away).
-Winged Fool, top centre
 Heavy Fool, centre
 
-Defeating one of these enemies spawns the next row.
 Armoured Squit, top right
 colspan="2" style="font-size:150%" |Wave 12
 colspan="2" |Transition: The walls close in to about 50% of the arena's original floor space.
 Heavy Fool, centre
-Winged Fool, top centre
 colspan="2" style="font-size:150%" |Wave 13
 colspan="2" |Transition: Spikes cover the floor.
 Armoured Squit, centre
 Winged Fool, centre
-Armoured Squit, centre
 
 colspan="2" style="font-size:150%" |Wave 14
 colspan="2" |Transition: The walls return to their original state, 3 platforms rise up, and spikes cover the floor.
 Winged Fool, left
-
-Winged Fool, top centre
 
 colspan="2" style="font-size:150%" |Wave 15
 colspan="2" |Transition: The arena returns to its original state before 4 platforms rise up.
@@ -15165,7 +14306,6 @@ Defeating two of these enemies spawns the next row.
 Battle Obble, top left
 
 Defeating two of these enemies spawns the next row (and spikes cover the floor).
-Battle Obble, top left
 
 colspan="2" style="font-size:150%" |Wave 16
 colspan="2" |Transition: The spikes and platforms go away and the ceiling drops to about 50% of the arena's original height.
@@ -15180,21 +14320,19 @@ Achievements
 ---
 
 ---
-
 # 文档：Trial of the Fool
-
 - 类别：quests
 - 标识：trial-of-the-fool
 - 来源：wiki/Trial_of_the_Fool
 
-The <b>Trial of the Fool</b> is the third and final trial available in the Colosseum of Fools to the Knight.
+The Trial of the Fool is the third and final trial available in the Colosseum of Fools to the Knight.
 
 Requires  to open.
 
-Upon clearing it for the first time, the Knight receives  and the <i>Fool</i> Achievements (Hollow Knight). Subsequent completions reward .
+Upon clearing it for the first time, the Knight receives  and the Fool Achievements (Hollow Knight). Subsequent completions reward .
 
 Tips
-Equipment, Spells, and Abilities 
+Equipment, Spells, and Abilities
 As a late game area, the Knight is expected to have almost maximum equipment, especially the Nail, as well as all Nail Arts and upgraded Spells. It is also recommended to have at least 8 The Knight#Health and 2 Soul Vessels.
 
 Charms
@@ -15289,7 +14427,6 @@ Mantis Petra, centre
 Defeating all of the above enemies spawns the next row.
 Mantis Petra, left
 
-Defeating 2 of the above enemies spawns the next row.
 Mantis Petra, left
 
 Defeating all enemies spawns the next row.
@@ -15339,17 +14476,14 @@ Winged Fool x2, centre
 colspan="2" style="font-size:150%" | Wave 15
 colspan="2" |Transition: The ceiling drops down to about halfway.
 Armoured Squit, centre
-Armoured Squit, centre
 colspan="2" style="font-size:150%" |Wave 16
 colspan="2" |Transition: The walls and ceiling return to their original state and 3 platforms rise up.
 Stay steady on any platform and let these Loodles kill themselves. It is possible to Dreamnail them and even healing at this time. If the platform is (unluckily) overwhelmed, Cyclone Slash will easily clear it.
 colspan="2" style="font-size:150%" |Wave 17
-colspan="2" |Transition: The platforms and spikes go away, returning the arena to its original state.
 Heavy Fool, left
 
 Mantis Traitor, left
 Winged Fool, centre
-Defeating one of these enemies spawns the next row.
 Mantis Petra, centre
 
 Soul Twister
@@ -15359,7 +14493,6 @@ Sharp Baldur, left
 
 Heavy Fool, left
 
-Defeating one of these enemies spawns the next row.
 Sturdy Fool, left
 God Tamer
 
@@ -15368,18 +14501,16 @@ Achievements
 ---
 
 ---
-
 # 文档：Trial of the Warrior
-
 - 类别：quests
 - 标识：trial-of-the-warrior
 - 来源：wiki/Trial_of_the_Warrior
 
-The <b>Trial of the Warrior</b> is the first trial in the Colosseum of Fools available to the Knight.
+The Trial of the Warrior is the first trial in the Colosseum of Fools available to the Knight.
 
 Requires  to open.
 
-Upon clearing it for the first time, the Knight receives a Charm Notch, , and the <i>Achievements (Hollow Knight)</i> achievement. Subsequent victories reward .
+Upon clearing it for the first time, the Knight receives a Charm Notch, , and the Achievements (Hollow Knight) achievement. Subsequent victories reward .
 
 Zote the Mighty only appears as the final opponent after he has been saved in Greenpath and Deepnest and can only be defeated in the trial once.
 
@@ -15428,9 +14559,7 @@ Defeating one of these enemies spawns the next row.
 Sturdy Fool, centre
 colspan="2" style="font-size:150%" |Wave 7
 colspan="2" |Transition: The triple platform is replaced with a quadruple platform. The double platforms go away. Two more quadruple platforms spring up to create 3 levels.
-Defeating one of these enemies spawns the next row.
 Sharp Baldur, centre of middle platform
-Defeating one of these enemies spawns the next row.
 Sharp Baldur, centre of bottom platform
 colspan="2" style="font-size:150%" | Wave 8
 colspan="2" |Transition: Platforms drop away until there's only a double platform.
@@ -15441,15 +14570,10 @@ colspan="2" style="font-size:150%" |Wave 9
 colspan="2" |Transition: The platforms and spikes go away, returning the arena to its original state.
 Sturdy Fool, left
 
-Defeating one of these enemies spawns the next row.
 Shielded Fool, centre
-Defeating one of these enemies spawns the next row.
 Primal Aspid, centre
-Defeating one of these enemies spawns the next row.
 Shielded Fool, left
-Defeating one of these enemies spawns the next row.
 Sturdy Fool, right
-Defeating one of these enemies spawns the next row.
 Primal Aspid, left
 Sharp Baldur, right
 colspan="2" style="font-size:150%" |Wave 10
@@ -15459,8 +14583,6 @@ Sharp Baldur, right
 Sharp Baldur, left
 colspan="2" style="font-size:150%" |Wave 11
 colspan="2" |Transition: The ceiling rises to about 50% the height of the arena.
-Volatile Gruzzer, left
-
 Volatile Gruzzer, left
 
 Gruz Mother, left
@@ -15475,14 +14597,12 @@ Achievements
 ---
 
 ---
-
 # 文档：Boon
-
 - 类别：lore
 - 标识：boon
 - 来源：wiki/Boon
 
-<b>Boon</b> is an expanded universe character who appears only within the <i>Hollow Knight (game)</i> Hollow Knight First Chapter: Quirrel. Boon is a sizable bug who wears a coat and carries a large backpack. They speak in the third person and articulate sentences in a simplistic manner.
+Boon is an expanded universe character who appears only within the Hollow Knight (game) Hollow Knight First Chapter: Quirrel. Boon is a sizable bug who wears a coat and carries a large backpack. They speak in the third person and articulate sentences in a simplistic manner.
 
 They are first encountered by Quirrel, being attacked by a horde of vicious bugs in the plains outside of any kingdom. Quirrel quickly intervenes and Boon is rescued from the attackers, after which Boon shares a meal with Quirrel out of gratitude. While Quirrel's goal in the comic is to reach Hallownest, Boon splits paths with Quirrel before reaching the kingdom and their eventual destination is unknown.
 
@@ -15496,34 +14616,32 @@ Boon's appearance resembles that of Tuk, implying they could be of the same spec
 ---
 
 ---
-
 # 文档：Ellina
-
 - 类别：lore
 - 标识：ellina
 - 来源：wiki/Ellina
 
-<b>Ellina</b> is an expanded universe character who appears only within the Hollow Knight Wanderer's Journal- acting as the fictional author of the book. Her book details her experiences within the kingdom of Hallownest and acts as an outside source providing some unique reflections, accounts, and opinions on her findings. Ellina's character beyond her time spent in Hallownest is not explored and is unknown.
+Ellina is an expanded universe character who appears only within the Hollow Knight Wanderer's Journal- acting as the fictional author of the book. Her book details her experiences within the kingdom of Hallownest and acts as an outside source providing some unique reflections, accounts, and opinions on her findings. Ellina's character beyond her time spent in Hallownest is not explored and is unknown.
 
 A brief summary by the author of the book states the following:
 
-<i>"The book is written from the perspective of Ellina the Chronicler, an "outsider" who is documenting her observations as she travels through Hallownest. She only knows what she's learned from others during her journey, so she doesn't pick up on any deep lore."</i>
+"The book is written from the perspective of Ellina the Chronicler, an "outsider" who is documenting her observations as she travels through Hallownest. She only knows what she's learned from others during her journey, so she doesn't pick up on any deep lore."
 
 ---
 
 In addition, Ellina herself provides a small introduction in her journal:
 
-<i>"Greetings, fellow wanderer, and welcome to Hallownest!"</i>
+"Greetings, fellow wanderer, and welcome to Hallownest!"
 
-<i>"It would seem you’ve happened upon my journal. This volume contains a record of my observations and musings, transcribed as I travelled into the kingdom’s depths and-through a miracle of either luck or sheer willpower-returned safely to the surface.</i>
+"It would seem you’ve happened upon my journal. This volume contains a record of my observations and musings, transcribed as I travelled into the kingdom’s depths and-through a miracle of either luck or sheer willpower-returned safely to the surface.
 
-<i>My travels brought me to Hallownest purely out of curiosity; though I expected to find naught but a desolate ruin down below, what awaited me was quite possibly the adventure of a lifetime.</i>
+My travels brought me to Hallownest purely out of curiosity; though I expected to find naught but a desolate ruin down below, what awaited me was quite possibly the adventure of a lifetime.
 
-<i>To that end, I’ve chosen to leave my completed journal behind, in hopes that another brave explorer might use it to piece together the myriad of mysteries of this forsaken kingdom."</i>
+To that end, I’ve chosen to leave my completed journal behind, in hopes that another brave explorer might use it to piece together the myriad of mysteries of this forsaken kingdom."
 
 The contents of the Wanderer's Journal include images and descriptions drawn and written by Ellina detailing a variety of enemies, characters, and environments. The main descriptions are typed out and are accompanied by Ellina's "quotes" - which are written out in a handwriting style font.
 
-Ellina's story and adventure canonically occur at the same time as the events of <i>Hollow Knight (game)</i>; the Knight quest would have been currently in progress during the time Ellina was writing her journal. Evidence of this includes an account of Bretta first encountered by Ellina stuck in the Fungal Wastes, but later on noted to be in Dirtmouth: implying that Bretta was saved by the Knight as it occurs in the game.
+Ellina's story and adventure canonically occur at the same time as the events of Hollow Knight (game); the Knight quest would have been currently in progress during the time Ellina was writing her journal. Evidence of this includes an account of Bretta first encountered by Ellina stuck in the Fungal Wastes, but later on noted to be in Dirtmouth: implying that Bretta was saved by the Knight as it occurs in the game.
 
 Despite her story happening parallel to the game's events, Ellina never meets or runs into the Knight in person during her exploration of Hallownest. The closest instance Ellina comes to encountering the Knight underground is only through noticing the painting of the Knight by Nailmaster Sheo.
 
@@ -15536,20 +14654,18 @@ References
 ---
 
 ---
-
 # 文档：Flukes
-
 - 类别：lore
 - 标识：flukes
 - 来源：wiki/Flukes
 
 The lands of Hallownest are filled by several groups of strange sentient creatures. They occupy various territories around the vast kingdom and developed their own societies and cultures aside from the Pale King rule.
 
-<b>Table of Contents</b>
+Table of Contents
 
 Bees • Flukes • Fools • Mantis Tribe • Mosskin Tribe • Moth Tribe • Mushroom Clan  • Snail Shamans • Soul Sanctum's Scholars • Spider Tribe • The Grimm Troupe (Lore) • Godseekers
 
-<b>The Flukes</b> are a species of worm-like creatures who took over the Royal Waterways. They stay in the City of Tears sewers for its calm and dampness and don't venture past it. Most of the Flukes encountered are Infection. Like other Infected creatures, they display violent behaviour towards intruders on their territory.
+The Flukes are a species of worm-like creatures who took over the Royal Waterways. They stay in the City of Tears sewers for its calm and dampness and don't venture past it. Most of the Flukes encountered are Infection. Like other Infected creatures, they display violent behaviour towards intruders on their territory.
 
 Flukes are primitive, but not completely mindless. With the exception of the uninfected  Fluke Hermit, they do not seem to have any other purpose other than to reproduce and grow. They also understand the concept of family. Their mother, Flukemarm, cannot move from her cave below the waterways and keeps breeding more and more Flukes. The Infection also made her noticeably angrier, enough to scare away the  Fluke Hermit.
 
@@ -15558,20 +14674,18 @@ Flukes usually wander the waterways looking for anything to eat.  The Fluke Herm
 ---
 
 ---
-
 # 文档：Fools
-
 - 类别：lore
 - 标识：fools
 - 来源：wiki/Fools
 
 The lands of Hallownest are filled by several groups of strange sentient creatures. They occupy various territories around the vast kingdom and developed their own societies and cultures aside from the Pale King rule.
 
-<b>Table of Contents</b>
+Table of Contents
 
 Bees • Flukes • Fools • Mantis Tribe • Mosskin Tribe • Moth Tribe • Mushroom Clan  • Snail Shamans • Soul Sanctum's Scholars • Spider Tribe • The Grimm Troupe (Lore) • Godseekers
 
-<b>The Fools</b> are a group of warrior beasts and bugs, lured by the promise of glory at the Colosseum of Fools. Despite being Infection, they keep their resolve and viciously fight to the death in the Trials, much to the amusement of the observing crowd. However, they remain passive outside the arena, unlike other Infected creatures.
+The Fools are a group of warrior beasts and bugs, lured by the promise of glory at the Colosseum of Fools. Despite being Infection, they keep their resolve and viciously fight to the death in the Trials, much to the amusement of the observing crowd. However, they remain passive outside the arena, unlike other Infected creatures.
 
 The Fools are mainly divided into four classes: Shielded Fools, Sturdy Fools, Winged Fools, and Heavy Fools. They fight among creatures raised and trained in the Colosseum. The God Tamer, the Colosseum's veteran warrior, is the only one to ride a beast. They are also joined by fighters from other parts of Hallownest, such as Soul Sanctum's Scholars from the Soul Sanctum and Mantis Tribe#The Mantis Traitors from the Mantis Tribe.
 
@@ -15582,14 +14696,12 @@ References
 ---
 
 ---
-
 # 文档：Lord Fool
-
 - 类别：lore
 - 标识：lord-fool
 - 来源：wiki/Lord_Fool
 
-<b>Lord Fool</b> was a bug who presumably oversaw the Trials at the Colosseum of Fools. While they appear to be long dead as of the events of <i>Hollow Knight (game)</i>, their corpse still remains seated on the throne in the Colosseum as if observing the Trials.
+Lord Fool was a bug who presumably oversaw the Trials at the Colosseum of Fools. While they appear to be long dead as of the events of Hollow Knight (game), their corpse still remains seated on the throne in the Colosseum as if observing the Trials.
 
 Little is known about Lord Fool aside from their appearance, and the fact that they were powerful enough for the warriors of the Colosseum to respect them.
 
@@ -15597,21 +14709,19 @@ Little Fool does not seem aware of Lord Fool's demise . The audience in the aren
 
 Lore
 Though not much is known about the Lord Fool, multiple community members have proposed theories about him. One of such theories supposes the Colosseum of Fools is actually a Wyrms corpse, similar to the Cast off Shell also in Kingdom's Edge. This theory ideates that the Lord Fool is a higher being form of the Colosseum, as The Pale King is to the Cast off Shell. Some even believe the colosseum is the legendary Blackwyrm hinted at through various dialogue. Evidence also comes from the way which the Lord Fool has void like eye sockets, which appear damaged similar to that of the Pale King. None of these theories have been confirmed, however, the nature of the Lord Fool is still debated.Trivia
-Lord Fool can be seen in the <i>Fool</i> Achievements (Hollow Knight) icon.
+Lord Fool can be seen in the Fool Achievements (Hollow Knight) icon.
 
 ---
 
 ---
-
 # 文档：Mosskin Tribe
-
 - 类别：lore
 - 标识：mosskin-tribe
 - 来源：wiki/Mosskin_Tribe
 
 The lands of Hallownest are filled by several groups of strange sentient creatures. They occupy various territories around the vast kingdom and developed their own societies and cultures aside from the Pale King rule.
 
-<b>Table of Contents</b>
+Table of Contents
 
 Bees • Flukes • Fools • Mantis Tribe • Mosskin Tribe • Moth Tribe • Mushroom Clan  • Snail Shamans • Soul Sanctum's Scholars • Spider Tribe • The Grimm Troupe (Lore) • Godseekers
 
@@ -15622,16 +14732,14 @@ According to the Mosskin's faith, the vegetation in Greenpath and the Queen's Ga
 ---
 
 ---
-
 # 文档：Mushroom Clan
-
 - 类别：lore
 - 标识：mushroom-clan
 - 来源：wiki/Mushroom_Clan
 
 The lands of Hallownest are filled by several groups of strange sentient creatures. They occupy various territories around the vast kingdom and developed their own societies and cultures aside from the Pale King rule.
 
-<b>Table of Contents</b>
+Table of Contents
 
 Bees • Flukes • Fools • Mantis Tribe • Mosskin Tribe • Moth Tribe • Mushroom Clan  • Snail Shamans • Soul Sanctum's Scholars • Spider Tribe • The Grimm Troupe (Lore) • Godseekers
 
@@ -15644,14 +14752,12 @@ While they share a mushroom-like appearance and the same language, Mister Mushro
 ---
 
 ---
-
 # 文档：Nightmare’s Heart
-
 - 类别：lore
 - 标识：nightmare’s-heart
 - 来源：wiki/Nightmare’s_Heart
 
-The <b>Nightmare's Heart</b> is an NPCs (Hollow Knight) in <i>Hollow Knight (game)</i>. It has no dialogue but is mentioned by multiple other NPCs.
+The Nightmare's Heart is an NPCs (Hollow Knight) in Hollow Knight (game). It has no dialogue but is mentioned by multiple other NPCs.
 
 Lore
 The Nightmare's Heart is a Higher Beings responsible for the Ritual of The Grimm Troupe (Lore). It is the deepest power within the Nightmare Realm, and also the one that controls the entirety of the Grimm Troupe. The Ritual performed by the Grimm Troupe is designed to sustain the Nightmare's Heart with a new vessel once the old one dies.
@@ -15664,28 +14770,24 @@ References
 ---
 
 ---
-
 # 文档：Pharloom
-
 - 类别：lore
 - 标识：pharloom
 - 来源：wiki/Pharloom
 
-<b>Pharloom</b> is the location where <i>Hollow Knight: Silksong</i> takes place.
+Pharloom is the location where Hollow Knight: Silksong takes place.
 
 The kingdom of Pharloom is located in a distant and withered land. It is ruled and haunted by silk and song, the two powerful forces of that world. Like Hallownest in its golden age, Pharloom is dedicated to faith and pilgrimage, although the gilded pin is its traditional weapon and the silk spool its symbol.
 
 ---
 
 ---
-
 # 文档：Unn
-
 - 类别：lore
 - 标识：unn
 - 来源：wiki/Unn
 
-<b>Unn</b> is an NPCs (Hollow Knight) in <i>Hollow Knight (game)</i> who can be found in a pool of acid in the Lake of Unn. She gifts the Shape of Unn Charms.
+Unn is an NPCs (Hollow Knight) in Hollow Knight (game) who can be found in a pool of acid in the Lake of Unn. She gifts the Shape of Unn Charms.
 
 Lore
 Unn is a Higher Beings who is responsible for all life in Greenpath. The temple-like structure at the edge of the Lake of Unn was a place where she was worshipped. She once existed with land and dream and devotion, though over time her strength faded. Dialogue of the Moss Prophet suggests that the Radiance's light, and the Infection distorts the life Unn created.
@@ -15701,20 +14803,18 @@ Location
 Unn can be found in a secret room under the Lake of Unn.
 
 Trivia
-It is widely accepted that Unn's gender is female because Moss Knight's Dream Nail dialogue tells us so. However, it is interesting to note that, while Moss Knight's line was not changed, most of the translations refer to Unn's gender as masculine/neuter. The evidence of that is in another line, where Mosskin speak directly to Unn: <i>"Hidden Unn, we need you now."</i> Russian, French, Spanish, Portuguese translations refer to Unn as masculine/neuter. Of all translations only German one speaks about Unn as a female creature.
+It is widely accepted that Unn's gender is female because Moss Knight's Dream Nail dialogue tells us so. However, it is interesting to note that, while Moss Knight's line was not changed, most of the translations refer to Unn's gender as masculine/neuter. The evidence of that is in another line, where Mosskin speak directly to Unn: "Hidden Unn, we need you now." Russian, French, Spanish, Portuguese translations refer to Unn as masculine/neuter. Of all translations only German one speaks about Unn as a female creature.
 It is highly possible that, in fact, translators knew the true Unn's gender when they were working on that line but did not change Moss Knight's Dream Nail dialogue either because of a misunderstanding (probably not all of them understood the reference to Unn) or because of unwillingness to correct the English original text.
 
 ---
 
 ---
-
 # 文档：Void Entity
-
 - 类别：lore
 - 标识：void-entity
 - 来源：wiki/Void_Entity
 
-Both of the following Void beings are forms that the Knight takes during two Endings (Hollow Knight) of <i>Hollow Knight (game)</i>, and are considered to be an advancement from the first form to the next; as the Void given Focus is to happen after the Void given Form becomes "ascended" through  Godhome. Both are similar but with varying attributes. In addition, each state also correlates with a new description and form of the  Void Idol.
+Both of the following Void beings are forms that the Knight takes during two Endings (Hollow Knight) of Hollow Knight (game), and are considered to be an advancement from the first form to the next; as the Void given Focus is to happen after the Void given Form becomes "ascended" through  Godhome. Both are similar but with varying attributes. In addition, each state also correlates with a new description and form of the  Void Idol.
 
 Void given Form
 
@@ -15722,11 +14822,11 @@ Proposed to be the "Lord of Shades", this form of the Void Entity resembles both
 
 This is the form that the Knight takes during the Endings (Hollow Knight)#Ending 3: Dream No More. This ending can only be accessed after obtaining the Void Heart. Before getting this Charms, the creature where the Shade Cloak is acquired has Dream Nail dialogue that presumably relates to this Void Entity. It can be accessed only with the Awoken Dream Nail and states:
 
-<i>"...Void... Power... Without unity..."</i>
+"...Void... Power... Without unity..."
 
 This dialogue changes when Void Heart is acquired, after which it states:
 
-<i>"...Lord of Shades..."</i>
+"...Lord of Shades..."
 
 It is suggested by both this dialogue and the description of Void Heart that after the Knight gets Void Heart, the Void is united by a Lord of Shades, which is presumably the Knight.
 
@@ -15741,20 +14841,18 @@ After defeating the Absolute Radiance in the Pantheon of Hallownest, this Void E
 A statue of this entity is seen in the Hall of Gods after defeating all bosses on radiant difficulty.
 
 Trivia
-Prior to Updates (Hollow Knight)#1.4.2.8 .28beta.29, the text for the statue in the  Hall of Gods for Void given Focus was <i>"Void given mind."</i>
+Prior to Updates (Hollow Knight)#1.4.2.8 .28beta.29, the text for the statue in the  Hall of Gods for Void given Focus was "Void given mind."
 Both forms are also seen in the "Sister of the Void" Endings (Silksong) in Hollow Knight: Silksong.
 
 ---
 
 ---
-
 # 文档：Void Idol
-
 - 类别：lore
 - 标识：void-idol
 - 来源：wiki/Void_Idol
 
-The <b>Void Idol</b> is a Hunter's Journal in <i>Hollow Knight (game)</i>. It is an artifact that originates from the Ancient Civilisation which contains Void.
+The Void Idol is a Hunter's Journal in Hollow Knight (game). It is an artifact that originates from the Ancient Civilisation which contains Void.
 
 How to Acquire
 The Void Idol is found within the Hall of Gods by inspecting Hall_of_Gods#Not_bug.2C_nor_beast.2C_nor_god's statue after beating all bosses on at least one difficulty. Beating all bosses subsequently on Ascended and Radiant each change the idol and its description upon inspecting the statue again.
@@ -15762,33 +14860,31 @@ The Void Idol is found within the Hall of Gods by inspecting Hall_of_Gods#Not_bu
 width="33%"|
 width="33%"|
 width="33%"|
-Statue that gives the <i>Attuned</i> entry
-Statue that gives the <i>Ascended</i> entry
-Statue that gives the <i>Radiant</i> entry
+Statue that gives the Attuned entry
+Statue that gives the Ascended entry
+Statue that gives the Radiant entry
 
 Other States
 
 Attuned
 
-<p style="margin: 0;">Defeat all bosses on Attuned difficulty.</p>
+Defeat all bosses on Attuned difficulty.
 
 Ascended
 
-<p style="margin: 0;">Defeat all bosses on Ascended difficulty.</p>
+Defeat all bosses on Ascended difficulty.
 
 References
 
 ---
 
 ---
-
 # 文档：Weathered Mask
-
 - 类别：lore
 - 标识：weathered-mask
 - 来源：wiki/Weathered_Mask
 
-The <b>Weathered Mask</b> is a Hunter's Journal in <i>Hollow Knight (game)</i>. It is a mask with a crest that used to belong to the Godseekers in the Land of Storms.
+The Weathered Mask is a Hunter's Journal in Hollow Knight (game). It is a mask with a crest that used to belong to the Godseekers in the Land of Storms.
 
 How to Acquire
 The Weathered Mask is found within the Land of Storms, a secret area of Godhome. To access this area, all Pantheons need to be completed with all Bindings. The Bindings can be done any number at a time.
@@ -15798,14 +14894,12 @@ References
 ---
 
 ---
-
 # 文档：Achievements
-
 - 类别：guide
 - 标识：achievements-hollow-knight
 - 来源：wiki/Achievements_(Hollow_Knight)
 
-<h1>Achievements (PC/Xbox/Nintendo)</h1>
+Achievements (PC/Xbox/Nintendo)
 Base Game Achievements (52)
 Charm Achievements
 There are a total of 45 Charms to be found in the base game, from which the Knight can collect only 40 at a time. Please refer to the Charms page for more information.
@@ -15833,7 +14927,7 @@ The following Achievements are related to NPCs and their quests. Please see thei
 Challenges
 
 Endings
-There are five endings to <i>Hollow Knight</i>, four of which involve completing an optional quest to unlock, with two of these endings being added by  Godmaster (the related achievement can be found in the Godmaster section of this page). For more information, please see Endings (Hollow Knight).
+There are five endings to Hollow Knight, four of which involve completing an optional quest to unlock, with two of these endings being added by  Godmaster (the related achievement can be found in the Godmaster section of this page). For more information, please see Endings (Hollow Knight).
 
  Hidden Dreams Achievements (2)
 
@@ -15841,20 +14935,18 @@ There are five endings to <i>Hollow Knight</i>, four of which involve completing
 
  Godmaster Achievements (6)
 
-<h1>Trophies (Playstation)</h1>
+Trophies (Playstation)
 -1  -5  -11  -18 (35 total)
 
 ---
 
 ---
-
 # 文档：Completion
-
 - 类别：guide
 - 标识：completion-hollow-knight
 - 来源：wiki/Completion_(Hollow_Knight)
 
-This page details the requirements for reaching 112% <b>completion</b> in <i>Hollow Knight (game)</i>. The current completion percentage can be viewed after gaining the World Sense Spells and Abilities (Hollow Knight).
+This page details the requirements for reaching 112% completion in Hollow Knight (game). The current completion percentage can be viewed after gaining the World Sense Spells and Abilities (Hollow Knight).
 
 Table of Contents
 
@@ -16200,7 +15292,7 @@ Maggot
 2
 Menderbug
 1
-Increases total entry count by one. Not required for <i>Keen Hunter</i> Achievement. Not required for Hunter's Mark.
+Increases total entry count by one. Not required for Keen Hunter Achievement. Not required for Hunter's Mark.
 Lifeseed
 10
 Baldur
@@ -16317,7 +15409,7 @@ Dung Defender
 1
 White Defender
 1
-Increases total entry count by one. Not required for <i>Keen Hunter</i> achievement. Not required for Hunter's Mark.
+Increases total entry count by one. Not required for Keen Hunter achievement. Not required for Hunter's Mark.
 Flukefey
 15
 Flukemon
@@ -16443,7 +15535,7 @@ Pale Lurker
 1
 Zote
 1
-rowspan="5" style="border-left: 1px solid #ccc;" | Increases total entry count by one. Not required for <i>Keen Hunter</i> achievement. Not required for Hunter's Mark.
+rowspan="5" style="border-left: 1px solid #ccc;" | Increases total entry count by one. Not required for Keen Hunter achievement. Not required for Hunter's Mark.
 Grey Prince Zote
 1
 Winged Zoteling
@@ -16468,7 +15560,7 @@ Markoth
 1
 Grimmkin Novice
 1
-rowspan="4" style="border-left: 1px solid #ccc;" | Increases total entry count by one. Not required for <i>Keen Hunter</i> achievement. Not required for Hunter's Mark.
+rowspan="4" style="border-left: 1px solid #ccc;" | Increases total entry count by one. Not required for Keen Hunter achievement. Not required for Hunter's Mark.
 Grimmkin Master
 1
 Grimmkin Nightmare
@@ -16477,10 +15569,10 @@ Grimm
 1
 Nightmare King Grimm
 1
-Entry cannot be obtained after Grimm Troupe (Quest). Increases total entry count by one. Not required for <i>Keen Hunter</i> achievement. Not required for Hunter's Mark.
+Entry cannot be obtained after Grimm Troupe (Quest). Increases total entry count by one. Not required for Keen Hunter achievement. Not required for Hunter's Mark.
 Brothers Oro & Mato
 1
-rowspan="3" style="border-left: 1px solid #ccc;" | Increases total entry count by one. Not required for <i>Keen Hunter</i> achievement. Not required for Hunter's Mark.
+rowspan="3" style="border-left: 1px solid #ccc;" | Increases total entry count by one. Not required for Keen Hunter achievement. Not required for Hunter's Mark.
 Paintmaster Sheo
 1
 Great Nailsage Sly
@@ -16502,47 +15594,42 @@ Hornet Protector
 Full entry can be obtained by defeating Hornet Sentinel or by defeating Hornet Protector in  Godhome again.
 Hollow Knight
 1
-rowspan="2" style="border-left: 1px solid #ccc;" | Increases total entry count by one. Not required for <i>Keen Hunter</i> achievement. Not required for Hunter's Mark.
+rowspan="2" style="border-left: 1px solid #ccc;" | Increases total entry count by one. Not required for Keen Hunter achievement. Not required for Hunter's Mark.
 Pure Vessel
 1
 Radiance
 1
-Entry can be obtained by defeating either the Radiance or  Absolute Radiance. Increases total entry count by one. Not required for <i>Keen Hunter</i> achievement. Not required for Hunter's Mark.
+Entry can be obtained by defeating either the Radiance or  Absolute Radiance. Increases total entry count by one. Not required for Keen Hunter achievement. Not required for Hunter's Mark.
 Shade
 0
-Full entry is already unlocked after obtaining the Hunter's Journal.
 Hunter's Mark
 Entry
-Entry can be obtained after completing most of the entries in the Hunter's Journal. Not included in total entry count. Not required for <i>Keen Hunter</i> achievement.
+Entry can be obtained after completing most of the entries in the Hunter's Journal. Not included in total entry count. Not required for Keen Hunter achievement.
 Seal of Binding
 Entry
-Entry can be obtained after completing the  Path of Pain. Not included in total entry count. Not required for <i>Keen Hunter</i> achievement. Not required for Hunter's Mark.
+Entry can be obtained after completing the  Path of Pain. Not included in total entry count. Not required for Keen Hunter achievement. Not required for Hunter's Mark.
 Void Idol
 Entry
-Entry can be obtained after defeating all Bosses (Hollow Knight) in the  Hall of Gods on at least one difficulty. Not included in total entry count. Not required for <i>Keen Hunter</i> achievement. Not required for Hunter's Mark.
+Entry can be obtained after defeating all Bosses (Hollow Knight) in the  Hall of Gods on at least one difficulty. Not included in total entry count. Not required for Keen Hunter achievement. Not required for Hunter's Mark.
 Weathered Mask
 Entry
-Entry can be obtained by completing all  Pantheons with every binding. Not included in total entry count. Not required for <i>Keen Hunter</i> achievement. Not required for Hunter's Mark.
+Entry can be obtained by completing all  Pantheons with every binding. Not included in total entry count. Not required for Keen Hunter achievement. Not required for Hunter's Mark.
 
 Achievements
 
 ---
 
 ---
-
 # 文档：Controls
-
 - 类别：guide
 - 标识：controls-hollow-knight
 - 来源：wiki/Controls_(Hollow_Knight)
 
-<i>Hollow Knight</i> contains remappable controls for both the Keyboard and an Xbox or Dualshock 4 Controller. On the wiki, due to the multiple possible inputs and ability to remap said inputs, button/key prompts are referred to by their action rather than the name of the assigned button or key. This is a guide to the names of each input and its default mappings.
+Hollow Knight contains remappable controls for both the Keyboard and an Xbox or Dualshock 4 Controller. On the wiki, due to the multiple possible inputs and ability to remap said inputs, button/key prompts are referred to by their action rather than the name of the assigned button or key. This is a guide to the names of each input and its default mappings.
 
 Name
 Use
 width="72px"|
-width="72px" class="mobile-width-px-2"|
-width="72px" class="mobile-width-px-2"|
 width="72px" class="mobile-width-px-2"|
 JUMP
 Jump, bounce off walls with Mantis Claw, activate Monarch Wings while in mid-air
@@ -16618,35 +15705,33 @@ class="mobile-width-px-2"| https://static.wikia.nocookie.net/hollowknight/images
 
 class="mobile-width-px-2"| https://static.wikia.nocookie.net/hollowknight/images/a/a6/Switch_Left_Stick.png/revision/latest/window-crop/width/48/x-offset/4/y-offset/4/window-width/92/window-height/92
 
-<i>All button images used under Creative Commons from Xelu on OpenGameArt.org
+All button images used under Creative Commons from Xelu on OpenGameArt.org
 
-Dualshock 4 Icon made by Freepik from www.flaticon.com</i>
-
----
+Dualshock 4 Icon made by Freepik from www.flaticon.com
 
 ---
 
+---
 # 文档：Cut Content
-
 - 类别：guide
 - 标识：cut-content-hollow-knight
 - 来源：wiki/Cut_Content_(Hollow_Knight)
 
-This page contains a list of <b>cut content</b> for <i>Hollow Knight (game)</i>. Before the release of the game, some content was announced or shown that ultimately did not make it into the final release. Some cut content was never announced but can instead be found in the game's files.
+This page contains a list of cut content for Hollow Knight (game). Before the release of the game, some content was announced or shown that ultimately did not make it into the final release. Some cut content was never announced but can instead be found in the game's files.
 
 Cut Areas (Hollow Knight)
-Most revealed areas did make it into the game, with only minor rooms being scrapped. However, there were some moderately sized areas that were entirely cut from <i>Hollow Knight</i>.
+Most revealed areas did make it into the game, with only minor rooms being scrapped. However, there were some moderately sized areas that were entirely cut from Hollow Knight.
 
 colspan="2" style="padding: 24px 12px;"|Abyss expansion
 colspan="2" style="padding: 24px 12px;"|Holy Grounds / Temple
 The Forest of Bones had a sub-area that was announced as the Holy Grounds. It was described as a place of worship that was now overtaken.
 colspan="2" style="padding: 24px 12px;"|Snail Village
-Little is known about the Snail Village other than it made an appearance in the <i>A Weird and Wonderful World</i> trailer. Bardoon was likely Shelley's final version.
+Little is known about the Snail Village other than it made an appearance in the A Weird and Wonderful World trailer. Bardoon was likely Shelley's final version.
 
 Cut Charms
 In the reveal of the charms system, an image showing various charms was shown in a Hollow Knight Kickstarter. Some of these charms made it into the game, although others did not, and some have so far been left unnamed. Several of the cut charms seem to appear on each of the Charm Achievements (Hollow Knight).
 
-The ability to "Glorify" charms was scheduled to appear in the  <i>Godmaster</i> content pack, when it was still named <i><b>Gods and Glory.</b></i> It was cut because Team Cherry did not have the time to add it, and they had difficulty balancing a whole new system for new upgrades.
+The ability to "Glorify" charms was scheduled to appear in the  Godmaster content pack, when it was still named Gods and Glory. It was cut because Team Cherry did not have the time to add it, and they had difficulty balancing a whole new system for new upgrades.
 
 width="33.3%" |
 width="33.3%" |
@@ -16660,7 +15745,7 @@ The Zote Charm was an idea thought up by William Pellen that did not make it int
 |
 
 Cut Dialogue & Developer Notes
-The game files of <i>Hollow Knight</i> contain various unused dialogue, notes left by Team Cherry, and other text that cannot be found in the game itself. This text can be extracted from the files with tools such as Asset Studio.
+The game files of Hollow Knight contain various unused dialogue, notes left by Team Cherry, and other text that cannot be found in the game itself. This text can be extracted from the files with tools such as Asset Studio.
 
 The canonical status of most of this text is debatable as it is not used in the game. However, there is some dialogue that is used in the game which is similar to a few unused lines.
 
@@ -16718,7 +15803,7 @@ colspan="1" |Queen's Gardens Delicate Flower inventory text
 colspan="1" |Soul Sanctum Tablet 2
 
 Developer notes
-The following are developer notes that detail various aspects of <i>Hollow Knight's</i> :Category:Lore or dialogue of characters.
+The following are developer notes that detail various aspects of Hollow Knight's :Category:Lore or dialogue of characters.
 
 colspan="1" |Blade
 colspan="1" |Book
@@ -16848,18 +15933,16 @@ Image13 = Dream_Guardian.jpg
 ---
 
 ---
-
 # 文档：Endings
-
 - 类别：guide
 - 标识：endings-hollow-knight
 - 来源：wiki/Endings_(Hollow_Knight)
 
-The following is a list of all <b>endings</b> that can be achieved in <i>Hollow Knight (game)</i>.
+The following is a list of all endings that can be achieved in Hollow Knight (game).
 
 After any ending, loading the save file brings the Knight back to the Bench (Hollow Knight) inside the Temple of the Black Egg, or in  Godhome for the  Godmaster endings, while recording the defeated Bosses (Hollow Knight) in the Hunter's Journal. Other than that, the save file is in the state that it was before the final bosses were defeated. This means that the final bosses are alive again and can be fought to obtain another ending. If the Void Heart has been acquired prior to reaching the end of the game, it is no longer possible to unlock the first ending from that save file.
 
-For the <i>Godmaster</i> endings, giving the Delicate Flower to the Godseeker makes the normal Embrace the Void ending inaccessible. However, there is little reason to achieve the first ending other than to compare differences since both give the same Achievements (Hollow Knight).
+For the Godmaster endings, giving the Delicate Flower to the Godseeker makes the normal Embrace the Void ending inaccessible. However, there is little reason to achieve the first ending other than to compare differences since both give the same Achievements (Hollow Knight).
 
 Ending 1: The Hollow Knight
 
@@ -16871,30 +15954,22 @@ Upon defeat, the Hollow Knight dies and the Knight absorbs the Infection into th
 
 Also unlocks the Infected Menu Styles (Hollow Knight).
 
-<hr />
-
 Achievement
 
 Ending 2: Sealed Siblings
 
 Requirements
 Having acquired Void Heart
-Defeating the Hollow Knight
 
 Near the end of the fight, Hornet swoops in and fractures the Hollow Knight's shell with her Needle before restraining them and giving the Knight an opening.
 
 If the Knight strikes the boss enough times while they are restrained or the Knight takes too much time to use the Dream Nail on the Hollow Knight, they break free, knocking Hornet unconscious, and the fight continues. This triggers an ending where, in addition to the events of the first ending, Hornet is also sealed inside, the shape of her head appearing on the door (similar to how the Dreamers' masks appeared before).
-
-Also unlocks the Infected Menu Styles (Hollow Knight).
-
-<hr />
 
 Achievement
 
 Ending 3: Dream No More
 
 Requirements
-Having acquired Void Heart
 Defeating the Radiance
 
 While Hornet has the Hollow Knight pinned down, if the Awoken Dream Nail is used on them, the Knight is transported into the dream Radiance is imprisoned in to challenge her. At the end of this fight, the Hollow Knight returns as a Shade that rips open the Radiance's face, allowing the Knight to lash at her until she is eventually dragged into the Void and banished.
@@ -16904,8 +15979,6 @@ After the Radiance is defeated, the Infection is purged and the Black Egg vanish
 The scene changes to a shot of the Abyss where the Siblings can be seen sinking down into the ground, finally put to rest with the end of the Radiance.
 
 Also unlocks the Void Menu Styles (Hollow Knight).
-
-<hr />
 
 Achievement
 
@@ -16923,8 +15996,6 @@ Afterwards, Void starts to rain down from the skies inside Godhome and the Godse
 
 The scene shifts again to inside the Temple of the Black Egg where Hornet stares perplexed at the shrivelling vines of the Infection. A figure dragging chains suddenly lurches out which causes Hornet to ready her guard. This figure, although unspecified, is believed to be the Hollow Knight, now free from their duty to contain the Radiance.
 
-<hr />
-
 Achievement
 
 Ending 5: Delicate Flower
@@ -16937,17 +16008,13 @@ The events that play out prior are the exact same as Embrace the Void. However, 
 
 The scene that follows is the same as with Embrace the Void. It ends with Hornet in the Temple of the Black Egg.
 
-<hr />
-
 Achievement
 
 Extra Ending: Passing of the Age
 
 After any other ending, if Mister Mushroom quest has been completed by listening to him in all areas in a certain order, a cutscene plays after the main cutscene depicting Mister Mushroom flying off into the sky.
 
-The ending finishes with a screen displaying <b>"To Be Continued"</b>.
-
-<hr />
+The ending finishes with a screen displaying "To Be Continued".
 
 Achievement
 
@@ -16960,16 +16027,14 @@ However, because of the ending of Act 3 in Silksong, the Hollow Knight and Seale
 ---
 
 ---
-
 # 文档：Godseeker Mode
-
 - 类别：guide
 - 标识：godseeker-mode
 - 来源：wiki/Godseeker_Mode
 
-<i>Challenge the Gods of Hallownest. Take your place at their peak.</i>
+Challenge the Gods of Hallownest. Take your place at their peak.
 
-<b>Godseeker Mode</b> is a game mode in <i>Hollow Knight (game)</i> that is unlocked after completing the first three Pantheons in Godhome: the Pantheon of the Master, the Pantheon of the Artist, and the Pantheon of the Sage. Even though it is unlocked after these Pantheons, it "canonically" occurs after the Pantheon of Hallownest.
+Godseeker Mode is a game mode in Hollow Knight (game) that is unlocked after completing the first three Pantheons in Godhome: the Pantheon of the Master, the Pantheon of the Artist, and the Pantheon of the Sage. Even though it is unlocked after these Pantheons, it "canonically" occurs after the Pantheon of Hallownest.
 
 The purpose of the game mode is having access to almost all Bosses (Hollow Knight) in the game and having most Charms and upgrades unlocked, without needing to play through the main game. Godseeker Mode starts out and takes place entirely in Godhome. There is no way to exit the area.
 
@@ -16991,7 +16056,7 @@ Pantheons
 The first three Pantheons start out unlocked.
 The Pantheon of the Knight can be entered after completing the first three Pantheons.
 The cutscene that normally plays at the end of the Pantheon of the Knight after defeating Pure Vessel for the first time does not play.
-The (non-flower) Endings (Hollow Knight)#Ending 4: Embrace the Void cutscene <i>does</i> play after completing the Pantheon of Hallownest.
+The (non-flower) Endings (Hollow Knight)#Ending 4: Embrace the Void cutscene does play after completing the Pantheon of Hallownest.
 After the cutscene, the time spent completing the Pantheon is shown and the Knight wakes up outside the Pantheon.
 The credits do not play after this cutscene.
 The Completion (Hollow Knight) percentage is not shown.
@@ -17020,16 +16085,14 @@ In an early leak, the Godseeker Mode was shown with a different icon. While the 
 ---
 
 ---
-
 # 文档：Steel Soul Mode
-
 - 类别：guide
 - 标识：steel-soul-mode
 - 来源：wiki/Steel_Soul_Mode
 
-<i>No Shade. No Reviving. Death is Permanent. The Ultimate Challenge.</i>
+No Shade. No Reviving. Death is Permanent. The Ultimate Challenge.
 
-<b>Steel Soul Mode</b> is a game mode in <i>Hollow Knight (game)</i> that is unlocked after finishing the game for the first time.
+Steel Soul Mode is a game mode in Hollow Knight (game) that is unlocked after finishing the game for the first time.
 
 In Steel Soul Mode, there are four main changes to gameplay, compared to Classic Mode:
 The Knight does not respawn upon death. Once the Knight dies, the game ends and the save file is reset. Note: dying to a Dream Boss, or in  Godhome, does NOT count as an actual death. However, dying in the White Palace or to the Radiance DOES result in a Game Over.
@@ -17051,9 +16114,7 @@ Achievements
 ---
 
 ---
-
 # 文档：Trivia
-
 - 类别：guide
 - 标识：trivia-hollow-knight
 - 来源：wiki/Trivia_(Hollow_Knight)
@@ -17071,43 +16132,23 @@ Promotional Art
 
 Kickstarter Misc.
 
-<hr/>
-
 Hollow Knight
-
-<hr/>
 
 Hollow Knight Soundtrack
 
-<hr/>
-
  Hidden Dreams
-
-<hr/>
 
  The Grimm Troupe
 
-<hr/>
-
  Lifeblood
-
-<hr/>
 
  Godmaster
 
-<hr/>
-
 Gods and Nightmares Soundtrack
-
-<hr/>
 
 Voidheart Edition
 
-<hr/>
-
 Silksong
-
-<hr/>
 
 Silksong Soundtrack
 
@@ -17115,19 +16156,15 @@ Character Promotional Art
 
 Hollow Knight
 
-<hr/>
-
 Silksong
 
 Early Concept Art
-A series of art pieces drawn by Team Cherry, known as "Hungry Bug", they were made after the game <b>Hungry Knight</b> and served as the basis for the creation of the world of Hallownest.
+A series of art pieces drawn by Team Cherry, known as "Hungry Bug", they were made after the game Hungry Knight and served as the basis for the creation of the world of Hallownest.
 
 ---
 
 ---
-
 # 文档：Updates
-
 - 类别：guide
 - 标识：updates-hollow-knight
 - 来源：wiki/Updates_(Hollow_Knight)
@@ -17140,50 +16177,42 @@ First and second decimals are for major/minor feature additions, respectively. T
 colspan="6" style="text-align: center;"|
 
 style="padding-right: 24px;"|
-style="padding-right: 24px;"|
-style="padding-right: 24px;"|
-style="padding-right: 24px;"|
-style="padding-right: 24px;"|
-style="padding-right: 24px;"|
 
 1.5.12459
-<b>February 6th, 2026</b>
+February 6th, 2026
 Added support for 21:9 & 16:10 resolutions.
 Game now pauses while in inventory menus.
 Upgraded to Unity Input System for broader controller support (original input system is still available, if preferred, via Options>Controller>Advanced Settings)
 
 1.5.78.11833
-<b>October 21st, 2021</b>
+October 21st, 2021
 Fixed Aspid Hunter and Primal Aspid sometimes spitting immediately after breaking out of jars
 Fixed door in a City of Tears house staying locked sometimes after defeating the enemy
 Fixed brightness resetting on quit to menu if set to minimum value
 
 1.5.78.11833 (beta)
-<b>September 29th, 2021</b>
+September 29th, 2021
 Fixed background blur for Low and Medium options when using a screen resolution that is taller than 16:9
 Fixed Low and Medium background blur to have the same vibrancy as High
 
 1.5.77.11832 (beta)
-<b>August 16th, 2021</b>
-Fixed Aspid Hunter and Primal Aspid sometimes spitting immediately after breaking out of jars
-Fixed door in a City of Tears house staying locked sometimes after defeating the enemy
-Fixed brightness resetting on quit to menu if set to minimum value
+August 16th, 2021
 Fixed some camera shakes ignoring config value
 Fixed getting damaged by spikes while on a lift and ending up inside the ground
 
 1.5.75.11827
-<b>June 28th, 2021</b>
+June 28th, 2021
 Fixed Pantheons getting stuck at end screen when not using a controller
 Fixed language setting not saving when changed within game
 
 1.5.72.11824
-<b>June 25th, 2021</b>
+June 25th, 2021
 Fixed achievements for macOS (not firing in v1.5.68.11808)
 Fixed Nail Arts damage
 Fixed missing effects when slashing lift spikes
 
 1.5.72.11824 (beta)
-<b>June 22nd, 2021</b>
+June 22nd, 2021
 Added ControllerRumbleMultiplier and CameraShakeMultiplier to Config.ini
 Fixed Native Input not showing the correct state
 Crystal Guardian will now wake up when damaged by Dreamshield and Grimmchild
@@ -17192,30 +16221,28 @@ Fixed Troupe Master Grimm's flame balls to now spawn from behind him
 Fixed camera shake not working during hit pauses
 
 1.5.71.11816 (beta)
-<b>June 17th, 2021</b>
+June 17th, 2021
 Fixed Achievements (Hollow Knight) for macOS (not firing in v1.5.68.11808)
-Fixed Nail Arts damage
-Fixed missing effects when slashing lift spikes
 Re-added native input option (on by default)
 Updated InControl plugin to latest version
 
 1.5.68.11808
-<b>June 7th, 2021</b>
+June 7th, 2021
 Added "Borderless" option to fullscreen in video options
 64-bit is now required (For players with 32-bit computers the previous version (1.4.3.2) can still be accessed as a beta)
 Vulkan is now the default graphics API for Linux
 
 1.5.68.11808 (beta)
-<b>June 3rd, 2021</b>
+June 3rd, 2021
 macOS Apple Silicon native support removed. Some of our native plugins do not yet support it, which would result in Steam integration and controller issues. All platforms updated for version parity
 
 1.5.66.11805 (beta)
-<b>March 15th, 2021</b>
+March 15th, 2021
 Fixed issue where closing the brightness menu in-game would in some cases restart the game
 Minor translation fixes
 
 1.5.65.11802 (beta)
-<b>March 9th, 2021</b>
+March 9th, 2021
 Crystal Guardian will now wake up when damaged by area attacks (Spore Shroom, etc)
 Fixed damage inconsistency with area attacks on Radiance, Absolute Radiance, and Pure Vessel
 Fixed settings changed in pause menu being reset when quitting to menu
@@ -17225,7 +16252,7 @@ Various minor map fixes
 Various minor translation fixes
 
 1.5.64.11792 (beta)
-<b>March 3rd, 2021</b>
+March 3rd, 2021
 Reduced screen tearing during screen shakes
 Fixed Glowing Womb charm becoming inaccessible
 Sideways dash is now preferred when Dashmaster is equipped (less accidental down dashing!)
@@ -17233,7 +16260,7 @@ Fixed issue where Watcher Knight's back roll was not happening
 Other fixes (Mantis Traitor and Mantis Petra Dream Nail dialogue was fixed and Mantis Traitors now drop Geo again)
 
 1.5.61.11779 (beta)
-<b>February 24th, 2021</b>
+February 24th, 2021
 Fixed Elderbug's Greenpath hint dialogue
 Grimm chest reward is now left on the ground if you banish him without collecting it
 Fixed issues with binding mouse buttons
@@ -17243,30 +16270,28 @@ Hopefully less hitching, and less memory usage on startup (enabled incremental G
 Other small fixes
 
 1.5.58.11762 (beta)
-<b>February 22nd, 2021</b>
-Added "Borderless" option to fullscreen in video options
+February 22nd, 2021
 Fixed uncollected Grubfather rewards being miss-able
 Enabled controller rumble (only supported for certain configurations, e.g. Xbox One controller on Windows)
 Fixed the Soul Tyrant battle in pantheons getting stuck after being defeated sometimes
 Fixed death loop if moving too high during Absolute Radiance phase 2
 64-bit is now required for Windows
-Vulkan is now the default graphics API for Linux
 Other minor fixes
 
 1.4.3.2
-<b>September 25th, 2018</b>
+September 25th, 2018
 Voidheart Edition changes
 'Voidheart' Menu Styles (Hollow Knight) now available
 Fixed an issue where game could become slower over a game session for some players
 
 1.4.2.9 (beta)
-<b>August 29th, 2018</b>
+August 29th, 2018
 Fixed (another) issue where Hornet Sentinel could get stuck in wall during Godhome battle
 Fixed issue where defeating Failed Champion or Lost Kin in Godhome also counted as defeating them in Hallownest, missing achievement (if achievement was missed previously it should now be awarded when player next rests at a Bench (Hollow Knight))
 Added extra check to keep Pantheon of the Master bosses out of the ground
 
 1.4.2.8 (beta)
-<b>August 28th, 2018</b>
+August 28th, 2018
 Fixed issue with Godmaster's Absolute Radiance where attack would telegraph in wrong position
 Improved visibility of one of that boss's attacks
 Fixed issue where completing Trial of the Fool did not unlock God Tamer's statue in Hall of Gods
@@ -17274,19 +16299,19 @@ Fixed file select screen display issue
 Game Text fixes ("Void given mind" was changed to "Void_Entity#Void_given_Focus")
 
 1.4.2.7 (beta)
-<b>August 27th, 2018</b>
+August 27th, 2018
 Godmaster Bosses (Hollow Knight) 'Pure Vessel' gets :Category:Combat (Hollow Knight)#Boss_Staggers more frequently
 Lifeblood Cocoons in Godhome produce more Lifeseeds
 Trial of the Fool is no longer a requirement for accessing Pantheon of the Sage
 
 1.4.2.4
-<b>August 23rd, 2018</b>
+August 23rd, 2018
 Godmaster
 Fixed issue where Dreamshield was not blocking projectiles
 Fixed Wayward Compass sometimes showing incorrect location
 
 1.3.3.7 (beta)
-<b>June 18th, 2018</b>
+June 18th, 2018
 Fixed being able to soft-lock the game by hard-quitting after the final Nailsmith upgrade
 Fixed Monarch Wings cutscene issue
 Altered Shade spawn position near Watcher Knights
@@ -17295,21 +16320,18 @@ Fixed splash reactions for Quirrel and Hot Spring
 Additional bug fixes and improvements
 
 1.3.3.3 (beta)
-<b>June 3rd, 2018</b>
+June 3rd, 2018
 Fixed an issue from previous public beta where new game could not be created
 Added options for framerate capping
-Additional bug fixes and improvements
 
 1.3.3.1 (beta)
-<b>May 30th, 2018</b>
-Added options for framerate capping
-Additional bug fixes and improvements
+May 30th, 2018
 
 1.3.2.8 (beta)
-<b>May 5th, 2018</b>
+May 5th, 2018
 
 1.3.2.7 (beta)
-<b>May 1st, 2018</b>
+May 1st, 2018
 Fixed display issue during final boss battle
 Fixed mapping display issues
 Fixed missing dialogue
@@ -17318,53 +16340,50 @@ Fixed musical error during late game NPC cutscene
 Fixed display error on shiny items
 
 1.3.1.8 (beta)
-<b>April 23rd, 2018</b>
+April 23rd, 2018
 Fixed Linux achievements not firing
 Fixed issue where Soul Master could become stuck in an infinite loop
 Fixed lever resetting in Stag Stations
 Small graphical fixes
 
 1.3.1.7 (beta)
-<b>April 24th, 2018</b>
-Fixed issue where Dreamshield was not blocking projectiles
-Fixed Wayward Compass sometimes showing incorrect location
+April 24th, 2018
 Removed strange invisible wall in late-game area
 Fixed error in Simplified Chinese journal screen
 Fixed issue where some save files from older versions weren't being read
 Fixed Cloth never leaving Dirtmouth
 Minor bug fixes and tweaks
-Small graphical fixes
 
 1.3.1.5
-<b>April 20th, 2018</b>
+April 20th, 2018
 :Category: Lifeblood
 Soul Tyrant has more Damage Values and Enemy Health (Hollow Knight), and there are fewer delays between his attacks.
 The Hollow Knight has more health.
 
 1.3.1.5 (beta)
-<b>April 19th, 2018</b>
+April 19th, 2018
 
 1.3.1.2 (beta)
-<b>April 17th, 2018</b>
+April 17th, 2018
 
 1.3.1.1 (beta)
-<b>April 14th, 2018</b>
+April 14th, 2018
 
 1.3.0.9 (beta)
-<b>April 12, 2018</b>
+April 12, 2018
 
 1.3.0.8 (beta)
-<b>April 10th, 2018</b>
+April 10th, 2018
 The Hollow Knight's pillar attack does 2 damage.
 
 1.3.0.6 (beta)
-<b>March 31st, 2018</b>
+March 31st, 2018
 Mac OS X has 1800p resolution options.
 Salubra's Blessing does not appear if the player has full SOUL while standing, then sitting on the bench.
 In Trial of the Fool, for the wave with the horizontal Garpedes, the player can no longer go on the top platform and still be beneath the most top Garpede.
 
 1.3.0.4 r8635 (Lifeblood beta)
-<b>March 24th, 2018</b>
+March 24th, 2018
 Traitor Lord has been seriously upgraded. A true challenge awaits!
 A brand Hive Knight with a new music track by Chris Larkin!
 Map_and_Quill#Map_Pins are here! Cartographers rejoice! (sample below)!
@@ -17375,7 +16394,7 @@ Additional sound effects and voices
 Optimisations and performance enhancements
 
 1.2.2.2 (beta)
-<b>November 13th, 2017</b>
+November 13th, 2017
 Fixed missing Dung Defender audio
 Removed erroneous green/blue pixel
 Fixed issue where a boss could be damaged before start of battle
@@ -17388,18 +16407,18 @@ Fix for new boss’s title in Italian
 Fixed issue where Fury of the Fallen did not work while wallsliding
 
 1.2.2.1
-<b>November 9th, 2017</b>
+November 9th, 2017
 Further fixes for the issues in the previous build, eg some switches not working in a late game area.
 
 1.2.2.0 (beta)
-<b>November 7th, 2017</b>
+November 7th, 2017
 Further fixes for the issues in the previous build, eg some switches not working
 1.2.1.7 (beta)
-<b>November 3rd, 2017</b>
+November 3rd, 2017
 Fixed an issue where some chests will not open
 
 1.2.1.4
-<b>October 31st, 2017</b>
+October 31st, 2017
 Fixed Nightmare King Grimm not appearing
 Fixed issue where Nightmare King didn’t take damage correctly during stunned phase
 Fixed reactivity issue on Monomon’s tank
@@ -17409,19 +16428,19 @@ Fixed issue where Grimmkin could be fought twice
 Enemy placement adjustment in City of Tears
 
 1.2.1.3 (beta)
-<b>October 29th, 2017</b>
+October 29th, 2017
 Fixed issue where Collector’s jars did not spawn enemies
 Fixed potential soft-lock in late-game hidden area
 Fixed issue where backtracking in a late-game hidden area could warp you to a completely different location
 
 1.2.1.0
-<b>October 26th, 2017</b>
+October 26th, 2017
 The Grimm Troupe quest is now available. Seek out the Nightmare Lantern.
 New charms available
 Added Brazilian Portuguese (Beta)
 
 1.1.1.8
-<b>August 11th, 2017</b>
+August 11th, 2017
 Fixed issue where defeating Collector with Defender's Crest equipped could make him invincible.
 Fixed issue where certain bosses were invulnerable to Flukenest
 Fixed issue where defeating a Warrior Dreams with Flukenest, spore cloud or dung cloud caused an error that locked you out of retrieving Essence
@@ -17430,43 +16449,43 @@ Re-added missing audio and art to new Hidden Dreams boss.
 Slight adjustment to a Hidden Dreams boss’s falling attack.
 
 1.1.1.7
-<b>August 8th, 2017</b>
+August 8th, 2017
 This fixes both the unkillable enemy in City of Tears and the credits glitch.
 
 1.1.1.6
-<b>August 6th, 2017</b>
+August 6th, 2017
 Title screen change to celebrate the release of Hidden Dreams
 Fixed issue where a Hidden Dreams boss's roar could stay on screen if he was stunned during a certain move
 Fixed an issue where an enemy could 'die twice' if bombarded with attacks, eg multiple flukes, hatchlings, spore shroom. This was the cause of a number of issues, including the Mantis Lords fight sequence breaking and the waves in Colosseum of Fools desyncing. Should be all fixed now!
 Slight tweaks to Flukenest damage
 
 1.1.1.4
-<b>August 3rd, 2017</b>
+August 3rd, 2017
 Hidden Dreams
 New Upgrade: Dreamgate
 Two new bosses (White Defender and Grey Prince Zote)
 
 1.0.3.8
-<b>Date:</b>
+Date:
 Fixed additional issue where some boss/NPC names weren’t appearing.
 Preliminary testing for Japanese language
 
 1.0.3.7
-<b>June 26th, 2017</b>
+June 26th, 2017
 Fixed an issue where Great Husk Sentry could become frozen.
 Further language refinements and fixes.
 
 1.0.3.5
-<b>June 25th, 2017</b>
+June 25th, 2017
 Fixed a soft-lock when speaking to certain characters in Chinese language.
 Further language refinements.
 
 1.0.3.4 (beta)
-<b>June 21st, 2017</b>
+June 21st, 2017
 Further refinements to translation and display for German (Beta), Spanish (Beta), Simplified Chinese (Beta), Korean (Beta).
 
 1.0.3.3 (beta)
-<b>June 20th, 2017</b>
+June 20th, 2017
 New languages: German (Beta), Spanish (Beta), Simplified Chinese (Beta), Korean (Beta).
 Fixed issue where some boss/NPC names weren't displaying correctly.
 Fixed issue where Quick Map shortcut could cause errors while entering/leaving scenes (for real).
@@ -17475,45 +16494,42 @@ Enemy behaviour adjustments.
 Cutscene refinements.
 
 1.0.3.2
-<b>June 8th, 2017</b>
+June 8th, 2017
 Added beta support for Simplified Chinese and German
 Fixed issue where Dung Defender did not react to Dream Nail during battle
 Fixed issue where Quick Map shortcut could cause errors while entering/leaving scenes
 
 1.0.3.1
-<b>May 18th, 2017</b>
+May 18th, 2017
 Added initial language menu on first game launch
 Fixed issue where charms that increase nail-slash size did not apply while wallsliding.
 Fixed issue where in-game timer displayed incorrect playtime.
 
 1.0.2.8
-<b>April 11th, 2017</b>
+April 11th, 2017
 Fixed issue where trigger for Zote event could be skipped.
 Fixed issue where Failed Champion dealt incorrect damage after being stunned
 Improved performance in some targeted scenes, for lower end machines.
 
 1.0.2.8 (beta)
-<b>April 7th, 2017</b>
+April 7th, 2017
 Additional Optimisation
-Fixed issue where Failed Champion dealt incorrect damage after being stunned
-Improved performance in some targeted scenes, for lower end machines.
 Made Quickmap double-tap shortcut easier to register and made it work while sitting at benches
-Fixed issue where trigger for Zote event could be skipped.
 
 1.0.2.6 (beta)
-<b>March 31st, 2017</b>
+March 31st, 2017
 Fixed an issue where dying just as you defeat your Shade could produce some odd results.
 Fixed an issue where Great Hopper ignored damage-over-time effects such as spores.
 Fixed soft-lock issue that could occur before fighting Broken Vessel.
 
 1.0.1.9 (beta)
-<b>March 18th, 2017</b>
+March 18th, 2017
 Fixed an issue where player could Superdash in mid-air
 Lore clarification for Deepnest Stag Station
 Fixed an issue where game could crash at load of main menu for machines with low RAM
 
 1.0.1.4 (beta)
-<b>March 13th, 2017</b>
+March 13th, 2017
 Fixed an issue where opening full map via Quickmap shortcut while in a late game area caused a game-freeze
 Fixed an animation error on player character when exiting a late-game cutscene
 Fixed Shrumal Ogre persistence issue
@@ -17521,46 +16537,44 @@ Fixed an issue where hitting Zote with Dream Nail during his battle cry made him
 Decreased heap size allocation at start-up.
 
 1.0.1.2 (beta)
-<b>March 12th, 2017</b>
+March 12th, 2017
 Fixed issue where Soul Master’s shockwave attack would sometimes not spawn
 Fixed issue with sfx not playing correctly on some breakable one-way walls
 Fixed issue for some players whereby collecting a Mask Shard would white out the screen
 
 1.0.1.1
-<b>March 11th, 2017</b>
+March 11th, 2017
 Fixed issue where defeating Crystal Guardian and then immediately dying prevented his Bench (Hollow Knight) from becoming useable.
 Fixed issue where defeating Crystal Guardian (Enraged Guardian) and then immediately dying prevented Battle Gate from staying open.
 Fixed City Crest in statue displaying over player.
 
 1.0.0.7
-<b>March 3rd, 2017</b>
+March 3rd, 2017
 Reduced slowdown issues around Failed Tramway.
 Initial optimisation improvements.
 Added Cornifer ambient hum and paper trail.
 
 1.0.0.6
-<b>February 24th, 2017</b>
+February 24th, 2017
 Initial Steam release version
 
 1.0.0.5
-<b>February 24th, 2017</b>
+February 24th, 2017
 Initial GOG release version
 
 ---
 
 ---
-
 # 文档：Damage Values and Enemy Health
-
 - 类别：guide
 - 标识：damage-values-and-enemy-health-hollow-knight
 - 来源：wiki/Damage_Values_and_Enemy_Health_(Hollow_Knight)
 
-<b>#Damage Values</b>
+#Damage Values
 
 Nail • #Nail • #Spells and Abilities • #Charms
 
-<hr /><b>#Health Values</b>
+#Health Values
 
 Standard Enemies • #Bosses and Minibosses
 
@@ -17574,10 +16588,10 @@ Where 5 values are shown, it is the health value for each Nail upgrade.
 Nail
 colspan="2" |NAIL
 colspan="2" |NAIL ARTS
-width="25%" |<b>Source</b>
-width="25%" |<b>Damage</b>
-width="25%" |<b>Source</b>
-width="25%" |<b>Damage</b>
+width="25%" |Source
+width="25%" |Damage
+width="25%" |Source
+width="25%" |Damage
 Old Nail
 5
 Great Slash
@@ -17609,12 +16623,11 @@ Fury of the Fallen
 2.1875 x Nail x 3-6 hits
 Spells and Abilities
 colspan="6" |SPELLS AND ABILITIES
-width="16%" |<b>Source</b>
-width="16%" |<b>Damage</b>
-width="16%" |<b>with Shaman Stone</b>
-width="16%" |<b>Source</b>
-width="16%" |<b>Damage</b>
-width="16%" |<b>with Shaman Stone</b>
+width="16%" |Source
+width="16%" |Damage
+width="16%" |with Shaman Stone
+width="16%" |Source
+width="16%" |Damage
 Vengeful Spirit
 15
 20
@@ -17678,10 +16691,10 @@ Crystal Heart
 
 CharmsFor a list of all charms, see Charms.
 colspan="4" |CHARMS
-width="25%" |<b>Source</b>
-width="25%" |<b>Damage</b>
-width="25%" |<b>Source</b>
-width="25%" |<b>Damage</b>
+width="25%" |Source
+width="25%" |Damage
+width="25%" |Source
+width="25%" |Damage
 Fury of the Fallen
 1.75 x Nail
 (9/16/23/30/37)
@@ -17763,12 +16776,12 @@ Parentheses () clarify the nature of that enemy's health.
 Certain enemies and bosses gain HP after the Knight upgrades the Old Nail. Enemies with this change are noted in parentheses.
 For a more comprehensive list, see :Category:Enemies (Hollow Knight).Standard Enemies
 colspan="6" |MAIN GAME
-width="16%" |<b>Name</b>
-width="16%" |<b>Health</b>
-width="16%" |<b>Name</b>
-width="16%" |<b>Health</b>
-width="16%" |<b>Name</b>
-width="16%" |<b>Health</b>
+width="16%" |Name
+width="16%" |Health
+width="16%" |Name
+width="16%" |Health
+width="16%" |Name
+width="16%" |Health
 Aluba
 1
 Ambloom
@@ -18052,10 +17065,10 @@ The Eternal Ordeal
 
 Bosses and MinibossesFor a full list of bosses, see :Category:Bosses (Hollow Knight).
 colspan="4" |MAIN GAME
-width="25%" |<b>Name</b>
-width="25%" |<b>Health</b>
-width="25%" |<b>Name</b>
-width="25%" |<b>Health</b>
+width="25%" |Name
+width="25%" |Health
+width="25%" |Name
+width="25%" |Health
 Brooding Mawlek
 300
 Crystal Guardian
@@ -18134,9 +17147,7 @@ Markoth
 Xero
 200 / 320 / 416 / 500 / 570
 Marmu
-200 / 320 / 416 / 500 / 570
 No Eyes
-200 / 320 / 416 / 500 / 570
 Nosk
 680
 Zote
@@ -18177,22 +17188,20 @@ Stages 1-6 respectively: 400 / 450 / 300 / 750 / 281
 ---
 
 ---
-
 # 文档：Eternal Ordeal
-
 - 类别：guide
 - 标识：eternal-ordeal
 - 来源：wiki/Eternal_Ordeal
 
-The <b>Eternal Ordeal</b> is a secret challenge which can be found in the Hall of Gods in Godhome. It requires defeating as many Zotelings as possible before dying.
+The Eternal Ordeal is a secret challenge which can be found in the Hall of Gods in Godhome. It requires defeating as many Zotelings as possible before dying.
 
-The Eternal Ordeal always starts with a fight against Zoteling the Mighty (who is the same as Zote the Mighty as he is fought in the Trial of the Warrior; however, he is able to deal contact damage). After defeating him, a full-screen title card appears displaying <b>"The Eternal Ordeal"</b>, and a counter with Zote's head appears as a HUD in the lower-left of the screen to track Zoteling kills.
+The Eternal Ordeal always starts with a fight against Zoteling the Mighty (who is the same as Zote the Mighty as he is fought in the Trial of the Warrior; however, he is able to deal contact damage). After defeating him, a full-screen title card appears displaying "The Eternal Ordeal", and a counter with Zote's head appears as a HUD in the lower-left of the screen to track Zoteling kills.
 
 Zote begins to sing along with the music as waves of Zotelings begin to spawn. As the counter racks up kills, the difficulty increases and more variants appear, some exclusive to the Ordeal (the Zotelings unique to the Ordeal do not have Hunter's Journal entries).
 
 Rewards
 
-Once 57 Zotelings have been killed, the counter turns gold (as does the hidden Zote statue) and a new Menu Styles (Hollow Knight) is unlocked: <i>The Eternal Ordeal</i>. The title screen features a statue of Zote with him singing the main menu theme of the game.
+Once 57 Zotelings have been killed, the counter turns gold (as does the hidden Zote statue) and a new Menu Styles (Hollow Knight) is unlocked: The Eternal Ordeal. The title screen features a statue of Zote with him singing the main menu theme of the game.
 
 Location
 
@@ -18203,7 +17212,7 @@ Then, reach the hidden ledge above the arch by Crystal Heart off the right wall 
 After entering the secret room above, a pounding noise comes from the crumbling left wall. Once this wall is broken, a statue of Zote enters the room accompanied by Zote's voice. This statue can be challenged which starts the Eternal Ordeal. Once the Knight dies in the Ordeal, they are returned to this statue.
 
 Types of Zotes
-<i>Kills to Spawn</i> is the minimum to spawn this Zoteling. New Zotelings only spawn when a previous one is killed, selecting randomly from among the available types. This means a new Zoteling type may not spawn immediately.
+Kills to Spawn is the minimum to spawn this Zoteling. New Zotelings only spawn when a previous one is killed, selecting randomly from among the available types. This means a new Zoteling type may not spawn immediately.
 No more than 2 of the same type of Zoteling spawn at the same time.
 All Zotelings increase in speed with each kill. The speedup is subtle but becomes highly noticeable around 50 kills. At ~80 kills, charging Zotelings and Lanky Zotelings can cross the arena in ~1s.
 No Zotelings other than the initial Zoteling the Mighty, Winged Zotelings, Hopping Zotelings, and Volatile Zotelings can be hit with the Dream Nail.
@@ -18225,8 +17234,8 @@ Zote's Curse
 Simultaneous Zotelings
 The maximum number of Zotelings alive at any time increases with the number of kills.
 
-<b>Max Zotelings</b>
-<b>Kills</b>
+Max Zotelings
+Kills
 1
 0 kills
 2
@@ -18255,7 +17264,7 @@ The fifty-seven kills to unlock the Eternal Ordeal title screen is a reference t
 Zote's Curse resembles Salubra's Blessing; however, it drains SOUL instead of regenerating it.
 The 57 precepts are represented by the Lore Tablets behind the Zote statue that is the entrance to the Eternal Ordeal.
 The Eternal Ordeal statue has a Cut Content (Hollow Knight) of:
-<i>"Intruder amongst the gods of Hallownest"</i>
+"Intruder amongst the gods of Hallownest"
 By shifting the statue sprite around after loading the level in Unity, cut content can be found: what appears to be a selector for a "mode" (Attuned, Ascended, Radiant) and a switch that allows for changing bosses between dream variants.
 Killing Zote at the beginning of the Eternal Ordeal unlocks his Journal entry. However, killing Winged, Hopping and Volatile Zotelings during this encounter does not unlock their entries.
 There is a glitch where if a Heavy Zoteling leaps against a wall, it immediately creates shockwaves from the point where it jumped.
@@ -18266,14 +17275,12 @@ When opening the map it shows Kingdom's Edge area.
 ---
 
 ---
-
 # 文档：Hall of Gods
-
 - 类别：guide
 - 标识：hall-of-gods
 - 来源：wiki/Hall_of_Gods
 
-The <b>Hall of Gods</b> is an area found at the bottom of Godhome. This area is filled with statues of Bosses (Hollow Knight), which can be activated to fight them.
+The Hall of Gods is an area found at the bottom of Godhome. This area is filled with statues of Bosses (Hollow Knight), which can be activated to fight them.
 
 Defeating a boss on any mode puts a symbol on the statue. Each can be fought infinitely at any difficulty.
 
@@ -18295,11 +17302,11 @@ Fighting Bosses
 Bosses, referred to as "gods", can be challenged by interacting with their respective statue in one of three difficulties:
 
 width="10%" |
-width="90%" |<b>Attuned</b>
+width="90%" |Attuned
 
-<b>Ascended</b>
+Ascended
 
-<b>Radiant</b>
+Radiant
 
 Switching between Boss variations
 Bosses with multiple variations have a lever connected to the pedestal of the statue that can be activated by hitting it with the Nail. Doing so switches between variations.
@@ -18320,207 +17327,148 @@ style="font-size:80%" |Health
 colspan="2" |One more Vengefly King spawns opposite to the side of the other Vengefly King on Ascended difficulty or above.
 rowspan="2" |
 Brooding Mawlek
-style="font-size:80%" |Health
 
 colspan="2" |The middle platform disappears on Ascended difficulty or above.
 rowspan="4" |
 False Knight
-style="font-size:80%" |Health
 
 colspan="2" |The arena is larger than in the base game, no difficulty differences.
 Failed Champion
-style="font-size:80%" |Health
 
 colspan="2" |The arena appears to be about the same size, no difficulty differences.
 rowspan="2" |
 Hornet Protector
-style="font-size:80%" |Health
 
-colspan="2" |The arena appears to be about the same size, no difficulty differences.
 rowspan="2" |
 Hornet Sentinel
-style="font-size:80%" |Health
 
-colspan="2" |The arena appears to be about the same size, no difficulty differences.
 rowspan="2" |
 Massive Moss Charger
-style="font-size:80%" |Health
 
 colspan="2" |Same arena as the base game fight, no difficulty differences.
 rowspan="2" |
 Flukemarm
-style="font-size:80%" |Health
 
 colspan="2" |Arena is missing top left platform compared to base game fight. First 6 Flukefeys have more Health on Ascended difficulty or above.
 rowspan="2" |
 Mantis Lords
-style="font-size:80%" |Health
 
-colspan="2" |Same arena as the base game fight, no difficulty differences.
 rowspan="2" |
 Sisters of Battle
-style="font-size:80%" |Health
 
 colspan="2" |Same arena as the Mantis Lords fight, face all three lords in phase 2.
 rowspan="2" |
 Oblobbles
-style="font-size:80%" |Health
 
-colspan="2" |Same arena as the base game fight, no difficulty differences.
 rowspan="2" |
 Hive Knight
-style="font-size:80%" |Health
 
 colspan="2" |Same arena as the base game fight but does not start the fight off with the Swarm Release attack. Starts in Phase 3 Ascended difficulty or above.
 rowspan="4" |
 Broken Vessel
-style="font-size:80%" |Health
 
-colspan="2" |Same arena as the base game fight, no difficulty differences.
 Lost Kin
-style="font-size:80%" |Health
 
-colspan="2" |Same arena as the base game fight, no difficulty differences.
 rowspan="2" |
 Nosk
-style="font-size:80%" |Health
 
 colspan="2" |Same arena as the base game fight, the middle platform dissappears on Ascended difficulty or above.
 rowspan="2" |
 Winged Nosk
-style="font-size:80%" |Health
 
 colspan="2" |Same arena as the base Pantheon fight, no difficulty differences.
 rowspan="2" |
 The Collector
-style="font-size:80%" |Health
 
 colspan="2" |Same arena as the base game fight. Spawns Primal Aspids, Sharp Baldurs and Armoured Squits instead of its usual roster on Ascended difficulty and above. These enemies have a Damage Values and Enemy Health (Hollow Knight) of 26. Drops only 1 jar at a time during Phase 1 on Ascended difficulty and above.
 rowspan="2" |
 God Tamer
-style="font-size:80%" |Health
 
-colspan="2" |Same arena as the base game fight, no difficulty differences.
 rowspan="2" |
 Crystal Guardian
-style="font-size:80%" |Health
 
 colspan="2" |The arena is much larger than the base game fight, spikes are now added to the top half of both walls of the arena. Starts the fight with a random attack.
 rowspan="2" |
 Enraged Guardian
-style="font-size:80%" |Health
 
 colspan="2" |Arena is smaller with spikes now added to the top half of both walls of the arena. Starts the fight with the Laser Beam attack and then a random attack.
 rowspan="2" |
 Uumuu
-style="font-size:80%" |Health
 
 colspan="2" |A green fog appears on the bottom of the arena that damages the Knight if they fall into it on Ascended difficulty or above. The boss also summons Oomas that must be utilized in order to break its membrane.
 rowspan="2" |
 Traitor Lord
-style="font-size:80%" |Health
 
 colspan="2" |The arena is much larger than the base game fight, no difficulty differences.
 rowspan="2" |
 Grey Prince Zote
-style="font-size:80%" |Health
 
 colspan="2" |Arena appears wider than base game, no difficulty differences.
 rowspan="2" |
 Soul Warrior
-style="font-size:80%" |Health
 
 colspan="2" |Starts spawning Folly on Ascended difficulty or above.
 rowspan="4" |
 Soul Master
-style="font-size:80%" |Health
 
-colspan="2" |Same arena as the base game fight, no difficulty differences.
 Soul Tyrant
-style="font-size:80%" |Health
 
-colspan="2" |Same arena as the base game fight, no difficulty differences.
 rowspan="4" |
 Dung Defender
-style="font-size:80%" |Health
 
-colspan="2" |Same arena as the base game fight, no difficulty differences.
 White Defender
-style="font-size:80%" |Health
 
-colspan="2" |Same arena as the base game fight, no difficulty differences.
 rowspan="2" |
 Watcher Knight
-style="font-size:80%" |Health
 
-colspan="2" |Same arena as the base game fight, no difficulty differences.
 rowspan="2" |
 No Eyes
-style="font-size:80%" |Health
 
 colspan="2" |Platforms are re-arranged, and thorns fill the arena on Ascended difficulty or above.
 rowspan="2" |
 Marmu
-style="font-size:80%" |Health
 
 colspan="2" |Arena is shrunk down and boxed off with thorns on all three sides on Ascended difficulty or above.
 rowspan="2" |
 Xero
-style="font-size:80%" |Health
 
 colspan="2" |Ground is replaced by three distanced platforms on Ascended difficulty or above.
 rowspan="2" |
 Markoth
-style="font-size:80%" |Health
 
 colspan="2" |Arena's ground disappears, and platforms are rearranged on Ascended difficulty or above.
 rowspan="2" |
 Galien
 style="font-size:80%" | Health
 
-colspan="2" |Same arena as the base game fight, no difficulty differences.
 rowspan="2" |
 Gorb
-style="font-size:80%" |Health
 
 colspan="2" |Ground is replaced by three platforms on Ascended difficulty or above.
 rowspan="2" |
 Elder Hu
-style="font-size:80%" |Health
 
-colspan="2" |Same arena as the base game fight, no difficulty differences.
 rowspan="2" |
 Brothers Oro & Mato
-style="font-size:80%" |Health
 
 colspan="2" |Same arena as the Pantheon fight, no difficulty differences.
 rowspan="2" |
 Paintmaster Sheo
-style="font-size:80%" |Health
 
-colspan="2" |Same arena as the Pantheon fight, no difficulty differences.
 rowspan="2" |
 Great Nailsage Sly
-style="font-size:80%" |Health
 
-colspan="2" |Same arena as the Pantheon fight, no difficulty differences.
 rowspan="2" |
 Pure Vessel
-style="font-size:80%" |Health
 
-colspan="2" |Same arena as the Pantheon fight, no difficulty differences.
 rowspan="4" |
 Grimm
-style="font-size:80%" |Health
 
-colspan="2" |Same arena as the base game fight, no difficulty differences.
 Nightmare King
-style="font-size:80%" |Health
 
 colspan="2" |The arena is now a single platform with the walls of the arena cut off.
 rowspan="2" |
 Absolute Radiance
-style="font-size:80%" |Health
 
 colspan="2" |Same arena as the Pantheon fight, no difficulty differences, although it is expanded for Absolute Radiance's final phase.
 rowspan="2" |
@@ -18541,7 +17489,7 @@ colspan="2" |Unlocked after beating all Bosses on Radiant difficulty, updates th
 
 Trivia
 Each symbol reward is only awarded by completing the respective difficulty, regardless of whether the harder difficulties have been completed or not.
-Prior to Updates_(Hollow_Knight)#1.4.2.8_.28beta.29, the Void Idol statue's description was "<i>Void given mind</i>".
+Prior to Updates_(Hollow_Knight)#1.4.2.8_.28beta.29, the Void Idol statue's description was "Void given mind".
 On Radiant difficulty, Charms relating to taking damage and the Knight's health are rendered useless:
 Stalwart Shell
 Thorns of Agony (without the Baldur Shell being used.)
@@ -18560,14 +17508,12 @@ Activating the  Dreamgate during any of the fights causes the Knight to leave th
 You cannot use the Dreamgate in the Hall of Gods unless in a fight.
 Engaging in any fight in the Hall of Gods automatically sets the Knight's save point to the lower Bench (Hollow Knight) in Godhome.
 The Eternal Ordeal statue has a Cut Content (Hollow Knight) of:
-<i>"Intruder amongst the gods of Hallownest"</i>
+"Intruder amongst the gods of Hallownest"
 
 ---
 
 ---
-
 # 文档：Soul
-
 - 类别：guide
 - 标识：soul
 - 来源：wiki/Soul
@@ -18586,7 +17532,7 @@ Soul is used to cast damage-dealing Spells or to Focus, which heals the Knight o
 
 Casting Spells or using Focus requires 33 Soul. Using the Spell Twister Charms reduces the cost of casting Spells to 24.
 
-Acquiring Soul 
+Acquiring Soul
 There are several ways to acquire Soul throughout the game:
 
 Attacking Enemies (Hollow Knight)
@@ -18611,7 +17557,7 @@ Additionally, there are several unique Soul Totems with unlimited Soul scattered
 
 Various Soul Totems
 
-Soul Caches 
+Soul Caches
 
 Soul Caches are found in the Soul Sanctum in the City of Tears. They are glass jars containing the same orbs of energy as Soul Totems, though they can only be hit once before shattering. Breaking one grants 20, 22, or 24 Soul. Two more Soul Caches can be found within the Abyss in the lighthouse.
 
@@ -18645,14 +17591,12 @@ Team Cherry was inspired by the Wikipedia:Bloodborne healing system for the Soul
 ---
 
 ---
-
 # 文档：Bench
-
 - 类别：guide
 - 标识：bench-hollow-knight
 - 来源：wiki/Bench_(Hollow_Knight)
 
-<b>Benches</b> are checkpoints throughout Hallownest that the Knight can sit on to perform several actions:
+Benches are checkpoints throughout Hallownest that the Knight can sit on to perform several actions:
 Respawn at the Bench after quitting the game or dying
 Replenish all health (including Lifeblood Masks granted by Charms, but depletes all Lifeblood Masks from Lifeblood Cocoon)
 Equip and unequip Charms
@@ -18686,21 +17630,19 @@ Tiso again, in the Colosseum of Fools
 Bretta in Dirtmouth
 The Crystal Guardian boss is first encountered sitting on a Bench. Attacking it starts the fight and it is not possible to rest at the Bench before defeating it.
 A fake Bench found in Distant Village is set up by Distant Villagers to trap the Knight to bring them into Beast's Den.
-The Bench in Leg Eater's location is actually a corpse that can be Dream Nailed, giving the line: <i>"Why?"</i>
+The Bench in Leg Eater's location is actually a corpse that can be Dream Nailed, giving the line: "Why?"
 A cut Bench called "ancient_bench" comprised of the bodies of dead Vessels existed in game files at one point, but was later removed.
 Another cut bench named "Hornet_room_bench" also existed in the game files upon release. It was part of an unused room that was inaccessible and cannot be found in the game anymore.
 
 ---
 
 ---
-
 # 文档：Fast Travel
-
 - 类别：guide
 - 标识：fast-travel-hollow-knight
 - 来源：wiki/Fast_Travel_(Hollow_Knight)
 
-<b>Fast Travel</b> is the method of travelling directly from one Areas (Hollow Knight) to another. As the Knight progresses through the game, they encounter three methods of Fast Travel: Stagways, Trams, and  Dreamgate.
+Fast Travel is the method of travelling directly from one Areas (Hollow Knight) to another. As the Knight progresses through the game, they encounter three methods of Fast Travel: Stagways, Trams, and  Dreamgate.
 
 Stagways
 
@@ -18754,7 +17696,7 @@ colspan="3" |
 
 Trams
 
-A Tram is a transit vehicle that allows the Knight to fast travel using the tunnels deeper underground where Stag Stations may not reach. Requires the Tram Pass from Deepnest. If the Tram is approached before acquiring the pass, the description simply reads: <i>"A door with an open slot."</i>
+A Tram is a transit vehicle that allows the Knight to fast travel using the tunnels deeper underground where Stag Stations may not reach. Requires the Tram Pass from Deepnest. If the Tram is approached before acquiring the pass, the description simply reads: "A door with an open slot."
 
 There are two Tram tunnels: an upper Tram that connects the southeast end of the Forgotten Crossroads to the southwest end of the Resting Grounds, and a lower Tram that connects the southeast part of Deepnest, the northernmost part of Ancient Basin and the southwest entrance of Kingdom's Edge.
 
@@ -18788,21 +17730,19 @@ A hidden spot between Greenpath and Queen's Station Stagways implies a Fog Canyo
 ---
 
 ---
-
 # 文档：Hollow Knight Beta
-
 - 类别：guide
 - 标识：hollow-knight-beta
 - 来源：wiki/Hollow_Knight_Beta
 
-The <b>Hollow Knight Beta</b> is a beta build of <i>Hollow Knight (game)</i> which was first sent to Hollow Knight Kickstarter in September 2015. It was also released as a sneak peek for Humble Monthly Bundle subscribers on the 3 February, 2017. The beta was released to everyone on 21 September, 2020, after being posted by Team Cherry on the Hollow Knight Discord server.
+The Hollow Knight Beta is a beta build of Hollow Knight (game) which was first sent to Hollow Knight Kickstarter in September 2015. It was also released as a sneak peek for Humble Monthly Bundle subscribers on the 3 February, 2017. The beta was released to everyone on 21 September, 2020, after being posted by Team Cherry on the Hollow Knight Discord server.
 
-All of the major changes between the beta and the final release version of <i>Hollow Knight</i> are documented below.
+All of the major changes between the beta and the final release version of Hollow Knight are documented below.
 
 The beta can be downloaded here.
 
 Area differences
-The beta only contains King's Pass, Dirtmouth, and the Forgotten Crossroads. Some parts of these areas have remained the same in the release version, while some were still incomplete and are missing certain aspects. The following is a list of most major differences in the beta areas compared to the areas in the release version of <i>Hollow Knight</i>.
+The beta only contains King's Pass, Dirtmouth, and the Forgotten Crossroads. Some parts of these areas have remained the same in the release version, while some were still incomplete and are missing certain aspects. The following is a list of most major differences in the beta areas compared to the areas in the release version of Hollow Knight.
 
 colspan="2" |Dirtmouth
 The entrance to Crystal Peak exists but cannot be entered as the level leads nowhere.
@@ -18836,12 +17776,10 @@ Dialogue differences
 Most dialogue of NPCs is different in the beta.
 
 Cornifer
-width="50%" |<b>Beta dialogue</b>
-width="50%" |<b>Current dialogue</b>
+width="50%" |Beta dialogue
+width="50%" |Current dialogue
 
 Elderbug
-width="50%" |<b>Beta dialogue</b>
-width="50%" |<b>Current dialogue</b>
 I hope you aren't too disappointed by our little town, traveller. Though it's now a solemn place, once we were much more welcoming. Entry to the kingdom was forbidden long ago, supposedly after some great calamity. Many gates were closed, but our old well remains as a way to creep back in. Over the years, all kinds used the well to wriggle their way into the ruins, wanderers, thieves, adventurers. Eventually there was enough activity to sustain a  town, and so our predecessors built Dirtmouth.
 I hope you aren't too disappointed by our little town, traveller. Though it's now a solemn place, once we were much more welcoming. Entry to the kingdom was forbidden long ago, supposedly after some great calamity. Many gates were closed, but our old well remains as a way to creep back in.
 So many used to come through here and down into that well, droves and swarms, seeking power and wealth, seduced by endless possibilities in the dark. Funny how few ever return to the surface. Perhaps they find what they're looking for? Heh heh, I'm not so naive. No doubt, they've all been gobbled up! There're countless dangers in those depths.
@@ -18849,33 +17787,24 @@ Over the years, all kinds used the well to wriggle into the ruins, wanderers, th
 As bustling as this town used to be, eventually the flow of fools down the well slowed. I'd thought those times were done. But recently something's changed. There's activity in the caverns, unsettling sounds and rumblings underfoot. The creatures down there have become enraged. They say a poison drifts through the old roads and highways, sending folk mad. Travellers started to drift back here and down into the well, all talking about dreams they'd had of wealth and glory. And that allure to descend, it settled over the townsfolk as well! All of them eventually wandered down there. Except for me, of course. I'm a simple man, and I do not dream. Heh heh...
 Not used in release version.
 I remember asking one young bug why she'd climb down the well, after it had already claimed her mother and brother. Said she'd been dreaming of that stone egg in the temple. She'd heard something stirring within it, singing in a familiar voice.I told her she was a fool, but down she went anyway. Maybe I should have held her back? Heh, I doubt it. Once a mind's set on heading down, no bug can be stopped.
-Not used in release version.
 There's something strange about you. I've seen all types pass below, but you... You're almost familiar, though I'm sure we've never met before.
-Not used in release version.
 Feeling tired? That bench may be iron, but I assure you it’s quite comfortable. There's no better a place to collect your thoughts before heading below.
-Not used in release version.
 Feeling tired? That bench may be iron, but I assure you it’s quite comfortable. There's no better a place to collect your thoughts before heading below. Plus, I'd enjoy the company, even if you're not the most talkative sort.
 Feeling tired? That bench may be iron, but I assure you it's quite comfortable. There's no better place to collect your thoughts before heading below. Plus I enjoy the company. Not that you seem the talkative sort.
 If you do meet my fellows down there you might remind them of their poor Elder, up here, back aching, abandoned to his lonesome vigil. Poor poor me!... Oh I'm fine, really, but a bit of guilt might go some way in persuading their return. Assuming they're still alive that is.
-Not used in release version.
 I never thought I’d see the day. The Stag Station has opened! That building has lain silent since before even my time. Oh, I’ve heard all the tales of the glorious lines. A web of tunnels running all though the kingdom. Not that I’ll be travelling them, mind you! I'm quite content where I am, heh heh…
 I never thought I'd see such a thing. The Stag Station has opened! That building lay silent since before even my time. Oh, I've heard the tales of the glorious lines. A web of tunnels running all through the kingdom. Not that I'll be travelling them, mind you! I'm quite content where I am.
 There’s something about you little traveller. The winds are changing.
-Not used in release version.
 
 The Last Stag
-width="50%" |<b>Beta dialogue</b>
-width="50%" |<b>Current dialogue</b>
 
 Myla
-width="50%"  |<b>Beta dialogue</b>
-width="50%"  |<b>Current dialogue</b>
+width="50%"  |Beta dialogue
+width="50%"  |Current dialogue
 Oh, hello again! Are you still running about? Why not join me d-down here? There's plenty of wealth in these rocks for anyone willing to put a bit of work in! Those crystals out there are worth a fair b-b-bit, but I have a feeling that there's something even more valuable hidden just a bit deeper in! If I close my eyes I can almost smell it! Ha ha ha!
 Oh, hello again! Are you still running about? Why not join me d-down here? There's plenty of wealth in these rocks for anyone willing to put a bit of work in! Those crystals out there are worth a fair b-b-bit, but I have a feeling that there's something even more valuable hidden just a bit deeper in! I can almost smell it! Ha ha ha!
 
 Quirrel
-width="50%"  |<b>Beta dialogue</b>
-width="50%"  |<b>Current dialogue</b>
 I'm Quirrel. I have something of an obsession with forgotten and uncharted places. This ancient kingdom holds many fascinating mysteries, and one of the most intriguing of them is standing right before us.
 I'm Quirrel. I have something of an obsession with uncharted places. This ancient kingdom holds many fascinating mysteries, and one of the most intriguing of them is standing right before us.
 A great stone egg, lying in the corpse of an ancient kingdom. And who knows what other marvels lie even deeper below us…
@@ -18883,30 +17812,22 @@ A great stone egg, lying in the corpse of an ancient kingdom. And this egg...Is 
 For so long I'd heard the tales of this strange, ancient kingdom, tales full of wonders and horrors. No longer could I resist. I just had to see it for myself. And what a time I chose to arrive! This dead world has sprung to life. The creatures are riled up and the earth rumbles. The air is thick. I wonder what could have brought all this about?
 For so long I've felt drawn here. So many tales full of wonders and horrors. No longer could I resist. I just had to see it for myself. And what a time I chose to arrive! This dead world has sprung to life. The creatures are riled up and the earth rumbles. The air is thick. I wonder what could have brought it all about?
 Isn't this building a wonder? Do you think it was built around the egg, or was the egg laid within? And this egg... is it warm? I swear it seems alive somehow. It certainly gives off a unique air. What do you suppose is inside? A great beast? Fantastic treasures? Or something else entirely? Can it be opened? There are strange marks all over it… I do so love a mystery…
-Not used in release version.
 I can't help but notice that nail you wield. It looks a fine instrument, though it's showing signs of wear. I'd wager up there it would take you far. Down here however, I suspect you'll soon meet dangers the surface world can't match.
 Your nail looks a fine instrument, but it's showing signs of wear. I'd wager up there it would take you far. Down here however, I suspect you'll soon meet dangers the surface world can't match.
 Did you pass that town above? What a sad little place. And such majesty hidden right beneath! I suppose that's why they've all headed down here. Who could resist such possibilities?
 Did you pass that town above? What a gloomy little place. And such majesty hidden right beneath!I suppose that's why they've all headed down here. Who could resist such possibilities?
 
 Sly
-width="50%"  |<b>Beta dialogue</b>
-width="50%"  |<b>Current dialogue</b>
 Ah, hello! I knew we'd meet again. How do you like my cosy little store? I've made myself pretty comfortable here, selling old trinkets to travellers like yourself. If you're planning a trip below, I've several items that may improve your chance of survival.
 There's still plenty of work for me to do before I can open the store. Very delicate, very precise work! You seem like the patient sort though. There's no need for unnecessary haste.
-Not used in release version.
 
 Snail Shaman
-width="50%"  |<b>Beta dialogue</b>
-width="50%"  |<b>Current dialogue</b>
 Oho! Who is that creeping out of the darkness? My, you're looking grim! A strange, empty face and a wicked looking weapon! Something important has drawn you down into Hallownest's corpse, but I won't ask what. Perhaps the reason you've found me is because you need my help? Say no more, friend. I'm going to give you a gift, a nasty little spell of my own creation. It's just perfect for a little one like you! Ohoho!
 Oho! There you are! I was watching over you while you slept, and must have slipped away myself. I woke up and found you'd disappeared! You are a surprising fellow, ohoho! Actually, I wanted to ask a small favour of you. You see, there is a certain creature lurking just above us, in the heart of this temple......oho? Well, yet another surprise! You've slain that creature before I've even asked! I scarcely deserve such a friend as you! You're a marvel! Ohohoho!
 Oho! There you are! I was watching over you while you slept, and must have slipped away myself. I woke up and found you'd disappeared! You are a surprising one, ohoho!
 And look! The gate between us has opened. Ohoho! I'm sure you're eager to move on. Farewell, and have faith, whatever you are seeking... Ohohoho!
 
 Zote
-width="50%"  |<b>Beta dialogue</b>
-width="50%"  |<b>Current dialogue</b>
 Know this, urchin. I am Zote the Mighty, a knight of the people. Cross me again, and you'll find out why they call my weapon 'Life Ender'.
 Know this, cur. I am Zote the Mighty, a knight of great renown. Cross me again, and you'll find out why they call my weapon 'Life Ender'.
 Hmph. What a squalid little hamlet this is. The air is foul and the townsfolk have beady eyes. I'll be heading back down below as soon as possible.
@@ -18953,14 +17874,12 @@ The Dreamers' masks all look the same as Monomon.
 ---
 
 ---
-
 # 文档：Lifeblood Cocoon
-
 - 类别：guide
 - 标识：lifeblood-cocoon
 - 来源：wiki/Lifeblood_Cocoon
 
-A <b>Lifeblood Cocoon</b> is a large sac filled with Lifeblood found in various places throughout Hallownest. When struck, it spawns 2-5 Lifeseeds. Each Lifeseed that is killed is absorbed for 1 Lifeblood Mask which is added on top of the Knight regular Masks. The number of Lifeseeds spawned depends on which Cocoon is destroyed.
+A Lifeblood Cocoon is a large sac filled with Lifeblood found in various places throughout Hallownest. When struck, it spawns 2-5 Lifeseeds. Each Lifeseed that is killed is absorbed for 1 Lifeblood Mask which is added on top of the Knight regular Masks. The number of Lifeseeds spawned depends on which Cocoon is destroyed.
 
 All Lifeblood Masks from Cocoons are lost upon entering any Dream Realm or resting at any Bench (Hollow Knight). Cocoons respawn when the Knight rests at a Bench.
 
@@ -19007,28 +17926,26 @@ Completing 4 additional bindings (12 total) - 4 Lifeseeds per Cocoon.
 Completing 4 additional bindings (16 total) - 5 Lifeseeds per Cocoon.
 
 Trivia
-Prior to the  <i>:Category: Lifeblood</i> update, all Lifeblood Cocoons contained a random number of Lifeseeds from 2 to 4.
-Prior to the <i>Voidheart Edition</i>, the Lifeblood Cocoons in Pantheons gave one less Lifeseed.
+Prior to the  :Category: Lifeblood update, all Lifeblood Cocoons contained a random number of Lifeseeds from 2 to 4.
+Prior to the Voidheart Edition, the Lifeblood Cocoons in Pantheons gave one less Lifeseed.
 The location of the Lifeblood Cocoon in the Failed Tramway is marked on the Map even if the Cocoon Pin has not been purchased from Iselda.
 
 ---
 
 ---
-
 # 文档：Soundtrack
-
 - 类别：guide
 - 标识：soundtrack-hollow-knight
 - 来源：wiki/Soundtrack_(Hollow_Knight)
 
-The <b>original soundtrack</b> (or <b>OST</b> for short) of <i>Hollow Knight (game)</i> was composed and performed by Christopher Larkin, and a few other artists. It is divided into two albums, one for the original game and another compiling the new tracks composed for the four Additional Content (Hollow Knight). The tracks in the albums are often composed of several musical suites for gameplay situations. A few others, mainly remixes, were omitted as well.
+The original soundtrack (or OST for short) of Hollow Knight (game) was composed and performed by Christopher Larkin, and a few other artists. It is divided into two albums, one for the original game and another compiling the new tracks composed for the four Additional Content (Hollow Knight). The tracks in the albums are often composed of several musical suites for gameplay situations. A few others, mainly remixes, were omitted as well.
 
-<i>Hollow Knight</i> (Original Soundtrack)
+Hollow Knight (Original Soundtrack)
 Description
 
-<i>Beneath the fading town of Dirtmouth sleeps an ancient, forgotten kingdom. Many are drawn beneath the surface, searching for riches, or glory, or answers to old secrets. Descend into Hallownest, traverse the depths, unravel its mysteries and conquer its evils.
+Beneath the fading town of Dirtmouth sleeps an ancient, forgotten kingdom. Many are drawn beneath the surface, searching for riches, or glory, or answers to old secrets. Descend into Hallownest, traverse the depths, unravel its mysteries and conquer its evils.
 
-The score for Hollow Knight captures the vast underground world of the game. The story begins with soft piano notes echoing the Hollow Knight theme, and as the player explores further, orchestral forces swell to an operatic scale as the fate of the knight unfolds.</i>
+The score for Hollow Knight captures the vast underground world of the game. The story begins with soft piano notes echoing the Hollow Knight theme, and as the player explores further, orchestral forces swell to an operatic scale as the fate of the knight unfolds.
 
 Release dates
 Digital release: February 10, 2017 (Bandcamp), February 24, 2017(GOG, Humble Store)
@@ -19135,7 +18052,6 @@ Battle Main
 Battle Climax
 Ending Theme 1
 Ending Theme 3
-Temple of the Black Egg
 The Hollow Knight, pre-fight
 The Hollow Knight, main
 The Hollow Knight, climax; Birthplace attenuated
@@ -19177,10 +18093,10 @@ Sitting on Pale King throne in the White Palace
 Infected Crossroads
 Forgotten Crossroads#Infected Crossroads
 
-<i>Hollow Knight: Gods & Nightmares</i>
+Hollow Knight: Gods & Nightmares
 Description
 
-<i>Venture to the farthest reaches of Hallownest with an all new collection of epic tracks. Meet fallen kings, gallant knights and ancient gods in this powerful, orchestral collection that brings together all the additional tracks from Hollow Knight and features an entirely new arrangement, Pale Court.</i>
+Venture to the farthest reaches of Hallownest with an all new collection of epic tracks. Meet fallen kings, gallant knights and ancient gods in this powerful, orchestral collection that brings together all the additional tracks from Hollow Knight and features an entirely new arrangement, Pale Court.
 
 Release dates
 Digital release: August 9, 2018 (Bandcamp, GOG, Humble Store)
@@ -19243,7 +18159,6 @@ Pantheon gods (False Knight, Soul Master second phase, God Tamer, Traitor Lord, 
 Single track
 Pure Vessel
 
-Not Featured on the Album
 Title
 Usage
 Accordion Brumm
@@ -19262,10 +18177,10 @@ Godmaster Trailer
 Trailer for Godmaster; Completing a Pantheon segment
 
 Trivia
-More classic tracks of <i>Hollow Knight</i> were recorded alongside the "Pale Court" live recording session. They were set to be released for free on Christopher Larkin's Bandcamp following the release of <i>Gods & Nightmares</i>.
+More classic tracks of Hollow Knight were recorded alongside the "Pale Court" live recording session. They were set to be released for free on Christopher Larkin's Bandcamp following the release of Gods & Nightmares.
 
 The theme of the Dreamers was omitted from the first album and added instead on the second despite being a part of the original release.
-Christopher Larkin also released for free both new tracks of <i>Hidden Dreams</i> on August 3, 2017. This short album was meant as a sneak peek for <i>Gods and Nightmares</i>.
+Christopher Larkin also released for free both new tracks of Hidden Dreams on August 3, 2017. This short album was meant as a sneak peek for Gods and Nightmares.
 The two battle themes of Brothers Oro & Mato are swapped during the Pantheon of Hallownest, unlike any other bosses in Godmaster.
 
 Different promotional cover art of the soundtrack was shown when the digital version of the soundtrack was announced in a Hollow Knight Kickstarter post. This early art was not used for the final release.
@@ -19275,16 +18190,14 @@ References
 ---
 
 ---
-
 # 文档：Voidheart Edition
-
 - 类别：guide
 - 标识：voidheart-edition
 - 来源：wiki/Voidheart_Edition
 
-<b><i>Hollow Knight: Voidheart Edition</i></b> is the release of <i>Hollow Knight (game)</i> on PlayStation 4 and Xbox One. It contained changes which were deployed for the PC and Nintendo Switch versions as well. It was announced on September 11th, 2018 and released on the 25th.
+Hollow Knight: Voidheart Edition is the release of Hollow Knight (game) on PlayStation 4 and Xbox One. It contained changes which were deployed for the PC and Nintendo Switch versions as well. It was announced on September 11th, 2018 and released on the 25th.
 
-This update brought balancing to the fights of  <i>Godmaster</i>, fixed bugs, and made a few visual changes throughout the game. It also added a corresponding menu style, currently used by default on all platform versions.
+This update brought balancing to the fights of  Godmaster, fixed bugs, and made a few visual changes throughout the game. It also added a corresponding menu style, currently used by default on all platform versions.
 
 Content Added
 Voidheart Menu Styles (Hollow Knight)
@@ -19315,18 +18228,16 @@ References
 ---
 
 ---
-
 # 文档：Dream Nail Locations
-
 - 类别：points_of_interest
 - 标识：dream-nail-locations
 - 来源：wiki/Dream_Nail_Locations
 
 List of corpses and statues that can be Dream Nailed, and characters which have only Dream Nail dialogue.
 
-<i>For all other Dream Nail dialogue, see the individual Enemies (Hollow Knight) or NPCs (Hollow Knight) pages</i>
+For all other Dream Nail dialogue, see the individual Enemies (Hollow Knight) or NPCs (Hollow Knight) pages
 
-<b>Table of Contents</b>
+Table of Contents
 
 The Abyss • #Ancient Basin • #City of Tears • #Colosseum of Fools • #Crystal Peak • #Deepnest • #Dirtmouth • #Fog Canyon • #Forgotten Crossroads • #Forgotten Crossroads-Resting Grounds Tram • #Fungal Wastes • #Godhome • #Greenpath • #Howling Cliffs • #Kingdom's Edge • #Queen's Gardens • #Resting Grounds • #Royal Waterways • #White Palace
 
@@ -19339,137 +18250,69 @@ The lighthouse keeper's corpse in the Lighthouse:
 The Ancient_Civilisation#Shade_Beast after the Awoken Dream Nail is obtained:
 
 Ancient Basin
-width="20%" | Corpse/NPC/Statue
-width="70%" | Description and dialogue
-width="10%" | Location
-The corpse of a Royal Retainer next to the fountain:
 The corpse of a Royal Retainer next to the fountain:
 The corpse of a Royal Retainer holding a Simple Key:
 
 Palace Grounds
-width="20%" | Corpse/NPC/Statue
-width="70%" | Description and dialogue
-width="10%" | Location
 The corpses of Royal Retainers near the entrance to Hidden Station:
 
 City of Tears
 Pleasure House
-width="20%" | Corpse/NPC/Statue
-width="70%" | Description and dialogue
-width="10%" | Location
-A corpse in the Pleasure House kitchen:
 A corpse in the Pleasure House kitchen:
 A corpse on the left side of the lift shaft:
 A corpse at the bottom of the lift shaft holding a Wanderer's Journal:
 
 Watcher's Spire
-width="20%" | Corpse/NPC/Statue
-width="70%" | Description and dialogue
-width="10%" | Location
-A corpse near the lift leading to Lurien the Watcher:
 A corpse near the lift leading to Lurien the Watcher:
 
 Colosseum of Fools
-width="20%" | Corpse/NPC/Statue
-width="70%" | Description and dialogue
-width="10%" | Location
 A Shielded Fool near the Bench (Hollow Knight):
 A Sturdy Fool in the Hot Spring:
 
 Crystal Peak
-width="20%" | Corpse/NPC/Statue
-width="70%" | Description and dialogue
-width="10%" | Location
 A Husk Hornhead corpse near a Pale King shrine containing a King's Idol:
 A corpse near a Pale King shrine containing a King's Idol:
 A mining golem holding Crystal Heart:
 
 Hallownest's Crown
-width="20%" | Corpse/NPC/Statue
-width="70%" | Description and dialogue
-width="10%" | Location
 A statue of the Radiance:
 
 Crystallised Mound
-width="20%" | Corpse/NPC/Statue
-width="70%" | Description and dialogue
-width="10%" | Location
 A The Snail Shamans trapped in crystal:
 
 Deepnest
-width="20%" | Corpse/NPC/Statue
-width="70%" | Description and dialogue
-width="10%" | Location
 A Wandering Husk corpse near Midwife:
 A Wandering Husk corpse near Nosk:
-A Wandering Husk corpse near Nosk:
 A Leaping Husk corpse near Nosk:
-A Wandering Husk corpse near Nosk:
 A corpse near Nosk:
-A Leaping Husk corpse near Nosk:
-A Leaping Husk corpse near Nosk:
-A Wandering Husk corpse near Nosk:
-A Wandering Husk corpse near Nosk:
-A Leaping Husk corpse near Nosk:
-A Leaping Husk corpse near Nosk:
-A Wandering Husk corpse near Nosk:
 
 Distant Village
-width="20%" | Corpse/NPC/Statue
-width="70%" | Description and dialogue
-width="10%" | Location
 A pile of corpses in the left cocoon building:
 A corpse in the left cocoon building:
 
 Beast's Den
-width="20%" | Corpse/NPC/Statue
-width="70%" | Description and dialogue
-width="10%" | Location
 The corpse of a Leaping Husk near a Hallownest Seal:
 
 Failed Tramway
-width="20%" | Corpse/NPC/Statue
-width="70%" | Description and dialogue
-width="10%" | Location
 A corpse near the Bench (Hollow Knight):
-A corpse near the Bench:
 A corpse near the Bench:
 
 Weavers' Den
-width="20%" | Corpse/NPC/Statue
-width="70%" | Description and dialogue
-width="10%" | Location
 The corpse of a Weavers:
-The corpse of a Weaver:
-The corpse of a Weaver:
 The corpse of a Weaver:
 
 Dirtmouth
-width="20%" | Corpse/NPC/Statue
-width="70%" | Description and dialogue
-width="10%" | Location
 The left Grimmsteed after The_Grimm_Troupe (Lore) is summoned:
 The right Grimmsteed:
 
 Fog Canyon
-width="20%" | Corpse/NPC/Statue
-width="70%" | Description and dialogue
-width="10%" | Location
 A corpse near a Hallownest Seal:
-A corpse near a Hallownest Seal:
-The corpse of a Husk Guard:
 The corpse of a Husk Guard:
 
 Overgrown Mound
-width="20%" | Corpse/NPC/Statue
-width="70%" | Description and dialogue
-width="10%" | Location
 The corpse of a Snail Shamans:
 
 Forgotten Crossroads
-width="20%" | Corpse/NPC/Statue
-width="70%" | Description and dialogue
-width="10%" | Location
 A Leaping Husk corpse in a tunnel leading to the Dirtmouth well:
 A giant Aspid Mother corpse holding the Glowing Womb charm:
 The corpse of a Husk Guard in the Infected Crossroads:
@@ -19478,16 +18321,10 @@ Two Colosseum of Fools audience bugs in the Hot Spring after Mantis Claw has bee
 The weapon of False Knight after its defeat:
 
 Forgotten Crossroads-Resting Grounds Tram
-width="20%" | Corpse/NPC/Statue
-width="70%" | Description and dialogue
-width="10%" | Location
 The corpse of a Leaping Husk:
 The corpse of a Wandering Husk:
 
 Fungal Wastes
-width="20%" | Corpse/NPC/Statue
-width="70%" | Description and dialogue
-width="10%" | Location
 A Leaping Husk corpse holding a Wanderer's Journal:
 A Leaping Husk corpse near Leg Eater:
 A Wandering Husk corpse near Leg Eater:
@@ -19496,21 +18333,12 @@ Statue of the Dashmaster:
 The corpse of a Husk Sentry near the end of the Pilgrim's Way:
 
 Queen's Station
-width="20%" | Corpse/NPC/Statue
-width="70%" | Description and dialogue
-width="10%" | Location
 A corpse above Willoh near a Hallownest Seal:
 
 Fungal Core
-width="20%" | Corpse/NPC/Statue
-width="70%" | Description and dialogue
-width="10%" | Location
 The corpse of a giant Mushroom Clan:
 
 Godhome
-width="20%" | Corpse/NPC/Statue
-width="70%" | Description and dialogue
-width="10%" | Location
 Two The Godseekers near the entrance in Godhome atrium:
 Two Godseekers in Godhome atrium near the lower Bench (Hollow Knight):
 A Godseeker near the water in Godhome atrium:
@@ -19518,9 +18346,6 @@ Two Godseekers near the Hall of Gods:
 The corpse of Tiso in the Pantheon of Hallownest:
 
 Greenpath
-width="20%" | Corpse/NPC/Statue
-width="70%" | Description and dialogue
-width="10%" | Location
 The corpse of a Leaping Husk near the Stag Station holding a Wanderer's Journal:
 A corpse holding a Hallownest Seal:
 A corpse near the entrance to Fog Canyon:
@@ -19528,20 +18353,12 @@ The corpse of a Husk Hornhead:
 A corpse near Fog Canyon holding a Wanderer's Journal:
 
 Howling Cliffs
-width="20%" | Corpse/NPC/Statue
-width="70%" | Description and dialogue
-width="10%" | Location
 A Leaping Husk corpse near Nailmaster Mato:
 A corpse in the far west of the Howling Cliffs:
 The corpse of a large bug used to summon the Grimm Troupe, after Nightmare King Grimm is defeated:
 
 Kingdom's Edge
-width="20%" | Corpse/NPC/Statue
-width="70%" | Description and dialogue
-width="10%" | Location
 The corpse of a Leaping Husk near a King's Idol:
-The corpse of a Shielded Fool:
-The corpse of a Winged Fool:
 The corpse of a Shielded Fool:
 The corpse of a Winged Fool:
 The corpse of a Sturdy Fool:
@@ -19551,36 +18368,22 @@ The Ancient_Civilisation#Ancient_Nailsmith behind Quick Slash:
 A Leaping Husk corpse next to the Bench (Hollow Knight) near the Cast-Off Shell:
 
 Queen's Gardens
-width="20%" | Corpse/NPC/Statue
-width="70%" | Description and dialogue
-width="10%" | Location
 The corpse of a Leaping Husk holding a Hallownest Seal:
 The corpse of Dryya outside the White Lady room:
 The corpse holding the Love Key:
 The corpse of the Moss Prophet after a Dreamers has been killed or Monarch Wings acquired:
 The corpse of a Mossy Vagabond after a Dreamer has been killed or Monarch Wings acquired:
-The corpse of a Mossy Vagabond after a Dreamer has been killed or Monarch Wings acquired:
-The corpse of a Mossy Vagabond after a Dreamer has been killed or Monarch Wings acquired:
 
 Resting Grounds
-width="20%" | Corpse/NPC/Statue
-width="70%" | Description and dialogue
-width="10%" | Location
 The statue holding  Dreamshield:
 A corpse in the Crypts with a Wanderer's Journal next to it:
 The tomb of a Snail Shamans containing Soul Eater:
 
 Royal Waterways
-width="20%" | Corpse/NPC/Statue
-width="70%" | Description and dialogue
-width="10%" | Location
 The corpse of Tuk in Steel Soul Mode:
 The corpse of a Royal Retainer below the broken bridge holding a Wanderer's Journal:
 
 Isma's Grove
-width="20%" | Corpse/NPC/Statue
-width="70%" | Description and dialogue
-width="10%" | Location
 The corpse of Isma:
 
 Junk Pit
@@ -19590,23 +18393,18 @@ width="10%" |Location
 The corpse of the Nailsmith if he was killed after forging a Nail:
 
 White Palace
-width="20%" | Corpse/NPC/Statue
-width="70%" | Description and dialogue
-width="10%" | Location
 The mould in the hidden workshop:
 The corpse of the Pale King:
 
 ---
 
 ---
-
 # 文档：Geo
-
 - 类别：points_of_interest
 - 标识：geo
 - 来源：wiki/Geo
 
-<b>Geo</b> is the currency of Hallownest used in <i>Hollow Knight (game)</i>.
+Geo is the currency of Hallownest used in Hollow Knight (game).
 There are three types of Geo drops:
 
 Type
@@ -19675,14 +18473,12 @@ The maximum capacity for Geo is 9,999,999.
 ---
 
 ---
-
 # 文档：Hot Spring
-
 - 类别：points_of_interest
 - 标识：hot-spring
 - 来源：wiki/Hot_Spring
 
-<b>Hot Springs</b> are pools of steamy water found in various locations throughout Hallownest. While standing in one, the Knight regenerates 50 SOUL per second, and Masks slowly replenish.
+Hot Springs are pools of steamy water found in various locations throughout Hallownest. While standing in one, the Knight regenerates 50 SOUL per second, and Masks slowly replenish.
 
 A Hot Spring Pin can be purchased from Iselda for , which marks the locations of all discovered Hot Springs on any purchased Maps.
 
@@ -19703,12 +18499,12 @@ Hot Spring events
 Forgotten Crossroads
 After the Mantis Claw has been acquired, two bugs, similar to the ones in the grandstand of the Colosseum of Fools, appear bathing and exchanging gossip. Upon approaching them, they fall silent. If they are splashed with water they react by grumbling and withdrawing further into the water. Using the Dream Nail on them reveals some information about the Colosseum of Fools:
 
-<i>"Another weak one. I'd suggest it try its nail within the Colosseum, though it'd no doubt be squashed in an instant."</i>
+"Another weak one. I'd suggest it try its nail within the Colosseum, though it'd no doubt be squashed in an instant."
 
 Colosseum of Fools
 A non-aggressive Sturdy Fool bathing, splashing it causes it to raise its hand and grunt. Using the Dream Nail gives the dialogue:
 
-<i>"... Why does it disturb me?.."</i>
+"... Why does it disturb me?.."
 
 Deepnest
 Quirrel appears in the Hot Spring in Deepnest after the Failed Tramway has been visited. He comments on the history of the Distant Village and invites the Knight to join him in the Hot Spring. He can be splashed with water which prompts him to bend his head downwards in order to block the water with the mask he wears on his head.
@@ -19719,66 +18515,62 @@ After Millibelle has been given  or more and her empty bank has been visited, sh
 ---
 
 ---
-
 # 文档：Lore Tablets
-
 - 类别：points_of_interest
 - 标识：lore-tablets-hollow-knight
 - 来源：wiki/Lore_Tablets_(Hollow_Knight)
 
-This page lists all <b>Lore Tablets</b> found in <i>Hollow Knight (game)</i>.
+This page lists all Lore Tablets found in Hollow Knight (game).
 
 Table of Contents
 
 Ancient Basin • #City of Tears • #Dirtmouth • #Fog Canyon • #Forgotten Crossroads • #Fungal Wastes • #Greenpath • #Howling Cliffs • #Kingdom's Edge • #Queen's Gardens • #Resting Grounds • #Royal Waterways • #White Palace
 
-colspan="3"|<h1>Ancient Basin</h1>
+colspan="3"|Ancient Basin
 
-colspan="3"|<h1>City of Tears</h1>
+colspan="3"|City of Tears
 colspan="3"|Soul Sanctum
 colspan="3"|Watcher's Spire
 
-colspan="3"|<h1>Dirtmouth</h1>
+colspan="3"|Dirtmouth
 colspan="3"|King's Pass
 
-colspan="3"|<h1>Fog Canyon</h1>
+colspan="3"|Fog Canyon
 
-colspan="3"|<h1>Forgotten Crossroads</h1>
+colspan="3"|Forgotten Crossroads
 
-colspan="3"|<h1>Fungal Wastes</h1>
+colspan="3"|Fungal Wastes
 colspan="3"|Fungal Core
 colspan="3"|Mantis Village
 
-colspan="3"|<h1>Greenpath</h1>
+colspan="3"|Greenpath
 
-colspan="3"|<h1>Howling Cliffs</h1>
+colspan="3"|Howling Cliffs
 
-colspan="3"|<h1>Kingdom's Edge</h1>
+colspan="3"|Kingdom's Edge
 colspan="3"|Colosseum of Fools
 
-colspan="3"|<h1>Queen's Gardens</h1>
+colspan="3"|Queen's Gardens
 
-colspan="3"|<h1>Resting Grounds</h1>
+colspan="3"|Resting Grounds
 colspan="3"|Shrine of Believers
 See: Unnamed_Moth#Dialogue
 
-colspan="3"|<h1>Royal Waterways</h1>
+colspan="3"|Royal Waterways
 
-colspan="3"|<h1>White Palace</h1>
+colspan="3"|White Palace
 colspan="3"| Path of Pain
 To witness secrets sealed, one must endure the harshest punishment.
 
 ---
 
 ---
-
 # 文档：Shade Gate
-
 - 类别：points_of_interest
 - 标识：shade-gate
 - 来源：wiki/Shade_Gate
 
-A <b>Shade Gate</b> is a gate made from Void found in various places throughout Hallownest. They are indestructible and cannot be deactivated. If the Knight moves into it, it bounces them backwards but does not deal damage. Spells pass through Shade Gates.
+A Shade Gate is a gate made from Void found in various places throughout Hallownest. They are indestructible and cannot be deactivated. If the Knight moves into it, it bounces them backwards but does not deal damage. Spells pass through Shade Gates.
 
 To move through it, the Shade Cloak must have been acquired and the Gate needs to be Shadow Dashed through. This means that a Shade Gate cannot be passed until after the Abyss can be accessed.
 
@@ -19794,14 +18586,12 @@ Due to a bug, the Knight can pass through a Shade Gate with a normal dash if the
 ---
 
 ---
-
 # 文档：Whispering Root
-
 - 类别：points_of_interest
 - 标识：whispering-root
 - 来源：wiki/Whispering_Root
 
-<b>Whispering Roots</b> are roots filled with Essence found throughout Areas (Hollow Knight). When the Knight hits a Whispering Root with the Dream Nail, it spawns floating Essence throughout the surrounding area for the Knight to collect.
+Whispering Roots are roots filled with Essence found throughout Areas (Hollow Knight). When the Knight hits a Whispering Root with the Dream Nail, it spawns floating Essence throughout the surrounding area for the Knight to collect.
 
 If you leave the room while there is still essence to be collected, you can return and Dream Nail the root again to respawn the Essence.
 
@@ -19820,5 +18610,3 @@ Map
 34
 
 ---
-
-

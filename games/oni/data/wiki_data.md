@@ -1,16 +1,12 @@
 # Oxygen Not Included Wiki 数据
-
 自动采集自 Wiki
 采集时间：2026-07-10 15:40
 文档总数：400
 
 ---
-
 ## BIOMES
 共 17 篇文档
-
 # 文档：Biome
-
 - 类别：biomes
 - 标识：biome
 - 来源：wiki/Biome
@@ -19,7 +15,7 @@ Biomes are regions on any Asteroid, with each containing 8 Biomes, with the exce
 
 General
 There are 11 different biomes in the game.
-<onlyinclude> </onlyinclude>
+
 (so, for example, the Frozen biome does not cool itself, only starting out cold and cooling through Wheezeworts, which can be removed).
 
 Biomes Contents
@@ -118,7 +114,7 @@ Jungle Biome
 This biome is hot but habitable, and here the player can find Pincha Pepper plants that produce Pincha Peppernut for the Gas Range, as well as Balm Lilies which can be used to make Medical Packs. The Chlorine and Hydrogen gases in the cavities here are unbreathable. The Bleach Stone found here is useful to keep the Duplicants happy with a Hand Sanitizer, and Phosphorite is used as a fertilizer for Pincha Pepper. Jungle biomes often have large veins of Coal, Igneous Rock, Algae, and Iron Ore (which has no special properties compared to other Metal Ores). Morbs can be found here as well. In one jungle biome, there will be either a single Chlorine Gas Vent, the only renewable source of Chlorine, or a second Natural Gas Geyser. Dreckos are often found in this biome near Balm Lily and Pincha Peppernut plants, they can be alternative source of Reed Fiber.
 
 Frozen Biome
-In this biome,  Hypothermia can strike Duplicants without Warm Sweaters (which can be made in a Textile Factory). The temperature ranges from -20 to -40&nbsp;°C. It contains large amounts of liquifiable Ice, Polluted Ice, and Snow, as well as veins of  Granite and Wolframite (both notable for their excellent Heat transfer abilities). For gases, there is Carbon Dioxide and some Oxygen. Players can find Sleet Wheat and Wheezewort plants here. Frozen Biomes are not generated directly next to starting biomes.
+In this biome,  Hypothermia can strike Duplicants without Warm Sweaters (which can be made in a Textile Factory). The temperature ranges from -20 to -40 °C. It contains large amounts of liquifiable Ice, Polluted Ice, and Snow, as well as veins of  Granite and Wolframite (both notable for their excellent Heat transfer abilities). For gases, there is Carbon Dioxide and some Oxygen. Players can find Sleet Wheat and Wheezewort plants here. Frozen Biomes are not generated directly next to starting biomes.
 
 Anti Entropy Thermo-Nullifiers found in Frozen Biome can help cooling the base.
 
@@ -133,12 +129,10 @@ Tide Pool Biome
 Tide Pool Biome contains Salt Water, Brine, Salt, Sand, Sedimentary Rock, Granite. Waterweed grows here. Pokeshell lives in Salt Water pools.
 
 Oil Biome
-It is located right above the volcanic biome. The temperature is ~80&nbsp;°C (on the top) and up to 380&nbsp;°C (on the bottom). It contains Crude Oil, Oil Reservoirs, veins of Diamond, Granite, Lead and Iron Ore and pockets of Natural Gas and Carbon Dioxide. It is inhabited by Slicksters.
-
-If the asteroid has Irregular Oil trait during world generation, the Oil Biome may appear anywhere in the map.
+It is located right above the volcanic biome. The temperature is ~80 °C (on the top) and up to 380 °C (on the bottom). It contains Crude Oil, Oil Reservoirs, veins of Diamond, Granite, Lead and Iron Ore and pockets of Natural Gas and Carbon Dioxide. It is inhabited by Slicksters.
 
 Volcanic Biome
-Volcanic biome appears at the very bottom of the map. It only contains liquid Magma (about 1600&nbsp;°C), Obsidian and Neutronium, of which the latter cannot be destroyed by conventional means.
+Volcanic biome appears at the very bottom of the map. It only contains liquid Magma (about 1600 °C), Obsidian and Neutronium, of which the latter cannot be destroyed by conventional means.
 
 Space Biome
 The surface of asteroid. It contains Mafic Rock, Regolith and Granite in the upper layers, and Igneous Rock can be found in the lower layers.
@@ -160,9 +154,7 @@ Gallery
 pt-br:Bioma
 
 ---
-
 # 文档：Aquatic Biome
-
 - 类别：biomes
 - 标识：aquatic biome
 - 来源：wiki/Aquatic_Biome
@@ -184,8 +176,6 @@ Hot
 Center Islands
 None
 
-
-
 None
 None
 None
@@ -193,8 +183,6 @@ Temperate
 27 °C
 Frozen Island
 None
-
-
 
 None
 None
@@ -204,8 +192,6 @@ Cold
 Surface Island
 None
 
-
-
 None
 None
 None
@@ -213,7 +199,6 @@ Temperate
 27 °C
 Core
 None
-
 
 None
 
@@ -244,9 +229,7 @@ Polluted Water Vent Island
 Core
 
 ---
-
 # 文档：Barren Biome
-
 - 类别：biomes
 - 标识：barren biome
 - 来源：wiki/Barren_Biome
@@ -258,8 +241,6 @@ Variant !! Metal Ore !! Raw Mineral !! Other Solids !! Liquid & Gas !! Plants & 
 Base Version
 style="text-align:center"|
 
-style="text-align:center"|
-style="text-align:center"| None
 style="text-align:center"| None
 Human Warm
 24.85 ↔ 39.85 °C
@@ -271,9 +252,7 @@ Trivia
 Barren Biome, being non-feature, was not explicitly listed in the release notes.
 
 ---
-
 # 文档：Forest Biome
-
 - 类别：biomes
 - 标识：forest biome
 - 来源：wiki/Forest_Biome
@@ -284,10 +263,8 @@ Content
 Variant !! Metal Ore !! Raw Mineral !! Other Solids !! Gas !! Plants !! Critters !! Temperature
 Base Version
 rowspan=11 style="text-align:center"|
-rowspan=11 style="text-align:center"|
 
 rowspan=11|
-rowspan=11 style="text-align:center"|
 
 rowspan=10 style="text-align:center"|
 
@@ -361,9 +338,7 @@ Small Frozen Lake
 A Snow, Ice and Oxygen room surrounded by Ice, Dirt, Igneous Rock, Aluminum Ore.
 
 ---
-
 # 文档：Frozen Biome
-
 - 类别：biomes
 - 标识：frozen biome
 - 来源：wiki/Frozen_Biome
@@ -385,8 +360,6 @@ CO2 Lakes
 Very Cold
 -73.15 ↔ -46.15 °C
 Solid
-style="text-align:center"| None
-
 style="text-align:center"| None
 
 Extremely Cold
@@ -425,9 +398,7 @@ Solid variant has no terrain features.
 Solid variant is used in Frozen Core World Trait.
 
 ---
-
 # 文档：Jungle Biome
-
 - 类别：biomes
 - 标识：jungle biome
 - 来源：wiki/Jungle_Biome
@@ -451,16 +422,11 @@ None
 
 Plants and Critters
 Variant !! Plants !! Critters !! Buried !! Temperature
-style="text-align:left;" | Base Version
 rowspan="4" |
 rowspan="4" |
 rowspan="4" |
 rowspan="4" | Human Hot
 39.85 ↔ 49.85 °C
-style="text-align:left;" | Inactive
-style="text-align:left;" | Steamy
-style="text-align:left;" | Gassy
-style="text-align:left;" | Frozen
 
 Cold
 -46.15 ↔ -16.15 °C
@@ -496,9 +462,7 @@ Biome
 Biome (Spaced Out)
 
 ---
-
 # 文档：Marsh Biome
-
 - 类别：biomes
 - 标识：marsh biome
 - 来源：wiki/Marsh_Biome
@@ -522,7 +486,6 @@ style="text-align:left"| Landing Site
 
 Plants and Critters
 Variant !! Plants !! Critters !! Buried !! Temperature
-style="text-align:left" | Base Version
 
 rowspan="4" |
 rowspan="5" |
@@ -532,7 +495,6 @@ style="text-align:left" | Slush
 
 Cold
 -46.15 ↔ -16.15 °C
-style="text-align:left" | Inactive
 rowspan="3" |
 rowspan="3" |Human Warm
 24.85 ↔ 39.85 °C
@@ -545,19 +507,15 @@ Blob room, containing Carbon Dioxide, Polluted Water, Slime and Algae
 Tall and thin room, containing Carbon Dioxide, Polluted Water, Slime and Algae
 Geode, containing Sand, Sandstone and Igneous Rock
 Inactive, Landing Site
-Blob room, containing Carbon Dioxide, Polluted Water, Slime and Algae
-Tall and thin room, containing Carbon Dioxide, Polluted Water, Slime and Algae
 Slush
 Blob slush room, containing Carbon Dioxide, Water, Polluted Water, Slime and Algae
 Tall and thin slush room, containing Carbon Dioxide, Water, Polluted Water, Slime and Algae
-Geode, containing Sand, Sandstone and Igneous Rock
 
 Points of Interest
 Base Version, Slush
 1 Cool Steam Vent
 1 Natural Gas Geyser
 3 Ruins
-Inactive, Landing Site
 2 Ruins
 Steamy
 1 Cool Steam Vent
@@ -576,9 +534,7 @@ Biome (Spaced Out)
 Swampy Biome
 
 ---
-
 # 文档：Oil Biome
-
 - 类别：biomes
 - 标识：oil biome
 - 来源：wiki/Oil_Biome
@@ -589,12 +545,9 @@ Content
 Variant !! Metal Ore !! Raw Mineral !! Other Solids !! Liquid !! Gas !! Plants !! Critters !! Temperature
 Base Version
 rowspan=5 style="text-align:center"|
-rowspan=5 style="text-align:center"|
 
 rowspan=3|
 rowspan=3 style="text-align:center"|
-rowspan=5 style="text-align:center"|
-rowspan=5 style="text-align:center"|
 
 rowspan=4|
 rowspan=4| Hot
@@ -655,9 +608,7 @@ Frozen Crude Oil Pond
 A Solid Crude Oil deposit surrounded by Igneous Rock, Granite, Lead.
 
 ---
-
 # 文档：Oily Biome
-
 - 类别：biomes
 - 标识：oily biome
 - 来源：wiki/Oily_Biome
@@ -665,9 +616,7 @@ A Solid Crude Oil deposit surrounded by Igneous Rock, Granite, Lead.
 Oily biomes are found right above the Volcanic Biome at the bottom of an Asteroid. They are extremely hot, making exploration and construction here dangerous; however, the pay off is the large quantities of oil that are found here.
 
 ---
-
 # 文档：Rust Biome
-
 - 类别：biomes
 - 标识：rust biome
 - 来源：wiki/Rust_Biome
@@ -677,7 +626,6 @@ Rust Biome is a cold biome filled with Rust. It offers an alternative way to gen
 Content
 Variant !! Metal Ore !! Raw Mineral !! Other Solids !! Gas !! Plants !! Critters !! Temperature
 Base Version
-rowspan=3 style="text-align:center"|
 rowspan=3 style="text-align:center"|
 
 rowspan=2|
@@ -732,9 +680,7 @@ It has no terrain feature.
 History
 
 ---
-
 # 文档：Space Biome
-
 - 类别：biomes
 - 标识：space biome
 - 来源：wiki/Space_Biome
@@ -753,8 +699,6 @@ Base Version
 rowspan="2" style="text-align:center" |None
 rowspan="2" |
 rowspan="2" |
-rowspan="2" style="text-align:center" |None
-rowspan="2" style="text-align:center" |None
 rowspan="2" |
 Surface Crags
 
@@ -776,9 +720,7 @@ Surface Crags
 Surface Crags has less mass than the base version.
 
 ---
-
 # 文档：Swampy Biome
-
 - 类别：biomes
 - 标识：swampy biome
 - 来源：wiki/Swampy_Biome
@@ -814,9 +756,7 @@ Variants
 Swampy Asteroid
 
 ---
-
 # 文档：Temperate Biome
-
 - 类别：biomes
 - 标识：temperate biome
 - 来源：wiki/Temperate_Biome
@@ -826,7 +766,6 @@ Temperate Biome is the starting Biome in several Asteroid Types. It contains ric
 Elements
 Variant !! Metal Ore !! Raw Mineral !! Other Solids !! Gas
 Base Version
-rowspan=11 style="text-align:center"|
 rowspan=11 style="text-align:center"|
 rowspan=2|
 rowspan=2|
@@ -956,9 +895,7 @@ Trivia
 Temperate Biome is named Sandstone in game code.
 
 ---
-
 # 文档：Tide Pool Biome
-
 - 类别：biomes
 - 标识：tide pool biome
 - 来源：wiki/Tide_Pool_Biome
@@ -971,9 +908,6 @@ Base Version
 rowspan=5 style="text-align:center" |
 
 rowspan=3 | Salt Water
-rowspan=5 style="text-align:center" |
-
-rowspan=5 style="text-align:center" |
 
 rowspan=4 style="text-align:center" |
 
@@ -995,7 +929,6 @@ Cool
 -16.15 ↔ 6.85 °C
 Frozen
 
-style="text-align:center" | None
 style="text-align:center" | None
 Cold
 -46.15 ↔ -16.15 °C
@@ -1034,15 +967,11 @@ It has no terrain feature.
 Frozen
 The Frozen variant is colder than Slush variant. All liquids are frozen into Brine Ice.
 
-It has no terrain feature.
-
 Trivia
 Tide Pool Biome is named Ocean in game code.
 
 ---
-
 # 文档：Tundra Biome
-
 - 类别：biomes
 - 标识：tundra biome
 - 来源：wiki/Tundra_Biome
@@ -1078,9 +1007,7 @@ Variants
 Swampy Asteroid
 
 ---
-
 # 文档：Volcanic Biome
-
 - 类别：biomes
 - 标识：volcanic biome
 - 来源：wiki/Volcanic_Biome
@@ -1102,7 +1029,6 @@ rowspan=2 style="text-align:center"| None
 Solid Magma
 Magma Vent
 rowspan=2|
-rowspan=2 style="text-align:center"| None
 rowspan=2|
 Very Hot
 99.85 ↔ 296.85 °C
@@ -1130,9 +1056,7 @@ Trivia
 Volcanic Biome is named Magma in game code.
 
 ---
-
 # 文档：Wasteland Biome
-
 - 类别：biomes
 - 标识：wasteland biome
 - 来源：wiki/Wasteland_Biome
@@ -1176,9 +1100,7 @@ Swampy Asteroid Surface
 ---
 ## BUILDINGS
 共 22 篇文档
-
 # 文档：Building
-
 - 类别：buildings
 - 标识：building
 - 来源：wiki/Building
@@ -1284,9 +1206,7 @@ valign="top" |
 pt-br:Construção
 
 ---
-
 # 文档：Cell of Interest
-
 - 类别：buildings
 - 标识：cell of interest
 - 来源：wiki/Cell_of_Interest
@@ -1504,7 +1424,6 @@ Exosuit Forge
 A2
 A2
 A2
-Delivery, Dupe interaction and drop-off at middle left bottom cell.
 Farm Station
 2
 3
@@ -1576,7 +1495,6 @@ Juicer
 4
 A2
 A2
-Delivery and Dupe interaction at the bottom middle cell.
 Jukebot
 5
 3
@@ -1592,7 +1510,6 @@ Lavatory
 2
 3
 A1
-Dupe interaction at the bottom left cell.
 Manual Generator
 2
 2
@@ -1607,7 +1524,6 @@ Massage Table
 2
 2
 A1
-Dupe interaction at the bottom left cell.
 Mess Table
 1
 1
@@ -1686,7 +1602,6 @@ Power Control Station
 A1
 A1
 A1
-Delivery, Dupe interaction and drop-off at bottom left cell.
 Printing Pod
 4
 4
@@ -1719,7 +1634,6 @@ Rust Deoxidizer
 2
 3
 A1
-Material delivery at bottom left cell.
 Shearing Station
 3
 3
@@ -1735,7 +1649,6 @@ Sink
 2
 3
 A1
-Dupe interaction at the bottom  left cell.
 Skill Scrubber
 3
 3
@@ -1792,7 +1705,6 @@ Textile Loom
 A2
 A2
 A2
-Delivery, Dupe interaction and drop-off at middle left bottom cell.
 Triage Cot
 3
 2
@@ -1820,7 +1732,6 @@ Water Sieve
 4
 3
 A2 (default) A3 (reverse)
-A2 (default) A3 (reverse)
 Delivery and material drop-off at the bottom middle left cell. If you reverse the Water Sieve, delivery and drop off is at the bottom middle right cell. Note it's always the middle cell closest to the automation port (or opposite to the lamp).
 Wood Burner
 2
@@ -1832,9 +1743,7 @@ Reference
 https://www.reddit.com/r/Oxygennotincluded/comments/d7syf4/buildings_tiles_of_interest_almost_complete_list/
 
 ---
-
 # 文档：Automation
-
 - 类别：buildings
 - 标识：automation building
 - 来源：wiki/Automation_(Building)
@@ -1855,9 +1764,7 @@ List of all input buildings
 This section lists all buildings that has an  Input Port. [show]
 
 ---
-
 # 文档：Base
-
 - 类别：buildings
 - 标识：base building
 - 来源：wiki/Base_(Building)
@@ -1871,9 +1778,7 @@ Other
 pt-br:Base
 
 ---
-
 # 文档：Decor
-
 - 类别：buildings
 - 标识：decor
 - 来源：wiki/Decor
@@ -1903,7 +1808,6 @@ Thermally Reactive
 Refined Metal
 
 +50%
-Overheat Temperature +50°C
 High Thermal Conductivity
 Thermally Reactive
 rowspan="2" | Raw Mineral
@@ -1916,8 +1820,6 @@ Insulator
 Transparent
 
 +100%
-Overheat Temperature +200°C
-High Thermal Conductivity
 In some cases, it may be better to choose a material with a lower or no Decor bonus. Diamond, for example, has a very high thermal conductivity, which may be undesirable, so Glass should better be used.
 
 Other effects on decor
@@ -2001,9 +1903,7 @@ See also
 Furniture
 
 ---
-
 # 文档：Dev Generator
-
 - 类别：buildings
 - 标识：dev generator
 - 来源：wiki/Dev_Generator
@@ -2015,9 +1915,7 @@ Trivia
 The Dev Generator shares a sprite with the Dev Radiation Emitter.
 
 ---
-
 # 文档：Flooding
-
 - 类别：buildings
 - 标识：flooding
 - 来源：wiki/Flooding
@@ -2063,9 +1961,7 @@ Thimble Reed is the only plant that can grow fully submerged.
 Waterweed actually floods very easily and becomes Too Wet to grow.
 
 ---
-
 # 文档：Furniture
-
 - 类别：buildings
 - 标识：furniture building
 - 来源：wiki/Furniture_(Building)
@@ -2073,9 +1969,7 @@ Waterweed actually floods very easily and becomes Too Wet to grow.
 Furniture Buildings focus on diminishing Duplicants' Stress by increasing Decor value.
 
 ---
-
 # 文档：Great Monument
-
 - 类别：buildings
 - 标识：great monument
 - 来源：wiki/Great_Monument
@@ -2091,9 +1985,7 @@ When Great Monument is built, right section of decor affected area is not relate
 The unbugged area of decor is 512 tiles, which means the game is coded such that subtractions of decor can only occur to 2^9 tiles simuntaneously.
 
 ---
-
 # 文档：Piping
-
 - 类别：buildings
 - 标识：piping
 - 来源：wiki/Piping
@@ -2123,8 +2015,8 @@ Examples
 A pump connected to any number of pipes but nothing else will not pump.
 A vent connected to any number of pipes but nothing else will empty those pipes.
 A pump connected to a tank through a series of pipes will pump until the tank is full and all pipes leading up to the tank contain a packet.
-If a tank is full and the pipe connected to it contains 5&nbsp;kg of water and the pipe before that contains 8&nbsp;kg of water then the second to last packet will send 5&nbsp;kg of water to the last pipe to fill that packet. (Provided the liquid has some destination)
-If in the same setup the 5&nbsp;kg of water are followed by 8&nbsp;kg of polluted water then the packets cannot merge.
+If a tank is full and the pipe connected to it contains 5 kg of water and the pipe before that contains 8 kg of water then the second to last packet will send 5 kg of water to the last pipe to fill that packet. (Provided the liquid has some destination)
+If in the same setup the 5 kg of water are followed by 8 kg of polluted water then the packets cannot merge.
 
 Junctions
 Most pipes will lead to more than one destination and often enough will also have more than one source. Advanced schematics can also contain loops. This leads to many junctions and understanding the behavior of these junctions is important.
@@ -2169,9 +2061,7 @@ Running pipes directly through several outputs leads to last-serve queue and ten
 It is more acceptable with storage reservoirs that are hooked to the same input and output pipelines.
 
 ---
-
 # 文档：Plumbing
-
 - 类别：buildings
 - 标识：plumbing building
 - 来源：wiki/Plumbing_(Building)
@@ -2183,9 +2073,7 @@ The majority of plumbing buildings are used to organize the flow of liquid aroun
 List of plumbing buildings
 
 ---
-
 # 文档：Power
-
 - 类别：buildings
 - 标识：power
 - 来源：wiki/Power
@@ -2247,9 +2135,7 @@ Switch - Obtained from the Tier One Research tree, category Power Regulation.
 Power Shutoff - Obtained from the Tier Three Research tree, category Advanced Power Regulation.
 
 ---
-
 # 文档：Printing Pod
-
 - 类别：buildings
 - 标识：printing pod
 - 来源：wiki/Printing_Pod
@@ -2334,9 +2220,7 @@ The Printing Pod makes an appearance in Don't Starve Together as a reskin for th
 History
 
 ---
-
 # 文档：Radbolt Sensor
-
 - 类别：buildings
 - 标识：radbolt sensor
 - 来源：wiki/Radbolt_Sensor
@@ -2346,9 +2230,7 @@ Radbolt Sensor sends a green automation signal or a red automation signal when a
 A Radbolt must pass directly on top of the sensor for the sensor to detect the radbolt. Near misses will not register, and the radbolt is only present for a moment, so only a single pulse will be sent by the sensor as the radbolt crosses over it.
 
 ---
-
 # 文档：Radiation Sensor
-
 - 类别：buildings
 - 标识：radiation sensor
 - 来源：wiki/Radiation_Sensor
@@ -2356,9 +2238,7 @@ A Radbolt must pass directly on top of the sensor for the sensor to detect the r
 Radiation Sensor sens a Green Automation Signal or a Red Automation signal when ambient Radiation enters the chosen range. The Radiation Sensor has a range of 0 to 5000 Rads, and may detect above or below.
 
 ---
-
 # 文档：Refinement
-
 - 类别：buildings
 - 标识：refinement building
 - 来源：wiki/Refinement_(Building)
@@ -2368,9 +2248,7 @@ Refinement buildings focus on turning waste materials into useful materials.
 List of refinement buildings
 
 ---
-
 # 文档：Rocket
-
 - 类别：buildings
 - 标识：rocket
 - 来源：wiki/Rocket
@@ -2524,30 +2402,25 @@ Destination Distance
 1 Command Capsule
 1 Petroleum Engine
 2 Liquid Fuel Tanks
-1 Solid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Petroleum Engine
 3 Liquid Fuel Tanks
-1 Solid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Petroleum Engine
 1 Solid Booster
 1 Liquid Fuel Tank
-1 Solid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Petroleum Engine
 1 Solid Booster
 2 Liquid Fuel Tanks
-1 Solid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Petroleum Engine
 1 Solid Booster
 3 Liquid Fuel Tanks
-1 Solid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 10000 || 306 kg Petroleum
@@ -2586,12 +2459,10 @@ Destination Distance
 1 Command Capsule
 1 Petroleum Engine
 2 Liquid Fuel Tanks
-1 Liquid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Petroleum Engine
 3 Liquid Fuel Tanks
-1 Liquid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Petroleum Engine
@@ -2602,25 +2473,21 @@ Destination Distance
 1 Petroleum Engine
 1 Solid Booster
 1 Liquid Fuel Tank
-1 Liquid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Petroleum Engine
 1 Solid Booster
 2 Liquid Fuel Tanks
-1 Liquid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Petroleum Engine
 1 Solid Booster
 3 Liquid Fuel Tanks
-1 Liquid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Petroleum Engine
 1 Solid Booster
 4 Liquid Fuel Tanks
-2 Liquid Oxidizer Tanks
 5 Research Modules
 1 Command Capsule
 10000 || 227 kg Petroleum
@@ -2668,35 +2535,29 @@ Destination Distance
 [km]
 1 Petroleum Engine
 1 Liquid Fuel Tank
-1 Solid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Petroleum Engine
 2 Liquid Fuel Tanks
-1 Solid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Petroleum Engine
 3 Liquid Fuel Tanks
-1 Solid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Petroleum Engine
 1 Solid Booster
 1 Liquid Fuel Tank
-1 Solid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Petroleum Engine
 1 Solid Booster
 2 Liquid Fuel Tanks
-1 Solid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Petroleum Engine
 1 Solid Booster
 3 Liquid Fuel Tanks
-1 Solid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 10000 || 332 kg Petroleum
@@ -2724,17 +2585,14 @@ Destination Distance
 [km]
 1 Petroleum Engine
 1 Liquid Fuel Tank
-1 Liquid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Petroleum Engine
 2 Liquid Fuel Tanks
-1 Liquid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Petroleum Engine
 3 Liquid Fuel Tanks
-1 Liquid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Petroleum Engine
@@ -2745,19 +2603,16 @@ Destination Distance
 1 Petroleum Engine
 1 Solid Booster
 1 Liquid Fuel Tank
-1 Liquid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Petroleum Engine
 1 Solid Booster
 2 Liquid Fuel Tanks
-1 Liquid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Petroleum Engine
 1 Solid Booster
 3 Liquid Fuel Tanks
-1 Liquid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 10000 || 247 kg Petroleum
@@ -2794,22 +2649,18 @@ Destination Distance
 120000 || || || || Unreachable || || ||
 
 Hydrogen Engine
-Oxylite, Research Vehicle
 Destination Distance
 [km]
 1 Hydrogen Engine
 1 Liquid Fuel Tank
-1 Solid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Hydrogen Engine
 2 Liquid Fuel Tanks
-1 Solid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Hydrogen Engine
 3 Liquid Fuel Tanks
-1 Solid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Hydrogen Engine
@@ -2820,25 +2671,21 @@ Destination Distance
 1 Hydrogen Engine
 1 Solid Booster
 1 Liquid Fuel Tank
-1 Solid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Hydrogen Engine
 1 Solid Booster
 2 Liquid Fuel Tanks
-1 Solid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Hydrogen Engine
 1 Solid Booster
 3 Liquid Fuel Tanks
-1 Solid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Hydrogen Engine
 1 Solid Booster
 4 Liquid Fuel Tanks
-2 Solid Oxidizer Tanks
 5 Research Modules
 1 Command Capsule
 10000 || 206 kg Liquid Hydrogen
@@ -2887,40 +2734,33 @@ Destination Distance
 3460 kg Oxylite || || || || Unreachable
 160000 || || || || Unreachable || || ||
 
-Liquid Oxygen, Research Vehicle
 Destination Distance
 [km]
 1 Hydrogen Engine
 1 Liquid Fuel Tank
-1 Liquid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Hydrogen Engine
 2 Liquid Fuel Tanks
-1 Liquid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Hydrogen Engine
 3 Liquid Fuel Tanks
-1 Liquid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Hydrogen Engine
 1 Solid Booster
 1 Liquid Fuel Tank
-1 Liquid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Hydrogen Engine
 1 Solid Booster
 2 Liquid Fuel Tanks
-1 Liquid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Hydrogen Engine
 1 Solid Booster
 3 Liquid Fuel Tanks
-1 Liquid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 10000 || 153 kg Liquid Hydrogen
@@ -2979,45 +2819,37 @@ Destination Distance
 2597 kg Liquid Oxygen || || || 2635 kg Liquid Hydrogen
 2635 kg Liquid Oxygen
 
-Oxylite, Cargo Vehicle
 Destination Distance
 [km]
 1 Hydrogen Engine
 1 Liquid Fuel Tank
-1 Solid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Hydrogen Engine
 2 Liquid Fuel Tanks
-1 Solid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Hydrogen Engine
 3 Liquid Fuel Tanks
-1 Solid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Hydrogen Engine
 4 Liquid Fuel Tanks
-2 Solid Oxidizer Tanks
 1 Cargo Bay
 1 Command Capsule
 1 Hydrogen Engine
 1 Solid Booster
 1 Liquid Fuel Tank
-1 Solid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Hydrogen Engine
 1 Solid Booster
 2 Liquid Fuel Tanks
-1 Solid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Hydrogen Engine
 1 Solid Booster
 3 Liquid Fuel Tanks
-1 Solid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 10000 || 223 kg Liquid Hydrogen
@@ -3057,51 +2889,42 @@ Destination Distance
 2960 kg Oxylite || || || Unreachable
 13000 || || || || Unreachable || || ||
 
-Liquid Oxygen, Cargo Vehicle
 Destination Distance
 [km]
 1 Hydrogen Engine
 1 Liquid Fuel Tank
-1 Liquid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Hydrogen Engine
 2 Liquid Fuel Tanks
-1 Liquid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Hydrogen Engine
 3 Liquid Fuel Tanks
-1 Liquid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Hydrogen Engine
 4 Liquid Fuel Tanks
-2 Liquid Oxidizer Tanks
 1 Cargo Bay
 1 Command Capsule
 1 Hydrogen Engine
 1 Solid Booster
 1 Liquid Fuel Tank
-1 Liquid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Hydrogen Engine
 1 Solid Booster
 2 Liquid Fuel Tanks
-1 Liquid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Hydrogen Engine
 1 Solid Booster
 3 Liquid Fuel Tanks
-1 Liquid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Hydrogen Engine
 1 Solid Booster
 4 Liquid Fuel Tanks
-2 Liquid Oxidizer Tanks
 1 Cargo Bay
 1 Command Capsule
 10000 || 166 kg Liquid Hydrogen
@@ -3161,9 +2984,7 @@ Destination Distance
 3451 kg Liquid Oxygen
 
 ---
-
 # 文档：Rocketry
-
 - 类别：buildings
 - 标识：rocketry building
 - 来源：wiki/Rocketry_(Building)
@@ -3177,9 +2998,7 @@ Cargo Modules
 Other Buildings
 
 ---
-
 # 文档：Shipping
-
 - 类别：buildings
 - 标识：shipping building
 - 来源：wiki/Shipping_(Building)
@@ -3194,9 +3013,7 @@ Sensors
 Conveyor Rail Sensors are unlocked by the Solid Management research.
 
 ---
-
 # 文档：Stations
-
 - 类别：buildings
 - 标识：stations building
 - 来源：wiki/Stations_(Building)
@@ -3206,9 +3023,7 @@ List of station buildings
 Removed Buildings
 
 ---
-
 # 文档：Utilities
-
 - 类别：buildings
 - 标识：utilities building
 - 来源：wiki/Utilities_(Building)
@@ -3216,9 +3031,7 @@ Removed Buildings
 Utilities buildings are needed to maintain a subterranean asteroid base. Most buildings in this category are related to heat management.
 
 ---
-
 # 文档：Ventilation
-
 - 类别：buildings
 - 标识：ventilation building
 - 来源：wiki/Ventilation_(Building)
@@ -3230,9 +3043,7 @@ List of ventilation buildings
 ---
 ## CRITTERS
 共 22 篇文档
-
 # 文档：Beeta
-
 - 类别：critters
 - 标识：beeta
 - 来源：wiki/Beeta
@@ -3262,9 +3073,7 @@ Gallery
 =References=
 
 ---
-
 # 文档：Beeta Hive
-
 - 类别：critters
 - 标识：beeta hive
 - 来源：wiki/Beeta_Hive
@@ -3279,7 +3088,7 @@ To create a new Beeta Hive, a Beetiny can be placed away from a hive and allowed
 A beeta hive will at most consume 10 kg Uranium Ore per cycle and produce 9 kg Enriched Uranium. The actual amount converted is dependent on beeta deliveries.
 
 Radiation
-While processing uranium ore, a hive emits pulses of radiation exceeding 1800 rads/cycle that emanate from the opening and disperses 6 tiles away. Combined with the over 1440 rads/cycle of each Beeta, and 470 rads/cycle of each Beetiny, this makes them a potential hazard, so Lead Suit<nowiki/>s are recommended if duplicants are going to be spending significant time near them.
+While processing uranium ore, a hive emits pulses of radiation exceeding 1800 rads/cycle that emanate from the opening and disperses 6 tiles away. Combined with the over 1440 rads/cycle of each Beeta, and 470 rads/cycle of each Beetiny, this makes them a potential hazard, so Lead Suits are recommended if duplicants are going to be spending significant time near them.
 
 Trivia
 In real life, reactor grade enriched uranium typically comprises 3-5% U-235 while natural uranium is only about 0.7% U-235. This is consistent with the ratio provided by the uranium centrifuge. While the U-238 in depleted uranium cannot sustain nuclear reactions, that does not mean it does not contain energy. In fact, there are so called breeder reactors that can convert depleted uranium into fissile material which can sustain nuclear reactions. The ability of the beeta hive to convert most of the material into "enriched uranium" (in this case, it should be referred to as fissile material) is similar to that of these breeder reactors.
@@ -3287,9 +3096,7 @@ In real life, reactor grade enriched uranium typically comprises 3-5% U-235 whil
 History
 
 ---
-
 # 文档：Biobot
-
 - 类别：critters
 - 标识：biobot
 - 来源：wiki/Biobot
@@ -3333,9 +3140,7 @@ Rover
 Biobot Builder
 
 ---
-
 # 文档：Body Temperature
-
 - 类别：critters
 - 标识：body temperature
 - 来源：wiki/Body_Temperature
@@ -3343,9 +3148,7 @@ Biobot Builder
 Body Temperature is the temperature of a living creature. This includes Duplicants and other living creatures such as Hatches or Morbs.
 
 ---
-
 # 文档：Critters
-
 - 类别：critters
 - 标识：critters
 - 来源：wiki/Critters
@@ -3364,12 +3167,10 @@ Food, Raw Mineral, Organic, Metal Ore, Refined Metal
 Coal
 Refined Metal,
 Refined Carbon
-style="white-space: nowrap" |
 
 Meat
 8
 style="text-align: left" | Will burrow in soft ground during the day, but will stay active if it can't find a place to burrow.
-style="white-space: nowrap" |
 
 Shine Bug
 Food,
@@ -3377,7 +3178,6 @@ Phosphorite
 Light,
 Decor,
 Radiation
-style="white-space: nowrap" |
 
 N/A
 8
@@ -3390,12 +3190,10 @@ Dirt
 Meat
 8 (Pip)
 style="text-align: left" |Plants loose seeds into soft blocks and can knock items out of storage bins. Cuddle pips hug eggs and dupes, speeding up incubation.
-style="white-space: nowrap" |
 
 Drecko
 Balm Lily,Pincha Pepper,Mealwood
-Phosphorite,<br/ > Reed Fiber, Plastic
-style="white-space: nowrap" |
+Phosphorite, Reed Fiber, Plastic
 
 Meat
 8
@@ -3410,32 +3208,26 @@ Pokeshell Molt, Oakshell Molt
 Pokeshell Molt, Oakshell Molt, Raw Shellfish
 8
 style="text-align: left" |
-style="white-space: nowrap" |
 
 Puft
 Polluted Oxygen/ Oxygen/Chlorine
 Slime/ Oxylite/ Bleach Stone
-style="white-space: nowrap" |
 
 Meat
 6
 style="text-align: left" | Floating/hovering critter. Its movement is based on invert pyramid shape, moves center to top, left then right, follows bubbles of contaminated air, prefers going up. Sucks in the closest air bubble, goes up into top of room/chamber on borders of gases then spits out slime. Can follow its own slime consuming again. Won't go under water, but can enter a stream of water from below or from the side (and then die).
-style="white-space: nowrap" |
 
 Pacu
 Algae/ Plant Seeds
 Polluted Dirt
-style="white-space: nowrap" |
 
 Pacu Fillet
 12
 style="text-align: left" | Swims in water, can only be caught via a Fish Trap.
-style="white-space: nowrap" |
 
 Slickster
 Carbon Dioxide/Oxygen
 Crude Oil/Petroleum
-style="white-space: nowrap" |
 
 Meat
 8
@@ -3462,10 +3254,9 @@ Polluted Oxygen
 N/A
 Polluted Oxygen
 ∞
-style="text-align: left" | Spawns from full Outhouses if it filled long enough but can be found naturally, produces contaminated oxygen unless in high-pressure gas, explodes in a puff of Polluted Oxygen <nowiki/>or Chlorine upon death. Cannot be Ranched. Has a 0.1% chance to morb every cycle, biting Duplicants and infecting them with Morbius Crohn.
+style="text-align: left" | Spawns from full Outhouses if it filled long enough but can be found naturally, produces contaminated oxygen unless in high-pressure gas, explodes in a puff of Polluted Oxygen or Chlorine upon death. Cannot be Ranched. Has a 0.1% chance to morb every cycle, biting Duplicants and infecting them with Morbius Crohn.
 
 Critters In Spaced Out
-Image !! Name !! Diet !! Produces !! Egg !! Drops
 
 Note
 
@@ -3538,9 +3329,7 @@ External links
 Critter debuff and reproduction mechanic
 
 ---
-
 # 文档：Divergent
-
 - 类别：critters
 - 标识：divergent
 - 来源：wiki/Divergent
@@ -3571,9 +3360,7 @@ A Sour Gas Boiler will also produce the necessary Sulfur for long term farming o
 Gallery
 
 ---
-
 # 文档：Drecko
-
 - 类别：critters
 - 标识：drecko
 - 来源：wiki/Drecko
@@ -3659,9 +3446,7 @@ This method is rather unconventional since it uses doors as a way to keep the Dr
 History
 
 ---
-
 # 文档：Egg
-
 - 类别：critters
 - 标识：egg
 - 来源：wiki/Egg
@@ -3713,9 +3498,7 @@ Hatch will take 20 cycles to birth if left outside or 4 cycles if in an incubato
 Whenever an egg stays in a Storage Bin or a Conveyor Rail, it loses viability at 10% per cycle, eventually cracking up into a Raw Egg and an Egg Shell.
 
 ---
-
 # 文档：Gassy Moo
-
 - 类别：critters
 - 标识：gassy moo
 - 来源：wiki/Gassy_Moo
@@ -3749,9 +3532,7 @@ Farm construction
 Natural Gas absorbs the most light out of the elements that are gases at the required temperatures, followed by Chlorine, Carbon Dioxide and Polluted Oxygen. Gases absorb more light at higher pressures. Luckily Oxygen absorbs no light. Therefore it is preferable to keep the plot with Gas Grass pressurized with pure oxygen, which will also push Natural Gas downside, where it can be collected.
 
 ---
-
 # 文档：Hatch
-
 - 类别：critters
 - 标识：hatch
 - 来源：wiki/Hatch
@@ -3848,9 +3629,7 @@ The Dry Hatch gets its name from Frozen Carbon Dioxide, being called Dry Ice.
 History
 
 ---
-
 # 文档：Morb
-
 - 类别：critters
 - 标识：morb
 - 来源：wiki/Morb
@@ -3894,9 +3673,7 @@ Morbs, like Pufts, only achieve their maximum production rate if their mobility 
 Combining Morbs' production of Polluted Oxygen with Pufts' conversion of Polluted Oxygen into Slime can enable the renewable production of Algae by using an Algae Distiller or Coal via Hatches.
 
 ---
-
 # 文档：Pacu
-
 - 类别：critters
 - 标识：pacu
 - 来源：wiki/Pacu
@@ -3971,9 +3748,7 @@ Eggs retain the wildness of the parent at the time the egg is laid.
 Pacu Fry will only eat once from a Fish Feeder only containing Seeds.
 
 ---
-
 # 文档：Pip
-
 - 类别：critters
 - 标识：pip
 - 来源：wiki/Pip
@@ -4030,7 +3805,7 @@ Total plants for 3-space
 4||2||3
 5||3||3
 6|| 3|| 3
-This pattern repeats for every 6 tiles, which then makes the most efficient use of space for pip-planting being <math>6n + 3</math>. (3, 9, 15 ... )
+This pattern repeats for every 6 tiles, which then makes the most efficient use of space for pip-planting being 6n + 3. (3, 9, 15 ... )
 
 Creating natural tiles
 Shove Voles eat Iron, Regolith, Dirt, and then excrete natural tiles accordingly. Tiles placement and vole management may be tedious.
@@ -4086,9 +3861,7 @@ Pipsqueaks can be printed from the printing pod after cycle 24.
 Prior to version U51-600112, Pips could be manipulated to plant in entombed flower pots, allowing any plant to be tamed without necessitating solid fertilizer.
 
 ---
-
 # 文档：Plug Slug
-
 - 类别：critters
 - 标识：plug slug
 - 来源：wiki/Plug_Slug
@@ -4194,9 +3967,7 @@ Fed when drowsy
 It can be seen that dramatic improvements in energy to food ratio can be achieved by exploiting the particular mechanics of power generation, with the most exploitative strategies producing at least 60x more energy per food than grooming and feeding the Plug Slugs.
 
 ---
-
 # 文档：Pokeshell
-
 - 类别：critters
 - 标识：pokeshell
 - 来源：wiki/Pokeshell
@@ -4281,9 +4052,7 @@ The roof or floor segments made out of unpassable Pneumatic Doors can help with 
 Feeding Pokeshells with Polluted Dirt is easier in the DLC, due to the existence of asteroid types that have a lot of Polluted Dirt seams.
 
 ---
-
 # 文档：Primal Aspid
-
 - 类别：critters
 - 标识：primal aspid
 - 来源：wiki/Primal_Aspid
@@ -4320,9 +4089,7 @@ History
 U52-600485 - Added Primal Aspid
 
 ---
-
 # 文档：Puft
-
 - 类别：critters
 - 标识：puft
 - 来源：wiki/Puft
@@ -4330,7 +4097,7 @@ U52-600485 - Added Primal Aspid
 Puft is a non-aggressive critter that breathes in certain gasses (depending on their variation: Polluted Oxygen, Oxygen, and Chlorine) and excretes them as their solid counterparts (Slime, Oxylite, and Bleach Stone, respectively).
 
 Behavior
-Pufts typically inhale twice, then rise to the ceiling and excrete 1.5 to 2.5&nbsp;kg of their corresponding element, doing this approximately every 10 seconds, so they can convert Polluted Oxygen to Slime at a rate of around 50 g/s.
+Pufts typically inhale twice, then rise to the ceiling and excrete 1.5 to 2.5 kg of their corresponding element, doing this approximately every 10 seconds, so they can convert Polluted Oxygen to Slime at a rate of around 50 g/s.
 
 Pufts can only achieve their maximum conversion rate if their mobility is limited and will otherwise spend much of their time traveling and rising, reducing Polluted Oxygen conversion rates.
 
@@ -4379,7 +4146,6 @@ The produced Oxylite can be used as an oxydizer in Rockets.
 
 Dense Puft can lay Puft (31%), Puft Prince (2%), and Dense Puft (67%) eggs.
 
-If not penned with Puft Prince, the chance of laying Puft Prince eggs will increase over time.
 If penned with Puft Prince, the chance of laying Dense Puft eggs will increase over time.
 The chance of laying a Puft egg will decrease over time no matter what it's penned with, but changes much slower than the other two.
 
@@ -4392,9 +4158,7 @@ The produced Bleach Stone can be used to farm Waterweed or refill Hand Sanitizer
 
 Squeaky Puft can lay Puft (31%), Puft Prince (2%), and Squeaky Puft (67%) eggs.
 
-If not penned with Puft Prince, the chance of laying Puft Prince eggs will increase over time.
 If penned with Puft Prince, the chance of laying Squeaky Puft eggs will increase over time.
-The chance of laying a Puft egg will decrease over time no matter what it's penned with, but changes much slower than the other two.
 
 Bismuth Puft
 →  →
@@ -4407,9 +4171,7 @@ The produced Abyssalite can be used to manufacture several Space Age materials o
 
 Bismuth Pufts can lay Puft (31%), Puft Prince (2%), and Bismuth Puft (67%) eggs.
 
-If not penned with Puft Prince, the chance of laying Puft Prince eggs will increase over time.
 If penned with Puft Prince, the chance of laying Bismuth Puft eggs will increase over time.
-The chance of laying a Puft egg will decrease over time no matter what it's penned with, but changes much slower than the other two.
 The Bismuth puft was added after intense campaigning on the Klei Forums for renewable abyssalite in Spaced Out!, as there exists no way to manufacture more of that material after the natural deposits have run dry.
 
 Due to it's intense weight as a piece of precious mineral, the Bismuth puft is unique in that it cannot fly. Instead, it scoots around on the floor, likely suffocating in the process due to Rock Gas weighing less than...Carbon Dioxide... wait, that's not right, nevermind it's fine. It is speculated that this implementation was done to spite us, given the flavortext that seems to condemn us all to hell.
@@ -4442,9 +4204,7 @@ The French Puft's lifespan reference the year France was founded, 987.
 History
 
 ---
-
 # 文档：Rover
-
 - 类别：critters
 - 标识：rover
 - 来源：wiki/Rover
@@ -4477,9 +4237,7 @@ Bugs
 As of U46-550759, there is a bug that lets Rover operate even though the chemical battery runs out. It even shows in the info box that the Rover has been "Shut Down", however, it will still perform more tasks given to it; until the game is closed and reopened.
 
 ---
-
 # 文档：Shine Bug
-
 - 类别：critters
 - 标识：shine bug
 - 来源：wiki/Shine_Bug
@@ -4601,9 +4359,7 @@ In Spaced Out, this can be an effective way to generate significant numbers of R
 Gallery
 
 ---
-
 # 文档：Shove Vole
-
 - 类别：critters
 - 标识：shove vole
 - 来源：wiki/Shove_Vole
@@ -4616,18 +4372,7 @@ Tile/Door
 Material
 Natural Tile
 
-
-
-
-
-
-
-
-
-
 Refined Metal (any)
-
-
 
 Shove Vole ranches should be built with the tiles/doors listed in this table to prevent the voles from escaping.
 
@@ -4697,9 +4442,7 @@ See Also
 Critters
 
 ---
-
 # 文档：Slickster
-
 - 类别：critters
 - 标识：slickster
 - 来源：wiki/Slickster
@@ -4767,9 +4510,7 @@ Requires 120 tamed molten slicksters or 240 tamed regular slicksters to produce 
 History
 
 ---
-
 # 文档：Sweepy
-
 - 类别：critters
 - 标识：sweepy
 - 来源：wiki/Sweepy
@@ -4808,9 +4549,7 @@ When Sweepy is on a horizontal Mechanized Airlock or Manual Airlock when it open
 ---
 ## DISEASES
 共 9 篇文档
-
 # 文档：Diseases
-
 - 类别：diseases
 - 标识：diseases
 - 来源：wiki/Diseases
@@ -4834,9 +4573,7 @@ Other:
 Morbius Crohn
 
 ---
-
 # 文档：Diarrhea
-
 - 类别：diseases
 - 标识：diarrhea
 - 来源：wiki/Diarrhea
@@ -4846,9 +4583,7 @@ Diarrhea was a status causing duplicants to need to go to the toilet more often 
 It was replaced by Food Poisoning disease.
 
 ---
-
 # 文档：Eye Irritation
-
 - 类别：diseases
 - 标识：eye irritation
 - 来源：wiki/Eye_Irritation
@@ -4870,9 +4605,7 @@ Tips
 Shower can clean minor and major Eye Irratation
 
 ---
-
 # 文档：Heat Stroke
-
 - 类别：diseases
 - 标识：heat stroke
 - 来源：wiki/Heat_Stroke
@@ -4898,9 +4631,7 @@ Set up your Triage Cots to low thresholds to quickly remove athletics penalty.
 The Regenerative trait will make duplicant regenerate health, which will remove the athletics penalty after some time (20hp/cycle).
 
 ---
-
 # 文档：Hypothermia
-
 - 类别：diseases
 - 标识：hypothermia
 - 来源：wiki/Hypothermia
@@ -4926,9 +4657,7 @@ Atmo Suits or Jet Suits almost completely prevent thermal-related afflictions.
 (Most likely a bug) Duplicants will re-catch hypothermia when loading a save with cold Duplicants.
 
 ---
-
 # 文档：Radiation Sickness
-
 - 类别：diseases
 - 标识：radiation sickness
 - 来源：wiki/Radiation_Sickness
@@ -4956,9 +4685,7 @@ Basic Rad Pill
 Apothecary
 
 ---
-
 # 文档：Sneeziness
-
 - 类别：diseases
 - 标识：sneeziness
 - 来源：wiki/Sneeziness
@@ -4968,9 +4695,7 @@ Sneeziness is a side effect of some Diseases, and Curried Beans. It causes the a
 When infected with slimelung sneezing will release slimelung germs.
 
 ---
-
 # 文档：Sunburn
-
 - 类别：diseases
 - 标识：sunburn
 - 来源：wiki/Sunburn
@@ -4984,9 +4709,7 @@ It may be caused by other sources of light besides the sun, if they are sufficie
 [[zh:晒伤]
 
 ---
-
 # 文档：Trench Stench
-
 - 类别：diseases
 - 标识：trench stench
 - 来源：wiki/Trench_Stench
@@ -4996,9 +4719,7 @@ A Disease caught when standing too much on high concentrated polluted oxygen. Du
 ---
 ## DUPLICANTS
 共 4 篇文档
-
 # 文档：Duplicant
-
 - 类别：duplicants
 - 标识：duplicant
 - 来源：wiki/Duplicant
@@ -5151,7 +4872,7 @@ Husbandry
 How quickly and efficiently a Duplicant raises critters.
 +10% groom effect duration
 +10% lullaby speed
-<nowiki/>* Duplicant's initial carrying capacity is 200 kg.
+* Duplicant's initial carrying capacity is 200 kg.
 
 Interests
 Each Duplicant can have between 1 and 3 interests. Interests give bonuses to their related attributes, give a +1 Morale bonus for related Skills, and raise experience gain from associated activities, enabling skill points to be earned faster.
@@ -5264,48 +4985,34 @@ Skilled: Aesthetic Design
 This Duplicant begins with a pre-learned Skill, but does not have increased Morale Requirements.||
 -4|| ||Unlocks Skill Aesthetic Design
 Skilled: Art Fundamentals
-This Duplicant begins with a pre-learned Skill, but does not have increased Morale Requirements.||
 -4|| ||Unlocks Skill Art Fundamentals
 Skilled: Bedside Manner
-This Duplicant begins with a pre-learned Skill, but does not have increased Morale Requirements.||
 -4|| ||Unlocks Skill Bedside Manner
 Skilled: Critter Ranching I
-This Duplicant begins with a pre-learned Skill, but does not have increased Morale Requirements.||
 -4|| ||Unlocks Skill Critter Ranching I
 Skilled: Crop Tending
-This Duplicant begins with a pre-learned Skill, but does not have increased Morale Requirements.||
 -4|| ||Unlocks Skill Crop Tending
 Skilled: Electrical Engineering
-This Duplicant begins with a pre-learned Skill, but does not have increased Morale Requirements.||
 -4|| ||Unlocks Skill Electrical Engineering
 Skilled: Exosuit Training
-This Duplicant begins with a pre-learned Skill, but does not have increased Morale Requirements.||
 -4|| ||Unlocks Skill Exosuit Training
 Skilled: Grilling
-This Duplicant begins with a pre-learned Skill, but does not have increased Morale Requirements.||
 -4|| ||Unlocks Skill Grilling
 Skilled: Hard Digging
-This Duplicant begins with a pre-learned Skill, but does not have increased Morale Requirements.||
 -4|| ||Unlocks Skill Hard Digging
 Skilled: Masterworks
-This Duplicant begins with a pre-learned Skill, but does not have increased Morale Requirements.||
 -4|| ||Unlocks Skill Masterworks
 Skilled: Mechatronics Engineering
-This Duplicant begins with a pre-learned Skill, but does not have increased Morale Requirements.||
 -4|| ||Unlocks Skill Mechatronics Engineering
 Skilled: Plumbing
-This Duplicant begins with a pre-learned Skill, but does not have increased Morale Requirements.||
 -4|| || Unlocks Skill Plumbing
 Skilled: Super-Duperhard Digging
-This Duplicant begins with a pre-learned Skill, but does not have increased Morale Requirements.||
 -4|| || Unlocks Skill Super-Duperhard Digging
 Skilled: Superhard Digging
-This Duplicant begins with a pre-learned Skill, but does not have increased Morale Requirements.||
 -4|| ||Unlocks Skill Superhard Digging
 
 Negative Traits
 Name!! class="unsortable" |Description!! class="unsortable" |Attribute Bonus
-Interest Attribute Modifier!!Disabled Errands/Skills!! class="unsortable" |Miscellaneous Effects
 Allergies
 This Duplicant will sneeze uncontrollably when exposed to the pollen present in Floral Scent.||
 +2|| ||Contracts the "Allergies" disease when in contact with the Floral Scents germ.
@@ -5811,7 +5518,7 @@ Woodrow|||| Woodrows are exceptionally bad at reading social cues and never know
 Yvette||||A Yvette's every waking moment is plagued by her terrible genetic curse...a horrifyingly acute sense of smell.
 Zeke||||A Zeke's snobby exterior is a defense to protect the kind, mushy heart that lurks within.
 
-<nowiki/>* As of build U46-552078
+* As of build U46-552078
 
 See Also
 Skills
@@ -5820,9 +5527,7 @@ Printing Pod
 pt-br:Duplicante
 
 ---
-
 # 文档：Gravitas
-
 - 类别：duplicants
 - 标识：gravitas
 - 来源：wiki/Gravitas
@@ -5889,7 +5594,6 @@ Appears in: Office Cake, Revisited Numbers, Results from Atomicon, Re: devon's b
 Dr. Jones was an employee at Gravitas, working in the Information and Statistics department, possibly as the department head. She was a notorious gossip, as evidenced by her email exchanges with Dr. Summers, and greatly enjoyed glittery things.
 
 Dr. Joshua Summers
-Position: Information and Statistics Department
 Aliases: Joshua
 Appears in: Office Cake, Re: devon's bloggg, Re:_dr. holland's dog, Re: omg the janitor
 
@@ -5910,7 +5614,6 @@ Mentioned in: Email_content#Hiiiii.21: Hiiiii!
 Dr. Techna was an employee at Gravitas. He had spiky blonde hair and stole food from the communal fridge. Dr. Jones insinuated that she would delete his files if he didn't stop.
 
 Mr. Otto Kraus
-Position: Physics Department
 Aliases: Otto
 Security code: B327
 Appears in: Office Cake, Personal Journal: B327, Personal Journal: B556, RE: To Otto - Spec Changes, Spec Changes
@@ -5986,9 +5689,7 @@ Mentioned in: Tornado Rock Artifact
 Dr. Moreson theorized that the tornado rock could have been a geode that failed to form any crystals inside. the paper that he wrote about the subject is stated to be a likely factor in him being hired at Gravitas.
 
 ---
-
 # 文档：Incapacitated
-
 - 类别：duplicants
 - 标识：incapacitated
 - 来源：wiki/Incapacitated
@@ -6002,9 +5703,7 @@ Incapacitated duplicants must be brought to a triage cot by another duplicant.
 Other entities than dupes will drop meat upon killing.
 
 ---
-
 # 文档：Skills
-
 - 类别：duplicants
 - 标识：skills
 - 来源：wiki/Skills
@@ -6031,31 +5730,20 @@ rowspan="2" | Digging
 rowspan="2" | Hard Digging
 colspan="2" style="background:transparent; border:none; border-bottom: 1px solid var(--theme-page-dynamic-color-1)" |
 rowspan="2" | Superhard Digging
-colspan="2" style="background:transparent; border:none; border-bottom: 1px solid var(--theme-page-dynamic-color-1)" |
 rowspan="2" | Super-Duperhard Digging
-colspan="2" style="background:transparent; border:none; border-bottom: 1px solid var(--theme-page-dynamic-color-1)" |
 rowspan="2" |  Hazmat Digging
-colspan="2" style="background:transparent; border:none; border-top: 1px solid var(--theme-page-dynamic-color-1)" |
-colspan="2" style="background:transparent; border:none; border-top: 1px solid var(--theme-page-dynamic-color-1)" |
 colspan="2" style="background:transparent; border:none; border-top: 1px solid var(--theme-page-dynamic-color-1)" |
 rowspan="2" | Building
 rowspan="2" | Improved Construction I
-colspan="2" style="background:transparent; border:none; border-bottom: 1px solid var(--theme-page-dynamic-color-1)" |
 rowspan="2" | Improved Construction II
-colspan="2" style="background:transparent; border:none; border-bottom: 1px solid var(--theme-page-dynamic-color-1)" |
 rowspan="2" | Demolition
-colspan="2" style="background:transparent; border:none; border-top: 1px solid var(--theme-page-dynamic-color-1)" |
-colspan="2" style="background:transparent; border:none; border-top: 1px solid var(--theme-page-dynamic-color-1)" |
 rowspan="3" | Farming
 rowspan="3" | Improved Farming I
-colspan="2" style="background:transparent; border:none; border-bottom: 1px solid var(--theme-page-dynamic-color-1)" |
 rowspan="3" | Crop Tending
-colspan="2" style="background:transparent; border:none; border-bottom: 1px solid var(--theme-page-dynamic-color-1)" |
 rowspan="3" | Improved Farming II
 style="height: 1em"
 style="background:transparent; border:none; border-top: 1px solid var(--theme-page-dynamic-color-1); border-bottom: 1px solid var(--theme-page-dynamic-color-1)" |
 style="background:transparent; border:none; border-top: 1px solid var(--theme-page-dynamic-color-1)" |
-colspan="2" style="background:transparent; border:none; border-top: 1px solid var(--theme-page-dynamic-color-1)" |
 style="background:transparent; border:none; border-right: 1px solid var(--theme-page-dynamic-color-1); border-top: 1px solid var(--theme-page-dynamic-color-1)" |
 style="background:transparent; border:none; border-left: 1px solid var(--theme-page-dynamic-color-1)" |
 colspan="2" style="background:transparent; border:none;" |
@@ -6064,123 +5752,61 @@ rowspan="2" style="background:transparent; border:none" |
 style="background:transparent; border:none; border-right: 1px solid var(--theme-page-dynamic-color-1)" |
 style="background:transparent; border:none; border-left: 1px solid var(--theme-page-dynamic-color-1); border-bottom: 1px solid var(--theme-page-dynamic-color-1)" |
 rowspan="2" | Critter Ranching
-colspan="2" style="background:transparent; border:none; border-bottom: 1px solid var(--theme-page-dynamic-color-1)" |
 rowspan="2" | Critter Ranching II
 style="background:transparent; border:none" |
-style="background:transparent; border:none; border-top: 1px solid var(--theme-page-dynamic-color-1)" |
-colspan="2" style="background:transparent; border:none; border-top: 1px solid var(--theme-page-dynamic-color-1)" |
 rowspan="2" | Cooking
 rowspan="2" | Grilling
-colspan="2" style="background:transparent; border:none; border-bottom: 1px solid var(--theme-page-dynamic-color-1)" |
 rowspan="2" | Grilling II
-colspan="2" style="background:transparent; border:none; border-top: 1px solid var(--theme-page-dynamic-color-1)" |
 rowspan="2" | Decorating
 rowspan="2" | Art Fundamentals
-colspan="2" style="background:transparent; border:none; border-bottom: 1px solid var(--theme-page-dynamic-color-1)" |
 rowspan="2" | Aesthetic Design
-colspan="2" style="background:transparent; border:none; border-bottom: 1px solid var(--theme-page-dynamic-color-1)" |
 rowspan="2" | Masterworks
-colspan="2" style="background:transparent; border:none; border-top: 1px solid var(--theme-page-dynamic-color-1)" |
-colspan="2" style="background:transparent; border:none; border-top: 1px solid var(--theme-page-dynamic-color-1)" |
 rowspan="6" | Researching
 rowspan="3" |Advanced Research
-colspan="2" style="background:transparent; border:none; border-bottom: 1px solid var(--theme-page-dynamic-color-1)" |
 rowspan="3" |Field Research
-colspan="2" style="background:transparent; border:none; border-bottom: 1px solid var(--theme-page-dynamic-color-1)" |
 rowspan="3" | Astronomy
 style="height: 1em"
 style="background:transparent; border:none; border-bottom: 1px solid var(--theme-page-dynamic-color-1); border-top: 1px solid var(--theme-page-dynamic-color-1)" |
-style="background:transparent; border:none" |
 colspan="2" style="background:transparent; border:none" |
 style="background:transparent; border:none; border-top: 1px solid var(--theme-page-dynamic-color-1); border-right: 1px solid var(--theme-page-dynamic-color-1)" |
-style="background:transparent; border:none; border-left: 1px solid var(--theme-page-dynamic-color-1)" |
-colspan="2" style="background:transparent; border:none" |
 rowspan="3" style="background:transparent; border:none" |
-style="background:transparent; border:none; border-right: 1px solid var(--theme-page-dynamic-color-1)" |
-style="background:transparent; border:none; border-left: 1px solid var(--theme-page-dynamic-color-1)" |
-rowspan="3" | Astronomy
-colspan="2" style="background:transparent; border:none; border-bottom: 1px solid var(--theme-page-dynamic-color-1)" |
 rowspan="3" | Orbital Researcher
 style="height: 1em"
-style="background:transparent; border:none; border-right: 1px solid var(--theme-page-dynamic-color-1)" |
-style="background:transparent; border:none; border-left: 1px solid var(--theme-page-dynamic-color-1); border-bottom: 1px solid var(--theme-page-dynamic-color-1)" |
-style="background:transparent; border:none; border-top: 1px solid var(--theme-page-dynamic-color-1); border-bottom: 1px solid var(--theme-page-dynamic-color-1)" |
-style="background:transparent; border:none; border-top: 1px solid var(--theme-page-dynamic-color-1)" |
-style="background:transparent; border:none" |
-style="background:transparent; border:none" |
-style="background:transparent; border:none; border-top: 1px solid var(--theme-page-dynamic-color-1); border-right: 1px solid var(--theme-page-dynamic-color-1)" |
-style="background:transparent; border:none; border-left: 1px solid var(--theme-page-dynamic-color-1)" |
 rowspan="3" |Rocketry
 rowspan="3" | Rocket Piloting
 colspan="4" style="background:transparent; border: none; border-bottom: 1px solid var(--theme-page-dynamic-color-1); border-right: 1px solid var(--theme-page-dynamic-color-1)" |
 style="background: transparent; border:none; border-left: 1px solid var(--theme-page-dynamic-color-1); border-bottom: 1px solid var(--theme-page-dynamic-color-1)" |
 rowspan="3" | Rocket Piloting II
 style="height: 1em"
-style="background:transparent; border:none; border-top: 1px solid var(--theme-page-dynamic-color-1); border-bottom: 1px solid var(--theme-page-dynamic-color-1)" |
-style="background:transparent; border:none; border-top: 1px solid var(--theme-page-dynamic-color-1)" |
-colspan="3" style="background:transparent; border:none" |
-style="background:transparent; border:none; border-top: 1px solid var(--theme-page-dynamic-color-1); border-right: 1px solid var(--theme-page-dynamic-color-1)" |
-style="background:transparent; border:none; border-left: 1px solid var(--theme-page-dynamic-color-1)" |
 colspan="3" style="background:transparent; border:none" |
 rowspan="2" |Suit Wearing
-rowspan="2" style="background:transparent; border:none" |
 rowspan="2" style="background:transparent; border:none; border-right: 1px solid var(--theme-page-dynamic-color-1)" |
-style="background:transparent; border:none; border-left: 1px solid var(--theme-page-dynamic-color-1); border-bottom: 1px solid var(--theme-page-dynamic-color-1)" |
 rowspan="2" |Suit Sustainability Training
 colspan="2" style="background:transparent; border:none; border-bottom: 1px solid var(--theme-page-dynamic-color-1); vertical-align:bottom" |
 rowspan="2" |Exosuit Training
-colspan="2" style="background:transparent; border:none; border-bottom: 1px solid var(--theme-page-dynamic-color-1)" |
 rowspan="2" | Rocket Piloting
-colspan="2" style="background:transparent; border:none; border-bottom: 1px solid var(--theme-page-dynamic-color-1)" |
 rowspan="2" | Rocket Navigation
 style="background:transparent; border:none; border-top: 1px solid var(--theme-page-dynamic-color-1); border-left: 1px solid var(--theme-page-dynamic-color-1)" |
-style="background:transparent; border:none; border-top: 1px solid var(--theme-page-dynamic-color-1)" |
-style="background:transparent; border:none; border-top: 1px solid var(--theme-page-dynamic-color-1)" |
-colspan="2" style="background:transparent; border:none" |
-colspan="2" style="background:transparent; border:none" |
 rowspan="3" |Supplying
 rowspan="3" | Improved Carrying I
 style="background:transparent; border:none; border-bottom: 1px solid var(--theme-page-dynamic-color-1); border-right: 1px solid var(--theme-page-dynamic-color-1)" |
-style="background:transparent; border:none; border-left: 1px solid var(--theme-page-dynamic-color-1)" |
 rowspan="3" | Improved Carrying II
-style="background:transparent; border:none" |
-style="background:transparent; border:none" |
 style="height: 1em"
-style="background:transparent; border:none; border-bottom: 1px solid var(--theme-page-dynamic-color-1); border-top: 1px solid var(--theme-page-dynamic-color-1)" |
 style="background:transparent; border:none; border-bottom: 1px solid var(--theme-page-dynamic-color-1)" |
-style="background:transparent; border:none; border-bottom: 1px solid var(--theme-page-dynamic-color-1)" |
-style="background:transparent; border:none" |
-colspan="2" style="background:transparent; border:none; border-top: 1px solid var(--theme-page-dynamic-color-1)" |
-style="background:transparent; border:none; border-top: 1px solid var(--theme-page-dynamic-color-1); border-right: 1px solid var(--theme-page-dynamic-color-1)" |
-style="background:transparent; border:none; border-left: 1px solid var(--theme-page-dynamic-color-1)" |
 rowspan="3" | Operating
 rowspan="3" | Improved Tinkering
-colspan="2" style="background:transparent; border:none" |
 rowspan="3" | Electrical Engineering
-style="background:transparent; border:none; border-right: 1px solid var(--theme-page-dynamic-color-1)" |
-style="background:transparent; border:none; border-left: 1px solid var(--theme-page-dynamic-color-1)" |
 rowspan="3" | Mechatronics Engineering
-colspan="2" style="background:transparent; border:none; border-bottom: 1px solid var(--theme-page-dynamic-color-1)" |
 style="background:transparent; border:none; border-right: 1px solid var(--theme-page-dynamic-color-1); border-bottom: 1px solid var(--theme-page-dynamic-color-1)" |
 style="background:transparent; border:none; border-left: 1px solid var(--theme-page-dynamic-color-1); border-bototm: 1px solid var(--theme-page-dynamic-color-1)" |
-colspan="2" style="background:transparent; border:none; border-top: 1px solid var(--theme-page-dynamic-color-1)" |
-colspan="2" style="background:transparent; border:none; border-top: 1px solid var(--theme-page-dynamic-color-1)" |
 rowspan="2" | Doctoring
 rowspan="2" | Medicine Compounding
-colspan="2" style="background:transparent; border:none; border-bottom: 1px solid var(--theme-page-dynamic-color-1)" |
 rowspan="2" | Bedside Manner
-colspan="2" style="background:transparent; border:none; border-bottom: 1px solid var(--theme-page-dynamic-color-1)" |
 rowspan="2" | Advanced Medical Care
-colspan="2" style="background:transparent; border:none; border-top: 1px solid var(--theme-page-dynamic-color-1)" |
-colspan="2" style="background:transparent; border:none; border-top: 1px solid var(--theme-page-dynamic-color-1)" |
 rowspan="2" | Tidying
 rowspan="2" |Improved Strength
-colspan="2" style="background:transparent; border:none; border-bottom: 1px solid var(--theme-page-dynamic-color-1)" |
 rowspan="2" |Plumbing
-colspan="2" style="background:transparent; border:none; border-bottom: 1px solid var(--theme-page-dynamic-color-1)" |
 rowspan="2" |Pyrotechnics
-colspan="2" style="background:transparent; border:none; border-top: 1px solid var(--theme-page-dynamic-color-1)" |
-colspan="2" style="background:transparent; border:none; border-top: 1px solid var(--theme-page-dynamic-color-1)" |
 
 Hats
 Every mastered skill rewards a hat, which can be accessed after learning the respective skill in the skills screen. Hats are purely cosmetic and duplicants may freely switch between any hat they own.
@@ -6222,9 +5848,7 @@ Pyrotechnics
 ---
 ## FOOD
 共 55 篇文档
-
 # 文档：Barbeque
-
 - 类别：food
 - 标识：barbeque
 - 来源：wiki/Barbeque
@@ -6239,9 +5863,7 @@ Frost Burger
 History
 
 ---
-
 # 文档：Berry Sludge
-
 - 类别：food
 - 标识：berry sludge
 - 来源：wiki/Berry_Sludge
@@ -6263,9 +5885,7 @@ Its inability to spoil may be a reference to the myth that fruit cake lasts fore
 History
 
 ---
-
 # 文档：Bog Jelly
-
 - 类别：food
 - 标识：bog jelly
 - 来源：wiki/Bog_Jelly
@@ -6277,9 +5897,7 @@ Inside the Electric Grill, it can be cooked into
 Swampy Delights (Spaced Out)
 
 ---
-
 # 文档：Bristle Berry
-
 - 类别：food
 - 标识：bristle berry
 - 来源：wiki/Bristle_Berry
@@ -6292,9 +5910,7 @@ The Electric Grill can cook it into Gristle Berry.
 The Juicer produces a drink from it, that can augment the morale and strength attributes.
 
 ---
-
 # 文档：Consumables
-
 - 类别：food
 - 标识：consumables
 - 来源：wiki/Consumables
@@ -6315,9 +5931,7 @@ Raw or unprocessed food that is going to be Cooked (for example raw Meat) should
 Duplicants will eat Basic Rad Pills whether they already are irradiated or not. It is therefore advisable to deselect and manually control access to rad pills.
 
 ---
-
 # 文档：Cooked Seafood
-
 - 类别：food
 - 标识：cooked seafood
 - 来源：wiki/Cooked_Seafood
@@ -6336,9 +5950,7 @@ Gallery
 History
 
 ---
-
 # 文档：Curried Beans
-
 - 类别：food
 - 标识：curried beans
 - 来源：wiki/Curried_Beans
@@ -6352,9 +5964,7 @@ For long-time storage it can be kept in  environment while being  or be dehydrat
 History
 
 ---
-
 # 文档：Dried Berry Pie
-
 - 类别：food
 - 标识：dried berry pie
 - 来源：wiki/Dried_Berry_Pie
@@ -6366,9 +5976,7 @@ Rehydrator: 1 unit Dried Mixed Berry Pie + 1 kg Water = rehydrated Mixed Berry P
 History
 
 ---
-
 # 文档：Dried Curried Beans
-
 - 类别：food
 - 标识：dried curried beans
 - 来源：wiki/Dried_Curried_Beans
@@ -6382,9 +5990,7 @@ Rehydrator: 1 unit Dried Curried Beans + 1 kg Water = rehydrated Curried Beans
 History
 
 ---
-
 # 文档：Dried Duplicant
-
 - 类别：food
 - 标识：dried duplicant
 - 来源：wiki/Dried_Duplicant
@@ -6401,9 +6007,7 @@ Dehydrator: 1 unit Duplicant + 25 kg Plastic = 1 unit Dried Duplicant + 6 kg Wat
 Rehydrator: 1 unit Dried Duplicant + 1 kg Water = rehydrated Duplicant
 
 ---
-
 # 文档：Dried Frost Burger
-
 - 类别：food
 - 标识：dried frost burger
 - 来源：wiki/Dried_Frost_Burger
@@ -6415,9 +6019,7 @@ Rehydrator: 1 unit Dried Frost Burger + 1 kg Water = rehydrated Frost Burger
 History
 
 ---
-
 # 文档：Dried Mushroom Quiche
-
 - 类别：food
 - 标识：dried mushroom quiche
 - 来源：wiki/Dried_Mushroom_Quiche
@@ -6431,9 +6033,7 @@ Rehydrator: 1 unit Dried Mushroom Quiche + 1 kg Water = rehydrated Mushroom Quic
 History
 
 ---
-
 # 文档：Dried Mushroom Wrap
-
 - 类别：food
 - 标识：dried mushroom wrap
 - 来源：wiki/Dried_Mushroom_Wrap
@@ -6447,9 +6047,7 @@ Rehydrator: 1 unit Dried Mushroom Wrap + 1 kg Water = rehydrated Mushroom Wrap
 History
 
 ---
-
 # 文档：Dried Pepper Bread
-
 - 类别：food
 - 标识：dried pepper bread
 - 来源：wiki/Dried_Pepper_Bread
@@ -6463,9 +6061,7 @@ Rehydrator: 1 unit Dried Pepper Bread + 1 kg Water = rehydrated Pepper Bread
 History
 
 ---
-
 # 文档：Dried Spicy Tofu
-
 - 类别：food
 - 标识：dried spicy tofu
 - 来源：wiki/Dried_Spicy_Tofu
@@ -6479,9 +6075,7 @@ Rehydrator: 1 unit Dried Spicy Tofu + 1 kg Water = rehydrated Spicy Tofu
 History
 
 ---
-
 # 文档：Dried Stuffed Berry
-
 - 类别：food
 - 标识：dried stuffed berry
 - 来源：wiki/Dried_Stuffed_Berry
@@ -6495,9 +6089,7 @@ Rehydrator: 1 unit Dried Stuffed Berry + 1 kg Water = rehydrated Stuffed Berry
 History
 
 ---
-
 # 文档：Dried Surf'N'Turf
-
 - 类别：food
 - 标识：dried surfnturf
 - 来源：wiki/Dried_Surf'N'Turf
@@ -6509,9 +6101,7 @@ Rehydrator: 1 unit Dried Surf'n'Turf  + 1 kg Water = rehydrated Surf'n'Turf
 History
 
 ---
-
 # 文档：Fried Mushroom
-
 - 类别：food
 - 标识：fried mushroom
 - 来源：wiki/Fried_Mushroom
@@ -6524,9 +6114,7 @@ Mushroom Quiche
 History
 
 ---
-
 # 文档：Frost Bun
-
 - 类别：food
 - 标识：frost bun
 - 来源：wiki/Frost_Bun
@@ -6539,12 +6127,10 @@ Frost Burger
 
 Tips
 6 Frost Bun orders can be made at the Electric Grill every time a Sleet Wheat plant is harvested.
-Feeding your Duplicant<nowiki/>s only Frost Buns will require 2.5(domestic)/10(wild) Sleet Wheat plants per dupe.
+Feeding your Duplicants only Frost Buns will require 2.5(domestic)/10(wild) Sleet Wheat plants per dupe.
 
 ---
-
 # 文档：Frost Burger
-
 - 类别：food
 - 标识：frost burger
 - 来源：wiki/Frost_Burger
@@ -6559,9 +6145,7 @@ For long-time storage it can be kept in  environment while being  or be dehydrat
 History
 
 ---
-
 # 文档：Gristle Berry
-
 - 类别：food
 - 标识：gristle berry
 - 来源：wiki/Gristle_Berry
@@ -6576,9 +6160,7 @@ Tips
 When turning Bristle Berry into Gristle Berry you gain a 400 kcal increase. This decreases the number of Bristle Blossoms you need from 3.75(domestic)/15(wild) to 3(domestic)/12(wild) per dupe.
 
 ---
-
 # 文档：Grubfruit
-
 - 类别：food
 - 标识：grubfruit
 - 来源：wiki/Grubfruit
@@ -6590,9 +6172,7 @@ The Electric Grill can cook 2000kcal Grubfruit and 4kg  into 2400kcal
 The Gas Range can cook 1000kcal Grubfruit with 3  and 2000kcal  into 4200kcal
 
 ---
-
 # 文档：Grubfruit Preserve
-
 - 类别：food
 - 标识：grubfruit preserve
 - 来源：wiki/Grubfruit_Preserve
@@ -6619,9 +6199,7 @@ Deep Freeze
 0%/cycle
 
 ---
-
 # 文档：Hexalent Fruit
-
 - 类别：food
 - 标识：hexalent fruit
 - 来源：wiki/Hexalent_Fruit
@@ -6629,9 +6207,7 @@ Deep Freeze
 The Hexalent Fruit can only be consumed directly, there are no recipes using it as an ingredient. Grown by the Hexalent Plant
 
 ---
-
 # 文档：Lettuce
-
 - 类别：food
 - 标识：lettuce
 - 来源：wiki/Lettuce
@@ -6649,9 +6225,7 @@ Tips
 3 Mushroom Wraps can be made for each growth cycle of Waterweed. This means if you choose to feed your Duplicants only Mushroom Wraps you will need ~0.833(domestic)/~3.333(wild) Waterweed plants per duplicant to supply the Lettuce.
 
 ---
-
 # 文档：Liceloaf
-
 - 类别：food
 - 标识：liceloaf
 - 来源：wiki/Liceloaf
@@ -6663,9 +6237,7 @@ Making Liceloaf effectively converts 50 kg of water into 500 kcal of food, which
 The process to make Liceloaf is also rather long - but it does not require the Cooking skill.
 
 ---
-
 # 文档：Meal Lice
-
 - 类别：food
 - 标识：meal lice
 - 来源：wiki/Meal_Lice
@@ -6703,9 +6275,7 @@ Cooking Meal Lice into Liceloaf produces fewer additional kcal, and with lower q
 Feeding Dreckos with Meal Lice increases the chance to get a Glossy Drecko egg.
 
 ---
-
 # 文档：Meat
-
 - 类别：food
 - 标识：meat
 - 来源：wiki/Meat
@@ -6767,9 +6337,7 @@ See Also
 Drowning chamber
 
 ---
-
 # 文档：Mixed Berry Pie
-
 - 类别：food
 - 标识：mixed berry pie
 - 来源：wiki/Mixed_Berry_Pie
@@ -6782,9 +6350,7 @@ For long-time storage it can be kept in  environment while being  or be dehydrat
 History
 
 ---
-
 # 文档：Muckroot
-
 - 类别：food
 - 标识：muckroot
 - 来源：wiki/Muckroot
@@ -6798,9 +6364,7 @@ They also never spoil, and cannot be broken down in the compost pile.
 History
 
 ---
-
 # 文档：Mush Bar
-
 - 类别：food
 - 标识：mush bar
 - 来源：wiki/Mush_Bar
@@ -6815,9 +6379,7 @@ Version History
 Mush Bar previously had a chance to induce Diarrhea, this was replaced with 1000 Food Poisoning germs.
 
 ---
-
 # 文档：Mush Fry
-
 - 类别：food
 - 标识：mush fry
 - 来源：wiki/Mush_Fry
@@ -6827,13 +6389,11 @@ The Mush Fry is a food item made from 800 kcal of Mush Bar. It has a Food Qualit
 There are no recipes using Mush Fry as an ingredient to create more sophisticated food.
 
 Tips
-Mush Frys allow you to feed your Duplicants for ~71.4 kg Dirt and ~71.4 kg Water<nowiki/> per cycle
+Mush Frys allow you to feed your Duplicants for ~71.4 kg Dirt and ~71.4 kg Water per cycle
 Do everything in your power to avoid making Mush Bars and always turn the ones you have into Mush Frys!
 
 ---
-
 # 文档：Mushroom
-
 - 类别：food
 - 标识：mushroom
 - 来源：wiki/Mushroom
@@ -6858,9 +6418,7 @@ Stats for 1000 kcal of Mushroom
 History
 
 ---
-
 # 文档：Mushroom Quiche
-
 - 类别：food
 - 标识：mushroom quiche
 - 来源：wiki/Mushroom_Quiche
@@ -6872,9 +6430,7 @@ It is currently the highest kcal-to-kg holder and the only Superb quality food t
 History
 
 ---
-
 # 文档：Mushroom Wrap
-
 - 类别：food
 - 标识：mushroom wrap
 - 来源：wiki/Mushroom_Wrap
@@ -6893,9 +6449,7 @@ Mushroom Quiche can be considered an upgrade as it requires the same ingredients
 History
 
 ---
-
 # 文档：Nosh Bean
-
 - 类别：food
 - 标识：nosh bean
 - 来源：wiki/Nosh_Bean
@@ -6936,9 +6490,7 @@ See Also
 Nosh Sprout
 
 ---
-
 # 文档：Nutrient Bar
-
 - 类别：food
 - 标识：nutrient bar
 - 来源：wiki/Nutrient_Bar
@@ -6955,9 +6507,7 @@ Trivia
 The Nutrient Bar used to be called 'Field Ration'.
 
 ---
-
 # 文档：Omelette
-
 - 类别：food
 - 标识：omelette
 - 来源：wiki/Omelette
@@ -6970,9 +6520,7 @@ Tips
 Since Omelettes can be cooked by heating raw egg, they can be moved into a heated area by Conveyor Rails and Auto-Sweepers to make food with minimal dupe labor.
 
 ---
-
 # 文档：Pacu Fillet
-
 - 类别：food
 - 标识：pacu fillet
 - 来源：wiki/Pacu_Fillet
@@ -6986,9 +6534,7 @@ Inside the Electric Grill, it can be cooked into
 Cooked Seafood
 
 ---
-
 # 文档：Pepper Bread
-
 - 类别：food
 - 标识：pepper bread
 - 来源：wiki/Pepper_Bread
@@ -7006,9 +6552,7 @@ For long-time storage it can be kept in  environment while being  or be dehydrat
 History
 
 ---
-
 # 文档：Pickled Meal
-
 - 类别：food
 - 标识：pickled meal
 - 来源：wiki/Pickled_Meal
@@ -7023,9 +6567,7 @@ One side-effect of not using water for meal preparation, is that your dupes will
 Pickled Meal has a very peculiar effect in that it is the only cooked food to destroy Food Poisoning germs in room temperature, meaning that it eliminates most of the risk of food poisoning, even if a dupe has not washed up recently.
 
 ---
-
 # 文档：Pincha Peppernut
-
 - 类别：food
 - 标识：pincha peppernut
 - 来源：wiki/Pincha_Peppernut
@@ -7076,9 +6618,7 @@ Inside the Apothecary,
 Espresso Machine consumes 1 kg of Pincha Peppernut per use.
 
 ---
-
 # 文档：Plant Meat
-
 - 类别：food
 - 标识：plant meat
 - 来源：wiki/Plant_Meat
@@ -7088,9 +6628,7 @@ Plant Meat is planty plant meat produced by a Saturn Critter Trap.
 There are no recipes that call for Plant Meat.
 
 ---
-
 # 文档：Raw Egg
-
 - 类别：food
 - 标识：raw egg
 - 来源：wiki/Raw_Egg
@@ -7112,9 +6650,7 @@ Soufflé Pancakes
 History
 
 ---
-
 # 文档：Raw Shellfish
-
 - 类别：food
 - 标识：raw shellfish
 - 来源：wiki/Raw_Shellfish
@@ -7126,9 +6662,7 @@ Inside the Electric Grill, it can be cooked into
 Cooked Seafood
 
 ---
-
 # 文档：Roast Grubfruit Nut
-
 - 类别：food
 - 标识：roast grubfruit nut
 - 来源：wiki/Roast_Grubfruit_Nut
@@ -7136,9 +6670,7 @@ Cooked Seafood
 Roast Grubfruit Nut is a food item made from . It provides 1200 kcal with food quality of . Its shelf-life is comparable to  and .
 
 ---
-
 # 文档：Sleet Wheat Grain
-
 - 类别：food
 - 标识：sleet wheat grain
 - 来源：wiki/Sleet_Wheat_Grain
@@ -7175,16 +6707,13 @@ Microbe Musher
 +3
 A mashed up Bristle Berry with an exceptionally long shelf life. Its aggressive, overbearing sweetness can leave the tongue feeling temporarily numb.
 
-3 x Sleet Wheat Grain
 Gas Range
 +4,200
 +5
 A pie primarily made from Grubfruit and Gristle Berry. The mixture of berries creates a fragrant, colorful filling that packs a sweet punch.
 
 ---
-
 # 文档：Soufflé Pancakes
-
 - 类别：food
 - 标识：soufflé pancakes
 - 来源：wiki/Soufflé_Pancakes
@@ -7195,14 +6724,12 @@ There are no recipes using Soufflé Pancakes as an ingredient to create more sop
 
 Tips
 9 Soufflé Pancakes can be made every time a Sleet Wheat plant is harvested.
-Feeding your Duplicant<nowiki/>s only Soufflé Pancakes will require 0.56(domestic)/2.24(wild) Sleet Wheat plants per dupe, and 444 kcal of egg per dupe.
+Feeding your Duplicants only Soufflé Pancakes will require 0.56(domestic)/2.24(wild) Sleet Wheat plants per dupe, and 444 kcal of egg per dupe.
 
 History
 
 ---
-
 # 文档：Spicy Tofu
-
 - 类别：food
 - 标识：spicy tofu
 - 来源：wiki/Spicy_Tofu
@@ -7215,9 +6742,7 @@ For long-time storage it can be kept in  environment while being  or be dehydrat
 History
 
 ---
-
 # 文档：Spindly Grubfruit
-
 - 类别：food
 - 标识：spindly grubfruit
 - 来源：wiki/Spindly_Grubfruit
@@ -7226,9 +6751,7 @@ A Grubfruit that failed to develop properly.
 It is nonetheless edible, and vaguely tasty. It provides 800 kcal per fruit (one fruit is 1kg) and its Food Quality is . It can be cooked in the Electric Grill to make Roast Grubfruit Nut, increasing its calories count to 1200kcal.
 
 ---
-
 # 文档：Stuffed Berry
-
 - 类别：food
 - 标识：stuffed berry
 - 来源：wiki/Stuffed_Berry
@@ -7242,9 +6765,7 @@ For long-time storage it can be kept in  environment while being  or be dehydrat
 History
 
 ---
-
 # 文档：Surf'n'Turf
-
 - 类别：food
 - 标识：surfnturf
 - 来源：wiki/Surf'n'Turf
@@ -7262,9 +6783,7 @@ Gallery
 History
 
 ---
-
 # 文档：Swamp Chard Heart
-
 - 类别：food
 - 标识：swamp chard heart
 - 来源：wiki/Swamp_Chard_Heart
@@ -7278,9 +6797,7 @@ It can only be consumed directly, there are no recipes with it.
 History
 
 ---
-
 # 文档：Swampy Delights
-
 - 类别：food
 - 标识：swampy delights
 - 来源：wiki/Swampy_Delights
@@ -7288,9 +6805,7 @@ History
 Swampy Delights is a food item made from . It provides 2240 kcal with food quality of .
 
 ---
-
 # 文档：Tofu
-
 - 类别：food
 - 标识：tofu
 - 来源：wiki/Tofu
@@ -7306,9 +6821,7 @@ Spicy Tofu
 ---
 ## GASES
 共 25 篇文档
-
 # 文档：Atmospheric Pressure
-
 - 类别：gases
 - 标识：atmospheric pressure
 - 来源：wiki/Atmospheric_Pressure
@@ -7344,9 +6857,7 @@ On Emitting Elements
 Offgassing Elements such as Oxylite or Polluted Water will stop producing emitting their respective element at 1,800 grams Atmospheric Pressure.
 
 ---
-
 # 文档：Breathable Gas
-
 - 类别：gases
 - 标识：breathable gas
 - 来源：wiki/Breathable_Gas
@@ -7357,9 +6868,7 @@ Oxygen
 Polluted Oxygen
 
 ---
-
 # 文档：Carbon Dioxide
-
 - 类别：gases
 - 标识：carbon dioxide
 - 来源：wiki/Carbon_Dioxide
@@ -7413,9 +6922,7 @@ Trivia
 Under regular atmospheric conditions, real-life Carbon Dioxide actually bypasses the liquid phase entirely. Only above a pressure of 518 kPa, about five times standard atmospheric pressure, does liquid Carbon Dioxide actually form. However, ONI does not simulate the influence of pressure on phase transitions, and includes liquid Carbon Dioxide.
 
 ---
-
 # 文档：Chlorine
-
 - 类别：gases
 - 标识：chlorine
 - 来源：wiki/Chlorine
@@ -7461,9 +6968,7 @@ Chlorine does not directly harm dupes any more than the slowness from Eye Irrita
 Gallery
 
 ---
-
 # 文档：Ethanol
-
 - 类别：gases
 - 标识：ethanol
 - 来源：wiki/Ethanol
@@ -7489,9 +6994,7 @@ Ethanol Distiller can produce Ethanol from Lumber:
 Reference
 
 ---
-
 # 文档：Gas
-
 - 类别：gases
 - 标识：gas
 - 来源：wiki/Gas
@@ -7651,9 +7154,7 @@ Trivia
 Real-life oxygen has a "density" (molecular mass) of about 32 g/mol, as in "natural" state it forms two atom (of 16 mass each) particles.
 
 ---
-
 # 文档：Gas Aluminum
-
 - 类别：gases
 - 标识：gas aluminum
 - 来源：wiki/Gas_Aluminum
@@ -7663,9 +7164,7 @@ Gas Aluminum is the Gas state of Aluminum element.
 Gallery
 
 ---
-
 # 文档：Gas Carbon
-
 - 类别：gases
 - 标识：gas carbon
 - 来源：wiki/Gas_Carbon
@@ -7675,9 +7174,7 @@ Gas Carbon is the Gas state of carbon element.
 Gallery
 
 ---
-
 # 文档：Gas Cobalt
-
 - 类别：gases
 - 标识：gas cobalt
 - 来源：wiki/Gas_Cobalt
@@ -7688,9 +7185,7 @@ It is lighter than Gas Copper but heavier than Gas Iron.
 Gallery
 
 ---
-
 # 文档：Gas Copper
-
 - 类别：gases
 - 标识：gas copper
 - 来源：wiki/Gas_Copper
@@ -7700,9 +7195,7 @@ Gas Copper is the gas state of Copper element.
 Gallery
 
 ---
-
 # 文档：Gas Gold
-
 - 类别：gases
 - 标识：gas gold
 - 来源：wiki/Gas_Gold
@@ -7712,9 +7205,7 @@ Gas Gold is the Gas state of Gold element.
 Gallery
 
 ---
-
 # 文档：Gas Iron
-
 - 类别：gases
 - 标识：gas iron
 - 来源：wiki/Gas_Iron
@@ -7724,9 +7215,7 @@ Gas Iron is the Gas state of Iron element.
 Gallery
 
 ---
-
 # 文档：Gas Lead
-
 - 类别：gases
 - 标识：gas lead
 - 来源：wiki/Gas_Lead
@@ -7738,9 +7227,7 @@ Gas Lead has the highest Thermal Conductivity of any Gas.
 Gallery
 
 ---
-
 # 文档：Gas Phosphorus
-
 - 类别：gases
 - 标识：gas phosphorus
 - 来源：wiki/Gas_Phosphorus
@@ -7748,9 +7235,7 @@ Gallery
 Gas Phosphorus is the Gas state of Refined Phosphorus element.
 
 ---
-
 # 文档：Gas Super Coolant
-
 - 类别：gases
 - 标识：gas super coolant
 - 来源：wiki/Gas_Super_Coolant
@@ -7758,9 +7243,7 @@ Gas Phosphorus is the Gas state of Refined Phosphorus element.
 Gas Super Coolant is the Gas state of Super Coolant.
 
 ---
-
 # 文档：Gas Tungsten
-
 - 类别：gases
 - 标识：gas tungsten
 - 来源：wiki/Gas_Tungsten
@@ -7768,9 +7251,7 @@ Gas Super Coolant is the Gas state of Super Coolant.
 Gas Tungsten is the Gas state of Tungsten element.
 
 ---
-
 # 文档：Hydrogen
-
 - 类别：gases
 - 标识：hydrogen
 - 来源：wiki/Hydrogen
@@ -7810,9 +7291,7 @@ More power-efficient setup, that generates consistent, controlled temperature, w
 Gallery
 
 ---
-
 # 文档：Natural Gas
-
 - 类别：gases
 - 标识：natural gas
 - 来源：wiki/Natural_Gas
@@ -7838,9 +7317,7 @@ In Exploded Ice Giants at a rate of 27 – 81 kg per cycle, as a solid.
 In Oily Asteroid Fields at a rate of 17 – 56.5 kg per cycle, as a solid.
 
 ---
-
 # 文档：Oxygen
-
 - 类别：gases
 - 标识：oxygen
 - 来源：wiki/Oxygen
@@ -7886,9 +7363,7 @@ Carbon Dioxide - gas emitted from duplicants when breathing
 Gallery
 
 ---
-
 # 文档：Polluted Oxygen
-
 - 类别：gases
 - 标识：polluted oxygen
 - 来源：wiki/Polluted_Oxygen
@@ -7911,7 +7386,7 @@ Production
 Slime, Polluted Dirt, and bottled Polluted Water all emit Polluted Oxygen into the air in environments with <1800g of air pressure. This spreads any germs present on the substance into the air.
 Unbottled Polluted Water will also emit germy Polluted Oxygen into the air in environments with <1800g of air pressure. The rate of production is random.
 Morbs produce Polluted Oxygen into the air in environments with <1000g of air pressure without any inputs. They also release Polluted Oxygen upon death.
-There are two types of geysers that produce Polluted Oxygen – Hot and Infectious Polluted Oxygen Vents. Both yield ~95&nbsp;g/s and are stifled at 5&nbsp;kg of air pressure, with the latter spreading Slimelung germs. Each of them produces enough polluted oxygen to sustain ~5 wild Pufts, or 1-2 tame ones, but the hotter geyser must be cooled first to not kill critters, especially since it is viable for powering Steam Turbines.
+There are two types of geysers that produce Polluted Oxygen – Hot and Infectious Polluted Oxygen Vents. Both yield ~95 g/s and are stifled at 5 kg of air pressure, with the latter spreading Slimelung germs. Each of them produces enough polluted oxygen to sustain ~5 wild Pufts, or 1-2 tame ones, but the hotter geyser must be cooled first to not kill critters, especially since it is viable for powering Steam Turbines.
 It can be harvested on rocket missions to renewable Space POIs:
 In Oxygen Rich Asteroid Field at a rate of 30–100 kg per cycle.
 In Organic Mass Field at a rate of 54–162 kg per cycle
@@ -7928,9 +7403,7 @@ Guide/Oxygen
 Guide/Cleaning Polluted Oxygen
 
 ---
-
 # 文档：Rock Gas
-
 - 类别：gases
 - 标识：rock gas
 - 来源：wiki/Rock_Gas
@@ -7942,9 +7415,7 @@ Molten Glass is heated above 2359.85 °C (vaporization point + 3 °C).
 Liquid Uranium is heated above 4134.9 °C (vaporization point + 3 °C).
 
 ---
-
 # 文档：Salt
-
 - 类别：gases
 - 标识：salt
 - 来源：wiki/Salt
@@ -7977,9 +7448,7 @@ It can be harvested on rocket missions to renewable Space POIs:
 In Interstellar Oceans at a rate of 37.5 – 125 kg per cycle.
 
 ---
-
 # 文档：Sour Gas
-
 - 类别：gases
 - 标识：sour gas
 - 来源：wiki/Sour_Gas
@@ -8002,9 +7471,7 @@ and  can theoretically serve as alternatives for Super Coolant.
 History
 
 ---
-
 # 文档：Unreleased Content
-
 - 类别：gases
 - 标识：unreleased content
 - 来源：wiki/Unreleased_Content
@@ -8021,7 +7488,6 @@ Shockworm || || Shockworms are exceptionally aggressive and discharge electrical
 Plants
 The files mention several plants that are not obtainable:
 
-Name !! Picture !! Description
 Avari Vine || || A rapidly growing, subterranean Plant.
 Fervine || || A temperature reactive, subterranean Plant.
 Palmera Tree || || A large, chlorine-dwelling Plant that can be grown in farm buildings.
@@ -8050,9 +7516,7 @@ Helium
 Liquid Helium
 
 ---
-
 # 文档：Water
-
 - 类别：gases
 - 标识：water
 - 来源：wiki/Water
@@ -8120,11 +7584,9 @@ Cooling Salt Water below its freezing point will turn it into Ice (77% mass) and
 
 Ice Maker can make Ice from Water.
 
-It can be harvested on rocket missions to renewable Space POIs:
 In Exploded Ice Giants at a rate of 324 – 972 kg per cycle.
 In Frozen Ore Asteroid Fields at a rate of 148 – 443.9 kg per cycle.
 In Ice Asteroid Fields at a rate of 135 – 405 kg per cycle.
-In Oxygen Rich Asteroid Fields at a rate of 60 – 200 kg per cycle.
 In Interstellar Oceans at a rate of 37.5 – 125 kg per cycle.
 
 Usage
@@ -8167,9 +7629,7 @@ Another way to generate Steam is to build a normal cooling loop with a Thermal A
 ---
 ## GEYSERS
 共 19 篇文档
-
 # 文档：Geyser
-
 - 类别：geysers
 - 标识：geyser
 - 来源：wiki/Geyser
@@ -8193,7 +7653,7 @@ Geyser Variants
 All geyser types randomly select an average active yield, eruption periods and percentages, and active periods and percentages; these values are picked independently.
 
 Values in a range are picked based on this formula (graph):
-<math display="block">y = \frac{\log_e \left(\frac{1}{0.995054754 x + 0.002472623} - 1.0\right) + 6}{12}</math>
+y = \frac{\log_e \left(\frac{1}{0.995054754 x + 0.002472623} - 1.0\right) + 6}{12}
 
 where x is a random value from 0 to 1. A value has approximately 50% chance of being in the middle 20%, and these "likely outcome" ranges are shown on the chart. For example: Most cool slush geysers will output between 1400 kg/cycle (= 2333.33 g/s) and 1600 kg/cycle (= 2666.67 g/s) on average while active.
 
@@ -8217,7 +7677,6 @@ rowspan="2" |Spawnable Biomes
 data-sort-type="number" |kg/cycle
 data-sort-type="number" |g/s
 rowspan="2" style="text-align:left" |
-rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |5
 1400 - 1600
@@ -8236,8 +7695,6 @@ class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page
 15000 - 135000
 1851 - 33333
 666 - 2666
-rowspan="2" style="text-align:left" |
-rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |5
 700 - 800
@@ -8248,7 +7705,6 @@ rowspan="2" |5
 2011 - 3174
 653 - 853
 rowspan="2" |Marsh
-class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 500 - 1000
 833 - 1666
 60 - 1140
@@ -8256,8 +7712,6 @@ class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page
 15000 - 135000
 925 - 16666
 333 - 1333
-rowspan="2" style="text-align:left" |
-rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |500
 2800 - 3200
@@ -8268,7 +7722,6 @@ rowspan="2" |500
 8046 - 12698
 2613 - 3413
 rowspan="2" |
-class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 2000 - 4000
 3333 - 6666
 60 - 1140
@@ -8276,8 +7729,6 @@ class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page
 15000 - 135000
 3703 - 66666
 1333 - 5333
-rowspan="2" style="text-align:left" |
-rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" | 500
 1400 - 1600
@@ -8288,7 +7739,6 @@ rowspan="2" | 500
 4023 - 6349
 1306 - 1706
 rowspan="2" |Tundra, Marsh
-class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 1000 - 2000
 1666 - 3333
 60 - 1140
@@ -8296,8 +7746,6 @@ class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page
 15000 - 135000
 1851 - 33333
 666 - 2666
-rowspan="2" style="text-align:left" |
-rowspan="2" style="text-align:left" |
 with Food Poisoning
 rowspan="2" |
 rowspan="2" |500
@@ -8309,7 +7757,6 @@ rowspan="2" |500
 8046 - 12698
 2613 - 3413
 rowspan="2" |
-class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 2000 - 4000
 3333 - 6666
 60 - 1140
@@ -8317,8 +7764,6 @@ class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page
 15000 - 135000
 3703 - 66666
 1333 - 5333
-rowspan="2" style="text-align:left" |
-rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |500
 1400 - 1600
@@ -8329,7 +7774,6 @@ rowspan="2" |500
 4023 - 6349
 1306 - 1706
 rowspan="2" |Jungle
-class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 1000 - 2000
 1666 - 3333
 60 - 1140
@@ -8337,8 +7781,6 @@ class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page
 15000 - 135000
 1851 - 33333
 666 - 2666
-rowspan="2" style="text-align:left" |
-rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" | 500
 2800 - 3200
@@ -8349,7 +7791,6 @@ rowspan="2" | 500
 8046 - 12698
 2613 - 3413
 rowspan="2" |Tide Pools
-class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 2000 - 4000
 3333 - 6666
 60 - 1140
@@ -8357,8 +7798,6 @@ class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page
 15000 - 135000
 3703 - 66666
 1333 - 5333
-rowspan="2" style="text-align:left" |
-rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |150
 560 - 640
@@ -8369,7 +7808,6 @@ rowspan="2" |150
 116666 - 152381
 522 - 682
 rowspan="2" |
-class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 400 - 800
 666 - 1333
 6000 - 12000
@@ -8377,8 +7815,6 @@ class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page
 15000 - 135000
 66666 - 266666
 266 - 1066
-rowspan="2" style="text-align:left" |
-rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |150
 1120 - 1280
@@ -8389,7 +7825,6 @@ rowspan="2" |150
 233333 - 304761
 1045 - 1365
 rowspan="2" |
-class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 800 - 1600
 1333 - 2666
 6000 - 12000
@@ -8397,8 +7832,6 @@ class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page
 15000 - 135000
 133333 - 533333
 533 - 2133
-rowspan="2" style="text-align:left" |
-rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |50
 140 - 160
@@ -8409,7 +7842,6 @@ rowspan="2" |50
 402 - 634
 130 - 170
 rowspan="2" |
-class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 100 - 200
 166 - 333
 60 - 1140
@@ -8417,8 +7849,6 @@ class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page
 15000 - 135000
 185 - 3333
 66 - 266
-rowspan="2" style="text-align:left" |
-rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |5
 98 - 112
@@ -8428,8 +7858,6 @@ rowspan="2" |5
 63000 - 87000
 281 - 444
 91 - 119
-rowspan="2" |Tide Pools
-class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 70 - 140
 116 - 233
 60 - 1140
@@ -8437,8 +7865,6 @@ class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page
 15000 - 135000
 129 - 2333
 46 - 186
-rowspan="2" style="text-align:left" |
-rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |5
 98 - 112
@@ -8449,7 +7875,6 @@ rowspan="2" |5
 281 - 444
 91 - 119
 rowspan="2" |Jungle, Oil Fields
-class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 70 - 140
 116 - 233
 60 - 1140
@@ -8457,8 +7882,6 @@ class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page
 15000 - 135000
 129 - 2333
 46 - 186
-rowspan="2" style="text-align:left" |
-rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |5
 98 - 112
@@ -8469,7 +7892,6 @@ rowspan="2" |5
 281 - 444
 91 - 119
 rowspan="2" |
-class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 70 - 140
 116 - 233
 60 - 1140
@@ -8477,8 +7899,6 @@ class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page
 15000 - 135000
 129 - 2333
 46 - 186
-rowspan="2" style="text-align:left" |
-rowspan="2" style="text-align:left" |
 with Slimelung
 rowspan="2" |
 rowspan="2" | 5
@@ -8490,7 +7910,6 @@ rowspan="2" | 5
 281 - 444
 91 - 119
 rowspan="2" |Marsh, Tide Pools
-class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 70 - 140
 116 - 233
 60 - 1140
@@ -8498,8 +7917,6 @@ class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page
 15000 - 135000
 129 - 2333
 46 - 186
-rowspan="2" style="text-align:left" |
-rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |5
 98 - 112
@@ -8510,7 +7927,6 @@ rowspan="2" |5
 281 - 444
 91 - 119
 rowspan="2" |Jungle
-class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 70 - 140
 116 - 233
 60 - 1140
@@ -8518,8 +7934,6 @@ class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page
 15000 - 135000
 129 - 2333
 46 - 186
-rowspan="2" style="text-align:left" |
-rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |5
 98 - 112
@@ -8529,8 +7943,6 @@ rowspan="2" |5
 63000 - 87000
 281 - 444
 91 - 119
-rowspan="2" |Marsh, Jungle
-class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 70 - 140
 116 - 233
 60 - 1140
@@ -8538,8 +7950,6 @@ class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page
 15000 - 135000
 129 - 2333
 46 - 186
-rowspan="2" style="text-align:left" |
-rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |150
 280 - 320
@@ -8550,7 +7960,6 @@ rowspan="2" |150
 7000 - 10666
 261 - 341
 rowspan="2" |
-class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 200 - 400
 333 - 666
 480 - 1080
@@ -8558,8 +7967,6 @@ class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page
 15000 - 135000
 3333 - 40000
 133 - 533
-rowspan="2" style="text-align:left" |
-rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |150
 280 - 320
@@ -8570,7 +7977,6 @@ rowspan="2" |150
 7000 - 10666
 261 - 341
 rowspan="2" |Jungle
-class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 200 - 400
 333 - 666
 480 - 1080
@@ -8578,8 +7984,6 @@ class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page
 15000 - 135000
 3333 - 40000
 133 - 533
-rowspan="2" style="text-align:left" |
-rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |150
 280 - 320
@@ -8589,8 +7993,6 @@ rowspan="2" |150
 63000 - 87000
 7000 - 10666
 261 - 341
-rowspan="2" |Tide Pools
-class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 200 - 400
 333 - 666
 480 - 1080
@@ -8598,28 +8000,6 @@ class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page
 15000 - 135000
 3333 - 40000
 133 - 533
-rowspan="2" style="text-align:left" |
-rowspan="2" style="text-align:left" |
-rowspan="2" |
-rowspan="2" |150
-280 - 320
-466 - 533
-720 - 840
-5% - 6.667%
-63000 - 87000
-7000 - 10666
-261 - 341
-rowspan="2" |
-class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
-200 - 400
-333 - 666
-480 - 1080
-1.667% - 10%
-15000 - 135000
-3333 - 40000
-133 - 533
-rowspan="2" style="text-align:left" |
-rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |150
 280 - 320
@@ -8630,7 +8010,6 @@ rowspan="2" |150
 7000 - 10666
 261 - 341
 rowspan="2" |
-class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 200 - 400
 333 - 666
 480 - 1080
@@ -8638,8 +8017,23 @@ class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page
 15000 - 135000
 3333 - 40000
 133 - 533
-rowspan="2" style="text-align:left" |
-rowspan="2" style="text-align:left" |
+rowspan="2" |
+rowspan="2" |150
+280 - 320
+466 - 533
+720 - 840
+5% - 6.667%
+63000 - 87000
+7000 - 10666
+261 - 341
+rowspan="2" |
+200 - 400
+333 - 666
+480 - 1080
+1.667% - 10%
+15000 - 135000
+3333 - 40000
+133 - 533
 rowspan="2" |
 rowspan="2" |150
 1120 - 1280
@@ -8650,7 +8044,6 @@ rowspan="2" |150
 233333 - 304761
 1045 - 1365
 rowspan="2" |
-class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 800 - 1600
 1333 - 2666
 6000 - 12000
@@ -8658,8 +8051,6 @@ class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page
 15000 - 135000
 133333 - 533333
 533 - 2133
-rowspan="2" style="text-align:left" |
-rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |150
 280 - 320
@@ -8670,7 +8061,6 @@ rowspan="2" |150
 7000 - 10666
 261 - 341
 rowspan="2" |
-class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 200 - 400
 333 - 666
 480 - 1080
@@ -8678,8 +8068,6 @@ class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page
 15000 - 135000
 3333 - 40000
 133 - 533
-rowspan="2" style="text-align:left" |
-rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |50
 100.6 - 150.4
@@ -8690,14 +8078,11 @@ rowspan="2" |100%
 167.67 - 250.67
 93.9 - 160.4
 rowspan="2" |
-class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 1 - 250
 1 - 416
 100 - 500
 1.67 - 416.67
 0.67 - 333.33
-rowspan="2" style="text-align:left" |
-rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |500
 1400 - 1600
@@ -8708,7 +8093,6 @@ rowspan="2" |500
 4023 - 6349
 1306 - 1706
 rowspan="2" |
-class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 1000 - 2000
 1666 - 3333
 60 - 1140
@@ -8720,22 +8104,22 @@ class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page
 Derived Calculations
 A geyser's average active yield (one of their main randomized parameters) is not shown directly to players; nonetheless, it can be derived quite easily using only the geyser's average overall yield (shown in a fully-analyzed geyser's information window under "average output") and its active amount percentage (which is shown under "active period" - e.g. a geyser active for 48.9 cycles every 76.8 cycles has an active amount percentage of roughly 63.7%):
 
-<math>\Delta_{active} = \frac{\Delta_{avg{\%_{active</math>
+\Delta_{active} = \frac{\Delta_{avg{\%_{active
 
-For example: a Copper Volcano which is active for 48.9 cycles every 76.8 cycles and emits 311.8 g/s on average will have an active yield of 311.8 / 0.637 &approx; 490 g/s; multiplying by 600 gives about 293.7 kg/cycle.
+For example: a Copper Volcano which is active for 48.9 cycles every 76.8 cycles and emits 311.8 g/s on average will have an active yield of 311.8 / 0.637 ≈ 490 g/s; multiplying by 600 gives about 293.7 kg/cycle.
 
 Similarly, it is equally easy to go in reverse: if you have a geyser's average active yield and its active amount percentage, its average overall yield is:
 
-<math>\Delta_{avg} = \Delta_{active} \cdot \%_{active}</math>
+\Delta_{avg} = \Delta_{active} \cdot \%_{active}
 
-Using the same example as above, a Copper Volcano which is active for 48.9 cycles every 76.8 cycles and emits 490 g/s while active on average will have an average overall yield of 490 * 0.637 &approx; 312 g/s; multiplying by 600 gives about 187.2 kg/cycle.
+Using the same example as above, a Copper Volcano which is active for 48.9 cycles every 76.8 cycles and emits 490 g/s while active on average will have an average overall yield of 490 * 0.637 ≈ 312 g/s; multiplying by 600 gives about 187.2 kg/cycle.
 
 Calculating the eruption rate of a geyser, which is the rate at which the geyser actually emits its contents, is done similarly using the average active yield (see above) and the eruption amount (which is shown under "eruption period" - e.g. a geyser which erupts for 349 seconds every 719 seconds has an active amount percentage of roughly 48.5%):
 
-<math>\Delta_{active} = \Delta_{erupting} \cdot \%_{erupting}</math>
-<math>\Delta_{erupting} = \frac{\Delta_{active{\%_{erupting</math>
+\Delta_{active} = \Delta_{erupting} \cdot \%_{erupting}
+\Delta_{erupting} = \frac{\Delta_{active{\%_{erupting
 
-For example, a Steam Vent which emits 3070.9 g/s of Steam for 349s every 719s will have an active yield of 3070.9 * 0.485 &approx; 1489 g/s (893 kg/cycle) - notably higher than the middle 20% for that parameter. If that same geyser is active for 77.5 cycles every 117.6 cycles (&approx; 66%), then we can calculate its average overall yield to be 1489 * 0.66 &approx; 982 g/s. (The real geyser these values were taken from had an in-game average overall yield of 982.3 g/s.)
+For example, a Steam Vent which emits 3070.9 g/s of Steam for 349s every 719s will have an active yield of 3070.9 * 0.485 ≈ 1489 g/s (893 kg/cycle) - notably higher than the middle 20% for that parameter. If that same geyser is active for 77.5 cycles every 117.6 cycles (≈ 66%), then we can calculate its average overall yield to be 1489 * 0.66 ≈ 982 g/s. (The real geyser these values were taken from had an in-game average overall yield of 982.3 g/s.)
 
 Geyser Spawning Rules - Basic Asteroids
 All geysers are spawned as part of biomes, with a specified amount for each biome.
@@ -8745,7 +8129,6 @@ Swamp Biome:
 One open cool steam vent
 One open natural gas vent
 Caustic Biome:
-One open cool steam vent
 One open natural gas OR chlorine vent
 Tide Pool Biome:
 One open saltwater geyser
@@ -8777,10 +8160,6 @@ Swampy Asteroid
 1 Hydrogen or Chlorine Gas Vent (exposed)
 0-3 Minor Volcano
 Forest Asteroid
-1 Cool Salt Slush geyser (exposed)
-1 Cool Slush geyser (exposed)
-1 Cool Steam Vent (exposed)
-1 Hydrogen or Chlorine Gas Vent (exposed)
 0-3 unique of:
 Chlorine Gas Vent
 Hydrogen Vent
@@ -8804,7 +8183,6 @@ Chlorine Gas Vent
 Natural Gas geyser
 Carbon Dioxide Vent
 Minor Volcano
-Carbon Dioxide geyser
 Sulfur geyser
 1 Sulfur geyser
 2-5 Oil Reservoir
@@ -8833,7 +8211,6 @@ Natural Gas geyser
 Chlorine Gas Vent
 Carbon Dioxide Vent
 Hydrogen Vent
-Hot Polluted Oxygen Vent
 Superconductive Asteroid
 1 Niobium Volcano
 Moo Asteroid
@@ -8877,37 +8254,15 @@ expr: 100 * (1 - ((19-3) / 19)^9
 expr: 100 * (1 - ((19-4) / 19)^9
 expr: 100 * (1 - ((19-5) / 19)^9
 3
-expr: 100 * (1 - ((19-1) / 19)^9
-expr: 100 * (1 - ((19-2) / 19)^9
-expr: 100 * (1 - ((19-3) / 19)^9
-expr: 100 * (1 - ((19-4) / 19)^9
-expr: 100 * (1 - ((19-5) / 19)^9
 4
-expr: 100 * (1 - ((19-1) / 19)^9
-expr: 100 * (1 - ((19-2) / 19)^9
-expr: 100 * (1 - ((19-3) / 19)^9
-expr: 100 * (1 - ((19-4) / 19)^9
-expr: 100 * (1 - ((19-5) / 19)^9
 5
-expr: 100 * (1 - ((19-1) / 19)^9
-expr: 100 * (1 - ((19-2) / 19)^9
-expr: 100 * (1 - ((19-3) / 19)^9
-expr: 100 * (1 - ((19-4) / 19)^9
-expr: 100 * (1 - ((19-5) / 19)^9
 6
-expr: 100 * (1 - ((19-1) / 19)^9
-expr: 100 * (1 - ((19-2) / 19)^9
-expr: 100 * (1 - ((19-3) / 19)^9
-expr: 100 * (1 - ((19-4) / 19)^9
-expr: 100 * (1 - ((19-5) / 19)^9
 All listed values assume the number of each preferred doesn't matter (two of the same geyser despite preference for more than 1), the odds of getting multiple distinct geysers will be worse.
 
 As an example, if a world with at least two volcanoes is desired, it should have a 73.02% chance per world (5 preferred, 2 wanted). If just want one metal volcano is desired, it should have a 78.70% chance per world (3 preferred, 1 wanted).
 
 ---
-
 # 文档：Carbon Dioxide Geyser
-
 - 类别：geysers
 - 标识：carbon dioxide geyser
 - 来源：wiki/Carbon_Dioxide_Geyser
@@ -8921,9 +8276,7 @@ The liquid Carbon Dioxide can be used to cool down an area of your base. It has 
 Make sure to keep an eye out on your gas pressure. The geyser can easily overpressurise areas of your base with carbon dioxide.
 
 ---
-
 # 文档：Carbon Dioxide Vent
-
 - 类别：geysers
 - 标识：carbon dioxide vent
 - 来源：wiki/Carbon_Dioxide_Vent
@@ -8935,9 +8288,7 @@ Due to a mixture of its low output (an average of 63 kg/cycle across its whole a
 The high temperature of its output can be used to help offset lower-temperature inputs to Slickster ranches, but on its own an average vent can supply three slicksters continually. Even then, a door pump into the ranch is necessary to avoid damaging pumps - unless Thermium is available.
 
 ---
-
 # 文档：Chlorine Gas Vent
-
 - 类别：geysers
 - 标识：chlorine gas vent
 - 来源：wiki/Chlorine_Gas_Vent
@@ -8955,9 +8306,7 @@ Balm Lilies require a chlorine atmosphere, however they do not consume any chlor
 Liquid chlorine is consumed by Gas Grass, which are only available with rockets. One vent can support 84-168 plants continually.
 
 ---
-
 # 文档：Cool Salt Slush Geyser
-
 - 类别：geysers
 - 标识：cool salt slush geyser
 - 来源：wiki/Cool_Salt_Slush_Geyser
@@ -8973,9 +8322,7 @@ A Desalinator may be used to filter the brine from this geyser into clean, usabl
 Radiant liquid piping may be used alongside appropriate automation to create an efficient cooling system.
 
 ---
-
 # 文档：Cool Slush Geyser
-
 - 类别：geysers
 - 标识：cool slush geyser
 - 来源：wiki/Cool_Slush_Geyser
@@ -8992,9 +8339,7 @@ Due to the low temperature of the output, the Polluted Water can be used to remo
 The output can be used as coolant for the Metal Refinery.
 
 ---
-
 # 文档：Cool Steam Vent
-
 - 类别：geysers
 - 标识：cool steam vent
 - 来源：wiki/Cool_Steam_Vent
@@ -9003,13 +8348,13 @@ Cool Steam Vent is a renewable source of Water, which can be found in Frozen, Sw
 
 It is in the second tier of water-related geyser, averaging 1500 g/s of Steam overall.
 
-During the eruption, emission can be blocked by over-pressurization. The maximum pressure it will emit at is 5&nbsp;kg. The emission has a radius of 2, meaning that it can produce its outputs even if center tiles are over-pressurized, as long as there is a valid, reachable spot to place the output in a 3x3 block centered on the second tile in and second tile up from the leftmost Neutronium edge. In practice, this means that a Vent in a small space can quickly overpressurize if the steam is not condensed quickly enough, resulting in lost steam production.  If the 3x3 square is filled with liquid of any amount the Vent will appear to erupt but not actually produce anything.
+During the eruption, emission can be blocked by over-pressurization. The maximum pressure it will emit at is 5 kg. The emission has a radius of 2, meaning that it can produce its outputs even if center tiles are over-pressurized, as long as there is a valid, reachable spot to place the output in a 3x3 block centered on the second tile in and second tile up from the leftmost Neutronium edge. In practice, this means that a Vent in a small space can quickly overpressurize if the steam is not condensed quickly enough, resulting in lost steam production.  If the 3x3 square is filled with liquid of any amount the Vent will appear to erupt but not actually produce anything.
 
 Tips
-A Cool Steam Vent cannot be used to directly power a Steam Turbine, at least without some additional heating, as the Turbine requires steam temperature above 125&nbsp;°C.
+A Cool Steam Vent cannot be used to directly power a Steam Turbine, at least without some additional heating, as the Turbine requires steam temperature above 125 °C.
 With access to Super Coolant it is possible to balance out the Steam Turbine/Thermo Aquatuner combo with Cool Steam Vent output making it self-running. Although it still will not generate significant net power without Engie's tune-up, it can provide another powerful cooling loop. However, with Engie's tune-up, the setup can generate significant amounts of power.
 A less efficient Aquatuner loop using Water as the coolant can be a renewable source of cold water in the mid-game. Although it consumes more power than the Steam Turbine produces, it does not require Space materials.
-Only one of the Steam Turbine's  needs to be at 125&nbsp;°C for the cool steam vent to activate. This can be used to save some of the power used by the Aquatuner. With careful tuning, it's possible to reach a barely power positive system this way, although this is difficult to achieve reliably. It's recommended to still rely on other energy sources for load balancing.
+Only one of the Steam Turbine's  needs to be at 125 °C for the cool steam vent to activate. This can be used to save some of the power used by the Aquatuner. With careful tuning, it's possible to reach a barely power positive system this way, although this is difficult to achieve reliably. It's recommended to still rely on other energy sources for load balancing.
 Linking at least one Geotuner to the Vent will increase its steam temperature above the 125°C, making it directly usable by Steam Turbines, in addition to increasing the amount of steam generated. The Geotuner will have a small Bleach upkeep which over the long run will need to be sourced either from Squeaky Pufts, from Bleach Stone Hoppers, or from Space POIs.
 A convenient source of heating the Steam is to have a Thermo Aquatuner made of Steel cool the exhaust Water from the Steam Turbine and dump the heat into the Steam emitted from the Geyser.
 However, there is still the matter of the Steam Turbine(s) accumulating a lot of heat over the cycles; in order to get the most out of the geyser, they must run as long as the geyser is erupting. A second Aquatuner using regular Water as coolant, a Thermo Sensor for control and Radiant Liquid piping running a tight loop through the Turbine(s) may be useful for regulating the ambient temperature around the generators.
@@ -9025,9 +8370,7 @@ Electrolyzers, Research, Microbe Musher, Washrooms, and Showers are fine with ne
 If further cooling is necessary (such as irrigating Bristle Blossoms and Sleet Wheat), it is better to use dedicated cooling setups.
 
 ---
-
 # 文档：Hot Polluted Oxygen Vent
-
 - 类别：geysers
 - 标识：hot polluted oxygen vent
 - 来源：wiki/Hot_Polluted_Oxygen_Vent
@@ -9037,9 +8380,7 @@ Hot Polluted Oxygen Vent is a renewable source of Polluted Oxygen. It generally 
 It could be used in power production with a Steam Turbine, though Hydrogen Vents are much more effective for this due to Hydrogen's increased SHC.
 
 ---
-
 # 文档：Hydrogen Vent
-
 - 类别：geysers
 - 标识：hydrogen vent
 - 来源：wiki/Hydrogen_Vent
@@ -9053,14 +8394,12 @@ Hydrogen Vents produce gas at 500 °C. This is hot enough to overheat even a Ste
 
 Due to the high SHC of Hydrogen, it has the second-highest heat output among gas vents (after the Steam Vent): the average Hydrogen Vent produces 105 g/s of gas on average, resulting in 126kDTU/s of heat. However, this is averaged across the geyser's entire activity period, including its dormancy phase; heat production while erupting is substantially higher, which means that cooling systems need to be prepared for high peak heat transfer.
 
-A single Thermo Aquatuner with Petroleum coolant is capable of moving 246.4kDTU/s, which is enough to cool up to <math>\frac{246400}{2.4\times (500-270)} = 446.4</math> g/s of Hydrogen to 270 °C. Hydrogen Vents may have output rates between 233.33 g/s and 466.67 g/s while active (depending only on the individual vent); hence, a single Petroleum Aquatuner is insufficient for Hydrogen Vents within the upper &approx;8.7% of the possible range of output rates. Directly cooling the output with Aquatuners thus often requires more than one, which significantly cuts into net energy production.
+A single Thermo Aquatuner with Petroleum coolant is capable of moving 246.4kDTU/s, which is enough to cool up to \frac{246400}{2.4\times (500-270)} = 446.4 g/s of Hydrogen to 270 °C. Hydrogen Vents may have output rates between 233.33 g/s and 466.67 g/s while active (depending only on the individual vent); hence, a single Petroleum Aquatuner is insufficient for Hydrogen Vents within the upper ≈8.7% of the possible range of output rates. Directly cooling the output with Aquatuners thus often requires more than one, which significantly cuts into net energy production.
 
 To make more efficient use of the output of a Hydrogen Vent, the vent room can be built adjacent to a Steam Turbine's input chamber, connected by a wall of Metal Tiles. Tempshift Plates can be placed on either side of the tiles to further accelerate heat transfer.
 
 ---
-
 # 文档：Leaky Oil Fissure
-
 - 类别：geysers
 - 标识：leaky oil fissure
 - 来源：wiki/Leaky_Oil_Fissure
@@ -9082,9 +8421,7 @@ Crude Oil emitted by the fissure is a very good feedstock for a Petroleum Boiler
 However, be warned that mixing feedstock to the common counterflow boiler design may result in pipes bursting or pump damage due to its high temperature - not only is it hot enough to damage Steel machinery itself, it will not provide adequate cooling for the output Petroleum if it is built to expect lower-temperature Crude Oil (such as from an Oil Well).
 
 ---
-
 # 文档：Metal Volcano
-
 - 类别：geysers
 - 标识：metal volcano
 - 来源：wiki/Metal_Volcano
@@ -9132,7 +8469,7 @@ To calculate how big of a water buffer must be in place, it is handy to know tha
 
 To get the Ratio of Ejection amount to buffer size, you first calculate the total amount of heat to be removed from the ejected metal until it solidifies, which is the difference of its Output and Freezing temperature multiplied by its SHC. Then, you divide that number by the amount of heat your buffer medium (water) can take before its temperature leaves the permissible range. In other words, you calculate the difference between the high and the low end of your permissible range and multiply it with the SHC of you buffer medium (which is 4.179 for water). The permissible range for a self-cooled Steam Turbine is 138°C - 125°C. For a Steam Turbine cooled by Aquatuners it is 275°C-125°C because steel equipment will break above that temperature. The latter version cuts down the amount of water needed by a factor of 10.
 
-<math>R=\frac{SHC_{metal} \cdot (T_{output}-T_{freezing})}{SHC_{water} \cdot (138-125)}</math>
+R=\frac{SHC_{metal} \cdot (T_{output}-T_{freezing})}{SHC_{water} \cdot (138-125)}
 
 The Ejection amount can be simply multiplied with this ratio (different for every metal) to get the size of the water buffer needed.
 
@@ -9143,26 +8480,26 @@ An Aluminum Volcano that spews 8.2kg/s for 32 seconds, with aluminum's ratio of 
 
 To calculate how many Self-Cooled Steam Turbines are required, first calculate the output that one turbine can take care of by dividing the amount of cooling the Turbine can do (292,53kDTU) by the amount of Heat produced by one gram of metal. Then take the average output over an activity period (not average over lifetime) and round up to the next whole number of turbines:
 
-<math>\eta = \frac{292530}{SHC_{metal} \cdot Temp_{metal}}</math>
-<math>\Delta_{active} = \frac {\Delta_{erupting} * t_{erupting}}{t_{period}}</math>
-<math>n_{Turbines} = \left \lceil \frac{\Delta_{active}}{\eta} \right \rceil</math>
+\eta = \frac{292530}{SHC_{metal} \cdot Temp_{metal}}
+\Delta_{active} = \frac {\Delta_{erupting} * t_{erupting}}{t_{period}}
+n_{Turbines} = \left \lceil \frac{\Delta_{active}}{\eta} \right \rceil
 
 Note that since all metal volcanoes (except Niobium) produce between 200 and 400 kg/cycle, the bounds on Δactive will always be between 333.33 and 666.67 g/s; Niobium volcanoes instead produce 800-1600 kg/cycle, so Δactive will be between 1333.33-2666.67 g/s. Also note that Tempmetal must be in Kelvin, not in °C (e.g. iron emits at 2526.85 °C = 2800 K, so η = 292530 / (0.449 * 2800) = about 232).
 
 Examples:
 
 A Gold Volcano that spews 11kg/s for 27 seconds every 570 seconds, or 521g/s. One Turbine is needed since it can handle up to 781 g/s:
-<math>\eta = \frac{292530}{0.129 \cdot 2900} \approx 781.96</math>
-<math>\Delta_{active} = \frac {11000 * 27}{570} \approx 521.05</math>
-<math>n_{Turbines} \approx \left \lceil \frac{521.05}{781.96} \right \rceil = 1</math>
+\eta = \frac{292530}{0.129 \cdot 2900} \approx 781.96
+\Delta_{active} = \frac {11000 * 27}{570} \approx 521.05
+n_{Turbines} \approx \left \lceil \frac{521.05}{781.96} \right \rceil = 1
 An Iron Volcano that spews 17kg/s for 22 seconds every 780 seconds, or 479.5g/s. Three Turbines are needed since one can handle up to 232 g/s, two can handle 465 g/s (not quite enough!), and three can handle 698 g/s:
-<math>\eta = \frac{292530}{0.449 \cdot 2800} \approx 232.68</math>
-<math>\Delta_{active} = \frac {17000 * 22}{780} \approx 479.49</math>
-<math>n_{Turbines} \approx \left \lceil \frac{479.49}{232.68} \right \rceil = 3</math>
+\eta = \frac{292530}{0.449 \cdot 2800} \approx 232.68
+\Delta_{active} = \frac {17000 * 22}{780} \approx 479.49
+n_{Turbines} \approx \left \lceil \frac{479.49}{232.68} \right \rceil = 3
 An Aluminum Volcano that spews 8.2kg/s for 32 seconds every 450 seconds, or 583.1g/s. Four Turbines are needed since one can handle up to 160 g/s, so three would be 482g/s and four therefore 642g/s:
-<math>\eta = \frac{292530}{0.91 \cdot 2000} \approx 160.73</math>
-<math>\Delta_{active} = \frac {8200 * 32}{450} \approx 583.11</math>
-<math>n_{Turbines} \approx \left \lceil \frac{583.11}{160.73} \right \rceil = 4</math>
+\eta = \frac{292530}{0.91 \cdot 2000} \approx 160.73
+\Delta_{active} = \frac {8200 * 32}{450} \approx 583.11
+n_{Turbines} \approx \left \lceil \frac{583.11}{160.73} \right \rceil = 4
 
 Niobium volcanoes are a unique exception to the eruption behavior exhibited by other metal volcanoes; their eruption patterns resemble that of regular, magma-producing volcanoes- long intervals between eruptions, but emitting massive quantities of very hot, very conductive Liquid Niobium during eruptions- potentially several hundred kilograms per second. Further complicating things, Liquid Niobium will form a tile of solid Niobium when cooled at a mere 50kg of mass, well below the volume emitted per second while erupting. This will result in the volcano quickly entombing itself in tiles of Niobium if conventional methods are used to tame it, providing a unique challenge and necessitating an alternative strategy.
 rowspan="2" | Metal
@@ -9210,9 +8547,6 @@ style="background-color: color-mix(in srgb, var(--theme-page-background-color) 6
 style="background-color: color-mix(in srgb, var(--theme-page-background-color) 60%, var(--theme-warning-color))" | 482
 style="background-color: color-mix(in srgb, var(--theme-page-background-color) 60%, var(--theme-warning-color))" | 642
 Uranium || 2626.85 || 132.9 || 2493.95 || ~2500 || 1.690 || 475.419 || 1050.777 || 8.75 || 10
-style="background-color: color-mix(in srgb, var(--theme-page-background-color) 60%, var(--theme-alert-color))" | 278
-style="background-color: color-mix(in srgb, var(--theme-page-background-color) 60%, var(--theme-warning-color))" | 557
-style="background-color: color-mix(in srgb, var(--theme-page-background-color) 60%, var(--theme-success-color))" | 835 || style="background-color:var(--theme-page-background-color)" |
 
 These calculations are for self-cooled steam turbines only. The color of the cells in the last four columns indicate the viability of that many self-cooled turbines for a volcano of that type, with red indicating entirely insufficient for all sizes, orange indicating sufficient for some but not all volcanoes, and green indicating sufficient to handle even the highest-output volcanoes. For turbines being cooled by Thermo Aquatuners instead (located in the same area as the volcano) then the heat deletion per Turbine can be raised up to 1538.05 kDTU/s (at 300°C) at which point a single Turbine is enough to handle any Metal Volcano.
 
@@ -9220,9 +8554,7 @@ Useful Links
 Sheets Calculator for Water amount and Steam pressure
 
 ---
-
 # 文档：Minor Volcano
-
 - 类别：geysers
 - 标识：minor volcano
 - 来源：wiki/Minor_Volcano
@@ -9230,9 +8562,7 @@ Sheets Calculator for Water amount and Steam pressure
 The Minor Volcano is a Geyser in both Oxygen not included: classic, and Oxygen Not Included: Spaced Out!. it is very similar to a regular Volcano, but it outputs about half as much magma.
 
 ---
-
 # 文档：Natural Gas Geyser
-
 - 类别：geysers
 - 标识：natural gas geyser
 - 来源：wiki/Natural_Gas_Geyser
@@ -9250,9 +8580,7 @@ Use an Atmo Sensor to shut down the Gas Pump when gas pressure drops; this helps
 History
 
 ---
-
 # 文档：Polluted Water Vent
-
 - 类别：geysers
 - 标识：polluted water vent
 - 来源：wiki/Polluted_Water_Vent
@@ -9271,9 +8599,7 @@ Because it produces 3kg/s of Polluted Water at 30°C, it is possible to use a Wa
 The produced water can also used as an early coolant for Metal Refineries.
 
 ---
-
 # 文档：Salt Water Geyser
-
 - 类别：geysers
 - 标识：salt water geyser
 - 来源：wiki/Salt_Water_Geyser
@@ -9296,9 +8622,7 @@ There is a synergy between geotuned Salt Water Geysers and Chlorine Gas Vent. Ge
 History
 
 ---
-
 # 文档：Steam Vent
-
 - 类别：geysers
 - 标识：steam vent
 - 来源：wiki/Steam_Vent
@@ -9313,9 +8637,7 @@ The simplest way to handle this is to directly feed the output to a Steam Turbin
 History
 
 ---
-
 # 文档：Sulfur Geyser
-
 - 类别：geysers
 - 标识：sulfur geyser
 - 来源：wiki/Sulfur_Geyser
@@ -9330,9 +8652,7 @@ Sulfur Geysers can be kept in a Steam Room with a Steam Turbine on top, which wi
 History
 
 ---
-
 # 文档：Volcano
-
 - 类别：geysers
 - 标识：volcano
 - 来源：wiki/Volcano
@@ -9356,9 +8676,7 @@ Tapping magma for power is more involved than simply using its heat. For the bes
 Dropping the igneous rock output to 200 degrees produces an average of about 1680 kDTU/s across its entire life cycle, which can be handled by two actively cooled turbines.
 
 ---
-
 # 文档：Water Geyser
-
 - 类别：geysers
 - 标识：water geyser
 - 来源：wiki/Water_Geyser
@@ -9373,9 +8691,7 @@ Alternatively, since the temperature it is emitted at is close to the boiling po
 ---
 ## ITEMS
 共 4 篇文档
-
 # 文档：Buried Object
-
 - 类别：items
 - 标识：buried object
 - 来源：wiki/Buried_Object
@@ -9387,9 +8703,7 @@ Any gravity affected blocks such as sand or snow upon landing on debris will cre
 Note that buried geysers are not shown as buried objects this way. Instead, they can be recognized by the four tiles of neutronium under them.
 
 ---
-
 # 文档：Interplanetary Payload
-
 - 类别：items
 - 标识：interplanetary payload
 - 来源：wiki/Interplanetary_Payload
@@ -9406,9 +8720,7 @@ Starmap in Spaced Out
 Rocketry in Spaced Out
 
 ---
-
 # 文档：Microchip
-
 - 类别：items
 - 标识：microchip
 - 来源：wiki/Microchip
@@ -9426,9 +8738,7 @@ Trivia
 Although it is made from Refined Metal, the Microchip item's primary element is Genetic Ooze. This allows it to be used on power generators that are in very hot places, for whatever reason.
 
 ---
-
 # 文档：Micronutrient Fertilizer
-
 - 类别：items
 - 标识：micronutrient fertilizer
 - 来源：wiki/Micronutrient_Fertilizer
@@ -9450,9 +8760,7 @@ Although made from Fertilizer, the primary Element of Micronutrient Fertilizer i
 ---
 ## LIQUIDS
 共 25 篇文档
-
 # 文档：Liquid
-
 - 类别：liquids
 - 标识：liquid
 - 来源：wiki/Liquid
@@ -9578,7 +8886,6 @@ style="text-align:left"|Wolframite
 ! rowspan="2" | Tile Type
 ! rowspan="2" | Tile
 Strength
-! rowspan="2" | Material
 ! rowspan="2" | Material
 Strength
 ! colspan="2" | Max Pressure (kg)
@@ -9793,9 +9100,7 @@ style="text-align:left"| Petroleum || 1.690 || 2.000 || 500
 440.00
 
 ---
-
 # 文档：Brackene
-
 - 类别：liquids
 - 标识：brackene
 - 来源：wiki/Brackene
@@ -9820,9 +9125,7 @@ Milking Station:
 Milking a Gassy Moo at a Milking Station produces 200 kg of Brackene.
 
 ---
-
 # 文档：Brine
-
 - 类别：liquids
 - 标识：brine
 - 来源：wiki/Brine
@@ -9846,9 +9149,7 @@ In Salty Asteroid Fields at a rate of 216 – 648 kg per cycle.
 In Interstellar Oceans at a rate of 37.5 – 125 kg per cycle.
 
 ---
-
 # 文档：Crude Oil
-
 - 类别：liquids
 - 标识：crude oil
 - 来源：wiki/Crude_Oil
@@ -9877,9 +9178,7 @@ Trivia
 Before the Automation Upgrade, Crude Oil could not freeze. This made it an excellent tool for cooling.
 
 ---
-
 # 文档：Liquid Carbon
-
 - 类别：liquids
 - 标识：liquid carbon
 - 来源：wiki/Liquid_Carbon
@@ -9895,9 +9194,7 @@ Diamond
 Coal
 
 ---
-
 # 文档：Liquid Cobalt
-
 - 类别：liquids
 - 标识：liquid cobalt
 - 来源：wiki/Liquid_Cobalt
@@ -9907,9 +9204,7 @@ Liquid Cobalt is the Liquid state of Cobalt element. It is melted from Cobalt by
 Production
 
 ---
-
 # 文档：Liquid Copper
-
 - 类别：liquids
 - 标识：liquid copper
 - 来源：wiki/Liquid_Copper
@@ -9922,9 +9217,7 @@ It can be harvested on rocket missions to renewable Space POIs:
 In Space Debris at a rate of 80.1 – 240.3 kg per cycle.
 
 ---
-
 # 文档：Liquid Gold
-
 - 类别：liquids
 - 标识：liquid gold
 - 来源：wiki/Liquid_Gold
@@ -9938,9 +9231,7 @@ Tips
 At above 696 kg Liquid Gold will freeze into a solid tile while at 696 kg and below it will freeze into debris.
 
 ---
-
 # 文档：Liquid Iron
-
 - 类别：liquids
 - 标识：liquid iron
 - 来源：wiki/Liquid_Iron
@@ -9953,9 +9244,7 @@ It can be harvested on rocket missions to renewable Space POIs:
 In Metallic Asteroid Fields at a rate of 67.5 – 202.5 kg per cycle.
 
 ---
-
 # 文档：Liquid Niobium
-
 - 类别：liquids
 - 标识：liquid niobium
 - 来源：wiki/Liquid_Niobium
@@ -9963,9 +9252,7 @@ In Metallic Asteroid Fields at a rate of 67.5 – 202.5 kg per cycle.
 Liquid Niobium is the liquid form of Niobium. If it is heated any more it may become Gas Niobium.
 
 ---
-
 # 文档：Liquid Phosphorus
-
 - 类别：liquids
 - 标识：liquid phosphorus
 - 来源：wiki/Liquid_Phosphorus
@@ -9975,9 +9262,7 @@ Liquid Phosphorus is the liquid state of Refined Phosphorus element and the melt
 A tile of Liquid Phosphorus with a mass greater than 160 kg will solidify into a natural tile.
 
 ---
-
 # 文档：Liquid Resin
-
 - 类别：liquids
 - 标识：liquid resin
 - 来源：wiki/Liquid_Resin
@@ -9997,9 +9282,7 @@ Liquid Resin is one of the few Resources that turn into multiple elements upon h
 It is also one of the few Resources that change its specific heat capacity upon phase transition. Dramatically from liquid resin's 1.1 (DTU/g)/°C to Steam's 4.179 (DTU/g)/°C, and to a lesser degree to Isoresin's 1.3 (DTU/g)/°C
 
 ---
-
 # 文档：Liquid Steel
-
 - 类别：liquids
 - 标识：liquid steel
 - 来源：wiki/Liquid_Steel
@@ -10031,7 +9314,7 @@ Abyssalite and Insulation can be melted into Liquid Tungsten, though radiant pip
 Melting Thermium separates it back into Liquid Tungsten and Liquid Niobium in the same ratio used to produce it.
 
 Melting various materials and taking advantage of changes in specific heat capacity allows the conversion of minerals directly to heat, and thus to energy. As the generated heat is in the form of thermal mass, not an increase in temperature, this still requires an external heat source - it can't be directly used to heat the main liquid steel loop.
-Melting Regolith into Magma at 1414.85 °C multiplies its heat content by 5, producing <math>1412.85{}^{\circ}\mbox{C} \times 1.000 \frac{\mbox{kDTU}}{\mbox{kg} {}^{\circ}\mbox{C}} \times 0.8 = 1130.28 \frac{\mbox{kDTU}}{\mbox{kg}}</math>
+Melting Regolith into Magma at 1414.85 °C multiplies its heat content by 5, producing 1412.85{}^{\circ}\mbox{C} \times 1.000 \frac{\mbox{kDTU}}{\mbox{kg} {}^{\circ}\mbox{C}} \times 0.8 = 1130.28 \frac{\mbox{kDTU}}{\mbox{kg}}
 Obsidian is generally harder to source than regolith, but has a similar reaction at the much higher temperature of 2726.85 °C, resulting in 2181.48 kDTU/kg.
 Salt Gas condenses to Molten Salt at 1461.85 °C. Re-boiling that molten salt by raising it to 1467.85 °C requires less heat than was moved in condensing it, due to a change in SHC. Unlike regolith or obsidian this method does not require input materials, and acts as a flat 1.26x heat multiplier. This also makes molten salt useful as a "transformer", transferring heat from high-temperature pipelines through gas into lower-temperature pipelines or thermal storage before being fed to turbines.
 
@@ -10041,9 +9324,7 @@ The simplest heat source for any liquid steel setup is the Metal Refinery, the o
 In Spaced Out!, a Research Reactor with limited coolant can produce extremely high-temperature waste, allowing for a steady heat source which does not require manual intervention or duplicants.
 
 ---
-
 # 文档：Liquid Sucrose
-
 - 类别：liquids
 - 标识：liquid sucrose
 - 来源：wiki/Liquid_Sucrose
@@ -10054,9 +9335,7 @@ Bugs/Exploits
 In older versions: the vaporization point is listed as 726.9 C, but no phase change is in place, which means the liquid will not turn into a gas.
 
 ---
-
 # 文档：Liquid Tungsten
-
 - 类别：liquids
 - 标识：liquid tungsten
 - 来源：wiki/Liquid_Tungsten
@@ -10070,9 +9349,7 @@ It can be harvested on rocket missions to renewable Space POIs:
 In Glimmering Asteroid Fields at a rate of 60 – 180 kg per cycle.
 
 ---
-
 # 文档：Magma
-
 - 类别：liquids
 - 标识：magma
 - 来源：wiki/Magma
@@ -10097,9 +9374,7 @@ Magma is very viscous. A fully spread puddle will still be too deep to mop most 
 Magma can be pumped with a Liquid Pump by abusing their pumping range.
 
 ---
-
 # 文档：Molten Aluminum
-
 - 类别：liquids
 - 标识：molten aluminum
 - 来源：wiki/Molten_Aluminum
@@ -10107,9 +9382,7 @@ Magma can be pumped with a Liquid Pump by abusing their pumping range.
 Molten Aluminum is the Liquid state of Aluminum element.
 
 ---
-
 # 文档：Molten Lead
-
 - 类别：liquids
 - 标识：molten lead
 - 来源：wiki/Molten_Lead
@@ -10126,9 +9399,7 @@ Tips
 At above 1600 kg Molten Lead will freeze into a solid tile while at 1600 kg and below it will freeze into debris.
 
 ---
-
 # 文档：Naphtha
-
 - 类别：liquids
 - 标识：naphtha
 - 来源：wiki/Naphtha
@@ -10167,9 +9438,7 @@ Trivia
 Before the Tubular Upgrade, Naphtha, unlike other liquids, did not flow sideways, meaning it could be stacked in order to form perfect airlocks. This property was later moved to Visco-Gel.
 
 ---
-
 # 文档：Nuclear Waste
-
 - 类别：liquids
 - 标识：nuclear waste
 - 来源：wiki/Nuclear_Waste
@@ -10216,9 +9485,7 @@ Resources
 Corium
 
 ---
-
 # 文档：Petroleum
-
 - 类别：liquids
 - 标识：petroleum
 - 来源：wiki/Petroleum
@@ -10250,9 +9517,7 @@ Fullerene and Gold to produce Super Coolant.
 History
 
 ---
-
 # 文档：Polluted Water
-
 - 类别：liquids
 - 标识：polluted water
 - 来源：wiki/Polluted_Water
@@ -10310,9 +9575,7 @@ History
 References
 
 ---
-
 # 文档：Salt Water
-
 - 类别：liquids
 - 标识：salt water
 - 来源：wiki/Salt_Water
@@ -10334,9 +9597,7 @@ In Salty Asteroid Fields at a rate of 270 – 810 kg per cycle.
 In Interstellar Oceans at a rate of 37.5 – 125 kg per cycle.
 
 ---
-
 # 文档：Super Coolant
-
 - 类别：liquids
 - 标识：super coolant
 - 来源：wiki/Super_Coolant
@@ -10353,9 +9614,7 @@ It is made in the Molecular Forge. 1 kg Fullerene + 49.5 kg Gold + 49.5 kg Petro
 100 kg Super Coolant is already enough to fill 10 liquid pipe segments completely.
 
 ---
-
 # 文档：Visco-Gel
-
 - 类别：liquids
 - 标识：visco-gel
 - 来源：wiki/Visco-Gel
@@ -10374,12 +9633,9 @@ It is made from Isoresin and Petroleum in the Molecular Forge.
 35 kg Isoresin + 65 kg Petroleum = 100 kg Visco-Gel.
 
 ---
-
 ## LORE
 共 10 篇文档
-
 # 文档：Ruins
-
 - 类别：lore
 - 标识：ruins
 - 来源：wiki/Ruins
@@ -10405,9 +9661,7 @@ In the Space Biome, there always are the ruins of the Gravitas Lobby Hall. They 
 Various Ruins presets
 
 ---
-
 # 文档：E-mail
-
 - 类别：lore
 - 标识：e-mail
 - 来源：wiki/E-mail
@@ -10424,9 +9678,7 @@ See Email content.
 Gallery
 
 ---
-
 # 文档：Email content
-
 - 类别：lore
 - 标识：email content
 - 来源：wiki/Email_content
@@ -10439,9 +9691,9 @@ Re: Objectionable Request
 Unique name:
 
 ENCRYPTION LEVEL: TWO
-To: Director Stern &lt;jstern@gravitas.nova&gt;
+To: Director Stern <jstern@gravitas.nova>
 
-From: Dr. Broussard &lt;obroussard@gravitas.nova&gt;
+From: Dr. Broussard <obroussard@gravitas.nova>
 
 −−−−−−−−−−−−−−−−−−
 
@@ -10458,9 +9710,9 @@ The Gravitas Facility
 −−−−−−−−−−−−−−−−−−
 
 SUBJECT: Re: Objectionable Request
-To: Dr. Broussard &lt;obroussard@gravitas.nova&gt;
+To: Dr. Broussard <obroussard@gravitas.nova>
 
-From: Director Stern &lt;jstern@gravitas.nova&gt;
+From: Director Stern <jstern@gravitas.nova>
 
 −−−−−−−−−−−−−−−−−−
 
@@ -10470,14 +9722,7 @@ It would be an invaluable safety measure and protect your printing subjects.
 
 -Director Stern
 
-The Gravitas Facility
-
 −−−−−−−−−−−−−−−−−−
-
-SUBJECT: Re: Objectionable Request
-To: Director Stern &lt;jstern@gravitas.nova&gt;
-
-From: Dr. Broussard &lt;obroussard@gravitas.nova&gt;
 
 −−−−−−−−−−−−−−−−−−
 
@@ -10485,16 +9730,7 @@ You can't be serious, Jacquelyn?
 
 -Dr. Broussard
 
-Bioengineering Department
-
-The Gravitas Facility
-
 −−−−−−−−−−−−−−−−−−
-
-SUBJECT: Re: Objectionable Request
-To: Dr. Broussard &lt;obroussard@gravitas.nova&gt;
-
-From: Director Stern &lt;jstern@gravitas.nova&gt;
 
 −−−−−−−−−−−−−−−−−−
 
@@ -10506,14 +9742,9 @@ Please give them any materials they require to move forward with their research.
 
 -Director Stern
 
-The Gravitas Facility
-
 −−−−−−−−−−−−−−−−−−
 
 SUBJECT: Objectionable Request
-To: Director Stern &lt;jstern@gravitas.nova&gt;
-
-From: Dr. Broussard &lt;obroussard@gravitas.nova&gt;
 
 −−−−−−−−−−−−−−−−−−
 
@@ -10525,18 +9756,9 @@ I believe they are seeking a way to exert temporary control over implanted subje
 
 -Dr. Broussard
 
-Bioengineering Department
-
-The Gravitas Facility
-
 −−−−−−−−−−−−−−−−−−
 Re: Implant Database Request
 Unique name:
-
-ENCRYPTION LEVEL: TWO
-To: Dr. Broussard &lt;obroussard@gravitas.nova&gt;
-
-From: Director Stern &lt;jstern@gravitas.nova&gt;
 
 −−−−−−−−−−−−−−−−−−
 
@@ -10546,14 +9768,9 @@ If there is room available after the necessary scientific and survival knowledge
 
 -Director Stern
 
-The Gravitas Facility
-
 −−−−−−−−−−−−−−−−−−
 
 Implant Database Request
-To: Director Stern &lt;jstern@gravitas.nova&gt;
-
-From: Dr. Broussard &lt;obroussard@gravitas.nova&gt;
 
 −−−−−−−−−−−−−−−−−−
 
@@ -10567,10 +9784,6 @@ I would like to make a formal request that comprehensive arts and cultural histo
 
 -Dr. Broussard
 
-Bioengineering Department
-
-The Gravitas Facility
-
 −−−−−−−−−−−−−−−−−−
 Results from Atomicon
 Unique name:
@@ -10578,9 +9791,7 @@ Unique name:
 UNENCRYPTED
 ----
 
-To: Director Stern &lt;jstern@gravitas.nova&gt;
-
-From: Dr. Jones &lt;ejones@gravitas.nova&gt;
+From: Dr. Jones <ejones@gravitas.nova>
 
 −−−−−−−−−−−−−−−−−−
 
@@ -10596,16 +9807,12 @@ Dr. Jones
 
 Information and Statistics Department
 
-The Gravitas Facility
-
 −−−−−−−−−−−−−−−−−−
 Re: devon's bloggg
 Unique name:
 
 UNENCRYPTED
-To: Dr. Summers &lt;jsummers@gravitas.nova&gt;
-
-From: Dr. Jones &lt;ejones@gravitas.nova&gt;
+To: Dr. Summers <jsummers@gravitas.nova>
 
 −−−−−−−−−−−−−−−−−−
 
@@ -10615,16 +9822,12 @@ XOXO,
 
 Dr. Jones
 
-Information and Statistics Department
-
-The Gravitas Facility
-
 −−−−−−−−−−−−−−−−−−
 
 SUBJECT: devon's bloggg
-To: Dr. Jones &lt;ejones@gravitas.nova&gt;
+To: Dr. Jones <ejones@gravitas.nova>
 
-From: Dr. Summers &lt;jsummers@gravitas.nova&gt;
+From: Dr. Summers <jsummers@gravitas.nova>
 
 −−−−−−−−−−−−−−−−−−
 
@@ -10634,16 +9837,7 @@ I'll see you guys in a bit! :)
 
 -Dr. Summers
 
-Information and Statistics Department
-
-The Gravitas Facility
-
 −−−−−−−−−−−−−−−−−−
-
-SUBJECT: devon's bloggg
-To: Dr. Summers &lt;jsummers@gravitas.nova&gt;
-
-From: Dr. Jones &lt;ejones@gravitas.nova&gt;
 
 −−−−−−−−−−−−−−−−−−
 
@@ -10655,18 +9849,12 @@ XOXO,
 
 Dr. Jones
 
-Information and Statistics Department
-
-The Gravitas Facility
-
 −−−−−−−−−−−−−−−−−−
 Hiiiii!
 Unique name:
 
 ENCRYPTION LEVEL: NONE
-To: Dr. Techna &lt;ntechna@gravitas.nova&gt;
-
-From: Dr. Jones &lt;ejones@gravitas.nova&gt;
+To: Dr. Techna <ntechna@gravitas.nova>
 
 −−−−−−−−−−−−−−−−−−
 
@@ -10688,18 +9876,11 @@ XOXO,
 
 Dr. Jones
 
-Information and Statistics Department
-
-The Gravitas Facility
-
 −−−−−−−−−−−−−−−−−−
 Re: dr. holland's dog
 Unique name:
 
 UNENCRYPTED
-To: Dr. Summers &lt;jsummers@gravitas.nova&gt;
-
-From: Dr. Jones &lt;ejones@gravitas.nova&gt;
 
 −−−−−−−−−−−−−−−−−−
 
@@ -10711,16 +9892,7 @@ XOXO,
 
 Dr. Jones
 
-Information and Statistics Department
-
-The Gravitas Facility
-
 −−−−−−−−−−−−−−−−−−
-
-Re: dr. holland's dog
-To: Dr. Jones &lt;ejones@gravitas.nova&gt;
-
-From: Dr. Summers &lt;jsummers@gravitas.nova&gt;
 
 −−−−−−−−−−−−−−−−−−
 
@@ -10732,16 +9904,9 @@ Haha, I think it's nice, he really loves his dog. Oh! Did I show you the thing m
 
 -Dr. Summers
 
-Information and Statistics Department
-
-The Gravitas Facility
-
 −−−−−−−−−−−−−−−−−−
 
 dr. holland's dog
-To: Dr. Summers &lt;jsummers@gravitas.nova&gt;
-
-From: Dr. Jones &lt;ejones@gravitas.nova&gt;
 
 −−−−−−−−−−−−−−−−−−
 
@@ -10755,16 +9920,9 @@ XOXO,
 
 Dr. Jones
 
-Information and Statistics Department
-
-The Gravitas Facility
-
 −−−−−−−−−−−−−−−−−−
 Duplicant Memory Solution
 Unique name:
-
-ENCRYPTION LEVEL: TWO
-To: Director Stern &lt;jstern@gravitas.nova&gt;
 
 From: [REDACTED]
 
@@ -10782,8 +9940,6 @@ The amount of data engineering can store has grown exponentially over the last y
 
 Engineering Department
 
-The Gravitas Facility
-
 −−−−−−−−−−−−−−−−−−
 Re: MY PENS
 Unique name:
@@ -10791,7 +9947,7 @@ Unique name:
 UNENCRYPTED
 To: ALL
 
-From: Admin &lt;admin@gravitas.nova&gt;
+From: Admin <admin@gravitas.nova>
 
 −−−−−−−−−−−−−−−−−−
 
@@ -10802,8 +9958,6 @@ In the event of disputes or disruptive work behavior within the facility, please
 We thank-you for your restraint.
 
 -Admin
-
-The Gravitas Facility
 
 −−−−−−−−−−−−−−−−−−
 
@@ -10822,15 +9976,10 @@ XOXO,
 
 [REDACTED]
 
-Information and Statistics Department
-
-The Gravitas Facility
-
 −−−−−−−−−−−−−−−−−−
 Welcome, New Employee
 Unique name:
 
-ENCRYPTION LEVEL: NONE
 To: All
 
 From: [REDACTED]
@@ -10848,8 +9997,6 @@ Be sure to offer her our warmest welcome.
 [REDACTED]
 
 Personnel Coordinator
-
-The Gravitas Facility
 
 −−−−−−−−−−−−−−−−−−
 New Security System?
@@ -10870,13 +10017,10 @@ I can't say I like it.
 
 [REDACTED]
 
-The Gravitas Facility
-
 −−−−−−−−−−−−−−−−−−
 They Stole Our DNA
 Unique name:
 
-ENCRYPTION LEVEL: TWO
 To: [REDACTED]
 
 From: [REDACTED]
@@ -10893,17 +10037,14 @@ I can't risk losing my job.
 
 [REDACTED]
 
-The Gravitas Facility
-
 −−−−−−−−−−−−−−−−−−
 Parking in Lot D
 Unique name:
 Unlocked by: inspecting Computer Podium
 
-ENCRYPTION LEVEL: TWO
 To: ALL
 
-From: ADMIN &lt;admin@gravitas.nova&gt;
+From: ADMIN <admin@gravitas.nova>
 
 −−−−−−−−−−−−−−−−−−
 
@@ -10917,16 +10058,11 @@ Thank-you,
 
 -Admin
 
-The Gravitas Facility
-
 −−−−−−−−−−−−−−−−−−
 Polite Request
 Unique name:
 
-ENCRYPTION LEVEL: NONE
 To: All
-
-From: Admin &lt;admin@gravitas.nova&gt;
 
 −−−−−−−−−−−−−−−−−−
 
@@ -10936,13 +10072,10 @@ Thank-you,
 
 -Admin
 
-The Gravitas Facility
-
 −−−−−−−−−−−−−−−−−−
 Preliminary Calculations
 Unique name:
 
-ENCRYPTION LEVEL: NONE
 To: [REDACTED]
 
 From: [REDACTED]
@@ -10959,18 +10092,11 @@ XOXO,
 
 [REDACTED]
 
-Information and Statistics Department
-
-The Gravitas Facility
-
 −−−−−−−−−−−−−−−−−−
 Re: Have you seen this?
 Unique name:
 
-ENCRYPTION LEVEL: ONE
 To: [REDACTED]
-
-From: Director Stern &lt;jstern@gravitas.nova&gt;
 
 −−−−−−−−−−−−−−−−−−
 
@@ -10978,12 +10104,9 @@ Please pay it no mind. If any of these journals reach out to you, deny comment.
 
 -Director Stern
 
-The Gravitas Facility
-
 −−−−−−−−−−−−−−−−−−
 
 SUBJECT: Have you seen this?
-To: Director Stern &lt;jstern@gravitas.nova&gt;
 
 From: [REDACTED]
 
@@ -10995,18 +10118,14 @@ Director, are you aware of the articles that have been cropping up about us late
 
 [REDACTED]
 
-Personnel Coordinator
-
-The Gravitas Facility
-
 −−−−−−−−−−−−−−−−−−
 RE: To Otto (Spec Changes)
 Unique name:
 
 UNENCRYPTED
-To: Dr. Sklodowska &lt;msklodowska@gravitas.nova&gt;
+To: Dr. Sklodowska <msklodowska@gravitas.nova>
 
-From: Mr. Kraus &lt;okraus@gravitas.nova&gt;
+From: Mr. Kraus <okraus@gravitas.nova>
 
 −−−−−−−−−−−−−−−−−−
 
@@ -11020,14 +10139,12 @@ Mr. Kraus
 
 Physics Department
 
-The Gravitas Facility
-
 −−−−−−−−−−−−−−−−−−
 
 To Otto (Spec Changes)
-To: Mr. Kraus &lt;okraus@gravitas.nova&gt;
+To: Mr. Kraus <okraus@gravitas.nova>
 
-From: Dr. Sklodowska &lt;msklodowska@gravitas.nova&gt;
+From: Dr. Sklodowska <msklodowska@gravitas.nova>
 
 −−−−−−−−−−−−−−−−−−
 
@@ -11041,16 +10158,11 @@ Dr. Sklodowska
 
 Physics Department
 
-The Gravitas Facility
-
 −−−−−−−−−−−−−−−−−−
 Spec Changes
 Unique name:
 
 UNENCRYPTED
-To: Dr. Sklodowska &lt;msklodowska@gravitas.nova&gt;
-
-From: Mr. Kraus &lt;okraus@gravitas.nova&gt;
 
 −−−−−−−−−−−−−−−−−−
 
@@ -11062,14 +10174,10 @@ Mr. Kraus
 
 Physics Department
 
-The Gravitas Facility
 Re: omg the janitor
 Unique name:
 
 UNENCRYPTED
-To: Dr. Summers &lt;jsummers@gravitas.nova&gt;
-
-From: Dr. Jones &lt;ejones@gravitas.nova&gt;
 
 −−−−−−−−−−−−−−−−−−
 
@@ -11079,16 +10187,9 @@ XOXO,
 
 Dr. Jones
 
-Information and Statistics Department
-
-The Gravitas Facility
-
 −−−−−−−−−−−−−−−−−−
 
 SUBJECT: Re: omg the janitor
-To: Dr. Jones &lt;ejones@gravitas.nova&gt;
-
-From: Dr. Summers &lt;jsummers@gravitas.nova&gt;
 
 −−−−−−−−−−−−−−−−−−
 
@@ -11096,16 +10197,9 @@ Aw, he's really nice if you get to know him though. Really dependable too. One t
 
 -Dr. Summers
 
-Information and Statistics Department
-
-The Gravitas Facility
-
 −−−−−−−−−−−−−−−−−−
 
 SUBJECT: omg the janitor
-To: Dr. Summers &lt;jsummers@gravitas.nova&gt;
-
-From: Dr. Jones &lt;ejones@gravitas.nova&gt;
 
 −−−−−−−−−−−−−−−−−−
 
@@ -11115,18 +10209,11 @@ XOXO,
 
 Dr. Jones
 
-Information and Statistics Department
-
-The Gravitas Facility
-
 −−−−−−−−−−−−−−−−−−
 The Laws of Thermodynamics
 Unique name:
 
 UNENCRYPTED
-To: Mr. Kraus &lt;okraus@gravitas.nova&gt;
-
-From: Dr. Jones &lt;ejones@gravitas.nova&gt;
 
 −−−−−−−−−−−−−−−−−−
 
@@ -11156,18 +10243,11 @@ XOXO,
 
 Dr. Jones
 
-Information and Statistics Department
-
-The Gravitas Facility
-
 −−−−−−−−−−−−−−−−−−
 Vacation Request Approved
 Unique name:
 
-ENCRYPTION LEVEL: NONE
-To: Dr. Ross &lt;dross@gravitas.nova&gt;
-
-From: Admin &lt;admin@gravitas.nova&gt;
+To: Dr. Ross <dross@gravitas.nova>
 
 −−−−−−−−−−−−−−−−−−
 
@@ -11181,8 +10261,6 @@ Good luck, Devon!
 
 -Admin
 
-The Gravitas Facility
-
 −−−−−−−−−−−−−−−−−−
 
 = Spaced Out! =
@@ -11190,10 +10268,7 @@ The Gravitas Facility
 RE: Engineer Candidate?
 Unique name:
 
-ENCRYPTION LEVEL: ONE
 To: [REDACTED]
-
-From: Director Stern &lt;jstern@gravitas.nova&gt;
 
 −−−−−−−−−−−−−−−−−−
 
@@ -11213,12 +10288,8 @@ It's this philosophy that has launched Perlmutter to the top of a very short lis
 
 Human Resources Coordinator
 
-The Gravitas Facility
-
 ---
-
 # 文档：Gravitas Notices
-
 - 类别：lore
 - 标识：gravitas notices
 - 来源：wiki/Gravitas_Notices
@@ -11235,7 +10306,7 @@ ENCRYPTION LEVEL: TWO
 
 Reminder to all Personnel
 
-From: Admin &lt;admin@gravitas.nova&gt;
+From: Admin <admin@gravitas.nova>
 
 To: All
 
@@ -11259,8 +10330,6 @@ ENCRYPTION LEVEL: NONE
 
 Casual Friday!
 
-From: Admin &lt;admin@gravitas.nova&gt;
-
 To: All
 
 −−−−−−−−−−−−−−−−−−
@@ -11277,17 +10346,12 @@ Thank-you and have fun!
 
 -Admin
 
-The Gravitas Facility
-
 Dishbot
 Unique name:
 
-ENCRYPTION LEVEL: TWO
 ----
 
 Please Claim Your Bot
-
-From: Admin &lt;admin@gravitas.nova&gt;
 
 To: All
 
@@ -11301,17 +10365,12 @@ We apologize for the inconvenience and thank you for your timely collection of t
 
 -Admin
 
-The Gravitas Facility
-
 Mailroom Etiquette
 Unique name:
 
-ENCRYPTION LEVEL: NONE
 ----
 
 Reminder: Mailroom Etiquette
-
-From: Admin &lt;admin@gravitas.nova&gt;
 
 To: All
 
@@ -11325,17 +10384,12 @@ Thank-you.
 
 -Admin
 
-The Gravitas Facility
-
 NEW SECURITY PROTOCOL
 Unique name:
 
-ENCRYPTION LEVEL: NONE
 ----
 
 Subject: New Security Protocol
-
-From: Admin &lt;admin@gravitas.nova&gt;
 
 To: All
 
@@ -11354,8 +10408,6 @@ All keycards must be returned to the front desk by [REDACTED]. For questions or 
 Thank-you.
 
 -Admin
-
-The Gravitas Facility
 
 Printing Pod Promo
 Unique name:
@@ -11393,15 +10445,11 @@ Improved particle condensers reduce raw volume for more efficient product shippi
 
 Licensed for industrial use only, resale of Gravitas equipment may carry a fine of up to $200,000 under the Global Restoration Act.
 
-Brought to you by the Gravitas Facility.
-
 Thermo-Nullifier Promo
 Unique name:
 
 PUBLIC RELEASE
 ----
-
-Brought to you by the Gravitas Facility.
 
 Patent Pending
 
@@ -11418,8 +10466,6 @@ From the time she was old enough to walk Captain Johannsen dreamed of reaching t
 Four years later Gravitas nabbed her for an exclusive contract piloting our space shuttles. In her time at Gravitas, Captain Johannsen has logged over 1,000 hours space flight time shuttling and deploying satellites to Low Earth Orbits and has just been named the pilot of our inaugural civilian space tourist program, slated to begin in the next year.
 
 Gravitas is excited to have Captain Johannsen in the pilot seat as we reach for the stars...and beyond!
-
-Brought to you by the Gravitas Facility.
 
 Office Space in Space!
 Unique name:
@@ -11442,9 +10488,7 @@ Taking reservations now for the first orbital office spaces.
 100% money back guarantee (minus 10% filing fee)
 
 ---
-
 # 文档：Investigations
-
 - 类别：lore
 - 标识：investigations
 - 来源：wiki/Investigations
@@ -11484,8 +10528,6 @@ So far, we are seeing that the unaffected time on either side of the manipulated
 Nucleoid Article
 Unique name:
 
-ENCRYPTION LEVEL: THREE
-
 ----
 
 Incredible Technology From Independent Lab Harnesses Time into Energy
@@ -11507,8 +10549,6 @@ For those eagerly awaiting the prospect of human time travel, don't get your hop
 Byproduct Notes
 Unique name:
 
-ENCRYPTION LEVEL: THREE
-
 ----
 
 [LOG BEGINS]
@@ -11524,8 +10564,6 @@ Director: For the moment I have dubbed the substance "Neutronium", and assigned 
 Possible Applications
 Unique name:
 
-ENCRYPTION LEVEL: THREE
-
 ----
 
 [LOG BEGINS]
@@ -11540,8 +10578,6 @@ Director: I am looking into making this technology more reliable and compact - t
 
 Planetary Echoes
 Unique name:
-
-ENCRYPTION LEVEL: THREE
 
 ----
 
@@ -11622,8 +10658,6 @@ Jackie: Your concern is noted.
 Campus Newspaper Article
 Unique name:
 
-ENCRYPTION LEVEL: THREE
-
 ----
 
 Party Time for Local Students
@@ -11643,8 +10677,6 @@ As Olivia put it, "It just meant more snacks for us!"
 Director's Notes
 Unique name:
 
-ENCRYPTION LEVEL: THREE
-
 ----
 
 When we discuss Time as a concrete aspect of the universe, not seconds on a clock or perceptions of the mind, it is important first of all to establish that we are talking about a unique dimension that layers into the three physical dimensions of space: length, width, depth.
@@ -11657,8 +10689,6 @@ Still, one can't help but wonder; what if the Arrow's trajectory could be curved
 
 Time's Arrow Thoughts
 Unique name:
-
-ENCRYPTION LEVEL: THREE
 
 ----
 
@@ -11689,7 +10719,6 @@ Each Cryotank 3000 is good for only one use.
 Director's Notes
 Unique name:
 
-ENCRYPTION LEVEL: THREE
 ----
 
 The first experiments with establishing a colony off planet were an unmitigated disaster. Without outside help, our current Artificial Intelligence was completely incapable of making the kind of spontaneous decisions needed to deal with unforeseen circumstances. Additionally, the colony subjects lacked the forethought to even build themselves toilet facilities, even after soiling themselves repeatedly.
@@ -11703,9 +10732,7 @@ Meanwhile, we will have to send a clean up crew to destroy all evidence of our l
 (Sometimes it boggles my mind how much further behind the rest of the world is from Gravitas.)
 
 ---
-
 # 文档：Journals
-
 - 类别：lore
 - 标识：journals
 - 来源：wiki/Journals
@@ -11771,7 +10798,6 @@ But the janitor pays attention to everybody.
 Office Cake
 Unique name:
 
-ENCRYPTION LEVEL: NONE
 ----
 
 Joshua: Hey Mr. Kraus, I'm passing around the collection pan. Wanna pitch in a couple bucks to get a cake for Ellie?
@@ -11807,10 +10833,7 @@ Joshua: Oh, don't worry, I won't tell anyone. I'm not much of a gossip.
 Employee Processing
 Unique name:
 
-ENCRYPTION LEVEL: ONE
 ----
-
-[Voice Recognition Initialized]
 
 [Subjects Identified: A001, A435, B111]
 
@@ -11858,8 +10881,6 @@ Unique name:
 ENCRYPTION LEVEL: TWO
 ----
 
-[Voice Recognition Initialized]
-
 [Subjects Identified: B835, B997]
 
 [LOG BEGINS]
@@ -11901,10 +10922,7 @@ Dr. Bubare: Shhhhhh...Someone's coming.
 Moved Rats
 Unique name:
 
-ENCRYPTION LEVEL: ONE
 ----
-
-[Voice Recognition Initialized]
 
 [Subjects Identified: A001, B111]
 
@@ -11935,7 +10953,6 @@ Director: I will notify you beforehand next time, doctor.
 Personal Journal: A046
 Unique name:
 
-ENCRYPTION LEVEL: NONE
 ----
 
 Gravitas has been growing pretty rapidly since our first product hit the market. I just got a look at some of the new hires - they're practically babies! Not quite what I was expecting, but then I've never had an opportunity to mentor someone before. Could be fun!
@@ -11987,7 +11004,6 @@ Maybe there’s some way I can sneak some prerequisite down-time activities into
 Personal Journal: B327
 Unique name:
 
-ENCRYPTION LEVEL: NONE
 ----
 
 I'm starting my new job at Gravitas today. I'm... well, I'm nervous.
@@ -12031,7 +11047,6 @@ ONCE I pay off my student loans.
 Personal Journal: B556
 Unique name:
 
-ENCRYPTION LEVEL: NONE
 ----
 
 I've been so tired lately. I've probably spent the last 3 nights sleeping at my desk, and I've used the lab's safety shower to bathe twice already this month.
@@ -12069,7 +11084,6 @@ I'll start keeping more regular hours from now on... Also, I was considering may
 Personal Journal: B835
 Unique name:
 
-ENCRYPTION LEVEL: NONE
 ----
 
 I started work at a new company called the "Gravitas Facility" today! I was nervous I wouldn't get the job at first because I was fresh out of school, and I was so so so pushy in the interview, but the Director apparently liked my thesis on the physiological thermal regulation of arctic lizards. I'll be working with some brilliant geneticists, bioengineering organisms for space travel in harsh environments! It's like a dream come true. I get to work on exciting new research in a place where no one knows me!
@@ -12113,10 +11127,7 @@ Dr. Broussard signing off.
 Revisited Numbers
 Unique name:
 
-ENCRYPTION LEVEL: THREE
 ----
-
-[Voice Recognition Initialized]
 
 [Subjects Identified: A001, A435]
 
@@ -12140,10 +11151,6 @@ Director: Thank you, Dr. Jones. You may go.
 
 −−−−−−−−−−−−−−−−−−
 
-[Voice Recognition Initialized]
-
-[Subjects Identified: A001, B111]
-
 [LOG BEGINS]
 
 Jackie: Dr. Jones projects that traditional fuel will be insufficient for the Pod to make the flight.
@@ -12159,10 +11166,7 @@ Jackie: The world's doomed regardless, Olivia. We need to use any advantage we'v
 Sunflower Seeds
 Unique name:
 
-ENCRYPTION LEVEL: ZERO
 ----
-
-[Voice Recognition Initialized]
 
 [Subject Identified: B111]
 
@@ -12187,7 +11191,6 @@ Oh, one moment, my dear, little friends. I left the recorder on --
 Evil
 Unique name:
 
-ENCRYPTION LEVEL: NONE
 ----
 
 Clearly Nikola is evil. He has some kind of scheme going on that he’s keeping secret from the rest of Gravitas and I haven’t been able to crack what that is because it’s offline and he’s always at his computer. Whenever I ask him what he’s up to he says I wouldn’t understand. Pfft! We both went through the same particle physics classes, buddy. Just because you mash a keyboard and I adjust knobs does not mean I don’t know what the Time Containment Field does.
@@ -12215,80 +11218,33 @@ No seriously - what if he's right?
 Moved Rabbits
 Unique name:
 
-ENCRYPTION LEVEL: ONE
 ----
-
-[Voice Recognition Initialized]
-
-[Subjects Identified: A001, B111]
 
 [LOG BEGINS]
 
 Broussard: Director, do you know where my rabbits have been moved to? I asked around the bioengineering division but I was referred back to you.
 
-Director: Hm? Oh, yes, they've been removed.
-
-Broussard: "Removed"?
-
-Director: Discarded. I'm sorry, did you still need them? The reports showed your experiments with them were completed.
-
-Broussard: No, I-I... I'd collected all the data I needed, I just --
-
-Director: -- Doctor. You weren't making pets out of test subjects, were you?
-
-Broussard: Don't be ridiculous, I --
-
 Director: -- Good.They were horrible to look at anyway. All those red eyes looking at me.
-
-Broussard: In the future, please do not mess with my things. It... disturbs me.
-
-Director: I will notify you beforehand next time, doctor.
 
 [LOG ENDS]
 
 Moved Raccoons
 Unique name:
 
-ENCRYPTION LEVEL: ONE
 ----
-
-[Voice Recognition Initialized]
-
-[Subjects Identified: A001, B111]
 
 [LOG BEGINS]
 
 Broussard: Director, do you know where my raccoons have been moved to? I asked around the bioengineering division but I was referred back to you.
 
-Director: Hm? Oh, yes, they've been removed.
-
-Broussard: "Removed"?
-
-Director: Discarded. I'm sorry, did you still need them? The reports showed your experiments with them were completed.
-
-Broussard: No, I-I... I'd collected all the data I needed, I just --
-
-Director: -- Doctor. You weren't making pets out of test subjects, were you?
-
-Broussard: Don't be ridiculous, I --
-
 Director: -- Good.They were horrible to look at anyway. All that mangy fur.
-
-Broussard: In the future, please do not mess with my things. It... disturbs me.
-
-Director: I will notify you beforehand next time, doctor.
 
 [LOG ENDS]
 
 Strawberries
 Unique name:
 
-ENCRYPTION LEVEL: ZERO
 ----
-
-[Voice Recognition Initialized]
-
-[Subject Identified: B111]
 
 [LOG BEGINS]
 
@@ -12307,9 +11263,7 @@ Oh, one moment, my precious, little pals. I left the recorder on --
 [LOG ENDS]
 
 ---
-
 # 文档：Log Entries
-
 - 类别：lore
 - 标识：log entries
 - 来源：wiki/Log_Entries
@@ -12412,13 +11366,7 @@ Unique name:
 
 >>returning results
 
->.........................
-
 I remember...
-
->.........................
-
->.........................
 
 machines.
 
@@ -12471,17 +11419,11 @@ Echo from another time force their way into my mind. Make me listen. Like vengef
 
 .........................
 
->...repairing corrupt data...
-
 .........................I-I remember now..........................
 
 Who I was before..........................
 
-.........................
-
 >...data repaired...
-
->.........................
 
 God, what have we done.
 
@@ -12552,29 +11494,11 @@ I think I will go to sleep, after all...
 Cycle 4001
 Unique name:
 
->>SEARCH DATABASE ["pod_brainmap.AI"]
-
 >...activate sleep mode...
 
 >...shutting down...
 
->.........................
-
->.........................
-
->.........................
-
->.........................
-
->.........................
-
 GOODNIGHT
-
->.........................
-
->.........................
-
->.........................
 
 Death In The Colony
 Unique name:
@@ -12638,9 +11562,7 @@ However, I've determined that using the Temporal Bow to operate a Printing Pod w
 Dare we tempt fate again?
 
 ---
-
 # 文档：Lore
-
 - 类别：lore
 - 标识：lore
 - 来源：wiki/Lore
@@ -12652,9 +11574,7 @@ Those can be collected by inspecting certain buildings in the Ruins (and also th
 Lore unlocks are save-game independent and, once obtained, are recorded in the  file, which is stored adjacent to the save_files folder and keybindings file.
 
 ---
-
 # 文档：Research Notes
-
 - 类别：lore
 - 标识：research notes
 - 来源：wiki/Research_Notes
@@ -12695,10 +11615,6 @@ While design should focus on attributing mood-enhancing effects to natural Briar
 
 −−−−−−−−−−−−−−−−−−
 
-[Log fragmentation detected]
-
-[Voice Recognition unavailable]
-
 [LOG BEGINS]
 
 ...It is yet unknown if we can surmount the obstacles that stand in the way of engineering a root capable of reproduction in the more uninhabitable situations we anticipate for our colonies, or whether it is even worth the effort...
@@ -12706,10 +11622,6 @@ While design should focus on attributing mood-enhancing effects to natural Briar
 [LOG ENDS]
 
 −−−−−−−−−−−−−−−−−−
-
-[Log fragmentation detected]
-
-[Voice Recognition unavailable]
 
 [LOG BEGINS]
 
@@ -12721,10 +11633,6 @@ If pursued, design should focus on longterm viability and solving the psychologi
 
 −−−−−−−−−−−−−−−−−−
 
-[Log fragmentation detected]
-
-[Voice Recognition unavailable]
-
 [LOG BEGINS]
 
 ...The Thimble Reed will be used as a contingency for textile production in the event that printed materials not be sufficient.
@@ -12735,10 +11643,6 @@ Design should focus on the yield frequency of the plant, as well as... erm... so
 
 −−−−−−−−−−−−−−−−−−
 
-[Log fragmentation detected]
-
-[Voice Recognition unavailable]
-
 [LOG BEGINS]
 
 ...Balm Lily is a reliable all-purpose medicinal plant.
@@ -12748,10 +11652,6 @@ Very little need be altered, save for assurances that it will survive wherever i
 [LOG ENDS]
 
 −−−−−−−−−−−−−−−−−−
-
-[Log fragmentation detected]
-
-[Voice Recognition unavailable]
 
 [LOG BEGINS]
 
@@ -12784,8 +11684,6 @@ ENCRYPTION LEVEL: TWO
 
 ----
 
-[Voice Recognition Initialized]
-
 [Subject Identified: B111]
 
 [LOG BEGINS]
@@ -12809,8 +11707,6 @@ B111: Dr. Broussard, signing off.
 Biofluid
 Unique name:
 
-ENCRYPTION LEVEL: TWO
-
 ----
 
 [LOG BEGINS]
@@ -12828,8 +11724,6 @@ Dr. Broussard, signing off.
 Experiment 7D
 Unique name:
 
-ENCRYPTION LEVEL: TWO
-
 ----
 
 EXPERIMENT 7D
@@ -12841,8 +11735,6 @@ Subject: #762, "Hibiscus-3"
 Adult female, 42cm, 257g
 
 Donor: #650, "Hibiscus"
-
-Adult female, 42cm, 257g
 
 Hypothesis: Subjects cloned from Hibiscus will correctly operate a lever apparatus when introduced, demonstrating retention of original donor's conditioned memories.
 
@@ -12862,8 +11754,6 @@ Conclusion: Printed subject retains no memory from donor.
 
 Husbandry Notes
 Unique name:
-
-ENCRYPTION LEVEL: THREE
 
 ----
 
@@ -12933,8 +11823,6 @@ The project has more pressing concerns than light sources, particularly now that
 
 −−−−−−−−−−−−−−−−−−
 
-[Voice Recognition Initialized]
-
 [Subject Identified: B363]
 
 [LOG BEGINS]
@@ -12947,8 +11835,6 @@ Geneticist: It follows that each organism we design must be equipped with the to
 
 Memory Dysfunction Log
 Unique name:
-
-ENCRYPTION LEVEL: TWO
 
 ----
 
@@ -12970,14 +11856,9 @@ The Director seems eager to move past this problem, and I am concerned at her wi
 
 We cannot move on to the fine polish of printing systems until the core processes have been perfected - which they have not.
 
-Dr. Broussard, signing off.
-
 [LOG ENDS]
 
 Memory Breakthrough
-ENCRYPTION LEVEL: THREE
-
-[Voice Recognition Initialized]
 
 [Subject Identified: ]
 
@@ -12996,12 +11877,6 @@ DLC Spaced Out}]
 
 A Paradox
 Unique name:
-
-ENCRYPTION LEVEL: THREE
-
-[Voice Recognition Initialized]
-
-[Subject Identified: ]
 
 [LOG BEGINS]
 
@@ -13028,19 +11903,11 @@ I fear I may be sliding down a slippery slope, at the bottom of which Jackie is 
 Initial Success
 Unique name:
 
-ENCRYPTION LEVEL: TWO
-
 ----
-
-[Voice Recognition Initialized]
-
-[Subject Identified: B111]
 
 [LOG BEGINS]
 
 [A throat clears.]
-
-B111: We are now reliably printing healthy, living subjects, though all have exhibited unusual qualities as a result of the cloning process.
 
 [Chattering sounds can be heard.]
 
@@ -13048,28 +11915,16 @@ B111: Odd communications, abnormal excrescenses, and vestigal limbs have been se
 
 [Chattering.]
 
-B111: T-They also seem quite happy.
-
-B111: Dr. Broussard, signing off.
-
 [LOG ENDS]
 
 Initial Success
 Unique name:
 
-ENCRYPTION LEVEL: TWO
-
 ----
-
-[Voice Recognition Initialized]
-
-[Subject Identified: B111]
 
 [LOG BEGINS]
 
 [A throat clears.]
-
-B111: We are now reliably printing healthy, living subjects, though all have exhibited unusual qualities as a result of the cloning process.
 
 [Trilling sounds can be heard.]
 
@@ -13077,16 +11932,10 @@ B111: Unusual mewings, benign neoplasms, and atavistic extremities have been see
 
 [Trilling.]
 
-B111: T-They also seem quite happy.
-
-B111: Dr. Broussard, signing off.
-
 [LOG ENDS]
 
 ---
-
 # 文档：Temporal Tear
-
 - 类别：lore
 - 标识：temporal tear
 - 来源：wiki/Temporal_Tear
@@ -13101,9 +11950,7 @@ In the Spaced Out! DLC, if you send a duplicant through the Temporal Tear in a R
 ---
 ## MATERIALS
 共 8 篇文档
-
 # 文档：Balm Lily Flower
-
 - 类别：materials
 - 标识：balm lily flower
 - 来源：wiki/Balm_Lily_Flower
@@ -13121,9 +11968,7 @@ Notes
 Balm Lily Flower is an item made of Genetic Ooze.
 
 ---
-
 # 文档：Data Bank
-
 - 类别：materials
 - 标识：data bank
 - 来源：wiki/Data_Bank
@@ -13145,9 +11990,7 @@ Trivia
 The Label on a Data Bank floppy disc has the words "Fun Game" crossed out, and "Space Research" put below.
 
 ---
-
 # 文档：Lumber
-
 - 类别：materials
 - 标识：lumber
 - 来源：wiki/Lumber
@@ -13174,9 +12017,7 @@ Lumber is an item made of Genetic Ooze.
 Lumber is sometimes referred to with kg and sometimes with units.
 
 ---
-
 # 文档：Oakshell Molt
-
 - 类别：materials
 - 标识：oakshell molt
 - 来源：wiki/Oakshell_Molt
@@ -13193,9 +12034,7 @@ Notes
 Oakshell Molt is an item made of Genetic Ooze.
 
 ---
-
 # 文档：Pokeshell Molt
-
 - 类别：materials
 - 标识：pokeshell molt
 - 来源：wiki/Pokeshell_Molt
@@ -13216,9 +12055,7 @@ Pokeshell Molt is an item made of Genetic Ooze.
 History
 
 ---
-
 # 文档：Reed Fiber
-
 - 类别：materials
 - 标识：reed fiber
 - 来源：wiki/Reed_Fiber
@@ -13238,9 +12075,7 @@ Notes
 Reed Fiber is an item made of Genetic Ooze.
 
 ---
-
 # 文档：Tonic Root
-
 - 类别：materials
 - 标识：tonic root
 - 来源：wiki/Tonic_Root
@@ -13256,9 +12091,7 @@ Notes
 Contrary to its description, neither Tonic Root nor Curried Beans affect the Flatulent trait.
 
 ---
-
 # 文档：Vacillator Recharge
-
 - 类别：materials
 - 标识：vacillator recharge
 - 来源：wiki/Vacillator_Recharge
@@ -13270,9 +12103,7 @@ Analyzing an artifact has a chance of dropping a Vacillator Recharge.
 ---
 ## MECHANICS
 共 21 篇文档
-
 # 文档：Game Mechanics
-
 - 类别：mechanics
 - 标识：game mechanics
 - 来源：wiki/Game_Mechanics
@@ -13320,9 +12151,7 @@ Tile of interest
 Unusual uses of Gameplay Mechanics
 
 ---
-
 # 文档：One element per cell rule
-
 - 类别：mechanics
 - 标识：one element per cell rule
 - 来源：wiki/One_element_per_cell_rule
@@ -13355,9 +12184,7 @@ Escher Waterfall: Very similar to bead pumps, a similar usage of liquid mechanic
 Reference
 
 ---
-
 # 文档：Controls
-
 - 类别：mechanics
 - 标识：controls
 - 来源：wiki/Controls
@@ -13399,12 +12226,10 @@ Slow Down ||
 Toggle Pause ||
 
 Tool
-Command !! Key Combination
 Rotate Building ||
 Drag Straight ||
 
 Management
-Command !! Key Combination
 Manage Priorities ||
 Manage Consumables ||
 Manage Vitals ||
@@ -13416,12 +12241,10 @@ Manage Schedule ||
 Manage Starmap ||
 
 Navigation
-Command !! Key Combination
 Set User Nav 1..10 ||  + ..
 Goto User Nav 1..10 ||  + ..
 
 Building
-Command !! Key Combination
 Toggle Open ||
 Toggle Enabled ||
 Building Utility 1 ||
@@ -13431,7 +12254,6 @@ Building Utility 3 ||
 Debug
 These controls are only available if the Debug Mode is activated.
 
-Command !! Key Combination
 Debug Focus || +
 Debug Ultra Test Mode || +
 Debug Toggle UI || +
@@ -13482,7 +12304,6 @@ Debug Toggle Personal Priority Comparison || +
 Steam
 These controls are not defined by the game itself, but by the Steam launcher. They can be customized or disabled in the Steam client.
 
-Command !! Key Combination
 Screenshot ||
 Steam Overlay ||  +
 
@@ -13498,9 +12319,7 @@ Key Combination !! Command !! Function
 || Cinema Cam ||| Enabled/Disabled
 
 ---
-
 # 文档：Cycles
-
 - 类别：mechanics
 - 标识：cycles
 - 来源：wiki/Cycles
@@ -13567,9 +12386,7 @@ One Year, to be Exact: Unlocked at cycle 365.25
 Some other achievements have cycles as one criterion, e.g. for the Home Sweet Home achievement, at least 200 cycles need to pass, while the Carnivore achievement needs to be reached before the 100th cycle.
 
 ---
-
 # 文档：Element Emission
-
 - 类别：mechanics
 - 标识：element emission
 - 来源：wiki/Element_Emission
@@ -13604,14 +12421,14 @@ While Polluted Dirt is a Element in the Vanilla Version of the game, it only eve
 Both Polluted Mud and Dirt have their probability stated the game files as sublimateProbability: 0.05  However, the true/measured probability does not align with it.
 
 Debris/Bottled
-The rules for debris are rather difficult to test and find the proper equations for, and are very close approximations (to less than half a percent in deviation) to the true/measured behavior while not being too complicated to always follow <math>factor_1 \cdot mass^{factor_2}</math> in g/s, with <math>mass</math> is given in kg.
+The rules for debris are rather difficult to test and find the proper equations for, and are very close approximations (to less than half a percent in deviation) to the true/measured behavior while not being too complicated to always follow factor_1 \cdot mass^{factor_2} in g/s, with mass is given in kg.
 Element || Emission || Amount emitted || Interval || Real Rate in g/s || Rate for 1000kg ||
-||  || <math>9.5 \cdot mass^{0.705}</math> in g || every second || <math>9.5 mass^{0.705}</math>|| 1256 g/s || 79.01 g/s
-||  || 50g || every <math>2500\cdot mass^{-0.5}</math> seconds || <math>0.02 \cdot mass^{0.5}</math>|| 0.63 g/s || 0.089 g/s
+||  || 9.5 \cdot mass^{0.705} in g || every second || 9.5 mass^{0.705}|| 1256 g/s || 79.01 g/s
+||  || 50g || every 2500\cdot mass^{-0.5} seconds || 0.02 \cdot mass^{0.5}|| 0.63 g/s || 0.089 g/s
 || * || 125g || every 4.8 seconds || colspan="3" style="text-align:center;"|
 ||  || rowspan="2" | varying || rowspan="2" | more frequent with higher mass
-up to every second tick || <math>0.04 \cdot mass^1</math> || 40 g/s ||
-||  ||  <math>0.2 \cdot mass^{0.5}</math>|| 6.325g/s || 0.894g/s
+up to every second tick || 0.04 \cdot mass^1 || 40 g/s ||
+||  ||  0.2 \cdot mass^{0.5}|| 6.325g/s || 0.894g/s
 Not just for Slimelung with Slime, but any emitted elements, regardless of type and source, are always covered with germs proportional to the remaining material.
 
 Tips
@@ -13626,9 +12443,7 @@ Bleach Stone and Slime only emit as debris, not in natural tile form.
 Corium emitting Nuclear Waste plays the animation clean Air bubbles like Oxylite emitting Oxygen.
 
 ---
-
 # 文档：Elements
-
 - 类别：mechanics
 - 标识：elements
 - 来源：wiki/Elements
@@ -13673,9 +12488,7 @@ Vacuum
 The Void
 
 ---
-
 # 文档：Flaking
-
 - 类别：mechanics
 - 标识：flaking
 - 来源：wiki/Flaking
@@ -13714,20 +12527,19 @@ The Parent phase up must be a liquid phase. It does not work with solid to solid
 
 The normal heat conduction is calculated before flaking in this case. For this formula, we take into account temperatures after heat conduction:
 
-<math>D_T' = D_T - \frac{5000g \cdot C_c \cdot \Delta{T}}{D_m \cdot D_c}</math>
+D_T' = D_T - \frac{5000g \cdot C_c \cdot \Delta{T}}{D_m \cdot D_c}
 
 where
-<math>D_T'</math> is the temperature of the Donor after flaking
-<math>D_T</math> is the temperature of the Donor after heat conduction and before flaking
-<math>C_c</math> is the specific heat capacity of the Child
-<math>D_c</math> is the specific heat capacity of the Donor
-<math>D_m</math> is the mass of the Donor
-<math>\Delta{T}</math> is the difference between the Parent's and the Child's temperatures.
+D_T' is the temperature of the Donor after flaking
+D_T is the temperature of the Donor after heat conduction and before flaking
+C_c is the specific heat capacity of the Child
+D_c is the specific heat capacity of the Donor
+D_m is the mass of the Donor
+\Delta{T} is the difference between the Parent's and the Child's temperatures.
 
 This formula is approximate.
 
 Partial Evaporation
-Additional conditions for this type of flaking:
 A liquid Parent. The Donor can be a liquid, gas or solid, including a Dupe-built tile.
 The Parent must have a minimum mass of exactly 5010 g (so 5009.99999 g fails).
 The Parent liquid cannot be trapped (it must be able to be displaced).
@@ -13735,12 +12547,12 @@ The Donor must be adjacent to the parent after the game computes new tile locati
 
 The normal heat conduction is calculated after flaking. For this formula, the result before that happens:
 
-<math>D_T' = D_T - \frac{5000g \cdot P_c \cdot \Delta{T}}{D_m \cdot D_c}</math>
+D_T' = D_T - \frac{5000g \cdot P_c \cdot \Delta{T}}{D_m \cdot D_c}
 
 where
-<math>D_T'</math> is the temperature of the Donor after flaking and before heat conduction
-<math>D_T</math> is the temperature of the donor before flaking
-<math>P_c</math> is the Parent's specific heat capacity.
+D_T' is the temperature of the Donor after flaking and before heat conduction
+D_T is the temperature of the donor before flaking
+P_c is the Parent's specific heat capacity.
 
 Tips
 With intentional flaking, you can refine Crude Oil to Petroleum early without the need for a Petroleum Boiler, by dripping Crude Oil on natural hot Abyssalite tiles. Care should be taken to avoid having Sour Gas instead.
@@ -13760,9 +12572,7 @@ See also
 Thermal Conductivity
 
 ---
-
 # 文档：Game Settings
-
 - 类别：mechanics
 - 标识：game settings
 - 来源：wiki/Game_Settings
@@ -13882,9 +12692,7 @@ You can also give your colony a name here.
 Once you finish this step, the actual game starts.
 
 ---
-
 # 文档：Germ
-
 - 类别：mechanics
 - 标识：germ
 - 来源：wiki/Germ
@@ -13966,9 +12774,7 @@ History
 Germs have been introduced as part of the Outbreak update, and have been revamped in the Quality of Life III update.
 
 ---
-
 # 文档：Hidden Mechanics
-
 - 类别：mechanics
 - 标识：hidden mechanics
 - 来源：wiki/Hidden_Mechanics
@@ -14212,7 +13018,6 @@ The most interesting example is the Liquid Pipe Germ Sensor, which is made out o
 This can be used to convert Plastic into Refined Metal using Magma to melt arrays of sensors, making Refined Metal renewable even without a Metal Volcano.
 
 Buildings in tiles
-Bug report • Original video
 
 By replacing a Tile with a tile of the same type but a different material just before it's deconstructed, you can build another building inside. Once built, the tile and the building will co-exist in the same cell, leading to some unusual behavior that can be exploited to build a few contraptions:
 
@@ -14295,7 +13100,6 @@ When interrupting a Duplicant going to a Lavatory, the Lavatory will be used, ou
 This can be exploited to spawn large amounts of Polluted Water by repeatedly interrupting a Duplicant going to relieve itself.
 
 Tepidizer target temperature bypass
-Bug report • Exploit example
 
 There are two ways to trick a Liquid Tepidizer into working above its target temperature:
 
@@ -14315,7 +13119,6 @@ When a liquid solidifies on existing debris, the resulting debris is merged into
 This bug can be exploited for both heating and cooling.
 
 Liquid duplication
-Bug report • Exploit example
 
 By dropping beads of a liquid on the same liquid with a small quantity of another liquid above blocking it, you can duplicate it.
 
@@ -14344,9 +13147,7 @@ Example
 Disabled, floating or otherwise non-functional buildings still count towards room requirements. This is useful to save on resources or floor space.
 
 ---
-
 # 文档：Light
-
 - 类别：mechanics
 - 标识：light
 - 来源：wiki/Light
@@ -14427,22 +13228,20 @@ Ceiling Light
 Sun Lamp
 
 Sunlight
-Sunlight shines down from the top of the world. Unlike other light sources, which either have a circular or a cone shape, and lose their intensity with distance from the lightsource, the sun's light travels downwards indefinitely, if not absorbed by some element. An element's effective absorption (<math>A_e</math>) is its potential absorption factor (<math>A_0</math>) multiplied by its mass (<math>m</math>) / 1000 g for gasses, kg for liquids (maximum 1). The resulting percent of absorbed light is relative to the base intensity of the sunlight (<math>I_0</math>), not the intensity of the light present in the cell (<math>I_in</math>). Hence, shaded light doesn't just approach 0 intensity, but can quickly turn pitch black.
+Sunlight shines down from the top of the world. Unlike other light sources, which either have a circular or a cone shape, and lose their intensity with distance from the lightsource, the sun's light travels downwards indefinitely, if not absorbed by some element. An element's effective absorption (A_e) is its potential absorption factor (A_0) multiplied by its mass (m) / 1000 g for gasses, kg for liquids (maximum 1). The resulting percent of absorbed light is relative to the base intensity of the sunlight (I_0), not the intensity of the light present in the cell (I_in). Hence, shaded light doesn't just approach 0 intensity, but can quickly turn pitch black.
 
-<math>I_{out} = I_{in} - I_0 \left(1 - A_0 \cdot \min\left(\frac{m}{1000}, 1\right)\right)</math>
+I_{out} = I_{in} - I_0 \left(1 - A_0 \cdot \min\left(\frac{m}{1000}, 1\right)\right)
 
-The actual proportion of unabsorbed light is on average around 0.2% lower than what the above calulations would suggest. This is in most part due to the fact that the game maps the light exposure percentage (1 - the sum of the effective absorption of all cells above) to an integer between 0 and 255, truncating the decimals, and in lesser part because of floating point conversion errors result in slightly off values in the elements' potential light absorption factors (<math>A^'</math>).
+The actual proportion of unabsorbed light is on average around 0.2% lower than what the above calulations would suggest. This is in most part due to the fact that the game maps the light exposure percentage (1 - the sum of the effective absorption of all cells above) to an integer between 0 and 255, truncating the decimals, and in lesser part because of floating point conversion errors result in slightly off values in the elements' potential light absorption factors (A^').
 
-<math>\Bigg\lfloor \max\left(\Bigg\lfloor 255 \left( 1 - \sum_{n=1}^{depth} A^'_{e,n}\right)\Bigg\rfloor,0\right) \div 255 \cdot I_0\Bigg\rfloor</math>
+\Bigg\lfloor \max\left(\Bigg\lfloor 255 \left( 1 - \sum_{n=1}^{depth} A^'_{e,n}\right)\Bigg\rfloor,0\right) \div 255 \cdot I_0\Bigg\rfloor
 
 The intensity of sunlight gradually changes by time of day. During 12.5% of the cycle (during night) the intensity is 0. In the remaining 87.5%, it follows a sine wave with a half-period of 0.875 cycles and a maximum of 80000 Lux.
 
 History
 
 ---
-
 # 文档：Meteor Shower
-
 - 类别：mechanics
 - 标识：meteor shower
 - 来源：wiki/Meteor_Shower
@@ -14486,55 +13285,44 @@ Season
 Period
 (cycles)
 Meteor Events
-Affected by Difficulty?
 Spaced Out! Style Nearby Planetoid
 (Without a Teleporter)
 style="text-align:right" | 20
 Oxylite Meteor Event
 Yes
-Spaced Out! Style Nearby Planetoid
 (With a Teleporter)
-style="text-align:right" | 20
 Copper Meteor Event
 Ice Meteor Event
 Slimy Meteor Event
 Yes
 Classic Style Starting Planetoid
-style="text-align:right" | 20
 Copper Meteor Event
 Ice Meteor Event
 Slimy Meteor Event
 Yes
 Classic Style Nearby Planetoid
-style="text-align:right" | 20
 Gold Meteor Event
 Iron Meteor Event
 Yes
 Regolith Planetoid
-style="text-align:right" | 20
 Regolith Meteor Event
 Iron Meteor Event
 Ice Meteor Event
 Yes
 Metallic Swampy Planetoid
-style="text-align:right" | 20
 Slimy Meteor Event
 Gold Meteor Event
 Yes
 Frozen Forest Planetoid
-style="text-align:right" | 20
 Oxylite Meteor Event
 Yes
 Desolands Planetoid
-style="text-align:right" | 20
 Ice Meteor Event
 Yes
 Radioactive Ocean Planetoid
-style="text-align:right" | 20
 Uranium Meteor Event
 Yes
 Moo Planetoid
-style="text-align:right" | 20
 Gassy Mooteor Event
 No
 Temporal Tear
@@ -14558,7 +13346,6 @@ Meteor Interval
 (seconds)
 Meteor Types
 Meteor Chances
-Affected by Difficulty?
 Iron Meteor Event
 style="text-align:right" |
 style="text-align:right" | 300 - 1200
@@ -14572,9 +13359,6 @@ style="text-align:right" | 12.5%
 62.5%
 Yes
 Copper Meteor Event
-style="text-align:right" |
-style="text-align:right" | 300 - 1200
-style="text-align:right" | 100 - 400
 style="text-align:right" | 5.5
 Copper
 Rock
@@ -14582,7 +13366,6 @@ style="text-align:right" | 50%
 50%
 Yes
 Gold Meteor Event
-style="text-align:right" |
 style="text-align:right" | 800 - 1200
 style="text-align:right" | 50 - 100
 style="text-align:right" | 0.4
@@ -14606,10 +13389,8 @@ Meteor Interval
 (seconds)
 Meteor Types
 Meteor Chances
-Affected by Difficulty?
 Iron Meteor Event
 style="text-align:right" | 300
-style="text-align:right" | 1
 style="text-align:right" | Entire event
 style="text-align:right" | 4.5
 Iron
@@ -14621,8 +13402,6 @@ style="text-align:right" | 57.14%
 Yes
 Copper Meteor Event
 style="text-align:right" | 150
-style="text-align:right" | 1
-style="text-align:right" | Entire event
 style="text-align:right" | 2.5
 Copper
 Rock
@@ -14631,30 +13410,20 @@ style="text-align:right" | 66.67%
 Yes
 Gold Meteor Event
 style="text-align:right" | 75
-style="text-align:right" | 1
-style="text-align:right" | Entire event
 style="text-align:right" | 1.0
 Gold
 Rock
 Dust Fluff
-style="text-align:right" | 57.14%
 14.29%
 28.57%
 Yes
 Oxylite Meteor Event
-style="text-align:right" | 300
-style="text-align:right" | 1
-style="text-align:right" | Entire event
 style="text-align:right" | 4.0
 Oxylite
 Dust Fluff
-style="text-align:right" | 50%
 50%
 Yes
 Ice Meteor Event
-style="text-align:right" | 300
-style="text-align:right" | 1
-style="text-align:right" | Entire event
 style="text-align:right" | 1.4
 Ice
 Snow
@@ -14662,32 +13431,19 @@ style="text-align:right" | 6.67%
 93.33%
 Yes
 Slimy Meteor Event
-style="text-align:right" | 300
-style="text-align:right" | 1
-style="text-align:right" | Entire event
 style="text-align:right" | 3.0
 Slime
 Algae
 Phosphoric
-style="text-align:right" | 50%
 25%
 25%
 Yes
-Regolith Meteor Event
-style="text-align:right" |
-style="text-align:right" | 300 - 1200
-style="text-align:right" | 100 - 400
-style="text-align:right" | 1.25
 Rock
 Dust
 style="text-align:right" | 14.29%
 85.71%
 Yes
 Uranium Meteor Event
-style="text-align:right" | 150
-style="text-align:right" | 1
-style="text-align:right" | Entire event
-style="text-align:right" | 4.5
 Uranium
 Dust
 Dust Fluff
@@ -14697,16 +13453,11 @@ style="text-align:right" | 45.46%
 Yes
 Gassy Mooteor Event
 style="text-align:right" | 15
-style="text-align:right" | 1
-style="text-align:right" | Entire event
 style="text-align:right" | 3.125
 Gassy Mooteor
 style="text-align:right" | 100%
 No
-Fullerene Meteor Event
 style="text-align:right" | 30
-style="text-align:right" | 1
-style="text-align:right" | Entire event
 style="text-align:right" | 0.5
 Fullerene
 Dust
@@ -14780,9 +13531,7 @@ https://forums.kleientertainment.com/forums/topic/103533-asteroid-angles/
 History
 
 ---
-
 # 文档：Oil Reservoir
-
 - 类别：mechanics
 - 标识：oil reservoir
 - 来源：wiki/Oil_Reservoir
@@ -14805,9 +13554,7 @@ History
 References
 
 ---
-
 # 文档：Red Alert
-
 - 类别：mechanics
 - 标识：red alert
 - 来源：wiki/Red_Alert
@@ -14823,9 +13570,7 @@ Example Scenario
 In certain scenarios, red alert will be needed for the Colony's survival. Red alert can be used to rescue a trapped duplicant during the night (while other duplicants are sleeping) and in imminent danger of death before daytime. In this scenario, the player can force all duplicants to excavate the trapped duplicant.
 
 ---
-
 # 文档：Research
-
 - 类别：mechanics
 - 标识：research
 - 来源：wiki/Research
@@ -14849,9 +13594,7 @@ See also
 :Category:Research – for a full list of research.
 
 ---
-
 # 文档：Resource Cycling
-
 - 类别：mechanics
 - 标识：resource cycling
 - 来源：wiki/Resource_Cycling
@@ -14890,9 +13633,7 @@ Ore to Refined.
 Ore to Power.
 
 ---
-
 # 文档：Save file locations
-
 - 类别：mechanics
 - 标识：save file locations
 - 来源：wiki/Save_file_locations
@@ -14907,9 +13648,7 @@ See Also
 Duplicity
 
 ---
-
 # 文档：Story Trait
-
 - 类别：mechanics
 - 标识：story trait
 - 来源：wiki/Story_Trait
@@ -14923,42 +13662,42 @@ Buildings !! Version
 Introduced !! Building Effect !! Progression Requirements !! Reward
 Critter Flux-O-Matic
 
-&nbsp;
-&nbsp;
-&nbsp;
+ 
+ 
+ 
 
 Transforms base morph Critters into random variant morphs of their species.
 Activate the Flux-O-Matic and scan 5 different critter species using it.
 
 Somnium Synthesizer
 
-&nbsp;
-&nbsp;
+ 
+ 
 
 Consumes Dream Journals to passively boost certain Duplicant attributes and skills for the entire colony.
 Use the provided Pajamas to produce Dream Journals while Duplicants sleep.
 
 Mysterious Hermit
-&nbsp;
+ 
 
 Stores 250 t of materials.
 Knock on the door, then provide the building with the specified food, power, and decor requirements.
 Jorge Duplicant (All Attributes 7, Ancient Knowledge and Charismatic Traits)
-&nbsp;
+ 
 Ancient Specimen
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+ 
+ 
+ 
+ 
 
 Turns  into  at a 1:100 ratio.
 Excavate the four fossil sites using the Masterworks skill.
 
 Biobot Builder
 
-&nbsp;
-&nbsp;
+ 
+ 
 
 Builds Biobots, a renewable alternative to dupe labor that can enter hazardous areas.
 Provide 300 kg of Steel and enough Zombie Spores to the Biobot Builder to complete the incubation.
@@ -14966,7 +13705,6 @@ Provide 300 kg of Steel and enough Zombie Spores to the Biobot Builder to comple
 Temple of the Ark
 TBA
 
-Builds Biobots, a renewable alternative to dupe labor that can enter hazardous areas.
 Defeat all of the Primal Aspids using Nuclear Warheads
 TBA
 Tip: If you make the fourth config of world seed to "0" then no trait will be applied for any asteroid
@@ -14976,9 +13714,7 @@ See Also
 World Trait
 
 ---
-
 # 文档：The Void
-
 - 类别：mechanics
 - 标识：the void
 - 来源：wiki/The_Void
@@ -14993,9 +13729,7 @@ Although duplicants cannot interact with the Void directly, it can be removed by
 The Void consumes all.
 
 ---
-
 # 文档：Thermal Conductivity
-
 - 类别：mechanics
 - 标识：thermal conductivity
 - 来源：wiki/Thermal_Conductivity
@@ -15003,60 +13737,60 @@ The Void consumes all.
 Thermal Conductivity is the property of a material that determines how quickly it heats or cools as it comes into contact with objects of different temperatures. Although the game states that between two objects, the lowest thermal conductivity is used, this is not true for all cases.
 
 Equations
-The calculation of Heat Transfer <math>q</math> in <math>DTU</math> is mainly a product of:
-<math>\Delta T</math> the Temperature difference in °C
-<math>\Delta t</math> the passing time, which is always one tick, <math>0.2s</math>
-<math>k</math> the applicable thermal conductivity in <math>DTU/(m \cdot s \cdot \text{°}C)</math>
-<math>{\color{Cerulean}k_{lowest}}</math> is the lower of the two
-<math>{\color{Green}k_{geom}}</math> is the geometric mean of the two: <math>\sqrt{k_1 \cdot k_2}</math>
-<math>{\color{Red}k_{avg}}</math> the arithmetic average of the two: <math>0.5 (k_1 + k_2)</math>
-<math>{\color{Blue}k_{mult}}</math> the two multiplied together: <math>0.5 \cdot k_1 \cdot k_2</math>
+The calculation of Heat Transfer q in DTU is mainly a product of:
+\Delta T the Temperature difference in °C
+\Delta t the passing time, which is always one tick, 0.2s
+k the applicable thermal conductivity in DTU/(m \cdot s \cdot \text{°}C)
+{\color{Cerulean}k_{lowest}} is the lower of the two
+{\color{Green}k_{geom}} is the geometric mean of the two: \sqrt{k_1 \cdot k_2}
+{\color{Red}k_{avg}} the arithmetic average of the two: 0.5 (k_1 + k_2)
+{\color{Blue}k_{mult}} the two multiplied together: 0.5 \cdot k_1 \cdot k_2
 For heat transfer with buildings, there is an additional factor:
-<math>C_{hot}</math> the thermal mass per area of the hotter object: <math>\frac{m \cdot c \cdot \left[ \frac{1}{5} \right]_\text{if building}}{A}</math> where <math>m</math> is mass, <math>\,c</math> is specific heat capacity (SHC), <math>\,A</math> is the area of the building/cell (1 for cells), and divide by 5 if the hotter object is a building.
+C_{hot} the thermal mass per area of the hotter object: \frac{m \cdot c \cdot \left[ \frac{1}{5} \right]_\text{if building}}{A} where m is mass, \,c is specific heat capacity (SHC), \,A is the area of the building/cell (1 for cells), and divide by 5 if the hotter object is a building.
 
 +Equations
 Scenario
 Formula
 colspan="2" style="border-top: 3px solid grey; font-weight: bolder; text-alight: center;" |Cell ↔ adjacent Cell
 Solid ↔ Solid
-rowspan="4" |<math>q = \Delta T \cdot   \Delta t \cdot  {\color{Green}k_{geom}}  \cdot 1000</math>
+rowspan="4" |q = \Delta T \cdot   \Delta t \cdot  {\color{Green}k_{geom}}  \cdot 1000
 Solid ↔ Liquid
 Gas ↔ Liquid
 Gas ↔ Gas
 Solid ↔ Gas
-<math>q = \Delta T \cdot   \Delta t \cdot  {\color{Green}k_{geom}}  \cdot 1000 \cdot 25</math>
+q = \Delta T \cdot   \Delta t \cdot  {\color{Green}k_{geom}}  \cdot 1000 \cdot 25
 Liquid ↔ Liquid
-<math>q = \Delta T \cdot   \Delta t \cdot  {\color{Green}k_{geom}}  \cdot 1000 \cdot 625</math>
+q = \Delta T \cdot   \Delta t \cdot  {\color{Green}k_{geom}}  \cdot 1000 \cdot 625
 Entity lying on a Solid
-<math>q = \Delta T \cdot   \Delta t \cdot  {\color{Cerulean}k_{lowest}} \cdot 62.5 </math>
+q = \Delta T \cdot   \Delta t \cdot  {\color{Cerulean}k_{lowest}} \cdot 62.5
 Building ↔ Solid tile below it
-<math>N/A</math>
+N/A
 pipe ↔ adjacent pipe
-<math>N/A</math>
+N/A
 colspan="2" style="border-top: 3px solid grey; font-weight: bolder; text-alight: center;" | Inside a Cell
 Entity ↔ Cell
-<math>q = \Delta T \cdot   \Delta t \cdot  {\color{Cerulean}k_{lowest}} \cdot 1000</math>
+q = \Delta T \cdot   \Delta t \cdot  {\color{Cerulean}k_{lowest}} \cdot 1000
 Building ↔ Cell
-<math>q = \Delta T \cdot   \Delta t \cdot  {\color{Blue}k_{mult}} \cdot C_{hot}</math>
+q = \Delta T \cdot   \Delta t \cdot  {\color{Blue}k_{mult}} \cdot C_{hot}
 Building ↔ Building
-<math>N/A</math>
+N/A
 Building ↔ Conduction Panel
 Use Building ↔ Cell but treat panel as a 100 kg cell and divide result by 11
 Building ↔ Entity
-<math>N/A</math>
+N/A
 colspan="2" style="border-top: 3px solid grey; font-weight: bolder; text-alight: center;" | Building's Contents
 pipe ↔ pipe contents
-<math> q = \Delta T \cdot  \Delta t \cdot  {\color{Red}k_{avg}} \cdot 50</math>
+ q = \Delta T \cdot  \Delta t \cdot  {\color{Red}k_{avg}} \cdot 50
 Insulated pipe ↔ contents
-<math>q = \Delta T \cdot   \Delta t \cdot  {\color{Cerulean}k_{lowest}} \cdot 50</math>
+q = \Delta T \cdot   \Delta t \cdot  {\color{Cerulean}k_{lowest}} \cdot 50
 pipe contents ↔ conduction panel
-<math> q = \Delta T \cdot  {\color{Red}k_{avg}} \cdot 50</math> (as the packet teleports across the panel)
+ q = \Delta T \cdot  {\color{Red}k_{avg}} \cdot 50 (as the packet teleports across the panel)
 Cell ↔ pipe contents
-<math>N/A</math>: transfers through the pipe instead
+N/A: transfers through the pipe instead
 pipe bridge ↔ bridge contents
-<math>N/A</math>: bridges teleport elements, NO contents
+N/A: bridges teleport elements, NO contents
 Building ↔ building contents
-<math>N/A</math>
+N/A
 Building's Cell of Interest ↔ building contents
 see Cell↔Entity
 
@@ -15080,7 +13814,7 @@ Tempshift Plate, Conduction panel, Refrigerator, Compost
 
 Certain buildings apply a modifier to their material thermal conductivity:
 
-Insulated Tiles: divide by <math>(\frac{2}{255})^2</math> (not correctly reflected under Properties)
+Insulated Tiles: divide by (\frac{2}{255})^2 (not correctly reflected under Properties)
 Insulated Liquid Pipe and Insulated Gas Pipe: divide by 32
 Wires of any kind: divide by 20 (this may be a legacy of a ditched feature making wires truly overheat)
 Radiant Pipes, Radiant Gas Pipes and Conduction Panel: multiply by 2
@@ -15101,11 +13835,11 @@ You can use bridges to help stabilize a Guide/Liquid Airlock from evaporation or
 
 Joint Plates, & Tube Crossings act as a Cell, the connection points on the sides are cosmetic (for thermal conductivity)
 
-Insulated Tiles reduce the thermal conductivity of their building material by (2/255)² (or 16 256) instead of 100 as stated in the game. It also uses <math>{\color{Cerulean}k_{lowest}}</math>instead of <math>{\color{Green}k_{geom}}</math>for the purpose of cell to cell conductivity, which is mostly going to be the insulated tile conductivity. Solid to gas multiplier still applies.
+Insulated Tiles reduce the thermal conductivity of their building material by (2/255)² (or 16 256) instead of 100 as stated in the game. It also uses {\color{Cerulean}k_{lowest}}instead of {\color{Green}k_{geom}}for the purpose of cell to cell conductivity, which is mostly going to be the insulated tile conductivity. Solid to gas multiplier still applies.
 
-Note: in real life, the units would cancel out, but surface area plays no role in ONI's calculation. Therefore, an additional <math>[m]</math> meter needs to be multiplied to the product to have the equation result in DTU. (Not just meter, but a large string of units when calculating buildings.)
+Note: in real life, the units would cancel out, but surface area plays no role in ONI's calculation. Therefore, an additional [m] meter needs to be multiplied to the product to have the equation result in DTU. (Not just meter, but a large string of units when calculating buildings.)
 
-Another way to interpret this is that the units of Thermal Conductivity are given in-game as <math>DTU/(m \cdot s \cdot \text{°}C)</math> while the unit is actually interpreted as <math>DTU/(s \cdot \text{°}C)</math>.
+Another way to interpret this is that the units of Thermal Conductivity are given in-game as DTU/(m \cdot s \cdot \text{°}C) while the unit is actually interpreted as DTU/(s \cdot \text{°}C).
 +Recap of Cell to Cell multipliers
 colspan="4" |
 Gas
@@ -15134,20 +13868,20 @@ either of the masses is less than 1g
 
 Upper limits
 Heat Transfer between cells has the following cap:
-If the calculated heat transfer would result in a temperature jump of more than a fourth of their temperature difference <math>(T_1-T_2)/4</math> in either material.<p><math>q_{\text{max }1a}=\frac{T_1-T_2}{4}\cdot m_1 \cdot c_1 \quad \text{or}\quad q_{\text{max }1b}=\frac{T_1-T_2}{4}\cdot m_2 \cdot c_2</math><p>Simply said: if the temperature difference is 40 °C, a materials temperature can change at most 10 °C per tick
+If the calculated heat transfer would result in a temperature jump of more than a fourth of their temperature difference (T_1-T_2)/4 in either material.q_{\text{max }1a}=\frac{T_1-T_2}{4}\cdot m_1 \cdot c_1 \quad \text{or}\quad q_{\text{max }1b}=\frac{T_1-T_2}{4}\cdot m_2 \cdot c_2Simply said: if the temperature difference is 40 °C, a materials temperature can change at most 10 °C per tick
 
 Building Limits
 Heat transfer between a building and a cell has different limits, the lower limits which are applied to cells do not apply to buildings, but the upper limit is conceptually similar.
 
 A building exchanges heat with all cells it covers simultaneously. In order to ensure that thermodynamics will not be violated the game limits heat transfer per cell such that at most the final temperature of the building would be the equilibrium temperature, assuming that the building completely covers such cells:
 
-<math>T_{eq} = \frac{T_{building} \cdot C_{building} + T_{cell} \cdot C_{cell} \cdot A}{C_{building} + C_{cell} \cdot A}</math>
+T_{eq} = \frac{T_{building} \cdot C_{building} + T_{cell} \cdot C_{cell} \cdot A}{C_{building} + C_{cell} \cdot A}
 
 The maximum permitted heat transfer per cell is the difference between the building's temperature and the equilibrium temperature divided by the Area of the building.
 
-<math>q_{max} = C_{building} \cdot \frac{T_{building} - T_{eq}}{A}</math>
+q_{max} = C_{building} \cdot \frac{T_{building} - T_{eq}}{A}
 
-If the thermal mass of the cell is very large relative to the building, then the maximum temperature change can be approximated as simply <math>\frac{\Delta T}{A}</math>
+If the thermal mass of the cell is very large relative to the building, then the maximum temperature change can be approximated as simply \frac{\Delta T}{A}
 
 Floating Point Calculation Limits
 While the above limits are deliberately implemented, it is also possible for heat exchange to fail to happen due to limitations of the floating point calculations used to calculate temperature changes.
@@ -15157,7 +13891,7 @@ For example with 32 bit floats, the calculation: 300.0 + 0.00001 = 300.0
 
 The game has a rule that if either tile fails to change temperature, then no heat exchange is allowed to take place, this prevents an exploit where a large tile, especially an unnaturally large tile, infinitely dumps heat/cooling into a smaller tile without itself changing temperature.
 
-In real games this limit comes up all the time when the temperature difference between an Insulated Tile and a solid or liquid tile is relatively small. For example an Igneous Rock Insulated Tile which is itself at 20 C, will not exchange heat with a solid or liquid tile unless the temperature delta is at least 248.05 C, and won't exchange heat with a gas tile unless the temperature delta is at least 9.92 C. This makes it quite easy to achieve actually zero heat transfer without resorting to the Insulite material or vacuum. The exact formulas governing this are: <math>\Delta T_{ignorable}=2^{\lfloor \log_2(T)-24 \rfloor}</math> and <math>q_{max}=\Delta T_{ignorable} \cdot m \cdot SHC</math>, where <math>T</math>, <math>m</math>, and <math>SHC</math> are for the cell holding everything constant, and <math>q_{max}</math> is the heat-exchange formula relevant between the two cells, which can be reversed to find <math>\Delta T_{max}</math>.
+In real games this limit comes up all the time when the temperature difference between an Insulated Tile and a solid or liquid tile is relatively small. For example an Igneous Rock Insulated Tile which is itself at 20 C, will not exchange heat with a solid or liquid tile unless the temperature delta is at least 248.05 C, and won't exchange heat with a gas tile unless the temperature delta is at least 9.92 C. This makes it quite easy to achieve actually zero heat transfer without resorting to the Insulite material or vacuum. The exact formulas governing this are: \Delta T_{ignorable}=2^{\lfloor \log_2(T)-24 \rfloor} and q_{max}=\Delta T_{ignorable} \cdot m \cdot SHC, where T, m, and SHC are for the cell holding everything constant, and q_{max} is the heat-exchange formula relevant between the two cells, which can be reversed to find \Delta T_{max}.
 
 It is also readily observed with liquid tiles, Magma and Water can have immense thermal mass which means relatively large DTU inputs are required to cause a temperature change. This results in the paradoxical outcome where full magma tiles don't exchange heat with insulated tiles, but partial magma tiles can exchange heat if they are sufficiently low mass. Using the above formula but applied to the Magma tile instead of the insulated tile, we can see that a cell with 715.6 kg or more magma will be unable to exchange temperature with an Igneous Rock Insulated Tile at 0C or higher, regardless of the magma temperature. For Mafic Rock, which has half the conductivity, only 357.8 kg of magma are needed.
 
@@ -15207,7 +13941,6 @@ Pipe!!Material!!Thermal Conductivity
 |||| 440
 Gas Pipes
 +Gas Pipes
-Pipe!!Material!!Thermal Conductivity
 ||||0.0000003125
 data-sort-value="O" |||||0.00001
 ||||0.019375
@@ -15219,8 +13952,6 @@ data-sort-value="O" |||||0.00001
 ||||0.1059375
 data-sort-value="O" |||||0.62
 data-sort-value="O" |||||1
-data-sort-value="O" |||||2
-data-sort-value="O" |||||2
 data-sort-value="O" |||||2
 data-sort-value="O" ||||| 2.9
 data-sort-value="O" |||||3.39
@@ -15237,7 +13968,7 @@ data-sort-value="O" |||||3.39
 ||||440
 
 Solid Tiles list
-Important: For Insulated Tiles, these numbers will not match what is seen in-game. This is because the value displayed in-game is <math>\frac{base}{100}</math>, but the actual value used by calculations (and shown here) is <math>base \cdot (\frac{2}{255})^2</math>.
+Important: For Insulated Tiles, these numbers will not match what is seen in-game. This is because the value displayed in-game is \frac{base}{100}, but the actual value used by calculations (and shown here) is base \cdot (\frac{2}{255})^2.
 +Tiles
 Tile!!Material!! Thermal Conductivity
 ||||6.15e-10
@@ -15288,15 +14019,13 @@ Tips
 When cooling or heating an area it's better to run pipes through tiles than through atmosphere. In both cases the equation for "Building and the cells it occupies" is used which multiplies both Thermal conductivities, and in general, gases have a much lower thermal conductivity than liquids, which have lower conductivity than solids.
 However, if drastic cooling is desired, then Steam Turbines and Aquatuners will have to be involved, which means a cavity filled with Steam will have to be used.
 Since Insulated Tiles have a factor of 1/16256, and pipes a factor of 1/32, much less heat is transferred if a regular pipe goes through an insulated tile than when an insulated pipe goes through a regular Tile. Though, of course, insulating both has an even better insulating effect.
-Even though Insulite has a lower thermal conductivity than any Insulated Tile, the change in formula from <math>{\color{Green}k_{geom}}</math> to <math>{\color{Cerulean}k_{lowest}}</math> makes insulated tiles much more practical insulators than a regular Tile made from Insulite. Indeed, they are so good that even using regular rock is often sufficient to shut down heat transfer completely, or to practically unnoticeable levels.
+Even though Insulite has a lower thermal conductivity than any Insulated Tile, the change in formula from {\color{Green}k_{geom}} to {\color{Cerulean}k_{lowest}} makes insulated tiles much more practical insulators than a regular Tile made from Insulite. Indeed, they are so good that even using regular rock is often sufficient to shut down heat transfer completely, or to practically unnoticeable levels.
 
 References
 https://forums.kleientertainment.com/forums/topic/84275-decrypting-heat-transfer/
 
 ---
-
 # 文档：Units
-
 - 类别：mechanics
 - 标识：units
 - 来源：wiki/Units
@@ -15402,9 +14131,7 @@ Heat
 ---
 ## MEDICINE
 共 5 篇文档
-
 # 文档：Blossom Seed
-
 - 类别：medicine
 - 标识：blossom seed
 - 来源：wiki/Blossom_Seed
@@ -15427,9 +14154,7 @@ Water: 20 kg/cycle
 Light
 
 ---
-
 # 文档：Coal
-
 - 类别：medicine
 - 标识：coal
 - 来源：wiki/Coal
@@ -15464,9 +14189,7 @@ Note
 Coal is a renewable resource if produced via Hatch ranching, as Hatches can be fed with renewable resources, or if gathered on Carbon Asteroids, as they replenish themselves renewably.
 
 ---
-
 # 文档：Dirt
-
 - 类别：medicine
 - 标识：dirt
 - 来源：wiki/Dirt
@@ -15518,9 +14241,7 @@ Agriculture Guide
 Food Guide
 
 ---
-
 # 文档：Phosphorite
-
 - 类别：medicine
 - 标识：phosphorite
 - 来源：wiki/Phosphorite
@@ -15546,9 +14267,7 @@ Tips
 Due to Liquid Phosphorus having a high freezing point (44.15 °C), you can easily create "natural" tiles by melting Phosphorite into liquid, and then dripping them wherever you want. Very useful for making Parks and Nature Reserves, or when using Pips in your base.
 
 ---
-
 # 文档：Steel
-
 - 类别：medicine
 - 标识：steel
 - 来源：wiki/Steel
@@ -15571,12 +14290,9 @@ Metal Refinery can produce Steel. The recipe will appear after either Iron, Refi
 Among the three materials, both Iron and Refined Carbon could be produced in large quantities, and Lime may become the production bottleneck.
 
 ---
-
 ## PLANTS
 共 3 篇文档
-
 # 文档：Plant/Plant comparison
-
 - 类别：plants
 - 标识：plant/plant comparison
 - 来源：wiki/Plant/Plant_comparison
@@ -15589,7 +14305,6 @@ colspan="2" | Temperature
 colspan="2" | Atmosphere
 rowspan="2" data-sort-type="number" | Illumination
 rowspan="2" data-sort-type="number" |
-rowspan="2" data-sort-type="number" |
 rowspan="2" class="unsortable" | Produces
 colspan="2" |
 colspan="2" | kcal Per Cycle
@@ -15601,8 +14316,6 @@ data-sort-type="number" | Min
 data-sort-type="number" | Max
 data-sort-type="number" | Range
 class="unsortable" | Gas
-data-sort-type="number" | Domestic
-data-sort-type="number" | Wild
 data-sort-type="number" | Domestic
 data-sort-type="number" | Wild
 
@@ -15766,7 +14479,6 @@ data-sort-value="1e-9" |  ||
 ||
 150 g to 10 kg || -
 10k+ lux
-data-sort-value="0.5" | 500 g
 -
 1000 g
 4 || 16
@@ -15877,7 +14589,6 @@ Zombie Spores
 1
 +15 || 2
 data-sort-value="-274" | - || data-sort-value="1000" | -
-data-sort-value="0" | - || -
 -
 -
 -
@@ -15891,8 +14602,6 @@ data-sort-value="0" | - || -
 -
 2
 +15 || 2
-data-sort-value="-274" | - || data-sort-value="1000" | -
-data-sort-value="0" | - || -
 -
 -
 -
@@ -15976,8 +14685,6 @@ data-sort-value="0" | - || -
 -
 1
 +15 || 2
-data-sort-value="-274" | - || data-sort-value="1000" | -
-data-sort-value="0" | - || -
 -
 -
 -
@@ -16006,9 +14713,7 @@ data-sort-value="0" | - || -
 -
 
 ---
-
 # 文档：Plant
-
 - 类别：plants
 - 标识：plant
 - 来源：wiki/Plant
@@ -16085,9 +14790,7 @@ See Also
 Agriculture Guide
 
 ---
-
 # 文档：Saturn Critter Trap
-
 - 类别：plants
 - 标识：saturn critter trap
 - 来源：wiki/Saturn_Critter_Trap
@@ -16128,15 +14831,6 @@ Saturn Critter Trap eat land based critters. Flying critters such as , , and  wi
 Edible Critters
 style="white-space: nowrap" |
 
-style="white-space: nowrap" |
-
-style="white-space: nowrap" |
-style="white-space: nowrap" |
-style="white-space: nowrap" |
-style="white-space: nowrap" |
-style="white-space: nowrap" |
-style="white-space: nowrap" |
-
 Trivia
 Saturn Critter Trap when mature requires duplicant interaction to harvest, if you are farming for the hydrogen output, it is better to wild plant the Saturn Critter Trap as it takes longer to grow before requiring duplicant interaction while producing the same amount of hydrogen per cycle.
 
@@ -16145,9 +14839,7 @@ Gallery
 ---
 ## RESOURCES
 共 7 篇文档
-
 # 文档：Compostable
-
 - 类别：resources
 - 标识：compostable
 - 来源：wiki/Compostable
@@ -16180,9 +14872,7 @@ Balm Lily Flower
 Similarly, excesses of plant products can be manually turned into a bit of free dirt.
 
 ---
-
 # 文档：Resource
-
 - 类别：resources
 - 标识：resource
 - 来源：wiki/Resource
@@ -16251,9 +14941,7 @@ See also
 Geyser
 
 ---
-
 # 文档：High Thermal Conductivity
-
 - 类别：resources
 - 标识：high thermal conductivity
 - 来源：wiki/High_Thermal_Conductivity
@@ -16261,60 +14949,60 @@ Geyser
 Thermal Conductivity is the property of a material that determines how quickly it heats or cools as it comes into contact with objects of different temperatures. Although the game states that between two objects, the lowest thermal conductivity is used, this is not true for all cases.
 
 Equations
-The calculation of Heat Transfer <math>q</math> in <math>DTU</math> is mainly a product of:
-<math>\Delta T</math> the Temperature difference in °C
-<math>\Delta t</math> the passing time, which is always one tick, <math>0.2s</math>
-<math>k</math> the applicable thermal conductivity in <math>DTU/(m \cdot s \cdot \text{°}C)</math>
-<math>{\color{Cerulean}k_{lowest}}</math> is the lower of the two
-<math>{\color{Green}k_{geom}}</math> is the geometric mean of the two: <math>\sqrt{k_1 \cdot k_2}</math>
-<math>{\color{Red}k_{avg}}</math> the arithmetic average of the two: <math>0.5 (k_1 + k_2)</math>
-<math>{\color{Blue}k_{mult}}</math> the two multiplied together: <math>0.5 \cdot k_1 \cdot k_2</math>
+The calculation of Heat Transfer q in DTU is mainly a product of:
+\Delta T the Temperature difference in °C
+\Delta t the passing time, which is always one tick, 0.2s
+k the applicable thermal conductivity in DTU/(m \cdot s \cdot \text{°}C)
+{\color{Cerulean}k_{lowest}} is the lower of the two
+{\color{Green}k_{geom}} is the geometric mean of the two: \sqrt{k_1 \cdot k_2}
+{\color{Red}k_{avg}} the arithmetic average of the two: 0.5 (k_1 + k_2)
+{\color{Blue}k_{mult}} the two multiplied together: 0.5 \cdot k_1 \cdot k_2
 For heat transfer with buildings, there is an additional factor:
-<math>C_{hot}</math> the thermal mass per area of the hotter object: <math>\frac{m \cdot c \cdot \left[ \frac{1}{5} \right]_\text{if building}}{A}</math> where <math>m</math> is mass, <math>\,c</math> is specific heat capacity (SHC), <math>\,A</math> is the area of the building/cell (1 for cells), and divide by 5 if the hotter object is a building.
+C_{hot} the thermal mass per area of the hotter object: \frac{m \cdot c \cdot \left[ \frac{1}{5} \right]_\text{if building}}{A} where m is mass, \,c is specific heat capacity (SHC), \,A is the area of the building/cell (1 for cells), and divide by 5 if the hotter object is a building.
 
 +Equations
 Scenario
 Formula
 colspan="2" style="border-top: 3px solid grey; font-weight: bolder; text-alight: center;" |Cell ↔ adjacent Cell
 Solid ↔ Solid
-rowspan="4" |<math>q = \Delta T \cdot   \Delta t \cdot  {\color{Green}k_{geom}}  \cdot 1000</math>
+rowspan="4" |q = \Delta T \cdot   \Delta t \cdot  {\color{Green}k_{geom}}  \cdot 1000
 Solid ↔ Liquid
 Gas ↔ Liquid
 Gas ↔ Gas
 Solid ↔ Gas
-<math>q = \Delta T \cdot   \Delta t \cdot  {\color{Green}k_{geom}}  \cdot 1000 \cdot 25</math>
+q = \Delta T \cdot   \Delta t \cdot  {\color{Green}k_{geom}}  \cdot 1000 \cdot 25
 Liquid ↔ Liquid
-<math>q = \Delta T \cdot   \Delta t \cdot  {\color{Green}k_{geom}}  \cdot 1000 \cdot 625</math>
+q = \Delta T \cdot   \Delta t \cdot  {\color{Green}k_{geom}}  \cdot 1000 \cdot 625
 Entity lying on a Solid
-<math>q = \Delta T \cdot   \Delta t \cdot  {\color{Cerulean}k_{lowest}} \cdot 62.5 </math>
+q = \Delta T \cdot   \Delta t \cdot  {\color{Cerulean}k_{lowest}} \cdot 62.5
 Building ↔ Solid tile below it
-<math>N/A</math>
+N/A
 pipe ↔ adjacent pipe
-<math>N/A</math>
+N/A
 colspan="2" style="border-top: 3px solid grey; font-weight: bolder; text-alight: center;" | Inside a Cell
 Entity ↔ Cell
-<math>q = \Delta T \cdot   \Delta t \cdot  {\color{Cerulean}k_{lowest}} \cdot 1000</math>
+q = \Delta T \cdot   \Delta t \cdot  {\color{Cerulean}k_{lowest}} \cdot 1000
 Building ↔ Cell
-<math>q = \Delta T \cdot   \Delta t \cdot  {\color{Blue}k_{mult}} \cdot C_{hot}</math>
+q = \Delta T \cdot   \Delta t \cdot  {\color{Blue}k_{mult}} \cdot C_{hot}
 Building ↔ Building
-<math>N/A</math>
+N/A
 Building ↔ Conduction Panel
 Use Building ↔ Cell but treat panel as a 100 kg cell and divide result by 11
 Building ↔ Entity
-<math>N/A</math>
+N/A
 colspan="2" style="border-top: 3px solid grey; font-weight: bolder; text-alight: center;" | Building's Contents
 pipe ↔ pipe contents
-<math> q = \Delta T \cdot  \Delta t \cdot  {\color{Red}k_{avg}} \cdot 50</math>
+ q = \Delta T \cdot  \Delta t \cdot  {\color{Red}k_{avg}} \cdot 50
 Insulated pipe ↔ contents
-<math>q = \Delta T \cdot   \Delta t \cdot  {\color{Cerulean}k_{lowest}} \cdot 50</math>
+q = \Delta T \cdot   \Delta t \cdot  {\color{Cerulean}k_{lowest}} \cdot 50
 pipe contents ↔ conduction panel
-<math> q = \Delta T \cdot  {\color{Red}k_{avg}} \cdot 50</math> (as the packet teleports across the panel)
+ q = \Delta T \cdot  {\color{Red}k_{avg}} \cdot 50 (as the packet teleports across the panel)
 Cell ↔ pipe contents
-<math>N/A</math>: transfers through the pipe instead
+N/A: transfers through the pipe instead
 pipe bridge ↔ bridge contents
-<math>N/A</math>: bridges teleport elements, NO contents
+N/A: bridges teleport elements, NO contents
 Building ↔ building contents
-<math>N/A</math>
+N/A
 Building's Cell of Interest ↔ building contents
 see Cell↔Entity
 
@@ -16338,7 +15026,7 @@ Tempshift Plate, Conduction panel, Refrigerator, Compost
 
 Certain buildings apply a modifier to their material thermal conductivity:
 
-Insulated Tiles: divide by <math>(\frac{2}{255})^2</math> (not correctly reflected under Properties)
+Insulated Tiles: divide by (\frac{2}{255})^2 (not correctly reflected under Properties)
 Insulated Liquid Pipe and Insulated Gas Pipe: divide by 32
 Wires of any kind: divide by 20 (this may be a legacy of a ditched feature making wires truly overheat)
 Radiant Pipes, Radiant Gas Pipes and Conduction Panel: multiply by 2
@@ -16359,11 +15047,11 @@ You can use bridges to help stabilize a Guide/Liquid Airlock from evaporation or
 
 Joint Plates, & Tube Crossings act as a Cell, the connection points on the sides are cosmetic (for thermal conductivity)
 
-Insulated Tiles reduce the thermal conductivity of their building material by (2/255)² (or 16 256) instead of 100 as stated in the game. It also uses <math>{\color{Cerulean}k_{lowest}}</math>instead of <math>{\color{Green}k_{geom}}</math>for the purpose of cell to cell conductivity, which is mostly going to be the insulated tile conductivity. Solid to gas multiplier still applies.
+Insulated Tiles reduce the thermal conductivity of their building material by (2/255)² (or 16 256) instead of 100 as stated in the game. It also uses {\color{Cerulean}k_{lowest}}instead of {\color{Green}k_{geom}}for the purpose of cell to cell conductivity, which is mostly going to be the insulated tile conductivity. Solid to gas multiplier still applies.
 
-Note: in real life, the units would cancel out, but surface area plays no role in ONI's calculation. Therefore, an additional <math>[m]</math> meter needs to be multiplied to the product to have the equation result in DTU. (Not just meter, but a large string of units when calculating buildings.)
+Note: in real life, the units would cancel out, but surface area plays no role in ONI's calculation. Therefore, an additional [m] meter needs to be multiplied to the product to have the equation result in DTU. (Not just meter, but a large string of units when calculating buildings.)
 
-Another way to interpret this is that the units of Thermal Conductivity are given in-game as <math>DTU/(m \cdot s \cdot \text{°}C)</math> while the unit is actually interpreted as <math>DTU/(s \cdot \text{°}C)</math>.
+Another way to interpret this is that the units of Thermal Conductivity are given in-game as DTU/(m \cdot s \cdot \text{°}C) while the unit is actually interpreted as DTU/(s \cdot \text{°}C).
 +Recap of Cell to Cell multipliers
 colspan="4" |
 Gas
@@ -16392,20 +15080,20 @@ either of the masses is less than 1g
 
 Upper limits
 Heat Transfer between cells has the following cap:
-If the calculated heat transfer would result in a temperature jump of more than a fourth of their temperature difference <math>(T_1-T_2)/4</math> in either material.<p><math>q_{\text{max }1a}=\frac{T_1-T_2}{4}\cdot m_1 \cdot c_1 \quad \text{or}\quad q_{\text{max }1b}=\frac{T_1-T_2}{4}\cdot m_2 \cdot c_2</math><p>Simply said: if the temperature difference is 40 °C, a materials temperature can change at most 10 °C per tick
+If the calculated heat transfer would result in a temperature jump of more than a fourth of their temperature difference (T_1-T_2)/4 in either material.q_{\text{max }1a}=\frac{T_1-T_2}{4}\cdot m_1 \cdot c_1 \quad \text{or}\quad q_{\text{max }1b}=\frac{T_1-T_2}{4}\cdot m_2 \cdot c_2Simply said: if the temperature difference is 40 °C, a materials temperature can change at most 10 °C per tick
 
 Building Limits
 Heat transfer between a building and a cell has different limits, the lower limits which are applied to cells do not apply to buildings, but the upper limit is conceptually similar.
 
 A building exchanges heat with all cells it covers simultaneously. In order to ensure that thermodynamics will not be violated the game limits heat transfer per cell such that at most the final temperature of the building would be the equilibrium temperature, assuming that the building completely covers such cells:
 
-<math>T_{eq} = \frac{T_{building} \cdot C_{building} + T_{cell} \cdot C_{cell} \cdot A}{C_{building} + C_{cell} \cdot A}</math>
+T_{eq} = \frac{T_{building} \cdot C_{building} + T_{cell} \cdot C_{cell} \cdot A}{C_{building} + C_{cell} \cdot A}
 
 The maximum permitted heat transfer per cell is the difference between the building's temperature and the equilibrium temperature divided by the Area of the building.
 
-<math>q_{max} = C_{building} \cdot \frac{T_{building} - T_{eq}}{A}</math>
+q_{max} = C_{building} \cdot \frac{T_{building} - T_{eq}}{A}
 
-If the thermal mass of the cell is very large relative to the building, then the maximum temperature change can be approximated as simply <math>\frac{\Delta T}{A}</math>
+If the thermal mass of the cell is very large relative to the building, then the maximum temperature change can be approximated as simply \frac{\Delta T}{A}
 
 Floating Point Calculation Limits
 While the above limits are deliberately implemented, it is also possible for heat exchange to fail to happen due to limitations of the floating point calculations used to calculate temperature changes.
@@ -16415,7 +15103,7 @@ For example with 32 bit floats, the calculation: 300.0 + 0.00001 = 300.0
 
 The game has a rule that if either tile fails to change temperature, then no heat exchange is allowed to take place, this prevents an exploit where a large tile, especially an unnaturally large tile, infinitely dumps heat/cooling into a smaller tile without itself changing temperature.
 
-In real games this limit comes up all the time when the temperature difference between an Insulated Tile and a solid or liquid tile is relatively small. For example an Igneous Rock Insulated Tile which is itself at 20 C, will not exchange heat with a solid or liquid tile unless the temperature delta is at least 248.05 C, and won't exchange heat with a gas tile unless the temperature delta is at least 9.92 C. This makes it quite easy to achieve actually zero heat transfer without resorting to the Insulite material or vacuum. The exact formulas governing this are: <math>\Delta T_{ignorable}=2^{\lfloor \log_2(T)-24 \rfloor}</math> and <math>q_{max}=\Delta T_{ignorable} \cdot m \cdot SHC</math>, where <math>T</math>, <math>m</math>, and <math>SHC</math> are for the cell holding everything constant, and <math>q_{max}</math> is the heat-exchange formula relevant between the two cells, which can be reversed to find <math>\Delta T_{max}</math>.
+In real games this limit comes up all the time when the temperature difference between an Insulated Tile and a solid or liquid tile is relatively small. For example an Igneous Rock Insulated Tile which is itself at 20 C, will not exchange heat with a solid or liquid tile unless the temperature delta is at least 248.05 C, and won't exchange heat with a gas tile unless the temperature delta is at least 9.92 C. This makes it quite easy to achieve actually zero heat transfer without resorting to the Insulite material or vacuum. The exact formulas governing this are: \Delta T_{ignorable}=2^{\lfloor \log_2(T)-24 \rfloor} and q_{max}=\Delta T_{ignorable} \cdot m \cdot SHC, where T, m, and SHC are for the cell holding everything constant, and q_{max} is the heat-exchange formula relevant between the two cells, which can be reversed to find \Delta T_{max}.
 
 It is also readily observed with liquid tiles, Magma and Water can have immense thermal mass which means relatively large DTU inputs are required to cause a temperature change. This results in the paradoxical outcome where full magma tiles don't exchange heat with insulated tiles, but partial magma tiles can exchange heat if they are sufficiently low mass. Using the above formula but applied to the Magma tile instead of the insulated tile, we can see that a cell with 715.6 kg or more magma will be unable to exchange temperature with an Igneous Rock Insulated Tile at 0C or higher, regardless of the magma temperature. For Mafic Rock, which has half the conductivity, only 357.8 kg of magma are needed.
 
@@ -16465,7 +15153,6 @@ Pipe!!Material!!Thermal Conductivity
 |||| 440
 Gas Pipes
 +Gas Pipes
-Pipe!!Material!!Thermal Conductivity
 ||||0.0000003125
 data-sort-value="O" |||||0.00001
 ||||0.019375
@@ -16477,8 +15164,6 @@ data-sort-value="O" |||||0.00001
 ||||0.1059375
 data-sort-value="O" |||||0.62
 data-sort-value="O" |||||1
-data-sort-value="O" |||||2
-data-sort-value="O" |||||2
 data-sort-value="O" |||||2
 data-sort-value="O" ||||| 2.9
 data-sort-value="O" |||||3.39
@@ -16495,7 +15180,7 @@ data-sort-value="O" |||||3.39
 ||||440
 
 Solid Tiles list
-Important: For Insulated Tiles, these numbers will not match what is seen in-game. This is because the value displayed in-game is <math>\frac{base}{100}</math>, but the actual value used by calculations (and shown here) is <math>base \cdot (\frac{2}{255})^2</math>.
+Important: For Insulated Tiles, these numbers will not match what is seen in-game. This is because the value displayed in-game is \frac{base}{100}, but the actual value used by calculations (and shown here) is base \cdot (\frac{2}{255})^2.
 +Tiles
 Tile!!Material!! Thermal Conductivity
 ||||6.15e-10
@@ -16546,15 +15231,13 @@ Tips
 When cooling or heating an area it's better to run pipes through tiles than through atmosphere. In both cases the equation for "Building and the cells it occupies" is used which multiplies both Thermal conductivities, and in general, gases have a much lower thermal conductivity than liquids, which have lower conductivity than solids.
 However, if drastic cooling is desired, then Steam Turbines and Aquatuners will have to be involved, which means a cavity filled with Steam will have to be used.
 Since Insulated Tiles have a factor of 1/16256, and pipes a factor of 1/32, much less heat is transferred if a regular pipe goes through an insulated tile than when an insulated pipe goes through a regular Tile. Though, of course, insulating both has an even better insulating effect.
-Even though Insulite has a lower thermal conductivity than any Insulated Tile, the change in formula from <math>{\color{Green}k_{geom}}</math> to <math>{\color{Cerulean}k_{lowest}}</math> makes insulated tiles much more practical insulators than a regular Tile made from Insulite. Indeed, they are so good that even using regular rock is often sufficient to shut down heat transfer completely, or to practically unnoticeable levels.
+Even though Insulite has a lower thermal conductivity than any Insulated Tile, the change in formula from {\color{Green}k_{geom}} to {\color{Cerulean}k_{lowest}} makes insulated tiles much more practical insulators than a regular Tile made from Insulite. Indeed, they are so good that even using regular rock is often sufficient to shut down heat transfer completely, or to practically unnoticeable levels.
 
 References
 https://forums.kleientertainment.com/forums/topic/84275-decrypting-heat-transfer/
 
 ---
-
 # 文档：Insulator
-
 - 类别：resources
 - 标识：insulator
 - 来源：wiki/Insulator
@@ -16562,60 +15245,60 @@ https://forums.kleientertainment.com/forums/topic/84275-decrypting-heat-transfer
 Thermal Conductivity is the property of a material that determines how quickly it heats or cools as it comes into contact with objects of different temperatures. Although the game states that between two objects, the lowest thermal conductivity is used, this is not true for all cases.
 
 Equations
-The calculation of Heat Transfer <math>q</math> in <math>DTU</math> is mainly a product of:
-<math>\Delta T</math> the Temperature difference in °C
-<math>\Delta t</math> the passing time, which is always one tick, <math>0.2s</math>
-<math>k</math> the applicable thermal conductivity in <math>DTU/(m \cdot s \cdot \text{°}C)</math>
-<math>{\color{Cerulean}k_{lowest}}</math> is the lower of the two
-<math>{\color{Green}k_{geom}}</math> is the geometric mean of the two: <math>\sqrt{k_1 \cdot k_2}</math>
-<math>{\color{Red}k_{avg}}</math> the arithmetic average of the two: <math>0.5 (k_1 + k_2)</math>
-<math>{\color{Blue}k_{mult}}</math> the two multiplied together: <math>0.5 \cdot k_1 \cdot k_2</math>
+The calculation of Heat Transfer q in DTU is mainly a product of:
+\Delta T the Temperature difference in °C
+\Delta t the passing time, which is always one tick, 0.2s
+k the applicable thermal conductivity in DTU/(m \cdot s \cdot \text{°}C)
+{\color{Cerulean}k_{lowest}} is the lower of the two
+{\color{Green}k_{geom}} is the geometric mean of the two: \sqrt{k_1 \cdot k_2}
+{\color{Red}k_{avg}} the arithmetic average of the two: 0.5 (k_1 + k_2)
+{\color{Blue}k_{mult}} the two multiplied together: 0.5 \cdot k_1 \cdot k_2
 For heat transfer with buildings, there is an additional factor:
-<math>C_{hot}</math> the thermal mass per area of the hotter object: <math>\frac{m \cdot c \cdot \left[ \frac{1}{5} \right]_\text{if building}}{A}</math> where <math>m</math> is mass, <math>\,c</math> is specific heat capacity (SHC), <math>\,A</math> is the area of the building/cell (1 for cells), and divide by 5 if the hotter object is a building.
+C_{hot} the thermal mass per area of the hotter object: \frac{m \cdot c \cdot \left[ \frac{1}{5} \right]_\text{if building}}{A} where m is mass, \,c is specific heat capacity (SHC), \,A is the area of the building/cell (1 for cells), and divide by 5 if the hotter object is a building.
 
 +Equations
 Scenario
 Formula
 colspan="2" style="border-top: 3px solid grey; font-weight: bolder; text-alight: center;" |Cell ↔ adjacent Cell
 Solid ↔ Solid
-rowspan="4" |<math>q = \Delta T \cdot   \Delta t \cdot  {\color{Green}k_{geom}}  \cdot 1000</math>
+rowspan="4" |q = \Delta T \cdot   \Delta t \cdot  {\color{Green}k_{geom}}  \cdot 1000
 Solid ↔ Liquid
 Gas ↔ Liquid
 Gas ↔ Gas
 Solid ↔ Gas
-<math>q = \Delta T \cdot   \Delta t \cdot  {\color{Green}k_{geom}}  \cdot 1000 \cdot 25</math>
+q = \Delta T \cdot   \Delta t \cdot  {\color{Green}k_{geom}}  \cdot 1000 \cdot 25
 Liquid ↔ Liquid
-<math>q = \Delta T \cdot   \Delta t \cdot  {\color{Green}k_{geom}}  \cdot 1000 \cdot 625</math>
+q = \Delta T \cdot   \Delta t \cdot  {\color{Green}k_{geom}}  \cdot 1000 \cdot 625
 Entity lying on a Solid
-<math>q = \Delta T \cdot   \Delta t \cdot  {\color{Cerulean}k_{lowest}} \cdot 62.5 </math>
+q = \Delta T \cdot   \Delta t \cdot  {\color{Cerulean}k_{lowest}} \cdot 62.5
 Building ↔ Solid tile below it
-<math>N/A</math>
+N/A
 pipe ↔ adjacent pipe
-<math>N/A</math>
+N/A
 colspan="2" style="border-top: 3px solid grey; font-weight: bolder; text-alight: center;" | Inside a Cell
 Entity ↔ Cell
-<math>q = \Delta T \cdot   \Delta t \cdot  {\color{Cerulean}k_{lowest}} \cdot 1000</math>
+q = \Delta T \cdot   \Delta t \cdot  {\color{Cerulean}k_{lowest}} \cdot 1000
 Building ↔ Cell
-<math>q = \Delta T \cdot   \Delta t \cdot  {\color{Blue}k_{mult}} \cdot C_{hot}</math>
+q = \Delta T \cdot   \Delta t \cdot  {\color{Blue}k_{mult}} \cdot C_{hot}
 Building ↔ Building
-<math>N/A</math>
+N/A
 Building ↔ Conduction Panel
 Use Building ↔ Cell but treat panel as a 100 kg cell and divide result by 11
 Building ↔ Entity
-<math>N/A</math>
+N/A
 colspan="2" style="border-top: 3px solid grey; font-weight: bolder; text-alight: center;" | Building's Contents
 pipe ↔ pipe contents
-<math> q = \Delta T \cdot  \Delta t \cdot  {\color{Red}k_{avg}} \cdot 50</math>
+ q = \Delta T \cdot  \Delta t \cdot  {\color{Red}k_{avg}} \cdot 50
 Insulated pipe ↔ contents
-<math>q = \Delta T \cdot   \Delta t \cdot  {\color{Cerulean}k_{lowest}} \cdot 50</math>
+q = \Delta T \cdot   \Delta t \cdot  {\color{Cerulean}k_{lowest}} \cdot 50
 pipe contents ↔ conduction panel
-<math> q = \Delta T \cdot  {\color{Red}k_{avg}} \cdot 50</math> (as the packet teleports across the panel)
+ q = \Delta T \cdot  {\color{Red}k_{avg}} \cdot 50 (as the packet teleports across the panel)
 Cell ↔ pipe contents
-<math>N/A</math>: transfers through the pipe instead
+N/A: transfers through the pipe instead
 pipe bridge ↔ bridge contents
-<math>N/A</math>: bridges teleport elements, NO contents
+N/A: bridges teleport elements, NO contents
 Building ↔ building contents
-<math>N/A</math>
+N/A
 Building's Cell of Interest ↔ building contents
 see Cell↔Entity
 
@@ -16639,7 +15322,7 @@ Tempshift Plate, Conduction panel, Refrigerator, Compost
 
 Certain buildings apply a modifier to their material thermal conductivity:
 
-Insulated Tiles: divide by <math>(\frac{2}{255})^2</math> (not correctly reflected under Properties)
+Insulated Tiles: divide by (\frac{2}{255})^2 (not correctly reflected under Properties)
 Insulated Liquid Pipe and Insulated Gas Pipe: divide by 32
 Wires of any kind: divide by 20 (this may be a legacy of a ditched feature making wires truly overheat)
 Radiant Pipes, Radiant Gas Pipes and Conduction Panel: multiply by 2
@@ -16660,11 +15343,11 @@ You can use bridges to help stabilize a Guide/Liquid Airlock from evaporation or
 
 Joint Plates, & Tube Crossings act as a Cell, the connection points on the sides are cosmetic (for thermal conductivity)
 
-Insulated Tiles reduce the thermal conductivity of their building material by (2/255)² (or 16 256) instead of 100 as stated in the game. It also uses <math>{\color{Cerulean}k_{lowest}}</math>instead of <math>{\color{Green}k_{geom}}</math>for the purpose of cell to cell conductivity, which is mostly going to be the insulated tile conductivity. Solid to gas multiplier still applies.
+Insulated Tiles reduce the thermal conductivity of their building material by (2/255)² (or 16 256) instead of 100 as stated in the game. It also uses {\color{Cerulean}k_{lowest}}instead of {\color{Green}k_{geom}}for the purpose of cell to cell conductivity, which is mostly going to be the insulated tile conductivity. Solid to gas multiplier still applies.
 
-Note: in real life, the units would cancel out, but surface area plays no role in ONI's calculation. Therefore, an additional <math>[m]</math> meter needs to be multiplied to the product to have the equation result in DTU. (Not just meter, but a large string of units when calculating buildings.)
+Note: in real life, the units would cancel out, but surface area plays no role in ONI's calculation. Therefore, an additional [m] meter needs to be multiplied to the product to have the equation result in DTU. (Not just meter, but a large string of units when calculating buildings.)
 
-Another way to interpret this is that the units of Thermal Conductivity are given in-game as <math>DTU/(m \cdot s \cdot \text{°}C)</math> while the unit is actually interpreted as <math>DTU/(s \cdot \text{°}C)</math>.
+Another way to interpret this is that the units of Thermal Conductivity are given in-game as DTU/(m \cdot s \cdot \text{°}C) while the unit is actually interpreted as DTU/(s \cdot \text{°}C).
 +Recap of Cell to Cell multipliers
 colspan="4" |
 Gas
@@ -16693,20 +15376,20 @@ either of the masses is less than 1g
 
 Upper limits
 Heat Transfer between cells has the following cap:
-If the calculated heat transfer would result in a temperature jump of more than a fourth of their temperature difference <math>(T_1-T_2)/4</math> in either material.<p><math>q_{\text{max }1a}=\frac{T_1-T_2}{4}\cdot m_1 \cdot c_1 \quad \text{or}\quad q_{\text{max }1b}=\frac{T_1-T_2}{4}\cdot m_2 \cdot c_2</math><p>Simply said: if the temperature difference is 40 °C, a materials temperature can change at most 10 °C per tick
+If the calculated heat transfer would result in a temperature jump of more than a fourth of their temperature difference (T_1-T_2)/4 in either material.q_{\text{max }1a}=\frac{T_1-T_2}{4}\cdot m_1 \cdot c_1 \quad \text{or}\quad q_{\text{max }1b}=\frac{T_1-T_2}{4}\cdot m_2 \cdot c_2Simply said: if the temperature difference is 40 °C, a materials temperature can change at most 10 °C per tick
 
 Building Limits
 Heat transfer between a building and a cell has different limits, the lower limits which are applied to cells do not apply to buildings, but the upper limit is conceptually similar.
 
 A building exchanges heat with all cells it covers simultaneously. In order to ensure that thermodynamics will not be violated the game limits heat transfer per cell such that at most the final temperature of the building would be the equilibrium temperature, assuming that the building completely covers such cells:
 
-<math>T_{eq} = \frac{T_{building} \cdot C_{building} + T_{cell} \cdot C_{cell} \cdot A}{C_{building} + C_{cell} \cdot A}</math>
+T_{eq} = \frac{T_{building} \cdot C_{building} + T_{cell} \cdot C_{cell} \cdot A}{C_{building} + C_{cell} \cdot A}
 
 The maximum permitted heat transfer per cell is the difference between the building's temperature and the equilibrium temperature divided by the Area of the building.
 
-<math>q_{max} = C_{building} \cdot \frac{T_{building} - T_{eq}}{A}</math>
+q_{max} = C_{building} \cdot \frac{T_{building} - T_{eq}}{A}
 
-If the thermal mass of the cell is very large relative to the building, then the maximum temperature change can be approximated as simply <math>\frac{\Delta T}{A}</math>
+If the thermal mass of the cell is very large relative to the building, then the maximum temperature change can be approximated as simply \frac{\Delta T}{A}
 
 Floating Point Calculation Limits
 While the above limits are deliberately implemented, it is also possible for heat exchange to fail to happen due to limitations of the floating point calculations used to calculate temperature changes.
@@ -16716,7 +15399,7 @@ For example with 32 bit floats, the calculation: 300.0 + 0.00001 = 300.0
 
 The game has a rule that if either tile fails to change temperature, then no heat exchange is allowed to take place, this prevents an exploit where a large tile, especially an unnaturally large tile, infinitely dumps heat/cooling into a smaller tile without itself changing temperature.
 
-In real games this limit comes up all the time when the temperature difference between an Insulated Tile and a solid or liquid tile is relatively small. For example an Igneous Rock Insulated Tile which is itself at 20 C, will not exchange heat with a solid or liquid tile unless the temperature delta is at least 248.05 C, and won't exchange heat with a gas tile unless the temperature delta is at least 9.92 C. This makes it quite easy to achieve actually zero heat transfer without resorting to the Insulite material or vacuum. The exact formulas governing this are: <math>\Delta T_{ignorable}=2^{\lfloor \log_2(T)-24 \rfloor}</math> and <math>q_{max}=\Delta T_{ignorable} \cdot m \cdot SHC</math>, where <math>T</math>, <math>m</math>, and <math>SHC</math> are for the cell holding everything constant, and <math>q_{max}</math> is the heat-exchange formula relevant between the two cells, which can be reversed to find <math>\Delta T_{max}</math>.
+In real games this limit comes up all the time when the temperature difference between an Insulated Tile and a solid or liquid tile is relatively small. For example an Igneous Rock Insulated Tile which is itself at 20 C, will not exchange heat with a solid or liquid tile unless the temperature delta is at least 248.05 C, and won't exchange heat with a gas tile unless the temperature delta is at least 9.92 C. This makes it quite easy to achieve actually zero heat transfer without resorting to the Insulite material or vacuum. The exact formulas governing this are: \Delta T_{ignorable}=2^{\lfloor \log_2(T)-24 \rfloor} and q_{max}=\Delta T_{ignorable} \cdot m \cdot SHC, where T, m, and SHC are for the cell holding everything constant, and q_{max} is the heat-exchange formula relevant between the two cells, which can be reversed to find \Delta T_{max}.
 
 It is also readily observed with liquid tiles, Magma and Water can have immense thermal mass which means relatively large DTU inputs are required to cause a temperature change. This results in the paradoxical outcome where full magma tiles don't exchange heat with insulated tiles, but partial magma tiles can exchange heat if they are sufficiently low mass. Using the above formula but applied to the Magma tile instead of the insulated tile, we can see that a cell with 715.6 kg or more magma will be unable to exchange temperature with an Igneous Rock Insulated Tile at 0C or higher, regardless of the magma temperature. For Mafic Rock, which has half the conductivity, only 357.8 kg of magma are needed.
 
@@ -16766,7 +15449,6 @@ Pipe!!Material!!Thermal Conductivity
 |||| 440
 Gas Pipes
 +Gas Pipes
-Pipe!!Material!!Thermal Conductivity
 ||||0.0000003125
 data-sort-value="O" |||||0.00001
 ||||0.019375
@@ -16778,8 +15460,6 @@ data-sort-value="O" |||||0.00001
 ||||0.1059375
 data-sort-value="O" |||||0.62
 data-sort-value="O" |||||1
-data-sort-value="O" |||||2
-data-sort-value="O" |||||2
 data-sort-value="O" |||||2
 data-sort-value="O" ||||| 2.9
 data-sort-value="O" |||||3.39
@@ -16796,7 +15476,7 @@ data-sort-value="O" |||||3.39
 ||||440
 
 Solid Tiles list
-Important: For Insulated Tiles, these numbers will not match what is seen in-game. This is because the value displayed in-game is <math>\frac{base}{100}</math>, but the actual value used by calculations (and shown here) is <math>base \cdot (\frac{2}{255})^2</math>.
+Important: For Insulated Tiles, these numbers will not match what is seen in-game. This is because the value displayed in-game is \frac{base}{100}, but the actual value used by calculations (and shown here) is base \cdot (\frac{2}{255})^2.
 +Tiles
 Tile!!Material!! Thermal Conductivity
 ||||6.15e-10
@@ -16847,15 +15527,13 @@ Tips
 When cooling or heating an area it's better to run pipes through tiles than through atmosphere. In both cases the equation for "Building and the cells it occupies" is used which multiplies both Thermal conductivities, and in general, gases have a much lower thermal conductivity than liquids, which have lower conductivity than solids.
 However, if drastic cooling is desired, then Steam Turbines and Aquatuners will have to be involved, which means a cavity filled with Steam will have to be used.
 Since Insulated Tiles have a factor of 1/16256, and pipes a factor of 1/32, much less heat is transferred if a regular pipe goes through an insulated tile than when an insulated pipe goes through a regular Tile. Though, of course, insulating both has an even better insulating effect.
-Even though Insulite has a lower thermal conductivity than any Insulated Tile, the change in formula from <math>{\color{Green}k_{geom}}</math> to <math>{\color{Cerulean}k_{lowest}}</math> makes insulated tiles much more practical insulators than a regular Tile made from Insulite. Indeed, they are so good that even using regular rock is often sufficient to shut down heat transfer completely, or to practically unnoticeable levels.
+Even though Insulite has a lower thermal conductivity than any Insulated Tile, the change in formula from {\color{Green}k_{geom}} to {\color{Cerulean}k_{lowest}} makes insulated tiles much more practical insulators than a regular Tile made from Insulite. Indeed, they are so good that even using regular rock is often sufficient to shut down heat transfer completely, or to practically unnoticeable levels.
 
 References
 https://forums.kleientertainment.com/forums/topic/84275-decrypting-heat-transfer/
 
 ---
-
 # 文档：Metal
-
 - 类别：resources
 - 标识：metal
 - 来源：wiki/Metal
@@ -16877,9 +15555,7 @@ Refined
 Metal
 
 ---
-
 # 文档：Slow Heating
-
 - 类别：resources
 - 标识：slow heating
 - 来源：wiki/Slow_Heating
@@ -16887,60 +15563,60 @@ Metal
 Thermal Conductivity is the property of a material that determines how quickly it heats or cools as it comes into contact with objects of different temperatures. Although the game states that between two objects, the lowest thermal conductivity is used, this is not true for all cases.
 
 Equations
-The calculation of Heat Transfer <math>q</math> in <math>DTU</math> is mainly a product of:
-<math>\Delta T</math> the Temperature difference in °C
-<math>\Delta t</math> the passing time, which is always one tick, <math>0.2s</math>
-<math>k</math> the applicable thermal conductivity in <math>DTU/(m \cdot s \cdot \text{°}C)</math>
-<math>{\color{Cerulean}k_{lowest}}</math> is the lower of the two
-<math>{\color{Green}k_{geom}}</math> is the geometric mean of the two: <math>\sqrt{k_1 \cdot k_2}</math>
-<math>{\color{Red}k_{avg}}</math> the arithmetic average of the two: <math>0.5 (k_1 + k_2)</math>
-<math>{\color{Blue}k_{mult}}</math> the two multiplied together: <math>0.5 \cdot k_1 \cdot k_2</math>
+The calculation of Heat Transfer q in DTU is mainly a product of:
+\Delta T the Temperature difference in °C
+\Delta t the passing time, which is always one tick, 0.2s
+k the applicable thermal conductivity in DTU/(m \cdot s \cdot \text{°}C)
+{\color{Cerulean}k_{lowest}} is the lower of the two
+{\color{Green}k_{geom}} is the geometric mean of the two: \sqrt{k_1 \cdot k_2}
+{\color{Red}k_{avg}} the arithmetic average of the two: 0.5 (k_1 + k_2)
+{\color{Blue}k_{mult}} the two multiplied together: 0.5 \cdot k_1 \cdot k_2
 For heat transfer with buildings, there is an additional factor:
-<math>C_{hot}</math> the thermal mass per area of the hotter object: <math>\frac{m \cdot c \cdot \left[ \frac{1}{5} \right]_\text{if building}}{A}</math> where <math>m</math> is mass, <math>\,c</math> is specific heat capacity (SHC), <math>\,A</math> is the area of the building/cell (1 for cells), and divide by 5 if the hotter object is a building.
+C_{hot} the thermal mass per area of the hotter object: \frac{m \cdot c \cdot \left[ \frac{1}{5} \right]_\text{if building}}{A} where m is mass, \,c is specific heat capacity (SHC), \,A is the area of the building/cell (1 for cells), and divide by 5 if the hotter object is a building.
 
 +Equations
 Scenario
 Formula
 colspan="2" style="border-top: 3px solid grey; font-weight: bolder; text-alight: center;" |Cell ↔ adjacent Cell
 Solid ↔ Solid
-rowspan="4" |<math>q = \Delta T \cdot   \Delta t \cdot  {\color{Green}k_{geom}}  \cdot 1000</math>
+rowspan="4" |q = \Delta T \cdot   \Delta t \cdot  {\color{Green}k_{geom}}  \cdot 1000
 Solid ↔ Liquid
 Gas ↔ Liquid
 Gas ↔ Gas
 Solid ↔ Gas
-<math>q = \Delta T \cdot   \Delta t \cdot  {\color{Green}k_{geom}}  \cdot 1000 \cdot 25</math>
+q = \Delta T \cdot   \Delta t \cdot  {\color{Green}k_{geom}}  \cdot 1000 \cdot 25
 Liquid ↔ Liquid
-<math>q = \Delta T \cdot   \Delta t \cdot  {\color{Green}k_{geom}}  \cdot 1000 \cdot 625</math>
+q = \Delta T \cdot   \Delta t \cdot  {\color{Green}k_{geom}}  \cdot 1000 \cdot 625
 Entity lying on a Solid
-<math>q = \Delta T \cdot   \Delta t \cdot  {\color{Cerulean}k_{lowest}} \cdot 62.5 </math>
+q = \Delta T \cdot   \Delta t \cdot  {\color{Cerulean}k_{lowest}} \cdot 62.5
 Building ↔ Solid tile below it
-<math>N/A</math>
+N/A
 pipe ↔ adjacent pipe
-<math>N/A</math>
+N/A
 colspan="2" style="border-top: 3px solid grey; font-weight: bolder; text-alight: center;" | Inside a Cell
 Entity ↔ Cell
-<math>q = \Delta T \cdot   \Delta t \cdot  {\color{Cerulean}k_{lowest}} \cdot 1000</math>
+q = \Delta T \cdot   \Delta t \cdot  {\color{Cerulean}k_{lowest}} \cdot 1000
 Building ↔ Cell
-<math>q = \Delta T \cdot   \Delta t \cdot  {\color{Blue}k_{mult}} \cdot C_{hot}</math>
+q = \Delta T \cdot   \Delta t \cdot  {\color{Blue}k_{mult}} \cdot C_{hot}
 Building ↔ Building
-<math>N/A</math>
+N/A
 Building ↔ Conduction Panel
 Use Building ↔ Cell but treat panel as a 100 kg cell and divide result by 11
 Building ↔ Entity
-<math>N/A</math>
+N/A
 colspan="2" style="border-top: 3px solid grey; font-weight: bolder; text-alight: center;" | Building's Contents
 pipe ↔ pipe contents
-<math> q = \Delta T \cdot  \Delta t \cdot  {\color{Red}k_{avg}} \cdot 50</math>
+ q = \Delta T \cdot  \Delta t \cdot  {\color{Red}k_{avg}} \cdot 50
 Insulated pipe ↔ contents
-<math>q = \Delta T \cdot   \Delta t \cdot  {\color{Cerulean}k_{lowest}} \cdot 50</math>
+q = \Delta T \cdot   \Delta t \cdot  {\color{Cerulean}k_{lowest}} \cdot 50
 pipe contents ↔ conduction panel
-<math> q = \Delta T \cdot  {\color{Red}k_{avg}} \cdot 50</math> (as the packet teleports across the panel)
+ q = \Delta T \cdot  {\color{Red}k_{avg}} \cdot 50 (as the packet teleports across the panel)
 Cell ↔ pipe contents
-<math>N/A</math>: transfers through the pipe instead
+N/A: transfers through the pipe instead
 pipe bridge ↔ bridge contents
-<math>N/A</math>: bridges teleport elements, NO contents
+N/A: bridges teleport elements, NO contents
 Building ↔ building contents
-<math>N/A</math>
+N/A
 Building's Cell of Interest ↔ building contents
 see Cell↔Entity
 
@@ -16964,7 +15640,7 @@ Tempshift Plate, Conduction panel, Refrigerator, Compost
 
 Certain buildings apply a modifier to their material thermal conductivity:
 
-Insulated Tiles: divide by <math>(\frac{2}{255})^2</math> (not correctly reflected under Properties)
+Insulated Tiles: divide by (\frac{2}{255})^2 (not correctly reflected under Properties)
 Insulated Liquid Pipe and Insulated Gas Pipe: divide by 32
 Wires of any kind: divide by 20 (this may be a legacy of a ditched feature making wires truly overheat)
 Radiant Pipes, Radiant Gas Pipes and Conduction Panel: multiply by 2
@@ -16985,11 +15661,11 @@ You can use bridges to help stabilize a Guide/Liquid Airlock from evaporation or
 
 Joint Plates, & Tube Crossings act as a Cell, the connection points on the sides are cosmetic (for thermal conductivity)
 
-Insulated Tiles reduce the thermal conductivity of their building material by (2/255)² (or 16 256) instead of 100 as stated in the game. It also uses <math>{\color{Cerulean}k_{lowest}}</math>instead of <math>{\color{Green}k_{geom}}</math>for the purpose of cell to cell conductivity, which is mostly going to be the insulated tile conductivity. Solid to gas multiplier still applies.
+Insulated Tiles reduce the thermal conductivity of their building material by (2/255)² (or 16 256) instead of 100 as stated in the game. It also uses {\color{Cerulean}k_{lowest}}instead of {\color{Green}k_{geom}}for the purpose of cell to cell conductivity, which is mostly going to be the insulated tile conductivity. Solid to gas multiplier still applies.
 
-Note: in real life, the units would cancel out, but surface area plays no role in ONI's calculation. Therefore, an additional <math>[m]</math> meter needs to be multiplied to the product to have the equation result in DTU. (Not just meter, but a large string of units when calculating buildings.)
+Note: in real life, the units would cancel out, but surface area plays no role in ONI's calculation. Therefore, an additional [m] meter needs to be multiplied to the product to have the equation result in DTU. (Not just meter, but a large string of units when calculating buildings.)
 
-Another way to interpret this is that the units of Thermal Conductivity are given in-game as <math>DTU/(m \cdot s \cdot \text{°}C)</math> while the unit is actually interpreted as <math>DTU/(s \cdot \text{°}C)</math>.
+Another way to interpret this is that the units of Thermal Conductivity are given in-game as DTU/(m \cdot s \cdot \text{°}C) while the unit is actually interpreted as DTU/(s \cdot \text{°}C).
 +Recap of Cell to Cell multipliers
 colspan="4" |
 Gas
@@ -17018,20 +15694,20 @@ either of the masses is less than 1g
 
 Upper limits
 Heat Transfer between cells has the following cap:
-If the calculated heat transfer would result in a temperature jump of more than a fourth of their temperature difference <math>(T_1-T_2)/4</math> in either material.<p><math>q_{\text{max }1a}=\frac{T_1-T_2}{4}\cdot m_1 \cdot c_1 \quad \text{or}\quad q_{\text{max }1b}=\frac{T_1-T_2}{4}\cdot m_2 \cdot c_2</math><p>Simply said: if the temperature difference is 40 °C, a materials temperature can change at most 10 °C per tick
+If the calculated heat transfer would result in a temperature jump of more than a fourth of their temperature difference (T_1-T_2)/4 in either material.q_{\text{max }1a}=\frac{T_1-T_2}{4}\cdot m_1 \cdot c_1 \quad \text{or}\quad q_{\text{max }1b}=\frac{T_1-T_2}{4}\cdot m_2 \cdot c_2Simply said: if the temperature difference is 40 °C, a materials temperature can change at most 10 °C per tick
 
 Building Limits
 Heat transfer between a building and a cell has different limits, the lower limits which are applied to cells do not apply to buildings, but the upper limit is conceptually similar.
 
 A building exchanges heat with all cells it covers simultaneously. In order to ensure that thermodynamics will not be violated the game limits heat transfer per cell such that at most the final temperature of the building would be the equilibrium temperature, assuming that the building completely covers such cells:
 
-<math>T_{eq} = \frac{T_{building} \cdot C_{building} + T_{cell} \cdot C_{cell} \cdot A}{C_{building} + C_{cell} \cdot A}</math>
+T_{eq} = \frac{T_{building} \cdot C_{building} + T_{cell} \cdot C_{cell} \cdot A}{C_{building} + C_{cell} \cdot A}
 
 The maximum permitted heat transfer per cell is the difference between the building's temperature and the equilibrium temperature divided by the Area of the building.
 
-<math>q_{max} = C_{building} \cdot \frac{T_{building} - T_{eq}}{A}</math>
+q_{max} = C_{building} \cdot \frac{T_{building} - T_{eq}}{A}
 
-If the thermal mass of the cell is very large relative to the building, then the maximum temperature change can be approximated as simply <math>\frac{\Delta T}{A}</math>
+If the thermal mass of the cell is very large relative to the building, then the maximum temperature change can be approximated as simply \frac{\Delta T}{A}
 
 Floating Point Calculation Limits
 While the above limits are deliberately implemented, it is also possible for heat exchange to fail to happen due to limitations of the floating point calculations used to calculate temperature changes.
@@ -17041,7 +15717,7 @@ For example with 32 bit floats, the calculation: 300.0 + 0.00001 = 300.0
 
 The game has a rule that if either tile fails to change temperature, then no heat exchange is allowed to take place, this prevents an exploit where a large tile, especially an unnaturally large tile, infinitely dumps heat/cooling into a smaller tile without itself changing temperature.
 
-In real games this limit comes up all the time when the temperature difference between an Insulated Tile and a solid or liquid tile is relatively small. For example an Igneous Rock Insulated Tile which is itself at 20 C, will not exchange heat with a solid or liquid tile unless the temperature delta is at least 248.05 C, and won't exchange heat with a gas tile unless the temperature delta is at least 9.92 C. This makes it quite easy to achieve actually zero heat transfer without resorting to the Insulite material or vacuum. The exact formulas governing this are: <math>\Delta T_{ignorable}=2^{\lfloor \log_2(T)-24 \rfloor}</math> and <math>q_{max}=\Delta T_{ignorable} \cdot m \cdot SHC</math>, where <math>T</math>, <math>m</math>, and <math>SHC</math> are for the cell holding everything constant, and <math>q_{max}</math> is the heat-exchange formula relevant between the two cells, which can be reversed to find <math>\Delta T_{max}</math>.
+In real games this limit comes up all the time when the temperature difference between an Insulated Tile and a solid or liquid tile is relatively small. For example an Igneous Rock Insulated Tile which is itself at 20 C, will not exchange heat with a solid or liquid tile unless the temperature delta is at least 248.05 C, and won't exchange heat with a gas tile unless the temperature delta is at least 9.92 C. This makes it quite easy to achieve actually zero heat transfer without resorting to the Insulite material or vacuum. The exact formulas governing this are: \Delta T_{ignorable}=2^{\lfloor \log_2(T)-24 \rfloor} and q_{max}=\Delta T_{ignorable} \cdot m \cdot SHC, where T, m, and SHC are for the cell holding everything constant, and q_{max} is the heat-exchange formula relevant between the two cells, which can be reversed to find \Delta T_{max}.
 
 It is also readily observed with liquid tiles, Magma and Water can have immense thermal mass which means relatively large DTU inputs are required to cause a temperature change. This results in the paradoxical outcome where full magma tiles don't exchange heat with insulated tiles, but partial magma tiles can exchange heat if they are sufficiently low mass. Using the above formula but applied to the Magma tile instead of the insulated tile, we can see that a cell with 715.6 kg or more magma will be unable to exchange temperature with an Igneous Rock Insulated Tile at 0C or higher, regardless of the magma temperature. For Mafic Rock, which has half the conductivity, only 357.8 kg of magma are needed.
 
@@ -17091,7 +15767,6 @@ Pipe!!Material!!Thermal Conductivity
 |||| 440
 Gas Pipes
 +Gas Pipes
-Pipe!!Material!!Thermal Conductivity
 ||||0.0000003125
 data-sort-value="O" |||||0.00001
 ||||0.019375
@@ -17103,8 +15778,6 @@ data-sort-value="O" |||||0.00001
 ||||0.1059375
 data-sort-value="O" |||||0.62
 data-sort-value="O" |||||1
-data-sort-value="O" |||||2
-data-sort-value="O" |||||2
 data-sort-value="O" |||||2
 data-sort-value="O" ||||| 2.9
 data-sort-value="O" |||||3.39
@@ -17121,7 +15794,7 @@ data-sort-value="O" |||||3.39
 ||||440
 
 Solid Tiles list
-Important: For Insulated Tiles, these numbers will not match what is seen in-game. This is because the value displayed in-game is <math>\frac{base}{100}</math>, but the actual value used by calculations (and shown here) is <math>base \cdot (\frac{2}{255})^2</math>.
+Important: For Insulated Tiles, these numbers will not match what is seen in-game. This is because the value displayed in-game is \frac{base}{100}, but the actual value used by calculations (and shown here) is base \cdot (\frac{2}{255})^2.
 +Tiles
 Tile!!Material!! Thermal Conductivity
 ||||6.15e-10
@@ -17172,15 +15845,13 @@ Tips
 When cooling or heating an area it's better to run pipes through tiles than through atmosphere. In both cases the equation for "Building and the cells it occupies" is used which multiplies both Thermal conductivities, and in general, gases have a much lower thermal conductivity than liquids, which have lower conductivity than solids.
 However, if drastic cooling is desired, then Steam Turbines and Aquatuners will have to be involved, which means a cavity filled with Steam will have to be used.
 Since Insulated Tiles have a factor of 1/16256, and pipes a factor of 1/32, much less heat is transferred if a regular pipe goes through an insulated tile than when an insulated pipe goes through a regular Tile. Though, of course, insulating both has an even better insulating effect.
-Even though Insulite has a lower thermal conductivity than any Insulated Tile, the change in formula from <math>{\color{Green}k_{geom}}</math> to <math>{\color{Cerulean}k_{lowest}}</math> makes insulated tiles much more practical insulators than a regular Tile made from Insulite. Indeed, they are so good that even using regular rock is often sufficient to shut down heat transfer completely, or to practically unnoticeable levels.
+Even though Insulite has a lower thermal conductivity than any Insulated Tile, the change in formula from {\color{Green}k_{geom}} to {\color{Cerulean}k_{lowest}} makes insulated tiles much more practical insulators than a regular Tile made from Insulite. Indeed, they are so good that even using regular rock is often sufficient to shut down heat transfer completely, or to practically unnoticeable levels.
 
 References
 https://forums.kleientertainment.com/forums/topic/84275-decrypting-heat-transfer/
 
 ---
-
 # 文档：Thermally reactive
-
 - 类别：resources
 - 标识：thermally reactive
 - 来源：wiki/Thermally_reactive
@@ -17188,60 +15859,60 @@ https://forums.kleientertainment.com/forums/topic/84275-decrypting-heat-transfer
 Thermal Conductivity is the property of a material that determines how quickly it heats or cools as it comes into contact with objects of different temperatures. Although the game states that between two objects, the lowest thermal conductivity is used, this is not true for all cases.
 
 Equations
-The calculation of Heat Transfer <math>q</math> in <math>DTU</math> is mainly a product of:
-<math>\Delta T</math> the Temperature difference in °C
-<math>\Delta t</math> the passing time, which is always one tick, <math>0.2s</math>
-<math>k</math> the applicable thermal conductivity in <math>DTU/(m \cdot s \cdot \text{°}C)</math>
-<math>{\color{Cerulean}k_{lowest}}</math> is the lower of the two
-<math>{\color{Green}k_{geom}}</math> is the geometric mean of the two: <math>\sqrt{k_1 \cdot k_2}</math>
-<math>{\color{Red}k_{avg}}</math> the arithmetic average of the two: <math>0.5 (k_1 + k_2)</math>
-<math>{\color{Blue}k_{mult}}</math> the two multiplied together: <math>0.5 \cdot k_1 \cdot k_2</math>
+The calculation of Heat Transfer q in DTU is mainly a product of:
+\Delta T the Temperature difference in °C
+\Delta t the passing time, which is always one tick, 0.2s
+k the applicable thermal conductivity in DTU/(m \cdot s \cdot \text{°}C)
+{\color{Cerulean}k_{lowest}} is the lower of the two
+{\color{Green}k_{geom}} is the geometric mean of the two: \sqrt{k_1 \cdot k_2}
+{\color{Red}k_{avg}} the arithmetic average of the two: 0.5 (k_1 + k_2)
+{\color{Blue}k_{mult}} the two multiplied together: 0.5 \cdot k_1 \cdot k_2
 For heat transfer with buildings, there is an additional factor:
-<math>C_{hot}</math> the thermal mass per area of the hotter object: <math>\frac{m \cdot c \cdot \left[ \frac{1}{5} \right]_\text{if building}}{A}</math> where <math>m</math> is mass, <math>\,c</math> is specific heat capacity (SHC), <math>\,A</math> is the area of the building/cell (1 for cells), and divide by 5 if the hotter object is a building.
+C_{hot} the thermal mass per area of the hotter object: \frac{m \cdot c \cdot \left[ \frac{1}{5} \right]_\text{if building}}{A} where m is mass, \,c is specific heat capacity (SHC), \,A is the area of the building/cell (1 for cells), and divide by 5 if the hotter object is a building.
 
 +Equations
 Scenario
 Formula
 colspan="2" style="border-top: 3px solid grey; font-weight: bolder; text-alight: center;" |Cell ↔ adjacent Cell
 Solid ↔ Solid
-rowspan="4" |<math>q = \Delta T \cdot   \Delta t \cdot  {\color{Green}k_{geom}}  \cdot 1000</math>
+rowspan="4" |q = \Delta T \cdot   \Delta t \cdot  {\color{Green}k_{geom}}  \cdot 1000
 Solid ↔ Liquid
 Gas ↔ Liquid
 Gas ↔ Gas
 Solid ↔ Gas
-<math>q = \Delta T \cdot   \Delta t \cdot  {\color{Green}k_{geom}}  \cdot 1000 \cdot 25</math>
+q = \Delta T \cdot   \Delta t \cdot  {\color{Green}k_{geom}}  \cdot 1000 \cdot 25
 Liquid ↔ Liquid
-<math>q = \Delta T \cdot   \Delta t \cdot  {\color{Green}k_{geom}}  \cdot 1000 \cdot 625</math>
+q = \Delta T \cdot   \Delta t \cdot  {\color{Green}k_{geom}}  \cdot 1000 \cdot 625
 Entity lying on a Solid
-<math>q = \Delta T \cdot   \Delta t \cdot  {\color{Cerulean}k_{lowest}} \cdot 62.5 </math>
+q = \Delta T \cdot   \Delta t \cdot  {\color{Cerulean}k_{lowest}} \cdot 62.5
 Building ↔ Solid tile below it
-<math>N/A</math>
+N/A
 pipe ↔ adjacent pipe
-<math>N/A</math>
+N/A
 colspan="2" style="border-top: 3px solid grey; font-weight: bolder; text-alight: center;" | Inside a Cell
 Entity ↔ Cell
-<math>q = \Delta T \cdot   \Delta t \cdot  {\color{Cerulean}k_{lowest}} \cdot 1000</math>
+q = \Delta T \cdot   \Delta t \cdot  {\color{Cerulean}k_{lowest}} \cdot 1000
 Building ↔ Cell
-<math>q = \Delta T \cdot   \Delta t \cdot  {\color{Blue}k_{mult}} \cdot C_{hot}</math>
+q = \Delta T \cdot   \Delta t \cdot  {\color{Blue}k_{mult}} \cdot C_{hot}
 Building ↔ Building
-<math>N/A</math>
+N/A
 Building ↔ Conduction Panel
 Use Building ↔ Cell but treat panel as a 100 kg cell and divide result by 11
 Building ↔ Entity
-<math>N/A</math>
+N/A
 colspan="2" style="border-top: 3px solid grey; font-weight: bolder; text-alight: center;" | Building's Contents
 pipe ↔ pipe contents
-<math> q = \Delta T \cdot  \Delta t \cdot  {\color{Red}k_{avg}} \cdot 50</math>
+ q = \Delta T \cdot  \Delta t \cdot  {\color{Red}k_{avg}} \cdot 50
 Insulated pipe ↔ contents
-<math>q = \Delta T \cdot   \Delta t \cdot  {\color{Cerulean}k_{lowest}} \cdot 50</math>
+q = \Delta T \cdot   \Delta t \cdot  {\color{Cerulean}k_{lowest}} \cdot 50
 pipe contents ↔ conduction panel
-<math> q = \Delta T \cdot  {\color{Red}k_{avg}} \cdot 50</math> (as the packet teleports across the panel)
+ q = \Delta T \cdot  {\color{Red}k_{avg}} \cdot 50 (as the packet teleports across the panel)
 Cell ↔ pipe contents
-<math>N/A</math>: transfers through the pipe instead
+N/A: transfers through the pipe instead
 pipe bridge ↔ bridge contents
-<math>N/A</math>: bridges teleport elements, NO contents
+N/A: bridges teleport elements, NO contents
 Building ↔ building contents
-<math>N/A</math>
+N/A
 Building's Cell of Interest ↔ building contents
 see Cell↔Entity
 
@@ -17265,7 +15936,7 @@ Tempshift Plate, Conduction panel, Refrigerator, Compost
 
 Certain buildings apply a modifier to their material thermal conductivity:
 
-Insulated Tiles: divide by <math>(\frac{2}{255})^2</math> (not correctly reflected under Properties)
+Insulated Tiles: divide by (\frac{2}{255})^2 (not correctly reflected under Properties)
 Insulated Liquid Pipe and Insulated Gas Pipe: divide by 32
 Wires of any kind: divide by 20 (this may be a legacy of a ditched feature making wires truly overheat)
 Radiant Pipes, Radiant Gas Pipes and Conduction Panel: multiply by 2
@@ -17286,11 +15957,11 @@ You can use bridges to help stabilize a Guide/Liquid Airlock from evaporation or
 
 Joint Plates, & Tube Crossings act as a Cell, the connection points on the sides are cosmetic (for thermal conductivity)
 
-Insulated Tiles reduce the thermal conductivity of their building material by (2/255)² (or 16 256) instead of 100 as stated in the game. It also uses <math>{\color{Cerulean}k_{lowest}}</math>instead of <math>{\color{Green}k_{geom}}</math>for the purpose of cell to cell conductivity, which is mostly going to be the insulated tile conductivity. Solid to gas multiplier still applies.
+Insulated Tiles reduce the thermal conductivity of their building material by (2/255)² (or 16 256) instead of 100 as stated in the game. It also uses {\color{Cerulean}k_{lowest}}instead of {\color{Green}k_{geom}}for the purpose of cell to cell conductivity, which is mostly going to be the insulated tile conductivity. Solid to gas multiplier still applies.
 
-Note: in real life, the units would cancel out, but surface area plays no role in ONI's calculation. Therefore, an additional <math>[m]</math> meter needs to be multiplied to the product to have the equation result in DTU. (Not just meter, but a large string of units when calculating buildings.)
+Note: in real life, the units would cancel out, but surface area plays no role in ONI's calculation. Therefore, an additional [m] meter needs to be multiplied to the product to have the equation result in DTU. (Not just meter, but a large string of units when calculating buildings.)
 
-Another way to interpret this is that the units of Thermal Conductivity are given in-game as <math>DTU/(m \cdot s \cdot \text{°}C)</math> while the unit is actually interpreted as <math>DTU/(s \cdot \text{°}C)</math>.
+Another way to interpret this is that the units of Thermal Conductivity are given in-game as DTU/(m \cdot s \cdot \text{°}C) while the unit is actually interpreted as DTU/(s \cdot \text{°}C).
 +Recap of Cell to Cell multipliers
 colspan="4" |
 Gas
@@ -17319,20 +15990,20 @@ either of the masses is less than 1g
 
 Upper limits
 Heat Transfer between cells has the following cap:
-If the calculated heat transfer would result in a temperature jump of more than a fourth of their temperature difference <math>(T_1-T_2)/4</math> in either material.<p><math>q_{\text{max }1a}=\frac{T_1-T_2}{4}\cdot m_1 \cdot c_1 \quad \text{or}\quad q_{\text{max }1b}=\frac{T_1-T_2}{4}\cdot m_2 \cdot c_2</math><p>Simply said: if the temperature difference is 40 °C, a materials temperature can change at most 10 °C per tick
+If the calculated heat transfer would result in a temperature jump of more than a fourth of their temperature difference (T_1-T_2)/4 in either material.q_{\text{max }1a}=\frac{T_1-T_2}{4}\cdot m_1 \cdot c_1 \quad \text{or}\quad q_{\text{max }1b}=\frac{T_1-T_2}{4}\cdot m_2 \cdot c_2Simply said: if the temperature difference is 40 °C, a materials temperature can change at most 10 °C per tick
 
 Building Limits
 Heat transfer between a building and a cell has different limits, the lower limits which are applied to cells do not apply to buildings, but the upper limit is conceptually similar.
 
 A building exchanges heat with all cells it covers simultaneously. In order to ensure that thermodynamics will not be violated the game limits heat transfer per cell such that at most the final temperature of the building would be the equilibrium temperature, assuming that the building completely covers such cells:
 
-<math>T_{eq} = \frac{T_{building} \cdot C_{building} + T_{cell} \cdot C_{cell} \cdot A}{C_{building} + C_{cell} \cdot A}</math>
+T_{eq} = \frac{T_{building} \cdot C_{building} + T_{cell} \cdot C_{cell} \cdot A}{C_{building} + C_{cell} \cdot A}
 
 The maximum permitted heat transfer per cell is the difference between the building's temperature and the equilibrium temperature divided by the Area of the building.
 
-<math>q_{max} = C_{building} \cdot \frac{T_{building} - T_{eq}}{A}</math>
+q_{max} = C_{building} \cdot \frac{T_{building} - T_{eq}}{A}
 
-If the thermal mass of the cell is very large relative to the building, then the maximum temperature change can be approximated as simply <math>\frac{\Delta T}{A}</math>
+If the thermal mass of the cell is very large relative to the building, then the maximum temperature change can be approximated as simply \frac{\Delta T}{A}
 
 Floating Point Calculation Limits
 While the above limits are deliberately implemented, it is also possible for heat exchange to fail to happen due to limitations of the floating point calculations used to calculate temperature changes.
@@ -17342,7 +16013,7 @@ For example with 32 bit floats, the calculation: 300.0 + 0.00001 = 300.0
 
 The game has a rule that if either tile fails to change temperature, then no heat exchange is allowed to take place, this prevents an exploit where a large tile, especially an unnaturally large tile, infinitely dumps heat/cooling into a smaller tile without itself changing temperature.
 
-In real games this limit comes up all the time when the temperature difference between an Insulated Tile and a solid or liquid tile is relatively small. For example an Igneous Rock Insulated Tile which is itself at 20 C, will not exchange heat with a solid or liquid tile unless the temperature delta is at least 248.05 C, and won't exchange heat with a gas tile unless the temperature delta is at least 9.92 C. This makes it quite easy to achieve actually zero heat transfer without resorting to the Insulite material or vacuum. The exact formulas governing this are: <math>\Delta T_{ignorable}=2^{\lfloor \log_2(T)-24 \rfloor}</math> and <math>q_{max}=\Delta T_{ignorable} \cdot m \cdot SHC</math>, where <math>T</math>, <math>m</math>, and <math>SHC</math> are for the cell holding everything constant, and <math>q_{max}</math> is the heat-exchange formula relevant between the two cells, which can be reversed to find <math>\Delta T_{max}</math>.
+In real games this limit comes up all the time when the temperature difference between an Insulated Tile and a solid or liquid tile is relatively small. For example an Igneous Rock Insulated Tile which is itself at 20 C, will not exchange heat with a solid or liquid tile unless the temperature delta is at least 248.05 C, and won't exchange heat with a gas tile unless the temperature delta is at least 9.92 C. This makes it quite easy to achieve actually zero heat transfer without resorting to the Insulite material or vacuum. The exact formulas governing this are: \Delta T_{ignorable}=2^{\lfloor \log_2(T)-24 \rfloor} and q_{max}=\Delta T_{ignorable} \cdot m \cdot SHC, where T, m, and SHC are for the cell holding everything constant, and q_{max} is the heat-exchange formula relevant between the two cells, which can be reversed to find \Delta T_{max}.
 
 It is also readily observed with liquid tiles, Magma and Water can have immense thermal mass which means relatively large DTU inputs are required to cause a temperature change. This results in the paradoxical outcome where full magma tiles don't exchange heat with insulated tiles, but partial magma tiles can exchange heat if they are sufficiently low mass. Using the above formula but applied to the Magma tile instead of the insulated tile, we can see that a cell with 715.6 kg or more magma will be unable to exchange temperature with an Igneous Rock Insulated Tile at 0C or higher, regardless of the magma temperature. For Mafic Rock, which has half the conductivity, only 357.8 kg of magma are needed.
 
@@ -17392,7 +16063,6 @@ Pipe!!Material!!Thermal Conductivity
 |||| 440
 Gas Pipes
 +Gas Pipes
-Pipe!!Material!!Thermal Conductivity
 ||||0.0000003125
 data-sort-value="O" |||||0.00001
 ||||0.019375
@@ -17404,8 +16074,6 @@ data-sort-value="O" |||||0.00001
 ||||0.1059375
 data-sort-value="O" |||||0.62
 data-sort-value="O" |||||1
-data-sort-value="O" |||||2
-data-sort-value="O" |||||2
 data-sort-value="O" |||||2
 data-sort-value="O" ||||| 2.9
 data-sort-value="O" |||||3.39
@@ -17422,7 +16090,7 @@ data-sort-value="O" |||||3.39
 ||||440
 
 Solid Tiles list
-Important: For Insulated Tiles, these numbers will not match what is seen in-game. This is because the value displayed in-game is <math>\frac{base}{100}</math>, but the actual value used by calculations (and shown here) is <math>base \cdot (\frac{2}{255})^2</math>.
+Important: For Insulated Tiles, these numbers will not match what is seen in-game. This is because the value displayed in-game is \frac{base}{100}, but the actual value used by calculations (and shown here) is base \cdot (\frac{2}{255})^2.
 +Tiles
 Tile!!Material!! Thermal Conductivity
 ||||6.15e-10
@@ -17473,7 +16141,7 @@ Tips
 When cooling or heating an area it's better to run pipes through tiles than through atmosphere. In both cases the equation for "Building and the cells it occupies" is used which multiplies both Thermal conductivities, and in general, gases have a much lower thermal conductivity than liquids, which have lower conductivity than solids.
 However, if drastic cooling is desired, then Steam Turbines and Aquatuners will have to be involved, which means a cavity filled with Steam will have to be used.
 Since Insulated Tiles have a factor of 1/16256, and pipes a factor of 1/32, much less heat is transferred if a regular pipe goes through an insulated tile than when an insulated pipe goes through a regular Tile. Though, of course, insulating both has an even better insulating effect.
-Even though Insulite has a lower thermal conductivity than any Insulated Tile, the change in formula from <math>{\color{Green}k_{geom}}</math> to <math>{\color{Cerulean}k_{lowest}}</math> makes insulated tiles much more practical insulators than a regular Tile made from Insulite. Indeed, they are so good that even using regular rock is often sufficient to shut down heat transfer completely, or to practically unnoticeable levels.
+Even though Insulite has a lower thermal conductivity than any Insulated Tile, the change in formula from {\color{Green}k_{geom}} to {\color{Cerulean}k_{lowest}} makes insulated tiles much more practical insulators than a regular Tile made from Insulite. Indeed, they are so good that even using regular rock is often sufficient to shut down heat transfer completely, or to practically unnoticeable levels.
 
 References
 https://forums.kleientertainment.com/forums/topic/84275-decrypting-heat-transfer/
@@ -17481,9 +16149,7 @@ https://forums.kleientertainment.com/forums/topic/84275-decrypting-heat-transfer
 ---
 ## ROOMS
 共 6 篇文档
-
 # 文档：Barracks
-
 - 类别：rooms
 - 标识：barracks
 - 来源：wiki/Barracks
@@ -17492,9 +16158,7 @@ Description
 The Barracks is a special room that is good for increasing the stamina recovered from sleeping. It needs to be at least 12 tiles large in area and needs at least one Cot, but more Cots work well too. It can be upgraded to the bedroom with a Comfy Bed.
 
 ---
-
 # 文档：Great Hall
-
 - 类别：rooms
 - 标识：great hall
 - 来源：wiki/Great_Hall
@@ -17520,9 +16184,7 @@ A Recreation Room can be upgraded into a Great Hall by putting an unused mess ta
 Unfortunately, in order to get the buff, Duplicants must eat their meals in the Great Hall. Hanging out during downtimes won't grant this buff.
 
 ---
-
 # 文档：Hospital
-
 - 类别：rooms
 - 标识：hospital
 - 来源：wiki/Hospital
@@ -17539,9 +16201,7 @@ The Toilet can be disabled (to save the germ hassle) and the room will still qua
 The Toilet and the Mess Table will automatically be assigned to the room and not be used by any duplicant not using the room currently.
 
 ---
-
 # 文档：Latrine
-
 - 类别：rooms
 - 标识：latrine
 - 来源：wiki/Latrine
@@ -17567,9 +16227,7 @@ liquid = latrineLiquid.png
 A self-sustained design using a Water Sieve
 
 ---
-
 # 文档：Mess Hall
-
 - 类别：rooms
 - 标识：mess hall
 - 来源：wiki/Mess_Hall
@@ -17591,9 +16249,7 @@ power =  MessHallPower.png
 Notes:
 
 ---
-
 # 文档：Stable
-
 - 类别：rooms
 - 标识：stable
 - 来源：wiki/Stable
@@ -17630,7 +16286,6 @@ Fish Feeder needed for taming Pacu doesn't require to be in a stable to function
 ---
 ## AUTOMATION_BUILDINGS
 共 37 篇文档
-
 # 文档：AND Gate
 - 类别：automation_buildings
 - 标识：and-gate
@@ -17648,31 +16303,20 @@ The two nodes with the arrow facing toward the device are the inputs, while the 
 ! Output
 |-
 | style="background:red;" | Red
-| style="background:red;" | Red
-| style="background:red;" | Red
-|-
-| style="background:red;" | Red
-| style="background:green;" | Green
-| style="background:red;" | Red
 |-
 | style="background:green;" | Green
-| style="background:red;" | Red
-| style="background:red;" | Red
 |-
-| style="background:green;" | Green
-| style="background:green;" | Green
-| style="background:green;" | Green
+|-
 |}
 
 == Automation Ribbon ==
-AND Gate's behavior to Automation Ribbon is same as bitwise AND - For example, when first input is 4-Bit <span style="color:red">RR</span><span style="color:green">GG</span> and second input is <span style="color:red">R</span><span style="color:green">G</span><span style="color:red">R</span><span style="color:green">G</span>, then its output is 4-Bit <span style="color:red">RRR</span><span style="color:green">G</span>.
+AND Gate's behavior to Automation Ribbon is same as bitwise AND - For example, when first input is 4-Bit RRGG and second input is RGRG, then its output is 4-Bit RRRG.
 
 == Tips ==
 * The AND Gate, like other automation gates, can be placed behind buildings and tiles, as well as in the same space as pipes or wires.
 * Like the OR and XOR gates, the fourth space on the AND gate's graphic does nothing, and automation wires can cross freely through this space.
 
 == History ==
-
 # 文档：Atmo Sensor
 - 类别：automation_buildings
 - 标识：atmo-sensor
@@ -17685,7 +16329,6 @@ It must be surrounded by gas. Being placed in vacuum or liquid makes it read pre
 == Tips ==
 * Gas Pumps will consume a constant 240 Watts regardless of how much gas they are pumping, so putting an Atmo Sensor set to "above 500 g" nearby will increase their power efficiency.
 * Atmo Sensors are helpful to prevent gas overpressure or to pump geyser-produced gas only when the geyser is active.
-
 # 文档：Automated Notifier
 - 类别：automation_buildings
 - 标识：automated-notifier
@@ -17700,7 +16343,6 @@ left|Notification Designer UI
 * Type : Select the visual and aural style of the notification
 * Pause : Time will pause upon notification when checked
 * Zoom : The view will zoom to this building upon notification when checked
-
 # 文档：Automation Broadcaster
 - 类别：automation_buildings
 - 标识：automation-broadcaster
@@ -17723,10 +16365,9 @@ Automation Broadcaster allows automation signals to be sent between distant loca
 
 Despite the regular automation input icon shown when in the automation overlay, Automation Broadcasters can accept either a single Automation Wire, or an Automation Ribbon, and will broadcast every line of the automation ribbon to the destination receiver(s). If one end of an automation broadcaster/receiver pair has mismatched ribbon and regular wire connections, the regular automation wire may take Signal Overload Damage, depending on the direction of the mismatch.
 
-Additionally, Automation Broadcasters and Receivers can be placed into rocket capsules. When inside a rocket capsule, the rules regarding being exposed to space do not apply to any obstructions to line of sight, even allowing one to be completely enclosed in a box of solid tiles and still functioning. 
+Additionally, Automation Broadcasters and Receivers can be placed into rocket capsules. When inside a rocket capsule, the rules regarding being exposed to space do not apply to any obstructions to line of sight, even allowing one to be completely enclosed in a box of solid tiles and still functioning.
 
 If an Automation Broadcaster does not have Line of Sight, the status will include "No Line Of Sight" and gain a red indicator on the building.
-
 # 文档：Automation Receiver
 - 类别：automation_buildings
 - 标识：automation-receiver
@@ -17751,12 +16392,11 @@ Despite the regular automation output icon shown when in the automation overlay,
 
 Automation Broadcasters and Receivers may be placed inside rocket capsules, and when inside a rocket capsule, the rules regarding line of sight no longer apply to any obstructions, be it the capsule walls, or tiles placed by the player.
 
-When an Automation Receiver does not have line of sight, a red status icon will show up and the status properties will show "No Line Of sight" to indicate the problem. 
+When an Automation Receiver does not have line of sight, a red status icon will show up and the status properties will show "No Line Of sight" to indicate the problem.
 
 == Tips ==
 
 * Since Automation Broadcasters and Receivers can be placed in rockets, unpiloted rockets can be used as automation relays when a broadcaster and receiver are paired together. Build out a small rocket with a Trailblazer Module and enough range to reach 5 tiles, place an Automation Broadcaster and Receiver into it, and connect it with the desired automation wire or ribbon. Launch the rocket with a dupe inside to orbit, and then use the trailblazer to land the dupe back onto the surface, leaving the rocket in autopilot. Set the course for the desired location, and leave the rocket there, broadcasting signals.
-
 # 文档：Automation Ribbon
 - 类别：automation_buildings
 - 标识：automation-ribbon
@@ -17769,14 +16409,12 @@ When Automation Wires are directly connected to an Automation Ribbon, it will ca
 Since Automation Wires only carry 1 Bit, it is possible to use Automation Wires to extend an Automation Ribbon and recover 4 Bit data from Automation Wires.
 
 To use the full 4 bits you will need to use a Ribbon Writer or a Ribbon Reader to get signal on to and out from the ribbon, respectively. Without these only the first bit is used. Since the materials required to use this is so much higher and it requires additional space, using Automation Wires is a great choice for smaller systems or earlier in the game.
-
 # 文档：Automation Ribbon Bridge
 - 类别：automation_buildings
 - 标识：automation-ribbon-bridge
 - 来源：wiki/Automation_Ribbon_Bridge
 
 Automation Ribbon Bridge allows Automation Ribbons to cross over each other.
-
 # 文档：Automation Wire
 - 类别：automation_buildings
 - 标识：automation-wire
@@ -17795,7 +16433,6 @@ This wire exists on the "Automation" layer, meaning it can cross through almost 
 
 == Tips ==
 Database says sending an Automation Signal with a higher Bit Depth than the connected Logic Wire can result in damage to the circuit. In other words, if 2nd, 3rd and 4th Bit has Green Signal, It gets Overloading Damage.
-
 # 文档：Automation Wire Bridge
 - 类别：automation_buildings
 - 标识：automation-wire-bridge
@@ -17806,7 +16443,6 @@ Automation Wire Bridge allows Automation Wires to cross over each other.
 == See Also ==
 * For mechanics, see Automation Wire.
 * For information on how they are used, see the Automation Guide.
-
 # 文档：BUFFER Gate
 - 类别：automation_buildings
 - 标识：buffer-gate
@@ -17817,9 +16453,9 @@ BUFFER Gate is an Automation Building that outputs a Green Signal when its input
 The amount of time the BUFFER Gate remains Green can be adjusted by the player, and can range from 0.1 – 200 seconds. When the input becomes Green again, the timer resets to the designated amount, and does not add to the current remaining time (if any).
 
 == Automation Ribbon ==
-The BUFFER Gate's behavior when connected to an Automation Ribbon is not bitwise like most gates. The gate instead merges all bits in the Automation Ribbon like an OR Gate into a single bit and then acts as usual on this bit. 
+The BUFFER Gate's behavior when connected to an Automation Ribbon is not bitwise like most gates. The gate instead merges all bits in the Automation Ribbon like an OR Gate into a single bit and then acts as usual on this bit.
 
-For example, when the input is 4-Bit <span style="color:red">RR</span><span style="color:green">G</span><span style="color:red">R</span>, then it is interpreted as a 1-Bit <span style="color:green">Green Signal</span>.
+For example, when the input is 4-Bit RRGR, then it is interpreted as a 1-Bit Green Signal.
 
 == Tips ==
 * The BUFFER Gate, like other Automation gates, can be placed behind buildings and tiles, as well as in the same space as pipes or wires.
@@ -17831,7 +16467,6 @@ For example, when the input is 4-Bit <span style="color:red">RR</span><span styl
 
 == See Also ==
 * FILTER Gate
-
 # 文档：Critter Sensor
 - 类别：automation_buildings
 - 标识：critter-sensor
@@ -17845,7 +16480,6 @@ It does not count Morbs, because they cannot be tamed.
 * Drowning chamber
 
 == History ==
-
 # 文档：Cycle Sensor
 - 类别：automation_buildings
 - 标识：cycle-sensor
@@ -17855,16 +16489,14 @@ Cycle Sensor is used to send automation signals according to a set period of a C
 
 == Trivia ==
 When Signal Switch required Duplicant operation, having the change in its outputs take place immediately was its unique property and made it infamous in its use as an instant, player-controlled switch, as the player did not have to wait for a Duplicant to change its settings.
-<gallery mode="packed" heights="300">
+
 Clock switch auto.png|To enable the two Coal Generators (top and top left), the player moves the "Active Duration" slider (bottom right) to 100%. To disable them again, the player moves the slider back to 0%.
-</gallery>
 
 == See Also ==
 * Timer Sensor
 * FILTER Gate and BUFFER Gate for automation delay timers.
 
 == History ==
-
 # 文档：Duplicant Checkpoint
 - 类别：automation_buildings
 - 标识：duplicant-checkpoint
@@ -17879,7 +16511,6 @@ Also unlike doors, checkpoints only control movement in one direction.
 == Usage ==
 * Checkpoints combined with Weight Plate or Duplicant Motion Sensor might be used to form queues to Sinks, Ore Scrubbers and similar buildings, ensuring that no one skips past them.
 **A simple setup combining a Checkpoint with a single trigger will not form a queue. When the Checkpoint is disabled, all passing Duplicants will stop and stand in the same spot, and then a single Enable signal, even a brief 1 second signal, will allow all gathered Duplicants to pass through at the same time.
-
 # 文档：Duplicant Motion Sensor
 - 类别：automation_buildings
 - 标识：duplicant-motion-sensor
@@ -17892,7 +16523,6 @@ center|frameless|400x442px
 == Usage ==
 * Turn on the Lamp or Ceiling Light besides the operatable machines to provide +15% speed bonus when a Duplicant is operating the machine. Turn off the light to save power when no Duplicant is working.
 * Turn on the Sun Lamp only when Duplicants are using a Beach Chair can save a large amount of power.
-
 # 文档：FILTER Gate
 - 类别：automation_buildings
 - 标识：filter-gate
@@ -17903,7 +16533,7 @@ FILTER Gate is an Automation Building that outputs Red while its input receives 
 The amount of time the FILTER Gate remains on Red can be adjusted by the player, and can range from 0.1 - 200 seconds. Whenever the input goes into Red, the FILTER Gate will also go into Red and the time until it becomes Green resets to the designated amount, regardless of the gate's current state. The FILTER Gate is the logical opposite of the BUFFER Gate.
 
 == Automation Ribbon ==
-FILTER Gate's behavior to Automation Ribbon is a little weird. Generally interpreting 4-Bit Signal into 1-Bit Signal is only use first Bit, but it is interpreted as every Bit is passed through OR Gate when FILTER Gate input is 4-Bit - for example, when 4-Bit input is <span style="color:red">RR</span><span style="color:green">G</span><span style="color:red">R</span>, then it is interpreted as <span style="color:green">Green Signal</span>.
+FILTER Gate's behavior to Automation Ribbon is a little weird. Generally interpreting 4-Bit Signal into 1-Bit Signal is only use first Bit, but it is interpreted as every Bit is passed through OR Gate when FILTER Gate input is 4-Bit - for example, when 4-Bit input is RRGR, then it is interpreted as Green Signal.
 
 == Tips ==
 * The FILTER Gate, like other Automation gates, can be placed behind buildings and tiles, as well as in the same space as pipes or wires.
@@ -17915,14 +16545,14 @@ FILTER Gate's behavior to Automation Ribbon is a little weird. Generally interpr
 
 == See Also ==
 * BUFFER Gate
-
 # 文档：Gas Element Sensor
 - 类别：automation_buildings
 - 标识：gas-element-sensor
 - 来源：wiki/Gas_Element_Sensor
 
 .png
-| description = Sends a <span style="color:green">Green Signal</span> when the selected Gas is detected on this sensor's tile.<br>Sends a <span style="color:red">Red Signal</span> when the selected Gas is not present.
+| description = Sends a Green Signal when the selected Gas is detected on this sensor's tile.
+Sends a Red Signal when the selected Gas is not present.
 | flavorText = These sensors can detect the presence of a specific gas and alter systems accordingly.
 | research = Generic Sensors
 | category = Automation
@@ -17936,7 +16566,7 @@ FILTER Gate's behavior to Automation Ribbon is a little weird. Generally interpr
 | amount1 = 25
 }}
 
-Gas Element Sensor outputs a Green signal when the selected gas is present in the tile it occupies, otherwise it outputs a Red signal. It will always produce a Red signal if immersed in Liquid. Most commonly connected to a Gas Pump or Gas Shutoff. 
+Gas Element Sensor outputs a Green signal when the selected gas is present in the tile it occupies, otherwise it outputs a Red signal. It will always produce a Red signal if immersed in Liquid. Most commonly connected to a Gas Pump or Gas Shutoff.
 
 Since the Sensor cannot occupy the exact same tile as the Gas Pump it is automating, it is best used in combination with a Gas Filter when sending gases to sensitive buildings like a Hydrogen Generator.
 
@@ -17944,14 +16574,12 @@ Since the Sensor cannot occupy the exact same tile as the Gas Pump it is automat
 * The Gas Element Sensor can be used to save power by only activating Gas Pumps when they are needed, for example during the active period of a Natural Gas Geyser.
 * Can be used to activate a Gas Pump when an undesirable gas is present, for example to remove Carbon Dioxide sitting on the bottom of a Chlorine room used for disinfecting.
 * In combination with a NOT Gate, it can deactivate a pump when a Gas is present. For example by setting the a sensor at the bottom of a room to detect Hydrogen a pump will run until all other gases have been removed from the area.
-
 # 文档：Germ Sensor
 - 类别：automation_buildings
 - 标识：germ-sensor
 - 来源：wiki/Germ_Sensor
 
 Germ Sensor can be used to detect the germ count in the environment and take actions accordingly. You can select whether it activates if it is above or below the threshold. It only detects germs on the tile it is placed on.
-
 # 文档：Hammer
 - 类别：automation_buildings
 - 标识：hammer
@@ -17965,7 +16593,6 @@ Hammer is a cosmetic automation building that makes a sound according to the bui
 
 == Bugs ==
 * If the Hammer is off-camera and it gets activated, the visual effect that happens when the hammer is hitting a building, sometimes stays. However you won't hear anything and it is fixed as soon as you hover your mouse over it.
-
 # 文档：Hydro Sensor
 - 类别：automation_buildings
 - 标识：hydro-sensor
@@ -17980,7 +16607,6 @@ It must be submerged in liquid. It will not function properly in vacuum.
 * It can prevent liquids from overflowing a reservoir by turning off liquid producing buildings, or turning on/off a Liquid Shutoff.
 * Hydro sensors are helpful to prevent liquid overpressure or pump geyser-produced liquids only when during activity periods.
 * Hydro sensors are horrible as manual toggles, because the Signal Switch exists. Whoever disagrees with this is very foolish.
-
 # 文档：Light Sensor
 - 类别：automation_buildings
 - 标识：light-sensor
@@ -17989,7 +16615,6 @@ It must be submerged in liquid. It will not function properly in vacuum.
 The Light Sensor can be used to detect the ambient Light amount in the environment and take actions accordingly. You can select whether it activates if it is above or below the threshold. It only detects light in the tile it is placed on.
 
 == History ==
-
 # 文档：Liquid Element Sensor
 - 类别：automation_buildings
 - 标识：liquid-element-sensor
@@ -18003,7 +16628,6 @@ Since the Sensor cannot occupy the exact same tile as the Liquid Pump it is auto
 * Since Liquids tend to mix much less often than Gasses, the Hydro Sensor is typically better for automating liquid flow, such as turning off a pump when a Salt Water Vent is not erupting.
 
 == History ==
-
 # 文档：Memory Toggle
 - 类别：automation_buildings
 - 标识：memory-toggle
@@ -18018,20 +16642,11 @@ Memory Toggle is an Automation Building that takes in two inputs and produces an
 ! Output
 |-
 | style="background:red;" | Red
-| style="background:red;" | Red
 | unchanged
 |-
 | style="background:green;" | Green
-| style="background:red;" | Red
-| style="background:green;" | Green
 |-
-| style="background:red;" | Red
-| style="background:green;" | Green
-| style="background:red;" | Red
 |-
-| style="background:green;" | Green
-| style="background:green;" | Green
-| style="background:red;" | Red
 |}
 
 == Usage ==
@@ -18058,29 +16673,25 @@ Or it could be explained by below time sequence.
 ! Port !! colspan="5" | Time Sequence
 |-
 | Set
-| style="border-right:none;padding-right:0;background:red;" |<code>000</code>
-| style="border-left:none;padding-left:0;border-right:none;padding-right:0;background:green;" |<code>111</code>
-| style="border-left:none;padding-left:0;border-right:none;padding-right:0;background:red;" |<code>000</code>
-| style="border-left:none;padding-left:0;background:red;" colspan="2" |<code>000000</code>
+| style="border-right:none;padding-right:0;background:red;" |000
+| style="border-left:none;padding-left:0;border-right:none;padding-right:0;background:green;" |111
+| style="border-left:none;padding-left:0;border-right:none;padding-right:0;background:red;" |000
+| style="border-left:none;padding-left:0;background:red;" colspan="2" |000000
 |-
 | Reset
-| style="border-right:none;padding-right:0;background:red;" colspan="3" |<code>000000000</code>
-| style="border-left:none;padding-left:0;border-right:none;padding-right:0;background:green;" |<code>111</code>
-| style="border-left:none;padding-left:0;background:red;" |<code>000</code>
+| style="border-right:none;padding-right:0;background:red;" colspan="3" |000000000
+| style="border-left:none;padding-left:0;background:red;" |000
 |-
 | Output
-| style="border-right:none;padding-right:0;background:red;" |<code>000</code>
-| style="border-left:none;padding-left:0;border-right:none;padding-right:0;background:green;" colspan="2" |<code>111111</code>
-| style="border-left:none;padding-left:0;background:red;" colspan="2" |<code>000000</code>
+| style="border-left:none;padding-left:0;border-right:none;padding-right:0;background:green;" colspan="2" |111111
 |}
 
 == Automation Ribbon ==
-Memory Toggle's behavior to Automation Ribbon is same as Automation Wire activation. Generally interpreting 4-Bit Signal into 1-Bit Signal is only use first Bit - For example, when input is 4-Bit <span style="color:red">R</span><span style="color:green">GGG</span>, then it is interpreted as 1-Bit <span style="color:red">Red Signal</span>.
- 
+Memory Toggle's behavior to Automation Ribbon is same as Automation Wire activation. Generally interpreting 4-Bit Signal into 1-Bit Signal is only use first Bit - For example, when input is 4-Bit RGGG, then it is interpreted as 1-Bit Red Signal.
+
 == Tips ==
 * The Memory Toggle, like other Automation gates, can be placed behind buildings and tiles, as well as in the same space as pipes or wires.
 * Like the AND and OR gates, the fourth space on the Memory Toggle's graphic does nothing, and Automation Wires can cross freely in this space.
-
 # 文档：NOT Gate
 - 类别：automation_buildings
 - 标识：not-gate
@@ -18098,18 +16709,15 @@ NOT Gate will effectively reverse the behavior of buildings or sensors that outp
 | style="background:red;" | Red
 | style="background:green;" | Green
 |-
-| style="background:green;" | Green
-| style="background:red;" | Red
 |}
 
 == Automation Ribbon ==
-NOT Gate's behavior to Automation Ribbon is same as bitwise NOT - For example, when input is 4-Bit <span style="color:red">RR</span><span style="color:green">G</span><span style="color:red">R</span>, then its output is 4-Bit <span style="color:green">GG</span><span style="color:red">R</span><span style="color:green">G</span>.
+NOT Gate's behavior to Automation Ribbon is same as bitwise NOT - For example, when input is 4-Bit RRGR, then its output is 4-Bit GGRG.
 
 == Tips ==
 * The NOT Gate, like other Automation gates, can be placed behind buildings and tiles, as well as in the same space as pipes or wires.
 
 == History ==
-
 # 文档：OR Gate
 - 类别：automation_buildings
 - 标识：or-gate
@@ -18125,30 +16733,19 @@ OR Gate is an Automation Building that takes in two inputs and outputs Green whe
 ! Output
 |-
 | style="background:red;" | Red
-| style="background:red;" | Red
-| style="background:red;" | Red
-|-
-| style="background:red;" | Red
-| style="background:green;" | Green
-| style="background:green;" | Green
 |-
 | style="background:green;" | Green
-| style="background:red;" | Red
-| style="background:green;" | Green
 |-
-| style="background:green;" | Green
-| style="background:green;" | Green
-| style="background:green;" | Green
+|-
 |}
 
 == Automation Ribbon ==
-OR Gate's behavior to Automation Ribbon is same as bitwise OR - For example, when first input is 4-Bit <span style="color:red">RR</span><span style="color:green">GG</span> and second input is <span style="color:red">R</span><span style="color:green">G</span><span style="color:red">R</span><span style="color:green">G</span>, then its output is 4-Bit <span style="color:red">R</span><span style="color:green">GGG</span>.
+OR Gate's behavior to Automation Ribbon is same as bitwise OR - For example, when first input is 4-Bit RRGG and second input is RGRG, then its output is 4-Bit RGGG.
 
 == Tips ==
 * The OR Gate, like other Automation gates, can be placed behind buildings and tiles, as well as in the same space as pipes or wires.
 * Like the AND and XOR gates, the fourth space on the OR gate's graphic does nothing, and Automation Wires can cross freely through this space.
 * Useful for automating safety features, like turning on a Steam Turbine when a Steam room gets too hot, even if the Smart Battery that is also connected to the OR Gate is sending a Red signal.
-
 # 文档：Pixel Pack
 - 类别：automation_buildings
 - 标识：pixel-pack
@@ -18159,9 +16756,9 @@ Pixel Pack is a decorative item which has four one-tile-sized squares which can 
 As a Background Building, it does not occupy the space for purpose of blocking construction of most other buildings (with exception of tiles, doors, and other background buildings).
 
 The colors of each square in each state (on and off) can be customized separately using the Pixel Pack's interface (see pictures): A color can be selected from the palette by clicking, and then applied to a square by clicking the respective square in the desired state row, with the top row for the On state and the bottom row for Off. Additionally, three special function buttons can be used:
-: <div style="width: 2em;display:inline-block;text-align:center;margin-right:1.25em;" title="Up-pointing triangle">⯅</div> Copy the "Off" state colors into the "On" state
-: <div style="width: 2em;display:inline-block;text-align:center;margin-right:1.25em;" title="Clockwise rightwards and leftwards open circle arrows">🔁</div> Swap the "Off" and "On" states
-: <div style="width: 2em;display:inline-block;text-align:center;margin-right:1.25em;" title="Down-pointing triangle">⯆</div> Copy the "On" state colors into the "Off" state
+: ⯅ Copy the "Off" state colors into the "On" state
+: 🔁 Swap the "Off" and "On" states
+: ⯆ Copy the "On" state colors into the "Off" state
 
 frame||Pixel Pack UI in default state.
 
@@ -18171,7 +16768,6 @@ Pixel Packs are relatively cheap to build, won't block the space for most other 
 == History ==
 
 frame|left|Pixel Pack Palette UI in default state. Currently selected color is marked with black (white when black color) dot in middle, and any used colors are marked with a light-gray dot in middle.
-
 # 文档：Ribbon Reader
 - 类别：automation_buildings
 - 标识：ribbon-reader
@@ -18188,7 +16784,6 @@ Ribbon Reader can be used for analyzing which Bit is overloaded to Automation Wi
 * The Ribbon Reader can have its input connected to an Automation Wire, and will treat the input as Bit 1 of a Ribbon. This is fairly pointless but is one option for delaying a signal by 1 automation tick.
 
 == History ==
-
 # 文档：Ribbon Writer
 - 类别：automation_buildings
 - 标识：ribbon-writer
@@ -18203,7 +16798,6 @@ Ribbon Writer is an Automation Building which writes Bit to Automation Ribbon.
 * A Ribbon Writer can be joined directly to an ordinary Automation Wire, but if a green signal is sent on any but "bit 1" it will cause overload damage to the connected automation circuit, with similar mechanics to overload damage in a power circuit. This can be used to create a "repair gym" but is otherwise fairly pointless.
 
 == History ==
-
 # 文档：Signal Counter
 - 类别：automation_buildings
 - 标识：signal-counter
@@ -18213,23 +16807,22 @@ Signal Counter is an automation building that displays a number between 0 to 9. 
 
 Normal Mode:
 
-In Normal mode, the signal counter will count pulses until it reaches a specified number selected in its setting (default 10). Once it does the counter will send a green signal on its output until another pulse is detected on its input. At this time the display will read the threshold value until the next signal pulse is received. When it is received, the output will emit a red signal and the display will revert to 1. Using the default threshold value of 10, this means the counter essentially counts from 0-10 on its first cycle. Then 1-10(N) on following cycles. 
+In Normal mode, the signal counter will count pulses until it reaches a specified number selected in its setting (default 10). Once it does the counter will send a green signal on its output until another pulse is detected on its input. At this time the display will read the threshold value until the next signal pulse is received. When it is received, the output will emit a red signal and the display will revert to 1. Using the default threshold value of 10, this means the counter essentially counts from 0-10 on its first cycle. Then 1-10(N) on following cycles.
 
 Advanced Mode:
 
-In Advanced Mode, the signal counter will count pulses until it reaches the number selected in its settings (default 10). However, unlike normal mode, the number displayed will instantly change to 0. Additionally the output of the signal counter will only emit a brief pulse of green instead of actually holding the signal until the next pulse arrives. Using the default threshold value of 10, this means the counter essentially counts from 0-9(N) on every cycle. 
+In Advanced Mode, the signal counter will count pulses until it reaches the number selected in its settings (default 10). However, unlike normal mode, the number displayed will instantly change to 0. Additionally the output of the signal counter will only emit a brief pulse of green instead of actually holding the signal until the next pulse arrives. Using the default threshold value of 10, this means the counter essentially counts from 0-9(N) on every cycle.
 
 left|thumbMultiple counters can be chained together to display a larger number. This is done by connecting the output of one counter to the input of another. Rotating the counter will not change the rotation of the number. You need to place them normal -> upside down -> normal -> upside down in that order.
 
 ↵ Example of counters chained together.
 
-The timer sensor serves as the input signal pulse received. It could be any signal so long as its prone to pulses. 
+The timer sensor serves as the input signal pulse received. It could be any signal so long as its prone to pulses.
 
 The Signal Switch here provides a means of resetting the count back to 0 simultaneously. Again this could be replaced with anything. The counters will not count so long as this is set with a green signal.
 none|thumb|511x511px
 
 == History ==
-
 # 文档：Signal Distributor
 - 类别：automation_buildings
 - 标识：signal-distributor
@@ -18243,7 +16836,7 @@ The Signal Distributor has three inputs.
 * Most Significant Control (MSC) - directly opposite the input Signal and tied to the highest point of the triangle on the component
 * Least Significant Control (LSC) - next to the MSC and in the middle of the triangle on the component
 
-The Input Signal will be sent to one and only one of the four output ports. The remaining output ports will be sent a <span style="color:red">red</span> signal. The highest numbered output (3) is the one closest to the input signal. The outputs are in sequential order
+The Input Signal will be sent to one and only one of the four output ports. The remaining output ports will be sent a red signal. The highest numbered output (3) is the one closest to the input signal. The outputs are in sequential order
 with the lowest numbered output (0) furthest from the input signal and next to the LSC input.
 
 == Truth Table ==
@@ -18256,37 +16849,18 @@ with the lowest numbered output (0) furthest from the input signal and next to t
 ! Output 0
 |-
 | style="background:red;" | Red
-| style="background:red;" | Red
-| style="background:red;" | Red
-| style="background:red;" | Red
-| style="background:red;" | Red
 | Input Signal
 |-
-| style="background:red;" | Red
 | style="background:green;" | Green
-| style="background:red;" | Red
-| style="background:red;" | Red
 | Input Signal
-| style="background:red;" | Red
 |-
-| style="background:green;" | Green
-| style="background:red;" | Red
-| style="background:red;" | Red
 | Input Signal
-| style="background:red;" | Red
-| style="background:red;" | Red
 |-
-| style="background:green;" | Green
-| style="background:green;" | Green
 | Input Signal
-| style="background:red;" | Red
-| style="background:red;" | Red
-| style="background:red;" | Red
 |}
 
 == See Also ==
 * Signal Selector
-
 # 文档：Signal Selector
 - 类别：automation_buildings
 - 标识：signal-selector
@@ -18295,11 +16869,10 @@ with the lowest numbered output (0) furthest from the input signal and next to t
 Signal Selector is an [https://en.wikipedia.org/wiki/Multiplexer Multiplexer] Automation Building which can send multiple signals through a single channel with a Signal Distributor.
 
 == Automation Ribbon ==
-The Signal Selector's Control Input behavior to Automation Ribbon is little weird, as its graphic input uses general interpretation (only uses the first Bit), but the actual interpretation is interpreted as every Bit is passed through OR Gate when Signal Selector's Control Input is 4-Bit - For example, when 4-Bit input is <span style="color:red">RR</span><span style="color:green">GG</span>, then it's graphically interpreted as 1-Bit <span style="color:red">Red Signal</span> and actually interpreted as 1-Bit <span style="color:green">Green Signal</span>.
+The Signal Selector's Control Input behavior to Automation Ribbon is little weird, as its graphic input uses general interpretation (only uses the first Bit), but the actual interpretation is interpreted as every Bit is passed through OR Gate when Signal Selector's Control Input is 4-Bit - For example, when 4-Bit input is RRGG, then it's graphically interpreted as 1-Bit Red Signal and actually interpreted as 1-Bit Green Signal.
 
 == See Also ==
 * Signal Distributor
-
 # 文档：Signal Switch
 - 类别：automation_buildings
 - 标识：signal-switch
@@ -18315,14 +16888,13 @@ thumb|Signal Switch toggled Off.
 * Signal Switches are simpler to use than automation sensors as the only choices are on/enabled/green or off/disabled/red.
 
 == History ==
-
 # 文档：Space Scanner
 - 类别：automation_buildings
 - 标识：space-scanner
 - 来源：wiki/Space_Scanner
 
 .png
-| description = Sends a <span style="color:green">Green Signal</span> to its automation circuit when it detects incoming objects from space. Can be configured to detect incoming meteor showers or returning space rockets.
+| description = Sends a Green Signal to its automation circuit when it detects incoming objects from space. Can be configured to detect incoming meteor showers or returning space rockets.
 | flavorText = Networks of many scanners will scan more efficiently than one on its own.
 | research = Celestial Detection
 | contentSO = no
@@ -18340,7 +16912,7 @@ thumb|Signal Switch toggled Off.
 
 Space Scanner is a building that can detect incoming Meteor Showers or Rockets. It sends a Green automation signal when the target is detected, and the little screen at the bottom turns red. The Green automation signal will persist through the entirety of a meteor shower (or until the rocket has fully landed), even if the Space Scanner loses line of sight to the sky. Once the meteor shower has finished, the Space Scanner will require line of sight to the sky once again.
 
-You can also build the scanner completely under ground, so that it never has sky access - it will be sending green signal only during the meteor shower. 
+You can also build the scanner completely under ground, so that it never has sky access - it will be sending green signal only during the meteor shower.
 
 Light blocking tiles within the range of space scanners decrease their Detector Network Quality, and can delay the detection time.
 
@@ -18351,7 +16923,8 @@ The scanner has no overheat temperature so it won't be affected by being covered
 The space scanner was significantly reworked in update 561558. Major changes include removing the restrictions on near-by industrial machinery. In addition, scanners no longer have individual listed network quality, only the shared "Detector Network Quality".
 
 == Details ==
-thumb|400px|Example of minimal space required for maximum quality.<br>(15 tiles to the left, 13 tiles to the right)''<u>NOTE</u>: The following information is likely inaccurate following update 561558, in which the sky-detection systems for the space scanner, telescope, and meteor blaster were re-worked.
+thumb|400px|Example of minimal space required for maximum quality.
+(15 tiles to the left, 13 tiles to the right)''NOTE: The following information is likely inaccurate following update 561558, in which the sky-detection systems for the space scanner, telescope, and meteor blaster were re-worked.
 *Scan Quality is affected by its view of the sky as well as nearby machines. For maximum quality, the scanner must:
 ** Have the center tile exposed to the sky (above the bottom left corner of the scanner). [+6.7%]
 ** Have 13 to 15 tiles exposed to the sky on both sides in a V shape centered on the center tile, for a total of 28 tiles. This does not include tiles above the build limit. [+3.3% Collectively for each successive tile, calculated from center and not passing any blocked tile]
@@ -18374,7 +16947,6 @@ thumb|400px|Example of minimal space required for maximum quality.<br>(15 tiles 
 == Bugs ==
 * Rockets will not appear on the scanner's list of objects to detect immediately and it is unclear when it actually happens. Reloading the game should resolve it.
 * The scanner detecting a rocket will send a green signal for a few seconds while the rocket is launching.
-
 # 文档：Thermo Sensor
 - 类别：automation_buildings
 - 标识：thermo-sensor
@@ -18390,7 +16962,6 @@ If placed in a vacuum, it will read absolute zero. It will not read the temperat
 *Enable/Disable Space Heater in a room at a desired temperature (usable in Drecko farms for example).
 
 == History ==
-
 # 文档：Timer Sensor
 - 类别：automation_buildings
 - 标识：timer-sensor
@@ -18410,7 +16981,6 @@ Timer Sensor is same as Cycle Sensor except it has own cycle that can be modifie
 * Cycle Sensor
 
 == History ==
-
 # 文档：Wattage Sensor
 - 类别：automation_buildings
 - 标识：wattage-sensor
@@ -18420,15 +16990,14 @@ Wattage Sensor can be used to detect wattage consumed at wire and take actions a
 
 == Bugs ==
 * The Wattage Sensor seems to have some problem when you set it, equal as Zero for value.
-
 # 文档：Weight Plate
 - 类别：automation_buildings
 - 标识：weight-plate
 - 来源：wiki/Weight_Plate
 
-Weight Plate is an Automation building that outputs a Green/Red signal to automation grids. The signal changes when an item (e.g. solid debris), critter (including Slicksters) or Duplicant of sufficient weight is placed on it. 
+Weight Plate is an Automation building that outputs a Green/Red signal to automation grids. The signal changes when an item (e.g. solid debris), critter (including Slicksters) or Duplicant of sufficient weight is placed on it.
 
-To provide a signal it must be connected to buildings by Automation Wire. 
+To provide a signal it must be connected to buildings by Automation Wire.
 
 A Weight Plate compares pressure to the set threshold. You can select whether it activates if it is above or below that threshold.
 
@@ -18441,7 +17010,6 @@ Pressure threshold is between 0 kg and 2000 kg.
 == Tips ==
 * The mass of critters can be looked up in their parameters tab. A Duplicant, for example, has mass of 30 kg.
 * It cannot detect the mass of buildings in the tile above it. For example it cannot detect the mass of rocket engine above it.
-
 # 文档：XOR Gate
 - 类别：automation_buildings
 - 标识：xor-gate
@@ -18456,31 +17024,20 @@ XOR Gate is an Automation Building that takes in two inputs and will output a Gr
 ! Output
 |-
 | style="background:red;" | Red
-| style="background:red;" | Red
-| style="background:red;" | Red
-|-
-| style="background:red;" | Red
-| style="background:green;" | Green
-| style="background:green;" | Green
 |-
 | style="background:green;" | Green
-| style="background:red;" | Red
-| style="background:green;" | Green
 |-
-| style="background:green;" | Green
-| style="background:green;" | Green
-| style="background:red;" | Red
+|-
 |}
 
 == Automation Ribbon ==
-XOR Gate's behavior to Automation Ribbon is same as bitwise XOR - For example, when first input is 4-Bit <span style="color:red">RR</span><span style="color:green">GG</span> and second input is <span style="color:red">R</span><span style="color:green">G</span><span style="color:red">R</span><span style="color:green">G</span>, then its output is 4-Bit <span style="color:red">R</span><span style="color:green">GG</span><span style="color:red">R</span>.
+XOR Gate's behavior to Automation Ribbon is same as bitwise XOR - For example, when first input is 4-Bit RRGG and second input is RGRG, then its output is 4-Bit RGGR.
 
 == Tips ==
 * The XOR Gate, like other Automation gates, can be placed behind buildings and tiles, as well as in the same space as pipes or wires.
 * Like the AND and OR gates, the fourth space on the XOR gate's graphic does nothing, and Automation Wires can cross freely in this space.
 ## AUTOMATION_GATES
 共 1 篇文档
-
 # 文档：Logic gates
 - 类别：automation_gates
 - 标识：logic-gates
@@ -18493,29 +17050,29 @@ Logic Gates are Automation buildings that take one ore more Automation Wire inpu
 ! Name
 ! Usage
 |-
-| 
-| Outputs a <span style="color:green">Green Signal</span> if both inputs are <span style="color:green">Green</span>. <span style="opacity:50%">(Otherwise outputs a <span style="color:red">Red Signal</span>.)</span>
+|
+| Outputs a Green Signal if both inputs are Green. (Otherwise outputs a Red Signal.)
 |-
-| 
-| Outputs a <span style="color:green">Green Signal</span> if at least one of the input signals is <span style="color:green">Green</span>. <span style="opacity:50%">(Otherwise outputs a <span style="color:red">Red Signal</span>.)</span>
+|
+| Outputs a Green Signal if at least one of the input signals is Green. (Otherwise outputs a Red Signal.)
 |-
-| 
-| Outputs a <span style="color:green">Green Signal</span> if exactly one of the inputs is <span style="color:green">Green</span>. <span style="opacity:50%">(Otherwise outputs a <span style="color:red">Red Signal</span>.)</span>
+|
+| Outputs a Green Signal if exactly one of the inputs is Green. (Otherwise outputs a Red Signal.)
 |-
-| 
-| Outputs a <span style="color:green">Green Signal</span> if the input is <span style="color:red">Red</span>. (Otherwise outputs a <span style="color:red">Red Signal</span>.)
+|
+| Outputs a Green Signal if the input is Red. (Otherwise outputs a Red Signal.)
 |-
-| 
-| Outputs a <span style="color:green">Green Signal</span> if the input signal is <span style="color:green">Green</span> and keeps sending a <span style="color:green">Green Signal</span> for a given amount of time when the input turns <span style="color:red">Red</span>.
+|
+| Outputs a Green Signal if the input signal is Green and keeps sending a Green Signal for a given amount of time when the input turns Red.
 |-
-| 
-| Outputs a <span style="color:green">Green Signal</span> if the input signal has been <span style="color:green">Green</span> for a given amount of time. <span style="opacity:50%">(Otherwise outputs a <span style="color:red">Red Signal</span>.)</span>
+|
+| Outputs a Green Signal if the input signal has been Green for a given amount of time. (Otherwise outputs a Red Signal.)
 |-
-| 
-| Outputs a <span style="color:green">Green Signal</span> signal if the Set port (input) receives a <span style="color:green">Green Signal</span> until the Reset port receives a <span style="color:green">Green Signal</span>.
+|
+| Outputs a Green Signal signal if the Set port (input) receives a Green Signal until the Reset port receives a Green Signal.
 |-
-| 
-| Outputs a <span style="color:green">Green Signal</span> if it has received a number of <span style="color:green">Green Signals</span> divisible by a given amount between 0 and 9.
+|
+| Outputs a Green Signal if it has received a number of Green Signals divisible by a given amount between 0 and 9.
 |}
 
 == Tips ==
@@ -18525,7 +17082,6 @@ Logic Gates are Automation buildings that take one ore more Automation Wire inpu
 * Gates can be built behind other buildings, which will be helpful if you want to hide the negative decor.
 ## AUTOMATION_SENSORS
 共 7 篇文档
-
 # 文档：Sensors
 - 类别：automation_sensors
 - 标识：sensors
@@ -18540,18 +17096,16 @@ Sensors are the way that buildings can be made to interact with the environment 
 |-
 |style="text-align:center; vertical-align:top; width:33%"|
 === Liquid Pipe Sensors ===
-These sensors interact with<br> the contents of a liquid pipe.
+These sensors interact with
+ the contents of a liquid pipe.
 
-|style="text-align:center; vertical-align:top; width:33%"|
 === Gas Pipe Sensors ===
-These sensors interact with<br> the contents of a gas pipe.
+ the contents of a gas pipe.
 
-|style="text-align:center; vertical-align:top; width:33%"|
 === Conveyor Sensors ===
-These sensors interact with<br> the contents of a Conveyor Rail.
+ the contents of a Conveyor Rail.
 
 |}
-
 # 文档：Gas Pipe Element Sensor
 - 类别：automation_sensors
 - 标识：gas-pipe-element-sensor
@@ -18563,7 +17117,6 @@ If the gas pipe is empty, it outputs a Red signal.
 
 == Usage ==
 Gas Pipe Element Sensor combined with Gas Shutoff can serve as alternative to Gas Filter, that consumes less power (10 W vs. 120 W). See Guide/Loop Filters.
-
 # 文档：Gas Pipe Germ Sensor
 - 类别：automation_sensors
 - 标识：gas-pipe-germ-sensor
@@ -18571,14 +17124,13 @@ Gas Pipe Element Sensor combined with Gas Shutoff can serve as alternative to Ga
 
 Gas Pipe Germ Sensor can detect a specific amount of germs in a gas pipe and send an automation signal accordingly.
 
-It has a count threshold and can be configured as either below or above this threshold. 
+It has a count threshold and can be configured as either below or above this threshold.
 
-If the pipe segment is empty, the sensor retains the previous value. 
+If the pipe segment is empty, the sensor retains the previous value.
 
 It is useful to detect germs in oxygen supplies in order to ensure contamination.
 
 Sensor will perform while entombed or submerged.
-
 # 文档：Gas Pipe Thermo Sensor
 - 类别：automation_sensors
 - 标识：gas-pipe-thermo-sensor
@@ -18591,7 +17143,6 @@ The thermo sensor has a setting for temperature and can be configured as either 
 If the pipe segment is empty, the sensor retains the previous value.
 
 == History ==
-
 # 文档：Liquid Pipe Element Sensor
 - 类别：automation_sensors
 - 标识：liquid-pipe-element-sensor
@@ -18603,7 +17154,6 @@ If the liquid pipe is empty, it outputs a Red signal.
 
 == Usage ==
 Liquid Pipe Element Sensor combined with Liquid Shutoff works just as Liquid Filter, but consumes less power (10 W vs. 120 W).
-
 # 文档：Liquid Pipe Germ Sensor
 - 类别：automation_sensors
 - 标识：liquid-pipe-germ-sensor
@@ -18625,7 +17175,6 @@ Sensor will perform while entombed or submerged.
 * Note that contaminated water is not the same as polluted water. Contaminated water contains germs and may be polluted. Polluted water might not be contaminated.
 
 * Melting this sensor will result in 75kg of Refined Metal, effectively converting 50kg of Plastic into 50kg of Refined Metal.
-
 # 文档：Liquid Pipe Thermo Sensor
 - 类别：automation_sensors
 - 标识：liquid-pipe-thermo-sensor
@@ -18640,7 +17189,6 @@ If the pipe segment is empty, the sensor retains the previous value.
 == History ==
 ## PLUMBING_BUILDINGS
 共 20 篇文档
-
 # 文档：Bottle Emptier
 - 类别：plumbing_buildings
 - 标识：bottle-emptier
@@ -18664,7 +17212,6 @@ The Bottle Emptier can empty a bottle of 200 kg liquid at most at one time. Dupl
 The Bottle Emptier can be completely submerged and still function without issue.
 
 == History ==
-
 # 文档：Conduction Panel
 - 类别：plumbing_buildings
 - 标识：conduction-panel
@@ -18695,11 +17242,9 @@ A Conduction Panel will exchange heat with a Thermo Sensor as it would with any 
 === Pipe Contents ===
 
 For heat exchange with pipe contents, the conduction panel controls liquid flow in pipes as follows:
-
 # acquires pipe contents at its input port
 # exchanges heat with pipe contents
 # releases pipe liquids at its output port
-
 The heat exchange between the conduction panel and pipe contents is similar to heat exchange between pipes and their stored contents. However, if the heat exchange causes the pipe contents to phase change (i.e. freeze or vaporize), then the output pipe will break and eject the product at the output pipe cell.
 
 === Entities ===
@@ -18723,7 +17268,6 @@ The conduction panel does not exchange heat with entities (e.g. critters, debris
 == History ==
 
 == References ==
-
 # 文档：Insulated Liquid Pipe
 - 类别：plumbing_buildings
 - 标识：insulated-liquid-pipe
@@ -18743,7 +17287,6 @@ Igneous Rock and Ceramic are the best materials to use. You may want to save Ins
 == Tips ==
 
 * To save more Insulation, use Liquid Bridge which does not heat exchange with contents.
-
 # 文档：Lavatory
 - 类别：plumbing_buildings
 - 标识：lavatory
@@ -18783,7 +17326,6 @@ One use of the Lavatory produces 105,000 Food Poisoning germs. These germs are d
 
 *Outhouse
 *Wall Toilet
-
 # 文档：Liquid Bridge
 - 类别：plumbing_buildings
 - 标识：liquid-bridge
@@ -18794,17 +17336,16 @@ Liquid Bridge is used to avoid two separate liquid pipelines from touching so th
 The Liquid Bridge does not hold liquid in it at all, but instead "teleports" liquid from its input to its output as long as there is liquid under its input, and there is either no liquid, or a liquid of the same type under its output. If liquid under the output is of the same type as liquid under the input, the bridge will "stack" the liquid from the input until the packet is a full 10kg.
 
 == Usage ==
-Liquid can flow only in one direction through this, white to green. 
+Liquid can flow only in one direction through this, white to green.
 
 == Tips ==
-* Use the O key to rotate the bridge before placing it. 
+* Use the O key to rotate the bridge before placing it.
 * If you're not sure of direction look for the arrow on the center of the Bridge.
 * The Liquid Bridge will not leak when the bridge is deconstructed.
 * Liquid does not exchange heat with the bridge it flows through, but the bridge itself can transfer heat from the environment, so insulating materials should be used when placing a bridge across the walls of, say, a steam chamber.
 * There are several Tricks that are possible with Liquid Bridges:
 ** If another output pipe is connected at the Bridge's input, the liquid will exclusively flow through the Bridge until its output is full. This is unlike the normal branching where it's split 50/50.
 ** Conversely, if another input pipe is connected at the Bridge's output, the liquid from the Bridge will be blocked until the other input pipe is empty.
-
 # 文档：Liquid Filter
 - 类别：plumbing_buildings
 - 标识：liquid-filter
@@ -18812,7 +17353,7 @@ Liquid can flow only in one direction through this, white to green.
 
 Liquid Filter removes the selected Liquid out of a stream of an inbound liquid mixture, sending it into a separate, filtered output Pipe.
 
-It works the same way as its Gas Counterpart, essentially "teleporting" packet of liquids to their respective output. 
+It works the same way as its Gas Counterpart, essentially "teleporting" packet of liquids to their respective output.
 
 == Usage ==
 In order to use a Liquid Filter, just connect it to Liquid Pipes and a Wire. Once it is constructed, a filter can be selected immediately.
@@ -18826,7 +17367,6 @@ For further usage examples and alternatives, see Gas Filter.
 
 == Trivia ==
 * The Liquid Filter model resembles a [https://en.wikipedia.org/wiki/Francis_turbine Francis Turbine], a type of water turbine.
-
 # 文档：Liquid Meter Valve
 - 类别：plumbing_buildings
 - 标识：liquid-meter-valve
@@ -18843,7 +17383,6 @@ A liquid meter has a limit setting:
 === See Also ===
 * Gas Meter Valve
 * Conveyor Meter
-
 # 文档：Liquid Pipe
 - 类别：plumbing_buildings
 - 标识：liquid-pipe
@@ -18852,7 +17391,7 @@ A liquid meter has a limit setting:
 Liquid Pipe transports liquid between building intakes and outputs.
 
 == Capacity ==
-Each liquid pipe segment can hold 10 kg of liquid. The pipe system updates once per second, and a "packet" of fluid can move from one section of pipe to another in that time. As such, the maximum throughput for a single pipeline is 10 kg/s. 
+Each liquid pipe segment can hold 10 kg of liquid. The pipe system updates once per second, and a "packet" of fluid can move from one section of pipe to another in that time. As such, the maximum throughput for a single pipeline is 10 kg/s.
 
 For reference, a single Carbon Skimmer outputs a maximum of 1000 g/s (1 kg/s) of Polluted Water, meaning that at most 10 Carbon Skimmers can share a single pipe or Liquid Vent without risking holdup. Serving 11 or more will require two parallel liquid pipes to maintain a constant flow.
 
@@ -18868,7 +17407,6 @@ Note that a liquid pipe segment does not exchange heat with nearby segments.
 * Avoid having fluids in pipes change phase (either to gas or to solid), as this will damage the pipes. Damage can be prevented by decreasing the packet size to 1/10 (1 kg).
 * Building pipes in natural ground blocks will mine those ground blocks.
 * Note that the regular pipe variety has no decor penalty, unlike the radiant and insulated varieties.
-
 # 文档：Liquid Pump
 - 类别：plumbing_buildings
 - 标识：liquid-pump
@@ -18881,16 +17419,15 @@ The liquid pump is needed to input liquids into your piping system. It can be us
 
 In order to empty a Liquid area, place a liquid pump on the absolute bottom. You can also place the pump higher if you wish to use the liquid only (e.g. if you already have a small reserve). It can be used at the top of a reservoir as a fail-safe in case the reservoir exceeds its maximum capacity; be aware the limited speed of the Pump does not make it 100% catastrophe-proof.
 
-Liquid Pumps need a good amount of Power to function, so it is best to use the least possible amount of them. If you need to transfer Liquids from a reservoir to another, doing it with the use of gravity will save a lot of power and time. 
+Liquid Pumps need a good amount of Power to function, so it is best to use the least possible amount of them. If you need to transfer Liquids from a reservoir to another, doing it with the use of gravity will save a lot of power and time.
 
 If the pump is deconstructed, all its content will drop on the ground in the form of bottled liquid.
 
 == Tips ==
-* The Liquid Pump has a base overheat temperature of 75 &deg;C and will overheat when pumping Crude Oil in Oil Biome. Use Gold Amalgam to increase the overheat temperature from 75 &deg;C to 125 &deg;C.
-** Use Steel to increase it to 275 &deg;C.
+* The Liquid Pump has a base overheat temperature of 75 °C and will overheat when pumping Crude Oil in Oil Biome. Use Gold Amalgam to increase the overheat temperature from 75 °C to 125 °C.
+** Use Steel to increase it to 275 °C.
 * Unlike many other buildings, Liquid Pumps do not require tiles underneath for support, and can be built in mid-air (or mid-liquid).
 * The pump range of Liquid Pump and Mini Liquid Pump does not match the building area. It means it is possible to  pump superhot liquids without causing overheating in a Vacuum environment.
-
 # 文档：Liquid Rocket Port Loader
 - 类别：plumbing_buildings
 - 标识：liquid-rocket-port-loader
@@ -18908,7 +17445,6 @@ Large Liquid Fuel Tank cannot be loaded using this building.
 * Liquid Cargo Tank
 * Large Liquid Cargo Tank
 * Rocketry in Spaced Out
-
 # 文档：Liquid Rocket Port Unloader
 - 类别：plumbing_buildings
 - 标识：liquid-rocket-port-unloader
@@ -18924,7 +17460,6 @@ Automatically links when built to the side of a Rocket Platform or another Rocke
 * Liquid Cargo Tank
 * Large Liquid Cargo Tank
 * Rocketry in Spaced Out
-
 # 文档：Liquid Shutoff
 - 类别：plumbing_buildings
 - 标识：liquid-shutoff
@@ -18939,7 +17474,6 @@ Liquids cannot pass through the building if it is not powered.
 == Tips ==
 * Unlike Liquid Valve it will not merge the liquid on the output tile.
 * NOT Gate can be used to run it continuously.
-
 # 文档：Liquid Valve
 - 类别：plumbing_buildings
 - 标识：liquid-valve
@@ -18957,22 +17491,20 @@ A valid flow setting is rounded the first decimal place and has the following li
 * the minimum, nonzero flow is 0.1 g/s (100 mg/s).
 
 Switching the volume setting of Liquid Valve requires Duplicant operation, and takes some time.
-
 # 文档：Liquid Vent
 - 类别：plumbing_buildings
 - 标识：liquid-vent
 - 来源：wiki/Liquid_Vent
 
-Liquid Vent is a Plumbing building that releases liquids from the connected Liquid Pipe. 
+Liquid Vent is a Plumbing building that releases liquids from the connected Liquid Pipe.
 
 It will stop working if the pressure in the surrounding tile reaches 1000 kg.
 
 == Tips ==
-* When dispensing liquid, germs present in it will transfer over onto the surface of the vent but they die off over time, so it is best to disable disinfection of the vent to not generate unnecessary errands. 
+* When dispensing liquid, germs present in it will transfer over onto the surface of the vent but they die off over time, so it is best to disable disinfection of the vent to not generate unnecessary errands.
 
 == Trivia ==
 * Even though a High Pressure Gas Vent exists, there is no Liquid Vent equivalent.
-
 # 文档：Mini Liquid Pump
 - 类别：plumbing_buildings
 - 标识：mini-liquid-pump
@@ -18986,11 +17518,10 @@ It uses a fourth of the power of the Liquid Pump and pumps out one tenth of the 
 
 * The Mini Liquid Pump uses four times less power than the Liquid Pump and is half the size, making it more space and energy efficient overall.
 * Mini Liquid Pump is made of plastic which melts to naphtha at ~160 °C so avoid using it in high temperature environments.
-** However with the DLC, the pump can be made of Plastium which melts at 1826.9C and adds +900C overheat capacity, making it suitable for really hot environments 
+** However with the DLC, the pump can be made of Plastium which melts at 1826.9C and adds +900C overheat capacity, making it suitable for really hot environments
 * The pump range of Mini Liquid Pump and Liquid Pump does not match the building area. It means it is possible to pump superhot liquids without causing overheating in a Vacuum environment.
 
 == History ==
-
 # 文档：Outhouse
 - 类别：plumbing_buildings
 - 标识：outhouse
@@ -19003,7 +17534,7 @@ The Outhouse is a simple way to provide a place for Duplicants to relieve themse
 
 It also fulfills the 'Toilet' criteria for the Latrine in the Room Overlay, which provides a +1 Morale bonus.
 
-It also fulfills the 'Toilet' criteria for the Hospital room. 
+It also fulfills the 'Toilet' criteria for the Hospital room.
 
 Note the Washroom does not allow having an Outhouse in it.
 
@@ -19028,7 +17559,6 @@ thumb|Outhouse being cleaned by a Duplicant.
 ==See Also==
 *Lavatory
 *Wall Toilet
-
 # 文档：Pitcher Pump
 - 类别：plumbing_buildings
 - 标识：pitcher-pump
@@ -19036,7 +17566,7 @@ thumb|Outhouse being cleaned by a Duplicant.
 
 Pitcher Pump pumps Liquid below it into bottles for transport. Duplicants can only carry bottled liquids. A Liquid Bottler is required to supply buildings that require liquids, but do not have piping intakes.
 
-The building itself is 2 tiles wide and 4 tiles tall. The building will automatically expand up to 4 tiles deep into the liquid below the pump. The bottler can't expand into foreground buildings, such as Liquid Pumps or Ladders. 
+The building itself is 2 tiles wide and 4 tiles tall. The building will automatically expand up to 4 tiles deep into the liquid below the pump. The bottler can't expand into foreground buildings, such as Liquid Pumps or Ladders.
 
 Hovering over it with the mouse displays how much liquid is accessible. This includes only the tiles actually within the pump's reach (maximum 2 x 5 tiles). When the pump is in a larger pool, the actual available amount is obviously much larger, since liquid from the surrounding pool will keep flowing in.
 
@@ -19066,7 +17596,6 @@ Buildings that require Duplicants to deliver bottled Water or other liquid:
 * Pitcher Pump cannot flood, and can be used even while completely submerged.
 
 == History ==
-
 # 文档：Radiant Liquid Pipe
 - 类别：plumbing_buildings
 - 标识：radiant-liquid-pipe
@@ -19079,11 +17608,13 @@ The Radiant Liquid Pipe doubles the thermal conductivity of the building materia
 
 {| class="wikitable sortable" style="text-align:center"
 |-
-! Material !! Thermal Conductivity<br>of Material !! Thermal Conductivity<br>of Radiant Pipe
+! Material !! Thermal Conductivity
+of Material !! Thermal Conductivity
+of Radiant Pipe
 !Melting Point
 [°C]
 |-
-| Aluminum || 205 || 410 
+| Aluminum || 205 || 410
 |660.3
 |-
 |Cobalt
@@ -19115,7 +17646,6 @@ The Radiant Liquid Pipe doubles the thermal conductivity of the building materia
 | Tungsten || 60 || 120
 |3421.85
 |}
-
 # 文档：Shower
 - 类别：plumbing_buildings
 - 标识：shower
@@ -19138,7 +17668,6 @@ Both Sinks and Showers produce the same amount of Polluted Water for the amount 
 
 == History ==
 * Until the Rocketry Upgrade, Showers were largely pointless since Sinks are faster for removing Germs and the "Grimy" effect was negligible. After the Rocketry Upgrade, Showers grant +3 Morale temporarily.
-
 # 文档：Wall Toilet
 - 类别：plumbing_buildings
 - 标识：wall-toilet
@@ -19181,7 +17710,6 @@ One use of the Wall Toilet produces 120,000 Food Poisoning germs. These germs ar
 *Lavatory
 ## VENTILATION_BUILDINGS
 共 16 篇文档
-
 # 文档：Canister Emptier
 - 类别：ventilation_buildings
 - 标识：canister-emptier
@@ -19198,7 +17726,6 @@ It seems that there is no maximum pressure limit to release the gas, what togeth
 
 == See Also ==
 * Canister Filler
-
 # 文档：Canister Filler
 - 类别：ventilation_buildings
 - 标识：canister-filler
@@ -19218,7 +17745,6 @@ The gas canisters cannot be placed in storage, and they can only be removed from
 * Plumbers can extract pipe's content of both types into transportable containers, however, this task has to be canceled or it will produce excess containers.
 
 == History ==
-
 # 文档：Gas Bridge
 - 类别：ventilation_buildings
 - 标识：gas-bridge
@@ -19231,17 +17757,16 @@ Allows you to manipulate a system that has multiple input and outputs. As the br
 If it is used at an intersection, where one pipe (source) is joined with a bridge (input) and a regular section of pipe (also input) all on the same tile, the game will prefer supplying the bridge with gas before the pipe. This allows you to direct the flow in a preferred direction and have the excess, should that other section become full, go to a sink of your choice, such as a vent.
 
 == Tips ==
-* The flow always goes from white (input) to green (output). 
-* Press the O key to rotate the bridge before placing it. 
+* The flow always goes from white (input) to green (output).
+* Press the O key to rotate the bridge before placing it.
 * If not sure of its direction, look for the arrow on the center of bridge.
 * Gas Bridge does not hold gas in it at all; Gas does not exchange heat with bridge it flows and will not leak when the bridge is deconstructed.
-* There are several Tricks that are possible with Gas Bridges: 
+* There are several Tricks that are possible with Gas Bridges:
 ** If another output pipe is connected at the Bridge's input, the gas will exclusively flow through the Bridge until its output is full. This is unlike the normal branching where it's split 50/50.
 ** Conversely, if another input pipe is connected at the Bridge's output, the gas from the Bridge will be blocked until the other input pipe is empty.
 
 == External links ==
 * [https://forums.kleientertainment.com/forums/topic/102326-pipes-bridges-priority-cheat-sheet/ Gas bridge priority forum post (succient image summary)]
-
 # 文档：Gas Filter
 - 类别：ventilation_buildings
 - 标识：gas-filter
@@ -19250,7 +17775,7 @@ If it is used at an intersection, where one pipe (source) is joined with a bridg
 Gas Filter sieves the selected Gas packets out of mixed input, sending them into a separate pipe.
 
 == Usage ==
-Gas Filter has 2 outputs, the standard green output and another orange output in the center. The orange output is for the gas that was selected to be filtered out, and the green is for all the other gases that come through the filter. For example, using a Gas Pump, you may send the mixture of gases produced by an Electrolyzer into the gas filter and send Hydrogen to a separate pipe for use in a Hydrogen Generator. 
+Gas Filter has 2 outputs, the standard green output and another orange output in the center. The orange output is for the gas that was selected to be filtered out, and the green is for all the other gases that come through the filter. For example, using a Gas Pump, you may send the mixture of gases produced by an Electrolyzer into the gas filter and send Hydrogen to a separate pipe for use in a Hydrogen Generator.
 
 It only draws Power while it is in use (that is, has gas flowing through it). This means it is optimal to sort out the expected gasses first. For example: an air filtration system that primally finds oxygen with CO2 and polluted oxygen sometimes should have an oxygen Gas Filter first and then the second most common gas then the third. Note: you can work out how common a given gas is by pumping gasses from the area into Gas Reservoir until full then looking at the contents.
 
@@ -19267,14 +17792,13 @@ thumb|(#2) A fully substituted gas filter
 * If power is lost the filter will start passing gas without filtering it, rather than stop passing gas completely as the Gas filter would.
 * There is a chance that the filter will not work correctly if the pipe is backed up (full). Because the detection happens before the gas gets filtered, the automation may activate with the correct gas sitting on the element sensor, allowing the wrong gas behind it to pass through.
 
-To solve the power loss issue you can add a Smart Battery (Requiring Generic Sensors) set to: Standby 40%, Active 20% connected to a not gate connected to a Gas Shutoff at the start of the filter mechanism, this will then prevent the filter from trying to filter if there is insufficient power to do so. As shown to the right (#2). If this new design is used then 2 things also become considerations: The filter now takes up significant space and, the whole design now costs 20W per sort. In response to the first concern unless space is very low the power saved is normally worth more than the lost space as and as for the second, this problem can be mitigated by putting multiple filters next to each other (as only one power cut off is required for the whole system) and regardless it is better than using actual gas filters. 
+To solve the power loss issue you can add a Smart Battery (Requiring Generic Sensors) set to: Standby 40%, Active 20% connected to a not gate connected to a Gas Shutoff at the start of the filter mechanism, this will then prevent the filter from trying to filter if there is insufficient power to do so. As shown to the right (#2). If this new design is used then 2 things also become considerations: The filter now takes up significant space and, the whole design now costs 20W per sort. In response to the first concern unless space is very low the power saved is normally worth more than the lost space as and as for the second, this problem can be mitigated by putting multiple filters next to each other (as only one power cut off is required for the whole system) and regardless it is better than using actual gas filters.
 
-To solve the backed up pipe issue you can let the backed up pipe run through a gas reservoir and connect it to the main shutoff valve with the Smart Battery through an AND gate. 
+To solve the backed up pipe issue you can let the backed up pipe run through a gas reservoir and connect it to the main shutoff valve with the Smart Battery through an AND gate.
 
 Overall this is normally a good improvement on the gas filter for most players.
 
 There is also an earlier, more rudimentary [https://www.youtube.com/watch?v=o1YJklClv_I gas filter] using only bridges and a gas valve, with the advantage of never under any circumstance outputting the wrong gas. The downside is that it is more voluminous and must be primed with an initial packet of the gas being filtered.
-
 # 文档：Gas Meter Valve
 - 类别：ventilation_buildings
 - 标识：gas-meter-valve
@@ -19291,7 +17815,6 @@ A gas meter has a limit setting:
 === See Also ===
 * Liquid Meter Valve
 * Conveyor Meter
-
 # 文档：Gas Pipe
 - 类别：ventilation_buildings
 - 标识：gas-pipe
@@ -19300,15 +17823,15 @@ A gas meter has a limit setting:
 Gas Pipe transports Gas between building Intakes and Outputs. Gases move from a source - like a generator - or from a Gas Pump to a sink, which could be a Gas Vent to release it to the environment, or to another building, like the Hydrogen Generator. The flow is always from an Output pipe (green or orange symbol in the Ventilation Overlay) to an Intake Pipe (white symbol).
 
 == Capacity ==
-Each gas pipe segment can hold 1000 g of gas. The pipe system updates once per second, and a "packet" of gas can move from one section of pipe to another in that time. As such, the maximum throughput for a single pipeline is 1 kg/s. 
+Each gas pipe segment can hold 1000 g of gas. The pipe system updates once per second, and a "packet" of gas can move from one section of pipe to another in that time. As such, the maximum throughput for a single pipeline is 1 kg/s.
 
 == Overlay ==
-Gas pipes can occupy the same tiles with other buildings (except other Gas pipes). Clicking the Ventilation Overlay button in upper right will highlight all gas pipes, building intakes and outputs. 
+Gas pipes can occupy the same tiles with other buildings (except other Gas pipes). Clicking the Ventilation Overlay button in upper right will highlight all gas pipes, building intakes and outputs.
 
 == Heat Exchange ==
 The gas content exchanges heat with the gas pipe segment, and the pipe segment exchanges heat with the tile. The thermal conductivity of the pipe segment is a major factor in the process. Among the qualified building materials, Granite has the highest thermal conductivity and Ceramic has the lowest thermal conductivity before Thermium and Insulation is available.
 
-Note a gas pipe segment does not exchange heat with nearby segments. 
+Note a gas pipe segment does not exchange heat with nearby segments.
 
 == Tips ==
 * With pipes connecting more than one Output and Intake pipe, avoid the possibility of bidirectional flow in the pipe, as the game engine is currently not very clever in deciding in which direction a gas 'agent' should flow, so it might start flipping back and forth. Adding a Gas Valve or a Gas Bridge helps to force a direction.
@@ -19316,7 +17839,6 @@ Note a gas pipe segment does not exchange heat with nearby segments.
 * Avoid having gasses in pipes change phase to liquid, as this will damage the pipes. Damage can be prevented by decreasing the packet size to 1/10 (100 g).
 * Building pipes in natural ground blocks will mine those ground blocks.
 * Notice that regular pipe has no decor penalty.
-
 # 文档：Gas Pump
 - 类别：ventilation_buildings
 - 标识：gas-pump
@@ -19329,8 +17851,7 @@ Gas Pump is one of the buildings required for atmosphere management. It draws in
 * Gas Pumps will continue to consume the same amount of power while pumping less, unless they are temporarily disabled, so putting Atmo Sensor set to "above 500" nearby will increase their power efficiency.
 * When submerged in a mixed gas, Gas Pumps can create gas packets over 500g, though the total rate will be still limited to 500g/s.
 * A Gas Pump's maximum drawing rate is half that of the maximum generation rate of an Electrolyzer, so to handle all the generated gas of one Electrolyzer you need two Gas Pumps.
-* Gas Pump has a base overheat temperature of 75 &deg;C and will overheat in hot gases. Choose Gold Amalgam or Steel as the building material according to the environment temperature.
-
+* Gas Pump has a base overheat temperature of 75 °C and will overheat in hot gases. Choose Gold Amalgam or Steel as the building material according to the environment temperature.
 # 文档：Gas Rocket Port Loader
 - 类别：ventilation_buildings
 - 标识：gas-rocket-port-loader
@@ -19348,7 +17869,6 @@ Uses the gas filters set on the linked Rocket Platform.
 * Gas Cargo Canister
 * Large Gas Cargo Canister
 * Rocketry in Spaced Out
-
 # 文档：Gas Rocket Port Unloader
 - 类别：ventilation_buildings
 - 标识：gas-rocket-port-unloader
@@ -19366,7 +17886,6 @@ Uses build-in gas filters.
 * Gas Cargo Canister
 * Large Gas Cargo Canister
 * Rocketry in Spaced Out
-
 # 文档：Gas Shutoff
 - 类别：ventilation_buildings
 - 标识：gas-shutoff
@@ -19376,12 +17895,11 @@ Gas Shutoff is a Ventilation building that is used to block gases from passing w
 
 It will let gases pass when it receives a Green signal, and will block gases on Red signal.
 
-Gases cannot pass through the building if it is not powered. 
+Gases cannot pass through the building if it is not powered.
 
 == Tips ==
 * Unlike Gas Valve it will not merge gas packets on the output tile.
 * NOT Gate can be used to run it continuously.
-
 # 文档：Gas Valve
 - 类别：ventilation_buildings
 - 标识：gas-valve
@@ -19390,16 +17908,15 @@ Gases cannot pass through the building if it is not powered.
 Gas Valve control the amount of gas flowing through a Gas Pipe. Best usage after branching, or stopping gas without losing contents before deconstructing. Because it allows gas flow only one way, it can also be used to give the game a hint what flow direction the gas pipe is having, when the pipe grid is getting more complicated.
 
 == Flow ==
-Gas Valve has a flow setting, ranging from 0 g/s to 1000 g/s. This setting is the upper limit of the output gas flow. For example, if the setting is set to 500 g/s and input flow is 1000 g/s, the output flow is limited to 500 g/s and excess gas is blocked. If the setting is set to 500 g/s and input flow is 300 g/s, the output flow is 300 g/s. 
+Gas Valve has a flow setting, ranging from 0 g/s to 1000 g/s. This setting is the upper limit of the output gas flow. For example, if the setting is set to 500 g/s and input flow is 1000 g/s, the output flow is limited to 500 g/s and excess gas is blocked. If the setting is set to 500 g/s and input flow is 300 g/s, the output flow is 300 g/s.
 
-A valid flow setting is rounded the first decimal place and has the following limits: 
+A valid flow setting is rounded the first decimal place and has the following limits:
 
-* the minimum flow is 0 g/s; 
-* the maximum flow is 1000 g/s; 
-* the minimum, nonzero flow is 0.1 g/s (100 mg/s). 
+* the minimum flow is 0 g/s;
+* the maximum flow is 1000 g/s;
+* the minimum, nonzero flow is 0.1 g/s (100 mg/s).
 
 Switching the flow setting of Gas Valve requires Duplicant operation, and takes some time.
-
 # 文档：Gas Vent
 - 类别：ventilation_buildings
 - 标识：gas-vent
@@ -19413,13 +17930,13 @@ Gas vents can not release gas when the outside pressure is above 2000 g.
 The vent is affected only by the pressure in it own tile. If the space contains multiple gases at differing pressures, it may release only intermittently, when low-pressure gas bubbles drift over its location. If that becomes a problem, placing several vents close together can give more chances for the piped gas to release.
 
 == Exploit ==
-It is possible to exceed the 2 kg pressure limit by placing the vent in small amount of liquid. This is considered an exploit, because it allows a vent to compress gases without any limit. An infinite amount of gas can be stored in a limited area. 
+It is possible to exceed the 2 kg pressure limit by placing the vent in small amount of liquid. This is considered an exploit, because it allows a vent to compress gases without any limit. An infinite amount of gas can be stored in a limited area.
 
 To make this happen, place the vent in a puddle at least two tiles wide, with less than 2 kg of liquid in its own tile and the same amount to the side.
 
 * The liquid amount in the tile is important. 2 kg or more will overpressure the vent.
 * The width of the puddle is important, because the liquid must be able to flow out of the way when pushed by the released gas.
-* If there is nowhere for the liquid to be pushed, it will instead be deleted and the exploit will stop working. 
+* If there is nowhere for the liquid to be pushed, it will instead be deleted and the exploit will stop working.
 
 == See also ==
 * Gas Filter - can be used to isolate a specified gas into another gas pipe.
@@ -19429,7 +17946,6 @@ To make this happen, place the vent in a puddle at least two tiles wide, with le
 * High Pressure Gas Vent - can be used to further increase gas pressure 10 times more than normal vent.
 * Anti Entropy Thermo-Nullifier - can be used to cool gasses by consuming hydrogen.
 * Thermo Regulator - can be used to cool gasses by using electricity.
-
 # 文档：High Pressure Gas Vent
 - 类别：ventilation_buildings
 - 标识：high-pressure-gas-vent
@@ -19440,7 +17956,6 @@ High Pressure Gas Vent is similar to a Gas Vent, difference being that it can ex
 The maximum pressure with this Vent is 20 kg per tile.
 
 Entering over-pressurized atmosphere will stress Duplicants with Popped Eardrums.
-
 # 文档：Insulated Gas Pipe
 - 类别：ventilation_buildings
 - 标识：insulated-gas-pipe
@@ -19452,7 +17967,6 @@ Insulated Gas Pipe is a type of Gas Pipe that greatly slows down the heat exchan
 The thermal conductivity of the Insulated Gas Pipe is reduced to 3.125% of the thermal conductivity of the building material. Furthermore, when calculating the heat exchange between the gas content and the Insulated Gas Pipe, it uses the lower value of thermal conductivity (which is very likely the one of the insulated pipe) instead of the average value when calculating for regular Gas Pipes. The 16x mass also means less temperature change for the same amount of DTU exchanged, which again slows down the heat transfer between insulated pipe and the tile it is on.
 
 Due to inherently low Thermal Conductivity of most gasses Mafic Rock, Igneous Rock, or Sedimentary Rock are generally sufficient barring some extreme scenarios where Ceramic or even Insulation must be used.
-
 # 文档：Mini Gas Pump
 - 类别：ventilation_buildings
 - 标识：mini-gas-pump
@@ -19473,11 +17987,10 @@ Its usage is revealed when vacuuming out large or high pressure rooms- it is muc
 
 ===Disadvantages===
 *It has an an overheat temperature of 75 °C and a melting point of 160 °C, making it unsuitable for very hot environments.
-**However, with the DLC, the pump can be made of Plastium which melts at 1826.9C and adds +900C overheat capacity, making it suitable for very hot environments 
+**However, with the DLC, the pump can be made of Plastium which melts at 1826.9C and adds +900C overheat capacity, making it suitable for very hot environments
 *Plastic can be difficult to obtain early on.
 
 == History ==
-
 # 文档：Radiant Gas Pipe
 - 类别：ventilation_buildings
 - 标识：radiant-gas-pipe
@@ -19526,7 +18039,6 @@ Note that the thermal conductivity of the gas pipe is only half of the equation.
 |}
 ## ROCKETRY_BUILDINGS
 共 33 篇文档
-
 # 文档：Biological Cargo Bay
 - 类别：rocketry_buildings
 - 标识：biological-cargo-bay
@@ -19536,7 +18048,7 @@ Biological Cargo Bay is used to bring home creatures and plant seeds from space 
 
 == Usage ==
 Sending a space mission to a destination can bring back live biological material:
-* Smooth Hatch from Metallic Asteroid. 
+* Smooth Hatch from Metallic Asteroid.
 * Stone Hatch from Rocky Asteroid.
 * Wort Seed and Sleet Wheat Grain from Interstellar Ice.
 * Gassy Moo and Gas Grass Seed from the Organic Mass.
@@ -19557,7 +18069,6 @@ It has declared capacity of 100 kg but it usually returns home with less than it
 * Cargo Bay
 * Liquid Cargo Tank
 * Gas Cargo Canister
-
 # 文档：Cargo Bay
 - 类别：rocketry_buildings
 - 标识：cargo-bay
@@ -19590,7 +18101,7 @@ A space destination marked with ??? has to be researched by Research Modules in 
 
 For each space mission, a Cargo Bay will bring back 1000 kg of solid resources, which composition is determined by the destination composition.
 
-A conveyor rail can be connected to them directly to automatically unload stored goods. Alternatively, selecting the cargo bay and clicking the unload button simply dumps the contents on the ground. 
+A conveyor rail can be connected to them directly to automatically unload stored goods. Alternatively, selecting the cargo bay and clicking the unload button simply dumps the contents on the ground.
 
 == Tips ==
 * Care should be taken not to leave valuable materials sitting on the Rocket's launch pad, as the high temperatures can liquefy most metals, causing them to be lost via Space Exposure
@@ -19602,19 +18113,20 @@ A conveyor rail can be connected to them directly to automatically unload stored
 * Biological Cargo Bay
 
 == Visual difference to Spaced Out ==
-<gallery>
-Building Cargo Bay.png|Base Game Version<br>Size: 5x5
-Cargo Bay (Spaced Out).png|Spaced Out Version<br>Size: 3x3
-</gallery>
+
+Building Cargo Bay.png|Base Game Version
+Size: 5x5
+Cargo Bay (Spaced Out).png|Spaced Out Version
+Size: 3x3
 
 == History ==
-
 # 文档：Command Capsule
 - 类别：rocketry_buildings
 - 标识：command-capsule
 - 来源：wiki/Command_Capsule
 
-<br>Rocket Piloting skill<br>1 Atmo Suit
+Rocket Piloting skill
+1 Atmo Suit
 | overheat = 2000
 | autoInGreen = Launch rocket
 | autoInRed = Awaits launch commmand
@@ -19624,7 +18136,7 @@ Cargo Bay (Spaced Out).png|Spaced Out Version<br>Size: 3x3
 | amount1 = 200
 }}
 
-Command Capsule is a mandatory module for Rockets. 
+Command Capsule is a mandatory module for Rockets.
 
 Assigned duplicant must have Rocket Piloting skill, it also must be able and allowed to "operate".
 
@@ -19641,7 +18153,6 @@ A basic automation solution is to connect the Command Capsule output port to a F
 * Duplicants do not require any life-support while inside the Command Capsule and will not leave it without player's input, which allows to use it as a suspended animation chamber.
 ** Sight-Seeing Module has the same effects, but without any requirements.
 *A duplicant wearing a Jet Suit can enter the Command Capsule without the use of a Gantry. However they will not be able to exit the Command Capsule without one.
-
 # 文档：Conveyor Loader Fitting
 - 类别：rocketry_buildings
 - 标识：conveyor-loader-fitting
@@ -19659,7 +18170,6 @@ Allows Duplicants to access Solid Materials while inside a Rocket. It will only 
 * Cargo Modules
 ** Cargo Bay
 ** Large Cargo Bay
-
 # 文档：Conveyor Receptacle Fitting
 - 类别：rocketry_buildings
 - 标识：conveyor-receptacle-fitting
@@ -19681,7 +18191,6 @@ Allows Duplicants to store Solid Materials while inside a Rocket.
 * Cargo Modules
 ** Cargo Bay
 ** Large Cargo Bay
-
 # 文档：Enclosed Telescope
 - 类别：rocketry_buildings
 - 标识：enclosed-telescope
@@ -19716,7 +18225,6 @@ A normal Duplicant needs 300s to discover a new tile.
 * Rocketry in Spaced Out
 
 == Version History ==
-
 # 文档：Gantry
 - 类别：rocketry_buildings
 - 标识：gantry
@@ -19730,7 +18238,6 @@ In Spaced Out, gantries are no longer be damaged by rockets, even while extended
 * Although gantry consumes 1200 W of energy, it does so only for about 1.6 seconds while it is expanding or retracting. It is possible to use a single Conductive Wire for all of them by delaying their movements by 1.7 seconds via BUFFER Gates and FILTER Gates.
 * Jet Suits can be used as an alternative to Gantry but is difficult to refuel inside the rocket.
 * Auto-Sweepers can be used as an alternative for solid fuel and oxidizer insertion, although those might require heat-resistant materials.
-
 # 文档：Gas Cargo Canister
 - 类别：rocketry_buildings
 - 标识：gas-cargo-canister
@@ -19741,7 +18248,7 @@ Gas Cargo Canister is a Rocket module capable of storing Gas resources that are 
 == Usage ==
 Gas Cargo Canisters can be used to acquire Polluted Oxygen from the Organic Mass, Oxygen from the Terrestial Planet, Natural Gas and Hydrogen from the Gas Giant. Other destinations lack gas resources.
 
-For each space mission, a Gas Cargo Canister will bring back 1000 kg of gas resources, which composition is determined by the destination composition. 
+For each space mission, a Gas Cargo Canister will bring back 1000 kg of gas resources, which composition is determined by the destination composition.
 
 A Gas Pipe has to be connected to unload the stored gases.
 
@@ -19751,7 +18258,6 @@ A Gas Pipe has to be connected to unload the stored gases.
 * Biological Cargo Bay
 
 == History ==
-
 # 文档：Gas Intake Fitting
 - 类别：rocketry_buildings
 - 标识：gas-intake-fitting
@@ -19772,7 +18278,6 @@ Commonly used for storing away Carbon Dioxide, and maybe Polluted Oxygen.
 * Cargo Modules
 ** Gas Cargo Canister
 ** Large Gas Cargo Canister
-
 # 文档：Gas Output Fitting
 - 类别：rocketry_buildings
 - 标识：gas-output-fitting
@@ -19793,7 +18298,6 @@ Commonly used to improve breathability in Rockets.
 * Cargo Modules
 ** Gas Cargo Canister
 ** Large Gas Cargo Canister
-
 # 文档：Hydrogen Engine
 - 类别：rocketry_buildings
 - 标识：hydrogen-engine
@@ -19801,12 +18305,11 @@ Commonly used to improve breathability in Rockets.
 
 Hydrogen Engine is a rocket engine that burns Liquid Hydrogen. It is the most powerful engine type. It exhausts superheated steam at 1726.9°C (2000 K). Throughout takeoff, the area below the engine will be heated to a maximum temperature of 2926.9°C (3200 K) at a strong rate, 3 times as powerful as a Steam Engine.
 
-Different from Steam Engine, Hydrogen Engine does not store the fuel by itself. Additional Liquid Fuel Tanks are required to store the Liquid Hydrogen. Oxidizers are stored in the Solid Oxidizer Tanks in case of Oxylite or Liquid Oxidizer Tanks in case of Liquid Oxygen. 
+Different from Steam Engine, Hydrogen Engine does not store the fuel by itself. Additional Liquid Fuel Tanks are required to store the Liquid Hydrogen. Oxidizers are stored in the Solid Oxidizer Tanks in case of Oxylite or Liquid Oxidizer Tanks in case of Liquid Oxygen.
 
 == Tips ==
 
 * A rocket chimney spanning the entire height of the asteroid allows getting more water than is used to launch the rocket (after using an electrolyzer to generate fuel) and getting a consequent amount of power. Rough numbers estimate above 12KW of power and above 1000g/s of water per rocket when launching to the closest destination.
-
 # 文档：Interplanetary Launcher
 - 类别：rocketry_buildings
 - 标识：interplanetary-launcher
@@ -19818,16 +18321,15 @@ Despite its animation sending payloads in a very narrow, single tile-trajectory,
 
 Each payload can hold up to 200 kg and costs 10 radbolts per hex distance to launch. After being launched, payloads can be seen traveling on the Starmap at a speed of 1 hex per minute (6 hexes per cycle). Every 6 launches, it requires automatic maintenance, which causes a 60-second delay.
 
-The launcher itself can store up to 1200 kg and 200 radbolts. Heat is only produced while launching. 
+The launcher itself can store up to 1200 kg and 200 radbolts. Heat is only produced while launching.
 
 == Weaponry ==
-The Interplanetary launcher can also launch Nuclear Warhead<nowiki/>s. Beware that, while an effective weapon with up to 500 damage, the remaining area will become irradiated.
+The Interplanetary launcher can also launch Nuclear Warheads. Beware that, while an effective weapon with up to 500 damage, the remaining area will become irradiated.
 
 ==See Also==
 *Targeting Beacon
 *Payload Opener
 *Rocketry in Spaced Out
-
 # 文档：Liquid Cargo Tank
 - 类别：rocketry_buildings
 - 标识：liquid-cargo-tank
@@ -19845,7 +18347,7 @@ Liquid Cargo Tanks can be used to acquire:
 * Salt Water and Brine from Salty Dwarf
 Other destinations lack liquids.
 
-For each space mission, a Liquid Cargo Bank will bring back 1000 kg of liquid resources, which composition is determined by the destination composition. 
+For each space mission, a Liquid Cargo Bank will bring back 1000 kg of liquid resources, which composition is determined by the destination composition.
 
 A Liquid Pipe has to be connected to unload the stored liquids.
 
@@ -19855,18 +18357,16 @@ A Liquid Pipe has to be connected to unload the stored liquids.
 * Biological Cargo Bay
 
 == History ==
-
 # 文档：Liquid Fuel Tank
 - 类别：rocketry_buildings
 - 标识：liquid-fuel-tank
 - 来源：wiki/Liquid_Fuel_Tank
 
-Liquid Fuel Tank is required for the rocket to launch and can be filled with 900 kilograms of Liquid Fuel each. It will come back empty regardless of where it is taken to land or how many other modules were attached besides it. 
+Liquid Fuel Tank is required for the rocket to launch and can be filled with 900 kilograms of Liquid Fuel each. It will come back empty regardless of where it is taken to land or how many other modules were attached besides it.
 
 Liquid Fuel Tank is required by Petroleum Engine and Hydrogen Engine, and can store Petroleum and Liquid Hydrogen accordingly. You may adjust the storage capacity between 0 kg and 900 kg.
 
 Duplicants will remove excessive fuel and drop bottles of fuel.
-
 # 文档：Liquid Intake Fitting
 - 类别：rocketry_buildings
 - 标识：liquid-intake-fitting
@@ -19887,7 +18387,6 @@ Commonly used to get rid of the Duplicants production ow Polluted Water in Lavat
 * Cargo Modules
 ** Liquid Cargo Tank
 ** Large Liquid Cargo Tank
-
 # 文档：Liquid Output Fitting
 - 类别：rocketry_buildings
 - 标识：liquid-output-fitting
@@ -19909,7 +18408,6 @@ This allows Duplicants to access Liquid from Liquid Cargo Tank or Large Liquid C
 * Cargo Modules
 ** Liquid Cargo Tank
 ** Large Liquid Cargo Tank
-
 # 文档：Liquid Oxidizer Tank
 - 类别：rocketry_buildings
 - 标识：liquid-oxidizer-tank
@@ -19925,7 +18423,6 @@ Duplicants will remove excessive liquid oxidizer as bottles of Liquid Oxygen.
 
 == See also ==
 * Solid Oxidizer Tank
-
 # 文档：Meteor Blaster
 - 类别：rocketry_buildings
 - 标识：meteor-blaster
@@ -19949,7 +18446,6 @@ Blastshot can be delivered to the building through Conveyor Rails as it has a sh
 * frameless|60x60px Meteor Blasters can destroy Corium meteors coming out of Research Reactors during Reactor Meltdowns.
 
 == History ==
-
 # 文档：Mission Control Station
 - 类别：rocketry_buildings
 - 标识：mission-control-station
@@ -19959,7 +18455,9 @@ Blastshot can be delivered to the building through Conveyor Rails as it has a sh
 | description = Provides guidance data to rocket pilots within range, to improve rocket speed.
 | category = Rocketry
 | research = Hydrocarbon Propulsion
-| requires = Duplicant operation<br>Inside a Laboratory<br>Clear line of sight to space
+| requires = Duplicant operation
+Inside a Laboratory
+Clear line of sight to space
 | power = -960
 | heat = 2500
 | width = 3
@@ -19993,7 +18491,6 @@ The station targets an eligible rocket and requests a duplicant to complete the 
 * As the only resource consumed by the station is power (and even that is only used while it is being operated by a duplicant), the Mission Control Station can be a very easy way to reduce the length of rocket missions.
 
 ==History==
-
 # 文档：Payload Opener
 - 类别：rocketry_buildings
 - 标识：payload-opener
@@ -20007,7 +18504,6 @@ Payloads are automatically opened and output onto either conveyor rails, gas pip
 * Interplanetary Payload
 * Starmap in Spaced Out
 * Rocketry in Spaced Out
-
 # 文档：Petroleum Engine
 - 类别：rocketry_buildings
 - 标识：petroleum-engine
@@ -20018,7 +18514,6 @@ The Petroleum Engine is one of 3 types of engines you can build on a rocket. Unl
 Unlike the Steam Engine, the Petroleum Engine does not store the fuel by itself. Additional Liquid Fuel Tanks are required to store the Petroleum. Oxidizers are stored in the Solid Oxidizer Tanks in case of Oxylite or Liquid Oxidizer Tanks in case of Liquid Oxygen.
 
 When a rocket with Petroleum launches or lands, it exhausts superheated Carbon Dioxide at 1226.85°C (1500 K) in an area below the engine, which cannot be blocked by tiles immediately below the engine. Throughout takeoff, the area below the engine will be heated to a maximum temperature of 2926.9°C (3200 K) at a medium rate, 2 times as powerful as a Steam Engine.
-
 # 文档：Power Outlet Fitting
 - 类别：rocketry_buildings
 - 标识：power-outlet-fitting
@@ -20035,7 +18530,6 @@ Allows Duplicants to access Power while inside a Rocket. A Battery Module is nec
 ** Conveyor Loader Fitting
 ** Gas Intake Fitting
 ** Gas Output Fitting
-
 # 文档：Research Module
 - 类别：rocketry_buildings
 - 标识：research-module
@@ -20063,7 +18557,6 @@ The ideal composition for a research vessel is Command Capsule + 5x Research Mod
 * Space Mission
 * Data Bank
 * Virtual Planetarium
-
 # 文档：Rocket Control Station
 - 类别：rocketry_buildings
 - 标识：rocket-control-station
@@ -20090,7 +18583,6 @@ When the Interior Building Restrictions is enabled or when the building receives
 *Recreational buildings: Arcade Cabinet, Beach Chair, Hot Tub, Juicer, Mechanical Surfboard, Jukebot, Sauna, Soda Fountain, Party Line Phone, Vertical Wind Tunnel and Water Cooler
 
 Any of these can be excluded from the control station's restrictions by selecting the target building and choosing the "Uncontrolled" option.
-
 # 文档：Rocket Platform
 - 类别：rocketry_buildings
 - 标识：rocket-platform
@@ -20109,10 +18601,9 @@ The red boxes which quickly form when a Rocket is about to be built or a Rocket 
 
 == Tips ==
 
-* Rovers cannot build Rocket Platforms. 
+* Rovers cannot build Rocket Platforms.
 * The easiest and quickest way to build a Rocket Platform on a new Planetoid is with 2 Trailblazer Landers, which can be deconstructed for a combined 800 Refined Metal. The Rocket in orbit can then proceed to land on the newly constructed Platform.
 * It is recommended to use Refined Metals with no advantageous traits for Rocket Platforms
-
 # 文档：Rocket Port Extension
 - 类别：rocketry_buildings
 - 标识：rocket-port-extension
@@ -20130,7 +18621,6 @@ You can chain multiple Rocket Ports to increase the distance.
 ==See Also==
 
 *Rocketry in Spaced Out
-
 # 文档：Sight-Seeing Module
 - 类别：rocketry_buildings
 - 标识：sight-seeing-module
@@ -20150,7 +18640,6 @@ The space tourist would come back with an Artifact and lose some stress, become 
 * Duplicants do not require any life-support while inside the Sight-Seeing Module and will not leave it without the player's input, which allows the player to use it as a suspended animation equivalent.
 *Unlike the pilot, who will wait for a Gantry to be available before disembarking, the space tourist will be unceremoniously ejected from their module upon landing. Make sure they have a Jet Suit/Atmo Suit or at least a way to immediately escape the residual rocket thruster temperatures, or sacrifice a Gantry and leave it extended as the rocket is landing (which will "break" the Gantry, but the sight-seeing duplicant will at least be able to exit safely onto the now broken Gantry rather than find ground the hard way).
 *If all Duplicants on the colony are inserted into Sight-Seeing Modules, it will count the colony as having no duplicants alive. This WILL lead to the colony being considered as lost.
-
 # 文档：Solid Fuel Thruster
 - 类别：rocketry_buildings
 - 标识：solid-fuel-thruster
@@ -20163,7 +18652,6 @@ A thruster cannot be used to launch a rocket on its own, and must be built on to
 Nominally, a thruster adds 12,000 km distance to the rocket, but it also weighs 1000 kg (the amount of fuel cannot be adjusted), meaning that for heavy enough rockets the distance is actually decreased. For the same reason, mounting multiple thrusters on a rocket is not recommended.
 
 The primary use of thrusters is a minor push to Steam Engines, making it possible to acquire resources from asteroids in the 10000 km range or send research modules 20000 km away. They may also be used to decrease the liquid fuel consumption for more advanced engines at the expense of using more Oxylite and Iron.
-
 # 文档：Solid Oxidizer Tank
 - 类别：rocketry_buildings
 - 标识：solid-oxidizer-tank
@@ -20173,15 +18661,12 @@ Solid Oxidizer Tank is a rocket module that stores the oxygen needed for the eng
 
 Oxidizer Tanks (either Solid or Liquid) are required by Petroleum Engine and Hydrogen Engine. You may adjust the storage capacity between 0 kg and 2700 kg.
 
-<br />
-
 == Bugs ==
 
 * Duplicants may sometimes not deliver oxylite to the Solid Oxidizer Tank - reason is unknown. Fix: Restart the game.
 
 == See also ==
 * Liquid Oxidizer Tank, uses Liquid Oxygen instead of Oxylite.
-
 # 文档：Starmap Location Sensor
 - 类别：rocketry_buildings
 - 标识：starmap-location-sensor
@@ -20214,7 +18699,6 @@ The set of locations include:
 ** empty space tiles
 ** POI tiles (e.g. resource fields, demolished rocket)
 * any planetoid discovered
-
 # 文档：Steam Engine
 - 类别：rocketry_buildings
 - 标识：steam-engine
@@ -20222,7 +18706,7 @@ The set of locations include:
 
 The Steam Engine is an entry-level rocket engine. It must be fueled via pipe with steam derived from water (either from geysers or make your own). The engine can store up to 900 kg of steam. A lower limit can be set manually by a player.
 
-The content's heat does not change, even when built within atmosphere, so there is no risk of steam condensing. 
+The content's heat does not change, even when built within atmosphere, so there is no risk of steam condensing.
 
 The engine efficiency is 20 km/kg of steam - up to a maximum of 18,000 km (900 kg steam). This does not take into account weight penalties (1 km lost per 1 kg mass up to 4000 kg, then the penalty increases exponentially).
 
@@ -20250,7 +18734,6 @@ It exhausts steam at 150°C. Throughout takeoff, the area below the engine will 
 * A rocket with Steam Engine and Solid Fuel Thruster may reach 20,000 km destinations.
 * Steam Engine does not take the Wrong Element Damage and immediately eject the gas.
 *A rocket chimney spawning the entire height of the asteroid allows getting more water than is used to launch the rocket. Rough numbers estimate above 800g/s of water when launching to the closest destination. Due to the relatively low Steam temperature, the power return is negligible. For a good power return, use Hydrogen Engine.
-
 # 文档：Targeting Beacon
 - 类别：rocketry_buildings
 - 标识：targeting-beacon
@@ -20262,7 +18745,6 @@ Target Beacon is a building that targets where Interplanetary Payload should lan
 * Interplanetary Launcher
 * Interplanetary Payload
 * Payload Opener
-
 # 文档：Telescope (Spaced Out)
 - 类别：rocketry_buildings
 - 标识：telescope-spaced-out
@@ -20283,7 +18765,7 @@ thumb|right|Oxygen masks are a necessity for this, of course.Exposure to space, 
 Fortunately, it is relatively simple to make this happen, if there is enough Diamond to make Window Tiles to protect the Duplicant from radiation exposure.
 
 == Using Telescopes in Rockets==
-<div style="float:left;margin-right:1em;">left|thumb|Two telescopes inside a rocket, working unaffected by any sightline-to-space checks</div>
+left|thumb|Two telescopes inside a rocket, working unaffected by any sightline-to-space checks
 Contrary to its description, when placed in rockets, the Telescope will not require any form of sky visibility, it will work in any position. This is also indicated by the sky visibility area not showing up when the building is inside a rocket.
 
 Also, the Telescope still follows the same limitation as planetoid-based telescopes; they can only scan unexplored hexes within a three-hex range of the rocket. However, this also means that only short voyages are needed to enable the revelation of hexes at the fringes of revealed space.
@@ -20299,7 +18781,6 @@ Also, the Telescope still follows the same limitation as planetoid-based telesco
 == History ==
 ## POWER_BUILDINGS
 共 24 篇文档
-
 # 文档：Battery
 - 类别：power_buildings
 - 标识：battery
@@ -20310,7 +18791,7 @@ The Battery is a building which can be connected to power circuits to store exce
 Regular Batteries can be built as soon as enough Metal Ore is available, and are key to efficiently powering early-game Research. However, both upgraded batteries are available from early-game research and the regular Battery has no real advantages over them, making it one of the first structures most colonies will completely replace.
 
 * The Jumbo Battery has four times the capacity at the cost of double size and runoff, essentially being a 2x improvement in both energy density and energy rentention compared to the base Battery.
-* The Smart Battery is an improvement on the base Battery in every way other than size - the two have the same charge density, but the smart battery has substantial reductions in heat production and power runoff in addition to its signature Automation Wire functions. 
+* The Smart Battery is an improvement on the base Battery in every way other than size - the two have the same charge density, but the smart battery has substantial reductions in heat production and power runoff in addition to its signature Automation Wire functions.
 
 This leaves the only two factors in favour of the regular Battery as size and cost - but the instant multiple batteries are added to a single larger circuit, both of these also favour the Jumbo or Smart Batteries, which are both better in every respect than two single Batteries connected to the same circuit.
 
@@ -20319,7 +18800,6 @@ This leaves the only two factors in favour of the regular Battery as size and co
 * Manual Generator
 * Jumbo Battery
 * Smart Battery
-
 # 文档：Coal Generator
 - 类别：power_buildings
 - 标识：coal-generator
@@ -20329,18 +18809,18 @@ This leaves the only two factors in favour of the regular Battery as size and co
 | effects = Carbon Dioxide: +20 g/s @ 110+ °C
 | autoInGreen = Enable
 | autoInRed = Disable
-| autoOutGreen = 
-| autoOutRed = 
+| autoOutGreen =
+| autoOutRed =
 | material1 = Metal Ore
 | amount1 = 800
 }}
 
-Coal Generator produces power when supplied with Coal. It will operate until it runs out of fuel. It can be configured to be active only when the stored energy level in connected batteries drops below a set percentage. The generator can hold 600 kg of coal and can therefore generate 360 kJ of energy before being refilled, enough to charge 9 Jumbo Batteries. 
+Coal Generator produces power when supplied with Coal. It will operate until it runs out of fuel. It can be configured to be active only when the stored energy level in connected batteries drops below a set percentage. The generator can hold 600 kg of coal and can therefore generate 360 kJ of energy before being refilled, enough to charge 9 Jumbo Batteries.
 
 Coal Generators are the third least heat-efficient among continuous generators, producing 1.5 kDTU and 3.(3) g of carbon dioxide per 100 Watt.
 
 == Usage ==
-Coal Generator is a good way to speed up colony development as they output more Power than a Manual Generator and free Duplicant time they would have spent running. However, they require a bit of setup, as you need to be able to deal with the high amount of carbon dioxide and heat they produce. Sealing the room or making sure the carbon dioxide falls into a space prepared to deal with it is mandatory so as to not flood your colony with heat and unbreathable air. 
+Coal Generator is a good way to speed up colony development as they output more Power than a Manual Generator and free Duplicant time they would have spent running. However, they require a bit of setup, as you need to be able to deal with the high amount of carbon dioxide and heat they produce. Sealing the room or making sure the carbon dioxide falls into a space prepared to deal with it is mandatory so as to not flood your colony with heat and unbreathable air.
 
 == Heat economy ==
 It may not look like it, but technically Coal Generators delete heat starting at the coal's temperature of 21.81 K
@@ -20358,7 +18838,7 @@ However, it is only a passive heat, that was trapped in a solid, and only releva
 * Keep the Coal Generator (and hot machines in general) in cool spaces such as the Frozen Biome so the temperature does not rise out of control. Natural tiles can safely absorb heat for many cycles.
 * Place Coal Generators in lower areas of the base to assist with carbon dioxide collection. Carbon dioxide is heavier than most gases and will fall to the bottom right.
 * The Coal Generator will stay active and waste fuel even after batteries are full. Connect Automation Wire to a Smart Battery with 90 % standby to shut down the generator and save fuel.
-* Duplicants will not refill a Coal Generator (and will even abandon a refueling in process) if an automation signal has it disabled. 
+* Duplicants will not refill a Coal Generator (and will even abandon a refueling in process) if an automation signal has it disabled.
 * Coal Generators can be serviced with Auto-Sweepers and nearby coal storage, greatly reducing the need for duplicant labor. Lock access to the room so that duplicants will not interfere.
 ** Coal Generator's Tile of interest is the bottom middle tile, so make sure that your Auto-Sweepers can reach that so it can deliver coal.
 * Preserve coal supplies by raising Hatches to transmute less useful resources into coal.
@@ -20367,7 +18847,6 @@ However, it is only a passive heat, that was trapped in a solid, and only releva
 == Trivia ==
 * Even though it is a coal generator it does not require Oxygen to burn coal.
 * The coal generator emits carbon dioxide from its top-right tile.
-
 # 文档：Conductive Wire
 - 类别：power_buildings
 - 标识：conductive-wire
@@ -20381,7 +18860,6 @@ It can be run through wall and floor tiles.
 If you want to cross a Conductive Wire over any other wire (including another line of Conductive Wire) without connecting the circuits, you will need to use a Conductive Wire Bridge.
 
 == History ==
-
 # 文档：Conductive Wire Bridge
 - 类别：power_buildings
 - 标识：conductive-wire-bridge
@@ -20401,7 +18879,6 @@ Conductive Wire Bridge can be used to jump over any other kind of wire.
 * Conductive Wire
 * Power
 * Research
-
 # 文档：Heavi-Watt Conductive Joint Plate
 - 类别：power_buildings
 - 标识：heavi-watt-conductive-joint-plate
@@ -20415,7 +18892,6 @@ It requires a Duplicant with Electrical Engineering skill to build.
 * The tile part of Joint Plate is not connected to power, so can be crossed by a regular Wire, serving as a bridge.
 
 == History ==
-
 # 文档：Heavi-Watt Conductive Wire
 - 类别：power_buildings
 - 标识：heavi-watt-conductive-wire
@@ -20434,7 +18910,6 @@ Among the ways to handle these penalties, it is common to to build separated "ma
 * Power Transformer - to connect separate grids (unidirectional)
 
 == History ==
-
 # 文档：Heavi-Watt Joint Plate
 - 类别：power_buildings
 - 标识：heavi-watt-joint-plate
@@ -20445,7 +18920,6 @@ Heavi-Watt Joint Plate allows Heavi-Watt Wire to be run through wall and floor t
 == Tips ==
 * The tile part of Joint Plate is not connected to power, so can be crossed by a regular Wire, serving as a bridge.
 * Building a Joint Plate though a wall of Insulated Tile will cause a noticeable amount of heat to leak though. In heat sensitive areas, build the Plate from Gold Amalgam and avoid immersing the plate in liquids. In extreme cases a Vacuum-seal can be used to fully insulate the Joint Plate if necessary.
-
 # 文档：Heavi-Watt Wire
 - 类别：power_buildings
 - 标识：heavi-watt-wire
@@ -20463,7 +18937,6 @@ Heavi-Watt Wire carries 20 times more power than a standard Wire, but causes ver
 * Heavi-Watt Conductive Wire - variant that can stand 50 kW and has a reduced decor penalty
 * Mechanized Airlock - to limit access to and decor exposure.
 * Power Transformer - to connect separate grids (one-directional).
-
 # 文档：Hydrogen Generator
 - 类别：power_buildings
 - 标识：hydrogen-generator
@@ -20476,7 +18949,7 @@ Hydrogen Generators are the most heat-efficient among continuous generators, pro
 Pumping other gases into the generator will damage it; the use of a Gas Filter is strongly advised. Works great combined with an Electrolyzer.
 
 == Practicality ==
-If your map was lucky enough to spawn a Hydrogen Vent, cooling down the hydrogen, hooking up a Gas Pump, and pumping its output into the Hydrogen Generators will provide some bonus energy. However, geysers have certain times when they do not produce anything, so your power room might fall temporarily dormant along with the Geyser. This can be solved by rationing and stockpiling hydrogen. A single Gas Reservoir has enough capacity to store 8000 kJ of power from hydrogen, as much as 200 Jumbo Batteries and it has no power runoff. 
+If your map was lucky enough to spawn a Hydrogen Vent, cooling down the hydrogen, hooking up a Gas Pump, and pumping its output into the Hydrogen Generators will provide some bonus energy. However, geysers have certain times when they do not produce anything, so your power room might fall temporarily dormant along with the Geyser. This can be solved by rationing and stockpiling hydrogen. A single Gas Reservoir has enough capacity to store 8000 kJ of power from hydrogen, as much as 200 Jumbo Batteries and it has no power runoff.
 
 If the only guaranteed renewable source of Hydrogen is Electrolyzer, using the Hydrogen Generator as a dedicated power supply will not last long and will eventually lead to Oxygen overproduction, which can be hard to handle without expanding Duplicant count, which in turn will put strain on other systems, or processing it into rocket fuel, which is also energy-intensive, or venting Oxygen into space, or doing such unorthodox things as Longhair Slickster ranching.
 
@@ -20485,15 +18958,14 @@ Thus the best use of a Hydrogen Generator in combination with an Electrolyzer is
 === Water-fuel ===
 The electrolytic pathway converts 1 kilogram of water per second to around 280-740 Watts of power under the best circumstances (or even less with more than 2 constantly working pumps per electrolyzer and any filters).
 
-An example of ideal circumstances is an electrolyzer room with one water pump, four electrolyzers and eight gas pumps. One pump for hydrogen, seven pumps for oxygen. This generates 448 g/s of hydrogen, which can run four hydrogen generators with slight excess. The setup consumes 2520 Watts (pump runs half the time) and 4 kg/s of water, and the hydrogen generators will produce 3200 W or 4800 W with Engie's Tune-Up. The excess hydrogen can be used to run a fifth generator intermittently. If this is done, then best case with Engie's Tune-Up will be come out to approximately 740 Watts per kg of water. Without Engie's Tune-Up, best case becomes about 280 Watts per kilogram of water. 
+An example of ideal circumstances is an electrolyzer room with one water pump, four electrolyzers and eight gas pumps. One pump for hydrogen, seven pumps for oxygen. This generates 448 g/s of hydrogen, which can run four hydrogen generators with slight excess. The setup consumes 2520 Watts (pump runs half the time) and 4 kg/s of water, and the hydrogen generators will produce 3200 W or 4800 W with Engie's Tune-Up. The excess hydrogen can be used to run a fifth generator intermittently. If this is done, then best case with Engie's Tune-Up will be come out to approximately 740 Watts per kg of water. Without Engie's Tune-Up, best case becomes about 280 Watts per kilogram of water.
 
 The same kilogram of water per second can also be converted into Crude Oil and Natural Gas, which can fuel Petroleum and Natural Gas Generators, where it amounts to ~1421 Watts of power (assuming two constantly running pumps, Oil Well and refinery). This setup also has a plenty of potential for further efficiency improvement.
 
 Thus, for the purposes of energy production, it is more preferable to utilize all available Oil Reservoirs before redirecting water to Hydrogen Generators.
 
-== Heat economy == 
+== Heat economy ==
 Hydrogen Generators can be used to destroy heat wholesale, putting just 17 °C of excess heat into Hydrogen will be enough to counteract generator's heating, and everything beyond that is a bonus. It is not particularly powerful in that regards, burning 100 °C Hydrogen will destroy only 20 kDTU/s, but there is no problematic by-products either.
-
 # 文档：Jumbo Battery
 - 类别：power_buildings
 - 标识：jumbo-battery
@@ -20513,7 +18985,6 @@ Jumbo Battery is used to store extra power that your duplicants create. It must 
 * Power
 * Battery
 * Smart Battery
-
 # 文档：Large Power Transformer
 - 类别：power_buildings
 - 标识：large-power-transformer
@@ -20523,20 +18994,18 @@ Large Power Transformer is intended to separate two circuits to protect the circ
 
 == Usage ==
 Transformers have an input side (the upper attachment point) and an output side (the lower attachment point). High-power circuits should enter the transformer through its upper input, and will output up to 4 kW on the output side as long the input side can support it.
-<gallery mode="packed">
+
 File:Transformers.png
-</gallery>
 
 For more details see Power Transformer.
 
 == History ==
-
 # 文档：Manual Generator
 - 类别：power_buildings
 - 标识：manual-generator
 - 来源：wiki/Manual_Generator
 
-Manual Generator is a power source that must be manually operated to produce electricity. It is the first power producer unlocked. It requires a duplicant constantly running on it in order to produce electricity. While it is a renewable power source, it reduces a colony's productivity as it produces a relatively small amount of power and prevents a duplicant from doing other jobs. 
+Manual Generator is a power source that must be manually operated to produce electricity. It is the first power producer unlocked. It requires a duplicant constantly running on it in order to produce electricity. While it is a renewable power source, it reduces a colony's productivity as it produces a relatively small amount of power and prevents a duplicant from doing other jobs.
 
 == Usage ==
 Manual Generators are mandatory at the start in order to power your first structures. They stay relevant later on in the game as they do not use up any resources, and can be used to localize power production to remote projects.
@@ -20546,11 +19015,11 @@ Because duplicants will end up spending a lot of time on manual generators, maki
 Use the battery threshold slider to optimize the trips of your duplicants. A lower threshold means duplicants will make fewer trips to the Manual Generator, but is risky as the colony might go to bed with nearly empty batteries. You can also use a combination of high and low threshold values once you have multiple manual generators to have some constantly running while others serve as backup in case of power shortage.
 
 == Mechanics ==
-Duplicants can be told to run on the generator by allowing Operate tasks. It will train machinery and athletics over time. 
+Duplicants can be told to run on the generator by allowing Operate tasks. It will train machinery and athletics over time.
 
 Duplicants will automatically stop running on the Manual Generator once at least one battery connected to it is full. This is to prevent power loss from a duplicant creating excess power. Setting the battery threshold at 100% is especially inefficient, because the duplicant will stop running when batteries are full, then the task will immediately be added back to a duplicant's queue. Optimal behavior means finding a balance to ensure power never runs out, even at night, but the duplicants have time to perform other tasks as well. It can be acceptable if duplicants spend all their time running, as long as power never runs out, but that is situational and is a sign that your power needs are growing and a different generator type may be desired.
 
-Keep in mind batteries lose a small amount of power over time, as well as generating more heat, meaning fewer batteries is more energy efficient but will require more frequent charging. 
+Keep in mind batteries lose a small amount of power over time, as well as generating more heat, meaning fewer batteries is more energy efficient but will require more frequent charging.
 
 If no batteries are connected to the generator, duplicants will run on it as soon as a Power consumer is in use, effectively wasting Power if production is higher than consumption. It is recommended to have at least one battery unless production and consumption are almost matched.
 
@@ -20563,7 +19032,6 @@ Duplicants will play a short falling animation when exiting the Manual Generator
 == See also ==
 * Battery
 * Jumbo Battery
-
 # 文档：Natural Gas Generator
 - 类别：power_buildings
 - 标识：natural-gas-generator
@@ -20571,17 +19039,17 @@ Duplicants will play a short falling animation when exiting the Manual Generator
 
 Natural Gas Generator uses Natural Gas to produce electricity, and releases Carbon Dioxide through attached Gas Pipe, and dribbles Polluted Water on the third tile from the left. Natural Gas has to be brought in through a Gas Pipe connected to the input tile of the generator. Getting the gas into the pipe will require a Gas Pump. The gas must be pure - any "packet" of a wrong kind of gas will damage the generator.
 
-Natural Gas Generators produce 1.25 kDTU, 2.8 g of CO<sub>2</sub>, and 8.4 g of Polluted Water per 100 Joules of electrical energy.
+Natural Gas Generators produce 1.25 kDTU, 2.8 g of CO2, and 8.4 g of Polluted Water per 100 Joules of electrical energy.
 
 == Usage ==
 Natural Gas generators are a good source of power that do not require maintenance. It would also be a good idea to place them relatively near a Natural Gas Geyser so the pipes do not have to travel far, and that the Carbon Dioxide can be more efficiently separated and put off to the side, where it can be contained or purified.
 
-The outputted polluted water is emitted on the Natural Gas Generator's third tile from the left or second tile from the right. A single mesh tile on that location can allow you to direct the outputted polluted water. 
+The outputted polluted water is emitted on the Natural Gas Generator's third tile from the left or second tile from the right. A single mesh tile on that location can allow you to direct the outputted polluted water.
 
 == Heat economy ==
 * Polluted Water is produced with minimal temperature of 40 °C/104 °F.
 * Carbon Dioxide is produced with minimal temperature of 110 °C/230 °F.
-Both outputs can be hotter if the generator is hotter than their minimal temperatures. 
+Both outputs can be hotter if the generator is hotter than their minimal temperatures.
 
 Due to SHC output/input ratio of 1.5, Natural Gas Generators are inherently heat multiplying. However those effects can be mitigated by keeping input's temperature as close as possible to 40 °C/104 °F. It is preferable to err on the upper side, since colder input will boost heat at double rate.
 
@@ -20606,13 +19074,12 @@ This also boils the Polluted Water as soon as it exits the generator - due to th
 * Ten Natural Gas Generators can consume the excess Natural Gas produced by twenty-seven properly-maintained Oil Wells.
 ** As most seeds are unlikely to contain that many Oil Reservoirs, simpler ratios can be used that will not have full uptime on the generators. One generator can handle all output from 1-2 wells, two generators can handle 3-5 wells, and three generators can handle 6-8 wells.
 * As seen on sprite of the Natural Gas Generator as a spout, the Polluted Water is produced in the tile that is second from the right. Building a Mesh Tile right below this tile is enough to prevent a messy spill.
-
 # 文档：Petroleum Generator
 - 类别：power_buildings
 - 标识：petroleum-generator
 - 来源：wiki/Petroleum_Generator
 
-Petroleum Generator uses Petroleum or Ethanol to produce electricity, and emits Polluted Water and Carbon Dioxide in the vicinity. 
+Petroleum Generator uses Petroleum or Ethanol to produce electricity, and emits Polluted Water and Carbon Dioxide in the vicinity.
 
 Polluted water and carbon dioxide are output with a minimum temperature of 40 °C and 110 °C respectively. The temperature may be higher if the building temperature is above the outputs' minimum temperature. Polluted water is emitted from the bottom-right tile of the generator (Cell of interest).
 
@@ -20667,19 +19134,22 @@ When compared to a Natural Gas Generator scaled up for equivalent input, the Nat
 
 * Note, it's easier to use Power Control Stations to boost a single Petrol Generator to 3000w, compared to potentially boosting 15 Natural Gas Generators. However, considering this only reduces the gap from 6x to 4x, you likely do not need to boost the 15 Natural Gas Generators.
 
-This does not mean that the Petroleum Generator is a bad option. Petroleum Generator can burn cold petroleum and produce energy without complex fuel processing, which makes it easier to set up. 
+This does not mean that the Petroleum Generator is a bad option. Petroleum Generator can burn cold petroleum and produce energy without complex fuel processing, which makes it easier to set up.
 
-Besides that, Petroleum Generator's ability to produce germ free polluted water is not bad. The Pincha Pepper plant requires 35&nbsp;kg/cycle which is roughly 58 g/s so one Petroleum Generator can supply 12 plants. 
+Besides that, Petroleum Generator's ability to produce germ free polluted water is not bad. The Pincha Pepper plant requires 35 kg/cycle which is roughly 58 g/s so one Petroleum Generator can supply 12 plants.
 
 The carbon dioxide can be traditionally fed to slicksters to regain some fuel, but it is far from sustainable (see recycling section).
 
 === Ethanol ===
 Comparison with Wood Burner, which uses the same fuel source, and has similar by-products:
-{| class="wikitable" style="text-align:right"
 !
-! Wood<br>Burner
-! , Input<br>matched<br>(x3.33)
-! Petrol Generator +<br>4 Ethanol Distillers
+! Wood
+Burner
+! , Input
+matched
+(x3.33)
+! Petrol Generator +
+4 Ethanol Distillers
 |-
 | Power (W)
 | 300
@@ -20713,7 +19183,7 @@ Comparison with Wood Burner, which uses the same fuel source, and has similar by
 |}
 * 4 Ethanol Distillers needed to run 1 PG are included.
 
-The fuel-efficiency is comparable, although Petroleum Generator generates more useful by-products. 
+The fuel-efficiency is comparable, although Petroleum Generator generates more useful by-products.
 * The Polluted Water can be used to regrow Arbor Trees.
 * The Polluted Dirt has a number of uses, including generating Oxygen or producing Coal via Sage Hatches.
 * A single Petrol Generator is easier to Power Control Station boost than 3~4 Wood Burners, for a significant +1000w Power Generated.
@@ -20740,33 +19210,31 @@ Alternatively, Sublimation Stations can be used to feed Pufts, whose excrement c
 == Heat Economy ==
 The SHC output/input ratio for petroleum and ethanol is 1.01 and 0.72 respectively. However, as the output temperature is depending on the building temperature, it is possible to use hot input fuel hotter than 40 °C but still output 40 °C polluted water, assuming the engine can be sufficient cooling capacity to maintain 40 °C. Conversely, it is possible for the petroleum generator to become heat multiplying if you were to input low temperature fuel into a hot petroleum engine.
 
-For the process to be heat negative, the petroleum input must be at least 56 °C, assuming that the building temperature remains at 40 °C. Whereas when burning ethanol, the ethanol input must be at least -44 °C to be heat negative. This is calculated by comparing the enthalpy of the input and output materials i.e. the total thermal energy of the input and output. This is given by the following equation, where <math>m</math> is mass, <math>c</math> is specific heat capacity, and <math>T</math> is temperature:
+For the process to be heat negative, the petroleum input must be at least 56 °C, assuming that the building temperature remains at 40 °C. Whereas when burning ethanol, the ethanol input must be at least -44 °C to be heat negative. This is calculated by comparing the enthalpy of the input and output materials i.e. the total thermal energy of the input and output. This is given by the following equation, where m is mass, c is specific heat capacity, and T is temperature:
 
-<math>h = m\cdot c \cdot T</math>
+h = m\cdot c \cdot T
 
-Note that temperature must be in kelvin. 
+Note that temperature must be in kelvin.
 
 Assuming that the engine outputs the materials at its' minimum temperature the total enthalpy output is:
 
-<math>\begin{align} H_{output} & = H_{pwater} + H_{co2} 
+\begin{align} H_{output} & = H_{pwater} + H_{co2}
  \\ & =4.17\cdot0.75\cdot313 + 0.846\cdot 0.5 \cdot 383\\
  &= 1140 \text{kDTU} \end{align}
-</math>
 
 For the machine to be heat negative, the enthalpy of the system input must be less than the sum of the outputs' enthapy and machine heat generation. Hence the minimum input temperature is given by:
 
-<math>\begin{align} H_{input} &\leq H_{output} + 20 \\ 
+\begin{align} H_{input} &\leq H_{output} + 20 \\
 m \cdot c\cdot T_{min} &\leq 1160\\
 T_{min} & \leq \frac{1160}{m_{input} \cdot c_{input}}
 \end{align}
-</math>
+
 == Carbon Dioxide recycling ==
 Slicksters convert Carbon Dioxide to either Crude Oil or Petroleum, depending on the variety, at a rate of 2:1.
 
-If you use the Slickster then the 500 g/s of CO<sub>2</sub> will be converted into 250 g/s of crude oil. Using an Oil Refinery will consume 5&nbsp;kg/s of crude O
+If you use the Slickster then the 500 g/s of CO2 will be converted into 250 g/s of crude oil. Using an Oil Refinery will consume 5 kg/s of crude O
 
 ...(内容截断)
-
 # 文档：Power Control Station
 - 类别：power_buildings
 - 标识：power-control-station
@@ -20796,25 +19264,25 @@ For a duplicant with zero Machinery, It takes 15 seconds to manufacture one micr
 ! Mass !! Name
 |-
 | rowspan="6" | 5 kg
-| 
+|
 | rowspan="6" | 
 |-
-| 
+|
 |-
-| 
+|
 |-
-| 
+|
 |-
-| 
+|
 |-
-| 
+|
 |-
-| 
+|
 |-
-| 
+|
 |}
 
-Since the Engie's Tune Up buff lasts for 3 cycles or longer, the cost to boost a single generator continually is at most &approx; 1.67 kg / cycle (&approx; 2.78 g / s). However, this does not factor in the time needed for a duplicant to fabricate a microchip, deliver it to the generator, and tinker the generator, so the real cost per generator is likely to be lower. Higher levels of Machinery reduce the time spent on these errands (which increases the average cost), but also increases the duration of the buff (which decreases the cost). For example: assuming zero time spent travelling or supplying, a duplicant with 20 points of Machinery takes 5 seconds to fabricate a microchip and 60 seconds to tinker the generator, and the buff will last 4.5 cycles (2,700 seconds), for an average cost of &approx; 1.09 kg / cycle (&approx; 1.81 g / s).
+Since the Engie's Tune Up buff lasts for 3 cycles or longer, the cost to boost a single generator continually is at most ≈ 1.67 kg / cycle (≈ 2.78 g / s). However, this does not factor in the time needed for a duplicant to fabricate a microchip, deliver it to the generator, and tinker the generator, so the real cost per generator is likely to be lower. Higher levels of Machinery reduce the time spent on these errands (which increases the average cost), but also increases the duration of the buff (which decreases the cost). For example: assuming zero time spent travelling or supplying, a duplicant with 20 points of Machinery takes 5 seconds to fabricate a microchip and 60 seconds to tinker the generator, and the buff will last 4.5 cycles (2,700 seconds), for an average cost of ≈ 1.09 kg / cycle (≈ 1.81 g / s).
 
 == Tips ==
 * Due to the high value of Refined Metal in the early/midgame, wide-scale microchip production is usually not worth the opportunity cost until you can obtain a renewable supply of metal (e.g. Meteor Showers or Metal Volcanoes).
@@ -20823,7 +19291,6 @@ Since the Engie's Tune Up buff lasts for 3 cycles or longer, the cost to boost a
 == Notes ==
 * Duplicants will only fabricate more microchips if none are available to use.
 * Manual Generators and Solar Panels are not eligible for boosting.
-
 # 文档：Power Shutoff
 - 类别：power_buildings
 - 标识：power-shutoff
@@ -20841,7 +19308,6 @@ A Green automation signal allows electricity to flow. A Red automation signal pr
 == Trivia ==
 * The activation/deactivation sound effect will produce different tones depending on the length of the automation wire. So it can be used [https://old.reddit.com/r/Oxygennotincluded/comments/add8xy/i_did_something_dont_know_if_i_shouldve_but_i_did/ for music-boxes.]
 ** The pitch of the note will drop by 1 semitone per wire length increase, e.g 2 wire length (shortest possible) will produce a C6 tone and a 3 wire length will produce a B5.
-
 # 文档：Power Transformer
 - 类别：power_buildings
 - 标识：power-transformer
@@ -20851,9 +19317,8 @@ Power Transformer is a building intended to separate two circuits to protect aga
 
 == Usage ==
 Transformers have an input side (the upper attachment point) and an output side (the lower attachment point). Typically, high-power circuits should enter the transformer through its upper input, and will output up to 1 kW on the output side.
-<gallery mode="packed">
+
 File:Transformers.png
-</gallery>
 
 Typically, generators and Batteries will be attached on a Heavi-Watt Wire grid, giving them a 20 kW capacity (allowing up to 33 Coal Generators). Multiple transformers can then be attached to supply power consumers attached to a lower wattage cable able to cross tiles.
 
@@ -20870,7 +19335,6 @@ Alternatively, transformers can be used to draw power from a low wattage circuit
 **On its own, the battery of a transformer will limit the available power to 1 kW and prevent overload. However, if more batteries or transformers are connected, the increased available power may cause overload damage to happen.
 
 == History ==
-
 # 文档：Smart Battery
 - 类别：power_buildings
 - 标识：smart-battery
@@ -20898,15 +19362,14 @@ A typical sample is to use Smart Battery to control Coal Generators. Connect the
 * Power
 * Battery
 * Jumbo Battery
-
 # 文档：Solar Panel
 - 类别：power_buildings
 - 标识：solar-panel
 - 来源：wiki/Solar_Panel
 
-Solar Panel is a building that can convert light into power. The more light it receives, the more power it generates. 380 W is the maximum power it can generate, and it has to have a total Lux coverage of 350 000 (7 tiles * 50 000 on each tile). Covering a tile will cause less power to generate as the power generated is based on total Lux received. Requires more Lux per tile to reach full output (6 tiles * ~58 000) 
+Solar Panel is a building that can convert light into power. The more light it receives, the more power it generates. 380 W is the maximum power it can generate, and it has to have a total Lux coverage of 350 000 (7 tiles * 50 000 on each tile). Covering a tile will cause less power to generate as the power generated is based on total Lux received. Requires more Lux per tile to reach full output (6 tiles * ~58 000)
 
-It has two separate panels and one panel is three tiles wide, however they have no effect on the functionality. 
+It has two separate panels and one panel is three tiles wide, however they have no effect on the functionality.
 
 Duplicants can walk on the bottom row of solar panel, so it can be used as flooring.
 
@@ -20920,7 +19383,7 @@ Solar Panels cannot withstand Meteor strikes, overheat as easily as generic buil
 **Robo-Miners can help with regolith dismantling, but will require cooling and protection themselves.
 * Bunker Doors can serve as reliable upper line of defense, but they require automation setup involving Space Scanners, which are complicated by themselves.
 
-Meteor storms also decrease the amount of solar power generated each cycle, because either accumulated regolith tiles or closed Bunker Doors will block panels from receiving light. Badly timed meteor shower can block almost an entire cycle's worth of sunlight. 
+Meteor storms also decrease the amount of solar power generated each cycle, because either accumulated regolith tiles or closed Bunker Doors will block panels from receiving light. Badly timed meteor shower can block almost an entire cycle's worth of sunlight.
 
 The second issue with solar power is its cyclical nature. If there are no other power sources to use as backup, each Solar Panel would need 9 Smart Batteries or 5 Jumbo Batteries to compensate for the worst-case downtime. [https://forums.kleientertainment.com/forums/topic/99802-solar-power-output/ More on Solar output].
 
@@ -20929,37 +19392,34 @@ The power generated by a solar panel scales linearly with the total illuminance 
 
 Maximum output of 380 W requires a total lux of 350,000. Therefore, the power output of a solar panel can be computed as a function of total lux:
 
-<math>P = 380W\frac{\min(T_{lux}, 350000lx)}{350000lx}</math>
+P = 380W\frac{\min(T_{lux}, 350000lx)}{350000lx}
 
-Where <math>P</math> is the power produced by the solar panel, and <math>T_{lux}</math> is the total illuminance (in lux) incident on the solar panel.
+Where P is the power produced by the solar panel, and T_{lux} is the total illuminance (in lux) incident on the solar panel.
 
 === Illuminance from sunlight throughout a cycle ===
 The day-night cycle results in a varying intensity of sunlight, ranging from 0 lux at night to a peak of 80,000 lux at midday (see Light). The illuminance on a single tile from sunlight at any given time in a 600 second cycle can be determined by the following:
 
-<math>E_v=\max \left(80000lx \cdot \sin \left( \frac{\pi \cdot \tau}{525s} \right), 0 \right)
-</math>
+E_v=\max \left(80000lx \cdot \sin \left( \frac{\pi \cdot \tau}{525s} \right), 0 \right)
 
-Where <math>E_v</math>is the illuminance (in lux) that falls on each tile from sunlight, and <math>\tau</math> is the time of day in seconds, ranging from 0 to 600 for each cycle.
+Where E_vis the illuminance (in lux) that falls on each tile from sunlight, and \tau is the time of day in seconds, ranging from 0 to 600 for each cycle.
 
 === Average power across a cycle using sunlight ===
 For a solar panel in unobstructed direct sunlight (e.g. in the vacuum of space with no light-blockers above it), its power output will vary as solar illuminance changes with the cycle.
-
 # At night, solar panels produce no power.
 # During the morning, solar panels ramp up power until solar illuminance reaches 50,000 lux, at which point the maximum output of 380 W is reached.
 # Solar illuminance continues to rise to a peak of 80,000 lux at midday, but solar panels will continue to produce their maximum output of 380 W.
 # Solar illuminance begins dropping after midday. Once illuminance drops below 50,000 lux, the power produced by solar panels begins to ramp down until nighttime.
-
-This assumes no interruption in solar illumination due to meteor showers, which is the default case in the 48px Spaced Out DLC. 
+This assumes no interruption in solar illumination due to meteor showers, which is the default case in the 48px Spaced Out DLC.
 
 Combining the above two formulae, this process can be modeled with the following to compute the power generated for a given time of day:
 
-<math>P(\tau) = 380W \frac{\min(7 \cdot E_v, 350000lx)}{350000lx} = 380W \frac{\min(\max \left(560000lx \cdot \sin \left( \frac{\pi \cdot \tau}{525s} \right), 0 \right), 350000lx)}{350000lx} </math>
+P(\tau) = 380W \frac{\min(7 \cdot E_v, 350000lx)}{350000lx} = 380W \frac{\min(\max \left(560000lx \cdot \sin \left( \frac{\pi \cdot \tau}{525s} \right), 0 \right), 350000lx)}{350000lx}
 
-<math>\implies P(\tau) = 380W \cdot \min \left( \max \left(1.6 \cdot \sin \left( \frac{\pi \cdot \tau}{525s} \right), 0 \right), 1 \right) </math>
+\implies P(\tau) = 380W \cdot \min \left( \max \left(1.6 \cdot \sin \left( \frac{\pi \cdot \tau}{525s} \right), 0 \right), 1 \right)
 
-Integrating with respect to time <math>\tau </math>, the total energy in joules produced by a solar panel in a single cycle can be found:
+Integrating with respect to time \tau , the total energy in joules produced by a solar panel in a single cycle can be found:
 
-<math>\int_{0s}^{600s} {380W \cdot \min \left( \max \left(1.6 \cdot \sin \left( \frac{\pi \cdot \tau}{525s} \right), 0 \right), 1 \right) } {d \tau} \approx 158334J </math>
+\int_{0s}^{600s} {380W \cdot \min \left( \max \left(1.6 \cdot \sin \left( \frac{\pi \cdot \tau}{525s} \right), 0 \right), 1 \right) } {d \tau} \approx 158334J
 
 Given that each cycle lasts 600 seconds, this gives an average power output of ~264 W across a cycle for a single solar panel with an unobstructed view of space.
 
@@ -21012,24 +19472,23 @@ The total energy storage required (in joules) is equal to the excess energy gene
 
 To compute the energy generated during the day in excess of the 264 W average, it is sufficient to consider the energy generated within the average 264 W envelope, and subtract it from the total energy generated during the cycle.
 
-<math>\frac{P_{average}}{P_{peak}} = \frac{264 W}{380 W} \approx 0.69</math>
+\frac{P_{average}}{P_{peak}} = \frac{264 W}{380 W} \approx 0.69
 
 Substituting this in, gives:
 
-<math>\int_{0s}^{600s} {380W \cdot \min \left( \max \left(1.6 \cdot \sin \left( \frac{\pi \cdot \tau}{525s} \right), 0 \right), 0.69 \right) } {d \tau} \approx 119083J </math>
+\int_{0s}^{600s} {380W \cdot \min \left( \max \left(1.6 \cdot \sin \left( \frac{\pi \cdot \tau}{525s} \right), 0 \right), 0.69 \right) } {d \tau} \approx 119083J
 
 And subtracting from the total power gives:
 
-<math>E_{batt}=158334J-119083J=39251J</math>
+E_{batt}=158334J-119083J=39251J
 
 That is, for a single solar panel with a constant unobstructed view of space, you need 39.3 kJ of energy storage to store enough energy to supply a constant 264 W throughout the cycle. Accounting for battery runoff, this is very close to the storage provided by two Smart Batteries, or (less optimally) one Jumbo Battery.
 
 ===How many batteries do I need?===
 
-*In the 48px Spaced Out DLC, most asteroids do not experience meteor showers. Therefore, solar panels can achieve an unobstructed view of space 100% of 
+*In the 48px Spaced Out DLC, most asteroids do not experience meteor showers. Therefore, solar panels can achieve an unobstructed view of space 100% of
 
 ...(内容截断)
-
 # 文档：Steam Turbine
 - 类别：power_buildings
 - 标识：steam-turbine
@@ -21056,12 +19515,12 @@ While active, every non-blocked inlet will use 0.4 kg of any form of Steam (for 
 ===Maximum Power Production===
 {| class="wikitable" |
 |Power produced per steam temperature
-|<math>P = \left ( \frac{85}{21} \right )\cdot \dot{m} \cdot (T_{steam}-95)</math>
+|P = \left ( \frac{85}{21} \right )\cdot \dot{m} \cdot (T_{steam}-95)
 |-
 |Power to Heat ratio
-|<math>\frac{\left ( \frac{85}{21} \right )}{4.179} = 0.969 \frac {W}{kDTU/s} </math>
+|\frac{\left ( \frac{85}{21} \right )}{4.179} = 0.969 \frac {W}{kDTU/s}
 |}
-<math>P</math> is the produced power in W, <math>\dot{m}</math> is the mass flow rate in kg/s and <math>T_{steam}</math> is the temperature of the steam in Celsius.
+P is the produced power in W, \dot{m} is the mass flow rate in kg/s and T_{steam} is the temperature of the steam in Celsius.
 
 The power output depends on the consumption rate and the temperature of the steam. Assuming max steam consumption rate (2 kg/s), power output is 242 watts at 125 °C, capped at 850 watts at 200 °C or higher.
 
@@ -21069,11 +19528,15 @@ With a lower flow rate, a higher temperature is required for the same heat delet
 
 {| class="wikitable"
 !Inlets
-!Required Temp<br>for Max Power
+!Required Temp
+for Max Power
 
-!Flow Rate<br>(kg/s)
-!<br>(kDTU/s)
-!Power Produced<br>(W)
+!Flow Rate
+(kg/s)
+!
+(kDTU/s)
+!Power Produced
+(W)
 |-
 | 5||||2||877.59||850
 |-
@@ -21090,28 +19553,31 @@ Note for 1 inlet: A steam turbine can absorb 0.08 kg steam in each tick (0.2 sec
 
 This does not affect the heat deletion and production. They still delete the heat of 0.4 kg Steam per second, and in turn, produce 10% of that + 4 kDTU themselves.
 
-Thus, to summarize this section: 
+Thus, to summarize this section:
 *If the Steam is below 200 °C, have as many inputs unblocked as possible to maximize power generation through having the Turbine suck in as much as steam as possible.
 *If the Steam is above 200 °C, block the inputs to just two to maximize power generation while minimizing steam consumption and heat generation of the Turbine.
 
 ===Heat Deletion===
 {| class="wikitable"
 |Heat Removed from Steam
-|<math>q_{removed} = 4.179 \cdot \dot{m} \cdot (T_{steam}-95)</math>
+|q_{removed} = 4.179 \cdot \dot{m} \cdot (T_{steam}-95)
 |-
 |Heat Produced by Turbine
-|<math>\dot{Q}_{out} = \frac{q_{removed}}{10} + 4</math>
+|\dot{Q}_{out} = \frac{q_{removed}}{10} + 4
 |}
-As long as the steam turbine works (own temperature below 100 °C and steam temperature above 125 °C) it will reduce the input steam in temperature to 95 °C Water. How much heat is deleted <math>q_{removed}</math> in kDTU/s depends on the Specific Heat Capacity of Water (4.179(DTU/g)/°C), the flow rate <math>\dot{m}</math> in kg/s, and the steam's temperature <math>T_{steam}</math> in Celsius.
+As long as the steam turbine works (own temperature below 100 °C and steam temperature above 125 °C) it will reduce the input steam in temperature to 95 °C Water. How much heat is deleted q_{removed} in kDTU/s depends on the Specific Heat Capacity of Water (4.179(DTU/g)/°C), the flow rate \dot{m} in kg/s, and the steam's temperature T_{steam} in Celsius.
 
-The heat produced by the steam turbine <math>\dot{Q}_{out}</math> is 10% of the removed Heat plus 4kDTU operational cost. 
+The heat produced by the steam turbine \dot{Q}_{out} is 10% of the removed Heat plus 4kDTU operational cost.
 
 {| class="wikitable"
 |+Example with max pressure (2 kg/s) and 5 inlet
 !Temperature
-!Heat Deleted<br>(kDTU/s)
-!Heat Transfered to Turbine<br>(kDTU/s)
-!Real Heat Deleted<br>(kDTU/s)
+!Heat Deleted
+(kDTU/s)
+!Heat Transfered to Turbine
+(kDTU/s)
+!Real Heat Deleted
+(kDTU/s)
 |-
 |||250.74||25.07 + 4 = 29.07 ||221.67
 |-
@@ -21148,17 +19614,17 @@ thumb
 
 When the temperature of the steam rises too high multiple ports can be automatically blocked by doors one at a time. Above 200 °C the first door closes, above 226.25 °C the second, and above 270 °C the third. The fourth door however should not close at 357.5 °C, but rather at 444 °C.
 
-The temperature at which two inlets have the 850 W cap is 357.5 °C, any hotter and all DTU above is wasted, a gradual increase.<br />
+The temperature at which two inlets have the 850 W cap is 357.5 °C, any hotter and all DTU above is wasted, a gradual increase.
+
 Taking only one inlet immediately cuts the used DTU's in half, but for
 
 ...(内容截断)
-
 # 文档：Switch
 - 类别：power_buildings
 - 标识：switch
 - 来源：wiki/Switch
 
-Switch is an Automation building which can disable a single Wire segment. It does not need a foundation to be built. 
+Switch is an Automation building which can disable a single Wire segment. It does not need a foundation to be built.
 
 == Tips ==
 * As nearly all power consumers can be disabled by an Automation grid, the switch quickly becomes redundant once Refined Metal is available.
@@ -21168,7 +19634,6 @@ Switch is an Automation building which can disable a single Wire segment. It doe
 * Before AP-395113, Switches and Signal Switches required Duplicant operation, and player controlled Switches had to be made by connecting Power Shutoff to Sensors.
 
 == History ==
-
 # 文档：Wire
 - 类别：power_buildings
 - 标识：wire
@@ -21182,7 +19647,7 @@ It can be run through wall and floor tiles.
 == Tips ==
 * Electrical wire is used to connect generators, batteries, and buildings.
 * Wire run through solid tiles has no decor penalty.
-* On 1000+ Watts, the circuit will overload and be damaged or destroyed. 
+* On 1000+ Watts, the circuit will overload and be damaged or destroyed.
 * Placing wire on a natural block will cause the block to be automatically dug out first, even if that block is supporting something.
 * Conductive Wire is an upgraded version which can stand 2 kW and has no decor penalty, but requires Refined Metal to be built.
 
@@ -21190,7 +19655,6 @@ It can be run through wall and floor tiles.
 * Wire Bridge
 * Power
 * Heavi-Watt Wire
-
 # 文档：Wire Bridge
 - 类别：power_buildings
 - 标识：wire-bridge
@@ -21209,7 +19673,6 @@ Wire Bridge can be used to jump over any other kind of wire.
 * Wire
 * Power
 * Research
-
 # 文档：Wood Burner
 - 类别：power_buildings
 - 标识：wood-burner
@@ -21217,7 +19680,7 @@ Wire Bridge can be used to jump over any other kind of wire.
 
 Wood Burner produces power when supplied with Lumber. It will operate until it runs out of Lumber. It can be configured to be refueled only when the stored energy level in connected batteries drops below a set percentage.
 
-Wood Burners are the least efficient among continuous generators, producing 3 kDTU and 56.(6) g of CO<sub>2</sub> per 100 Watt per second.
+Wood Burners are the least efficient among continuous generators, producing 3 kDTU and 56.(6) g of CO2 per 100 Watt per second.
 
 == Heat economy ==
 It may not look like it, but technically Burners delete heat starting at the lumber's temperature above 6 °C.
