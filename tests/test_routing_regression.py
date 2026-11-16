@@ -59,36 +59,25 @@ def route(question, last_game=None, confirmed=False, history=None):
 #  1. 线上误判轮次（BG3 会话被别的游戏抢走）
 # ══════════════════════════════════════════════════════════════
 
-# (case_id, 提问, 上下文已确认游戏, 期望游戏, 是否已知缺陷)
+# (case_id, 提问, 上下文已确认游戏, 期望游戏)
 ONLINE_CASES = [
     ("online-2026-11-15#2316", "水电工怎么玩",
-     "baldurs_gate3", "baldurs_gate3", False),
+     "baldurs_gate3", "baldurs_gate3"),
     ("online-2026-11-15#2346", "护符里的幽灵那个任务的",
-     "baldurs_gate3", "baldurs_gate3", True),
+     "baldurs_gate3", "baldurs_gate3"),
     ("online-2026-11-15#2347",
      "帮助他到最后，他问我要不要继承莎尔的诅咒，学会狂笑术，但是有代价",
-     "baldurs_gate3", "baldurs_gate3", False),
+     "baldurs_gate3", "baldurs_gate3"),
     ("online-2026-11-16#0014",
      "明萨拉用压迫灵魂之剑还是静止者？我选的是单手武器+盾牌的职业",
-     "baldurs_gate3", "baldurs_gate3", True),
+     "baldurs_gate3", "baldurs_gate3"),
 ]
 
-# 已知缺陷的理由（按 case_id）。修好后把这些条目和 known_bad 一起删掉
-_XFAIL_REASON = {
-    "online-2026-11-15#2346":
-        "HK signals 含通用词「护符」，单信号 conf=1.0 直接切走 BG3（待 P0 切换门槛）",
-    "online-2026-11-16#0014":
-        "HK signals 含通用词「灵魂」，同样是单信号切换（待 P0 切换门槛）",
-}
 
-
-@pytest.mark.parametrize("case_id,q,ctx_game,expected,known_bad", ONLINE_CASES,
+@pytest.mark.parametrize("case_id,q,ctx_game,expected", ONLINE_CASES,
                          ids=[c[0] for c in ONLINE_CASES])
-def test_online_misroute_cases(case_id, q, ctx_game, expected, known_bad, request):
+def test_online_misroute_cases(case_id, q, ctx_game, expected):
     """线上会话中段：已确认游戏不该被一个通用词抢走。"""
-    if known_bad:
-        request.node.add_marker(
-            pytest.mark.xfail(strict=True, reason=_XFAIL_REASON[case_id]))
     out = route(q, last_game=ctx_game, confirmed=True, history=["上一轮的同游戏追问"])
     assert out.get("detected_game") == expected, (
         f"{case_id}: 期望 {expected}，实际 {out.get('detected_game')}"
@@ -110,14 +99,12 @@ GENERIC_SIGNAL_CASES = [
 
 @pytest.mark.parametrize("q,ctx_game,why", [c[:3] for c in GENERIC_SIGNAL_CASES],
                          ids=[c[3] for c in GENERIC_SIGNAL_CASES])
-def test_generic_signal_alone_does_not_switch(q, ctx_game, why, request):
+def test_generic_signal_alone_does_not_switch(q, ctx_game, why):
     """P0 契约：通用词只能做弱证据，不能单独推翻已确认的游戏。
 
     修好后的期望行为：沿用 ctx_game；跨游戏切换要么靠专有词，
     要么靠 exact_patterns / 显式游戏名。
     """
-    request.node.add_marker(pytest.mark.xfail(
-        strict=True, reason=f"单信号 {why} 直接把会话切走了（待 P0 切换门槛）"))
     out = route(q, last_game=ctx_game, confirmed=True, history=["同游戏追问"])
     assert out.get("detected_game") == ctx_game, (
         f"「{q}」只因 {why} 就把会话从 {ctx_game} 切走了"
@@ -188,14 +175,12 @@ def test_no_single_char_cjk_signals():
     assert not offenders, f"出现单字中文信号词：{offenders}"
 
 
-def test_cyberpunk_truncated_signal_is_known_debt(request):
-    """写本回归集时顺手发现的：cyberpunk2077 的「漩」是「漩涡帮」被截断的产物。
+def test_cyberpunk_truncated_signal_cleaned():
+    """cyberpunk2077 的「漩」是「漩涡帮」被截断的产物（写回归集时发现，P0 轮已清理）。
 
     它会把任何含「漩」的句子拽去赛博朋克（例如在别的游戏里说「漩涡」）。
-    属于待清理项，不是本次事故的根因，故单独挂 xfail 记录。
+    本用例留守，防止再被写回。
     """
-    request.node.add_marker(pytest.mark.xfail(
-        strict=True, reason="cyberpunk2077 signals 含被截断的单字「漩」（待清理）"))
     assert "漩" not in set(GAME_SIGNALS["cyberpunk2077"])
 
 

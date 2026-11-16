@@ -225,6 +225,8 @@ $ .venv/bin/python scripts/eval/agent_behavior.py --mode routing
 3. G3 `_FALLBACKPT` 加第 5 条。
 4. G4 第 1 步 `turn_record` 加 `sources`。
 5. 摘掉本文件 8 处 `xfail`、2 处 `known_issue`（`bg3-amulet-chain`、`bg3-minthara-weapons` 归 P0）。
+   **2026-11-16：已由服务器端完成**（测试/评测用例维护归服务器侧，不占 Mac 的改动窗口）：
+   共摘 13 处 xfail（含 regression 文件的 7 处）与 4 个 `known_issue`，保留 G4 那一条。
 6. 跑 §7 的三条命令，全绿后 push。
 
 **服务器端**
@@ -248,8 +250,8 @@ max_act 注入）、`e38ed98`（兜底路径进度边界 + 来源约束）、`15
 补检索期上界）。服务器端 pull 后验收：
 
 **代码层**：`pytest --runxfail`（撤掉豁免、按真失败算）只有 1 失败——G4 `turn_record` 缺
-`sources`（本轮未做），其余 186 passed。正常模式下 13 条报 `XPASS(strict)` 变红，就是
-「缺陷修好了但标记没摘」，按 §8 第 5 条由 Mac 摘除后回绿。
+`sources`（本轮未做），其余 186 passed。正常模式下曾 13 条报 `XPASS(strict)`（缺陷已修但
+标记未摘），当天由服务器端摘除后全绿：**186 passed / 20 skipped / 1 xfailed**（仅 G4）。
 
 **表现层**：`agent_behavior.py` routing 模式 9/9 全绿、known_issue 0。原先 4 条已知缺陷
 全部转绿：`bg-shorthand-bg`（BG → baldurs_gate3）、`bg-minthara-spelling`（明萨拉 →

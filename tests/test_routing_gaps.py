@@ -3,7 +3,8 @@
 
 来源：`docs/ROUTING_GAPS_2026-11-16.md`（分析 + 建议方案）
 与 `test_routing_regression.py` 分开的原因：那个文件是 P0 切换门槛的实施挂点，
-Mac 端要改它摘 xfail；本文件只登记**独立缺口**，避免双端改同一文件冲突。
+2026-11-16 状态：G1/G2/G3/G5 已由 Mac 修复（`5ee96b9` 等），标记已摘、保留断言作真守卫；
+G4（`test_turn_record_carries_sources`）仍挂 `xfail(strict=True)`，等 `sources` 字段落地；本文件已不再由 Mac 改。
 
 约定同仓库既有：
   - 已知缺陷挂 `xfail(strict=True)`：现在预期失败；修好后变 XPASS 直接报 failure，
@@ -63,22 +64,18 @@ def _state(question, last_game=None, confirmed=False, history=None):
 #  G1：「BG」这类简写
 # ══════════════════════════════════════════════════════════════
 
-def test_bare_bg_alias(request):
+def test_bare_bg_alias():
     """线上 11-14 11:39 用户只打了「BG」，被弹菜单。
 
-    修法：exact_patterns 增加整句式 `^\\s*bg\\s*$`（不要 `\\bbg\\b`，
-    中文与字母同属 \\w，句中边界不成立）。
+    已修（2026-11-16）：exact_patterns 增加整句式，中文与字母同属 \\w，
+    所以用 ^\\s*bg\\s*$ 而不是 \\bbg\\b。
     """
-    request.node.add_marker(pytest.mark.xfail(
-        strict=True, reason="G1：exact_patterns 只有 bg3，整句「BG」无信号（见 ROUTING_GAPS §1）"))
     game, _ = detect_game("BG")
     assert game == "baldurs_gate3"
 
 
-def test_bare_bg_alias_switches_mid_session(request):
+def test_bare_bg_alias_switches_mid_session():
     """会话中段打「BG」是用户显式纠正，必须能切回来（线上 11-14 12:10 就是这么恢复的）。"""
-    request.node.add_marker(pytest.mark.xfail(
-        strict=True, reason="G1：整句简写既不定游戏也不触发切换（见 ROUTING_GAPS §1）"))
     out = detect_game_node(_state("BG", last_game="hollow_knight", confirmed=True,
                                   history=["HK 的追问"]))
     assert out.get("detected_game") == "baldurs_gate3"
@@ -97,14 +94,12 @@ MINTHARA_CASES = [
 
 
 @pytest.mark.parametrize("q,why", MINTHARA_CASES, ids=["mingshala", "mingsala", "minthara"])
-def test_minthara_alias_recognized(q, why, request):
+def test_minthara_alias_recognized(q, why):
     """整轮 fallback / 误判都是从「信号表里没有这个名字」开始的。
 
     修法：BG3 signals 并列收 `明萨拉` / `明莎拉` / `minthara`，
     同类高风险专名（贾希拉/哈尔辛/明斯克…）一并补。
     """
-    request.node.add_marker(pytest.mark.xfail(
-        strict=True, reason=f"G2：BG3 signals 缺 {why}（见 ROUTING_GAPS §2）"))
     game, _ = detect_game(q)
     assert game == "baldurs_gate3"
 
@@ -113,14 +108,13 @@ def test_minthara_alias_recognized(q, why, request):
 #  G3：兜底路径静默
 # ══════════════════════════════════════════════════════════════
 
-def test_fallback_prompt_guides_user(request):
+def test_fallback_prompt_guides_user():
     """兜底提示词要留一条恢复路径：让模型告诉用户「说出游戏名我就能查库」。
 
     线上三处证据（11-14 12:09、11-14 12:19、11-15 00:17）里，用户都是自己
     重新打了「BG3」才恢复——说明这段引导只存在于菜单文案，不存在于兜底文案。
+    已修（2026-11-16）：`_FALLBACKPT` 补了这条引导。
     """
-    request.node.add_marker(pytest.mark.xfail(
-        strict=True, reason="G3：_FALLBACKPT 没有任何「告诉我游戏名」的引导（见 ROUTING_GAPS §3）"))
     assert "游戏名" in _FALLBACKPT or "游戏名称" in _FALLBACKPT
 
 
@@ -141,14 +135,12 @@ def test_followup_after_fallback_no_menu():
 #  G5：专有词 + 通用词混句
 # ══════════════════════════════════════════════════════════════
 
-def test_mixed_concrete_and_generic(request):
-    """真实写法「我在玩bg3，问个护符」现在判不出：BG3 的 bg3 记 1 分、
-    HK 的「护符」记 1 分，打平后 conf 折半 0.25 < 0.3 → None。
+def test_mixed_concrete_and_generic():
+    """真实写法「我在玩bg3，问个护符」：BG3 的 bg3 记 1 分、HK 的「护符」记 1 分，
+    旧实现打平后 conf 折半 0.25 < 0.3 → None。
 
-    P0 加权（专有 1.0 / 通用 0.25）后应变成 BG3 0.8——这条是 P0-2 的实证用例。
+    P0 加权（专有 1.0 / 通用 0.25）后为 BG3 0.8——已修（2026-11-16）。
     """
-    request.node.add_marker(pytest.mark.xfail(
-        strict=True, reason="G5：专有词与通用词等权，打平即判不出（P0-2 会修）"))
     game, _ = detect_game("我在玩bg3，问个护符")
     assert game == "baldurs_gate3"
 
