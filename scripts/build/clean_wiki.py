@@ -171,14 +171,21 @@ def drop_nav_lines(text: str) -> tuple[str, int, int]:
 
 
 def dedup_lines(text: str) -> tuple[str, int]:
+    """只对「长段落」去重（>=100 字）。
+
+    短行重复往往不是冗余：表格单元格（`data-sort-value="O" |||||2`）、
+    列表条目（`* Mulan Tea or Sunshine Cloud`）、技能表行（`1 Activates skill effect.`）
+    每行都对应不同实体，删了就是丢数据。
+    """
     seen, keep, n = set(), [], 0
     for line in text.split("\n"):
         s = line.strip()
-        # 表格结构行（{| |} |- !）不能当重复行删，否则表格塌掉
-        if s.startswith(("{|", "|}", "|-", "!", "|")):
+        # 表格结构/单元格行一律保留
+        if s.startswith(("{|", "|}", "|-", "!", "|")) or "||" in s or "!!" in s \
+                or "data-sort-" in s or 'class="' in s:
             keep.append(line)
             continue
-        if len(s) > 20:
+        if len(s) >= 100:
             if s in seen:
                 n += 1
                 AUDIT.append(("dup_line", _CUR["title"], s[:200]))
@@ -207,8 +214,8 @@ def clean_section(body: str, stats: dict, samples: list, title: str, sample_n: i
     stats["nav_split"] = stats.get("nav_split", 0) + split
     body, n = dedup_lines(body)
     stats["dup_line"] = stats.get("dup_line", 0) + n
-    # 删标签后行首可能露出 `#`（原文是 <b>#Damage Values</b>），转义掉免得被当标题
-    body = re.sub(r"(?m)^(#{1,3})(?=\S)", r"\\\1", body)
+    # 行首的 wiki 有序列表（#xxx）不能留成 markdown 标题，转成普通列表项
+    body = re.sub(r"(?m)^#{1,3}(?=\S)", "- ", body)
     body = "\n" + tidy(body) if body.strip() else "\n"
     if len(samples) < sample_n and before != body:
         samples.append((title, before, body))
@@ -217,8 +224,9 @@ def clean_section(body: str, stats: dict, samples: list, title: str, sample_n: i
 
 def clean_file(path: Path, write: bool, sample_n: int, stats: dict, samples: list) -> None:
     text = path.read_text(encoding="utf-8", errors="ignore")
-    # 按标题行切分，标题行本身原样保留
-    parts = re.split(r"(?m)^(#{1,3}[^\n]*)$", text)
+    # 只有「# 后跟空白」才是 markdown 标题；`#Wesley Hunt` 这种是 wiki 有序列表，
+    # 必须留在正文里参与清洗（否则 ref 会漏删、列表被当标题）。
+    parts = re.split(r"(?m)^(#{1,3}\s[^\n]*)$", text)
     out: list[str] = []
     heads = 0
     for idx, part in enumerate(parts):

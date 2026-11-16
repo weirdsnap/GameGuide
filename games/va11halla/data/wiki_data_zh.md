@@ -38,6 +38,7 @@ Something  soft  ( Blue Fairy )
 Any  bitter  non-alcoholic drink.
 December 29 (Day 17) [ ]
 Anything  sweet
+Mulan Tea  or  Sunshine Cloud
 Sparkle Star
 早期设计 [ ]
 The final game's resources contain two early versions of Kira Miki's sprites, at least one of which can be seen on the development blog.
@@ -129,6 +130,7 @@ Alma在《VA-11 Hall-A KIDS》中的形象
 《少女前线》联动中的Alma
 《少女前线》联动中的Alma
 《少女前线》联动中的Alma
+《少女前线》联动中的Alma，装扮“中学大冒险”
 《少女前线》联动中的Alma，装扮“中学大冒险”
 
 ---
@@ -258,6 +260,7 @@ Jill's lock screen boss＆Me
 《少女前线》联动中的Dana
 《少女前线》联动中的Dana
 《少女前线》联动中的Dana，装扮：赤色彗星
+《少女前线》联动中的Dana，装扮：赤色彗星
 
 ---
 ## Deal
@@ -369,6 +372,7 @@ December 24 (Day 12)
 Piano Woman instead of the asked for Sugar Rush to unlock her ending
 Something Girly and/or Sweet
 December 27 (Day 15)
+Something Girly and/or Sweet
 Any drink.
 December 28 (Day 16)
 Fluffy Dream
@@ -390,6 +394,7 @@ Dorothy有一对可伸缩的信号干扰器，外形如同饭团和猫耳的结�
 Dorothy在《少女前线》联动的形象
 Dorothy在《少女前线》联动的形象
 Dorothy在《少女前线》联动的形象，胜利动作
+Dorothy在《少女前线》联动的形象，装扮：珍稀圣诞礼服
 Dorothy在《少女前线》联动的形象，装扮：珍稀圣诞礼服
 
 ---
@@ -588,6 +593,7 @@ Fanart by Ex-Trident
 《少女前线》联动中的Jill
 《少女前线》联动中的Jill
 《少女前线》联动中的Jill胜利动画
+《少女前线》联动中的Jill，装扮“模特战士”
 《少女前线》联动中的Jill，装扮“模特战士”
 
 ---

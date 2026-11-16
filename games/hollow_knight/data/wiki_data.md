@@ -3617,6 +3617,7 @@ Radiance
 Entry can be obtained by defeating either the Radiance or  Absolute Radiance. Increases total entry count by one. Not required for Keen Hunter achievement. Not required for Hunter's Mark.
 Shade
 0
+Full entry is already unlocked after obtaining the Hunter's Journal.
 Hunter's Mark
 Entry
 Entry can be obtained after completing most of the entries in the Hunter's Journal. Not included in total entry count. Not required for Keen Hunter achievement.
@@ -3718,7 +3719,9 @@ Map Pins
 
 Most map pins are used to mark locations on the map. Many are sold by Iselda in Dirtmouth, while others will have their unlock condition noted.
 
+style="min-width: 96px;" | Item
 Description
+style="min-width: 5rem;" | Cost
 style="min-width: 5rem;" | Condition
 
 Cornifer has been telling me about these strange whispering roots he's been seeing. I made him some pins so you can record their locations yourself.
@@ -3743,13 +3746,21 @@ Encountering Cornifer
 
 I designed these pins to keep track of the kingdom's hot springs.
 
+Encountering Cornifer
+
 Have you seen those beautiful blue cocoons? I made these pins so you can keep track of them.
+
+Encountering Cornifer
 
 These pins will mark benches and other rest spots on your map. Useful if you're exhausted and just need to find somewhere to sit!
 
+Encountering Cornifer
+
 These pins are placed on the map after achieving specific conditions.
 
+style="min-width: 96px;" | Item
 Description
+style="min-width: 5rem;" | Condition
 
 Marks the locations of all Grubs not yet rescued.
 Defeating the Collector and obtaining The Collector's Map
@@ -3778,15 +3789,26 @@ style="text-align:center;" |Jiji/Jinn
 style="text-align:center;" |Grubfather
 style="text-align:center;" |The Hunter
 width="20%" style="text-align:center;" |
+width="20%" style="text-align:center;" |
+width="20%" style="text-align:center;" |
+width="20%" style="text-align:center;" |
+width="20%" style="text-align:center;" |
 style="text-align:center;" |Leg Eater
 style="text-align:center;" |Millibelle
 style="text-align:center;" |Nailsmith
 style="text-align:center;" |Lemm
 style="text-align:center;" |Salubra
 style="text-align:center;" |
+style="text-align:center;" |
+style="text-align:center;" |
+style="text-align:center;" |
+style="text-align:center;" |
 style="text-align:center;" |Colosseum
 style="text-align:center;" | Godseeker
 style="text-align:center;" |Seer
+style="text-align:center;" |
+style="text-align:center;" |
+style="text-align:center;" |
 
 style="text-align:center;" |Monomon
 style="text-align:center;" |Lurien
@@ -4170,11 +4192,13 @@ Requires finding Sly in Forgotten Crossroads
 rowspan="4" |
 data-row-id="2" |
 2. Bought from Sly in Dirtmouth for
+Requires finding Sly in Forgotten Crossroads
 data-row-id="3" |
 3. Bought from Sly in Dirtmouth for
 Requires both finding Sly and having the Shopkeeper's Key
 data-row-id="4" |
 4. Bought from Sly in Dirtmouth for
+Requires both finding Sly and having the Shopkeeper's Key
 data-row-id="5" |
 5. Far west end of the Forgotten Crossroads
 Reward for defeating Brooding Mawlek
@@ -4201,6 +4225,7 @@ data-row-id="12" |
 Requires Monarch Wings
 data-row-id="13" |
 13. Reward from Enraged Guardian
+Requires Monarch Wings
 data-row-id="14" |
 14. Behind a wall in the Hive
 Requires baiting a Hive Guardian into breaking a wall
@@ -4959,6 +4984,8 @@ Godseekers
 Besides the main Godseeker, there are Godseekers found all over the area of Godhome and in the background of boss arenas.
 They also have their own dialogue when Dream Nailed in the "Atrium".
 
+align="center" width="33%" |
+align="center" width="33%" |
 align="center" width="33%" |
 
 ---
@@ -12152,7 +12179,9 @@ Highly recommended! If you're having trouble finding your way in the maze of rui
 
 You'll need this if you want to update your map with new areas as you explore.
 
+style="width: 96px;"| Item
 Description
+style="min-width: 5rem;"| Cost
 Requires
 
 Use these pins to mark shopkeepers or any other interesting bugs you find on your travels.
@@ -12165,15 +12194,23 @@ Unlocking the first Stag Station
 
 These pins will mark benches and other rest spots on your map. Useful if you're exhausted and just need to find somewhere to sit!
 
+Encountering Cornifer
+
 Have you seen those beautiful blue cocoons? I made these pins so you can keep track of them.
 
+Encountering Cornifer
+
 I designed these pins to keep track of the kingdom's hot springs.
+
+Encountering Cornifer
 
 Cornifer has been telling me about these strange whispering roots he's been seeing.
 
 Obtaining the Dream Nail
 
 Cornifer told me he's found some interesting looking graves and shrines in the depths.
+
+Obtaining the Dream Nail
 
 Those trams sound like awfully advanced machines. Those ancient bugs must've been a clever lot.
 
@@ -12182,7 +12219,13 @@ colspan="4" |
 
 These markers are new additions to the shop. You can use them to mark interesting spots on your map!
 
+Encountering Cornifer
+
 These markers are new additions to the shop. You can use them to record interesting spots on your map!
+
+Encountering Cornifer
+
+Acquiring the Mothwing Cloak
 
 Acquiring the Mothwing Cloak
 
@@ -12317,13 +12360,17 @@ You're weak, aren't you? You should give me Geo. If you do, I'll give you this c
 
 /
 
+style="width: 96px;"| Item
 Description
+style="min-width: 9rem;"| Geo cost
 
 It's broken now, and its power is sleeping. Very sad! Give me Geo, and I'll fix it.
 /
 
+It's broken now, and its power is sleeping. Very sad! Give me Geo, and I'll fix it.
 /
 
+It's broken now, and its power is sleeping. Very sad! Give me Geo, and I'll fix it.
 /
 
 Location
@@ -12768,11 +12815,19 @@ Before having enough Charms:
 
 Own 5 Charms
 
+Before having enough Charms:
+
 Own 10 Charms
+
+Before having enough Charms:
 
 Own 18 Charms
 
+Before having enough Charms:
+
 Own 25 Charms
+
+Before having enough Charms:
 
 Own 40 Charms
 
@@ -12879,6 +12934,8 @@ Requires Shopkeeper's Key
 
 An explorer found this fancy key floating in the waterways of the city far below us. I've not cleaned it.
 
+Requires Shopkeeper's Key
+
 This old thing? Merely a fragment of something larger. Still, maybe you can make some use of it.
 
 No conditions.
@@ -12893,6 +12950,8 @@ Requires Shopkeeper's Key and purchasing previous Mask Shard
 
 As it turns out, I do actually have one more of these shards left. Very last one!
 
+Requires Shopkeeper's Key and purchasing previous Mask Shard
+
 A piece of a Soul Vessel. You know, those ghastly looking orb things?
 
 No conditions.
@@ -12902,6 +12961,8 @@ I dug out another of these. Turns out I had a complete set. If they didn't give 
 Requires Shopkeeper's Key and purchasing previous Vessel Fragment
 
 You like it? It's a recent addition to my collection. Handsome thing, isn't it?
+
+Requires Shopkeeper's Key
 
 Location
 Sly first appears in an abandoned house in the southeast region of the Forgotten Crossroads. After listening to him, he can next be found in Dirtmouth.
@@ -13810,6 +13871,7 @@ Fight
 style="text-align: left;" | Paintmaster Sheo
 24
 Resting Spot
+style="text-align: left;" | Hot Spring and Bench (Hollow Knight)
 25
 Fight
 style="text-align: left;" | Hive Knight (Starts in Phase 3)
@@ -13827,6 +13889,7 @@ Fight
 style="text-align: left;" | Grimm
 30
 Resting Spot
+style="text-align: left;" | Hot Spring and Bench (Hollow Knight)
 31
 Non-combat room
 style="text-align: left;" |The Godseeker (Unn)
@@ -13847,6 +13910,7 @@ Fight
 style="text-align: left;" | Hornet Sentinel (Sentinel)
 37
 Resting Spot
+style="text-align: left;" | Hot Spring and Bench (Hollow Knight)
 38
 Fight
 style="text-align: left;" | Enraged Guardian
@@ -13864,6 +13928,7 @@ Fight
 style="text-align: left;" | White Defender
 43
 Resting Spot
+style="text-align: left;" | Hot Spring and Bench (Hollow Knight)
 44
 Non-combat room
 style="text-align: left;" | The Godseeker (White Lady)
@@ -13884,6 +13949,7 @@ Fight
 style="text-align: left;" | Nightmare King Grimm
 50
 Resting Spot
+style="text-align: left;" | Hot Spring and Bench (Hollow Knight)
 51
 Non-combat room
 style="text-align: left;" | The Godseeker (Pale King)
@@ -14241,6 +14307,7 @@ Armoured Squit, top left
 
 colspan="2" style="font-size:150%" |Wave 3
 colspan="2" | Transition: Spikes cover the floor.
+Armoured Squit, top left
 
 colspan="2" style="font-size:150%" |Wave 4
 colspan="2" |Transition: Two platforms fall away, leaving only a single platform in the centre.
@@ -14256,6 +14323,7 @@ Armoured Squit, left
 Defeating two enemies spawns the next row.
 Volatile Gruzzer, top left
 
+Defeating two enemies spawns the next row.
 Volatile Gruzzer, top centre
 
 colspan="2" style="font-size:150%" |Wave 6
@@ -14270,11 +14338,13 @@ colspan="2" style="font-size:150%" |Wave 8
 colspan="2" |Transition: The platforms and spikes go away, returning the arena to its original state.
 Hopper x4
 
+Defeating two enemies spawns the next row.
 Hopper x4
 
 Great Hopper, top centre
 colspan="2" style="font-size:150%" |Wave 9
 colspan="2" |Transition: The walls close in to about 25% of the arena's original floor space.
+Great Hopper, top centre
 colspan="2" style="font-size:150%" |Wave 10
 colspan="2" |Transition: The walls return to their original width and the ceiling drops to about 50% of the arena's original height.
 Grub Mimic, centre
@@ -14283,20 +14353,26 @@ colspan="2" |Transition: The ceiling returns to its original height and a single
 Shielded Fool, left
 
 Defeating two of these enemies spawns the next row (and the platform goes away).
+Winged Fool, top centre
 Heavy Fool, centre
 
+Defeating one of these enemies spawns the next row.
 Armoured Squit, top right
 colspan="2" style="font-size:150%" |Wave 12
 colspan="2" |Transition: The walls close in to about 50% of the arena's original floor space.
 Heavy Fool, centre
+Winged Fool, top centre
 colspan="2" style="font-size:150%" |Wave 13
 colspan="2" |Transition: Spikes cover the floor.
 Armoured Squit, centre
 Winged Fool, centre
+Armoured Squit, centre
 
 colspan="2" style="font-size:150%" |Wave 14
 colspan="2" |Transition: The walls return to their original state, 3 platforms rise up, and spikes cover the floor.
 Winged Fool, left
+
+Winged Fool, top centre
 
 colspan="2" style="font-size:150%" |Wave 15
 colspan="2" |Transition: The arena returns to its original state before 4 platforms rise up.
@@ -14306,6 +14382,7 @@ Defeating two of these enemies spawns the next row.
 Battle Obble, top left
 
 Defeating two of these enemies spawns the next row (and spikes cover the floor).
+Battle Obble, top left
 
 colspan="2" style="font-size:150%" |Wave 16
 colspan="2" |Transition: The spikes and platforms go away and the ceiling drops to about 50% of the arena's original height.
@@ -14427,6 +14504,7 @@ Mantis Petra, centre
 Defeating all of the above enemies spawns the next row.
 Mantis Petra, left
 
+Defeating 2 of the above enemies spawns the next row.
 Mantis Petra, left
 
 Defeating all enemies spawns the next row.
@@ -14476,6 +14554,7 @@ Winged Fool x2, centre
 colspan="2" style="font-size:150%" | Wave 15
 colspan="2" |Transition: The ceiling drops down to about halfway.
 Armoured Squit, centre
+Armoured Squit, centre
 colspan="2" style="font-size:150%" |Wave 16
 colspan="2" |Transition: The walls and ceiling return to their original state and 3 platforms rise up.
 Stay steady on any platform and let these Loodles kill themselves. It is possible to Dreamnail them and even healing at this time. If the platform is (unluckily) overwhelmed, Cyclone Slash will easily clear it.
@@ -14484,6 +14563,7 @@ Heavy Fool, left
 
 Mantis Traitor, left
 Winged Fool, centre
+Defeating one of these enemies spawns the next row.
 Mantis Petra, centre
 
 Soul Twister
@@ -14493,6 +14573,7 @@ Sharp Baldur, left
 
 Heavy Fool, left
 
+Defeating one of these enemies spawns the next row.
 Sturdy Fool, left
 God Tamer
 
@@ -14559,7 +14640,9 @@ Defeating one of these enemies spawns the next row.
 Sturdy Fool, centre
 colspan="2" style="font-size:150%" |Wave 7
 colspan="2" |Transition: The triple platform is replaced with a quadruple platform. The double platforms go away. Two more quadruple platforms spring up to create 3 levels.
+Defeating one of these enemies spawns the next row.
 Sharp Baldur, centre of middle platform
+Defeating one of these enemies spawns the next row.
 Sharp Baldur, centre of bottom platform
 colspan="2" style="font-size:150%" | Wave 8
 colspan="2" |Transition: Platforms drop away until there's only a double platform.
@@ -14570,10 +14653,15 @@ colspan="2" style="font-size:150%" |Wave 9
 colspan="2" |Transition: The platforms and spikes go away, returning the arena to its original state.
 Sturdy Fool, left
 
+Defeating one of these enemies spawns the next row.
 Shielded Fool, centre
+Defeating one of these enemies spawns the next row.
 Primal Aspid, centre
+Defeating one of these enemies spawns the next row.
 Shielded Fool, left
+Defeating one of these enemies spawns the next row.
 Sturdy Fool, right
+Defeating one of these enemies spawns the next row.
 Primal Aspid, left
 Sharp Baldur, right
 colspan="2" style="font-size:150%" |Wave 10
@@ -14583,6 +14671,8 @@ Sharp Baldur, right
 Sharp Baldur, left
 colspan="2" style="font-size:150%" |Wave 11
 colspan="2" |Transition: The ceiling rises to about 50% the height of the arena.
+Volatile Gruzzer, left
+
 Volatile Gruzzer, left
 
 Gruz Mother, left
@@ -15602,6 +15692,7 @@ Radiance
 Entry can be obtained by defeating either the Radiance or  Absolute Radiance. Increases total entry count by one. Not required for Keen Hunter achievement. Not required for Hunter's Mark.
 Shade
 0
+Full entry is already unlocked after obtaining the Hunter's Journal.
 Hunter's Mark
 Entry
 Entry can be obtained after completing most of the entries in the Hunter's Journal. Not included in total entry count. Not required for Keen Hunter achievement.
@@ -15630,6 +15721,8 @@ Hollow Knight contains remappable controls for both the Keyboard and an Xbox or 
 Name
 Use
 width="72px"|
+width="72px" class="mobile-width-px-2"|
+width="72px" class="mobile-width-px-2"|
 width="72px" class="mobile-width-px-2"|
 JUMP
 Jump, bounce off walls with Mantis Claw, activate Monarch Wings while in mid-air
@@ -15960,16 +16053,20 @@ Ending 2: Sealed Siblings
 
 Requirements
 Having acquired Void Heart
+Defeating the Hollow Knight
 
 Near the end of the fight, Hornet swoops in and fractures the Hollow Knight's shell with her Needle before restraining them and giving the Knight an opening.
 
 If the Knight strikes the boss enough times while they are restrained or the Knight takes too much time to use the Dream Nail on the Hollow Knight, they break free, knocking Hornet unconscious, and the fight continues. This triggers an ending where, in addition to the events of the first ending, Hornet is also sealed inside, the shape of her head appearing on the door (similar to how the Dreamers' masks appeared before).
+
+Also unlocks the Infected Menu Styles (Hollow Knight).
 
 Achievement
 
 Ending 3: Dream No More
 
 Requirements
+Having acquired Void Heart
 Defeating the Radiance
 
 While Hornet has the Hollow Knight pinned down, if the Awoken Dream Nail is used on them, the Knight is transported into the dream Radiance is imprisoned in to challenge her. At the end of this fight, the Hollow Knight returns as a Shade that rips open the Radiance's face, allowing the Knight to lash at her until she is eventually dragged into the Void and banished.
@@ -16177,6 +16274,11 @@ First and second decimals are for major/minor feature additions, respectively. T
 colspan="6" style="text-align: center;"|
 
 style="padding-right: 24px;"|
+style="padding-right: 24px;"|
+style="padding-right: 24px;"|
+style="padding-right: 24px;"|
+style="padding-right: 24px;"|
+style="padding-right: 24px;"|
 
 1.5.12459
 February 6th, 2026
@@ -16197,6 +16299,9 @@ Fixed Low and Medium background blur to have the same vibrancy as High
 
 1.5.77.11832 (beta)
 August 16th, 2021
+Fixed Aspid Hunter and Primal Aspid sometimes spitting immediately after breaking out of jars
+Fixed door in a City of Tears house staying locked sometimes after defeating the enemy
+Fixed brightness resetting on quit to menu if set to minimum value
 Fixed some camera shakes ignoring config value
 Fixed getting damaged by spikes while on a lift and ending up inside the ground
 
@@ -16223,6 +16328,8 @@ Fixed camera shake not working during hit pauses
 1.5.71.11816 (beta)
 June 17th, 2021
 Fixed Achievements (Hollow Knight) for macOS (not firing in v1.5.68.11808)
+Fixed Nail Arts damage
+Fixed missing effects when slashing lift spikes
 Re-added native input option (on by default)
 Updated InControl plugin to latest version
 
@@ -16271,11 +16378,13 @@ Other small fixes
 
 1.5.58.11762 (beta)
 February 22nd, 2021
+Added "Borderless" option to fullscreen in video options
 Fixed uncollected Grubfather rewards being miss-able
 Enabled controller rumble (only supported for certain configurations, e.g. Xbox One controller on Windows)
 Fixed the Soul Tyrant battle in pantheons getting stuck after being defeated sometimes
 Fixed death loop if moving too high during Absolute Radiance phase 2
 64-bit is now required for Windows
+Vulkan is now the default graphics API for Linux
 Other minor fixes
 
 1.4.3.2
@@ -16323,9 +16432,12 @@ Additional bug fixes and improvements
 June 3rd, 2018
 Fixed an issue from previous public beta where new game could not be created
 Added options for framerate capping
+Additional bug fixes and improvements
 
 1.3.3.1 (beta)
 May 30th, 2018
+Added options for framerate capping
+Additional bug fixes and improvements
 
 1.3.2.8 (beta)
 May 5th, 2018
@@ -16348,11 +16460,14 @@ Small graphical fixes
 
 1.3.1.7 (beta)
 April 24th, 2018
+Fixed issue where Dreamshield was not blocking projectiles
+Fixed Wayward Compass sometimes showing incorrect location
 Removed strange invisible wall in late-game area
 Fixed error in Simplified Chinese journal screen
 Fixed issue where some save files from older versions weren't being read
 Fixed Cloth never leaving Dirtmouth
 Minor bug fixes and tweaks
+Small graphical fixes
 
 1.3.1.5
 April 20th, 2018
@@ -16514,7 +16629,10 @@ Improved performance in some targeted scenes, for lower end machines.
 1.0.2.8 (beta)
 April 7th, 2017
 Additional Optimisation
+Fixed issue where Failed Champion dealt incorrect damage after being stunned
+Improved performance in some targeted scenes, for lower end machines.
 Made Quickmap double-tap shortcut easier to register and made it work while sitting at benches
+Fixed issue where trigger for Zote event could be skipped.
 
 1.0.2.6 (beta)
 March 31st, 2017
@@ -16570,11 +16688,11 @@ Initial GOG release version
 - 标识：damage-values-and-enemy-health-hollow-knight
 - 来源：wiki/Damage_Values_and_Enemy_Health_(Hollow_Knight)
 
-\#Damage Values
+- Damage Values
 
 Nail • #Nail • #Spells and Abilities • #Charms
 
-\#Health Values
+- Health Values
 
 Standard Enemies • #Bosses and Minibosses
 
@@ -16628,6 +16746,7 @@ width="16%" |Damage
 width="16%" |with Shaman Stone
 width="16%" |Source
 width="16%" |Damage
+width="16%" |with Shaman Stone
 Vengeful Spirit
 15
 20
@@ -17147,7 +17266,9 @@ Markoth
 Xero
 200 / 320 / 416 / 500 / 570
 Marmu
+200 / 320 / 416 / 500 / 570
 No Eyes
+200 / 320 / 416 / 500 / 570
 Nosk
 680
 Zote
@@ -17327,148 +17448,207 @@ style="font-size:80%" |Health
 colspan="2" |One more Vengefly King spawns opposite to the side of the other Vengefly King on Ascended difficulty or above.
 rowspan="2" |
 Brooding Mawlek
+style="font-size:80%" |Health
 
 colspan="2" |The middle platform disappears on Ascended difficulty or above.
 rowspan="4" |
 False Knight
+style="font-size:80%" |Health
 
 colspan="2" |The arena is larger than in the base game, no difficulty differences.
 Failed Champion
+style="font-size:80%" |Health
 
 colspan="2" |The arena appears to be about the same size, no difficulty differences.
 rowspan="2" |
 Hornet Protector
+style="font-size:80%" |Health
 
+colspan="2" |The arena appears to be about the same size, no difficulty differences.
 rowspan="2" |
 Hornet Sentinel
+style="font-size:80%" |Health
 
+colspan="2" |The arena appears to be about the same size, no difficulty differences.
 rowspan="2" |
 Massive Moss Charger
+style="font-size:80%" |Health
 
 colspan="2" |Same arena as the base game fight, no difficulty differences.
 rowspan="2" |
 Flukemarm
+style="font-size:80%" |Health
 
 colspan="2" |Arena is missing top left platform compared to base game fight. First 6 Flukefeys have more Health on Ascended difficulty or above.
 rowspan="2" |
 Mantis Lords
+style="font-size:80%" |Health
 
+colspan="2" |Same arena as the base game fight, no difficulty differences.
 rowspan="2" |
 Sisters of Battle
+style="font-size:80%" |Health
 
 colspan="2" |Same arena as the Mantis Lords fight, face all three lords in phase 2.
 rowspan="2" |
 Oblobbles
+style="font-size:80%" |Health
 
+colspan="2" |Same arena as the base game fight, no difficulty differences.
 rowspan="2" |
 Hive Knight
+style="font-size:80%" |Health
 
 colspan="2" |Same arena as the base game fight but does not start the fight off with the Swarm Release attack. Starts in Phase 3 Ascended difficulty or above.
 rowspan="4" |
 Broken Vessel
+style="font-size:80%" |Health
 
+colspan="2" |Same arena as the base game fight, no difficulty differences.
 Lost Kin
+style="font-size:80%" |Health
 
+colspan="2" |Same arena as the base game fight, no difficulty differences.
 rowspan="2" |
 Nosk
+style="font-size:80%" |Health
 
 colspan="2" |Same arena as the base game fight, the middle platform dissappears on Ascended difficulty or above.
 rowspan="2" |
 Winged Nosk
+style="font-size:80%" |Health
 
 colspan="2" |Same arena as the base Pantheon fight, no difficulty differences.
 rowspan="2" |
 The Collector
+style="font-size:80%" |Health
 
 colspan="2" |Same arena as the base game fight. Spawns Primal Aspids, Sharp Baldurs and Armoured Squits instead of its usual roster on Ascended difficulty and above. These enemies have a Damage Values and Enemy Health (Hollow Knight) of 26. Drops only 1 jar at a time during Phase 1 on Ascended difficulty and above.
 rowspan="2" |
 God Tamer
+style="font-size:80%" |Health
 
+colspan="2" |Same arena as the base game fight, no difficulty differences.
 rowspan="2" |
 Crystal Guardian
+style="font-size:80%" |Health
 
 colspan="2" |The arena is much larger than the base game fight, spikes are now added to the top half of both walls of the arena. Starts the fight with a random attack.
 rowspan="2" |
 Enraged Guardian
+style="font-size:80%" |Health
 
 colspan="2" |Arena is smaller with spikes now added to the top half of both walls of the arena. Starts the fight with the Laser Beam attack and then a random attack.
 rowspan="2" |
 Uumuu
+style="font-size:80%" |Health
 
 colspan="2" |A green fog appears on the bottom of the arena that damages the Knight if they fall into it on Ascended difficulty or above. The boss also summons Oomas that must be utilized in order to break its membrane.
 rowspan="2" |
 Traitor Lord
+style="font-size:80%" |Health
 
 colspan="2" |The arena is much larger than the base game fight, no difficulty differences.
 rowspan="2" |
 Grey Prince Zote
+style="font-size:80%" |Health
 
 colspan="2" |Arena appears wider than base game, no difficulty differences.
 rowspan="2" |
 Soul Warrior
+style="font-size:80%" |Health
 
 colspan="2" |Starts spawning Folly on Ascended difficulty or above.
 rowspan="4" |
 Soul Master
+style="font-size:80%" |Health
 
+colspan="2" |Same arena as the base game fight, no difficulty differences.
 Soul Tyrant
+style="font-size:80%" |Health
 
+colspan="2" |Same arena as the base game fight, no difficulty differences.
 rowspan="4" |
 Dung Defender
+style="font-size:80%" |Health
 
+colspan="2" |Same arena as the base game fight, no difficulty differences.
 White Defender
+style="font-size:80%" |Health
 
+colspan="2" |Same arena as the base game fight, no difficulty differences.
 rowspan="2" |
 Watcher Knight
+style="font-size:80%" |Health
 
+colspan="2" |Same arena as the base game fight, no difficulty differences.
 rowspan="2" |
 No Eyes
+style="font-size:80%" |Health
 
 colspan="2" |Platforms are re-arranged, and thorns fill the arena on Ascended difficulty or above.
 rowspan="2" |
 Marmu
+style="font-size:80%" |Health
 
 colspan="2" |Arena is shrunk down and boxed off with thorns on all three sides on Ascended difficulty or above.
 rowspan="2" |
 Xero
+style="font-size:80%" |Health
 
 colspan="2" |Ground is replaced by three distanced platforms on Ascended difficulty or above.
 rowspan="2" |
 Markoth
+style="font-size:80%" |Health
 
 colspan="2" |Arena's ground disappears, and platforms are rearranged on Ascended difficulty or above.
 rowspan="2" |
 Galien
 style="font-size:80%" | Health
 
+colspan="2" |Same arena as the base game fight, no difficulty differences.
 rowspan="2" |
 Gorb
+style="font-size:80%" |Health
 
 colspan="2" |Ground is replaced by three platforms on Ascended difficulty or above.
 rowspan="2" |
 Elder Hu
+style="font-size:80%" |Health
 
+colspan="2" |Same arena as the base game fight, no difficulty differences.
 rowspan="2" |
 Brothers Oro & Mato
+style="font-size:80%" |Health
 
 colspan="2" |Same arena as the Pantheon fight, no difficulty differences.
 rowspan="2" |
 Paintmaster Sheo
+style="font-size:80%" |Health
 
+colspan="2" |Same arena as the Pantheon fight, no difficulty differences.
 rowspan="2" |
 Great Nailsage Sly
+style="font-size:80%" |Health
 
+colspan="2" |Same arena as the Pantheon fight, no difficulty differences.
 rowspan="2" |
 Pure Vessel
+style="font-size:80%" |Health
 
+colspan="2" |Same arena as the Pantheon fight, no difficulty differences.
 rowspan="4" |
 Grimm
+style="font-size:80%" |Health
 
+colspan="2" |Same arena as the base game fight, no difficulty differences.
 Nightmare King
+style="font-size:80%" |Health
 
 colspan="2" |The arena is now a single platform with the walls of the arena cut off.
 rowspan="2" |
 Absolute Radiance
+style="font-size:80%" |Health
 
 colspan="2" |Same arena as the Pantheon fight, no difficulty differences, although it is expanded for Absolute Radiance's final phase.
 rowspan="2" |
@@ -17780,6 +17960,8 @@ width="50%" |Beta dialogue
 width="50%" |Current dialogue
 
 Elderbug
+width="50%" |Beta dialogue
+width="50%" |Current dialogue
 I hope you aren't too disappointed by our little town, traveller. Though it's now a solemn place, once we were much more welcoming. Entry to the kingdom was forbidden long ago, supposedly after some great calamity. Many gates were closed, but our old well remains as a way to creep back in. Over the years, all kinds used the well to wriggle their way into the ruins, wanderers, thieves, adventurers. Eventually there was enough activity to sustain a  town, and so our predecessors built Dirtmouth.
 I hope you aren't too disappointed by our little town, traveller. Though it's now a solemn place, once we were much more welcoming. Entry to the kingdom was forbidden long ago, supposedly after some great calamity. Many gates were closed, but our old well remains as a way to creep back in.
 So many used to come through here and down into that well, droves and swarms, seeking power and wealth, seduced by endless possibilities in the dark. Funny how few ever return to the surface. Perhaps they find what they're looking for? Heh heh, I'm not so naive. No doubt, they've all been gobbled up! There're countless dangers in those depths.
@@ -17787,16 +17969,23 @@ Over the years, all kinds used the well to wriggle into the ruins, wanderers, th
 As bustling as this town used to be, eventually the flow of fools down the well slowed. I'd thought those times were done. But recently something's changed. There's activity in the caverns, unsettling sounds and rumblings underfoot. The creatures down there have become enraged. They say a poison drifts through the old roads and highways, sending folk mad. Travellers started to drift back here and down into the well, all talking about dreams they'd had of wealth and glory. And that allure to descend, it settled over the townsfolk as well! All of them eventually wandered down there. Except for me, of course. I'm a simple man, and I do not dream. Heh heh...
 Not used in release version.
 I remember asking one young bug why she'd climb down the well, after it had already claimed her mother and brother. Said she'd been dreaming of that stone egg in the temple. She'd heard something stirring within it, singing in a familiar voice.I told her she was a fool, but down she went anyway. Maybe I should have held her back? Heh, I doubt it. Once a mind's set on heading down, no bug can be stopped.
+Not used in release version.
 There's something strange about you. I've seen all types pass below, but you... You're almost familiar, though I'm sure we've never met before.
+Not used in release version.
 Feeling tired? That bench may be iron, but I assure you it’s quite comfortable. There's no better a place to collect your thoughts before heading below.
+Not used in release version.
 Feeling tired? That bench may be iron, but I assure you it’s quite comfortable. There's no better a place to collect your thoughts before heading below. Plus, I'd enjoy the company, even if you're not the most talkative sort.
 Feeling tired? That bench may be iron, but I assure you it's quite comfortable. There's no better place to collect your thoughts before heading below. Plus I enjoy the company. Not that you seem the talkative sort.
 If you do meet my fellows down there you might remind them of their poor Elder, up here, back aching, abandoned to his lonesome vigil. Poor poor me!... Oh I'm fine, really, but a bit of guilt might go some way in persuading their return. Assuming they're still alive that is.
+Not used in release version.
 I never thought I’d see the day. The Stag Station has opened! That building has lain silent since before even my time. Oh, I’ve heard all the tales of the glorious lines. A web of tunnels running all though the kingdom. Not that I’ll be travelling them, mind you! I'm quite content where I am, heh heh…
 I never thought I'd see such a thing. The Stag Station has opened! That building lay silent since before even my time. Oh, I've heard the tales of the glorious lines. A web of tunnels running all through the kingdom. Not that I'll be travelling them, mind you! I'm quite content where I am.
 There’s something about you little traveller. The winds are changing.
+Not used in release version.
 
 The Last Stag
+width="50%" |Beta dialogue
+width="50%" |Current dialogue
 
 Myla
 width="50%"  |Beta dialogue
@@ -17805,6 +17994,8 @@ Oh, hello again! Are you still running about? Why not join me d-down here? There
 Oh, hello again! Are you still running about? Why not join me d-down here? There's plenty of wealth in these rocks for anyone willing to put a bit of work in! Those crystals out there are worth a fair b-b-bit, but I have a feeling that there's something even more valuable hidden just a bit deeper in! I can almost smell it! Ha ha ha!
 
 Quirrel
+width="50%"  |Beta dialogue
+width="50%"  |Current dialogue
 I'm Quirrel. I have something of an obsession with forgotten and uncharted places. This ancient kingdom holds many fascinating mysteries, and one of the most intriguing of them is standing right before us.
 I'm Quirrel. I have something of an obsession with uncharted places. This ancient kingdom holds many fascinating mysteries, and one of the most intriguing of them is standing right before us.
 A great stone egg, lying in the corpse of an ancient kingdom. And who knows what other marvels lie even deeper below us…
@@ -17812,22 +18003,30 @@ A great stone egg, lying in the corpse of an ancient kingdom. And this egg...Is 
 For so long I'd heard the tales of this strange, ancient kingdom, tales full of wonders and horrors. No longer could I resist. I just had to see it for myself. And what a time I chose to arrive! This dead world has sprung to life. The creatures are riled up and the earth rumbles. The air is thick. I wonder what could have brought all this about?
 For so long I've felt drawn here. So many tales full of wonders and horrors. No longer could I resist. I just had to see it for myself. And what a time I chose to arrive! This dead world has sprung to life. The creatures are riled up and the earth rumbles. The air is thick. I wonder what could have brought it all about?
 Isn't this building a wonder? Do you think it was built around the egg, or was the egg laid within? And this egg... is it warm? I swear it seems alive somehow. It certainly gives off a unique air. What do you suppose is inside? A great beast? Fantastic treasures? Or something else entirely? Can it be opened? There are strange marks all over it… I do so love a mystery…
+Not used in release version.
 I can't help but notice that nail you wield. It looks a fine instrument, though it's showing signs of wear. I'd wager up there it would take you far. Down here however, I suspect you'll soon meet dangers the surface world can't match.
 Your nail looks a fine instrument, but it's showing signs of wear. I'd wager up there it would take you far. Down here however, I suspect you'll soon meet dangers the surface world can't match.
 Did you pass that town above? What a sad little place. And such majesty hidden right beneath! I suppose that's why they've all headed down here. Who could resist such possibilities?
 Did you pass that town above? What a gloomy little place. And such majesty hidden right beneath!I suppose that's why they've all headed down here. Who could resist such possibilities?
 
 Sly
+width="50%"  |Beta dialogue
+width="50%"  |Current dialogue
 Ah, hello! I knew we'd meet again. How do you like my cosy little store? I've made myself pretty comfortable here, selling old trinkets to travellers like yourself. If you're planning a trip below, I've several items that may improve your chance of survival.
 There's still plenty of work for me to do before I can open the store. Very delicate, very precise work! You seem like the patient sort though. There's no need for unnecessary haste.
+Not used in release version.
 
 Snail Shaman
+width="50%"  |Beta dialogue
+width="50%"  |Current dialogue
 Oho! Who is that creeping out of the darkness? My, you're looking grim! A strange, empty face and a wicked looking weapon! Something important has drawn you down into Hallownest's corpse, but I won't ask what. Perhaps the reason you've found me is because you need my help? Say no more, friend. I'm going to give you a gift, a nasty little spell of my own creation. It's just perfect for a little one like you! Ohoho!
 Oho! There you are! I was watching over you while you slept, and must have slipped away myself. I woke up and found you'd disappeared! You are a surprising fellow, ohoho! Actually, I wanted to ask a small favour of you. You see, there is a certain creature lurking just above us, in the heart of this temple......oho? Well, yet another surprise! You've slain that creature before I've even asked! I scarcely deserve such a friend as you! You're a marvel! Ohohoho!
 Oho! There you are! I was watching over you while you slept, and must have slipped away myself. I woke up and found you'd disappeared! You are a surprising one, ohoho!
 And look! The gate between us has opened. Ohoho! I'm sure you're eager to move on. Farewell, and have faith, whatever you are seeking... Ohohoho!
 
 Zote
+width="50%"  |Beta dialogue
+width="50%"  |Current dialogue
 Know this, urchin. I am Zote the Mighty, a knight of the people. Cross me again, and you'll find out why they call my weapon 'Life Ender'.
 Know this, cur. I am Zote the Mighty, a knight of great renown. Cross me again, and you'll find out why they call my weapon 'Life Ender'.
 Hmph. What a squalid little hamlet this is. The air is foul and the townsfolk have beady eyes. I'll be heading back down below as soon as possible.
@@ -18052,6 +18251,7 @@ Battle Main
 Battle Climax
 Ending Theme 1
 Ending Theme 3
+Temple of the Black Egg
 The Hollow Knight, pre-fight
 The Hollow Knight, main
 The Hollow Knight, climax; Birthplace attenuated
@@ -18159,6 +18359,7 @@ Pantheon gods (False Knight, Soul Master second phase, God Tamer, Traitor Lord, 
 Single track
 Pure Vessel
 
+Not Featured on the Album
 Title
 Usage
 Accordion Brumm
@@ -18250,69 +18451,137 @@ The lighthouse keeper's corpse in the Lighthouse:
 The Ancient_Civilisation#Shade_Beast after the Awoken Dream Nail is obtained:
 
 Ancient Basin
+width="20%" | Corpse/NPC/Statue
+width="70%" | Description and dialogue
+width="10%" | Location
+The corpse of a Royal Retainer next to the fountain:
 The corpse of a Royal Retainer next to the fountain:
 The corpse of a Royal Retainer holding a Simple Key:
 
 Palace Grounds
+width="20%" | Corpse/NPC/Statue
+width="70%" | Description and dialogue
+width="10%" | Location
 The corpses of Royal Retainers near the entrance to Hidden Station:
 
 City of Tears
 Pleasure House
+width="20%" | Corpse/NPC/Statue
+width="70%" | Description and dialogue
+width="10%" | Location
+A corpse in the Pleasure House kitchen:
 A corpse in the Pleasure House kitchen:
 A corpse on the left side of the lift shaft:
 A corpse at the bottom of the lift shaft holding a Wanderer's Journal:
 
 Watcher's Spire
+width="20%" | Corpse/NPC/Statue
+width="70%" | Description and dialogue
+width="10%" | Location
+A corpse near the lift leading to Lurien the Watcher:
 A corpse near the lift leading to Lurien the Watcher:
 
 Colosseum of Fools
+width="20%" | Corpse/NPC/Statue
+width="70%" | Description and dialogue
+width="10%" | Location
 A Shielded Fool near the Bench (Hollow Knight):
 A Sturdy Fool in the Hot Spring:
 
 Crystal Peak
+width="20%" | Corpse/NPC/Statue
+width="70%" | Description and dialogue
+width="10%" | Location
 A Husk Hornhead corpse near a Pale King shrine containing a King's Idol:
 A corpse near a Pale King shrine containing a King's Idol:
 A mining golem holding Crystal Heart:
 
 Hallownest's Crown
+width="20%" | Corpse/NPC/Statue
+width="70%" | Description and dialogue
+width="10%" | Location
 A statue of the Radiance:
 
 Crystallised Mound
+width="20%" | Corpse/NPC/Statue
+width="70%" | Description and dialogue
+width="10%" | Location
 A The Snail Shamans trapped in crystal:
 
 Deepnest
+width="20%" | Corpse/NPC/Statue
+width="70%" | Description and dialogue
+width="10%" | Location
 A Wandering Husk corpse near Midwife:
 A Wandering Husk corpse near Nosk:
+A Wandering Husk corpse near Nosk:
 A Leaping Husk corpse near Nosk:
+A Wandering Husk corpse near Nosk:
 A corpse near Nosk:
+A Leaping Husk corpse near Nosk:
+A Leaping Husk corpse near Nosk:
+A Wandering Husk corpse near Nosk:
+A Wandering Husk corpse near Nosk:
+A Leaping Husk corpse near Nosk:
+A Leaping Husk corpse near Nosk:
+A Wandering Husk corpse near Nosk:
 
 Distant Village
+width="20%" | Corpse/NPC/Statue
+width="70%" | Description and dialogue
+width="10%" | Location
 A pile of corpses in the left cocoon building:
 A corpse in the left cocoon building:
 
 Beast's Den
+width="20%" | Corpse/NPC/Statue
+width="70%" | Description and dialogue
+width="10%" | Location
 The corpse of a Leaping Husk near a Hallownest Seal:
 
 Failed Tramway
+width="20%" | Corpse/NPC/Statue
+width="70%" | Description and dialogue
+width="10%" | Location
 A corpse near the Bench (Hollow Knight):
+A corpse near the Bench:
 A corpse near the Bench:
 
 Weavers' Den
+width="20%" | Corpse/NPC/Statue
+width="70%" | Description and dialogue
+width="10%" | Location
 The corpse of a Weavers:
+The corpse of a Weaver:
+The corpse of a Weaver:
 The corpse of a Weaver:
 
 Dirtmouth
+width="20%" | Corpse/NPC/Statue
+width="70%" | Description and dialogue
+width="10%" | Location
 The left Grimmsteed after The_Grimm_Troupe (Lore) is summoned:
 The right Grimmsteed:
 
 Fog Canyon
+width="20%" | Corpse/NPC/Statue
+width="70%" | Description and dialogue
+width="10%" | Location
 A corpse near a Hallownest Seal:
+A corpse near a Hallownest Seal:
+The corpse of a Husk Guard:
 The corpse of a Husk Guard:
 
 Overgrown Mound
+width="20%" | Corpse/NPC/Statue
+width="70%" | Description and dialogue
+width="10%" | Location
 The corpse of a Snail Shamans:
 
 Forgotten Crossroads
+width="20%" | Corpse/NPC/Statue
+width="70%" | Description and dialogue
+width="10%" | Location
 A Leaping Husk corpse in a tunnel leading to the Dirtmouth well:
 A giant Aspid Mother corpse holding the Glowing Womb charm:
 The corpse of a Husk Guard in the Infected Crossroads:
@@ -18321,10 +18590,16 @@ Two Colosseum of Fools audience bugs in the Hot Spring after Mantis Claw has bee
 The weapon of False Knight after its defeat:
 
 Forgotten Crossroads-Resting Grounds Tram
+width="20%" | Corpse/NPC/Statue
+width="70%" | Description and dialogue
+width="10%" | Location
 The corpse of a Leaping Husk:
 The corpse of a Wandering Husk:
 
 Fungal Wastes
+width="20%" | Corpse/NPC/Statue
+width="70%" | Description and dialogue
+width="10%" | Location
 A Leaping Husk corpse holding a Wanderer's Journal:
 A Leaping Husk corpse near Leg Eater:
 A Wandering Husk corpse near Leg Eater:
@@ -18333,12 +18608,21 @@ Statue of the Dashmaster:
 The corpse of a Husk Sentry near the end of the Pilgrim's Way:
 
 Queen's Station
+width="20%" | Corpse/NPC/Statue
+width="70%" | Description and dialogue
+width="10%" | Location
 A corpse above Willoh near a Hallownest Seal:
 
 Fungal Core
+width="20%" | Corpse/NPC/Statue
+width="70%" | Description and dialogue
+width="10%" | Location
 The corpse of a giant Mushroom Clan:
 
 Godhome
+width="20%" | Corpse/NPC/Statue
+width="70%" | Description and dialogue
+width="10%" | Location
 Two The Godseekers near the entrance in Godhome atrium:
 Two Godseekers in Godhome atrium near the lower Bench (Hollow Knight):
 A Godseeker near the water in Godhome atrium:
@@ -18346,6 +18630,9 @@ Two Godseekers near the Hall of Gods:
 The corpse of Tiso in the Pantheon of Hallownest:
 
 Greenpath
+width="20%" | Corpse/NPC/Statue
+width="70%" | Description and dialogue
+width="10%" | Location
 The corpse of a Leaping Husk near the Stag Station holding a Wanderer's Journal:
 A corpse holding a Hallownest Seal:
 A corpse near the entrance to Fog Canyon:
@@ -18353,12 +18640,20 @@ The corpse of a Husk Hornhead:
 A corpse near Fog Canyon holding a Wanderer's Journal:
 
 Howling Cliffs
+width="20%" | Corpse/NPC/Statue
+width="70%" | Description and dialogue
+width="10%" | Location
 A Leaping Husk corpse near Nailmaster Mato:
 A corpse in the far west of the Howling Cliffs:
 The corpse of a large bug used to summon the Grimm Troupe, after Nightmare King Grimm is defeated:
 
 Kingdom's Edge
+width="20%" | Corpse/NPC/Statue
+width="70%" | Description and dialogue
+width="10%" | Location
 The corpse of a Leaping Husk near a King's Idol:
+The corpse of a Shielded Fool:
+The corpse of a Winged Fool:
 The corpse of a Shielded Fool:
 The corpse of a Winged Fool:
 The corpse of a Sturdy Fool:
@@ -18368,22 +18663,36 @@ The Ancient_Civilisation#Ancient_Nailsmith behind Quick Slash:
 A Leaping Husk corpse next to the Bench (Hollow Knight) near the Cast-Off Shell:
 
 Queen's Gardens
+width="20%" | Corpse/NPC/Statue
+width="70%" | Description and dialogue
+width="10%" | Location
 The corpse of a Leaping Husk holding a Hallownest Seal:
 The corpse of Dryya outside the White Lady room:
 The corpse holding the Love Key:
 The corpse of the Moss Prophet after a Dreamers has been killed or Monarch Wings acquired:
 The corpse of a Mossy Vagabond after a Dreamer has been killed or Monarch Wings acquired:
+The corpse of a Mossy Vagabond after a Dreamer has been killed or Monarch Wings acquired:
+The corpse of a Mossy Vagabond after a Dreamer has been killed or Monarch Wings acquired:
 
 Resting Grounds
+width="20%" | Corpse/NPC/Statue
+width="70%" | Description and dialogue
+width="10%" | Location
 The statue holding  Dreamshield:
 A corpse in the Crypts with a Wanderer's Journal next to it:
 The tomb of a Snail Shamans containing Soul Eater:
 
 Royal Waterways
+width="20%" | Corpse/NPC/Statue
+width="70%" | Description and dialogue
+width="10%" | Location
 The corpse of Tuk in Steel Soul Mode:
 The corpse of a Royal Retainer below the broken bridge holding a Wanderer's Journal:
 
 Isma's Grove
+width="20%" | Corpse/NPC/Statue
+width="70%" | Description and dialogue
+width="10%" | Location
 The corpse of Isma:
 
 Junk Pit
@@ -18393,6 +18702,9 @@ width="10%" |Location
 The corpse of the Nailsmith if he was killed after forging a Nail:
 
 White Palace
+width="20%" | Corpse/NPC/Statue
+width="70%" | Description and dialogue
+width="10%" | Location
 The mould in the hidden workshop:
 The corpse of the Pale King:
 

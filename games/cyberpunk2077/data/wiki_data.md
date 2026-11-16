@@ -33,6 +33,7 @@ Objectives
 *Find a way to the level with Mikoshi.
 *Defeat all enemies in the lobby.
 *Gain access to the elevators.
+*Defeat all enemies in the lobby.
 *Loot the access token.
 *Take the elevator to Mikoshi.
 *Find the Mikoshi Access Point.
@@ -4311,6 +4312,7 @@ Acquisition
 **Weapon Vendor in Wellsprings (Neon Variant)
 **Weapon Vendor in Rancho Coronado
 *Crafting Spec can be purchased starting at level 1 from:
+**Weapon Vendor in Kabuki
 *Crafting Spec dropped by Zoe Alonzo during Suspected Organized Crime Activity: Chapel.
 
 Crafting
@@ -4377,6 +4379,7 @@ Acquisition
 ** Sophia Dupont at EBM Petrochem Stadium, Dogtown
 ** Leon Watson at Longshore Stacks, Dogtown
 *Crafting Spec can be purchased starting at level 17 from:
+**Weapon Vendor in Japantown
 
 Crafting
 |-|Tier 3
@@ -7414,6 +7417,7 @@ Objectives
 *Deliver the vehicle to the garage.
 *Save Daniels. [Optional]
 **Check on Daniels. [Optional]
+*Deliver the vehicle to the garage.
 *Talk to El Capitan.
 *Get in the car.
 
@@ -7697,10 +7701,13 @@ Objectives
 **Talk to Paco.
 **Defeat Paco in a fistfight.
 **Talk to Paco.
+*Talk to Paco and Babs.
+*Take Deep Dive with Paco and Babs.
 **Drive with Paco.
 **Defeat the Scavengers.
 **Approach the wounded scavenger.
 **Talk to Paco and the BARGHEST soldiers.
+*Talk to Paco and Babs.
 *If you call in a favor:
 *Message your contacts to find help for Paco and Babs.
 **Message Rogue to ask for help. [Optional]
@@ -7975,6 +7982,7 @@ Acquisition
 **Animals Melee Weapon Vendor in Rancho Coronado
 * Crafting Spec known by default.
 *Crafting Spec can be purchased from:
+**Coach Fred in Little China
 
 Crafting
 |-|Tier 1
@@ -8224,6 +8232,7 @@ Journal Entry
 Objectives
 *Talk to the Animals champion.
 *Defeat Rhino.
+*Talk to the Animals champion.
 
 Notes
 *Beating Rhino will make the Melee Weapon Vendor available to V.
@@ -8332,6 +8341,7 @@ Objectives
 *Reach the security room.
 *Slot the shard into the terminal.
 *Wait for Alt.
+*Talk to the Aldecaldos.
 *Leave the manufacturing level.
 *Reach the netrunner's nest.
 *Reach Mikoshi.
@@ -11190,6 +11200,7 @@ Acquisition
 **Weapon Vendor in West Wind Estate
 * Crafting Spec known by default.
 *Crafting Spec can be purchased from:
+**Weapon Vendor in Vista del Rey
 
 Crafting
 |-|Tier 1
@@ -11311,6 +11322,7 @@ Acquisition
 **Weapon Vendor in West Wind Estate
 * Crafting Spec known by default.
 *Crafting Spec can be purchased from:
+**Robert Wilson in Little China
 
 Crafting
 |-|Tier 1
@@ -14821,6 +14833,7 @@ Acquisition
 *Can be purchased from:
 **Melee Weapon Vendor in West Wind Estate
 *Crafting Spec can be purchased from:
+**Melee Weapon Vendor in West Wind Estate
 
 Crafting
 |-|Tier 1
@@ -14948,6 +14961,8 @@ Face
 
 - category：Cyberpunk 2077 Face
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -14962,6 +14977,8 @@ Legs
 
 - category：Cyberpunk 2077 Legs
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -14970,6 +14987,8 @@ Feet
 
 - category：Cyberpunk 2077 Feet
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -15012,6 +15031,8 @@ Face
 
 - category：Cyberpunk 2077 Face
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -15026,6 +15047,8 @@ Legs
 
 - category：Cyberpunk 2077 Legs
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -15034,6 +15057,8 @@ Feet
 
 - category：Cyberpunk 2077 Feet
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -15074,6 +15099,8 @@ Face
 
 - category：Cyberpunk 2077 Face
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -15088,6 +15115,8 @@ Legs
 
 - category：Cyberpunk 2077 Legs
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -15096,6 +15125,8 @@ Feet
 
 - category：Cyberpunk 2077 Feet
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -15137,6 +15168,8 @@ Face
 
 - category：Cyberpunk 2077 Face
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -15151,6 +15184,8 @@ Legs
 
 - category：Cyberpunk 2077 Legs
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -15159,6 +15194,8 @@ Feet
 
 - category：Cyberpunk 2077 Feet
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -15198,6 +15235,8 @@ Face
 
 - category：Cyberpunk 2077 Face
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -15212,6 +15251,8 @@ Legs
 
 - category：Cyberpunk 2077 Legs
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -15220,6 +15261,8 @@ Feet
 
 - category：Cyberpunk 2077 Feet
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -15263,6 +15306,8 @@ Face
 
 - category：Cyberpunk 2077 Face
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -15277,6 +15322,8 @@ Legs
 
 - category：Cyberpunk 2077 Legs
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -15285,6 +15332,8 @@ Feet
 
 - category：Cyberpunk 2077 Feet
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -15327,6 +15376,8 @@ Face
 
 - category：Cyberpunk 2077 Face
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -15341,6 +15392,8 @@ Legs
 
 - category：Cyberpunk 2077 Legs
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -15349,6 +15402,8 @@ Feet
 
 - category：Cyberpunk 2077 Feet
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -15386,6 +15441,8 @@ Face
 
 - category：Cyberpunk 2077 Face
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -15400,6 +15457,8 @@ Legs
 
 - category：Cyberpunk 2077 Legs
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -15408,6 +15467,8 @@ Feet
 
 - category：Cyberpunk 2077 Feet
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -15448,6 +15509,8 @@ Face
 
 - category：Cyberpunk 2077 Face
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -15462,6 +15525,8 @@ Legs
 
 - category：Cyberpunk 2077 Legs
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -15470,6 +15535,8 @@ Feet
 
 - category：Cyberpunk 2077 Feet
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -15509,6 +15576,8 @@ Face
 
 - category：Cyberpunk 2077 Face
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -15523,6 +15592,8 @@ Legs
 
 - category：Cyberpunk 2077 Legs
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -15531,6 +15602,8 @@ Feet
 
 - category：Cyberpunk 2077 Feet
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -15571,6 +15644,8 @@ Face
 
 - category：Cyberpunk 2077 Face
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -15585,6 +15660,8 @@ Legs
 
 - category：Cyberpunk 2077 Legs
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -15593,6 +15670,8 @@ Feet
 
 - category：Cyberpunk 2077 Feet
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -17975,17 +18054,19 @@ Throughout Dogtown, you can find regular junkies as well as cyberjunkies.
 
 Known Cyberjunkies
 Most of the cyberjunkies can be neutralized as soon as V has left the Kress Street Hideout during Lucretia My Reflection.
-#Wesley Hunt
-#Maggie Isley
-#Jacob Bernard<ref group="N" name="4Spawn">Only spawns after 4 other cyberjunkies have been defeated.</ref>
-#Garry Bates
-#Cody Crosby
-#David Dover
-#Chester Hamilton<ref group="N">Only spawns after David Dover has been defeated and 6 in-game hours have passed.</ref>
-#Jacqueline Peele
-#Sean McMillan
-#Greg Wilson<ref group="N">Only spawns after Gig: Roads to Redemption has been completed.</ref>
-#Andrew Newman<ref group="N">Only spawns after Balls to the Wall has been completed.</ref>
+
+- Wesley Hunt
+- Maggie Isley
+- Jacob Bernard
+- Garry Bates
+- Cody Crosby
+- David Dover
+- Chester Hamilton
+- Jacqueline Peele
+- Sean McMillan
+- Greg Wilson
+- Andrew Newman
+
 Notes
 
 ru:Кибернаркоманы (Призрачная свобода)
@@ -18433,6 +18514,7 @@ Act 2 begins after V has mostly recovered from their injuries sustained during t
 |Transmission
 |
 *Coastview
+**Pacifica Serenity Bible Church
 **Maglev Tunnel
 *Cyberspace
 |Brigitte
@@ -18753,18 +18835,21 @@ After completing Transmission, V is contacted by an unknown caller asking them t
 |-
 |Hole in the Sky
 |
+*EBM Petrochem Stadium
 *Golden Pacific
 |Songbird
 |q301_finding_myers
 |-
 |Spider and the Fly
 |
+*EBM Petrochem Stadium
 *Founding Our Future Expo
 |Songbird
 |q301_q302_rescue_myers
 |-
 |Lucretia My Reflection
 |
+*Founding Our Future Expo
 *Kress Street Hideout
 *Capitán Caliente
 *Tranquil Terrace
@@ -18808,6 +18893,7 @@ After completing Transmission, V is contacted by an unknown caller asking them t
 |-
 |Firestarter
 |
+*EBM Petrochem Stadium
 |Solomon Reed
 |q304_deal
 |}
@@ -19089,6 +19175,7 @@ River Ward
 **Kutcher's Home
 *Rocky Ridge
 **Edgewood Farm (dependent)
+*Laguna Bend Reservoir
 **Poppy Farm (dependent)
 |sq021_sick_dreams
 |-
@@ -19193,6 +19280,7 @@ Peralezes
 *Vista del Rey
 **Max-imum Pleasure
 *Japantown
+**Cherry Blossom Market
 *Charter Hill
 **Red Queen's Race
 **Peralezes' Apartment
@@ -19201,8 +19289,10 @@ Peralezes
 |Dream On
 |
 *Charter Hill
+**Peralezes' Apartment
 *Northside
 *Japantown
+**Cherry Blossom Market
 *The Glen
 **Reconciliation Park
 |sq006_dream_on
@@ -19257,6 +19347,7 @@ Claire Russell
 |-
 |The Beast in Me: Badlands
 |
+*Laguna Bend Reservoir
 **Laguna Bend Dam
 *Jackson Plains
 *Rattlesnake Creek
@@ -19299,6 +19390,7 @@ Delamain
 |Epistrophy
 |
 *Vista del Rey
+**Delamain Corp Headquarters
 |sq025_delamain
 |-
 |Epistrophy: Wellsprings
@@ -19311,6 +19403,7 @@ Delamain
 *North Oak
 **North Oak Sign
 *Vista del Rey
+**Delamain Corp Headquarters
 |sq025c02_sad
 |-
 |Epistrophy: Coastview
@@ -19342,6 +19435,7 @@ Delamain
 |Don't Lose Your Mind
 |
 *Vista del Rey
+**Delamain Corp Headquarters
 |sq025b_delamain
 |}
 
@@ -19554,6 +19648,7 @@ Complete Just Another Story 2 times
 (€$29,000)
 |Requires
 Added in Update 2.2
+Requires 42 Street Cred
 |-
 |
 |Mizutani Hozuki "Hoseki"
@@ -19567,6 +19662,7 @@ Complete Just Another Story 4 times
 |AUTOFIXER
 (€$43,000)
 |Added in Update 2.2
+Requires 19 Street Cred
 |-
 |
 |Mizutani Shion MZ2
@@ -19626,12 +19722,14 @@ Purchased on AUTOFIXER for €$73,000, starting the minor job. Requires 26 Stree
 |AUTOFIXER
 (€$40,000)
 |Added in Update 2.2
+Requires 19 Street Cred
 |-
 |
 |Quadra Type-66 680 TS
 |AUTOFIXER
 (€$50,000)
 |Added in Update 2.2
+Requires 19 Street Cred
 |-
 |
 |Quadra Type-66 Avenger
@@ -19738,6 +19836,7 @@ Complete Just Another Story 1 time
 |AUTOFIXER
 (€$33,000)
 |Added in Update 2.2
+Requires 19 Street Cred
 |-
 |
 |Thorton Colby CX410 Butte
@@ -19858,6 +19957,7 @@ Complete Just Another Story 5 times
 |AUTOFIXER
 (€$26,000)
 |Requires
+Requires 42 Street Cred
 |-
 |
 |Villefort Deleon "Vindicator"
@@ -19901,6 +20001,7 @@ Motorcycles
 |AUTOFIXER
 (€$74,000)
 |Added in Update 2.1
+Requires 42 Street Cred
 |-
 |
 |ARCH Nazaré "Kobold"
@@ -19926,6 +20027,7 @@ Convince Lina Malina to tell Edgar Tool that she is his sister
 |AUTOFIXER
 (€$36.000)
 |Added in Update 2.1
+Requires 26 Street Cred
 |-
 |
 |Scorpion's Apollo
@@ -19943,12 +20045,14 @@ Convince Lina Malina to tell Edgar Tool that she is his sister
 |AUTOFIXER
 (€$72,000)
 |Added in Update 2.1
+Requires 42 Street Cred
 |-
 |
 |Yaiba Kusanagi "Peacekeeper"
 |AUTOFIXER
 (€$75,000)
 |Added in Update 2.1
+Requires 42 Street Cred
 |-
 |
 |Yaiba ASM-R250 Muramasa
@@ -20427,11 +20531,15 @@ The alternative appearance can be changed in the Settings menu.
 
 DLC #2: V's New Jackets
 
+Released: August 18, 2021 - Patch 1.3
+
 The jackets will be unlocked after completing The Ride Main Job.
 
 Also included in this DLC:
 
 DLC #3: Archer Quartz "Bandit"
+
+Released: August 18, 2021 - Patch 1.3
 
 The car can be obtained from either Rogue Amendiares or Dakota Smith after completing the Ghost Town side job.
 
@@ -20443,25 +20551,39 @@ Check out available rentals and apartment makeover options on the EZEstates webs
 
 DLC #5: Budget Arms Guillotine
 
+Released: February 15, 2022 - Patch 1.5
+
 Budget Arms Guillotine - Buy it at Wilson's Bangin' Sale or find it on the streets.
 
 DLC #6: Change V's Appearance
+
+Released: February 15, 2022 - Patch 1.5
 
 Switch up your look at the mirrors in V's apartment or safehouses.
 
 DLC #7: Johnny Silverhand Photo Mode
 
+Released: February 15, 2022 - Patch 1.5
+
 Open Photo Mode while playing as Johnny. *Also has new poses for V.
 
 DLC #8: Muzzle Brakes
+
+Released: February 15, 2022 - Patch 1.5
 
 Buy it at Wilson's Bangin' Sale or find it on the streets.
 
 DLC #9: Darra Polytechnic Umbra
 
+Released: February 15, 2022 - Patch 1.5
+
 Darra Polytechnic Umbra - Buy it at Wilson's Bangin' Sale or find it on the streets.
 
 DLC #10: Weapon Scopes
+
+Released: February 15, 2022 - Patch 1.5
+
+Buy it at Wilson's Bangin' Sale or find it on the streets.
 
 DLC #11: Edgerunners Content
 
@@ -20476,9 +20598,13 @@ This DLC adds a new quest, a new jacket and a new weapon.
 
 DLC #12: Transmog Customization
 
+Released: September 6, 2022 - Patch 1.6
+
 You can create and modify Outfits using the Wardrobe feature in your apartment, and they can be activated from your Inventory anytime, anywhere!
 
 DLC #13: Added Side Missions
+
+Released: September 6, 2022 - Patch 1.6
 
 To unlock your new gigs, check the Night City map and head to the points marked with a special icon.
 
@@ -20489,9 +20615,13 @@ The DLC features three new gigs:
 
 DLC #14: New arcade mini-game
 
+Released: September 6, 2022 - Patch 1.6
+
 The "Roach Race" minigame is available on all arcade machines throughout Night City, including in V's apartments in Japantown, Northside and the Glen.
 
 DLC #15: New Weapons: Melee
+
+Released: September 6, 2022 - Patch 1.6
 
 Look for the new melee weapons at your favorite vendors.
 
@@ -20504,6 +20634,10 @@ This DLC adds 5 new melee weapons:
 
 DLC #16: New Weapons: Firearms
 
+Released: September 6, 2022 - Patch 1.6
+
+Look for the new melee weapons at your favorite vendors.
+
 This DLC adds 6 new firearms:
 *Arasaka Senkoh LX - Tech Submachine Gun
 *Midnight Arms MA70 HB - Power Light Machine Gun
@@ -20514,9 +20648,13 @@ This DLC adds 6 new firearms:
 
 DLC #17: Photomode Updates
 
+Released: September 6, 2022 - Patch 1.6
+
 To take a pic with Nibbles, you have to take him in first! When he settles at your place, you can enter Photo Mode and select his character in the Pose tab. Because what the world needs now is more cat pictures!
 
 DLC #18: Neon rims for motorcycles
+
+Released: September 6, 2022 - Patch 1.6
 
 To change the color of your motorcycle's rims, press Horn button while driving.
 
@@ -21293,6 +21431,7 @@ Acquisition
 **Weapon Vendor in Arroyo (Military Variant)
 * Crafting Spec known by default.
 *Crafting Spec can be purchased from:
+**Weapon Vendor in Northside
 
 Crafting
 |-|Tier 1
@@ -21358,6 +21497,7 @@ Acquisition
 * Sophia Dupont at EBM Petrochem Stadium, Dogtown (Military Variant)
 * Crafting Spec known by default.
 *Crafting Spec can be purchased from:
+**Weapon Vendor in The Glen
 
 Crafting
 |-|Tier 1
@@ -21782,6 +21922,8 @@ Face
 
 - category：Cyberpunk 2077 Face
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -21796,6 +21938,8 @@ Legs
 
 - category：Cyberpunk 2077 Legs
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -21804,6 +21948,8 @@ Feet
 
 - category：Cyberpunk 2077 Feet
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -21952,8 +22098,11 @@ Objectives
 *Read Lina's messages.
 *Go to the Brainporium to collect Lina's gift.
 
+*Talk to Lina Malina.
 *Talk to Shank.
+*Loot from the counter.
 *Read Lina's message.
+*Go to the Brainporium to collect Lina's gift.
 
 *Read the message from Shank.
 
@@ -23549,6 +23698,7 @@ Objectives
 *Get onto the elevator platform.
 *Ride on the platform.
 *Reach the car elevator platform.
+*Get onto the elevator platform.
 *Reach the catwalk.
 *Talk to Songbird.
 *Make your way to Dogtown through the garage.
@@ -23556,6 +23706,7 @@ Objectives
 *Go to the black market.
 *Go to the construction site.
 *Talk to Songbird.
+*Go to the construction site.
 *Get up onto the roof.
 *Talk to Songbird.
 *Go to the crash site.
@@ -23871,10 +24022,12 @@ Objectives
 *Get in the driver's seat.
 
 *Talk to Delamain.
+*Leave through the side exit.
 *Approach the car.
 
 *Talk to Johnny.
 *Approach the car.
+*Get in the driver's seat.
 *Talk to Delamain.
 
 Notes
@@ -24103,6 +24256,7 @@ Objectives
 *Scan the netrunner's phone.
 *Talk to Judy about the translation chip.
 *Listen to the netrunner's conversation.
+*Exit the braindance.
 *Talk to Johnny.
 *Talk to Judy.
 *Leave the apartment.
@@ -26325,6 +26479,7 @@ Objectives
 *Approach the Delamain cab.
 *Talk to the divergent Delamain.
 *Get in the cab.
+*Talk to the divergent Delamain.
 *Get out of the cab.
 *Wait for Delamain to call.
 *Talk to Delamain.
@@ -28054,6 +28209,7 @@ Objectives
 
 *Talk to Johnny.
 *Escape the secured area.
+**Retrieve your gear from the locker.
 *Reach the market exit.
 *Escape the market.
 **Neutralize Hansen and his soldiers.
@@ -28835,6 +28991,7 @@ Objectives
 *Go to the meeting with the hospital employee.
 *Meet with the hospital employee.
 *Take the briefcase with the implant.
+*Meet with the hospital employee.
 *Defeat the police.
 *Confront the hospital employee.
 *Return to the Aldecaldos camp.
@@ -29073,6 +29230,7 @@ Gallery
 File:Paris 2020.png
 File:French Couple 2020.png
 File:French News.png
+File:French Couple 2020.png
 File:France 2020.png
 File:Map-of-france.png
 
@@ -30283,6 +30441,7 @@ Journal Entry
 Objectives
 *Go to Gustavo's apartment.
 *Go to the 32nd floor.
+*Go to Gustavo's apartment.
 *Find Gustavo.
 *Neutralize Gustavo.
 
@@ -30292,6 +30451,7 @@ Objectives
 *Leave the apartment complex.
 
 *Convince Gustavo to leave Night City. (Optional)
+*Leave the apartment complex.
 
 Associated Shards
 
@@ -30413,6 +30573,7 @@ Objectives
 *Talk to Jasmine Dixon.
 *Escort Jasmine Dixon out of the hospital.
 *Escort Jasmine Dixon to the transport.
+*Talk to Jasmine Dixon.
 
 Notes
 *Originally the Journal entry's final paragraph read: "Your job is to get her out of there, but she doesn't have any scratch. I'll spot her this time - she'll owe me a favor when I need one." This seemed to contradict Muamar's comment after completing the gig that he would get his 'dearest eddies'.
@@ -30487,6 +30648,7 @@ Objectives
 *Leave the car at Tirempire.
 *Lose the Zetatech pursuers.
 *Wait for instructions.
+*Leave the car at Tirempire.
 *Exit the car.
 *Talk to Pedro.
 
@@ -30583,6 +30745,7 @@ Objectives
 **Leave Tucker's building.
 *
 **Take the money from the safe. [Optional]
+**Leave Tucker's building.
 
 Associated Shards
 
@@ -31544,6 +31707,7 @@ Objectives
 *Watch the confrontation or protect Karl.
 
 *Defeat the Kang Tao operatives.
+*Talk to Karl Ginsky.
 
 *Talk to the Kang Tao Agents to clear up the situation.
 
@@ -32041,6 +32205,7 @@ Objectives
 *Leave the weapons factory.
 *Go to the meeting point.
 *Get in Nele's car.
+*Talk to the client about the gig.
 *Confront the agents.
 
 *Talk to Nele.
@@ -33016,16 +33181,20 @@ Objectives
 *Meet Takemura.
 *Go over the plan with Takemura.
 *Take the shard.
+*Go over the plan with Takemura.
 *Break into the security room.
 *Infect the security system.
+*Go over the plan with Takemura.
 *Sit beside Takemura.
 *Go to Arasaka Industrial Park.
 *Follow Takemura.
 *Get onto the roof.
 *Follow Takemura.
+*Go over the plan with Takemura.
 *Scan the area.
 *Keep scanning. [Optional]
 *Talk to Takemura.
+*Go over the plan with Takemura.
 *Get up.
 *Return to street level.
 *Steal the truck. [Optional]
@@ -34676,6 +34845,7 @@ Acquisition
 *Can be purchased from:
 **Animals Melee Weapon Vendor in Rancho Coronado
 *Crafting Spec can be purchased from:
+**Animals Melee Weapon Vendor in Rancho Coronado
 
 Crafting
 |-|Tier 1
@@ -35552,6 +35722,7 @@ Objectives
 **Talk to Misty.
 **Take part in the ofrenda at El Coyote Cojo.
 ***Talk to Misty. [Optional]
+**Talk to Mama Welles.
 **Take part in the ofrenda.
 ***Sit.
 ***Leave an offering in Jackie's memory.
@@ -35560,6 +35731,7 @@ Objectives
 **Talk to Viktor. [Optional]
 **Talk to the Valentinos. [Optional]
 **Talk to Padre. [Optional]
+**Talk to Mama Welles.
 **Leave the bar.
 *
 **Collect the package from Mama Welles.
@@ -35615,18 +35787,27 @@ Revolvers
 
 - category：Cyberpunk 2077 Revolvers
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Submachine Guns
 
 - category：Cyberpunk 2077 SMGs
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Shotguns
 
 - category：Cyberpunk 2077 Shotguns
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Assault Rifles
@@ -38010,8 +38191,10 @@ Locations
 *Night Corp Solar Farm
 
 2077
+*Jackson Plains Regional Airport
 *Militech Detention Center
 *New American Autoworks Workshop
+*Night Corp Solar Farm
 *Sage Gulch
 *Satwave Power Plant
 *Scraps
@@ -41423,6 +41606,7 @@ Acquisition
 *Can be purchased from:
 **Spector Cheng in Japantown
 *Crafting Spec can be purchased from:
+**Spector Cheng in Japantown
 
 Crafting
 |-|Tier 1
@@ -41560,6 +41744,7 @@ Acquisition
 **Weapon Vendor in Kabuki
 **Weapon Vendor in Red Peaks (Military Variant)
 *Crafting Spec can be purchased starting at level 9 from:
+**Weapon Vendor in West Wind Estate
 
 Crafting
 |-|Tier 3
@@ -41640,6 +41825,7 @@ Acquisition
 ** Sophia Dupont at EBM Petrochem Stadium, Dogtown (Military Variant)
 ** Leon Watson at Longshore Stacks, Dogtown
 *Crafting Spec can be purchased starting at level 17 from:
+**Weapon Vendor in The Glen
 
 Crafting
 |-|Tier 3
@@ -41852,6 +42038,8 @@ Face
 
 - category：Cyberpunk 2077 Face
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -41866,6 +42054,8 @@ Legs
 
 - category：Cyberpunk 2077 Legs
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -42000,6 +42190,7 @@ Acquisition
 ** Sophia Dupont at EBM Petrochem Stadium, Dogtown (Military Variant)
 * Crafting Spec known by default.
 *Crafting Spec can be purchased from:
+**Spector Cheng in Japantown
 
 Crafting
 |-|Tier 1
@@ -42016,6 +42207,7 @@ Katana Neon.png|Neon
 (Brighten up your enemies' final moments.)
 Katana Neon 03.png|Neon 03
 Katana Pimp.png|Pimp
+(Brighten up your enemies' final moments.)
 Katana Pimp 03.png|Pimp 03
 Katana Training.png|Training
 Katana Arasaka 2020.png|2020 Arasaka
@@ -42781,6 +42973,7 @@ Within Kerry's home are two linked terminals containing three files, songs in pr
 :Ex Machina Sex Machina
 :Fenyloetyloamine
 :Noradrenaline Dopamine Oxyocin
+:Ex Machina Sex Machina
 :Remember the day we met?
 :First time I saw you, it was match point and set
 :Never told you, was never the right time
@@ -45278,18 +45471,27 @@ Revolvers
 
 - category：Cyberpunk 2077 Revolvers
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Submachine Guns
 
 - category：Cyberpunk 2077 SMGs
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Shotguns
 
 - category：Cyberpunk 2077 Shotguns
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Assault Rifles
@@ -45427,6 +45629,7 @@ Objectives
 **Scan the Kang Tao operatives. [Optional]
 **Scan the combat drones. [Optional]
 *Disconnect from the drone.
+*Check out the crash site.
 **Take out the turret.
 **Defeat the Kang Tao operatives.
 *Wait for Panam.
@@ -45489,6 +45692,7 @@ Objectives
 *Take out the power plant security. [4]
 *Get to the terminal.
 *Overheat the terminals.
+*Take the passenger seat.
 *Go to the hill with Panam.
 *Wait for the AV.
 **Shoot down the AV.
@@ -46526,6 +46730,7 @@ Objectives
 *Find an Access Point to the network.
 *Defeat the Arasaka guards.
 *Connect to the Access Point.
+*Wait for the virus to upload into the network.
 *Return to the rooftop.
 *Get to the chopper!
 
@@ -46737,6 +46942,7 @@ Objectives
 *Lead Myers out of the tunnels.
 **Shut off the steam. [Optional]
 
+*Lead Myers out of the tunnels.
 **Clear a way to the service tunnel.
 **Cross the service tunnel.
 
@@ -48250,6 +48456,7 @@ Overture Pimp.png|Pimp
 Overture Cassidy.png|
 Overture Kerry.png|
 Overture River.png|
+Overture Cassidy.png|
 Overture Dodger.png|
 
 Notes
@@ -50251,6 +50458,7 @@ This floor contains mostly apartments, a fast travel point, and a drop point.
 **Apartment 0716 - V's apartment. If adopted, Nibbles and the iguana will also live here.
 
 Floor 09
+This floor consists of just a few locked doors and some minor loot.
 
 Notable Residents
 2045
@@ -51641,6 +51849,7 @@ Acquisition
 ** Sophia Dupont at EBM Petrochem Stadium, Dogtown (Military Variant)
 ** Leon Watson at Longshore Stacks, Dogtown
 *Crafting Spec can be purchased starting at level 17 from:
+**Weapon Vendor in Red Peaks
 * Can be found in Airdrops.
 
 Crafting
@@ -51707,6 +51916,7 @@ Acquisition
 ** Leon Watson at Longshore Stacks, Dogtown
 * A unique NUSA variant can be looted inside Space Force One during Hole in the Sky.
 *Crafting Spec can be purchased from:
+**Weapon Vendor in Japantown
 
 Crafting
 |-|Tier 1
@@ -52416,6 +52626,7 @@ Acquisition
 ** Sophia Dupont at EBM Petrochem Stadium, Dogtown (Military Variant)
 ** Leon Watson at Longshore Stacks, Dogtown
 *Crafting Spec can be purchased starting at level 17 from:
+**Weapon Vendor in The Glen
 
 Crafting
 |-|Tier 3
@@ -53033,6 +53244,7 @@ Acquisition
 ** Sophia Dupont at EBM Petrochem Stadium, Dogtown (Military Variant)
 ** Leon Watson at Longshore Stacks, Dogtown
 *Crafting Spec can be purchased from:
+**Weapon Vendor in West Wind Estate
 
 Crafting
 |-|Tier 2
@@ -55272,6 +55484,7 @@ Objectives
 *Approach the car.
 **Neutralize all enemies near the car.
 *Get in the car.
+*Reply to Ashlay's message.
 *Access the car's on-board computer and wipe its memory.
 *Leave with the car.
 **Stay on the guard's good side.
@@ -56854,6 +57067,7 @@ Acquisition
 **Melee Weapon Vendor in Jackson Plains
 **Melee Weapon Vendor in West Wind Estate
 *Crafting Spec can be purchased from:
+**Melee Weapon Vendor in Jackson Plains
 
 Crafting
 |-|Tier 1
@@ -56927,12 +57141,14 @@ Objectives
 *Find Rogue.
 *Sit next to Rogue.
 *Convince Rogue to help.
+*Fight for your life.
 *Defeat the Arasaka agents.
 *Escape from the Atlantis.
 *Call the elevator.
 *Enter the elevator.
 *Wait for Santiago and Rogue.
 *Take the elevator down to the parking lot.
+*Defeat the Arasaka agents.
 *Get in Johnny's Porsche.
 *Escape from the Arasaka agents.
 *Plan your next move.
@@ -56943,6 +57159,7 @@ Objectives
 *Open the door to the mainframe.
 *Arm the explosives.
 *Find Alt.
+*Defeat the Arasaka agents.
 *Check on Alt.
 *Talk to Thompson.
 
@@ -58180,6 +58397,7 @@ Health
 *City Medical Center (2020, RED)
 *Crisis Medical Center (2020)
 *Crisis Medical Center (RED)
+*Night City Medical Center & School (2020)
 *Night City Medical Center (2077)
 *Trauma Team Tower (2020)
 *Trauma Team Tower (RED)
@@ -58192,6 +58410,7 @@ Health
 *The Clinic (2020)
 *Uniform Group Health Building (2020)
 *MacMillan Building (2020)
+*UFC Health Sciences Center (2020)
 
 Law Enforcement and Crime
 Operating as an autonomous territory separate from the rest of the NUSA, Night City's borders are patrolled by Arasaka contractors. The Night City Police Department holds jurisdiction over domestic security, although the personal security detail of the mayor is handled by a team of handpicked corporate huscle (hired muscle). In 2077, there were two known prisons in the city area: Night City Prison and Los Padres Penitentiary.
@@ -59188,6 +59407,7 @@ Acquisition
 **Weapon Vendor in West Wind Estate
 * Crafting Spec known by default.
 *Crafting Spec can be purchased from:
+**Weapon Vendor in Rancho Coronado
 
 Crafting
 |-|Tier 1
@@ -60810,6 +61030,8 @@ However the officers are handled, V must then wake and confront Hamilton, leavin
 
  V can mention that they know Hamilton is showing spiked XBDs to people. Hamilton will confess that he is aware the XBDs are harmful, and he showed one to the girl deliberately. V then has two more options, either of which will conclude the side job:
 *Let Hamilton go.
+*If V has 13 Cool, they can demand money. Hamilton pays €$2280.
+**If V has 5 Body, they can demand all of Hamilton's money. Hamilton gives up an extra €$2660.
 V can also kill Hamilton which will also result in the job being completed. Looting his corpse after extorting "everything" from him will result in even more money, indicating Hamilton lied about handing over everything he had.
 
 Journal Entry
@@ -60923,6 +61145,7 @@ Acquisition
 * variant can be purchased for €$16000 from:
 **Robert Rainwater in Kabuki
 * variant can be purchased at 39 Street Cred for €$28000 from:
+**Octavio in Rancho Coronado
 
 ---
 ## Optimization
@@ -63748,6 +63971,7 @@ Objectives
 *Crawl towards the pills.
 *Take the pills.
 *Stand.
+*Leave the apartment.
 **Find something to eat. [Optional]
 **Open your inventory and put on some clothes. [Optional]
 **Stock up on ammo. [Optional]
@@ -64123,10 +64347,11 @@ Practice Makes Perfect is an optional Main Job in . It becomes available at the 
 
 Walkthrough
 Narrated by T-Bug, it consists of four training modules, although only the first two are required to complete the job:
-#Combat Basics
-#Hacking
-#Stealth
-#Advanced Combat
+- Combat Basics
+- Hacking
+- Stealth
+- Advanced Combat
+
 Journal Entry
 :Better to be prepared than dead. The street can be brutally unforgiving, so a quick brush-up on combat skills certainly couldn't hurt.
 
@@ -64138,37 +64363,45 @@ Objectives
 *Pick up the weapon.
 *Shoot all the targets.
 *Wait for the next round of targets.
+*Shoot all the targets.
 *Pick up the weapon.
 *Eliminate all enemies.
 *Take the inhaler.
 *Use the inhaler to regain Health.
 *Enter the training area.
+*Eliminate all enemies.
 *Step onto the platform.
 
 ;Module 2 - Hacking
 *Approach the window.
 *Open your scanner.
 *Scan two objects highlighted gold.
+*Approach the window.
 *Use the TV screen to distract your enemies.
 *Sneak up to the guard.
 *Eliminate the guard.
 *Pick up the body.
 *Hide the body.
+*Sneak up to the guard.
 *Take down the guard and hide the body.
+*Enter the training area.
 *Take control of the camera.
 *Hack one of the guards and use the "Detonate Grenade" quickhack.
 *Exit camera view.
 *Connect to the Access Point.
+*Step onto the platform.
 *Use the door to exit the simulation. (optional)
 
 ;Module 3 - Stealth
 *Go to the window.
 *Tag all the guards.
+*Enter the training area.
 *Hide from the guards.
 *Sneak to the exit.
 *Enter the next training area.
 *Tag the camera.
 *Reach the exit without being detected by the camera.
+*Step onto the platform.
 
 ;Module 4 - Advanced Combat
 *Enter the arena.
@@ -64186,6 +64419,7 @@ Objectives
 *Defeat the enemy.
 *Step into the training area to continue.
 *Defeat all enemies.
+*Step onto the platform.
 *Use the door to exit the simulation.
 
 Notes
@@ -64721,6 +64955,7 @@ Acquisition
 **Melee Weapon Vendor in Jackson Plains
 **Melee Weapon Vendor in West Wind Estate
 *Crafting Spec can be purchased from:
+**Melee Weapon Vendor in West Wind Estate
 
 Crafting
 |-|Tier 1
@@ -65469,14 +65704,18 @@ Quadra Type-66 "Cthulhu" V Message CP2077.png
 
 The Beast in Me
 To obtain the Cthulhu for free, V has to proceed carefully at certain moments in The Beast in Me: Santo Domingo and The Beast in Me: The Big Race. After qualifying for the final race at the end of the former job, Claire will ask to speak to V about her husband Dean. Make sure to select the following dialogue options when they appear:
-#"You sure it was murder?"
-#"Sorry, Claire, but I can't help."
-#"Okay, I'll still drive. But only to win."
+
+- "You sure it was murder?"
+- "Sorry, Claire, but I can't help."
+- "Okay, I'll still drive. But only to win."
+
 During the final race, keep pace with Sampson's car. Note that choosing to race with Claire's car instead of one V owns is sufficient for this route. At a specific point along the highway, Sampson's car will become too damaged and he will pull off the course. Follow him (this will forfeit the race) until he crashes, then get out of the car with Claire to confront him. Make sure to trigger each of the limited-time dialogue choices that appear:
-#"What's he mean?"
-#"Wait, wanna hear this."
-#"Claire, that true?"
-#"Yeah. Let him go."
+
+- "What's he mean?"
+- "Wait, wanna hear this."
+- "Claire, that true?"
+- "Yeah. Let him go."
+
 If all requirements were met, Claire will be persuaded to spare Sampson and drive back to her garage. She will also give her car - Beast - to V since she no longer wants to race. After the quest is completed, Claire will send V a follow up text within a day, and this will be followed by a separate text from Sampson 7–10 days later informing V that they now own the fully-repaired Cthulhu.
 
 Notes
@@ -65979,6 +66218,7 @@ Objectives
 *Talk to Panam.
 *Get the Basilisk in position.
 *Drive past the wind turbines.
+*Get the Basilisk in position.
 *Shoot at the targets. [5]
 *Talk to Panam.
 *Defeat the Raffen Shiv. [28]
@@ -65998,6 +66238,7 @@ Trivia
 
 uk:Приборкання василіска
 ru:Укрощение василиска
+uk:Приборкання василіска
 
 ---
 ## Queue Acceleration
@@ -68291,6 +68532,7 @@ Objectives
 *Disconnect from the drone.
 *Talk with Panam and Mitch.
 *Take SuperJet.
+*Talk with Panam and Mitch.
 *Get in the van.
 *Head to the Raffen Shiv camp.
 *Park your vehicle.
@@ -68715,24 +68957,27 @@ There are two pickups:
 * Carrot - Worth 50 extra points of passive score over its duration. Also temporarily increases gallop speed with Roach galloping with only her front hooves.
 
 There are five stages, referencing The Witcher 3: Wild Hunt and The Witcher 2: Assassins of Kings:
-#Kaer Morhen
-#Novigrad
-#Flotsam forests
-#Ard Skellig
-#Isle of Mists
+
+- Kaer Morhen
+- Novigrad
+- Flotsam forests
+- Ard Skellig
+- Isle of Mists
+
 A small container with rewards will be sent to V's Apartment after getting top 3 score.
 
 High scores
-#3354 – Z1R343L
-#3019 – B4RBOSA
-#2529 – NCALGOD
-#2110 – SCHEMA
-#1780 – NWONG
-#1433 – KEPLER
-#965 – NETMAN
-#798 – J4CKI3W
-#565 – PNEUMO
-#128 – SILVERHAND
+- 3354 – Z1R343L
+- 3019 – B4RBOSA
+- 2529 – NCALGOD
+- 2110 – SCHEMA
+- 1780 – NWONG
+- 1433 – KEPLER
+- 965 – NETMAN
+- 798 – J4CKI3W
+- 565 – PNEUMO
+- 128 – SILVERHAND
+
 Most players are a reference to other notable characters. Once V has enough points, they will enter the high score ranking, replacing SILVERHAND.
 
 Rewards
@@ -68857,18 +69102,27 @@ Revolvers
 
 - category：Cyberpunk 2077 Revolvers
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Submachine Guns
 
 - category：Cyberpunk 2077 SMGs
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Shotguns
 
 - category：Cyberpunk 2077 Shotguns
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Assault Rifles
@@ -69931,6 +70185,7 @@ Acquisition
 ** Sophia Dupont at EBM Petrochem Stadium, Dogtown (Military Variant)
 * Crafting Spec known by default.
 *Crafting Spec can be purchased from:
+**Weapon Vendor in Vista del Rey
 
 Crafting
 |-|Tier 2
@@ -70001,6 +70256,7 @@ Acquisition
 **Weapon Vendor in West Wind Estate
 ** Sophia Dupont at EBM Petrochem Stadium, Dogtown
 *Crafting Spec can be purchased from:
+**Weapon Vendor in Northside
 
 Crafting
 |-|Tier 1
@@ -70936,6 +71192,8 @@ Face
 
 - category：Cyberpunk 2077 Face
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -71495,6 +71753,8 @@ Face
 
 - category：Cyberpunk 2077 Face
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -71509,6 +71769,8 @@ Legs
 
 - category：Cyberpunk 2077 Legs
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -71517,6 +71779,8 @@ Feet
 
 - category：Cyberpunk 2077 Feet
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -73483,6 +73747,7 @@ Objectives
 *Sit and wait for Bill Jablonsky.
 *Talk to Bill Jablonksy.
 *Get behind the wheel of Bill Jablonsky's truck.
+*Talk to Bill Jablonksy.
 *Follow the car.
 
 *Stop the car.
@@ -74361,6 +74626,7 @@ Dogtown
 This Corrosion (dependent)
 - reward_item：(missable)
  blueprints (missable)
+ blueprints (missable)
  (missable)
 
 Somewhat Damaged is a Main Job in .
@@ -74449,6 +74715,7 @@ Objectives
 ***Return to the sealed gate.
 ***Use the terminal to open the gate to Sector 3.
 ***Go through the gate to Sector 3.
+*Follow the Blackwall traces.
 **Outrun your pursuer across the bridge.
 **Find a place to hide.
 **Open the airlock doors.
@@ -74465,6 +74732,7 @@ Objectives
 **Use your personal link to breach the thermic control terminal.
 **Find another way to shut down the thermic control system.
 *Find the datafort central command room.
+**Use the terminal to check the subsystem's status.
 **Scan the firewall device. (Optional)
 **Destroy the firewall device to disable the subsystem. (2/6)
 *Return to the core control room.
@@ -74761,18 +75029,27 @@ Revolvers
 
 - category：Cyberpunk 2077 Revolvers
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Submachine Guns
 
 - category：Cyberpunk 2077 SMGs
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Shotguns
 
 - category：Cyberpunk 2077 Shotguns
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Assault Rifles
@@ -75801,11 +76078,13 @@ Objectives
 **Hit as many targets as you can in 12 seconds. [12]
 *Go to the second station.
 **Drink the shot.
+**Hit as many targets as you can in 12 seconds. [12]
 *Go to the third station.
 **Drink the shot.
 **Hit as many targets as you can in 12 seconds. [11]
 *Go to the final station.
 **Drink the shot.
+**Hit as many targets as you can in 12 seconds. [11]
 *Return to the 6th Street leader.
 *Ask about your results.
 *Collect your reward.
@@ -77293,6 +77572,7 @@ Objectives
 ***Eat breakfast. [Optional]
 ***Leave the building.
 **
+***Leave the building.
 *
 **Leave the building.
 
@@ -77925,6 +78205,7 @@ Acquisition
 ** Sophia Dupont at EBM Petrochem Stadium, Dogtown (Military Variant)
 ** Leon Watson at Longshore Stacks, Dogtown
 *Crafting Spec can be purchased starting at level 17 from:
+**Weapon Vendor in Northside
 
 Crafting
 |-|Tier 3
@@ -78327,6 +78608,7 @@ Objectives
 *Complete the qualifying races. [3]
 **Read the message from Claire.
 **Send a message to Claire.
+**Read the message from Claire.
 *
 **Finish "The Big Race."
 **
@@ -79092,6 +79374,7 @@ Objectives==
 *Join Dex in the booth.
 *Take part in the briefing.
 *Put Flathead in the briefcase.
+*Take part in the briefing.
 *
 **Take the suit.
 **Put on the Militech suit.
@@ -79120,23 +79403,36 @@ Objectives==
 **Use Flathead to open the ventilation grate.
 **Wait for Flathead to finish.
 *Wait for T-Bug to switch cam view.
+*Scan for a way into the vents.
 **Consult with T-Bug.
 **Scan for hackable devices.
 **Order Flathead to go to the terrarium.
+**Wait for Flathead to finish.
 **Wait for housekeeping to move.
 **Enter the vent using Flathead.
+**Wait for Flathead to finish.
+*Scan for a way into the vents.
+**Use Flathead to open the ventilation grate.
+**Wait for Flathead to finish.
 *Consult with T-Bug.
 *Use Flathead to enter the dweller's room.
+**Consult with T-Bug.
 **Scan for the CCTV Access Point.
 **Connect to CCTV using Flathead.
 **Switch cam view.
+**Consult with T-Bug.
 **Scan for a path for the Flathead.
 **Switch cam view.
+**Consult with T-Bug.
+**Scan for a path for the Flathead.
 **Switch cam view.
 **Scan for a grate in the floor.
+**Use Flathead to open the ventilation grate.
 **Hack the dweller using Flathead.
+**Wait for Flathead to finish.
 *Talk to Jackie and T-Bug.
 *Sit.
+*Talk to Jackie and T-Bug.
 *Head to Yorinobu's penthouse.
 *Follow Jackie.
 *Go to the safe.
@@ -79171,6 +79467,7 @@ Objectives==
 *Head to the lobby.
 **Wait for Jackie in the elevator.
 *Reach the elevator to the garage.
+**Wait for Jackie in the elevator.
 *Take the elevator to the garage.
 *Enter the Delamain.
 *Talk to Delamain.
@@ -79374,8 +79671,10 @@ Objectives
 *Relive the braindance.
 *Scan for clues.
 *Go to the next section of the braindance.
+*Relive the braindance.
 *Look for clues to help find Randy. [Optional]
 *Exit the braindance to proceed to the next section.
+*Relive the braindance.
 *Scan for clues.
 *Exit the braindance.
 *Plan the next move with River.
@@ -79494,6 +79793,7 @@ Objectives
 *In the visual layer, scan Yorinobu's datapad while it's turned on.
 *Scan for thermal clues to find the Relic.
 *Exit the braindance when you're ready.
+*Talk to Judy and Evelyn.
 *Talk to Evelyn.
 *Leave Judy's workshop.
 *Call Dex.
@@ -79622,6 +79922,7 @@ Objectives
 **Enter the ventilation shaft.
 **Grip a fan blade and stop the fan's rotation.
 **Hide from the guards.
+**Grip a fan blade and stop the fan's rotation.
 **Take the elevator to the main hall of the spaceport.
 **Return to the Tycho Terminal.
 **Get to the elevator.
@@ -79650,6 +79951,7 @@ Objectives
 *Deal with Reed.
 *Talk to Johnny.
 *Pick up Songbird.
+*Carry Songbird to the shuttle.
 *Place Songbird in the shuttle.
 *Prepare Songbird for takeoff.
 *Go to the observation deck.
@@ -79901,14 +80203,18 @@ Royce simply shoots V in the head, necessitating a prior save.
 
 Path 2 - A Peaceful Transaction
 
+This occurs if all of the following conditions are met:
 *V does not meet Meredith Stout
+*When Jackie refuses to sit down, V intervenes and asks him to do so
 *V pays Royce with €$ 10,000 of their own cash
 
 V obtains the Flathead and is led peacefully from the premises by Dum Dum, who will then also give them his Black Lace inhaler if they have the Streetkid lifepath (even if they have rejected to take a whirl earlier). This is the only way to unlock access to the Maelstrom Weapon Vendor, who will appear after completing the job. This is also a guaranteed way to keep Dum Dum alive, which in turn enables V to kill or incapacitate him during a later mission in which he carries his iconic gun that can then be looted.
 
 Path 3 - Fight Militech
 
+This occurs if all of the following conditions are met:
 *V does meet Meredith Stout, either taking the credchip or not
+*When Jackie refuses to sit down, V intervenes and asks him to do so
 *V pays Royce either with a) the chip including its malware but giving Royce a heads-up warning (Corpo lifepath only), b) with the chip after removing its malware, or c) with €$ 10,000 of their own cash
 
 After the transaction, Militech operatives will storm the All Foods Factory and start attacking the Maelstrom gang members. This is one of two options that allows to find and free former Maelstrom leader Brick (see below). If Brick is not freed and Dum Dum survives the mission, he can be encountered during a later mission in which he carries his iconic gun that can then be looted.
@@ -79993,7 +80299,9 @@ Objectives
 **Wait with Jackie in the elevator.
 **Talk to the Maelstromers.
 **Sit on the couch.
+**Talk to the Maelstromers.
 **Take the Flathead.
+**Talk to the Maelstromers.
 **
 ***Take the elevator down with Dum Dum.
 ***Follow Dum Dum.
@@ -80011,8 +80319,11 @@ Objectives
 ****Disarm the trap preventing Brick's escape. [Optional]
 ****
 *****Dismantle the trap. [Optional]
+****Talk to Brick. [Optional]
 ***Defeat the Militech agents.
 ***Follow Dum Dum.
+***Escape from All Foods.
+***Leave the premises of All Foods.
 ***Talk to Anthony Gilchrist.
 *
 **Defeat the Maelstromers.
@@ -80033,11 +80344,13 @@ Objectives
 ***Disarm the trap preventing Brick's escape. [Optional]
 ***
 ****Dismantle the trap. [Optional]
+***Talk to Brick. [Optional]
 **
 ***Sneak past Royce. [Optional]
 ***
 ****Defeat Royce and his crew.
 **
+***Leave the premises of All Foods.
 ***Talk to Meredith Stout.
 *Follow Jackie.
 *Talk to Jackie.
@@ -80165,6 +80478,7 @@ Objectives
 ***Hide the body in freezer. [Optional]
 ***Hide from the scavengers. [Optional]
 ***Wait while staying unnoticed. [Optional]
+***Neutralize the scavenger. [Optional]
 ***Use the path marked by T-Bug. [Optional]
 **Defeat the scavenger leader.
 ***Go onto the terrace. [Optional]
@@ -80186,6 +80500,7 @@ Objectives
 *Get into the passenger seat.
 *Ride back with Jackie.
 *Defeat the scavengers.
+*Ride back with Jackie.
 *Exit the car.
 *Go home.
 *Go to bed.
@@ -80880,7 +81195,9 @@ Objectives
 **Stay with Joshua until he dies.
 **Talk to Rachel.
 *
+**Help Joshua record the BD.
 **Sit on the chair.
+**Stay with Joshua until he dies.
 **Talk to Rachel.
 *
 **Leave the braindance studio.
@@ -82881,6 +83198,7 @@ Objectives
 *Give your testimony.
 **Find a seat.
 **Sit next to Hanako.
+*Give your testimony.
 *Fend off the attackers.
 *Talk to Hanako.
 *Take the elevator to the upper atrium.
@@ -85483,6 +85801,7 @@ Time
 |
 5%: "The Countdown"
 *Bad news from Vik – the biochip is going to gradually kill you by overwriting your mind with another neural network. The result? Your consciousness will get wiped and you'll cease to exist. Seems there's no clue how to stop it, or if it's even possible. But you won't just give up without a fight. Evelyn Parker, Anders Hellman, Arasaka – you'll have to track down every lead to make it through this alive.
+*After the holocall with Takemura during Playing for Time
 
 10%: "Initial Symptoms"
 *Johnny says you're wasting your time trying to find a solution to an impossible problem. The main thing to remember is not to panic and to stay the course. You've still got enough choo in the tank to pursue all your remaining leads on how to remove the biochip.
@@ -88042,6 +88361,7 @@ Objectives
 *Get in the tub
 *Talk to Saul
 *(Optional) Talk to the nomads
+*(Optional) Talk to Mitch
 *Talk to Panam
 *Join Panam when you're ready
 
@@ -88128,18 +88448,27 @@ Revolvers
 
 - category：Cyberpunk 2077 Revolvers
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Submachine Guns
 
 - category：Cyberpunk 2077 SMGs
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Shotguns
 
 - category：Cyberpunk 2077 Shotguns
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Assault Rifles
@@ -88191,18 +88520,27 @@ Revolvers
 
 - category：Cyberpunk 2077 Revolvers
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Submachine Guns
 
 - category：Cyberpunk 2077 SMGs
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Shotguns
 
 - category：Cyberpunk 2077 Shotguns
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Assault Rifles
@@ -88251,18 +88589,27 @@ Revolvers
 
 - category：Cyberpunk 2077 Revolvers
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Submachine Guns
 
 - category：Cyberpunk 2077 SMGs
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Shotguns
 
 - category：Cyberpunk 2077 Shotguns
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Assault Rifles
@@ -88317,12 +88664,18 @@ Submachine Guns
 
 - category：Cyberpunk 2077 SMGs
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Shotguns
 
 - category：Cyberpunk 2077 Shotguns
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Assault Rifles
@@ -88376,18 +88729,27 @@ Revolvers
 
 - category：Cyberpunk 2077 Revolvers
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Submachine Guns
 
 - category：Cyberpunk 2077 SMGs
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Shotguns
 
 - category：Cyberpunk 2077 Shotguns
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Assault Rifles
@@ -88437,18 +88799,27 @@ Revolvers
 
 - category：Cyberpunk 2077 Revolvers
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Submachine Guns
 
 - category：Cyberpunk 2077 SMGs
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Shotguns
 
 - category：Cyberpunk 2077 Shotguns
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Assault Rifles
@@ -88504,18 +88875,27 @@ Revolvers
 
 - category：Cyberpunk 2077 Revolvers
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Submachine Guns
 
 - category：Cyberpunk 2077 SMGs
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Shotguns
 
 - category：Cyberpunk 2077 Shotguns
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Assault Rifles
@@ -88568,18 +88948,27 @@ Revolvers
 
 - category：Cyberpunk 2077 Revolvers
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Submachine Guns
 
 - category：Cyberpunk 2077 SMGs
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Shotguns
 
 - category：Cyberpunk 2077 Shotguns
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Assault Rifles
@@ -88632,18 +89021,27 @@ Revolvers
 
 - category：Cyberpunk 2077 Revolvers
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Submachine Guns
 
 - category：Cyberpunk 2077 SMGs
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Shotguns
 
 - category：Cyberpunk 2077 Shotguns
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Assault Rifles
@@ -88698,18 +89096,27 @@ Revolvers
 
 - category：Cyberpunk 2077 Revolvers
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Submachine Guns
 
 - category：Cyberpunk 2077 SMGs
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Shotguns
 
 - category：Cyberpunk 2077 Shotguns
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Assault Rifles
@@ -88763,18 +89170,27 @@ Revolvers
 
 - category：Cyberpunk 2077 Revolvers
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Submachine Guns
 
 - category：Cyberpunk 2077 SMGs
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Shotguns
 
 - category：Cyberpunk 2077 Shotguns
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Assault Rifles
@@ -88825,18 +89241,27 @@ Revolvers
 
 - category：Cyberpunk 2077 Revolvers
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Submachine Guns
 
 - category：Cyberpunk 2077 SMGs
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Shotguns
 
 - category：Cyberpunk 2077 Shotguns
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Assault Rifles
@@ -88889,18 +89314,27 @@ Revolvers
 
 - category：Cyberpunk 2077 Revolvers
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Submachine Guns
 
 - category：Cyberpunk 2077 SMGs
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Shotguns
 
 - category：Cyberpunk 2077 Shotguns
 - mode：ordered
+- include：{Infobox Weapon2077}:image:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
+- tablerow：style="width:20%"¦,style="width:80%"¦%%
 - tablesortcol：1
 
 Assault Rifles
@@ -89949,6 +90383,7 @@ Objectives
 ***Get out of the car.
 **
 ***Wait for the Nomads.
+***Go to the train station.
 *Talk to Panam.
 *Discuss the plan with the nomads.
 *Find the entrance to the control tower.
@@ -91670,6 +92105,8 @@ Face
 
 - category：Cyberpunk 2077 Face
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -91684,6 +92121,8 @@ Legs
 
 - category：Cyberpunk 2077 Legs
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -91692,6 +92131,8 @@ Feet
 
 - category：Cyberpunk 2077 Feet
 - mode：ordered
+- include：{Infobox Clothing}:imagef:title
+- table：class="fandom-table sortable" style="width:100%; font-size:small;",-,,Title
 - tablerow：,%%
 - tablesortcol：1
 
@@ -92019,6 +92460,7 @@ While it is active:
 
 While active in midair:
 *Time is slowed down by 60%.
+*Increases damage by -%.
 *-% headshot and weakspot damage.
 *30% fall damage reduction.
 

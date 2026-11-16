@@ -36,6 +36,7 @@ The following are a list of drinks that *Kira* Miki will ask for throughout the 
 * Any bitter drink.
 ;December 29 (Day 17):
 * Anything sweet
+* Mulan Tea or Sunshine Cloud
 * Sparkle Star
 
  Early Design
@@ -553,6 +554,7 @@ December 21 (Day 11)
 
 December 30 (Day 18)
 
+* Something non-alcoholic
 * Piano Woman
 
 Gallery
@@ -1725,9 +1727,11 @@ The Augmented Eye is a digital news source owned by Donovan D. Dawson, which can
  Day 3:
 * [https://va11halla.fandom.com/wiki/Neo-San_Francisco_rocked_by_a_powerful_earthquake%2C_millions_saved Neo-San Francisco rocked by a powerful earthquake, millions saved]
 
+ If Donovan gets drunk:
 * kIRA mIKI CONFIRMED AS THE BEST POP STAR IN HISTORY!!
 *Interview: GLO-RI-A Light and her quest for a Tino Award.
 
+ If Donovan doesn't get drunk:
 * Quincy: One more civil death and we'll ban protests
 * Is Alice_Rabbit a group? The answer here
 

@@ -130,6 +130,7 @@ character
 3=
 Increases fishing power by 10
 3=
+Increases fishing power by 10
 Your bobber now glows
 3= + 5  ( @  )
 
@@ -293,8 +294,33 @@ Sold by Steampunker ()
 Can ascend quicker by holding , and emits light particles
 5% chance to find in a Hardmode Treasure Bag
 Developer item, usable by normal characters.
+5% chance to find in a Hardmode Treasure Bag
+Developer item, usable by normal characters.
+5% chance to find in a Hardmode Treasure Bag
+Developer item, usable by normal characters.
+5% chance to find in a Hardmode Treasure Bag
+Developer item, usable by normal characters.
+5% chance to find in a Hardmode Treasure Bag
+Developer item, usable by normal characters.
 gif=y
+5% chance to find in a Hardmode Treasure Bag
+Developer item, usable by normal characters.
+5% chance to find in a Hardmode Treasure Bag
+Developer item, usable by normal characters.
+5% chance to find in a Hardmode Treasure Bag
+Developer item, usable by normal characters.
+5% chance to find in a Hardmode Treasure Bag
+Developer item, usable by normal characters.
+5% chance to find in a Hardmode Treasure Bag
+Developer item, usable by normal characters.
+5% chance to find in a Hardmode Treasure Bag
 Particle effect emits white light, glows in the dark. The color emitted from the wings is the same color as the player's shirt color.
+5% chance to find in a Hardmode Treasure Bag
+5% chance to find in a Hardmode Treasure Bag
+5% chance to find in a Hardmode Treasure Bag
+5% chance to find in a Hardmode Treasure Bag
+5% chance to find in a Hardmode Treasure Bag
+Emits light particles in use
 Emits light particles in use, translucent
 Translucent
 Completely silent
@@ -304,6 +330,7 @@ ref = movement2
 Dropped by Mothron during Solar Eclipse
 Emits yellow light and glows in the dark.
 Dropped by Everscream
+Sold by Steampunker ()
 Dropped by Betsy
 Hover speed boosted +300%, longer hovering duration, and faster acceleration. 50% extra max ascent speed, faster acceleration.
 Dropped by Empress of Light
@@ -338,6 +365,7 @@ icon =
 icon =
 icon =
 icon =
+Crafted at a Tinkerer's Workshop
 Crafted at a Tinkerer's Workshop
 
 Notes
@@ -404,15 +432,22 @@ Pre-Hardmode
 Visible on
 Character
 Randomly sold by Traveling Merchant for
+Randomly sold by Traveling Merchant for
+Randomly sold by Traveling Merchant for
+Randomly sold by Traveling Merchant for
+Randomly sold by Traveling Merchant for
+Randomly sold by Traveling Merchant for
 Found in Iron Crates obtained from fishing
 ref=vanity1
 Rarely obtained from any Treasure Bag dropped by a Hardmode boss in Expert Mode
 hardmodeonly=y
 ref=vanity1
+Rarely obtained from any Treasure Bag dropped by a Hardmode boss in Expert Mode
 hardmodeonly=y
 gif=y
 Sold by the Clothier during a Party for
 gif =y
+Sold by the Clothier during a Party for
 gif = y
 Obsidian Crates or Hellstone Crates
 Sold by the Zoologist when part of the Bestiary is complete for
@@ -424,6 +459,7 @@ Sold by the Traveling Merchant for
 Sold by the Clothier for  when having a golf score of 2000, or from Traveling Merchant for
 Sold by the Princess for
 hardmodeonly=y
+Sold by the Princess for
 hardmodeonly=y
 Dropped by Empress of Light with a  chance
 hardmodeonly=y
@@ -844,6 +880,7 @@ character
 Increases jump duration to 20 and jump speed to 6.51
 
 gifequipped = y
+Increases jump duration to 20 and jump speed to 6.51
 Fishing in any biome
 gifequipped = y
 Grants the ability to perform a blizzard-type extra jump midair
@@ -852,15 +889,19 @@ gifequipped = y
 Grants the ability to perform a cloud-type extra jump midair
 
 gifequipped = y
+Grants the ability to perform a blizzard-type extra jump midair
 
 gifequipped = y
+Grants the ability to perform a cloud-type extra jump midair
 
 gifequipped = y
 Grants the ability to perform a fart-type extra jump midair
 
 gifequipped = y
+Grants the ability to perform a fart-type extra jump midair
 
 gifequipped = y
+Increases jump duration to 20 and jump speed to 6.51
 
 gifequipped = y
 Grants the ability to perform a tsunami-type extra jump midair
@@ -869,12 +910,16 @@ gifequipped = y
 Grants the ability to perform a sandstorm-type extra jump midair
 
 gifequipped = y
+Grants the ability to perform a tsunami-type extra jump midair
 
 gifequipped = y
+Increases jump duration to 20 and jump speed to 6.51
 
 gifequipped = y
+Grants the ability to perform a blizzard-type extra jump midair
 
 gifequipped = y
+Grants the ability to perform a sandstorm-type extra jump midair
 
 gifequipped = y
 
@@ -1192,6 +1237,7 @@ Crafted at a Tinkerer's Workshop with Frostspark Boots and Lava Waders
 Combines the effects of Frostspark Boots and Lava Waders:
 
 Other boots
+colspan="2" | Accessory !! Source !! Effects
 
 Purchased from the Goblin Tinkerer
 Allows limited flight
@@ -1606,11 +1652,14 @@ col:time = 1.67
 col:height = 53
 col:xspeed = 32
 col:yspeed = 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
+col:source = alignleft
 col:time = 1.67
 col:height = 53
 col:xspeed = 32
 col:yspeed = 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
 col:source = alignleft  Sold by Witch Doctor
 col:time = 1.67
@@ -1620,16 +1669,21 @@ col:height = 53
 col:xspeed = 32
 34
 col:yspeed = 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
+col:source = alignleft
 col:time = 1.67
 col:height = 53
 col:xspeed = 32
 col:yspeed = 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
+col:source = alignleft
 col:time = 2.17
 col:height = 67
 col:xspeed = 34
 col:yspeed = 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
 col:source = alignleft  Quest reward from Angler
 col:time = 2.17
@@ -1639,7 +1693,9 @@ col:height = 67
 col:xspeed = 34
 15
 col:yspeed = 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
+col:source = alignleft
 col:time = 2.17
 2.67
 col:height = 67
@@ -1647,7 +1703,9 @@ col:height = 67
 col:xspeed = 34
 38
 col:yspeed = 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
+col:source = alignleft
 col:time = 2.17
 2.33
 col:height = 67
@@ -1655,6 +1713,7 @@ col:height = 67
 col:xspeed = 34
 36
 col:yspeed = 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
 col:source = alignleft  Sold by Steampunker
 col:time = 2.5
@@ -1663,87 +1722,121 @@ col:height = 77
 60
 col:xspeed = 33
 col:yspeed = 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
+col:source = alignleft
 col:time = 2.5
 col:height = 77
 col:xspeed = 36
 col:yspeed = 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
+col:source = alignleft
 col:time = 2.5
 col:height = 77
 col:xspeed = 36
 col:yspeed = 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
+col:source = alignleft
 col:time = 2.5
 col:height = 77
 col:xspeed = 36
 col:yspeed = 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
+col:source = alignleft
 col:time = 2.5
 col:height = 77
 col:xspeed = 36
 col:yspeed = 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
+col:source = alignleft
 col:time = 2.5
 col:height = 77
 col:xspeed = 36
 col:yspeed = 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
+col:source = alignleft
 col:time = 2.5
 col:height = 77
 col:xspeed = 36
 col:yspeed = 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
+col:source = alignleft
 col:time = 2.5
 col:height = 77
 col:xspeed = 36
 col:yspeed = 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
+col:source = alignleft
 col:time = 2.5
 col:height = 77
 col:xspeed = 36
 col:yspeed = 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
+col:source = alignleft
 col:time = 2.5
 col:height = 77
 col:xspeed = 36
 col:yspeed = 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
+col:source = alignleft
 col:time = 2.5
 col:height = 77
 col:xspeed = 36
 col:yspeed = 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
+col:source = alignleft
 col:time = 2.5
 col:height = 77
 col:xspeed = 36
 col:yspeed = 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
+col:source = alignleft
 col:time = 2.5
 col:height = 77
 col:xspeed = 36
 col:yspeed = 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
+col:source = alignleft
 col:time = 2.5
 col:height = 77
 col:xspeed = 36
 col:yspeed = 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
+col:source = alignleft
 col:time = 2.5
 col:height = 77
 col:xspeed = 36
 col:yspeed = 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
+col:source = alignleft
 col:time = 2.5
 col:height = 77
 col:xspeed = 36
 col:yspeed = 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
+col:source = alignleft
 col:time = 2.5
 col:height = 77
 col:xspeed = 36
 col:yspeed = 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
+col:source = alignleft
 col:time = 2.67
 2.33
 col:height = 81
@@ -1751,7 +1844,9 @@ col:height = 81
 col:xspeed = 38
 15
 col:yspeed = 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
+col:source = alignleft
 col:time = 2.67
 2.17
 col:height = 81
@@ -1759,7 +1854,9 @@ col:height = 81
 col:xspeed = 38
 34
 col:yspeed = 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
+col:source = alignleft
 col:time = 2.67
 2.17
 col:height = 81
@@ -1767,17 +1864,23 @@ col:height = 81
 col:xspeed = 38
 34
 col:yspeed = 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
+col:source = alignleft
 col:time = 2.67
 col:height = 81
 col:xspeed = 38
 col:yspeed = 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
+col:source = alignleft
 col:time = 2.67
 col:height = 81
 col:xspeed = 38
 col:yspeed = 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
+col:source = alignleft
 col:time = 2.83
 col:height = 94
 86
@@ -1785,7 +1888,9 @@ col:xspeed = 33
 32
 col:yspeed = 166%
 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
+col:source = alignleft
 col:time = 2.83
 2.33
 col:height = 94
@@ -1794,6 +1899,7 @@ col:xspeed = 38
 36
 col:yspeed = 166%
 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
 col:source = alignleft  Dropped by Mothron
 col:time = 2.83
@@ -1804,7 +1910,9 @@ col:xspeed = 38
 15
 col:yspeed = 166%
 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
+col:source = alignleft
 col:time = 2.83
 2.67
 col:height = 94
@@ -1812,7 +1920,9 @@ col:height = 94
 col:xspeed = 38
 col:yspeed = 166%
 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
+col:source = alignleft
 col:time = 2.83
 2.67
 col:height = 94
@@ -1820,6 +1930,7 @@ col:height = 94
 col:xspeed = 38
 col:yspeed = 166%
 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
 col:source = alignleft  Dropped by Everscream
 col:time = 3
@@ -1829,21 +1940,27 @@ col:height = 107
 col:xspeed = 38
 col:yspeed = 180%
 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
+col:source = alignleft
 col:time = 3
 col:height = 107
 91
 col:xspeed = 38
 col:yspeed = 180%
 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
+col:source = alignleft
 col:time = 3
 col:height = 107
 91
 col:xspeed = 38
 col:yspeed = 180%
 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
+col:source = alignleft  Sold by Steampunker
 col:time = 3
 col:height = 107
 91
@@ -1851,6 +1968,7 @@ col:xspeed = 38
 40
 col:yspeed = 180%
 150%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
 col:source = alignleft  Dropped by Betsy
 col:time = 2.5
@@ -1858,12 +1976,14 @@ col:height = 119
 col:xspeed = 36
 31
 col:yspeed = 250%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
 col:source = alignleft  Dropped by Empress of Light
 col:time = 2.5
 col:height = 128
 col:xspeed = 41
 col:yspeed = 275%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
 col:source = alignleft  Dropped by Duke Fishron
 col:time = 3
@@ -1871,7 +1991,9 @@ col:height = 143
 91
 col:xspeed = 41
 col:yspeed = 250%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
+col:source = alignleft
 col:time = 3
 2.67
 col:height = 143
@@ -1879,7 +2001,9 @@ col:height = 143
 col:xspeed = 33
 col:yspeed = 245%
 200%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
+col:source = alignleft
 col:time = 3
 2.67
 col:height = 143
@@ -1887,22 +2011,28 @@ col:height = 143
 col:xspeed = 33
 col:yspeed = 245%
 200%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
+col:source = alignleft
 col:time = 3
 col:height = 167
 col:xspeed = 46
 col:yspeed = 300%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
+col:source = alignleft
 col:time = 3
 col:height = 167
 col:xspeed = 46
 col:yspeed = 300%
+col:notes = style"font-size: 85%; text-align: left;"
 cate =
 col:source = alignleft  Dropped by Moon Lord in Expert Mode
 col:time = 3
 col:height = 201
 col:xspeed = 41
 col:yspeed = 450%
+col:notes = style"font-size: 85%; text-align: left;"
 
 (Created by u/zacyquack on r/terraria).]]
 colspan=2 | Stacked accessories !! Boost
@@ -5197,8 +5327,10 @@ Can be crafted pre-Hardmode.
 Deals  more direct damage.
 Inflicts Cursed Inferno debuff, dealing extra damage over time.
 :
+Deals  more direct damage.
 Inflicts Ichor debuff, reducing the target's defense.
 :
+Deals  more direct damage.
 Afterimages are far easier to control.
 
 History
@@ -5699,36 +5831,48 @@ col:source = Purchased from Cyborg ()
 col:radius = Small
 col:tile =
 col:availability = Blood Moon
+col:source = Purchased from Cyborg ()
 col:radius = Small
 col:tile =
 col:availability = Night or
 Solar Eclipse
+col:source = Purchased from Cyborg ()
 col:radius = Large
 col:tile =
 col:availability = Solar Eclipse
+col:source = Purchased from Cyborg ()
 col:radius = Large
 col:tile =
 col:availability = Post-Martian Madness
+col:source = Purchased from Cyborg ()
 col:radius = Spread
 col:tile =
 col:availability = Post-Martian Madness,
 During Blood Moon or Solar Eclipse
+col:source = Purchased from Cyborg ()
 col:radius = Spread
 col:tile =
+col:availability = Always
+col:source = Purchased from Cyborg ()
 col:radius = Tiny
 col:tile =
+col:availability = Always
 col:source =
 col:radius = Tiny
 col:tile =
+col:availability = Always
 col:source =
 col:radius = Tiny
 col:tile =
+col:availability = Always
 col:source =
 col:radius = Tiny
 col:tile =
+col:availability = Always
 col:source =
 col:radius = Huge
 col:tile =
+col:availability = Always
 col:source =
 col:radius = Huge
 col:tile =
@@ -5972,9 +6116,11 @@ is spoken to anywhere other than The Hallow after Moon Lord has been defeated
 Spreads Desert, converting snow/dirt to sand and stone/ice to sandstone
 
 When the Steampunker
+is spoken to anywhere other than The Hallow after Moon Lord has been defeated
 Spreads Snow, converting dirt/sand to snow and stone/sandstone to ice
 
 When the Steampunker
+is spoken to anywhere other than The Hallow after Moon Lord has been defeated
 Spreads Forest, converting snow/sand to dirt and sandstone/ice to stone
 
 When the Steampunker
@@ -5988,6 +6134,7 @@ Spreads Corruption
 From the Truffle, any time
 Converts Jungle to Glowing Mushroom biome
 
+During a Blood Moon or Solar Eclipse,
 in a Crimson world
 Spreads Crimson
 
@@ -6031,6 +6178,7 @@ itemlist
 itemlist
 
 Yellow solution
+Converted tiles !! Original tiles
 
 itemlist
 
@@ -6039,6 +6187,8 @@ itemlist
 itemlist
 
 itemlist
+
+Converted walls !! Original walls
 
 itemlist
 
@@ -6070,9 +6220,11 @@ is spoken to anywhere other than The Hallow after Moon Lord has been defeated
 Spreads Desert, converting snow/dirt to sand and stone/ice to sandstone
 
 When the Steampunker
+is spoken to anywhere other than The Hallow after Moon Lord has been defeated
 Spreads Snow, converting dirt/sand to snow and stone/sandstone to ice
 
 When the Steampunker
+is spoken to anywhere other than The Hallow after Moon Lord has been defeated
 Spreads Forest, converting snow/sand to dirt and sandstone/ice to stone
 
 When the Steampunker
@@ -6086,6 +6238,7 @@ Spreads Corruption
 From the Truffle, any time
 Converts Jungle to Glowing Mushroom biome
 
+During a Blood Moon or Solar Eclipse,
 in a Crimson world
 Spreads Crimson
 
@@ -6129,6 +6282,7 @@ itemlist
 itemlist
 
 Yellow solution
+Converted tiles !! Original tiles
 
 itemlist
 
@@ -6137,6 +6291,8 @@ itemlist
 itemlist
 
 itemlist
+
+Converted walls !! Original walls
 
 itemlist
 
@@ -6384,48 +6540,62 @@ style="font-size:95%;" data-sort-type=number | Total
 
 style="text-align:center" | 02
 style="text-align:center" | 03
+style="text-align:center" | 02
 style="text-align:center" | 08
 class="small" |
 colspan="2" class="small" |
 
 style="text-align:center" | 05
+style="text-align:center" | 08
 style="text-align:center" | 07
 style="text-align:center" | 20
 class="small" |
+colspan="2" class="small" |
 
 style="text-align:center" | 2-
+style="text-align:center" | 08
 style="text-align:center" | 8
 7
 style="text-align:center" | 17-
 class="small" |
+colspan="2" class="small" |
 
 style="text-align:center" | 3-
 style="text-align:center" | 010
+style="text-align:center" | 08
 style="text-align:center" | 21-
 class="small" |
+colspan="2" class="small" |
 
+style="text-align:center" | 3-
 style="text-align:center" | 12
 style="text-align:center" | 09
 style="text-align:center" | 24-
 class="small" |
+colspan="2" class="small" |
 
 style="text-align:center" | 4-
 style="text-align:center" | 013
+style="text-align:center" | 010
 style="text-align:center" | 27-
 class="small" |
+colspan="2" class="small" |
 
 style="text-align:center" | 04-
 style="text-align:center" | 016
 style="text-align:center" | 012
 style="text-align:center" | 28-
 class="small" |
+colspan="2" class="small" |
 
 style="text-align:center" |
 style="text-align:center" | 015
 style="text-align:center" | 011
 style="text-align:center" | 30-
 class="small" |
+colspan="2" class="small" |
 
+style="text-align:center" | 12
 style="text-align:center" | 14
 style="text-align:center" | 10
 style="text-align:center" | 36
@@ -6433,60 +6603,103 @@ class="small" |
 colspan="2" style="text-align:center" |
 class="topline"
 
+style="text-align:center" | 010
 style="text-align:center" | 020
+style="text-align:center" | 013
 style="text-align:center" | 043
 class="small" |
+colspan="2" class="small" |
 
 style="text-align:center" | 06
+style="text-align:center" | 012
+style="text-align:center" | 08
 style="text-align:center" | 026
 class="small" |
+colspan="2" class="small" |
 
+style="text-align:center" | 013
 style="text-align:center" | 027
 style="text-align:center" | 018
 style="text-align:center" | 056
 class="small" |
+colspan="2" style="text-align:center" |
 
+style="text-align:center" | 08
 style="text-align:center" | 022
+style="text-align:center" | 016
 style="text-align:center" | 046
 class="small" |
+colspan="2" style="text-align:center" |
 
+style="text-align:center" | 07
 style="text-align:center" | 017
+style="text-align:center" | 012
 style="text-align:center" | 036
 class="small" |
+colspan="2" style="text-align:center" |
 
+style="text-align:center" | 07
+style="text-align:center" | 015
+style="text-align:center" | 010
 style="text-align:center" | 032
 class="small" |
+colspan="2" style="text-align:center" |
 
+style="text-align:center" |
+style="text-align:center" | 015
+style="text-align:center" | 011
+style="text-align:center" | 27-
 class="small" |
+colspan="2" class="small" |
 
+style="text-align:center" |
+style="text-align:center" | 015
+style="text-align:center" | 011
 style="text-align:center" | 31-
 class="small" |
+colspan="2" class="small" |
 
 style="text-align:center" nowrap | 07-
 style="text-align:center" | 18
 style="text-align:center" | 13
 style="text-align:center" nowrap | 38-
 class="small" |
+colspan="2" class="small" |
 
 style="text-align:center" | 21
 style="text-align:center" | 27
 style="text-align:center" | 17
 style="text-align:center" | 65
 class="small" |
+colspan="2" class="small" |
 
+style="text-align:center" | 06
+style="text-align:center" | 017
+style="text-align:center" | 012
 style="text-align:center" | 035
 class="small" |
+colspan="2" style="text-align:center" |
 
 style="text-align:center" | 23
+style="text-align:center" |
+style="text-align:center" | 18
+style="text-align:center" |
 class="small" |
+colspan="2" class="small" |
 
 style="text-align:center" | 11
 style="text-align:center" | 24
 style="text-align:center" | 16
 style="text-align:center" | 51
 class="small" |
+colspan="2" class="small" |
 
+style="text-align:center" |
+style="text-align:center" | 14
+style="text-align:center" | 10
+style="text-align:center" |
 class="small" |
+colspan="2" class="small" |
 
 style="text-align:center" | 9
 8
@@ -6497,51 +6710,87 @@ style="text-align:center" nowrap | 10
 style="text-align:center" | 30
 27
 class="small" |
+colspan="2" class="small" |
 
 style="text-align:center" | 31
+style="text-align:center" | 20
+style="text-align:center" | 14
+style="text-align:center" | 65
 class="small" |
 class="small" |
 class="small" |
 
+style="text-align:center" | 14
+style="text-align:center" | 18
+style="text-align:center" | 13
 style="text-align:center" | 45
 class="small" |
 class="small" |
 class="small" |
 
+style="text-align:center" | 10
+style="text-align:center" | 15
 style="text-align:center" | 15
 style="text-align:center" | 40
 class="small" |
 class="small" |
 class="small" |
 
+style="text-align:center" | 020
+style="text-align:center" | 024
 style="text-align:center" | 024
 style="text-align:center" | 068
 class="small" |
+colspan="2" style="text-align:center" |
 
+style="text-align:center" | 010
+style="text-align:center" | 026
+style="text-align:center" | 018
 style="text-align:center" | 054
 class="small" |
+colspan="2" style="text-align:center" |
 
+style="text-align:center" | 08
+style="text-align:center" | 024
+style="text-align:center" | 016
 style="text-align:center" | 048
 class="small" |
+colspan="2" style="text-align:center" |
 
+style="text-align:center" | 07
 style="text-align:center" | 021
 style="text-align:center" | 014
 style="text-align:center" | 042
 class="small" |
+colspan="2" style="text-align:center" |
 
+style="text-align:center" | 24
 style="text-align:center" | 34
+style="text-align:center" | 20
 style="text-align:center" | 78
 class="small" |
+colspan="2" class="small" |
 
+style="text-align:center" | 14
 style="text-align:center" | 28
+style="text-align:center" | 20
 style="text-align:center" | 62
 class="small" |
+colspan="2" class="small" |
 
+style="text-align:center" | 14
+style="text-align:center" | 18
+style="text-align:center" | 14
 style="text-align:center" | 46
 class="small" |
+colspan="2" class="small" |
 
+style="text-align:center" | 10
+style="text-align:center" | 16
+style="text-align:center" | 12
 style="text-align:center" | 38
 class="small" |
+colspan="2" class="small" |
 
 Wizard set
 Though not a traditional armor set, these hats and robes confer a set bonus when worn together.
@@ -6557,55 +6806,115 @@ class="unsortable" | Cost / Source
 style="text-align:center" | Head
 style="text-align:center" | 2
 +60 mana capacity
+style="text-align:center" |
 
+style="text-align:center" | Head
 style="text-align:center" | 4
 2
 +10% magic critical strike chance
+style="text-align:center" |
 
+class="unsortable" |Appearance
 Item
 Body Slot
 Defense
+class="unsortable" | Bonuses
+class="unsortable" | Cost / Source
 
 style="text-align:center" | Chest
 style="text-align:center" | 0
 class="small" |
 
+style="text-align:center" | Chest
 style="text-align:center" | 1
 class="small" |
 
+style="text-align:center" | Chest
+style="text-align:center" | 1
+colspan="2" class="small" |
+
+style="text-align:center" | Chest
+style="text-align:center" | 2
 class="small" |
 
+style="text-align:center" | Chest
+style="text-align:center" | 2
 class="small" |
 
+style="text-align:center" | Chest
 style="text-align:center" | 3
 class="small" |
 
+style="text-align:center" | Chest
+style="text-align:center" | 3
 class="small" |
+
+style="text-align:center" | Chest
+style="text-align:center" | 2
+style="text-align:center" |
 
 Miscellaneous armor
 A few pieces of armor aren't part of any particular set.
 
+class="unsortable" |Appearance
 Item
 Body Slot
 Defense
+class="unsortable" | Bonuses
+class="unsortable" | Cost / Source
 
+style="text-align:center" | Head
+style="text-align:center" | 1
 Normally used for carrying liquids instead.
+colspan="2" class="small" |
 
+style="text-align:center" | Head
+style="text-align:center" | 1
+colspan="2" class="small" |
+
+style="text-align:center" | Head
+style="text-align:center" | 2
 Greatly extends underwater breathing time
+style="text-align:center" |
 Night Vision Helmet
+style="text-align:center" | Head
+style="text-align:center" | 4
 Provides an effect similar to the Night Owl Potion
+style="text-align:center" |
 
+style="text-align:center" | Head
+style="text-align:center" | 4
+style="text-align:center" |
+
+style="text-align:center" | Head
+style="text-align:center" | 4
 Provides a light with an intensity similar to the Ultrabright Torch
+colspan="2" class="small" |
 
+style="text-align:center" | Chest
+style="text-align:center" | 1
 +1 minion capacity, +5% minion damage
+colspan="2" class="small" |
 
+style="text-align:center" | Chest
+style="text-align:center" | 4
 +5% damage, +5% critical strike chance
 +10% melee speed, +10% movement speed
+style="text-align:center" |
 
 style="text-align:center" | Feet
+style="text-align:center" | 3
 Creates grass on dirt. Able to perform several "bunny hops".
+style="text-align:center" |
 
+style="text-align:center" | Feet
+style="text-align:center" | 3
 Provides 25% movement speed and four blocks extra jump height.
+style="text-align:center" |
+
+style="text-align:center" | Head
+style="text-align:center" | 2
+style="text-align:center" |
 
 Achievements
 Notes
@@ -6960,6 +7269,7 @@ With
 +11% melee damage
 +6% melee speed
 +6% movement speed
+Significantly higher chance that enemies will target the wearer
 Beetle Endurance defensive buff: When the player avoids taking damage, this buff reduces damage taken on the next hit by 15%, with further boosts to 30% and 45% if the player continues to avoid damage for a longer duration. The buff gets first applied after 3 seconds from taking damage, and will then increase after another 3 seconds. When the player takes damage thereafter, each hit lowers the boost applied to the next hit by one step. This buff features a visual effect showing one to three "beetles" flying around the player, signifying the 15%, 30%, or 45% damage reduction boost currently in effect.
 
 Crafting the full set with one chest piece requires 18 Beetle Husks and a full set of Turtle armor (54 Chlorophyte Bars (or 324 pieces of Chlorophyte Ore), and 3 Turtle Shells). Crafting all four pieces from scratch requires 26 Beetle Husks, 78 Chlorophyte Bars (or 468 pieces of Chlorophyte Ore), and 4 Turtle Shells.
@@ -7479,6 +7789,7 @@ The total bonuses of the Forbidden armor are composed of the following on the :
 +40 maximum mana, 10% minion damage, and +1 minion capacity from the Forbidden Robes.
 +40 maximum mana, 10% magic damage, and +1 minion capacity from the Forbidden Treads.
 The total bonuses are composed of the following on the :
+15% magic and minion damage each from the Forbidden Mask.
 +80 maximum mana from the Forbidden Robes.
 +2 minion capacity from the Forbidden Treads.
 The sand tornado can be summoned even when afflicted with the Stoned debuff.
@@ -9341,6 +9652,7 @@ q?where= itemid in (2275, 238)
 q?limit=1000
 template=:Wizard set/row0
 q?tables=Items
+q?fields= _pageName=page, itemid, name, bodyslot, defense, buy, sell, rare, internalname
 q?groupBy=itemid
 q?orderBy=rare
 q?where= itemid in (2279, 1282, 1283, 1284, 1285, 1286, 1287, 4256)
@@ -9661,9 +9973,27 @@ Notes
 
 Copper or Tin Pickaxe
 
+Copper or Tin Pickaxe
+
+Copper or Tin Pickaxe
+
+Copper or Tin Pickaxe
+
+Copper or Tin Pickaxe
+
+Copper or Tin Pickaxe
+
+Copper or Tin Pickaxe
+
+Copper or Tin Pickaxe
+
 Tungsten Pickaxe
 /
 Inflicts Burning on unprotected players. After defeating the Wall of Flesh, Meteorite will no longer be immune to explosives.
+
+Gold or Platinum Pickaxe
+
+Can be mined with any pickaxe above ground level
 
 Gold or Platinum Pickaxe
 
@@ -9673,16 +10003,25 @@ Nightmare or Deathbringer Pickaxe
 
 Obsidian is created when Water comes into contact with Lava. Unlike other ores it is only found where this has happened, forming a barrier between the two liquids.
 
+Nightmare or Deathbringer Pickaxe
 /
 Spawns lava when mined and inflicts Burning on unprotected players. After defeating the Wall of Flesh, Hellstone will no longer be immune to explosives.
 
 Molten Pickaxe or Reaver Shark
 
+Molten Pickaxe or Reaver Shark
+
+Cobalt or Palladium Pickaxe
+
 Cobalt or Palladium Pickaxe
 
 Mythril or Orichalcum Pickaxe
 
+Mythril or Orichalcum Pickaxe
+
 Drax or Pickaxe Axe
+
+Copper or Tin Pickaxe
 
 Included here for completion, Luminite is dropped by the Moon Lord instead of being found underground.
 
@@ -9766,7 +10105,11 @@ All Dynasty items are only sold at the same time as other Dynasty items.
 
 Traveling Merchant
 
+All Dynasty items are only sold at the same time as other Dynasty items.
+
 Traveling Merchant
+
+All Dynasty items are only sold at the same time as other Dynasty items.
 
 Traveling Merchant
 
@@ -9774,13 +10117,23 @@ All Team blocks are only sold at the same time as the Team Platform from the sam
 
 Traveling Merchant
 
-Traveling Merchant
+All Team blocks are only sold at the same time as the Team Platform from the same color.
 
 Traveling Merchant
 
-Traveling Merchant
+All Team blocks are only sold at the same time as the Team Platform from the same color.
 
 Traveling Merchant
+
+All Team blocks are only sold at the same time as the Team Platform from the same color.
+
+Traveling Merchant
+
+All Team blocks are only sold at the same time as the Team Platform from the same color.
+
+Traveling Merchant
+
+All Team blocks are only sold at the same time as the Team Platform from the same color.
 
 Steampunker
 
@@ -11711,17 +12064,33 @@ tags = plunder
 col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
+col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
+col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
+col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
+col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
+col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
+col:notes = Found in the Dungeon.
 (Noncraftable on )
+tags = buy/vendor:Traveling Merchant
+col:notes = Sold by the Traveling Merchant.
+tags = buy/vendor:Traveling Merchant
+col:notes = Sold by the Traveling Merchant.
+tags = buy/vendor:Traveling Merchant
+col:notes = Sold by the Traveling Merchant.
+tags = buy/vendor:Traveling Merchant
+col:notes = Sold by the Traveling Merchant.
+tags = buy/vendor:Traveling Merchant
+col:notes = Sold by the Traveling Merchant.
 tags = buy/vendor:Traveling Merchant
 col:notes = Sold by the Traveling Merchant.
 tags = drop
@@ -13170,10 +13539,12 @@ Demonite Ore|2–5|50%
 Shadow Scale||50%
 auto = 14
 type = Boss Part
+environment = The Corruption
 Demonite Ore|2–5|50%
 Shadow Scale||50%
 auto = 15
 type = Boss Part
+environment = The Corruption
 Demonite Ore|2–5|50%
 Shadow Scale||50%
 
@@ -14514,10 +14885,16 @@ environment = Surface+Night
 environment2 = Space+Night
 auto = 135
 type = Boss Part
+type2 = Burrowing Enemy
+environment = Surface+Night
+environment2 = Space+Night
 damage2 =  
  
 auto = 136
 type = Boss Part
+type2 = Burrowing Enemy
+environment = Surface+Night
+environment2 = Space+Night
 }
 show-boss = yes
 
@@ -17123,9 +17500,13 @@ desc = Parody of , a well-known 1929 painting of a pipe with a caption that stat
 
 From Painter
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Buy
 Sell
+class="unsortable" | Tooltip
 class="unsortable" | Available
+class="unsortable" | Description
 available = When Painter is in a Snow biome
 desc = Snow Biome landscape.
 available = Always
@@ -17161,8 +17542,12 @@ desc = A bolt of lightning.
 
 From Painter in a
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Buy
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = Reference to "", a poem by , which prominently features the phrase "nevermore".
 desc = A hand rising from the ground.
 desc = Graveyard landscape.
@@ -17174,8 +17559,12 @@ desc = A typical  painting of a bowl of fruit beside a skull.
 
 From
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Buy
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = A castle in a field. It is a reference to Peach's Castle as it appears in . It may also be a reference to several other games in the Mario franchise.
 desc = A painting of the Princess.
 desc = A rainbow shining from a unicorn's horn. References a popular diagram of white light splitting into a rainbow after passing through a prism, while the name references the  album .
@@ -17186,20 +17575,30 @@ desc = An intimate painting of two royal Slimes.
 
 From Clothier
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Buy
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = A Terraria-themed landscape painting.
 
 From Traveling Merchant
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Buy
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = A Red Bulb hanging from a tree. A reference to .
 desc = Parody of the Wolfenstein 3D title screen featuring the player wearing Meteor armor and wielding a Space Gun, with a Martian in the back. The name of the painting itself might be a reference to another Wolfenstein game - .
 desc = Portrait of the Ice Queen attacking.
 desc = Portrait of Skeletron dressed as Santa Claus.
 desc = Parody of the  featuring a Martian.
 desc = Portrait of Moon Lord. The name is a reference to the  commercial.
+desc = Portrait of  from Don't Starve Together.
+desc = Portrait of  from Don't Starve Together.
 desc = Portrait of  from Don't Starve Together.
 desc =  Portrait of  from Don't Starve Together.
 desc = Snowy landscape with a Present, Christmas Tree, and a Candy Cane.
@@ -17217,21 +17616,33 @@ desc = Painting of Yogscast's Pedguin and Boba, as the Parsec Pals.
 
 From Truffle
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Buy
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = A portrait of the Baby Truffle pet.
 
 From
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Buy
 Sell
+class="unsortable" | Tooltip
 class="unsortable" | Availability
+class="unsortable" | Description
 desc = A portrait of the Werewolf.
 available = Sold during a Full Moon at night ().
 
 Desert Underground Cabins
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = A play on Terraria lead developer Andrew Spinks' name, featuring a  wearing Andrew's signature green cap.
 desc = An Antlion. May be a reference to Dune.
 desc = A Desert Spirit in darkness.
@@ -17249,7 +17660,11 @@ desc = An interpretation of the , or "Eye of God," a version of which appears on
 
 Other Underground Cabins
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = Possible parody of .
 Portrait of the Demolitionist.
 desc = Depicts the Aurora Borealis.
@@ -17289,7 +17704,11 @@ desc = A group of wildflowers.
 
 Dungeon
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = Blood Moon. Also possibly a parody of Blue Moon Rising by Simon R. Green or the song "" by American rock band .
 desc = Various Bones.
 desc = Parody of  featuring the Guide.
@@ -17319,7 +17738,11 @@ featuring the Party Girl on a Unicorn in the Hallow.
 
 The Underworld
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = Reaper portrait.
 desc = The back of a  card.
 desc = A demon's eye.
@@ -17335,7 +17758,11 @@ desc = An unhappy ghost trapped in limbo.
 
 Goodie Bags
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = Green Slime wearing a witch hat among Pumpkins.
 desc = A vampire lady with red eyes and a cloak.
 desc = Portrait of the Mechanic's face.
@@ -17360,7 +17787,11 @@ desc = An ominous creature peering out from the depths of the sea.
 
 Floating Islands
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = Depiction of a flying Magical Harp.
 desc = Bunny constellation.
 desc = Reference to Banksy's Love is in the Bin.
@@ -17379,16 +17810,28 @@ description
 
 Blood Moon Fishing
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = A Dreadnautilus, two Blood Squids, and a Blood Moon.
 
 Hallow Fishing
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc =A girl handing the Meowmere to a guy on a boat. It is a reference to the Arthurian Legends of the
 Solar Eclipse Drops
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = Depiction of a Reaper.
 desc = The player using an eye-based beam attack.
 desc = Depiction of a Butcher. Title is a reference to .
@@ -17400,16 +17843,26 @@ desc = Depiction of a Frankenstein and a Swamp Thing.
 
 Dungeon Chests
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = The Lunatic Cultist and four Cultists.
 
 Jungle Temple
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = A king lizard.
 
 New Chinese version
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
 width="25%" class="unsortable" | Tooltip
 width="30%" class="unsortable" | Description
@@ -17462,9 +17915,12 @@ Medium Oil Painting of Douyu Niang
 3×3
 
 (Limited) Douyu Linked Oil Painting
+Douyu platform anthropomorphic image Shark Maiden.
 Betta Fish Oil Painting
 6×4
 
+(Limited) Douyu Linked Oil Painting
+Douyu platform anthropomorphic image Shark Maiden.
 Huya's Small Oil Painting
 2×3
 
@@ -17479,6 +17935,7 @@ Huya Platform Logo.
 Huya Oil Painting
 6×4
 
+(Limited) Huya linkage oil painting
 Huya platform logo and anthropomorphic image of Huya platform.
 Terrary Potatoes
 6×4
@@ -17490,10 +17947,12 @@ Rock Potato
 3×3
 
 A photo of Captain Shu enjoying the music when he formed the Little Red Book Orchestra.
+Xiaohongshu platform mascot "sweet potato".
 Potato Light
 3×3
 
 Praise the sun, let the sweet potatoes planted by Captain Potato have a bumper harvest.
+Xiaohongshu platform mascot "sweet potato".
 
 Gallery
 Notes
@@ -17727,17 +18186,33 @@ tags = plunder
 col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
+col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
+col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
+col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
+col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
+col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
+col:notes = Found in the Dungeon.
 (Noncraftable on )
+tags = buy/vendor:Traveling Merchant
+col:notes = Sold by the Traveling Merchant.
+tags = buy/vendor:Traveling Merchant
+col:notes = Sold by the Traveling Merchant.
+tags = buy/vendor:Traveling Merchant
+col:notes = Sold by the Traveling Merchant.
+tags = buy/vendor:Traveling Merchant
+col:notes = Sold by the Traveling Merchant.
+tags = buy/vendor:Traveling Merchant
+col:notes = Sold by the Traveling Merchant.
 tags = buy/vendor:Traveling Merchant
 col:notes = Sold by the Traveling Merchant.
 tags = drop
@@ -17831,6 +18306,9 @@ Recipes
 Noncraftable Bookcases
 colspan=2 | Bookcase !! Notes
 col:notes = Found in the Dungeon.
+col:notes = Found in the Dungeon.
+col:notes = Found in the Dungeon.
+col:notes = Found in the Dungeon.
 col:notes = Found in Ruined houses, does not break from lava.
 col:notes = Dropped by Pirates.
 }
@@ -17887,6 +18365,12 @@ colspan=2 | Chair !! Notes
 
 Furniture found in the Dungeon.
 
+Furniture found in the Dungeon.
+
+Furniture found in the Dungeon.
+
+Furniture found in the Dungeon.
+
 Found in Ruined Houses, does not break from lava.
 
 Dropped by Pirates. Sell for .
@@ -17917,6 +18401,9 @@ Crafting
 Recipes
 Noncraftable doors
 colspan=2 | Door !! Notes
+col:notes = Furniture found in the Dungeon.
+col:notes = Furniture found in the Dungeon.
+col:notes = Furniture found in the Dungeon.
 col:notes = Furniture found in the Dungeon.
 col:notes = Found in Ruined houses, does not disappear in lava.
 col:notes = Dropped by pirates. Sell for .
@@ -17966,6 +18453,9 @@ Lihzahrd Tables can also be looted from the Jungle Temple, Living Wood Tables fr
 Noncraftable Tables
 colspan=2 | Table !! Notes
 col:notes = Furniture found in the Dungeon.
+col:notes = Furniture found in the Dungeon.
+col:notes = Furniture found in the Dungeon.
+col:notes = Furniture found in the Dungeon.
 col:notes = Found in Ruined houses, does not break from lava.
 col:notes = Dropped by Pirates. Sell for .
 }
@@ -17998,6 +18488,9 @@ Crafting
 Recipes
 Noncraftable Work Benches
 colspan = 2 | Work Bench !! Notes
+col:notes = Furniture found in the Dungeon.
+col:notes = Furniture found in the Dungeon.
+col:notes = Furniture found in the Dungeon.
 col:notes = Furniture found in the Dungeon.
 col:notes = Furniture found in the Jungle Temple.
 col:notes = Furniture dropped during the Pirate Invasion.
@@ -19288,6 +19781,7 @@ damage2 =
 
 auto = 571
 image = Drakin 2.png
+environment = Old One's Army
 damage2 =
 
 }
@@ -19438,10 +19932,12 @@ damage2 =
 
 auto = 553
 image = Etherian Goblin 2.png
+environment = Old One's Army
 damage2 =
 
 auto = 554
 image = Etherian Goblin 3.png
+environment = Old One's Army
 damage2 =
 
 }
@@ -19470,10 +19966,12 @@ damage2 =
 
 auto = 556
 image = Etherian Goblin Bomber 2.png
+environment = Old One's Army
 damage2 =
 
 auto = 557
 image = Etherian Goblin Bomber 3.png
+environment = Old One's Army
 damage2 =
 
 }
@@ -19502,10 +20000,12 @@ damage2 =
 
 auto = 562
 image = Etherian Javelin Thrower 2.png
+environment = Old One's Army
 damage2 =
 
 auto = 563
 image = Etherian Javelin Thrower 3.png
+environment = Old One's Army
 damage2 =
 
 }
@@ -19536,10 +20036,12 @@ knockback =
 100%
 auto = 559
 image = Etherian Wyvern 2.png
+environment = Old One's Army
 knockback =
 100%
 auto = 560
 image = Etherian Wyvern 3.png
+environment = Old One's Army
 knockback =
 100%
 }
@@ -20166,6 +20668,7 @@ environment = Old One's Army
 damage2 =
 
 auto = 573
+environment = Old One's Army
 damage2 =
 
 }
@@ -20196,6 +20699,7 @@ knockback =
 knockback2 =
 100%
 auto = 575
+environment = Old One's Army
 damage2 =
 
 knockback =
@@ -20285,6 +20789,7 @@ KB Resist
 auto = 198
 environment = Jungle Temple
 auto = 199
+environment = Jungle Temple
 image = Lihzahrd (crawler).png
 life = /
 }
@@ -20755,6 +21260,7 @@ KB Resist
 auto = 566
 environment = Old One's Army
 auto = 567
+environment = Old One's Army
 }
 show-boss = yes
 
@@ -21119,30 +21625,39 @@ environment = Pumpkin Moon
 auto = 306
 image = Scarecrow 2.png
 type = Enemy
+environment = Pumpkin Moon
 auto = 307
 image = Scarecrow 3.png
 type = Enemy
+environment = Pumpkin Moon
 auto = 308
 image = Scarecrow 4.png
 type = Enemy
+environment = Pumpkin Moon
 auto = 309
 image = Scarecrow 5.png
 type = Enemy
+environment = Pumpkin Moon
 auto = 310
 image = Scarecrow.png
 type = Enemy
+environment = Pumpkin Moon
 auto = 311
 image = Scarecrow 7.png
 type = Enemy
+environment = Pumpkin Moon
 auto = 312
 image = Scarecrow 8.png
 type = Enemy
+environment = Pumpkin Moon
 auto = 313
 image = Scarecrow 9.png
 type = Enemy
+environment = Pumpkin Moon
 auto = 314
 image = Scarecrow 10.png
 type = Enemy
+environment = Pumpkin Moon
 }
 show-main=yes
 show-event=yes
@@ -21617,9 +22132,13 @@ desc = Parody of , a well-known 1929 painting of a pipe with a caption that stat
 
 From Painter
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Buy
 Sell
+class="unsortable" | Tooltip
 class="unsortable" | Available
+class="unsortable" | Description
 available = When Painter is in a Snow biome
 desc = Snow Biome landscape.
 available = Always
@@ -21655,8 +22174,12 @@ desc = A bolt of lightning.
 
 From Painter in a
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Buy
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = Reference to "", a poem by , which prominently features the phrase "nevermore".
 desc = A hand rising from the ground.
 desc = Graveyard landscape.
@@ -21668,8 +22191,12 @@ desc = A typical  painting of a bowl of fruit beside a skull.
 
 From
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Buy
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = A castle in a field. It is a reference to Peach's Castle as it appears in . It may also be a reference to several other games in the Mario franchise.
 desc = A painting of the Princess.
 desc = A rainbow shining from a unicorn's horn. References a popular diagram of white light splitting into a rainbow after passing through a prism, while the name references the  album .
@@ -21680,20 +22207,30 @@ desc = An intimate painting of two royal Slimes.
 
 From Clothier
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Buy
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = A Terraria-themed landscape painting.
 
 From Traveling Merchant
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Buy
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = A Red Bulb hanging from a tree. A reference to .
 desc = Parody of the Wolfenstein 3D title screen featuring the player wearing Meteor armor and wielding a Space Gun, with a Martian in the back. The name of the painting itself might be a reference to another Wolfenstein game - .
 desc = Portrait of the Ice Queen attacking.
 desc = Portrait of Skeletron dressed as Santa Claus.
 desc = Parody of the  featuring a Martian.
 desc = Portrait of Moon Lord. The name is a reference to the  commercial.
+desc = Portrait of  from Don't Starve Together.
+desc = Portrait of  from Don't Starve Together.
 desc = Portrait of  from Don't Starve Together.
 desc =  Portrait of  from Don't Starve Together.
 desc = Snowy landscape with a Present, Christmas Tree, and a Candy Cane.
@@ -21711,21 +22248,33 @@ desc = Painting of Yogscast's Pedguin and Boba, as the Parsec Pals.
 
 From Truffle
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Buy
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = A portrait of the Baby Truffle pet.
 
 From
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Buy
 Sell
+class="unsortable" | Tooltip
 class="unsortable" | Availability
+class="unsortable" | Description
 desc = A portrait of the Werewolf.
 available = Sold during a Full Moon at night ().
 
 Desert Underground Cabins
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = A play on Terraria lead developer Andrew Spinks' name, featuring a  wearing Andrew's signature green cap.
 desc = An Antlion. May be a reference to Dune.
 desc = A Desert Spirit in darkness.
@@ -21743,7 +22292,11 @@ desc = An interpretation of the , or "Eye of God," a version of which appears on
 
 Other Underground Cabins
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = Possible parody of .
 Portrait of the Demolitionist.
 desc = Depicts the Aurora Borealis.
@@ -21783,7 +22336,11 @@ desc = A group of wildflowers.
 
 Dungeon
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = Blood Moon. Also possibly a parody of Blue Moon Rising by Simon R. Green or the song "" by American rock band .
 desc = Various Bones.
 desc = Parody of  featuring the Guide.
@@ -21813,7 +22370,11 @@ featuring the Party Girl on a Unicorn in the Hallow.
 
 The Underworld
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = Reaper portrait.
 desc = The back of a  card.
 desc = A demon's eye.
@@ -21829,7 +22390,11 @@ desc = An unhappy ghost trapped in limbo.
 
 Goodie Bags
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = Green Slime wearing a witch hat among Pumpkins.
 desc = A vampire lady with red eyes and a cloak.
 desc = Portrait of the Mechanic's face.
@@ -21854,7 +22419,11 @@ desc = An ominous creature peering out from the depths of the sea.
 
 Floating Islands
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = Depiction of a flying Magical Harp.
 desc = Bunny constellation.
 desc = Reference to Banksy's Love is in the Bin.
@@ -21873,16 +22442,28 @@ description
 
 Blood Moon Fishing
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = A Dreadnautilus, two Blood Squids, and a Blood Moon.
 
 Hallow Fishing
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc =A girl handing the Meowmere to a guy on a boat. It is a reference to the Arthurian Legends of the
 Solar Eclipse Drops
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = Depiction of a Reaper.
 desc = The player using an eye-based beam attack.
 desc = Depiction of a Butcher. Title is a reference to .
@@ -21894,16 +22475,26 @@ desc = Depiction of a Frankenstein and a Swamp Thing.
 
 Dungeon Chests
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = The Lunatic Cultist and four Cultists.
 
 Jungle Temple
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = A king lizard.
 
 New Chinese version
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
 width="25%" class="unsortable" | Tooltip
 width="30%" class="unsortable" | Description
@@ -21956,9 +22547,12 @@ Medium Oil Painting of Douyu Niang
 3×3
 
 (Limited) Douyu Linked Oil Painting
+Douyu platform anthropomorphic image Shark Maiden.
 Betta Fish Oil Painting
 6×4
 
+(Limited) Douyu Linked Oil Painting
+Douyu platform anthropomorphic image Shark Maiden.
 Huya's Small Oil Painting
 2×3
 
@@ -21973,6 +22567,7 @@ Huya Platform Logo.
 Huya Oil Painting
 6×4
 
+(Limited) Huya linkage oil painting
 Huya platform logo and anthropomorphic image of Huya platform.
 Terrary Potatoes
 6×4
@@ -21984,10 +22579,12 @@ Rock Potato
 3×3
 
 A photo of Captain Shu enjoying the music when he formed the Little Red Book Orchestra.
+Xiaohongshu platform mascot "sweet potato".
 Potato Light
 3×3
 
 Praise the sun, let the sweet potatoes planted by Captain Potato have a bumper harvest.
+Xiaohongshu platform mascot "sweet potato".
 
 Gallery
 Notes
@@ -22087,6 +22684,9 @@ Recipes
 Noncraftable Bookcases
 colspan=2 | Bookcase !! Notes
 col:notes = Found in the Dungeon.
+col:notes = Found in the Dungeon.
+col:notes = Found in the Dungeon.
+col:notes = Found in the Dungeon.
 col:notes = Found in Ruined houses, does not break from lava.
 col:notes = Dropped by Pirates.
 }
@@ -22105,6 +22705,9 @@ Crafting
 Recipes
 Noncraftable Bookcases
 colspan=2 | Bookcase !! Notes
+col:notes = Found in the Dungeon.
+col:notes = Found in the Dungeon.
+col:notes = Found in the Dungeon.
 col:notes = Found in the Dungeon.
 col:notes = Found in Ruined houses, does not break from lava.
 col:notes = Dropped by Pirates.
@@ -22326,6 +22929,9 @@ Recipes
 Noncraftable Bookcases
 colspan=2 | Bookcase !! Notes
 col:notes = Found in the Dungeon.
+col:notes = Found in the Dungeon.
+col:notes = Found in the Dungeon.
+col:notes = Found in the Dungeon.
 col:notes = Found in Ruined houses, does not break from lava.
 col:notes = Dropped by Pirates.
 }
@@ -22349,6 +22955,12 @@ Crafting
 Recipes
 Noncraftable Chairs
 colspan=2 | Chair !! Notes
+
+Furniture found in the Dungeon.
+
+Furniture found in the Dungeon.
+
+Furniture found in the Dungeon.
 
 Furniture found in the Dungeon.
 
@@ -22382,6 +22994,9 @@ Crafting
 Recipes
 Noncraftable doors
 colspan=2 | Door !! Notes
+col:notes = Furniture found in the Dungeon.
+col:notes = Furniture found in the Dungeon.
+col:notes = Furniture found in the Dungeon.
 col:notes = Furniture found in the Dungeon.
 col:notes = Found in Ruined houses, does not disappear in lava.
 col:notes = Dropped by pirates. Sell for .
@@ -22456,17 +23071,33 @@ tags = plunder
 col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
+col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
+col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
+col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
+col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
+col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
+col:notes = Found in the Dungeon.
 (Noncraftable on )
+tags = buy/vendor:Traveling Merchant
+col:notes = Sold by the Traveling Merchant.
+tags = buy/vendor:Traveling Merchant
+col:notes = Sold by the Traveling Merchant.
+tags = buy/vendor:Traveling Merchant
+col:notes = Sold by the Traveling Merchant.
+tags = buy/vendor:Traveling Merchant
+col:notes = Sold by the Traveling Merchant.
+tags = buy/vendor:Traveling Merchant
+col:notes = Sold by the Traveling Merchant.
 tags = buy/vendor:Traveling Merchant
 col:notes = Sold by the Traveling Merchant.
 tags = drop
@@ -22492,6 +23123,9 @@ Lihzahrd Tables can also be looted from the Jungle Temple, Living Wood Tables fr
 Noncraftable Tables
 colspan=2 | Table !! Notes
 col:notes = Furniture found in the Dungeon.
+col:notes = Furniture found in the Dungeon.
+col:notes = Furniture found in the Dungeon.
+col:notes = Furniture found in the Dungeon.
 col:notes = Found in Ruined houses, does not break from lava.
 col:notes = Dropped by Pirates. Sell for .
 }
@@ -22511,6 +23145,9 @@ Crafting
 Recipes
 Noncraftable Work Benches
 colspan = 2 | Work Bench !! Notes
+col:notes = Furniture found in the Dungeon.
+col:notes = Furniture found in the Dungeon.
+col:notes = Furniture found in the Dungeon.
 col:notes = Furniture found in the Dungeon.
 col:notes = Furniture found in the Jungle Temple.
 col:notes = Furniture dropped during the Pirate Invasion.
@@ -22710,17 +23347,33 @@ tags = plunder
 col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
+col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
+col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
+col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
+col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
+col:notes = Found in the Dungeon.
 (Noncraftable on )
 tags = plunder
+col:notes = Found in the Dungeon.
 (Noncraftable on )
+tags = buy/vendor:Traveling Merchant
+col:notes = Sold by the Traveling Merchant.
+tags = buy/vendor:Traveling Merchant
+col:notes = Sold by the Traveling Merchant.
+tags = buy/vendor:Traveling Merchant
+col:notes = Sold by the Traveling Merchant.
+tags = buy/vendor:Traveling Merchant
+col:notes = Sold by the Traveling Merchant.
+tags = buy/vendor:Traveling Merchant
+col:notes = Sold by the Traveling Merchant.
 tags = buy/vendor:Traveling Merchant
 col:notes = Sold by the Traveling Merchant.
 tags = drop
@@ -23252,6 +23905,12 @@ colspan=2 | Chair !! Notes
 
 Furniture found in the Dungeon.
 
+Furniture found in the Dungeon.
+
+Furniture found in the Dungeon.
+
+Furniture found in the Dungeon.
+
 Found in Ruined Houses, does not break from lava.
 
 Dropped by Pirates. Sell for .
@@ -23320,9 +23979,11 @@ Living Mahogany Trees
 align=right |
 
 Jungle Temple
+To craft, see the Craftable chests section below .
 align=right |
 
 Living Trees
+To craft, see the Craftable chests section below .
 align=right |
 
 Glowing Mushroom biomes
@@ -23330,12 +23991,15 @@ To craft, see the Craftable chests section below.
 align=right |
 
 Underground Jungle
+To craft, see the Craftable chests section below.
 align=right |
 
 Underground Desert
+To craft, see the Craftable chests section below.
 align=right |
 
 Floating Islands
+To craft, see the Craftable chests section below .
 align="right" |
 
 Oceans, and, rarely, other water bodies
@@ -23345,9 +24009,11 @@ Spider Caves
 align=right |
 
 Granite Caves
+To craft, see the Craftable chests section below.
 align=right |
 
 Marble Caves
+To craft, see the Craftable chests section below.
 align=right |
 
 Underworld
@@ -23361,22 +24027,27 @@ align=right |
 
 Dungeon
 Requires one Crimson Key.
+Plantera must be defeated before opening.
 align=right |
 
 Dungeon
 Requires one Hallowed Key.
+Plantera must be defeated before opening.
 align=right |
 
 Dungeon
 Requires one Frozen Key.
+Plantera must be defeated before opening.
 align=right |
 
 Dungeon
 Requires one Jungle Key.
+Plantera must be defeated before opening.
 align=right |
 
 Dungeon
 Requires one Desert Key.
+Plantera must be defeated before opening.
 align=right |
 
 Other chests
@@ -23540,9 +24211,11 @@ Living Mahogany Trees
 align=right |
 
 Jungle Temple
+To craft, see the Craftable chests section below .
 align=right |
 
 Living Trees
+To craft, see the Craftable chests section below .
 align=right |
 
 Glowing Mushroom biomes
@@ -23550,12 +24223,15 @@ To craft, see the Craftable chests section below.
 align=right |
 
 Underground Jungle
+To craft, see the Craftable chests section below.
 align=right |
 
 Underground Desert
+To craft, see the Craftable chests section below.
 align=right |
 
 Floating Islands
+To craft, see the Craftable chests section below .
 align="right" |
 
 Oceans, and, rarely, other water bodies
@@ -23565,9 +24241,11 @@ Spider Caves
 align=right |
 
 Granite Caves
+To craft, see the Craftable chests section below.
 align=right |
 
 Marble Caves
+To craft, see the Craftable chests section below.
 align=right |
 
 Underworld
@@ -23581,22 +24259,27 @@ align=right |
 
 Dungeon
 Requires one Crimson Key.
+Plantera must be defeated before opening.
 align=right |
 
 Dungeon
 Requires one Hallowed Key.
+Plantera must be defeated before opening.
 align=right |
 
 Dungeon
 Requires one Frozen Key.
+Plantera must be defeated before opening.
 align=right |
 
 Dungeon
 Requires one Jungle Key.
+Plantera must be defeated before opening.
 align=right |
 
 Dungeon
 Requires one Desert Key.
+Plantera must be defeated before opening.
 align=right |
 
 Other chests
@@ -23718,6 +24401,7 @@ Item !! Chance !! Quantity !! Average !! Yield/1000
 || 2.239552% || 1–16 || 1.1775 ||
 }
 + With
+Item !! Chance !! Quantity !! Average !! Yield/1000
 || 10% || 1–7 || 1.3 ||
 || 0.0066% || 1–11 || 1.2758 ||  ()
 || 0.0915% || 1–100 || 10.3345 ||  ()
@@ -23760,6 +24444,7 @@ Item !! Chance !! Quantity
 || 2% || 1
 }
 + With  /  /
+Item !! Chance !! Quantity
 || 16.67% || 1
 || 75% || 1
 || 5.56% || 1
@@ -24001,31 +24686,71 @@ rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 1 in 4
 
 rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 10-20
 
+style="border-bottom: 1px solid #CCCCCC;" |
+rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 25%
+rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 1 in 4
+
 rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 2-4
 
+style="border-bottom: 1px solid #CCCCCC;" |
 rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 50%
 rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 1 in 2
 
 rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 5-17
+style="border-bottom: 1px solid #CCCCCC;" |
+rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 50%
+rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 1 in 2
 
 rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 2-6
+style="border-bottom: 1px solid #CCCCCC;" |
 25%
 1 in 4
 
 5-12
 colspan="4" | Hardmode
+% !! Chance !! Items !! Amount
+rowspan="5" style="border-bottom: 1px solid #CCCCCC;" | 16.67%
+rowspan="5" style="border-bottom: 1px solid #CCCCCC;" | 1 in 6
 
+rowspan="5" style="border-bottom: 1px solid #CCCCCC;" | 1
+
+style="border-bottom: 1px solid #CCCCCC;" |
 style="border-bottom: 1px solid #CCCCCC;" | 50%
 style="border-bottom: 1px solid #CCCCCC;" | 1 in 2
+style="border-bottom: 1px solid #CCCCCC;" |
+style="border-bottom: 1px solid #CCCCCC;" | 2-5
+style="border-bottom: 1px solid #CCCCCC;" | 50%
+style="border-bottom: 1px solid #CCCCCC;" | 1 in 2
+style="border-bottom: 1px solid #CCCCCC;" |
 style="border-bottom: 1px solid #CCCCCC;" | 2-5
 rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 8.33%
 rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 1 in 12
 
+rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 10-20
+
+style="border-bottom: 1px solid #CCCCCC;" |
 rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 16.67%
 rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 1 in 6
 
 rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 8-20
 
+style="border-bottom: 1px solid #CCCCCC;" |
+rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 25%
+rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 1 in 4
+
+rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 2-4
+
+style="border-bottom: 1px solid #CCCCCC;" |
+rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 50%
+rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 1 in 2
+
+rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 5-17
+style="border-bottom: 1px solid #CCCCCC;" |
+rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 50%
+rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 1 in 2
+
+rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 2-6
+style="border-bottom: 1px solid #CCCCCC;" |
 25%
 1 in 4
 
@@ -24358,31 +25083,71 @@ rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 1 in 4
 
 rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 10-20
 
+style="border-bottom: 1px solid #CCCCCC;" |
+rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 25%
+rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 1 in 4
+
 rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 2-4
 
+style="border-bottom: 1px solid #CCCCCC;" |
 rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 50%
 rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 1 in 2
 
 rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 5-17
+style="border-bottom: 1px solid #CCCCCC;" |
+rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 50%
+rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 1 in 2
 
 rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 2-6
+style="border-bottom: 1px solid #CCCCCC;" |
 25%
 1 in 4
 
 5-12
 colspan=5 | Hardmode
+% !! Chance !! Items !! Amount
+rowspan="5" style="border-bottom: 1px solid #CCCCCC;" | 16.67%
+rowspan="5" style="border-bottom: 1px solid #CCCCCC;" | 1 in 6
 
+rowspan="5" style="border-bottom: 1px solid #CCCCCC;" | 1
+
+style="border-bottom: 1px solid #CCCCCC;" |
 style="border-bottom: 1px solid #CCCCCC;" | 50%
 style="border-bottom: 1px solid #CCCCCC;" | 1 in 2
+style="border-bottom: 1px solid #CCCCCC;" |
+style="border-bottom: 1px solid #CCCCCC;" | 2-5
+style="border-bottom: 1px solid #CCCCCC;" | 50%
+style="border-bottom: 1px solid #CCCCCC;" | 1 in 2
+style="border-bottom: 1px solid #CCCCCC;" |
 style="border-bottom: 1px solid #CCCCCC;" | 2-5
 rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 8.33%
 rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 1 in 12
 
+rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 10-20
+
+style="border-bottom: 1px solid #CCCCCC;" |
 rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 16.67%
 rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 1 in 6
 
 rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 8-20
 
+style="border-bottom: 1px solid #CCCCCC;" |
+rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 25%
+rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 1 in 4
+
+rowspan="6" style="border-bottom: 1px solid #CCCCCC;" | 2-4
+
+style="border-bottom: 1px solid #CCCCCC;" |
+rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 50%
+rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 1 in 2
+
+rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 5-17
+style="border-bottom: 1px solid #CCCCCC;" |
+rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 50%
+rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 1 in 2
+
+rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 2-6
+style="border-bottom: 1px solid #CCCCCC;" |
 25%
 1 in 4
 
@@ -24570,9 +25335,13 @@ desc = Parody of , a well-known 1929 painting of a pipe with a caption that stat
 
 From Painter
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Buy
 Sell
+class="unsortable" | Tooltip
 class="unsortable" | Available
+class="unsortable" | Description
 available = When Painter is in a Snow biome
 desc = Snow Biome landscape.
 available = Always
@@ -24608,8 +25377,12 @@ desc = A bolt of lightning.
 
 From Painter in a
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Buy
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = Reference to "", a poem by , which prominently features the phrase "nevermore".
 desc = A hand rising from the ground.
 desc = Graveyard landscape.
@@ -24621,8 +25394,12 @@ desc = A typical  painting of a bowl of fruit beside a skull.
 
 From
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Buy
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = A castle in a field. It is a reference to Peach's Castle as it appears in . It may also be a reference to several other games in the Mario franchise.
 desc = A painting of the Princess.
 desc = A rainbow shining from a unicorn's horn. References a popular diagram of white light splitting into a rainbow after passing through a prism, while the name references the  album .
@@ -24633,20 +25410,30 @@ desc = An intimate painting of two royal Slimes.
 
 From Clothier
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Buy
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = A Terraria-themed landscape painting.
 
 From Traveling Merchant
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Buy
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = A Red Bulb hanging from a tree. A reference to .
 desc = Parody of the Wolfenstein 3D title screen featuring the player wearing Meteor armor and wielding a Space Gun, with a Martian in the back. The name of the painting itself might be a reference to another Wolfenstein game - .
 desc = Portrait of the Ice Queen attacking.
 desc = Portrait of Skeletron dressed as Santa Claus.
 desc = Parody of the  featuring a Martian.
 desc = Portrait of Moon Lord. The name is a reference to the  commercial.
+desc = Portrait of  from Don't Starve Together.
+desc = Portrait of  from Don't Starve Together.
 desc = Portrait of  from Don't Starve Together.
 desc =  Portrait of  from Don't Starve Together.
 desc = Snowy landscape with a Present, Christmas Tree, and a Candy Cane.
@@ -24664,21 +25451,33 @@ desc = Painting of Yogscast's Pedguin and Boba, as the Parsec Pals.
 
 From Truffle
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Buy
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = A portrait of the Baby Truffle pet.
 
 From
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Buy
 Sell
+class="unsortable" | Tooltip
 class="unsortable" | Availability
+class="unsortable" | Description
 desc = A portrait of the Werewolf.
 available = Sold during a Full Moon at night ().
 
 Desert Underground Cabins
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = A play on Terraria lead developer Andrew Spinks' name, featuring a  wearing Andrew's signature green cap.
 desc = An Antlion. May be a reference to Dune.
 desc = A Desert Spirit in darkness.
@@ -24696,7 +25495,11 @@ desc = An interpretation of the , or "Eye of God," a version of which appears on
 
 Other Underground Cabins
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = Possible parody of .
 Portrait of the Demolitionist.
 desc = Depicts the Aurora Borealis.
@@ -24736,7 +25539,11 @@ desc = A group of wildflowers.
 
 Dungeon
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = Blood Moon. Also possibly a parody of Blue Moon Rising by Simon R. Green or the song "" by American rock band .
 desc = Various Bones.
 desc = Parody of  featuring the Guide.
@@ -24766,7 +25573,11 @@ featuring the Party Girl on a Unicorn in the Hallow.
 
 The Underworld
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = Reaper portrait.
 desc = The back of a  card.
 desc = A demon's eye.
@@ -24782,7 +25593,11 @@ desc = An unhappy ghost trapped in limbo.
 
 Goodie Bags
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = Green Slime wearing a witch hat among Pumpkins.
 desc = A vampire lady with red eyes and a cloak.
 desc = Portrait of the Mechanic's face.
@@ -24807,7 +25622,11 @@ desc = An ominous creature peering out from the depths of the sea.
 
 Floating Islands
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = Depiction of a flying Magical Harp.
 desc = Bunny constellation.
 desc = Reference to Banksy's Love is in the Bin.
@@ -24826,16 +25645,28 @@ description
 
 Blood Moon Fishing
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = A Dreadnautilus, two Blood Squids, and a Blood Moon.
 
 Hallow Fishing
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc =A girl handing the Meowmere to a guy on a boat. It is a reference to the Arthurian Legends of the
 Solar Eclipse Drops
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = Depiction of a Reaper.
 desc = The player using an eye-based beam attack.
 desc = Depiction of a Butcher. Title is a reference to .
@@ -24847,16 +25678,26 @@ desc = Depiction of a Frankenstein and a Swamp Thing.
 
 Dungeon Chests
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = The Lunatic Cultist and four Cultists.
 
 Jungle Temple
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = A king lizard.
 
 New Chinese version
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
 width="25%" class="unsortable" | Tooltip
 width="30%" class="unsortable" | Description
@@ -24909,9 +25750,12 @@ Medium Oil Painting of Douyu Niang
 3×3
 
 (Limited) Douyu Linked Oil Painting
+Douyu platform anthropomorphic image Shark Maiden.
 Betta Fish Oil Painting
 6×4
 
+(Limited) Douyu Linked Oil Painting
+Douyu platform anthropomorphic image Shark Maiden.
 Huya's Small Oil Painting
 2×3
 
@@ -24926,6 +25770,7 @@ Huya Platform Logo.
 Huya Oil Painting
 6×4
 
+(Limited) Huya linkage oil painting
 Huya platform logo and anthropomorphic image of Huya platform.
 Terrary Potatoes
 6×4
@@ -24937,10 +25782,12 @@ Rock Potato
 3×3
 
 A photo of Captain Shu enjoying the music when he formed the Little Red Book Orchestra.
+Xiaohongshu platform mascot "sweet potato".
 Potato Light
 3×3
 
 Praise the sun, let the sweet potatoes planted by Captain Potato have a bumper harvest.
+Xiaohongshu platform mascot "sweet potato".
 
 Gallery
 Notes
@@ -25007,9 +25854,13 @@ desc = Parody of , a well-known 1929 painting of a pipe with a caption that stat
 
 From Painter
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Buy
 Sell
+class="unsortable" | Tooltip
 class="unsortable" | Available
+class="unsortable" | Description
 available = When Painter is in a Snow biome
 desc = Snow Biome landscape.
 available = Always
@@ -25045,8 +25896,12 @@ desc = A bolt of lightning.
 
 From Painter in a
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Buy
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = Reference to "", a poem by , which prominently features the phrase "nevermore".
 desc = A hand rising from the ground.
 desc = Graveyard landscape.
@@ -25058,8 +25913,12 @@ desc = A typical  painting of a bowl of fruit beside a skull.
 
 From
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Buy
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = A castle in a field. It is a reference to Peach's Castle as it appears in . It may also be a reference to several other games in the Mario franchise.
 desc = A painting of the Princess.
 desc = A rainbow shining from a unicorn's horn. References a popular diagram of white light splitting into a rainbow after passing through a prism, while the name references the  album .
@@ -25070,20 +25929,30 @@ desc = An intimate painting of two royal Slimes.
 
 From Clothier
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Buy
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = A Terraria-themed landscape painting.
 
 From Traveling Merchant
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Buy
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = A Red Bulb hanging from a tree. A reference to .
 desc = Parody of the Wolfenstein 3D title screen featuring the player wearing Meteor armor and wielding a Space Gun, with a Martian in the back. The name of the painting itself might be a reference to another Wolfenstein game - .
 desc = Portrait of the Ice Queen attacking.
 desc = Portrait of Skeletron dressed as Santa Claus.
 desc = Parody of the  featuring a Martian.
 desc = Portrait of Moon Lord. The name is a reference to the  commercial.
+desc = Portrait of  from Don't Starve Together.
+desc = Portrait of  from Don't Starve Together.
 desc = Portrait of  from Don't Starve Together.
 desc =  Portrait of  from Don't Starve Together.
 desc = Snowy landscape with a Present, Christmas Tree, and a Candy Cane.
@@ -25101,21 +25970,33 @@ desc = Painting of Yogscast's Pedguin and Boba, as the Parsec Pals.
 
 From Truffle
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Buy
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = A portrait of the Baby Truffle pet.
 
 From
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Buy
 Sell
+class="unsortable" | Tooltip
 class="unsortable" | Availability
+class="unsortable" | Description
 desc = A portrait of the Werewolf.
 available = Sold during a Full Moon at night ().
 
 Desert Underground Cabins
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = A play on Terraria lead developer Andrew Spinks' name, featuring a  wearing Andrew's signature green cap.
 desc = An Antlion. May be a reference to Dune.
 desc = A Desert Spirit in darkness.
@@ -25133,7 +26014,11 @@ desc = An interpretation of the , or "Eye of God," a version of which appears on
 
 Other Underground Cabins
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = Possible parody of .
 Portrait of the Demolitionist.
 desc = Depicts the Aurora Borealis.
@@ -25173,7 +26058,11 @@ desc = A group of wildflowers.
 
 Dungeon
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = Blood Moon. Also possibly a parody of Blue Moon Rising by Simon R. Green or the song "" by American rock band .
 desc = Various Bones.
 desc = Parody of  featuring the Guide.
@@ -25203,7 +26092,11 @@ featuring the Party Girl on a Unicorn in the Hallow.
 
 The Underworld
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = Reaper portrait.
 desc = The back of a  card.
 desc = A demon's eye.
@@ -25219,7 +26112,11 @@ desc = An unhappy ghost trapped in limbo.
 
 Goodie Bags
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = Green Slime wearing a witch hat among Pumpkins.
 desc = A vampire lady with red eyes and a cloak.
 desc = Portrait of the Mechanic's face.
@@ -25244,7 +26141,11 @@ desc = An ominous creature peering out from the depths of the sea.
 
 Floating Islands
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = Depiction of a flying Magical Harp.
 desc = Bunny constellation.
 desc = Reference to Banksy's Love is in the Bin.
@@ -25263,16 +26164,28 @@ description
 
 Blood Moon Fishing
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = A Dreadnautilus, two Blood Squids, and a Blood Moon.
 
 Hallow Fishing
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc =A girl handing the Meowmere to a guy on a boat. It is a reference to the Arthurian Legends of the
 Solar Eclipse Drops
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = Depiction of a Reaper.
 desc = The player using an eye-based beam attack.
 desc = Depiction of a Butcher. Title is a reference to .
@@ -25284,16 +26197,26 @@ desc = Depiction of a Frankenstein and a Swamp Thing.
 
 Dungeon Chests
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = The Lunatic Cultist and four Cultists.
 
 Jungle Temple
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = A king lizard.
 
 New Chinese version
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
 width="25%" class="unsortable" | Tooltip
 width="30%" class="unsortable" | Description
@@ -25346,9 +26269,12 @@ Medium Oil Painting of Douyu Niang
 3×3
 
 (Limited) Douyu Linked Oil Painting
+Douyu platform anthropomorphic image Shark Maiden.
 Betta Fish Oil Painting
 6×4
 
+(Limited) Douyu Linked Oil Painting
+Douyu platform anthropomorphic image Shark Maiden.
 Huya's Small Oil Painting
 2×3
 
@@ -25363,6 +26289,7 @@ Huya Platform Logo.
 Huya Oil Painting
 6×4
 
+(Limited) Huya linkage oil painting
 Huya platform logo and anthropomorphic image of Huya platform.
 Terrary Potatoes
 6×4
@@ -25374,10 +26301,12 @@ Rock Potato
 3×3
 
 A photo of Captain Shu enjoying the music when he formed the Little Red Book Orchestra.
+Xiaohongshu platform mascot "sweet potato".
 Potato Light
 3×3
 
 Praise the sun, let the sweet potatoes planted by Captain Potato have a bumper harvest.
+Xiaohongshu platform mascot "sweet potato".
 
 Gallery
 Notes
@@ -25611,6 +26540,7 @@ col:notes = rowspan2  Cycles color linearly; can be found naturally in The Under
 col:color =
 col:notes = Placeable and functional under both water and lava;  rarity.
 col:color =
+col:notes = Placeable and functional under both water and lava;  rarity.
 col:color =
 col:notes = rowspan6  Cycles through those colors linearly;  rarity.
 
@@ -25654,9 +26584,13 @@ desc = Parody of , a well-known 1929 painting of a pipe with a caption that stat
 
 From Painter
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Buy
 Sell
+class="unsortable" | Tooltip
 class="unsortable" | Available
+class="unsortable" | Description
 available = When Painter is in a Snow biome
 desc = Snow Biome landscape.
 available = Always
@@ -25692,8 +26626,12 @@ desc = A bolt of lightning.
 
 From Painter in a
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Buy
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = Reference to "", a poem by , which prominently features the phrase "nevermore".
 desc = A hand rising from the ground.
 desc = Graveyard landscape.
@@ -25705,8 +26643,12 @@ desc = A typical  painting of a bowl of fruit beside a skull.
 
 From
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Buy
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = A castle in a field. It is a reference to Peach's Castle as it appears in . It may also be a reference to several other games in the Mario franchise.
 desc = A painting of the Princess.
 desc = A rainbow shining from a unicorn's horn. References a popular diagram of white light splitting into a rainbow after passing through a prism, while the name references the  album .
@@ -25717,20 +26659,30 @@ desc = An intimate painting of two royal Slimes.
 
 From Clothier
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Buy
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = A Terraria-themed landscape painting.
 
 From Traveling Merchant
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Buy
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = A Red Bulb hanging from a tree. A reference to .
 desc = Parody of the Wolfenstein 3D title screen featuring the player wearing Meteor armor and wielding a Space Gun, with a Martian in the back. The name of the painting itself might be a reference to another Wolfenstein game - .
 desc = Portrait of the Ice Queen attacking.
 desc = Portrait of Skeletron dressed as Santa Claus.
 desc = Parody of the  featuring a Martian.
 desc = Portrait of Moon Lord. The name is a reference to the  commercial.
+desc = Portrait of  from Don't Starve Together.
+desc = Portrait of  from Don't Starve Together.
 desc = Portrait of  from Don't Starve Together.
 desc =  Portrait of  from Don't Starve Together.
 desc = Snowy landscape with a Present, Christmas Tree, and a Candy Cane.
@@ -25748,21 +26700,33 @@ desc = Painting of Yogscast's Pedguin and Boba, as the Parsec Pals.
 
 From Truffle
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Buy
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = A portrait of the Baby Truffle pet.
 
 From
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Buy
 Sell
+class="unsortable" | Tooltip
 class="unsortable" | Availability
+class="unsortable" | Description
 desc = A portrait of the Werewolf.
 available = Sold during a Full Moon at night ().
 
 Desert Underground Cabins
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = A play on Terraria lead developer Andrew Spinks' name, featuring a  wearing Andrew's signature green cap.
 desc = An Antlion. May be a reference to Dune.
 desc = A Desert Spirit in darkness.
@@ -25780,7 +26744,11 @@ desc = An interpretation of the , or "Eye of God," a version of which appears on
 
 Other Underground Cabins
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = Possible parody of .
 Portrait of the Demolitionist.
 desc = Depicts the Aurora Borealis.
@@ -25820,7 +26788,11 @@ desc = A group of wildflowers.
 
 Dungeon
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = Blood Moon. Also possibly a parody of Blue Moon Rising by Simon R. Green or the song "" by American rock band .
 desc = Various Bones.
 desc = Parody of  featuring the Guide.
@@ -25850,7 +26822,11 @@ featuring the Party Girl on a Unicorn in the Hallow.
 
 The Underworld
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = Reaper portrait.
 desc = The back of a  card.
 desc = A demon's eye.
@@ -25866,7 +26842,11 @@ desc = An unhappy ghost trapped in limbo.
 
 Goodie Bags
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = Green Slime wearing a witch hat among Pumpkins.
 desc = A vampire lady with red eyes and a cloak.
 desc = Portrait of the Mechanic's face.
@@ -25891,7 +26871,11 @@ desc = An ominous creature peering out from the depths of the sea.
 
 Floating Islands
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = Depiction of a flying Magical Harp.
 desc = Bunny constellation.
 desc = Reference to Banksy's Love is in the Bin.
@@ -25910,16 +26894,28 @@ description
 
 Blood Moon Fishing
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = A Dreadnautilus, two Blood Squids, and a Blood Moon.
 
 Hallow Fishing
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc =A girl handing the Meowmere to a guy on a boat. It is a reference to the Arthurian Legends of the
 Solar Eclipse Drops
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = Depiction of a Reaper.
 desc = The player using an eye-based beam attack.
 desc = Depiction of a Butcher. Title is a reference to .
@@ -25931,16 +26927,26 @@ desc = Depiction of a Frankenstein and a Swamp Thing.
 
 Dungeon Chests
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = The Lunatic Cultist and four Cultists.
 
 Jungle Temple
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
+class="unsortable" | Tooltip
+class="unsortable" | Description
 desc = A king lizard.
 
 New Chinese version
 Painting !! Name
+class="unsortable" | Placed
+class="unsortable" | Size
 Sell
 width="25%" class="unsortable" | Tooltip
 width="30%" class="unsortable" | Description
@@ -25993,9 +26999,12 @@ Medium Oil Painting of Douyu Niang
 3×3
 
 (Limited) Douyu Linked Oil Painting
+Douyu platform anthropomorphic image Shark Maiden.
 Betta Fish Oil Painting
 6×4
 
+(Limited) Douyu Linked Oil Painting
+Douyu platform anthropomorphic image Shark Maiden.
 Huya's Small Oil Painting
 2×3
 
@@ -26010,6 +27019,7 @@ Huya Platform Logo.
 Huya Oil Painting
 6×4
 
+(Limited) Huya linkage oil painting
 Huya platform logo and anthropomorphic image of Huya platform.
 Terrary Potatoes
 6×4
@@ -26021,10 +27031,12 @@ Rock Potato
 3×3
 
 A photo of Captain Shu enjoying the music when he formed the Little Red Book Orchestra.
+Xiaohongshu platform mascot "sweet potato".
 Potato Light
 3×3
 
 Praise the sun, let the sweet potatoes planted by Captain Potato have a bumper harvest.
+Xiaohongshu platform mascot "sweet potato".
 
 Gallery
 Notes
@@ -26220,6 +27232,9 @@ Crafting
 Recipes
 Noncraftable doors
 colspan=2 | Door !! Notes
+col:notes = Furniture found in the Dungeon.
+col:notes = Furniture found in the Dungeon.
+col:notes = Furniture found in the Dungeon.
 col:notes = Furniture found in the Dungeon.
 col:notes = Found in Ruined houses, does not disappear in lava.
 col:notes = Dropped by pirates. Sell for .
@@ -27411,6 +28426,7 @@ Syringes
 
 Sells .
 A player has an explosive in their inventory and the Merchant is present.
+Replaces the Guide as the starting NPC when starting a new  world.
 Grenades
 
 Sells the Dye Vat crafting station.
@@ -27499,6 +28515,7 @@ Pirate Cannon
 
 Sells the Clentaminator, Jetpack, and other items.
 A mechanical boss has been defeated.
+Spawns as a starting NPC when starting a new world with  seed.
 Clockwork Assault Rifle
 
 Sells the Proximity Mine Launcher, Rockets, and Nanites.
@@ -27511,6 +28528,7 @@ Bauble
 
 Sells several vanity and furniture items.
 All other town NPCs are in the world (except for town pets and Santa Claus).
+Spawns as a starting NPC when starting a new world with  seed.
 Crushing Crystals
 
 Town Slimes
@@ -27564,6 +28582,7 @@ colspan=2 | Damage boost
 Attack !!
 align=left |  used || +6 || +20% ||
 class=bottomline
+align=left |  used || +6 || +20% ||
 align=left | Eye of Cthulhu beaten || +3 || colspan="2" | +10%
 align=left | Eater of Worlds / Brain of Cthulhu beaten || +3 || colspan="2" | +10%
 align=left | Queen Bee beaten || +3 || colspan="2" | +10%
@@ -27747,9 +28766,12 @@ colspan=3 | 1/20
 1/
 
 Hardmode
+rowspan=2 | Biome/Event/
 Boss fight
 colspan=3 | Surface
+rowspan=2 | Underground
 rowspan=2 | Cavern
+rowspan=2 | Underworld
 Day
 Night
 
@@ -28009,6 +29031,7 @@ Drops from Forest Trees with a  chance.
 Well Fed ()
 5 minutes
 
+Drops from Forest Trees with a  chance.
 Well Fed ()
 5 minutes
 
@@ -28036,12 +29059,15 @@ Drops from Hallow Trees (and their palm variants) with a  (Hallow Tree) and  (Ha
 Plenty Satisfied ()
 5 minutes
 
+Drops from Corrupt Trees (and their palm variants) with a  chance.
 Well Fed ()
 5 minutes
 
+Drops from Forest Trees with a  chance.
 Well Fed ()
 5 minutes
 
+Drops from Forest Trees with a  chance.
 Well Fed ()
 5 minutes
 
@@ -28049,18 +29075,23 @@ Drops from Jungle Trees with a  chance.
 Well Fed ()
 5 minutes
 
+Drops from Forest Trees with a  chance.
 Well Fed ()
 5 minutes
 
+Drops from Jungle Trees with a  chance.
 Well Fed ()
 5 minutes
 
+Drops from Boreal Trees with a  chance.
 Well Fed ()
 5 minutes
 
+Drops from Crimson Trees (and their palm variants) with a  chance.
 Well Fed ()
 5 minutes
 
+Drops from Hallow Trees (and their palm variants) with a  (Hallow Tree) and  (Hallow Palm) chance.
 Plenty Satisfied ()
 5 minutes
 Spicy Pepper
@@ -28087,9 +29118,11 @@ Plenty Satisfied ()
 
 Dropped from Skeleton Commando, Skeleton Sniper, and Tactical Skeletons
 with a  chance, or from Paladins with a  chance.
+Exquisitely Stuffed ()
 24 minutes
 
 Drops from Eaters of Souls and Crimera with a  chance.
+Exquisitely Stuffed ()
 8 minutes
 
 Drops from all Skeleton variants with a  chance.
@@ -28133,6 +29166,7 @@ Plenty Satisfied ()
 14 minutes
 
 Drops from Icy Mermen and Ice Tortoises with a  chance.
+Exquisitely Stuffed ()
 16 minutes
 
 Drops from all Sand Sharks and Angry Tumblers with a  chance.
@@ -28140,6 +29174,7 @@ Plenty Satisfied ()
 16 minutes
 
 Drops from Medusas and Hoplites with a  chance.
+Exquisitely Stuffed ()
 8 minutes
 
 Drops from Salamanders, Giant Shellys, and Crawdads with a  chance.
@@ -28155,10 +29190,16 @@ Well Fed ()
 5 minutes
 
 Drops from Granite Golems and Granite Elementals with a  chance.
+Exquisitely Stuffed ()
 8 minutes
 
 Drops from Undead Miners with a  chance or from The Possessed with a  chance.
+Exquisitely Stuffed ()
 16 minutes
+
+Obtained from Presents with a  chance.
+
+Obtained from Presents with a  chance.
 
 Obtained from Presents with a  chance.
 
@@ -28173,7 +29214,10 @@ Well Fed ()
 
 Sometimes sold by the Traveling Merchant.
 
+Sometimes sold by the Traveling Merchant.
+
 Tipsy/Drunk buffs
+Food/Drink !! Source !! Effect !! Duration !! Buff icon
 
 Crafted:
 Tipsy ()

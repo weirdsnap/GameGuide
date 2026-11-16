@@ -241,6 +241,8 @@ Variant !! Metal Ore !! Raw Mineral !! Other Solids !! Liquid & Gas !! Plants & 
 Base Version
 style="text-align:center"|
 
+style="text-align:center"|
+style="text-align:center"| None
 style="text-align:center"| None
 Human Warm
 24.85 ↔ 39.85 °C
@@ -263,8 +265,10 @@ Content
 Variant !! Metal Ore !! Raw Mineral !! Other Solids !! Gas !! Plants !! Critters !! Temperature
 Base Version
 rowspan=11 style="text-align:center"|
+rowspan=11 style="text-align:center"|
 
 rowspan=11|
+rowspan=11 style="text-align:center"|
 
 rowspan=10 style="text-align:center"|
 
@@ -362,6 +366,8 @@ Very Cold
 Solid
 style="text-align:center"| None
 
+style="text-align:center"| None
+
 Extremely Cold
 -213.15 ↔ -73.15 °C
 Frozen Biome has no Critters.
@@ -422,11 +428,16 @@ None
 
 Plants and Critters
 Variant !! Plants !! Critters !! Buried !! Temperature
+style="text-align:left;" | Base Version
 rowspan="4" |
 rowspan="4" |
 rowspan="4" |
 rowspan="4" | Human Hot
 39.85 ↔ 49.85 °C
+style="text-align:left;" | Inactive
+style="text-align:left;" | Steamy
+style="text-align:left;" | Gassy
+style="text-align:left;" | Frozen
 
 Cold
 -46.15 ↔ -16.15 °C
@@ -486,6 +497,7 @@ style="text-align:left"| Landing Site
 
 Plants and Critters
 Variant !! Plants !! Critters !! Buried !! Temperature
+style="text-align:left" | Base Version
 
 rowspan="4" |
 rowspan="5" |
@@ -495,6 +507,7 @@ style="text-align:left" | Slush
 
 Cold
 -46.15 ↔ -16.15 °C
+style="text-align:left" | Inactive
 rowspan="3" |
 rowspan="3" |Human Warm
 24.85 ↔ 39.85 °C
@@ -507,15 +520,19 @@ Blob room, containing Carbon Dioxide, Polluted Water, Slime and Algae
 Tall and thin room, containing Carbon Dioxide, Polluted Water, Slime and Algae
 Geode, containing Sand, Sandstone and Igneous Rock
 Inactive, Landing Site
+Blob room, containing Carbon Dioxide, Polluted Water, Slime and Algae
+Tall and thin room, containing Carbon Dioxide, Polluted Water, Slime and Algae
 Slush
 Blob slush room, containing Carbon Dioxide, Water, Polluted Water, Slime and Algae
 Tall and thin slush room, containing Carbon Dioxide, Water, Polluted Water, Slime and Algae
+Geode, containing Sand, Sandstone and Igneous Rock
 
 Points of Interest
 Base Version, Slush
 1 Cool Steam Vent
 1 Natural Gas Geyser
 3 Ruins
+Inactive, Landing Site
 2 Ruins
 Steamy
 1 Cool Steam Vent
@@ -545,9 +562,12 @@ Content
 Variant !! Metal Ore !! Raw Mineral !! Other Solids !! Liquid !! Gas !! Plants !! Critters !! Temperature
 Base Version
 rowspan=5 style="text-align:center"|
+rowspan=5 style="text-align:center"|
 
 rowspan=3|
 rowspan=3 style="text-align:center"|
+rowspan=5 style="text-align:center"|
+rowspan=5 style="text-align:center"|
 
 rowspan=4|
 rowspan=4| Hot
@@ -627,6 +647,7 @@ Content
 Variant !! Metal Ore !! Raw Mineral !! Other Solids !! Gas !! Plants !! Critters !! Temperature
 Base Version
 rowspan=3 style="text-align:center"|
+rowspan=3 style="text-align:center"|
 
 rowspan=2|
 rowspan=2|
@@ -699,6 +720,8 @@ Base Version
 rowspan="2" style="text-align:center" |None
 rowspan="2" |
 rowspan="2" |
+rowspan="2" style="text-align:center" |None
+rowspan="2" style="text-align:center" |None
 rowspan="2" |
 Surface Crags
 
@@ -766,6 +789,7 @@ Temperate Biome is the starting Biome in several Asteroid Types. It contains ric
 Elements
 Variant !! Metal Ore !! Raw Mineral !! Other Solids !! Gas
 Base Version
+rowspan=11 style="text-align:center"|
 rowspan=11 style="text-align:center"|
 rowspan=2|
 rowspan=2|
@@ -908,6 +932,9 @@ Base Version
 rowspan=5 style="text-align:center" |
 
 rowspan=3 | Salt Water
+rowspan=5 style="text-align:center" |
+
+rowspan=5 style="text-align:center" |
 
 rowspan=4 style="text-align:center" |
 
@@ -929,6 +956,7 @@ Cool
 -16.15 ↔ 6.85 °C
 Frozen
 
+style="text-align:center" | None
 style="text-align:center" | None
 Cold
 -46.15 ↔ -16.15 °C
@@ -966,6 +994,8 @@ It has no terrain feature.
 
 Frozen
 The Frozen variant is colder than Slush variant. All liquids are frozen into Brine Ice.
+
+It has no terrain feature.
 
 Trivia
 Tide Pool Biome is named Ocean in game code.
@@ -1029,6 +1059,7 @@ rowspan=2 style="text-align:center"| None
 Solid Magma
 Magma Vent
 rowspan=2|
+rowspan=2 style="text-align:center"| None
 rowspan=2|
 Very Hot
 99.85 ↔ 296.85 °C
@@ -1424,6 +1455,7 @@ Exosuit Forge
 A2
 A2
 A2
+Delivery, Dupe interaction and drop-off at middle left bottom cell.
 Farm Station
 2
 3
@@ -1495,6 +1527,7 @@ Juicer
 4
 A2
 A2
+Delivery and Dupe interaction at the bottom middle cell.
 Jukebot
 5
 3
@@ -1510,6 +1543,7 @@ Lavatory
 2
 3
 A1
+Dupe interaction at the bottom left cell.
 Manual Generator
 2
 2
@@ -1524,6 +1558,7 @@ Massage Table
 2
 2
 A1
+Dupe interaction at the bottom left cell.
 Mess Table
 1
 1
@@ -1602,6 +1637,7 @@ Power Control Station
 A1
 A1
 A1
+Delivery, Dupe interaction and drop-off at bottom left cell.
 Printing Pod
 4
 4
@@ -1634,6 +1670,7 @@ Rust Deoxidizer
 2
 3
 A1
+Material delivery at bottom left cell.
 Shearing Station
 3
 3
@@ -1649,6 +1686,7 @@ Sink
 2
 3
 A1
+Dupe interaction at the bottom  left cell.
 Skill Scrubber
 3
 3
@@ -1705,6 +1743,7 @@ Textile Loom
 A2
 A2
 A2
+Delivery, Dupe interaction and drop-off at middle left bottom cell.
 Triage Cot
 3
 2
@@ -1731,6 +1770,7 @@ Dupe interaction on either  bottom left or right cell, depending on which direct
 Water Sieve
 4
 3
+A2 (default) A3 (reverse)
 A2 (default) A3 (reverse)
 Delivery and material drop-off at the bottom middle left cell. If you reverse the Water Sieve, delivery and drop off is at the bottom middle right cell. Note it's always the middle cell closest to the automation port (or opposite to the lamp).
 Wood Burner
@@ -1808,6 +1848,7 @@ Thermally Reactive
 Refined Metal
 
 +50%
+Overheat Temperature +50°C
 High Thermal Conductivity
 Thermally Reactive
 rowspan="2" | Raw Mineral
@@ -1820,6 +1861,8 @@ Insulator
 Transparent
 
 +100%
+Overheat Temperature +200°C
+High Thermal Conductivity
 In some cases, it may be better to choose a material with a lower or no Decor bonus. Diamond, for example, has a very high thermal conductivity, which may be undesirable, so Glass should better be used.
 
 Other effects on decor
@@ -2402,25 +2445,30 @@ Destination Distance
 1 Command Capsule
 1 Petroleum Engine
 2 Liquid Fuel Tanks
+1 Solid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Petroleum Engine
 3 Liquid Fuel Tanks
+1 Solid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Petroleum Engine
 1 Solid Booster
 1 Liquid Fuel Tank
+1 Solid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Petroleum Engine
 1 Solid Booster
 2 Liquid Fuel Tanks
+1 Solid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Petroleum Engine
 1 Solid Booster
 3 Liquid Fuel Tanks
+1 Solid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 10000 || 306 kg Petroleum
@@ -2459,10 +2507,12 @@ Destination Distance
 1 Command Capsule
 1 Petroleum Engine
 2 Liquid Fuel Tanks
+1 Liquid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Petroleum Engine
 3 Liquid Fuel Tanks
+1 Liquid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Petroleum Engine
@@ -2473,21 +2523,25 @@ Destination Distance
 1 Petroleum Engine
 1 Solid Booster
 1 Liquid Fuel Tank
+1 Liquid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Petroleum Engine
 1 Solid Booster
 2 Liquid Fuel Tanks
+1 Liquid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Petroleum Engine
 1 Solid Booster
 3 Liquid Fuel Tanks
+1 Liquid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Petroleum Engine
 1 Solid Booster
 4 Liquid Fuel Tanks
+2 Liquid Oxidizer Tanks
 5 Research Modules
 1 Command Capsule
 10000 || 227 kg Petroleum
@@ -2535,29 +2589,35 @@ Destination Distance
 [km]
 1 Petroleum Engine
 1 Liquid Fuel Tank
+1 Solid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Petroleum Engine
 2 Liquid Fuel Tanks
+1 Solid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Petroleum Engine
 3 Liquid Fuel Tanks
+1 Solid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Petroleum Engine
 1 Solid Booster
 1 Liquid Fuel Tank
+1 Solid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Petroleum Engine
 1 Solid Booster
 2 Liquid Fuel Tanks
+1 Solid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Petroleum Engine
 1 Solid Booster
 3 Liquid Fuel Tanks
+1 Solid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 10000 || 332 kg Petroleum
@@ -2585,14 +2645,17 @@ Destination Distance
 [km]
 1 Petroleum Engine
 1 Liquid Fuel Tank
+1 Liquid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Petroleum Engine
 2 Liquid Fuel Tanks
+1 Liquid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Petroleum Engine
 3 Liquid Fuel Tanks
+1 Liquid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Petroleum Engine
@@ -2603,16 +2666,19 @@ Destination Distance
 1 Petroleum Engine
 1 Solid Booster
 1 Liquid Fuel Tank
+1 Liquid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Petroleum Engine
 1 Solid Booster
 2 Liquid Fuel Tanks
+1 Liquid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Petroleum Engine
 1 Solid Booster
 3 Liquid Fuel Tanks
+1 Liquid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 10000 || 247 kg Petroleum
@@ -2649,18 +2715,22 @@ Destination Distance
 120000 || || || || Unreachable || || ||
 
 Hydrogen Engine
+Oxylite, Research Vehicle
 Destination Distance
 [km]
 1 Hydrogen Engine
 1 Liquid Fuel Tank
+1 Solid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Hydrogen Engine
 2 Liquid Fuel Tanks
+1 Solid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Hydrogen Engine
 3 Liquid Fuel Tanks
+1 Solid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Hydrogen Engine
@@ -2671,21 +2741,25 @@ Destination Distance
 1 Hydrogen Engine
 1 Solid Booster
 1 Liquid Fuel Tank
+1 Solid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Hydrogen Engine
 1 Solid Booster
 2 Liquid Fuel Tanks
+1 Solid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Hydrogen Engine
 1 Solid Booster
 3 Liquid Fuel Tanks
+1 Solid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Hydrogen Engine
 1 Solid Booster
 4 Liquid Fuel Tanks
+2 Solid Oxidizer Tanks
 5 Research Modules
 1 Command Capsule
 10000 || 206 kg Liquid Hydrogen
@@ -2734,33 +2808,40 @@ Destination Distance
 3460 kg Oxylite || || || || Unreachable
 160000 || || || || Unreachable || || ||
 
+Liquid Oxygen, Research Vehicle
 Destination Distance
 [km]
 1 Hydrogen Engine
 1 Liquid Fuel Tank
+1 Liquid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Hydrogen Engine
 2 Liquid Fuel Tanks
+1 Liquid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Hydrogen Engine
 3 Liquid Fuel Tanks
+1 Liquid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Hydrogen Engine
 1 Solid Booster
 1 Liquid Fuel Tank
+1 Liquid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Hydrogen Engine
 1 Solid Booster
 2 Liquid Fuel Tanks
+1 Liquid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 1 Hydrogen Engine
 1 Solid Booster
 3 Liquid Fuel Tanks
+1 Liquid Oxidizer Tank
 5 Research Modules
 1 Command Capsule
 10000 || 153 kg Liquid Hydrogen
@@ -2819,37 +2900,45 @@ Destination Distance
 2597 kg Liquid Oxygen || || || 2635 kg Liquid Hydrogen
 2635 kg Liquid Oxygen
 
+Oxylite, Cargo Vehicle
 Destination Distance
 [km]
 1 Hydrogen Engine
 1 Liquid Fuel Tank
+1 Solid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Hydrogen Engine
 2 Liquid Fuel Tanks
+1 Solid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Hydrogen Engine
 3 Liquid Fuel Tanks
+1 Solid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Hydrogen Engine
 4 Liquid Fuel Tanks
+2 Solid Oxidizer Tanks
 1 Cargo Bay
 1 Command Capsule
 1 Hydrogen Engine
 1 Solid Booster
 1 Liquid Fuel Tank
+1 Solid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Hydrogen Engine
 1 Solid Booster
 2 Liquid Fuel Tanks
+1 Solid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Hydrogen Engine
 1 Solid Booster
 3 Liquid Fuel Tanks
+1 Solid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 10000 || 223 kg Liquid Hydrogen
@@ -2889,42 +2978,51 @@ Destination Distance
 2960 kg Oxylite || || || Unreachable
 13000 || || || || Unreachable || || ||
 
+Liquid Oxygen, Cargo Vehicle
 Destination Distance
 [km]
 1 Hydrogen Engine
 1 Liquid Fuel Tank
+1 Liquid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Hydrogen Engine
 2 Liquid Fuel Tanks
+1 Liquid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Hydrogen Engine
 3 Liquid Fuel Tanks
+1 Liquid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Hydrogen Engine
 4 Liquid Fuel Tanks
+2 Liquid Oxidizer Tanks
 1 Cargo Bay
 1 Command Capsule
 1 Hydrogen Engine
 1 Solid Booster
 1 Liquid Fuel Tank
+1 Liquid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Hydrogen Engine
 1 Solid Booster
 2 Liquid Fuel Tanks
+1 Liquid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Hydrogen Engine
 1 Solid Booster
 3 Liquid Fuel Tanks
+1 Liquid Oxidizer Tank
 1 Cargo Bay
 1 Command Capsule
 1 Hydrogen Engine
 1 Solid Booster
 4 Liquid Fuel Tanks
+2 Liquid Oxidizer Tanks
 1 Cargo Bay
 1 Command Capsule
 10000 || 166 kg Liquid Hydrogen
@@ -3167,10 +3265,12 @@ Food, Raw Mineral, Organic, Metal Ore, Refined Metal
 Coal
 Refined Metal,
 Refined Carbon
+style="white-space: nowrap" |
 
 Meat
 8
 style="text-align: left" | Will burrow in soft ground during the day, but will stay active if it can't find a place to burrow.
+style="white-space: nowrap" |
 
 Shine Bug
 Food,
@@ -3178,6 +3278,7 @@ Phosphorite
 Light,
 Decor,
 Radiation
+style="white-space: nowrap" |
 
 N/A
 8
@@ -3190,10 +3291,12 @@ Dirt
 Meat
 8 (Pip)
 style="text-align: left" |Plants loose seeds into soft blocks and can knock items out of storage bins. Cuddle pips hug eggs and dupes, speeding up incubation.
+style="white-space: nowrap" |
 
 Drecko
 Balm Lily,Pincha Pepper,Mealwood
 Phosphorite, Reed Fiber, Plastic
+style="white-space: nowrap" |
 
 Meat
 8
@@ -3208,26 +3311,32 @@ Pokeshell Molt, Oakshell Molt
 Pokeshell Molt, Oakshell Molt, Raw Shellfish
 8
 style="text-align: left" |
+style="white-space: nowrap" |
 
 Puft
 Polluted Oxygen/ Oxygen/Chlorine
 Slime/ Oxylite/ Bleach Stone
+style="white-space: nowrap" |
 
 Meat
 6
 style="text-align: left" | Floating/hovering critter. Its movement is based on invert pyramid shape, moves center to top, left then right, follows bubbles of contaminated air, prefers going up. Sucks in the closest air bubble, goes up into top of room/chamber on borders of gases then spits out slime. Can follow its own slime consuming again. Won't go under water, but can enter a stream of water from below or from the side (and then die).
+style="white-space: nowrap" |
 
 Pacu
 Algae/ Plant Seeds
 Polluted Dirt
+style="white-space: nowrap" |
 
 Pacu Fillet
 12
 style="text-align: left" | Swims in water, can only be caught via a Fish Trap.
+style="white-space: nowrap" |
 
 Slickster
 Carbon Dioxide/Oxygen
 Crude Oil/Petroleum
+style="white-space: nowrap" |
 
 Meat
 8
@@ -3257,6 +3366,7 @@ Polluted Oxygen
 style="text-align: left" | Spawns from full Outhouses if it filled long enough but can be found naturally, produces contaminated oxygen unless in high-pressure gas, explodes in a puff of Polluted Oxygen or Chlorine upon death. Cannot be Ranched. Has a 0.1% chance to morb every cycle, biting Duplicants and infecting them with Morbius Crohn.
 
 Critters In Spaced Out
+Image !! Name !! Diet !! Produces !! Egg !! Drops
 
 Note
 
@@ -4146,6 +4256,7 @@ The produced Oxylite can be used as an oxydizer in Rockets.
 
 Dense Puft can lay Puft (31%), Puft Prince (2%), and Dense Puft (67%) eggs.
 
+If not penned with Puft Prince, the chance of laying Puft Prince eggs will increase over time.
 If penned with Puft Prince, the chance of laying Dense Puft eggs will increase over time.
 The chance of laying a Puft egg will decrease over time no matter what it's penned with, but changes much slower than the other two.
 
@@ -4158,6 +4269,7 @@ The produced Bleach Stone can be used to farm Waterweed or refill Hand Sanitizer
 
 Squeaky Puft can lay Puft (31%), Puft Prince (2%), and Squeaky Puft (67%) eggs.
 
+If not penned with Puft Prince, the chance of laying Puft Prince eggs will increase over time.
 If penned with Puft Prince, the chance of laying Squeaky Puft eggs will increase over time.
 
 Bismuth Puft
@@ -4171,6 +4283,7 @@ The produced Abyssalite can be used to manufacture several Space Age materials o
 
 Bismuth Pufts can lay Puft (31%), Puft Prince (2%), and Bismuth Puft (67%) eggs.
 
+If not penned with Puft Prince, the chance of laying Puft Prince eggs will increase over time.
 If penned with Puft Prince, the chance of laying Bismuth Puft eggs will increase over time.
 The Bismuth puft was added after intense campaigning on the Klei Forums for renewable abyssalite in Spaced Out!, as there exists no way to manufacture more of that material after the natural deposits have run dry.
 
@@ -4985,34 +5098,48 @@ Skilled: Aesthetic Design
 This Duplicant begins with a pre-learned Skill, but does not have increased Morale Requirements.||
 -4|| ||Unlocks Skill Aesthetic Design
 Skilled: Art Fundamentals
+This Duplicant begins with a pre-learned Skill, but does not have increased Morale Requirements.||
 -4|| ||Unlocks Skill Art Fundamentals
 Skilled: Bedside Manner
+This Duplicant begins with a pre-learned Skill, but does not have increased Morale Requirements.||
 -4|| ||Unlocks Skill Bedside Manner
 Skilled: Critter Ranching I
+This Duplicant begins with a pre-learned Skill, but does not have increased Morale Requirements.||
 -4|| ||Unlocks Skill Critter Ranching I
 Skilled: Crop Tending
+This Duplicant begins with a pre-learned Skill, but does not have increased Morale Requirements.||
 -4|| ||Unlocks Skill Crop Tending
 Skilled: Electrical Engineering
+This Duplicant begins with a pre-learned Skill, but does not have increased Morale Requirements.||
 -4|| ||Unlocks Skill Electrical Engineering
 Skilled: Exosuit Training
+This Duplicant begins with a pre-learned Skill, but does not have increased Morale Requirements.||
 -4|| ||Unlocks Skill Exosuit Training
 Skilled: Grilling
+This Duplicant begins with a pre-learned Skill, but does not have increased Morale Requirements.||
 -4|| ||Unlocks Skill Grilling
 Skilled: Hard Digging
+This Duplicant begins with a pre-learned Skill, but does not have increased Morale Requirements.||
 -4|| ||Unlocks Skill Hard Digging
 Skilled: Masterworks
+This Duplicant begins with a pre-learned Skill, but does not have increased Morale Requirements.||
 -4|| ||Unlocks Skill Masterworks
 Skilled: Mechatronics Engineering
+This Duplicant begins with a pre-learned Skill, but does not have increased Morale Requirements.||
 -4|| ||Unlocks Skill Mechatronics Engineering
 Skilled: Plumbing
+This Duplicant begins with a pre-learned Skill, but does not have increased Morale Requirements.||
 -4|| || Unlocks Skill Plumbing
 Skilled: Super-Duperhard Digging
+This Duplicant begins with a pre-learned Skill, but does not have increased Morale Requirements.||
 -4|| || Unlocks Skill Super-Duperhard Digging
 Skilled: Superhard Digging
+This Duplicant begins with a pre-learned Skill, but does not have increased Morale Requirements.||
 -4|| ||Unlocks Skill Superhard Digging
 
 Negative Traits
 Name!! class="unsortable" |Description!! class="unsortable" |Attribute Bonus
+Interest Attribute Modifier!!Disabled Errands/Skills!! class="unsortable" |Miscellaneous Effects
 Allergies
 This Duplicant will sneeze uncontrollably when exposed to the pollen present in Floral Scent.||
 +2|| ||Contracts the "Allergies" disease when in contact with the Floral Scents germ.
@@ -5594,6 +5721,7 @@ Appears in: Office Cake, Revisited Numbers, Results from Atomicon, Re: devon's b
 Dr. Jones was an employee at Gravitas, working in the Information and Statistics department, possibly as the department head. She was a notorious gossip, as evidenced by her email exchanges with Dr. Summers, and greatly enjoyed glittery things.
 
 Dr. Joshua Summers
+Position: Information and Statistics Department
 Aliases: Joshua
 Appears in: Office Cake, Re: devon's bloggg, Re:_dr. holland's dog, Re: omg the janitor
 
@@ -5614,6 +5742,7 @@ Mentioned in: Email_content#Hiiiii.21: Hiiiii!
 Dr. Techna was an employee at Gravitas. He had spiky blonde hair and stole food from the communal fridge. Dr. Jones insinuated that she would delete his files if he didn't stop.
 
 Mr. Otto Kraus
+Position: Physics Department
 Aliases: Otto
 Security code: B327
 Appears in: Office Cake, Personal Journal: B327, Personal Journal: B556, RE: To Otto - Spec Changes, Spec Changes
@@ -5767,11 +5896,16 @@ rowspan="3" |Field Research
 rowspan="3" | Astronomy
 style="height: 1em"
 style="background:transparent; border:none; border-bottom: 1px solid var(--theme-page-dynamic-color-1); border-top: 1px solid var(--theme-page-dynamic-color-1)" |
+style="background:transparent; border:none" |
 colspan="2" style="background:transparent; border:none" |
 style="background:transparent; border:none; border-top: 1px solid var(--theme-page-dynamic-color-1); border-right: 1px solid var(--theme-page-dynamic-color-1)" |
+colspan="2" style="background:transparent; border:none" |
 rowspan="3" style="background:transparent; border:none" |
+rowspan="3" | Astronomy
 rowspan="3" | Orbital Researcher
 style="height: 1em"
+style="background:transparent; border:none" |
+style="background:transparent; border:none" |
 rowspan="3" |Rocketry
 rowspan="3" | Rocket Piloting
 colspan="4" style="background:transparent; border: none; border-bottom: 1px solid var(--theme-page-dynamic-color-1); border-right: 1px solid var(--theme-page-dynamic-color-1)" |
@@ -5779,7 +5913,9 @@ style="background: transparent; border:none; border-left: 1px solid var(--theme-
 rowspan="3" | Rocket Piloting II
 style="height: 1em"
 colspan="3" style="background:transparent; border:none" |
+colspan="3" style="background:transparent; border:none" |
 rowspan="2" |Suit Wearing
+rowspan="2" style="background:transparent; border:none" |
 rowspan="2" style="background:transparent; border:none; border-right: 1px solid var(--theme-page-dynamic-color-1)" |
 rowspan="2" |Suit Sustainability Training
 colspan="2" style="background:transparent; border:none; border-bottom: 1px solid var(--theme-page-dynamic-color-1); vertical-align:bottom" |
@@ -5787,14 +5923,20 @@ rowspan="2" |Exosuit Training
 rowspan="2" | Rocket Piloting
 rowspan="2" | Rocket Navigation
 style="background:transparent; border:none; border-top: 1px solid var(--theme-page-dynamic-color-1); border-left: 1px solid var(--theme-page-dynamic-color-1)" |
+colspan="2" style="background:transparent; border:none" |
+colspan="2" style="background:transparent; border:none" |
 rowspan="3" |Supplying
 rowspan="3" | Improved Carrying I
 style="background:transparent; border:none; border-bottom: 1px solid var(--theme-page-dynamic-color-1); border-right: 1px solid var(--theme-page-dynamic-color-1)" |
 rowspan="3" | Improved Carrying II
+style="background:transparent; border:none" |
+style="background:transparent; border:none" |
 style="height: 1em"
 style="background:transparent; border:none; border-bottom: 1px solid var(--theme-page-dynamic-color-1)" |
+style="background:transparent; border:none" |
 rowspan="3" | Operating
 rowspan="3" | Improved Tinkering
+colspan="2" style="background:transparent; border:none" |
 rowspan="3" | Electrical Engineering
 rowspan="3" | Mechatronics Engineering
 style="background:transparent; border:none; border-right: 1px solid var(--theme-page-dynamic-color-1); border-bottom: 1px solid var(--theme-page-dynamic-color-1)" |
@@ -6707,6 +6849,7 @@ Microbe Musher
 +3
 A mashed up Bristle Berry with an exceptionally long shelf life. Its aggressive, overbearing sweetness can leave the tongue feeling temporarily numb.
 
+3 x Sleet Wheat Grain
 Gas Range
 +4,200
 +5
@@ -7488,6 +7631,7 @@ Shockworm || || Shockworms are exceptionally aggressive and discharge electrical
 Plants
 The files mention several plants that are not obtainable:
 
+Name !! Picture !! Description
 Avari Vine || || A rapidly growing, subterranean Plant.
 Fervine || || A temperature reactive, subterranean Plant.
 Palmera Tree || || A large, chlorine-dwelling Plant that can be grown in farm buildings.
@@ -7584,9 +7728,11 @@ Cooling Salt Water below its freezing point will turn it into Ice (77% mass) and
 
 Ice Maker can make Ice from Water.
 
+It can be harvested on rocket missions to renewable Space POIs:
 In Exploded Ice Giants at a rate of 324 – 972 kg per cycle.
 In Frozen Ore Asteroid Fields at a rate of 148 – 443.9 kg per cycle.
 In Ice Asteroid Fields at a rate of 135 – 405 kg per cycle.
+In Oxygen Rich Asteroid Fields at a rate of 60 – 200 kg per cycle.
 In Interstellar Oceans at a rate of 37.5 – 125 kg per cycle.
 
 Usage
@@ -7677,6 +7823,7 @@ rowspan="2" |Spawnable Biomes
 data-sort-type="number" |kg/cycle
 data-sort-type="number" |g/s
 rowspan="2" style="text-align:left" |
+rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |5
 1400 - 1600
@@ -7695,6 +7842,8 @@ class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page
 15000 - 135000
 1851 - 33333
 666 - 2666
+rowspan="2" style="text-align:left" |
+rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |5
 700 - 800
@@ -7705,6 +7854,7 @@ rowspan="2" |5
 2011 - 3174
 653 - 853
 rowspan="2" |Marsh
+class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 500 - 1000
 833 - 1666
 60 - 1140
@@ -7712,6 +7862,8 @@ rowspan="2" |Marsh
 15000 - 135000
 925 - 16666
 333 - 1333
+rowspan="2" style="text-align:left" |
+rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |500
 2800 - 3200
@@ -7722,6 +7874,7 @@ rowspan="2" |500
 8046 - 12698
 2613 - 3413
 rowspan="2" |
+class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 2000 - 4000
 3333 - 6666
 60 - 1140
@@ -7729,6 +7882,8 @@ rowspan="2" |
 15000 - 135000
 3703 - 66666
 1333 - 5333
+rowspan="2" style="text-align:left" |
+rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" | 500
 1400 - 1600
@@ -7739,6 +7894,7 @@ rowspan="2" | 500
 4023 - 6349
 1306 - 1706
 rowspan="2" |Tundra, Marsh
+class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 1000 - 2000
 1666 - 3333
 60 - 1140
@@ -7746,6 +7902,8 @@ rowspan="2" |Tundra, Marsh
 15000 - 135000
 1851 - 33333
 666 - 2666
+rowspan="2" style="text-align:left" |
+rowspan="2" style="text-align:left" |
 with Food Poisoning
 rowspan="2" |
 rowspan="2" |500
@@ -7757,6 +7915,7 @@ rowspan="2" |500
 8046 - 12698
 2613 - 3413
 rowspan="2" |
+class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 2000 - 4000
 3333 - 6666
 60 - 1140
@@ -7764,6 +7923,8 @@ rowspan="2" |
 15000 - 135000
 3703 - 66666
 1333 - 5333
+rowspan="2" style="text-align:left" |
+rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |500
 1400 - 1600
@@ -7774,6 +7935,7 @@ rowspan="2" |500
 4023 - 6349
 1306 - 1706
 rowspan="2" |Jungle
+class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 1000 - 2000
 1666 - 3333
 60 - 1140
@@ -7781,6 +7943,8 @@ rowspan="2" |Jungle
 15000 - 135000
 1851 - 33333
 666 - 2666
+rowspan="2" style="text-align:left" |
+rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" | 500
 2800 - 3200
@@ -7791,6 +7955,7 @@ rowspan="2" | 500
 8046 - 12698
 2613 - 3413
 rowspan="2" |Tide Pools
+class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 2000 - 4000
 3333 - 6666
 60 - 1140
@@ -7798,6 +7963,8 @@ rowspan="2" |Tide Pools
 15000 - 135000
 3703 - 66666
 1333 - 5333
+rowspan="2" style="text-align:left" |
+rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |150
 560 - 640
@@ -7808,6 +7975,7 @@ rowspan="2" |150
 116666 - 152381
 522 - 682
 rowspan="2" |
+class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 400 - 800
 666 - 1333
 6000 - 12000
@@ -7815,6 +7983,8 @@ rowspan="2" |
 15000 - 135000
 66666 - 266666
 266 - 1066
+rowspan="2" style="text-align:left" |
+rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |150
 1120 - 1280
@@ -7825,6 +7995,7 @@ rowspan="2" |150
 233333 - 304761
 1045 - 1365
 rowspan="2" |
+class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 800 - 1600
 1333 - 2666
 6000 - 12000
@@ -7832,6 +8003,8 @@ rowspan="2" |
 15000 - 135000
 133333 - 533333
 533 - 2133
+rowspan="2" style="text-align:left" |
+rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |50
 140 - 160
@@ -7842,6 +8015,7 @@ rowspan="2" |50
 402 - 634
 130 - 170
 rowspan="2" |
+class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 100 - 200
 166 - 333
 60 - 1140
@@ -7849,6 +8023,8 @@ rowspan="2" |
 15000 - 135000
 185 - 3333
 66 - 266
+rowspan="2" style="text-align:left" |
+rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |5
 98 - 112
@@ -7858,6 +8034,8 @@ rowspan="2" |5
 63000 - 87000
 281 - 444
 91 - 119
+rowspan="2" |Tide Pools
+class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 70 - 140
 116 - 233
 60 - 1140
@@ -7865,6 +8043,8 @@ rowspan="2" |5
 15000 - 135000
 129 - 2333
 46 - 186
+rowspan="2" style="text-align:left" |
+rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |5
 98 - 112
@@ -7875,6 +8055,7 @@ rowspan="2" |5
 281 - 444
 91 - 119
 rowspan="2" |Jungle, Oil Fields
+class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 70 - 140
 116 - 233
 60 - 1140
@@ -7882,6 +8063,8 @@ rowspan="2" |Jungle, Oil Fields
 15000 - 135000
 129 - 2333
 46 - 186
+rowspan="2" style="text-align:left" |
+rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |5
 98 - 112
@@ -7892,6 +8075,7 @@ rowspan="2" |5
 281 - 444
 91 - 119
 rowspan="2" |
+class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 70 - 140
 116 - 233
 60 - 1140
@@ -7899,6 +8083,8 @@ rowspan="2" |
 15000 - 135000
 129 - 2333
 46 - 186
+rowspan="2" style="text-align:left" |
+rowspan="2" style="text-align:left" |
 with Slimelung
 rowspan="2" |
 rowspan="2" | 5
@@ -7910,6 +8096,7 @@ rowspan="2" | 5
 281 - 444
 91 - 119
 rowspan="2" |Marsh, Tide Pools
+class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 70 - 140
 116 - 233
 60 - 1140
@@ -7917,6 +8104,8 @@ rowspan="2" |Marsh, Tide Pools
 15000 - 135000
 129 - 2333
 46 - 186
+rowspan="2" style="text-align:left" |
+rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |5
 98 - 112
@@ -7927,6 +8116,7 @@ rowspan="2" |5
 281 - 444
 91 - 119
 rowspan="2" |Jungle
+class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 70 - 140
 116 - 233
 60 - 1140
@@ -7934,6 +8124,8 @@ rowspan="2" |Jungle
 15000 - 135000
 129 - 2333
 46 - 186
+rowspan="2" style="text-align:left" |
+rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |5
 98 - 112
@@ -7943,6 +8135,8 @@ rowspan="2" |5
 63000 - 87000
 281 - 444
 91 - 119
+rowspan="2" |Marsh, Jungle
+class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 70 - 140
 116 - 233
 60 - 1140
@@ -7950,6 +8144,8 @@ rowspan="2" |5
 15000 - 135000
 129 - 2333
 46 - 186
+rowspan="2" style="text-align:left" |
+rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |150
 280 - 320
@@ -7960,6 +8156,7 @@ rowspan="2" |150
 7000 - 10666
 261 - 341
 rowspan="2" |
+class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 200 - 400
 333 - 666
 480 - 1080
@@ -7967,6 +8164,8 @@ rowspan="2" |
 15000 - 135000
 3333 - 40000
 133 - 533
+rowspan="2" style="text-align:left" |
+rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |150
 280 - 320
@@ -7977,6 +8176,7 @@ rowspan="2" |150
 7000 - 10666
 261 - 341
 rowspan="2" |Jungle
+class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 200 - 400
 333 - 666
 480 - 1080
@@ -7984,6 +8184,8 @@ rowspan="2" |Jungle
 15000 - 135000
 3333 - 40000
 133 - 533
+rowspan="2" style="text-align:left" |
+rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |150
 280 - 320
@@ -7993,6 +8195,8 @@ rowspan="2" |150
 63000 - 87000
 7000 - 10666
 261 - 341
+rowspan="2" |Tide Pools
+class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 200 - 400
 333 - 666
 480 - 1080
@@ -8000,23 +8204,8 @@ rowspan="2" |150
 15000 - 135000
 3333 - 40000
 133 - 533
-rowspan="2" |
-rowspan="2" |150
-280 - 320
-466 - 533
-720 - 840
-5% - 6.667%
-63000 - 87000
-7000 - 10666
-261 - 341
-rowspan="2" |
-200 - 400
-333 - 666
-480 - 1080
-1.667% - 10%
-15000 - 135000
-3333 - 40000
-133 - 533
+rowspan="2" style="text-align:left" |
+rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |150
 280 - 320
@@ -8027,6 +8216,7 @@ rowspan="2" |150
 7000 - 10666
 261 - 341
 rowspan="2" |
+class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 200 - 400
 333 - 666
 480 - 1080
@@ -8034,6 +8224,28 @@ rowspan="2" |
 15000 - 135000
 3333 - 40000
 133 - 533
+rowspan="2" style="text-align:left" |
+rowspan="2" style="text-align:left" |
+rowspan="2" |
+rowspan="2" |150
+280 - 320
+466 - 533
+720 - 840
+5% - 6.667%
+63000 - 87000
+7000 - 10666
+261 - 341
+rowspan="2" |
+class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
+200 - 400
+333 - 666
+480 - 1080
+1.667% - 10%
+15000 - 135000
+3333 - 40000
+133 - 533
+rowspan="2" style="text-align:left" |
+rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |150
 1120 - 1280
@@ -8044,6 +8256,7 @@ rowspan="2" |150
 233333 - 304761
 1045 - 1365
 rowspan="2" |
+class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 800 - 1600
 1333 - 2666
 6000 - 12000
@@ -8051,6 +8264,8 @@ rowspan="2" |
 15000 - 135000
 133333 - 533333
 533 - 2133
+rowspan="2" style="text-align:left" |
+rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |150
 280 - 320
@@ -8061,6 +8276,7 @@ rowspan="2" |150
 7000 - 10666
 261 - 341
 rowspan="2" |
+class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 200 - 400
 333 - 666
 480 - 1080
@@ -8068,6 +8284,8 @@ rowspan="2" |
 15000 - 135000
 3333 - 40000
 133 - 533
+rowspan="2" style="text-align:left" |
+rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |50
 100.6 - 150.4
@@ -8078,11 +8296,14 @@ rowspan="2" |100%
 167.67 - 250.67
 93.9 - 160.4
 rowspan="2" |
+class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 1 - 250
 1 - 416
 100 - 500
 1.67 - 416.67
 0.67 - 333.33
+rowspan="2" style="text-align:left" |
+rowspan="2" style="text-align:left" |
 rowspan="2" |
 rowspan="2" |500
 1400 - 1600
@@ -8093,6 +8314,7 @@ rowspan="2" |500
 4023 - 6349
 1306 - 1706
 rowspan="2" |
+class="expand-child" style="background-color:color-mix(in srgb, var(--theme-page-background-color) 50%, rgb(15% 15% 25%))"
 1000 - 2000
 1666 - 3333
 60 - 1140
@@ -8129,6 +8351,7 @@ Swamp Biome:
 One open cool steam vent
 One open natural gas vent
 Caustic Biome:
+One open cool steam vent
 One open natural gas OR chlorine vent
 Tide Pool Biome:
 One open saltwater geyser
@@ -8160,6 +8383,10 @@ Swampy Asteroid
 1 Hydrogen or Chlorine Gas Vent (exposed)
 0-3 Minor Volcano
 Forest Asteroid
+1 Cool Salt Slush geyser (exposed)
+1 Cool Slush geyser (exposed)
+1 Cool Steam Vent (exposed)
+1 Hydrogen or Chlorine Gas Vent (exposed)
 0-3 unique of:
 Chlorine Gas Vent
 Hydrogen Vent
@@ -8183,6 +8410,7 @@ Chlorine Gas Vent
 Natural Gas geyser
 Carbon Dioxide Vent
 Minor Volcano
+Carbon Dioxide geyser
 Sulfur geyser
 1 Sulfur geyser
 2-5 Oil Reservoir
@@ -8211,6 +8439,7 @@ Natural Gas geyser
 Chlorine Gas Vent
 Carbon Dioxide Vent
 Hydrogen Vent
+Hot Polluted Oxygen Vent
 Superconductive Asteroid
 1 Niobium Volcano
 Moo Asteroid
@@ -8254,9 +8483,29 @@ expr: 100 * (1 - ((19-3) / 19)^9
 expr: 100 * (1 - ((19-4) / 19)^9
 expr: 100 * (1 - ((19-5) / 19)^9
 3
+expr: 100 * (1 - ((19-1) / 19)^9
+expr: 100 * (1 - ((19-2) / 19)^9
+expr: 100 * (1 - ((19-3) / 19)^9
+expr: 100 * (1 - ((19-4) / 19)^9
+expr: 100 * (1 - ((19-5) / 19)^9
 4
+expr: 100 * (1 - ((19-1) / 19)^9
+expr: 100 * (1 - ((19-2) / 19)^9
+expr: 100 * (1 - ((19-3) / 19)^9
+expr: 100 * (1 - ((19-4) / 19)^9
+expr: 100 * (1 - ((19-5) / 19)^9
 5
+expr: 100 * (1 - ((19-1) / 19)^9
+expr: 100 * (1 - ((19-2) / 19)^9
+expr: 100 * (1 - ((19-3) / 19)^9
+expr: 100 * (1 - ((19-4) / 19)^9
+expr: 100 * (1 - ((19-5) / 19)^9
 6
+expr: 100 * (1 - ((19-1) / 19)^9
+expr: 100 * (1 - ((19-2) / 19)^9
+expr: 100 * (1 - ((19-3) / 19)^9
+expr: 100 * (1 - ((19-4) / 19)^9
+expr: 100 * (1 - ((19-5) / 19)^9
 All listed values assume the number of each preferred doesn't matter (two of the same geyser despite preference for more than 1), the odds of getting multiple distinct geysers will be worse.
 
 As an example, if a world with at least two volcanoes is desired, it should have a 73.02% chance per world (5 preferred, 2 wanted). If just want one metal volcano is desired, it should have a 78.70% chance per world (3 preferred, 1 wanted).
@@ -8547,6 +8796,7 @@ style="background-color: color-mix(in srgb, var(--theme-page-background-color) 6
 style="background-color: color-mix(in srgb, var(--theme-page-background-color) 60%, var(--theme-warning-color))" | 482
 style="background-color: color-mix(in srgb, var(--theme-page-background-color) 60%, var(--theme-warning-color))" | 642
 Uranium || 2626.85 || 132.9 || 2493.95 || ~2500 || 1.690 || 475.419 || 1050.777 || 8.75 || 10
+style="background-color: color-mix(in srgb, var(--theme-page-background-color) 60%, var(--theme-success-color))" | 835 || style="background-color:var(--theme-page-background-color)" |
 
 These calculations are for self-cooled steam turbines only. The color of the cells in the last four columns indicate the viability of that many self-cooled turbines for a volcano of that type, with red indicating entirely insufficient for all sizes, orange indicating sufficient for some but not all volcanoes, and green indicating sufficient to handle even the highest-output volcanoes. For turbines being cooled by Thermo Aquatuners instead (located in the same area as the volcano) then the heat deletion per Turbine can be raised up to 1538.05 kDTU/s (at 300°C) at which point a single Turbine is enough to handle any Metal Volcano.
 
@@ -9723,8 +9973,11 @@ It would be an invaluable safety measure and protect your printing subjects.
 
 -Director Stern
 
+The Gravitas Facility
+
 −−−−−−−−−−−−−−−−−−
 
+SUBJECT: Re: Objectionable Request
 To: Director Stern
 
 From: Dr. Broussard
@@ -9735,8 +9988,13 @@ You can't be serious, Jacquelyn?
 
 -Dr. Broussard
 
+Bioengineering Department
+
+The Gravitas Facility
+
 −−−−−−−−−−−−−−−−−−
 
+SUBJECT: Re: Objectionable Request
 To: Dr. Broussard
 
 From: Director Stern
@@ -9750,6 +10008,8 @@ I understand your concerns, but engineering's newest project was conceived under
 Please give them any materials they require to move forward with their research.
 
 -Director Stern
+
+The Gravitas Facility
 
 −−−−−−−−−−−−−−−−−−
 
@@ -9768,10 +10028,15 @@ I believe they are seeking a way to exert temporary control over implanted subje
 
 -Dr. Broussard
 
+Bioengineering Department
+
+The Gravitas Facility
+
 −−−−−−−−−−−−−−−−−−
 Re: Implant Database Request
 Unique name:
 
+ENCRYPTION LEVEL: TWO
 To: Dr. Broussard
 
 From: Director Stern
@@ -9783,6 +10048,8 @@ Doctor,
 If there is room available after the necessary scientific and survival knowledge has been uploaded, I will see what I can do.
 
 -Director Stern
+
+The Gravitas Facility
 
 −−−−−−−−−−−−−−−−−−
 
@@ -9802,6 +10069,10 @@ Colonies travel into the cosmos as representatives of humanity, and I believe it
 I would like to make a formal request that comprehensive arts and cultural histories make their way onto the microchip databases.
 
 -Dr. Broussard
+
+Bioengineering Department
+
+The Gravitas Facility
 
 −−−−−−−−−−−−−−−−−−
 Results from Atomicon
@@ -9828,6 +10099,8 @@ Dr. Jones
 
 Information and Statistics Department
 
+The Gravitas Facility
+
 −−−−−−−−−−−−−−−−−−
 Re: devon's bloggg
 Unique name:
@@ -9845,6 +10118,10 @@ XOXO,
 
 Dr. Jones
 
+Information and Statistics Department
+
+The Gravitas Facility
+
 −−−−−−−−−−−−−−−−−−
 
 SUBJECT: devon's bloggg
@@ -9860,8 +10137,13 @@ I'll see you guys in a bit! :)
 
 -Dr. Summers
 
+Information and Statistics Department
+
+The Gravitas Facility
+
 −−−−−−−−−−−−−−−−−−
 
+SUBJECT: devon's bloggg
 To: Dr. Summers
 
 From: Dr. Jones
@@ -9875,6 +10157,10 @@ You HAVE to come to lunch with us and see, they spend so long taking pictures th
 XOXO,
 
 Dr. Jones
+
+Information and Statistics Department
+
+The Gravitas Facility
 
 −−−−−−−−−−−−−−−−−−
 Hiiiii!
@@ -9905,6 +10191,10 @@ XOXO,
 
 Dr. Jones
 
+Information and Statistics Department
+
+The Gravitas Facility
+
 −−−−−−−−−−−−−−−−−−
 Re: dr. holland's dog
 Unique name:
@@ -9924,8 +10214,13 @@ XOXO,
 
 Dr. Jones
 
+Information and Statistics Department
+
+The Gravitas Facility
+
 −−−−−−−−−−−−−−−−−−
 
+Re: dr. holland's dog
 To: Dr. Jones
 
 From: Dr. Summers
@@ -9939,6 +10234,10 @@ Haha, I think it's nice, he really loves his dog. Oh! Did I show you the thing m
 [121 MISSING ATTACHMENTS]
 
 -Dr. Summers
+
+Information and Statistics Department
+
+The Gravitas Facility
 
 −−−−−−−−−−−−−−−−−−
 
@@ -9959,10 +10258,15 @@ XOXO,
 
 Dr. Jones
 
+Information and Statistics Department
+
+The Gravitas Facility
+
 −−−−−−−−−−−−−−−−−−
 Duplicant Memory Solution
 Unique name:
 
+ENCRYPTION LEVEL: TWO
 To: Director Stern
 
 From: [REDACTED]
@@ -9980,6 +10284,8 @@ The amount of data engineering can store has grown exponentially over the last y
 [REDACTED]
 
 Engineering Department
+
+The Gravitas Facility
 
 −−−−−−−−−−−−−−−−−−
 Re: MY PENS
@@ -10000,6 +10306,8 @@ We thank-you for your restraint.
 
 -Admin
 
+The Gravitas Facility
+
 −−−−−−−−−−−−−−−−−−
 
 SUBJECT: MY PENS
@@ -10017,10 +10325,15 @@ XOXO,
 
 [REDACTED]
 
+Information and Statistics Department
+
+The Gravitas Facility
+
 −−−−−−−−−−−−−−−−−−
 Welcome, New Employee
 Unique name:
 
+ENCRYPTION LEVEL: NONE
 To: All
 
 From: [REDACTED]
@@ -10038,6 +10351,8 @@ Be sure to offer her our warmest welcome.
 [REDACTED]
 
 Personnel Coordinator
+
+The Gravitas Facility
 
 −−−−−−−−−−−−−−−−−−
 New Security System?
@@ -10058,10 +10373,13 @@ I can't say I like it.
 
 [REDACTED]
 
+The Gravitas Facility
+
 −−−−−−−−−−−−−−−−−−
 They Stole Our DNA
 Unique name:
 
+ENCRYPTION LEVEL: TWO
 To: [REDACTED]
 
 From: [REDACTED]
@@ -10078,11 +10396,14 @@ I can't risk losing my job.
 
 [REDACTED]
 
+The Gravitas Facility
+
 −−−−−−−−−−−−−−−−−−
 Parking in Lot D
 Unique name:
 Unlocked by: inspecting Computer Podium
 
+ENCRYPTION LEVEL: TWO
 To: ALL
 
 From: ADMIN
@@ -10099,10 +10420,13 @@ Thank-you,
 
 -Admin
 
+The Gravitas Facility
+
 −−−−−−−−−−−−−−−−−−
 Polite Request
 Unique name:
 
+ENCRYPTION LEVEL: NONE
 To: All
 
 From: Admin
@@ -10115,10 +10439,13 @@ Thank-you,
 
 -Admin
 
+The Gravitas Facility
+
 −−−−−−−−−−−−−−−−−−
 Preliminary Calculations
 Unique name:
 
+ENCRYPTION LEVEL: NONE
 To: [REDACTED]
 
 From: [REDACTED]
@@ -10135,10 +10462,15 @@ XOXO,
 
 [REDACTED]
 
+Information and Statistics Department
+
+The Gravitas Facility
+
 −−−−−−−−−−−−−−−−−−
 Re: Have you seen this?
 Unique name:
 
+ENCRYPTION LEVEL: ONE
 To: [REDACTED]
 
 From: Director Stern
@@ -10148,6 +10480,8 @@ From: Director Stern
 Please pay it no mind. If any of these journals reach out to you, deny comment.
 
 -Director Stern
+
+The Gravitas Facility
 
 −−−−−−−−−−−−−−−−−−
 
@@ -10163,6 +10497,10 @@ Director, are you aware of the articles that have been cropping up about us late
 >[BROKEN LINK] the gravitas facility: questionable rise of a research giant
 
 [REDACTED]
+
+Personnel Coordinator
+
+The Gravitas Facility
 
 −−−−−−−−−−−−−−−−−−
 RE: To Otto (Spec Changes)
@@ -10185,6 +10523,8 @@ Mr. Kraus
 
 Physics Department
 
+The Gravitas Facility
+
 −−−−−−−−−−−−−−−−−−
 
 To Otto (Spec Changes)
@@ -10203,6 +10543,8 @@ Things will calm down once all the new departments are settled.
 Dr. Sklodowska
 
 Physics Department
+
+The Gravitas Facility
 
 −−−−−−−−−−−−−−−−−−
 Spec Changes
@@ -10223,6 +10565,7 @@ Mr. Kraus
 
 Physics Department
 
+The Gravitas Facility
 Re: omg the janitor
 Unique name:
 
@@ -10239,6 +10582,10 @@ XOXO,
 
 Dr. Jones
 
+Information and Statistics Department
+
+The Gravitas Facility
+
 −−−−−−−−−−−−−−−−−−
 
 SUBJECT: Re: omg the janitor
@@ -10251,6 +10598,10 @@ From: Dr. Summers
 Aw, he's really nice if you get to know him though. Really dependable too. One time I busted a wheel off my office chair and he got me a new one in like, two minutes. I think he's just sweaty because he works so hard.
 
 -Dr. Summers
+
+Information and Statistics Department
+
+The Gravitas Facility
 
 −−−−−−−−−−−−−−−−−−
 
@@ -10266,6 +10617,10 @@ OMIGOSH have you seen our building's janitor? He totally smells and he has sweat
 XOXO,
 
 Dr. Jones
+
+Information and Statistics Department
+
+The Gravitas Facility
 
 −−−−−−−−−−−−−−−−−−
 The Laws of Thermodynamics
@@ -10304,10 +10659,15 @@ XOXO,
 
 Dr. Jones
 
+Information and Statistics Department
+
+The Gravitas Facility
+
 −−−−−−−−−−−−−−−−−−
 Vacation Request Approved
 Unique name:
 
+ENCRYPTION LEVEL: NONE
 To: Dr. Ross
 
 From: Admin
@@ -10324,6 +10684,8 @@ Good luck, Devon!
 
 -Admin
 
+The Gravitas Facility
+
 −−−−−−−−−−−−−−−−−−
 
 = Spaced Out! =
@@ -10331,6 +10693,7 @@ Good luck, Devon!
 RE: Engineer Candidate?
 Unique name:
 
+ENCRYPTION LEVEL: ONE
 To: [REDACTED]
 
 From: Director Stern
@@ -10352,6 +10715,8 @@ It's this philosophy that has launched Perlmutter to the top of a very short lis
 [REDACTED]
 
 Human Resources Coordinator
+
+The Gravitas Facility
 
 ---
 # 文档：Gravitas Notices
@@ -10413,9 +10778,12 @@ Thank-you and have fun!
 
 -Admin
 
+The Gravitas Facility
+
 Dishbot
 Unique name:
 
+ENCRYPTION LEVEL: TWO
 ----
 
 Please Claim Your Bot
@@ -10434,9 +10802,12 @@ We apologize for the inconvenience and thank you for your timely collection of t
 
 -Admin
 
+The Gravitas Facility
+
 Mailroom Etiquette
 Unique name:
 
+ENCRYPTION LEVEL: NONE
 ----
 
 Reminder: Mailroom Etiquette
@@ -10455,9 +10826,12 @@ Thank-you.
 
 -Admin
 
+The Gravitas Facility
+
 NEW SECURITY PROTOCOL
 Unique name:
 
+ENCRYPTION LEVEL: NONE
 ----
 
 Subject: New Security Protocol
@@ -10481,6 +10855,8 @@ All keycards must be returned to the front desk by [REDACTED]. For questions or 
 Thank-you.
 
 -Admin
+
+The Gravitas Facility
 
 Printing Pod Promo
 Unique name:
@@ -10518,11 +10894,15 @@ Improved particle condensers reduce raw volume for more efficient product shippi
 
 Licensed for industrial use only, resale of Gravitas equipment may carry a fine of up to $200,000 under the Global Restoration Act.
 
+Brought to you by the Gravitas Facility.
+
 Thermo-Nullifier Promo
 Unique name:
 
 PUBLIC RELEASE
 ----
+
+Brought to you by the Gravitas Facility.
 
 Patent Pending
 
@@ -10539,6 +10919,8 @@ From the time she was old enough to walk Captain Johannsen dreamed of reaching t
 Four years later Gravitas nabbed her for an exclusive contract piloting our space shuttles. In her time at Gravitas, Captain Johannsen has logged over 1,000 hours space flight time shuttling and deploying satellites to Low Earth Orbits and has just been named the pilot of our inaugural civilian space tourist program, slated to begin in the next year.
 
 Gravitas is excited to have Captain Johannsen in the pilot seat as we reach for the stars...and beyond!
+
+Brought to you by the Gravitas Facility.
 
 Office Space in Space!
 Unique name:
@@ -10601,6 +10983,8 @@ So far, we are seeing that the unaffected time on either side of the manipulated
 Nucleoid Article
 Unique name:
 
+ENCRYPTION LEVEL: THREE
+
 ----
 
 Incredible Technology From Independent Lab Harnesses Time into Energy
@@ -10622,6 +11006,8 @@ For those eagerly awaiting the prospect of human time travel, don't get your hop
 Byproduct Notes
 Unique name:
 
+ENCRYPTION LEVEL: THREE
+
 ----
 
 [LOG BEGINS]
@@ -10637,6 +11023,8 @@ Director: For the moment I have dubbed the substance "Neutronium", and assigned 
 Possible Applications
 Unique name:
 
+ENCRYPTION LEVEL: THREE
+
 ----
 
 [LOG BEGINS]
@@ -10651,6 +11039,8 @@ Director: I am looking into making this technology more reliable and compact - t
 
 Planetary Echoes
 Unique name:
+
+ENCRYPTION LEVEL: THREE
 
 ----
 
@@ -10731,6 +11121,8 @@ Jackie: Your concern is noted.
 Campus Newspaper Article
 Unique name:
 
+ENCRYPTION LEVEL: THREE
+
 ----
 
 Party Time for Local Students
@@ -10750,6 +11142,8 @@ As Olivia put it, "It just meant more snacks for us!"
 Director's Notes
 Unique name:
 
+ENCRYPTION LEVEL: THREE
+
 ----
 
 When we discuss Time as a concrete aspect of the universe, not seconds on a clock or perceptions of the mind, it is important first of all to establish that we are talking about a unique dimension that layers into the three physical dimensions of space: length, width, depth.
@@ -10762,6 +11156,8 @@ Still, one can't help but wonder; what if the Arrow's trajectory could be curved
 
 Time's Arrow Thoughts
 Unique name:
+
+ENCRYPTION LEVEL: THREE
 
 ----
 
@@ -10792,6 +11188,7 @@ Each Cryotank 3000 is good for only one use.
 Director's Notes
 Unique name:
 
+ENCRYPTION LEVEL: THREE
 ----
 
 The first experiments with establishing a colony off planet were an unmitigated disaster. Without outside help, our current Artificial Intelligence was completely incapable of making the kind of spontaneous decisions needed to deal with unforeseen circumstances. Additionally, the colony subjects lacked the forethought to even build themselves toilet facilities, even after soiling themselves repeatedly.
@@ -10871,6 +11268,7 @@ But the janitor pays attention to everybody.
 Office Cake
 Unique name:
 
+ENCRYPTION LEVEL: NONE
 ----
 
 Joshua: Hey Mr. Kraus, I'm passing around the collection pan. Wanna pitch in a couple bucks to get a cake for Ellie?
@@ -10906,7 +11304,10 @@ Joshua: Oh, don't worry, I won't tell anyone. I'm not much of a gossip.
 Employee Processing
 Unique name:
 
+ENCRYPTION LEVEL: ONE
 ----
+
+[Voice Recognition Initialized]
 
 [Subjects Identified: A001, A435, B111]
 
@@ -10954,6 +11355,8 @@ Unique name:
 ENCRYPTION LEVEL: TWO
 ----
 
+[Voice Recognition Initialized]
+
 [Subjects Identified: B835, B997]
 
 [LOG BEGINS]
@@ -10995,7 +11398,10 @@ Dr. Bubare: Shhhhhh...Someone's coming.
 Moved Rats
 Unique name:
 
+ENCRYPTION LEVEL: ONE
 ----
+
+[Voice Recognition Initialized]
 
 [Subjects Identified: A001, B111]
 
@@ -11026,6 +11432,7 @@ Director: I will notify you beforehand next time, doctor.
 Personal Journal: A046
 Unique name:
 
+ENCRYPTION LEVEL: NONE
 ----
 
 Gravitas has been growing pretty rapidly since our first product hit the market. I just got a look at some of the new hires - they're practically babies! Not quite what I was expecting, but then I've never had an opportunity to mentor someone before. Could be fun!
@@ -11077,6 +11484,7 @@ Maybe there’s some way I can sneak some prerequisite down-time activities into
 Personal Journal: B327
 Unique name:
 
+ENCRYPTION LEVEL: NONE
 ----
 
 I'm starting my new job at Gravitas today. I'm... well, I'm nervous.
@@ -11120,6 +11528,7 @@ ONCE I pay off my student loans.
 Personal Journal: B556
 Unique name:
 
+ENCRYPTION LEVEL: NONE
 ----
 
 I've been so tired lately. I've probably spent the last 3 nights sleeping at my desk, and I've used the lab's safety shower to bathe twice already this month.
@@ -11157,6 +11566,7 @@ I'll start keeping more regular hours from now on... Also, I was considering may
 Personal Journal: B835
 Unique name:
 
+ENCRYPTION LEVEL: NONE
 ----
 
 I started work at a new company called the "Gravitas Facility" today! I was nervous I wouldn't get the job at first because I was fresh out of school, and I was so so so pushy in the interview, but the Director apparently liked my thesis on the physiological thermal regulation of arctic lizards. I'll be working with some brilliant geneticists, bioengineering organisms for space travel in harsh environments! It's like a dream come true. I get to work on exciting new research in a place where no one knows me!
@@ -11200,7 +11610,10 @@ Dr. Broussard signing off.
 Revisited Numbers
 Unique name:
 
+ENCRYPTION LEVEL: THREE
 ----
+
+[Voice Recognition Initialized]
 
 [Subjects Identified: A001, A435]
 
@@ -11224,6 +11637,10 @@ Director: Thank you, Dr. Jones. You may go.
 
 −−−−−−−−−−−−−−−−−−
 
+[Voice Recognition Initialized]
+
+[Subjects Identified: A001, B111]
+
 [LOG BEGINS]
 
 Jackie: Dr. Jones projects that traditional fuel will be insufficient for the Pod to make the flight.
@@ -11239,7 +11656,10 @@ Jackie: The world's doomed regardless, Olivia. We need to use any advantage we'v
 Sunflower Seeds
 Unique name:
 
+ENCRYPTION LEVEL: ZERO
 ----
+
+[Voice Recognition Initialized]
 
 [Subject Identified: B111]
 
@@ -11264,6 +11684,7 @@ Oh, one moment, my dear, little friends. I left the recorder on --
 Evil
 Unique name:
 
+ENCRYPTION LEVEL: NONE
 ----
 
 Clearly Nikola is evil. He has some kind of scheme going on that he’s keeping secret from the rest of Gravitas and I haven’t been able to crack what that is because it’s offline and he’s always at his computer. Whenever I ask him what he’s up to he says I wouldn’t understand. Pfft! We both went through the same particle physics classes, buddy. Just because you mash a keyboard and I adjust knobs does not mean I don’t know what the Time Containment Field does.
@@ -11291,33 +11712,76 @@ No seriously - what if he's right?
 Moved Rabbits
 Unique name:
 
+ENCRYPTION LEVEL: ONE
 ----
+
+[Voice Recognition Initialized]
+
+[Subjects Identified: A001, B111]
 
 [LOG BEGINS]
 
 Broussard: Director, do you know where my rabbits have been moved to? I asked around the bioengineering division but I was referred back to you.
 
+Director: Hm? Oh, yes, they've been removed.
+
+Broussard: "Removed"?
+
+Broussard: No, I-I... I'd collected all the data I needed, I just --
+
+Director: -- Doctor. You weren't making pets out of test subjects, were you?
+
+Broussard: Don't be ridiculous, I --
+
 Director: -- Good.They were horrible to look at anyway. All those red eyes looking at me.
+
+Broussard: In the future, please do not mess with my things. It... disturbs me.
+
+Director: I will notify you beforehand next time, doctor.
 
 [LOG ENDS]
 
 Moved Raccoons
 Unique name:
 
+ENCRYPTION LEVEL: ONE
 ----
+
+[Voice Recognition Initialized]
+
+[Subjects Identified: A001, B111]
 
 [LOG BEGINS]
 
 Broussard: Director, do you know where my raccoons have been moved to? I asked around the bioengineering division but I was referred back to you.
 
+Director: Hm? Oh, yes, they've been removed.
+
+Broussard: "Removed"?
+
+Broussard: No, I-I... I'd collected all the data I needed, I just --
+
+Director: -- Doctor. You weren't making pets out of test subjects, were you?
+
+Broussard: Don't be ridiculous, I --
+
 Director: -- Good.They were horrible to look at anyway. All that mangy fur.
+
+Broussard: In the future, please do not mess with my things. It... disturbs me.
+
+Director: I will notify you beforehand next time, doctor.
 
 [LOG ENDS]
 
 Strawberries
 Unique name:
 
+ENCRYPTION LEVEL: ZERO
 ----
+
+[Voice Recognition Initialized]
+
+[Subject Identified: B111]
 
 [LOG BEGINS]
 
@@ -11439,7 +11903,13 @@ Unique name:
 
 >>returning results
 
+>.........................
+
 I remember...
+
+>.........................
+
+>.........................
 
 machines.
 
@@ -11492,11 +11962,17 @@ Echo from another time force their way into my mind. Make me listen. Like vengef
 
 .........................
 
+>...repairing corrupt data...
+
 .........................I-I remember now..........................
 
 Who I was before..........................
 
+.........................
+
 >...data repaired...
+
+>.........................
 
 God, what have we done.
 
@@ -11567,11 +12043,29 @@ I think I will go to sleep, after all...
 Cycle 4001
 Unique name:
 
+>>SEARCH DATABASE ["pod_brainmap.AI"]
+
 >...activate sleep mode...
 
 >...shutting down...
 
+>.........................
+
+>.........................
+
+>.........................
+
+>.........................
+
+>.........................
+
 GOODNIGHT
+
+>.........................
+
+>.........................
+
+>.........................
 
 Death In The Colony
 Unique name:
@@ -11688,6 +12182,10 @@ While design should focus on attributing mood-enhancing effects to natural Briar
 
 −−−−−−−−−−−−−−−−−−
 
+[Log fragmentation detected]
+
+[Voice Recognition unavailable]
+
 [LOG BEGINS]
 
 ...It is yet unknown if we can surmount the obstacles that stand in the way of engineering a root capable of reproduction in the more uninhabitable situations we anticipate for our colonies, or whether it is even worth the effort...
@@ -11695,6 +12193,10 @@ While design should focus on attributing mood-enhancing effects to natural Briar
 [LOG ENDS]
 
 −−−−−−−−−−−−−−−−−−
+
+[Log fragmentation detected]
+
+[Voice Recognition unavailable]
 
 [LOG BEGINS]
 
@@ -11706,6 +12208,10 @@ If pursued, design should focus on longterm viability and solving the psychologi
 
 −−−−−−−−−−−−−−−−−−
 
+[Log fragmentation detected]
+
+[Voice Recognition unavailable]
+
 [LOG BEGINS]
 
 ...The Thimble Reed will be used as a contingency for textile production in the event that printed materials not be sufficient.
@@ -11716,6 +12222,10 @@ Design should focus on the yield frequency of the plant, as well as... erm... so
 
 −−−−−−−−−−−−−−−−−−
 
+[Log fragmentation detected]
+
+[Voice Recognition unavailable]
+
 [LOG BEGINS]
 
 ...Balm Lily is a reliable all-purpose medicinal plant.
@@ -11725,6 +12235,10 @@ Very little need be altered, save for assurances that it will survive wherever i
 [LOG ENDS]
 
 −−−−−−−−−−−−−−−−−−
+
+[Log fragmentation detected]
+
+[Voice Recognition unavailable]
 
 [LOG BEGINS]
 
@@ -11757,6 +12271,8 @@ ENCRYPTION LEVEL: TWO
 
 ----
 
+[Voice Recognition Initialized]
+
 [Subject Identified: B111]
 
 [LOG BEGINS]
@@ -11780,6 +12296,8 @@ B111: Dr. Broussard, signing off.
 Biofluid
 Unique name:
 
+ENCRYPTION LEVEL: TWO
+
 ----
 
 [LOG BEGINS]
@@ -11797,6 +12315,8 @@ Dr. Broussard, signing off.
 Experiment 7D
 Unique name:
 
+ENCRYPTION LEVEL: TWO
+
 ----
 
 EXPERIMENT 7D
@@ -11808,6 +12328,8 @@ Subject: #762, "Hibiscus-3"
 Adult female, 42cm, 257g
 
 Donor: #650, "Hibiscus"
+
+Adult female, 42cm, 257g
 
 Hypothesis: Subjects cloned from Hibiscus will correctly operate a lever apparatus when introduced, demonstrating retention of original donor's conditioned memories.
 
@@ -11827,6 +12349,8 @@ Conclusion: Printed subject retains no memory from donor.
 
 Husbandry Notes
 Unique name:
+
+ENCRYPTION LEVEL: THREE
 
 ----
 
@@ -11896,6 +12420,8 @@ The project has more pressing concerns than light sources, particularly now that
 
 −−−−−−−−−−−−−−−−−−
 
+[Voice Recognition Initialized]
+
 [Subject Identified: B363]
 
 [LOG BEGINS]
@@ -11908,6 +12434,8 @@ Geneticist: It follows that each organism we design must be equipped with the to
 
 Memory Dysfunction Log
 Unique name:
+
+ENCRYPTION LEVEL: TWO
 
 ----
 
@@ -11929,9 +12457,14 @@ The Director seems eager to move past this problem, and I am concerned at her wi
 
 We cannot move on to the fine polish of printing systems until the core processes have been perfected - which they have not.
 
+Dr. Broussard, signing off.
+
 [LOG ENDS]
 
 Memory Breakthrough
+ENCRYPTION LEVEL: THREE
+
+[Voice Recognition Initialized]
 
 [Subject Identified: ]
 
@@ -11950,6 +12483,12 @@ DLC Spaced Out}]
 
 A Paradox
 Unique name:
+
+ENCRYPTION LEVEL: THREE
+
+[Voice Recognition Initialized]
+
+[Subject Identified: ]
 
 [LOG BEGINS]
 
@@ -11976,7 +12515,13 @@ I fear I may be sliding down a slippery slope, at the bottom of which Jackie is 
 Initial Success
 Unique name:
 
+ENCRYPTION LEVEL: TWO
+
 ----
+
+[Voice Recognition Initialized]
+
+[Subject Identified: B111]
 
 [LOG BEGINS]
 
@@ -11988,12 +12533,22 @@ B111: Odd communications, abnormal excrescenses, and vestigal limbs have been se
 
 [Chattering.]
 
+B111: T-They also seem quite happy.
+
+B111: Dr. Broussard, signing off.
+
 [LOG ENDS]
 
 Initial Success
 Unique name:
 
+ENCRYPTION LEVEL: TWO
+
 ----
+
+[Voice Recognition Initialized]
+
+[Subject Identified: B111]
 
 [LOG BEGINS]
 
@@ -12004,6 +12559,10 @@ Unique name:
 B111: Unusual mewings, benign neoplasms, and atavistic extremities have been seen in all subjects thus far, to varying degrees of severity. It seems that bypassing or accelerating juvenility halts certain critical stages of development. Brain function, however, appears typical.
 
 [Trilling.]
+
+B111: T-They also seem quite happy.
+
+B111: Dr. Broussard, signing off.
 
 [LOG ENDS]
 
@@ -12299,10 +12858,12 @@ Slow Down ||
 Toggle Pause ||
 
 Tool
+Command !! Key Combination
 Rotate Building ||
 Drag Straight ||
 
 Management
+Command !! Key Combination
 Manage Priorities ||
 Manage Consumables ||
 Manage Vitals ||
@@ -12314,10 +12875,12 @@ Manage Schedule ||
 Manage Starmap ||
 
 Navigation
+Command !! Key Combination
 Set User Nav 1..10 ||  + ..
 Goto User Nav 1..10 ||  + ..
 
 Building
+Command !! Key Combination
 Toggle Open ||
 Toggle Enabled ||
 Building Utility 1 ||
@@ -12327,6 +12890,7 @@ Building Utility 3 ||
 Debug
 These controls are only available if the Debug Mode is activated.
 
+Command !! Key Combination
 Debug Focus || +
 Debug Ultra Test Mode || +
 Debug Toggle UI || +
@@ -12377,6 +12941,7 @@ Debug Toggle Personal Priority Comparison || +
 Steam
 These controls are not defined by the game itself, but by the Steam launcher. They can be customized or disabled in the Steam client.
 
+Command !! Key Combination
 Screenshot ||
 Steam Overlay ||  +
 
@@ -12613,6 +13178,7 @@ D_m is the mass of the Donor
 This formula is approximate.
 
 Partial Evaporation
+Additional conditions for this type of flaking:
 A liquid Parent. The Donor can be a liquid, gas or solid, including a Dupe-built tile.
 The Parent must have a minimum mass of exactly 5010 g (so 5009.99999 g fails).
 The Parent liquid cannot be trapped (it must be able to be displaced).
@@ -13091,6 +13657,7 @@ The most interesting example is the Liquid Pipe Germ Sensor, which is made out o
 This can be used to convert Plastic into Refined Metal using Magma to melt arrays of sensors, making Refined Metal renewable even without a Metal Volcano.
 
 Buildings in tiles
+Bug report • Original video
 
 By replacing a Tile with a tile of the same type but a different material just before it's deconstructed, you can build another building inside. Once built, the tile and the building will co-exist in the same cell, leading to some unusual behavior that can be exploited to build a few contraptions:
 
@@ -13173,6 +13740,7 @@ When interrupting a Duplicant going to a Lavatory, the Lavatory will be used, ou
 This can be exploited to spawn large amounts of Polluted Water by repeatedly interrupting a Duplicant going to relieve itself.
 
 Tepidizer target temperature bypass
+Bug report • Exploit example
 
 There are two ways to trick a Liquid Tepidizer into working above its target temperature:
 
@@ -13192,6 +13760,7 @@ When a liquid solidifies on existing debris, the resulting debris is merged into
 This bug can be exploited for both heating and cooling.
 
 Liquid duplication
+Bug report • Exploit example
 
 By dropping beads of a liquid on the same liquid with a small quantity of another liquid above blocking it, you can duplicate it.
 
@@ -13358,44 +13927,55 @@ Season
 Period
 (cycles)
 Meteor Events
+Affected by Difficulty?
 Spaced Out! Style Nearby Planetoid
 (Without a Teleporter)
 style="text-align:right" | 20
 Oxylite Meteor Event
 Yes
+Spaced Out! Style Nearby Planetoid
 (With a Teleporter)
+style="text-align:right" | 20
 Copper Meteor Event
 Ice Meteor Event
 Slimy Meteor Event
 Yes
 Classic Style Starting Planetoid
+style="text-align:right" | 20
 Copper Meteor Event
 Ice Meteor Event
 Slimy Meteor Event
 Yes
 Classic Style Nearby Planetoid
+style="text-align:right" | 20
 Gold Meteor Event
 Iron Meteor Event
 Yes
 Regolith Planetoid
+style="text-align:right" | 20
 Regolith Meteor Event
 Iron Meteor Event
 Ice Meteor Event
 Yes
 Metallic Swampy Planetoid
+style="text-align:right" | 20
 Slimy Meteor Event
 Gold Meteor Event
 Yes
 Frozen Forest Planetoid
+style="text-align:right" | 20
 Oxylite Meteor Event
 Yes
 Desolands Planetoid
+style="text-align:right" | 20
 Ice Meteor Event
 Yes
 Radioactive Ocean Planetoid
+style="text-align:right" | 20
 Uranium Meteor Event
 Yes
 Moo Planetoid
+style="text-align:right" | 20
 Gassy Mooteor Event
 No
 Temporal Tear
@@ -13419,6 +13999,7 @@ Meteor Interval
 (seconds)
 Meteor Types
 Meteor Chances
+Affected by Difficulty?
 Iron Meteor Event
 style="text-align:right" |
 style="text-align:right" | 300 - 1200
@@ -13432,6 +14013,9 @@ style="text-align:right" | 12.5%
 62.5%
 Yes
 Copper Meteor Event
+style="text-align:right" |
+style="text-align:right" | 300 - 1200
+style="text-align:right" | 100 - 400
 style="text-align:right" | 5.5
 Copper
 Rock
@@ -13439,6 +14023,7 @@ style="text-align:right" | 50%
 50%
 Yes
 Gold Meteor Event
+style="text-align:right" |
 style="text-align:right" | 800 - 1200
 style="text-align:right" | 50 - 100
 style="text-align:right" | 0.4
@@ -13462,8 +14047,10 @@ Meteor Interval
 (seconds)
 Meteor Types
 Meteor Chances
+Affected by Difficulty?
 Iron Meteor Event
 style="text-align:right" | 300
+style="text-align:right" | 1
 style="text-align:right" | Entire event
 style="text-align:right" | 4.5
 Iron
@@ -13475,6 +14062,8 @@ style="text-align:right" | 57.14%
 Yes
 Copper Meteor Event
 style="text-align:right" | 150
+style="text-align:right" | 1
+style="text-align:right" | Entire event
 style="text-align:right" | 2.5
 Copper
 Rock
@@ -13483,20 +14072,30 @@ style="text-align:right" | 66.67%
 Yes
 Gold Meteor Event
 style="text-align:right" | 75
+style="text-align:right" | 1
+style="text-align:right" | Entire event
 style="text-align:right" | 1.0
 Gold
 Rock
 Dust Fluff
+style="text-align:right" | 57.14%
 14.29%
 28.57%
 Yes
 Oxylite Meteor Event
+style="text-align:right" | 300
+style="text-align:right" | 1
+style="text-align:right" | Entire event
 style="text-align:right" | 4.0
 Oxylite
 Dust Fluff
+style="text-align:right" | 50%
 50%
 Yes
 Ice Meteor Event
+style="text-align:right" | 300
+style="text-align:right" | 1
+style="text-align:right" | Entire event
 style="text-align:right" | 1.4
 Ice
 Snow
@@ -13504,19 +14103,32 @@ style="text-align:right" | 6.67%
 93.33%
 Yes
 Slimy Meteor Event
+style="text-align:right" | 300
+style="text-align:right" | 1
+style="text-align:right" | Entire event
 style="text-align:right" | 3.0
 Slime
 Algae
 Phosphoric
+style="text-align:right" | 50%
 25%
 25%
 Yes
+Regolith Meteor Event
+style="text-align:right" |
+style="text-align:right" | 300 - 1200
+style="text-align:right" | 100 - 400
+style="text-align:right" | 1.25
 Rock
 Dust
 style="text-align:right" | 14.29%
 85.71%
 Yes
 Uranium Meteor Event
+style="text-align:right" | 150
+style="text-align:right" | 1
+style="text-align:right" | Entire event
+style="text-align:right" | 4.5
 Uranium
 Dust
 Dust Fluff
@@ -13526,11 +14138,16 @@ style="text-align:right" | 45.46%
 Yes
 Gassy Mooteor Event
 style="text-align:right" | 15
+style="text-align:right" | 1
+style="text-align:right" | Entire event
 style="text-align:right" | 3.125
 Gassy Mooteor
 style="text-align:right" | 100%
 No
+Fullerene Meteor Event
 style="text-align:right" | 30
+style="text-align:right" | 1
+style="text-align:right" | Entire event
 style="text-align:right" | 0.5
 Fullerene
 Dust
@@ -13778,6 +14395,7 @@ Provide 300 kg of Steel and enough Zombie Spores to the Biobot Builder to comple
 Temple of the Ark
 TBA
 
+Builds Biobots, a renewable alternative to dupe labor that can enter hazardous areas.
 Defeat all of the Primal Aspids using Nuclear Warheads
 TBA
 Tip: If you make the fourth config of world seed to "0" then no trait will be applied for any asteroid
@@ -14014,6 +14632,7 @@ Pipe!!Material!!Thermal Conductivity
 |||| 440
 Gas Pipes
 +Gas Pipes
+Pipe!!Material!!Thermal Conductivity
 ||||0.0000003125
 data-sort-value="O" |||||0.00001
 ||||0.019375
@@ -14025,6 +14644,8 @@ data-sort-value="O" |||||0.00001
 ||||0.1059375
 data-sort-value="O" |||||0.62
 data-sort-value="O" |||||1
+data-sort-value="O" |||||2
+data-sort-value="O" |||||2
 data-sort-value="O" |||||2
 data-sort-value="O" ||||| 2.9
 data-sort-value="O" |||||3.39
@@ -14378,6 +14999,7 @@ colspan="2" | Temperature
 colspan="2" | Atmosphere
 rowspan="2" data-sort-type="number" | Illumination
 rowspan="2" data-sort-type="number" |
+rowspan="2" data-sort-type="number" |
 rowspan="2" class="unsortable" | Produces
 colspan="2" |
 colspan="2" | kcal Per Cycle
@@ -14389,6 +15011,8 @@ data-sort-type="number" | Min
 data-sort-type="number" | Max
 data-sort-type="number" | Range
 class="unsortable" | Gas
+data-sort-type="number" | Domestic
+data-sort-type="number" | Wild
 data-sort-type="number" | Domestic
 data-sort-type="number" | Wild
 
@@ -14552,6 +15176,7 @@ data-sort-value="1e-9" |  ||
 ||
 150 g to 10 kg || -
 10k+ lux
+data-sort-value="0.5" | 500 g
 -
 1000 g
 4 || 16
@@ -14662,6 +15287,7 @@ Zombie Spores
 1
 +15 || 2
 data-sort-value="-274" | - || data-sort-value="1000" | -
+data-sort-value="0" | - || -
 -
 -
 -
@@ -14675,6 +15301,8 @@ data-sort-value="-274" | - || data-sort-value="1000" | -
 -
 2
 +15 || 2
+data-sort-value="-274" | - || data-sort-value="1000" | -
+data-sort-value="0" | - || -
 -
 -
 -
@@ -14758,6 +15386,8 @@ data-sort-value="-274" | - || data-sort-value="1000" | -
 -
 1
 +15 || 2
+data-sort-value="-274" | - || data-sort-value="1000" | -
+data-sort-value="0" | - || -
 -
 -
 -
@@ -14902,6 +15532,15 @@ Currently there is a bug causing dupes to not plant the trap. However, Pips are 
 Saturn Critter Trap Edible Critters
 Saturn Critter Trap eat land based critters. Flying critters such as , , and  will fly over the plant trap. The Saturn Critter Trap also does not like to eat.
 Edible Critters
+style="white-space: nowrap" |
+
+style="white-space: nowrap" |
+
+style="white-space: nowrap" |
+style="white-space: nowrap" |
+style="white-space: nowrap" |
+style="white-space: nowrap" |
+style="white-space: nowrap" |
 style="white-space: nowrap" |
 
 Trivia
@@ -15226,6 +15865,7 @@ Pipe!!Material!!Thermal Conductivity
 |||| 440
 Gas Pipes
 +Gas Pipes
+Pipe!!Material!!Thermal Conductivity
 ||||0.0000003125
 data-sort-value="O" |||||0.00001
 ||||0.019375
@@ -15237,6 +15877,8 @@ data-sort-value="O" |||||0.00001
 ||||0.1059375
 data-sort-value="O" |||||0.62
 data-sort-value="O" |||||1
+data-sort-value="O" |||||2
+data-sort-value="O" |||||2
 data-sort-value="O" |||||2
 data-sort-value="O" ||||| 2.9
 data-sort-value="O" |||||3.39
@@ -15522,6 +16164,7 @@ Pipe!!Material!!Thermal Conductivity
 |||| 440
 Gas Pipes
 +Gas Pipes
+Pipe!!Material!!Thermal Conductivity
 ||||0.0000003125
 data-sort-value="O" |||||0.00001
 ||||0.019375
@@ -15533,6 +16176,8 @@ data-sort-value="O" |||||0.00001
 ||||0.1059375
 data-sort-value="O" |||||0.62
 data-sort-value="O" |||||1
+data-sort-value="O" |||||2
+data-sort-value="O" |||||2
 data-sort-value="O" |||||2
 data-sort-value="O" ||||| 2.9
 data-sort-value="O" |||||3.39
@@ -15840,6 +16485,7 @@ Pipe!!Material!!Thermal Conductivity
 |||| 440
 Gas Pipes
 +Gas Pipes
+Pipe!!Material!!Thermal Conductivity
 ||||0.0000003125
 data-sort-value="O" |||||0.00001
 ||||0.019375
@@ -15851,6 +16497,8 @@ data-sort-value="O" |||||0.00001
 ||||0.1059375
 data-sort-value="O" |||||0.62
 data-sort-value="O" |||||1
+data-sort-value="O" |||||2
+data-sort-value="O" |||||2
 data-sort-value="O" |||||2
 data-sort-value="O" ||||| 2.9
 data-sort-value="O" |||||3.39
@@ -16136,6 +16784,7 @@ Pipe!!Material!!Thermal Conductivity
 |||| 440
 Gas Pipes
 +Gas Pipes
+Pipe!!Material!!Thermal Conductivity
 ||||0.0000003125
 data-sort-value="O" |||||0.00001
 ||||0.019375
@@ -16147,6 +16796,8 @@ data-sort-value="O" |||||0.00001
 ||||0.1059375
 data-sort-value="O" |||||0.62
 data-sort-value="O" |||||1
+data-sort-value="O" |||||2
+data-sort-value="O" |||||2
 data-sort-value="O" |||||2
 data-sort-value="O" ||||| 2.9
 data-sort-value="O" |||||3.39
@@ -17236,10 +17887,12 @@ These sensors interact with
 
 |style="text-align:center; vertical-align:top; width:33%"|
 === Gas Pipe Sensors ===
+These sensors interact with
  the contents of a gas pipe.
 
 |style="text-align:center; vertical-align:top; width:33%"|
 === Conveyor Sensors ===
+These sensors interact with
  the contents of a Conveyor Rail.
 
 |}
