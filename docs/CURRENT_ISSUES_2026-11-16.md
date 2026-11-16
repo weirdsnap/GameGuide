@@ -138,14 +138,14 @@ Plainlist/`/row` → 纯内容；`#dpl:`/Cleanup 等纯导航模板删；`<ref>`
 
 | 文件 | 前 | 后 | 变化 | 实际删除 |
 |---|---|---|---|---|
-| baldurs_gate3 | 27.5MB | 27.4MB | -0.5% | 0 项（仅空白压缩） |
-| cyberpunk2077 | 4.95MB | 4.18MB | -15.7% | 2959 项 / 686KB（压平 2351 个模板） |
-| mhw | 1.13MB | 1.09MB | -3.7% | 0 项（仅空白压缩） |
-| hollow_knight | 1.05MB | 1.03MB | -2.2% | 298 项 / 11KB（HTML 标签） |
-| oni | 998KB | 960KB | -3.9% | 579 项 / 27KB |
-| terraria | 2.33MB | 2.29MB | -1.8% | 1004 项 / 36KB |
-| terraria_zh | 857KB | 788KB | -8.0% | 88 项（其中 17 个 `{{exclusive}}` 平台标记） |
-| va11halla | 133KB | 131KB | -1.3% | 6 项 |
+| baldurs_gate3 | 27.5MB | 27.4MB | -0.5% | 仅空白压缩 |
+| cyberpunk2077 | 4.95MB | 4.19MB | -15.4% | 模板压平 2351 个 + ref/标签清理 |
+| mhw | 1.13MB | 1.09MB | -3.7% | 仅空白压缩 |
+| hollow_knight | 1.05MB | 1.03MB | -2.2% | HTML 标签 3162 个 |
+| oni | 998KB | 970KB | -2.8% | 标签 + 长重复段落去重 |
+| terraria | 2.33MB | 2.28MB | -1.9% | 长重复段落去重 + 标签 |
+| terraria_zh | 857KB | 788KB | -8.0% | 长重复段落 + 平台标记模板 |
+| va11halla | 133KB | 132KB | -0.9% | Quote 压平 |
 
 验收（全部通过）：
 
@@ -162,7 +162,9 @@ speed by 20% / Hivelings / Wheezewort / Plenty Satisfied / Cabbage 类实体全�
 清洗中修过的误删（已全部纠正，别再回退）：`source`/`caption` 被当噪音丢；删 `<b>` 后行首
 `#Damage Values` 变新标题（HK 凭空多 2 节）；Block Quote 分隔符切错被整块删；
 Plainlist/Related Box/CraftingTable 整删；表格结构行被当重复行删；va11 大写 `Source=` 认不出；
-terraria 中文 `/row` 的无 key 散段（行名）被丢。
+terraria 中文 `/row` 的无 key 散段（行名）被丢；**wiki 有序列表 `#Wesley Hunt` 被当标题跳过清洗
+（cp2077 漏删 ref，HTML 残留 8 处）**；**dup 阈值 20 字太低，oni 表格单元格
+`data-sort-value="O" |||||2`、va11 订单条目被当重复删（现阈值 100 字 + 跳过表格行）**。
 
 原文件备份在磁盘 `*.bak-20261116`（已 gitignore）。零字节垃圾库
 `hollow_knight_data.db`、`data/terraria_data.db` 已删（无代码引用）。
