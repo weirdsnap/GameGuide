@@ -8,10 +8,12 @@ import asyncio
 import json
 import logging
 import os
+import re
 import subprocess
 import threading
 import time
 import sys
+import uuid
 from pathlib import Path
 from collections import defaultdict
 
@@ -42,6 +44,17 @@ DEFAULT_CONFIG = {
 
 # turn 记录的按日 JSONL 目录（追加写，重启不丢；见 log_turn）
 TURNS_DIR = project_root / "data" / "turns"
+
+# 用户反馈（点赞/点踩）的按日 JSONL 目录，同样追加写
+FEEDBACK_DIR = project_root / "data" / "feedback"
+
+# turn_id 由服务端生成：12 位十六进制，一整天不撞，也方便在日志里 grep
+TURN_ID_RE = re.compile(r"^[0-9a-f]{8,32}$")
+
+
+def new_turn_id() -> str:
+    """生成一轮请求的 ID，前端反馈时用它指回具体某一轮。"""
+    return uuid.uuid4().hex[:12]
 
 
 # 额度用完时的统一文案（前端直接当一条回答展示），limit 由配置决定
@@ -283,7 +296,8 @@ def spoiler_over(hits: list[dict], max_level: int = 1) -> list[dict]:
 def turn_record(*, ip: str, question: str, elapsed: float, meta: dict,
                 streamed: bool = False, chunks: int | None = None,
                 answer: str | None = None,
-                history_msgs: int = 0, hist_game: str | None = None) -> dict:
+                history_msgs: int = 0, hist_game: str | None = None,
+                turn_id: str | None = None) -> dict:
     """把一轮请求的关键指标集中成 dict，方便 grep / 后续落库。
 
     纯函数，不碰 I/O，便于单测。字段名与后续 SQLite turns 表对齐。
@@ -292,6 +306,7 @@ def turn_record(*, ip: str, question: str, elapsed: float, meta: dict,
     meta = meta or {}
     record = {
         "ts": int(time.time()),
+        "turn_id": turn_id,
         "ip": ip,
         "stream": streamed,
         "question": question[:120],
@@ -335,6 +350,86 @@ def log_turn(record: dict):
             f.write(json.dumps(record, ensure_ascii=False) + "\n")
     except OSError as e:
         logger.warning("turn 落盘失败: %s", e)
+
+
+# ====== 用户反馈（点赞/点踩）======
+# 前端在每条回答下提交 rating：1=赞，-1=踩。落盘只存 turn_id 与少量上下文，
+# 便于事后 join 到 data/turns 里那一轮完整记录（问题、路由、工具调用次数）。
+
+def feedback_record(*, turn_id: str, rating: int, ip: str,
+                    question: str | None = None, game: str | None = None,
+                    route: str | None = None, comment: str | None = None) -> dict:
+    """组装一条反馈记录。纯函数，便于单测。"""
+    return {
+        "ts": int(time.time()),
+        "turn_id": turn_id,
+        "rating": int(rating),
+        "ip": ip,
+        "question": (question or "")[:120],
+        "game": game,
+        "route": route,
+        "comment": (comment or "")[:300],
+    }
+
+
+def log_feedback(record: dict):
+    """反馈追加到 data/feedback/YYYY-MM-DD.jsonl（重启不丢，可聚合）。"""
+    logger.info("feedback %s", json.dumps(record, ensure_ascii=False))
+    try:
+        FEEDBACK_DIR.mkdir(parents=True, exist_ok=True)
+        ts = record.get("ts") or time.time()
+        day = time.strftime("%Y-%m-%d", time.localtime(ts))
+        with open(FEEDBACK_DIR / f"{day}.jsonl", "a", encoding="utf-8") as f:
+            f.write(json.dumps(record, ensure_ascii=False) + "\n")
+    except OSError as e:
+        logger.warning("feedback 落盘失败: %s", e)
+
+
+def _load_feedback(days: int) -> list[dict]:
+    """读最近 N 天的反馈记录（按文件日期切，不做解析失败阻断）。"""
+    if not FEEDBACK_DIR.exists():
+        return []
+    records = []
+    for f in sorted(FEEDBACK_DIR.glob("*.jsonl"))[-days:]:
+        try:
+            for line in f.read_text(encoding="utf-8").splitlines():
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    records.append(json.loads(line))
+                except json.JSONDecodeError:
+                    continue
+        except OSError:
+            continue
+    return records
+
+
+def feedback_summary(records: list[dict]) -> dict:
+    """把一个 turn 的多次提交压成最后一次：用户改主意或重试都不重复计数。"""
+    latest: dict[str, dict] = {}
+    for r in records:
+        tid = r.get("turn_id")
+        if tid:
+            latest[tid] = r
+    deduped = list(latest.values())
+    up = sum(1 for r in deduped if r.get("rating") == 1)
+    down = sum(1 for r in deduped if r.get("rating") == -1)
+    by_game: dict[str, dict] = defaultdict(lambda: {"up": 0, "down": 0})
+    by_route: dict[str, dict] = defaultdict(lambda: {"up": 0, "down": 0})
+    for r in deduped:
+        bucket = "up" if r.get("rating") == 1 else "down"
+        by_game[r.get("game") or "unknown"][bucket] += 1
+        by_route[r.get("route") or "none"][bucket] += 1
+    return {
+        "total": len(deduped),
+        "up": up,
+        "down": down,
+        "by_game": dict(sorted(by_game.items(),
+                              key=lambda kv: -(kv[1]["up"] + kv[1]["down"]))),
+        "by_route": dict(by_route),
+        "recent_down": [r for r in deduped if r.get("rating") == -1][-20:],
+    }
 
 
 # ====== API 端点 ======
@@ -385,6 +480,7 @@ async def handle_ask(request):
 
     t0 = time.time()
     meta: dict = {}
+    turn_id = new_turn_id()
     try:
         answer = await asyncio.wait_for(
             asyncio.to_thread(
@@ -400,9 +496,9 @@ async def handle_ask(request):
         print(f"  [{time.strftime('%H:%M:%S')}] {ip[:15]:15s} | {question[:50]:50s} | {elapsed:.1f}s")
         log_turn(turn_record(ip=ip, question=question, elapsed=elapsed, meta=meta,
                              answer=answer, history_msgs=len(history or []),
-                             hist_game=hist_game))
+                             hist_game=hist_game, turn_id=turn_id))
         return web.json_response({"answer": answer, "elapsed": round(elapsed, 1),
-                                  "quota": quota_status})
+                                  "quota": quota_status, "turn_id": turn_id})
     except asyncio.TimeoutError:
         elapsed = time.time() - t0
         quota_status = quota.refund()
@@ -472,6 +568,7 @@ async def handle_ask_stream(request):
     await resp.prepare(request)
 
     t0 = time.time()
+    turn_id = new_turn_id()
     token_count = 0
     answer_parts: list[str] = []
     meta: dict = {}
@@ -501,7 +598,7 @@ async def handle_ask_stream(request):
         # 结束标志
         elapsed = round(time.time() - t0, 1)
         await resp.write(
-            f"data: {json.dumps({'type': 'done', 'elapsed': elapsed, 'quota': quota_status}, ensure_ascii=False)}\n\n".encode("utf-8")
+            f"data: {json.dumps({'type': 'done', 'elapsed': elapsed, 'quota': quota_status, 'turn_id': turn_id}, ensure_ascii=False)}\n\n".encode("utf-8")
         )
 
     except TimeoutError:
@@ -528,7 +625,8 @@ async def handle_ask_stream(request):
     log_turn(turn_record(ip=ip, question=question, elapsed=elapsed, meta=meta,
                          streamed=True, chunks=token_count,
                          answer="".join(answer_parts) if answer_parts else None,
-                         history_msgs=len(history or []), hist_game=hist_game))
+                         history_msgs=len(history or []), hist_game=hist_game,
+                         turn_id=turn_id))
     return resp
 
 
@@ -607,6 +705,53 @@ async def handle_stats(request):
     })
 
 
+async def handle_feedback(request):
+    """POST /api/feedback — 对某一轮回答点赞（rating=1）或点踩（rating=-1）。
+
+    不校验额度、不计次数，也没有频率限制：这是用户主动标注问题答案的手段，
+    拦掉它反而让坏例拿不到。重复提交不报错，统计时按 turn_id 取最后一条。
+    """
+    try:
+        body = await request.json()
+    except json.JSONDecodeError:
+        return web.json_response({"error": "无效的 JSON 格式"}, status=400)
+
+    turn_id = str(body.get("turn_id") or "").strip()
+    if not TURN_ID_RE.match(turn_id):
+        return web.json_response({"error": "turn_id 无效"}, status=400)
+
+    try:
+        rating = int(body.get("rating"))
+    except (TypeError, ValueError):
+        rating = 0
+    if rating not in (1, -1):
+        return web.json_response({"error": "rating 必须是 1 或 -1"}, status=400)
+
+    record = feedback_record(
+        turn_id=turn_id,
+        rating=rating,
+        ip=_client_ip(request),
+        question=body.get("question"),
+        game=body.get("game"),
+        route=body.get("route"),
+        comment=body.get("comment"),
+    )
+    log_feedback(record)
+    print(f"  [{time.strftime('%H:%M:%S')}] {'👍' if rating == 1 else '👎'} {turn_id} | {(record['question'] or '')[:40]}")
+    return web.json_response({"ok": True, "turn_id": turn_id, "rating": rating})
+
+
+async def handle_feedback_stats(request):
+    """GET /api/feedback/stats?days=7 — 反馈聚合（赞/踩总数、按游戏、最近负面样本）。"""
+    try:
+        days = max(1, min(90, int(request.query.get("days", "7"))))
+    except ValueError:
+        days = 7
+    summary = feedback_summary(_load_feedback(days))
+    summary["days"] = days
+    return web.json_response(summary)
+
+
 # ====== 应用工厂 ======
 def create_app() -> web.Application:
     """创建并配置 web 应用（仅提供 API，不提供页面）。"""
@@ -617,6 +762,8 @@ def create_app() -> web.Application:
     app.router.add_get("/api/status", handle_status)
     app.router.add_get("/api/quota", handle_quota)
     app.router.add_get("/api/stats", handle_stats)
+    app.router.add_post("/api/feedback", handle_feedback)
+    app.router.add_get("/api/feedback/stats", handle_feedback_stats)
     return app
 
 
