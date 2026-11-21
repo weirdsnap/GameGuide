@@ -271,6 +271,10 @@ SPOILER_TERMS: dict[str, list[tuple[str, int, int]]] = {
         # act 3：地点/区域名
         ("Lower City", 3, 1), ("下城区", 3, 1),
         ("Rivington", 3, 1), ("利文顿", 3, 1),
+        # act 3：拉斐尔线地名（2026-11-22 铁手套两轮点踩时词表全漏，事后统计抓不到）
+        ("House of Hope", 3, 1), ("希望之邸", 3, 1),
+        ("Ramazith's Tower", 3, 1), ("拉玛吉斯之塔", 3, 1),
+        ("Sorcerous Sundries", 3, 1), ("法术杂货铺", 3, 1),
         # act 3：终局设定与反派势力，知道名字等于提前拆一层
         ("Netherbrain", 3, 2), ("主脑", 3, 2),
         ("Bhaal", 3, 2), ("巴尔", 3, 2),
