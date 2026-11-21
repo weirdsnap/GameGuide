@@ -201,9 +201,11 @@ bg3-to-oni-switch）全绿，证明修的是评测器而不是把问题掩下去
 **首跑（2026-11-22，服务器侧）**：
 
 - `bg3-hill-giant-gauntlets` T2 命中 `House of Hope` / `第三章`，问题复现，用例有效。
-- `bg3-lorroakan-act2` 在 full 模式落 None——`run_full()` 不注入 `context`（本文 TODO 1 缺陷 A），
-  带前文的用例会假失败。**修完缺陷 A 之前，这类上下文用例只能在 routing 模式生效。**
-- routing 模式：13/13 全绿；pytest 全量：197 passed / 20 skipped / 20 xfailed。
+- `bg3-lorroakan-act2` 缺陷 A 修完后路由已对（不再落 None），但内容层报
+  「伪造来源：['博德之门本地法师', '洛若坎']」+ Nightsong L3——前者是缺陷 B 的假阳性。
+  结论：**A、B 必须一起修**，否则报告读不出真问题（ISSUES I-16）。
+- `bg3-act3-item-new-session` 通过（新会话不再出现「第二章」）。
+- routing 模式：13/13 全绿；pytest 全量（含词表补齐 87568ec）：216 passed / 1 xfailed。
 
 ## 用例入库流程（线上问题 → 评测）
 
@@ -236,29 +238,28 @@ bg3-to-oni-switch）全绿，证明修的是评测器而不是把问题掩下去
 
 ### 2026-11-22 新增（来源：docs/ISSUES_2026-11-22.md）
 
-4. **[未做] I-09 上下文裁剪实现**：按 `docs/CONTEXT_BUDGET_PLAN.md` §3.2 实现
-   `trim_history`，接入 `handle_ask` / `handle_ask_stream`，别忘「裁剪后游戏反推仍可用」。
-   验收跑 `tests/test_history_trim.py`（六条应从 xfail 变 pass）+ 线上 p90 tokens_in < 4 万。
-5. **[未做] I-10 条目带 act + 提示词禁改写**：工具返回条目附 `[act N]`（armor/items 用
-   `where_to_find` join `locations.act`，join 不上就不写）；`build_common_rules()` 补三条
-   （条目章节不得改写 / act 高于进度只给存在性 / 字段缺失一次说清）。验收跑
-   `agent_behavior.py --mode full --only bg3-hill-giant-gauntlets`。
-6. **[未做] I-12 词表补 act3 地名**：`SPOILER_TERMS["baldurs_gate3"]` 加
-   `House of Hope / 希望之邸 / Ramazith's Tower / 拉玛吉斯之塔 / Sorcerous Sundries / 法术杂货铺`
-   （均 L1）。验收：`tests/test_spoiler_act3_terms.py` 从 xfail 转全绿。服务器侧顺手给
-   `turn_record` 加 `entry_acts`。
-7. **[阻塞] 缺陷 A（原 TODO 1）升级为 P0**：`bg3-lorroakan-act2` 等带 context 的新用例
-   在 full 模式整条落 None。不修就等于每条新用例都是噪音。
-8. **[未做] I-14 未知进度提示句**：`progress.progress_prompt_note(level=None)` 不要返回空串，
-   改为注入「不要替用户假设章节」。验收：`tests/test_progress_unknown_note.py` 全绿。
-   服务器侧同步给 `turn_record` 加 `progress_level` / `progress_source`。
+4. **[完成 f9eaabb] I-09 上下文裁剪**：`history_trim.py` + `multi_agent` 先反推游戏再裁剪，
+   `history_full` 专供进度推断。`tests/test_history_trim.py` 6 条已全绿；效果待 3 天数据。
+5. **[完成 ea71344] I-10 条目带 act + 禁改写**：`tools._row_act` 附 `[act N]`，prompt 补三条。
+6. **[完成 87568ec] I-12 词表补 act3 地名**：6 个拉斐尔线地名，`test_spoiler_act3_terms.py` 12 条转绿。
+7. **[完成 ea72594] 缺陷 A（原 TODO 1）**：`bg3-lorroakan-act2` 路由从落 None 变为正确。
+8. **[完成 ea72594] I-14 未知进度提示句**：新会话问 act3 物品不再出现「第二章」。
 
-### 2026-11-16 三条（仍全部未做）
+9. **[未做，P1↑] 缺陷 B（原 TODO 2）**：缺陷 A 修完后它的噪音反而更明显。11-22 full 实测
+   `bg3-lorroakan-act2` 报「伪造来源：['博德之门本地法师', '洛若坎']」，全是正文引号。
+   不修就等于把真越界（Nightsong L3）埋在假阳性里。
+10. **[未做，P1] I-17 prompt 规则冲突**：`game_router` 的「尚未报进度先追问」与
+   `progress_prompt_note` 的「不假设章节」、SPOILER_CONTROL_PLAN 的「未知进度不追问」三句并存。
+   建议删第 1 句，改成「按条目 `[act N]` 作答，用户报过进度才套上界」。
+11. **[未做，P2] I-18 `_row_act` 两个缺口**：多地名时取 dict 序第一个（建议 `max(act)`）；
+   `_format_db_result`（数值筛选路径）没有 act 标注。
+12. **[未做，P2] I-19 `max_turns=6` 偏激进**：60 条短消息（总 600 字）也会被裁到 7 轮。
+   线上 `history_msgs` p50 = 31，建议放 10–12，或字符远低于预算时不按轮数裁。先观 3 天。
 
-1. **[阻塞，见新增 7] 评测器缺陷 A**：`scripts/eval/agent_behavior.py` 的 `run_full()` 没有注入
-   `case["context"]` 前置轮次（`run_routing()` 有）。依赖前文的轮次在无历史时落 menu，
-   被判成路由错（假阴性）。修法：每个 case 开头按 context 真跑一遍、不计分。
-2. **[未做] 评测器缺陷 B**：`check_citation()` 用 `来源|知识库|条目` 匹配整行再取整行引号，
+### 2026-11-16 三条（1 已完成、2 升级为上面的 9、3 未做）
+
+1. **[完成 ea72594] 评测器缺陷 A**：`run_full()` 现在会注入 `case["context"]` 前置轮次。
+2. **[未做，见新增 9] 评测器缺陷 B**：`check_citation()` 用 `来源|知识库|条目` 匹配整行再取整行引号，
    把正文引号当来源（实测假报「代价」「护符里困着幽灵」）。修法：只认 `来源\s*[:：]`，
    且每条标注只负责它后面到下一个标注之间的引号。代码片段见上文首跑节。
 3. **[未做] G4：`turn_record` 加 `sources`**：把工具返回的来源标题（去重、上限 30）落进
@@ -268,7 +269,7 @@ bg3-to-oni-switch）全绿，证明修的是评测器而不是把问题掩下去
 **完成后的验收（由服务器侧跑，不要自己宣布通过）：**
 
 ```bash
-.venv/bin/python -m pytest -q                     # 期望 197 passed / 20 skipped / 20 xfailed（2026-11-22 基线）
+.venv/bin/python -m pytest -q                     # 期望 216 passed / 20 skipped / 1 xfailed（2026-11-22 基线）
 .venv/bin/python scripts/eval/agent_behavior.py   # routing 模式应 13/13
 FASTEMBED_CACHE_PATH=$PWD/.cache/fastembed \
   .venv/bin/python scripts/eval/agent_behavior.py --mode full \
