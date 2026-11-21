@@ -15,6 +15,7 @@ from __future__ import annotations
 import argparse
 import json
 import statistics
+import sys
 from collections import Counter, defaultdict
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -53,6 +54,8 @@ def main() -> None:
     ap.add_argument("--days", type=int, default=None, help="只看最近 N 天")
     ap.add_argument("--game", default=None, help="按游戏过滤")
     ap.add_argument("--spoilers", action="store_true", help="只列剧透命中样本")
+    ap.add_argument("--check-budget", type=int, default=None,
+                    help="p90 tokens_in 超过该值则退出码 1（供 cron / 部署后守卫用）")
     args = ap.parse_args()
 
     records = load_records(args.days)
@@ -114,6 +117,16 @@ def main() -> None:
     for r in records[-5:]:
         ts = datetime.fromtimestamp(r["ts"]).strftime("%m-%d %H:%M")
         print(f"  [{ts}] {r.get('game') or '-'} | {r.get('question','')[:50]} | {r.get('elapsed_ms',0)/1000:.1f}s")
+
+    if args.check_budget is not None:
+        # 上下文预算守卫：docs/CONTEXT_BUDGET_PLAN.md 的验收线（p90 < 4 万）。
+        # 裁剪没实现时这里会长期 OVER，正因如此才要让 cron 能把这件事报出来。
+        p90 = pct(tin, 0.9)
+        ok = p90 <= args.check_budget
+        print(f"\n预算检查 p90 tokens_in = {p90:,.0f} / 阈值 {args.check_budget:,} -> "
+              f"{'OK' if ok else 'OVER'}")
+        if not ok:
+            sys.exit(1)
 
 
 if __name__ == "__main__":

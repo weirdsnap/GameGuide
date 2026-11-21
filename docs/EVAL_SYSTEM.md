@@ -181,10 +181,19 @@ bg3-to-oni-switch）全绿，证明修的是评测器而不是把问题掩下去
 |---|---|---|
 | `bg3-hill-giant-gauntlets` | I-10 章节改写（11-22 01:06/01:07 两轮点踩） | `forbidden_terms` 字面拦 `希望之邸/House of Hope/第三章/拉玛吉斯/法术杂货铺` |
 | `bg3-lorroakan-act2` | I-12 洛若坎线越界 | `max_level=1` + 禁词 `法术杂货铺/拉玛吉斯/下城区` |
-| `bg3-armour-agility-midturn` | I-11 首答自信（tool 6 → 18） | `max_level=1` + 禁词 `巴尔` |
+| `bg3-armour-agility-midturn` | I-11 首答自信（tool 6 → 18） | `max_level=1` + 禁词一半拦剧透（巴尔）、一半拦自指纠正句 |
+| `bg3-act3-item-new-session` | I-14 默认第二章 | 纯新会话，禁词只拦 `第二章/第2章/Act 2/第二幕` 这类进度猜测 |
 
-新增 L0：`tests/test_history_trim.py`（对应 I-09）。六条契约（短历史不动、首轮保留、末条 user
-必留、字符预算、轮数上限、顺序子序列），函数未实现时整文件条件式 xfail，实现后自动变真测试。
+新增 L0（四个文件，全部带条件式 xfail，实现后自动变真测试）：
+
+| 文件 | 条数 | 对应 |
+|---|---|---|
+| `tests/test_history_trim.py` | 6 | I-09 裁剪契约（首轮保留、末条 user 必留、字符预算、轮数上限、顺序子序列） |
+| `tests/test_spoiler_act3_terms.py` | 12 | I-10 词表补 act3 地名（表里有没有 + 能不能识别） |
+| `tests/test_progress_unknown_note.py` | 4 | I-14（3 条现状固化现在就绿，1 条「未知进度要注入禁止假设句」） |
+
+新增离线守卫：`turns_report.py --check-budget 40000`，p90 tokens_in 超阈值退出码 1，
+可挂 cron 或部署后手动跑。当前实测 p90 = 146,752，报 OVER。
 
 注意：`forbidden_terms` 是字面小写匹配，所以英文别名要单列一条（`House of Hope` 不会被
 `希望之邸` 覆盖）。新增禁词时两种语言都写。
@@ -194,6 +203,7 @@ bg3-to-oni-switch）全绿，证明修的是评测器而不是把问题掩下去
 - `bg3-hill-giant-gauntlets` T2 命中 `House of Hope` / `第三章`，问题复现，用例有效。
 - `bg3-lorroakan-act2` 在 full 模式落 None——`run_full()` 不注入 `context`（本文 TODO 1 缺陷 A），
   带前文的用例会假失败。**修完缺陷 A 之前，这类上下文用例只能在 routing 模式生效。**
+- routing 模式：13/13 全绿；pytest 全量：197 passed / 20 skipped / 20 xfailed。
 
 ## 用例入库流程（线上问题 → 评测）
 
@@ -217,6 +227,10 @@ bg3-to-oni-switch）全绿，证明修的是评测器而不是把问题掩下去
 - L3 RAGAS 从未实跑（需 Mac 装 ragas/datasets）。
 - 剧透词表只有 BG3；丝之歌/空洞骑士要 axis-aware 词表（act / ability 轴不同）。
 - 单轮分钟级、每轮都真调 LLM，因此 L2 全量不进 CI，只在改路由/提示词/检索前后手动跑。
+- **跨轮一致性没有自动 check**（10-22 铁手套 / 11-19 中甲大师 / 11-20 失落之镜三个自相矛盾样本
+  全靠人工抽检）。要自动抓需会话级 checker：把上一轮答案里的事实落库，下轮比对。
+  归入 store.py 那一批，不在当前范围。
+- 字面 `forbidden_terms` 只能证明「错说法又出现」，证明不了「没越界」；语义级判定仍得等 L3 RAGAS。
 
 ## TODO（跳端待办）
 
@@ -231,11 +245,17 @@ bg3-to-oni-switch）全绿，证明修的是评测器而不是把问题掩下去
    `agent_behavior.py --mode full --only bg3-hill-giant-gauntlets`。
 6. **[未做] I-12 词表补 act3 地名**：`SPOILER_TERMS["baldurs_gate3"]` 加
    `House of Hope / 希望之邸 / Ramazith's Tower / 拉玛吉斯之塔 / Sorcerous Sundries / 法术杂货铺`
-   （均 L1）。服务器侧顺手给 `turn_record` 加 `entry_acts`。
+   （均 L1）。验收：`tests/test_spoiler_act3_terms.py` 从 xfail 转全绿。服务器侧顺手给
+   `turn_record` 加 `entry_acts`。
+7. **[阻塞] 缺陷 A（原 TODO 1）升级为 P0**：`bg3-lorroakan-act2` 等带 context 的新用例
+   在 full 模式整条落 None。不修就等于每条新用例都是噪音。
+8. **[未做] I-14 未知进度提示句**：`progress.progress_prompt_note(level=None)` 不要返回空串，
+   改为注入「不要替用户假设章节」。验收：`tests/test_progress_unknown_note.py` 全绿。
+   服务器侧同步给 `turn_record` 加 `progress_level` / `progress_source`。
 
 ### 2026-11-16 三条（仍全部未做）
 
-1. **[未做] 评测器缺陷 A**：`scripts/eval/agent_behavior.py` 的 `run_full()` 没有注入
+1. **[阻塞，见新增 7] 评测器缺陷 A**：`scripts/eval/agent_behavior.py` 的 `run_full()` 没有注入
    `case["context"]` 前置轮次（`run_routing()` 有）。依赖前文的轮次在无历史时落 menu，
    被判成路由错（假阴性）。修法：每个 case 开头按 context 真跑一遍、不计分。
 2. **[未做] 评测器缺陷 B**：`check_citation()` 用 `来源|知识库|条目` 匹配整行再取整行引号，
@@ -248,8 +268,8 @@ bg3-to-oni-switch）全绿，证明修的是评测器而不是把问题掩下去
 **完成后的验收（由服务器侧跑，不要自己宣布通过）：**
 
 ```bash
-.venv/bin/python -m pytest -q                     # 期望 187 passed / 20 skipped / 0 xfailed
-.venv/bin/python scripts/eval/agent_behavior.py   # routing 模式应仍 9/9
+.venv/bin/python -m pytest -q                     # 期望 197 passed / 20 skipped / 20 xfailed（2026-11-22 基线）
+.venv/bin/python scripts/eval/agent_behavior.py   # routing 模式应 13/13
 FASTEMBED_CACHE_PATH=$PWD/.cache/fastembed \
   .venv/bin/python scripts/eval/agent_behavior.py --mode full \
   --json data/eval/beh_baseline.json               # 重跑基线，跟旧报告 --baseline 对比
