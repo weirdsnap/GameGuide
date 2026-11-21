@@ -101,7 +101,33 @@ def _format_db_result(rows: List[Dict], table: str) -> str:
     return "\n".join(lines[:30])  # cap at 30 rows
 
 
-def _search_all_tables(db_path: str, keyword: str) -> str:
+def _row_act(game_key: Optional[str], row: Dict) -> Optional[int]:
+    """推条目所属章节（防剧透 I-10）：优先 act 列，否则用 where_to_find
+    里的地名去 locations/quests 同名表查（act_index）。查不到就 None，别猜。
+    """
+    raw = row.get("act")
+    if raw is not None:
+        try:
+            return int(raw)
+        except (TypeError, ValueError):
+            pass
+    if not game_key:
+        return None
+    where = str(row.get("where_to_find") or "").lower()
+    if not where:
+        return None
+    try:
+        from rag_agent.act_index import act_by_title
+        for name, act in act_by_title(game_key).items():
+            if name and name in where:
+                return act
+    except Exception:
+        pass
+    return None
+
+
+def _search_all_tables(db_path: str, keyword: str,
+                       game_key: Optional[str] = None) -> str:
     """在所有表中搜索关键词，返回命中条目的关键字段（供 Agent 直接引用）。"""
     db = _get_db(db_path)
     if not db:
@@ -140,6 +166,11 @@ def _search_all_tables(db_path: str, keyword: str) -> str:
             line = f"  [{table}] {name}"
             if extras:
                 line += " | " + " | ".join(extras[:2])
+            # I-10：条目附章节。模型手里没有「这是第几章」的信息时，
+            # 会把 act3 的藏品改写到用户所在的第二章（两轮点踩实证）。
+            act = _row_act(game_key, r)
+            if act is not None:
+                line += f" [act {act}]"
             results.append(line)
 
     db.close()
@@ -392,10 +423,10 @@ def query_structured_data(query: str, game: str) -> str:
                     # Agent 可能画蛇添足拼接多个词（如「查询 蒸煮罐 stewpot 烹饪锅」），
                     # 逐个 token 搜索，取第一个能命中的即可
                     for token in keyword.split():
-                        hit = _search_all_tables(db_path, token)
+                        hit = _search_all_tables(db_path, token, _game_key)
                         if "未找到" not in hit:
                             return hit
-                    return _search_all_tables(db_path, keyword)
+                    return _search_all_tables(db_path, keyword, _game_key)
 
         # Try "所有 X" / "全部 X" / "列出所有 X"
         for cmd in ["所有", "全部", "列出所有", "列出全部"]:
@@ -487,7 +518,7 @@ def query_structured_data(query: str, game: str) -> str:
                                         return _format_db_result(rows, table)
 
                     # If no table match, search all tables
-                    return _search_all_tables(db_path, keyword)
+                    return _search_all_tables(db_path, keyword, _game_key)
 
         # ── 通用数值筛选 ──
         # 自动发现所有表中的数值列，然后逐个尝试匹配
@@ -559,7 +590,7 @@ def query_structured_data(query: str, game: str) -> str:
         ).strip()
         if not search_q:
             search_q = q
-        return _search_all_tables(db_path, search_q) + f"\n\n💡 可用的表: {tbl_list}"
+        return _search_all_tables(db_path, search_q, _game_key) + f"\n\n💡 可用的表: {tbl_list}"
 
     except Exception as e:
         return f"[结构化查询出错] {e}"
