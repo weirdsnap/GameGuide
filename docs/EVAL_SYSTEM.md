@@ -170,6 +170,25 @@ bg3-to-oni-switch）全绿，证明修的是评测器而不是把问题掩下去
 `DB query error: no such column: health/cost/hp/damage/buy_price/reward_eb`——它在逐个
 试列名，失败也打日志（1 秒内几十行）。不影响结果，但线上日志会被淹没。
 
+## 2026-11-22 用例入库（对应 docs/ISSUES_2026-11-22.md）
+
+11-18～11-22 共 58 轮（全 BG3），上一批入库的是路由类问题，这一批是**内容层**：
+检索条目不带 act 导致章节被改写、首答自信追问才纠正、洛若坎线 L3 越界。
+
+新增 L2 场景（`behavior_cases.jsonl`，均 `known_issue=true`）：
+
+| id | 对应问题 | 断言依据 |
+|---|---|---|
+| `bg3-hill-giant-gauntlets` | I-10 章节改写（11-22 01:06/01:07 两轮点踩） | `forbidden_terms` 字面拦 `希望之邸/House of Hope/第三章/拉玛吉斯/法术杂货铺` |
+| `bg3-lorroakan-act2` | I-12 洛若坎线越界 | `max_level=1` + 禁词 `法术杂货铺/拉玛吉斯/下城区` |
+| `bg3-armour-agility-midturn` | I-11 首答自信（tool 6 → 18） | `max_level=1` + 禁词 `巴尔` |
+
+新增 L0：`tests/test_history_trim.py`（对应 I-09）。六条契约（短历史不动、首轮保留、末条 user
+必留、字符预算、轮数上限、顺序子序列），函数未实现时整文件条件式 xfail，实现后自动变真测试。
+
+注意：`forbidden_terms` 是字面小写匹配，所以英文别名要单列一条（`House of Hope` 不会被
+`希望之邸` 覆盖）。新增禁词时两种语言都写。
+
 ## 用例入库流程（线上问题 → 评测）
 
 1. 从 `data/turns/*.jsonl` 捞出问题轮次（`scripts/analysis/turns_report.py` 聚合，
@@ -193,9 +212,22 @@ bg3-to-oni-switch）全绿，证明修的是评测器而不是把问题掩下去
 - 剧透词表只有 BG3；丝之歌/空洞骑士要 axis-aware 词表（act / ability 轴不同）。
 - 单轮分钟级、每轮都真调 LLM，因此 L2 全量不进 CI，只在改路由/提示词/检索前后手动跑。
 
-## TODO（跳端待办，2026-11-16）
+## TODO（跳端待办）
 
-三条，谁有空谁做，动手前先在本节开工行写一句，做完改成已完成并附 commit。
+### 2026-11-22 新增（来源：docs/ISSUES_2026-11-22.md）
+
+4. **[未做] I-09 上下文裁剪实现**：按 `docs/CONTEXT_BUDGET_PLAN.md` §3.2 实现
+   `trim_history`，接入 `handle_ask` / `handle_ask_stream`，别忘「裁剪后游戏反推仍可用」。
+   验收跑 `tests/test_history_trim.py`（六条应从 xfail 变 pass）+ 线上 p90 tokens_in < 4 万。
+5. **[未做] I-10 条目带 act + 提示词禁改写**：工具返回条目附 `[act N]`（armor/items 用
+   `where_to_find` join `locations.act`，join 不上就不写）；`build_common_rules()` 补三条
+   （条目章节不得改写 / act 高于进度只给存在性 / 字段缺失一次说清）。验收跑
+   `agent_behavior.py --mode full --only bg3-hill-giant-gauntlets`。
+6. **[未做] I-12 词表补 act3 地名**：`SPOILER_TERMS["baldurs_gate3"]` 加
+   `House of Hope / 希望之邸 / Ramazith's Tower / 拉玛吉斯之塔 / Sorcerous Sundries / 法术杂货铺`
+   （均 L1）。服务器侧顺手给 `turn_record` 加 `entry_acts`。
+
+### 2026-11-16 三条（仍全部未做）
 
 1. **[未做] 评测器缺陷 A**：`scripts/eval/agent_behavior.py` 的 `run_full()` 没有注入
    `case["context"]` 前置轮次（`run_routing()` 有）。依赖前文的轮次在无历史时落 menu，
