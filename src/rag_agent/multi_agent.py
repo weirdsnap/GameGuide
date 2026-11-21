@@ -16,6 +16,7 @@ from langchain_core.messages import AIMessageChunk
 
 from rag_agent.game_router import DETECT_TH, detect_game_detail, is_switch_query
 from rag_agent.graph import _names_external_game, get_graph
+from rag_agent.history_trim import trim_history
 
 logger = logging.getLogger(__name__)
 
@@ -45,15 +46,30 @@ def _game_from_history(history) -> str | None:
 
 
 def _build_initial_state(question, history, model_name, verbose) -> dict:
-    """组装图的初始 state（两个入口共用）。"""
+    """组装图的初始 state（两个入口共用）。
+
+    顺序不能反（docs/CONTEXT_BUDGET_PLAN.md §3.1）：
+    先用**完整历史**反推游戏锚点，再裁剪——裁完再找可能把锚点裁掉。
+    history_full 只给进度推断用（防剧透锚点可能在被裁掉的旧轮里），
+    不进模型上下文。
+    """
     last_game = _game_from_history(history)
+    trimmed = trim_history(history)
+    raw_chars = sum(len(m["content"]) for m in history or []
+                    if isinstance(m, dict) and isinstance(m.get("content"), str))
+    used_chars = sum(len(m["content"]) for m in trimmed)
     return {
         "question": question.strip(),
-        "history": history,
+        "history": trimmed,
+        "history_full": history,
         "model_name": model_name,
         "verbose": verbose,
         "last_game": last_game,
         "last_game_confirmed": last_game is not None,
+        # 观测：裁剪前后条数与裁掉的字符数（第 0 步，只记录不参与决策）
+        "history_raw_msgs": len(history or []),
+        "history_used_msgs": len(trimmed),
+        "history_trim_chars": raw_chars - used_chars,
     }
 
 
@@ -79,6 +95,10 @@ def _meta_from_state(state: dict) -> dict:
         "tokens_in": int(usage.get("tokens_in") or 0),
         "tokens_out": int(usage.get("tokens_out") or 0),
         "tool_calls": int(usage.get("tool_calls") or 0),
+        # 上下文预算观测（docs/CONTEXT_BUDGET_PLAN.md §3.3）
+        "history_raw_msgs": int(state.get("history_raw_msgs") or 0),
+        "history_used_msgs": int(state.get("history_used_msgs") or 0),
+        "history_trim_chars": int(state.get("history_trim_chars") or 0),
     }
 
 

@@ -23,7 +23,8 @@ from rag_agent.progress import infer_progress, progress_prompt_note
 # 图状态类
 class AgentState(TypedDict, total=False):
     question: str
-    history: Optional[List[dict]]
+    history: Optional[List[dict]]        # 裁剪后的历史（进模型上下文）
+    history_full: Optional[List[dict]]   # 完整历史（只给进度推断用，防剧透锚点可能在被裁掉的旧轮里）
     model_name: Optional[str]
     verbose: bool
     # ── 当前请求内的路由状态 ──
@@ -219,7 +220,8 @@ def detect_game_node(state) -> dict:
 
     # 防剧透 P1：把用户进度解析成结构化上界，既写进 prompt（L2），
     # 也通过 state.progress_level 传给 agent 节点注入检索层（L1）。
-    progress = infer_progress(game_key, q, state.get("history"))
+    # 进度锚点可能在被裁剪掉的旧轮里，所以用完整历史推断。
+    progress = infer_progress(game_key, q, state.get("history_full") or state.get("history"))
     prompt = build_game_prompt(game_key) + "\n\n" + build_common_rules(game_key)
     prompt += progress_prompt_note(progress)
     if switched:

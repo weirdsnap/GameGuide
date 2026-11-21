@@ -234,7 +234,10 @@ def test_ask_填充_meta(monkeypatch):
     meta = {}
     assert m.ask("螳螂爪在哪", meta=meta) == "答案"
     assert meta == {"route": "agent", "game": "hollow_knight",
-                    "tokens_in": 10, "tokens_out": 5, "tool_calls": 1}
+                    "tokens_in": 10, "tokens_out": 5, "tool_calls": 1,
+                    # 上下文预算观测字段（CONTEXT_BUDGET_PLAN §3.3，2026-11-22 扩展）
+                    "history_raw_msgs": 0, "history_used_msgs": 0,
+                    "history_trim_chars": 0}
 
 
 def test_ask_不传_meta_时行为不变(monkeypatch):
