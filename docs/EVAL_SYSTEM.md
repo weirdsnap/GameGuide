@@ -189,6 +189,12 @@ bg3-to-oni-switch）全绿，证明修的是评测器而不是把问题掩下去
 注意：`forbidden_terms` 是字面小写匹配，所以英文别名要单列一条（`House of Hope` 不会被
 `希望之邸` 覆盖）。新增禁词时两种语言都写。
 
+**首跑（2026-11-22，服务器侧）**：
+
+- `bg3-hill-giant-gauntlets` T2 命中 `House of Hope` / `第三章`，问题复现，用例有效。
+- `bg3-lorroakan-act2` 在 full 模式落 None——`run_full()` 不注入 `context`（本文 TODO 1 缺陷 A），
+  带前文的用例会假失败。**修完缺陷 A 之前，这类上下文用例只能在 routing 模式生效。**
+
 ## 用例入库流程（线上问题 → 评测）
 
 1. 从 `data/turns/*.jsonl` 捞出问题轮次（`scripts/analysis/turns_report.py` 聚合，
