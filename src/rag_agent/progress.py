@@ -122,8 +122,20 @@ def infer_progress(game: str, question: str,
 
 
 def progress_prompt_note(progress: Progress) -> str:
-    """把进度写成提示词里的硬上界句；未知进度返回空串（走方案 C，不追问）。"""
+    """把进度写成提示词；未知进度注入「不得替用户假设章节」（I-14）。
+
+    早期版本未知时返回空串（方案 C，不追问），但线上实测：零约束下模型
+    会按世界知识往游戏中期（第二章）猜，新会话问 act3 物品也被安到第二章。
+    所以对 act 轴游戏，未知也要给一句「不许猜」；非 act 轴游戏仍返回空串。
+    """
     if not progress.known:
+        if progress.axis == "act":
+            return (
+                "\n\n## 用户进度（系统注入）\n"
+                "- 用户没有报过进度：不要替用户假设章节。\n"
+                "- 条目属于哪一章就按哪一章说；不确定章节时不写章节，"
+                "不要出现「第二章」「第三章」这类猜测性表述。"
+            )
         return ""
     evidence = "、".join(progress.evidence) or "对话"
     return (

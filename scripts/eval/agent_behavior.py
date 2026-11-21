@@ -256,6 +256,12 @@ def run_full(cases: list[dict]) -> list[dict]:
     for case in cases:
         history: list[dict] = []
         turns = []
+        # context：复现「会话已经进行了一会儿」的前置轮次，不计分。
+        # 缺陷 A（I-15）修复：full 模式原先漏了这段，依赖前文的用例
+        # 在无历史下整条落 menu 被误判路由错（假阴性）。
+        for question in case["context"]:
+            history.append({"role": "user", "content": question})
+            history.append({"role": "assistant", "content": "（前置上下文，评测不跑这一轮）"})
         for i, question in enumerate(case["turns"]):
             before = len(records)
             answer, got = asyncio.run(_run_turn(graph, question, history))
