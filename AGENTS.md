@@ -124,12 +124,9 @@ README 的结构说明滞后于代码，如有出入以本文件和实际代码�
   日志分析、`.bak` 清理等），Mac 侧 agent **不要直接 ssh 操作服务器**。
   Mac 侧职责到「传库」为止：构建好、自检通过、跑 `vectorstores.sh` scp 上传
   （SSH 密码人工输一次）；上传之后的 `git pull`、`api.sh` 重启、验收全归服务器 agent。
-- **服务器侧待办（2026-11-15 Mac 侧留）：BG3 v3 库部署**。v3 库（title 前置 + act 标签，
-  自检 5/5 top1 全对）由 Mac 侧用 `vectorstores.sh baldurs_gate3` 上传；
-  服务器侧收到后：`git pull` → `bash scripts/deploy/api.sh` 重启 →
-  删 `games/baldurs_gate3/vectorstore/index.pkl.bak-20261112`（旧补丁库的备份）→
-  线上抽查「养鸡妹怎么招募」应落到 Lae'zel、「我卡在最后之光旅店」类进度问题
-  不应越界到石匠工会/月出之塔之后的内容（spoiler_hits 可观测）。
+- **服务器侧待办统一入口**：`docs/SERVER_SIDE_TASKS.md`（Mac 侧维护，镜像
+  `docs/MAC_SIDE_TASKS.md`）。2026-11-15 的 BG3 v3 库部署待办已完成（线上 76a1540
+  已跑 v3 库，`.bak` 清理归服务器侧收尾）。
 - **防冲突纪律**（两端都有 agent 在改同一仓库，务必遵守）：
   **开工前必拉：`git status -sb` → `git fetch --prune` → `git pull --ff-only`（用户要求，每次无例外）；
   push 前再拉一次**——本地改完先 `git fetch` 看 origin 是否又前进了，有就先把
@@ -271,7 +268,7 @@ python scripts/eval/ragas_eval.py --game all --limit 5   # 报告输出到 evalu
   缺 `language` 的 BG3 库连纯英文 query 都能出结果，测试和线上都看不出库是坏的。
   代价：旧库在严格模式下零命中，所以**建库修复必须和向量库替换同一次上线**，
   只推代码不传库会让线上检索全线变空。
-  **服务器侧待办（2026-11-12 Mac 侧留）**：严格模式上线后，核对线上**每个游戏**的
+  ~~服务器侧待办（2026-11-12 Mac 侧留）~~ **已完成（2026-11-12 服务器侧核对）**：
   向量库是否带 `language` 标签（不只 BG3）。Mac 侧已审计本地 8 库全部合规
   （BG3 新库 66698 块全 en、HK/oni/terraria/va11halla 为 en+zh 混合），
   但线上库可能是更旧的版本。检查方法（在服务器仓库根跑）：
@@ -281,18 +278,14 @@ python scripts/eval/ragas_eval.py --game all --limit 5   # 报告输出到 evalu
   路径全部命中，`language` 齐；唯独 BG3 原库（10-41 构建）缺标签，已就地补 `language=en`
   （66698 条，未重算向量，备份 `index.pkl.bak-20261112`），重启后严格路径正常。
   Mac 侧重建上传后覆盖这份补丁产物，并删掉 `.bak`。
-- **服务器侧待办（2026-11-15 Mac 侧留）：silksong wiki 重采集**。
-  现有 silksong 向量库是坏的（47155 块/196 标题，混有 Grimm/Radiance 等空洞骑士条目，
-  服务器实测）——根因是采集脚本的全文搜索策略捞进了 HK 页面。`scripts/fetch/silksong.py`
-  已修复（`keep_silksong_only` 按页面分类过滤，fe12e58），但 **Mac 直连 fandom.com 超时
-  （无代理），采集只能在服务器跑**：
-  1. 服务器上 `git pull` 后运行 `.venv/bin/python scripts/fetch/silksong.py`
-     （纯网络 IO，不跑模型，几百页约 10 分钟）；
-  2. 校验产物 `games/silksong/data/wiki_data.md`：页数应在数百级，
-     随机抽 20 条标题确认全部属丝之歌、无空洞骑士 Boss；
-  3. 把新的 `wiki_data.md` 提交推送（该文件在 git 里）；
-  4. 告诉 Mac 侧重建：`bash scripts/tool/mac_prepare_build.sh --game silksong`
-     （建库只能在 Mac，建完块数不应再是 4 万级）。
+- **silksong wiki 重采集（2026-11-22 更新口径）**：旧待办（让服务器跑
+  `scripts/fetch/silksong.py`）已作废——网络结论反转，Mac 侧挂代理可直连 fandom，
+  服务器反而多源不可达。当前方案：统一用 `scripts/fetch/refetch_wiki.py` 重抓，
+  但解析器有两个盲区待服务器侧修复（`portable-infobox` 未剥、共享模板幽灵文本），
+  修完由 Mac 挂代理整站跑。详见 `docs/SERVER_SIDE_TASKS.md` P0-2。
+  背景：现有 silksong 向量库是坏的（47155 块/196 标题，混有 Grimm/Radiance 等
+  空洞骑士条目，服务器实测），且 `wiki_data.md` 源文件本身即垃圾（平均 150KB/页），
+  必须重抓而非过滤。
 - **术语表已接入检索（2026-11-12）**：`tools.search_knowledge_base` 内部调用
   `glossary.expand_query()`，命中中文专名时自动追加英文原名（A/B 证据：
   影心 top-8 不中 → 扩展后 rank 1）。术语表异常时静默回退原 query。
