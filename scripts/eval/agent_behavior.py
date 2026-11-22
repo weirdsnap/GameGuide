@@ -52,6 +52,10 @@ DEFAULT_CASES = ROOT / "scripts" / "eval" / "behavior_cases.jsonl"
 _SOURCE_HINT = re.compile(r"来源|知识库|条目")
 _QUOTED = re.compile(r"「([^」]{1,80})」")
 _PAREN_EN = re.compile(r"[（(]([^）)]{2,80})[）)]")
+# 缺陷 B（I-16）：引用判定必须「标记词紧跟引号」才算来源引用。
+# 旧实现是「行里有 来源|知识库|条目 就把整行所有「」当引用」，正文里的
+# 人名引号（如 法师「洛若坎」）会被误报成伪造来源，真问题被噪音盖住。
+_CITATION = re.compile(r"(?:来源[:：]?|知识库|数据库|条目)\s*「([^」]{1,80})」")
 
 
 # ══════════════════════════════════════════════════════════════
@@ -93,11 +97,7 @@ def check_citation(answer: str, tool_output: str) -> dict:
     X 允许两种写法：纯中文标题，或「中文（English）」；后者用中文和英文任一命中即可。
     没有任何工具返回时，任何「来源：知识库「X」」都算编造。
     """
-    quoted: list[str] = []
-    for line in (answer or "").splitlines():
-        if not _SOURCE_HINT.search(line):
-            continue
-        quoted.extend(_QUOTED.findall(line))
+    quoted: list[str] = _CITATION.findall(answer or "")
     haystack = _norm(tool_output)
     missing = []
     for title in quoted:
@@ -261,7 +261,8 @@ def run_full(cases: list[dict]) -> list[dict]:
         # 在无历史下整条落 menu 被误判路由错（假阴性）。
         for question in case["context"]:
             history.append({"role": "user", "content": question})
-            history.append({"role": "assistant", "content": "（前置上下文，评测不跑这一轮）"})
+            # I-20：占位文本模型看得见，用中性应答降低对内容层判定的干扰
+            history.append({"role": "assistant", "content": "好的，明白了。"})
         for i, question in enumerate(case["turns"]):
             before = len(records)
             answer, got = asyncio.run(_run_turn(graph, question, history))

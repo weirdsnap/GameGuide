@@ -84,7 +84,8 @@ def _table_columns(db_path: str, table: str) -> set[str]:
         db.close()
 
 
-def _format_db_result(rows: List[Dict], table: str) -> str:
+def _format_db_result(rows: List[Dict], table: str,
+                      game_key: Optional[str] = None) -> str:
     """格式化查询结果为可读文本（与表无关的通用格式）。"""
     if not rows:
         return "（数据库未找到相关内容）"
@@ -97,13 +98,22 @@ def _format_db_result(rows: List[Dict], table: str) -> str:
                 label = key.replace("_", " ").title()
                 parts.append(f"{label}: {val}")
         if parts:
-            lines.append(f"{i}. " + " | ".join(parts[:6]))
+            line = f"{i}. " + " | ".join(parts[:6])
+            # I-18：数值筛选/列表分支也要带 act——11-16 实测这类请求
+            # 占工具调用大头，不标注模型照样自己安章节
+            act = _row_act(game_key, r)
+            if act is not None:
+                line += f" [act {act}]"
+            lines.append(line)
     return "\n".join(lines[:30])  # cap at 30 rows
 
 
 def _row_act(game_key: Optional[str], row: Dict) -> Optional[int]:
     """推条目所属章节（防剧透 I-10）：优先 act 列，否则用 where_to_find
     里的地名去 locations/quests 同名表查（act_index）。查不到就 None，别猜。
+
+    I-18：where_to_find 同时提到多章地名时取 max(act)——防剧透场景
+    宁可多屏蔽，不能由 dict 遍历顺序决定漏不漏。
     """
     raw = row.get("act")
     if raw is not None:
@@ -118,12 +128,29 @@ def _row_act(game_key: Optional[str], row: Dict) -> Optional[int]:
         return None
     try:
         from rag_agent.act_index import act_by_title
-        for name, act in act_by_title(game_key).items():
-            if name and name in where:
-                return act
+        acts = [act for name, act in act_by_title(game_key).items()
+                if name and name in where]
+        return max(acts) if acts else None
     except Exception:
-        pass
-    return None
+        return None
+
+
+def _common_substring_len(a: str, b: str) -> int:
+    """最长公共子串长度（供术语表模糊匹配用，串都很短，DP 开销可忽略）。"""
+    if not a or not b:
+        return 0
+    prev = [0] * (len(b) + 1)
+    best = 0
+    for i in range(1, len(a) + 1):
+        cur = [0] * (len(b) + 1)
+        ai = a[i - 1]
+        for j in range(1, len(b) + 1):
+            if ai == b[j - 1]:
+                cur[j] = prev[j - 1] + 1
+                if cur[j] > best:
+                    best = cur[j]
+        prev = cur
+    return best
 
 
 def _search_all_tables(db_path: str, keyword: str,
@@ -412,6 +439,30 @@ def query_structured_data(query: str, game: str) -> str:
             if zh in q:
                 q = q.replace(zh, en)
 
+    # I-02：术语表翻译——「山丘巨人的铁手套」这类中文物品名在英文库里
+    # LIKE 必然不中，命中术语表时替换为英文原名（阈值与检索扩展一致）。
+    # 与上面硬编码的 _ZH_TO_EN 并存：硬编码覆盖术语表没有的高频词。
+    _exact_en = []  # 精确替换出的英文全名（整词优先，避免拆词误中）
+    _fuzzy_en = []  # 模糊候选：精确替换没盖住时，用术语表英文全名整词兜底
+    try:
+        from rag_agent.glossary import (
+            _zh_index, DEFAULT_MIN_CONF, SOFT_MIN_CONF, DEFAULT_FREQ_CUT,
+        )
+        for zh, en, conf, freq in _zh_index(_game_key):
+            if not (conf >= DEFAULT_MIN_CONF
+                    or (conf >= SOFT_MIN_CONF and freq >= DEFAULT_FREQ_CUT)):
+                continue
+            if zh in q:
+                q = q.replace(zh.lower(), en)
+                _exact_en.append(en)
+            elif _common_substring_len(zh, q) >= 4:
+                # 用户叫法与词条有 ≥4 字公共子串（如「山丘巨人的铁手套」对
+                # 「山丘巨人之力手套」共享「山丘巨人」），记下英文全名，
+                # 等精确 token 都落空后整词 LIKE 一次。
+                _fuzzy_en.append(en)
+    except Exception:
+        pass
+
     try:
         tbl_list = _fmt_table_names(db_path)
 
@@ -420,10 +471,23 @@ def query_structured_data(query: str, game: str) -> str:
             if q.startswith(prefix) and len(q) > 3:
                 keyword = q[len(prefix):].strip()
                 if keyword:
+                    # I-02：术语表翻出的英文全名先整词 LIKE——「Gauntlets of
+                    # Hill Giant Strength」拆词后首个 token「Gauntlets」会
+                    # 命中无关手套，全名整词才能命中本体。
+                    for en in _exact_en:
+                        hit = _search_all_tables(db_path, en, _game_key)
+                        if "未找到" not in hit:
+                            return hit
                     # Agent 可能画蛇添足拼接多个词（如「查询 蒸煮罐 stewpot 烹饪锅」），
                     # 逐个 token 搜索，取第一个能命中的即可
                     for token in keyword.split():
                         hit = _search_all_tables(db_path, token, _game_key)
+                        if "未找到" not in hit:
+                            return hit
+                    # I-02 模糊兜底：中文 token 全落空时，用术语表英文全名
+                    # 整词 LIKE（全名精确，误中风险低）。
+                    for en in _fuzzy_en:
+                        hit = _search_all_tables(db_path, en, _game_key)
                         if "未找到" not in hit:
                             return hit
                     return _search_all_tables(db_path, keyword, _game_key)
@@ -445,7 +509,7 @@ def query_structured_data(query: str, game: str) -> str:
                         if table_match in existing:
                             rows = _query_db(db_path, f"SELECT * FROM [{table_match}] LIMIT 30")
                             if rows:
-                                return _format_db_result(rows, table_match)
+                                return _format_db_result(rows, table_match, _game_key)
                     # Try fuzzy table name match
                     db2 = _get_db(db_path)
                     if db2:
@@ -457,7 +521,7 @@ def query_structured_data(query: str, game: str) -> str:
                             if any(k in table for k in keyword.split()):
                                 rows = _query_db(db_path, f"SELECT * FROM [{table}] LIMIT 30")
                                 if rows:
-                                    return _format_db_result(rows, table)
+                                    return _format_db_result(rows, table, _game_key)
                     # Try table name aliases (跨游戏通用表别名)
                     table_aliases = {
                         "boss": ["bosses", "monsters", "monster"],
@@ -515,7 +579,7 @@ def query_structured_data(query: str, game: str) -> str:
                                 if alias == table:
                                     rows = _query_db(db_path, f"SELECT * FROM [{table}] LIMIT 30")
                                     if rows:
-                                        return _format_db_result(rows, table)
+                                        return _format_db_result(rows, table, _game_key)
 
                     # If no table match, search all tables
                     return _search_all_tables(db_path, keyword, _game_key)

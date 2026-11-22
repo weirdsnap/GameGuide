@@ -156,18 +156,22 @@ def build_game_prompt(game_key: str) -> str:
 def build_common_rules(game_key: Optional[str] = None) -> str:
     """构建通用规则（回答规范、剧透管理、游戏边界）。
 
-    剧透追问方式按游戏注册表的 `spoiler_axis` 标注决定，不再靠举例：
-      act     — 按幕/章节区域推进的游戏（BG3、丝之歌），问「第几章/哪个区域」
+    剧透上界的语义按游戏注册表的 `spoiler_axis` 标注决定，不再靠举例：
+      act     — 按幕/章节区域推进的游戏（BG3、丝之歌），上界按 [act N]
       chapter — 按天/章节推进的叙事游戏（CP2077、VA-11 Hall-A）
       ability — 按能力/Boss 推进的探索游戏（空洞骑士、泰拉瑞亚）
-      none    — 进度不敏感的游戏（缺氧、MHW），不追问进度
+      none    — 进度不敏感的游戏（缺氧、MHW）
+    所有轴统一「不追问进度」（方案 C），用户报过才套上界。进度
     """
     axis_prompt = ""
     if game_key:
         axis = AVAILABLE_GAMES.get(game_key, {}).get("spoiler_axis")
+        # I-17：统一口径是「不追问进度」（追问会反复打断用户，SPOILER_CONTROL_PLAN
+        # 方案 C 已定）——旧版三个轴都写「先追问玩到第几章」，与
+        # progress_prompt_note 的「不要替用户假设章节」在 prompt 里打架。
         if axis == "act":
-            axis_prompt = ("- 用户问题涉及剧情且尚未报进度时，先追问玩到第几章/哪个区域"
-                           "（本作按幕划分区域进度），之后以此为准。\n"
+            axis_prompt = ("- 用户报过进度时，进度是硬上界；未报进度时不追问，"
+                           "按条目自身的 [act N] 标注作答。\n"
                            # I-10：两轮点踩实证——模型会把 act3 藏品改写到用户所在的第二章
                            "- 检索条目的章节归属以条目自身为准（工具返回里的 [act N] 标注），"
                            "不得把条目所属章节改写为用户当前进度所在的章节。\n"
@@ -176,11 +180,11 @@ def build_common_rules(game_key: Optional[str] = None) -> str:
                            "- 字段缺失（如没有位置信息）时直接说「库里没有」，"
                            "不留「可能在某处」这种半句。")
         elif axis == "chapter":
-            axis_prompt = ("- 用户问题涉及剧情且尚未报进度时，先追问玩到第几天/第几章，"
-                           "之后以此为准。")
+            axis_prompt = ("- 用户报过进度（第几天/第几章）时，进度是硬上界；"
+                           "未报进度时不追问，按问题所指作答。")
         elif axis == "ability":
-            axis_prompt = ("- 用户问题涉及剧情且尚未报进度时，先追问已获得的能力"
-                           "或已击败的 Boss，之后以此为准。")
+            axis_prompt = ("- 用户报过进度（已获得的能力/已击败的 Boss）时，"
+                           "进度是硬上界；未报进度时不追问，按问题所指作答。")
         # axis == "none"：进度不敏感，不追问
 
     return f"""

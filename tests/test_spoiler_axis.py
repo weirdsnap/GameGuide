@@ -24,15 +24,25 @@ def test_所有游戏都标注了spoiler_axis():
 
 
 @pytest.mark.parametrize("game,expect", [
-    ("baldurs_gate3", "第几章/哪个区域"),
+    ("baldurs_gate3", "[act N]"),
     ("cyberpunk2077", "第几天/第几章"),
     ("va11halla", "第几天/第几章"),
     ("hollow_knight", "已获得的能力"),
-    ("silksong", "第几章/哪个区域"),
+    ("silksong", "[act N]"),
     ("terraria", "已获得的能力"),
 ])
-def test_进度敏感游戏有对应追问(game, expect):
+def test_进度敏感游戏有对应上界语义(game, expect):
     assert expect in build_common_rules(game)
+
+
+@pytest.mark.parametrize("game", [
+    "baldurs_gate3", "silksong", "cyberpunk2077", "va11halla",
+    "hollow_knight", "terraria", "oni", "mhw",
+])
+def test_所有轴都不主动追问进度(game):
+    """I-17：统一口径「不追问」（追问与 progress_prompt_note 的
+    「不要替用户假设章节」在 prompt 里打架）。"""
+    assert "先追问" not in build_common_rules(game)
 
 
 @pytest.mark.parametrize("game", ["oni", "mhw"])
