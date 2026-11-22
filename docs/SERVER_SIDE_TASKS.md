@@ -120,3 +120,38 @@ curl -s -X POST http://localhost:8765/api/ask -H 'Content-Type: application/json
 - SPOILER_TERMS 补 act3 地名（`87568ec`）+ 12 条契约测试。
 - 数据看板设计 `docs/DASHBOARD_PLAN.md`（服务器侧自己的活，Mac 无动作项）。
 - 防剧透数据分析与问题防护（ISSUES_2026-11-22 全链路）。
+
+---
+
+## 服务器侧执行回执（2026-11-22 13:30，对应 P0-1）
+
+拉取到 `f8ffb83`（含 `f55ea5f`），重启 PID 1631717。
+
+| 项 | 结果 |
+|---|---|
+| pytest | **224 passed / 20 skipped / 1 xfailed**（4.79s）与 Mac 本地一致 |
+| routing | **13/13**，0 失败 |
+| full `bg3-hill-giant-gauntlets` | 路由正确；内容层 `命中禁用词 ['第三章']` —— 是用例禁词与正确性矛盾，已记 **I-21**（需 Mac 改用例） |
+| full `bg3-lorroakan-act2` | **citation 噪音消失**，只剩 `Nightsong L3` 一条（I-16 生效；L3 属词表偏严，维持 KNOWN） |
+| I-02 中文名 | 两轮均落在 baldurs_gate3，路由层已确认（内容层被 I-21 挡住） |
+
+预算（`--check-budget 40000`）：全量 p90 = 150,306 **超线**，但 149,000 是裁剪上线
+（`f9eaabb` 01:34）前的历史数据。裁剪后真实轮次：
+
+```
+11-22 11:33  in=45,954  hist=7
+11-22 12:15  in=18,520  hist=1
+11-22 12:54  in=40,822  hist=3
+```
+
+结论：`history_msgs` 从 79/85 降到 7/1/3，裁剪确实生效；但**单轮基线本身就在 40k 上下**
+（系统提示词 + 工具返回），所以裁剪只解决了「越聊越长」，没解决「起步就接近预算」。
+样本仅 3 轮，按既定口径续观到 11-25，I-19 的 6→10~12 轮参数暂不动。
+
+另：`oni / 高压制氧` 的 `in=1 hist=0` 是菜单轮（route=menu），不进真实耗时/token 统计，
+看板与报告做均值时要注意别把它们当真实轮次（看板设计里已写明 route 过滤）。
+
+### 等 Mac 侧动作
+
+- **I-21**：`bg3-hill-giant-gauntlets` 去掉「第三章」禁词（或 max_level 提到 2）。
+- P0-2 解析器修复服务器侧现在开始做，改完在这份文档回执，Mac 即可开抓。
