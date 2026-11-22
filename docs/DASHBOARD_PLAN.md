@@ -172,6 +172,83 @@ data/eval/latest.json        最新一次 agent_behavior --json 的原样输出
 
 ---
 
+### 8.1 现成配置（2026-11-22 留存，待执行）
+
+服务器上 Caddy 只有 `/etc/caddy/Caddyfile` 一个块，内容为
+`api.weirdsnap.top:8443 { reverse_proxy localhost:8765 }`。改成下面这样即可同时
+提供静态页与数据 API：
+
+步骤 1，生成密码 hash（普通用户即可，不需要 root；bcrypt 串里的 `$` 直接粘贴，
+Caddyfile 不做变量替换）：
+
+```
+caddy hash-password --plaintext '你想用的密码'
+```
+
+步骤 2，`sudo vi /etc/caddy/Caddyfile`，整块替换为（`<HASH>` 换成上一步输出，
+`curry` 换成想用的用户名；动手前先 `sudo cp /etc/caddy/Caddyfile /etc/caddy/Caddyfile.bak`）：
+
+```
+api.weirdsnap.top:8443 {
+    handle /dashboard* {
+        basic_auth {
+            curry <HASH>
+        }
+        root * /data/learning/agent/web
+        rewrite * /dashboard.html
+        file_server
+        header X-Robots-Tag "noindex, nofollow"
+    }
+    reverse_proxy localhost:8765
+}
+```
+
+要点：
+
+- `handle /dashboard*` 必须排在 `reverse_proxy` 前面，否则请求会被整个反代给 8765
+  （`handle` 块是互斥路由，命中后不再往下走）。
+- 路径用绝对路径指向仓库里的 `web/`，不在服务器上复制第二份。
+- 页面本身已带 `<meta name="robots" content="noindex, nofollow">`，`X-Robots-Tag`
+  是给不解析 HTML 的爬虫的第二道保险。
+- 数据 API（`/api/dashboard/*`）走同一个端口，共享这层 basic_auth——因为
+  `handle` 只罩 `/dashboard*`，`/api/*` 仍是裸的。**若要连 API 一起保护**，
+  把 `/api/dashboard*` 也写进同一个 `handle` 块（与静态页共用凭据）：
+
+```
+    handle /dashboard* {
+        ...同上...
+    }
+    handle /api/dashboard* {
+        basic_auth {
+            curry <HASH>
+        }
+        reverse_proxy localhost:8765
+    }
+```
+
+  推荐用后者：数据端点同样会返回真实提问文本，只保护 HTML 等于没保护。
+
+步骤 3，校验并重载：
+
+```
+sudo caddy validate --config /etc/caddy/Caddyfile
+sudo systemctl reload caddy
+```
+
+步骤 4，验收（对未认证请求应 401，带凭据应 200）：
+
+```
+curl -sI https://api.weirdsnap.top:8443/dashboard | head -1
+curl -sI -u curry:'密码' https://api.weirdsnap.top:8443/dashboard | head -1
+curl -sI -u curry:'密码' 'https://api.weirdsnap.top:8443/api/dashboard/summary?days=7' | head -1
+```
+
+回滚只有一条：`sudo cp /etc/caddy/Caddyfile.bak /etc/caddy/Caddyfile && sudo systemctl reload caddy`。
+
+**在配好鉴权之前，不要把 `/dashboard` 暴露到公网**——页面含真实提问文本与答案开头。
+
+---
+
 ## 9. 分期
 
 | 期 | 内容 | 依赖 | 估时 |
@@ -249,8 +326,9 @@ P0 完成后就能替代 `turns_report.py` 的日常使用；P1 之后才真的�
 
 未落地（下一步）：
 
-- Caddy `basicauth` + `/dashboard` 路由（需 root 改 `/etc/caddy/Caddyfile`，
-  由用户执行；在此之前看板不要对公网开放——页面含真实提问文本）。
+- Caddy `basic_auth` + `/dashboard` 路由：配置片段、校验与回滚命令已写好，
+  见 §8.1，待执行（需 root 改 `/etc/caddy/Caddyfile`）。在此之前看板只在内网可用，
+  页面与 `/api/dashboard/*` 都含真实提问文本。
 - P1 反馈面板的可视化细节（后端 `link_feedback` 已提供数据）。
 - P2 eval 面板、P3 预算 cron 告警。
 
