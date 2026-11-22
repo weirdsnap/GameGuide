@@ -479,15 +479,30 @@ def feedback_summary(records: list[dict]) -> dict:
 
 # ====== 会话（I-23）======
 
-def init_session_store() -> bool:
+def init_session_store() -> None:
     """建表并指向当前库。失败只告警：存储不能用也要能回答（legacy 路径）。"""
     try:
         store.set_db_path(SESSION_DB)
         store.init_db()
-        return True
     except store.StoreError:
         logger.warning("会话库初始化失败，本轮起走 legacy（前端 history）", exc_info=True)
-        return False
+
+
+def _store_unavailable():
+    return web.json_response({"error": "session store unavailable"}, status=503)
+
+
+def _session_not_found():
+    return web.json_response({"error": "session not found"}, status=404)
+
+
+def _int_query(request, name: str, default: int, upper: int) -> int:
+    """取整数查询参数并夹到 [1, upper]，非法值回退默认。"""
+    try:
+        value = int(request.query.get(name, default))
+    except (TypeError, ValueError):
+        return default
+    return min(max(value, 1), upper)
 
 
 def resolve_session(body: dict) -> tuple[str | None, str | None]:
@@ -581,11 +596,7 @@ async def handle_sessions(request):
     if not cid:
         return web.json_response({"sessions": []})
     try:
-        limit = min(max(int(request.query.get("limit", 10)), 1), 50)
-    except ValueError:
-        limit = 10
-    try:
-        rows = store.list_sessions(cid, limit=limit)
+        rows = store.list_sessions(cid, limit=_int_query(request, "limit", 10, 50))
     except store.StoreError:
         return web.json_response({"sessions": [], "degraded": True})
     return web.json_response({"sessions": rows})
@@ -595,16 +606,12 @@ async def handle_session_detail(request):
     """GET /api/sessions/{session_id}?limit=50 — 轮次列表（刷新后渲染历史）"""
     sid = request.match_info["session_id"]
     try:
-        limit = min(max(int(request.query.get("limit", 50)), 1), 200)
-    except ValueError:
-        limit = 50
-    try:
         row = store.get_session(sid)
         if row is None:
-            return web.json_response({"error": "session not found"}, status=404)
-        turns = store.session_rows(sid, limit=limit)
+            return _session_not_found()
+        turns = store.session_rows(sid, limit=_int_query(request, "limit", 50, 200))
     except store.StoreError:
-        return web.json_response({"error": "session store unavailable"}, status=503)
+        return _store_unavailable()
     return web.json_response({
         "session_id": sid,
         "game": row.get("game"),
@@ -620,20 +627,20 @@ async def handle_session_reset(request):
     sid = request.match_info["session_id"]
     try:
         if store.get_session(sid) is None:
-            return web.json_response({"error": "session not found"}, status=404)
+            return _session_not_found()
         store.reset_progress(sid)
     except store.StoreError:
-        return web.json_response({"error": "session store unavailable"}, status=503)
+        return _store_unavailable()
     return web.json_response({"reset": True})
 
 
 async def handle_session_delete(request):
-    """DELETE /api/sessions/{session_id} — 用户主动删掉一段对话"""
+    """DELETE /api/sessions/{session_id} — 用户主动删掉一段对话（幂等）"""
     sid = request.match_info["session_id"]
     try:
         deleted = store.delete_session(sid)
     except store.StoreError:
-        return web.json_response({"error": "session store unavailable"}, status=503)
+        return _store_unavailable()
     return web.json_response({"deleted": deleted})
 
 

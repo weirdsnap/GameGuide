@@ -5,15 +5,14 @@
 全部离线：ask/ask_stream 用假实现，存储指向 tmp_path（conftest 的 autouse fixture）。
 """
 
-import asyncio
-import json
-import time
+import sys
+from pathlib import Path
 
 import api_server
-from api_server import DailyQuota
 from rag_agent import store
 
-FIXED_TS = 1_700_000_000
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import api_helpers  # noqa: E402
 
 
 def _meta(**kw):
@@ -40,37 +39,14 @@ def _fresh(monkeypatch, tmp_path, *, ask=None, ask_stream=None):
         if meta is not None:
             meta.update(_meta())
 
-    monkeypatch.setattr(api_server, "log_turn", lambda rec: None)
-    monkeypatch.setattr(api_server, "rate_limiter", api_server.RateLimiter())
-    monkeypatch.setattr(api_server, "quota",
-                        DailyQuota(tmp_path / "quota.json", limit=100,
-                                   clock=lambda: FIXED_TS))
+    api_helpers.isolate_app_state(monkeypatch, tmp_path)
     monkeypatch.setattr(api_server, "ask", ask or default_ask)
     monkeypatch.setattr(api_server, "ask_stream", ask_stream or default_stream)
     return api_server.create_app, seen
 
 
 def _call(factory, method, path, payload=None):
-    """发一个请求，返回 (status, json_or_text)。"""
-    from aiohttp.test_utils import TestClient, TestServer
-
-    async def _run():
-        async with TestClient(TestServer(factory())) as client:
-            if method == "GET":
-                resp = await client.get(path)
-            else:
-                resp = await client.request(method, path, json=payload)
-            text = await resp.text()
-            try:
-                return resp.status, json.loads(text)
-            except json.JSONDecodeError:
-                return resp.status, text
-
-    return asyncio.run(_run())
-
-
-def _sse_events(text):
-    return [json.loads(line[5:]) for line in text.splitlines() if line.startswith("data: ")]
+    return api_helpers.call_json(factory, method, path, payload)
 
 
 # ====== 身份解析 ======
@@ -156,7 +132,7 @@ def test_stream_stores_answer_and_returns_ids(monkeypatch, tmp_path):
     factory, _ = _fresh(monkeypatch, tmp_path)
     status, text = _call(factory, "POST", "/api/ask/stream", {"question": "螳螂爪"})
     assert status == 200
-    done = [e for e in _sse_events(text) if e["type"] == "done"][0]
+    done = [e for e in api_helpers.sse_events(text) if e["type"] == "done"][0]
     assert done["session_id"]
     rows = store.session_rows(done["session_id"], db_path=api_server.SESSION_DB)
     assert rows[0]["answer"] == "答案：螳螂爪"
@@ -170,14 +146,17 @@ def test_stream_interruption_stores_partial(monkeypatch, tmp_path):
         raise RuntimeError("连接断了")
 
     factory, _ = _fresh(monkeypatch, tmp_path, ask_stream=broken_stream)
-    _, text = _call(factory, "POST", "/api/ask/stream", {"question": "问问"})
-    events = _sse_events(text)
+    client_id = "c" * 32
+    _, text = _call(factory, "POST", "/api/ask/stream",
+                    {"question": "问问", "client_id": client_id})
+    events = api_helpers.sse_events(text)
     # 断流后没有 done 事件，但答案已经按 partial 落库
     assert not any(e["type"] == "done" for e in events)
-    conn = store._connect(api_server.SESSION_DB)
-    row = conn.execute("SELECT answer, answer_partial FROM turns").fetchone()
-    conn.close()
-    assert row["answer"] == "半截答案" and row["answer_partial"] == 1
+    sessions = store.list_sessions(client_id, db_path=api_server.SESSION_DB)
+    assert len(sessions) == 1
+    row = store.session_rows(sessions[0]["session_id"],
+                             db_path=api_server.SESSION_DB)[0]
+    assert row["answer"] == "半截答案" and row["answer_partial"] is True
 
 
 # ====== 会话查询路由 ======

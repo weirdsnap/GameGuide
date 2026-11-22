@@ -1,26 +1,24 @@
 """API 处理器层的离线测试（无 LLM 调用，用假 ask/ask_stream）。
 
 覆盖：无密码访问、全局每日额度（含流式）、登录端点兼容、SSE 协议、观测记录。
+公共设施（隔离额度/发请求）见 `api_helpers.py`。
 """
 
-import asyncio
 import json
+import sys
 import time
+from pathlib import Path
 
 import api_server
-from api_server import DailyQuota
 
-FIXED_TS = 1_700_000_000
-FIXED_DAY = time.strftime("%Y-%m-%d", time.localtime(FIXED_TS))   # 按本机时区算，避免时区依赖
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import api_helpers  # noqa: E402
+from api_helpers import FIXED_DAY, FIXED_TS  # noqa: E402
 
 
 def _fresh(monkeypatch, tmp_path, *, limit=100, ask=None, ask_stream=None):
     """构造应用，替换额度、限速与 Agent 入口，返回 (app, records, quota)。"""
-    records = []
-    monkeypatch.setattr(api_server, "log_turn", records.append)
-    monkeypatch.setattr(api_server, "rate_limiter", api_server.RateLimiter())
-    quota = DailyQuota(tmp_path / "quota.json", limit=limit, clock=lambda: FIXED_TS)
-    monkeypatch.setattr(api_server, "quota", quota)
+    records, quota = api_helpers.isolate_app_state(monkeypatch, tmp_path, limit=limit)
     if ask is not None:
         monkeypatch.setattr(api_server, "ask", ask)
     if ask_stream is not None:
@@ -31,25 +29,11 @@ def _fresh(monkeypatch, tmp_path, *, limit=100, ask=None, ask_stream=None):
 
 
 def _post(app_factory, path, payload):
-    from aiohttp.test_utils import TestClient, TestServer
-
-    async def _run():
-        async with TestClient(TestServer(app_factory())) as client:
-            resp = await client.post(path, json=payload)
-            return resp.status, await resp.text()
-
-    return asyncio.run(_run())
+    return api_helpers.call_raw(app_factory, "POST", path, payload)
 
 
 def _get(app_factory, path):
-    from aiohttp.test_utils import TestClient, TestServer
-
-    async def _run():
-        async with TestClient(TestServer(app_factory())) as client:
-            resp = await client.get(path)
-            return resp.status, await resp.json()
-
-    return asyncio.run(_run())
+    return api_helpers.call_json(app_factory, "GET", path)
 
 
 def _ok_ask(question, history=None, verbose=False, meta=None):

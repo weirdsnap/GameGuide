@@ -214,9 +214,14 @@ python scripts/build/build_game_db.py --game <game>
 主套件是 pytest，默认离线（不调真实 LLM，e2e 用例自动 skip）：
 
 ```bash
-.venv/bin/python -m pytest tests -q          # 当前 186 passed / 20 skipped / 1 xfailed（G4）
+.venv/bin/python -m pytest tests -q          # 当前 282 passed / 20 skipped / 1 xfailed
 .venv/bin/python -m pytest tests --run-e2e   # 真实模型端到端（需要 .env 的 key）
 ```
+
+会话存储（I-23）拆成三个文件，职责不重叠：`test_store.py`（存储层契约）、
+`test_retention.py`（留存清理）、`test_session_api.py`（身份解析 / 双写 / 装配 / 降级）。
+处理器层的公共设施（隔离额度与落盘、发请求、拆 SSE）在 `tests/api_helpers.py`，
+被 `test_api_handlers.py` 与本套共用；两个文件不要再各写一份。
 
 脚本式评估不进 pytest 默认收集（见 `tests/conftest.py` 的 `collect_ignore`）：
 
@@ -239,6 +244,8 @@ python scripts/eval/ragas_eval.py --game all --limit 5   # 报告输出到 evalu
 
 路由测试中有两条已知预期失败用例（不含游戏关键词的查询路由不到游戏），
 这是当前设计行为，不是 bug，见 `tests/test_light.py` 注释。
+`--routing` 的 13 条当前干净通过；`pytest` 套件里唯一残留 xfail 是 G4
+（turn_record 的 sources 字段），与路由无关。
 
 ## 代码风格与约定
 

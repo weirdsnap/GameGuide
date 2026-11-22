@@ -7,17 +7,43 @@
 - 失败统一抛 `StoreError`，由调用方降级到旧路径——存储故障不能变成 5xx
 - 时间一律 unix 秒整数，与 `turn_record` 的 ts 同源，便于和 jsonl 对账
 - 不存 IP、不存 UA、不存请求侧 history 原文
+- 单条读写走 `_read_one/_read_all/_write`；需要多语句原子性的（append_turn、purge）
+  自己开场事务
 """
 
 from __future__ import annotations
 
+import json
 import os
 import sqlite3
 import time
 from pathlib import Path
 from typing import Dict, List, Optional
 
+# 单条消息截断上限与 trim_history 共用同一个常量，避免两处规则漂移
 from rag_agent.history_trim import MAX_MSG_CHARS
+
+__all__ = [
+    "StoreError",
+    "MAX_MSG_CHARS",
+    "DEFAULT_DB",
+    "set_db_path",
+    "current_db_path",
+    "init_db",
+    "ensure_session",
+    "touch_session",
+    "get_session",
+    "list_sessions",
+    "delete_session",
+    "reset_progress",
+    "update_game",
+    "append_turn",
+    "session_turns",
+    "session_rows",
+    "save_receipt",
+    "session_receipts",
+    "purge",
+]
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_DB = PROJECT_ROOT / "data" / "sessions.db"
@@ -35,7 +61,7 @@ def set_db_path(path) -> None:
     _DB_PATH = Path(path) if path else None
 
 
-def db_path() -> Path:
+def current_db_path() -> Path:
     return _DB_PATH or Path(os.environ.get("GAMEGUIDE_SESSION_DB") or DEFAULT_DB)
 
 
@@ -92,7 +118,7 @@ def _now(now=None) -> int:
 
 
 def _connect(path=None) -> sqlite3.Connection:
-    target = Path(path) if path else db_path()
+    target = Path(path) if path else current_db_path()
     try:
         target.parent.mkdir(parents=True, exist_ok=True)
         # isolation_level=None：关掉隐式事务，写操作自己 BEGIN IMMEDIATE
@@ -107,6 +133,38 @@ def _connect(path=None) -> sqlite3.Connection:
         raise StoreError(f"打不开会话库 {target}: {e}") from e
 
 
+def _write(sql: str, params=(), *, db_path=None) -> int:
+    """单条写语句，返回 rowcount。"""
+    conn = _connect(db_path)
+    try:
+        return conn.execute(sql, params).rowcount
+    except sqlite3.Error as e:
+        raise StoreError(f"写库失败: {e}") from e
+    finally:
+        conn.close()
+
+
+def _read_all(sql: str, params=(), *, db_path=None) -> List[Dict]:
+    conn = _connect(db_path)
+    try:
+        return [dict(r) for r in conn.execute(sql, params).fetchall()]
+    except sqlite3.Error as e:
+        raise StoreError(f"读库失败: {e}") from e
+    finally:
+        conn.close()
+
+
+def _read_one(sql: str, params=(), *, db_path=None) -> Optional[Dict]:
+    conn = _connect(db_path)
+    try:
+        row = conn.execute(sql, params).fetchone()
+        return dict(row) if row is not None else None
+    except sqlite3.Error as e:
+        raise StoreError(f"读库失败: {e}") from e
+    finally:
+        conn.close()
+
+
 def init_db(path=None) -> None:
     """幂等建表。失败抛 StoreError（调用方只告警，服务照常起）。"""
     conn = _connect(path)
@@ -118,106 +176,59 @@ def init_db(path=None) -> None:
         conn.close()
 
 
-def _row_dict(row) -> Optional[Dict]:
-    return dict(row) if row is not None else None
-
-
 # ====== sessions ======
 
 
 def ensure_session(*, session_id: str, client_id: str, now=None, db_path=None) -> bool:
     """不存在就建空 session。返回 True=新建，False=已存在。"""
     ts = _now(now)
-    conn = _connect(db_path)
-    try:
-        cur = conn.execute(
-            "INSERT OR IGNORE INTO sessions"
-            " (session_id, client_id, created_at, last_active, n_turns)"
-            " VALUES (?, ?, ?, ?, 0)",
-            (session_id, client_id, ts, ts),
-        )
-        return cur.rowcount > 0
-    except sqlite3.Error as e:
-        raise StoreError(f"ensure_session 失败: {e}") from e
-    finally:
-        conn.close()
+    rows = _write(
+        "INSERT OR IGNORE INTO sessions"
+        " (session_id, client_id, created_at, last_active, n_turns)"
+        " VALUES (?, ?, ?, ?, 0)",
+        (session_id, client_id, ts, ts), db_path=db_path,
+    )
+    return rows > 0
 
 
 def touch_session(session_id: str, *, now=None, db_path=None) -> None:
-    conn = _connect(db_path)
-    try:
-        conn.execute("UPDATE sessions SET last_active=? WHERE session_id=?",
-                     (_now(now), session_id))
-    except sqlite3.Error as e:
-        raise StoreError(f"touch_session 失败: {e}") from e
-    finally:
-        conn.close()
+    _write("UPDATE sessions SET last_active=? WHERE session_id=?",
+           (_now(now), session_id), db_path=db_path)
 
 
 def get_session(session_id: str, *, db_path=None) -> Optional[Dict]:
-    conn = _connect(db_path)
-    try:
-        row = conn.execute("SELECT * FROM sessions WHERE session_id=?",
-                           (session_id,)).fetchone()
-        return _row_dict(row)
-    except sqlite3.Error as e:
-        raise StoreError(f"get_session 失败: {e}") from e
-    finally:
-        conn.close()
+    return _read_one("SELECT * FROM sessions WHERE session_id=?",
+                     (session_id,), db_path=db_path)
 
 
 def list_sessions(client_id: str, *, limit: int = 10, db_path=None) -> List[Dict]:
     """只返回该 client 的会话，按最近活跃倒序。跨 client 不可见。"""
-    conn = _connect(db_path)
-    try:
-        rows = conn.execute(
-            "SELECT s.*, (SELECT COUNT(*) FROM turns t"
-            "             WHERE t.session_id = s.session_id AND t.answer IS NOT NULL)"
-            "        AS turns_available"
-            " FROM sessions s WHERE s.client_id=?"
-            " ORDER BY s.last_active DESC LIMIT ?",
-            (client_id, int(limit)),
-        ).fetchall()
-        return [dict(r) for r in rows]
-    except sqlite3.Error as e:
-        raise StoreError(f"list_sessions 失败: {e}") from e
-    finally:
-        conn.close()
+    return _read_all(
+        "SELECT s.*, (SELECT COUNT(*) FROM turns t"
+        "             WHERE t.session_id = s.session_id AND t.answer IS NOT NULL)"
+        "        AS turns_available"
+        " FROM sessions s WHERE s.client_id=?"
+        " ORDER BY s.last_active DESC LIMIT ?",
+        (client_id, int(limit)), db_path=db_path,
+    )
 
 
 def delete_session(session_id: str, *, db_path=None) -> bool:
-    conn = _connect(db_path)
-    try:
-        cur = conn.execute("DELETE FROM sessions WHERE session_id=?", (session_id,))
-        return cur.rowcount > 0
-    except sqlite3.Error as e:
-        raise StoreError(f"delete_session 失败: {e}") from e
-    finally:
-        conn.close()
+    return _write("DELETE FROM sessions WHERE session_id=?", (session_id,),
+                  db_path=db_path) > 0
 
 
 def reset_progress(session_id: str, *, db_path=None) -> None:
     """进度归零（用户明说重开）。单调不减的唯一例外。"""
-    conn = _connect(db_path)
-    try:
-        conn.execute("UPDATE sessions SET progress=NULL, progress_src='reset'"
-                     " WHERE session_id=?", (session_id,))
-    except sqlite3.Error as e:
-        raise StoreError(f"reset_progress 失败: {e}") from e
-    finally:
-        conn.close()
+    _write("UPDATE sessions SET progress=NULL, progress_src='reset'"
+           " WHERE session_id=?", (session_id,), db_path=db_path)
 
 
 def update_game(session_id: str, game: str, *, db_path=None) -> None:
     if not game:
         return
-    conn = _connect(db_path)
-    try:
-        conn.execute("UPDATE sessions SET game=? WHERE session_id=?", (game, session_id))
-    except sqlite3.Error as e:
-        raise StoreError(f"update_game 失败: {e}") from e
-    finally:
-        conn.close()
+    _write("UPDATE sessions SET game=? WHERE session_id=?", (game, session_id),
+           db_path=db_path)
 
 
 # ====== turns ======
@@ -296,17 +307,11 @@ def session_turns(session_id: str, *, limit_turns: int = 6, max_chars: int = 600
     规则与 trim_history 对齐：单条 >2000 字截断；总字符超预算从旧往新丢整轮；
     最后一轮无条件保留。answer 已过期（NULL）的轮次跳过——问题没有答案接不上。
     """
-    conn = _connect(db_path)
-    try:
-        rows = conn.execute(
-            "SELECT question, answer FROM turns"
-            " WHERE session_id=? AND answer IS NOT NULL ORDER BY seq DESC LIMIT ?",
-            (session_id, int(limit_turns)),
-        ).fetchall()
-    except sqlite3.Error as e:
-        raise StoreError(f"session_turns 失败: {e}") from e
-    finally:
-        conn.close()
+    rows = _read_all(
+        "SELECT question, answer FROM turns"
+        " WHERE session_id=? AND answer IS NOT NULL ORDER BY seq DESC LIMIT ?",
+        (session_id, int(limit_turns)), db_path=db_path,
+    )
 
     msgs: List[Dict] = []
     for r in reversed(rows):
@@ -321,23 +326,17 @@ def session_turns(session_id: str, *, limit_turns: int = 6, max_chars: int = 600
 
 
 def session_rows(session_id: str, *, limit: int = 50, db_path=None) -> List[Dict]:
-    """给前端恢复历史用：最近 limit 轮，按 seq 升序，含过期标记。"""
-    conn = _connect(db_path)
-    try:
-        rows = conn.execute(
-            "SELECT turn_id, seq, ts, question, answer, game, route"
-            " FROM turns WHERE session_id=? ORDER BY seq DESC LIMIT ?",
-            (session_id, int(limit)),
-        ).fetchall()
-    except sqlite3.Error as e:
-        raise StoreError(f"session_rows 失败: {e}") from e
-    finally:
-        conn.close()
+    """给前端恢复历史用：最近 limit 轮，按 seq 升序，含过期与半截标记。"""
+    rows = _read_all(
+        "SELECT turn_id, seq, ts, question, answer, game, route, answer_partial"
+        " FROM turns WHERE session_id=? ORDER BY seq DESC LIMIT ?",
+        (session_id, int(limit)), db_path=db_path,
+    )
     out = []
     for r in reversed(rows):
-        d = dict(r)
-        d["answer_expired"] = d["answer"] is None
-        out.append(d)
+        r["answer_expired"] = r["answer"] is None
+        r["answer_partial"] = bool(r["answer_partial"])
+        out.append(r)
     return out
 
 
@@ -347,37 +346,23 @@ def session_rows(session_id: str, *, limit: int = 50, db_path=None) -> List[Dict
 def save_receipt(*, turn_id: str, session_id: str, seq: int,
                  conclusion: Optional[str] = None, sources=None,
                  entry_acts=None, entities=None, db_path=None) -> None:
-    import json as _json
-    conn = _connect(db_path)
-    try:
-        conn.execute(
-            "INSERT OR REPLACE INTO receipts"
-            " (turn_id, session_id, seq, conclusion, sources, entry_acts, entities)"
-            " VALUES (?,?,?,?,?,?,?)",
-            (turn_id, session_id, seq, conclusion,
-             _json.dumps(sources, ensure_ascii=False) if sources else None,
-             _json.dumps(entry_acts, ensure_ascii=False) if entry_acts else None,
-             _json.dumps(entities, ensure_ascii=False) if entities else None),
-        )
-    except sqlite3.Error as e:
-        raise StoreError(f"save_receipt 失败: {e}") from e
-    finally:
-        conn.close()
+    def _dump(value):
+        return json.dumps(value, ensure_ascii=False) if value else None
+
+    _write(
+        "INSERT OR REPLACE INTO receipts"
+        " (turn_id, session_id, seq, conclusion, sources, entry_acts, entities)"
+        " VALUES (?,?,?,?,?,?,?)",
+        (turn_id, session_id, seq, conclusion,
+         _dump(sources), _dump(entry_acts), _dump(entities)),
+        db_path=db_path,
+    )
 
 
 def session_receipts(session_id: str, *, limit: int = 20, db_path=None) -> List[Dict]:
     """最早的 N 条存根（原文窗口负责最近几轮，存根补更早的）。"""
-    conn = _connect(db_path)
-    try:
-        rows = conn.execute(
-            "SELECT * FROM receipts WHERE session_id=? ORDER BY seq ASC LIMIT ?",
-            (session_id, int(limit)),
-        ).fetchall()
-        return [dict(r) for r in rows]
-    except sqlite3.Error as e:
-        raise StoreError(f"session_receipts 失败: {e}") from e
-    finally:
-        conn.close()
+    return _read_all("SELECT * FROM receipts WHERE session_id=? ORDER BY seq ASC LIMIT ?",
+                     (session_id, int(limit)), db_path=db_path)
 
 
 # ====== 留存清理 ======
@@ -398,16 +383,14 @@ def purge(*, answer_days: int = 3, receipt_days: int = 90, session_days: int = 9
     stats = {"answers_cleared": 0, "receipts_deleted": 0, "sessions_deleted": 0}
     try:
         conn.execute("BEGIN IMMEDIATE")
-        cur = conn.execute(
+        stats["answers_cleared"] = conn.execute(
             "UPDATE turns SET answer=NULL, answer_partial=0"
-            " WHERE answer IS NOT NULL AND ts < ?", (answer_cutoff,))
-        stats["answers_cleared"] = cur.rowcount
-        cur = conn.execute(
+            " WHERE answer IS NOT NULL AND ts < ?", (answer_cutoff,)).rowcount
+        stats["receipts_deleted"] = conn.execute(
             "DELETE FROM receipts WHERE turn_id IN"
-            " (SELECT turn_id FROM turns WHERE ts < ?)", (receipt_cutoff,))
-        stats["receipts_deleted"] = cur.rowcount
-        cur = conn.execute("DELETE FROM sessions WHERE last_active < ?", (session_cutoff,))
-        stats["sessions_deleted"] = cur.rowcount
+            " (SELECT turn_id FROM turns WHERE ts < ?)", (receipt_cutoff,)).rowcount
+        stats["sessions_deleted"] = conn.execute(
+            "DELETE FROM sessions WHERE last_active < ?", (session_cutoff,)).rowcount
         conn.execute("COMMIT")
         return stats
     except sqlite3.Error as e:

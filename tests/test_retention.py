@@ -103,8 +103,8 @@ def test_purge_is_idempotent(db):
     assert second == {"answers_cleared": 0, "receipts_deleted": 0, "sessions_deleted": 0}
 
 
-def test_purge_respects_env_windows(tmp_path):
-    """默认值来自 env（GAMEGUIDE_RETENTION_*）：调用方不传参也能按配置跑。"""
+def test_answer_window_is_configurable(tmp_path):
+    """留存窗口走参数（api_server 从 env 读后传进来），改 1 天就该只留 1 天。"""
     path = tmp_path / "sessions.db"
     store.init_db(path)
     store.ensure_session(session_id="s", client_id="c", now=NOW, db_path=path)
