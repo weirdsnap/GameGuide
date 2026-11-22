@@ -14,13 +14,18 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import statistics
 import sys
 from collections import Counter, defaultdict
 from datetime import datetime, timedelta
 from pathlib import Path
 
-TURNS_DIR = Path(__file__).resolve().parents[2] / "data" / "turns"
+TURNS_DIR = Path(os.environ.get("GAMEGUIDE_TURNS_DIR")
+                 or Path(__file__).resolve().parents[2] / "data" / "turns")
+
+# 本机 pytest / 联调请求的特征 IP（I-22）：默认剔掉，否则轮次分母与均值都被稀释
+LOCAL_IPS = {"127.0.0.1", "::1", "localhost", ""}
 
 
 def load_records(days: int | None) -> list[dict]:
@@ -41,6 +46,16 @@ def load_records(days: int | None) -> list[dict]:
     return records
 
 
+def _parse_since(text: str) -> float:
+    """解析 --since：支持到分钟，方便按「部署那一刻」切分历史与现网读数。"""
+    for fmt in ("%Y-%m-%dT%H:%M", "%Y-%m-%d %H:%M", "%Y-%m-%d"):
+        try:
+            return datetime.strptime(text, fmt).timestamp()
+        except ValueError:
+            continue
+    raise SystemExit(f"--since 格式无法识别: {text}（用 YYYY-MM-DD 或 YYYY-MM-DDTHH:MM）")
+
+
 def pct(values: list[float], q: float) -> float:
     if not values:
         return 0.0
@@ -56,9 +71,21 @@ def main() -> None:
     ap.add_argument("--spoilers", action="store_true", help="只列剧透命中样本")
     ap.add_argument("--check-budget", type=int, default=None,
                     help="p90 tokens_in 超过该值则退出码 1（供 cron / 部署后守卫用）")
+    ap.add_argument("--since", default=None,
+                    help="只统计该时间（YYYY-MM-DD 或 YYYY-MM-DDTHH:MM）起的记录，避开上线前的历史读数")
+    ap.add_argument("--include-local", action="store_true",
+                    help="包含本机/测试请求（ip 127.0.0.1 等），默认剔除")
     args = ap.parse_args()
 
     records = load_records(args.days)
+    if args.since:
+        cutoff_ts = _parse_since(args.since)
+        records = [r for r in records if r.get("ts", 0) >= cutoff_ts]
+    if not args.include_local:
+        skipped = [r for r in records if (r.get("ip") or "").strip() in LOCAL_IPS]
+        records = [r for r in records if (r.get("ip") or "").strip() not in LOCAL_IPS]
+        if skipped:
+            print(f"（已略过本地测试记录 {len(skipped)} 条，--include-local 可包含）\n")
     if args.game:
         records = [r for r in records if r.get("game") == args.game]
     if not records:

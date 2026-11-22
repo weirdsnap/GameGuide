@@ -43,10 +43,11 @@ DEFAULT_CONFIG = {
 }
 
 # turn 记录的按日 JSONL 目录（追加写，重启不丢；见 log_turn）
-TURNS_DIR = project_root / "data" / "turns"
+# 可用环境变量覆盖：跑测试时指向 tmp 目录，避免本地请求写脏生产统计（I-22）
+TURNS_DIR = Path(os.environ.get("GAMEGUIDE_TURNS_DIR") or (project_root / "data" / "turns"))
 
 # 用户反馈（点赞/点踩）的按日 JSONL 目录，同样追加写
-FEEDBACK_DIR = project_root / "data" / "feedback"
+FEEDBACK_DIR = Path(os.environ.get("GAMEGUIDE_FEEDBACK_DIR") or (project_root / "data" / "feedback"))
 
 # turn_id 由服务端生成：12 位十六进制，一整天不撞，也方便在日志里 grep
 TURN_ID_RE = re.compile(r"^[0-9a-f]{8,32}$")
@@ -326,6 +327,19 @@ def turn_record(*, ip: str, question: str, elapsed: float, meta: dict,
     # 路由诊断：菜单/兜底误判靠这两列定位（history 缺失还是中断）
     record["history_msgs"] = history_msgs
     record["hist_game"] = hist_game
+    # 上下文裁剪观测（CONTEXT_BUDGET_PLAN §3.3）：判 I-19 max_turns 要不要放宽的唯一依据。
+    # meta 里没有就不写，保持旧调用方的记录形状不变。
+    for key in ("history_raw_msgs", "history_used_msgs", "history_trim_chars"):
+        val = meta.get(key)
+        if val is not None:
+            record[key] = int(val)
+    # 进度与条目 act（I-14 / I-10 C）：由 graph 侧填 meta，这里只做透传
+    if meta.get("progress_level") is not None:
+        record["progress_level"] = int(meta["progress_level"])
+        record["progress_source"] = meta.get("progress_source")
+    entry_acts = meta.get("entry_acts")
+    if entry_acts:
+        record["entry_acts"] = sorted({int(a) for a in entry_acts})[:10]
     if answer:
         record["answer_head"] = " ".join(answer.split())[:200]
         hits = spoiler_hits(meta.get("game"), answer)
