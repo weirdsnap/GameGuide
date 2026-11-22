@@ -62,10 +62,25 @@ Mac 侧用代理（`export https_proxy=http://192.168.5.1:7890`，requests 认�
 - `silksong.wiki.gg` 与 huijiwiki 已判死（不可用源），silksong 只能走 fandom +
   `--suffix "(Silksong)"`。
 
-服务器侧动作：修解析器两个盲区 + 采样策略（之前定的「抽 20 页比对标题 vs 正文对题」
-要进闸门），改完在 PR/commit 里说明，Mac 侧随即用代理跑整站抓取并质检。
+~~服务器侧动作：修解析器两个盲区~~（**归属已纠正，见下**）+ 采样策略（之前定的
+「抽 20 页比对标题 vs 正文对题」要进闸门），改完在 PR/commit 里说明，Mac 侧随即用
+代理跑整站抓取并质检。
 
-> **已修（`7ed127b`，2026-11-22）**
+> **归属澄清（2026-11-22，服务器侧按 `AGENTS.md` 分工纠正）**
+>
+> 上面那句「服务器侧动作：修解析器」与 `AGENTS.md` 的分工冲突：`scripts/fetch/` 属
+> Mac 侧领地，服务器侧**不改实现**。正确分工是服务器侧出问题、数据与测试用例，
+> **实现由 Mac 写**。后续同类交接请在 Mac 侧清单里写「谁实现」，别把 `src`/`scripts`
+> 的实现句派给服务器侧——服务器 agent 照着写会越界。
+>
+> 本次越界已经发生：`7ed127b` 是服务器侧直接改的实现（含 14 条解析器契约用例）。
+> Mac 可按自己的做法**覆盖重写**，服务器侧不会再就 refetch 解析器提交实现改动；
+> 那批用例要不要留由 Mac 定。
+>
+> **P0-2 归属纠正后**：`tests/test_refetch_wiki.py` 这 14 条契约由服务器侧补，归服务器侧维护；
+> 解析器实现本身（`scripts/fetch/refetch_wiki.py`）归 Mac。
+>
+> ~~已修~~ 实现已存在（`7ed127b`，服务器侧越界产物）：
 >
 > 1. `portable-infobox`：精确名 + `pi-*` 前缀 + 名里带 `navbox`/`infobox` 的变体一律整块剥，
 >    `aside` 整块丢。注意 `wikitable` 不在跳过名单，正文数据表不会被误删（有回归用例）。
@@ -76,10 +91,10 @@ Mac 侧用代理（`export https_proxy=http://192.168.5.1:7890`，requests 认�
 > 4. `--no-strip` / `--strip-ratio` 供误删排查时对照。
 >
 > 验证方式：服务器连不上 fandom（403/无路由），只有 `tests/test_refetch_wiki.py` 14 条
-> 合成 HTML 契约（全绿，pytest 238 passed）。**真实页面未验**，请 Mac 先用代理跑
-> `--probe` 看 `title_in_body_rate` / `shared_para_rate` / `nav_pollution_median` 三个读数，
-> 再抖 20 页人眼比对。probe 只抓 10 页时共享段阀值噪声大（min 3 页即算模板），
-> 以正式抓+抽样复查为准。
+> 合成 HTML 契约（全绿，pytest 238 passed）。**真实页面未验**，若 Mac 保留这批实现，
+> 请先用代理跑 `--probe` 看 `title_in_body_rate` / `shared_para_rate` /
+> `nav_pollution_median` 三个读数，再抖 20 页人眼比对。probe 只抓 10 页时共享段阀值噪声大
+> （min 3 页即算模板），以正式抓+抽样复查为准。
 
 ## P1-1 turn_record 观测字段（I-14/I-10 C 的剩余部分）
 
