@@ -6,6 +6,9 @@
 前置：`docs/CONTEXT_BUDGET_PLAN.md`（方案 A 裁剪已落地，`f9eaabb`）、
 `docs/SPOILER_CONTROL_PLAN.md` §3（进度对象）、`docs/ISSUES_2026-11-22.md`
 
+> **实施看 `docs/SESSION_STORE_IMPL.md`**：DDL、store.py 函数签名、HTTP 契约、
+> api_server 改造点、分步上线与测试清单都在那边。本文只回答「为什么这么设计」。
+
 ---
 
 ## 1. 方案 B 要解决什么
