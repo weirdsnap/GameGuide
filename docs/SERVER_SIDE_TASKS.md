@@ -124,7 +124,8 @@ SPOILER_TERMS 的 act3 地名已补（`87568ec`），不用重复做。
 ## P2-1 方案 B 会话记忆（等用户拍板留存期后启动）
 
 设计文档：`docs/SESSION_MEMORY_PLAN.md`（三表 sessions/turns/receipts、进度存数不存文、
-存根确定性生成、三步迁移）。其中**留存策略 90/180 天还等用户拍板**。
+存根确定性生成、三步迁移）。用户 2026-11-22 已给留存口径「也许 3 天」（I-23），
+建议落地为答案正文 3 天 / receipts 与 sessions 行 90 天，全部走环境变量。
 拍板后服务器侧负责：`api_server.py` 接 session 存取、三表落库、留存清理任务；
 Mac 侧负责：`multi_agent`/`graph` 从「前端全量重发 history」切换为「session_id + 增量」。
 
