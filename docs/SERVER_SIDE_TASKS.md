@@ -65,6 +65,22 @@ Mac 侧用代理（`export https_proxy=http://192.168.5.1:7890`，requests 认�
 服务器侧动作：修解析器两个盲区 + 采样策略（之前定的「抽 20 页比对标题 vs 正文对题」
 要进闸门），改完在 PR/commit 里说明，Mac 侧随即用代理跑整站抓取并质检。
 
+> **已修（`7ed127b`，2026-11-22）**
+>
+> 1. `portable-infobox`：精确名 + `pi-*` 前缀 + 名里带 `navbox`/`infobox` 的变体一律整块剥，
+>    `aside` 整块丢。注意 `wikitable` 不在跳过名单，正文数据表不会被误删（有回归用例）。
+> 2. 幽灵文本：`strip_shared_paragraphs()` —— 同一段长文本出现在 >=15% 页（至少 3 页）就删，
+>    不靠猜模板名；另加导航链接墙识别（连续短表格行且带数字比例 <20%）。
+> 3. 闸门新增两项：`title_in_body_rate >= 0.85`（抽 20 页看标题词是否在正文开头）、
+>    `shared_para_rate <= 0.02`（清理后残留重复段）。
+> 4. `--no-strip` / `--strip-ratio` 供误删排查时对照。
+>
+> 验证方式：服务器连不上 fandom（403/无路由），只有 `tests/test_refetch_wiki.py` 14 条
+> 合成 HTML 契约（全绿，pytest 238 passed）。**真实页面未验**，请 Mac 先用代理跑
+> `--probe` 看 `title_in_body_rate` / `shared_para_rate` / `nav_pollution_median` 三个读数，
+> 再抖 20 页人眼比对。probe 只抓 10 页时共享段阀值噪声大（min 3 页即算模板），
+> 以正式抓+抽样复查为准。
+
 ## P1-1 turn_record 观测字段（I-14/I-10 C 的剩余部分）
 
 `api_server.py` 的 `turn_record` 目前还没有（Mac 侧 grep 确认）：
@@ -154,4 +170,5 @@ curl -s -X POST http://localhost:8765/api/ask -H 'Content-Type: application/json
 ### 等 Mac 侧动作
 
 - **I-21**：`bg3-hill-giant-gauntlets` 去掉「第三章」禁词（或 max_level 提到 2）。
-- P0-2 解析器修复服务器侧现在开始做，改完在这份文档回执，Mac 即可开抓。
+- **P0-2 已修**（`7ed127b`）：先 `--probe` 看三个闸门读数，再整站抓 + 抽 20 页人眼比对；
+  发现误删晃 `--no-strip` 对照。
