@@ -1,6 +1,7 @@
 # 会话存储实施规格（可开工版）
 
-状态：**待实现**。本文是 `docs/SESSION_MEMORY_PLAN.md`（方案 B）的可执行细化，
+状态：**S0–S3 已实现（2026-11-22）**，S4（receipts 存根）待做。
+本文是 `docs/SESSION_MEMORY_PLAN.md`（方案 B）的可执行细化，实现进度见文末 §15。
 承接 I-23（刷新丢历史，用户 2026-11-22 提出）。
 两份文档冲突时：**为什么这么做看 PLAN，怎么做（表结构/接口/函数签名/上线顺序）看本文**。
 
@@ -481,3 +482,32 @@ S2 当天可开；前端 S3 与 Mac 的 S4 并行。
    不依赖装配切换。
 
 这样刷新丢历史这条（I-23）在不引入任何回答行为变化的前提下先止血。
+
+---
+
+## 15. 实现进度（2026-11-22）
+
+已落地（本次提交）：
+
+| 项 | 位置 | 验收 |
+|---|---|---|
+| S0 存储层 | `src/rag_agent/store.py`（三表 + 14 个函数 + purge） | `tests/test_store.py` 18 条、`tests/test_retention.py` 6 条全绿 |
+| S1 双写 | `api_server.init_session_store / resolve_session / save_turn`；`turn_record` 带 `session_id/client_id` | `tests/test_session_api.py` 14 条（含并发、降级、串号防护） |
+| S2 装配（默认关） | `assemble_history()` + `GAMEGUIDE_SERVER_HISTORY`；`_meta_from_state` 补 `progress_level/progress_source`，`graph` 的 detect 节点补 `progress_source` | `test_server_history_overrides_request_body` / `test_legacy_mode_still_uses_request_history` |
+| S3 前端 | `weirdsnap.github.io/htmls/hollow_knight.html`：localStorage 身份、mounted 恢复、新对话按钮、done 回填 session_id | 手工：刷新 / 关浏览器 / 隔天三场景 |
+| 留存清理 | `cleanup_loop()` 每小时 `purge`，启动即跑一次 | `tests/test_retention.py` |
+
+行为兼容：老页面不带 id → 服务端生成并忽略，全链路等同改造前（`test_ask_without_ids_creates_identity`）。
+
+待做：
+
+1. **S1 对账**：上线后按 §9 脚本比对 jsonl 与 SQLite 当日行数（建议盯 1–2 天）；
+2. **S2 开关**：对账无差后设 `GAMEGUIDE_SERVER_HISTORY=1` 并重启，验证刷新续聊；
+3. **S4 receipts**：`save_receipt` 已就绪，缺生成侧（G4 的 sources 抽取）；
+4. 对账脚本落到 `scripts/analysis/session_reconcile.py`（目前是文档内片段）。
+
+运维注意：
+
+- `data/sessions.db` 已加 `.gitignore`；备份跟 `data/turns/` 一起即可；
+- 跑 pytest 时 `tests/conftest.py` 的 autouse fixture 把 `TURNS_DIR/FEEDBACK_DIR/SESSION_DB` 全指向 tmp，不会写脏生产（I-22 的根治）；
+- 删库 = 所有人丢历史，但会话表只存匿名 id，重建不会影响问答。

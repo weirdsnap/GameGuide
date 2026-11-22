@@ -89,7 +89,7 @@ def _meta_from_state(state: dict) -> dict:
     else:
         route = "agent"
     usage = state.get("usage") or {}
-    return {
+    meta = {
         "route": route,
         "game": detected if route == "agent" else None,
         "tokens_in": int(usage.get("tokens_in") or 0),
@@ -100,6 +100,11 @@ def _meta_from_state(state: dict) -> dict:
         "history_used_msgs": int(state.get("history_used_msgs") or 0),
         "history_trim_chars": int(state.get("history_trim_chars") or 0),
     }
+    # 进度对象（I-14）：api_server 拿它写 sessions.progress（单调不减）
+    if state.get("progress_level") is not None:
+        meta["progress_level"] = int(state["progress_level"])
+        meta["progress_source"] = state.get("progress_source")
+    return meta
 
 
 def ask(question, history=None, model_name=None, verbose=False, meta=None):

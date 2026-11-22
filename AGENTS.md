@@ -139,6 +139,10 @@ README 的结构说明滞后于代码，如有出入以本文件和实际代码�
   日志分析脚本——它离数据最近，适合它写）；
   核心 RAG 代码（`src/rag_agent/`、`tests/`、`scripts/tool|build|fetch|enrich|eval`）
   以 Mac 侧为主；
+  **2026-11-22 教训**：Mac 在 `SERVER_SIDE_TASKS.md` 把「修 refetch 解析器」写成
+  「服务器侧动作」，服务器 agent 照着改了 `scripts/fetch/refetch_wiki.py`（7ed127b）——
+  越界。以后此类清单的**实现句**一律归 Mac，服务器侧只出问题清单、数据与测试用例；
+  服务器 agent 看到派给自己的 `src`/`scripts` 实现任务，先提分工冲突，不闷头开工；
   遇到冲突按「谁的功能谁负责」分拣合并，别无脑 `--theirs`。
 - 服务器职责：跑 `api_server.py` 线上服务 + `git pull` 同步代码。
   **可以跑日志分析这类轻量脚本**（grep/Python 解析 turns 日志、统计聚合），
@@ -281,8 +285,9 @@ python scripts/eval/ragas_eval.py --game all --limit 5   # 报告输出到 evalu
 - **silksong wiki 重采集（2026-11-22 更新口径）**：旧待办（让服务器跑
   `scripts/fetch/silksong.py`）已作废——网络结论反转，Mac 侧挂代理可直连 fandom，
   服务器反而多源不可达。当前方案：统一用 `scripts/fetch/refetch_wiki.py` 重抓，
-  但解析器有两个盲区待服务器侧修复（`portable-infobox` 未剥、共享模板幽灵文本），
-  修完由 Mac 挂代理整站跑。详见 `docs/SERVER_SIDE_TASKS.md` P0-2。
+  解析器有两个盲区（`portable-infobox` 未剥、共享模板幽灵文本），**实现归 Mac 侧**
+  （服务器侧只出问题与用例，2026-11-22 曾越界直接改实现 7ed127b，已澄清、Mac 可覆盖）。
+  详见 `docs/SERVER_SIDE_TASKS.md` P0-2。
   背景：现有 silksong 向量库是坏的（47155 块/196 标题，混有 Grimm/Radiance 等
   空洞骑士条目，服务器实测），且 `wiki_data.md` 源文件本身即垃圾（平均 150KB/页），
   必须重抓而非过滤。
@@ -317,6 +322,24 @@ python scripts/eval/ragas_eval.py --game all --limit 5   # 报告输出到 evalu
 - 向量库和 SQLite 文件不进 git；服务器上的数据只通过 deploy 脚本同步。
 
 ## 变更记录（踩坑留档）
+
+### 2026-11-22 — 会话存储落地（I-23）+ 分工例外
+
+- **刷新丢历史根治（S0–S3）**：新增 `src/rag_agent/store.py`（SQLite 三表
+  sessions/turns/receipts），`api_server` 接 `resolve_session()`（client_id + session_id
+  双匿名 id）、`save_turn()` 双写、`cleanup_loop()` 每小时按留存清理
+  （答案 3 天 / 存根与会话 90 天，全部 `GAMEGUIDE_RETENTION_*` 可改）。
+  新增路由 `/api/sessions`、`/api/sessions/{id}`、`/reset`、`DELETE`。
+  前端 `hollow_knight.html` 用 localStorage 存身份，刷新自动恢复 + 「新对话」按钮。
+- **上线顺序**：`GAMEGUIDE_SERVER_HISTORY` 默认 `0`（仍用请求体 history），
+  先双写对账 1–2 天，再开 `1` 让服务端装配上下文。
+- **测试**：`test_store.py`(18) / `test_retention.py`(6) / `test_session_api.py`(20)，
+  主套件 282 passed / 20 skipped / 1 xfailed，routing 13/13。
+- **pytest 不再写脏生产数据**：`tests/conftest.py` 新增 autouse fixture，把
+  `TURNS_DIR` / `FEEDBACK_DIR` / `SESSION_DB` 全指向 tmp（I-22 根治）。
+- **分工例外**：本轮用户不在 Mac 端，临时授权服务器侧（飞书）承担 Mac 职责
+  （`src/rag_agent/`、`scripts/`、前端页面）。仅限本次口头授权，不改长期分工；
+  下轮若用户回 Mac，按原分工执行。
 
 ### 2026-11-11 — 检索契约修复 + 文档对齐
 

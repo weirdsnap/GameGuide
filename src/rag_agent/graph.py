@@ -235,7 +235,10 @@ def detect_game_node(state) -> dict:
         "game_switched": switched,
         "last_game": last_game,
         "last_game_confirmed": last_game_confirmed,
-        "progress_level": progress.level
+        "progress_level": progress.level,
+        # 进度来源（question/history/none）：落库时记在 sessions.progress_src，
+        # 便于回查「这个上界是用户说的还是推的」
+        "progress_source": progress.source,
     }
 
 

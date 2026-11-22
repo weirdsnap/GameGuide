@@ -48,3 +48,6 @@ data/quota.json
 data/turns/
 data/feedback/
 data/eval/
+
+# 会话存储（SQLite，I-23）：运行时状态，不入库
+data/sessions.db

@@ -13,6 +13,21 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "src"))
 collect_ignore = ["test_light.py"]
 
 
+@pytest.fixture(autouse=True)
+def _isolate_gameguide_data(tmp_path, monkeypatch):
+    """把 api_server 的落盘目录全部改到 tmp，避免 pytest 写脏生产数据（I-22）。
+
+    api_server 只在部分测试模块里 import，所以用 sys.modules 判断是否已加载：
+    未加载时这个 fixture 什么也不做（纯算法测试不受影响）。
+    """
+    module = sys.modules.get("api_server")
+    if module is None:
+        return
+    monkeypatch.setattr(module, "TURNS_DIR", tmp_path / "turns", raising=False)
+    monkeypatch.setattr(module, "FEEDBACK_DIR", tmp_path / "feedback", raising=False)
+    monkeypatch.setattr(module, "SESSION_DB", tmp_path / "sessions.db", raising=False)
+
+
 def pytest_addoption(parser):
     parser.addoption(
         "--run-e2e", action="store_true", default=False,

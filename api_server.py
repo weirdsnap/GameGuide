@@ -24,6 +24,7 @@ project_root = Path(__file__).parent
 sys.path.insert(0, str(project_root / "src"))
 
 from rag_agent.multi_agent import ask, ask_stream, _game_from_history
+from rag_agent import store
 
 logger = logging.getLogger("gameguide.api")
 
@@ -49,8 +50,25 @@ TURNS_DIR = Path(os.environ.get("GAMEGUIDE_TURNS_DIR") or (project_root / "data"
 # 用户反馈（点赞/点踩）的按日 JSONL 目录，同样追加写
 FEEDBACK_DIR = Path(os.environ.get("GAMEGUIDE_FEEDBACK_DIR") or (project_root / "data" / "feedback"))
 
+# ====== 会话存储（I-23，规格：docs/SESSION_STORE_IMPL.md）======
+# 浏览器只带两个匿名 id：client_id（一个浏览器）/ session_id（一次对话）。
+# 服务端用 SQLite 存 sessions/turns/receipts：刷新不丢历史、留存可清理、
+# feedback 能 join 到具体一轮。存储故障一律降级回旧路径（前端带 history）。
+SESSION_DB = Path(os.environ.get("GAMEGUIDE_SESSION_DB") or (project_root / "data" / "sessions.db"))
+# 1 = 上下文由服务端装配（读 SQLite）；0 = 仍用请求体里的 history（迁移期默认）
+SERVER_HISTORY = os.environ.get("GAMEGUIDE_SERVER_HISTORY", "0") == "1"
+SESSION_MAX_TURNS = int(os.environ.get("GAMEGUIDE_SESSION_MAX_TURNS", "6"))
+SESSION_MAX_CHARS = int(os.environ.get("GAMEGUIDE_SESSION_MAX_CHARS", "6000"))
+# 留存：答案原文只留 3 天，存根与会话行 90 天（用户口径见 I-23）
+RETENTION_ANSWER_DAYS = int(os.environ.get("GAMEGUIDE_RETENTION_ANSWER_DAYS", "3"))
+RETENTION_RECEIPT_DAYS = int(os.environ.get("GAMEGUIDE_RETENTION_RECEIPT_DAYS", "90"))
+RETENTION_SESSION_DAYS = int(os.environ.get("GAMEGUIDE_RETENTION_SESSION_DAYS", "90"))
+
 # turn_id 由服务端生成：12 位十六进制，一整天不撞，也方便在日志里 grep
 TURN_ID_RE = re.compile(r"^[0-9a-f]{8,32}$")
+
+# aiohttp 要求 Application 的额外键用 AppKey，否则每建一个 app 都报 NotAppKeyWarning
+CLEANUP_TASK_KEY = web.AppKey("cleanup_task", asyncio.Task)
 
 
 def new_turn_id() -> str:
@@ -236,7 +254,7 @@ async def cors_middleware(app, handler):
         if request.method == "OPTIONS":
             return web.Response(headers={
                 "Access-Control-Allow-Origin": "*",
-                "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+                "Access-Control-Allow-Methods": "GET, POST, DELETE, OPTIONS",
                 "Access-Control-Allow-Headers": "Content-Type, Authorization",
                 "Access-Control-Max-Age": "86400",
             })
@@ -302,7 +320,9 @@ def turn_record(*, ip: str, question: str, elapsed: float, meta: dict,
                 streamed: bool = False, chunks: int | None = None,
                 answer: str | None = None,
                 history_msgs: int = 0, hist_game: str | None = None,
-                turn_id: str | None = None) -> dict:
+                turn_id: str | None = None,
+                session_id: str | None = None,
+                client_id: str | None = None) -> dict:
     """把一轮请求的关键指标集中成 dict，方便 grep / 后续落库。
 
     纯函数，不碰 I/O，便于单测。字段名与后续 SQLite turns 表对齐。
@@ -327,6 +347,11 @@ def turn_record(*, ip: str, question: str, elapsed: float, meta: dict,
     # 路由诊断：菜单/兜底误判靠这两列定位（history 缺失还是中断）
     record["history_msgs"] = history_msgs
     record["hist_game"] = hist_game
+    # 会话标识（I-23）：jsonl 与 SQLite turns 靠 turn_id 对齐，靠这两列回查会话
+    if session_id:
+        record["session_id"] = session_id
+    if client_id:
+        record["client_id"] = client_id
     # 上下文裁剪观测（CONTEXT_BUDGET_PLAN §3.3）：判 I-19 max_turns 要不要放宽的唯一依据。
     # meta 里没有就不写，保持旧调用方的记录形状不变。
     for key in ("history_raw_msgs", "history_used_msgs", "history_trim_chars"):
@@ -452,6 +477,166 @@ def feedback_summary(records: list[dict]) -> dict:
 
 # ====== API 端点 ======
 
+# ====== 会话（I-23）======
+
+def init_session_store() -> bool:
+    """建表并指向当前库。失败只告警：存储不能用也要能回答（legacy 路径）。"""
+    try:
+        store.set_db_path(SESSION_DB)
+        store.init_db()
+        return True
+    except store.StoreError:
+        logger.warning("会话库初始化失败，本轮起走 legacy（前端 history）", exc_info=True)
+        return False
+
+
+def resolve_session(body: dict) -> tuple[str | None, str | None]:
+    """解析本轮身份，返回 (client_id, session_id)。
+
+    规则（docs/SESSION_STORE_IMPL.md §4.1）：
+      1. session_id 存在且 client 对得上 → 直接用（刷新续聊）
+      2. session_id 过期/对不上 → 新建，响应里回传新 id（前端无感）
+      3. 没有 session_id → 新建并挂在这个 client 下
+      4. 两个都没有 → 服务端生成 client_id
+      5. 存储不可用 → (None, None)，调用方回退到旧行为
+    """
+    raw_cid = str(body.get("client_id") or "").strip()
+    raw_sid = str(body.get("session_id") or "").strip()
+    cid, sid = raw_cid or None, raw_sid or None
+    try:
+        if not cid:
+            cid = uuid.uuid4().hex
+        if sid:
+            row = store.get_session(sid)
+            if row is not None and (not raw_cid or row["client_id"] == cid):
+                store.touch_session(sid)
+                return cid, sid
+            if row is not None:
+                logger.warning("session %s 属于另一个 client，拒绝复用", sid[:8])
+        sid = uuid.uuid4().hex
+        store.ensure_session(session_id=sid, client_id=cid)
+        return cid, sid
+    except store.StoreError:
+        logger.warning("会话存储不可用，本轮走 legacy", exc_info=True)
+        return None, None
+
+
+def assemble_history(session_id: str | None, fallback):
+    """SERVER_HISTORY=1 时用服务端历史覆盖请求体 history。
+
+    装配失败（库坏了/会话被清）退回 fallback，保证问答不因存储故障挂掉。
+    """
+    if not SERVER_HISTORY or not session_id:
+        return fallback or []
+    try:
+        return store.session_turns(session_id, limit_turns=SESSION_MAX_TURNS,
+                                   max_chars=SESSION_MAX_CHARS)
+    except store.StoreError:
+        logger.warning("装配服务端历史失败，退回前端 history", exc_info=True)
+        return fallback or []
+
+
+def save_turn(session_id: str | None, turn_id: str, question: str,
+              answer: str | None, meta: dict, elapsed_ms: int,
+              partial: bool = False) -> None:
+    """把一轮落进 SQLite。菜单/未识别轮由调用方跳过（不污染历史）。"""
+    if not session_id:
+        return
+    meta = meta or {}
+    try:
+        store.append_turn(
+            session_id=session_id, turn_id=turn_id, question=question, answer=answer,
+            route=meta.get("route"), game=meta.get("game"),
+            progress_level=meta.get("progress_level"),
+            progress_source=meta.get("progress_source"),
+            tokens_in=int(meta.get("tokens_in") or 0),
+            tokens_out=int(meta.get("tokens_out") or 0),
+            tool_calls=int(meta.get("tool_calls") or 0),
+            elapsed_ms=elapsed_ms, answer_partial=partial,
+        )
+    except store.StoreError:
+        logger.warning("turn 落库失败（不影响回答）: turn_id=%s", turn_id, exc_info=True)
+
+
+async def cleanup_loop():
+    """每小时跑一次留存清理（答案 3 天 / 存根·会话 90 天，见 env）。"""
+    while True:
+        try:
+            stats = await asyncio.to_thread(
+                store.purge,
+                answer_days=RETENTION_ANSWER_DAYS,
+                receipt_days=RETENTION_RECEIPT_DAYS,
+                session_days=RETENTION_SESSION_DAYS,
+            )
+            if any(stats.values()):
+                logger.info("session purge %s", stats)
+        except store.StoreError:
+            logger.warning("session purge 失败", exc_info=True)
+        await asyncio.sleep(3600)
+
+
+async def handle_sessions(request):
+    """GET /api/sessions?client_id=xxx&limit=10 — 最近会话列表（前端恢复入口）"""
+    cid = (request.query.get("client_id") or "").strip()
+    if not cid:
+        return web.json_response({"sessions": []})
+    try:
+        limit = min(max(int(request.query.get("limit", 10)), 1), 50)
+    except ValueError:
+        limit = 10
+    try:
+        rows = store.list_sessions(cid, limit=limit)
+    except store.StoreError:
+        return web.json_response({"sessions": [], "degraded": True})
+    return web.json_response({"sessions": rows})
+
+
+async def handle_session_detail(request):
+    """GET /api/sessions/{session_id}?limit=50 — 轮次列表（刷新后渲染历史）"""
+    sid = request.match_info["session_id"]
+    try:
+        limit = min(max(int(request.query.get("limit", 50)), 1), 200)
+    except ValueError:
+        limit = 50
+    try:
+        row = store.get_session(sid)
+        if row is None:
+            return web.json_response({"error": "session not found"}, status=404)
+        turns = store.session_rows(sid, limit=limit)
+    except store.StoreError:
+        return web.json_response({"error": "session store unavailable"}, status=503)
+    return web.json_response({
+        "session_id": sid,
+        "game": row.get("game"),
+        "progress": row.get("progress"),
+        "n_turns": row.get("n_turns"),
+        "last_active": row.get("last_active"),
+        "turns": turns,
+    })
+
+
+async def handle_session_reset(request):
+    """POST /api/sessions/{session_id}/reset — 用户明说重开，进度归零"""
+    sid = request.match_info["session_id"]
+    try:
+        if store.get_session(sid) is None:
+            return web.json_response({"error": "session not found"}, status=404)
+        store.reset_progress(sid)
+    except store.StoreError:
+        return web.json_response({"error": "session store unavailable"}, status=503)
+    return web.json_response({"reset": True})
+
+
+async def handle_session_delete(request):
+    """DELETE /api/sessions/{session_id} — 用户主动删掉一段对话"""
+    sid = request.match_info["session_id"]
+    try:
+        deleted = store.delete_session(sid)
+    except store.StoreError:
+        return web.json_response({"error": "session store unavailable"}, status=503)
+    return web.json_response({"deleted": deleted})
+
+
 async def handle_login(request):
     """POST /api/login — 已废弃：不再验证密码。
 
@@ -474,7 +659,9 @@ async def handle_ask(request):
         return web.json_response({"error": "无效的 JSON 格式"}, status=400)
 
     question = body.get("question", "").strip()
-    history = body.get("history", [])
+    # 身份与历史：先解析 session，再由服务端装配（SERVER_HISTORY=1）或沿用请求体 history
+    client_id, session_id = resolve_session(body)
+    history = assemble_history(session_id, body.get("history", []))
     # 只做观测：记录路由器原本能从 history 推出哪款游戏（诊断菜单/兜底误判）
     try:
         hist_game = _game_from_history(history) if history else None
@@ -509,21 +696,29 @@ async def handle_ask(request):
         )
         elapsed = time.time() - t0
         # 菜单 / 未识别 / 失败轮没调 LLM，不该占用户额度
-        if (meta.get("route") or "") in NON_LLM_ROUTES:
+        route = meta.get("route") or ""
+        if route in NON_LLM_ROUTES:
             quota_status = quota.refund()
+        else:
+            # 只有真答了才落库：菜单轮进历史只会干扰后续装配
+            save_turn(session_id, turn_id, question, answer, meta, int(elapsed * 1000))
         print(f"  [{time.strftime('%H:%M:%S')}] {ip[:15]:15s} | {question[:50]:50s} | {elapsed:.1f}s")
         log_turn(turn_record(ip=ip, question=question, elapsed=elapsed, meta=meta,
                              answer=answer, history_msgs=len(history or []),
-                             hist_game=hist_game, turn_id=turn_id))
+                             hist_game=hist_game, turn_id=turn_id,
+                             session_id=session_id, client_id=client_id))
         return web.json_response({"answer": answer, "elapsed": round(elapsed, 1),
-                                  "quota": quota_status, "turn_id": turn_id})
+                                  "quota": quota_status, "turn_id": turn_id,
+                                  "session_id": session_id, "client_id": client_id})
     except asyncio.TimeoutError:
         elapsed = time.time() - t0
         quota_status = quota.refund()
         meta.update({"route": "error", "error": "请求处理超时"})
         logger.warning(f"非流式请求超时: {ip}")
         log_turn(turn_record(ip=ip, question=question, elapsed=elapsed, meta=meta,
-                             history_msgs=len(history or []), hist_game=hist_game))
+                             history_msgs=len(history or []), hist_game=hist_game,
+                             turn_id=turn_id, session_id=session_id,
+                             client_id=client_id))
         return web.json_response(
             {"error": "请求处理超时，请稍后重试", "quota": quota_status},
             status=504,
@@ -543,7 +738,9 @@ async def handle_ask_stream(request):
         return web.json_response({"error": "无效的 JSON 格式"}, status=400)
 
     question = body.get("question", "").strip()
-    history = body.get("history", [])
+    # 身份与历史：先解析 session，再由服务端装配（SERVER_HISTORY=1）或沿用请求体 history
+    client_id, session_id = resolve_session(body)
+    history = assemble_history(session_id, body.get("history", []))
     # 只做观测：记录路由器原本能从 history 推出哪款游戏（诊断菜单/兜底误判）
     try:
         hist_game = _game_from_history(history) if history else None
@@ -590,6 +787,7 @@ async def handle_ask_stream(request):
     token_count = 0
     answer_parts: list[str] = []
     meta: dict = {}
+    stream_failed = False      # 超时/断连/异常：已产出的半截答案标 partial 落库
 
     try:
         # 流式以前完全没超时：LLM 卡住会永久占住连接和线程（曾出现 275s 零 chunk）。
@@ -616,10 +814,11 @@ async def handle_ask_stream(request):
         # 结束标志
         elapsed = round(time.time() - t0, 1)
         await resp.write(
-            f"data: {json.dumps({'type': 'done', 'elapsed': elapsed, 'quota': quota_status, 'turn_id': turn_id}, ensure_ascii=False)}\n\n".encode("utf-8")
+            f"data: {json.dumps({'type': 'done', 'elapsed': elapsed, 'quota': quota_status, 'turn_id': turn_id, 'session_id': session_id, 'client_id': client_id}, ensure_ascii=False)}\n\n".encode("utf-8")
         )
 
     except TimeoutError:
+        stream_failed = True
         quota_status = quota.refund()
         meta.update({"route": "error", "error": "流式响应超时"})
         logger.warning(f"流式响应超时（>{config.get('stream_timeout')}s）: {ip}")
@@ -630,8 +829,10 @@ async def handle_ask_stream(request):
         except Exception:
             pass
     except (ConnectionResetError, ConnectionAbortedError):
+        stream_failed = True
         logger.warning(f"客户端断开连接: {ip}")
     except Exception as e:
+        stream_failed = True
         logger.error(f"流式处理失败: {e}")
         try:
             await resp.write(f"data: {json.dumps({'type': 'error', 'content': str(e)[:200]})}\n\n".encode("utf-8"))
@@ -640,11 +841,18 @@ async def handle_ask_stream(request):
 
     elapsed = time.time() - t0
     print(f"  [{time.strftime('%H:%M:%S')}] {ip[:15]:15s} 💨 {question[:40]:40s} | {elapsed:.1f}s | {token_count}t")
+    # 落库放在公共出口：正常完成也走这里，超时/断连则标 answer_partial
+    answer_text = "".join(answer_parts)
+    route = meta.get("route") or ""
+    if route not in ("menu", "unknown") and answer_text:
+        save_turn(session_id, turn_id, question, answer_text, meta,
+                  int(elapsed * 1000), partial=stream_failed)
     log_turn(turn_record(ip=ip, question=question, elapsed=elapsed, meta=meta,
                          streamed=True, chunks=token_count,
-                         answer="".join(answer_parts) if answer_parts else None,
+                         answer=answer_text or None,
                          history_msgs=len(history or []), hist_game=hist_game,
-                         turn_id=turn_id))
+                         turn_id=turn_id, session_id=session_id,
+                         client_id=client_id))
     return resp
 
 
@@ -773,6 +981,7 @@ async def handle_feedback_stats(request):
 # ====== 应用工厂 ======
 def create_app() -> web.Application:
     """创建并配置 web 应用（仅提供 API，不提供页面）。"""
+    init_session_store()
     app = web.Application(middlewares=[cors_middleware])
     app.router.add_post("/api/login", handle_login)
     app.router.add_post("/api/ask", handle_ask)
@@ -782,6 +991,23 @@ def create_app() -> web.Application:
     app.router.add_get("/api/stats", handle_stats)
     app.router.add_post("/api/feedback", handle_feedback)
     app.router.add_get("/api/feedback/stats", handle_feedback_stats)
+    # 会话（I-23）：刷新后恢复历史 / 最近对话 / 重开进度 / 删对话
+    app.router.add_get("/api/sessions", handle_sessions)
+    app.router.add_get("/api/sessions/{session_id}", handle_session_detail)
+    app.router.add_post("/api/sessions/{session_id}/reset", handle_session_reset)
+    app.router.add_delete("/api/sessions/{session_id}", handle_session_delete)
+
+    async def _start_cleanup(app):
+        # 留存清理：起一份后台任务，每小时跑一次（首轮立即跑）
+        app[CLEANUP_TASK_KEY] = asyncio.create_task(cleanup_loop())
+
+    async def _stop_cleanup(app):
+        task = app.get(CLEANUP_TASK_KEY)
+        if task is not None:
+            task.cancel()
+
+    app.on_startup.append(_start_cleanup)
+    app.on_cleanup.append(_stop_cleanup)
     return app
 
 
