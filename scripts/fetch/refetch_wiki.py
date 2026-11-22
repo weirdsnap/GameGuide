@@ -53,9 +53,16 @@ SKIP_CLASSES = {
     "infobox", "toc", "mw-editsection", "reference", "references",
     "noprint", "metadata", "ambox", "messagebox", "sidebar", "catlinks",
     "mw-references-wrap", "printfooter", "mw-jump-link", "hidden",
+    # Fandom 新版便携信息框（aside.portable-infobox 及其内部 pi-* 部件）
+    "portable-infobox", "pi-section", "pi-title", "pi-data", "pi-group",
+    "pi-caption", "pi-header", "pi-image", "pi-item",
 }
-# 这些 class 命中时才丢（wikitable 里可能有正文数据表，不能一律丢）
-SKIP_TABLE_CLASSES = {"navbox", "infobox", "toc", "vertical-navbox", "nav-box"}
+# 这些 class 前缀命中也丢（Fandom 的 pi-* 部件名不固定，逐个列举必漏）
+SKIP_CLASS_PREFIXES = ("pi-",)
+# 注意：不再区分「表格专用名单」——navbox/infobox 一律整块丢；正文数据表用的是
+# wikitable/article-table 这类 class，不在跳过名单里，不会误删。
+# 正文里的 aside 基本都是信息框/侧栏，整块丢
+SKIP_TAGS = {"aside"}
 
 # 整节删除的标题（导航/纯图片/外链，对问答没有信息量）
 DROP_SECTIONS = {
@@ -65,6 +72,22 @@ DROP_SECTIONS = {
 BLOCK_TAGS = {"p", "div", "h1", "h2", "h3", "h4", "h5", "li", "tr", "br",
               "blockquote", "dd", "dt", "pre", "table", "ul", "ol"}
 VOID_TAGS = {"br", "img", "hr", "input", "meta", "link", "source"}
+
+
+def is_skip_class(cls: set) -> bool:
+    """这个元素的 class 是否属于「整块丢掉」一类。
+
+    除了精确名，还认两类变体：pi-* 前缀（Fandom 便携信息框部件）与
+    名里带 navbox/infobox 的（navbox-small、infobox-table 这类拼写）。
+    """
+    if cls & SKIP_CLASSES:
+        return True
+    for c in cls:
+        if c.startswith(SKIP_CLASS_PREFIXES):
+            return True
+        if "navbox" in c or "infobox" in c:
+            return True
+    return False
 
 
 class BodyExtractor(HTMLParser):
@@ -96,10 +119,12 @@ class BodyExtractor(HTMLParser):
         if self.skip_stack:
             self._push_skip(tag)
             return
-        if tag in ("table", "div", "aside", "span", "sup", "ul", "ol"):
-            if cls & (SKIP_CLASSES | SKIP_TABLE_CLASSES):
-                self._push_skip(tag)
-                return
+        if tag in SKIP_TAGS:
+            self._push_skip(tag)
+            return
+        if tag in ("table", "div", "span", "sup", "ul", "ol") and is_skip_class(cls):
+            self._push_skip(tag)
+            return
         mark = self._opening(tag)
         if mark:
             self.heading = tag
@@ -166,6 +191,88 @@ def drop_sections(text: str) -> str:
         kept.append(parts[i + 1])
     out = "".join(kept).strip()
     return re.sub(r"\n{3,}", "\n\n", out)
+
+
+# ── 跨页共享模板（幽灵文本）清理 ──
+def _para_key(p: str) -> str:
+    return re.sub(r"\s+", " ", p).strip()
+
+
+def looks_like_nav_table(p: str) -> bool:
+    """连续短表格行 + 没有句读 → 当作导航/数据模板渲染出来的链接墙。
+
+    导航模板渲染成表格时，正文层看到的就是几十行 `| 短词`；真正的正文数据表
+    （属性/价格表）行里带数值与单位，长度不会这么短。
+    """
+    lines = [ln.strip() for ln in p.split("\n") if ln.strip()]
+    if len(lines) < 12:
+        return False
+    nav = [ln for ln in lines if ln.startswith("|")]
+    if len(nav) < 10 or len(nav) / len(lines) < 0.7:
+        return False
+    # 导航链接墙没有数值；带数字的多半是属性/价格表，不能当导航删
+    if sum(1 for ln in nav if re.search(r"\d", ln)) / len(nav) > 0.2:
+        return False
+    avg = sum(len(re.sub(r"^[|\-\s]+", "", ln)) for ln in nav) / len(nav)
+    return avg < 22 and "。" not in p and p.count(".") <= 1
+
+
+def strip_shared_paragraphs(pages: dict, ratio: float = 0.15, min_len: int = 40,
+                            min_pages: int = 3, navlines: bool = True):
+    """删跨页重复段与导航表。
+
+    不猜模板名也无需知道模板长什么样：同一段长文本出现在 15% 以上页面（至少 3 页）
+    就只能是导航/数据模板，正文不会这么整齐地重复。class 名单总会漏一两个变体，
+    这一层是对它的兜底。
+    """
+    total = max(len(pages), 1)
+    need = max(min_pages, int(total * ratio))
+    counts: dict[str, int] = {}
+    for body in pages.values():
+        seen = set()
+        for p in body.split("\n\n"):
+            k = _para_key(p)
+            if len(k) < min_len or k in seen:
+                continue
+            seen.add(k)
+            counts[k] = counts.get(k, 0) + 1
+    shared = {k for k, v in counts.items() if v >= need}
+
+    out, dropped_shared, dropped_nav = {}, 0, 0
+    for title, body in pages.items():
+        keep = []
+        for p in body.split("\n\n"):
+            if _para_key(p) in shared:
+                dropped_shared += 1
+                continue
+            if navlines and looks_like_nav_table(p):
+                dropped_nav += 1
+                continue
+            if p.strip():
+                keep.append(p)
+        out[title] = "\n\n".join(keep).strip()
+    stats = {"pages": total, "threshold": need, "shared_paras": len(shared),
+             "dropped_shared": dropped_shared, "dropped_navlines": dropped_nav}
+    return out, stats
+
+
+def shared_para_rate(pages: dict, ratio: float = 0.15, min_pages: int = 3) -> float:
+    """闸门用：跨页重复段在全部段落里的占比（清理后应接近 0）。"""
+    total = max(len(pages), 1)
+    need = max(min_pages, int(total * ratio))
+    counts: dict[str, int] = {}
+    for body in pages.values():
+        seen = set()
+        for p in body.split("\n\n"):
+            k = _para_key(p)
+            if len(k) < 40 or k in seen:
+                continue
+            seen.add(k)
+            counts[k] = counts.get(k, 0) + 1
+    if not counts:
+        return 0.0
+    dup = sum(1 for v in counts.values() if v >= need)
+    return round(dup / len(counts), 3)
 
 
 # ── API ──
@@ -273,6 +380,19 @@ def audit(pages: dict, zh: bool) -> dict:
     poll.sort()
     poll_med = poll[len(poll) // 2] if poll else 0
 
+    nav_poll = poll_med
+
+    shared_rate = shared_para_rate(pages)
+
+    # 标题 vs 正文对题：抽 20 页，标题里的实词得出现在正文开头
+    hit = 0
+    for t in sample:
+        head = pages[t][:800].lower()
+        words = [w for w in re.split(r"[\s\-_:,()\[\]/]+", t.lower()) if len(w) > 3]
+        if not words or any(w in head for w in words):
+            hit += 1
+    match = round(hit / max(len(sample), 1), 3)
+
     cjk = 0.0
     if zh:
         joined = "".join(pages.values())
@@ -283,7 +403,9 @@ def audit(pages: dict, zh: bool) -> dict:
         "share_over_20k": (round(over, 3), over <= 0.05),
         "share_under_100": (round(under, 3), under <= 0.12),
         "paragraph_rate": (round(para, 3), para >= 0.70),
-        "nav_pollution_median": (poll_med, poll_med <= 6),
+        "nav_pollution_median": (nav_poll, nav_poll <= 6),
+        "title_in_body_rate": (match, match >= 0.85),
+        "shared_para_rate": (shared_rate, shared_rate <= 0.02),
     }
     if zh:
         checks["cjk_ratio"] = (round(cjk, 3), cjk >= 0.25)
@@ -301,6 +423,10 @@ def main():
     ap.add_argument("--delay", type=float, default=0.35)
     ap.add_argument("--limit", type=int, default=0, help="最多抓多少页（0=不限）")
     ap.add_argument("--probe", action="store_true", help="只发现+抽样，不写文件")
+    ap.add_argument("--no-strip", action="store_true",
+                    help="关掉跨页模板/导航表清理（排查误删时对照用）")
+    ap.add_argument("--strip-ratio", type=float, default=0.15,
+                    help="共享段判定阈值：出现在多少比例的页面算模板（默认 0.15）")
     ap.add_argument("--replace", action="store_true", help="质检通过后替换正式文件（先备份）")
     args = ap.parse_args()
 
@@ -364,7 +490,17 @@ def main():
             print(f"    {i}/{len(sample)} ✓{ok} ✗{bad} ↺{skipped}")
         time.sleep(args.delay)
 
+    if args.no_strip:
+        strip_stats = {}
+    else:
+        pages, strip_stats = strip_shared_paragraphs(
+            pages, ratio=args.strip_ratio, navlines=True)
+        print(f"\n🧹 跨页模板清理：共享段 {strip_stats['dropped_shared']} 处、"
+              f"导航表 {strip_stats['dropped_navlines']} 处"
+              f"（阈值：{strip_stats['threshold']} 页以上重复算模板）")
+
     report = audit(pages, args.lang == "zh")
+    report["strip"] = strip_stats
     print(f"\n2️⃣  质检：{report['pages']} 页")
     for k, (v, passed) in report["checks"].items():
         print(f"    {'✅' if passed else '❌'} {k} = {v}")
@@ -388,7 +524,8 @@ def main():
     header = (f"# {cfg.get('name', args.game)} Wiki Data"
               f"{' (中文)' if args.lang == 'zh' else ''}\n\n"
               f"来源: {api}\n分类: {', '.join(cats)}\n总页数: {len(pages)}\n"
-              f"抓取方式: refetch_wiki.py（正文限定 mw-parser-output，导航/信息框整块剥离）\n\n")
+              f"抓取方式: refetch_wiki.py（正文限定 mw-parser-output，导航/信息框整块剥离，"
+              f"跨页共享模板按段落重复率清扫）\n\n")
     with open(out, "w", encoding="utf-8") as f:
         f.write(header)
         for t in sorted(pages):
