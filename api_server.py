@@ -21,10 +21,13 @@ from aiohttp import web
 
 # 添加 src 到路径
 project_root = Path(__file__).parent
+sys.path.insert(0, str(project_root))
 sys.path.insert(0, str(project_root / "src"))
 
 from rag_agent.multi_agent import ask, ask_stream, _game_from_history
 from rag_agent import store
+# 统计口径单源：CLI（turns_report.py）与看板 API 都走这一层（docs/DASHBOARD_PLAN.md §4）
+from scripts.analysis import report
 
 logger = logging.getLogger("gameguide.api")
 
@@ -873,23 +876,17 @@ async def handle_status(request):
     })
 
 
-def _load_turns(days: int) -> list[dict]:
-    """读 data/turns 里最近 N 天的记录（轻量聚合，不碰模型）。"""
-    turns_dir = TURNS_DIR
-    files = sorted(turns_dir.glob("*.jsonl"))[-days:]
-    records = []
-    for f in files:
-        try:
-            for line in f.read_text(encoding="utf-8").splitlines():
-                line = line.strip()
-                if line:
-                    try:
-                        records.append(json.loads(line))
-                    except json.JSONDecodeError:
-                        continue
-        except OSError:
-            continue
-    return records
+def _load_turns(days: int, include_local: bool = False) -> list[dict]:
+    """读最近 N 天的 turn 日志（轻量聚合，不碰模型）。
+
+    口径统一在 `scripts/analysis/report.py`；这里只把路径定到本项目。
+    默认剔除本机测试请求（I-22 之后 pytest 不再写生产目录，但手工 curl 仍会留）。
+    """
+    return report.load_turns(days, include_local=include_local, directory=TURNS_DIR)
+
+
+def _load_feedback(days: int) -> list[dict]:
+    return report.load_feedback(days, directory=FEEDBACK_DIR)
 
 
 def _pct(values: list[float], q: float) -> float:
@@ -900,41 +897,76 @@ def _pct(values: list[float], q: float) -> float:
 
 
 async def handle_stats(request):
-    """GET /api/stats?days=7 — 用量聚合（源：data/turns/*.jsonl）。"""
-    try:
-        days = max(1, min(90, int(request.query.get("days", "7"))))
-    except ValueError:
-        days = 7
+    """GET /api/stats?days=7 — 用量聚合（源：data/turns/*.jsonl）。
+
+    保留旧字段名（turns / by_day / games / routes / elapsed_s / spoiler_hit_turns），
+    聚合口径统一走 report.summarize，新增字段都是纯增量。
+    """
+    days = _int_query(request, "days", 7, 90)
+    data = {"days": days}
+    data.update(report.summarize(_load_turns(days)))
+    return web.json_response(data)
+
+
+# ====== 数据看板（只读，docs/DASHBOARD_PLAN.md）======
+# 全部直接读 JSONL，不引第三方库、不落 DB。页面本身在 /dashboard（Caddy basicauth 保护）。
+
+async def handle_dashboard_summary(request):
+    """GET /api/dashboard/summary?days=7 — 总量 + 每日序列 + 预算 + 反馈 + 额度。"""
+    days = _int_query(request, "days", 7, 90)
     records = _load_turns(days)
-    by_day: dict[str, int] = {}
-    games: dict[str, int] = {}
-    routes: dict[str, int] = {}
-    elapsed: list[float] = []
-    tokens_in = tokens_out = tool_calls = 0
-    spoiler = 0
-    for r in records:
-        day = time.strftime("%Y-%m-%d", time.localtime(r.get("ts") or 0))
-        by_day[day] = by_day.get(day, 0) + 1
-        games[r.get("game") or "unknown"] = games.get(r.get("game") or "unknown", 0) + 1
-        routes[r.get("route") or "none"] = routes.get(r.get("route") or "none", 0) + 1
-        elapsed.append((r.get("elapsed_ms") or 0) / 1000)
-        tokens_in += int(r.get("tokens_in") or 0)
-        tokens_out += int(r.get("tokens_out") or 0)
-        tool_calls += int(r.get("tool_calls") or 0)
-        if r.get("spoiler_hits"):
-            spoiler += 1
+    feedback = _load_feedback(days)
+    daily = report.daily_series(records, feedback)
     return web.json_response({
+        "generated_at": int(time.time()),
         "days": days,
-        "turns": len(records),
-        "by_day": dict(sorted(by_day.items())),
-        "games": dict(sorted(games.items(), key=lambda kv: -kv[1])),
-        "routes": dict(sorted(routes.items(), key=lambda kv: -kv[1])),
-        "elapsed_s": {"avg": _pct(elapsed, 0.5) if elapsed else 0,
-                      "p90": _pct(elapsed, 0.9)},
-        "tokens_in": tokens_in,
-        "tokens_out": tokens_out,
-        "tool_calls": tool_calls,
-        "spoiler_hit_turns": spoiler,
+        "summary": report.summarize(records),
+        "daily": daily,
+        "today": daily[-1] if daily else None,
+        "budget": report.budget_status(records),
+        "feedback": report.feedback_counts(feedback),
+        "quota": quota.status(),
+    })
+
+
+async def handle_dashboard_turns(request):
+    """GET /api/dashboard/turns — 轮次列表（筛选 + 复合游标分页）。"""
+    days = _int_query(request, "days", 7, 90)
+    limit = _int_query(request, "limit", 50, 200)
+    game = (request.query.get("game") or "").strip() or None
+    date = (request.query.get("date") or "").strip() or None
+    before_raw = (request.query.get("before") or "").strip()
+    before = int(before_raw) if before_raw.isdigit() else None
+    before_id = (request.query.get("before_id") or "").strip() or None
+    only_bad = request.query.get("bad") in ("1", "true")
+    only_l3 = request.query.get("l3") in ("1", "true")
+    only_slow = request.query.get("slow") in ("1", "true")
+
+    records = _load_turns(days)
+    bad_ids = set()
+    if only_bad:
+        bad_ids = {f.get("turn_id") for f in _load_feedback(days)
+                   if int(f.get("rating") or 0) < 0}
+    result = report.filter_turns(
+        records, date=date, game=game, bad_turn_ids=bad_ids, only_bad=only_bad,
+        only_l3=only_l3, only_slow=only_slow,
+        before=before, before_id=before_id, limit=limit,
+    )
+    result.update({"generated_at": int(time.time()), "days": days})
+    return web.json_response(result)
+
+
+async def handle_dashboard_feedback(request):
+    """GET /api/dashboard/feedback?days=7 — 反馈明细（关联到具体轮次）。"""
+    days = _int_query(request, "days", 7, 90)
+    limit = _int_query(request, "limit", 50, 200)
+    records = _load_turns(days)
+    feedback = _load_feedback(days)
+    return web.json_response({
+        "generated_at": int(time.time()),
+        "days": days,
+        "counts": report.feedback_counts(feedback),
+        "items": report.link_feedback(records, feedback, limit=limit),
     })
 
 
@@ -998,6 +1030,10 @@ def create_app() -> web.Application:
     app.router.add_get("/api/stats", handle_stats)
     app.router.add_post("/api/feedback", handle_feedback)
     app.router.add_get("/api/feedback/stats", handle_feedback_stats)
+    # 数据看板（只读，源为 JSONL 日志；页面由 Caddy 鉴权后提供）
+    app.router.add_get("/api/dashboard/summary", handle_dashboard_summary)
+    app.router.add_get("/api/dashboard/turns", handle_dashboard_turns)
+    app.router.add_get("/api/dashboard/feedback", handle_dashboard_feedback)
     # 会话（I-23）：刷新后恢复历史 / 最近对话 / 重开进度 / 删对话
     app.router.add_get("/api/sessions", handle_sessions)
     app.router.add_get("/api/sessions/{session_id}", handle_session_detail)

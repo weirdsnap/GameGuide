@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>GameGuide · 数据看板</title>
+<style>
+    :root {
+        --bg: #14161a;
+        --panel: #1b1e24;
+        --panel-2: #23272f;
+        --line: #2e333d;
+        --text: #dfe3ea;
+        --muted: #8b94a3;
+        --accent: #e0a458;
+        --good: #6fbf8b;
+        --bad: #e0685e;
+        --warn: #d9a441;
+    }
+    * { box-sizing: border-box; }
+    body {
+        margin: 0;
+        padding: 24px 20px 60px;
+        background: var(--bg);
+        color: var(--text);
+        font: 14px/1.6 -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+        font-variant-numeric: tabular-nums;
+    }
+    h1 { margin: 0 0 4px; font-size: 18px; font-weight: 600; letter-spacing: .02em; }
+    .sub { color: var(--muted); font-size: 12px; }
+    header { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-bottom: 18px; }
+    .controls { display: flex; gap: 8px; align-items: center; }
+    button {
+        font: inherit; font-size: 12px; color: var(--muted); cursor: pointer;
+        background: var(--panel); border: 1px solid var(--line); border-radius: 5px;
+        padding: 5px 11px;
+    }
+    button:hover:not(:disabled) { color: var(--text); border-color: #47505e; }
+    button.on { color: #14161a; background: var(--accent); border-color: var(--accent); }
+    button:disabled { opacity: .45; cursor: default; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin-bottom: 20px; }
+    .card { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; }
+    .card .k { color: var(--muted); font-size: 11px; letter-spacing: .03em; }
+    .card .v { font-size: 22px; margin-top: 2px; font-weight: 600; }
+    .card .n { color: var(--muted); font-size: 11px; margin-top: 2px; }
+    .v.ok { color: var(--good); } .v.bad { color: var(--bad); } .v.warn { color: var(--warn); }
+    section { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; margin-bottom: 16px; }
+    section h2 { margin: 0 0 10px; font-size: 13px; font-weight: 600; color: var(--muted); letter-spacing: .04em; }
+    svg { width: 100%; height: auto; display: block; }
+    .legend { display: flex; gap: 16px; font-size: 11px; color: var(--muted); margin-top: 6px; }
+    .dot { display: inline-block; width: 8px; height: 8px; border-radius: 2px; margin-right: 4px; }
+    table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+    th { text-align: left; color: var(--muted); font-weight: 500; font-size: 11px; padding: 6px 8px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+    td { padding: 7px 8px; border-bottom: 1px solid #22262d; vertical-align: top; }
+    tr.row { cursor: pointer; }
+    tr.row:hover { background: var(--panel-2); }
+    td.q { max-width: 420px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .tag { display: inline-block; font-size: 10.5px; padding: 1px 6px; border-radius: 3px; border: 1px solid var(--line); color: var(--muted); }
+    .tag.l3 { color: var(--bad); border-color: #5a2f2b; }
+    .tag.l1, .tag.l2 { color: var(--warn); border-color: #4d3f22; }
+    .tag.err { color: var(--bad); border-color: #5a2f2b; }
+    .detail td { background: #16191e; color: var(--muted); font-size: 12px; padding: 10px 14px; }
+    .detail pre { margin: 6px 0 0; white-space: pre-wrap; word-break: break-word; color: var(--text); font: 12px/1.55 inherit; }
+    .empty { color: var(--muted); padding: 20px 0; text-align: center; font-size: 13px; }
+</style>
+</head>
+<body>
+
+<header>
+    <div>
+        <h1>GameGuide 数据看板</h1>
+        <div class="sub" id="meta">加载中…</div>
+    </div>
+    <div class="controls">
+        <button data-days="3">3 天</button>
+        <button data-days="7" class="on">7 天</button>
+        <button data-days="30">30 天</button>
+        <button id="refresh">刷新</button>
+    </div>
+</header>
+
+<div class="cards" id="cards"></div>
+
+<section>
+    <h2>每日趋势</h2>
+    <svg id="trend" viewBox="0 0 900 220" preserveAspectRatio="none"></svg>
+    <div class="legend">
+        <span><i class="dot" style="background:#3d5a80"></i>每日轮次</span>
+        <span><i class="dot" style="background:#e0a458"></i>tokens_in p90</span>
+        <span><i class="dot" style="background:#e0685e"></i>点踩</span>
+    </div>
+</section>
+
+<section>
+    <h2>轮次明细</h2>
+    <div class="controls" style="margin-bottom:10px">
+        <button data-filter="" class="on">全部</button>
+        <button data-filter="bad">有点踩</button>
+        <button data-filter="l3">剧透 L3</button>
+        <button data-filter="slow">慢轮 ≥30s</button>
+    </div>
+    <table>
+        <thead>
+        <tr>
+            <th>时间</th><th>游戏</th><th>路由</th><th>耗时</th>
+            <th>tokens_in</th><th>历史</th><th>剧透</th><th>问题</th>
+        </tr>
+        </thead>
+        <tbody id="rows"></tbody>
+    </table>
+    <div class="empty" id="empty" style="display:none">没有符合条件的轮次</div>
+    <div style="margin-top:12px; text-align:center">
+        <button id="more" style="display:none">加载更早</button>
+    </div>
+</section>
+
+<script>
+const API = location.protocol === 'file:' ? 'http://localhost:8765/api' : '/api';
+const GAME_NAMES = {
+    hollow_knight: '空洞骑士', oni: '缺氧', terraria: '泰拉瑞亚',
+    silksong: '丝之歌', cyberpunk2077: '赛博朋克2077', mhw: '怪物猎人荒野',
+    va11halla: 'VA-11 Hall-A', baldurs_gate3: '博德之门3'
+};
+
+const state = { days: 7, filter: '', before: null, beforeId: null, loading: false };
+
+function el(tag, cls, text) {
+    const node = document.createElement(tag);
+    if (cls) node.className = cls;
+    if (text !== undefined) node.textContent = text;
+    return node;
+}
+
+function fmtMs(ms) {
+    if (!ms) return '—';
+    return ms >= 1000 ? (ms / 1000).toFixed(1) + 's' : ms + 'ms';
+}
+
+function fmtNum(n) {
+    n = Number(n || 0);
+    if (n >= 10000) return (n / 1000).toFixed(1) + 'k';
+    return String(n);
+}
+
+function card(k, v, note, cls) {
+    const box = el('div', 'card');
+    box.append(el('div', 'k', k), el('div', 'v' + (cls ? ' ' + cls : ''), v));
+    if (note) box.append(el('div', 'n', note));
+    return box;
+}
+
+async function getJSON(path) {
+    const res = await fetch(API + path, { credentials: 'same-origin' });
+    if (!res.ok) throw new Error(path + ' → ' + res.status);
+    return res.json();
+}
+
+function renderCards(data) {
+    const s = data.summary;
+    const cards = document.getElementById('cards');
+    cards.replaceChildren(
+        card('总轮次', s.turns, data.days + ' 天窗口'),
+        card('今日', data.today ? data.today.turns : 0,
+             data.today ? 'p90 ' + fmtNum(data.today.tokens_in_p90) + ' tokens' : '暂无数据'),
+        card('失败率', (s.fail_rate * 100).toFixed(1) + '%',
+             s.failed + ' 轮报错', s.fail_rate > 0.05 ? 'bad' : 'ok'),
+        card('耗时 p90', s.elapsed_s.p90 + 's', 'max ' + s.elapsed_s.max + 's'),
+        card('tokens_in p90', fmtNum(data.budget.p90),
+             data.budget.ok ? '预算内（≤ ' + fmtNum(data.budget.limit) + '）'
+                            : '超预算 ' + fmtNum(data.budget.over_by),
+             data.budget.ok ? 'ok' : 'bad'),
+        card('点踩', data.feedback.bad + ' / ' + data.feedback.total,
+             '差评率 ' + (data.feedback.bad_rate * 100).toFixed(1) + '%',
+             data.feedback.bad_rate > 0.2 ? 'warn' : ''),
+        card('今日额度', data.quota.used + ' / ' + data.quota.limit,
+             '剩余 ' + data.quota.remaining, data.quota.remaining < 10 ? 'warn' : '')
+    );
+}
+
+function renderTrend(daily) {
+    const svg = document.getElementById('trend');
+    svg.replaceChildren();
+    const W = 900, H = 220, padL = 34, padB = 26, padT = 12;
+    if (!daily.length) {
+        const t = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        t.setAttribute('x', W / 2); t.setAttribute('y', H / 2);
+        t.setAttribute('text-anchor', 'middle'); t.setAttribute('fill', '#8b94a3');
+        t.textContent = '暂无数据';
+        svg.append(t);
+        return;
+    }
+
+    const maxTurns = Math.max(1, ...daily.map(d => d.turns));
+    const maxTokens = Math.max(1, ...daily.map(d => d.tokens_in_p90));
+    const innerW = W - padL - 10, innerH = H - padT - padB;
+    const slot = innerW / daily.length;
+    const barW = Math.max(4, Math.min(38, slot * 0.55));
+
+    const mk = (name, attrs) => {
+        const node = document.createElementNS('http://www.w3.org/2000/svg', name);
+        for (const k in attrs) node.setAttribute(k, attrs[k]);
+        return node;
+    };
+
+    // 基线
+    svg.append(mk('line', { x1: padL, y1: H - padB, x2: W - 10, y2: H - padB,
+                            stroke: '#2e333d', 'stroke-width': 1 }));
+    const yLabel = mk('text', { x: padL - 6, y: padT + 8, 'text-anchor': 'end',
+                                fill: '#8b94a3', 'font-size': 10 });
+    yLabel.textContent = maxTurns;
+    svg.append(yLabel);
+
+    const points = [];
+    daily.forEach((d, i) => {
+        const cx = padL + slot * i + slot / 2;
+        const h = innerH * (d.turns / maxTurns);
+        svg.append(mk('rect', {
+            x: cx - barW / 2, y: H - padB - h, width: barW, height: Math.max(1, h),
+            fill: '#3d5a80', rx: 2
+        }));
+        // 日期标签（过密时抽稀）
+        if (daily.length <= 10 || i % Math.ceil(daily.length / 10) === 0) {
+            svg.append(mk('text', { x: cx, y: H - 8, 'text-anchor': 'middle',
+                                    fill: '#8b94a3', 'font-size': 10 })).textContent = d.date.slice(5);
+        }
+        const y = H - padB - innerH * (d.tokens_in_p90 / maxTokens);
+        points.push([cx, y]);
+        if (d.feedback_bad > 0) {
+            svg.append(mk('circle', { cx: cx, cy: H - padB - h - 8,
+                                      r: Math.min(6, 2 + d.feedback_bad),
+                                      fill: '#e0685e', opacity: 0.85 }));
+        }
+    });
+
+    if (points.length > 1) {
+        svg.append(mk('polyline', {
+            points: points.map(p => p.join(',')).join(' '),
+            fill: 'none', stroke: '#e0a458', 'stroke-width': 1.6
+        }));
+    }
+    const p90Label = mk('text', { x: W - 10, y: padT + 8, 'text-anchor': 'end',
+                                  fill: '#e0a458', 'font-size': 10 });
+    p90Label.textContent = 'p90 ' + fmtNum(maxTokens);
+    svg.append(p90Label);
+}
+
+function spoilerTag(level, terms) {
+    if (!level) return document.createTextNode('—');
+    const tag = el('span', 'tag l' + level, 'L' + level);
+    if (terms && terms.length) tag.title = terms.join(' / ');
+    return tag;
+}
+
+function renderRows(turns, append) {
+    const tbody = document.getElementById('rows');
+    if (!append) tbody.replaceChildren();
+    for (const t of turns) {
+        const tr = el('tr', 'row');
+        tr.append(
+            el('td', '', t.time),
+            el('td', '', GAME_NAMES[t.game] || t.game || '—'),
+            el('td', '', t.route || '—'),
+            el('td', '', fmtMs(t.elapsed_ms)),
+            el('td', '', fmtNum(t.tokens_in)),
+            el('td', '', String(t.history_msgs)),
+            el('td', '')
+        );
+        tr.lastChild.append(t.error ? el('span', 'tag err', 'error')
+                                    : spoilerTag(t.spoiler_level, t.spoiler_terms));
+        const q = el('td', 'q', t.question || '');
+        q.title = t.question || '';
+        tr.append(q);
+
+        const detail = el('tr', 'detail');
+        detail.style.display = 'none';
+        const cell = el('td');
+        cell.colSpan = 8;
+        const head = el('div', '', '回答开头：');
+        const pre = el('pre', '', t.answer_head || '（无）');
+        const meta = el('div', 'sub');
+        meta.style.marginTop = '8px';
+        meta.textContent = [
+            'turn_id ' + (t.turn_id || '—'),
+            'session ' + (t.session_id || '—'),
+            'out ' + fmtNum(t.tokens_out),
+            'tools ' + t.tool_calls,
+            'ip ' + (t.ip || '—'),
+            t.progress_level ? '进度 L' + t.progress_level : null,
+            t.error ? '错误：' + t.error : null
+        ].filter(Boolean).join(' · ');
+        cell.append(head, pre, meta);
+        detail.append(cell);
+
+        tr.addEventListener('click', () => {
+            detail.style.display = detail.style.display === 'none' ? '' : 'none';
+        });
+        tbody.append(tr, detail);
+    }
+    document.getElementById('empty').style.display =
+        tbody.children.length ? 'none' : '';
+}
+
+async function loadSummary() {
+    const data = await getJSON('/dashboard/summary?days=' + state.days);
+    document.getElementById('meta').textContent =
+        data.days + ' 天窗口 · 生成于 ' +
+        new Date(data.generated_at * 1000).toLocaleTimeString('zh-CN');
+    renderCards(data);
+    renderTrend(data.daily);
+}
+
+async function loadTurns(reset) {
+    if (state.loading) return;
+    state.loading = true;
+    const btn = document.getElementById('more');
+    btn.disabled = true;
+    try {
+        if (reset) { state.before = null; state.beforeId = null; }
+        let qs = '/dashboard/turns?days=' + state.days + '&limit=50';
+        if (state.filter) qs += '&' + state.filter + '=1';
+        if (state.before) qs += '&before=' + state.before + '&before_id=' + encodeURIComponent(state.beforeId || '');
+        const data = await getJSON(qs);
+        renderRows(data.turns, !reset);
+        state.before = data.next_before;
+        state.beforeId = data.next_before_id;
+        btn.style.display = data.next_before ? '' : 'none';
+    } catch (e) {
+        document.getElementById('meta').textContent = '加载失败：' + e.message;
+    } finally {
+        state.loading = false;
+        btn.disabled = false;
+    }
+}
+
+function refreshAll() {
+    document.getElementById('meta').textContent = '加载中…';
+    loadSummary().catch(e => {
+        document.getElementById('meta').textContent = '加载失败：' + e.message;
+    });
+    loadTurns(true);
+}
+
+document.querySelectorAll('[data-days]').forEach(btn => {
+    btn.addEventListener('click', () => {
+        state.days = Number(btn.dataset.days);
+        document.querySelectorAll('[data-days]').forEach(b => b.classList.toggle('on', b === btn));
+        refreshAll();
+    });
+});
+
+document.querySelectorAll('[data-filter]').forEach(btn => {
+    btn.addEventListener('click', () => {
+        state.filter = btn.dataset.filter;
+        document.querySelectorAll('[data-filter]').forEach(b => b.classList.toggle('on', b === btn));
+        loadTurns(true);
+    });
+});
+
+document.getElementById('refresh').addEventListener('click', refreshAll);
+document.getElementById('more').addEventListener('click', () => loadTurns(false));
+refreshAll();
+</script>
+</body>
+</html>

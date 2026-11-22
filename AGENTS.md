@@ -330,6 +330,20 @@ python scripts/eval/ragas_eval.py --game all --limit 5   # 报告输出到 evalu
 
 ## 变更记录（踩坑留档）
 
+### 2026-11-22 — 数据看板 P0（只读后台）
+
+- `scripts/analysis/report.py`：统计口径单源。以前 CLI 与 handler 各算一套，
+  `elapsed_s.avg` 在一处是 p50、在另一处是真均值。现在只有这一层能算，
+  `/api/stats` 与 `/api/dashboard/*` 都调它，并用 `test_dashboard_api.py`
+  的 parity 用例焊住两边。
+- 新增只读端点 `/api/dashboard/{summary,turns,feedback}`，直读
+  `data/turns/*.jsonl`，不引 DB。
+- `web/dashboard.html`：单文件前端（原生 JS + 手写 SVG），无 CDN 无构建。
+- **分页游标必须是 `(ts, turn_id)` 复合值**：只传 ts 会在同一秒多条时丢数据，
+  评测脚本连发就会撞上。
+- **安全前提**：页面含真实提问文本，必须靠 Caddy `basic_auth` 保护，
+  未配鉴权前不要对外网暴露 `/dashboard`。
+
 ### 2026-11-22 — 会话存储落地（I-23）+ 分工例外
 
 - **刷新丢历史根治（S0–S3）**：新增 `src/rag_agent/store.py`（SQLite 三表

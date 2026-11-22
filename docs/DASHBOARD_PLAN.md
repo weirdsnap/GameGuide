@@ -230,3 +230,32 @@ P0 完成后就能替代 `turns_report.py` 的日常使用；P1 之后才真的�
 - 不做「重跑某一轮」按钮（会二次计费、污染 turns 数据）。
 - 不做实时（WebSocket）——1 秒刷新一次没人看，还费电。
 - 不做用户级看板（本项目就一个用户，IP 聚合足够）。
+
+## 13. 实施进度（2026-11-22，P0 + P1 后端部分）
+
+已落地：
+
+- `scripts/analysis/report.py`：统计纯函数层（`load_turns` / `summarize` /
+  `daily_series` / `feedback_counts` / `link_feedback` / `budget_status` /
+  `filter_turns` / `turn_row`）。只有 load_* 碰 I/O，其余纯函数。
+- `api_server.py`：`/api/stats` 改为调用 `report.summarize`（口径单源），新增
+  `/api/dashboard/summary`、`/api/dashboard/turns`、`/api/dashboard/feedback`。
+  全部只读 JSONL，不落 DB。
+- `web/dashboard.html`：单文件前端，原生 JS + 手写 SVG，无 CDN、无构建，
+  卡片 / 趋势图 / 轮次表（筛选 + 展开 + 复合游标翻页）都在里面。
+- 测试：`tests/test_report_stats.py`（23 条纯函数契约）、
+  `tests/test_dashboard_api.py`（9 条端点契约，含 `/api/stats` 与 summary 的 parity）。
+- 主套件 314 passed / 20 skipped / 1 xfailed。
+
+未落地（下一步）：
+
+- Caddy `basicauth` + `/dashboard` 路由（需 root 改 `/etc/caddy/Caddyfile`，
+  由用户执行；在此之前看板不要对公网开放——页面含真实提问文本）。
+- P1 反馈面板的可视化细节（后端 `link_feedback` 已提供数据）。
+- P2 eval 面板、P3 预算 cron 告警。
+
+设计时补充的两条实现约定：
+
+1. **分页游标是复合游标 `(ts, turn_id)`**：只按 ts 翻页在同一秒多条时会丢数据
+   （评测脚本连发就会撞），`before` 与 `before_id` 必须成对传。
+2. **IP 只留前两段**（`163.125.x.x`）：看板只需要区分请求来源，不需要定位到人。
