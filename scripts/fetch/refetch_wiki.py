@@ -506,6 +506,20 @@ def main():
     sample = titles[:10] if args.probe else titles
     pages = {}
     ok = bad = skipped = 0
+    # 看门狗线程：macOS 的 mDNS 解析卡死时进程阻塞在 C 库内部的 kevent 重试，
+    # SIGALRM 到不了 Python 层（实测挂死 20+ 分钟无解）。守护线程检测到
+    # 240s 无页面进度就 os._exit(42)，交给外层 shell 断点续传重启。
+    import os
+    import threading
+    _last_progress = [time.monotonic()]
+    def _watchdog():
+        while True:
+            time.sleep(30)
+            if time.monotonic() - _last_progress[0] > 240:
+                print("    🐕 看门狗：240s 无进展（疑似 DNS 挂死），"
+                      "退出码 42 交给外层重启", flush=True)
+                os._exit(42)
+    threading.Thread(target=_watchdog, daemon=True).start()
     # 滴漏陷阱硬兜底：requests 的 read timeout 会被「逐字回包」吊死，
     # 用 SIGALRM 给单页设 90s 总上限。handler 必须抛 PageStallError
     # （非 OSError 子类），否则会被 urllib3 转成 ReadTimeout 后遭重试吞没
@@ -548,6 +562,7 @@ def main():
             state["done"].update(pages)
             state_path.write_text(json.dumps(state, ensure_ascii=False),
                                   encoding="utf-8")
+        _last_progress[0] = time.monotonic()
         time.sleep(args.delay)
 
     if args.no_strip:
