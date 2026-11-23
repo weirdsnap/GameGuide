@@ -96,16 +96,34 @@ Mac 侧用代理（`export https_proxy=http://192.168.5.1:7890`，requests 认�
 > `nav_pollution_median` 三个读数，再抖 20 页人眼比对。probe 只抓 10 页时共享段阀值噪声大
 > （min 3 页即算模板），以正式抓+抽样复查为准。
 
-## P1-1 turn_record 观测字段（I-14/I-10 C 的剩余部分）
+> **Mac 实测回执（2026-11-23）**
+>
+> 1. **silksong 不带 `--suffix` 全绿**（81 页分类候选，suffix 过滤会错杀到 5 页——
+>    分类本身已是 Silksong 专属，不需要后缀）：probe 9/10 页成功，
+>    `title_in_body=1.0 / shared_para=0 / nav_pollution=0`，闸门整体通过，
+>    抽看正文（Ballow/Bell Beast/Blasted Steps）对题。
+> 2. **新盲区已修（Mac 侧，归属纠正后由 Mac 改实现）**：Fandom 渲染层注入的
+>    `dialogue-*` div（随机对话模块，wikitext 里不存在——`Hornet (Silksong)` 的
+>    wikitext 0 处 Zote，渲染 HTML 里 57 处）。已把 `dialogue-` 加进
+>    `SKIP_CLASS_PREFIXES`。
+> 3. **`title_in_body_rate` 对 zh 站结构性失效**：terraria.wiki.gg/zh 标题是英文、
+>    正文是中文（如 `1 Second Timer` → 正文全中文计时器内容），标题词永远匹配不上，
+>    实测 0.1 必挂。zh 模式下该检查已降为仅供参考（不参与 ok 判定），对错题防线由
+>    `cjk_ratio` + 抽样人眼比对承担。服务器的 14 条契约测试不受影响（全绿）。
+> 4. **terraria zh 直连可通，代理反而不通**：`terraria.wiki.gg/zh` 直连 1.8s，
+>    挂代理 20s 超时（000）。fandom 仍需要代理。zh 分类已固化进注册表
+>    `wiki_zh_categories`（13 个，3031 页），`--lang zh` 不再落 allpages。
+> 5. terraria zh probe 其余闸门全绿：`median=1242 / cjk=0.56 / shared_para=0`。
+>
+> 两个整站抓取已在 Mac 后台跑（silksong 81 页、terraria zh 3031 页），
+> 完成后抽 20 页人眼比对，产物写 `wiki_data.refetch.md`（不动正式文件）。
 
-`api_server.py` 的 `turn_record` 目前还没有（Mac 侧 grep 确认）：
+## ~~P1-1 turn_record 观测字段~~ ✅ 已完成（服务器侧 `9b801b1`，2026-11-22）
 
-- `progress_level` + `progress_source`（I-14 建议 2）：没有这两个字段，离线量不出
-  「进度=2 的轮次占比」「未知进度占比」，I-14 改进前后无法对比。
-- `entry_acts`（I-10 C 方案附带）：工具返回条目里出现的 act 集合（去重、上限 10），
-  供离线统计「返回了 act3 但用户进度是 act2」的比例。
-
-SPOILER_TERMS 的 act3 地名已补（`87568ec`），不用重复做。
+`turn_record` 已透传 `progress_level`/`progress_source`/`entry_acts` 与裁剪三字段
+（history_raw_msgs/history_used_msgs/history_trim_chars）；`graph.py`/`multi_agent.py`
+的 meta 也补了进度对象。I-22（pytest 写脏生产 turns）同 commit 根治：
+`GAMEGUIDE_*_DIR` 可 env 覆盖，conftest autouse 指向 tmp。
 
 ## P1-2 I-19 `max_turns=6` 观察 3 天再定（不要现在调参数）
 
@@ -121,13 +139,15 @@ SPOILER_TERMS 的 act3 地名已补（`87568ec`），不用重复做。
 `vectorstores.sh` 上传，服务器负责接收后重启验收。**重建与代码上线必须同一次**
 （严格模式下旧库零命中的教训，见 AGENTS.md「读端不做兜底」一节）。
 
-## P2-1 方案 B 会话记忆（等用户拍板留存期后启动）
+## ~~P2-1 方案 B 会话记忆~~ ✅ 已落地（服务器侧 I-23，`04afd5f`/`e2e1f65`，2026-11-22）
 
-设计文档：`docs/SESSION_MEMORY_PLAN.md`（三表 sessions/turns/receipts、进度存数不存文、
-存根确定性生成、三步迁移）。用户 2026-11-22 已给留存口径「也许 3 天」（I-23），
-建议落地为答案正文 3 天 / receipts 与 sessions 行 90 天，全部走环境变量。
-拍板后服务器侧负责：`api_server.py` 接 session 存取、三表落库、留存清理任务；
-Mac 侧负责：`multi_agent`/`graph` 从「前端全量重发 history」切换为「session_id + 增量」。
+用户 2026-11-22 已给留存口径「也许 3 天」，服务器侧按 `docs/SESSION_STORE_IMPL.md`
+完成了 S0–S3：`src/rag_agent/store.py` 三表、`resolve_session()`（client_id +
+session_id）、`save_turn()` 双写、留存清理（答案 3 天 / 存根与会话 90 天，
+`GAMEGUIDE_RETENTION_*` 可改）、`/api/sessions` 系列路由、前端 localStorage 恢复。
+**上线顺序**：`GAMEGUIDE_SERVER_HISTORY` 默认 `0`（仍用请求体 history），双写对账
+1–2 天后服务器侧再翻 `1`。Mac 侧后续：翻 `1` 后 `multi_agent`/`graph` 的 history
+语义从「前端全量重发」变为「服务端装配」，届时配合改。
 
 ## P2-2 golden set 扩充（依赖方案 B）
 

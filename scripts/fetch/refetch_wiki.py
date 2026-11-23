@@ -58,7 +58,10 @@ SKIP_CLASSES = {
     "pi-caption", "pi-header", "pi-image", "pi-item",
 }
 # 这些 class 前缀命中也丢（Fandom 的 pi-* 部件名不固定，逐个列举必漏）
-SKIP_CLASS_PREFIXES = ("pi-",)
+# dialogue-*：Fandom 在渲染层注入的随机对话/名言模块（wikitext 里不存在，
+# 如 Hornet (Silksong) 页的 dialogue-silksong div 渲染出 Zote 的条目简介），
+# 与页面主题无关，属于噪声
+SKIP_CLASS_PREFIXES = ("pi-", "dialogue-")
 # 注意：不再区分「表格专用名单」——navbox/infobox 一律整块丢；正文数据表用的是
 # wikitable/article-table 这类 class，不在跳过名单里，不会误删。
 # 正文里的 aside 基本都是信息框/侧栏，整块丢
@@ -408,6 +411,10 @@ def audit(pages: dict, zh: bool) -> dict:
         "shared_para_rate": (shared_rate, shared_rate <= 0.02),
     }
     if zh:
+        # zh 站（如 terraria.wiki.gg/zh）标题是英文、正文是中文，
+        # 标题词永远匹配不上正文——该检查结构性失效，降为仅供参考，
+        # 对错题的防线由 cjk_ratio + 抽样人眼比对承担
+        checks["title_in_body_rate"] = (match, True)
         checks["cjk_ratio"] = (round(cjk, 3), cjk >= 0.25)
     return {"pages": len(pages), "checks": checks,
             "ok": all(ok for _, ok in checks.values())}
