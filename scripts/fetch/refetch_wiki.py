@@ -433,6 +433,17 @@ def audit(pages: dict, zh: bool) -> dict:
             "ok": all(ok for _, ok in checks.values())}
 
 
+class PageStallError(Exception):
+    """单页抓取停滞（Cloudflare 滴漏陷阱）。
+
+    必须继承 Exception 而非 OSError/TimeoutError：SIGALRM handler 在
+    socket.read 里抛出时，urllib3 会把 OSError 子类包装成 ReadTimeout，
+    随后被 api_get 的 except requests.RequestException 吞掉并重试——
+    而 alarm 只装一次，重试再陷滴漏就永久卡死（实测复现）。
+    自定义异常不被 urllib3 转换，直接穿透到主循环。
+    """
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--game", required=True)
@@ -496,10 +507,11 @@ def main():
     pages = {}
     ok = bad = skipped = 0
     # 滴漏陷阱硬兜底：requests 的 read timeout 会被「逐字回包」吊死，
-    # 用 SIGALRM 给单页设 90s 总上限，超时按失败处理（下轮重跑会补）
+    # 用 SIGALRM 给单页设 90s 总上限。handler 必须抛 PageStallError
+    # （非 OSError 子类），否则会被 urllib3 转成 ReadTimeout 后遭重试吞没
     import signal
     def _page_timeout(signum, frame):
-        raise TimeoutError("单页抓取超过 90s（疑似滴漏陷阱）")
+        raise PageStallError("单页抓取超过 90s（疑似滴漏陷阱）")
     if hasattr(signal, "SIGALRM"):
         signal.signal(signal.SIGALRM, _page_timeout)
     for i, t in enumerate(sample, 1):
@@ -514,8 +526,10 @@ def main():
             signal.alarm(90)
         try:
             text = wiki.page_text(t)
-        except TimeoutError as e:
+        except PageStallError as e:
+            # 连接已被滴漏污染，换新连接；该页记失败，下轮重跑会补
             print(f"    ⏱️ {t}: {e}")
+            wiki.reset_session()
             text = None
         finally:
             if hasattr(signal, "SIGALRM"):
