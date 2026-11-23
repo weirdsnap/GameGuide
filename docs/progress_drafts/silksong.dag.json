@@ -1,0 +1,148 @@
+{
+  "game": "silksong",
+  "kind": "dag",
+  "axis_label": "幕",
+  "act_of_node": true,
+  "reviewed": false,
+  "_status": "draft：节点名取自仓库内 silksong_data.db 的 areas 表与 bosses.location；act 归属与前置边仅保留高把握项，其余 act=null / 空数组 + TODO，待 wiki 校对后改 reviewed=true",
+  "abilities": {
+    "clawline": {
+      "name": "Clawline（抓钩线）",
+      "act": null,
+      "from": [],
+      "_note": "名字取自库内 abilities 表；获取区域与 act 待校对"
+    },
+    "weaver-talents": {
+      "name": "Weaver Talents（织工天赋）",
+      "act": null,
+      "from": [],
+      "_note": "同上，非位移能力，只作「已获得」标记用"
+    }
+  },
+  "areas": {
+    "moss-grotto": {
+      "name": "Moss Grotto",
+      "act": 1,
+      "requires_areas": [],
+      "requires_abilities": [],
+      "_note": "开局区域，无前置"
+    },
+    "bone-bottom": {
+      "name": "Bone Bottom",
+      "act": 1,
+      "requires_areas": ["moss-grotto"],
+      "requires_abilities": [],
+      "_note": "首个据点"
+    },
+    "marrow": {
+      "name": "Marrow",
+      "act": 1,
+      "requires_areas": ["bone-bottom"],
+      "requires_abilities": []
+    },
+    "deep-docks": {
+      "name": "Deep Docks",
+      "act": 1,
+      "requires_areas": [],
+      "requires_abilities": [],
+      "_note": "TODO 校对进入前置"
+    },
+    "hunters-march": {
+      "name": "Hunter's March",
+      "act": null,
+      "requires_areas": [],
+      "requires_abilities": [],
+      "_note": "TODO act 与前置待校对"
+    },
+    "far-fields": {
+      "name": "Far Fields",
+      "act": null,
+      "requires_areas": [],
+      "requires_abilities": [],
+      "_note": "TODO"
+    },
+    "greymoor": {
+      "name": "Greymoor",
+      "act": null,
+      "requires_areas": [],
+      "requires_abilities": [],
+      "_note": "TODO"
+    },
+    "shellwood": {
+      "name": "Shellwood",
+      "act": null,
+      "requires_areas": [],
+      "requires_abilities": [],
+      "_note": "TODO"
+    },
+    "blasted-steps": {
+      "name": "Blasted Steps",
+      "act": null,
+      "requires_areas": [],
+      "requires_abilities": [],
+      "_note": "TODO"
+    },
+    "citadel": {
+      "name": "Citadel（圣堡）",
+      "act": 2,
+      "requires_areas": [],
+      "requires_abilities": ["clawline"],
+      "_note": "第二阶段核心区域；进入方式待校对（可能不止一条路，届时用 requires_any）"
+    },
+    "sinners-road": {
+      "name": "Sinner's Road",
+      "act": null,
+      "requires_areas": [],
+      "requires_abilities": [],
+      "_note": "TODO"
+    },
+    "the-mists": {
+      "name": "The Mists",
+      "act": null,
+      "requires_areas": [],
+      "requires_abilities": [],
+      "_note": "TODO"
+    },
+    "bilewater": {
+      "name": "Bilewater",
+      "act": null,
+      "requires_areas": [],
+      "requires_abilities": [],
+      "_note": "TODO"
+    },
+    "weavenest-atla": {
+      "name": "Weavenest Atla",
+      "act": null,
+      "requires_areas": [],
+      "requires_abilities": [],
+      "_note": "TODO"
+    },
+    "the-abyss": {
+      "name": "The Abyss (Silksong)",
+      "act": null,
+      "requires_areas": [],
+      "requires_abilities": [],
+      "_note": "TODO，推测为后期区域，未确认"
+    },
+    "grand-gate": {
+      "name": "Grand Gate",
+      "act": null,
+      "requires_areas": [],
+      "requires_abilities": [],
+      "_note": "来自 bosses.location 字段，未在 areas 表内"
+    },
+    "whispering-vaults": {
+      "name": "Whispering Vaults",
+      "act": null,
+      "requires_areas": [],
+      "requires_abilities": [],
+      "_note": "来自 bosses.location 字段，未在 areas 表内"
+    }
+  },
+  "_todo": [
+    "补齐 abilities：库里只有 2 行且 effect/acquisition 为空，需从 wiki 抽位移类能力（抓钩/冲刺/浮空/升空类）",
+    "校对每个区域的 act 归属（Act 1 / 2 / 3）",
+    "校对每条前置边，标注 AND / OR 分支",
+    "确认是否有官方完成度百分比，有则作为 {percent} 槽位（零剧透最优信号）"
+  ]
+}

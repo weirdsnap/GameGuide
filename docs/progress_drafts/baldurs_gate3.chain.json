@@ -1,0 +1,31 @@
+{
+  "game": "baldurs_gate3",
+  "kind": "chain",
+  "axis_label": "章",
+  "max_rank": 3,
+  "front_end_label": "第一章 / 第二章 / 第三章",
+  "anchors": {
+    "1": [
+      "幽暗地域", "underdark", "地表", "德鲁伊营地", "druid grove",
+      "goblin camp", "地精营地", "坠落地点", "withers", "枯萎者"
+    ],
+    "2": [
+      "最后之光旅店", "last light inn", "月出之塔", "moonrise towers",
+      "大陵墓", "grand mausoleum", "莎尔的试炼", "gauntlet of shar",
+      "石匠工会", "mason's guild", "nightsong", "夜之歌", "塞伦涅", "塞伦捏",
+      "凯瑟里克", "ketheric"
+    ],
+    "3": [
+      "下城区", "lower city", "利文顿", "rivington", "钢铁卫士铸造厂",
+      "steel watch foundry", "主脑", "netherbrain", "戈塔什", "gortash",
+      "奥林", "orins", "巴尔", "bhaal"
+    ]
+  },
+  "explicit_patterns": [
+    "第\\s*([一二三123])\\s*[章幕]",
+    "\\bact\\s*([123一二三])\\b"
+  ],
+  "reviewed": true,
+  "_source": "从 src/rag_agent/progress.py 的 _EXPLICIT_PATTERNS / _ACT_ANCHORS（2026-11-22 版本）原样搬出，仅按 act 1 补了第一章常用锚点，行为等价",
+  "_notes": "巴尔 / Bhaal 同时是 L2 审计词，这里作为 act 3 锚点使用是刻意的：用户主动提巴尔说明已到 act 3。"
+}

@@ -83,6 +83,29 @@
   养鸡妹无覆盖。
 - 接线前用探针 + golden QA 做 A/B，阈值先按 0.7 硬线。
 
+## P2-2 进度轴重构（2026-11-22 新交接，服务器侧已出设计与草案）
+
+方案全文：[`docs/PROGRESS_AXIS_DESIGN.md`](PROGRESS_AXIS_DESIGN.md)。
+数据结构草案与校对说明：[`docs/progress_drafts/`](progress_drafts/)，
+契约测试 `tests/test_progress_model_schema.py`（已入库，当前 6 passed）。
+
+按依赖顺序：
+
+1. **S1 拆配置**：`src/rag_agent/progress.py` 的 `_EXPLICIT_PATTERNS` / `_ACT_ANCHORS`
+   搬进 `config/progress/baldurs_gate3.chain.json`，加 loader；行为必须与现状等价
+   （BG3 推断结果一条不变，用现有 `tests/` 做回归）。
+2. **S2 加 DagModel**：新增 `progress/models.py`（ChainModel / DagModel / NullModel，
+   共一个 Protocol）与 `progress/evidence.py`（证据抽取，含 **reverse 证据**：
+   「怎么去 X」→ 记 X 未到达）。丝之歌先吃 `reviewed:false` 的数据，只抬下界、不剪枝。
+3. **S3 问句护栏**：`progress/guard.py`，两条硬约束——
+   ① 追问里出现的专名 ⊆ 用户历史里出现过的专名（白名单只放游戏名/通用词）；
+   ② **问句模板不允许角色/剧情实体槽位**，只有 rank / percent / area_known /
+   ability_known 四个槽位。这条比事后扫词可靠：扫词挡不住新角色，槽位限制是结构性的。
+4. **硬约束**：任何 `if game == "..."` 都算违规；游戏差异只能加数据字段。
+
+背景：丝之歌现在 `spoiler_axis=act` 但零锚点、chunk 无 act 元数据、`abilities` 表
+2 行且全空，实际是「零防线」，证据见设计文档 §1.1。
+
 ## 服务器侧当日已完成（勿重复实现）
 
 - `tools.py`：撤掉「两路都空 → 退回整库」的兜底，改严格模式（理由已写进 AGENTS.md）。
