@@ -128,6 +128,10 @@ def test_dag_model(path: Path):
             assert dep in abilities, (
                 f"{path.name} 区域 {aid} 引用了未定义能力 {dep}"
             )
+        gates = area.get("requires_gates", [])
+        assert isinstance(gates, list) and all(
+            isinstance(g, str) and g.strip() for g in gates
+        ), f"{path.name} 区域 {aid} 的 requires_gates 必须是非空字符串列表"
 
     if model.get("act_of_node") is not None:
         assert isinstance(model["act_of_node"], bool)

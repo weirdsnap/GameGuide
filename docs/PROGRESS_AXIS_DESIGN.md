@@ -141,8 +141,14 @@ loader 读 `config/progress/<game>.json`。加游戏只加 JSON。
 字段口径：
 
 - `act`：1 起整数；`act_of_node: true` 表示启用「区域 → act」反查（见 §9）。
-- `requires_areas` / `requires_abilities`：**全部满足**才可达（AND 语义）。
-  若有 OR 分支（两条路都能进），在 `notes` 里写明，暂用 `requires_any` 数组预留。
+- `requires_areas` / `requires_abilities`：**全部满足**才可达（AND 语义）；
+  引用的 id 必须存在（测试会查）。
+- `requires_gates`：自由文本的非状态门槛（如 `"Last Judge"`、`"White key"`），
+  只用于人读与提示词，不参与图算法，**不校验引用**。
+- `_source`：这条断言的 wiki 依据（原文摘句或页名#小节）。校对时先看这个字段，
+  不要盲信 `act`。`Connections` 段只给**无向邻接**，不能直接当 `requires_areas` 用。
+- 若同一个区域有两条到达路径（如 Citadel 可走 5 bells 也可经 The Mists），
+  在 `notes` 里写明，暂用 `requires_any` 数组预留。
 - `reviewed: false` 时，加载器只允许它参与「低置信度」推断（只用作
   「用户提到该区域就把 lo 抬到该节点的 act」），不参与可达集剪枝——
   避免未校对的数据把用户限死在错误的层。

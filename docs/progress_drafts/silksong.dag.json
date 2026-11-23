@@ -4,19 +4,44 @@
   "axis_label": "幕",
   "act_of_node": true,
   "reviewed": false,
-  "_status": "draft：节点名取自仓库内 silksong_data.db 的 areas 表与 bosses.location；act 归属与前置边仅保留高把握项，其余 act=null / 空数组 + TODO，待 wiki 校对后改 reviewed=true",
+  "_status": "draft：2026-11-23 用 Mac 重抓的干净 wiki（games/silksong/data/wiki_data.md，81 页）校对过一轮；act 只填 wiki 原文明确写出的，其余 null；前置边只填原文有依据的（见每项 _source），Connections 段只提供无向邻接，不足以定方向",
   "abilities": {
+    "swift-step": {
+      "name": "Swift Step",
+      "act": null,
+      "from": [],
+      "_source": "Hornet (Silksong)#Abilities：Fabled Weaver talent，向前冲刺"
+    },
+    "cling-grip": {
+      "name": "Cling Grip",
+      "act": null,
+      "from": ["shellwood"],
+      "_source": "Shellwood#Key Items and Abilities（该区域可得）；Hornet#Abilities 描述为 Ancient Weaver technique"
+    },
+    "needolin": {
+      "name": "Needolin（丝弦琴）",
+      "act": null,
+      "from": [],
+      "_source": "Hornet#Abilities：Holy Weaver talent，全图解谜与主线推进都用到"
+    },
     "clawline": {
       "name": "Clawline（抓钩线）",
       "act": null,
-      "from": [],
-      "_note": "名字取自库内 abilities 表；获取区域与 act 待校对"
+      "from": ["the-cauldron"],
+      "_source": "Hornet#Abilities：obtained in the Underworks at The Cauldron，需 White key 进入",
+      "_note": "能力获取地是 Underworks/Cauldron，非 areas 表内区域，已作为节点补入"
     },
-    "weaver-talents": {
-      "name": "Weaver Talents（织工天赋）",
+    "silk-soar": {
+      "name": "Silk Soar",
       "act": null,
-      "from": [],
-      "_note": "同上，非位移能力，只作「已获得」标记用"
+      "from": ["weavenest-absolom"],
+      "_source": "Hornet#Abilities：can be found in the Abyss at Weavenest Absolom"
+    },
+    "sylphsong": {
+      "name": "Sylphsong",
+      "act": null,
+      "from": ["weavenest-atla"],
+      "_source": "Hornet#Abilities：at Moss Grotto in Weavenest Atla，完成 Eva's request"
     }
   },
   "areas": {
@@ -25,41 +50,43 @@
       "act": 1,
       "requires_areas": [],
       "requires_abilities": [],
-      "_note": "开局区域，无前置"
+      "_note": "开局区域，无前置；act 1 为常识推理（Weavenest Atla 也在这一带）"
     },
     "bone-bottom": {
       "name": "Bone Bottom",
       "act": 1,
       "requires_areas": ["moss-grotto"],
       "requires_abilities": [],
-      "_note": "首个据点"
+      "_note": "首个据点；开局必经"
     },
     "marrow": {
       "name": "Marrow",
       "act": 1,
       "requires_areas": ["bone-bottom"],
-      "requires_abilities": []
+      "requires_abilities": [],
+      "_source": "wiki：\u201cThe Marrow is an early-game area in Pharloom\u201d；Bell Beast 初遇在此"
     },
     "deep-docks": {
       "name": "Deep Docks",
-      "act": 1,
+      "act": null,
       "requires_areas": [],
       "requires_abilities": [],
-      "_note": "TODO 校对进入前置"
+      "_note": "Far Fields 的可达性依赖它（见 far-fields），本身入口待校对"
     },
     "hunters-march": {
       "name": "Hunter's March",
       "act": null,
       "requires_areas": [],
       "requires_abilities": [],
-      "_note": "TODO act 与前置待校对"
+      "_source": "wiki（Karmelita 条）：进入 Act 3 后 Deep Docks 通往 Hunter's March 的入口被封，需从 The Marrow 进入"
     },
     "far-fields": {
       "name": "Far Fields",
-      "act": null,
-      "requires_areas": [],
+      "act": 1,
+      "requires_areas": ["deep-docks"],
       "requires_abilities": [],
-      "_note": "TODO"
+      "requires_gates": ["Lace"],
+      "_source": "wiki：\u201cFar Fields is an Area in Act 1\u2026 accessible from the Deep Docks after beating Lace\u201d"
     },
     "greymoor": {
       "name": "Greymoor",
@@ -73,21 +100,23 @@
       "act": null,
       "requires_areas": [],
       "requires_abilities": [],
-      "_note": "TODO"
+      "_source": "wiki：\u201cone of the early-mid game regions\u201d，未写具体 Act；Connections 段列 Bellhart / Mosshome / the marrow / Blasted Steps（无向邻接，不定方向）"
     },
     "blasted-steps": {
       "name": "Blasted Steps",
-      "act": null,
+      "act": 1,
       "requires_areas": [],
       "requires_abilities": [],
-      "_note": "TODO"
+      "_source": "wiki：\u201cThe Blasted Steps are the last major area of Act 1\u201d"
     },
     "citadel": {
       "name": "Citadel（圣堡）",
-      "act": 2,
+      "act": null,
       "requires_areas": [],
-      "requires_abilities": ["clawline"],
-      "_note": "第二阶段核心区域；进入方式待校对（可能不止一条路，届时用 requires_any）"
+      "requires_abilities": [],
+      "requires_gates": ["敲响 5 座 bell", "Last Judge"],
+      "_source": "wiki：需解锁并敲响 5 座 bell 才能开 Citadel 入口，进入前被 Last Judge 拦；击败后开放。另一条路经 The Mists",
+      "_note": "wiki 称 late-game area，未写 Act 编号；Last Judge / Phantom 是进入 Act 2 的两个可选 boss 之一"
     },
     "sinners-road": {
       "name": "Sinner's Road",
@@ -101,7 +130,7 @@
       "act": null,
       "requires_areas": [],
       "requires_abilities": [],
-      "_note": "TODO"
+      "_source": "wiki（Citadel 条）：Citadel 也可经 The Mists 到达（OR 分支）"
     },
     "bilewater": {
       "name": "Bilewater",
@@ -113,23 +142,60 @@
     "weavenest-atla": {
       "name": "Weavenest Atla",
       "act": null,
+      "requires_areas": ["moss-grotto"],
+      "requires_abilities": [],
+      "_source": "Sylphsong 在此获得（Moss Grotto 一带）"
+    },
+    "weavenest-absolom": {
+      "name": "Weavenest Absolom",
+      "act": null,
       "requires_areas": [],
       "requires_abilities": [],
-      "_note": "TODO"
+      "_source": "Silk Soar 在此获得（Abyss at Weavenest Absolom）"
+    },
+    "the-cauldron": {
+      "name": "The Cauldron (Underworks)",
+      "act": null,
+      "requires_areas": [],
+      "requires_abilities": [],
+      "requires_gates": ["White key"],
+      "_source": "wiki：Clawline 在 Underworks at The Cauldron 获得，需 White key"
+    },
+    "bellhart": {
+      "name": "Bellhart",
+      "act": null,
+      "requires_areas": [],
+      "requires_abilities": [],
+      "_source": "Shellwood 的 Connections 列到；Act 3 起 wish wall 有新愿望",
+      "_note": "未在 areas 表内，来自 wiki 正文"
+    },
+    "mosshome": {
+      "name": "Mosshome",
+      "act": null,
+      "requires_areas": [],
+      "requires_abilities": [],
+      "_source": "Shellwood 的 Connections 列到；Moss Grotto 有 Sub-area: Mosshome"
+    },
+    "verdania": {
+      "name": "Verdania / Lost Verdania",
+      "act": 3,
+      "requires_areas": [],
+      "requires_abilities": [],
+      "_source": "wiki：\u201conly accessible in Act 3\u201d，位于 Craw Lake 右侧"
     },
     "the-abyss": {
       "name": "The Abyss (Silksong)",
       "act": null,
       "requires_areas": [],
       "requires_abilities": [],
-      "_note": "TODO，推测为后期区域，未确认"
+      "_note": "TODO；Silk Soar 的 Weavenest Absolom 标为 Abyss 内，二者关系待校对"
     },
     "grand-gate": {
       "name": "Grand Gate",
       "act": null,
       "requires_areas": [],
       "requires_abilities": [],
-      "_note": "来自 bosses.location 字段，未在 areas 表内"
+      "_note": "来自 bosses.location 字段，未在 areas 表内；wiki 称 Blasted Steps 靠近 citadel 的 grand gate"
     },
     "whispering-vaults": {
       "name": "Whispering Vaults",
@@ -140,9 +206,9 @@
     }
   },
   "_todo": [
-    "补齐 abilities：库里只有 2 行且 effect/acquisition 为空，需从 wiki 抽位移类能力（抓钩/冲刺/浮空/升空类）",
-    "校对每个区域的 act 归属（Act 1 / 2 / 3）",
-    "校对每条前置边，标注 AND / OR 分支",
+    "act 归属：目前只有 Blasted Steps / Far Fields（Act 1）与 Verdania（Act 3）有原文依据；Marrow、Moss Grotto、Bone Bottom 按常识填 1；Citadel、Shellwood、Greymoor 等留 null 待校对",
+    "前置边：wiki 只给了 Far Fields←Deep Docks(after Lace)、Citadel←5 bells+Last Judge/The Mists 两类；其余区域页没有 Connections 段，需从地图或攻略补",
+    "The Mists / Blasted Steps → Citadel 是 OR 分支，schema 需加 requires_any，当前先用 requires_gates 记录文案",
     "确认是否有官方完成度百分比，有则作为 {percent} 槽位（零剧透最优信号）"
   ]
 }
