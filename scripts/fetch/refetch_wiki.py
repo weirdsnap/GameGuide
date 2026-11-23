@@ -58,7 +58,10 @@ SKIP_CLASSES = {
     "pi-caption", "pi-header", "pi-image", "pi-item",
 }
 # 这些 class 前缀命中也丢（Fandom 的 pi-* 部件名不固定，逐个列举必漏）
-SKIP_CLASS_PREFIXES = ("pi-",)
+# dialogue-*：Fandom 在渲染层注入的随机对话/名言模块（wikitext 里不存在，
+# 如 Hornet (Silksong) 页的 dialogue-silksong div 渲染出 Zote 的条目简介），
+# 与页面主题无关，属于噪声
+SKIP_CLASS_PREFIXES = ("pi-", "dialogue-")
 # 注意：不再区分「表格专用名单」——navbox/infobox 一律整块丢；正文数据表用的是
 # wikitable/article-table 这类 class，不在跳过名单里，不会误删。
 # 正文里的 aside 基本都是信息框/侧栏，整块丢
@@ -408,6 +411,10 @@ def audit(pages: dict, zh: bool) -> dict:
         "shared_para_rate": (shared_rate, shared_rate <= 0.02),
     }
     if zh:
+        # zh 站（如 terraria.wiki.gg/zh）标题是英文、正文是中文，
+        # 标题词永远匹配不上正文——该检查结构性失效，降为仅供参考，
+        # 对错题的防线由 cjk_ratio + 抽样人眼比对承担
+        checks["title_in_body_rate"] = (match, True)
         checks["cjk_ratio"] = (round(cjk, 3), cjk >= 0.25)
     return {"pages": len(pages), "checks": checks,
             "ok": all(ok for _, ok in checks.values())}
@@ -481,13 +488,20 @@ def main():
             skipped += 1
             continue
         text = wiki.page_text(t)
-        if text and len(text) >= 80:
+        # 阈值 30：剥离后只剩一行的真 stub 也收（如「X is a boss in Silksong.」，
+        # 对问答有实体识别价值）；0 字符的空页仍然丢弃
+        if text and len(text) >= 30:
             pages[t] = text
             ok += 1
         else:
             bad += 1
         if i % 20 == 0 or args.probe:
             print(f"    {i}/{len(sample)} ✓{ok} ✗{bad} ↺{skipped}")
+        # 定期落盘：长任务（数千页、数小时）中途被杀/断网不至于全丢
+        if not args.probe and i % 100 == 0:
+            state["done"].update(pages)
+            state_path.write_text(json.dumps(state, ensure_ascii=False),
+                                  encoding="utf-8")
         time.sleep(args.delay)
 
     if args.no_strip:

@@ -132,6 +132,12 @@ _reg({
         "Armor_items", "Accessory_items", "Weapon_items",
         "Bosses", "NPCs", "Enemies",
     ],
+    # wiki.gg 中文站分类（2026-11-22 探测，3031 页候选）；fandom zh 源已判死
+    "wiki_zh_categories": [
+        "武器物品", "盔甲物品", "配饰物品", "工具物品",
+        "物块物品", "家具物品", "制作材料物品", "宠物召唤物品",
+        "坐骑召唤物品", "弹药物品", "Boss NPC", "敌怪 NPC", "NPC",
+    ],
 
     "signals": [
         "terraria", "泰拉瑞亚",
