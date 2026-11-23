@@ -488,7 +488,9 @@ def main():
             skipped += 1
             continue
         text = wiki.page_text(t)
-        if text and len(text) >= 80:
+        # 阈值 30：剥离后只剩一行的真 stub 也收（如「X is a boss in Silksong.」，
+        # 对问答有实体识别价值）；0 字符的空页仍然丢弃
+        if text and len(text) >= 30:
             pages[t] = text
             ok += 1
         else:
