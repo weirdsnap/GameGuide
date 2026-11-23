@@ -497,6 +497,11 @@ def main():
             bad += 1
         if i % 20 == 0 or args.probe:
             print(f"    {i}/{len(sample)} ✓{ok} ✗{bad} ↺{skipped}")
+        # 定期落盘：长任务（数千页、数小时）中途被杀/断网不至于全丢
+        if not args.probe and i % 100 == 0:
+            state["done"].update(pages)
+            state_path.write_text(json.dumps(state, ensure_ascii=False),
+                                  encoding="utf-8")
         time.sleep(args.delay)
 
     if args.no_strip:
