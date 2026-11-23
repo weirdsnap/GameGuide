@@ -236,6 +236,15 @@ bg3-to-oni-switch）全绿，证明修的是评测器而不是把问题掩下去
 
 ## TODO（跳端待办）
 
+### 2026-11-23 新增（来源：docs/ISSUES_2026-11-23.md I-24）
+
+13. **[未做，P1] I-24 路线类回答走不起来**：BG3 `locations.connected_locations` 73 条
+    全部把整页正文塞进 JSON（源是 wiki `↑/↓` 导航条，非连通），`waypoint` 0/249（正则没命中），
+    无坐标列。而 wiki 正文里有入口表、门 DC、`leads to` 连通句、Waypoints 小节——数据在，结构化层没通。
+    拆四块：A 数据层修 `parse_location()`（Mac）、B 路线意图走 locations 专查（Mac）、
+    C 提示词禁坐标推方位 + 固定回答格式（Mac）、D 5–8 条路线 golden case（服务器侧）。
+    先做 A+D，A 通了 B 才有东西可查。
+
 ### 2026-11-22 新增（来源：docs/ISSUES_2026-11-22.md）
 
 4. **[完成 f9eaabb] I-09 上下文裁剪**：`history_trim.py` + `multi_agent` 先反推游戏再裁剪，
