@@ -286,6 +286,19 @@ class Wiki:
         self.s = requests.Session()
         self.s.headers.update({"User-Agent": UA})
 
+    def reset_session(self):
+        """丢弃当前 keep-alive 连接，换新 Session。
+
+        Cloudflare 会对单条长连接做滴漏陷阱（约 400+ 请求后 ESTABLISHED 但
+        不再回数据，read timeout 被逐字吊着永远不触发）。实测换连接即恢复。
+        """
+        try:
+            self.s.close()
+        except Exception:
+            pass
+        self.s = requests.Session()
+        self.s.headers.update({"User-Agent": UA})
+
     def api_get(self, params: dict, retries: int = 3):
         params = dict(params, format="json")
         for attempt in range(retries):
@@ -482,12 +495,31 @@ def main():
     sample = titles[:10] if args.probe else titles
     pages = {}
     ok = bad = skipped = 0
+    # 滴漏陷阱硬兜底：requests 的 read timeout 会被「逐字回包」吊死，
+    # 用 SIGALRM 给单页设 90s 总上限，超时按失败处理（下轮重跑会补）
+    import signal
+    def _page_timeout(signum, frame):
+        raise TimeoutError("单页抓取超过 90s（疑似滴漏陷阱）")
+    if hasattr(signal, "SIGALRM"):
+        signal.signal(signal.SIGALRM, _page_timeout)
     for i, t in enumerate(sample, 1):
         if t in state["done"]:
             pages[t] = state["done"][t]
             skipped += 1
             continue
-        text = wiki.page_text(t)
+        # 每 200 页换新连接：Cloudflare 对单条 keep-alive 长连接会滴漏
+        if i % 200 == 0:
+            wiki.reset_session()
+        if hasattr(signal, "SIGALRM"):
+            signal.alarm(90)
+        try:
+            text = wiki.page_text(t)
+        except TimeoutError as e:
+            print(f"    ⏱️ {t}: {e}")
+            text = None
+        finally:
+            if hasattr(signal, "SIGALRM"):
+                signal.alarm(0)
         # 阈值 30：剥离后只剩一行的真 stub 也收（如「X is a boss in Silksong.」，
         # 对问答有实体识别价值）；0 字符的空页仍然丢弃
         if text and len(text) >= 30:
