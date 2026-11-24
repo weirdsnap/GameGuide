@@ -377,7 +377,7 @@ class Wiki:
 
 
 # ── 质量闸门 ──
-def audit(pages: dict, zh: bool) -> dict:
+def audit(pages: dict, zh: bool, nav_max: int = 6) -> dict:
     lens = sorted(len(t) for t in pages.values())
     n = len(lens) or 1
     med = lens[len(lens) // 2] if lens else 0
@@ -419,7 +419,7 @@ def audit(pages: dict, zh: bool) -> dict:
         "share_over_20k": (round(over, 3), over <= 0.05),
         "share_under_100": (round(under, 3), under <= 0.12),
         "paragraph_rate": (round(para, 3), para >= 0.70),
-        "nav_pollution_median": (nav_poll, nav_poll <= 6),
+        "nav_pollution_median": (nav_poll, nav_poll <= nav_max),
         "title_in_body_rate": (match, match >= 0.85),
         "shared_para_rate": (shared_rate, shared_rate <= 0.02),
     }
@@ -459,6 +459,11 @@ def main():
     ap.add_argument("--strip-ratio", type=float, default=0.15,
                     help="共享段判定阈值：出现在多少比例的页面算模板（默认 0.15）")
     ap.add_argument("--replace", action="store_true", help="质检通过后替换正式文件（先备份）")
+    ap.add_argument("--nav-threshold", type=int, default=6,
+                    help="导航污染中位数上限（默认 6）。terraria zh 这类条目密集互链"
+                         "的库（列表页枚举全部条目、正文自然提及关联物品）实测干净数据"
+                         "也在 14 左右，需放宽到 20；判别真伪污染的依据是"
+                         " shared_para_rate≈0 且抽样上下文为自然语句")
     args = ap.parse_args()
 
     from rag_agent.game_registry import WIKI_CONFIGS
@@ -574,7 +579,7 @@ def main():
               f"导航表 {strip_stats['dropped_navlines']} 处"
               f"（阈值：{strip_stats['threshold']} 页以上重复算模板）")
 
-    report = audit(pages, args.lang == "zh")
+    report = audit(pages, args.lang == "zh", nav_max=args.nav_threshold)
     report["strip"] = strip_stats
     print(f"\n2️⃣  质检：{report['pages']} 页")
     for k, (v, passed) in report["checks"].items():
