@@ -237,6 +237,36 @@ def test_ask_stream_SSE_事件与观测记录(monkeypatch, tmp_path):
     assert rec["tokens_in"] == 120
 
 
+def test_ask_stream_progress_事件透传给前端(monkeypatch, tmp_path):
+    """I-25 L2：工具阶段的 progress 事件必须被 api_server 转发，否则前端永远收不到。
+    协议：只转播，不算答案、不计 stream_chunks、不动 quota。"""
+    async def fake_stream(question, history=None, verbose=False, meta=None):
+        yield "meta", {"game": "baldurs_gate3", "game_name": "博德之门3", "model": "fake"}
+        yield "progress", {"phase": "tool_start", "tool": "search_knowledge_base",
+                           "round": 1, "elapsed": 1.2}
+        yield "progress", {"phase": "tool_done", "tool": "search_knowledge_base",
+                           "round": 1, "elapsed": 2.4}
+        yield "token", "答案"
+        meta.update({"route": "agent", "game": "baldurs_gate3",
+                     "tokens_in": 10, "tokens_out": 2, "tool_calls": 1})
+
+    app, records, _ = _fresh(monkeypatch, tmp_path, ask_stream=fake_stream)
+    status, body = _post(app, "/api/ask/stream", {"question": "明斯克在哪"})
+
+    assert status == 200
+    events = [json.loads(line[len("data: "):]) for line in body.splitlines() if line.startswith("data: ")]
+    assert [e["type"] for e in events] == ["meta", "progress", "progress", "token", "done"]
+    prog = [e for e in events if e["type"] == "progress"]
+    assert prog[0]["phase"] == "tool_start"
+    assert prog[0]["tool"] == "search_knowledge_base"
+    assert prog[1]["phase"] == "tool_done"
+    assert prog[1]["round"] == 1
+    # progress 不是答案
+    assert "".join(e.get("content", "") for e in events if e["type"] == "token") == "答案"
+    assert records[0]["stream_chunks"] == 1
+    assert events[-1]["quota"]["remaining"] == 99
+
+
 def test_ask_stream_报错事件仍记录(monkeypatch, tmp_path):
     async def fake_stream(question, history=None, verbose=False, meta=None):
         meta.update({"route": "error", "error": "上游超时"})

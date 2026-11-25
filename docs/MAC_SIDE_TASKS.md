@@ -20,13 +20,15 @@
 线上已经在咬人：11-25 11:56 一轮 iPhone 移动网络提问，服务端工具循环跑 25.6s、
 7 次 DeepSeek 全 200，却**一个字节没写给前端**，客户端先断 → 前端弹「网络错误」。
 
-- **P3-1 `progress` 事件【已完成 f2fb79f，等服务器侧接线】**：`src/rag_agent/multi_agent.py:ask_stream`
+- **P3-1 `progress` 事件【两端已接线 f2fb79f + api_server 转发，2026-11-25】**：`src/rag_agent/multi_agent.py:ask_stream`
   在 `mode == "messages"` 分支识别工具阶段——`AIMessageChunk.tool_call_chunks` 拼出完整 name →
   `yield ("progress", {phase:"tool_start", tool, round, elapsed})`；`ToolMessage` → `phase:"tool_done"`。
   只发工具 id，中文文案在前端映射；ToolMessage 内容绝不转发；首 token 之后停发。
   注意：前端**不做**假计时器（用户 11-25 否掉），没这个事件前端就只显示「思考中…」。
-  服务器侧剩余：`api_server.handle_ask_stream` 要加 `progress` 分支转发（当前三分支只认
-  token/meta/error，事件会被静默丢掉，见 `ONLINE_DIAGNOSIS_2026-11-25.md` §10）。
+  ~~服务器侧剩余：`api_server.handle_ask_stream` 要加 `progress` 分支转发~~
+  **已补**（2026-11-25）：`handle_ask_stream` 加了 `progress` 分支，测试
+  `tests/test_api_handlers.py::test_ask_stream_progress_事件透传给前端` 覆盖，
+  需重启 API 才生效。详见 `ONLINE_DIAGNOSIS_2026-11-25.md` §10.1。
 - **P3-2 断流恢复 + 取消**：已有半截答案时保留正文 + 灰字「（连接中断，回答可能不完整）」+ 重试；
   零 token 时显示「连接中断了 · 点这里重试」；加 `AbortController` 取消按钮与
   `visibilitychange` 回前台兜底。

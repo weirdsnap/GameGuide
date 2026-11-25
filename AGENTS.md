@@ -330,6 +330,26 @@ python scripts/eval/ragas_eval.py --game all --limit 5   # 报告输出到 evalu
 
 ## 变更记录（踩坑留档）
 
+### 2026-11-25 — I-25 L2 两端接线 + 前端窗口化无限滚动
+
+- **`progress` 事件两端打通**：Mac 侧 `multi_agent.ask_stream`（f2fb79f）产出
+  `tool_start` / `tool_done`，服务器侧 `api_server.handle_ask_stream` 补了转发分支
+  （此前只有 token/meta/error 三分支，事件被静默丢弃）。协议：
+  `{"type": "progress", phase, tool, round, elapsed}`，不进答案、不计 `stream_chunks`、
+  不动 quota。测试 `test_ask_stream_progress_事件透传给前端`。
+  **踩坑**：生成器级测试全绿也发现不了 HTTP 层丢事件——跨端协议改动必须两头都验。
+- **前端聊天窗口化**（博客仓库 `htmls/hollow_knight.html`）：按用户要求改成
+  全自动无限滚动，不要按钮。`messages` 全量留内存，DOM 只挂 `[chunkStart, chunkEnd)`；
+  滚到边界自动加载，超过 36 条卸掉远端，卸载高度进 `hCache` 撑 padding 占位。
+  三个坑写进 `docs/CHAT_HISTORY_RENDER_PLAN.md`：边界判断必须带 `padTop`（否则要先滚
+  一屏空白）、锚定必须两次修正（估算高度会留 290px 偏移）、节流只能用 `_inWinOp`
+  状态锁（时间节流会丢掉"甩到顶"的事件且不会重来）。
+  离线测试 `tests/test_chat_window.js`（抽真实 methods/computed 跑假布局，17 条断言）。
+- **数据侧待办**：terraria 中文 wiki 已全量替换（0395909，3031 页），但服务器上的
+  `games/terraria/vectorstore` 还是 07-14 的旧库——**检索链路与源数据已脱节**，
+  需要 Mac 重建后传回。其余 7 个库文件版本未变。
+- 主套件 329 passed / 22 skipped / 1 xfailed。
+
 ### 2026-11-22 — 数据看板 P0（只读后台）
 
 - `scripts/analysis/report.py`：统计口径单源。以前 CLI 与 handler 各算一套，

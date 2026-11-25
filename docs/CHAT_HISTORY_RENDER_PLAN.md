@@ -1,31 +1,26 @@
-# 聊天历史渲染与滚动方案（分批渲染 / 反向无限滚动 / 流式期间不拽底）
+# 聊天历史渲染与滚动方案（窗口化无限滚动 / 双向自动加载 / 流式不拽底）
 
-> 2026-11-25。前端实现在博客仓库 `htmls/hollow_knight.html`（助手页），这份文档解释
-> 为什么那么改，以及什么时候该升级到虚拟列表。
+> 2026-11-25 初版（分批渲染 + 顶部按钮），当天按用户要求改成**窗口化无限滚动**：
+> 不要按钮、全自动加载、并且滚动时清理远端 DOM。前端实现在博客仓库
+> `htmls/hollow_knight.html`（助手页），本文解释为什么这么改、踩过哪些坑。
 
-## 1. 技术名词（你问的那个）
+## 1. 技术名词
 
-这块需求在业界不是一个词，是四个技术叠起来，各有名字：
+这块需求在业界不是一个词，是几个技术叠起来：
 
 | 需求 | 术语 | 说明 |
 |---|---|---|
-| 打开会话先只显示最近几条，滚到顶部再往前加载 | **反向无限滚动**（reverse infinite scroll / scroll-up pagination） | 普通无限滚动往底部加载新的，这个是往顶部加载旧的 |
-| 顶部那个"触底自动加载"的监测点 | **哨兵 + IntersectionObserver**（sentinel） | 比监听 scroll 事件便宜，不动手算 scrollTop |
-| 插入更早内容时画面别跳 | **滚动锚定**（scroll anchoring；CSS `overflow-anchor`，这里手写） | 插入前记 `scrollHeight`，插入后补差值 |
-| 消息上千条才需要的优化 | **虚拟列表 / 窗口化渲染**（virtual scrolling / windowing，react-window、vue-virtual-scroller） | 只挂载视口附近的 DOM |
+| 滚到边界自动加载、不要按钮 | **无限滚动**（infinite scroll） | 用 scroll 事件判边界，不用哨兵按钮 |
+| 往顶部加载更早的消息 | **反向无限滚动**（reverse infinite scroll） | 普通无限滚动加载更新的，这个加载更早的 |
+| 只保留视口附近 DOM、远端卸载 | **窗口化渲染 / 虚拟列表**（windowing / virtual scrolling） | 卸载后用占位高度撑住滚动条 |
+| 卸载或插入内容时画面别跳 | **滚动锚定**（scroll anchoring；CSS `overflow-anchor`，这里手写） | 记锚点元素位置，改完把 scrollTop 补回去 |
 
-**当前体量不需要虚拟列表**：单会话最多几十轮（线上实测 p90 history 33 条消息），
-分批渲染就够；虚拟列表会把"v-html + marked 渲染好的富文本高度"变成需要动态测量的麻烦事，
-反而引入抖动。触发门槛写在 §5。
-
-"前面的部分压缩展示"我按两种读法各给结论：
-- 读法 A（采用）：更早的消息**先不渲染**，顶部放一个折叠隔条「↑ 更早的 N 条」，滚动到顶自动展开一批。
-- 读法 B（不采用）：每条早期消息压成一行摘要。要做摘要得额外生成（LLM 或截断），
-  和 `receipts` 那套确定性设计冲突，且信息损失不可逆。不做。
+第一版用的是「顶部哨兵按钮 + 分批展开」，用户否掉了：要的是电商那种全自动的手感。
+现在四个都用上了，区别是窗口化是自己手写的、带动态高度测量，没有引第三方库。
 
 ## 2. 现状问题（改之前，`htmls/hollow_knight.html`）
 
-`restoreSession()`（第 513 行起）：
+`restoreSession()`：
 
 ```js
 const msgs = [this.messages[0]];
@@ -46,67 +41,120 @@ this.$nextTick(() => this.scrollBottom());
 3. **流式期间每 token 都拽底**。`updateAssistantMessage()` 结尾无条件 `scrollBottom()`，
    回答正在输出时用户想往上翻前面的内容，会被每个 chunk 拽回底部，翻不动。
 
-第 3 条是这次设计里顺带修的独立 bug，跟历史加载无关，但更烦人。
+第 3 条是顺带修的独立 bug，跟历史加载无关，但更烦人。
 
 ## 3. 方案
 
 ### 3.1 数据与渲染分离
 
-- `allTurns`：`/api/sessions/{id}` 拿到的原始轮次，只存不改。
-- `messages`：只装要渲染的窗口 + 欢迎语。
-- `olderCount`：还有多少轮没渲染（顶部隔条文案用）。
-- 新提问产生的轮次直接 push 进 `messages` 和 `allTurns` 末尾，保持单一源、刷新后顺序不变。
+- `messages`：**全量**消息（欢迎语 + 所有轮次），是渲染和上下文构建的唯一数据源。
+- `chunkStart / chunkEnd`：当前挂载到 DOM 的窗口 `[chunkStart, chunkEnd)`。
+- `visibleMessages`（computed）：`messages.slice(chunkStart, chunkEnd)`，模板只 v-for 这个。
 
-### 3.2 初始窗口
+关键点：**卸载 DOM 不影响发给模型的上下文**。上下文一律从全量 `messages` 构建，
+所以窗口化只解决渲染，不动业务逻辑。第一版把未渲染消息另存在 `olderTurns` 里、
+拼历史时还要单独拼进去——窗口化之后这份重复数据就没必要了。
 
-`VISIBLE_TURNS = 6`（12 条消息）。恢复时只渲染最后 6 轮，其余进 `olderTurns` 待加载。
-首屏 DOM 稳定在 ~14 条消息，与历史长度无关。
-
-### 3.3 顶部哨兵 + 反向无限滚动
-
-```html
-<div class="older-sentinel" ref="olderSentinel">
-  <button v-if="olderCount > 0" class="older-btn" @click="loadOlder" :disabled="loadingOlder">
-    {{ loadingOlder ? '正在加载…' : '↑ 更早的消息（' + olderCount + ' 轮）' }}
-  </button>
-  <span v-else-if="turnsTotal > VISIBLE_TURNS" class="older-done">已经到最早的对话了</span>
-</div>
-```
+### 3.2 初始窗口与常量
 
 ```js
-const io = new IntersectionObserver(entries => {
-    if (entries[0].isIntersecting) this.loadOlder();
-}, { root: this.$refs.msgBox, rootMargin: '160px 0px 0px 0px' });
+const WIN_MSG  = 12;   // 首屏渲染条数（6 轮）
+const STEP_MSG = 12;   // 每次自动加载 / 卸载的条数
+const MAX_WIN  = 36;   // 窗口上限，超出后卸载离视口远的一端
+const EDGE_PX  = 240;  // 距渲染区边界多远触发加载
+const GAP_PX   = 14;   // 与 CSS .chat-messages 的 gap 一致
+const EST_H    = 110;  // 未测量条目的估算高度（只用于占位）
 ```
 
-- `rootMargin` 向上预取 160px，滚到离顶还有一小段就开始加载，手感上不会"卡一下"。
-- 按钮同时保留：IO 在某些 WebView 里不可靠，点击是兜底路径。
-- `PAGE_TURNS = 6`，每次展开 6 轮。
-- 加载完成、`olderCount` 归零后显示「已经到最早的对话了」，并 `io.disconnect()`。
+恢复会话时 `chunkEnd = messages.length`、`chunkStart = max(0, length - WIN_MSG)`，
+DOM 稳定在 12 条，与历史长度无关。
 
-### 3.4 滚动锚定（关键，不做就是"跳一下"）
+### 3.3 双向自动加载（不用哨兵）
+
+哨兵 + IntersectionObserver 那套有个问题：卸载/插入是同一批 DOM 操作，
+IO 的回调时机和窗口改动互相打架。直接判 scroll 边界更可控：
 
 ```js
-loadOlder() {
-    if (this.loadingOlder || !this.olderCount) return;
-    this.loadingOlder = true;
+onScroll() {
     const box = this.$refs.msgBox;
-    const prevHeight = box.scrollHeight;
-    const prevTop = box.scrollTop;
-    const batch = this.olderTurns.splice(-PAGE_TURNS);     // 从最近的一批往回取
-    this.messages.splice(1, 0, ...batch);                  // 插在欢迎语之后
-    this.olderCount = this.olderTurns.length;
+    if (this.chunkStart > 0 && box.scrollTop < this.padTop + EDGE_PX) return this.loadEarlier();
+    const bottomEdge = box.scrollHeight - this.padBottom - EDGE_PX;
+    if (this.chunkEnd < this.messages.length && box.scrollTop + box.clientHeight > bottomEdge) {
+        return this.loadLater();
+    }
+    if (this.chunkEnd - this.chunkStart > MAX_WIN) this.trimWindow();
+}
+```
+
+**必须带上 `padTop` / `padBottom`**（坑 1）。卸载掉的内容是靠容器 padding 撑高度的，
+`scrollTop = 0` 落在空白里，真正的内容从 `padTop` 处才开始。第一版忘了加这个偏移，
+用户得先滚过一整屏空白才触发加载，手感直接废掉。
+
+### 3.4 远端卸载与占位
+
+```js
+padTop() {    // computed
+    let h = 0;
+    for (let i = 0; i < this.chunkStart; i++) h += this.hCache[this.messages[i].id] || EST_H;
+    return Math.round(h);
+}
+```
+
+- `hCache`：`msg.id -> 实测高度 + GAP_PX`，由 `measure()` 在窗口变动前后写入。
+- 占位不用 spacer div 而用容器 `padding-top / padding-bottom`：`.chat-messages` 是
+  flex column + `gap`，插一个 spacer div 会多吃一个 gap，高度算不准；padding 不受 gap 影响。
+- 窗口上限 `MAX_WIN`：`loadEarlier` 时同帧把尾部卸一段（`chunkEnd -= STEP_MSG`），
+  `loadLater` 时卸头部。**流式回答期间不卸尾部**——正在生成的那条就在尾部。
+
+### 3.5 滚动锚定：一次修正不够（坑 2，实测偏 290px）
+
+锚定逻辑是「记下视口顶部那条消息的位置，改完窗口再把它挪回原位」。
+第一版只做了一次补偿，用 `padTop` 差值算：
+
+```js
+box.scrollTop = prevTop + (this.padTop - prevPad);   // 不够
+```
+
+偏 290px。原因：`padTop` 里那些**从未渲染过**的条目只有估算高度（`EST_H`），
+而新接进窗口的条目是实测高度，两者不相等，差值就留在画面上了。
+
+正确做法是**按实测坐标补偿，并且分两步**：
+
+```js
+applyWindow(mutate) {
+    const box = this.$refs.msgBox;
+    this.measure();                       // ① 旧窗口实测
+    const a = this.anchorBefore();        // ② 记锚点（getBoundingClientRect，不依赖估算）
+    mutate();                             // ③ 改 chunkStart/chunkEnd
     this.$nextTick(() => {
-        box.scrollTop = prevTop + (box.scrollHeight - prevHeight);
-        this.loadingOlder = false;
-        if (!this.olderCount) this.io && this.io.disconnect();
+        this.restoreAnchor(a);            // ④ 先钉一次（此时占位还是估算值）
+        this.measure();                   // ⑤ 新条目写进缓存 → 占位高度变化
+        this.$nextTick(() => {
+            this.restoreAnchor(a);        // ⑥ 再钉一次，估算误差被抹掉
+            this._inWinOp = false;
+        });
     });
 }
 ```
 
-插入前后补 `scrollHeight` 差值，视觉上停在原来那句话上，不会跳到新内容的开头。
+`loadEarlier / loadLater / trimWindow` 全部走这一个入口，窗口改动只有一处实现。
 
-### 3.5 流式期间不拽底
+### 3.6 节流只能用「进行中」标志，不能用时间（坑 3）
+
+第一版是 120ms 时间节流。用户一把甩到顶时 scroll 事件很密，被丢掉的事件**不会重来**——
+停在顶部不动就再也加载不了，只能反复甩。改成状态锁：
+
+```js
+winGuard() {
+    if (this._inWinOp) return false;
+    this._inWinOp = true;
+    return true;
+}
+```
+
+在 `applyWindow` 的第二次 `nextTick` 里解锁，即"上一次窗口改动落地后才允许下一次"。
+
+### 3.7 流式期间不拽底
 
 ```js
 isNearBottom() {
@@ -120,14 +168,14 @@ scrollBottom(force = false) {
 }
 ```
 
-- 发送新问题时 `scrollBottom(true)` 强制到底。
-- 流式 token 到达时用非强制版本：用户已经上翻就闭嘴，右下角显示一个「↓ 回到底部」小按钮。
-- `onScroll` 里更新 `autoStick`，回到贴底状态后隐藏按钮。
+- 发送新问题时 `scrollBottom(true)` 强制到底，并把窗口拉回末尾
+  （用户上翻过时也要能看到自己刚发的问题）。
+- 流式 token 到达时用非强制版本：用户已经上翻就闭嘴，右下角显示「↓ 回到底部」。
 
-### 3.6 不要假进度
+### 3.8 不要假进度
 
 前端**不**做"等 N 秒换个文案"的假计时器（用户明确否掉：假进度比没进度更伤信任）。
-等待文案只由后端 `progress` 事件驱动（见 `STREAM_UX_PLAN.md` L2）：
+等待文案只由后端 `progress` 事件驱动（`STREAM_UX_PLAN.md` L2）：
 
 | 事件 | 文案 |
 |---|---|
@@ -138,45 +186,55 @@ scrollBottom(force = false) {
 | `tool_done` 且 round ≥ 2 | `已查 {round} 次，还在整理…` |
 | 第一个 `token` | 切正文流式 |
 
-后端 `progress` 还没上线之前，这段代码保持「思考中…」，不会退化成假文案。
+事件没到就保持「思考中…」，不退化。
 
 ## 4. 改动清单（`htmls/hollow_knight.html`）
 
-1. data 增：`allTurns / olderTurns / olderCount / turnsTotal / loadingOlder / hasNewBelow / progressText`。
-2. `restoreSession()`：构建全量后切成「欢迎语 + 最近 6 轮」，其余进 `olderTurns`；`scrollBottom(true)`。
-3. 模板：`chat-messages` 顶部加哨兵；`@scroll="onScroll"`；loading 占位改为 `msg.placeholder`
-   渲染 `{{ progressText }}`；右下角加「↓ 回到底部」。
-4. `mounted`：建 `IntersectionObserver`（`$nextTick` 后建，`beforeUnmount` 断开）。
-5. `loadOlder()` 带滚动锚定补偿。
-6. `scrollBottom(force)` 改条件版；`updateAssistantMessage` 改调非强制版。
-7. `switch (data.type)` 加 `progress` 分支，收到第一个 `token` 时把 `placeholder` 置 false。
-8. CSS：`.older-sentinel / .older-btn / .older-done / .placeholder .dots / .to-bottom`，
-   移动端断点里 `older-btn` 字号缩小。
+1. 常量：`WIN_MSG / STEP_MSG / MAX_WIN / EDGE_PX / GAP_PX / EST_H`。
+2. data：`chunkStart / chunkEnd / hCache / _inWinOp / hasNewBelow / progressText`；
+   删掉 `olderTurns / olderCount / everHadOlder / loadingOlder / io`。
+3. computed：`visibleMessages / padTop / padBottom`。
+4. 模板：`chat-messages` 绑定 `paddingTop / paddingBottom`，v-for `visibleMessages`，
+   每条加 `:data-mid="msg.id"`（测量和锚定都靠它定位）；顶部提示从按钮改成一行灰字。
+5. 方法：`measure / anchorBefore / restoreAnchor / applyWindow / loadEarlier / loadLater /
+   trimWindow / winGuard`；`resetWindow` 取代 `resetOlder`。
+6. `restoreSession()`：全量进 `messages`，窗口取末尾 12 条，`scrollBottom(true)` 后 `measure()`。
+7. `sendQuestion()`：窗口拉回末尾（`chunkEnd = messages.length`）。
+8. `onScroll`：边界判断带 `padTop / padBottom`。
+9. CSS：删 `.older-sentinel / .older-btn / .older-done`，加 `.top-note`。
 
-## 5. 什么时候该升级到虚拟列表
+## 5. 已知边界
 
-满足任意两条再考虑：
-- 单会话 `turns` > 120 轮（DOM 节点 > 300）；
-- iOS Safari 首屏（已分批到 6 轮）仍然卡；
-- 需要在一个会话里放图片/表格这类重型富文本。
-
-升级方式：`vue-virtual-scroller` 或自写 windowing，配 `dynamic size` 模式按渲染后高度测量。
-在此之前分批 + 补偿滚动是成本最低且不抖的方案。
+- **估算高度误差**：从未渲染过的条目只能用 `EST_H`，用户滚一遍之后全部转成实测值、
+  误差收敛到 0。在此之前滚动条长度会有小幅波动（实测多轮移动后总高度差 ≤ 3 条）。
+  单条消息高度差异大（短问题 + 长回答），想彻底消除只能预渲染测量，代价比收益大。
+- **窗口上限会卸掉远端**：滚到最早时尾部已经被卸载，「已经到最早的对话了」上面
+  看不到最新的几条——往上滚回来自动接回。
+- **降级**：`measure()` 依赖 `offsetHeight`，某些隐藏状态（`display:none`）测出来是 0，
+  代码里 `if (h > 0)` 挡掉了，不会把占位写成 0。
+- **体量**：单会话上限 50 轮（服务端 `session_turns` 限制），窗口化后 DOM 恒定 ≤ 36 条，
+  不需要再上虚拟列表库。
 
 ## 6. 验收
 
+离线逻辑测试：`tests/test_chat_window.js`（从页面里抽出真实的 methods / computed，
+配假布局模型跑窗口移动，覆盖初始窗口、滚到最早、窗口上限、锚定不跳、
+尾部接回、高度守恒、短会话、流式期间不卸尾 8 组共 17 条断言）。
+
 | 项 | 判定 |
 |---|---|
-| 30 轮会话打开 | 首屏只渲染 6 轮 + 顶部隔条「↑ 更早的 24 轮」，位置在底部 |
-| 上滚到顶 | 自动再加载 6 轮，视口停在同一句话（不跳） |
-| 加载到最后一批 | 显示「已经到最早的对话了」，不再触发 |
+| 30 轮会话打开 | 首屏 DOM 只挂 12 条，位置在底部，顶部一行灰字 |
+| 上滚到顶 | 自动接进更早 12 条，视口停在同一句话（±2px），无按钮 |
+| 继续上滚 | 一直加载到最早一条，窗口始终 ≤ 36 条 |
+| 再滚回底部 | 尾部自动接回，能看到最新回答 |
 | 流式输出时上翻 | 不被拽回底部，出现「↓ 回到底部」，点一下才回 |
-| 新提问 → 刷新 | 顺序、条数不变（`allTurns` 同步） |
-| 移动端 | 30 轮首屏无肉眼可见卡顿；隔条按钮可点 |
+| 流式中上滚 | 尾部不卸载（正在生成的那条不会被卸掉） |
+| 新提问 → 刷新 | 顺序、条数不变 |
+| 移动端 | 30 轮首屏无肉眼可见卡顿 |
 
 ## 7. 分工
 
-- 前端这项（本文 §4）：**服务器侧直接改**（用户 2026-11-25 授权），改完推送博客仓库，
-  用户手机上看效果。
-- `progress` 事件（§3.6 依赖）：Mac 侧 `src/rag_agent/multi_agent.py`，见 `MAC_SIDE_TASKS.md` P3-2。
-- 前端在事件没来之前不显示假进度，所以两边可以分开上线，不会互相卡。
+- 前端这项：**服务器侧直接改**（用户 2026-11-25 授权），改完推博客仓库，用户手机上看效果。
+- `progress` 事件：Mac 侧 `multi_agent.ask_stream` 已实现（f2fb79f），
+  服务器侧 `api_server.handle_ask_stream` 的转发分支已补（2026-11-25），
+  补完必须重启 API 才生效——`src/` 改动不会热加载。

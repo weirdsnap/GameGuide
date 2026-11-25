@@ -812,6 +812,11 @@ async def handle_ask_stream(request):
                 elif event_type == "meta":
                     payload = json.dumps({"type": "meta", **data}, ensure_ascii=False)
                     await resp.write(f"data: {payload}\n\n".encode("utf-8"))
+                elif event_type == "progress":
+                    # 工具阶段的心跳（I-25 L2）：只转播给前端做等待文案，
+                    # 不进答案、不计 stream_chunks、不影响 quota。
+                    payload = json.dumps({"type": "progress", **data}, ensure_ascii=False)
+                    await resp.write(f"data: {payload}\n\n".encode("utf-8"))
                 elif event_type == "error":
                     payload = json.dumps({"type": "error", "content": data}, ensure_ascii=False)
                     await resp.write(f"data: {payload}\n\n".encode("utf-8"))

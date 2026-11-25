@@ -182,13 +182,32 @@ elif event_type == "progress":
 顺带结论：**L2 的"实现完成"和"用户能看到"之间隔着一次 api_server 改动**，
 跨端协议改动必须两头都算完再报完成。
 
+### 10.1 已接线（2026-11-25 当天补完）
+
+服务器侧已加 `progress` 分支（`api_server.handle_ask_stream`），事件按
+`{"type": "progress", **data}` 原样转发；不计 `stream_chunks`、不进答案、不动 quota。
+配套测试 `test_ask_stream_progress_事件透传给前端`（tests/test_api_handlers.py）：
+假生成器产出 tool_start / tool_done，断言 SSE 事件序列为
+`meta, progress, progress, token, done` 且 `stream_chunks == 1`。
+
+线上验证（重启 API 后，在本机终端跑）：
+
+```bash
+curl -N -s -X POST "$API/api/ask/stream" \
+  -H 'Content-Type: application/json' \
+  -d '{"question":"博德之门3 明斯克在哪"}' | head -20
+```
+
+应能看到 `"type": "progress"` 行出现在 token 之前；前端等待文案会从「思考中…」
+变成「正在检索攻略库…」。
+
 ## 9. 优先级
 
 | # | 事项 | 归属 | 依据 |
 |---|---|---|---|
 | 1 | L0 SSE 心跳 + 断流记账 + `first_token_ms` | 服务器侧 | §1 §2 |
 | 2 | `progress` 事件（工具 id + round） | Mac 侧 **已完成 f2fb79f** | §2 |
-| 2b | api_server 转发 `progress`（否则事件到不了前端） | 服务器侧 | §10 |
+| 2b | api_server 转发 `progress`（否则事件到不了前端） | **已完成** 2026-11-25 | §10.1 |
 | 3 | AgentState 补 4 个字段 + 回归测试 | Mac 侧 + 服务器侧测试 | §3 |
 | 4 | 开 `SERVER_HISTORY=1` 观察 2 天 | 服务器侧 | §4 |
 | 5 | 前端 token 渲染节流（rAF/60ms） | 前端 | §6 |
