@@ -109,3 +109,45 @@ python3 scripts/fetch/refetch_wiki.py --game terraria --lang zh \
 
 正式文件只在 `--replace` 时被覆盖，且自动生成 `*.bak-refetch`。
 向量库回滚用上一版 `games/<game>/vectorstore/`（Mac 保留），重传后重启即可。
+
+## 七、执行复盘（2026-11-23 ~ 11-25，已收官）
+
+两个库都按本计划抓完并替换，但过程比计划曲折，记录如下。
+
+**实际源选择**
+
+- 丝之歌：没用 silksong.wiki.gg，用 **hollowknight.fandom.com 分类直采**（靠分类过滤
+  而不是 `--suffix`）。结果 79/81 页、99KB 干净正文（旧文件 29MB，b7cde90），
+  六项质检全绿，抽样 8 页人眼比对对题、无 HK 污染。
+- 泰拉瑞亚中文：**terraria.wiki.gg/zh 整站重抓成功**（灰机 huijiwiki 没用上）。
+  3,031 页（0395909）。八项质检七项原生通过；`nav_pollution_median=13` 超阈值
+  是**结构性误报**——列表页枚举全条目 + 正文密集互链是泰拉瑞亚中文站的自然形态
+  （旁证 shared_para_rate=0、导航表清理 0 处），用 `--nav-threshold 20` 显式放宽。
+
+**抓的过程中踩的坑（都已修为脚本能力）**
+
+1. **Cloudflare 滴漏陷阱**：fandom 长连接会降速到滴漏但不报错，脚本假死。
+   修：每 200 页强制换连接 + SIGALRM 单页 90s 硬超时，超时抛 `PageStallError`
+   穿透 urllib3（f0796a6、c69da64）。
+2. **macOS mDNS 解析挂死**：加看门狗线程兜底（a664173）。
+   ⚠️ 这台 Mac 电池供电 1 分钟自动休眠也会冻住抓取——长任务必须 `caffeinate -i` 包裹。
+3. **断点太稀**：改每 100 页落盘（a8e77f5），中断重跑同一条命令即可续。
+4. **真 stub 页误杀**：剥离 infobox 后不足 80 字的页面被丢，阈值降到 30 字补抓
+   （81941ce）；剩 2 个纯 infobox 空页（Claw Mirror / Smelt Shoveler）放弃。
+5. **解析器盲区**：`dialogue-*` 组件、`portable-infobox`、跨页共享模板会漏剥
+   （7ed127b、2f2b751）。
+
+**抓完之后又暴露的下游坑（最重要的一条教训）**
+
+- **分页器丢页边界（P0-4）**：`refetch_wiki.py` 用 `---` 分隔页面，页内小节也用 `##`，
+  而 `mac_build.py` / `ingest_game.py` 只按 `## ` 切——terraria 31,248 块里 48.1% 的
+  title 是「制作/历史/花絮」这类小节名，mhw 整库塌成一页。修复：先按 `^---$` 切页、
+  小节继承页面 title（e19b994，契约测试 `tests/test_wiki_page_split.py`）。
+- **教训**：抓完数据质检全绿 ≠ 检索可用。文件级闸门（本计划第四节）管不到建库分页。
+  以后链路验收必须以 `scripts/eval/retrieval_smoke.py` 的真实 top-k 命中为准。
+
+**网络结论（定稿）**
+
+- Mac 挂代理（`https_proxy=http://192.168.5.1:7890`）可抓 fandom；
+  **wiki.gg/zh 必须直连**（走代理 403），用 `no_proxy='*'` 覆盖。
+- 服务器侧 fandom 000 / wiki.gg 403 / huijiwiki 403，采集固定归 Mac，不再尝试服务器采集。

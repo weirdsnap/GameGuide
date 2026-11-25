@@ -76,7 +76,8 @@ games/<game>/            # 每游戏数据目录：
   ├── <game>_data.db         # SQLite 结构化库（空洞骑士是 hk_data.db，例外）
   └── vectorstore/           # FAISS 索引（index.faiss，被 .gitignore 忽略，服务器上需部署）
 scripts/
-  ├── fetch/    # Wiki 采集（wiki.py 通用、silksong.py、bg3_wiki.py）
+  ├── fetch/    # Wiki 采集（wiki.py 通用、refetch_wiki.py 重抓专用（质量闸门+断点）、
+  │             # silksong.py / bg3_wiki.py 历史脚本）
   ├── build/    # SQLite 构建（build_game_db.py 通用 + 各游戏专用脚本）
   ├── enrich/   # 数据补全（mhw.py、oni.py、terraria.py）；build_glossary.py 术语表
   ├── tool/     # ingest_game.py（中英 wiki 向量库）、mac_build.py（额外并入结构化 DB）、
@@ -289,15 +290,12 @@ python scripts/eval/ragas_eval.py --game all --limit 5   # 报告输出到 evalu
   路径全部命中，`language` 齐；唯独 BG3 原库（10-41 构建）缺标签，已就地补 `language=en`
   （66698 条，未重算向量，备份 `index.pkl.bak-20261112`），重启后严格路径正常。
   Mac 侧重建上传后覆盖这份补丁产物，并删掉 `.bak`。
-- **silksong wiki 重采集（2026-11-22 更新口径）**：旧待办（让服务器跑
-  `scripts/fetch/silksong.py`）已作废——网络结论反转，Mac 侧挂代理可直连 fandom，
-  服务器反而多源不可达。当前方案：统一用 `scripts/fetch/refetch_wiki.py` 重抓，
-  解析器有两个盲区（`portable-infobox` 未剥、共享模板幽灵文本），**实现归 Mac 侧**
-  （服务器侧只出问题与用例，2026-11-22 曾越界直接改实现 7ed127b，已澄清、Mac 可覆盖）。
-  详见 `docs/SERVER_SIDE_TASKS.md` P0-2。
-  背景：现有 silksong 向量库是坏的（47155 块/196 标题，混有 Grimm/Radiance 等
-  空洞骑士条目，服务器实测），且 `wiki_data.md` 源文件本身即垃圾（平均 150KB/页），
-  必须重抓而非过滤。
+- **silksong wiki 重采集（2026-11-25 已收官）**：已用 `scripts/fetch/refetch_wiki.py`
+  重抓替换（fandom 分类直采，29MB 垃圾 → 99KB 干净正文 79/81 页，b7cde90），
+  向量库已按修复后的分页器重建（304 向量），**待传服务器**。
+  泰拉瑞亚中文库同批完成（wiki.gg/zh 直连重抓 3,031 页，0395909）。
+  过程踩坑（Cloudflare 滴漏、mDNS 挂死、分页器丢页边界 P0-4）与网络结论
+  见 `docs/REFETCH_PLAN.md` 末节复盘。
 - **术语表已接入检索（2026-11-12）**：`tools.search_knowledge_base` 内部调用
   `glossary.expand_query()`，命中中文专名时自动追加英文原名（A/B 证据：
   影心 top-8 不中 → 扩展后 rank 1）。术语表异常时静默回退原 query。

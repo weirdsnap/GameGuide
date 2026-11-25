@@ -11,7 +11,8 @@
 > **2026-11-16 状态快照**：未解决问题已统一记录到
 > [`docs/CURRENT_ISSUES_2026-11-16.md`](CURRENT_ISSUES_2026-11-16.md)。
 > 本文件的完成状态：P0-1 剧透提示词 ✅、P1-1 信号词 ✅、P1-2 内存上限 ✅（maxsize=3）、
-> P2-1 术语表接线 ✅；P0-2 BG3 v3 本地已建、待服务器部署；P0-3 silksong 仍阻塞（网络）。
+> P2-1 术语表接线 ✅；P0-2 BG3 v3 ✅ 已部署；P0-3 silksong 重抓重建 ✅、
+> P0-4 分页器 ✅ 已修复已重建（terraria/silksong/mhw，待传服务器）。
 > 分工依据 AGENTS.md：`src/rag_agent/`、`tests/`、`scripts/tool|build|fetch|enrich|eval` 以 Mac 侧为主。
 > 服务器侧当天已做的不要重做，见文末「服务器侧已完成」。
 
@@ -61,7 +62,7 @@
 - 验收：Act 2 进度下检索不返回 `act=3` 的 quest/location 文档；
   `tests/test_mac_build_contract.py` + `mac_prepare_build.sh` 第 5 步通过。
 
-## P0-3 silksong 向量库重建（现有库是坏的）
+## P0-3 silksong 向量库重建（现有库是坏的）—— ✅ 已完成（重抓 + 重建）
 
 - 证据（服务器实测）：196 个不同 `title`，却有 **47,155** 个块（平均 240 块/条目，切分异常）；
   内容混着空洞骑士的 Boss（Grimm、Radiance、Mantis Lords、Hornet、Lost Kin、
@@ -73,10 +74,12 @@
   空洞骑士 beta 版的发售信息。说明旧版采集抓到的不是页面正文，而是整站导航/
   搜索片段拼成的文本块——这种产物无论怎么过滤分类都救不回来，必须重抓。
   所以重抓后**不能只看页数**，要抽 20 页比对「标题 vs 正文是否对题」。
-- 采集网络：Mac 与服务器**都**直连 fandom.com 超时。服务器实测：DNS 只返回 AAAA
-  （`2a03:2880:...`），无 IPv6 路由；`fandom.com`、`r.jina.ai`、`zh.wikipedia.org`
-  全部不可达，本地无代理端口。只能靠出墙（Mac 挂机场代理跑脚本，或给服务器配一个
-  代理节点仅供采集用）。这一步卡在网络上，等用户决定。
+- 采集网络：~~Mac 与服务器**都**直连 fandom.com 超时~~ **已解决（2026-11-22）**：
+  Mac 挂代理（`https_proxy=http://192.168.5.1:7890`）可直连 fandom / wiki.gg；
+  wiki.gg/zh 源必须**直连**（走代理反而 403），用 `no_proxy='*'` 覆盖。
+  服务器侧仍然多源不可达，采集固定归 Mac。
+- **完成记录**：`refetch_wiki.py` 重抓，29MB 垃圾 → 99KB 干净正文（79/81 页，b7cde90）；
+  重建后 304 向量。过程踩坑与复盘见 `docs/REFETCH_PLAN.md` 末节。
 
 ## P0-4 分页器把页内小节当成了独立页面（terraria / silksong / mhw 三个库）—— ✅ 已修复并已重建
 
