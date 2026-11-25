@@ -236,6 +236,15 @@ bg3-to-oni-switch）全绿，证明修的是评测器而不是把问题掩下去
 
 ## TODO（跳端待办）
 
+### 2026-11-25 新增（来源：docs/ISSUES_2026-11-25.md I-25）
+
+14. **[未做，P1] I-25 流式等待期全程静默**：工具循环阶段零事件，移动网络下断连，前端报「网络错误」。
+    方案全文 `docs/STREAM_UX_PLAN.md`。验收落在 L0：
+    `test_ask_stream_keepalive`（`: connected` + 10s 内必有 `: keepalive`、不计 token）、
+    `test_ask_stream_client_abort`（`route=client_abort`、无产出时退额度）、
+    `test_first_token_ms`。归属：L0 心跳 + 断流记账 + `first_token_ms` 服务器侧；
+    L1 计时文案、L2 `progress` 事件、L3 断流重试 Mac 侧（L2 需 L0 先合入）。
+
 ### 2026-11-23 新增（来源：docs/ISSUES_2026-11-23.md I-24）
 
 13. **[未做，P1] I-24 路线类回答走不起来**：BG3 `locations.connected_locations` 73 条
