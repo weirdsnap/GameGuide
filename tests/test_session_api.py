@@ -194,14 +194,14 @@ def test_session_detail_and_404(monkeypatch, tmp_path):
 def test_session_reset_and_delete(monkeypatch, tmp_path):
     factory, _ = _fresh(monkeypatch, tmp_path)
     _, body = _call(factory, "POST", "/api/ask", {"question": "第三章"})
-    sid = body["session_id"]
+    sid, cid = body["session_id"], body["client_id"]
     assert store.get_session(sid, db_path=api_server.SESSION_DB)["progress"] == 2
 
     status, _ = _call(factory, "POST", f"/api/sessions/{sid}/reset")
     assert status == 200
     assert store.get_session(sid, db_path=api_server.SESSION_DB)["progress"] is None
 
-    status, res = _call(factory, "DELETE", f"/api/sessions/{sid}")
+    status, res = _call(factory, "DELETE", f"/api/sessions/{sid}?client_id={cid}")
     assert status == 200 and res["deleted"] is True
     assert store.get_session(sid, db_path=api_server.SESSION_DB) is None
 
@@ -248,13 +248,14 @@ def test_session_routes_report_503_when_store_down(monkeypatch, tmp_path):
     assert _call(factory, "GET", f"/api/sessions/{sid}")[0] == 503
     assert _call(factory, "POST", f"/api/sessions/{sid}/reset")[0] == 503
     monkeypatch.setattr(api_server.store, "delete_session", boom)
-    assert _call(factory, "DELETE", f"/api/sessions/{sid}")[0] == 503
+    assert _call(factory, "DELETE", f"/api/sessions/{sid}?client_id={'c'*32}")[0] == 503
 
 
 def test_reset_missing_session_is_404(monkeypatch, tmp_path):
     factory, _ = _fresh(monkeypatch, tmp_path)
     assert _call(factory, "POST", "/api/sessions/" + "9" * 32 + "/reset")[0] == 404
-    assert _call(factory, "DELETE", "/api/sessions/" + "9" * 32)[0] == 200
+    status, body = _call(factory, "DELETE", "/api/sessions/" + "9" * 32 + "?client_id=" + "c" * 32)
+    assert status == 200 and body["deleted"] is False
 
 
 # ====== 进度与观测接线（不跑图，直接喂 state）======
@@ -314,3 +315,38 @@ def test_stream_writes_first_byte_and_keepalive(monkeypatch, tmp_path):
     assert ": keepalive" in text              # 静默期有心跳
     tokens = [e for e in api_helpers.sse_events(text) if e["type"] == "token"]
     assert tokens and tokens[0]["content"] == "慢答案"
+
+
+# ====== 历史会话删除（前端「历史」浮层）======
+
+def test_delete_session_requires_client_id(monkeypatch, tmp_path):
+    """不带 client_id 一律 400：没这个参数就没人能证明会话归属。"""
+    factory, _ = _fresh(monkeypatch, tmp_path)
+    _, body = _call(factory, "POST", "/api/ask", {"question": "要删的"})
+    sid = body["session_id"]
+    assert _call(factory, "DELETE", f"/api/sessions/{sid}")[0] == 400
+    assert store.get_session(sid, db_path=api_server.SESSION_DB) is not None
+
+
+def test_delete_session_by_owner_removes_rows(monkeypatch, tmp_path):
+    factory, _ = _fresh(monkeypatch, tmp_path)
+    _, body = _call(factory, "POST", "/api/ask", {"question": "要删的"})
+    sid, cid = body["session_id"], body["client_id"]
+
+    status, data = _call(factory, "DELETE", f"/api/sessions/{sid}?client_id={cid}")
+    assert status == 200 and data["deleted"] is True
+    assert store.get_session(sid, db_path=api_server.SESSION_DB) is None
+    assert store.session_rows(sid, db_path=api_server.SESSION_DB) == []
+    # 列表里也不再出现
+    assert all(x["session_id"] != sid
+               for x in store.list_sessions(cid, db_path=api_server.SESSION_DB))
+
+
+def test_delete_session_of_other_client_is_noop(monkeypatch, tmp_path):
+    factory, _ = _fresh(monkeypatch, tmp_path)
+    _, body = _call(factory, "POST", "/api/ask", {"question": "别人的"})
+    sid = body["session_id"]
+
+    status, data = _call(factory, "DELETE", f"/api/sessions/{sid}?client_id={'d' * 32}")
+    assert status == 200 and data["deleted"] is False
+    assert store.get_session(sid, db_path=api_server.SESSION_DB) is not None

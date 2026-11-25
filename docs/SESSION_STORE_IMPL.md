@@ -252,7 +252,17 @@ DELETE FROM sessions WHERE last_active < :session_cutoff;   -- 级联删 turns/r
 
 ### 4.4 `POST /api/sessions/{session_id}/reset` → 进度归零（`progress=NULL`）。
 
-### 4.5 `DELETE /api/sessions/{session_id}` → 删整段（用户主动清），返回 `{"deleted": true}`。
+### 4.5 `DELETE /api/sessions/{session_id}?client_id=xxx` → 删整段（用户主动清）
+
+- `client_id` **必填**：会话按浏览器 `client_id` 分组，不带就没人能证明归属，直接 400。
+- 带上了但会话不存在 / 不属于该 client → `200 {"deleted": false}`，**不区分原因**
+  （否则可以拿 session_id 探测别人的会话在不在）。
+- 删除命中 → `200 {"deleted": true}`，`turns` 与 `receipts` 由外键 `ON DELETE CASCADE`
+  一并清掉；已消耗的额度不退。
+- 幂等：重复删同一条返回 `deleted: false`，不报错。
+
+前端「历史」浮层每条右侧有删除按钮（`×`），点之前 `confirm` 一次；删掉的是当前
+正在看的会话时，直接退回「新对话」状态，避免下一问写回已删的 session。
 
 不做 `GET /api/clients`、不做跨 client 查询；`client_id` 就是唯一凭证（32 hex 随机，
 不可枚举），这等价于「无需登录的私密链接」。

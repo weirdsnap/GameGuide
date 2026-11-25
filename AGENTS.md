@@ -330,6 +330,11 @@ python scripts/eval/ragas_eval.py --game all --limit 5   # 报告输出到 evalu
 
 ## 变更记录
 
+- **2026-11-25 历史会话删除**：`DELETE /api/sessions/{id}` 以前不校验 `client_id`
+  （知道 session_id 就能删别人的），现在必填、不匹配一律 `deleted:false`；`turns`/`receipts`
+  靠外键级联清掉。前端「历史」浮层每条加了 `×`，删当前会话会退回新对话状态。
+  测试：store 层归属校验 1 例、API 层三例（缺 client_id 400 / 本人删掉 / 他人 no-op）。
+
 - **2026-11-25 流式心跳（I-25 复现后修复）**：iPhone Safari 上 22.5s 首字节没到就断连，
   前端显示「网络错误」。`api_server.handle_ask_stream` 现在：prepare 后立刻写 `: open`；
   `ask_stream` 产出经队列 + `asyncio.wait_for(keepalive_s=8)` 轮询，静默期写 `: keepalive`；

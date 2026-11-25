@@ -640,10 +640,18 @@ async def handle_session_reset(request):
 
 
 async def handle_session_delete(request):
-    """DELETE /api/sessions/{session_id} — 用户主动删掉一段对话（幂等）"""
+    """DELETE /api/sessions/{session_id}?client_id=... — 用户主动删掉一段对话（幂等）
+
+    client_id 必须带：会话是按浏览器 localStorage 里那个 id 分组的，不带就没人能
+    证明这段对话是他的。删不掉（不存在 / 不是他的）统一返回 deleted=false，
+    不区分原因，免得 endpoint 被拿来探测 session_id。
+    """
     sid = request.match_info["session_id"]
+    client_id = (request.query.get("client_id") or "").strip()
+    if not client_id:
+        return web.json_response({"error": "缺少 client_id"}, status=400)
     try:
-        deleted = store.delete_session(sid)
+        deleted = store.delete_session(sid, client_id=client_id)
     except store.StoreError:
         return _store_unavailable()
     return web.json_response({"deleted": deleted})

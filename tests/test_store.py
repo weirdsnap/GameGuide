@@ -190,6 +190,20 @@ def test_delete_session_cascades(db):
     assert store.session_rows(sid, db_path=db) == []
 
 
+def test_delete_session_requires_matching_client(db):
+    """别人的会话删不掉，而且返回值和「不存在」一模一样（不能拿来探测）。"""
+    _mk_session(db, sid="mine", cid="c1")
+    _add(db, "mine", q="q", a="a")
+    _mk_session(db, sid="other", cid="c2")
+
+    assert store.delete_session("mine", client_id="c2", db_path=db) is False
+    assert store.delete_session("nope", client_id="c1", db_path=db) is False
+    assert store.get_session("mine", db_path=db) is not None      # 还在
+
+    assert store.delete_session("mine", client_id="c1", db_path=db) is True
+    assert store.get_session("other", db_path=db) is not None     # 别误删
+
+
 def test_session_rows_marks_expired_answer(db):
     sid = _mk_session(db)
     _add(db, sid, q="问", a="答", now=1001)

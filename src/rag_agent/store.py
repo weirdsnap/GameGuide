@@ -213,7 +213,19 @@ def list_sessions(client_id: str, *, limit: int = 10, db_path=None) -> List[Dict
     )
 
 
-def delete_session(session_id: str, *, db_path=None) -> bool:
+def delete_session(session_id: str, *, client_id: Optional[str] = None,
+                   db_path=None) -> bool:
+    """删掉一段对话。turns / receipts 由外键 ON DELETE CASCADE 一并清掉。
+
+    给了 client_id 就只允许归属者删：别人的会话一律返回 False，而且不区分
+    「不存在」和「不是你的」（否则可以拿 session_id 探测别人的会话有没有）。
+    幂等：删不存在的会话返回 False，不抛异常。
+    """
+    if client_id is not None:
+        row = _read_one("SELECT client_id FROM sessions WHERE session_id=?",
+                        (session_id,), db_path=db_path)
+        if not row or row["client_id"] != client_id:
+            return False
     return _write("DELETE FROM sessions WHERE session_id=?", (session_id,),
                   db_path=db_path) > 0
 
