@@ -99,6 +99,14 @@ def load_wiki_documents(filepath: str, language: str = "en") -> List[Dict]:
     if chunks_a:
         chunks = split_a
         fmt = "doc"
+    elif re.search(r"(?m)^---\s*$", text) and re.search(r"(?m)^##\s+", text):
+        # 页面分隔符 + H2：以页面为单位切分（refetch_wiki.py 与旧 fetch_wiki.py
+        # 的输出都带 --- 页分隔）。必须先按 --- 切页再认 ##：refetch 产物的
+        # 页内小节也是 ##（制作/历史/花絮…），只按 ## 切会把小节当成独立页面
+        # （P0-4：terraria 新库 48.1% 的块 title 是小节名，同质碎片把正文块
+        # 挤出 top-k）。旧格式 B 每页恰好一个 ##，走这条分支结果不变。
+        chunks = re.split(r"(?m)^---\s*$", text)
+        fmt = "pages"
     elif chunks_b:
         chunks = split_b
         fmt = "h2"
@@ -139,6 +147,23 @@ def load_wiki_documents(filepath: str, language: str = "en") -> List[Dict]:
                 content_lines.append(line)
 
             content = "\n".join(content_lines).strip()
+        elif fmt == "pages":
+            # 页内第一个 ## 是页面标题，之前的行是文件头/杂讯（丢弃）；
+            # 后续小节（## 制作 等）的标题行保留在正文里——下游切块器会在
+            # 小节边界切分，但 metadata.title 继承页面名，检索不再串页
+            lines = chunk.split("\n")
+            title = None
+            title_idx = 0
+            for i, line in enumerate(lines):
+                tm = re.match(r"^##\s+(.+)", line)
+                if tm:
+                    title = tm.group(1).strip()
+                    title_idx = i
+                    break
+            if title is None:
+                continue
+            category = ""
+            content = "\n".join(lines[title_idx + 1:]).strip()
         elif fmt == "h2":
             # 格式 B: ## 标题 \n ...（直到下一个 ## 或文件结尾）
             lines = chunk.split("\n")

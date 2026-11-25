@@ -90,29 +90,54 @@ def load_wiki_documents(filepath: str) -> List[Dict]:
 
     # === 格式2：## Title 分割（cyberpunk2077 / va11halla） ===
     elif "\n## " in text or text.startswith("## "):
-        # 以 ## Title 作为分割标记（忽略前面的全局题头）
-        prefix = text.split("\n## ", 1)[0] if "\n## " in text else ""
-        # 从第一个 ## 开始拆分
-        body = text[len(prefix):]
-        # 把每个 ## Title 作为一个块
-        chunks = re.split(r"\n(?=## )", body)
-        for chunk in chunks:
-            chunk = chunk.strip()
-            if not chunk:
-                continue
-            lines = chunk.split("\n")
-            title_match = re.match(r"^##\s+(.+)", lines[0]) if lines else None
-            title = title_match.group(1).strip() if title_match else "Unknown"
-            if title == "Unknown":
-                continue
-            # 跳过 ## Title 行和 --- 分隔线
-            content_lines = [l for l in lines if not l.startswith("## ") and not l.strip().startswith("---")]
-            content = "\n".join(content_lines).strip()
-            if content:
-                docs.append({
-                    "content": content,
-                    "metadata": {"title": title, "category": ""},
-                })
+        if re.search(r"(?m)^---\s*$", text):
+            # 带 --- 页分隔的文件（refetch_wiki.py / 旧 fetch_wiki.py 输出）：
+            # 必须以页面为单位切分——refetch 产物页内小节也是 ##，只按 ## 切
+            # 会把「制作/历史/花絮」当成独立页面（P0-4，碎片污染检索）。
+            # 页内第一个 ## 是页面标题，其余小节标题行保留在正文里，
+            # 下游切块时 metadata.title 继承页面名。
+            for chunk in re.split(r"(?m)^---\s*$", text):
+                lines = chunk.strip().split("\n")
+                title = None
+                title_idx = 0
+                for i, line in enumerate(lines):
+                    tm = re.match(r"^##\s+(.+)", line)
+                    if tm:
+                        title = tm.group(1).strip()
+                        title_idx = i
+                        break
+                if title is None:
+                    continue
+                content = "\n".join(lines[title_idx + 1:]).strip()
+                if content:
+                    docs.append({
+                        "content": content,
+                        "metadata": {"title": title, "category": ""},
+                    })
+        else:
+            # 无 --- 分隔：以 ## Title 作为分割标记（忽略前面的全局题头）
+            prefix = text.split("\n## ", 1)[0] if "\n## " in text else ""
+            # 从第一个 ## 开始拆分
+            body = text[len(prefix):]
+            # 把每个 ## Title 作为一个块
+            chunks = re.split(r"\n(?=## )", body)
+            for chunk in chunks:
+                chunk = chunk.strip()
+                if not chunk:
+                    continue
+                lines = chunk.split("\n")
+                title_match = re.match(r"^##\s+(.+)", lines[0]) if lines else None
+                title = title_match.group(1).strip() if title_match else "Unknown"
+                if title == "Unknown":
+                    continue
+                # 跳过 ## Title 行和 --- 分隔线
+                content_lines = [l for l in lines if not l.startswith("## ") and not l.strip().startswith("---")]
+                content = "\n".join(content_lines).strip()
+                if content:
+                    docs.append({
+                        "content": content,
+                        "metadata": {"title": title, "category": ""},
+                    })
 
     # === 格式3：# Title 分割（如 Silksong） ===
     if not docs and re.search(r"^# ", text, re.MULTILINE):

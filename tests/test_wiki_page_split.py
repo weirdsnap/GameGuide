@@ -17,8 +17,9 @@
 `(?m)^---\\s*$` 切页，页内再按 `##` 切小节；小节块的 title 必须继承页面名，
 小节名另存 section 字段。修完删掉本文件的 xfail 标记。
 
-本文件是**契约测试**：钉住「分页以页面为单位」这条契约。当前实现不满足，
-所以标 xfail；实现修好后会 XPASS（strict=False 不报错），届时清理标记。
+本文件是**契约测试**：钉住「分页以页面为单位」这条契约。
+（2026-11-25 Mac 侧已修：mac_build / ingest_game 先按 `^---$` 切页再认 `##`，
+xfail 标记已随修复摘除。）
 """
 
 import re
@@ -63,11 +64,6 @@ SAMPLE = """# terraria Wiki Data (中文)
 """
 
 
-@pytest.mark.xfail(
-    strict=False,
-    reason="分页器还没按 `---` 切页：页内小节被当成独立页面（Mac 侧待修，"
-           "见 docs/MAC_SIDE_TASKS.md 与 docs/CHAT_HISTORY_RENDER_PLAN.md 同批记录）",
-)
 def test_refetch_格式按页面分页而不是按小节分页():
     with tempfile.NamedTemporaryFile("w", suffix=".md", encoding="utf-8", delete=False) as f:
         f.write(SAMPLE)
