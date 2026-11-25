@@ -36,7 +36,8 @@ CASES: list[tuple[str, str, str]] = [
     # terraria：中文 wiki 全量替换后的新库，含页内小节被切碎的问题
     ("terraria", "克苏鲁之眼怎么召唤", "克苏鲁之眼"),
     ("terraria", "血月怎么触发", "血月|Blood Moon"),
-    ("terraria", "天界塔怎么打", "天界"),
+    # 该页 zh 标题是「天界柱」，但混合库里 en 页 Celestial Pillars 常排第一，两者都算命中
+    ("terraria", "天界塔怎么打", "天界柱|Celestial Pillars"),
     # silksong：新库，79 页，覆盖不足
     ("silksong", "Silk Soar ability", "Silk Soar"),
     ("silksong", "Bell Beast boss fight", "Bell Beast"),
@@ -46,7 +47,8 @@ CASES: list[tuple[str, str, str]] = [
     # oni / va11halla / mhw
     ("oni", "氧气怎么生产", "Oxygen"),
     ("va11halla", "Julianne Stingray 是谁", "Julianne"),
-    ("mhw", "大剑怎么玩", "MHWilds"),
+    # 旧期望 "MHWilds" 是在「全库塌成一个 title=MHWilds」的坏库上写的，已重建，改判条目名
+    ("mhw", "大剑怎么玩", "Great Sword"),
     # baldurs_gate3：线上主力，块/title 正常，作为对照组
     ("baldurs_gate3", "明斯克在哪", "Minsc"),
     ("baldurs_gate3", "至圣斩怎么用", "Smite"),

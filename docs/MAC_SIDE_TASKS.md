@@ -78,7 +78,7 @@
   全部不可达，本地无代理端口。只能靠出墙（Mac 挂机场代理跑脚本，或给服务器配一个
   代理节点仅供采集用）。这一步卡在网络上，等用户决定。
 
-## P0-4 分页器把页内小节当成了独立页面（terraria / silksong / mhw 三个库）—— 分页已修，待重建
+## P0-4 分页器把页内小节当成了独立页面（terraria / silksong / mhw 三个库）—— ✅ 已修复并已重建
 
 > 完整证据、检索实测与验收口径见 `docs/ISSUES_2026-11-25.md` **I-27**（本次补齐，
 > 含 mhw 整库塌成一页的实测：1,863 块 title 全是 `MHWilds`）。这里只留结论。
@@ -103,6 +103,14 @@
   修好后会 XPASS，届时删掉该文件的 xfail 标记。
 - **重建范围**：terraria、silksong 两个库（其余游戏的源数据不是 refetch 格式，不受影响）。
   重建后抽检口径：`## 克苏鲁之眼` 应能作为单一页面命中，块数应接近页数 × 2–4 而不是 ×10。
+- **修复结果（2026-11-25 当日完成）**：`mac_build.py` + `ingest_game.py` 检测到 `^---$` 时
+  先按页切、页内第一个 `##` 为页面标题、小节并入正文并继承页面 title（commit e19b994）；
+  契约测试 `test_wiki_page_split.py` 已摘 xfail 转绿。三个库已用新代码重建：
+  terraria 24,172 向量（原 31,248 碎片）、silksong 304、mhw 6,494（修复了 1,863 块全塌成
+  `title="MHWilds"` 一页的问题，顺带修了 mhw armor 表 511 个 `title=None` 建库崩溃，
+  `load_structured_data` 加 name→slug→set_name→表名逐级兜底，commit 4ccd911）。
+  冒烟实测：「克苏鲁之眼怎么召唤」top-1 命中「克苏鲁之眼」页面本身（修复前 top-4 全是碎片）。
+  **待部署**：`bash scripts/deploy/vectorstores.sh terraria silksong mhw` 传库后服务器重启 API。
 
 ## P1-1 信号词缺口
 

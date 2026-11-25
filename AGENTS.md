@@ -330,6 +330,15 @@ python scripts/eval/ragas_eval.py --game all --limit 5   # 报告输出到 evalu
 
 ## 变更记录
 
+- **2026-11-25 P0-4 分页器修复 + 三库重建（同日收官）**：`mac_build.py` / `ingest_game.py`
+  先按 `^---$` 切页再切小节、小节继承页面 title（e19b994）；mhw armor 表 `title=None`
+  崩溃修掉（`load_structured_data` 名字逐级兜底，4ccd911）。terraria / silksong / mhw
+  已重建（24,172 / 304 / 6,494 向量），`retrieval_smoke.py` 9/12（3 条 MISS 各有归属：
+  Silk Soar 数据覆盖 I-29、螳螂爪 I-28 待拍板、深巢本地库与服务器版本差异）。
+  **库已重建但未传服务器**，等用户安排 `vectorstores.sh`。
+  补 `test_act_index.py` / `test_game_registry.py` / NULL 兜底契约测试，
+  主套件 359 passed / 22 skipped / 1 xfailed。
+
 - **2026-11-25 历史会话删除（改软删，整天返工过一次）**：第一版做成真删（外键级联清 turns/receipts），
   用户当天纠正「数据都要留着做分析，删除/过期只是不显示」。现在 `DELETE /api/sessions/{id}`
   只写 `sessions.hidden_at`，行、turns、receipts、原文全留；3 天答案过期与 90 天会话过期同样改成
