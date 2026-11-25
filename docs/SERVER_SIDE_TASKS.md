@@ -7,6 +7,34 @@
 > 日志/turns 数据分析归服务器侧；`src/rag_agent/`、`tests/`、`scripts/tool|build|fetch|enrich|eval`
 > 归 Mac 侧。交叉修改同一文件时遵守 AGENTS.md 的「防冲突纪律」（开工必拉、push 前再拉）。
 
+## P3-1 I-25 L2 progress 事件已落地 Mac 侧（f2fb79f），服务器需转发（2026-11-25）
+
+Mac 侧已完成 `docs/STREAM_UX_PLAN.md` 的 **L2**：`multi_agent.ask_stream` 现在会产出
+第三类事件 `("progress", {...})`，与 `token/meta/error` 并列：
+
+```
+("progress", {"phase": "tool_start", "tool": "search_knowledge_base", "round": 1, "elapsed": 3.2})
+("progress", {"phase": "tool_done",  "tool": "search_knowledge_base", "round": 1, "elapsed": 6.8})
+```
+
+- `tool` 字段可能缺省（取不到名字时发通用 tool_start）；`elapsed` 是秒（相对请求开始）。
+- 首 token 之后不再发；progress 不进 meta、不影响 quota 判定。
+- 测试：`tests/test_stream_progress.py` 8 条（离线假图，全量 328 passed）。
+
+**服务器侧动作（`api_server.py` 归你们）**：
+
+1. `handle_ask_stream` 的事件分发目前只认 `token/meta/error`——`progress` 会被静默丢弃，
+   需要加一个分支：`ev == "progress"` → 原样写 SSE `data: {"type":"progress", ...}`。
+2. 与 L0 心跳（STREAM_UX_PLAN §L0）同批上线最划算：心跳兜底无工具阶段，progress
+   覆盖工具阶段。
+3. L4 记账要求 `first_token_ms` 观测字段；progress 事件数（`progress_events`）如果
+   要落 turns，可以在转发分支顺手计数，由你们定。
+4. 验收按 STREAM_UX_PLAN §3：`stream_chunks=0` 轮次归零、`first_token_ms` p90 有数。
+
+**前端（L1/L3）暂缓**：用户 2026-11-25 拍板前端（博客仓库 `htmls/hollow_knight.html`）
+先不动，所以 progress 事件短期内没有消费方——转发分支加上即可，不急着验证前端效果。
+
+
 ## P0-1 部署 Mac 侧最新提交并验证（f55ea5f）
 
 Mac 侧已完成 I-16~I-20 + I-02 全部修复并推送（`f55ea5f`，本地 224 passed / routing 13/13）：
