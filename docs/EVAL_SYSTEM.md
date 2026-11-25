@@ -243,7 +243,8 @@ bg3-to-oni-switch）全绿，证明修的是评测器而不是把问题掩下去
     `test_ask_stream_keepalive`（`: connected` + 10s 内必有 `: keepalive`、不计 token）、
     `test_ask_stream_client_abort`（`route=client_abort`、无产出时退额度）、
     `test_first_token_ms`。归属：L0 心跳 + 断流记账 + `first_token_ms` 服务器侧；
-    L1 计时文案、L2 `progress` 事件、L3 断流重试 Mac 侧（L2 需 L0 先合入）。
+    L2 `progress` 事件 + L3 断流重试归 Mac 侧/前端（L2 需 L0 先合入）。
+    前端**不做**假计时（用户 11-25 口径：没真数据就不显示进度）。
 
 ### 2026-11-23 新增（来源：docs/ISSUES_2026-11-23.md I-24）
 

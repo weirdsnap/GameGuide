@@ -20,14 +20,12 @@
 线上已经在咬人：11-25 11:56 一轮 iPhone 移动网络提问，服务端工具循环跑 25.6s、
 7 次 DeepSeek 全 200，却**一个字节没写给前端**，客户端先断 → 前端弹「网络错误」。
 
-- **P3-1 前端计时文案（无依赖，先做）**：`htmls/hollow_knight.html` loading 文案按等待时长分档
-  （0–4s 思考中 / 4–15s 正在查资料 / ≥15s 还在查，已等 {n}s），`setInterval` 每秒刷新，
-  `done`/`error`/`catch` 时清掉。措辞保持含糊，不要用时间假称工具次数。
-- **P3-2 `progress` 事件（依赖服务器侧 L0 心跳先合入）**：`src/rag_agent/multi_agent.py:ask_stream`
+- **P3-1 `progress` 事件（依赖服务器侧 L0 心跳先合入）**：`src/rag_agent/multi_agent.py:ask_stream`
   在 `mode == "messages"` 分支识别工具阶段——`AIMessageChunk.tool_call_chunks` 拼出完整 name →
   `yield ("progress", {phase:"tool_start", tool, round, elapsed})`；`ToolMessage` → `phase:"tool_done"`。
   只发工具 id，中文文案在前端映射；ToolMessage 内容绝不转发；首 token 之后停发。
-- **P3-3 断流恢复 + 取消**：已有半截答案时保留正文 + 灰字「（连接中断，回答可能不完整）」+ 重试；
+  注意：前端**不做**假计时器（用户 11-25 否掉），没这个事件前端就只显示「思考中…」。
+- **P3-2 断流恢复 + 取消**：已有半截答案时保留正文 + 灰字「（连接中断，回答可能不完整）」+ 重试；
   零 token 时显示「连接中断了 · 点这里重试」；加 `AbortController` 取消按钮与
   `visibilitychange` 回前台兜底。
 
