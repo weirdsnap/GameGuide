@@ -7,15 +7,13 @@ Game Router — 游戏识别与工具调度。
 
 import os
 import re
-import sqlite3
-from functools import lru_cache
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Dict, List, Optional, Tuple
 
 from langchain.tools import tool
 
 from rag_agent.game_registry import (
     AVAILABLE_GAMES, GAME_SIGNALS, GAME_EXACT_PATTERNS,
-    EXTRA_PROMPT_NOTES, GAMES_DIR, GENERIC_SIGNALS,
+    EXTRA_PROMPT_NOTES, GENERIC_SIGNALS,
 )
 
 # ── 路由阈值（与 multi_agent._game_from_history 共用，别各写一份）──────────

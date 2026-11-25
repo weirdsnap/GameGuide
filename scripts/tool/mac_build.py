@@ -213,7 +213,8 @@ def load_wiki_documents(filepath: str, language: str = "en") -> List[Dict]:
 def _row_to_text(table: str, cols: List[str], row: tuple) -> str:
     """将一行结构化数据转为自然语言文本。"""
     data = dict(zip(cols, row))
-    name = data.get("name") or data.get("slug", "")
+    # 列存在但值为 NULL 时 .get 的默认值不生效（拿到的是 None），逐层 or 兜底
+    name = data.get("name") or data.get("slug") or data.get("set_name") or ""
 
     lines = [name]
 
@@ -333,7 +334,16 @@ def load_structured_data(game_key: str) -> List[Dict]:
 
         for row in rows:
             text = _row_to_text(table, cols, row)
-            name = row["name"] if "name" in cols else (row["slug"] if "slug" in cols else table)
+            # 列存在但值为 NULL 也要继续兜底：mhw armor 表有 name 列但散件
+            # 为 NULL（只有套装有名字），曾产出 511 个 title=None 的文档，
+            # 在 prepend_title_to_chunks 直接 AttributeError
+            name = None
+            for col in ("name", "slug", "set_name"):
+                if col in cols and row[col]:
+                    name = str(row[col])
+                    break
+            if not name:
+                name = table
             meta = {"title": name, "category": f"struct/{table}"}
             # 防剧透 P1：locations/quests 等表带 act 列（BG3）时透传进元数据
             if "act" in cols and row["act"]:

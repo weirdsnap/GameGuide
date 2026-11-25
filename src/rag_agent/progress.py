@@ -14,7 +14,7 @@
 from __future__ import annotations
 
 import re
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from typing import Iterable, Optional
 
 from rag_agent.game_registry import AVAILABLE_GAMES

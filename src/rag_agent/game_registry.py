@@ -12,7 +12,7 @@ from __future__ import annotations
 
 import re
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any, Dict, List
 
 # ── 项目根路径 ──
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent

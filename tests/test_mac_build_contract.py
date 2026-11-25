@@ -111,6 +111,27 @@ def test_collect_documents_rejects_missing_language(fake_game, monkeypatch):
         mac_build.collect_documents(fake_game)
 
 
+def test_load_structured_data_name列为NULL时兜底(tmp_path, monkeypatch):
+    """mhw armor 表：name 列存在但散件为 NULL（只有套装有名），
+    曾产出 511 个 title=None 的文档把 prepend_title_to_chunks 打崩。
+    契约：title 必须是非空字符串，依次按 name → slug → set_name → 表名兜底。"""
+    import sqlite3
+    db = tmp_path / "fake_data.db"
+    conn = sqlite3.connect(db)
+    conn.execute("CREATE TABLE armor (name TEXT, slug TEXT, set_name TEXT, rank TEXT)")
+    conn.execute("INSERT INTO armor VALUES (NULL, NULL, 'Hope Armor', 'Low Rank')")
+    conn.execute("INSERT INTO armor VALUES ('Chatacabra Helm', NULL, NULL, 'High Rank')")
+    conn.execute("INSERT INTO armor VALUES (NULL, NULL, NULL, 'Low Rank')")
+    conn.commit()
+    conn.close()
+    monkeypatch.setitem(mac_build.GAME_DB_MAPPING, "fake_game", str(db))
+
+    docs = mac_build.load_structured_data("fake_game")
+    titles = [d["metadata"]["title"] for d in docs]
+    assert titles == ["Hope Armor", "Chatacabra Helm", "armor"]
+    assert all(isinstance(t, str) and t for t in titles)
+
+
 # ══════════════════════════════════════════════
 #  prepend_title_to_chunks（实体名前置契约）
 # ══════════════════════════════════════════════
