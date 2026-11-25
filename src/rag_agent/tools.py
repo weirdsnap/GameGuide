@@ -290,8 +290,7 @@ def search_knowledge_base(query: str, game: str, k: int = 8, max_act: int | None
         if search_query != query:
             logger.info("术语扩展: %s → %s", query, search_query)
 
-        # 分语言检索，保证中文和英文文档都能命中
-        # fetch_k 设为 200 确保过滤后的候选数充足
+        # 分语言过滤，保证中文和英文文档都有候选进入合并
         if max_act is not None:
             # 防剧透：语言 + act 上界组合过滤（dict filter 表达不了「缺 act 放行」，
             # 用 callable）。act 解析不出的文档（设定/法术/物品类）始终保留。
@@ -319,8 +318,14 @@ def search_knowledge_base(query: str, game: str, k: int = 8, max_act: int | None
             en_filter = {"language": "en"}
             zh_filter = {"language": "zh"}
 
-        en_docs = vs.similarity_search(search_query, k=k, filter=en_filter, fetch_k=200)
-        zh_docs = vs.similarity_search(search_query, k=k, filter=zh_filter, fetch_k=200)
+        # 分语言检索（带分数），按分数跨语言合并——不再「en 全量在前、zh 在后」
+        # 顺序拼接（I-28：k=4 时中文块即使更相关也被英文块挤出前 k；
+        # 「螳螂爪怎么获得」召不回库里确实存在的 Mantis Claw 就是因此）。
+        # FAISS 返回 L2 距离，越小越近；同一索引内分数可直接比较。
+        # fetch_k 设为 200 确保过滤后的候选数充足
+        en_scored = vs.similarity_search_with_score(search_query, k=k, filter=en_filter, fetch_k=200)
+        zh_scored = vs.similarity_search_with_score(search_query, k=k, filter=zh_filter, fetch_k=200)
+        scored = sorted(en_scored + zh_scored, key=lambda t: t[1])
 
         # 标题精确匹配直通：术语扩展命中的英文名若在库里有同标题文档，直接置顶，
         # 不赌向量排序——"Lae'zel 养鸡妹好用吗"这类带撇号实体的向量排名可能
@@ -356,7 +361,7 @@ def search_knowledge_base(query: str, game: str, k: int = 8, max_act: int | None
         # 「库是坏的」这件事在测试里完全看不见。理由记在 AGENTS.md。
         seen = set()
         docs = []
-        for doc in en_docs + zh_docs:
+        for doc, _score in scored:
             sig = doc.page_content[:100]
             if sig not in seen:
                 seen.add(sig)

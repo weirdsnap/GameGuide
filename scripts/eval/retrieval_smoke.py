@@ -41,9 +41,11 @@ CASES: list[tuple[str, str, str]] = [
     # silksong：新库，79 页，覆盖不足
     ("silksong", "Silk Soar ability", "Silk Soar"),
     ("silksong", "Bell Beast boss fight", "Bell Beast"),
-    # hollow_knight：中文块只有 2.4%
-    ("hollow_knight", "螳螂爪怎么获得", "Mantis Claw"),
-    ("hollow_knight", "深巢入口在哪", "Deepnest"),
+    # hollow_knight：中文块只有 2.4%（40 页全是物品/护符，无区域页）
+    ("hollow_knight", "螳螂爪怎么获得", "Mantis Claw|螳螂爪"),
+    # 深巢：zh 库无区域页（I-28 数据面，需补 HK 中文 wiki），en 页 Deepnest
+    # 跨语言分数压不过 zh 物品块，保持 MISS 暴露覆盖缺口
+    ("hollow_knight", "深巢入口在哪", "Deepnest|深巢"),
     # oni / va11halla / mhw
     ("oni", "氧气怎么生产", "Oxygen"),
     ("va11halla", "Julianne Stingray 是谁", "Julianne"),

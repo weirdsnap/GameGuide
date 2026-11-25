@@ -79,12 +79,27 @@ class _FakeVS:
         self.queries = []          # 记录实际收到的 query，供断言术语扩展生效
 
     def similarity_search(self, query, k=8, filter=None, fetch_k=None):
+        return [d for d, _s in self.similarity_search_with_score(
+            query, k=k, filter=filter, fetch_k=fetch_k)]
+
+    def similarity_search_with_score(self, query, k=8, filter=None, fetch_k=None):
+        """分数口径与 FAISS 一致（L2 距离，越小越近）。
+
+        默认用文档在 _docs 里的序号当分数（保序）；测试要表达「某条更相关」时，
+        在该文档 metadata 里放 `_score` 显式指定。
+        """
         self.queries.append(query)
+
+        def _score(d):
+            return float(d.metadata.get("_score", self._docs.index(d)))
+
         if callable(filter):
-            return [d for d in self._docs if filter(d.metadata)][:k]
-        lang = (filter or {}).get("language")
-        return [d for d in self._docs
-                if d.metadata.get("language") == lang][:k]
+            hits = [d for d in self._docs if filter(d.metadata)][:k]
+        else:
+            lang = (filter or {}).get("language")
+            hits = [d for d in self._docs
+                    if d.metadata.get("language") == lang][:k]
+        return [(d, _score(d)) for d in hits]
 
 
 def _patch_vs(monkeypatch, docs):
@@ -132,6 +147,25 @@ def test_search_空结果给出明确提示(monkeypatch):
     _patch_vs(monkeypatch, [])
     out = search_knowledge_base.invoke({"query": "不存在的东西", "game": "test_game"})
     assert "知识库未找到" in out
+
+
+def test_search_双语按分数合并_zh更相关时排前(monkeypatch):
+    """I-28：不再「en 全量在前、zh 在后」顺序拼接——分数更近的 zh 块应排在 en 前面。"""
+    docs = [
+        Document(page_content="Mantis Claw: en page.",
+                 metadata={"language": "en", "title": "Mantis Claw", "_score": 0.9}),
+        Document(page_content="螳螂爪：中文页面。",
+                 metadata={"language": "zh", "title": "螳螂爪", "_score": 0.1}),
+    ]
+    _patch_vs(monkeypatch, docs)
+
+    out = search_knowledge_base.invoke({"query": "怎么拿那个爬墙的爪子", "game": "test_game"})
+
+    zh_pos = out.find("螳螂爪：中文页面。")
+    en_pos = out.find("Mantis Claw: en page.")
+    assert zh_pos != -1 and en_pos != -1
+    assert zh_pos < en_pos          # 分数更近的 zh 块排在前面
+    # 注：query 故意不含任何 title 词，避免触发「标题词面命中置顶」把分数顺序盖住
 
 
 def test_search_严格模式_缺language文档必然不中(monkeypatch):
