@@ -11,8 +11,9 @@ history 推导，不在请求之间共享状态。
 """
 
 import logging
+import time
 
-from langchain_core.messages import AIMessageChunk
+from langchain_core.messages import AIMessageChunk, ToolMessage
 
 from rag_agent.game_router import DETECT_TH, detect_game_detail, is_switch_query
 from rag_agent.graph import _names_external_game, get_graph
@@ -129,13 +130,25 @@ def ask(question, history=None, model_name=None, verbose=False, meta=None):
 
 
 async def ask_stream(question, history=None, model_name=None, verbose=False, meta=None):
-    """流式入口。产出协议不变：(token|meta|error, data)。
+    """流式入口。产出协议：(token|progress|meta|error, data)。
+
+    progress 事件（docs/STREAM_UX_PLAN.md L2）：工具调用阶段 LLM 的 content
+    为空，原来全程静默，移动网络下会被中间设备判死。现在识别出工具阶段就发：
+      {"phase": "tool_start", "tool": "search_knowledge_base", "round": 1, "elapsed": 3.2}
+      {"phase": "tool_done",  "tool": "search_knowledge_base", "round": 1, "elapsed": 6.8}
+    只发工具 id，中文文案由前端映射；ToolMessage 内容绝不转发；
+    首个 token 之后停发（正文已在流，进度无意义）；
+    progress 不进 meta、不影响 quota。
 
     meta 参数含义同 ask()：结束时被填入本轮的观测数据。
     """
     final_state = {}
     emitted_token = False
     error_msg = None
+    start_ts = time.monotonic()
+    tool_round = 0          # 已完成的工具调用轮数（tool_done 递增）
+    pending_tool = None     # 本轮正在调用的工具名
+    tool_started = False    # 本轮 tool_start 是否已发（一轮只发一次）
     try:
         # subgraphs=True：agent_node 内部的 create_react_agent 是子图，
         # 不开这个开关其 LLM token 不会冒泡到外层流。
@@ -151,11 +164,36 @@ async def ask_stream(question, history=None, model_name=None, verbose=False, met
                 yield "meta", {k: v for k, v in chunk.items() if k != "type"}
             elif mode == "messages":
                 msg_chunk, _metadata = chunk
-                # 只转发 LLM 生成的文本 chunk；工具结果（ToolMessage）也会
-                # 出现在 messages 流里，必须过滤掉，否则会泄到前端
-                if isinstance(msg_chunk, AIMessageChunk) and msg_chunk.content:
-                    emitted_token = True
-                    yield "token", msg_chunk.content
+                if isinstance(msg_chunk, AIMessageChunk):
+                    if msg_chunk.content:
+                        # 只转发 LLM 生成的文本 chunk
+                        emitted_token = True
+                        yield "token", msg_chunk.content
+                    elif msg_chunk.tool_call_chunks and not emitted_token:
+                        # 工具调用阶段：name 只在 tool_call_chunks 的首个分片
+                        # 出现，取第一个非空的即可；取不到就发通用 tool_start
+                        if pending_tool is None:
+                            pending_tool = next(
+                                (tc.get("name") for tc in msg_chunk.tool_call_chunks
+                                 if tc.get("name")), None)
+                        if not tool_started:
+                            ev = {"phase": "tool_start", "round": tool_round + 1,
+                                  "elapsed": round(time.monotonic() - start_ts, 1)}
+                            if pending_tool:
+                                ev["tool"] = pending_tool
+                            yield "progress", ev
+                            tool_started = True
+                elif isinstance(msg_chunk, ToolMessage) and not emitted_token:
+                    # 工具结果（ToolMessage）也出现在 messages 流里：
+                    # 内容必须过滤（否则泄到前端），但据此发 tool_done
+                    tool_round += 1
+                    ev = {"phase": "tool_done", "round": tool_round,
+                          "elapsed": round(time.monotonic() - start_ts, 1)}
+                    if pending_tool:
+                        ev["tool"] = pending_tool
+                    yield "progress", ev
+                    pending_tool = None
+                    tool_started = False
             elif namespace == () and mode == "values":
                 final_state = chunk          # 父图每步全量 state，最后一份即终态
     except Exception as e:
