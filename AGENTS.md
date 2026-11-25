@@ -349,9 +349,18 @@ python scripts/eval/ragas_eval.py --game all --limit 5   # 报告输出到 evalu
   两个向量库 11-25 12:17–12:18 上传，language 标签齐全，API 已重启（PID 2920256）。
 - **但库被切碎了（新问题，记 `MAC_SIDE_TASKS.md` P0-4）**：`refetch_wiki.py` 的页面
   分隔是 `---`（行数恰等于总页数），页内小节也是 `##`；建库分页器只按 `## ` 切，
-  于是 48.1% 的块 title 变成「制作/历史/花絮/备注/小贴士」。实测查「克苏鲁之眼怎么召唤」
-  命中不到页面本身。契约测试 `tests/test_wiki_page_split.py` 已钉住（当前 xfail）。
-  **教训：库能加载、language 齐全 ≠ 检索可用，上传后必须跑一条真实查询看 top-k 是什么。**
+  于是 50.8% 的块 title 变成「制作/历史/花絮/备注/小贴士」。实测查「克苏鲁之眼怎么召唤」
+  命中不到页面本身；同一根因下 mhw 更极端——1,863 块 title 全是 `MHWilds`（整库塌成一页）。
+  契约测试 `tests/test_wiki_page_split.py` 已钉住（当前 xfail）。完整证据见
+  `docs/ISSUES_2026-11-25.md` I-27～I-30。
+  **教训：库能加载、language 齐全 ≠ 检索可用，上传后必须跑真实查询看 top-k 是什么。**
+- **新增 `scripts/eval/retrieval_smoke.py`**：12 条真实问法打真实检索路径，
+  只判「期望条目有没有进 top-k」，秒级、不调 LLM。当前基线 9 PASS / 3 MISS
+  （terraria 克苏鲁之眼、silksong Silk Soar、HK 螳螂爪）。重建库/换 embedding/改分块
+  之后必须跑，全 PASS 才算完成。
+- 另记 I-28：中文块覆盖率极低（HK 47/1960 = 2.4%），且双路检索是 `en_docs + zh_docs`
+  顺序拼接、不按分数排序，`k=4` 时中文块基本被截掉；「螳螂爪怎么获得」召不回库里确实
+  存在的 `Mantis Claw`。改合并排序属主检索链路，待用户拍板，不自行改。
 - 主套件 330 passed / 22 skipped / 2 xfailed。
 
 ### 2026-11-22 — 数据看板 P0（只读后台）
