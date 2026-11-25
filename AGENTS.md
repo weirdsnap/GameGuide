@@ -328,7 +328,14 @@ python scripts/eval/ragas_eval.py --game all --limit 5   # 报告输出到 evalu
   只采信来自 `trusted_proxies` 的 `X-Forwarded-For`，防止伪造 IP 绕限流。
 - 向量库和 SQLite 文件不进 git；服务器上的数据只通过 deploy 脚本同步。
 
-## 变更记录（踩坑留档）
+## 变更记录
+
+- **2026-11-25 流式心跳（I-25 复现后修复）**：iPhone Safari 上 22.5s 首字节没到就断连，
+  前端显示「网络错误」。`api_server.handle_ask_stream` 现在：prepare 后立刻写 `: open`；
+  `ask_stream` 产出经队列 + `asyncio.wait_for(keepalive_s=8)` 轮询，静默期写 `: keepalive`；
+  上游生成器跑在独立 task 里，断开时取消，不再后台空转烧 token。契约测试
+  `test_stream_writes_first_byte_and_keepalive` 钉住。长等待本身（6 次 LLM 调用）仍归 Mac 侧 I-19。
+（踩坑留档）
 
 ### 2026-11-25 — I-25 L2 两端接线 + 前端窗口化无限滚动
 

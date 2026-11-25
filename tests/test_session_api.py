@@ -5,6 +5,7 @@
 全部离线：ask/ask_stream 用假实现，存储指向 tmp_path（conftest 的 autouse fixture）。
 """
 
+import asyncio
 import sys
 from pathlib import Path
 
@@ -286,3 +287,30 @@ def test_turn_record_carries_session_ids():
     assert rec["session_id"] == "s" * 32 and rec["client_id"] == "c" * 32
     bare = api_server.turn_record(ip="1.2.3.4", question="问", elapsed=1.0, meta={})
     assert "session_id" not in bare and "client_id" not in bare
+
+
+# ====== 流式心跳（I-25）======
+
+def test_stream_writes_first_byte_and_keepalive(monkeypatch, tmp_path):
+    """移动端 Safari 会按「响应体多久没有字节」判死连接（12:37 那轮 iPhone 22.5s 断）。
+
+    契约两条：
+      1. prepare 之后立刻写 `: open`，首字节不等第一次 LLM 返回；
+      2. 上游长时间没有事件时，每 keepalive_s 写一个 `: keepalive` 注释行。
+    注释行不是 `data:` 开头，客户端解析器会忽略，不影响事件流。
+    """
+    monkeypatch.setitem(api_server.config, "keepalive_s", 0.05)
+
+    async def slow_stream(question, history=None, verbose=False, meta=None):
+        await asyncio.sleep(0.15)             # 跨越若干个心跳周期
+        yield "token", "慢答案"
+        if meta is not None:
+            meta.update(_meta())
+
+    factory, _ = _fresh(monkeypatch, tmp_path, ask_stream=slow_stream)
+    status, text = _call(factory, "POST", "/api/ask/stream", {"question": "慢"})
+    assert status == 200
+    assert text.startswith(": open")          # 首字节立刻落地
+    assert ": keepalive" in text              # 静默期有心跳
+    tokens = [e for e in api_helpers.sse_events(text) if e["type"] == "token"]
+    assert tokens and tokens[0]["content"] == "慢答案"

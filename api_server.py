@@ -42,6 +42,8 @@ DEFAULT_CONFIG = {
     "trusted_proxies": ["127.0.0.1", "::1"],
     "request_timeout": 120,
     "stream_timeout": 240,      # 流式整体超时：之前没设，挂起会永久占着连接
+    "keepalive_s": 8,         # SSE 心跳间隔：工具阶段长时间没有事件时，定时写一个注释行
+                               # （移动端 Safari / 运营商中间设备会因为「静默」把连接判死）
     "port": 8765,
     "host": "0.0.0.0",
 }
@@ -799,11 +801,48 @@ async def handle_ask_stream(request):
     meta: dict = {}
     stream_failed = False      # 超时/断连/异常：已产出的半截答案标 partial 落库
 
+    # 首字节立刻写出去：移动端 Safari 等「响应体第一个字节」等得越久越容易判死，
+    # 实测 iPhone 上一轮 22.5s 首字节都没到就 ConnectionReset（I-25，12:37 那轮）。
+    # SSE 注释行是标准心跳写法，客户端解析器只认 `data:` 行，会直接忽略。
+    try:
+        await resp.write(b": open\n\n")
+    except Exception:
+        pass
+
+    # ask_stream 的产出走队列，由下面的循环按心跳间隔取：
+    # 工具调用阶段可能十几二十秒没有任何事件，光是「等」就会被中间设备当成死连接。
+    keepalive_s = float(config.get("keepalive_s", 8))
+    event_queue: asyncio.Queue = asyncio.Queue()
+
+    async def _pump():
+        try:
+            async for ev in ask_stream(question, history=history if history else None,
+                                       verbose=True, meta=meta):
+                await event_queue.put(ev)
+        except asyncio.CancelledError:
+            raise
+        except Exception as e:                # 不在这里吞掉：交给外层统一收尾（标 partial、写 error 事件、不写 done）
+            await event_queue.put(("__raise__", e))
+        finally:
+            event_queue.put_nowait(None)
+
+    pump = asyncio.create_task(_pump())
+
     try:
         # 流式以前完全没超时：LLM 卡住会永久占住连接和线程（曾出现 275s 零 chunk）。
         # 整体给一个上限，超了推 error 事件收尾、退回额度。
         async with asyncio.timeout(float(config.get("stream_timeout", 240))):
-            async for event_type, data in ask_stream(question, history=history if history else None, verbose=True, meta=meta):
+            while True:
+                try:
+                    item = await asyncio.wait_for(event_queue.get(), timeout=keepalive_s)
+                except asyncio.TimeoutError:
+                    await resp.write(b": keepalive\n\n")
+                    continue
+                if item is None:
+                    break
+                if item[0] == "__raise__":       # 上游生成器抛错：还原成普通异常，走外层收尾
+                    raise item[1]
+                event_type, data = item
                 if event_type == "token":
                     payload = json.dumps({"type": "token", "content": data}, ensure_ascii=False)
                     await resp.write(f"data: {payload}\n\n".encode("utf-8"))
@@ -852,6 +891,13 @@ async def handle_ask_stream(request):
         try:
             await resp.write(f"data: {json.dumps({'type': 'error', 'content': str(e)[:200]})}\n\n".encode("utf-8"))
         except Exception:
+            pass
+    finally:
+        # 客户端断开/超时都要把上游生成器停掉，否则 LLM 调用会继续跑（花 token 又占内存）
+        pump.cancel()
+        try:
+            await pump
+        except (asyncio.CancelledError, Exception):
             pass
 
     elapsed = time.time() - t0
