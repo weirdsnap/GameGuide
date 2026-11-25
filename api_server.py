@@ -65,8 +65,9 @@ SERVER_HISTORY = os.environ.get("GAMEGUIDE_SERVER_HISTORY", "0") == "1"
 SESSION_MAX_TURNS = int(os.environ.get("GAMEGUIDE_SESSION_MAX_TURNS", "6"))
 SESSION_MAX_CHARS = int(os.environ.get("GAMEGUIDE_SESSION_MAX_CHARS", "6000"))
 # 留存：答案原文只留 3 天，存根与会话行 90 天（用户口径见 I-23）
+# 用户视角的可见窗口。删数据不做：过期只是「列表里不出现 / 答案显示占位」，
+# 原文、turns、receipts 全留在库里，`data/turns/*.jsonl` 一直全量留档（2026-11-25 口径）。
 RETENTION_ANSWER_DAYS = int(os.environ.get("GAMEGUIDE_RETENTION_ANSWER_DAYS", "3"))
-RETENTION_RECEIPT_DAYS = int(os.environ.get("GAMEGUIDE_RETENTION_RECEIPT_DAYS", "90"))
 RETENTION_SESSION_DAYS = int(os.environ.get("GAMEGUIDE_RETENTION_SESSION_DAYS", "90"))
 
 # turn_id 由服务端生成：12 位十六进制，一整天不撞，也方便在日志里 grep
@@ -579,19 +580,22 @@ def save_turn(session_id: str | None, turn_id: str, question: str,
 
 
 async def cleanup_loop():
-    """每小时跑一次留存清理（答案 3 天 / 存根·会话 90 天，见 env）。"""
+    """每小时记一次「已过期但仍在库里」的数据量（只统计，不删）。
+
+    以前这里会把 answer 置 NULL、把过期会话整行删掉。2026-11-25 改了口径：
+    数据一律保留，过期/删除只影响用户能不能看到。这个循环留着当观测，
+    真需要治理时再单独决定。
+    """
     while True:
         try:
             stats = await asyncio.to_thread(
-                store.purge,
+                store.retention_stats,
                 answer_days=RETENTION_ANSWER_DAYS,
-                receipt_days=RETENTION_RECEIPT_DAYS,
                 session_days=RETENTION_SESSION_DAYS,
             )
-            if any(stats.values()):
-                logger.info("session purge %s", stats)
+            logger.info("留存统计（保留不删）%s", stats)
         except store.StoreError:
-            logger.warning("session purge 失败", exc_info=True)
+            logger.warning("留存统计失败", exc_info=True)
         await asyncio.sleep(3600)
 
 
@@ -612,7 +616,8 @@ async def handle_session_detail(request):
     sid = request.match_info["session_id"]
     try:
         row = store.get_session(sid)
-        if row is None:
+        # 隐藏 / 过期一律按不存在处理：用户视角里它已经没了，但库里还在
+        if not store.session_visible(row, visible_days=RETENTION_SESSION_DAYS):
             return _session_not_found()
         turns = store.session_rows(sid, limit=_int_query(request, "limit", 50, 200))
     except store.StoreError:
@@ -640,18 +645,22 @@ async def handle_session_reset(request):
 
 
 async def handle_session_delete(request):
-    """DELETE /api/sessions/{session_id}?client_id=... — 用户主动删掉一段对话（幂等）
+    """DELETE /api/sessions/{session_id}?client_id=... — 从用户视图里删掉一段对话（软删）
+
+    只写 sessions.hidden_at，**不删任何数据**：turns / receipts / 原文全留着，
+    `data/turns/*.jsonl` 也是全量留档，后台分析照常。返回 deleted 表示「这次有没有
+    真的从可见集合里移出去」，已隐藏过再删返回 false（幂等）。
 
     client_id 必须带：会话是按浏览器 localStorage 里那个 id 分组的，不带就没人能
-    证明这段对话是他的。删不掉（不存在 / 不是他的）统一返回 deleted=false，
-    不区分原因，免得 endpoint 被拿来探测 session_id。
+    证明这段对话是他的。删不掉（不存在 / 不是他的）统一返回 false，不区分原因，
+    免得 endpoint 被拿来探测 session_id。
     """
     sid = request.match_info["session_id"]
     client_id = (request.query.get("client_id") or "").strip()
     if not client_id:
         return web.json_response({"error": "缺少 client_id"}, status=400)
     try:
-        deleted = store.delete_session(sid, client_id=client_id)
+        deleted = store.hide_session(sid, client_id=client_id)
     except store.StoreError:
         return _store_unavailable()
     return web.json_response({"deleted": deleted})

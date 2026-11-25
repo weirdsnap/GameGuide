@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
-"""留存清理（store.purge）契约测试。
+"""留存策略契约测试：**只隐藏、不删除**。
 
-规格：docs/SESSION_STORE_IMPL.md §1（留存参数）、§3（purge SQL）、§10。
+2026-11-25 口径变更。以前 `store.purge` 每小时把 3 天前的 answer 置 NULL、把 90 天没活动的
+会话整行删掉；现在不做任何物理清理——用户主动删除（sessions.hidden_at）和到期过期都只
+影响「用户能不能看到」，原文与行全都留在库里，后台分析照常。
+
+规格：docs/SESSION_STORE_IMPL.md §1（可见窗口）、§3（retention_stats）、§10。
 时间全部靠 now= 注入，不 sleep、不依赖系统时钟。
 """
 
@@ -36,79 +40,92 @@ def _turn_at(db, sid, seq_ts, answer="答"):
                       answer=answer, now=seq_ts, db_path=db)
 
 
-def _answers(db, sid):
-    return [r["answer"] for r in store.session_rows(sid, limit=100, db_path=db)]
+def _answers(db, sid, now=NOW):
+    return [r["answer"] for r in store.session_rows(sid, limit=100, now=now, db_path=db)]
 
 
-def test_answer_expires_after_three_days(db):
+# ====== 答案窗口：只影响展示 ======
+
+def test_answer_hidden_after_three_days_but_kept(db):
+    """3 天前的答案不再返回给用户，但库里的 answer 一个字都没少。"""
     _session_at(db, "s", NOW)
-    _turn_at(db, "s", NOW - 3 * DAY + 60)      # 2 天 23 小时前 → 保留
-    sid2 = "s2"
-    _session_at(db, sid2, NOW)
-    _turn_at(db, sid2, NOW - 3 * DAY - 60)     # 3 天 1 分钟前 → 清空
+    _turn_at(db, "s", NOW - 3 * DAY + 60)      # 2 天 23 小时前 → 还给用户看
+    _session_at(db, "s2", NOW)
+    _turn_at(db, "s2", NOW - 3 * DAY - 60)     # 3 天 1 分钟前 → 对他隐藏
 
-    stats = store.purge(answer_days=3, receipt_days=90, session_days=90,
-                        now=NOW, db_path=db)
-    assert stats["answers_cleared"] == 1
     assert _answers(db, "s") == ["答"]
-    assert _answers(db, sid2) == [None]
+    assert _answers(db, "s2") == [None]
+
+    # 后台视角（放宽窗口）原文还在
+    assert _answers(db, "s2", now=NOW - 10 * DAY) == ["答"]
 
 
-def test_cleared_answer_keeps_question_and_receipts(db):
+def test_hidden_answer_keeps_question_row_and_receipts(db):
+    """答案过期只隐藏 answer，问题、行、receipts 都还在。"""
     _session_at(db, "s", NOW)
     _turn_at(db, "s", NOW - 10 * DAY)
     store.save_receipt(turn_id=f"t{NOW - 10 * DAY}", session_id="s", seq=1,
                        conclusion="结论还在", db_path=db)
 
-    store.purge(now=NOW, db_path=db)
-
-    rows = store.session_rows("s", db_path=db)
+    rows = store.session_rows("s", now=NOW, db_path=db)
     assert rows[0]["question"] == "问" and rows[0]["answer_expired"] is True
+    assert rows[0]["answer"] is None                    # 对用户不可见
     assert store.session_receipts("s", db_path=db)[0]["conclusion"] == "结论还在"
 
 
-def test_receipts_deleted_after_ninety_days(db):
+def test_answer_window_is_configurable(db):
+    """窗口走参数（api_server 从 env 读后传进来），改 1 天就该只留 1 天可见。"""
     _session_at(db, "s", NOW)
-    _turn_at(db, "s", NOW - 91 * DAY)
-    store.save_receipt(turn_id=f"t{NOW - 91 * DAY}", session_id="s", seq=1,
-                       conclusion="老存根", db_path=db)
-    _turn_at(db, "s", NOW - 80 * DAY)
-    store.save_receipt(turn_id=f"t{NOW - 80 * DAY}", session_id="s", seq=2,
-                       conclusion="新存根", db_path=db)
-
-    stats = store.purge(now=NOW, db_path=db)
-    assert stats["receipts_deleted"] == 1
-    kept = [r["conclusion"] for r in store.session_receipts("s", db_path=db)]
-    assert kept == ["新存根"]
+    _turn_at(db, "s", NOW - 2 * DAY)
+    assert _answers(db, "s") == ["答"]                                     # 默认 3 天
+    rows = store.session_rows("s", answer_days=1, now=NOW, db_path=db)
+    assert rows[0]["answer"] is None                                       # 改 1 天
+    assert _answers(db, "s") == ["答"]                                     # 库里没动
 
 
-def test_session_deleted_after_ninety_days_idle(db):
+# ====== 会话窗口：只影响列表 ======
+
+def test_expired_session_leaves_list_but_stays_in_db(db):
     _session_at(db, "old", NOW - 91 * DAY)
     _turn_at(db, "old", NOW - 91 * DAY)
     _session_at(db, "fresh", NOW - 89 * DAY)
 
-    stats = store.purge(now=NOW, db_path=db)
-    assert stats["sessions_deleted"] == 1
-    assert store.get_session("old", db_path=db) is None
-    assert store.session_rows("old", db_path=db) == []       # turns 级联
-    assert store.get_session("fresh", db_path=db) is not None
+    listed = [r["session_id"] for r in store.list_sessions("c", now=NOW, db_path=db)]
+    assert listed == ["fresh"]
+
+    old = store.get_session("old", db_path=db)
+    assert old is not None                                     # 行还在
+    assert store.session_visible(old, now=NOW) is False
+    assert store.session_rows("old", now=NOW, db_path=db)      # turns 还在
 
 
-def test_purge_is_idempotent(db):
+def test_visible_window_is_configurable(db):
+    _session_at(db, "s", NOW - 10 * DAY)
+    assert store.list_sessions("c", now=NOW, db_path=db)                       # 默认 90 天
+    assert store.list_sessions("c", visible_days=7, now=NOW, db_path=db) == []  # 改 7 天
+
+
+# ====== 统计：只读，永远不写 ======
+
+def test_retention_stats_is_readonly_and_idempotent(db):
     _session_at(db, "s", NOW)
     _turn_at(db, "s", NOW - 5 * DAY)
-    first = store.purge(now=NOW, db_path=db)
-    second = store.purge(now=NOW, db_path=db)
-    assert first["answers_cleared"] == 1
-    assert second == {"answers_cleared": 0, "receipts_deleted": 0, "sessions_deleted": 0}
+    _session_at(db, "gone", NOW - 120 * DAY)
+
+    first = store.retention_stats(now=NOW, db_path=db)
+    second = store.retention_stats(now=NOW, db_path=db)
+    assert first == second
+    assert first["answers_expired_kept"] == 1
+    assert first["sessions_expired_kept"] == 1
+    # 什么都没被删
+    assert store.get_session("gone", db_path=db) is not None
+    assert store.session_rows("s", now=NOW - 10 * DAY, db_path=db)[0]["answer"] == "答"
 
 
-def test_answer_window_is_configurable(tmp_path):
-    """留存窗口走参数（api_server 从 env 读后传进来），改 1 天就该只留 1 天。"""
-    path = tmp_path / "sessions.db"
-    store.init_db(path)
-    store.ensure_session(session_id="s", client_id="c", now=NOW, db_path=path)
-    store.append_turn(session_id="s", turn_id="t1", question="问", answer="答",
-                      now=NOW - 2 * DAY, db_path=path)
-    stats = store.purge(answer_days=1, now=NOW, db_path=path)   # 模拟改成 1 天
-    assert stats["answers_cleared"] == 1
+def test_retention_stats_counts_hidden(db):
+    _session_at(db, "a", NOW)
+    _session_at(db, "b", NOW)
+    store.hide_session("a", db_path=db)
+    stats = store.retention_stats(now=NOW, db_path=db)
+    assert stats["sessions_hidden_kept"] == 1
+    assert store.get_session("a", db_path=db) is not None      # 隐藏也没删

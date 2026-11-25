@@ -73,8 +73,8 @@ def test_append_turn_unknown_session_raises(db):
 def test_append_turn_partial_answer_flagged(db):
     sid = _mk_session(db)
     _add(db, sid, q="q", a="半截", answer_partial=True)
-    rows = store.session_rows(sid, db_path=db)
-    assert rows[-1]["answer"] == "半截"
+    rows = store.session_rows(sid, now=1001, db_path=db)      # 新鲜数据才看得到原文
+    assert rows[-1]["answer"] == "半截" and rows[-1]["answer_partial"] is True
 
 
 def test_concurrent_append_no_duplicate_seq(db):
@@ -170,45 +170,83 @@ def test_list_sessions_isolated_and_sorted(db):
     store.ensure_session(session_id="a1", client_id="cA", now=100, db_path=db)
     store.ensure_session(session_id="a2", client_id="cA", now=300, db_path=db)
     store.ensure_session(session_id="b1", client_id="cB", now=200, db_path=db)
-    rows = store.list_sessions("cA", db_path=db)
+    rows = store.list_sessions("cA", now=400, db_path=db)
     assert [r["session_id"] for r in rows] == ["a2", "a1"]
     assert rows[0]["turns_available"] == 0
-    assert store.list_sessions("cZ", db_path=db) == []
+    assert store.list_sessions("cZ", now=400, db_path=db) == []
 
 
 def test_list_sessions_limit(db):
     for i in range(5):
         store.ensure_session(session_id=f"s{i}", client_id="c", now=i, db_path=db)
-    assert len(store.list_sessions("c", limit=2, db_path=db)) == 2
+    assert len(store.list_sessions("c", limit=2, now=10, db_path=db)) == 2
 
 
-def test_delete_session_cascades(db):
+def test_hide_session_keeps_every_row(db):
+    """软删只写 hidden_at：会话行、轮次、原文一个都不能少（数据要留着做分析）。"""
     sid = _mk_session(db)
-    _add(db, sid, q="q", a="a")
-    assert store.delete_session(sid, db_path=db) is True
-    assert store.get_session(sid, db_path=db) is None
-    assert store.session_rows(sid, db_path=db) == []
+    _add(db, sid, q="q", a="a", now=1000)
+
+    assert store.hide_session(sid, db_path=db) is True
+    row = store.get_session(sid, db_path=db)
+    assert row is not None and row["hidden_at"] is not None      # 行还在
+    assert store.session_rows(sid, now=1001, db_path=db)[0]["answer"] == "a"   # 原文还在
+    # 只是列表里不出现
+    assert all(x["session_id"] != sid for x in store.list_sessions("c1", db_path=db))
+    assert store.session_visible(row, now=1001) is False
+    # 幂等：再删一次返回 False，hidden_at 不动
+    assert store.hide_session(sid, db_path=db) is False
 
 
-def test_delete_session_requires_matching_client(db):
-    """别人的会话删不掉，而且返回值和「不存在」一模一样（不能拿来探测）。"""
+def test_hide_session_requires_matching_client(db):
+    """别人的会话隐藏不掉，返回值和「不存在」一样（不能拿来探测）。"""
     _mk_session(db, sid="mine", cid="c1")
-    _add(db, "mine", q="q", a="a")
+    _add(db, "mine", q="q", a="a", now=1000)
     _mk_session(db, sid="other", cid="c2")
 
-    assert store.delete_session("mine", client_id="c2", db_path=db) is False
-    assert store.delete_session("nope", client_id="c1", db_path=db) is False
-    assert store.get_session("mine", db_path=db) is not None      # 还在
+    assert store.hide_session("mine", client_id="c2", db_path=db) is False
+    assert store.hide_session("nope", client_id="c1", db_path=db) is False
+    assert store.get_session("mine", db_path=db)["hidden_at"] is None
 
-    assert store.delete_session("mine", client_id="c1", db_path=db) is True
-    assert store.get_session("other", db_path=db) is not None     # 别误删
+    assert store.hide_session("mine", client_id="c1", db_path=db) is True
+    assert store.get_session("other", db_path=db)["hidden_at"] is None   # 别误伤
+
+
+def test_expired_session_is_invisible_but_kept(db):
+    """超过可见期的会话：列表不返回、visible 为 False，但行还在。"""
+    _mk_session(db, sid="old", cid="c1", now=1000)
+    assert store.list_sessions("c1", now=1000 + 89 * 86400, db_path=db)
+    assert store.list_sessions("c1", now=1000 + 91 * 86400, db_path=db) == []
+    row = store.get_session("old", db_path=db)
+    assert row is not None and not store.session_visible(row, now=1000 + 91 * 86400)
+
+
+def test_expired_answer_hidden_from_view_but_kept(db):
+    """3 天前的答案只在返回时置 None，库里 answer 字段不动。"""
+    sid = _mk_session(db)
+    _add(db, sid, q="问", a="答", now=1000)
+    rows = store.session_rows(sid, now=1000 + 4 * 86400, db_path=db)
+    assert rows[0]["answer"] is None and rows[0]["answer_expired"] is True
+    # 库里原文还在
+    assert store.session_rows(sid, now=1001, db_path=db)[0]["answer"] == "答"
+
+
+def test_retention_stats_never_deletes(db):
+    """留存统计只读：跑完之后行数、原文都不变。"""
+    sid = _mk_session(db, now=1000)
+    _add(db, sid, q="问", a="答", now=1000)
+    stats = store.retention_stats(now=1000 + 400 * 86400, db_path=db)
+    assert stats["answers_expired_kept"] == 1
+    assert stats["sessions_expired_kept"] == 1
+    assert store.get_session(sid, db_path=db) is not None
+    assert store.session_rows(sid, now=1001, db_path=db)[0]["answer"] == "答"
 
 
 def test_session_rows_marks_expired_answer(db):
     sid = _mk_session(db)
     _add(db, sid, q="问", a="答", now=1001)
     _add(db, sid, q="问2", a=None, now=1002)
-    rows = store.session_rows(sid, db_path=db)
+    rows = store.session_rows(sid, now=1003, db_path=db)
     assert [r["answer_expired"] for r in rows] == [False, True]
 
 

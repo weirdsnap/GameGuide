@@ -34,7 +34,7 @@
 | `GAMEGUIDE_SESSION_DB` | `data/sessions.db` | 库文件位置 |
 | `GAMEGUIDE_RETENTION_ANSWER_DAYS` | `3` | `turns.answer` 保留天数，过期置 NULL |
 | `GAMEGUIDE_RETENTION_RECEIPT_DAYS` | `90` | receipts 保留天数 |
-| `GAMEGUIDE_RETENTION_SESSION_DAYS` | `90` | session 无活动多少天后整行删除（含 turns/receipts） |
+| `GAMEGUIDE_RETENTION_SESSION_DAYS` | `90` | session 无活动多少天后**不再展示**（行与 turns 保留） |
 | `GAMEGUIDE_SERVER_HISTORY` | `0` | `1` = 服务端权威装配上下文；`0` = 仍用前端 history（迁移期） |
 | `GAMEGUIDE_SESSION_MAX_TURNS` | `6` | 装配时保留的原文轮数（含本轮之前的最近 6 轮） |
 | `GAMEGUIDE_SESSION_MAX_CHARS` | `6000` | 装配时原文总字符预算（与 `trim_history` 一致） |
@@ -252,14 +252,16 @@ DELETE FROM sessions WHERE last_active < :session_cutoff;   -- 级联删 turns/r
 
 ### 4.4 `POST /api/sessions/{session_id}/reset` → 进度归零（`progress=NULL`）。
 
-### 4.5 `DELETE /api/sessions/{session_id}?client_id=xxx` → 删整段（用户主动清）
+### 4.5 `DELETE /api/sessions/{session_id}?client_id=xxx` → 从用户视图里删掉（**软删**）
 
+- 只写 `sessions.hidden_at`，**不删任何数据**：session 行、turns、receipts、问答原文全部保留，
+  后台分析（看板、`turns_report.py`）照常统计得到。`data/turns/*.jsonl` 一直全量留档。
 - `client_id` **必填**：会话按浏览器 `client_id` 分组，不带就没人能证明归属，直接 400。
 - 带上了但会话不存在 / 不属于该 client → `200 {"deleted": false}`，**不区分原因**
   （否则可以拿 session_id 探测别人的会话在不在）。
-- 删除命中 → `200 {"deleted": true}`，`turns` 与 `receipts` 由外键 `ON DELETE CASCADE`
-  一并清掉；已消耗的额度不退。
-- 幂等：重复删同一条返回 `deleted: false`，不报错。
+- 首次隐藏命中 → `200 {"deleted": true}`；已隐藏过再删 → `false`（幂等，`hidden_at` 不覆盖）。
+- 隐藏后：`GET /api/sessions` 不再返回，`GET /api/sessions/{id}` 返回 404。
+- 已消耗的额度不退。
 
 前端「历史」浮层每条右侧有删除按钮（`×`），点之前 `confirm` 一次；删掉的是当前
 正在看的会话时，直接退回「新对话」状态，避免下一问写回已删的 session。
@@ -406,6 +408,24 @@ n = db.execute("SELECT COUNT(*) FROM turns WHERE date(ts,'unixepoch','localtime'
 print("jsonl", len(lines), "sqlite", n, "ok" if len(lines) == n else "MISMATCH")
 PY
 ```
+
+---
+
+## 9.5 留存与删除口径（2026-11-25 定稿）
+
+**数据一律保留，只控制「用户能不能看到」。**
+
+| 场景 | 用户视角 | 库里 |
+|---|---|---|
+| 点历史里的 × | 从列表消失、详情 404 | `sessions.hidden_at` 置时间，其余不动 |
+| 答案超过 3 天 | 灰字占位「已超过保留期」 | `turns.answer` 原文不动（读时按 `ts` 判断） |
+| 会话 90 天无活动 | 列表/详情都不出现 | 行与 turns、receipts 全留 |
+
+`store.retention_stats()` 只统计「已过期但保留」的行数，供观测，**不写库**。
+以前被 `purge` 每小时真删的那套已废弃。
+
+副产物：`session_turns`（拼模型上下文那条路）现在能用到超过 3 天的答案——上下文更连贯，
+上限仍由 `limit_turns` 与 `trim_history` 控制。
 
 ---
 

@@ -203,7 +203,8 @@ def test_session_reset_and_delete(monkeypatch, tmp_path):
 
     status, res = _call(factory, "DELETE", f"/api/sessions/{sid}?client_id={cid}")
     assert status == 200 and res["deleted"] is True
-    assert store.get_session(sid, db_path=api_server.SESSION_DB) is None
+    row = store.get_session(sid, db_path=api_server.SESSION_DB)
+    assert row is not None and row["hidden_at"] is not None   # 软删：行还在
 
 
 # ====== 降级 ======
@@ -247,7 +248,7 @@ def test_session_routes_report_503_when_store_down(monkeypatch, tmp_path):
     monkeypatch.setattr(api_server.store, "get_session", boom)
     assert _call(factory, "GET", f"/api/sessions/{sid}")[0] == 503
     assert _call(factory, "POST", f"/api/sessions/{sid}/reset")[0] == 503
-    monkeypatch.setattr(api_server.store, "delete_session", boom)
+    monkeypatch.setattr(api_server.store, "hide_session", boom)
     assert _call(factory, "DELETE", f"/api/sessions/{sid}?client_id={'c'*32}")[0] == 503
 
 
@@ -328,18 +329,29 @@ def test_delete_session_requires_client_id(monkeypatch, tmp_path):
     assert store.get_session(sid, db_path=api_server.SESSION_DB) is not None
 
 
-def test_delete_session_by_owner_removes_rows(monkeypatch, tmp_path):
+def test_delete_session_by_owner_hides_but_keeps_data(monkeypatch, tmp_path):
+    """用户点删除 = 对他不可见。库里 session 行、turns、原文全都留着（后台分析要用）。"""
     factory, _ = _fresh(monkeypatch, tmp_path)
     _, body = _call(factory, "POST", "/api/ask", {"question": "要删的"})
     sid, cid = body["session_id"], body["client_id"]
 
     status, data = _call(factory, "DELETE", f"/api/sessions/{sid}?client_id={cid}")
     assert status == 200 and data["deleted"] is True
-    assert store.get_session(sid, db_path=api_server.SESSION_DB) is None
-    assert store.session_rows(sid, db_path=api_server.SESSION_DB) == []
-    # 列表里也不再出现
+
+    # 用户视角：列表没有、详情 404
     assert all(x["session_id"] != sid
                for x in store.list_sessions(cid, db_path=api_server.SESSION_DB))
+    assert _call(factory, "GET", f"/api/sessions/{sid}")[0] == 404
+
+    # 后台视角：一行不少
+    row = store.get_session(sid, db_path=api_server.SESSION_DB)
+    assert row is not None and row["hidden_at"] is not None
+    rows = store.session_rows(sid, db_path=api_server.SESSION_DB)
+    assert rows and rows[0]["question"] == "要删的"
+
+    # 幂等
+    status, data = _call(factory, "DELETE", f"/api/sessions/{sid}?client_id={cid}")
+    assert status == 200 and data["deleted"] is False
 
 
 def test_delete_session_of_other_client_is_noop(monkeypatch, tmp_path):

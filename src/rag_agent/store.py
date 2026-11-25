@@ -34,7 +34,8 @@ __all__ = [
     "touch_session",
     "get_session",
     "list_sessions",
-    "delete_session",
+    "hide_session",
+    "session_visible",
     "reset_progress",
     "update_game",
     "append_turn",
@@ -42,11 +43,18 @@ __all__ = [
     "session_rows",
     "save_receipt",
     "session_receipts",
-    "purge",
+    "retention_stats",
 ]
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_DB = PROJECT_ROOT / "data" / "sessions.db"
+
+# 会话对用户可见的窗口（天）。超过就不在列表/详情里出现，但**不删数据**：
+# 2026-11-25 口径：过期和用户主动删除都只是「对我不可见」，库里与 turns jsonl 全量保留，
+# 后台分析（看板、turns_report）照常能统计到。
+VISIBLE_SESSION_DAYS = 90
+# 用户视角下答案原文的可见窗口（天）。同样只影响展示，库里 answer 字段不清。
+VISIBLE_ANSWER_DAYS = 3
 
 # 模块级默认库路径；api_server 启动时用 set_db_path() 指过去，测试用 tmp 目录
 _DB_PATH: Optional[Path] = None
@@ -75,7 +83,8 @@ CREATE TABLE IF NOT EXISTS sessions (
     progress     INTEGER,
     progress_src TEXT,
     title        TEXT,
-    n_turns      INTEGER NOT NULL DEFAULT 0
+    n_turns      INTEGER NOT NULL DEFAULT 0,
+    hidden_at    INTEGER
 );
 CREATE INDEX IF NOT EXISTS idx_sessions_client ON sessions(client_id, last_active DESC);
 CREATE INDEX IF NOT EXISTS idx_sessions_active ON sessions(last_active);
@@ -166,14 +175,22 @@ def _read_one(sql: str, params=(), *, db_path=None) -> Optional[Dict]:
 
 
 def init_db(path=None) -> None:
-    """幂等建表。失败抛 StoreError（调用方只告警，服务照常起）。"""
+    """幂等建表 + 补列。失败抛 StoreError（调用方只告警，服务照常起）。"""
     conn = _connect(path)
     try:
         conn.executescript(SCHEMA)
+        _migrate(conn)
     except sqlite3.Error as e:
         raise StoreError(f"建表失败: {e}") from e
     finally:
         conn.close()
+
+
+def _migrate(conn: sqlite3.Connection) -> None:
+    """老库补列。SQLite 没有 ADD COLUMN IF NOT EXISTS，先看 PRAGMA。"""
+    cols = {r["name"] for r in conn.execute("PRAGMA table_info(sessions)")}
+    if "hidden_at" not in cols:
+        conn.execute("ALTER TABLE sessions ADD COLUMN hidden_at INTEGER")
 
 
 # ====== sessions ======
@@ -201,33 +218,55 @@ def get_session(session_id: str, *, db_path=None) -> Optional[Dict]:
                      (session_id,), db_path=db_path)
 
 
-def list_sessions(client_id: str, *, limit: int = 10, db_path=None) -> List[Dict]:
-    """只返回该 client 的会话，按最近活跃倒序。跨 client 不可见。"""
+def list_sessions(client_id: str, *, limit: int = 10,
+                  visible_days: int = VISIBLE_SESSION_DAYS, now=None,
+                  db_path=None) -> List[Dict]:
+    """只返回该 client 里「对用户可见」的会话，按最近活跃倒序。
+
+    可见 = 用户没隐藏过（hidden_at IS NULL）+ 在可见期内。隐藏和过期都只是不展示，
+    数据一行不少（理由见 VISIBLE_SESSION_DAYS 上的说明）。
+    """
+    cutoff = _now(now) - int(visible_days) * 86400
     return _read_all(
         "SELECT s.*, (SELECT COUNT(*) FROM turns t"
         "             WHERE t.session_id = s.session_id AND t.answer IS NOT NULL)"
         "        AS turns_available"
-        " FROM sessions s WHERE s.client_id=?"
+        " FROM sessions s WHERE s.client_id=? AND s.hidden_at IS NULL"
+        "   AND s.last_active >= ?"
         " ORDER BY s.last_active DESC LIMIT ?",
-        (client_id, int(limit)), db_path=db_path,
+        (client_id, cutoff, int(limit)), db_path=db_path,
     )
 
 
-def delete_session(session_id: str, *, client_id: Optional[str] = None,
-                   db_path=None) -> bool:
-    """删掉一段对话。turns / receipts 由外键 ON DELETE CASCADE 一并清掉。
+def session_visible(row: Optional[Dict], *, visible_days: int = VISIBLE_SESSION_DAYS,
+                    now=None) -> bool:
+    """会话对用户是否可见（未隐藏 + 未过期）。API 层用它决定 404 还是正常返回。"""
+    if not row:
+        return False
+    if row.get("hidden_at"):
+        return False
+    cutoff = _now(now) - int(visible_days) * 86400
+    return int(row.get("last_active") or 0) >= cutoff
 
-    给了 client_id 就只允许归属者删：别人的会话一律返回 False，而且不区分
-    「不存在」和「不是你的」（否则可以拿 session_id 探测别人的会话有没有）。
-    幂等：删不存在的会话返回 False，不抛异常。
+
+def hide_session(session_id: str, *, client_id: Optional[str] = None, now=None,
+                 db_path=None) -> bool:
+    """把一段会话从用户视图里去掉（软删）：只写 hidden_at，不动任何数据。
+
+    turns / receipts / 问答原文全部保留；`data/turns/*.jsonl` 本来就全量留档，
+    后台分析（看板、turns_report）照常统计得到。
+    给了 client_id 就只允许归属者隐藏：别人的一律返回 False，而且不区分
+    「不存在」和「不是你的」（否则可以拿 session_id 探测别人的会话在不在）。
+    幂等：已隐藏 / 不存在的会话返回 False，不抛异常。
     """
     if client_id is not None:
         row = _read_one("SELECT client_id FROM sessions WHERE session_id=?",
                         (session_id,), db_path=db_path)
         if not row or row["client_id"] != client_id:
             return False
-    return _write("DELETE FROM sessions WHERE session_id=?", (session_id,),
-                  db_path=db_path) > 0
+    return _write("UPDATE sessions SET hidden_at=?"
+                  " WHERE session_id=? AND hidden_at IS NULL",
+                  (_now(now), session_id), db_path=db_path) > 0
 
 
 def reset_progress(session_id: str, *, db_path=None) -> None:
@@ -337,8 +376,16 @@ def session_turns(session_id: str, *, limit_turns: int = 6, max_chars: int = 600
     return msgs
 
 
-def session_rows(session_id: str, *, limit: int = 50, db_path=None) -> List[Dict]:
-    """给前端恢复历史用：最近 limit 轮，按 seq 升序，含过期与半截标记。"""
+def session_rows(session_id: str, *, limit: int = 50,
+                 answer_days: int = VISIBLE_ANSWER_DAYS, now=None,
+                 db_path=None) -> List[Dict]:
+    """给前端恢复历史用：最近 limit 轮，按 seq 升序，含过期与半截标记。
+
+    「过期」只在返回时生效：超过 answer_days 的轮次把 answer 置成 None（前端显示灰字
+    占位），**库里的原文不动**。以前是 purge 每小时把 answer 真的 UPDATE 成 NULL，
+    2026-11-25 起不再删——数据要留着做分析。
+    """
+    cutoff = _now(now) - int(answer_days) * 86400
     rows = _read_all(
         "SELECT turn_id, seq, ts, question, answer, game, route, answer_partial"
         " FROM turns WHERE session_id=? ORDER BY seq DESC LIMIT ?",
@@ -346,7 +393,10 @@ def session_rows(session_id: str, *, limit: int = 50, db_path=None) -> List[Dict
     )
     out = []
     for r in reversed(rows):
-        r["answer_expired"] = r["answer"] is None
+        expired = r["answer"] is None or int(r["ts"] or 0) < cutoff
+        r["answer_expired"] = expired
+        if expired:
+            r["answer"] = None
         r["answer_partial"] = bool(r["answer_partial"])
         out.append(r)
     return out
@@ -380,36 +430,32 @@ def session_receipts(session_id: str, *, limit: int = 20, db_path=None) -> List[
 # ====== 留存清理 ======
 
 
-def purge(*, answer_days: int = 3, receipt_days: int = 90, session_days: int = 90,
-          now=None, db_path=None) -> Dict[str, int]:
-    """按留存策略清理：答案过期置空 / 存根过期删除 / 会话过期级联删除。
+def retention_stats(*, answer_days: int = VISIBLE_ANSWER_DAYS,
+                    session_days: int = VISIBLE_SESSION_DAYS, now=None,
+                    db_path=None) -> Dict[str, int]:
+    """统计「已过期但在库里保留」的数据量，只读不写。
 
-    幂等，可以每小时跑。返回各表影响行数。
+    2026-11-25 口径变更：不做任何物理清理。用户主动删除和到期过期都只是
+    「对用户不可见」（sessions.hidden_at / 读时按 ts 判断），原文、receipts、
+    session 行全部留在库里；`data/turns/*.jsonl` 一直是全量留档。
+
+    保留这个函数是为了保留观测量：库里堆了多少过期数据能一眼看到，
+    真要治理时再单独决定（而不是定时任务默默删掉）。
     """
     ts = _now(now)
     answer_cutoff = ts - int(answer_days) * 86400
-    receipt_cutoff = ts - int(receipt_days) * 86400
     session_cutoff = ts - int(session_days) * 86400
-
-    conn = _connect(db_path)
-    stats = {"answers_cleared": 0, "receipts_deleted": 0, "sessions_deleted": 0}
-    try:
-        conn.execute("BEGIN IMMEDIATE")
-        stats["answers_cleared"] = conn.execute(
-            "UPDATE turns SET answer=NULL, answer_partial=0"
-            " WHERE answer IS NOT NULL AND ts < ?", (answer_cutoff,)).rowcount
-        stats["receipts_deleted"] = conn.execute(
-            "DELETE FROM receipts WHERE turn_id IN"
-            " (SELECT turn_id FROM turns WHERE ts < ?)", (receipt_cutoff,)).rowcount
-        stats["sessions_deleted"] = conn.execute(
-            "DELETE FROM sessions WHERE last_active < ?", (session_cutoff,)).rowcount
-        conn.execute("COMMIT")
-        return stats
-    except sqlite3.Error as e:
-        try:
-            conn.execute("ROLLBACK")
-        except sqlite3.Error:
-            pass
-        raise StoreError(f"purge 失败: {e}") from e
-    finally:
-        conn.close()
+    answers = _read_one(
+        "SELECT COUNT(*) AS n FROM turns WHERE answer IS NOT NULL AND ts < ?",
+        (answer_cutoff,), db_path=db_path)
+    sessions_expired = _read_one(
+        "SELECT COUNT(*) AS n FROM sessions WHERE hidden_at IS NULL AND last_active < ?",
+        (session_cutoff,), db_path=db_path)
+    hidden = _read_one(
+        "SELECT COUNT(*) AS n FROM sessions WHERE hidden_at IS NOT NULL",
+        db_path=db_path)
+    return {
+        "answers_expired_kept": int((answers or {}).get("n") or 0),
+        "sessions_expired_kept": int((sessions_expired or {}).get("n") or 0),
+        "sessions_hidden_kept": int((hidden or {}).get("n") or 0),
+    }
