@@ -155,12 +155,40 @@ progress_source                                            全为 NULL
 结论：慢不在单次 LLM 延迟（每次 2-12 秒都正常），而在**轮次多**。压这个的方向是
 「一次 LLM 并行发更多精简的工具调用」以及提示词层约束"够用就停"，不是压历史。
 
+## 10. 【新】跨端断点：`progress` 事件被 api_server 丢掉
+
+Mac 侧 f2fb79f 已在 `multi_agent.ask_stream` 里实现了 `progress` 事件
+（`phase` / `tool` / `round` / `elapsed`，格式与前端映射表一致），但
+`api_server.handle_ask_stream` 的事件分发只有三个分支：
+
+```
+if event_type == "token" ... elif "meta" ... elif "error" ...
+```
+
+没有 `progress` 分支 → 事件在服务器侧被静默丢弃，前端永远收不到。
+Mac 的 8 条测试是 `ask_stream` 生成器级（离线假图），不覆盖 HTTP 层，所以测试全绿也发现不了。
+
+补法（服务器侧，4 行）：
+
+```python
+elif event_type == "progress":
+    payload = json.dumps({"type": "progress", **data}, ensure_ascii=False)
+    await resp.write(f"data: {payload}\n\n".encode("utf-8"))
+```
+
+配套测试：`test_ask_stream_progress_forwarded`（假生成器产出 progress → 断言 SSE 里有
+`"type": "progress"`），与 L0 心跳/断流的测试同批写。
+
+顺带结论：**L2 的"实现完成"和"用户能看到"之间隔着一次 api_server 改动**，
+跨端协议改动必须两头都算完再报完成。
+
 ## 9. 优先级
 
 | # | 事项 | 归属 | 依据 |
 |---|---|---|---|
 | 1 | L0 SSE 心跳 + 断流记账 + `first_token_ms` | 服务器侧 | §1 §2 |
-| 2 | `progress` 事件（工具 id + round） | Mac 侧 | §2 |
+| 2 | `progress` 事件（工具 id + round） | Mac 侧 **已完成 f2fb79f** | §2 |
+| 2b | api_server 转发 `progress`（否则事件到不了前端） | 服务器侧 | §10 |
 | 3 | AgentState 补 4 个字段 + 回归测试 | Mac 侧 + 服务器侧测试 | §3 |
 | 4 | 开 `SERVER_HISTORY=1` 观察 2 天 | 服务器侧 | §4 |
 | 5 | 前端 token 渲染节流（rAF/60ms） | 前端 | §6 |
