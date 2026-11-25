@@ -345,10 +345,14 @@ python scripts/eval/ragas_eval.py --game all --limit 5   # 报告输出到 evalu
   一屏空白）、锚定必须两次修正（估算高度会留 290px 偏移）、节流只能用 `_inWinOp`
   状态锁（时间节流会丢掉"甩到顶"的事件且不会重来）。
   离线测试 `tests/test_chat_window.js`（抽真实 methods/computed 跑假布局，17 条断言）。
-- **数据侧待办**：terraria 中文 wiki 已全量替换（0395909，3031 页），但服务器上的
-  `games/terraria/vectorstore` 还是 07-14 的旧库——**检索链路与源数据已脱节**，
-  需要 Mac 重建后传回。其余 7 个库文件版本未变。
-- 主套件 329 passed / 22 skipped / 1 xfailed。
+- **新库已上线**：terraria（31,248 块，en 8121 / zh 23127）与 silksong（339 块，全 en）
+  两个向量库 11-25 12:17–12:18 上传，language 标签齐全，API 已重启（PID 2920256）。
+- **但库被切碎了（新问题，记 `MAC_SIDE_TASKS.md` P0-4）**：`refetch_wiki.py` 的页面
+  分隔是 `---`（行数恰等于总页数），页内小节也是 `##`；建库分页器只按 `## ` 切，
+  于是 48.1% 的块 title 变成「制作/历史/花絮/备注/小贴士」。实测查「克苏鲁之眼怎么召唤」
+  命中不到页面本身。契约测试 `tests/test_wiki_page_split.py` 已钉住（当前 xfail）。
+  **教训：库能加载、language 齐全 ≠ 检索可用，上传后必须跑一条真实查询看 top-k 是什么。**
+- 主套件 330 passed / 22 skipped / 2 xfailed。
 
 ### 2026-11-22 — 数据看板 P0（只读后台）
 
