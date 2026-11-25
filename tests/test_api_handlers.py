@@ -227,7 +227,9 @@ def test_ask_stream_SSE_事件与观测记录(monkeypatch, tmp_path):
 
     assert status == 200
     events = [json.loads(line[len("data: "):]) for line in body.splitlines() if line.startswith("data: ")]
-    assert [e["type"] for e in events] == ["meta", "token", "token", "done"]
+    # 第一条固定是 session：断连时收不到 done，前端只能靠它拿到 session_id
+    assert [e["type"] for e in events] == ["session", "meta", "token", "token", "done"]
+    assert events[0]["session_id"] and events[0]["turn_id"]
     assert "".join(e.get("content", "") for e in events if e["type"] == "token") == "克苏鲁之眼"
     assert events[-1]["quota"]["remaining"] == 99
 
@@ -255,7 +257,7 @@ def test_ask_stream_progress_事件透传给前端(monkeypatch, tmp_path):
 
     assert status == 200
     events = [json.loads(line[len("data: "):]) for line in body.splitlines() if line.startswith("data: ")]
-    assert [e["type"] for e in events] == ["meta", "progress", "progress", "token", "done"]
+    assert [e["type"] for e in events] == ["session", "meta", "progress", "progress", "token", "done"]
     prog = [e for e in events if e["type"] == "progress"]
     assert prog[0]["phase"] == "tool_start"
     assert prog[0]["tool"] == "search_knowledge_base"

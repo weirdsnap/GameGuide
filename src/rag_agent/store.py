@@ -39,6 +39,9 @@ __all__ = [
     "reset_progress",
     "update_game",
     "append_turn",
+    "begin_turn",
+    "finish_turn",
+    "discard_turn",
     "session_turns",
     "session_rows",
     "save_receipt",
@@ -105,6 +108,7 @@ CREATE TABLE IF NOT EXISTS turns (
     tool_calls      INTEGER,
     elapsed_ms      INTEGER,
     answer_partial  INTEGER NOT NULL DEFAULT 0,
+    discarded       INTEGER NOT NULL DEFAULT 0,
     UNIQUE(session_id, seq)
 );
 CREATE INDEX IF NOT EXISTS idx_turns_session ON turns(session_id, seq);
@@ -191,6 +195,9 @@ def _migrate(conn: sqlite3.Connection) -> None:
     cols = {r["name"] for r in conn.execute("PRAGMA table_info(sessions)")}
     if "hidden_at" not in cols:
         conn.execute("ALTER TABLE sessions ADD COLUMN hidden_at INTEGER")
+    tcols = {r["name"] for r in conn.execute("PRAGMA table_info(turns)")}
+    if "discarded" not in tcols:
+        conn.execute("ALTER TABLE turns ADD COLUMN discarded INTEGER NOT NULL DEFAULT 0")
 
 
 # ====== sessions ======
@@ -345,6 +352,114 @@ def append_turn(*, session_id: str, turn_id: str, question: str,
         conn.close()
 
 
+def begin_turn(*, session_id: str, turn_id: str, question: str, now=None,
+               db_path=None) -> int:
+    """请求一进来就先落一行占位（answer=NULL），返回 seq。
+
+    为什么不等回答完再写：用户在「思考中」刷新页面/关标签，HTTP 连接断掉，
+    上游生成器被取消，一个 token 都没产出——以前这轮就彻底不存在了，
+    历史里连问题都找不到（只剩一个空会话）。先占位，答完再由 finish_turn 补。
+
+    占位行不动 sessions 的 n_turns/title/game/progress：那些等真答出来再算，
+    菜单轮被 discard 时也不会污染会话元数据。
+    """
+    ts = _now(now)
+    conn = _connect(db_path)
+    try:
+        conn.execute("BEGIN IMMEDIATE")
+    except sqlite3.Error as e:
+        conn.close()
+        raise StoreError(f"取写锁失败: {e}") from e
+    try:
+        row = conn.execute("SELECT 1 FROM sessions WHERE session_id=?", (session_id,)).fetchone()
+        if row is None:
+            raise StoreError(f"session 不存在: {session_id}")
+        seq = conn.execute("SELECT COALESCE(MAX(seq), 0) + 1 FROM turns WHERE session_id=?",
+                           (session_id,)).fetchone()[0]
+        conn.execute(
+            "INSERT INTO turns (turn_id, session_id, seq, ts, question, answer,"
+            " answer_partial, discarded) VALUES (?,?,?,?,?,NULL,1,0)",
+            (turn_id, session_id, seq, ts, question),
+        )
+        conn.execute("UPDATE sessions SET last_active=? WHERE session_id=?", (ts, session_id))
+        conn.execute("COMMIT")
+        return int(seq)
+    except sqlite3.Error as e:
+        conn.execute("ROLLBACK")
+        raise StoreError(f"begin_turn 失败: {e}") from e
+    except Exception:
+        conn.execute("ROLLBACK")
+        raise
+    finally:
+        conn.close()
+
+
+def finish_turn(*, turn_id: str, answer: Optional[str], route: Optional[str] = None,
+                game: Optional[str] = None, progress_level: Optional[int] = None,
+                progress_source: Optional[str] = None,
+                tokens_in: Optional[int] = None, tokens_out: Optional[int] = None,
+                tool_calls: Optional[int] = None, elapsed_ms: Optional[int] = None,
+                answer_partial: bool = False, now=None, db_path=None) -> None:
+    """把 begin_turn 留下的占位补完：写答案与观测字段，并把会话元数据算进去。
+
+    与 append_turn 的区别只在「什么时候写」。会话元数据（n_turns / title / game /
+    进度 max）仍然只在这里更新一次，所以 begin→finish 与 append 语义等价。
+    """
+    ts = _now(now)
+    conn = _connect(db_path)
+    try:
+        conn.execute("BEGIN IMMEDIATE")
+    except sqlite3.Error as e:
+        conn.close()
+        raise StoreError(f"取写锁失败: {e}") from e
+    try:
+        row = conn.execute(
+            "SELECT session_id, question, discarded FROM turns WHERE turn_id=?",
+            (turn_id,)).fetchone()
+        if row is None:
+            raise StoreError(f"turn 不存在: {turn_id}")
+        if int(row["discarded"] or 0):
+            conn.execute("COMMIT")
+            return
+        conn.execute(
+            "UPDATE turns SET answer=?, route=?, game=?, progress_level=?,"
+            " progress_source=?, tokens_in=?, tokens_out=?, tool_calls=?,"
+            " elapsed_ms=?, answer_partial=? WHERE turn_id=?",
+            (answer, route, game, progress_level, progress_source, tokens_in,
+             tokens_out, tool_calls, elapsed_ms, 1 if answer_partial else 0, turn_id),
+        )
+        session_id = row["session_id"]
+        srow = conn.execute("SELECT progress, progress_src FROM sessions WHERE session_id=?",
+                            (session_id,)).fetchone()
+        old_progress = srow["progress"] if srow else None
+        old_src = srow["progress_src"] if srow else None
+        if progress_level is not None and (old_progress is None or progress_level > old_progress):
+            old_progress, old_src = int(progress_level), progress_source
+        conn.execute(
+            "UPDATE sessions SET last_active=?, n_turns=n_turns+1,"
+            " title=COALESCE(title, ?), game=COALESCE(?, game),"
+            " progress=?, progress_src=? WHERE session_id=?",
+            (ts, (row["question"] or "")[:40], game, old_progress, old_src, session_id),
+        )
+        conn.execute("COMMIT")
+    except sqlite3.Error as e:
+        conn.execute("ROLLBACK")
+        raise StoreError(f"finish_turn 失败: {e}") from e
+    except Exception:
+        conn.execute("ROLLBACK")
+        raise
+    finally:
+        conn.close()
+
+
+def discard_turn(*, turn_id: str, db_path=None) -> None:
+    """标记这一轮不算数（菜单/未识别/失败轮）：保留原始行但所有查询都过滤掉。
+
+    不做物理 DELETE：数据只在「对用户不可见」这一层处理，库里留全量。
+    """
+    _write("UPDATE turns SET discarded=1 WHERE turn_id=?", (turn_id,), db_path=db_path)
+
+
 def _truncate(text: str) -> str:
     if len(text) <= MAX_MSG_CHARS:
         return text
@@ -360,7 +475,8 @@ def session_turns(session_id: str, *, limit_turns: int = 6, max_chars: int = 600
     """
     rows = _read_all(
         "SELECT question, answer FROM turns"
-        " WHERE session_id=? AND answer IS NOT NULL ORDER BY seq DESC LIMIT ?",
+        " WHERE session_id=? AND answer IS NOT NULL AND discarded=0"
+        " ORDER BY seq DESC LIMIT ?",
         (session_id, int(limit_turns)), db_path=db_path,
     )
 
@@ -388,11 +504,14 @@ def session_rows(session_id: str, *, limit: int = 50,
     cutoff = _now(now) - int(answer_days) * 86400
     rows = _read_all(
         "SELECT turn_id, seq, ts, question, answer, game, route, answer_partial"
-        " FROM turns WHERE session_id=? ORDER BY seq DESC LIMIT ?",
+        " FROM turns WHERE session_id=? AND discarded=0 ORDER BY seq DESC LIMIT ?",
         (session_id, int(limit)), db_path=db_path,
     )
     out = []
     for r in reversed(rows):
+        # answer 本来就是 NULL＝这轮没答完（思考中刷新/断连/进程重启）；
+        # 与「答过但超过保留期」要分开展示，文案完全不同。
+        r["answer_missing"] = r["answer"] is None
         expired = r["answer"] is None or int(r["ts"] or 0) < cutoff
         r["answer_expired"] = expired
         if expired:

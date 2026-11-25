@@ -217,6 +217,8 @@ class DailyQuota:
 
 # 这些路由没调 LLM（菜单、未识别游戏、出错），不该占用户额度
 NON_LLM_ROUTES = {"menu", "unknown", "error"}
+# 这些路由压根不算「一轮问答」：连占位行都不留在历史里（菜单轮刷新后消失是预期行为）
+DISCARD_ROUTES = {"menu", "unknown"}
 
 quota = DailyQuota(project_root / config["quota_file"], limit=config["daily_quota"])
 
@@ -557,16 +559,29 @@ def assemble_history(session_id: str | None, fallback):
         return fallback or []
 
 
-def save_turn(session_id: str | None, turn_id: str, question: str,
-              answer: str | None, meta: dict, elapsed_ms: int,
-              partial: bool = False) -> None:
-    """把一轮落进 SQLite。菜单/未识别轮由调用方跳过（不污染历史）。"""
+def begin_turn_safe(session_id: str | None, turn_id: str, question: str) -> None:
+    """调 LLM 之前先把这一轮占位写进库（answer=NULL）。
+
+    用户「思考中」刷新页面时连接会断、上游生成器被取消，一个 token 都产不出来；
+    以前这种轮次彻底消失，历史里只剩一个空会话。先占位，答完再补。
+    """
     if not session_id:
+        return
+    try:
+        store.begin_turn(session_id=session_id, turn_id=turn_id, question=question)
+    except store.StoreError:
+        logger.warning("turn 占位失败（不影响回答）: turn_id=%s", turn_id, exc_info=True)
+
+
+def finish_turn_safe(turn_id: str, answer: str | None, meta: dict, elapsed_ms: int,
+                     partial: bool = False) -> None:
+    """把占位行补完（答案 + 观测字段 + 会话元数据）。"""
+    if not turn_id:
         return
     meta = meta or {}
     try:
-        store.append_turn(
-            session_id=session_id, turn_id=turn_id, question=question, answer=answer,
+        store.finish_turn(
+            turn_id=turn_id, answer=answer,
             route=meta.get("route"), game=meta.get("game"),
             progress_level=meta.get("progress_level"),
             progress_source=meta.get("progress_source"),
@@ -577,6 +592,16 @@ def save_turn(session_id: str | None, turn_id: str, question: str,
         )
     except store.StoreError:
         logger.warning("turn 落库失败（不影响回答）: turn_id=%s", turn_id, exc_info=True)
+
+
+def discard_turn_safe(turn_id: str) -> None:
+    """菜单/未识别轮：标记不算数（不物理删，查询侧过滤）。"""
+    if not turn_id:
+        return
+    try:
+        store.discard_turn(turn_id=turn_id)
+    except store.StoreError:
+        logger.warning("turn 标记丢弃失败: turn_id=%s", turn_id, exc_info=True)
 
 
 async def cleanup_loop():
@@ -715,6 +740,7 @@ async def handle_ask(request):
     t0 = time.time()
     meta: dict = {}
     turn_id = new_turn_id()
+    begin_turn_safe(session_id, turn_id, question)
     try:
         answer = await asyncio.wait_for(
             asyncio.to_thread(
@@ -728,9 +754,11 @@ async def handle_ask(request):
         route = meta.get("route") or ""
         if route in NON_LLM_ROUTES:
             quota_status = quota.refund()
+        # 菜单轮连占位都不留；其余（含 error）保留这一行，刷新后用户至少看得到自己问过什么
+        if route in DISCARD_ROUTES:
+            discard_turn_safe(turn_id)
         else:
-            # 只有真答了才落库：菜单轮进历史只会干扰后续装配
-            save_turn(session_id, turn_id, question, answer, meta, int(elapsed * 1000))
+            finish_turn_safe(turn_id, answer, meta, int(elapsed * 1000))
         print(f"  [{time.strftime('%H:%M:%S')}] {ip[:15]:15s} | {question[:50]:50s} | {elapsed:.1f}s")
         log_turn(turn_record(ip=ip, question=question, elapsed=elapsed, meta=meta,
                              answer=answer, history_msgs=len(history or []),
@@ -792,6 +820,11 @@ async def handle_ask_stream(request):
 
     rate_limiter.record(ip)
 
+    # 先落占位行再开流：用户在「思考中」刷新会断连，那时一个 token 都没有，
+    # 不先占位这一轮就会彻底消失（历史里只剩空会话）。
+    turn_id = new_turn_id()
+    begin_turn_safe(session_id, turn_id, question)
+
     # SSE 响应头
     resp = web.StreamResponse(
         status=200,
@@ -812,7 +845,6 @@ async def handle_ask_stream(request):
     await resp.prepare(request)
 
     t0 = time.time()
-    turn_id = new_turn_id()
     token_count = 0
     answer_parts: list[str] = []
     meta: dict = {}
@@ -825,6 +857,16 @@ async def handle_ask_stream(request):
         await resp.write(b": open\n\n")
     except Exception:
         pass
+
+    # 会话身份先推给前端：断连时前端收不到 done 事件，拿不到 session_id 就没法在
+    # 刷新后恢复这一轮（历史面板里只会看到一个空会话）。这一条在开流后立刻发。
+    if session_id:
+        try:
+            await resp.write(
+                f"data: {json.dumps({'type': 'session', 'session_id': session_id, 'client_id': client_id, 'turn_id': turn_id}, ensure_ascii=False)}\n\n".encode("utf-8")
+            )
+        except Exception:
+            pass
 
     # ask_stream 的产出走队列，由下面的循环按心跳间隔取：
     # 工具调用阶段可能十几二十秒没有任何事件，光是「等」就会被中间设备当成死连接。
@@ -919,12 +961,16 @@ async def handle_ask_stream(request):
 
     elapsed = time.time() - t0
     print(f"  [{time.strftime('%H:%M:%S')}] {ip[:15]:15s} 💨 {question[:40]:40s} | {elapsed:.1f}s | {token_count}t")
-    # 落库放在公共出口：正常完成也走这里，超时/断连则标 answer_partial
+    # 落库放在公共出口：正常完成也走这里，超时/断连则标 answer_partial。
+    # 断连时一个 token 都没有（answer_text 为空）也**不删占位行**：
+    # 那一行留着 question、answer 为 NULL，前端恢复历史时显示「这轮没答完」。
     answer_text = "".join(answer_parts)
     route = meta.get("route") or ""
-    if route not in ("menu", "unknown") and answer_text:
-        save_turn(session_id, turn_id, question, answer_text, meta,
-                  int(elapsed * 1000), partial=stream_failed)
+    if route in DISCARD_ROUTES:
+        discard_turn_safe(turn_id)
+    else:
+        finish_turn_safe(turn_id, answer_text or None, meta,
+                         int(elapsed * 1000), partial=stream_failed)
     log_turn(turn_record(ip=ip, question=question, elapsed=elapsed, meta=meta,
                          streamed=True, chunks=token_count,
                          answer=answer_text or None,
