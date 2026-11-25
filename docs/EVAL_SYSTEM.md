@@ -236,6 +236,14 @@ bg3-to-oni-switch）全绿，证明修的是评测器而不是把问题掩下去
 
 ## TODO（跳端待办）
 
+### 2026-11-25 新增（来源：docs/ISSUES_2026-11-25.md / ONLINE_DIAGNOSIS_2026-11-25.md）
+
+15. **[未做，P1] I-26 观测字段恒为 0**：`history_raw_msgs` / `history_used_msgs` /
+    `history_trim_chars` / `progress_source` 四个 key 没在 `graph.AgentState` 里声明，
+    LangGraph 跑完就丢，`_meta_from_state()` 只拿到 `.get()` 的默认 0。
+    修法：`AgentState` 补四行（Mac）；测试：`tests/test_context_trim_meta.py` 跑 menu 路径
+    断言终态仍带这四个 key（服务器侧）。
+
 ### 2026-11-25 新增（来源：docs/ISSUES_2026-11-25.md I-25）
 
 14. **[未做，P1] I-25 流式等待期全程静默**：工具循环阶段零事件，移动网络下断连，前端报「网络错误」。
