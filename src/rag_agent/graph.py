@@ -42,6 +42,12 @@ class AgentState(TypedDict, total=False):
     answer: str
     # ── 观测（第 0 步：只统计不参与决策）──
     usage: Optional[Dict[str, int]]
+    # I-26：上下文字段裁剪观测。TypedDict 未声明的 key 会被 LangGraph 按 schema 丢弃，
+    # 导致 _meta_from_state() 恒拿 0/NULL，裁剪效果从未被记录。
+    history_raw_msgs: Optional[int]     # 裁剪前历史消息数
+    history_used_msgs: Optional[int]    # 裁剪后进上下文的消息数
+    history_trim_chars: Optional[int]   # 被裁掉的字符数
+    progress_source: Optional[str]      # 本轮进度推断的来源（显式指定 / 历史锚点 / 默认）
 
 
 def _build_menu(header: str, tail: str) -> str:
