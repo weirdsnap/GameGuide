@@ -21,7 +21,7 @@
 | `mhw` | 怪物猎人荒野 (Monster Hunter Wilds) |
 | `cyberpunk2077` | 赛博朋克2077 (Cyberpunk 2077) |
 | `va11halla` | 赛博朋克酒保行动 (VA-11 Hall-A) |
-| `baldurs_gate3` | 博德之门3 (Baldur's Gate 3，注册在路由中但数据不全) |
+| `baldurs_gate3` | 博德之门3 (Baldur's Gate 3，线上主力：66,698 块向量库 + 4,238 条术语表 + act 防剧透) |
 
 运行时架构：
 
@@ -34,7 +34,7 @@
             show_database_schema    — 查看游戏 DB 的表结构
 ```
 
-服务形态：`api_server.py`（**aiohttp**，不是 FastAPI——README 的描述过时了）。
+服务形态：`api_server.py`（**aiohttp**）。
 接口**无密码**：全局每日额度（默认 100 问/天，`data/quota.json` 持久化）
 + 按真实客户端 IP 限速（默认 20 次/分、600 次/天），由 Caddy 反代暴露到公网
 （`https://api.weirdsnap.top` → `localhost:8765`，见 `Caddyfile`）。
@@ -54,7 +54,8 @@
 ## 代码组织
 
 ```
-api_server.py            # aiohttp API 入口（/api/ask /api/ask/stream /api/quota /api/status；/api/login 仅兼容占位）
+api_server.py            # aiohttp API 入口（/api/ask /api/ask/stream /api/quota /api/status
+                         # /api/sessions*（I-23 历史会话）/api/stats /api/dashboard/*；/api/login 仅兼容占位）
 api_config.json          # 速率/额度/超时配置（被 .gitignore 忽略）
 src/rag_agent/           # 核心包（sys.path 插入 src/ 后按 rag_agent.xxx 导入，无 pyproject.toml）
   ├── config.py          # 环境变量 / LLM_CONFIG / FASTEMBED_MODEL / 路径常量
@@ -63,12 +64,16 @@ src/rag_agent/           # 核心包（sys.path 插入 src/ 后按 rag_agent.xxx
   ├── graph.py           # LangGraph：detect_game 节点 + ReAct Agent + 菜单/未知游戏回退
   ├── multi_agent.py     # 对外薄壳 ask()/ask_stream()，多轮游戏上下文从 history 推导
   ├── tools.py           # 三个 @tool：FAISS 检索 / SQLite 查询 / schema
-  │                      # （检索带 language filter + 术语表 query 扩展）
+  │                      # （检索带 language filter + 术语表扩展 + en/zh 按分数合并）
   ├── glossary.py        # 中英专名术语表 + query 扩展（已接入 tools.search_knowledge_base）
+  ├── act_index.py       # BG3 结构化库同名表 → act 的查询期兜底索引（不重建也能收紧剧透过滤）
+  ├── history_trim.py    # 多轮历史裁剪（I-09，控制单请求 token 成本）
+  ├── progress.py        # 用户进度推断（防剧透 act 上界，显式指定/历史锚点/默认）
+  ├── store.py           # 会话/turn 持久化（I-23，SQLite WAL；占位 turn、软删除、读时过期）
   ├── vectorstore.py     # FAISS 构建/加载（lru_cache）、文档切分、wiki 文档解析、
   │                      # prepend_title_to_chunks（标题前置，建库契约）
-  ├── data_converter.py  # HallownestAPI JSON → 文本块（空洞骑士专用，旧管线）
-  └── hk_db.py           # 空洞骑士 SQLite 构建模块
+  ├── data_converter.py  # HallownestAPI JSON → 文本块（空洞骑士专用，旧管线，已无外部调用方）
+  └── hk_db.py           # 空洞骑士 SQLite 构建模块（仅被旧管线引用）
 games/<game>/            # 每游戏数据目录：
   ├── data/wiki_data.md      # 英文 Wiki 正文（构建向量库的输入）
   ├── data/wiki_data_zh.md   # 中文 Wiki（仅 hollow_knight/oni/terraria/va11halla）
@@ -215,7 +220,7 @@ python scripts/build/build_game_db.py --game <game>
 主套件是 pytest，默认离线（不调真实 LLM，e2e 用例自动 skip）：
 
 ```bash
-.venv/bin/python -m pytest tests -q          # 当前 282 passed / 20 skipped / 1 xfailed
+.venv/bin/python -m pytest tests -q          # 当前 373 passed / 22 skipped / 1 xfailed
 .venv/bin/python -m pytest tests --run-e2e   # 真实模型端到端（需要 .env 的 key）
 ```
 

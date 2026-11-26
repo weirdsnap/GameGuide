@@ -10,7 +10,7 @@
 | 空洞骑士 (Hollow Knight) | `hollow_knight` | Fandom Wiki + HallownestAPI |
 | 丝之歌 (Hollow Knight: Silksong) | `silksong` | Fandom Wiki |
 | 缺氧 (Oxygen Not Included) | `oni` | Fandom Wiki EN/ZH |
-| 泰拉瑞亚 (Terraria) | `terraria` | Fandom Wiki |
+| 泰拉瑞亚 (Terraria) | `terraria` | Fandom Wiki（英文）+ wiki.gg/zh（中文） |
 | 怪物猎人：荒野 (Monster Hunter Wilds) | `mhw` | Fandom Wiki |
 | 赛博朋克 2077 (Cyberpunk 2077) | `cyberpunk2077` | Fandom Wiki |
 | 赛博朋克酒保行动 (VA-11 Hall-A) | `va11halla` | Fandom Wiki |
@@ -49,20 +49,25 @@ LangGraph detect_game：识别游戏与对话上下文
 │   ├── tools.py                  # 向量检索与 SQLite 工具
 │   ├── game_registry.py          # 游戏配置单源
 │   ├── game_router.py            # 游戏识别与提示词
-│   ├── glossary.py               # 中英专名术语表（query 扩展，尚未接入检索）
+│   ├── glossary.py               # 中英专名术语表（query 扩展，已接入检索工具）
+│   ├── act_index.py              # BG3 结构化库同名表 → act 查询期兜底索引
+│   ├── history_trim.py           # 多轮历史裁剪（控制单请求 token 成本）
+│   ├── progress.py               # 用户进度推断（防剧透 act 上界）
+│   ├── store.py                  # 会话/turn 持久化（SQLite，WAL）
 │   ├── vectorstore.py            # FAISS 加载、缓存与检索器
 │   ├── data_converter.py         # 空洞骑士 JSON 转文档
 │   ├── hk_db.py                  # 空洞骑士结构化数据库
 │   └── config.py                 # LLM / Embedding 配置
 ├── scripts/
-│   ├── fetch/                    # Wiki 数据采集
+│   ├── fetch/                    # Wiki 数据采集（refetch_wiki.py 重抓专用：质量闸门+断点）
 │   ├── build/                    # SQLite 数据库构建
 │   ├── enrich/                   # 数据补全 + 术语表生成
 │   ├── tool/ingest_game.py       # FAISS 向量库构建（中英 wiki）
 │   ├── tool/mac_build.py         # 向量库构建（额外并入结构化 DB）
 │   ├── tool/mac_prepare_build.sh # Mac 一键建库 + 真实检索路径自检
-│   ├── eval/                     # 评估脚本（RAGAS、术语表探针、golden QA）
-│   └── deploy/                   # 部署脚本
+│   ├── eval/                     # 评估脚本（RAGAS、术语表探针、golden QA、retrieval_smoke 检索冒烟）
+│   ├── analysis/                 # 用户日志分析（turns_report.py 等，服务器侧跑）
+│   └── deploy/                   # 部署脚本（api.sh 优雅退出：SIGTERM 后轮询等待再 -9）
 ├── games/<游戏键>/               # 各游戏文档、数据库和向量库
 └── tests/                        # 离线单测与可选端到端测试
 ```
