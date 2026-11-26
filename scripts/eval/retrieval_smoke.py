@@ -41,7 +41,8 @@ from rag_agent.tools import search_knowledge_base  # noqa: E402
 # (game, 查询, 期望出现在 top-k title 里的关键词)
 # 用例取自线上真实问法 / 各游戏的核心实体，不追求覆盖全部内容。
 CASES: list[tuple[str, str, str]] = [
-    # terraria：页内小节被当独立页（I-27 未修），本页正文只剩 344 字一块
+    # terraria：Mac 库已按 P0-4 修复重建（克苏鲁之眼 top-1 命中页面）；线上库未更新
+    # 时本条 MISS（碎片顶掉页面）——同一条用例两端结果不同，跑之前先确认本机库版本
     ("terraria", "克苏鲁之眼怎么召唤", "克苏鲁之眼"),
     ("terraria", "血月怎么触发", "血月|Blood Moon"),
     # 该页 zh 标题是「天界柱」，但混合库里 en 页 Celestial Pillars 常排第一，两者都算命中

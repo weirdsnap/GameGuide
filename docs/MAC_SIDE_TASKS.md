@@ -114,6 +114,8 @@
   `load_structured_data` 加 name→slug→set_name→表名逐级兜底，commit 4ccd911）。
   冒烟实测：「克苏鲁之眼怎么召唤」top-1 命中「克苏鲁之眼」页面本身（修复前 top-4 全是碎片）。
   **待部署**：`bash scripts/deploy/vectorstores.sh terraria silksong mhw` 传库后服务器重启 API。
+  （2026-11-26 服务器侧曾据线上旧库 mtime 判「已重建不成立」——实为库未上传，
+  Mac 本地库 mtime 12:45~12:49 晚于修复提交 12:36。跨端状态表述必须带机器名。）
 
 ## P1-1 信号词缺口
 
