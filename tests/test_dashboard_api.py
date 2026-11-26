@@ -169,6 +169,54 @@ def test_feedback_endpoint_links_turns(monkeypatch, tmp_path):
     assert by_id["gone"]["matched"] is False
 
 
+# ====== 访问控制（SSH 隧道方案，docs/DASHBOARD_PLAN.md §9）======
+# 看板返回真实提问原话，只准许「不经反向代理的直连」。
+# 判定依据：经 Caddy 进来的请求必带 X-Forwarded-For；隧道/本机 curl 不带。
+
+PROXIED = {"X-Forwarded-For": "203.0.113.9"}
+
+
+def test_dashboard_page_served_to_direct_client(monkeypatch, tmp_path):
+    factory = _setup(monkeypatch, tmp_path)
+    status, text = api_helpers.call_raw(factory, "GET", "/dashboard")
+    assert status == 200
+    assert "<html" in text.lower()
+    # 页面里必须带 noindex，避免哪天配置漂了被搜索引擎收录
+    assert "noindex" in text
+
+
+def test_dashboard_page_404_through_proxy(monkeypatch, tmp_path):
+    factory = _setup(monkeypatch, tmp_path)
+    status, _ = api_helpers.call_raw(factory, "GET", "/dashboard", headers=PROXIED)
+    assert status == 404
+
+
+def test_dashboard_apis_404_through_proxy(monkeypatch, tmp_path):
+    """三个数据端点都要罩住——只保护 HTML 等于没保护。"""
+    factory = _setup(monkeypatch, tmp_path)
+    for path in ("/api/dashboard/summary", "/api/dashboard/turns",
+                 "/api/dashboard/feedback"):
+        status, _ = api_helpers.call_json(factory, "GET", path, headers=PROXIED)
+        assert status == 404, path
+
+
+def test_dashboard_disabled_switch(monkeypatch, tmp_path):
+    """GAMEGUIDE_DASHBOARD=0 时连直连也 404（兜底开关）。"""
+    factory = _setup(monkeypatch, tmp_path)
+    monkeypatch.setattr(api_server, "DASHBOARD_ENABLED", False)
+    assert api_helpers.call_raw(factory, "GET", "/dashboard")[0] == 404
+    assert api_helpers.call_json(factory, "GET", "/api/dashboard/summary")[0] == 404
+
+
+def test_dashboard_allow_proxied_switch(monkeypatch, tmp_path):
+    """将来改走 Caddy basic_auth 时，把 ALLOW_PROXIED 打开即可放行。"""
+    factory = _setup(monkeypatch, tmp_path)
+    monkeypatch.setattr(api_server, "DASHBOARD_ALLOW_PROXIED", True)
+    status, _ = api_helpers.call_json(factory, "GET", "/api/dashboard/summary",
+                                      headers=PROXIED)
+    assert status == 200
+
+
 # ====== 口径一致性 ======
 
 def test_stats_matches_summarize_parity(monkeypatch, tmp_path):

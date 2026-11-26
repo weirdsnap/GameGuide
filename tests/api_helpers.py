@@ -33,27 +33,27 @@ def isolate_app_state(monkeypatch, tmp_path, *, limit: int = 100):
     return records, quota
 
 
-async def _request(factory, method, path, payload):
+async def _request(factory, method, path, payload, headers=None):
     from aiohttp.test_utils import TestClient, TestServer
 
     # 每个测试都新建 app：aiohttp 的 Application 绑定事件循环，
     # 一个测试里发多个请求时必须每次新建（asyncio.run 每次都是新循环）
     async with TestClient(TestServer(factory())) as client:
         if method == "GET":
-            resp = await client.get(path)
+            resp = await client.get(path, headers=headers)
         else:
-            resp = await client.request(method, path, json=payload)
+            resp = await client.request(method, path, json=payload, headers=headers)
         return resp.status, await resp.text()
 
 
-def call_raw(factory, method, path, payload=None):
+def call_raw(factory, method, path, payload=None, headers=None):
     """发一个请求，返回 (status, text)。SSE / 非 JSON 响应用这个。"""
-    return asyncio.run(_request(factory, method, path, payload))
+    return asyncio.run(_request(factory, method, path, payload, headers))
 
 
-def call_json(factory, method, path, payload=None):
+def call_json(factory, method, path, payload=None, headers=None):
     """发一个请求，返回 (status, body)。body 能解析成 JSON 就是 dict，否则是 str。"""
-    status, text = asyncio.run(_request(factory, method, path, payload))
+    status, text = asyncio.run(_request(factory, method, path, payload, headers))
     try:
         return status, json.loads(text)
     except json.JSONDecodeError:

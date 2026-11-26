@@ -70,6 +70,27 @@ SESSION_MAX_CHARS = int(os.environ.get("GAMEGUIDE_SESSION_MAX_CHARS", "6000"))
 RETENTION_ANSWER_DAYS = int(os.environ.get("GAMEGUIDE_RETENTION_ANSWER_DAYS", "3"))
 RETENTION_SESSION_DAYS = int(os.environ.get("GAMEGUIDE_RETENTION_SESSION_DAYS", "90"))
 
+# ====== 数据看板访问控制（docs/DASHBOARD_PLAN.md §9）======
+# 看板返回真实用户提问原话，不当公开接口。采用「SSH 隧道直连」方案：
+# 只允许「不经反向代理的直连」——本机 curl 与 `ssh -L 8765:127.0.0.1:8765` 都不带
+# 代理头；经 Caddy 从公网进来的请求必带 X-Forwarded-For，一律 404（不暴露存在）。
+# 不必改 Caddyfile，也不需 root；哪天要公网访问，改用 basic_auth 时把
+# GAMEGUIDE_DASHBOARD_ALLOW_PROXIED=1 打开即可（届时由 Caddy 那层做认证）。
+DASHBOARD_ENABLED = os.environ.get("GAMEGUIDE_DASHBOARD", "1") == "1"
+DASHBOARD_ALLOW_PROXIED = os.environ.get("GAMEGUIDE_DASHBOARD_ALLOW_PROXIED", "0") == "1"
+DASHBOARD_HTML = project_root / "web" / "dashboard.html"
+PROXY_HEADERS = ("X-Forwarded-For", "X-Real-Ip", "Forwarded")
+
+
+def dashboard_denied(request) -> bool:
+    """看板入口的统一闸门：总开关关闭或「经代理而来」一律拒绝。"""
+    if not DASHBOARD_ENABLED:
+        return True
+    if DASHBOARD_ALLOW_PROXIED:
+        return False
+    return any(request.headers.get(h) for h in PROXY_HEADERS)
+
+
 # turn_id 由服务端生成：12 位十六进制，一整天不撞，也方便在日志里 grep
 TURN_ID_RE = re.compile(r"^[0-9a-f]{8,32}$")
 
@@ -1025,8 +1046,22 @@ async def handle_stats(request):
 # ====== 数据看板（只读，docs/DASHBOARD_PLAN.md）======
 # 全部直接读 JSONL，不引第三方库、不落 DB。页面本身在 /dashboard（Caddy basicauth 保护）。
 
+async def handle_dashboard_page(request):
+    """GET /dashboard — 只读看板页面（单文件，直接用仓库里的 web/dashboard.html）。"""
+    if dashboard_denied(request) or not DASHBOARD_HTML.is_file():
+        raise web.HTTPNotFound()
+    return web.Response(
+        body=DASHBOARD_HTML.read_bytes(),
+        content_type="text/html",
+        charset="utf-8",
+        headers={"Cache-Control": "no-store", "X-Robots-Tag": "noindex, nofollow"},
+    )
+
+
 async def handle_dashboard_summary(request):
     """GET /api/dashboard/summary?days=7 — 总量 + 每日序列 + 预算 + 反馈 + 额度。"""
+    if dashboard_denied(request):
+        raise web.HTTPNotFound()
     days = _int_query(request, "days", 7, 90)
     records = _load_turns(days)
     feedback = _load_feedback(days)
@@ -1045,6 +1080,8 @@ async def handle_dashboard_summary(request):
 
 async def handle_dashboard_turns(request):
     """GET /api/dashboard/turns — 轮次列表（筛选 + 复合游标分页）。"""
+    if dashboard_denied(request):
+        raise web.HTTPNotFound()
     days = _int_query(request, "days", 7, 90)
     limit = _int_query(request, "limit", 50, 200)
     game = (request.query.get("game") or "").strip() or None
@@ -1072,6 +1109,8 @@ async def handle_dashboard_turns(request):
 
 async def handle_dashboard_feedback(request):
     """GET /api/dashboard/feedback?days=7 — 反馈明细（关联到具体轮次）。"""
+    if dashboard_denied(request):
+        raise web.HTTPNotFound()
     days = _int_query(request, "days", 7, 90)
     limit = _int_query(request, "limit", 50, 200)
     records = _load_turns(days)
@@ -1144,7 +1183,9 @@ def create_app() -> web.Application:
     app.router.add_get("/api/stats", handle_stats)
     app.router.add_post("/api/feedback", handle_feedback)
     app.router.add_get("/api/feedback/stats", handle_feedback_stats)
-    # 数据看板（只读，源为 JSONL 日志；页面由 Caddy 鉴权后提供）
+    # 数据看板（只读，源为 JSONL 日志）：页面与数据都只准许直连访问，
+    # 经 Caddy 从公网进来的请求一律 404（dashboard_denied，见文件头部配置区）
+    app.router.add_get("/dashboard", handle_dashboard_page)
     app.router.add_get("/api/dashboard/summary", handle_dashboard_summary)
     app.router.add_get("/api/dashboard/turns", handle_dashboard_turns)
     app.router.add_get("/api/dashboard/feedback", handle_dashboard_feedback)

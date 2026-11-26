@@ -162,19 +162,62 @@ data/eval/latest.json        最新一次 agent_behavior --json 的原样输出
 
 ## 8. 部署与安全
 
-- 静态页由 Caddy `file_server` 提供，路径 `/dash`；数据 API 反代到 `127.0.0.1:8765`。
-- **必须加一层认证**：页面上有真实提问文本。Caddy `basicauth` 最省事（一个用户名密码，
-  写进 Caddyfile，不入仓库）。不引入用户体系。
-- 不提交 `dashboard.html` 到博客仓库（避免和公开站点混在一起），放 `web/` 并 gitignore？
-  **不**：放仓库 `web/` 正常提交，Caddy 指向仓库路径，省一份复制。
-- `robots.txt` 禁用 `/dash`（防搜索引擎抓）。
+> **定案（2026-11-26）：走 SSH 隧道，公网不提供看板。** 下面 8.1 是实际采用的做法；
+> 原有「Caddy basicauth + file_server」方案降为备选，见 8.2。
+
+- 页面由 api_server 自己提供（`GET /dashboard` → `web/dashboard.html`），不依赖 Caddy `file_server`。
+- **页面上有真实提问文本**，因此只准许直连（本机 / SSH 隧道），经代理的来源一律 404。
+- `dashboard.html` 放仓库 `web/` 正常提交，不在服务器上留第二份复制。
+- 页面响应带 `X-Robots-Tag: noindex, nofollow`，不靠 `robots.txt`（看板不在公网，爬虫也拿不到）。
 - 看板不写任何文件，仅读。日志轮转（api.sh 转 `.prev`）不影响，因为它只读 `turns/` 与 `feedback/`。
+- 不引入用户体系、不做自研 token 认证（隧道已解决认证，多一层就多一个可被写错的东西）。
 
 ---
 
-### 8.1 现成配置（2026-11-22 留存，待执行）
+### 8.1 已采用：SSH 隧道 + 直连来源校验（2026-11-26 定案）
 
-服务器上 Caddy 只有 `/etc/caddy/Caddyfile` 一个块，内容为
+**为什么不用公网 + basicauth**：看板是偶尔看一眼预算和失败率的运维工具，用户就一个、
+在电脑前看。为它在一台公网机器上开一个带真实提问原话的面板，多一层认证就多一个需要
+维护的凭据，不划算。SSH 隧道天然加密、天然零认证代码，页面里的用户原话永远不出服务器。
+代价：手机上看不了（用户明确不需要）。
+
+**闸门口径**（`api_server.py` 头部配置区）：
+
+- 只允许「不经反向代理的直连」：本机 curl 与 `ssh -L` 隧道都不带代理头，放行；
+  经 Caddy 从公网进来的请求必带 `X-Forwarded-For`（也认 `X-Real-Ip` / `Forwarded`），
+  一律 404（不暴露存在，不区分「未授权」与「不存在」）。
+- 不需要改 Caddyfile、不需要 root。
+- 两个 env 开关：
+  - `GAMEGUIDE_DASHBOARD`（默认 `1`）：置 `0` 时连直连也 404，服务端一键关死。
+  - `GAMEGUIDE_DASHBOARD_ALLOW_PROXIED`（默认 `0`）：哪天改走公网 + basicauth，置 `1`
+    即放开对代理来源的限制，认证交给 Caddy 那层（见 8.2）。
+- 页面也由 api_server 直接提供：`GET /dashboard` 读 `web/dashboard.html`（`Cache-Control:
+  no-store`、`X-Robots-Tag: noindex, nofollow`），不再依赖 Caddy `file_server`。
+
+**用法**：
+
+```
+ssh -L 8765:127.0.0.1:8765 snap@114.132.189.56
+```
+
+然后浏览器开 `http://localhost:8765/dashboard`（页面里取数据用的是相对路径 `/api`，
+同源，不用改任何配置）。MobaXterm 存成一条隧道会话即可，下次点一下就行。
+
+**验收**（服务器上跑，直连应 200、带代理头应 404）：
+
+```
+curl -s -o /dev/null -w '%{http_code}\n' http://127.0.0.1:8765/dashboard
+curl -s -o /dev/null -w '%{http_code}\n' -H 'X-Forwarded-For: 1.2.3.4' http://127.0.0.1:8765/dashboard
+curl -s -o /dev/null -w '%{http_code}\n' 'http://127.0.0.1:8765/api/dashboard/summary?days=7'
+```
+
+预期 `200 / 404 / 200`。回归用例：`tests/test_dashboard_api.py` 里「访问控制」那组 5 条。
+
+---
+
+### 8.2 备选（未采纳）：Caddy basicauth 公网访问（2026-11-22 留存）
+
+仅当将来真要手机/异地访问时看。服务器上 Caddy 只有 `/etc/caddy/Caddyfile` 一个块，内容为
 `api.weirdsnap.top:8443 { reverse_proxy localhost:8765 }`。改成下面这样即可同时
 提供静态页与数据 API：
 
@@ -244,6 +287,9 @@ curl -sI -u curry:'密码' 'https://api.weirdsnap.top:8443/api/dashboard/summary
 ```
 
 回滚只有一条：`sudo cp /etc/caddy/Caddyfile.bak /etc/caddy/Caddyfile && sudo systemctl reload caddy`。
+
+走这条路时别忘了同时置 `GAMEGUIDE_DASHBOARD_ALLOW_PROXIED=1` 并重启 API，
+否则代理进来的请求会被应用层继续 404。
 
 **在配好鉴权之前，不要把 `/dashboard` 暴露到公网**——页面含真实提问文本与答案开头。
 
