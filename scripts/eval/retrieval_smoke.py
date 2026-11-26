@@ -41,7 +41,7 @@ from rag_agent.tools import search_knowledge_base  # noqa: E402
 # (game, 查询, 期望出现在 top-k title 里的关键词)
 # 用例取自线上真实问法 / 各游戏的核心实体，不追求覆盖全部内容。
 CASES: list[tuple[str, str, str]] = [
-    # terraria：中文 wiki 全量替换后的新库，含页内小节被切碎的问题
+    # terraria：页内小节被当独立页（I-27 未修），本页正文只剩 344 字一块
     ("terraria", "克苏鲁之眼怎么召唤", "克苏鲁之眼"),
     ("terraria", "血月怎么触发", "血月|Blood Moon"),
     # 该页 zh 标题是「天界柱」，但混合库里 en 页 Celestial Pillars 常排第一，两者都算命中
@@ -51,13 +51,14 @@ CASES: list[tuple[str, str, str]] = [
     ("silksong", "Bell Beast boss fight", "Bell Beast"),
     # hollow_knight：中文块只有 2.4%（40 页全是物品/护符，无区域页）
     ("hollow_knight", "螳螂爪怎么获得", "Mantis Claw|螳螂爪"),
-    # 深巢：zh 库无区域页（I-28 数据面，需补 HK 中文 wiki），en 页 Deepnest
-    # 跨语言分数压不过 zh 物品块，保持 MISS 暴露覆盖缺口
+    # 深巢：zh 库无区域页（I-28 数据面，需补 HK 中文 wiki），靠 en 页 Deepnest 命中。
+    # I-28 分数合并上线后实测转为 PASS（原先按语言顺序拼接时被 zh 物品块挤掉）。
     ("hollow_knight", "深巢入口在哪", "Deepnest|深巢"),
     # oni / va11halla / mhw
     ("oni", "氧气怎么生产", "Oxygen"),
     ("va11halla", "Julianne Stingray 是谁", "Julianne"),
-    # 旧期望 "MHWilds" 是在「全库塌成一个 title=MHWilds」的坏库上写的，已重建，改判条目名
+    # 旧期望 "MHWilds" 是在「全库塌成一个 title=MHWilds」的坏库上写的，判定无意义。
+    # 改判条目名后如实暴露：库至今未重建（mtime 07-30），所以本条仍是 MISS。
     ("mhw", "大剑怎么玩", "Great Sword"),
     # baldurs_gate3：线上主力，块/title 正常，作为对照组
     ("baldurs_gate3", "明斯克在哪", "Minsc"),
