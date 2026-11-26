@@ -21,12 +21,20 @@
 from __future__ import annotations
 
 import argparse
+import os
 import re
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(ROOT / "src"))
+
+# 检索用的 ONNX 模型缓存在仓库 .cache/fastembed（api.sh 里也是这个路径）。
+# 不设的话 fastembed 会去 $TMPDIR/fastembed_cache 找，清过 /tmp 就报
+# "Could not find config.json in /tmp/..."，12 条用例会全 MISS 且看不出是环境问题。
+_CACHE = ROOT / ".cache" / "fastembed"
+if _CACHE.is_dir():
+    os.environ.setdefault("FASTEMBED_CACHE_PATH", str(_CACHE))
 
 from rag_agent.tools import search_knowledge_base  # noqa: E402
 
