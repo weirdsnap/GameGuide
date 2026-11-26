@@ -40,17 +40,35 @@ echo "============================================"
 echo ""
 echo "🔍 检查旧进程..."
 
+# 优雅退出：SIGTERM 后轮询等待，最多等 GRACE_SECONDS 秒再 -9。
+# aiohttp 收到 SIGTERM 会停接新连接并等在途请求跑完（web.run_app 默认
+# shutdown_timeout=60s）。旧写法固定 sleep 2 就 -9，流式回答动辄 5~25s，
+# 等于只要重启时有用户在收答案就必然被砍断（2026-11-26 复盘）。
+# 没在途请求时进程立刻退，第一次轮询就返回，不拖慢正常重启。
+GRACE_SECONDS="${GRACE_SECONDS:-30}"
+
+wait_exit() {
+    # $1=pid；等到进程退出返回 0，超时仍未退出返回 1
+    local pid="$1" waited=0
+    while kill -0 "$pid" 2>/dev/null; do
+        if [ "$waited" -ge "$GRACE_SECONDS" ]; then
+            return 1
+        fi
+        sleep 2
+        waited=$((waited + 2))
+    done
+    return 0
+}
+
 # 方式 A: 通过 PID 文件
 OLD_PID=""
 if [ -f "$PID_FILE" ]; then
     OLD_PID=$(cat "$PID_FILE")
     if kill -0 "$OLD_PID" 2>/dev/null; then
-        echo "  ⚙️ 发现旧进程 PID=${OLD_PID}，正在关停..."
+        echo "  ⚙️ 发现旧进程 PID=${OLD_PID}，正在关停（最多等 ${GRACE_SECONDS}s 让在途请求跑完）..."
         kill "$OLD_PID" 2>/dev/null || true
-        sleep 2
-        # 如果还没死，强制 kill
-        if kill -0 "$OLD_PID" 2>/dev/null; then
-            echo "  ⚙️ 强制终止..."
+        if ! wait_exit "$OLD_PID"; then
+            echo "  ⚙️ ${GRACE_SECONDS}s 内未退出，强制终止..."
             kill -9 "$OLD_PID" 2>/dev/null || true
         fi
     fi
@@ -68,11 +86,10 @@ if command -v ss &>/dev/null; then
 fi
 for pid in $PORT_PIDS; do
     if [ "$pid" != "$OLD_PID" ] && [ "$pid" != "$$" ]; then
-        echo "  ⚙️ 端口 ${PORT} 被 PID=${pid} 占用，关停..."
+        echo "  ⚙️ 端口 ${PORT} 被 PID=${pid} 占用，关停（最多等 ${GRACE_SECONDS}s）..."
         kill "$pid" 2>/dev/null || true
-        sleep 1
-        if kill -0 "$pid" 2>/dev/null; then
-            echo "  ⚙️ 仍未退出，强制终止 PID=${pid}..."
+        if ! wait_exit "$pid"; then
+            echo "  ⚙️ ${GRACE_SECONDS}s 内未退出，强制终止 PID=${pid}..."
             kill -9 "$pid" 2>/dev/null || true
             sleep 1
         fi

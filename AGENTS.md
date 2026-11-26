@@ -328,6 +328,12 @@ python scripts/eval/ragas_eval.py --game all --limit 5   # 报告输出到 evalu
 
 ## 变更记录
 
+- **2026-11-26 api.sh 优雅退出（修复重启砍断在途回答）**：旧流程 SIGTERM 后固定
+  `sleep 2` 就 `kill -9`，而 aiohttp 的 60s 优雅期（`web.run_app` 默认
+  `shutdown_timeout`）从没被等到过——流式回答 5~25s，重启时只要有用户在收答案
+  必然被砍断。现改为 `wait_exit` 轮询等待（默认最多 30s，可用 `GRACE_SECONDS`
+  覆盖）：没在途请求时第一次轮询即返回、不拖慢重启；有在途请求时等它跑完再启动新进程。
+
 - **2026-11-25 P0-4 分页器修复 + 三库重建（同日收官）**：`mac_build.py` / `ingest_game.py`
   先按 `^---$` 切页再切小节、小节继承页面 title（e19b994）；mhw armor 表 `title=None`
   崩溃修掉（`load_structured_data` 名字逐级兜底，4ccd911）。terraria / silksong / mhw
