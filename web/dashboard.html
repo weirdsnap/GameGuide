@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="noindex, nofollow">
-<title>GameGuide · 数据看板</title>
+<title>博客看板 · 访问 / 助手 / 服务器</title>
 <style>
     :root {
         --bg: #14161a;
@@ -46,7 +46,13 @@
     .card .n { color: var(--muted); font-size: 11px; margin-top: 2px; }
     .v.ok { color: var(--good); } .v.bad { color: var(--bad); } .v.warn { color: var(--warn); }
     section { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; margin-bottom: 16px; }
-    section h2 { margin: 0 0 10px; font-size: 13px; font-weight: 600; color: var(--muted); letter-spacing: .04em; }
+    .section-head { display: flex; align-items: baseline; justify-content: space-between;
+                    gap: 14px; flex-wrap: wrap; margin-bottom: 12px; }
+    .section-head h2 { margin: 0; font-size: 14px; font-weight: 600; color: var(--text);
+                       letter-spacing: .02em; display: flex; align-items: center; gap: 7px; }
+    .section-head h2 .dot { width: 7px; height: 7px; border-radius: 50%; }
+    .section-head .sub { font-size: 11.5px; text-align: right; }
+    .subhead { margin: 18px 0 8px; font-size: 12px; font-weight: 500; color: var(--muted); letter-spacing: .03em; }
     svg { width: 100%; height: 220px; display: block; }
     #blog-trend { height: 190px; }
     .legend { display: flex; gap: 16px; font-size: 11px; color: var(--muted); margin-top: 6px; }
@@ -75,7 +81,7 @@
 
 <header>
     <div>
-        <h1>GameGuide 数据看板</h1>
+        <h1>博客看板</h1>
         <div class="sub" id="meta">加载中…</div>
     </div>
     <div class="controls">
@@ -86,67 +92,11 @@
     </div>
 </header>
 
-<div class="cards" id="cards"></div>
-
-<section>
-    <h2>系统资源<span class="sub" id="sys-meta"></span></h2>
-    <div class="cards" id="sys-cards" style="margin-bottom:12px"></div>
-    <div class="blog-cols">
-        <div class="blog-col">
-            <h3>内存（MB）</h3>
-            <svg id="sys-mem" preserveAspectRatio="none" style="height:170px"></svg>
-            <div class="legend">
-                <span><i class="dot" style="background:#6fbf8b"></i>可用内存</span>
-                <span><i class="dot" style="background:#e0685e"></i>swap 已用</span>
-            </div>
-        </div>
-        <div class="blog-col">
-            <h3>平均负载（2 核）</h3>
-            <svg id="sys-load" preserveAspectRatio="none" style="height:170px"></svg>
-            <div class="legend">
-                <span><i class="dot" style="background:#e0a458"></i>load1</span>
-                <span><i class="dot" style="background:#3d5a80"></i>load5</span>
-                <span><i class="dot" style="background:#6fbf8b"></i>load15</span>
-            </div>
-        </div>
+<section id="panel-blog">
+    <div class="section-head">
+        <h2><i class="dot" style="background:#3d5a80"></i>博客访问</h2>
+        <span class="sub">GitHub Pages 前端上报 · UV 按天去重 · 不存 IP 与完整 URL</span>
     </div>
-</section>
-
-<section>
-    <h2>每日趋势</h2>
-    <svg id="trend" viewBox="0 0 900 220" preserveAspectRatio="none"></svg>
-    <div class="legend">
-        <span><i class="dot" style="background:#3d5a80"></i>每日轮次</span>
-        <span><i class="dot" style="background:#e0a458"></i>tokens_in p90</span>
-        <span><i class="dot" style="background:#e0685e"></i>点踩</span>
-    </div>
-</section>
-
-<section>
-    <h2>轮次明细</h2>
-    <div class="controls" style="margin-bottom:10px">
-        <button data-filter="" class="on">全部</button>
-        <button data-filter="bad">有点踩</button>
-        <button data-filter="l3">剧透 L3</button>
-        <button data-filter="slow">慢轮 ≥30s</button>
-    </div>
-    <table>
-        <thead>
-        <tr>
-            <th>时间</th><th>游戏</th><th>路由</th><th>耗时</th>
-            <th>tokens_in</th><th>历史</th><th>剧透</th><th>问题</th><th></th>
-        </tr>
-        </thead>
-        <tbody id="rows"></tbody>
-    </table>
-    <div class="empty" id="empty" style="display:none">没有符合条件的轮次</div>
-    <div style="margin-top:12px; text-align:center">
-        <button id="more" style="display:none">加载更早</button>
-    </div>
-</section>
-
-<section>
-    <h2>博客访问</h2>
     <div class="cards" id="blog-cards" style="margin-bottom:12px"></div>
     <svg id="blog-trend" viewBox="0 0 900 190" preserveAspectRatio="none"></svg>
     <div class="legend">
@@ -171,6 +121,68 @@
         </div>
     </div>
     <div class="sub" id="blog-meta" style="margin-top:10px"></div>
+</section>
+
+<section id="panel-agent">
+    <div class="section-head">
+        <h2><i class="dot" style="background:#e0a458"></i>GameGuide 助手</h2>
+        <span class="sub">data/turns/*.jsonl 逐轮记录 · 预算线 tokens_in p90 ≤ 40k</span>
+    </div>
+    <div class="cards" id="cards" style="margin-bottom:14px"></div>
+    <div class="subhead">每日趋势</div>
+    <svg id="trend" viewBox="0 0 900 220" preserveAspectRatio="none"></svg>
+    <div class="legend">
+        <span><i class="dot" style="background:#3d5a80"></i>每日轮次</span>
+        <span><i class="dot" style="background:#e0a458"></i>tokens_in p90</span>
+        <span><i class="dot" style="background:#e0685e"></i>点踩</span>
+    </div>
+    <div class="subhead">轮次明细</div>
+    <div class="controls" style="margin-bottom:10px">
+        <button data-filter="" class="on">全部</button>
+        <button data-filter="bad">有点踩</button>
+        <button data-filter="l3">剧透 L3</button>
+        <button data-filter="slow">慢轮 ≥30s</button>
+    </div>
+    <table>
+        <thead>
+        <tr>
+            <th>时间</th><th>游戏</th><th>路由</th><th>耗时</th>
+            <th>tokens_in</th><th>历史</th><th>剧透</th><th>问题</th><th></th>
+        </tr>
+        </thead>
+        <tbody id="rows"></tbody>
+    </table>
+    <div class="empty" id="empty" style="display:none">没有符合条件的轮次</div>
+    <div style="margin-top:12px; text-align:center">
+        <button id="more" style="display:none">加载更早</button>
+    </div>
+</section>
+
+<section id="panel-server">
+    <div class="section-head">
+        <h2><i class="dot" style="background:#6fbf8b"></i>服务器</h2>
+        <span class="sub" id="sys-meta"></span>
+    </div>
+    <div class="cards" id="sys-cards" style="margin-bottom:12px"></div>
+    <div class="blog-cols">
+        <div class="blog-col">
+            <h3>内存（MB）</h3>
+            <svg id="sys-mem" preserveAspectRatio="none" style="height:170px"></svg>
+            <div class="legend">
+                <span><i class="dot" style="background:#6fbf8b"></i>可用内存</span>
+                <span><i class="dot" style="background:#e0685e"></i>swap 已用</span>
+            </div>
+        </div>
+        <div class="blog-col">
+            <h3>平均负载（2 核）</h3>
+            <svg id="sys-load" preserveAspectRatio="none" style="height:170px"></svg>
+            <div class="legend">
+                <span><i class="dot" style="background:#e0a458"></i>load1</span>
+                <span><i class="dot" style="background:#3d5a80"></i>load5</span>
+                <span><i class="dot" style="background:#6fbf8b"></i>load15</span>
+            </div>
+        </div>
+    </div>
 </section>
 
 <script>
@@ -390,7 +402,7 @@ async function loadSummary() {
     const data = await getJSON('/dashboard/summary?days=' + state.days);
     const activeDays = data.daily.filter(d => d.turns > 0).length;
     document.getElementById('meta').textContent =
-        data.days + ' 天窗口 · 有数据 ' + activeDays + '/' + data.daily.length + ' 天 · 生成于 ' +
+        data.days + ' 天窗口 · 助手有数据 ' + activeDays + '/' + data.daily.length + ' 天 · 生成于 ' +
         new Date(data.generated_at * 1000).toLocaleTimeString('zh-CN');
     renderCards(data);
     renderTrend(data.daily);
