@@ -1,0 +1,121 @@
+{
+  "game": "silksong",
+  "kind": "dag",
+  "axis_label": "幕",
+  "act_of_node": true,
+  "explicit_patterns": [
+    "第\\s*([一二三123])\\s*[幕章]",
+    "\\bact\\s*([123一二三])\\b"
+  ],
+  "abilities": {},
+  "areas": {
+    "moss-grotto": {
+      "name": "Moss Grotto",
+      "act": 1,
+      "aliases": ["苔穴", "苔藓洞穴"],
+      "requires_areas": [],
+      "requires_abilities": []
+    },
+    "bone-bottom": {
+      "name": "Bone Bottom",
+      "act": 1,
+      "aliases": ["髓骨之地"],
+      "requires_areas": ["moss-grotto"],
+      "requires_abilities": []
+    },
+    "marrow": {
+      "name": "Marrow",
+      "act": 1,
+      "aliases": ["髓域"],
+      "requires_areas": ["bone-bottom"],
+      "requires_abilities": []
+    },
+    "deep-docks": {
+      "name": "Deep Docks",
+      "act": 1,
+      "aliases": ["深坞"],
+      "requires_areas": [],
+      "requires_abilities": []
+    },
+    "far-fields": {
+      "name": "Far Fields",
+      "act": 1,
+      "aliases": ["远野"],
+      "requires_areas": [],
+      "requires_abilities": []
+    },
+    "greymoor": {
+      "name": "Greymoor",
+      "act": 1,
+      "aliases": ["灰沼"],
+      "requires_areas": [],
+      "requires_abilities": []
+    },
+    "shellwood": {
+      "name": "Shellwood",
+      "act": 1,
+      "aliases": ["壳木林"],
+      "requires_areas": [],
+      "requires_abilities": []
+    },
+    "hunters-march": {
+      "name": "Hunter's March",
+      "act": 1,
+      "aliases": ["猎手小径"],
+      "requires_areas": [],
+      "requires_abilities": []
+    },
+    "blasted-steps": {
+      "name": "Blasted Steps",
+      "act": 1,
+      "aliases": ["爆烈台阶"],
+      "requires_areas": [],
+      "requires_abilities": []
+    },
+    "sinners-road": {
+      "name": "Sinner's Road",
+      "act": 1,
+      "aliases": ["罪人之路"],
+      "requires_areas": [],
+      "requires_abilities": []
+    },
+    "weavenest-atla": {
+      "name": "Weavenest Atla",
+      "act": 1,
+      "aliases": ["织巢阿特拉"],
+      "requires_areas": [],
+      "requires_abilities": []
+    },
+    "bilewater": {
+      "name": "Bilewater",
+      "act": 1,
+      "aliases": ["胆汁沼"],
+      "requires_areas": [],
+      "requires_abilities": []
+    },
+    "citadel": {
+      "name": "Citadel",
+      "act": 2,
+      "aliases": ["圣堡"],
+      "requires_areas": [],
+      "requires_abilities": []
+    },
+    "the-mists": {
+      "name": "The Mists",
+      "act": 2,
+      "aliases": ["迷雾"],
+      "requires_areas": [],
+      "requires_abilities": []
+    },
+    "the-abyss": {
+      "name": "The Abyss",
+      "act": 3,
+      "aliases": ["深渊"],
+      "requires_areas": [],
+      "requires_abilities": []
+    }
+  },
+  "reviewed": false,
+  "_status": "S2 锚点版草稿：act 归属未做 wiki 校对，边只保留 moss-grotto → bone-bottom → marrow 这条开局链。reviewed:false 下加载器只允许「用户提到就抬 lo」，不做可达集剪枝（§4.2/§5.3）。",
+  "_notes": "区域名取自 games/silksong DB 的 areas 表（15 页覆盖，I-29 待补）。aliases 是社区常用中文译名，未逐条核对官方译名——译名偏差只影响命中率（漏抬 lo），不会误抬。abilities 留空：Clawline 等能力的获取位置/act 归属待 S4 校对后补。"
+}

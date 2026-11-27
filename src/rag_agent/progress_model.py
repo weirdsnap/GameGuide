@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import json
 import re
+from dataclasses import dataclass
 from functools import lru_cache
 from pathlib import Path
 from typing import Dict, Optional, Tuple
@@ -54,3 +55,105 @@ def load_chain_model(game: str) -> Optional[ChainModel]:
         return None
     data = json.loads(path.read_text(encoding="utf-8"))
     return ChainModel(data, path)
+
+
+# ═══════════════════════════════════════════════
+# ║  S2：dag 模型 + ProgressBound
+# ═══════════════════════════════════════════════
+
+@dataclass(frozen=True)
+class ProgressBound:
+    """模型层输出的进度区间（设计文档 §4 Protocol 的 bound 返回值）。
+
+    lo 等价于旧 Progress.level（已确认到达的最深层）；hi 是确认没到的
+    最浅层减一。chain 模型 lo == hi；dag 模型 reviewed:false 时不剪 hi。
+    """
+    lo: Optional[int]
+    hi: Optional[int]
+    axis_label: str
+    source: str                       # question | history | none
+    evidence: Tuple[str, ...] = ()
+    not_reached: Tuple[str, ...] = ()  # reverse 证据命中的区域名（§5.1）
+
+    @property
+    def known(self) -> bool:
+        return self.lo is not None
+
+
+class DagModel:
+    """DAG 进度模型：区域/能力节点 + 前置边（适用丝之歌这类非线性游戏）。
+
+    当前是「锚点版」形态（§4.3）：只依赖 areas.*.act 做
+    「用户提到该区域 → lo 至少抬到该 act」；reviewed:false 下不做
+    可达集剪枝（§5.3），hi 恒等于 lo。边数据齐备且 reviewed:true 后
+    （S4）才启用 BFS 可达集与 not_reached 剪枝。
+    """
+
+    kind = "dag"
+
+    def __init__(self, data: dict, source_path: Path):
+        self.game: str = data["game"]
+        self.axis_label: str = data.get("axis_label", "幕")
+        self.act_of_node: bool = bool(data.get("act_of_node", False))
+        self.reviewed: bool = bool(data.get("reviewed", False))
+        self.source_path: Path = source_path
+        self.explicit_patterns: Tuple[re.Pattern, ...] = tuple(
+            re.compile(p, re.IGNORECASE)
+            for p in data.get("explicit_patterns", ())
+        )
+        self.areas: Dict[str, dict] = {}
+        for aid, area in data.get("areas", {}).items():
+            self.areas[aid] = {
+                "name": area["name"],
+                "act": area.get("act"),
+                "aliases": tuple(area.get("aliases", ())),
+                "requires_areas": tuple(area.get("requires_areas", ())),
+                "requires_abilities": tuple(area.get("requires_abilities", ())),
+            }
+        self.abilities: Dict[str, dict] = {
+            aid: {"name": a["name"], "act": a.get("act"),
+                  "from": tuple(a.get("from", ()))}
+            for aid, a in data.get("abilities", {}).items()
+        }
+        self.max_rank: int = max(
+            (a["act"] or 0) for a in self.areas.values()) or 0
+
+    def evidence_targets(self) -> Tuple[Tuple[str, Optional[int], Tuple[str, ...]], ...]:
+        """(区域 id, act, 词表)——供 evidence.py 做文本匹配的词表（§4 Protocol）。
+
+        词表 = 英文名 + aliases（中文社区译名），按词长降序，最长优先。
+        """
+        targets = []
+        for aid, area in self.areas.items():
+            terms = (area["name"],) + area["aliases"]
+            targets.append((aid, area["act"], tuple(terms)))
+        return tuple(targets)
+
+    def bound(self, lo_facts, not_reached, source: str) -> ProgressBound:
+        """证据 → 进度区间。
+
+        lo_facts: [(act, 命中词)] 抬 lo 的正向证据（arrival/howto/explicit）。
+        not_reached: [区域名] reverse 证据（§5.1「怎么去 X」）。
+        reviewed:false：只用正向证据抬 lo；not_reached 留档渲染但不剪 hi。
+        """
+        lo = max((act for act, _t in lo_facts), default=None)
+        # 留档的 not_reached 只保留确实「比 lo 深」的区域名，浅于 lo 的
+        # 反向证据无信息量（用户都到了更深的地方，「怎么去浅区」不算反向）。
+        nr = tuple(n for n in not_reached)
+        if lo is None:
+            return ProgressBound(lo=None, hi=None, axis_label=self.axis_label,
+                                 source="none", evidence=(), not_reached=nr)
+        evidence = tuple(dict.fromkeys(t for a, t in lo_facts if a == lo))
+        # reviewed:true 前的简化口径：hi = lo（§5.3「hi < lo 或 None 时 hi = lo」）
+        return ProgressBound(lo=lo, hi=lo, axis_label=self.axis_label,
+                             source=source, evidence=evidence, not_reached=nr)
+
+
+@lru_cache(maxsize=8)
+def load_dag_model(game: str) -> Optional[DagModel]:
+    """按游戏加载 dag 模型；文件不存在返回 None。"""
+    path = CONFIG_DIR / f"{game}.dag.json"
+    if not path.is_file():
+        return None
+    data = json.loads(path.read_text(encoding="utf-8"))
+    return DagModel(data, path)
