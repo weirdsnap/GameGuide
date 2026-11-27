@@ -267,7 +267,9 @@ python scripts/eval/ragas_eval.py --game all --limit 5   # 报告输出到 evalu
      signals/exact_patterns/wiki_*/spoiler_axis/emoji/aliases）。`game_router`、`tools`、
      `ingest_game`、`mac_build`、`vectorstores.sh`、`graph.py` 的菜单与 known_keywords
      都从注册表派生，不需要再改；
-  2. 准备 `games/<game>/data/wiki_data.md`（+ 可选 `wiki_data_zh.md`）与 `<game>_data.db`；
+  2. 准备 `games/<game>/data/wiki_data.md`（+ 可选 `wiki_data_zh.md`）与 `<game>_data.db`
+     ——结构化表的设计方法（探源/三种表模式/层级建模/验收清单）见
+     `docs/GAME_DB_DESIGN_GUIDE.md`，层级关系没有通式，按该指南逐游戏建模；
   3. **术语表（中英专名对照）**：结构化库里有带 `name` 列的表（characters/locations/
      quests/items 等）后，跑 `python scripts/enrich/build_glossary.py --game <game>`
      生成 `games/<dir>/data/<dir>_glossary.jsonl`。路径从 registry 派生，不用改脚本。
