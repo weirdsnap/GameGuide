@@ -102,12 +102,15 @@ class _FakeVS:
         return [(d, _score(d)) for d in hits]
 
 
-def _patch_vs(monkeypatch, docs):
-    monkeypatch.setitem(AVAILABLE_GAMES, "test_game", {
+def _patch_vs(monkeypatch, docs, cfg_extra=None):
+    cfg = {
         "name": "Test Game (测试游戏)",
         "db_path": ":memory:",
         "vectorstore_dir": "/nonexistent/vs",  # 走 load_vectorstore 分支前会被 patch
-    })
+    }
+    if cfg_extra:
+        cfg.update(cfg_extra)
+    monkeypatch.setitem(AVAILABLE_GAMES, "test_game", cfg)
     # 让 vs_ok 检查通过 + load_vectorstore 返回假库
     monkeypatch.setattr("rag_agent.tools.os.path.isdir", lambda p: True)
     monkeypatch.setattr("rag_agent.tools.os.path.isfile", lambda p: True)
@@ -432,3 +435,89 @@ def test_search_术语命中标题直通置顶(monkeypatch):
 
     out = search_knowledge_base.invoke({"query": "养鸡妹好用吗", "game": "test_game"})
     assert "【参考 1】[EN] Lae'zel" in out
+
+
+# ══════════════════════════════════════════════
+#  I-31 title_pin 词面补位
+# ══════════════════════════════════════════════
+
+def test_pin_词面命中补位_向量召回够不着也能救回(monkeypatch):
+    """I-31 核心场景：中英混合库里 zh 块全局排名低（HK 螳螂爪块排 532/1960），
+    fetch_k 截断后向量召回取不到，但 query 里有它的 title——词面补位救回并置顶。"""
+    far = Document(page_content="螳螂爪：爬墙必备。",
+                   metadata={"language": "zh", "title": "螳螂爪"})
+    near = Document(page_content="Longnail: a charm.",
+                    metadata={"language": "en", "title": "Longnail"})
+    vs = _patch_vs(monkeypatch, [near])     # 向量召回里没有 far（模拟排名 532 够不着）
+    vs.docstore = type("DS", (), {"_dict": {"1": far, "2": near}})()
+
+    out = search_knowledge_base.invoke({"query": "螳螂爪怎么获得", "game": "test_game"})
+
+    assert "螳螂爪：爬墙必备。" in out
+    assert out.index("螳螂爪：爬墙必备。") < out.index("Longnail")
+
+
+def test_pin_排除游戏名与别名_不霸屏(monkeypatch):
+    """护栏 1：query 里的游戏名/别名不该 pin 同标题块（否则「空洞骑士护符推荐」
+    被 title=空洞骑士 的 4 条块霸屏，比不改更糟——服务器实测）。"""
+    game_page = Document(page_content="测试游戏百科首页", metadata={"language": "zh", "title": "测试游戏"})
+    charm_page = Document(page_content="护符大全", metadata={"language": "zh", "title": "护符"})
+    vs = _patch_vs(monkeypatch, [], cfg_extra={
+        "name_short": "Test Game", "aliases": ["测游", "tg"]})
+    vs.docstore = type("DS", (), {"_dict": {"1": game_page, "2": charm_page}})()
+
+    out = search_knowledge_base.invoke({"query": "测试游戏护符推荐", "game": "test_game"})
+
+    assert "护符大全" in out                      # title=护符 正常补位
+    assert "测试游戏百科首页" not in out          # title=测试游戏 被排除
+
+
+def test_pin_同一title只补一条(monkeypatch):
+    """护栏 3：同 title 多块最多补 1 条（va11halla 的 5 条 Julianne 块曾占满 top-4）。"""
+    a = Document(page_content="螳螂爪概述。", metadata={"language": "zh", "title": "螳螂爪"})
+    b = Document(page_content="螳螂爪获取路线。", metadata={"language": "zh", "title": "螳螂爪"})
+    vs = _patch_vs(monkeypatch, [])
+    vs.docstore = type("DS", (), {"_dict": {"1": a, "2": b}})()
+
+    out = search_knowledge_base.invoke({"query": "螳螂爪怎么获得", "game": "test_game"})
+
+    assert out.count("【参考") == 1               # 只补 1 条
+    assert "螳螂爪概述。" in out or "螳螂爪获取路线。" in out
+
+
+def test_pin_act越界不补(monkeypatch):
+    """title_pin 与向量检索遵守同一 act 过滤：越界章节内容不被补位。"""
+    far = Document(page_content="Act 3 章节的螳螂爪剧情。",
+                   metadata={"language": "zh", "title": "螳螂爪", "act": 3})
+    vs = _patch_vs(monkeypatch, [])
+    vs.docstore = type("DS", (), {"_dict": {"1": far}})()
+
+    out = search_knowledge_base.invoke(
+        {"query": "螳螂爪怎么获得", "game": "test_game", "max_act": 1})
+
+    assert "螳螂爪剧情" not in out
+
+
+def test_pin_单字title不补(monkeypatch):
+    """单字 title 误命中风险大（title「水」会被「怎么获得水资源」命中），跳过。"""
+    d = Document(page_content="水：常见资源。", metadata={"language": "zh", "title": "水"})
+    vs = _patch_vs(monkeypatch, [])
+    vs.docstore = type("DS", (), {"_dict": {"1": d}})()
+
+    out = search_knowledge_base.invoke({"query": "怎么获得水资源", "game": "test_game"})
+
+    assert "水：常见资源。" not in out
+
+
+def test_search_去重键含title_同文不同title不互吞(monkeypatch):
+    """护栏 2：HK 库里一批 3–8 字残块正文完全相同、title 不同，
+    只按正文去重会吞掉正常页（「螳螂领主打法」曾因此丢 Mantis Lords）。"""
+    same = "同文残块"
+    docs = [
+        Document(page_content=same, metadata={"language": "zh", "title": "螳螂爪", "_score": 0.1}),
+        Document(page_content=same, metadata={"language": "zh", "title": "螳螂领主", "_score": 0.2}),
+    ]
+    _patch_vs(monkeypatch, docs)
+    # query 故意不含任何 title 词，避免 title_pin 干扰去重测试
+    out = search_knowledge_base.invoke({"query": "怎么打那个 boss", "game": "test_game"})
+    assert "【参考 1】" in out and "【参考 2】" in out

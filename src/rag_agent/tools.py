@@ -353,7 +353,58 @@ def search_knowledge_base(query: str, game: str, k: int = 8, max_act: int | None
             except Exception:
                 pinned = []
 
-        # 合并，去重（按 page_content 去重）
+        # I-31 title_pin 词面补位：中英混合库里小语种块全局排名可能很低
+        # （HK 螳螂爪块排 532/1960），fetch_k 截断后向量召回永远取不到——
+        # 但 query 里出现了它的 title。扫库内 title 词面匹配，命中块补进候选。
+        # 护栏（服务器 2026-11-25 实测踩出，见 docs/ISSUES_2026-11-25.md I-31）：
+        #   1. 排除游戏名/别名（否则「空洞骑士护符推荐」被 title=空洞骑士 霸屏）；
+        #   2. 下方合并的去重键是 (title, 正文)，只按正文会吞掉 HK 库里
+        #      3–8 字同文残块的正常页（「螳螂领主打法」曾因此丢 Mantis Lords）；
+        #   3. 同一 title 最多补 1 条（va11halla 的 5 条 Julianne 同 title 块）。
+        # 代价：全量扫 title（BG3 66k 块实测增量 ~20ms），可接受。
+        title_pins = []
+        try:
+            # 排除集合：name 整体 + 括号内外两段 + name_short + aliases
+            excluded = set()
+            nm = cfg.get("name", "")
+            if nm:
+                excluded.add(nm.strip().lower())
+                m = re.match(r'^(.*?)[(（](.*?)[)）]\s*$', nm.strip())
+                if m:
+                    excluded.add(m.group(1).strip().lower())
+                    excluded.add(m.group(2).strip().lower())
+            if cfg.get("name_short"):
+                excluded.add(cfg["name_short"].strip().lower())
+            excluded |= {str(a).strip().lower() for a in cfg.get("aliases", [])}
+            excluded.discard("")
+            q_low = search_query.lower()
+            pinned_titles = set()
+            for d in getattr(vs.docstore, "_dict", {}).values():
+                t = (d.metadata or {}).get("title", "").strip()
+                tl = t.lower()
+                # 单字 title 误命中风险大（title「水」会被「怎么获得水资源」命中），跳过
+                if len(t) < 2 or not tl or tl in excluded or tl in pinned_titles:
+                    continue
+                if tl not in q_low:
+                    continue
+                # 遵循与检索一致的过滤：act 不越界（含 DB 同名兜底）
+                if max_act is not None:
+                    a = (d.metadata or {}).get("act")
+                    if a is None:
+                        a = title_act(_game_key, tl)
+                    try:
+                        if a is not None and int(a) > max_act:
+                            continue
+                    except (TypeError, ValueError):
+                        pass
+                title_pins.append(d)
+                pinned_titles.add(tl)
+                if len(title_pins) >= 4:    # 防御上限，一次查询通常 1–2 个实体
+                    break
+        except Exception:
+            title_pins = []
+
+        # 合并，去重（键为 (title, 正文前 100 字)——护栏 2，见上方 I-31 注释）
         #
         # 故意不做「两路都空 → 退回到无过滤整库检索」的兜底：language 是建库契约，
         # 漏标就应该表现成零命中、在自检和线上立刻暴露，而不是被混合语言结果盖住。
@@ -362,21 +413,25 @@ def search_knowledge_base(query: str, game: str, k: int = 8, max_act: int | None
         seen = set()
         docs = []
         for doc, _score in scored:
-            sig = doc.page_content[:100]
+            sig = ((doc.metadata or {}).get("title", ""), doc.page_content[:100])
             if sig not in seen:
                 seen.add(sig)
                 docs.append(doc)
 
-        # 直通文档插到最前（按内容去重，避免和语义检索结果重复）
-        if pinned:
+        # 直通文档插到最前（术语直通 + I-31 title_pin，同样按 (title, 正文) 去重）
+        direct = pinned + title_pins
+        if direct:
             pinned_sigs = set()
             unique_pinned = []
-            for d in pinned:
-                sig = d.page_content[:100]
+            for d in direct:
+                sig = ((d.metadata or {}).get("title", ""), d.page_content[:100])
                 if sig not in pinned_sigs:
                     pinned_sigs.add(sig)
                     unique_pinned.append(d)
-            docs = unique_pinned + [d for d in docs if d.page_content[:100] not in pinned_sigs]
+            docs = unique_pinned + [
+                d for d in docs
+                if ((d.metadata or {}).get("title", ""),
+                    d.page_content[:100]) not in pinned_sigs]
 
         # 标题词面命中置顶：实体名查询（尤其带撇号的，如 Lae'zel）在向量排序里
         # 不稳——实测 "Lae'zel" 查询下 Lae'zel 条目被 Lorroakan 压到 rank 4。
