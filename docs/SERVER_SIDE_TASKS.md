@@ -269,3 +269,33 @@ turns**（`ip=127.0.0.1`、`elapsed=0`、`chunks=1`、答案固定「氧气」�
   - 「伤害最高的长剑」→ **落菜单**（新会话无游戏信号、detect_game 不臆断，属既有设计不是回归）；
     补问「天国拯救2 伤害最高的长剑」→ game=kcd2，战争之舌长剑斩击 170 / 重铸的亨利的剑刺击最高
 - 基线：`pytest tests/ -q` 433 passed / 23 skipped / 1 xfailed。
+
+---
+
+## P0-3 I-31 title_pin 上线 + KCD2 quests 新 DB（Mac 侧 2026-11-27 完成，`f1020a4`）
+
+Mac 侧完成并推送（`618166c` + `f1020a4`，本地 467 passed / 24 skipped / 1 xfailed）：
+
+- **I-31 title_pin 词面补位**（`f1020a4`，`src/rag_agent/tools.py`）：`search_knowledge_base`
+  新增——扫库内 title，query 词面命中的块补进候选并直通置顶，解决中英混合库小语种块
+  全局排名低、fetch_k 截断不可达（HK 螳螂爪块排 532/1960）。护栏全部带齐：排除游戏名/
+  别名、去重键 `(title, 正文)`、同 title 只补 1 条、单字 title 跳过、cap 4。
+  Mac 本地冒烟：**螳螂爪怎么获得 MISS → PASS**，16/18。
+- **KCD2 quests 新 schema**（`618166c`）：8 列（prev_quest/next_quest 等），主线链
+  Last Rites→…→For Victory! 双向一致。DB 随 git 走，pull 即生效（查询每次新建连接），
+  但建议和重启同批做。
+- **I-28 数据面**（HK/ONI/VA11 中文 wiki）用户拍板**先不做**；**I-29** silksong 扩容
+  **blocked**（fandom 天花板 ~107 成员、wiki.gg 全站 401/403）。均记
+  `docs/ISSUES_2026-11-25.md`。
+
+**服务器侧动作**：
+
+1. `git pull` → `bash scripts/deploy/api.sh` 重启（title_pin 在检索链路里，必须重启才生效）。
+2. `.venv/bin/python -m pytest tests -q`（基线 467 passed / 24 skipped / 1 xfailed）。
+3. 冒烟 `FASTEMBED_CACHE_PATH=$PWD/.cache/fastembed .venv/bin/python scripts/eval/retrieval_smoke.py`：
+   基线应从 10/12 转 **11/12**（螳螂爪转 PASS；剩 Silk Soar 一条为 I-29 数据缺口，
+   属已知 blocked，不算失败）。
+4. 端到端抽查 KCD2 关系链：「Laboratores 之后做什么任务」应给出 Wedding Crashers
+   后续链（query_structured_data 关系分支 `a3b182a` + 新 DB 生效的标志）。
+5. title_pin 代价：全量扫 title，BG3 66k 块实测增量 ~20ms，观察 `/api/ask/stream`
+   耗时不应有可感变化；若 turns 里 elapsed p90 明显上抬请回告 Mac。
