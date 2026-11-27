@@ -12,7 +12,7 @@
 > [`docs/CURRENT_ISSUES_2026-11-16.md`](CURRENT_ISSUES_2026-11-16.md)。
 > 本文件的完成状态：P0-1 剧透提示词 ✅、P1-1 信号词 ✅、P1-2 内存上限 ✅（maxsize=3）、
 > P2-1 术语表接线 ✅；P0-2 BG3 v3 ✅ 已部署；P0-3 silksong 重抓重建 ✅、
-> P0-4 分页器 ✅ 已修复已重建（terraria/silksong/mhw，待传服务器）。
+> P0-4 分页器 ✅ 已修复已重建**已部署**（2026-11-26 20:22 上传，20:30 重启，冒烟 10/12）。
 > 分工依据 AGENTS.md：`src/rag_agent/`、`tests/`、`scripts/tool|build|fetch|enrich|eval` 以 Mac 侧为主。
 > 服务器侧当天已做的不要重做，见文末「服务器侧已完成」。
 
@@ -81,7 +81,7 @@
 - **完成记录**：`refetch_wiki.py` 重抓，29MB 垃圾 → 99KB 干净正文（79/81 页，b7cde90）；
   重建后 304 向量。过程踩坑与复盘见 `docs/REFETCH_PLAN.md` 末节。
 
-## P0-4 分页器把页内小节当成了独立页面（terraria / silksong / mhw 三个库）—— ✅ 已修复并已重建
+## P0-4 分页器把页内小节当成了独立页面（terraria / silksong / mhw 三个库）—— ✅ 已修复、已重建、已部署
 
 > 完整证据、检索实测与验收口径见 `docs/ISSUES_2026-11-25.md` **I-27**（本次补齐，
 > 含 mhw 整库塌成一页的实测：1,863 块 title 全是 `MHWilds`）。这里只留结论。
@@ -113,8 +113,9 @@
   `title="MHWilds"` 一页的问题，顺带修了 mhw armor 表 511 个 `title=None` 建库崩溃，
   `load_structured_data` 加 name→slug→set_name→表名逐级兜底，commit 4ccd911）。
   冒烟实测：「克苏鲁之眼怎么召唤」top-1 命中「克苏鲁之眼」页面本身（修复前 top-4 全是碎片）。
-  **待部署**：`bash scripts/deploy/vectorstores.sh terraria silksong mhw` 传库后服务器重启 API。
-  （2026-11-26 服务器侧曾据线上旧库 mtime 判「已重建不成立」——实为库未上传，
+  **已部署（2026-11-26 20:22 上传，20:30 重启）**：服务器侧实测冒烟 8/12 → 10/12，
+  terraria「克苏鲁之眼」、mhw「大剑」由 MISS 转 PASS（详见 ISSUES_2026-11-25 小结）。
+  （此前服务器侧曾据线上旧库 mtime 判「已重建不成立」——实为库未上传，
   Mac 本地库 mtime 12:45~12:49 晚于修复提交 12:36。跨端状态表述必须带机器名。）
 
 ## P1-1 信号词缺口

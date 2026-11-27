@@ -295,9 +295,9 @@ python scripts/eval/ragas_eval.py --game all --limit 5   # 报告输出到 evalu
   路径全部命中，`language` 齐；唯独 BG3 原库（10-41 构建）缺标签，已就地补 `language=en`
   （66698 条，未重算向量，备份 `index.pkl.bak-20261112`），重启后严格路径正常。
   Mac 侧重建上传后覆盖这份补丁产物，并删掉 `.bak`。
-- **silksong wiki 重采集（2026-11-25 已收官）**：已用 `scripts/fetch/refetch_wiki.py`
+- **silksong wiki 重采集（2026-11-25 已收官，11-26 已部署）**：已用 `scripts/fetch/refetch_wiki.py`
   重抓替换（fandom 分类直采，29MB 垃圾 → 99KB 干净正文 79/81 页，b7cde90），
-  向量库已按修复后的分页器重建（304 向量），**待传服务器**。
+  向量库已按修复后的分页器重建（304 向量），**11-26 20:22 已上传、20:30 已重启**。
   泰拉瑞亚中文库同批完成（wiki.gg/zh 直连重抓 3,031 页，0395909）。
   过程踩坑（Cloudflare 滴漏、mDNS 挂死、分页器丢页边界 P0-4）与网络结论
   见 `docs/REFETCH_PLAN.md` 末节复盘。
