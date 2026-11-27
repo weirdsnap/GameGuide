@@ -351,7 +351,7 @@ U_terms = 从历史 user 消息里匹配到的已知专名 ∪ 通用白名单�
 | 步 | 内容 | 依赖 | 归属 |
 |---|---|---|---|
 | S0 | 本文件 + 数据 schema + 草案数据 + schema 校验测试 | 无 | **服务器侧（已完成）** |
-| S1 | `config/progress/` 落地，ChainModel 接线，替换 `progress.py` 的硬编码锚点（BG3 行为不变） | S0 | Mac |
+| S1 | `config/progress/` 落地，ChainModel 接线，替换 `progress.py` 的硬编码锚点（BG3 行为不变） | S0 | **Mac（已完成 2026-11-27）** |
 | S2 | DagModel + 证据抽取（含 reverse）+ 丝之歌锚点版（`reviewed:false`，只抬 lo） | S1 | Mac |
 | S3 | 问句护栏 `guard.py` 接线（槽位限制 + 专名子集检查） | S1 | Mac |
 | S4 | 丝之歌 DAG 数据校齐（`reviewed:true`），启用可达集剪枝 | S2 + 数据 | Mac（数据）+ 服务器（校对工具） |
@@ -396,3 +396,7 @@ S2 的锚点版当天能让丝之歌从「零防线」变成「有防线」。
 2. `act_of_node` 反查检索（S5）要不要先上「只降权不丢弃」的软过滤，观察一轮再改硬过滤。
 3. 空洞骑士的能力偏序（能力 → 区域门槛）是否值得建：HK 玩家更常报「拿了几个护符」
    还是「打到哪个 boss」，需要线上样本。当前 HK 流量很少，暂缓。
+4. **（S1 新增）BG3 第一章锚点是否加入**：草案 `docs/progress_drafts/baldurs_gate3.chain.json`
+   补了第一章锚点，但含「地表」这类泛词——substring 匹配下「地表最强武器」会把进度
+   误钉到第一章。S1 正式配置（`config/progress/`）未纳入以保持行为不变。
+   若后续要加，建议只收「幽暗地域/underdark/德鲁伊营地」这类高置信词，剔除泛词。

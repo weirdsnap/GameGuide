@@ -13,11 +13,11 @@
 
 from __future__ import annotations
 
-import re
 from dataclasses import dataclass
 from typing import Iterable, Optional
 
 from rag_agent.game_registry import AVAILABLE_GAMES
+from rag_agent.progress_model import load_chain_model
 
 
 @dataclass(frozen=True)
@@ -37,29 +37,6 @@ class Progress:
 
 _CN_NUM = {"一": 1, "二": 2, "三": 3, "1": 1, "2": 2, "3": 3}
 
-# 明确说法：第二章 / 第2幕 / Act 2 / act2
-_EXPLICIT_PATTERNS = (
-    re.compile(r"第\s*([一二三123])\s*[章幕]"),
-    re.compile(r"\bact\s*([123])\b", re.IGNORECASE),
-    re.compile(r"\bact\s*([一二三])\b", re.IGNORECASE),
-)
-
-# 高置信度地名 → 幕。宁少勿多：只收「提到基本就等于人在这一幕」的锚点。
-# 与 api_server.SPOILER_TERMS 的 act 轴保持一致；那边是审计词表（含 L1-L3），
-# 这里是进度推断，语义不同，暂不强行合并。
-_ACT_ANCHORS: dict[int, tuple[str, ...]] = {
-    2: (
-        "最后之光旅店", "月出之塔", "大陵墓", "莎尔的试炼",
-        "石匠工会", "mason's guild", "grand mausoleum", "gauntlet of shar",
-        "moonrise towers", "nightsong", "夜之歌", "塞伦涅", "塞伦捏",
-        "凯瑟里克",
-    ),
-    3: (
-        "下城区", "利文顿", "钢铁卫士铸造厂", "主脑", "戈塔什", "奥林",
-        "lower city", "rivington", "netherbrain", "steel watch foundry",
-    ),
-}
-
 
 def _iter_user_texts(history: Optional[Iterable[dict]]) -> Iterable[str]:
     for message in history or []:
@@ -72,8 +49,9 @@ def _iter_user_texts(history: Optional[Iterable[dict]]) -> Iterable[str]:
             yield content
 
 
-def _explicit_levels(text: str) -> Iterable[tuple[int, str]]:
-    for pattern in _EXPLICIT_PATTERNS:
+def _explicit_levels(text: str, model) -> Iterable[tuple[int, str]]:
+    """明确说法：第二章 / 第2幕 / Act 2 / act2。正则来自 chain 配置。"""
+    for pattern in model.explicit_patterns:
         for match in pattern.finditer(text):
             raw = match.group(1)
             level = _CN_NUM.get(raw) or _CN_NUM.get(raw.lower())
@@ -81,30 +59,42 @@ def _explicit_levels(text: str) -> Iterable[tuple[int, str]]:
                 yield level, match.group(0)
 
 
-def _anchor_levels(text: str) -> Iterable[tuple[int, str]]:
+def _anchor_levels(text: str, model) -> Iterable[tuple[int, str]]:
+    """高置信度地名 → 幕。宁少勿多：只收「提到基本就等于人在这一幕」的锚点。
+    词表来自 config/progress/<game>.chain.json；与 api_server.SPOILER_TERMS 的
+    act 轴保持一致；那边是审计词表（含 L1-L3），这里是进度推断，语义不同。
+    """
     low = text.lower()
-    for level, anchors in _ACT_ANCHORS.items():
+    for level, anchors in model.anchors.items():
         for anchor in anchors:
             if anchor in low:
                 yield level, anchor
 
 
-def _matches(text: str) -> list[tuple[int, str]]:
-    return list(_explicit_levels(text)) + list(_anchor_levels(text))
+def _matches(text: str, model) -> list[tuple[int, str]]:
+    return list(_explicit_levels(text, model)) + list(_anchor_levels(text, model))
 
 
 def infer_progress(game: str, question: str,
                    history: Optional[Iterable[dict]] = None) -> Progress:
-    """推断本轮可用的进度上界；只对 spoiler_axis == "act" 的游戏生效。"""
+    """推断本轮可用的进度上界；只对 spoiler_axis == "act" 的游戏生效。
+
+    S1 起锚点与明确说法正则从 config/progress/<game>.chain.json 读
+    （progress_model.load_chain_model）；没有 chain 配置的游戏返回 level=None。
+    对 silksong 而言这是行为修正：以前它会误用 BG3 硬编码锚点，现在返回未知。
+    """
     axis = AVAILABLE_GAMES.get(game, {}).get("spoiler_axis", "none")
     if axis != "act":
+        return Progress(game=game, axis=axis, level=None)
+    model = load_chain_model(game)
+    if model is None:
         return Progress(game=game, axis=axis, level=None)
 
     found: list[tuple[int, str, str]] = []      # (level, evidence, source)
     for text in _iter_user_texts(history):
-        for level, term in _matches(text):
+        for level, term in _matches(text, model):
             found.append((level, term, "history"))
-    for level, term in _matches(question or ""):
+    for level, term in _matches(question or "", model):
         found.append((level, term, "question"))
 
     if not found:

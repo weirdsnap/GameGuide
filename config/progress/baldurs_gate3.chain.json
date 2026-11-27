@@ -1,0 +1,26 @@
+{
+  "game": "baldurs_gate3",
+  "kind": "chain",
+  "axis_label": "章",
+  "max_rank": 3,
+  "front_end_label": "第一章 / 第二章 / 第三章",
+  "anchors": {
+    "2": [
+      "最后之光旅店", "月出之塔", "大陵墓", "莎尔的试炼",
+      "石匠工会", "mason's guild", "grand mausoleum", "gauntlet of shar",
+      "moonrise towers", "nightsong", "夜之歌", "塞伦涅", "塞伦捏",
+      "凯瑟里克"
+    ],
+    "3": [
+      "下城区", "利文顿", "钢铁卫士铸造厂", "主脑", "戈塔什", "奥林",
+      "lower city", "rivington", "netherbrain", "steel watch foundry"
+    ]
+  },
+  "explicit_patterns": [
+    "第\\s*([一二三123])\\s*[章幕]",
+    "\\bact\\s*([123一二三])\\b"
+  ],
+  "reviewed": true,
+  "_source": "从 src/rag_agent/progress.py 的 _EXPLICIT_PATTERNS / _ACT_ANCHORS（2026-11-27 版本）原样搬出，严格行为等价",
+  "_notes": "草案 docs/progress_drafts/baldurs_gate3.chain.json 里补过第一章锚点（含「地表」泛词），S1 未纳入：substring 匹配下「地表最强武器」这类话会把进度误钉到第一章，违反「宁少勿多」口径。第一章锚点是否加入列为待裁决（PROGRESS_AXIS_DESIGN.md §13）。"
+}
