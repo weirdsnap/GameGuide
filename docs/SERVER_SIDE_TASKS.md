@@ -245,3 +245,14 @@ turns**（`ip=127.0.0.1`、`elapsed=0`、`chunks=1`、答案固定「氧气」�
 - **I-21**：`bg3-hill-giant-gauntlets` 去掉「第三章」禁词（或 max_level 提到 2）。
 - **P0-2 已修**（`7ed127b`）：先 `--probe` 看三个闸门读数，再整站抓 + 抽 20 页人眼比对；
   发现误删晃 `--no-strip` 对照。
+
+### 2026-11-27 KCD2 / BFV 部署就绪（Mac 侧已完成）
+
+- 代码已推送（`bf6c2c7`），两个游戏的向量库已 scp 到服务器
+  （kcd2 13.8MB、battlefield5 11.5MB，games/<game>/vectorstore/）。
+- 待服务器端动作：`git pull` + `bash scripts/deploy/api.sh` 重启。
+- 重启后抽查（端到端，应命中具体条目且带来源，不应出现「知识库暂时不可用」）：
+  - KCD2：「库滕堡在哪」「亨利是谁」「伤害最高的长剑」
+  - BFV：「阿拉斯地图怎么打」「STG44 怎么样」
+- 注：KCD2 的 `kcd2_glossary.jsonl` 在 `games/kcd2/data/` 下，已随代码推送，
+  查询时扩展生效，无需额外部署。
