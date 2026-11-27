@@ -256,3 +256,16 @@ turns**（`ip=127.0.0.1`、`elapsed=0`、`chunks=1`、答案固定「氧气」�
   - BFV：「阿拉斯地图怎么打」「STG44 怎么样」
 - 注：KCD2 的 `kcd2_glossary.jsonl` 在 `games/kcd2/data/` 下，已随代码推送，
   查询时扩展生效，无需额外部署。
+
+#### 服务器端已完成（2026-11-27 19:47，`beta6-185-g315dfa0`）
+
+- `git pull`（bf6c2c7 → 91617a0）+ `api.sh` 重启成功，两个向量库就位
+  （kcd2 13.8MB / battlefield5 11.5MB，mtime 19:44）。
+- 抽查 5 问全部命中知识库、无「知识库暂时不可用」，落库游戏正确：
+  - 「库滕堡在哪」→ game=kcd2，库滕堡词条（含意大利区、铸币厂、旅店）
+  - 「亨利是谁」→ game=kcd2，斯卡里茨的亨利身世链
+  - 「阿拉斯地图怎么打」→ game=battlefield5，地形 + 各模式要点
+  - 「STG44 怎么样」→ game=battlefield5，600 RPM / 4 发低后坐 / 专精建议
+  - 「伤害最高的长剑」→ **落菜单**（新会话无游戏信号、detect_game 不臆断，属既有设计不是回归）；
+    补问「天国拯救2 伤害最高的长剑」→ game=kcd2，战争之舌长剑斩击 170 / 重铸的亨利的剑刺击最高
+- 基线：`pytest tests/ -q` 433 passed / 23 skipped / 1 xfailed。
