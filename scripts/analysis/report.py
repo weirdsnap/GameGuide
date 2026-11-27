@@ -188,8 +188,14 @@ def summarize(records: List[dict]) -> dict:
     }
 
 
-def daily_series(records: List[dict], feedback: Optional[List[dict]] = None) -> List[dict]:
-    """按日一行的序列，日期升序。喂给折线/柱状图。"""
+def daily_series(records: List[dict], feedback: Optional[List[dict]] = None,
+                 *, days: Optional[int] = None, now: Optional[float] = None) -> List[dict]:
+    """按日一行的序列，日期升序。喂给折线/柱状图。
+
+    传 `days` 时返回**连续**的 days 天（尾巴是今天，无数据的天补 0）：
+    看板的日期轴不能因为某天没人问就断，否则 7 天窗口里只有 6 天有数据时
+    图上会忽然少一根柱、日期也不对齐，看起来像「只有今天有数据」。
+    """
     buckets: Dict[str, List[dict]] = defaultdict(list)
     for r in records:
         buckets[day_of(r.get("ts"))].append(r)
@@ -203,16 +209,24 @@ def daily_series(records: List[dict], feedback: Optional[List[dict]] = None) -> 
         elif int(item.get("rating") or 0) > 0:
             fb_good[day] += 1
 
+    if days:
+        now = float(now) if now is not None else time.time()
+        day_list = [day_of(now - i * 86400) for i in range(max(int(days), 1) - 1, -1, -1)]
+    else:
+        day_list = sorted(buckets)
+
     series = []
-    for day in sorted(buckets):
-        rows = buckets[day]
+    for day in day_list:
+        rows = buckets.get(day, [])
+        elapsed = percentiles([_num(r, "elapsed_ms") / 1000 for r in rows])
+        tokens_in = percentiles([_num(r, "tokens_in") for r in rows])
         series.append({
             "date": day,
             "turns": len(rows),
             "failed": sum(1 for r in rows if _is_failed(r)),
-            "elapsed_p90": percentiles([_num(r, "elapsed_ms") / 1000 for r in rows])["p90"],
-            "tokens_in_p90": percentiles([_num(r, "tokens_in") for r in rows])["p90"],
-            "tokens_in_max": percentiles([_num(r, "tokens_in") for r in rows])["max"],
+            "elapsed_p90": elapsed["p90"],
+            "tokens_in_p90": tokens_in["p90"],
+            "tokens_in_max": tokens_in["max"],
             "history_msgs_avg": percentiles([_num(r, "history_msgs") for r in rows])["avg"],
             "spoiler": sum(1 for r in rows if r.get("spoiler_hits")),
             "l3": sum(1 for r in rows if _spoiler_worst(r) >= 3),
@@ -359,4 +373,75 @@ def filter_turns(records: List[dict], *, date: Optional[str] = None,
         "matched": len(rows),
         "next_before": page[-1]["ts"] if full_page else None,
         "next_before_id": page[-1]["turn_id"] if full_page else None,
+    }
+
+
+# ====== 博客访问（docs/BLOG_ANALYTICS_PLAN.md）======
+
+
+def blog_series(rows: List[dict], days: int = 7, *, now: Optional[float] = None) -> List[dict]:
+    """连续 days 天的 PV/UV 序列，缺的日子补 0（折线不能因为没数据就断）。"""
+    now = float(now) if now is not None else time.time()
+    buckets: Dict[str, List[dict]] = defaultdict(list)
+    for r in rows:
+        buckets[r.get("day") or day_of(r.get("ts"))].append(r)
+    out = []
+    for i in range(max(int(days), 1) - 1, -1, -1):
+        day = day_of(now - i * 86400)
+        bucket = buckets.get(day, [])
+        out.append({
+            "day": day,
+            "pv": len(bucket),
+            "uv": len({r.get("visitor") for r in bucket if r.get("visitor")}),
+        })
+    return out
+
+
+def blog_summary(rows: List[dict], days: int = 7, *, now: Optional[float] = None,
+                 include_flagged: bool = False) -> dict:
+    """博客访问聚合：总量 + 按日序列 + top 文章 + 来源域名 + 设备分布。
+
+    rows 由 `rag_agent.blog_stats.fetch_rows` 从 SQLite 取出（明细）。
+    flagged=1（疑似机器人/陌生 Origin）默认剔除，只把条数报出来——过滤规则一定
+    会误杀，数据留在库里可以复核，统计口径先干净。
+    """
+    rows = list(rows or [])
+    if include_flagged:
+        valid, hidden = rows, 0
+    else:
+        valid = [r for r in rows if not int(r.get("flagged") or 0)]
+        hidden = len(rows) - len(valid)
+
+    def _uv(items: List[dict]) -> int:
+        return len({r.get("visitor") for r in items if r.get("visitor")})
+
+    posts: Dict[str, List[dict]] = defaultdict(list)
+    refs: Counter = Counter()
+    devices: Counter = Counter()
+    for r in valid:
+        if r.get("kind") == "post":
+            posts[r.get("path") or "?"].append(r)
+        if r.get("ref"):
+            refs[r["ref"]] += 1
+        devices[r.get("device") or "unknown"] += 1
+
+    top_posts = [
+        {"path": path, "pv": len(items), "uv": _uv(items)}
+        for path, items in posts.items()
+    ]
+    top_posts.sort(key=lambda x: (-x["pv"], x["path"]))
+    total = len(valid) or 1
+
+    return {
+        "days": int(days),
+        "pv": len(valid),
+        "uv": _uv(valid),
+        "series": blog_series(valid, days, now=now),
+        "top_posts": top_posts[:10],
+        "refs": [{"ref": ref, "pv": n} for ref, n in refs.most_common(10)],
+        "devices": [
+            {"device": d, "pv": n, "share": round(n / total, 3)}
+            for d, n in devices.most_common()
+        ],
+        "flagged": hidden,
     }

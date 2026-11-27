@@ -52,6 +52,10 @@ data/eval/
 # 会话存储（SQLite，I-23）：运行时状态，不入库
 data/sessions.db
 
+# 博客访问统计（SQLite，docs/BLOG_ANALYTICS_PLAN.md）：运行时状态，不入库
+data/blog.db
+api_config.json.bak
+
 # refetch_wiki 采集产物：本地留存对照，不入库
 *.bak-refetch
 *.refetch.md

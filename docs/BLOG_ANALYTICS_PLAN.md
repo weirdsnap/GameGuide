@@ -58,9 +58,10 @@ CREATE INDEX IF NOT EXISTS idx_hits_path ON blog_hits(path, day);
 2. **visitor 摘要按天轮换盐**：UV 按天统计本来就够用，跨天无法把同一人串起来，
    属于「设计上就不可能画像」，不是靠承诺。
 3. **不写 cookie、不读 localStorage**。浏览器侧完全无状态，因此不需要横幅。
-4. 明细保留 90 天；聚合（按 day × path 的 PV/UV）永久保留一张
-   `blog_daily` 汇总表，删明细不影响历史曲线——与全站「不物理删用户数据」
-   的口径一致（这里只是聚合归档，不丢结论）。
+4. 明细不删。原方案写的是「明细 90 天 + `blog_daily` 聚合表」，实现时砍了：
+   单机日 PV 百量级，一年也就十万行，不需要归档表；而「到期删明细」与全站
+   「不物理删用户数据」的口径相冲，多一张要同步的表也多一处口径漂移。
+   将来真到量就加 `(day, path)` 的物化视图，而不是删明细。
 5. 上报失败一律静默，不影响页面任何行为。
 
 ## 4. 端点契约
@@ -178,3 +179,23 @@ gh api repos/weirdsnap/weirdsnap.github.io/traffic/views --jq '.views[]|[.timest
 - 不做文章内阅读时长/滚动深度（要先埋点再算，收益不抵复杂度，等有需要再说）；
 - 不把 `hollow_knight.html` 的提问流量混进来——那部分已经有 `data/turns/*.jsonl`；
 - 不为统计改博客架构（不引 Jekyll/Hugo，不动现有多文件结构）。
+
+## 10. 实现状态（2026-11-27）
+
+- **S0 已落地**：`src/rag_agent/blog_stats.py`（归一化、设备分档、可疑标记、按天轮换盐的
+  visitor 摘要、限速器、SQLite 读写）+ `POST /api/hit`；`tests/test_blog_stats.py` 22 条
+  （纯函数 / 聚合口径 / 端点契约三层），全量 pytest 402 passed。
+- **S2 已落地**：`report.blog_series` / `report.blog_summary`（口径与其它统计同源）+
+  `GET /api/dashboard/blog` + 看板第四块「博客访问」（PV/UV/文章数/可疑计数四卡、日 PV/UV
+  双折线、top 10 文章、来源域名、设备分布；折线与柱都带 `<title>` 悬停数值）。
+- **S1 待做**：博客仓库 `scripts/hit.js` 与 4 个 HTML 的引用（本节 §5 的脚本即是实现草案）。
+- **S3 待做**：GH Traffic 14 天交叉验证。
+
+顺带修掉的两个看板缺陷（同一次改动，与此功能无关但都出在「图」上）：
+
+1. `report.daily_series` 原来只列「有数据的天」，7 天窗口里没人提问的日子直接缺席，
+   柱少一根、日期跟数据错位；现在传入 `days` 就返回连续日期轴（无数据补 0，柱画成灰）。
+   不传 `days` 的老语义保留，CLI 与其它调方不受影响。
+2. 趋势图原来固定 `viewBox="0 0 900 220"`，窄屏下整张图等比缩到 390px 宽——
+   10px 的日期标签实际只有 4px，看不见；柱子也挤成一坨。现在渲染前按 `svg.clientWidth`
+   设 viewBox（1:1 像素），字号就是真实像素，窗口 resize 后 250ms 节流重绘。

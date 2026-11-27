@@ -118,6 +118,23 @@ def test_daily_series_merges_feedback_counts():
     assert series[0]["feedback_bad"] == 1 and series[0]["feedback_good"] == 1
 
 
+def test_daily_series_pads_empty_days_when_days_given():
+    """看板日期轴必须连续：某天没人问也要占一个格，否则图上少一根柱、日期不对齐。"""
+    now = 1795365000
+    records = [_turn(now), _turn(now - 2 * 86400), _turn(now - 2 * 86400 + 60)]
+    series = report.daily_series(records, days=4, now=now)
+    assert [d["date"] for d in series] == [
+        report.day_of(now - 3 * 86400),
+        report.day_of(now - 2 * 86400),
+        report.day_of(now - 86400),
+        report.day_of(now),
+    ]
+    assert [d["turns"] for d in series] == [0, 2, 0, 1]
+    assert series[0]["tokens_in_p90"] == 0 and series[0]["elapsed_p90"] == 0.0
+    # 不传 days 时保持旧语义（只列有数据的天），CLI 与其它调方不受影响
+    assert len(report.daily_series(records)) == 2
+
+
 # ====== 反馈 ======
 
 def test_feedback_counts_dedupes_by_turn_id():

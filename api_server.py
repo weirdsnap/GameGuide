@@ -26,6 +26,7 @@ sys.path.insert(0, str(project_root / "src"))
 
 from rag_agent.multi_agent import ask, ask_stream, _game_from_history
 from rag_agent import store
+from rag_agent import blog_stats
 # 统计口径单源：CLI（turns_report.py）与看板 API 都走这一层（docs/DASHBOARD_PLAN.md §4）
 from scripts.analysis import report
 
@@ -99,6 +100,15 @@ def dashboard_denied(request) -> bool:
         return True
     return any(request.headers.get(h) for h in PROXY_HEADERS)
 
+
+# ====== 博客访问上报（docs/BLOG_ANALYTICS_PLAN.md）======
+# 博客在 GitHub Pages 上没有后端，文章级访问只能由前端 beacon 上报过来。
+# 落 data/blog.db（gitignore，路径可用 GAMEGUIDE_BLOG_DB 覆盖），与看板共用统计层。
+BLOG_HITS_ENABLED = os.environ.get("GAMEGUIDE_BLOG_HITS", "1") == "1"
+BLOG_HIT_MAX_BYTES = 1024
+blog_hit_limiter = blog_stats.HitRateLimiter(
+    per_min=int(os.environ.get("GAMEGUIDE_BLOG_HITS_PER_MIN", "60"))
+)
 
 # turn_id 由服务端生成：12 位十六进制，一整天不撞，也方便在日志里 grep
 TURN_ID_RE = re.compile(r"^[0-9a-f]{8,32}$")
@@ -1074,7 +1084,7 @@ async def handle_dashboard_summary(request):
     days = _int_query(request, "days", 7, 90)
     records = _load_turns(days)
     feedback = _load_feedback(days)
-    daily = report.daily_series(records, feedback)
+    daily = report.daily_series(records, feedback, days=days)
     return web.json_response({
         "generated_at": int(time.time()),
         "days": days,
@@ -1114,6 +1124,67 @@ async def handle_dashboard_turns(request):
     )
     result.update({"generated_at": int(time.time()), "days": days})
     return web.json_response(result)
+
+
+async def handle_blog_hit(request):
+    """POST /api/hit — 博客页面上报（docs/BLOG_ANALYTICS_PLAN.md §4）。
+
+    永远回 204，不区分成败：上报端是第三方页面，任何非 2xx 都只会诱发重试；
+    超限、坏数据、写库失败全部静默丢掉，绝不回报「你被限速了」。
+    """
+    if not BLOG_HITS_ENABLED:
+        return web.Response(status=204)
+    try:
+        raw = await request.text()
+    except Exception:
+        return web.Response(status=204)
+    if not raw or len(raw) > BLOG_HIT_MAX_BYTES:
+        return web.Response(status=204)
+    try:
+        payload = json.loads(raw)
+    except ValueError:
+        return web.Response(status=204)
+    if not isinstance(payload, dict):
+        return web.Response(status=204)
+    path_label = blog_stats.normalize_path(payload.get("p"))
+    if not path_label:
+        return web.Response(status=204)
+    ip = _client_ip(request)
+    if not blog_hit_limiter.allow(ip):
+        return web.Response(status=204)
+
+    ts = time.time()
+    flagged = blog_stats.is_flagged(
+        request.headers.get("User-Agent", ""), request.headers.get("Origin", "")
+    )
+    try:
+        blog_stats.record_hit(
+            ts=ts,
+            path_label=path_label,
+            kind=blog_stats.normalize_kind(payload.get("k")),
+            ref=blog_stats.normalize_ref(payload.get("r")),
+            device=blog_stats.device_of(payload.get("w")),
+            visitor=blog_stats.visitor_hash(ip, blog_stats.day_of(ts)),
+            flagged=flagged,
+        )
+    except Exception as e:  # 存储故障不能影响上报方，也不刷 info 日志
+        logger.debug("blog hit 落库失败: %s", e)
+    return web.Response(status=204)
+
+
+async def handle_dashboard_blog(request):
+    """GET /api/dashboard/blog?days=7 — 博客访问聚合（PV/UV/序列/top 文章/来源）。"""
+    if dashboard_denied(request):
+        raise web.HTTPNotFound()
+    days = _int_query(request, "days", 7, 90)
+    try:
+        rows = blog_stats.fetch_rows(days=days)
+    except Exception as e:
+        logger.warning("博客统计读取失败: %s", e)
+        rows = []
+    data = report.blog_summary(rows, days)
+    data["generated_at"] = int(time.time())
+    return web.json_response(data)
 
 
 async def handle_dashboard_feedback(request):
@@ -1198,6 +1269,8 @@ def create_app() -> web.Application:
     app.router.add_get("/api/dashboard/summary", handle_dashboard_summary)
     app.router.add_get("/api/dashboard/turns", handle_dashboard_turns)
     app.router.add_get("/api/dashboard/feedback", handle_dashboard_feedback)
+    app.router.add_get("/api/dashboard/blog", handle_dashboard_blog)
+    app.router.add_post("/api/hit", handle_blog_hit)
     # 会话（I-23）：刷新后恢复历史 / 最近对话 / 重开进度 / 删对话
     app.router.add_get("/api/sessions", handle_sessions)
     app.router.add_get("/api/sessions/{session_id}", handle_session_detail)

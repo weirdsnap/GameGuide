@@ -58,7 +58,12 @@ def test_summary_with_no_data(monkeypatch, tmp_path):
     status, body = _get(factory, "/api/dashboard/summary?days=7")
     assert status == 200
     assert body["summary"]["turns"] == 0
-    assert body["daily"] == [] and body["today"] is None
+    # 窗口内每天都要占一个格：日期轴连续，今天的格子里 turns=0
+    assert len(body["daily"]) == 7
+    assert all(row["turns"] == 0 for row in body["daily"])
+    assert body["daily"][0]["date"] == report.day_of(NOW - 6 * 86400)
+    assert body["daily"][-1]["date"] == report.day_of(NOW)
+    assert body["today"] is not None and body["today"]["turns"] == 0
     assert body["budget"]["ok"] is True
     assert body["quota"]["limit"] > 0
 
@@ -82,7 +87,8 @@ def test_summary_aggregates_turns_and_feedback(monkeypatch, tmp_path):
     assert body["budget"]["ok"] is False           # p90 被 50000 拉过 40000
     assert body["feedback"] == {"total": 2, "good": 1, "bad": 1, "bad_rate": 0.5}
     assert body["today"]["turns"] == 3
-    assert body["daily"][0]["feedback_bad"] == 1
+    assert body["daily"][-1]["feedback_bad"] == 1
+    assert len(body["daily"]) == 7 and sum(d["turns"] for d in body["daily"]) == 3
 
 
 def test_summary_excludes_local_test_traffic(monkeypatch, tmp_path):

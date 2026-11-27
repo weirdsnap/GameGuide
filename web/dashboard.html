@@ -47,7 +47,8 @@
     .v.ok { color: var(--good); } .v.bad { color: var(--bad); } .v.warn { color: var(--warn); }
     section { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; margin-bottom: 16px; }
     section h2 { margin: 0 0 10px; font-size: 13px; font-weight: 600; color: var(--muted); letter-spacing: .04em; }
-    svg { width: 100%; height: auto; display: block; }
+    svg { width: 100%; height: 220px; display: block; }
+    #blog-trend { height: 190px; }
     .legend { display: flex; gap: 16px; font-size: 11px; color: var(--muted); margin-top: 6px; }
     .dot { display: inline-block; width: 8px; height: 8px; border-radius: 2px; margin-right: 4px; }
     table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
@@ -62,6 +63,9 @@
     .tag.err { color: var(--bad); border-color: #5a2f2b; }
     .detail td { background: #16191e; color: var(--muted); font-size: 12px; padding: 10px 14px; }
     .detail pre { margin: 6px 0 0; white-space: pre-wrap; word-break: break-word; color: var(--text); font: 12px/1.55 inherit; }
+    .blog-cols { display: flex; gap: 20px; flex-wrap: wrap; margin-top: 14px; }
+    .blog-col { flex: 1 1 280px; min-width: 0; }
+    .blog-col h3 { margin: 0 0 6px; font-size: 12px; font-weight: 500; color: var(--muted); }
     .empty { color: var(--muted); padding: 20px 0; text-align: center; font-size: 13px; }
 </style>
 </head>
@@ -113,6 +117,34 @@
     <div style="margin-top:12px; text-align:center">
         <button id="more" style="display:none">加载更早</button>
     </div>
+</section>
+
+<section>
+    <h2>博客访问</h2>
+    <div class="cards" id="blog-cards" style="margin-bottom:12px"></div>
+    <svg id="blog-trend" viewBox="0 0 900 190" preserveAspectRatio="none"></svg>
+    <div class="legend">
+        <span><i class="dot" style="background:#3d5a80"></i>PV</span>
+        <span><i class="dot" style="background:#e0a458"></i>UV</span>
+    </div>
+    <div class="blog-cols">
+        <div class="blog-col">
+            <h3>被读最多的文章</h3>
+            <table>
+                <thead><tr><th>文章</th><th>PV</th><th>UV</th></tr></thead>
+                <tbody id="blog-posts"></tbody>
+            </table>
+        </div>
+        <div class="blog-col">
+            <h3>来源域名</h3>
+            <table>
+                <thead><tr><th>来源</th><th>PV</th></tr></thead>
+                <tbody id="blog-refs"></tbody>
+            </table>
+            <div class="sub" id="blog-devices" style="margin-top:8px"></div>
+        </div>
+    </div>
+    <div class="sub" id="blog-meta" style="margin-top:10px"></div>
 </section>
 
 <script>
@@ -181,7 +213,9 @@ function renderCards(data) {
 function renderTrend(daily) {
     const svg = document.getElementById('trend');
     svg.replaceChildren();
-    const W = 900, H = 220, padL = 34, padB = 26, padT = 12;
+    const W = Math.max(320, Math.round(svg.clientWidth || 900)), H = 220, padL = 34, padB = 26, padT = 12;
+    // 按容器实际宽度画（而不是固定 900 再缩）：窄屏时段字仍是 10px，日期看得见
+    svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
     if (!daily.length) {
         const t = document.createElementNS('http://www.w3.org/2000/svg', 'text');
         t.setAttribute('x', W / 2); t.setAttribute('y', H / 2);
@@ -212,17 +246,27 @@ function renderTrend(daily) {
     svg.append(yLabel);
 
     const points = [];
+    // 日期标签抽稀：窗口 <= 8 天每天都标，否则按 ~8 格均分（最后一格必标）
+    const labelEvery = Math.max(1, Math.ceil(daily.length / 8));
     daily.forEach((d, i) => {
         const cx = padL + slot * i + slot / 2;
         const h = innerH * (d.turns / maxTurns);
-        svg.append(mk('rect', {
+        const rect = mk('rect', {
             x: cx - barW / 2, y: H - padB - h, width: barW, height: Math.max(1, h),
-            fill: '#3d5a80', rx: 2
-        }));
-        // 日期标签（过密时抽稀）
-        if (daily.length <= 10 || i % Math.ceil(daily.length / 10) === 0) {
-            svg.append(mk('text', { x: cx, y: H - 8, 'text-anchor': 'middle',
-                                    fill: '#8b94a3', 'font-size': 10 })).textContent = d.date.slice(5);
+            fill: d.turns ? '#3d5a80' : '#2e333d', rx: 2
+        });
+        // 悬停看完整数字：图上标签再密也不丢信息
+        const tip = document.createElementNS('http://www.w3.org/2000/svg', 'title');
+        tip.textContent = d.date + '\n' + d.turns + ' 轮 · 失败 ' + d.failed +
+            '\np90 耗时 ' + d.elapsed_p90 + 's · tokens ' + fmtNum(d.tokens_in_p90) +
+            (d.feedback_bad ? '\n点踩 ' + d.feedback_bad : '');
+        rect.append(tip);
+        svg.append(rect);
+        if (daily.length <= 8 || i % labelEvery === 0 || i === daily.length - 1) {
+            const t = mk('text', { x: cx, y: H - 8, 'text-anchor': 'middle',
+                                   fill: '#8b94a3', 'font-size': 10 });
+            t.textContent = d.date.slice(5);
+            svg.append(t);
         }
         const y = H - padB - innerH * (d.tokens_in_p90 / maxTokens);
         points.push([cx, y]);
@@ -303,8 +347,9 @@ function renderRows(turns, append) {
 
 async function loadSummary() {
     const data = await getJSON('/dashboard/summary?days=' + state.days);
+    const activeDays = data.daily.filter(d => d.turns > 0).length;
     document.getElementById('meta').textContent =
-        data.days + ' 天窗口 · 生成于 ' +
+        data.days + ' 天窗口 · 有数据 ' + activeDays + '/' + data.daily.length + ' 天 · 生成于 ' +
         new Date(data.generated_at * 1000).toLocaleTimeString('zh-CN');
     renderCards(data);
     renderTrend(data.daily);
@@ -333,12 +378,137 @@ async function loadTurns(reset) {
     }
 }
 
+// ====== 博客访问（docs/BLOG_ANALYTICS_PLAN.md）======
+function shortPost(path) {
+    let s = String(path || '');
+    if (s.startsWith('/post/')) s = s.slice(6);
+    if (s.startsWith('posts/')) s = s.slice(6);
+    if (s.endsWith('.md')) s = s.slice(0, -3);
+    return s;
+}
+
+function svgNode(name, attrs, text) {
+    const node = document.createElementNS('http://www.w3.org/2000/svg', name);
+    for (const k in attrs) node.setAttribute(k, attrs[k]);
+    if (text !== undefined) node.textContent = text;
+    return node;
+}
+
+function renderBlogTrend(series) {
+    const svg = document.getElementById('blog-trend');
+    svg.replaceChildren();
+    const H = 190, padL = 34, padB = 24, padT = 12;
+    const W = Math.max(300, Math.round(svg.clientWidth || 900));
+    svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
+    if (!series || !series.length) {
+        svg.append(svgNode('text', { x: W / 2, y: H / 2, 'text-anchor': 'middle',
+                                     fill: '#8b94a3', 'font-size': 12 }, '暂无数据'));
+        return;
+    }
+    const innerH = H - padT - padB;
+    const maxV = Math.max(1, ...series.map(s => Math.max(s.pv, s.uv)));
+    const n = series.length;
+    const step = n > 1 ? (W - padL - 10) / (n - 1) : 0;
+    svg.append(svgNode('text', { x: padL - 6, y: padT + 8, 'text-anchor': 'end',
+                                 fill: '#8b94a3', 'font-size': 10 }, fmtNum(maxV)));
+    svg.append(svgNode('line', { x1: padL, y1: H - padB, x2: W - 10, y2: H - padB,
+                                 stroke: '#2e333d', 'stroke-width': 1 }));
+    const draw = (key, color, dash) => {
+        const pts = series.map((s, i) => [padL + step * i, H - padB - innerH * (s[key] / maxV)]);
+        svg.append(svgNode('polyline', {
+            points: pts.map(p => p[0].toFixed(1) + ',' + p[1].toFixed(1)).join(' '),
+            fill: 'none', stroke: color, 'stroke-width': 2, 'stroke-dasharray': dash || 'none'
+        }));
+        pts.forEach((p, i) => {
+            const c = svgNode('circle', { cx: p[0].toFixed(1), cy: p[1].toFixed(1),
+                                          r: 2.5, fill: color });
+            const tip = document.createElementNS('http://www.w3.org/2000/svg', 'title');
+            tip.textContent = series[i].day + ' · PV ' + series[i].pv + ' · UV ' + series[i].uv;
+            c.append(tip);
+            svg.append(c);
+        });
+    };
+    draw('pv', '#3d5a80', '');
+    draw('uv', '#e0a458', '4 3');
+    const labelEvery = Math.max(1, Math.ceil(n / 8));
+    series.forEach((s, i) => {
+        if (n <= 8 || i % labelEvery === 0 || i === n - 1) {
+            svg.append(svgNode('text', { x: padL + step * i, y: H - 8, 'text-anchor': 'middle',
+                                         fill: '#8b94a3', 'font-size': 10 }, s.day.slice(5)));
+        }
+    });
+}
+
+function renderBlogPosts(list) {
+    const tbody = document.getElementById('blog-posts');
+    tbody.replaceChildren();
+    if (!list || !list.length) {
+        const tr = el('tr');
+        const td = el('td', 'sub', '窗口内没有文章访问记录');
+        td.colSpan = 3;
+        tr.append(td);
+        tbody.append(tr);
+        return;
+    }
+    for (const p of list) {
+        const tr = el('tr', 'row');
+        const td = el('td', 'q', shortPost(p.path));
+        td.title = p.path;
+        tr.append(td, el('td', '', String(p.pv)), el('td', '', String(p.uv)));
+        tbody.append(tr);
+    }
+}
+
+function renderBlogRefs(refs, devices) {
+    const tbody = document.getElementById('blog-refs');
+    tbody.replaceChildren();
+    if (!refs || !refs.length) {
+        const tr = el('tr');
+        const td = el('td', 'sub', '直接访问 / 无 referrer');
+        td.colSpan = 2;
+        tr.append(td);
+        tbody.append(tr);
+    } else {
+        for (const r of refs) {
+            const tr = el('tr');
+            tr.append(el('td', '', r.ref), el('td', '', String(r.pv)));
+            tbody.append(tr);
+        }
+    }
+    const names = { mobile: '手机', tablet: '平板', desktop: '桌面' };
+    const dev = (devices || [])
+        .map(d => (names[d.device] || d.device) + ' ' + Math.round(d.share * 100) + '%')
+        .join(' · ');
+    document.getElementById('blog-devices').textContent = dev ? '设备：' + dev : '';
+}
+
+async function loadBlog() {
+    try {
+        const data = await getJSON('/dashboard/blog?days=' + state.days);
+        document.getElementById('blog-cards').replaceChildren(
+            card('PV', fmtNum(data.pv), data.days + ' 天窗口'),
+            card('UV', fmtNum(data.uv), '按天去重'),
+            card('有访问的文章', fmtNum(data.top_posts.length), 'top 10 内'),
+            card('可疑记录', fmtNum(data.flagged), '已剔除，仅计数',
+                 data.flagged ? 'warn' : '')
+        );
+        renderBlogTrend(data.series);
+        renderBlogPosts(data.top_posts);
+        renderBlogRefs(data.refs, data.devices);
+        document.getElementById('blog-meta').textContent =
+            '来自博客前端 beacon：不存 IP / 完整 URL，UV 按天换盐、跨天无法串联同一人';
+    } catch (e) {
+        document.getElementById('blog-meta').textContent = '博客统计加载失败：' + e.message;
+    }
+}
+
 function refreshAll() {
     document.getElementById('meta').textContent = '加载中…';
     loadSummary().catch(e => {
         document.getElementById('meta').textContent = '加载失败：' + e.message;
     });
     loadTurns(true);
+    loadBlog();
 }
 
 document.querySelectorAll('[data-days]').forEach(btn => {
@@ -359,6 +529,17 @@ document.querySelectorAll('[data-filter]').forEach(btn => {
 
 document.getElementById('refresh').addEventListener('click', refreshAll);
 document.getElementById('more').addEventListener('click', () => loadTurns(false));
+
+// 图按容器宽度重绘（SVG 里的字号是绝对像素），窗口尺寸变一次就重取一次数据
+let resizeTimer = null;
+window.addEventListener('resize', () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(() => {
+        loadSummary().catch(() => {});
+        loadBlog();
+    }, 250);
+});
+
 refreshAll();
 </script>
 </body>

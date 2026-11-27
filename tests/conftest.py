@@ -26,6 +26,12 @@ def _isolate_gameguide_data(tmp_path, monkeypatch):
     monkeypatch.setattr(module, "TURNS_DIR", tmp_path / "turns", raising=False)
     monkeypatch.setattr(module, "FEEDBACK_DIR", tmp_path / "feedback", raising=False)
     monkeypatch.setattr(module, "SESSION_DB", tmp_path / "sessions.db", raising=False)
+    # 博客上报（docs/BLOG_ANALYTICS_PLAN.md）：库路径走环境变量（blog_stats 读它），
+    # 限速器换新实例，避免用例之间串「每分钟 60 次」的计数。
+    monkeypatch.setenv("GAMEGUIDE_BLOG_DB", str(tmp_path / "blog.db"))
+    if hasattr(module, "blog_hit_limiter"):
+        monkeypatch.setattr(module, "blog_hit_limiter",
+                            module.blog_stats.HitRateLimiter(60), raising=False)
 
 
 def pytest_addoption(parser):
