@@ -482,6 +482,9 @@ def main():
     if args.lang == "zh":
         out = out.with_name(out.stem + "_zh" + out.suffix)
     out = out.with_name(out.stem + ".refetch" + out.suffix)
+    # 新游戏的 data 目录可能还没建（KCD2 抓取在 100 页 checkpoint 时撞过：
+    # 目录不存在导致 state 写入 FileNotFoundError，抓取直接崩）。
+    out.parent.mkdir(parents=True, exist_ok=True)
 
     print(f"\n🌐 {args.game} / {args.lang} → {api}")
     wiki = Wiki(api, args.delay)

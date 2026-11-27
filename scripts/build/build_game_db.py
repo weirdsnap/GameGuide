@@ -1069,13 +1069,160 @@ def build_silksong_db():
 
 
 # ═══════════════════════════════════════════════
+# ║  KCD2（天国拯救2）
+# ═══════════════════════════════════════════════
+
+KCD2_CONFIG = {
+    "api": "https://kingdom-come-deliverance.fandom.com/api.php",
+    "user_agent": "GameGuideBot/1.0 (KCD2 structured data builder)",
+    "output": GAMES_DIR / "kcd2" / "kcd2_data.db",
+    # KCD2 wiki 的物品页统一用 {{KCD2 item infobox/multi}} 模板，
+    # 数值按品质分档（stab1..stab4 等）。分类层级：顶层分类只挂概览页，
+    # 实际物品页在子分类里，所以直接枚举子分类。
+    "weapon_categories": [
+        "KCD2: Bladed weapons", "KCD2: Blunt weapons", "KCD2: Polearms",
+        "KCD2: Ranged weapons", "KCD2: Ammo", "KCD2: Shields",
+    ],
+    "armour_categories": [
+        "KCD2: Arm armour", "KCD2: Body armour", "KCD2: Head armour",
+        "KCD2: Horse tack", "KCD2: Jewellery", "KCD2: Leg armour",
+        "KCD2: Women's clothing",
+    ],
+}
+
+KCD2_SCHEMA = """
+CREATE TABLE IF NOT EXISTS items (
+    id INTEGER PRIMARY KEY,
+    slug TEXT UNIQUE,
+    name TEXT,
+    kind TEXT,             -- weapon / armour
+    classification TEXT,   -- 模板里的 Weapon/Armour
+    type TEXT,             -- Bladed/Blunt/Body/Head...
+    subtype TEXT,
+    quality INTEGER,       -- 取的最高品质档（1-4）
+    stab REAL,
+    slash REAL,
+    blunt REAL,
+    power REAL,
+    defence REAL,
+    conspic REAL,
+    noise REAL,
+    visibility REAL,
+    charisma REAL,
+    durability REAL,
+    weight REAL,
+    price REAL,
+    str_agi TEXT,          -- 属性要求，如 "15/19"
+    description TEXT
+);
+CREATE INDEX IF NOT EXISTS idx_kcd2_items_kind ON items(kind);
+CREATE INDEX IF NOT EXISTS idx_kcd2_items_type ON items(type);
+"""
+
+# 数值字段：按品质档 n 逐个取 stab{n}/slash{n}/...
+_KCD2_NUMERIC_FIELDS = [
+    "stab", "slash", "blunt", "power", "defence", "conspic", "noise",
+    "visibility", "charisma", "durability", "weight", "price",
+]
+
+
+def build_kcd2_db():
+    cfg = KCD2_CONFIG
+    print(f"\n{'='*50}")
+    print(f"⚔️ KCD2 — 构建结构化数据库")
+    print(f"{'='*50}")
+
+    db = get_db(cfg["output"])
+    db.executescript(KCD2_SCHEMA)
+
+    all_titles = {}
+    for kind, cats in (("weapon", cfg["weapon_categories"]),
+                       ("armour", cfg["armour_categories"])):
+        titles = []
+        for cat in cats:
+            titles.extend(get_category_members(cfg["api"], cat,
+                                               cfg["user_agent"], limit=500))
+        # 去重并排除概览页（带 /KCD2 后缀的聚合页，如 Weapons/KCD2）
+        all_titles[kind] = sorted({t for t in titles if not t.endswith("/KCD2")})
+        print(f"  {kind}: {len(all_titles[kind])} pages")
+
+    all_to_fetch = [t for titles in all_titles.values() for t in titles]
+    print(f"\n📥 获取原始 wikitext（{len(all_to_fetch)} 篇）...")
+    raw_data = fetch_raw_wikitext(cfg["api"], all_to_fetch, cfg["user_agent"])
+    print(f"  → 获取到 {len(raw_data)} 篇")
+
+    count = {"weapon": 0, "armour": 0, "skipped": 0}
+
+    for kind, titles in all_titles.items():
+        print(f"\n📋 处理 {kind}...")
+        for title in titles:
+            wt = raw_data.get(title)
+            if not wt:
+                continue
+            params = extract_infobox(wt, "KCD2 item infobox/multi")
+            if not params:
+                count["skipped"] += 1
+                continue
+
+            # 取最高品质档：找存在任一数值字段的最大 n
+            quality = 0
+            for n in range(4, 0, -1):
+                if any(params.get(f"{f}{n}") for f in _KCD2_NUMERIC_FIELDS):
+                    quality = n
+                    break
+
+            row = {"quality": quality or None}
+            for f in _KCD2_NUMERIC_FIELDS:
+                row[f] = parse_numeric(params.get(f"{f}{quality}", "")) if quality else None
+            row["str_agi"] = params.get(f"str/agi{quality}", "").strip() or None
+
+            slug = title.lower().replace(' ', '-').replace("'", '').replace('(', '').replace(')', '')
+            slug = re.sub(r'[^a-z0-9\-]', '', slug)
+
+            # 描述：取正文第一句（'''加粗''' 开头的简介段）
+            desc = ""
+            body = wt.split("}}", 1)[-1] if "}}" in wt else wt
+            m = re.search(r"'''.*?'''\s*(.*?)(?:\n\n|==)", body, re.DOTALL)
+            if m:
+                desc = re.sub(r"\[\[(?:[^\]|]*\|)?([^\]]+)\]\]", r"\1", m.group(1)).strip()
+
+            try:
+                db.execute("""INSERT OR REPLACE INTO items
+                    (slug, name, kind, classification, type, subtype, quality,
+                     stab, slash, blunt, power, defence, conspic, noise,
+                     visibility, charisma, durability, weight, price,
+                     str_agi, description)
+                    VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
+                    (slug, title, kind,
+                     params.get("classification", "").strip(),
+                     params.get("type", "").strip(),
+                     params.get("subtype", "").strip(),
+                     row["quality"],
+                     row["stab"], row["slash"], row["blunt"], row["power"],
+                     row["defence"], row["conspic"], row["noise"],
+                     row["visibility"], row["charisma"], row["durability"],
+                     row["weight"], row["price"], row["str_agi"], desc))
+                count[kind] += 1
+            except sqlite3.IntegrityError:
+                count["skipped"] += 1
+
+    db.commit()
+    db.close()
+
+    print(f"\n✅ KCD2 数据库构建完成：{cfg['output']}")
+    for t, n in count.items():
+        print(f"  {t}: {n} 条")
+    print(f"  总计：{count['weapon'] + count['armour']} 条")
+
+
+# ═══════════════════════════════════════════════
 # ║  Main
 # ═══════════════════════════════════════════════
 
 def main():
     parser = argparse.ArgumentParser(description="构建游戏结构化数据库")
     parser.add_argument("--game", "-g", required=True,
-                        choices=["terraria", "oni", "silksong", "all"],
+                        choices=["terraria", "oni", "silksong", "kcd2", "all"],
                         help="要构建的游戏")
     args = parser.parse_args()
 
@@ -1083,6 +1230,7 @@ def main():
         "terraria": build_terraria_db,
         "oni": build_oni_db,
         "silksong": build_silksong_db,
+        "kcd2": build_kcd2_db,
     }
 
     if args.game == "all":

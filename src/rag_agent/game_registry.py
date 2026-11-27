@@ -391,6 +391,55 @@ _reg({
 })
 
 
+_reg({
+    "key": "kcd2",
+    "emoji": "⚔️",
+    "aliases": ["天国拯救", "天国：拯救", "kingdom come", "kcd"],
+    # 主线任务线性推进（特罗斯基地区 → 库滕堡地区），与 BG3 的 act 同构。
+    # 目前只影响进度追问的 prompt 文案；chunk 级章节元数据未打。
+    "spoiler_axis": "chapter",
+    "name": "Kingdom Come: Deliverance II (天国拯救2)",
+    "name_short": "Kingdom Come Deliverance II",
+
+    "dir": "kcd2",
+    "db_file": "kcd2_data.db",
+    "data_file": "wiki_data.md",
+    "data_file_zh": "",
+
+    # fandom（KCD1/KCD2 同库，用 KCD2: 前缀分类树，见 docs/KCD2_FETCH_PLAN.md）
+    # 必须挂代理抓取（直连 000）；wiki.gg 覆盖太薄已弃用，fextralife 连不通。
+    "wiki_api": "https://kingdom-come-deliverance.fandom.com/api.php",
+    "wiki_user_agent": "GameGuideBot/2.0 (KCD2 wiki fetcher)",
+    "wiki_categories": [
+        "KCD2: Achievements", "KCD2: Armour", "KCD2: Characters",
+        "KCD2: Codex", "KCD2: DLC", "KCD2: Gameplay",
+        "KCD2: Items", "KCD2: Locations", "KCD2: Quests", "KCD2: Weapons",
+    ],
+    "wiki_zh_categories": [],     # 中文社区 wiki 不存在，en-only（同 BG3/mhw）
+
+    "signals": [
+        "天国拯救", "天国：拯救", "kingdom come", "kcd2",
+        "亨利", "henry of skalitz",
+        "库滕堡", "kuttenberg", "特罗斯基", "trosky",
+        "拉泰", "rattay",
+        "汉斯", "hans capon", "拉德季", "伊斯特万",
+        "波西米亚", "bohemia",
+    ],
+    "exact_patterns": [
+        r"\b(?:kcd2|kingdom come(?:\s*:?\s*deliverance)?(?:\s*(?:ii|2))?)\b",
+        r"天国(?:：)?拯救(?:2|ii|二)?",
+    ],
+
+    "extra_prompt": (
+        "\nNote: Kingdom Come: Deliverance II (released Feb 2025) is a realistic "
+        "medieval RPG. Main quests are linear: early game around Trosky region → "
+        "late game around Kuttenberg region. Use this as the spoiler boundary: "
+        "never positively describe main-quest content beyond the user's reported "
+        "progress."
+    ),
+})
+
+
 # ═══════════════════════════════════════════════════════════════
 #  跨游戏通用信号（弱证据）
 #

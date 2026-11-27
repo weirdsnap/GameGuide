@@ -64,6 +64,10 @@ CASES: list[tuple[str, str, str]] = [
     # baldurs_gate3：线上主力，块/title 正常，作为对照组
     ("baldurs_gate3", "明斯克在哪", "Minsc"),
     ("baldurs_gate3", "至圣斩怎么用", "Smite"),
+    # kcd2：新入库（2026-11-27 采集，fandom 英文站）
+    ("kcd2", "库滕堡在哪", "Kuttenberg"),
+    ("kcd2", "长剑怎么选", "Longsword|Long sword|Sword"),
+    ("kcd2", "亨利是谁", "Henry"),
 ]
 
 HIT_RE = re.compile(r"【参考 \d+】\[(\w+)\] (.+)")
