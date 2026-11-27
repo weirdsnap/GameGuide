@@ -89,7 +89,7 @@ CREATE INDEX IF NOT EXISTS idx_hits_path ON blog_hits(path, day);
 
 ```json
 {"days":7,"pv":123,"uv":45,"series":[{"day":"2026-11-26","pv":12,"uv":9}],
- "top_posts":[{"path":"/post/posts/ai/x.md","pv":8,"uv":6}],
+ "top_posts":[{"path":"/post/posts/ai/x.md","title":"某个标题","pv":8,"uv":6}],
  "refs":[{"ref":"github.com","pv":20}],"devices":{"mobile":0.6,"desktop":0.35,"tablet":0.05},
  "flagged":3}
 ```
@@ -97,6 +97,12 @@ CREATE INDEX IF NOT EXISTS idx_hits_path ON blog_hits(path, day);
 - 统计口径与现有 `scripts/analysis/report.py` 同一原则：**统计只写一处**——
   在 report 里加 `blog_summary(rows, days)` 纯函数，端点与看板都调它；
 - 默认剔除 `flagged=1` 的行，返回数量让页面可以提示「另有 N 条可疑记录」。
+- `top_posts[].title` 来自博客仓库的 `posts/index.json`（GitHub Pages 前端读的同一份）：
+  `report.load_post_titles()` 递归拍平 `categories[].subs[]`，用 `path_label_key()` 把
+  `/post/cpp/ch02/02.md` 与 `cpp/ch02/02.md` 归一到同一把 key；按 `(路径, mtime, size)`
+  缓存，`git pull` 换掉 index.json 自动失效。index.json 缺失或没这一篇时 `title` 为 null，
+  看板退回只显示 id（可选装饰字段，不因为读不到而抛错）。路径用 `GAMEGUIDE_BLOG_INDEX`
+  覆盖，默认 `/data/learning/weirdsnap.github.io/posts/index.json`。
 
 ## 5. 前端 beacon（`scripts/hit.js`，约 40 行）
 
@@ -188,7 +194,12 @@ gh api repos/weirdsnap/weirdsnap.github.io/traffic/views --jq '.views[]|[.timest
 - **S2 已落地**：`report.blog_series` / `report.blog_summary`（口径与其它统计同源）+
   `GET /api/dashboard/blog` + 看板第四块「博客访问」（PV/UV/文章数/可疑计数四卡、日 PV/UV
   双折线、top 10 文章、来源域名、设备分布；折线与柱都带 `<title>` 悬停数值）。
-- **S1 待做**：博客仓库 `scripts/hit.js` 与 4 个 HTML 的引用（本节 §5 的脚本即是实现草案）。
+- **S1 已落地**：博客仓库 `scripts/hit.js`（sendBeacon + text/plain，`file://` 与无 post 参数不上报）
+  与 index.html、htmls/blog.html、list.html、hollow_knight.html 的 defer 引用（commit 48fbf6a）。
+- **文章标题（2026-11-27 补）**：`top_posts` 带 `title`，看板表格第一列表头改「文章 / id」，
+  标题在上、id（落库的 `/post/...` 短标签）在下用 11px 灰字，悬停显示「标题 + id」；
+  index.json 里没有的文章只显示 id。维护点：**服务器上要有一份能读到的 index.json 克隆**，
+  标题不会自动跟着 GitHub 更新，靠 `git -C /data/learning/weirdsnap.github.io pull` 刷新。
 - **S3 待做**：GH Traffic 14 天交叉验证。
 
 顺带修掉的两个看板缺陷（同一次改动，与此功能无关但都出在「图」上）：

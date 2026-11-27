@@ -10,6 +10,7 @@
 """
 
 import asyncio
+import json
 import sys
 import time
 from pathlib import Path
@@ -100,7 +101,7 @@ def _hit(offset, path="/post/posts/ai/x.md", kind="post", ref=None,
 
 
 def test_blog_summary_empty():
-    out = report.blog_summary([], days=7, now=NOW)
+    out = report.blog_summary([], days=7, now=NOW, titles={})
     assert out["pv"] == 0 and out["uv"] == 0 and out["flagged"] == 0
     assert len(out["series"]) == 7
     assert all(row["pv"] == 0 for row in out["series"])
@@ -114,10 +115,12 @@ def test_blog_summary_counts_pv_uv_and_excludes_flagged():
         _hit(20, visitor="v2"),
         _hit(30, visitor="v3", flagged=1),          # 可疑：不计入 pv/uv
     ]
-    out = report.blog_summary(rows, days=7, now=NOW)
+    out = report.blog_summary(rows, days=7, now=NOW, titles={})
     assert out["pv"] == 3 and out["uv"] == 2
     assert out["flagged"] == 1
-    assert out["top_posts"] == [{"path": "/post/posts/ai/x.md", "pv": 3, "uv": 2}]
+    assert out["top_posts"] == [
+        {"path": "/post/posts/ai/x.md", "title": None, "pv": 3, "uv": 2}
+    ]
 
 
 def test_blog_summary_series_covers_every_day():
@@ -139,9 +142,9 @@ def test_blog_summary_top_posts_only_counts_articles():
         _hit(3, path="/post/a", visitor="v2"),
         _hit(4, path="/post/b", visitor="v3"),
     ]
-    out = report.blog_summary(rows, days=7, now=NOW)
+    out = report.blog_summary(rows, days=7, now=NOW, titles={})
     assert [p["path"] for p in out["top_posts"]] == ["/post/a", "/post/b"]
-    assert out["top_posts"][0] == {"path": "/post/a", "pv": 2, "uv": 2}
+    assert out["top_posts"][0] == {"path": "/post/a", "title": None, "pv": 2, "uv": 2}
 
 
 def test_blog_summary_refs_and_devices():
@@ -154,6 +157,68 @@ def test_blog_summary_refs_and_devices():
     assert out["refs"] == [{"ref": "github.com", "pv": 2}]
     assert {d["device"]: d["pv"] for d in out["devices"]} == {"mobile": 1, "desktop": 2}
     assert round(sum(d["share"] for d in out["devices"]), 3) == 1.0
+
+
+# ====== 文章标题（id → 标题）======
+
+
+def _write_index(path, data):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+    return path
+
+
+def test_path_label_key_bridges_both_formats():
+    # 落库的是 /post/... 标签，index.json 里是裸相对路径，两边要归一到同一把 key
+    assert report.path_label_key("/post/cpp/ch02/02.md") == "cpp/ch02/02"
+    assert report.path_label_key("cpp/ch02/02.md") == "cpp/ch02/02"
+    assert report.path_label_key("/post/posts/ai/x.md") == "ai/x"
+    assert report.path_label_key("posts/ai/x.md") == "ai/x"
+    assert report.path_label_key("") is None and report.path_label_key(None) is None
+
+
+def test_load_post_titles_flattens_nested_categories(tmp_path):
+    index = _write_index(tmp_path / "posts" / "index.json", {
+        "categories": [
+            {"id": "essays", "type": "list", "articles": [
+                {"title": "刚开始写 python", "path": "essays/ch01.md"},
+            ]},
+            {"id": "cpp", "type": "folder", "articles": [], "subs": [
+                {"id": "ch02", "type": "list", "articles": [
+                    {"title": "构造函数", "path": "cpp/ch02/02.md"},
+                    {"title": "   ", "path": "cpp/ch02/03.md"},   # 空标题不收
+                ]},
+            ]},
+        ],
+    })
+    titles = report.load_post_titles(index)
+    assert titles == {"essays/ch01": "刚开始写 python", "cpp/ch02/02": "构造函数"}
+
+
+def test_load_post_titles_missing_file_is_empty(tmp_path):
+    assert report.load_post_titles(tmp_path / "nope.json") == {}
+
+
+def test_load_post_titles_env_override(tmp_path, monkeypatch):
+    index = _write_index(tmp_path / "index.json", {
+        "articles": [{"title": "平铺格式也能读", "path": "ai/notes.md"}],
+    })
+    monkeypatch.setenv(report.BLOG_INDEX_ENV, str(index))
+    assert report.load_post_titles() == {"ai/notes": "平铺格式也能读"}
+
+
+def test_blog_summary_attaches_titles_and_falls_back_to_id(tmp_path):
+    rows = [
+        _hit(0, path="/post/cpp/ch02/02.md"),
+        _hit(1, path="/post/missing/01.md"),
+    ]
+    titles = report.load_post_titles(_write_index(tmp_path / "index.json", {
+        "categories": [{"articles": [{"title": "构造函数", "path": "cpp/ch02/02.md"}]}],
+    }))
+    out = report.blog_summary(rows, days=7, now=NOW, titles=titles)
+    by_path = {p["path"]: p for p in out["top_posts"]}
+    assert by_path["/post/cpp/ch02/02.md"]["title"] == "构造函数"
+    assert by_path["/post/missing/01.md"]["title"] is None   # 不在 index 就只给 id
 
 
 # ====== 存储 ======

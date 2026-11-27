@@ -397,14 +397,99 @@ def blog_series(rows: List[dict], days: int = 7, *, now: Optional[float] = None)
     return out
 
 
+# 文章标题来自博客仓库的 posts/index.json（GitHub Pages 前端读的同一份），
+# 看板只借它把 /post/cpp/ch02/02.md 这种 id 翻成「标题 + id」。
+BLOG_INDEX_ENV = "GAMEGUIDE_BLOG_INDEX"
+DEFAULT_BLOG_INDEX = Path("/data/learning/weirdsnap.github.io/posts/index.json")
+
+_TITLE_CACHE: Dict[str, object] = {"key": None, "titles": {}}
+
+
+def blog_index_path(override=None) -> Path:
+    """index.json 位置：显式参数 > 环境变量 > 本机博客仓库默认路径。"""
+    if override:
+        return Path(override)
+    env = os.environ.get(BLOG_INDEX_ENV)
+    return Path(env) if env else DEFAULT_BLOG_INDEX
+
+
+def path_label_key(raw) -> Optional[str]:
+    """把落库的 path 标签与 index.json 的 path 归一到同一把 key。
+
+    '/post/cpp/ch02/02.md' / 'posts/cpp/ch02/02.md' / 'cpp/ch02/02.md' → 'cpp/ch02/02'。
+    两边都要过这一层，否则前缀（/post/、posts/）与后缀（.md）不同就永远对不上。
+    """
+    if not isinstance(raw, str):
+        return None
+    s = raw.strip()
+    prefixes = ("/post/", "posts/", "/posts/")
+    for _ in range(3):
+        for prefix in prefixes:
+            if s.startswith(prefix):
+                s = s[len(prefix):]
+                break
+        else:
+            break
+    s = s.lstrip("/")
+    if s.endswith(".md"):
+        s = s[:-3]
+    return s or None
+
+
+def _collect_titles(node, out: Dict[str, str]) -> None:
+    """递归收 {path: title}：index.json 有 category/subs 嵌套，也兼容平铺文章列表。"""
+    if isinstance(node, dict):
+        path, title = node.get("path"), node.get("title")
+        if isinstance(path, str) and isinstance(title, str) and title.strip():
+            key = path_label_key(path)
+            if key:
+                out.setdefault(key, title.strip())
+        for value in node.values():
+            _collect_titles(value, out)
+    elif isinstance(node, list):
+        for item in node:
+            _collect_titles(item, out)
+
+
+def load_post_titles(path=None) -> Dict[str, str]:
+    """读 posts/index.json 拿「id → 标题」。
+
+    按 (路径, mtime, size) 缓存，博客仓库 git pull 换掉 index.json 后自动失效；
+    文件缺失/坏了就返回空表，看板退回只显示 id（不因为一个可选装饰字段抛错）。
+    """
+    p = blog_index_path(path)
+    try:
+        st = p.stat()
+    except OSError:
+        _TITLE_CACHE["key"] = None
+        _TITLE_CACHE["titles"] = {}
+        return {}
+    key = (str(p), int(st.st_mtime), int(st.st_size))
+    if _TITLE_CACHE["key"] == key:
+        return dict(_TITLE_CACHE["titles"])
+    try:
+        data = json.loads(p.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return {}
+    titles: Dict[str, str] = {}
+    _collect_titles(data, titles)
+    _TITLE_CACHE["key"] = key
+    _TITLE_CACHE["titles"] = titles
+    return dict(titles)
+
+
 def blog_summary(rows: List[dict], days: int = 7, *, now: Optional[float] = None,
-                 include_flagged: bool = False) -> dict:
-    """博客访问聚合：总量 + 按日序列 + top 文章 + 来源域名 + 设备分布。
+                 include_flagged: bool = False,
+                 titles: Optional[Dict[str, str]] = None) -> dict:
+    """博客访问聚合：总量 + 按日序列 + top 文章（带标题） + 来源域名 + 设备分布。
 
     rows 由 `rag_agent.blog_stats.fetch_rows` 从 SQLite 取出（明细）。
     flagged=1（疑似机器人/陌生 Origin）默认剔除，只把条数报出来——过滤规则一定
     会误杀，数据留在库里可以复核，统计口径先干净。
+    titles 传 None 表示现读 posts/index.json（带 mtime 缓存），传 {} 则只给 id。
     """
+    if titles is None:
+        titles = load_post_titles()
     rows = list(rows or [])
     if include_flagged:
         valid, hidden = rows, 0
@@ -425,10 +510,15 @@ def blog_summary(rows: List[dict], days: int = 7, *, now: Optional[float] = None
             refs[r["ref"]] += 1
         devices[r.get("device") or "unknown"] += 1
 
-    top_posts = [
-        {"path": path, "pv": len(items), "uv": _uv(items)}
-        for path, items in posts.items()
-    ]
+    top_posts = []
+    for path, items in posts.items():
+        key = path_label_key(path)
+        top_posts.append({
+            "path": path,
+            "title": titles.get(key) if key else None,
+            "pv": len(items),
+            "uv": _uv(items),
+        })
     top_posts.sort(key=lambda x: (-x["pv"], x["path"]))
     total = len(valid) or 1
 

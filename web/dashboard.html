@@ -74,6 +74,8 @@
     .blog-cols { display: flex; gap: 20px; flex-wrap: wrap; margin-top: 14px; }
     .blog-col { flex: 1 1 280px; min-width: 0; }
     .blog-col h3 { margin: 0 0 6px; font-size: 12px; font-weight: 500; color: var(--muted); }
+    .post-title { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .post-id { color: var(--muted); font-size: 11px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
     .empty { color: var(--muted); padding: 20px 0; text-align: center; font-size: 13px; }
 </style>
 </head>
@@ -134,7 +136,7 @@
         <div class="blog-col">
             <h3>被读最多的文章</h3>
             <table>
-                <thead><tr><th>文章</th><th>PV</th><th>UV</th></tr></thead>
+                <thead><tr><th>文章 / id</th><th>PV</th><th>UV</th></tr></thead>
                 <tbody id="blog-posts"></tbody>
             </table>
         </div>
@@ -594,8 +596,12 @@ function renderBlogPosts(list) {
     }
     for (const p of list) {
         const tr = el('tr', 'row');
-        const td = el('td', 'q', shortPost(p.path));
-        td.title = p.path;
+        const id = shortPost(p.path);
+        const td = el('td', 'q');
+        td.title = p.title ? p.title + '\n' + id : id;
+        // 标题在上、id 在下：id 是落库的原始标签，要和博客帖子对得上
+        td.append(el('div', 'post-title', p.title || id));
+        if (p.title) td.append(el('div', 'post-id', id));
         tr.append(td, el('td', '', String(p.pv)), el('td', '', String(p.uv)));
         tbody.append(tr);
     }
