@@ -1286,6 +1286,9 @@ BFV_CONFIG = {
         "gadgets": "Gadgets of Battlefield V",
         "characters": "Characters of Battlefield V",
     },
+    # 战役章节：Infobox/level 有 prev/next 线性链，子章节是 ==Plot== 下的
+    # ===小节=== 标题（如 Under No Flag → Crossing Lines/Butcher and Bolt/Onslaught）
+    "level_category": "Levels of Battlefield V",
 }
 
 BFV_SCHEMA = """
@@ -1315,6 +1318,17 @@ CREATE TABLE IF NOT EXISTS gadgets (
 );
 CREATE TABLE IF NOT EXISTS characters (
     id INTEGER PRIMARY KEY, slug TEXT UNIQUE, name TEXT, description TEXT
+);
+CREATE TABLE IF NOT EXISTS levels (
+    id INTEGER PRIMARY KEY,
+    slug TEXT UNIQUE,
+    name TEXT,
+    prev TEXT,             -- 前一章（战役线性链）
+    next TEXT,             -- 后一章
+    place TEXT,
+    date TEXT,
+    sub_chapters TEXT,     -- 子章节，逗号分隔（取自 ==Plot== 下的小节标题）
+    description TEXT
 );
 """
 
@@ -1351,13 +1365,17 @@ def build_bfv_db():
                                                     cfg["user_agent"], limit=500)
         all_to_fetch.extend(simple_titles[table])
         print(f"  {table}: {len(simple_titles[table])} pages")
+    level_titles = get_category_members(cfg["api"], cfg["level_category"],
+                                        cfg["user_agent"], limit=100)
+    all_to_fetch.extend(level_titles)
+    print(f"  levels: {len(level_titles)} pages")
 
     print(f"\n📥 获取原始 wikitext（{len(all_to_fetch)} 篇）...")
     raw_data = fetch_raw_wikitext(cfg["api"], all_to_fetch, cfg["user_agent"])
     print(f"  → 获取到 {len(raw_data)} 篇")
 
     count = {"weapons": 0, "vehicles": 0, "maps": 0, "gadgets": 0,
-             "characters": 0, "skipped": 0}
+             "characters": 0, "levels": 0, "skipped": 0}
 
     print(f"\n📋 处理 weapons...")
     for title in weapon_titles:
@@ -1385,6 +1403,33 @@ def build_bfv_db():
                  dmg_max, dmg_min,
                  _kcd2_first_sentence(wt)))
             count["weapons"] += 1
+        except sqlite3.IntegrityError:
+            count["skipped"] += 1
+
+    print(f"\n📋 处理 levels...")
+    for title in level_titles:
+        wt = raw_data.get(title)
+        if not wt:
+            continue
+        params = extract_infobox(wt, "Infobox/level")
+        # 子章节：==Plot==（或第一个 ==...== 大节）下的 ===小节=== 标题
+        plot = re.search(r"^==Plot==\n(.*?)^==[^=]", wt + "\n==END==",
+                         re.DOTALL | re.MULTILINE)
+        sub = ",".join(re.findall(r"^===([^=]+)===\s*$",
+                                  plot.group(1) if plot else wt, re.MULTILINE))
+        try:
+            db.execute("""INSERT OR REPLACE INTO levels
+                (slug, name, prev, next, place, date, sub_chapters, description)
+                VALUES (?,?,?,?,?,?,?,?)""",
+                (_kcd2_slug(title),
+                 clean_value(params.get("name", "")) or title,
+                 clean_value(params.get("prev", "")),
+                 clean_value(params.get("next", "")),
+                 clean_value(params.get("place", "")),
+                 clean_value(params.get("date", "")),
+                 sub,
+                 _kcd2_first_sentence(wt)))
+            count["levels"] += 1
         except sqlite3.IntegrityError:
             count["skipped"] += 1
 
