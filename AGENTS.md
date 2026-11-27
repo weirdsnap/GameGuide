@@ -267,7 +267,13 @@ python scripts/eval/ragas_eval.py --game all --limit 5   # 报告输出到 evalu
      signals/exact_patterns/wiki_*/spoiler_axis/emoji/aliases）。`game_router`、`tools`、
      `ingest_game`、`mac_build`、`vectorstores.sh`、`graph.py` 的菜单与 known_keywords
      都从注册表派生，不需要再改；
-  2. 准备 `games/<game>/data/wiki_data.md`（+ 可选 `wiki_data_zh.md`）与 `<game>_data.db`。
+  2. 准备 `games/<game>/data/wiki_data.md`（+ 可选 `wiki_data_zh.md`）与 `<game>_data.db`；
+  3. **术语表（中英专名对照）**：结构化库里有带 `name` 列的表（characters/locations/
+     quests/items 等）后，跑 `python scripts/enrich/build_glossary.py --game <game>`
+     生成 `games/<dir>/data/<dir>_glossary.jsonl`。路径从 registry 派生，不用改脚本。
+     这是查询时扩展（`glossary.expand_query`），建完**不需要**重建向量库。
+     英文 wiki + 中文提问的游戏（BG3/KCD2/BFV/MHW 等 en-only 模式）尤其需要——
+     没有术语表时中文专名（如「库滕堡」）检索命中率会显著下降（KCD2 冒烟 2/3 MISS 的教训）。
 - 脚本入口必须先 `sys.path.insert(.../src)` 再 `import rag_agent`。反了会直接
   `ModuleNotFoundError`（`ingest_game.py`/`wiki.py` 曾踩过），
   `tests/test_script_entrypoints.py` 会从任意 cwd 跑 `--help` 冒烟。

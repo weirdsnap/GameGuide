@@ -210,12 +210,17 @@ def get_category_members(api_url: str, category: str, user_agent: str, limit: in
         if cmcontinue:
             params['cmcontinue'] = cmcontinue
 
-        try:
-            resp = requests.get(api_url, params=params, headers=headers, timeout=15)
-            resp.raise_for_status()
-            data = resp.json()
-        except (requests.RequestException, json.JSONDecodeError) as e:
-            print(f"  ⚠️ 分类请求失败: {e}")
+        data = None
+        for attempt in range(3):
+            try:
+                resp = requests.get(api_url, params=params, headers=headers, timeout=30)
+                resp.raise_for_status()
+                data = resp.json()
+                break
+            except (requests.RequestException, json.JSONDecodeError) as e:
+                print(f"  ⚠️ 分类请求失败(第{attempt+1}次): {e}")
+                time.sleep(2 * (attempt + 1))
+        if data is None:
             break
 
         for member in data.get('query', {}).get('categorymembers', []):
@@ -1088,6 +1093,12 @@ KCD2_CONFIG = {
         "KCD2: Horse tack", "KCD2: Jewellery", "KCD2: Leg armour",
         "KCD2: Women's clothing",
     ],
+    # 角色/地点/任务：数值结构少，只存名字 + 首句描述，主要服务术语表抽取
+    "simple_categories": {
+        "characters": "KCD2: Characters",
+        "locations": "KCD2: Locations",
+        "quests": "KCD2: Quests",
+    },
 }
 
 KCD2_SCHEMA = """
@@ -1117,6 +1128,15 @@ CREATE TABLE IF NOT EXISTS items (
 );
 CREATE INDEX IF NOT EXISTS idx_kcd2_items_kind ON items(kind);
 CREATE INDEX IF NOT EXISTS idx_kcd2_items_type ON items(type);
+CREATE TABLE IF NOT EXISTS characters (
+    id INTEGER PRIMARY KEY, slug TEXT UNIQUE, name TEXT, description TEXT
+);
+CREATE TABLE IF NOT EXISTS locations (
+    id INTEGER PRIMARY KEY, slug TEXT UNIQUE, name TEXT, description TEXT
+);
+CREATE TABLE IF NOT EXISTS quests (
+    id INTEGER PRIMARY KEY, slug TEXT UNIQUE, name TEXT, description TEXT
+);
 """
 
 # 数值字段：按品质档 n 逐个取 stab{n}/slash{n}/...
@@ -1124,6 +1144,20 @@ _KCD2_NUMERIC_FIELDS = [
     "stab", "slash", "blunt", "power", "defence", "conspic", "noise",
     "visibility", "charisma", "durability", "weight", "price",
 ]
+
+
+def _kcd2_slug(title: str) -> str:
+    slug = title.lower().replace(' ', '-').replace("'", '').replace('(', '').replace(')', '')
+    return re.sub(r'[^a-z0-9\-]', '', slug)
+
+
+def _kcd2_first_sentence(wt: str) -> str:
+    """取正文首句简介（'''加粗''' 开头那段），把 [[link|text]] 还原成纯文本。"""
+    body = wt.split("}}", 1)[-1] if "}}" in wt else wt
+    m = re.search(r"'''.*?'''\s*(.*?)(?:\n\n|==)", body, re.DOTALL)
+    if not m:
+        return ""
+    return re.sub(r"\[\[(?:[^\]|]*\|)?([^\]]+)\]\]", r"\1", m.group(1)).strip()
 
 
 def build_kcd2_db():
@@ -1147,11 +1181,18 @@ def build_kcd2_db():
         print(f"  {kind}: {len(all_titles[kind])} pages")
 
     all_to_fetch = [t for titles in all_titles.values() for t in titles]
+    simple_titles = {}
+    for table, cat in cfg["simple_categories"].items():
+        simple_titles[table] = get_category_members(cfg["api"], cat,
+                                                    cfg["user_agent"], limit=600)
+        all_to_fetch.extend(simple_titles[table])
+        print(f"  {table}: {len(simple_titles[table])} pages")
     print(f"\n📥 获取原始 wikitext（{len(all_to_fetch)} 篇）...")
     raw_data = fetch_raw_wikitext(cfg["api"], all_to_fetch, cfg["user_agent"])
     print(f"  → 获取到 {len(raw_data)} 篇")
 
-    count = {"weapon": 0, "armour": 0, "skipped": 0}
+    count = {"weapon": 0, "armour": 0, "characters": 0, "locations": 0,
+             "quests": 0, "skipped": 0}
 
     for kind, titles in all_titles.items():
         print(f"\n📋 处理 {kind}...")
@@ -1176,15 +1217,8 @@ def build_kcd2_db():
                 row[f] = parse_numeric(params.get(f"{f}{quality}", "")) if quality else None
             row["str_agi"] = params.get(f"str/agi{quality}", "").strip() or None
 
-            slug = title.lower().replace(' ', '-').replace("'", '').replace('(', '').replace(')', '')
-            slug = re.sub(r'[^a-z0-9\-]', '', slug)
-
-            # 描述：取正文第一句（'''加粗''' 开头的简介段）
-            desc = ""
-            body = wt.split("}}", 1)[-1] if "}}" in wt else wt
-            m = re.search(r"'''.*?'''\s*(.*?)(?:\n\n|==)", body, re.DOTALL)
-            if m:
-                desc = re.sub(r"\[\[(?:[^\]|]*\|)?([^\]]+)\]\]", r"\1", m.group(1)).strip()
+            slug = _kcd2_slug(title)
+            desc = _kcd2_first_sentence(wt)
 
             try:
                 db.execute("""INSERT OR REPLACE INTO items
@@ -1206,13 +1240,174 @@ def build_kcd2_db():
             except sqlite3.IntegrityError:
                 count["skipped"] += 1
 
+    # 角色/地点/任务：只存名字和首句描述，供术语表抽取与检索兜底
+    for table, titles in simple_titles.items():
+        for title in titles:
+            wt = raw_data.get(title)
+            if not wt:
+                continue
+            try:
+                db.execute(f"""INSERT OR REPLACE INTO {table}
+                    (slug, name, description) VALUES (?,?,?)""",
+                    (_kcd2_slug(title), title, _kcd2_first_sentence(wt)))
+                count[table] += 1
+            except sqlite3.IntegrityError:
+                count["skipped"] += 1
+
     db.commit()
     db.close()
 
     print(f"\n✅ KCD2 数据库构建完成：{cfg['output']}")
     for t, n in count.items():
         print(f"  {t}: {n} 条")
-    print(f"  总计：{count['weapon'] + count['armour']} 条")
+    print(f"  总计：{count['weapon'] + count['armour'] + count['characters'] + count['locations'] + count['quests']} 条")
+
+
+# ═══════════════════════════════════════════════
+# ║  Battlefield V（战地5）
+# ═══════════════════════════════════════════════
+
+BFV_CONFIG = {
+    "api": "https://battlefield.fandom.com/api.php",
+    "user_agent": "GameGuideBot/1.0 (BFV structured data builder)",
+    "output": GAMES_DIR / "battlefield5" / "battlefield5_data.db",
+    # 武器页用 {{Infobox/weapon}}（damage 是多行射程表，只取首行的
+    # "25.1 - 12.0" 区间首尾值）。近战/手雷/配件子分类有父分类没有的页面。
+    "weapon_categories": [
+        "Weapons of Battlefield V", "Submachine Guns of Battlefield V",
+        "Sidearms of Battlefield V", "Light Machine Guns of Battlefield V",
+        "Melee Weapons of Battlefield V", "Grenades of Battlefield V",
+        "Attachments of Battlefield V",
+    ],
+    # 只存名字 + 首句描述，主要服务术语表抽取
+    "simple_categories": {
+        "vehicles": "Vehicles of Battlefield V",
+        "maps": "Maps of Battlefield V",
+        "gadgets": "Gadgets of Battlefield V",
+        "characters": "Characters of Battlefield V",
+    },
+}
+
+BFV_SCHEMA = """
+CREATE TABLE IF NOT EXISTS weapons (
+    id INTEGER PRIMARY KEY,
+    slug TEXT UNIQUE,
+    name TEXT,
+    kit TEXT,              -- Medic/Assault/Support/Recon
+    slot TEXT,             -- Primary (SMG) 等
+    fire_mode TEXT,
+    rof REAL,              -- 射速 RPM（取首个数值）
+    magazine REAL,         -- 弹匣容量（取首个数值）
+    velocity REAL,         -- 初速 m/s
+    damage_max REAL,       -- 伤害区间首尾值
+    damage_min REAL,
+    description TEXT
+);
+CREATE INDEX IF NOT EXISTS idx_bfv_weapons_kit ON weapons(kit);
+CREATE TABLE IF NOT EXISTS vehicles (
+    id INTEGER PRIMARY KEY, slug TEXT UNIQUE, name TEXT, description TEXT
+);
+CREATE TABLE IF NOT EXISTS maps (
+    id INTEGER PRIMARY KEY, slug TEXT UNIQUE, name TEXT, description TEXT
+);
+CREATE TABLE IF NOT EXISTS gadgets (
+    id INTEGER PRIMARY KEY, slug TEXT UNIQUE, name TEXT, description TEXT
+);
+CREATE TABLE IF NOT EXISTS characters (
+    id INTEGER PRIMARY KEY, slug TEXT UNIQUE, name TEXT, description TEXT
+);
+"""
+
+
+def _bfv_damage_range(value: str) -> Tuple[Optional[float], Optional[float]]:
+    """damage 首行形如 "25.1 - 12.0"，取首尾两个数。"""
+    m = re.search(r'(\d+(?:\.\d+)?)\s*-\s*(\d+(?:\.\d+)?)', clean_value(value))
+    if m:
+        return float(m.group(1)), float(m.group(2))
+    v = parse_numeric(value)
+    return (v, v) if v is not None else (None, None)
+
+
+def build_bfv_db():
+    cfg = BFV_CONFIG
+    print(f"\n{'='*50}")
+    print(f"🪖 Battlefield V — 构建结构化数据库")
+    print(f"{'='*50}")
+
+    db = get_db(cfg["output"])
+    db.executescript(BFV_SCHEMA)
+
+    weapon_titles = set()
+    for cat in cfg["weapon_categories"]:
+        weapon_titles.update(get_category_members(cfg["api"], cat,
+                                                  cfg["user_agent"], limit=500))
+    weapon_titles = sorted(t for t in weapon_titles if not t.endswith("/Battlefield V"))
+    print(f"  weapons: {len(weapon_titles)} pages")
+
+    simple_titles = {}
+    all_to_fetch = list(weapon_titles)
+    for table, cat in cfg["simple_categories"].items():
+        simple_titles[table] = get_category_members(cfg["api"], cat,
+                                                    cfg["user_agent"], limit=500)
+        all_to_fetch.extend(simple_titles[table])
+        print(f"  {table}: {len(simple_titles[table])} pages")
+
+    print(f"\n📥 获取原始 wikitext（{len(all_to_fetch)} 篇）...")
+    raw_data = fetch_raw_wikitext(cfg["api"], all_to_fetch, cfg["user_agent"])
+    print(f"  → 获取到 {len(raw_data)} 篇")
+
+    count = {"weapons": 0, "vehicles": 0, "maps": 0, "gadgets": 0,
+             "characters": 0, "skipped": 0}
+
+    print(f"\n📋 处理 weapons...")
+    for title in weapon_titles:
+        wt = raw_data.get(title)
+        if not wt:
+            continue
+        params = extract_infobox(wt, "Infobox/weapon")
+        if not params:
+            count["skipped"] += 1
+            continue
+        dmg_max, dmg_min = _bfv_damage_range(params.get("damage", ""))
+        try:
+            db.execute("""INSERT OR REPLACE INTO weapons
+                (slug, name, kit, slot, fire_mode, rof, magazine, velocity,
+                 damage_max, damage_min, description)
+                VALUES (?,?,?,?,?,?,?,?,?,?,?)""",
+                (_kcd2_slug(title),
+                 clean_value(params.get("name", "")) or title,
+                 clean_value(params.get("kit", "")),
+                 clean_value(params.get("slot", "")),
+                 clean_value(params.get("fire", "")),
+                 parse_numeric(params.get("rof", "")),
+                 parse_numeric(params.get("magazine", "")),
+                 parse_numeric(params.get("velocity", "")),
+                 dmg_max, dmg_min,
+                 _kcd2_first_sentence(wt)))
+            count["weapons"] += 1
+        except sqlite3.IntegrityError:
+            count["skipped"] += 1
+
+    for table, titles in simple_titles.items():
+        for title in titles:
+            wt = raw_data.get(title)
+            if not wt:
+                continue
+            try:
+                db.execute(f"""INSERT OR REPLACE INTO {table}
+                    (slug, name, description) VALUES (?,?,?)""",
+                    (_kcd2_slug(title), title, _kcd2_first_sentence(wt)))
+                count[table] += 1
+            except sqlite3.IntegrityError:
+                count["skipped"] += 1
+
+    db.commit()
+    db.close()
+
+    print(f"\n✅ BFV 数据库构建完成：{cfg['output']}")
+    for t, n in count.items():
+        print(f"  {t}: {n} 条")
+    print(f"  总计：{sum(v for k, v in count.items() if k != 'skipped')} 条")
 
 
 # ═══════════════════════════════════════════════
@@ -1222,7 +1417,7 @@ def build_kcd2_db():
 def main():
     parser = argparse.ArgumentParser(description="构建游戏结构化数据库")
     parser.add_argument("--game", "-g", required=True,
-                        choices=["terraria", "oni", "silksong", "kcd2", "all"],
+                        choices=["terraria", "oni", "silksong", "kcd2", "bfv", "all"],
                         help="要构建的游戏")
     args = parser.parse_args()
 
@@ -1231,6 +1426,7 @@ def main():
         "oni": build_oni_db,
         "silksong": build_silksong_db,
         "kcd2": build_kcd2_db,
+        "bfv": build_bfv_db,
     }
 
     if args.game == "all":

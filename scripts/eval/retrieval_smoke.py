@@ -68,6 +68,10 @@ CASES: list[tuple[str, str, str]] = [
     ("kcd2", "库滕堡在哪", "Kuttenberg"),
     ("kcd2", "长剑怎么选", "Longsword|Long sword|Sword"),
     ("kcd2", "亨利是谁", "Henry"),
+    # battlefield5：新入库（2026-11-27 采集，fandom 英文站）
+    ("battlefield5", "阿拉斯地图怎么打", "Arras"),
+    ("battlefield5", "STG44 怎么样", "STG"),
+    ("battlefield5", "虎式坦克怎么开", "Tiger"),
 ]
 
 HIT_RE = re.compile(r"【参考 \d+】\[(\w+)\] (.+)")

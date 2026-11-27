@@ -43,12 +43,18 @@ from dotenv import load_dotenv
 load_dotenv()
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(PROJECT_ROOT / "src"))
 
-# 各游戏的结构化库 + wiki 路径（按需扩充）
-GAME_DB = {
-    "baldurs_gate3": ("games/baldurs_gate3/data/baldurs_gate3_data.db",
-                      "games/baldurs_gate3/data/wiki_data.md"),
-}
+# 各游戏的结构化库 + wiki 路径统一从 game_registry 派生（db_file / data_file），
+# 新游戏只要在 registry 登记就能跑本脚本，不再维护硬编码清单。
+def game_paths(game: str):
+    """返回 (db_path, wiki_path)。db_file 可能带 data/ 前缀（BG3），wiki 一律在 data/ 下。"""
+    from rag_agent.game_registry import GAME_REGISTRY, GAMES_DIR
+    cfg = GAME_REGISTRY.get(game)
+    if not cfg:
+        sys.exit(f"未登记的游戏：{game}（可选：{', '.join(sorted(GAME_REGISTRY))}）")
+    d = GAMES_DIR / cfg["dir"]
+    return d / cfg["db_file"], d / "data" / cfg["data_file"]
 
 # 参与抽取的表 → 术语类别
 TABLE_KINDS = {
@@ -60,6 +66,10 @@ TABLE_KINDS = {
     "weapons": "weapon",
     "locations": "location",
     "quests": "quest",
+    # BFV 专用表（其他游戏没有这些表，SELECT 失败会静默跳过）
+    "vehicles": "item",
+    "maps": "location",
+    "gadgets": "item",
 }
 
 SURROUND_QUOTES = re.compile(r"^[\"'“”‘’\s]+|[\"'“”‘’\s]+$")
@@ -278,14 +288,17 @@ def main():
     ap.add_argument("--out", default=None)
     args = ap.parse_args()
 
-    if args.game not in GAME_DB:
-        sys.exit(f"未登记的游戏：{args.game}（先在 GAME_DB 里加路径）")
-    db_rel, wiki_rel = GAME_DB[args.game]
-    db_path, wiki_path = PROJECT_ROOT / db_rel, PROJECT_ROOT / wiki_rel
+    db_path, wiki_path = game_paths(args.game)
     if not db_path.exists():
         sys.exit(f"找不到数据库：{db_path}")
 
-    out_path = Path(args.out) if args.out else db_path.parent / f"{args.game}_glossary.jsonl"
+    # 输出位置与 glossary.py 的查找路径统一：games/<dir>/data/<dir>_glossary.jsonl
+    if args.out:
+        out_path = Path(args.out)
+    else:
+        from rag_agent.game_registry import GAME_REGISTRY, GAMES_DIR
+        d = GAME_REGISTRY[args.game]["dir"]
+        out_path = GAMES_DIR / d / "data" / f"{d}_glossary.jsonl"
 
     ents = collect_entities(db_path, wiki_path)
     picked = pick_entities(ents, args.limit)

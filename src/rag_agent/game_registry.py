@@ -439,6 +439,62 @@ _reg({
     ),
 })
 
+_reg({
+    "key": "battlefield5",
+    "emoji": "🪖",
+    "aliases": ["战地5", "战地风云5", "battlefield v", "bf5", "bfv"],
+    # 主打多人对战；单人战役是选集式短篇（Under No Flag / Nordlys / ...），
+    # 没有线性主线，不存在「进度即上界」结构。
+    "spoiler_axis": "none",
+    "name": "Battlefield V (战地5)",
+    "name_short": "Battlefield V",
+
+    "dir": "battlefield5",
+    "db_file": "battlefield5_data.db",
+    "data_file": "wiki_data.md",
+    "data_file_zh": "",
+
+    # fandom 英文站是唯一可用源（无 wiki.gg；zh 站 BFV 内容约 20 页太薄弃用，
+    # 见 docs/BFV_FETCH_PLAN.md）。必须挂代理抓取（直连 000）。
+    # 分类体系是 `X of Battlefield V`；千万别前缀模糊抓——会把
+    # `of Battlefield Vietnam`（一代越战作，名字相近）混进来。
+    "wiki_api": "https://battlefield.fandom.com/api.php",
+    "wiki_user_agent": "GameGuideBot/2.0 (BFV wiki fetcher)",
+    "wiki_categories": [
+        "Vehicles of Battlefield V", "Weapons of Battlefield V",
+        "Features of Battlefield V", "Gadgets of Battlefield V",
+        "Characters of Battlefield V", "Specializations of Battlefield V",
+        "Maps of Battlefield V", "Factions of Battlefield V",
+        "Gamemodes of Battlefield V", "Elite Classes of Battlefield V",
+        "Levels of Battlefield V",
+        # 武器子类型分类：实测约 27 页不在父分类 Weapons 里（近战/手雷/
+        # 配件页完全独立），其余子类型（AR/Carbines/Shotguns）已被父分类覆盖
+        "Submachine Guns of Battlefield V", "Sidearms of Battlefield V",
+        "Light Machine Guns of Battlefield V",
+        "Melee Weapons of Battlefield V", "Grenades of Battlefield V",
+        "Attachments of Battlefield V",
+    ],
+    "wiki_zh_categories": [],
+
+    "signals": [
+        "战地5", "战地风云5", "battlefield v", "bf5", "bfv",
+        "stg44", "阿拉斯", "arras", "鹿特丹", "rotterdam",
+        "硫磺岛", "iwo jima", "太平洋风暴", "pacific storm",
+        "猛虎末路", "the last tiger",
+    ],
+    "exact_patterns": [
+        r"\bbfv\b", r"\bbf5\b",
+        r"\bbattlefield\s*(?:v|5)\b",
+        r"战地(?:风云)?\s*(?:5|v)",
+    ],
+
+    "extra_prompt": (
+        "\nNote: Battlefield V (2018) is a WWII multiplayer shooter; its single-"
+        "player War Stories are standalone short episodes. Weapon stats (damage/"
+        "RPM/magazine) and map layouts are the most frequent ask topics."
+    ),
+})
+
 
 # ═══════════════════════════════════════════════════════════════
 #  跨游戏通用信号（弱证据）

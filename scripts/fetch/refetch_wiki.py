@@ -377,7 +377,7 @@ class Wiki:
 
 
 # ── 质量闸门 ──
-def audit(pages: dict, zh: bool, nav_max: int = 6) -> dict:
+def audit(pages: dict, zh: bool, nav_max: int = 6, over20k_max: float = 0.05) -> dict:
     lens = sorted(len(t) for t in pages.values())
     n = len(lens) or 1
     med = lens[len(lens) // 2] if lens else 0
@@ -416,7 +416,7 @@ def audit(pages: dict, zh: bool, nav_max: int = 6) -> dict:
 
     checks = {
         "median_chars": (med, 500 <= med <= 8000),
-        "share_over_20k": (round(over, 3), over <= 0.05),
+        "share_over_20k": (round(over, 3), over <= over20k_max),
         "share_under_100": (round(under, 3), under <= 0.12),
         "paragraph_rate": (round(para, 3), para >= 0.70),
         "nav_pollution_median": (nav_poll, nav_poll <= nav_max),
@@ -464,6 +464,10 @@ def main():
                          "的库（列表页枚举全部条目、正文自然提及关联物品）实测干净数据"
                          "也在 14 左右，需放宽到 20；判别真伪污染的依据是"
                          " shared_para_rate≈0 且抽样上下文为自然语句")
+    ap.add_argument("--over20k-max", type=float, default=0.05,
+                    help="超 20KB 页面占比上限（默认 0.05）。BFV 这类地图/机制长页"
+                         "密集的库实测 6.7% 全是正常正文（The Company 97KB、"
+                         "Arras 35KB），需放宽到 0.1")
     args = ap.parse_args()
 
     from rag_agent.game_registry import WIKI_CONFIGS
@@ -582,7 +586,8 @@ def main():
               f"导航表 {strip_stats['dropped_navlines']} 处"
               f"（阈值：{strip_stats['threshold']} 页以上重复算模板）")
 
-    report = audit(pages, args.lang == "zh", nav_max=args.nav_threshold)
+    report = audit(pages, args.lang == "zh", nav_max=args.nav_threshold,
+                   over20k_max=args.over20k_max)
     report["strip"] = strip_stats
     print(f"\n2️⃣  质检：{report['pages']} 页")
     for k, (v, passed) in report["checks"].items():
