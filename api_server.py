@@ -27,6 +27,7 @@ sys.path.insert(0, str(project_root / "src"))
 from rag_agent.multi_agent import ask, ask_stream, _game_from_history
 from rag_agent import store
 from rag_agent import blog_stats
+from rag_agent import sysstat
 # 统计口径单源：CLI（turns_report.py）与看板 API 都走这一层（docs/DASHBOARD_PLAN.md §4）
 from scripts.analysis import report
 
@@ -70,6 +71,13 @@ SESSION_MAX_CHARS = int(os.environ.get("GAMEGUIDE_SESSION_MAX_CHARS", "6000"))
 # 原文、turns、receipts 全留在库里，`data/turns/*.jsonl` 一直全量留档（2026-11-25 口径）。
 RETENTION_ANSWER_DAYS = int(os.environ.get("GAMEGUIDE_RETENTION_ANSWER_DAYS", "3"))
 RETENTION_SESSION_DAYS = int(os.environ.get("GAMEGUIDE_RETENTION_SESSION_DAYS", "90"))
+
+# ====== 系统资源采样（看板「系统资源」块，docs/DASHBOARD_PLAN.md §11）======
+# 进程内每 30s 采一个点写 data/metrics/YYYY-MM-DD.jsonl：内存/swap/load/CPU/
+# 磁盘/自身 RSS。只采能指导动作的指标，网络与 IOPS 不采（小站上恒为平线）。
+METRICS_DIR = Path(os.environ.get("GAMEGUIDE_METRICS_DIR") or (project_root / "data" / "metrics"))
+METRICS_INTERVAL_S = int(os.environ.get("GAMEGUIDE_METRICS_INTERVAL", "30"))
+METRICS_DAYS = int(os.environ.get("GAMEGUIDE_METRICS_DAYS", "7"))
 
 # ====== 数据看板访问控制（docs/DASHBOARD_PLAN.md §9）======
 # 看板返回真实用户提问原话，不当公开接口。采用「SSH 隧道直连」方案：
@@ -115,6 +123,7 @@ TURN_ID_RE = re.compile(r"^[0-9a-f]{8,32}$")
 
 # aiohttp 要求 Application 的额外键用 AppKey，否则每建一个 app 都报 NotAppKeyWarning
 CLEANUP_TASK_KEY = web.AppKey("cleanup_task", asyncio.Task)
+METRICS_TASK_KEY = web.AppKey("metrics_task", asyncio.Task)
 
 
 def new_turn_id() -> str:
@@ -661,7 +670,27 @@ async def cleanup_loop():
             logger.info("留存统计（保留不删）%s", stats)
         except store.StoreError:
             logger.warning("留存统计失败", exc_info=True)
+        try:
+            removed = await asyncio.to_thread(sysstat.retain, METRICS_DIR, METRICS_DAYS)
+            if removed:
+                logger.info("清理系统采样文件 %d 个（保留 %d 天）", removed, METRICS_DAYS)
+        except OSError:
+            logger.warning("清理系统采样文件失败", exc_info=True)
         await asyncio.sleep(3600)
+
+
+async def metrics_loop():
+    """每 METRICS_INTERVAL_S 采一个系统资源点（首轮立即采，重启后曲线不断档）。
+
+    采样失败绝不影响 API：异常只记一条 warning，下一轮继续。
+    """
+    while True:
+        try:
+            rec = await asyncio.to_thread(sysstat.sample, disk_path=project_root)
+            await asyncio.to_thread(sysstat.append, METRICS_DIR, rec)
+        except Exception:
+            logger.warning("系统采样失败", exc_info=True)
+        await asyncio.sleep(max(5, METRICS_INTERVAL_S))
 
 
 async def handle_sessions(request):
@@ -1077,6 +1106,13 @@ async def handle_dashboard_page(request):
     )
 
 
+def _system_snapshot() -> dict:
+    """当前系统资源实时值（不读历史文件，几次 /proc 读加起来远小于 1ms）。"""
+    rec = sysstat.sample(disk_path=project_root)
+    rec["health"] = sysstat.health(rec)
+    return rec
+
+
 async def handle_dashboard_summary(request):
     """GET /api/dashboard/summary?days=7 — 总量 + 每日序列 + 预算 + 反馈 + 额度。"""
     if dashboard_denied(request):
@@ -1094,6 +1130,29 @@ async def handle_dashboard_summary(request):
         "budget": report.budget_status(records),
         "feedback": report.feedback_counts(feedback),
         "quota": quota.status(),
+        "system": _system_snapshot(),
+    })
+
+
+async def handle_dashboard_system(request):
+    """GET /api/dashboard/system?hours=24 — 系统资源：当前值 + 趋势。
+
+    趋势源 data/metrics/*.jsonl（进程内每 30s 采样）；当前值现读 /proc，
+    所以刚重启、还没采出第一点时页面也有东西看。
+    """
+    if dashboard_denied(request):
+        raise web.HTTPNotFound()
+    hours = _int_query(request, "hours", 24, 168)
+    now = _system_snapshot()
+    series = sysstat.load_series(METRICS_DIR, hours=hours)
+    return web.json_response({
+        "generated_at": int(time.time()),
+        "hours": hours,
+        "interval_s": METRICS_INTERVAL_S,
+        "now": now,
+        "health": now.get("health", {}),
+        "points": len(series),
+        "series": sysstat.downsample(series),
     })
 
 
@@ -1270,6 +1329,7 @@ def create_app() -> web.Application:
     app.router.add_get("/api/dashboard/turns", handle_dashboard_turns)
     app.router.add_get("/api/dashboard/feedback", handle_dashboard_feedback)
     app.router.add_get("/api/dashboard/blog", handle_dashboard_blog)
+    app.router.add_get("/api/dashboard/system", handle_dashboard_system)
     app.router.add_post("/api/hit", handle_blog_hit)
     # 会话（I-23）：刷新后恢复历史 / 最近对话 / 重开进度 / 删对话
     app.router.add_get("/api/sessions", handle_sessions)
@@ -1280,9 +1340,14 @@ def create_app() -> web.Application:
     async def _start_cleanup(app):
         # 留存清理：起一份后台任务，每小时跑一次（首轮立即跑）
         app[CLEANUP_TASK_KEY] = asyncio.create_task(cleanup_loop())
+        # 系统资源采样：独立任务，间隔短得多（默认 30s）
+        app[METRICS_TASK_KEY] = asyncio.create_task(metrics_loop())
 
     async def _stop_cleanup(app):
         task = app.get(CLEANUP_TASK_KEY)
+        if task is not None:
+            task.cancel()
+        task = app.get(METRICS_TASK_KEY)
         if task is not None:
             task.cancel()
 
@@ -1294,9 +1359,34 @@ def create_app() -> web.Application:
 # ====== 启动 ======
 start_time = time.time()
 
+LOG_FORMAT = "%(asctime)s %(levelname)s %(name)s %(message)s"
+
+
+def setup_logging() -> None:
+    """日志落文件时用 RotatingFileHandler（8MB × 3），长期不重启也不会把磁盘写满。
+
+    以前日志靠 shell 重定向到 api_server.log，只在重启时轮转一次——服务器连着跑几个月，
+    日志就一直涨。现在进程自己管轮转（GAMEGUIDE_LOG_FILE 由 api.sh 设置）；
+    stdout/stderr 仍由 api.sh 兜底重定向到 .boot，那份只留启动期异常，不会再涨。
+    """
+    log_file = os.environ.get("GAMEGUIDE_LOG_FILE")
+    handlers: list[logging.Handler] = []
+    if log_file:
+        try:
+            from logging.handlers import RotatingFileHandler
+            Path(log_file).parent.mkdir(parents=True, exist_ok=True)
+            handlers.append(RotatingFileHandler(
+                log_file, maxBytes=8 * 1024 * 1024, backupCount=3, encoding="utf-8"))
+        except OSError:
+            # 路径不可写就退回 stderr，不让启动因此挂掉
+            pass
+    handlers.append(logging.StreamHandler())
+    logging.basicConfig(level=logging.INFO, format=LOG_FORMAT,
+                        handlers=handlers, force=True)
+
+
 if __name__ == "__main__":
-    logging.basicConfig(level=logging.INFO,
-                        format="%(asctime)s %(levelname)s %(name)s %(message)s")
+    setup_logging()
     print(f"")
     print(f"  ╔══════════════════════════════════╗")
     print(f"  ║  🐈  多游戏 Agent API            ║")

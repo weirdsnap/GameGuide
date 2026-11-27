@@ -26,6 +26,8 @@ def _isolate_gameguide_data(tmp_path, monkeypatch):
     monkeypatch.setattr(module, "TURNS_DIR", tmp_path / "turns", raising=False)
     monkeypatch.setattr(module, "FEEDBACK_DIR", tmp_path / "feedback", raising=False)
     monkeypatch.setattr(module, "SESSION_DB", tmp_path / "sessions.db", raising=False)
+    # 系统资源采样（看板「系统资源」块）：不隔离就会把测试的采样写进生产 data/metrics
+    monkeypatch.setattr(module, "METRICS_DIR", tmp_path / "metrics", raising=False)
     # 博客上报（docs/BLOG_ANALYTICS_PLAN.md）：库路径走环境变量（blog_stats 读它），
     # 限速器换新实例，避免用例之间串「每分钟 60 次」的计数。
     monkeypatch.setenv("GAMEGUIDE_BLOG_DB", str(tmp_path / "blog.db"))

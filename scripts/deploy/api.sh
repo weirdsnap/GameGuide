@@ -131,11 +131,10 @@ fi
 echo ""
 echo "🚀 启动 API Server..."
 
-# 上一个进程的日志超过 5MB 就留一份 .prev，避免每轮重启前的现场全丢
-if [ -f "$LOG_FILE" ] && [ "$(stat -c%s "$LOG_FILE" 2>/dev/null || echo 0)" -gt 5242880 ]; then
-    mv -f "$LOG_FILE" "${LOG_FILE}.prev" 2>/dev/null || true
-    echo "  📦 旧日志已转为 ${LOG_FILE}.prev"
-fi
+# 进程内日志轮转（api_server.setup_logging：8MB × 3），不再依赖重启时手工迁移。
+# stdout/stderr 另存 .boot：启动阶段就挂掉（import 错误、端口占用）时看这个，
+# 每次重启截断，所以它永远不会涨。
+export GAMEGUIDE_LOG_FILE="${LOG_FILE}"
 echo "  Python: ${PYTHON}"
 echo "  脚本:   api_server.py"
 echo "  端口:   ${PORT}"
@@ -143,7 +142,7 @@ echo "  日志:   ${LOG_FILE}"
 echo "  模型缓存: ${FASTEMBED_CACHE_PATH}"
 echo ""
 
-nohup "${PYTHON}" api_server.py > "${LOG_FILE}" 2>&1 &
+nohup "${PYTHON}" api_server.py > "${LOG_FILE}.boot" 2>&1 &
 
 NEW_PID=$!
 echo "${NEW_PID}" > "${PID_FILE}"
@@ -154,7 +153,7 @@ if kill -0 "${NEW_PID}" 2>/dev/null; then
     echo "✅ 启动成功！PID = ${NEW_PID}"
     echo ""
     echo "  状态: $(ps -o pid,etime,%mem,%cpu -p ${NEW_PID} --no-headers 2>/dev/null || echo '运行中')"
-    echo "  日志: tail -f ${LOG_FILE}"
+    echo "  日志: tail -F ${LOG_FILE}（超过 8MB 自动转 .1/.2/.3）"
     echo ""
     echo "  Caddy 反代: https://api.weirdsnap.top"
     echo ""

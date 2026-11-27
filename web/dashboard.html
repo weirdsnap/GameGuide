@@ -87,6 +87,30 @@
 <div class="cards" id="cards"></div>
 
 <section>
+    <h2>系统资源<span class="sub" id="sys-meta"></span></h2>
+    <div class="cards" id="sys-cards" style="margin-bottom:12px"></div>
+    <div class="blog-cols">
+        <div class="blog-col">
+            <h3>内存（MB）</h3>
+            <svg id="sys-mem" preserveAspectRatio="none" style="height:170px"></svg>
+            <div class="legend">
+                <span><i class="dot" style="background:#6fbf8b"></i>可用内存</span>
+                <span><i class="dot" style="background:#e0685e"></i>swap 已用</span>
+            </div>
+        </div>
+        <div class="blog-col">
+            <h3>平均负载（2 核）</h3>
+            <svg id="sys-load" preserveAspectRatio="none" style="height:170px"></svg>
+            <div class="legend">
+                <span><i class="dot" style="background:#e0a458"></i>load1</span>
+                <span><i class="dot" style="background:#3d5a80"></i>load5</span>
+                <span><i class="dot" style="background:#6fbf8b"></i>load15</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
     <h2>每日趋势</h2>
     <svg id="trend" viewBox="0 0 900 220" preserveAspectRatio="none"></svg>
     <div class="legend">
@@ -378,6 +402,95 @@ async function loadTurns(reset) {
     }
 }
 
+// ====== 系统资源（docs/DASHBOARD_PLAN.md §11）======
+// 内存/swap/load/CPU/磁盘/RSS；阈值判断在后端 sysstat.health，前端只染色。
+function renderSysCards(now, health) {
+    const h = health || {};
+    const mb = v => (v === null || v === undefined) ? '—' : fmtNum(v) + 'M';
+    const num = (v, suffix) => (v === null || v === undefined) ? '—' : v + (suffix || '');
+    document.getElementById('sys-cards').replaceChildren(
+        card('load 1min', num(now.load1), '2 核，>2 才真排队', h.load),
+        card('CPU', num(now.cpu_pct, '%'), '两次采样的差值'),
+        card('可用内存', mb(now.mem_avail_mb), '共 ' + mb(now.mem_total_mb), h.mem),
+        card('swap 已用', mb(now.swap_used_mb), '共 ' + mb(now.swap_total_mb), h.swap),
+        card('磁盘可用', mb(now.disk_free_mb), '已用 ' + mb(now.disk_used_mb), h.disk),
+        card('进程 RSS', mb(now.rss_mb),
+            '线程 ' + num(now.threads) + ' · 句柄 ' + num(now.fds))
+    );
+}
+
+function renderSysChart(svgId, series, lines) {
+    const svg = document.getElementById(svgId);
+    svg.replaceChildren();
+    const H = 170, padL = 40, padB = 22, padT = 10;
+    const W = Math.max(280, Math.round(svg.clientWidth || 600));
+    svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
+    const pts = (series || []).filter(s => lines.some(l => typeof s[l.key] === 'number'));
+    if (pts.length < 2) {
+        svg.append(svgNode('text', { x: W / 2, y: H / 2, 'text-anchor': 'middle',
+                                     fill: '#8b94a3', 'font-size': 12 },
+                            '攺点中：每 30s 一个点'));
+        return;
+    }
+    const innerH = H - padT - padB;
+    const maxV = Math.max(1, ...pts.flatMap(s => lines.map(l => Number(s[l.key]) || 0)));
+    const n = pts.length;
+    const step = (W - padL - 10) / (n - 1);
+    svg.append(svgNode('line', { x1: padL, y1: H - padB, x2: W - 10, y2: H - padB,
+                                 stroke: '#2e333d', 'stroke-width': 1 }));
+    svg.append(svgNode('text', { x: padL - 6, y: padT + 8, 'text-anchor': 'end',
+                                 fill: '#8b94a3', 'font-size': 10 }, fmtNum(Math.round(maxV))));
+    for (const l of lines) {
+        const coords = [];
+        pts.forEach((s, i) => {
+            const v = Number(s[l.key]);
+            if (Number.isNaN(v)) return;
+            coords.push([padL + step * i, H - padB - innerH * (v / maxV)]);
+        });
+        if (coords.length > 1) {
+            svg.append(svgNode('polyline', {
+                points: coords.map(p => p[0].toFixed(1) + ',' + p[1].toFixed(1)).join(' '),
+                fill: 'none', stroke: l.color, 'stroke-width': 1.6
+            }));
+        }
+    }
+    // 时间轴：固定抽 5 个标签；跨度超过一天就带日期，否则只有时分
+    const span = pts[n - 1].ts - pts[0].ts;
+    const withDate = span > 86400;
+    const ticks = Math.min(5, n);
+    for (let k = 0; k < ticks; k++) {
+        const i = Math.round(k * (n - 1) / Math.max(1, ticks - 1));
+        const d = new Date(pts[i].ts * 1000);
+        const hhmm = d.toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' });
+        svg.append(svgNode('text', {
+            x: padL + step * i, y: H - 6, fill: '#8b94a3', 'font-size': 10,
+            'text-anchor': k === 0 ? 'start' : (k === ticks - 1 ? 'end' : 'middle')
+        }, withDate ? (d.getMonth() + 1) + '/' + d.getDate() + ' ' + hhmm : hhmm));
+    }
+}
+
+async function loadSystem() {
+    try {
+        const hours = Math.min(168, state.days * 24);
+        const data = await getJSON('/dashboard/system?hours=' + hours);
+        renderSysCards(data.now, data.health);
+        renderSysChart('sys-mem', data.series, [
+            { key: 'mem_avail_mb', color: '#6fbf8b' },
+            { key: 'swap_used_mb', color: '#e0685e' }
+        ]);
+        renderSysChart('sys-load', data.series, [
+            { key: 'load1', color: '#e0a458' },
+            { key: 'load5', color: '#3d5a80' },
+            { key: 'load15', color: '#6fbf8b' }
+        ]);
+        document.getElementById('sys-meta').textContent =
+            ' 每 ' + data.interval_s + 's 一个采样点 · 窗口 ' + data.hours + 'h · ' +
+            (data.points ? data.points + ' 点' : '刚重启，还没攺到点');
+    } catch (e) {
+        document.getElementById('sys-meta').textContent = ' 加载失败：' + e.message;
+    }
+}
+
 // ====== 博客访问（docs/BLOG_ANALYTICS_PLAN.md）======
 function shortPost(path) {
     let s = String(path || '');
@@ -509,6 +622,7 @@ function refreshAll() {
     });
     loadTurns(true);
     loadBlog();
+    loadSystem();
 }
 
 document.querySelectorAll('[data-days]').forEach(btn => {
@@ -537,6 +651,7 @@ window.addEventListener('resize', () => {
     resizeTimer = setTimeout(() => {
         loadSummary().catch(() => {});
         loadBlog();
+        loadSystem();
     }, 250);
 });
 
