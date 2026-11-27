@@ -217,6 +217,20 @@ def test_dashboard_allow_proxied_switch(monkeypatch, tmp_path):
     assert status == 200
 
 
+def test_dashboard_denied_from_non_loopback(monkeypatch, tmp_path):
+    """非回环来源一律拒（防安全组把 8765 开到公网后直连 IP 绕过）。"""
+    from types import SimpleNamespace
+
+    monkeypatch.setattr(api_server, "DASHBOARD_ALLOW_PROXIED", False)
+    assert api_server.dashboard_denied(SimpleNamespace(remote="203.0.113.9", headers={}))
+    assert api_server.dashboard_denied(SimpleNamespace(remote=None, headers={}))
+    assert not api_server.dashboard_denied(SimpleNamespace(remote="127.0.0.1", headers={}))
+    assert not api_server.dashboard_denied(SimpleNamespace(remote="::1", headers={}))
+    # 回环但带代理头 = 经 Caddy 从公网进来，仍然拒
+    assert api_server.dashboard_denied(
+        SimpleNamespace(remote="127.0.0.1", headers=PROXIED))
+
+
 # ====== 口径一致性 ======
 
 def test_stats_matches_summarize_parity(monkeypatch, tmp_path):

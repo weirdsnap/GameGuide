@@ -80,14 +80,23 @@ DASHBOARD_ENABLED = os.environ.get("GAMEGUIDE_DASHBOARD", "1") == "1"
 DASHBOARD_ALLOW_PROXIED = os.environ.get("GAMEGUIDE_DASHBOARD_ALLOW_PROXIED", "0") == "1"
 DASHBOARD_HTML = project_root / "web" / "dashboard.html"
 PROXY_HEADERS = ("X-Forwarded-For", "X-Real-Ip", "Forwarded")
+LOOPBACK_HOSTS = ("127.0.0.1", "::1")
 
 
 def dashboard_denied(request) -> bool:
-    """看板入口的统一闸门：总开关关闭或「经代理而来」一律拒绝。"""
+    """看板入口的统一闸门：
+
+    三道，任何一道不过就 404：
+    1. 总开关（GAMEGUIDE_DASHBOARD）；
+    2. 来源必须是回环地址——防的是「安全组哪天把 8765 开到公网」时直连 IP 绕过；
+    3. 不得带代理头——隧道与本机 curl 没有，经 Caddy 的请求必有。
+    """
     if not DASHBOARD_ENABLED:
         return True
     if DASHBOARD_ALLOW_PROXIED:
         return False
+    if (request.remote or "") not in LOOPBACK_HOSTS:
+        return True
     return any(request.headers.get(h) for h in PROXY_HEADERS)
 
 
