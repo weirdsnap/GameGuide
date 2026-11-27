@@ -56,6 +56,8 @@
     td { padding: 7px 8px; border-bottom: 1px solid #22262d; vertical-align: top; }
     tr.row { cursor: pointer; }
     tr.row:hover { background: var(--panel-2); }
+    tr.row.open { background: var(--panel-2); }
+    button.row-toggle { padding: 2px 8px; font-size: 11px; }
     td.q { max-width: 420px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
     .tag { display: inline-block; font-size: 10.5px; padding: 1px 6px; border-radius: 3px; border: 1px solid var(--line); color: var(--muted); }
     .tag.l3 { color: var(--bad); border-color: #5a2f2b; }
@@ -132,7 +134,7 @@
         <thead>
         <tr>
             <th>时间</th><th>游戏</th><th>路由</th><th>耗时</th>
-            <th>tokens_in</th><th>历史</th><th>剧透</th><th>问题</th>
+            <th>tokens_in</th><th>历史</th><th>剧透</th><th>问题</th><th></th>
         </tr>
         </thead>
         <tbody id="rows"></tbody>
@@ -207,7 +209,8 @@ function card(k, v, note, cls) {
 }
 
 async function getJSON(path) {
-    const res = await fetch(API + path, { credentials: 'same-origin' });
+    // no-store：看板是现算数据，浏览器启发式缓存会把“没刷新”当成“没数据”
+    const res = await fetch(API + path, { credentials: 'same-origin', cache: 'no-store' });
     if (!res.ok) throw new Error(path + ' → ' + res.status);
     return res.json();
 }
@@ -340,10 +343,18 @@ function renderRows(turns, append) {
         q.title = t.question || '';
         tr.append(q);
 
+        // 明细默认收起，按钮是显式入口（点整行也能开，但表格里看不出来能点）
+        const btn = el('button', 'row-toggle', '详情');
+        btn.type = 'button';
+        const btnCell = el('td');
+        btnCell.style.whiteSpace = 'nowrap';
+        btnCell.append(btn);
+        tr.append(btnCell);
+
         const detail = el('tr', 'detail');
         detail.style.display = 'none';
         const cell = el('td');
-        cell.colSpan = 8;
+        cell.colSpan = 9;
         const head = el('div', '', '回答开头：');
         const pre = el('pre', '', t.answer_head || '（无）');
         const meta = el('div', 'sub');
@@ -360,9 +371,15 @@ function renderRows(turns, append) {
         cell.append(head, pre, meta);
         detail.append(cell);
 
-        tr.addEventListener('click', () => {
-            detail.style.display = detail.style.display === 'none' ? '' : 'none';
-        });
+        const toggle = () => {
+            const open = detail.style.display === 'none';
+            detail.style.display = open ? '' : 'none';
+            btn.textContent = open ? '收起' : '详情';
+            btn.classList.toggle('on', open);
+            tr.classList.toggle('open', open);
+        };
+        btn.addEventListener('click', (e) => { e.stopPropagation(); toggle(); });
+        tr.addEventListener('click', toggle);
         tbody.append(tr, detail);
     }
     document.getElementById('empty').style.display =
