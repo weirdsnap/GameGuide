@@ -497,6 +497,76 @@ def query_structured_data(query: str, game: str) -> str:
                             return hit
                     return _search_all_tables(db_path, keyword, _game_key)
 
+        # ── 关系/层级查询 ──
+        # KCD2 quests（prev_quest/next_quest/giver）和 BFV levels
+        # （prev/next/sub_chapters）的链式列，供「X 的前置/后续是什么」
+        # 「X 有哪些小节」这类追问。表是动态发现的——有链式列才算关系表，
+        # 没有这些列的老库直接跳过本分支。
+        # （模式较宽，命中后若 LIKE 查不到实体会继续往下走其他分支）
+        _REL_PATTERNS = [
+            (r"(.+?)的前置任务", "prev"),
+            (r"(.+?)之前(?:要|得|需要)?先(?:做|完成|打)什么", "prev"),
+            (r"做(.+?)之前", "prev"),
+            (r"(.+?)的后续任务", "next"),
+            (r"(.+?)之后(?:是|接|做|打|有)什么", "next"),
+            (r"(.+?)的下一(?:章|关|任务)", "next"),
+            (r"(.+?)有(?:哪些|哪几个|几个)(?:小章节|小节|章节|部分|关)", "sub"),
+            (r"(.+?)包含(?:哪些|哪几个)(?:小章节|小节|章节|部分|关)", "sub"),
+            (r"(.+?)的(?:小章节|小节|章节)有哪些", "sub"),
+            (r"(.+?)是(?:谁|谁发布的|哪个npc|哪个NPC)发布", "giver"),
+            (r"谁发布(?:了)?(?:任务|任务叫)?(.+)", "giver"),
+        ]
+        _rel_tables = []
+        db3 = _get_db(db_path)
+        if db3:
+            cur = db3.cursor()
+            cur.execute("SELECT name FROM sqlite_master WHERE type='table'")
+            _all_tables = [r["name"] for r in cur.fetchall()]
+            db3.close()
+            for t in _all_tables:
+                cols = _table_columns(db_path, t)
+                if {"prev_quest", "next_quest"} & cols or {"prev", "next"} <= cols:
+                    _rel_tables.append((t, cols))
+        if _rel_tables:
+            for pat, direction in _REL_PATTERNS:
+                m = re.search(pat, q)
+                if not m:
+                    continue
+                kw = m.group(1).strip()
+                # 清掉问句残留：「的任务」「任务」尾巴、英文「quest」
+                kw = re.sub(r"(的任务|任务|quest)\s*$", "", kw, flags=re.I).strip()
+                if not kw:
+                    continue
+                # 术语表精确替换出的英文全名优先（中文专名 LIKE 不中英文库）
+                candidates = ([en for en in _exact_en] if _exact_en else []) + [kw]
+                for cand in candidates:
+                    for t, cols in _rel_tables:
+                        rows = _query_db(
+                            db_path,
+                            f"SELECT * FROM [{t}] WHERE name LIKE ? LIMIT 3",
+                            (f"%{cand}%",))
+                        if not rows:
+                            continue
+                        r0 = rows[0]
+                        name = r0.get("name", cand)
+                        if direction == "prev":
+                            val = r0.get("prev_quest") or r0.get("prev") or ""
+                            label = "前置任务"
+                        elif direction == "next":
+                            val = r0.get("next_quest") or r0.get("next") or ""
+                            label = "后续内容"
+                        elif direction == "sub":
+                            val = r0.get("sub_chapters") or ""
+                            label = "子章节"
+                        else:
+                            val = r0.get("giver") or ""
+                            label = "发布人"
+                        val = str(val).strip()
+                        if val and val.lower() != "n/a":
+                            return f"[{t}] {name} 的{label}：{val}"
+                        return f"[{t}] 找到了 {name}，但数据库中没有记录它的{label}" \
+                               f"（可能是链上首/末位，或 wiki 未标注）。"
+
         # Try "所有 X" / "全部 X" / "列出所有 X"
         for cmd in ["所有", "全部", "列出所有", "列出全部"]:
             if cmd in q:

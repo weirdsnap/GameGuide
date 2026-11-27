@@ -275,6 +275,77 @@ def test_query_BG3中文名映射为英文(tmp_path, monkeypatch):
 
 
 # ══════════════════════════════════════════════
+#  query_structured_data — 关系/层级分支
+# ══════════════════════════════════════════════
+
+@pytest.fixture
+def fake_rel_game(tmp_path, monkeypatch):
+    """带关系表的假游戏：quests（KCD2 式任务链）+ levels（BFV 式章节链）。"""
+    db_path = tmp_path / "rel_game.db"
+    conn = sqlite3.connect(str(db_path))
+    conn.execute("""CREATE TABLE quests
+        (name TEXT, giver TEXT, location TEXT, type TEXT,
+         prev_quest TEXT, next_quest TEXT, description TEXT)""")
+    conn.execute("""INSERT INTO quests VALUES
+        ('Wedding Crashers', '', 'Semine', 'main',
+         'Laboratores ; Radovan route: The Hermit', 'For Whom the Bells Tolls',
+         '大闹婚礼')""")
+    conn.execute("""INSERT INTO quests VALUES
+        ('Laboratores', 'Radzig', '', 'main', 'N/A', 'Wedding Crashers', '序章')""")
+    conn.execute("""CREATE TABLE levels
+        (name TEXT, prev TEXT, next TEXT, place TEXT, date TEXT,
+         sub_chapters TEXT, description TEXT)""")
+    conn.execute("""INSERT INTO levels VALUES
+        ('Under No Flag', 'My Country Calling', 'Nordlys', 'North Africa',
+         '1942', 'Crossing Lines,Butcher and Bolt,Onslaught', '北非战役')""")
+    conn.commit()
+    conn.close()
+
+    monkeypatch.setitem(AVAILABLE_GAMES, "rel_game", {
+        "name": "Rel Game (关系游戏)",
+        "db_path": str(db_path),
+        "vectorstore_dir": str(tmp_path / "vs_不存在"),
+    })
+    return str(db_path)
+
+
+def test_rel_前置任务(fake_rel_game):
+    out = query_structured_data.invoke(
+        {"query": "Wedding Crashers 的前置任务", "game": "rel_game"})
+    assert "前置任务" in out
+    assert "Laboratores" in out
+    assert "Radovan route: The Hermit" in out
+
+
+def test_rel_后续任务(fake_rel_game):
+    out = query_structured_data.invoke(
+        {"query": "Wedding Crashers 之后是什么", "game": "rel_game"})
+    assert "For Whom the Bells Tolls" in out
+
+
+def test_rel_子章节(fake_rel_game):
+    out = query_structured_data.invoke(
+        {"query": "Under No Flag 有哪些小节", "game": "rel_game"})
+    assert "Crossing Lines" in out
+    assert "Onslaught" in out
+
+
+def test_rel_链上首位明确告知无前置(fake_rel_game):
+    out = query_structured_data.invoke(
+        {"query": "Laboratores 的前置任务", "game": "rel_game"})
+    assert "找到了 Laboratores" in out
+    assert "没有记录" in out
+
+
+def test_rel_无关系列的老库分支静默跳过(fake_game):
+    """fake_game 的 bosses 表没有链式列——关系分支应跳过不报错，
+    落到既有兜底分支（未找到提示）。"""
+    out = query_structured_data.invoke(
+        {"query": "螳螂领主的前置任务", "game": "test_game"})
+    assert isinstance(out, str) and out
+
+
+# ══════════════════════════════════════════════
 #  show_database_schema
 # ══════════════════════════════════════════════
 
