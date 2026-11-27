@@ -1134,8 +1134,18 @@ CREATE TABLE IF NOT EXISTS characters (
 CREATE TABLE IF NOT EXISTS locations (
     id INTEGER PRIMARY KEY, slug TEXT UNIQUE, name TEXT, description TEXT
 );
-CREATE TABLE IF NOT EXISTS quests (
-    id INTEGER PRIMARY KEY, slug TEXT UNIQUE, name TEXT, description TEXT
+-- builder 是全量重建，quests 结构升级过（加了任务链列），直接 DROP 防旧表残留
+DROP TABLE IF EXISTS quests;
+CREATE TABLE quests (
+    id INTEGER PRIMARY KEY,
+    slug TEXT UNIQUE,
+    name TEXT,
+    giver TEXT,            -- 任务发布人
+    location TEXT,
+    type TEXT,             -- main / side / 其他（取自 {{KCD2 xxx quests}} 模板）
+    prev_quest TEXT,       -- 前置任务（可能多条路线，分号分隔）
+    next_quest TEXT,       -- 后续任务
+    description TEXT
 );
 """
 
@@ -1158,6 +1168,66 @@ def _kcd2_first_sentence(wt: str) -> str:
     if not m:
         return ""
     return re.sub(r"\[\[(?:[^\]|]*\|)?([^\]]+)\]\]", r"\1", m.group(1)).strip()
+
+
+def _kcd2_clean_refs(value: str) -> str:
+    """清理任务引用字段（prev/next/giver）：<br/> 分行转成 '; ' 分隔，
+    再按常规清洗（链接还原、模板/HTML 去除）。多路线前置任务会连成一条。"""
+    value = re.sub(r'<br\s*/?>', '; ', value)
+    value = re.sub(r'\[\[(?:[^\]|]*\|)?([^\]]+)\]\]', r'\1', value)
+    value = re.sub(r'\{\{[^{}]*?\}\}', '', value)
+    value = re.sub(r'<[^>]+>', '', value)
+    return re.sub(r'\s+', ' ', value).strip()
+
+
+_KCD2_QUEST_FIELDS = ["quest_giver", "location", "type",
+                      "previous_quest", "next_quest"]
+# 终止前瞻：遇到下一个已知字段名（单行格式）或换行后的新参数（多行格式）
+# 或换行后的 infobox 闭合符（字段是 infobox 最后一个时——2026-11-27
+# Last Rites 的 next_quest 吸进整页正文的教训）
+_KCD2_QUEST_STOP = (
+    r'(?=\s*\|\s*(?:' + '|'.join(
+        _KCD2_QUEST_FIELDS + ["name", "image", "reward", "dlc"]) +
+    r')\s*=|\n\s*\|\s*\w[\w ]*\s*=|\n\s*\}\}|\Z)'
+)
+
+
+def _kcd2_quest_params(wt: str) -> dict:
+    """逐字段解析 Quest infobox。
+
+    不能用通用 extract_infobox：`|type = {{KCD2 main quests}}` 内层 `}}`
+    会让它的非贪婪匹配提前截断，排在后面的 prev/next 全丢（2026-11-27
+    实测，GAME_DB_DESIGN_GUIDE 教训 2 的复现）。这里按字段名前瞻截断，
+    兼容单行（|a=x|b=y）与多行（| a = x\\n| b = y）两种排版。
+    """
+    start = wt.find("{{Quest infobox")
+    if start < 0:
+        return {}
+    window = wt[start:start + 3000]
+    out = {}
+    for f in _KCD2_QUEST_FIELDS:
+        m = re.search(r'\|\s*' + f + r'\s*=\s*(.*?)' + _KCD2_QUEST_STOP,
+                      window, re.DOTALL)
+        if m:
+            # 单行格式里最后一个字段会带上闭合符尾巴（|next=[[X]]}}），剥掉
+            out[f] = m.group(1).strip().rstrip('}').strip()
+    return out
+
+
+def _kcd2_quest_type(raw: str) -> str:
+    """type 归一化：{{KCD2 main quests}} → main，{{KCD2 tasks}} → task，
+    裸值 Task/Side quest/Sidequest 统一成小写规范形。
+    注意 raw 可能是残缺形式 '{{KCD2 main quests'：_kcd2_quest_params
+    单行格式的 rstrip('}') 剥尾巴时会把完整模板的闭合符一并剥掉，
+    所以闭合符用 (?:\\}\\})? 整体可选（不能写 \\}\\}?——那是一个
+    必选 } 加可选 }，尾巴全剥掉时反而匹配不上）。"""
+    m = re.search(r'\{\{KCD2 ([\w ]+?) quests(?:\}\})?', raw, re.IGNORECASE)
+    if m:
+        return m.group(1).lower()
+    if re.search(r'\{\{KCD2 tasks?(?:\}\})?', raw, re.IGNORECASE):
+        return "task"
+    v = clean_value(raw).lower().replace("sidequest", "side quest")
+    return v
 
 
 def build_kcd2_db():
@@ -1240,8 +1310,10 @@ def build_kcd2_db():
             except sqlite3.IntegrityError:
                 count["skipped"] += 1
 
-    # 角色/地点/任务：只存名字和首句描述，供术语表抽取与检索兜底
+    # 角色/地点：只存名字和首句描述，供术语表抽取与检索兜底
     for table, titles in simple_titles.items():
+        if table == "quests":
+            continue
         for title in titles:
             wt = raw_data.get(title)
             if not wt:
@@ -1253,6 +1325,28 @@ def build_kcd2_db():
                 count[table] += 1
             except sqlite3.IntegrityError:
                 count["skipped"] += 1
+
+    # 任务：Quest infobox 自带 giver/location/type/prev/next——任务链是
+    # KCD2 的层级载体（同 BFV levels 的思路，见 GAME_DB_DESIGN_GUIDE 第四节）
+    for title in simple_titles["quests"]:
+        wt = raw_data.get(title)
+        if not wt:
+            continue
+        params = _kcd2_quest_params(wt)
+        try:
+            db.execute("""INSERT OR REPLACE INTO quests
+                (slug, name, giver, location, type, prev_quest, next_quest, description)
+                VALUES (?,?,?,?,?,?,?,?)""",
+                (_kcd2_slug(title), title,
+                 _kcd2_clean_refs(params.get("quest_giver", "")),
+                 clean_value(params.get("location", "")),
+                 _kcd2_quest_type(params.get("type", "")),
+                 _kcd2_clean_refs(params.get("previous_quest", "")),
+                 _kcd2_clean_refs(params.get("next_quest", "")),
+                 _kcd2_first_sentence(wt)))
+            count["quests"] += 1
+        except sqlite3.IntegrityError:
+            count["skipped"] += 1
 
     db.commit()
     db.close()
