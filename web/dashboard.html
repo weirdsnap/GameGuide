@@ -92,6 +92,33 @@
     </div>
 </header>
 
+<section id="panel-server">
+    <div class="section-head">
+        <h2><i class="dot" style="background:#6fbf8b"></i>服务器</h2>
+        <span class="sub" id="sys-meta"></span>
+    </div>
+    <div class="cards" id="sys-cards" style="margin-bottom:12px"></div>
+    <div class="blog-cols">
+        <div class="blog-col">
+            <h3>内存（MB）</h3>
+            <svg id="sys-mem" preserveAspectRatio="none" style="height:170px"></svg>
+            <div class="legend">
+                <span><i class="dot" style="background:#6fbf8b"></i>可用内存</span>
+                <span><i class="dot" style="background:#e0685e"></i>swap 已用</span>
+            </div>
+        </div>
+        <div class="blog-col">
+            <h3>平均负载（2 核）</h3>
+            <svg id="sys-load" preserveAspectRatio="none" style="height:170px"></svg>
+            <div class="legend">
+                <span><i class="dot" style="background:#e0a458"></i>load1</span>
+                <span><i class="dot" style="background:#3d5a80"></i>load5</span>
+                <span><i class="dot" style="background:#6fbf8b"></i>load15</span>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section id="panel-blog">
     <div class="section-head">
         <h2><i class="dot" style="background:#3d5a80"></i>博客访问</h2>
@@ -155,33 +182,6 @@
     <div class="empty" id="empty" style="display:none">没有符合条件的轮次</div>
     <div style="margin-top:12px; text-align:center">
         <button id="more" style="display:none">加载更早</button>
-    </div>
-</section>
-
-<section id="panel-server">
-    <div class="section-head">
-        <h2><i class="dot" style="background:#6fbf8b"></i>服务器</h2>
-        <span class="sub" id="sys-meta"></span>
-    </div>
-    <div class="cards" id="sys-cards" style="margin-bottom:12px"></div>
-    <div class="blog-cols">
-        <div class="blog-col">
-            <h3>内存（MB）</h3>
-            <svg id="sys-mem" preserveAspectRatio="none" style="height:170px"></svg>
-            <div class="legend">
-                <span><i class="dot" style="background:#6fbf8b"></i>可用内存</span>
-                <span><i class="dot" style="background:#e0685e"></i>swap 已用</span>
-            </div>
-        </div>
-        <div class="blog-col">
-            <h3>平均负载（2 核）</h3>
-            <svg id="sys-load" preserveAspectRatio="none" style="height:170px"></svg>
-            <div class="legend">
-                <span><i class="dot" style="background:#e0a458"></i>load1</span>
-                <span><i class="dot" style="background:#3d5a80"></i>load5</span>
-                <span><i class="dot" style="background:#6fbf8b"></i>load15</span>
-            </div>
-        </div>
     </div>
 </section>
 
